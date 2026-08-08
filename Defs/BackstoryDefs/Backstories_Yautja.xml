@@ -1,12 +1,12 @@
-<?xml version="1.0" encoding="utf-8"?>
+﻿<?xml version="1.0" encoding="utf-8"?>
 <Defs>
 <!-- ================================ Yautja - Childhood ================================ -->
 <!-- ================================ Yautja - Unblooded ================================ -->
   <AlienRace.BackstoryDef>
     <defName>RRY_Yautja_Unblooded</defName>
     <title>Unblooded</title>
-    <baseDescription>[PAWN_nameDef] is an Unblooded, the un-refined hunters of the future, Unblooded [PAWN_alienRace] are young predators who haven't completed basic training. They are, or are close to, physically mature adults.
-	</baseDescription>
+    <description>[PAWN_nameDef] is an Unblooded, the un-refined hunters of the future, Unblooded [PAWN_alienRace] are young predators who haven't completed basic training. They are, or are close to, physically mature adults.
+	</description>
 
     <bodyTypeMale>Male</bodyTypeMale>
     <bodyTypeFemale>Female</bodyTypeFemale>
@@ -69,7 +69,7 @@
   <AlienRace.BackstoryDef>
     <defName>RRY_Yautja_Unblooded_GutterPup</defName>
     <title>Unblooded Gutter Pup</title>
-    <baseDescription>[PAWN_nameDef] is part of the trash of [PAWN_possessive] race. Growing in the low pits is no easy task. You have to toughen yourself and learn to survive on nothing. [PAWN_pronoun] learned to get the maximum out of nothing, moving during the night to not be caught.</baseDescription>
+    <description>[PAWN_nameDef] is part of the trash of [PAWN_possessive] race. Growing in the low pits is no easy task. You have to toughen yourself and learn to survive on nothing. [PAWN_pronoun] learned to get the maximum out of nothing, moving during the night to not be caught.</description>
 
     <bodyTypeMale>Male</bodyTypeMale>
     <bodyTypeFemale>Female</bodyTypeFemale>
@@ -135,7 +135,7 @@
   <AlienRace.BackstoryDef>
     <defName>RRY_Yautja_Unblooded_Highborn</defName>
     <title>Unblooded Highborn</title>
-    <baseDescription>[PAWN_nameDef] is the child of one of the most prolific hunters of the Clan. [PAWN_possessive] mother raised [PAWN_objective] that [PAWN_pronoun] is gonna be the next Clan Leader.</baseDescription>
+    <description>[PAWN_nameDef] is the child of one of the most prolific hunters of the Clan. [PAWN_possessive] mother raised [PAWN_objective] that [PAWN_pronoun] is gonna be the next Clan Leader.</description>
 
     <bodyTypeMale>Male</bodyTypeMale>
     <bodyTypeFemale>Female</bodyTypeFemale>
@@ -184,7 +184,7 @@
   <AlienRace.BackstoryDef>
     <defName>RRY_Yautja_YoungBlood</defName>
     <title>Young blood</title>
-    <baseDescription>[PAWN_nameDef] is a Young adult [PAWN_alienRace] who yet to be seen as "true hunters" in the eyes of [PAWN_possessive] clanmates. These hunters are refined enough to overpower a skilled human fighter, however their skill against a Xenomorph varies. Once they kill one, [PAWN_alienRace] mark themselves with Xenomorph blood, completing their initiation into Adulthood.</baseDescription>
+    <description>[PAWN_nameDef] is a Young adult [PAWN_alienRace] who yet to be seen as "true hunters" in the eyes of [PAWN_possessive] clanmates. These hunters are refined enough to overpower a skilled human fighter, however their skill against a Xenomorph varies. Once they kill one, [PAWN_alienRace] mark themselves with Xenomorph blood, completing their initiation into Adulthood.</description>
     <bodyTypeMale>Male</bodyTypeMale>
     <bodyTypeFemale>Female</bodyTypeFemale>
 	<slot>Adulthood</slot>
@@ -225,7 +225,7 @@
     <title>Blooded Hunter</title>
     <titleShort>Blooded</titleShort>
 	
-    <baseDescription>[PAWN_nameDef] is Blooded. These [PAWN_alienRace] have successfully killed their first Xenomorph and given this broad title. Once a [PAWN_alienRace] is blooded, [PAWN_possessive] clan will take notice of [PAWN_objective].</baseDescription>
+    <description>[PAWN_nameDef] is Blooded. These [PAWN_alienRace] have successfully killed their first Xenomorph and given this broad title. Once a [PAWN_alienRace] is blooded, [PAWN_possessive] clan will take notice of [PAWN_objective].</description>
     <bodyTypeMale>Male</bodyTypeMale>
     <bodyTypeFemale>Female</bodyTypeFemale>
     <slot>Adulthood</slot>
@@ -259,7 +259,7 @@
     <title>Yautja Elite</title>
     <titleShort>Elite</titleShort>
 	
-    <baseDescription>[PAWN_nameDef] is a [PAWN_alienRace] Elite, these encompass the more dangerous of the [PAWN_alienRace] race. They have the skill to take on several Xenomorph at once, including large, dangerous castes such as Praetorians, Predaliens and even Queens. Elites seem to take on some of the more nuanced, lengthy, and taxing problems and missions in the [PAWN_alienRace] world.</baseDescription>
+    <description>[PAWN_nameDef] is a [PAWN_alienRace] Elite, these encompass the more dangerous of the [PAWN_alienRace] race. They have the skill to take on several Xenomorph at once, including large, dangerous castes such as Praetorians, Predaliens and even Queens. Elites seem to take on some of the more nuanced, lengthy, and taxing problems and missions in the [PAWN_alienRace] world.</description>
     <bodyTypeMale>Male</bodyTypeMale>
     <bodyTypeFemale>Female</bodyTypeFemale>
     <slot>Adulthood</slot>
@@ -294,7 +294,7 @@
     <title>Yautja Elder</title>
     <titleShort>Elder</titleShort>
 	
-    <baseDescription>[PAWN_nameDef] is a [PAWN_alienRace] Elder, these [PAWN_alienRace] warriors who have distinguished themselves in battle or by their leadership. It can be assumed that they are skilled in the way of the [PAWN_alienRace] hunter. They have notably more dreadlocks, and have small horns on the top of their heads.</baseDescription>
+    <description>[PAWN_nameDef] is a [PAWN_alienRace] Elder, these [PAWN_alienRace] warriors who have distinguished themselves in battle or by their leadership. It can be assumed that they are skilled in the way of the [PAWN_alienRace] hunter. They have notably more dreadlocks, and have small horns on the top of their heads.</description>
     <bodyTypeGlobal>Male</bodyTypeGlobal>
     <bodyTypeMale>Male</bodyTypeMale>
     <bodyTypeFemale>Female</bodyTypeFemale>
@@ -334,7 +334,7 @@
     <title>Yautja Ancient</title>
     <titleShort>Ancient</titleShort>
 	
-    <baseDescription>[PAWN_nameDef] is an Ancient, these [PAWN_alienRace] differ from an Elder in not only in age, but status. Though too old to participate (still considerably more formidable than humans) in Hunts or battles, Ancients are referred to for counsel and wisdom gathered from their many years of life.</baseDescription>
+    <description>[PAWN_nameDef] is an Ancient, these [PAWN_alienRace] differ from an Elder in not only in age, but status. Though too old to participate (still considerably more formidable than humans) in Hunts or battles, Ancients are referred to for counsel and wisdom gathered from their many years of life.</description>
     <bodyTypeGlobal>Male</bodyTypeGlobal>
     <bodyTypeMale>Male</bodyTypeMale>
     <bodyTypeFemale>Female</bodyTypeFemale>
@@ -368,7 +368,7 @@
     <defName>RRY_Yautja_Houndmaster</defName>
     <title>Houndmaster</title>
     <titleShort>Houndmaster</titleShort>
-	<baseDescription>[PAWN_nameDef] spent [PAWN_possessive] Blooded life hounding animals and learning how to control them. Instead of outright hunt [PAWN_possessive] targets, [PAWN_nameDef] will prefer to flush them using animals.</baseDescription>
+	<description>[PAWN_nameDef] spent [PAWN_possessive] Blooded life hounding animals and learning how to control them. Instead of outright hunt [PAWN_possessive] targets, [PAWN_nameDef] will prefer to flush them using animals.</description>
     <bodyTypeGlobal>Male</bodyTypeGlobal>
     <bodyTypeMale>Male</bodyTypeMale>
     <bodyTypeFemale>Female</bodyTypeFemale>
@@ -409,7 +409,7 @@
     <title>Pit Fighter</title>
     <titleShort>Fighter</titleShort>
 	
-    <baseDescription>In [PAWN_alienRace] culture, you can either be chosen to go hunt or challenge someone for its place on a hunt in a pit fight. [PAWN_nameDef] always fought [PAWN_possessive] way to the hunts. [PAWN_pronoun] may not have been the smartest, but [PAWN_pronoun] never lost in the pit.</baseDescription>
+    <description>In [PAWN_alienRace] culture, you can either be chosen to go hunt or challenge someone for its place on a hunt in a pit fight. [PAWN_nameDef] always fought [PAWN_possessive] way to the hunts. [PAWN_pronoun] may not have been the smartest, but [PAWN_pronoun] never lost in the pit.</description>
     <bodyTypeMale>Male</bodyTypeMale>
     <bodyTypeFemale>Female</bodyTypeFemale>
     <slot>Adulthood</slot>
@@ -453,7 +453,7 @@
     <title>ETA</title>
     <titleShort>ETA</titleShort>
 	
-    <baseDescription>The untouchables of the [PAWN_alienRace]. Mostly they are the lame or the crippled, who are unable (or too cowardly) to join the hunt. Instead, they serve as slaves and do menial jobs for the hunters. They are ridiculed and humiliated on a daily basis by the other [PAWN_alienRace].</baseDescription>
+    <description>The untouchables of the [PAWN_alienRace]. Mostly they are the lame or the crippled, who are unable (or too cowardly) to join the hunt. Instead, they serve as slaves and do menial jobs for the hunters. They are ridiculed and humiliated on a daily basis by the other [PAWN_alienRace].</description>
     <bodyTypeMale>Male</bodyTypeMale>
     <bodyTypeFemale>Female</bodyTypeFemale>
     <slot>Adulthood</slot>
@@ -511,7 +511,7 @@
     <title>Black Smith</title>
     <titleShort>Smith</titleShort>
 	
-    <baseDescription>Hunters are nothing without their tools. [PAWN_nameDef] is one of those rare [PAWN_alienRace] who create those tools. [PAWN_pronoun] takes pride in [PAWN_possessive] work and the other Hunters give [PAWN_objective] respect for it.</baseDescription>
+    <description>Hunters are nothing without their tools. [PAWN_nameDef] is one of those rare [PAWN_alienRace] who create those tools. [PAWN_pronoun] takes pride in [PAWN_possessive] work and the other Hunters give [PAWN_objective] respect for it.</description>
     <bodyTypeMale>Male</bodyTypeMale>
     <bodyTypeFemale>Female</bodyTypeFemale>
     <slot>Adulthood</slot>
@@ -573,7 +573,7 @@
     <defName>RRY_Yautja_Widow</defName>
     <title>Widow</title>
     <titleShort>Widow</titleShort>
-	<baseDescription>[PAWN_nameDef] lost [PAWN_possessive] mate. [PAWN_pronoun] chose the best, raised [PAWN_objective] mate's Suckling. All [PAWN_pronoun] got for it is pain. The grief process was long and arduous. Many [PAWN_alienRace] become crazy after this. [PAWN_nameDef] swore vengeance and now hunts as brutally, if not more so, than the other Hunters.</baseDescription>
+	<description>[PAWN_nameDef] lost [PAWN_possessive] mate. [PAWN_pronoun] chose the best, raised [PAWN_objective] mate's Suckling. All [PAWN_pronoun] got for it is pain. The grief process was long and arduous. Many [PAWN_alienRace] become crazy after this. [PAWN_nameDef] swore vengeance and now hunts as brutally, if not more so, than the other Hunters.</description>
     <bodyTypeFemale>Female</bodyTypeFemale>
 	<bodyTypeMale>Male</bodyTypeMale>
 	<maleCommonality>0</maleCommonality>
@@ -633,7 +633,7 @@
     <title>Blooded Survivor</title>
     <titleShort>Survivor</titleShort>
 	
-    <baseDescription>[PAWN_nameDef] was sent to a distant planet with [PAWN_possessive] clan members for a hunt, but after the ship crash landed, [PAWN_pronoun] was the only Yautja left alive and had to find a way to survive until [PAWN_pronoun] could get the ship's communications systems back up and running.</baseDescription>
+    <description>[PAWN_nameDef] was sent to a distant planet with [PAWN_possessive] clan members for a hunt, but after the ship crash landed, [PAWN_pronoun] was the only Yautja left alive and had to find a way to survive until [PAWN_pronoun] could get the ship's communications systems back up and running.</description>
     <bodyTypeMale>Male</bodyTypeMale>
     <bodyTypeFemale>Female</bodyTypeFemale>
     <slot>Adulthood</slot>
@@ -699,7 +699,7 @@
     <title>Bad Blood</title>
     <titleShort>Bad Blood</titleShort>
 	
-    <baseDescription>[PAWN_nameDef] is a true Bad Blood and is seen as a more hostile and "mentally unstable" [PAWN_alienRace]. This sadistic hunter still uses skills taught to [PAWN_possessive] by their brothers, but use them dishonorably and purely for their own personal gain, there can be no forgiveness according to [PAWN_alienRace] tradition. Other [PAWN_alienRace] are allowed to eliminate the outcast on sight.</baseDescription>
+    <description>[PAWN_nameDef] is a true Bad Blood and is seen as a more hostile and "mentally unstable" [PAWN_alienRace]. This sadistic hunter still uses skills taught to [PAWN_possessive] by their brothers, but use them dishonorably and purely for their own personal gain, there can be no forgiveness according to [PAWN_alienRace] tradition. Other [PAWN_alienRace] are allowed to eliminate the outcast on sight.</description>
     <bodyTypeMale>Male</bodyTypeMale>
     <bodyTypeFemale>Female</bodyTypeFemale>
     <slot>Adulthood</slot>
@@ -760,7 +760,7 @@
     <title>Exile</title>
     <titleShort>Exile</titleShort>
 	
-    <baseDescription>[PAWN_nameDef] is an Exiled, although less hostile and "mentally unstable" than those [PAWN_alienRace] usually considered Bad Bloods. [PAWN_pronoun] brought dishonor to his people and fled before accepting punishment, there can be no forgiveness according to [PAWN_alienRace] tradition. Other [PAWN_alienRace] are allowed to eliminate the outcast on sight.</baseDescription>
+    <description>[PAWN_nameDef] is an Exiled, although less hostile and "mentally unstable" than those [PAWN_alienRace] usually considered Bad Bloods. [PAWN_pronoun] brought dishonor to his people and fled before accepting punishment, there can be no forgiveness according to [PAWN_alienRace] tradition. Other [PAWN_alienRace] are allowed to eliminate the outcast on sight.</description>
     <bodyTypeMale>Male</bodyTypeMale>
     <bodyTypeFemale>Female</bodyTypeFemale>
     <slot>Adulthood</slot>

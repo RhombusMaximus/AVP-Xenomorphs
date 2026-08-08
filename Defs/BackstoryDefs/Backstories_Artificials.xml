@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?>
+﻿<?xml version="1.0" encoding="utf-8"?>
 <Defs>
 
 <!-- ================================ Artificial - Synth - Childhood ================================ -->
@@ -8,7 +8,7 @@
 		
 		<defName>RRY_Synth_Medical</defName>
 		<title>Medical Synth</title>
-		<baseDescription>[PAWN_nameDef] is a medical unit.</baseDescription>
+		<description>[PAWN_nameDef] is a medical unit.</description>
 		<bodyTypeMale>Male</bodyTypeMale>
 		<bodyTypeFemale>Female</bodyTypeFemale>
 		<slot>Childhood</slot>
@@ -46,7 +46,7 @@
 		
 		<defName>RRY_Synth_Farmhand</defName>
 		<title>Farmhand Synth</title>
-		<baseDescription>[PAWN_nameDef] is a farmhnad unit.</baseDescription>
+		<description>[PAWN_nameDef] is a farmhnad unit.</description>
 		<bodyTypeMale>Male</bodyTypeMale>
 		<bodyTypeFemale>Female</bodyTypeFemale>
 		<slot>Childhood</slot>
@@ -95,7 +95,7 @@
 		
 		<defName>RRY_Synth_Service</defName>
 		<title>Service Synth</title>
-		<baseDescription>[PAWN_nameDef] is a service unit.</baseDescription>
+		<description>[PAWN_nameDef] is a service unit.</description>
 		<bodyTypeMale>Male</bodyTypeMale>
 		<bodyTypeFemale>Female</bodyTypeFemale>
 		<slot>Childhood</slot>
@@ -141,7 +141,7 @@
 		
 		<defName>RRY_Synth_Worker</defName>
 		<title>Worker Synth</title>
-		<baseDescription>[PAWN_nameDef] is a worker unit.</baseDescription>
+		<description>[PAWN_nameDef] is a worker unit.</description>
 		<bodyTypeMale>Male</bodyTypeMale>
 		<bodyTypeFemale>Female</bodyTypeFemale>
 		<slot>Childhood</slot>
@@ -193,7 +193,7 @@
 		
 		<defName>RRY_Synth_Social</defName>
 		<title>Social Synth</title>
-		<baseDescription>[PAWN_nameDef] is a social unit.</baseDescription>
+		<description>[PAWN_nameDef] is a social unit.</description>
 		<bodyTypeMale>Male</bodyTypeMale>
 		<bodyTypeFemale>Female</bodyTypeFemale>
 		<slot>Childhood</slot>
@@ -242,7 +242,7 @@
 	<AlienRace.BackstoryDef>
 		<defName>RRY_Artificials_Refurbished</defName>
 		<title>Refurbished Synth</title>
-		<baseDescription>[PAWN_nameDef] was sent for refurbishing. Over the years, [PAWN_nameDef] suffered lot of damages that left permanent flaws in this unit, along with unexpected behaviors and knowledges.</baseDescription>
+		<description>[PAWN_nameDef] was sent for refurbishing. Over the years, [PAWN_nameDef] suffered lot of damages that left permanent flaws in this unit, along with unexpected behaviors and knowledges.</description>
 		<bodyTypeMale>Male</bodyTypeMale>
 		<bodyTypeFemale>Female</bodyTypeFemale>
 		<slot>Childhood</slot>
@@ -301,7 +301,7 @@
 	<AlienRace.BackstoryDef>
 		<defName>RRY_Artificials_Military</defName>
 		<title>Military Synth</title>
-		<baseDescription>[PAWN_nameDef] was sent to USCM conditioning department. [PAWN_pronoun] went through basic training and assigned to a squad.</baseDescription>
+		<description>[PAWN_nameDef] was sent to USCM conditioning department. [PAWN_pronoun] went through basic training and assigned to a squad.</description>
 		<bodyTypeMale>Male</bodyTypeMale>
 		<bodyTypeFemale>Female</bodyTypeFemale>
 		<slot>Childhood</slot>

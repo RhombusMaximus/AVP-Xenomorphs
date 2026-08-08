@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?>
+﻿<?xml version="1.0" encoding="utf-8"?>
 <Defs>
 <AlienRace.PawnBioDef>
     <defName>RRY_USCM_Silentlord</defName>
@@ -20,7 +20,7 @@
   <AlienRace.BackstoryDef>
     <defName>RRY_USCM_Silentlord_Child</defName>
     <title>USCM Recruit</title>
-    <baseDescription>[PAWN_nameDef] has always Dreamed of the stars and Colonial Marine Corp, wanting nothing but to join up as soon as possible. Learning and training as much as possible to get in.\nThis left little time or social interaction with other people bar the family animals.\nThis suited [PAWN_nameDef] as it gave more time to focus on coming a glorious Colonial Marine.</baseDescription>
+    <description>[PAWN_nameDef] has always Dreamed of the stars and Colonial Marine Corp, wanting nothing but to join up as soon as possible. Learning and training as much as possible to get in.\nThis left little time or social interaction with other people bar the family animals.\nThis suited [PAWN_nameDef] as it gave more time to focus on coming a glorious Colonial Marine.</description>
     <bodyTypeMale>Male</bodyTypeMale>
     <bodyTypeFemale>Female</bodyTypeFemale>
     <linkedBackstory>RRY_USCM_Silentlord_Adult</linkedBackstory>
@@ -46,7 +46,7 @@
     <defName>RRY_USCM_Silentlord_Adult</defName>
     <title>USCM Rifleman</title>
     <titleShort>USCM Recruit</titleShort>
-    <baseDescription>[PAWN_nameDef] is a career Soldier, [PAWN_possessive] poor shooting and physical fittness barely a passing grade, [PAWN_possessive] technical skills and intellect making up for [PAWN_possessive] weaknesses.\njoining the USCM and MSF, has served a long time, an unfortunate encounter with a `Xenomorph` has however left its scars both physical and mental.</baseDescription>
+    <description>[PAWN_nameDef] is a career Soldier, [PAWN_possessive] poor shooting and physical fittness barely a passing grade, [PAWN_possessive] technical skills and intellect making up for [PAWN_possessive] weaknesses.\njoining the USCM and MSF, has served a long time, an unfortunate encounter with a `Xenomorph` has however left its scars both physical and mental.</description>
 	<bodyTypeMale>Male</bodyTypeMale>
     <bodyTypeFemale>Female</bodyTypeFemale>
     <linkedBackstory>RRY_USCM_Silentlord_Child</linkedBackstory>

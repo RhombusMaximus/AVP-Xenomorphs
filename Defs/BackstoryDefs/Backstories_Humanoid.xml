@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?>
+﻿<?xml version="1.0" encoding="utf-8"?>
 <Defs>
 
 <!-- ================================ USCM - Childhood ================================ -->
@@ -7,7 +7,7 @@
   <AlienRace.BackstoryDef>
     <defName>RRY_USCM_ColonySurvivor</defName>
     <title>Colony Survivor</title>
-    <baseDescription>[PAWN_nameDef] was raised in an off-world colony. [PAWN_pronoun] lived with the bare minimum allowed in space. Had nothing [PAWN_pronoun] could really call [PAWN_possessive] own. Life was sordid and bleak. Then the USCM recruiter came and [PAWN_nameDef] felt like [PAWN_pronoun] had found a purpose.</baseDescription>
+    <description>[PAWN_nameDef] was raised in an off-world colony. [PAWN_pronoun] lived with the bare minimum allowed in space. Had nothing [PAWN_pronoun] could really call [PAWN_possessive] own. Life was sordid and bleak. Then the USCM recruiter came and [PAWN_nameDef] felt like [PAWN_pronoun] had found a purpose.</description>
     <bodyTypeMale>Male</bodyTypeMale>
     <bodyTypeFemale>Female</bodyTypeFemale>
 	<slot>Childhood</slot>
@@ -50,7 +50,7 @@
   <AlienRace.BackstoryDef>
     <defName>RRY_USCM_SOJA</defName>
     <title>USCM SOJA-E</title>
-    <baseDescription>Growing up [PAWN_nameDef] was taught it's fight or survive on the mean streets of their home-city. [PAWN_pronoun] started young and found themselves surrounded by gang violence, drugs, and no hope for a better future. Eventually, [PAWN_nameDef] went to juvenile prison and at the age of 17 a recruiter showed up standing next to [PAWN_possessive] probation officer. Service-Or-Jail Act. A way out had shown its face. [PAWN_nameDef] agreed and was quickly shipped off to MEPS.</baseDescription>
+    <description>Growing up [PAWN_nameDef] was taught it's fight or survive on the mean streets of their home-city. [PAWN_pronoun] started young and found themselves surrounded by gang violence, drugs, and no hope for a better future. Eventually, [PAWN_nameDef] went to juvenile prison and at the age of 17 a recruiter showed up standing next to [PAWN_possessive] probation officer. Service-Or-Jail Act. A way out had shown its face. [PAWN_nameDef] agreed and was quickly shipped off to MEPS.</description>
     <bodyTypeMale>Male</bodyTypeMale>
     <bodyTypeFemale>Female</bodyTypeFemale>
 	<slot>Childhood</slot>
@@ -110,7 +110,7 @@
  <AlienRace.BackstoryDef>
     <defName>RRY_USCM_ColonialMarine</defName>
     <title>Colonial Marine</title>
-    <baseDescription>[PAWN_nameDef] found purpose in the USCM. Went to Basic Training, found a new family. [PAWN_pronoun] even got matching tattoos with [PAWN_possessive] squadmates. [PAWN_nameDef] is now a proud member of the USCM Corps. and is ready to serve.</baseDescription>
+    <description>[PAWN_nameDef] found purpose in the USCM. Went to Basic Training, found a new family. [PAWN_pronoun] even got matching tattoos with [PAWN_possessive] squadmates. [PAWN_nameDef] is now a proud member of the USCM Corps. and is ready to serve.</description>
 	<bodyTypeMale>Male</bodyTypeMale>
     <bodyTypeFemale>Female</bodyTypeFemale>
 	<slot>Adulthood</slot>
@@ -156,7 +156,7 @@
  <AlienRace.BackstoryDef>
     <defName>RRY_USCM_Blooded</defName>
     <title>Blooded</title>
-    <baseDescription>[PAWN_nameDef] had an encounter with the illusive Yautjas. Fortunately for [PAWN_possessive], [PAWN_pronoun] survived and in the process really impressed the Hunter race. [PAWN_pronoun] was marked by an Ancient and left to live as a reward. [PAWN_nameDef] still carries the mark with [PAWN_objective].</baseDescription>
+    <description>[PAWN_nameDef] had an encounter with the illusive Yautjas. Fortunately for [PAWN_possessive], [PAWN_pronoun] survived and in the process really impressed the Hunter race. [PAWN_pronoun] was marked by an Ancient and left to live as a reward. [PAWN_nameDef] still carries the mark with [PAWN_objective].</description>
 	<bodyTypeMale>Male</bodyTypeMale>
     <bodyTypeFemale>Female</bodyTypeFemale>
 	<slot>Adulthood</slot>
@@ -194,7 +194,7 @@
  <AlienRace.BackstoryDef>
     <defName>RRY_USCM_WYLiaison</defName>
     <title>Corporate Liaison</title>
-    <baseDescription>[PAWN_nameDef] joined the corporate branch of Weyland-Yutani, which is involved in many of the momentous decisions behind the money-making initiatives of the company.\n\nUnfortunately, unimpressive first impressions lead to [PAWN_nameDef] being assigned as a liaison for a frontier mercenary group under Weyland-Yutani's payroll. Being confined to a cramped corporate office with a group of soldiers who cared for little beyond their pay lead to [PAWN_nameDef] being ignored at best, and openly disparaged at worst. The military environment rubbed off on [PAWN_objective], either as a minimal sign of camaraderie, or due to a need for [PAWN_nameDef] to defend [PAWN_objective]self from the mercenaries themselves. </baseDescription>
+    <description>[PAWN_nameDef] joined the corporate branch of Weyland-Yutani, which is involved in many of the momentous decisions behind the money-making initiatives of the company.\n\nUnfortunately, unimpressive first impressions lead to [PAWN_nameDef] being assigned as a liaison for a frontier mercenary group under Weyland-Yutani's payroll. Being confined to a cramped corporate office with a group of soldiers who cared for little beyond their pay lead to [PAWN_nameDef] being ignored at best, and openly disparaged at worst. The military environment rubbed off on [PAWN_objective], either as a minimal sign of camaraderie, or due to a need for [PAWN_nameDef] to defend [PAWN_objective]self from the mercenaries themselves. </description>
 	<bodyTypeMale>Male</bodyTypeMale>
     <bodyTypeFemale>Female</bodyTypeFemale>
 	<slot>Adulthood</slot>
@@ -219,7 +219,7 @@
  <AlienRace.BackstoryDef>
     <defName>RRY_USCM_XenoSurvivor</defName>
     <title>Survivor</title>
-    <baseDescription>[PAWN_nameDef] lived out on a outer rim colony before a ship burst through the atmosphere and crashed near the colony grounds. A search team was sent out but communications with them quickly went silent. Not long after the colony was attacked by xenomorphs, it was a blood bath. [PAWN_nameDef] was the only survivor of the attack, rescued by the USCM just in time. [PAWN_pronoun] decided to join the USCM to help as much as [PAWN_pronoun] could. But the nightmares make it hard to focus.\n\nPTSD the doc called it.</baseDescription>
+    <description>[PAWN_nameDef] lived out on a outer rim colony before a ship burst through the atmosphere and crashed near the colony grounds. A search team was sent out but communications with them quickly went silent. Not long after the colony was attacked by xenomorphs, it was a blood bath. [PAWN_nameDef] was the only survivor of the attack, rescued by the USCM just in time. [PAWN_pronoun] decided to join the USCM to help as much as [PAWN_pronoun] could. But the nightmares make it hard to focus.\n\nPTSD the doc called it.</description>
 	<bodyTypeMale>Male</bodyTypeMale>
     <bodyTypeFemale>Female</bodyTypeFemale>
 	<slot>Adulthood</slot>
@@ -278,7 +278,7 @@
  <AlienRace.BackstoryDef>
     <defName>RRY_USCM_Operator</defName>
     <title>M56 Operator</title>
-    <baseDescription>[PAWN_nameDef] is a Smart Gun System Operator. While most of the Marines can put their Pulse Rifles on burst and keep shooting, that may not be enough. [PAWN_title]s are trained in the time-honored tactic of accuracy through volume.\n\n"I've got a bullet with your name on it and I'm gonna keep firing until I find which one!"</baseDescription>
+    <description>[PAWN_nameDef] is a Smart Gun System Operator. While most of the Marines can put their Pulse Rifles on burst and keep shooting, that may not be enough. [PAWN_title]s are trained in the time-honored tactic of accuracy through volume.\n\n"I've got a bullet with your name on it and I'm gonna keep firing until I find which one!"</description>
 	<bodyTypeMale>Male</bodyTypeMale>
     <bodyTypeFemale>Female</bodyTypeFemale>
 	<slot>Adulthood</slot>
