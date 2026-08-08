@@ -42,9 +42,9 @@
       <MeatAmount>15</MeatAmount>
       <LeatherAmount>15</LeatherAmount>
       <ArmorRating_Heat>0.75</ArmorRating_Heat>
+      <ThinkTreeMain>RRY_Xenomorph_ThinkTree</ThinkTreeMain>
     </statBases>
     <race>
-      <thinkTreeMain>RRY_Xenomorph_ThinkTree</thinkTreeMain>
       <thinkTreeConstant>XenomorphConstant</thinkTreeConstant>
       <!-- <deathActionWorkerClass>RRYautja.DeathActionWorker_Xenomorph</deathActionWorkerClass> -->
       <herdAnimal>false</herdAnimal>
@@ -296,7 +296,6 @@
     </tools>
     <race>
       <intelligence>ToolUser</intelligence>
-      <thinkTreeMain>RRY_Xenomorph_ThinkTree</thinkTreeMain>
       <body>RRY_Xenomorph_Biped</body>
 	  <useMeatFrom>RRY_Xenomorph_FaceHugger</useMeatFrom>
       <baseBodySize>3.0</baseBodySize>
@@ -452,7 +451,6 @@
   <ThingDef ParentName="RRY_BaseXenomorph" Name="BaseXenomorphWalker" Abstract="True">
     <race>
       <intelligence>ToolUser</intelligence>
-      <thinkTreeMain>RRY_Xenomorph_ThinkTree</thinkTreeMain>
       <baseBodySize>1.0</baseBodySize>
       <lifeStageAges>
         <li>
@@ -1425,7 +1423,6 @@
     </tools>
     <race>
       <intelligence>ToolUser</intelligence>
-      <thinkTreeMain>RRY_Xenomorph_ThinkTree</thinkTreeMain>
       <body>RRY_Xenomorph_QuadrupedWithHorn</body>
 	  <useMeatFrom>RRY_Xenomorph_FaceHugger</useMeatFrom>
       <baseBodySize>4</baseBodySize>
