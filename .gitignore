@@ -2,3 +2,5 @@
 Source/.vs/RRYautja/v15/Server/sqlite3/storage.ide
 *.ide
 Source/.vs/RRYautja/v15/Server/sqlite3/storage.ide
+**/obj/**
+**/bin/**

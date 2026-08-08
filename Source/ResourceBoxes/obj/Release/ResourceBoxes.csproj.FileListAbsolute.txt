@@ -1,8 +1,0 @@
-C:\Program Files (x86)\Steam\steamapps\common\RimWorld\Mods\Rebelrots-Yautja-Race\Source\ResourceBoxes\bin\Release\ResourceBoxes.dll
-C:\Program Files (x86)\Steam\steamapps\common\RimWorld\Mods\Rebelrots-Yautja-Race\Source\ResourceBoxes\bin\Release\ResourceBoxes.pdb
-C:\Program Files (x86)\Steam\steamapps\common\RimWorld\Mods\Rebelrots-Yautja-Race\Source\ResourceBoxes\obj\Release\ResourceBoxes.csprojResolveAssemblyReference.cache
-C:\Program Files (x86)\Steam\steamapps\common\RimWorld\Mods\Rebelrots-Yautja-Race\Source\ResourceBoxes\obj\Release\ResourceBoxes.csproj.CoreCompileInputs.cache
-C:\Program Files (x86)\Steam\steamapps\common\RimWorld\Mods\Rebelrots-Yautja-Race\Source\ResourceBoxes\obj\Release\ResourceBoxes.dll
-C:\Program Files (x86)\Steam\steamapps\common\RimWorld\Mods\Rebelrots-Yautja-Race\Source\ResourceBoxes\obj\Release\ResourceBoxes.pdb
-C:\Program Files (x86)\Steam\steamapps\common\RimWorld\Mods\Rebelrots-Yautja-Race\Assemblies\ResourceBoxes.dll
-C:\Program Files (x86)\Steam\steamapps\common\RimWorld\Mods\Rebelrots-Yautja-Race\Assemblies\ResourceBoxes.pdb
