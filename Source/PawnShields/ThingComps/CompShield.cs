@@ -127,7 +127,8 @@ namespace PawnShields
         /// <param name="ranged">Is this attack ranged or melee?</param>
         public virtual void MakeBlockEffect(Pawn defender, DamageInfo dinfo, bool ranged)
         {
-            MoteMaker.ThrowMicroSparks(defender.Position.ToVector3(), defender.Map);
+            // TODO: MoteMaker.ThrowMicroSparks was removed in 1.5+. Replace with FleckMaker equivalent if needed.
+            // MoteMaker.ThrowMicroSparks(defender.Position.ToVector3(), defender.Map);
         }
 
         /// <summary>

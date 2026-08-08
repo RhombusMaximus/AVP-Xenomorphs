@@ -32,7 +32,7 @@ namespace TrapsRearmable
         }
 
         // Token: 0x06000015 RID: 21 RVA: 0x00002438 File Offset: 0x00000638
-        public override void Tick()
+        protected override void Tick()
         {
             if (this.Armed)
             {
@@ -103,19 +103,8 @@ namespace TrapsRearmable
             return p.RaceProps.Humanlike && lord != null && lord.LordJob is LordJob_FormAndSendCaravan;
         }
 
-        // Token: 0x06000019 RID: 25 RVA: 0x000026E1 File Offset: 0x000008E1
-        public override ushort PathFindCostFor(Pawn p)
-        {
-            if (!this.Armed)
-            {
-                return 0;
-            }
-            if (this.KnowsOfTrap(p))
-            {
-                return 800;
-            }
-            return 0;
-        }
+        // PathFindCostFor was removed in 1.5+ — functionality merged into PathWalkCostFor below
+        // (original KnowerPathFindCost of 800 is now handled by PathWalkCostFor)
 
         // Token: 0x0600001A RID: 26 RVA: 0x000026FD File Offset: 0x000008FD
         public override ushort PathWalkCostFor(Pawn p)

@@ -53,6 +53,7 @@
       <HintPath>..\..\Assemblies\AlienRace.dll</HintPath>
       <Private>False</Private>
     </Reference>
+    <Compile Include="..\AlienRaceStub\AlienRaceStub.cs" />
     <Reference Include="PawnShields">
       <HintPath>..\..\Assemblies\PawnShields.dll</HintPath>
       <Private>False</Private>

@@ -22,10 +22,13 @@
   </PropertyGroup>
 
   <ItemGroup>
-    <Reference Include="AlienRace">
+    <!-- AlienRace.dll is not available on this build machine.
+         Using a stub for compilation. The real AlienRace.dll must be present at runtime. -->
+    <Compile Include="..\AlienRaceStub\AlienRaceStub.cs" />
+    <!-- <Reference Include="AlienRace">
       <HintPath>..\..\Assemblies\AlienRace.dll</HintPath>
       <Private>False</Private>
-    </Reference>
+    </Reference> -->
   </ItemGroup>
 
   <ItemGroup>

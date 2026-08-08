@@ -417,7 +417,7 @@ namespace PawnShields
 
                 CompShield shieldComp = shield.GetComp<CompShield>();
 
-                shield.Tick();
+                shieldComp?.CompTick();
             }
         }
 

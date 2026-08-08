@@ -154,9 +154,9 @@ namespace HunterMarkingSystem
             }
         }
 
-        public override void PostDeSpawn(Map map)
+        public override void PostDeSpawn(Map map, DestroyMode mode = DestroyMode.Vanish)
         {
-            base.PostDeSpawn(map);
+            base.PostDeSpawn(map, mode);
             if (PawnsFinder.AllMapsCaravansAndTravelingTransportPods_Alive_Colonists.Any(x => x.Markable(out Comp_Markable markable) && x.health.hediffSet.HasHediff(markable.Unmarkeddef)))
             {
                 foreach (Pawn p in PawnsFinder.AllMapsCaravansAndTravelingTransportPods_Alive_Colonists.Where(x => x.Markable(out Comp_Markable markable) && x.health.hediffSet.HasHediff(markable.Unmarkeddef)))
