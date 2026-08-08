@@ -85,7 +85,7 @@ namespace HunterMarkingSystem
 
         BodyPartRecord partRecord;
         public Corpse corpse;
-        public override bool CanBeUsedBy(Pawn p, out string failReason)
+        public override AcceptanceReport CanBeUsedBy(Pawn p)
         {
             if (p.Markable(out Comp_Markable _Markable))
             {
@@ -97,20 +97,17 @@ namespace HunterMarkingSystem
                 }
                 if (hediff == null)
                 {
-                    failReason = "Doesnt need marking";
-                    return false;
+                    return "Doesnt need marking";
                 }
                 ThingDef def = _Markable.markDataKillNew.raceDef;
                 if (def == null)
                 {
-                    failReason = "def pawn missing";
-                    return false;
+                    return "def pawn missing";
                 }
                 Corpse Corpse = _Markable.Markcorpse;
                 if (Corpse == null)
                 {
-                    failReason = "_Markable.Markcorpse is NULL";
-                    return false;
+                    return "_Markable.Markcorpse is NULL";
                 }
                 if (this.parent is Corpse corpse)
                 {
@@ -121,32 +118,27 @@ namespace HunterMarkingSystem
                     */
                     if (corpse.InnerPawn.kindDef.race == def || corpse == Corpse)
                     {
-                        failReason = null;
                         return true;
                     }
                     else
                     {
-                        failReason = "Wrong race";
-                        return false;
+                        return "Wrong race";
                     }
                 }
                 else
                 {
-                    failReason = "not a corpse";
-                    return false;
+                    return "not a corpse";
                 }
                 /*
                 if (YautjaBloodedUtility.bloodmatch(marked, (Corpse)this.parent))
                 {
-                    failReason = null;
                     return true;
                 }
                 */
             }
             else
             {
-                failReason = "Unmarkable pawn";
-                return false;
+                return "Unmarkable pawn";
             }
         }
     }

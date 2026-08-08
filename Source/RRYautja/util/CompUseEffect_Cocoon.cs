@@ -16,9 +16,9 @@ namespace RimWorld
             this.parent.Destroy();
         }
         // Token: 0x06002ADD RID: 10973 RVA: 0x00143464 File Offset: 0x00141864
-        public override bool CanBeUsedBy(Pawn p, out string failReason)
+        public override AcceptanceReport CanBeUsedBy(Pawn p)
         {
-            return base.CanBeUsedBy(p, out failReason);
+            return base.CanBeUsedBy(p);
         }
 
     }

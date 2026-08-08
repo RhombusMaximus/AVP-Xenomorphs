@@ -1,15 +1,19 @@
-C:\Program Files (x86)\Steam\steamapps\common\RimWorld\Mods\Rebelrots-Yautja-Race\Source\ResourceBoxes\bin\Debug\ResourceBoxes.dll
-C:\Program Files (x86)\Steam\steamapps\common\RimWorld\Mods\Rebelrots-Yautja-Race\Source\ResourceBoxes\bin\Debug\ResourceBoxes.pdb
-C:\Program Files (x86)\Steam\steamapps\common\RimWorld\Mods\Rebelrots-Yautja-Race\Source\ResourceBoxes\bin\Debug\0Harmony.dll
-C:\Program Files (x86)\Steam\steamapps\common\RimWorld\Mods\Rebelrots-Yautja-Race\1.1\Assemblies\ResourceBoxes.dll
-C:\Program Files (x86)\Steam\steamapps\common\RimWorld\Mods\Rebelrots-Yautja-Race\1.1\Assemblies\ResourceBoxes.pdb
-C:\Program Files (x86)\Steam\steamapps\common\RimWorld\Mods\Rebelrots-Yautja-Race\1.1\Source\ResourceBoxes\obj\Debug\ResourceBoxes.csprojResolveAssemblyReference.cache
-C:\Program Files (x86)\Steam\steamapps\common\RimWorld\Mods\Rebelrots-Yautja-Race\1.1\Source\ResourceBoxes\obj\Debug\ResourceBoxes.csproj.CoreCompileInputs.cache
-C:\Program Files (x86)\Steam\steamapps\common\RimWorld\Mods\Rebelrots-Yautja-Race\1.1\Source\ResourceBoxes\obj\Debug\ResourceBoxes.dll
-C:\Program Files (x86)\Steam\steamapps\common\RimWorld\Mods\Rebelrots-Yautja-Race\1.1\Source\ResourceBoxes\obj\Debug\ResourceBoxes.pdb
-C:\Program Files (x86)\Steam\steamapps\common\RimWorld\Mods\Rebelrots-Yautja-Race\Assemblies\ResourceBoxes.dll
-C:\Program Files (x86)\Steam\steamapps\common\RimWorld\Mods\Rebelrots-Yautja-Race\Assemblies\ResourceBoxes.pdb
-C:\Program Files (x86)\Steam\steamapps\common\RimWorld\Mods\Rebelrots-Yautja-Race\Source\ResourceBoxes\obj\Debug\ResourceBoxes.csproj.CopyComplete
-C:\Program Files (x86)\Steam\steamapps\common\RimWorld\Mods\Rebelrots-Yautja-Race\Source\ResourceBoxes\obj\Debug\ResourceBoxes.dll
-C:\Program Files (x86)\Steam\steamapps\common\RimWorld\Mods\Rebelrots-Yautja-Race\Source\ResourceBoxes\obj\Debug\ResourceBoxes.pdb
-C:\Program Files (x86)\Steam\steamapps\common\RimWorld\Mods\Rebelrots-Yautja-Race\Source\ResourceBoxes\obj\Debug\ResourceBoxes.csprojAssemblyReference.cache
+C:/Program Files (x86)/Steam/steamapps/common/RimWorld/Mods/Rebelrots-Yautja-Race/Source/ResourceBoxes/bin/Debug/ResourceBoxes.dll
+C:/Program Files (x86)/Steam/steamapps/common/RimWorld/Mods/Rebelrots-Yautja-Race/Source/ResourceBoxes/bin/Debug/ResourceBoxes.pdb
+C:/Program Files (x86)/Steam/steamapps/common/RimWorld/Mods/Rebelrots-Yautja-Race/Source/ResourceBoxes/bin/Debug/0Harmony.dll
+C:/Program Files (x86)/Steam/steamapps/common/RimWorld/Mods/Rebelrots-Yautja-Race/1.1/Assemblies/ResourceBoxes.dll
+C:/Program Files (x86)/Steam/steamapps/common/RimWorld/Mods/Rebelrots-Yautja-Race/1.1/Assemblies/ResourceBoxes.pdb
+C:/Program Files (x86)/Steam/steamapps/common/RimWorld/Mods/Rebelrots-Yautja-Race/1.1/Source/ResourceBoxes/obj/Debug/ResourceBoxes.csprojResolveAssemblyReference.cache
+C:/Program Files (x86)/Steam/steamapps/common/RimWorld/Mods/Rebelrots-Yautja-Race/1.1/Source/ResourceBoxes/obj/Debug/ResourceBoxes.csproj.CoreCompileInputs.cache
+C:/Program Files (x86)/Steam/steamapps/common/RimWorld/Mods/Rebelrots-Yautja-Race/1.1/Source/ResourceBoxes/obj/Debug/ResourceBoxes.dll
+C:/Program Files (x86)/Steam/steamapps/common/RimWorld/Mods/Rebelrots-Yautja-Race/1.1/Source/ResourceBoxes/obj/Debug/ResourceBoxes.pdb
+C:/Program Files (x86)/Steam/steamapps/common/RimWorld/Mods/Rebelrots-Yautja-Race/Assemblies/ResourceBoxes.dll
+C:/Program Files (x86)/Steam/steamapps/common/RimWorld/Mods/Rebelrots-Yautja-Race/Assemblies/ResourceBoxes.pdb
+C:/Program Files (x86)/Steam/steamapps/common/RimWorld/Mods/Rebelrots-Yautja-Race/Source/ResourceBoxes/obj/Debug/ResourceBoxes.csproj.CopyComplete
+C:/Program Files (x86)/Steam/steamapps/common/RimWorld/Mods/Rebelrots-Yautja-Race/Source/ResourceBoxes/obj/Debug/ResourceBoxes.dll
+C:/Program Files (x86)/Steam/steamapps/common/RimWorld/Mods/Rebelrots-Yautja-Race/Source/ResourceBoxes/obj/Debug/ResourceBoxes.pdb
+C:/Program Files (x86)/Steam/steamapps/common/RimWorld/Mods/Rebelrots-Yautja-Race/Source/ResourceBoxes/obj/Debug/ResourceBoxes.csprojAssemblyReference.cache
+/home/hermes/AVP-Rimworld/Source/ResourceBoxes/obj/Debug/ResourceBoxes.dll
+/home/hermes/AVP-Rimworld/Source/ResourceBoxes/obj/Debug/ResourceBoxes.pdb
+/home/hermes/AVP-Rimworld/Source/ResourceBoxes/obj/Debug/ResourceBoxes.csproj.AssemblyReference.cache
+/home/hermes/AVP-Rimworld/Source/ResourceBoxes/obj/Debug/ResourceBoxes.csproj.CoreCompileInputs.cache

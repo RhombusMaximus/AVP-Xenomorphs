@@ -34,8 +34,8 @@ namespace RimWorld
             {
                 return;
             }
-            string text;
-            if (!this.CanBeUsedBy(user, out text))
+            AcceptanceReport canBeUsed = this.CanBeUsedBy(user);
+            if (!canBeUsed.Accepted)
             {
                 return;
             }
@@ -46,9 +46,10 @@ namespace RimWorld
         // Token: 0x06002A4A RID: 10826 RVA: 0x00138F4C File Offset: 0x0013734C
         public override IEnumerable<FloatMenuOption> CompFloatMenuOptions(Pawn myPawn)
         {
-            string failReason;
-            if (!this.CanBeUsedBy(myPawn, out failReason))
+            AcceptanceReport canBeUsed = this.CanBeUsedBy(myPawn);
+            if (!canBeUsed.Accepted)
             {
+                string failReason = canBeUsed.Reason;
                 yield return new FloatMenuOption(this.FloatMenuOptionLabel(myPawn) + ((failReason == null) ? string.Empty : (" (" + failReason + ")")), null, MenuOptionPriority.Default, null, null, 0f, null, null);
             }
             else if (!myPawn.CanReach(this.parent, PathEndMode.InteractionCell, Danger.Deadly, false, TraverseMode.ByPawn))
@@ -87,18 +88,21 @@ namespace RimWorld
         }
         
         // Token: 0x06002A4D RID: 10829 RVA: 0x00139094 File Offset: 0x00137494
-        private bool CanBeUsedBy(Pawn p, out string failReason)
+        private AcceptanceReport CanBeUsedBy(Pawn p)
         {
             List<ThingComp> allComps = this.parent.AllComps;
             for (int i = 0; i < allComps.Count; i++)
             {
                 CompUseEffect compUseEffect = allComps[i] as CompUseEffect;
-                if (compUseEffect != null && !compUseEffect.CanBeUsedBy(p, out failReason))
+                if (compUseEffect != null)
                 {
-                    return false;
+                    AcceptanceReport result = compUseEffect.CanBeUsedBy(p);
+                    if (!result.Accepted)
+                    {
+                        return result;
+                    }
                 }
             }
-            failReason = null;
             return true;
         }
     }

@@ -1,0 +1,13 @@
+{
+  "version": 2,
+  "dgSpecHash": "36vN6LzfRa0=",
+  "success": true,
+  "projectFilePath": "/home/hermes/AVP-Rimworld/Source/PawnShields/PawnShields.csproj",
+  "expectedPackageFiles": [
+    "/home/hermes/.nuget/packages/krafs.rimworld.ref/1.6.4871/krafs.rimworld.ref.1.6.4871.nupkg.sha512",
+    "/home/hermes/.nuget/packages/lib.harmony/2.4.2/lib.harmony.2.4.2.nupkg.sha512",
+    "/home/hermes/.nuget/packages/microsoft.netframework.referenceassemblies/1.0.3/microsoft.netframework.referenceassemblies.1.0.3.nupkg.sha512",
+    "/home/hermes/.nuget/packages/microsoft.netframework.referenceassemblies.net472/1.0.3/microsoft.netframework.referenceassemblies.net472.1.0.3.nupkg.sha512"
+  ],
+  "logs": []
+}

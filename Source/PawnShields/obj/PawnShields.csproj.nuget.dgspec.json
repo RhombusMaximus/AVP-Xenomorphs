@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "/home/hermes/AVP-Rimworld/Source/ResourceBoxes/ResourceBoxes.csproj": {}
+    "/home/hermes/AVP-Rimworld/Source/PawnShields/PawnShields.csproj": {}
   },
   "projects": {
-    "/home/hermes/AVP-Rimworld/Source/ResourceBoxes/ResourceBoxes.csproj": {
+    "/home/hermes/AVP-Rimworld/Source/PawnShields/PawnShields.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/home/hermes/AVP-Rimworld/Source/ResourceBoxes/ResourceBoxes.csproj",
-        "projectName": "ResourceBoxes",
-        "projectPath": "/home/hermes/AVP-Rimworld/Source/ResourceBoxes/ResourceBoxes.csproj",
+        "projectUniqueName": "/home/hermes/AVP-Rimworld/Source/PawnShields/PawnShields.csproj",
+        "projectName": "PawnShields",
+        "projectPath": "/home/hermes/AVP-Rimworld/Source/PawnShields/PawnShields.csproj",
         "packagesPath": "/home/hermes/.nuget/packages/",
-        "outputPath": "/home/hermes/AVP-Rimworld/Source/ResourceBoxes/obj/",
+        "outputPath": "/home/hermes/AVP-Rimworld/Source/PawnShields/obj/",
         "projectStyle": "PackageReference",
         "skipContentFileWrite": true,
         "configFilePaths": [

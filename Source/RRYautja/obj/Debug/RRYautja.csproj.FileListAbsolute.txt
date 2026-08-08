@@ -1,8 +1,9 @@
-C:\Program Files (x86)\Steam\steamapps\common\RimWorld\Mods\Rebelrots-Yautja-Race\1.1\Source\RRYautja\obj\Debug\RRYautja.csprojResolveAssemblyReference.cache
-C:\Program Files (x86)\Steam\steamapps\common\RimWorld\Mods\Rebelrots-Yautja-Race\1.1\Source\RRYautja\obj\Debug\RRYautja.csproj.CoreCompileInputs.cache
-C:\Program Files (x86)\Steam\steamapps\common\RimWorld\Mods\Rebelrots-Yautja-Race\1.1\Source\RRYautja\obj\Debug\RRYautja.dll
-C:\Program Files (x86)\Steam\steamapps\common\RimWorld\Mods\Rebelrots-Yautja-Race\1.1\Assemblies\RRYautja.dll
-C:\Program Files (x86)\Steam\steamapps\common\RimWorld\Mods\Rebelrots-Yautja-Race\Assemblies\RRYautja.dll
-C:\Program Files (x86)\Steam\steamapps\common\RimWorld\Mods\Rebelrots-Yautja-Race\Source\RRYautja\obj\Debug\RRYautja.csprojAssemblyReference.cache
-C:\Program Files (x86)\Steam\steamapps\common\RimWorld\Mods\Rebelrots-Yautja-Race\Source\RRYautja\obj\Debug\RRYautja.csproj.CopyComplete
-C:\Program Files (x86)\Steam\steamapps\common\RimWorld\Mods\Rebelrots-Yautja-Race\Source\RRYautja\obj\Debug\RRYautja.dll
+C:/Program Files (x86)/Steam/steamapps/common/RimWorld/Mods/Rebelrots-Yautja-Race/1.1/Source/RRYautja/obj/Debug/RRYautja.csprojResolveAssemblyReference.cache
+C:/Program Files (x86)/Steam/steamapps/common/RimWorld/Mods/Rebelrots-Yautja-Race/1.1/Source/RRYautja/obj/Debug/RRYautja.csproj.CoreCompileInputs.cache
+C:/Program Files (x86)/Steam/steamapps/common/RimWorld/Mods/Rebelrots-Yautja-Race/1.1/Source/RRYautja/obj/Debug/RRYautja.dll
+C:/Program Files (x86)/Steam/steamapps/common/RimWorld/Mods/Rebelrots-Yautja-Race/1.1/Assemblies/RRYautja.dll
+C:/Program Files (x86)/Steam/steamapps/common/RimWorld/Mods/Rebelrots-Yautja-Race/Assemblies/RRYautja.dll
+C:/Program Files (x86)/Steam/steamapps/common/RimWorld/Mods/Rebelrots-Yautja-Race/Source/RRYautja/obj/Debug/RRYautja.csprojAssemblyReference.cache
+C:/Program Files (x86)/Steam/steamapps/common/RimWorld/Mods/Rebelrots-Yautja-Race/Source/RRYautja/obj/Debug/RRYautja.csproj.CopyComplete
+C:/Program Files (x86)/Steam/steamapps/common/RimWorld/Mods/Rebelrots-Yautja-Race/Source/RRYautja/obj/Debug/RRYautja.dll
+/home/hermes/AVP-Rimworld/Source/RRYautja/obj/Debug/RRYautja.dll

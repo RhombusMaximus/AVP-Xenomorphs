@@ -1,14 +1,18 @@
-C:\Program Files (x86)\Steam\steamapps\common\RimWorld\Mods\Rebelrots-Yautja-Race\Source\TrapsRearmable\bin\Debug\TrapsRearmable.dll
-C:\Program Files (x86)\Steam\steamapps\common\RimWorld\Mods\Rebelrots-Yautja-Race\Source\TrapsRearmable\bin\Debug\TrapsRearmable.pdb
-C:\Program Files (x86)\Steam\steamapps\common\RimWorld\Mods\Rebelrots-Yautja-Race\1.1\Source\TrapsRearmable\obj\Debug\TrapsRearmable.csprojResolveAssemblyReference.cache
-C:\Program Files (x86)\Steam\steamapps\common\RimWorld\Mods\Rebelrots-Yautja-Race\1.1\Source\TrapsRearmable\obj\Debug\TrapsRearmable.csproj.CoreCompileInputs.cache
-C:\Program Files (x86)\Steam\steamapps\common\RimWorld\Mods\Rebelrots-Yautja-Race\1.1\Source\TrapsRearmable\obj\Debug\TrapsRearmable.dll
-C:\Program Files (x86)\Steam\steamapps\common\RimWorld\Mods\Rebelrots-Yautja-Race\1.1\Source\TrapsRearmable\obj\Debug\TrapsRearmable.pdb
-C:\Program Files (x86)\Steam\steamapps\common\RimWorld\Mods\Rebelrots-Yautja-Race\1.1\Assemblies\TrapsRearmable.dll
-C:\Program Files (x86)\Steam\steamapps\common\RimWorld\Mods\Rebelrots-Yautja-Race\1.1\Assemblies\TrapsRearmable.pdb
-C:\Program Files (x86)\Steam\steamapps\common\RimWorld\Mods\Rebelrots-Yautja-Race\Assemblies\TrapsRearmable.dll
-C:\Program Files (x86)\Steam\steamapps\common\RimWorld\Mods\Rebelrots-Yautja-Race\Assemblies\TrapsRearmable.pdb
-C:\Program Files (x86)\Steam\steamapps\common\RimWorld\Mods\Rebelrots-Yautja-Race\Source\TrapsRearmable\obj\Debug\TrapsRearmable.csproj.CopyComplete
-C:\Program Files (x86)\Steam\steamapps\common\RimWorld\Mods\Rebelrots-Yautja-Race\Source\TrapsRearmable\obj\Debug\TrapsRearmable.dll
-C:\Program Files (x86)\Steam\steamapps\common\RimWorld\Mods\Rebelrots-Yautja-Race\Source\TrapsRearmable\obj\Debug\TrapsRearmable.pdb
-C:\Program Files (x86)\Steam\steamapps\common\RimWorld\Mods\Rebelrots-Yautja-Race\Source\TrapsRearmable\obj\Debug\TrapsRearmable.csprojAssemblyReference.cache
+C:/Program Files (x86)/Steam/steamapps/common/RimWorld/Mods/Rebelrots-Yautja-Race/Source/TrapsRearmable/bin/Debug/TrapsRearmable.dll
+C:/Program Files (x86)/Steam/steamapps/common/RimWorld/Mods/Rebelrots-Yautja-Race/Source/TrapsRearmable/bin/Debug/TrapsRearmable.pdb
+C:/Program Files (x86)/Steam/steamapps/common/RimWorld/Mods/Rebelrots-Yautja-Race/1.1/Source/TrapsRearmable/obj/Debug/TrapsRearmable.csprojResolveAssemblyReference.cache
+C:/Program Files (x86)/Steam/steamapps/common/RimWorld/Mods/Rebelrots-Yautja-Race/1.1/Source/TrapsRearmable/obj/Debug/TrapsRearmable.csproj.CoreCompileInputs.cache
+C:/Program Files (x86)/Steam/steamapps/common/RimWorld/Mods/Rebelrots-Yautja-Race/1.1/Source/TrapsRearmable/obj/Debug/TrapsRearmable.dll
+C:/Program Files (x86)/Steam/steamapps/common/RimWorld/Mods/Rebelrots-Yautja-Race/1.1/Source/TrapsRearmable/obj/Debug/TrapsRearmable.pdb
+C:/Program Files (x86)/Steam/steamapps/common/RimWorld/Mods/Rebelrots-Yautja-Race/1.1/Assemblies/TrapsRearmable.dll
+C:/Program Files (x86)/Steam/steamapps/common/RimWorld/Mods/Rebelrots-Yautja-Race/1.1/Assemblies/TrapsRearmable.pdb
+C:/Program Files (x86)/Steam/steamapps/common/RimWorld/Mods/Rebelrots-Yautja-Race/Assemblies/TrapsRearmable.dll
+C:/Program Files (x86)/Steam/steamapps/common/RimWorld/Mods/Rebelrots-Yautja-Race/Assemblies/TrapsRearmable.pdb
+C:/Program Files (x86)/Steam/steamapps/common/RimWorld/Mods/Rebelrots-Yautja-Race/Source/TrapsRearmable/obj/Debug/TrapsRearmable.csproj.CopyComplete
+C:/Program Files (x86)/Steam/steamapps/common/RimWorld/Mods/Rebelrots-Yautja-Race/Source/TrapsRearmable/obj/Debug/TrapsRearmable.dll
+C:/Program Files (x86)/Steam/steamapps/common/RimWorld/Mods/Rebelrots-Yautja-Race/Source/TrapsRearmable/obj/Debug/TrapsRearmable.pdb
+C:/Program Files (x86)/Steam/steamapps/common/RimWorld/Mods/Rebelrots-Yautja-Race/Source/TrapsRearmable/obj/Debug/TrapsRearmable.csprojAssemblyReference.cache
+/home/hermes/AVP-Rimworld/Source/TrapsRearmable/obj/Debug/TrapsRearmable.dll
+/home/hermes/AVP-Rimworld/Source/TrapsRearmable/obj/Debug/TrapsRearmable.pdb
+/home/hermes/AVP-Rimworld/Source/TrapsRearmable/obj/Debug/TrapsRearmable.csproj.AssemblyReference.cache
+/home/hermes/AVP-Rimworld/Source/TrapsRearmable/obj/Debug/TrapsRearmable.csproj.CoreCompileInputs.cache

@@ -717,11 +717,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "/home/hermes/AVP-Rimworld/Source/HunterMarkingSystem/HunterMarkingSystem.csproj",
-      "projectName": "HunterMarkingSystem",
-      "projectPath": "/home/hermes/AVP-Rimworld/Source/HunterMarkingSystem/HunterMarkingSystem.csproj",
+      "projectUniqueName": "/home/hermes/AVP-Rimworld/Source/PawnShields/PawnShields.csproj",
+      "projectName": "PawnShields",
+      "projectPath": "/home/hermes/AVP-Rimworld/Source/PawnShields/PawnShields.csproj",
       "packagesPath": "/home/hermes/.nuget/packages/",
-      "outputPath": "/home/hermes/AVP-Rimworld/Source/HunterMarkingSystem/obj/",
+      "outputPath": "/home/hermes/AVP-Rimworld/Source/PawnShields/obj/",
       "projectStyle": "PackageReference",
       "skipContentFileWrite": true,
       "configFilePaths": [

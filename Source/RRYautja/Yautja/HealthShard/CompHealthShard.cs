@@ -67,7 +67,7 @@ namespace RRYautja
         }
 
         // Token: 0x06002ADD RID: 10973 RVA: 0x00143464 File Offset: 0x00141864
-        public override bool CanBeUsedBy(Pawn p, out string failReason)
+        public override AcceptanceReport CanBeUsedBy(Pawn p)
         {
             bool selected = Find.Selector.SelectedObjects.Contains(p);
             bool flag = GenCollection.Any<Apparel>(p.apparel.WornApparel, (Apparel x) => x.def.defName.Contains("RRY_Equipment_HunterGauntlet"));
@@ -79,27 +79,23 @@ namespace RRYautja
                     CompMedicalInjector medicalInjector = injector.TryGetComp<CompMedicalInjector>();
                     if (injector.uses < medicalInjector.Props.Uses)
                     {
-                        failReason = null;
                         return true;
                     }
                     else
                     {
-                        failReason = "Injector full";
-                        return false;
+                        return "Injector full";
                     }
                 }
                 else
                 {
-                    failReason = "Not wearing Injector";
-                    return false;
+                    return "Not wearing Injector";
                 }
             }
             else
             {
-                failReason = "Not wearing Injector";
-                return false;
+                return "Not wearing Injector";
             }
-        //    return base.CanBeUsedBy(p, out failReason);
+        //    return base.CanBeUsedBy(p);
         }
 
         // Token: 0x04001786 RID: 6022
@@ -118,9 +114,11 @@ namespace RRYautja
         // Token: 0x06002A4A RID: 10826 RVA: 0x00138F4C File Offset: 0x0013734C
         public override IEnumerable<FloatMenuOption> CompFloatMenuOptions(Pawn myPawn)
         {
-            if (!this.CanBeUsedBy(myPawn, out string failReason))
+            AcceptanceReport canBeUsed = this.CanBeUsedBy(myPawn);
+            if (!canBeUsed.Accepted)
             {
                 //    yield break;
+                string failReason = canBeUsed.Reason;
                 yield return new FloatMenuOption(this.FloatMenuOptionLabel(myPawn) + ((failReason == null) ? string.Empty : (" (" + failReason + ")")), null, MenuOptionPriority.Default, null, null, 0f, null, null);
             }
             else if (!myPawn.CanReach(this.parent, PathEndMode.Touch, Danger.Deadly, false, TraverseMode.ByPawn))
@@ -157,17 +155,20 @@ namespace RRYautja
         }
 
         // Token: 0x06002A4D RID: 10829 RVA: 0x00139094 File Offset: 0x00137494
-        private bool CanBeUsedBy(Pawn p, out string failReason)
+        private AcceptanceReport CanBeUsedBy(Pawn p)
         {
             List<ThingComp> allComps = this.parent.AllComps;
             for (int i = 0; i < allComps.Count; i++)
             {
-                if (allComps[i] is CompUseEffect compUseEffect && !compUseEffect.CanBeUsedBy(p, out failReason))
+                if (allComps[i] is CompUseEffect compUseEffect)
                 {
-                    return false;
+                    AcceptanceReport result = compUseEffect.CanBeUsedBy(p);
+                    if (!result.Accepted)
+                    {
+                        return result;
+                    }
                 }
             }
-            failReason = null;
             return true;
         }
 

@@ -415,7 +415,12 @@
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="..\HunterMarkingSystem\HunterMarkingSystem.csproj">
-      <Project>{99f78f0b-7600-45bc-bd6e-8e935c05e66b}</Project>
+      <Project>{99f78f0b-7600-45bc-bd6e-8e935c05e66b}  <ItemGroup>
+    <PackageReference Include="Microsoft.NETFramework.ReferenceAssemblies">
+      <Version>1.0.3</Version>
+    </PackageReference>
+  </ItemGroup>
+</Project>
       <Name>HunterMarkingSystem</Name>
       <Private>False</Private>
     </ProjectReference>
@@ -429,4 +434,9 @@
     </PackageReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <ItemGroup>
+    <PackageReference Include="Microsoft.NETFramework.ReferenceAssemblies">
+      <Version>1.0.3</Version>
+    </PackageReference>
+  </ItemGroup>
 </Project>

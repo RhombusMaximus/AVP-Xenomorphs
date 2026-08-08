@@ -1,38 +1,37 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Program Files (x86)\\Steam\\steamapps\\common\\RimWorld\\Mods\\Rebelrots-Yautja-Race\\Source\\RRYautja\\RRYautja.csproj": {}
+    "/home/hermes/AVP-Rimworld/Source/RRYautja/RRYautja.csproj": {}
   },
   "projects": {
-    "C:\\Program Files (x86)\\Steam\\steamapps\\common\\RimWorld\\Mods\\Rebelrots-Yautja-Race\\Source\\HunterMarkingSystem\\HunterMarkingSystem.csproj": {
+    "/home/hermes/AVP-Rimworld/Source/HunterMarkingSystem/HunterMarkingSystem.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\RimWorld\\Mods\\Rebelrots-Yautja-Race\\Source\\HunterMarkingSystem\\HunterMarkingSystem.csproj",
+        "projectUniqueName": "/home/hermes/AVP-Rimworld/Source/HunterMarkingSystem/HunterMarkingSystem.csproj",
         "projectName": "HunterMarkingSystem",
-        "projectPath": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\RimWorld\\Mods\\Rebelrots-Yautja-Race\\Source\\HunterMarkingSystem\\HunterMarkingSystem.csproj",
-        "packagesPath": "C:\\Users\\User\\.nuget\\packages\\",
-        "outputPath": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\RimWorld\\Mods\\Rebelrots-Yautja-Race\\Source\\HunterMarkingSystem\\obj\\",
+        "projectPath": "/home/hermes/AVP-Rimworld/Source/HunterMarkingSystem/HunterMarkingSystem.csproj",
+        "packagesPath": "/home/hermes/.nuget/packages/",
+        "outputPath": "/home/hermes/AVP-Rimworld/Source/HunterMarkingSystem/obj/",
         "projectStyle": "PackageReference",
         "skipContentFileWrite": true,
-        "fallbackFolders": [
-          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackagesFallback\\"
-        ],
         "configFilePaths": [
-          "C:\\Users\\User\\AppData\\Roaming\\NuGet\\NuGet.Config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.Fallback.config"
+          "/home/hermes/.nuget/NuGet/NuGet.Config"
         ],
         "originalTargetFrameworks": [
           "net472"
         ],
         "sources": {
-          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
           "net472": {
             "projectReferences": {}
           }
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
         }
       },
       "frameworks": {
@@ -40,60 +39,52 @@
           "dependencies": {
             "Krafs.Rimworld.Ref": {
               "target": "Package",
-              "version": "[1.1.2571, )"
+              "version": "[1.6.4871, )"
             },
             "Lib.Harmony": {
               "target": "Package",
-              "version": "[2.0.0.7, )"
+              "version": "[2.4.2, )"
+            },
+            "Microsoft.NETFramework.ReferenceAssemblies": {
+              "target": "Package",
+              "version": "[1.0.3, )"
             }
           }
         }
-      },
-      "runtimes": {
-        "win": {
-          "#import": []
-        },
-        "win-x64": {
-          "#import": []
-        },
-        "win-x86": {
-          "#import": []
-        }
       }
     },
-    "C:\\Program Files (x86)\\Steam\\steamapps\\common\\RimWorld\\Mods\\Rebelrots-Yautja-Race\\Source\\RRYautja\\RRYautja.csproj": {
+    "/home/hermes/AVP-Rimworld/Source/RRYautja/RRYautja.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\RimWorld\\Mods\\Rebelrots-Yautja-Race\\Source\\RRYautja\\RRYautja.csproj",
+        "projectUniqueName": "/home/hermes/AVP-Rimworld/Source/RRYautja/RRYautja.csproj",
         "projectName": "RRYautja",
-        "projectPath": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\RimWorld\\Mods\\Rebelrots-Yautja-Race\\Source\\RRYautja\\RRYautja.csproj",
-        "packagesPath": "C:\\Users\\User\\.nuget\\packages\\",
-        "outputPath": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\RimWorld\\Mods\\Rebelrots-Yautja-Race\\Source\\RRYautja\\obj\\",
+        "projectPath": "/home/hermes/AVP-Rimworld/Source/RRYautja/RRYautja.csproj",
+        "packagesPath": "/home/hermes/.nuget/packages/",
+        "outputPath": "/home/hermes/AVP-Rimworld/Source/RRYautja/obj/",
         "projectStyle": "PackageReference",
         "skipContentFileWrite": true,
-        "fallbackFolders": [
-          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackagesFallback\\"
-        ],
         "configFilePaths": [
-          "C:\\Users\\User\\AppData\\Roaming\\NuGet\\NuGet.Config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.Fallback.config"
+          "/home/hermes/.nuget/NuGet/NuGet.Config"
         ],
         "originalTargetFrameworks": [
           "net472"
         ],
         "sources": {
-          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
           "net472": {
             "projectReferences": {
-              "C:\\Program Files (x86)\\Steam\\steamapps\\common\\RimWorld\\Mods\\Rebelrots-Yautja-Race\\Source\\HunterMarkingSystem\\HunterMarkingSystem.csproj": {
-                "projectPath": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\RimWorld\\Mods\\Rebelrots-Yautja-Race\\Source\\HunterMarkingSystem\\HunterMarkingSystem.csproj"
+              "/home/hermes/AVP-Rimworld/Source/HunterMarkingSystem/HunterMarkingSystem.csproj": {
+                "projectPath": "/home/hermes/AVP-Rimworld/Source/HunterMarkingSystem/HunterMarkingSystem.csproj"
               }
             }
           }
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
         }
       },
       "frameworks": {
@@ -101,24 +92,17 @@
           "dependencies": {
             "Krafs.Rimworld.Ref": {
               "target": "Package",
-              "version": "[1.1.2579, )"
+              "version": "[1.6.4871, )"
             },
             "Lib.Harmony": {
               "target": "Package",
-              "version": "[2.0.0.7, )"
+              "version": "[2.4.2, )"
+            },
+            "Microsoft.NETFramework.ReferenceAssemblies": {
+              "target": "Package",
+              "version": "[1.0.3, )"
             }
           }
-        }
-      },
-      "runtimes": {
-        "win": {
-          "#import": []
-        },
-        "win-x64": {
-          "#import": []
-        },
-        "win-x86": {
-          "#import": []
         }
       }
     }
