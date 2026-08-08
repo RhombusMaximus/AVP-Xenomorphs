@@ -25,7 +25,13 @@ namespace RRYautja
             Type pawn_HealthTracker = typeof(Pawn_HealthTracker);
             Type pawn_NativeVerbs = typeof(Pawn_NativeVerbs);
 
+            // TODO(1.5+): The "pawn" private field in PawnRenderer may have been renamed in RimWorld 1.5+.
+            // If this returns null, PawnRenderer_GetPawn will return null and callers should handle it gracefully.
             Main.pawnField_PawnRenderer = pawnRenderer.GetField("pawn", BindingFlags.Instance | BindingFlags.NonPublic);
+            if (Main.pawnField_PawnRenderer == null)
+            {
+                Log.Error("RRYautja.Main: Failed to reflect PawnRenderer.pawn field. This field may have been renamed in RimWorld 1.5+. Cloak/stealth rendering may not work correctly.");
+            }
             Main.int_Pawn_HealthTracker_GetPawn = pawn_HealthTracker.GetField("pawn", BindingFlags.Instance | BindingFlags.NonPublic | BindingFlags.GetField);
             Main._cachedVerbProperties = pawn_NativeVerbs.GetField("cachedVerbProperties", BindingFlags.Instance | BindingFlags.Static | BindingFlags.Public | BindingFlags.NonPublic | BindingFlags.GetField | BindingFlags.GetProperty | BindingFlags.SetProperty);
             Main._pawnPawnNativeVerbs = pawn_NativeVerbs.GetField("pawn", BindingFlags.Instance | BindingFlags.Static | BindingFlags.Public | BindingFlags.NonPublic | BindingFlags.GetField | BindingFlags.GetProperty | BindingFlags.SetProperty);
@@ -73,6 +79,8 @@ namespace RRYautja
 
         public static Pawn PawnRenderer_GetPawn(object instance)
         {
+            // TODO(1.5+): pawnField_PawnRenderer may be null if the "pawn" field was renamed in RimWorld 1.5+.
+            if (Main.pawnField_PawnRenderer == null) return null;
             return (Pawn)Main.pawnField_PawnRenderer.GetValue(instance);
         }
         /*

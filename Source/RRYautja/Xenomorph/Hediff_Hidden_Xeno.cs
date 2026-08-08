@@ -25,6 +25,8 @@ namespace RRYautja
                 if (_shadowGraphic == null)
                 {
                     Log.ErrorOnce("Unable to reflect PawnRenderer.shadowGraphic!", 0x12348765);
+                    // TODO(1.5+): PawnRenderer.shadowGraphic may have been renamed or removed in RimWorld 1.5+.
+                    return;
                 }
             }
             _shadowGraphic.SetValue(_this, newValue);
@@ -38,6 +40,8 @@ namespace RRYautja
                 if (_shadowGraphic == null)
                 {
                     Log.ErrorOnce("Unable to reflect PawnRenderer.shadowGraphic!", 0x12348765);
+                    // TODO(1.5+): PawnRenderer.shadowGraphic may have been renamed or removed in RimWorld 1.5+.
+                    return null;
                 }
             }
             return (Graphic_Shadow)_shadowGraphic.GetValue(_this);

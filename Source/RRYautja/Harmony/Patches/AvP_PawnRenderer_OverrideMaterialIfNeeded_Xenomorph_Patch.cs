@@ -16,7 +16,11 @@ using RRYautja.ExtensionMethods;
 namespace RRYautja
 {
 	// InvisibilityMatPool GetInvisibleMat
-
+	// TODO(1.5+): PawnRenderer.OverrideMaterialIfNeeded may have changed signature or been renamed in RimWorld 1.5+.
+	// The method signature and parameter list (Material original, Pawn pawn) must be verified against the 1.5+/1.6 API.
+	// If the method was renamed or its parameters changed, this patch will fail to apply at runtime.
+	// Verify against the RimWorld 1.5+ source/decompiled assembly and update the HarmonyPatch attribute and method signature accordingly.
+#if false // TODO(1.5+): Re-enable after verifying OverrideMaterialIfNeeded method name and signature in RimWorld 1.5+
     [HarmonyPatch(typeof(PawnRenderer), "OverrideMaterialIfNeeded")]
     public static class AvP_PawnRenderer_OverrideMaterialIfNeeded_Xenomorph_Patch
     {
@@ -76,5 +80,6 @@ namespace RRYautja
 
 
 	}
+#endif // TODO(1.5+): Re-enable after verifying OverrideMaterialIfNeeded
    
 }

@@ -36,6 +36,8 @@ namespace PawnShields
 
         public static Pawn PawnRenderer_GetPawn(object instance)
         {
+            // TODO(1.5+): pawnField_PawnRenderer may be null if the "pawn" field was renamed in RimWorld 1.5+.
+            if (pawnField_PawnRenderer == null) return null;
             return (Pawn)pawnField_PawnRenderer.GetValue(instance);
         }
 
@@ -92,15 +94,29 @@ namespace PawnShields
             {
                 Type type = typeof(PawnRenderer);
 
+                // TODO(1.5+): The "pawn" private field in PawnRenderer may have been renamed in RimWorld 1.5+.
                 pawnField_PawnRenderer = type.GetField("pawn", BindingFlags.NonPublic | BindingFlags.Instance);
+                if (pawnField_PawnRenderer == null)
+                {
+                    Log.Error("PawnShields.HarmonyPatches: Failed to reflect PawnRenderer.pawn field. This field may have been renamed in RimWorld 1.5+. Shield rendering may not work correctly.");
+                }
 
+                // TODO(1.5+): PawnRenderer.RenderPawnAt may have been renamed or its signature changed in RimWorld 1.5+.
+                // If the method doesn't exist, skip the patch rather than crash.
                 MethodInfo patchMethod = type.GetMethod("RenderPawnAt", new Type[] { typeof(Vector3), typeof(RotDrawMode), typeof(bool), typeof(bool) });
-                MethodInfo patchCustomMethod = typeof(HarmonyPatches).GetMethod(nameof(Patch_PawnRenderer_RenderPawnAt));
+                if (patchMethod != null)
+                {
+                    MethodInfo patchCustomMethod = typeof(HarmonyPatches).GetMethod(nameof(Patch_PawnRenderer_RenderPawnAt));
 
-                harmony.Patch(
-                    patchMethod,
-                    null,
-                    new HarmonyMethod(patchCustomMethod));
+                    harmony.Patch(
+                        patchMethod,
+                        null,
+                        new HarmonyMethod(patchCustomMethod));
+                }
+                else
+                {
+                    Log.Warning("PawnShields.HarmonyPatches: PawnRenderer.RenderPawnAt not found. This method may have been renamed in RimWorld 1.5+. Shield rendering patch skipped.");
+                }
             }
 
             //Pawn_HealthTracker
@@ -348,6 +364,8 @@ namespace PawnShields
         public static void Patch_PawnRenderer_RenderPawnAt(PawnRenderer __instance, ref Vector3 drawLoc, ref RotDrawMode bodyDrawType, ref bool headStump)
         {
             Pawn pawn = PawnRenderer_GetPawn(__instance);
+            // TODO(1.5+): pawn may be null if the "pawn" field was renamed in RimWorld 1.5+.
+            if (pawn == null) return;
 
             //Render shield.
             if(pawn != null && pawn.GetShield() is ThingWithComps shield)

@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8" ?>
+﻿<?xml version="1.0" encoding="utf-8" ?>
 <Defs>
 
 <!--============================================= Synth =============================================-->
@@ -327,6 +327,7 @@
         <TradePriceImprovement>0.8</TradePriceImprovement>
 		<!--
 		-->
+		<ThinkTreeMain>Humanlike</ThinkTreeMain>
     </statBases>
   <tools>
       <li>
@@ -386,7 +387,6 @@
     </tools>
     <race>
 	  <fleshType>RRY_SynthFlesh</fleshType>
-      <thinkTreeMain>Humanlike</thinkTreeMain>
       <thinkTreeConstant>HumanlikeConstant</thinkTreeConstant>
 	  <baseHungerRate>0.1</baseHungerRate>
       <intelligence>Humanlike</intelligence>

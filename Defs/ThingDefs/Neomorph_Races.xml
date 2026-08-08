@@ -52,12 +52,12 @@
       <MeatAmount>15</MeatAmount>
       <LeatherAmount>15</LeatherAmount>
       <ArmorRating_Heat>0.75</ArmorRating_Heat>
+      <ThinkTreeMain>RRY_Neomorph_ThinkTree</ThinkTreeMain>
     </statBases>
     <race>
       <!-- <deathActionWorkerClass>RRYautja.DeathActionWorker_Xenomorph</deathActionWorkerClass> -->
       <intelligence>ToolUser</intelligence>
       <trainability>Intermediate</trainability>
-      <thinkTreeMain>RRY_Neomorph_ThinkTree</thinkTreeMain>
       <thinkTreeConstant>NeomorphConstant</thinkTreeConstant>
       <fleshType>RRY_Neomorph</fleshType>
       <bloodDef>RRY_FilthBloodNeomorph</bloodDef>	

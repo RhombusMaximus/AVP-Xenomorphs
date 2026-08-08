@@ -16,6 +16,12 @@ using HunterMarkingSystem.ExtensionMethods;
 namespace HunterMarkingSystem
 {
     // Hediff_Implant Drawer
+    // TODO(1.5+): PawnRenderer.RenderPawnInternal was completely overhauled in RimWorld 1.5+.
+    // The method may have been renamed, its signature changed, or rendering moved to PawnRenderUtility.
+    // The "pawn" private field may have been renamed — Traverse-based access may return null.
+    // BaseHeadOffsetAt may have been renamed or moved.
+    // All of these must be verified against the RimWorld 1.5+/1.6 decompiled assembly before re-enabling.
+#if false // TODO(1.5+): Re-enable after verifying RenderPawnInternal method name, signature, and pawn field in RimWorld 1.5+
     [HarmonyPatch(typeof(PawnRenderer), "RenderPawnInternal", new Type[] { typeof(Vector3), typeof(float), typeof(bool), typeof(Rot4), typeof(Rot4), typeof(RotDrawMode), typeof(bool), typeof(bool), typeof(bool) })]
     static class HMS_PawnRenderer_RenderPawnInternal_Patch
     {
@@ -25,6 +31,7 @@ namespace HunterMarkingSystem
             {
                 return;
             }
+            // TODO(1.5+): The "pawn" private field may have been renamed in PawnRenderer. Handle null gracefully.
             Pawn pawn = Traverse.Create(__instance).Field("pawn").GetValue<Pawn>();
             if (pawn!=null)
             {
@@ -49,7 +56,14 @@ namespace HunterMarkingSystem
 
         static void DrawMark(HediffComp_HunterMark comp, PawnRenderer __instance, Vector3 rootLoc, float angle, bool renderBody, Rot4 bodyFacing, Rot4 headFacing, RotDrawMode bodyDrawType, bool portrait, bool headStump)
         {
+            // TODO(1.5+): The "pawn" private field may have been renamed in PawnRenderer. Handle null gracefully.
             Pawn pawn = Traverse.Create(__instance).Field("pawn").GetValue<Pawn>();
+            if (pawn == null)
+            {
+                Log.Warning("HMS_PawnRenderer_RenderPawnInternal_Patch.DrawMark: Failed to get pawn from PawnRenderer via reflection. Field 'pawn' may have been renamed in 1.5+.");
+                return;
+            }
+            // TODO(1.5+): BaseHeadOffsetAt may have been renamed or moved in RimWorld 1.5+. Verify before re-enabling.
             bool selected = Find.Selector.SelectedObjects.Contains(pawn) && Prefs.DevMode;
             Rot4 rot = bodyFacing;
             Vector3 vector3 = pawn.RaceProps.Humanlike ? __instance.BaseHeadOffsetAt(headFacing) : new Vector3();
@@ -217,5 +231,6 @@ namespace HunterMarkingSystem
             }
         }
     }
+#endif // TODO(1.5+): Re-enable after verifying RenderPawnInternal method name, signature, and pawn field in RimWorld 1.5+
 
 }

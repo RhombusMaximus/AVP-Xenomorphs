@@ -17,6 +17,12 @@ namespace RRYautja
 {
     // Cocoon Draw Pos fix
     // Hediff_Implant Drawer
+    // TODO(1.5+): PawnRenderer.RenderPawnInternal was completely overhauled in RimWorld 1.5+.
+    // The method may have been renamed, its signature changed, or rendering moved to PawnRenderUtility.
+    // The "pawn" private field may have been renamed — Traverse-based access may return null.
+    // BaseHeadOffsetAt may have been renamed or moved.
+    // All of these must be verified against the RimWorld 1.5+/1.6 decompiled assembly before re-enabling.
+#if false // TODO(1.5+): Re-enable after verifying RenderPawnInternal method name, signature, and pawn field in RimWorld 1.5+
     [HarmonyPatch(typeof(PawnRenderer), "RenderPawnInternal")]
     [HarmonyPatch(new Type[] { typeof(Vector3), typeof(float), typeof(bool), typeof(Rot4), typeof(Rot4), typeof(RotDrawMode), typeof(bool), typeof(bool), typeof(bool) })]
     static class AvP_PawnRenderer_RenderPawnInternal_Patch
@@ -24,7 +30,13 @@ namespace RRYautja
         [HarmonyPrefix]
         static void Prefix(PawnRenderer __instance, ref Vector3 rootLoc, ref float angle, ref bool renderBody, ref Rot4 bodyFacing, ref Rot4 headFacing, ref RotDrawMode bodyDrawType, ref bool portrait, ref bool headStump, ref bool invisible)
         {
+            // TODO(1.5+): The "pawn" private field may have been renamed in PawnRenderer. Handle null gracefully.
             Pawn pawn = Traverse.Create(__instance).Field("pawn").GetValue<Pawn>();
+            if (pawn == null)
+            {
+                Log.Warning("AvP_PawnRenderer_RenderPawnInternal_Patch: Failed to get pawn from PawnRenderer via reflection. Field 'pawn' may have been renamed in 1.5+.");
+                return;
+            }
             //    bool selected = Find.Selector.SelectedObjects.Contains(pawn) && Prefs.DevMode;
             if (invisible)
             {
@@ -88,8 +100,14 @@ namespace RRYautja
 
         static void DrawImplant(HediffComp_DrawImplant comp, PawnRenderer __instance, Vector3 rootLoc, float angle, bool renderBody, Rot4 bodyFacing, Rot4 headFacing, RotDrawMode bodyDrawType, bool portrait, bool headStump)
         {// this.Pawn
-
+            // TODO(1.5+): The "pawn" private field may have been renamed in PawnRenderer. Handle null gracefully.
             Pawn pawn = Traverse.Create(__instance).Field("pawn").GetValue<Pawn>();
+            if (pawn == null)
+            {
+                Log.Warning("AvP_PawnRenderer_RenderPawnInternal_Patch.DrawImplant: Failed to get pawn from PawnRenderer via reflection. Field 'pawn' may have been renamed in 1.5+.");
+                return;
+            }
+            // TODO(1.5+): BaseHeadOffsetAt may have been renamed or moved in RimWorld 1.5+. Verify before re-enabling.
             bool selected = Find.Selector.SelectedObjects.Contains(pawn) && Prefs.DevMode;
             Rot4 rot = bodyFacing;
             Vector3 vector3 = pawn.RaceProps.Humanlike ? __instance.BaseHeadOffsetAt(headFacing) : new Vector3();
@@ -132,34 +150,9 @@ namespace RRYautja
             Vector3 loc2 = rootLoc + b;
             loc2.y += 0.03105f;
             bool flag = false;
-            /*
-            if (!portrait || !Prefs.HatsOnlyOnMap)
-            {
-                Mesh mesh3 = __instance.graphics.HairMeshSet.MeshAt(headFacing);
-                List<ApparelGraphicRecord> apparelGraphics = __instance.graphics.apparelGraphics;
-                for (int j = 0; j < apparelGraphics.Count; j++)
-                {
-                    if (apparelGraphics[j].sourceApparel.def.apparel.LastLayer == ApparelLayerDefOf.Overhead)
-                    {
-                        if (!apparelGraphics[j].sourceApparel.def.apparel.hatRenderedFrontOfFace)
-                        {
-                            flag = true;
-                            Material material2 = apparelGraphics[j].graphic.MatAt(bodyFacing, null);
-                            material2 = __instance.graphics.flasher.GetDamagedMat(material2);
-                            GenDraw.DrawMeshNowOrLater(mesh3, loc2, quaternion, material2, portrait);
-                        }
-                        else
-                        {
-                            Material material3 = apparelGraphics[j].graphic.MatAt(bodyFacing, null);
-                            material3 = __instance.graphics.flasher.GetDamagedMat(material3);
-                            Vector3 loc3 = rootLoc + b;
-                            loc3.y += ((!(bodyFacing == Rot4.North)) ? 0.03515625f : 0.00390625f);
-                            GenDraw.DrawMeshNowOrLater(mesh3, loc3, quaternion, material3, portrait);
-                        }
-                    }
-                }
-            }
-            */
+            // NOTE: The commented-out block referencing hatRenderedFrontOfFace was removed.
+            // hatRenderedFrontOfFace was REMOVED from ApparelProperties in RimWorld 1.5+.
+            // It has been replaced by renderSkipFlags / drawData in the new rendering system.
             if (!flag && bodyDrawType != RotDrawMode.Dessicated)
             {
 #if DEBUG
@@ -347,5 +340,6 @@ namespace RRYautja
             }
         }
     }
+#endif // TODO(1.5+): Re-enable after verifying RenderPawnInternal method name, signature, and pawn field in RimWorld 1.5+
 
 }
