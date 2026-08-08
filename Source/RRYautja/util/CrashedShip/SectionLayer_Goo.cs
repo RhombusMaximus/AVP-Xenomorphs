@@ -10,7 +10,7 @@ namespace RRYautja
     {
         public SectionLayer_Goo(Section section) : base(section)
         {
-            this.relevantChangeTypes = (Verse.MapMeshFlag)ExtensionMethods.MapMeshFlag.Goo;
+            this.relevantChangeTypes = RRYMapMeshFlagDefOf.Goo;
             this.GooMaterial.mainTexture = this.GooTex;
         }
         

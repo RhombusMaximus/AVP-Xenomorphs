@@ -111,12 +111,12 @@ namespace RRYautja
             {
                 if (Mathf.Abs(oldDepth - newDepth) > 0.15f || Rand.Value < 0.0125f)
                 {
-                    this.map.mapDrawer.MapMeshDirty(c, (Verse.MapMeshFlag)ExtensionMethods.MapMeshFlag.Goo, true, false);
-                    this.map.mapDrawer.MapMeshDirty(c, (Verse.MapMeshFlag)ExtensionMethods.MapMeshFlag.Goo, true, false);
+                    this.map.mapDrawer.MapMeshDirty(c, RRYMapMeshFlagDefOf.Goo, true, false);
+                    this.map.mapDrawer.MapMeshDirty(c, RRYMapMeshFlagDefOf.Goo, true, false);
                 }
                 else if (newDepth == 0f)
                 {
-                    this.map.mapDrawer.MapMeshDirty(c, (Verse.MapMeshFlag)ExtensionMethods.MapMeshFlag.Goo, true, false);
+                    this.map.mapDrawer.MapMeshDirty(c, RRYMapMeshFlagDefOf.Goo, true, false);
                 }
                 if (XenomorphHiveUtility.GetGooCategory(oldDepth) != XenomorphHiveUtility.GetGooCategory(newDepth))
                 {

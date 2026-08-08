@@ -31,11 +31,19 @@ namespace RRYautja.ExtensionMethods
     }
 
     // Token: 0x02000C94 RID: 3220
-    [Flags]
-    public enum MapMeshFlag
+    // Custom MapMeshFlagDef references for Hive and Goo.
+    // In RimWorld 1.5+, MapMeshFlag became a MapMeshFlagDef Def class.
+    // These are resolved at runtime from XML defs named RRY_Hive and RRY_Goo.
+    public static class RRYMapMeshFlagDefOf
     {
-        Hive = 84,
-        Goo = 85
+        public static MapMeshFlagDef Hive;
+        public static MapMeshFlagDef Goo;
+
+        static RRYMapMeshFlagDefOf()
+        {
+            Hive = DefDatabase<MapMeshFlagDef>.GetNamed("RRY_Hive", false);
+            Goo = DefDatabase<MapMeshFlagDef>.GetNamed("RRY_Goo", false);
+        }
     }
 
     // Token: 0x02000FC0 RID: 4032

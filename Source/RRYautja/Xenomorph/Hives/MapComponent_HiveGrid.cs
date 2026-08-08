@@ -390,12 +390,12 @@ namespace RRYautja
             {
                 if (Mathf.Abs(oldDepth - newDepth) > 0.15f || Rand.Value < 0.0125f)
                 {
-                    this.map.mapDrawer.MapMeshDirty(c, (Verse.MapMeshFlag)ExtensionMethods.MapMeshFlag.Hive, true, false);
-                    this.map.mapDrawer.MapMeshDirty(c, (Verse.MapMeshFlag)ExtensionMethods.MapMeshFlag.Hive, true, false);
+                    this.map.mapDrawer.MapMeshDirty(c, RRYMapMeshFlagDefOf.Hive, true, false);
+                    this.map.mapDrawer.MapMeshDirty(c, RRYMapMeshFlagDefOf.Hive, true, false);
                 }
                 else if (newDepth == 0f)
                 {
-                    this.map.mapDrawer.MapMeshDirty(c, (Verse.MapMeshFlag)ExtensionMethods.MapMeshFlag.Hive, true, false);
+                    this.map.mapDrawer.MapMeshDirty(c, RRYMapMeshFlagDefOf.Hive, true, false);
                 }
                 if (XenomorphHiveUtility.GetHiveCategory(oldDepth) != XenomorphHiveUtility.GetHiveCategory(newDepth))
                 {

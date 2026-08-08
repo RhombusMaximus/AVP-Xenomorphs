@@ -11,7 +11,7 @@ namespace RRYautja
         // Token: 0x060047B7 RID: 18359 RVA: 0x0021AD9D File Offset: 0x0021919D
         public SectionLayer_Hive(Section section) : base(section)
         {
-            this.relevantChangeTypes = (Verse.MapMeshFlag)ExtensionMethods.MapMeshFlag.Hive;
+            this.relevantChangeTypes = RRYMapMeshFlagDefOf.Hive;
             this.HiveMaterial.mainTexture = this.HiveTex;
         }
 
