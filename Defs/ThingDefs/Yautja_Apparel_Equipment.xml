@@ -177,7 +177,6 @@
 				<li>Shoulders</li>
 			</bodyPartGroups>
 			<wornGraphicPath>Things/Equipment/Yautja_ShoulderCannon</wornGraphicPath>
-			<hatRenderedFrontOfFace>true</hatRenderedFrontOfFace>
 			<layers>
 				<li>Overhead</li>
 			</layers>

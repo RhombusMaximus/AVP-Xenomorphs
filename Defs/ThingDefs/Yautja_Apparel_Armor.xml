@@ -122,7 +122,6 @@
 				<li>FullHead</li>
 			</bodyPartGroups>
 			<wornGraphicPath>Things/Apparel/Yautja_Light_Armour_Helmet/Yautja_LightArmour_Helmet</wornGraphicPath>
-			<hatRenderedFrontOfFace>true</hatRenderedFrontOfFace>			
 			<layers>
 				<li>Overhead</li>
 			</layers>
@@ -393,7 +392,6 @@
 				<li>FullHead</li>
 			</bodyPartGroups>
 			<wornGraphicPath>Things/Apparel/Yautja_Armour_Helmet/Yautja_HunterArmour_Helmet</wornGraphicPath>
-			<hatRenderedFrontOfFace>true</hatRenderedFrontOfFace>			
 			<layers>
 				<li>Overhead</li>
 			</layers>
@@ -530,7 +528,6 @@
 				<li>FullHead</li>
 			</bodyPartGroups>
 			<wornGraphicPath>Things/Apparel/Yautja_Elite_Armour_Helmet/Yautja_EliteArmour_Helmet</wornGraphicPath>
-			<hatRenderedFrontOfFace>true</hatRenderedFrontOfFace>			
 			<layers>
 				<li>Overhead</li>
 			</layers>
@@ -595,7 +592,6 @@
 				<li>FullHead</li>
 			</bodyPartGroups>
 			<wornGraphicPath>Things/Apparel/Yautja_Armour_Helmet_Falconer/Yautja_HunterArmour_Helmet_Falconer</wornGraphicPath>
-			<hatRenderedFrontOfFace>true</hatRenderedFrontOfFace>			
 			<layers>
 				<li>Overhead</li>
 			</layers>
@@ -739,7 +735,6 @@
 				<li>FullHead</li>
 			</bodyPartGroups>
 			<wornGraphicPath>Things/Apparel/Yautja_Leader_Armour_Helmet/Yautja_LeaderArmour_Helmet</wornGraphicPath>
-			<hatRenderedFrontOfFace>true</hatRenderedFrontOfFace>			
 			<layers>
 				<li>Overhead</li>
 			</layers>

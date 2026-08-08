@@ -57,7 +57,6 @@
 				<li>UpperHead</li>
 			</bodyPartGroups>
 			<wornGraphicPath>Things/Apparel/USCM/Helmets/M10Pattern/ColonialMarineHelmet</wornGraphicPath>
-			<hatRenderedFrontOfFace>false</hatRenderedFrontOfFace>			
 			<layers>
 				<li>Overhead</li>
 			</layers>

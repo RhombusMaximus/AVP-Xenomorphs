@@ -45,7 +45,6 @@
 				<li>Shoulders</li>
 			</bodyPartGroups>
 			<wornGraphicPath>Things/Apparel/USCM/Helmets/HMS/Head_Mounted_Sight</wornGraphicPath>
-			<hatRenderedFrontOfFace>true</hatRenderedFrontOfFace>
 			<layers>
 				<li>Overhead</li>
 			</layers>

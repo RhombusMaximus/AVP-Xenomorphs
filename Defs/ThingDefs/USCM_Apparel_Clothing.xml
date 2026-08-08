@@ -33,8 +33,7 @@
         <li>UpperHead</li>
       </bodyPartGroups>
       <wornGraphicPath>Things/Apparel/USCM/Clothing/Headband/ColonialMarineHeadband</wornGraphicPath>
-      <hatRenderedFrontOfFace>true</hatRenderedFrontOfFace>
-      <layers>
+			<layers>
         <li>Overhead</li>
       </layers>
       <defaultOutfitTags>
