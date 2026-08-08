@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<loadFolders>
+  <v1.1>
+    <li>/</li>
+  </v1.1>
+  <v1.6>
+    <li>/</li>
+    <li IfModInstalled="erdelf.HumanoidAlienRaces">/1.6/AlienRaces</li>
+  </v1.6>
+</loadFolders>
