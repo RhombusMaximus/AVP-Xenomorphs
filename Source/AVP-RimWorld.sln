@@ -11,6 +11,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TrapsRearmable", "TrapsRear
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HunterMarkingSystem", "HunterMarkingSystem\HunterMarkingSystem.csproj", "{99F78F0B-7600-45BC-BD6E-8E935C05E66B}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PawnShields", "PawnShields\PawnShields.csproj", "{9A3BF1D4-6693-481F-BBF1-3D66AFD8BE6C}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -33,6 +35,10 @@ Global
 		{99F78F0B-7600-45BC-BD6E-8E935C05E66B}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{99F78F0B-7600-45BC-BD6E-8E935C05E66B}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{99F78F0B-7600-45BC-BD6E-8E935C05E66B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9A3BF1D4-6693-481F-BBF1-3D66AFD8BE6C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9A3BF1D4-6693-481F-BBF1-3D66AFD8BE6C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9A3BF1D4-6693-481F-BBF1-3D66AFD8BE6C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9A3BF1D4-6693-481F-BBF1-3D66AFD8BE6C}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
