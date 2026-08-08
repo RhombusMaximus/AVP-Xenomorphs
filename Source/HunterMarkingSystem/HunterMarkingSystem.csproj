@@ -1,93 +1,37 @@
-﻿<?xml version="1.0" encoding="utf-8"?>
-<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
-  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
   <PropertyGroup>
-    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
-    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProjectGuid>{99F78F0B-7600-45BC-BD6E-8E935C05E66B}</ProjectGuid>
+    <TargetFramework>net472</TargetFramework>
     <OutputType>Library</OutputType>
-    <AppDesignerFolder>Properties</AppDesignerFolder>
     <RootNamespace>HunterMarkingSystem</RootNamespace>
     <AssemblyName>HunterMarkingSystem</AssemblyName>
-    <TargetFrameworkVersion>v4.7.2</TargetFrameworkVersion>
-    <FileAlignment>512</FileAlignment>
-    <TargetFrameworkProfile />
+    <GenerateAssemblyInfo>false</GenerateAssemblyInfo>
+    <AppendTargetFrameworkToOutputPath>false</AppendTargetFrameworkToOutputPath>
   </PropertyGroup>
-  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
-    <DebugSymbols>true</DebugSymbols>
-    <DebugType>full</DebugType>
+
+  <PropertyGroup Condition="'$(Configuration)' == 'Debug'">
     <Optimize>false</Optimize>
-    <OutputPath>..\..\Assemblies\</OutputPath>
     <DefineConstants>DEBUG;TRACE</DefineConstants>
-    <ErrorReport>prompt</ErrorReport>
-    <WarningLevel>4</WarningLevel>
-    <Prefer32Bit>false</Prefer32Bit>
+    <OutputPath>..\..\Assemblies\</OutputPath>
   </PropertyGroup>
-  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
-    <DebugType>pdbonly</DebugType>
+
+  <PropertyGroup Condition="'$(Configuration)' == 'Release'">
     <Optimize>true</Optimize>
-    <OutputPath>bin\Release\</OutputPath>
     <DefineConstants>TRACE</DefineConstants>
-    <ErrorReport>prompt</ErrorReport>
-    <WarningLevel>4</WarningLevel>
-    <Prefer32Bit>false</Prefer32Bit>
+    <OutputPath>bin\Release\</OutputPath>
   </PropertyGroup>
-  <ItemGroup>
-    <Compile Include="Alert_PawnCanMark.cs" />
-    <Compile Include="Harmony\Patches\HMS_BackCompatibility_BackCompatibleDefName_Patch.cs" />
-    <Compile Include="MarkData.cs" />
-    <Compile Include="StatWorker_MarkScore.cs" />
-    <Compile Include="Harmony\Patches\HMS_ThingWithComps_get_DescriptionFlavor_Patch.cs" />
-    <Compile Include="MarkHediff.cs" />
-    <Compile Include="HunterCultureDef.cs" />
-    <Compile Include="Comp_UsableCorpse.cs" />
-    <Compile Include="Comp_KillMarker.cs" />
-    <Compile Include="CompUseEffect_MarkSelf.cs" />
-    <Compile Include="Extensions.cs" />
-    <Compile Include="Harmony\Patches\HMS_PawnRenderer_RenderPawnInternal_Patch.cs" />
-    <Compile Include="Harmony\Patches\HMS_RecordsUtility_Notify_PawnDowned_Patch.cs" />
-    <Compile Include="HMS_Thought_Situational.cs" />
-    <Compile Include="HMS_Thought_SituationalSocial.cs" />
-    <Compile Include="DefExtensions\MarkDefExtension.cs" />
-    <Compile Include="DefExtensions\TrophyPartDefExtension.cs" />
-    <Compile Include="DefExtensions\MarkOffsetDefExtension.cs" />
-    <Compile Include="IntergrationUtils.cs" />
-    <Compile Include="Settings\HMSSettings.cs" />
-    <Compile Include="Harmony\Patches\HMS_RecordsUtility_Notify_PawnKilled_Patch.cs" />
-    <Compile Include="Comp_Markable.cs" />
-    <Compile Include="HunterMarkingSystem.cs" />
-    <Compile Include="HediffComp_HunterMark.cs" />
-    <Compile Include="JobDriver_MarkOther.cs" />
-    <Compile Include="JobDriver_MarkSelf.cs" />
-    <Compile Include="JobDriver_TakeTrophy.cs" />
-    <Compile Include="Harmony\Harmony.cs" />
-    <Compile Include="Properties\AssemblyInfo.cs" />
-    <Compile Include="ThoughtWorker_Unmarked.cs" />
-    <None Include="ThoughtWorkers_Blooded.cs.bak" />
-    <Compile Include="ThoughtWorker_Unblooded.cs" />
-    <Compile Include="ThoughtWorker_Marked.cs" />
-    <Compile Include="ThoughtWorker_MarkedMood.cs" />
-    <Compile Include="BloodedUtility.cs" />
-    <Compile Include="HMSDefOf.cs" />
-  </ItemGroup>
+
   <ItemGroup>
     <Reference Include="AlienRace">
       <HintPath>..\..\Assemblies\AlienRace.dll</HintPath>
       <Private>False</Private>
     </Reference>
   </ItemGroup>
+
   <ItemGroup>
-    <PackageReference Include="Krafs.Rimworld.Ref">
-      <Version>1.6.4871</Version>
-    </PackageReference>
-    <PackageReference Include="Lib.Harmony">
-      <Version>2.4.2</Version>
-    </PackageReference>
+    <PackageReference Include="Krafs.Rimworld.Ref" Version="1.6.4871" />
+    <PackageReference Include="Lib.Harmony" Version="2.4.2" />
+    <PackageReference Include="Microsoft.NETFramework.ReferenceAssemblies" Version="1.0.3" />
   </ItemGroup>
-  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
-  <ItemGroup>
-    <PackageReference Include="Microsoft.NETFramework.ReferenceAssemblies">
-      <Version>1.0.3</Version>
-    </PackageReference>
-  </ItemGroup>
+
 </Project>
