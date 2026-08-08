@@ -61,12 +61,12 @@ namespace HunterMarkingSystem
                         }
                     }
                 }
-                if (user.story.adulthood.identifier == null || user.story.adulthood.identifier == "RRY_Yautja_YoungBlood")
+                if (user.story.Adulthood == null || user.story.Adulthood.identifier == null || user.story.Adulthood.identifier == "RRY_Yautja_YoungBlood")
                 {
                     if (marked.def == HMSDefOf.HMS_Hediff_BloodedMXenomorph)
                     {
                         AlienRace.BackstoryDef backstoryDef = DefDatabase<AlienRace.BackstoryDef>.GetNamed("RRY_Yautja_Blooded");
-                        user.story.adulthood = backstoryDef.backstory;
+                        user.story.Adulthood = backstoryDef.backstory;
                     }
                 }
                 Markable.markDataKill = Markable.markDataKillNew;

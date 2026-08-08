@@ -40,9 +40,9 @@ namespace HunterMarkingSystem
         public MarkData(PawnKindDef p)
         {
             this.kindDef = p;
-            if (p.defaultFactionType != null)
+            if (p.defaultFactionDef != null)
             {
-                this.factionDef = p.defaultFactionType;
+                this.factionDef = p.defaultFactionDef;
             }
             this.raceDef = p.race;
             this.MarkScore = p.race.GetStatValueAbstract(StatDef.Named("HMS_MarkScore"));

@@ -7,4 +7,9 @@ namespace AlienRace
     public class ThingDef_AlienRace : ThingDef
     {
     }
+
+    public class BackstoryDef : Def
+    {
+        public RimWorld.BackstoryDef backstory;
+    }
 }

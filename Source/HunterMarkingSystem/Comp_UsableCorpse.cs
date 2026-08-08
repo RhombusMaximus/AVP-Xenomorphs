@@ -59,7 +59,7 @@ namespace HunterMarkingSystem
             {
                 yield return new FloatMenuOption(this.FloatMenuOptionLabel + ((failReason == null) ? string.Empty : (" (" + failReason + ")")), null, MenuOptionPriority.Default, null, null, 0f, null, null);
             }
-            else if (!myPawn.CanReach(this.parent, PathEndMode.Touch, Danger.Deadly, false, TraverseMode.ByPawn))
+            else if (!myPawn.CanReach(this.parent, PathEndMode.Touch, Danger.Deadly, false, false, TraverseMode.ByPawn))
             {
                 yield return new FloatMenuOption(this.FloatMenuOptionLabel + " (" + "NoPath".Translate() + ")", null, MenuOptionPriority.Default, null, null, 0f, null, null);
             }
@@ -98,9 +98,14 @@ namespace HunterMarkingSystem
             List<ThingComp> allComps = this.parent.AllComps;
             for (int i = 0; i < allComps.Count; i++)
             {
-                if (allComps[i] is CompUseEffect compUseEffect && !compUseEffect.CanBeUsedBy(p, out failReason))
+                if (allComps[i] is CompUseEffect compUseEffect)
                 {
-                    return false;
+                    AcceptanceReport report = compUseEffect.CanBeUsedBy(p);
+                    if (!report.Accepted)
+                    {
+                        failReason = report.Reason;
+                        return false;
+                    }
                 }
             }
             failReason = null;
@@ -148,7 +153,7 @@ namespace HunterMarkingSystem
         public override void PostSpawnSetup(bool respawningAfterLoad)
         {
             base.PostSpawnSetup(respawningAfterLoad);
-            if (PawnsFinder.AllMapsCaravansAndTravelingTransportPods_Alive_Colonists.Any(x=> x.Markable(out Comp_Markable markable) && x.health.hediffSet.HasHediff(markable.Unmarkeddef) && markable.MarkableCorpse && markable.markcorpse == this.parent) &&!respawningAfterLoad)
+            if (PawnsFinder.AllMapsCaravansAndTravellingTransporters_Alive_Colonists.Any(x=> x.Markable(out Comp_Markable markable) && x.health.hediffSet.HasHediff(markable.Unmarkeddef) && markable.MarkableCorpse && markable.markcorpse == this.parent) &&!respawningAfterLoad)
             {
                 this.parent.SetForbidden(true, false);
             }
@@ -157,9 +162,9 @@ namespace HunterMarkingSystem
         public override void PostDeSpawn(Map map, DestroyMode mode = DestroyMode.Vanish)
         {
             base.PostDeSpawn(map, mode);
-            if (PawnsFinder.AllMapsCaravansAndTravelingTransportPods_Alive_Colonists.Any(x => x.Markable(out Comp_Markable markable) && x.health.hediffSet.HasHediff(markable.Unmarkeddef)))
+            if (PawnsFinder.AllMapsCaravansAndTravellingTransporters_Alive_Colonists.Any(x => x.Markable(out Comp_Markable markable) && x.health.hediffSet.HasHediff(markable.Unmarkeddef)))
             {
-                foreach (Pawn p in PawnsFinder.AllMapsCaravansAndTravelingTransportPods_Alive_Colonists.Where(x => x.Markable(out Comp_Markable markable) && x.health.hediffSet.HasHediff(markable.Unmarkeddef)))
+                foreach (Pawn p in PawnsFinder.AllMapsCaravansAndTravellingTransporters_Alive_Colonists.Where(x => x.Markable(out Comp_Markable markable) && x.health.hediffSet.HasHediff(markable.Unmarkeddef)))
                 {
                     Hediff marked = null;
                     if (p.Markable(out Comp_Markable markable))

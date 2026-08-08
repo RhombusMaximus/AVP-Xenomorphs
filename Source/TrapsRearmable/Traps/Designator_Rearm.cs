@@ -24,7 +24,7 @@ namespace TrapsRearmable
 
         // Token: 0x17000005 RID: 5
         // (get) Token: 0x0600002E RID: 46 RVA: 0x00002AA4 File Offset: 0x00000CA4
-        public override DrawStyleCategoryDef DrawStyleCategory => DrawStyleCategoryDefOf.Fill2D;
+        public override DrawStyleCategoryDef DrawStyleCategory => DrawStyleCategoryDefOf.FilledRectangle;
 
         // Token: 0x0600002F RID: 47 RVA: 0x00002AA7 File Offset: 0x00000CA7
         public override AcceptanceReport CanDesignateCell(IntVec3 c)

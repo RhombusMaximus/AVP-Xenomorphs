@@ -18,7 +18,7 @@ namespace HunterMarkingSystem
         {
             get
             {
-                foreach (Pawn p in PawnsFinder.AllMapsCaravansAndTravelingTransportPods_Alive_FreeColonistsAndPrisoners_NoCryptosleep)
+                foreach (Pawn p in PawnsFinder.AllMapsCaravansAndTravellingTransporters_Alive_FreeColonistsAndPrisoners_NoCryptosleep)
                 {
                     if (p.Markable(out Comp_Markable Markable))
                     {
@@ -39,7 +39,7 @@ namespace HunterMarkingSystem
                                             List<string> vs = new List<string>();
                                             foreach (ThingDef race in Markable.markerRaces)
                                             {
-                                                IEnumerable<Thing> pawns = PawnsFinder.AllMapsCaravansAndTravelingTransportPods_Alive_Colonists.Where(y => y.def == race && y.Map == p.Map);
+                                                IEnumerable<Thing> pawns = PawnsFinder.AllMapsCaravansAndTravellingTransporters_Alive_Colonists.Where(y => y.def == race && y.Map == p.Map);
                                                 if (!pawns.EnumerableNullOrEmpty())
                                                 {
                                                     foreach (Thing item in pawns)
@@ -160,7 +160,7 @@ namespace HunterMarkingSystem
                                 {
                                     string rl = race.LabelCap + ": ";
                                     string rc = string.Empty;
-                                    PawnsFinder.AllMapsCaravansAndTravelingTransportPods_Alive_Colonists.Where(y => y.def == race).ToList().ForEach(z => rc += (rc == string.Empty ? z.NameShortColored : " ," + z.NameShortColored));
+                                    PawnsFinder.AllMapsCaravansAndTravellingTransporters_Alive_Colonists.Where(y => y.def == race).ToList().ForEach(z => rc += (rc == string.Empty ? z.NameShortColored : " ," + z.NameShortColored));
                                     vs.Add(rc.NullOrEmpty() ? rl : rc);
 
                                 }
