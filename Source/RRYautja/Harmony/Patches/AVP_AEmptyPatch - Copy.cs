@@ -126,10 +126,10 @@ namespace RRYautja
     }
 
     //helicopter arrive jingzhun
-    [HarmonyPatch(typeof(TransportersArrivalAction_LandInSpecificCell), "Arrived", new Type[]  { typeof(List<ActiveTransporterInfo>), typeof(int) })]
+    [HarmonyPatch(typeof(TransportersArrivalAction_LandInSpecificCell), "Arrived", new Type[]  { typeof(List<ActiveTransporterInfo>), typeof(RimWorld.Planet.PlanetTile) })]
     public static class HarmonyTest_AJ
     {
-        public static bool Prefix(TransportersArrivalAction_LandInSpecificCell __instance, List<ActiveTransporterInfo> pods, int tile)
+        public static bool Prefix(TransportersArrivalAction_LandInSpecificCell __instance, List<ActiveTransporterInfo> pods, RimWorld.Planet.PlanetTile tile)
         {
         //    Log.Message(string.Format("pods: {0}", pods.Count));
             foreach (ActiveTransporterInfo info in pods)
