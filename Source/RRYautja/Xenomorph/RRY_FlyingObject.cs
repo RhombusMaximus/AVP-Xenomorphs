@@ -167,7 +167,8 @@ namespace RRYautja
                         return;
                     }
                     Pawn pawn = this.flyingThing as Pawn;
-                    pawn.Drawer.renderer.DrawAt(this.DrawPos);
+                    // TODO: PawnRenderer.DrawAt removed in 1.6 — needs render node migration
+            // pawn.Drawer.renderer.DrawAt(this.DrawPos);
                 }
                 else
                 {

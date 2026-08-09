@@ -1,4 +1,4 @@
-﻿using RRYautja;
+using RRYautja;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -19,7 +19,7 @@ namespace RimWorld
             {
                 IntVec3 intVec;
                 Faction faction = Find.FactionManager.FirstFactionOfDef(XenomorphDefOf.RRY_Xenomorph);
-                return this.TryFindSpawnSpot(map, out intVec) && faction != null;
+                return this.TryFindSpawnSpot(map, out IntVec3 spawnSpot) && faction != null;
             }
             return false;
 		}

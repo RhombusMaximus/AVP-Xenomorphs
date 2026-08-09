@@ -207,7 +207,7 @@ namespace RRYautja.ExtensionMethods
                 FailReason = "Dead";
                 return false;
             }
-            if (!p.health.capacities.CapableOf(PawnCapacityDefOf.Breathing) || false // PawnCapacityDefOf.Eating removed in 1.6)
+            if (!p.health.capacities.CapableOf(PawnCapacityDefOf.Breathing) || false) // PawnCapacityDefOf.Eating removed in 1.6
             {
                 FailReason = "Doesnt Eat or Breath";
                 return false;
@@ -336,7 +336,7 @@ namespace RRYautja.ExtensionMethods
             {
                 return false;
             }
-            if (!p.health.capacities.CapableOf(PawnCapacityDefOf.Breathing) || false // PawnCapacityDefOf.Eating removed in 1.6)
+            if (!p.health.capacities.CapableOf(PawnCapacityDefOf.Breathing) || false) // PawnCapacityDefOf.Eating removed in 1.6
             {
                 failReason = "Doesnt Eat or Breath";
                 return false;

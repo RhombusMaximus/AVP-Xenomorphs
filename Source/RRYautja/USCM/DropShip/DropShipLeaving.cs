@@ -88,12 +88,12 @@ namespace RRYautja
             {
                 base.Map.lordManager.RemoveLord(lord);
             }
-            TravellingTransporters travelingTransportPods = (TravellingTransporters)WorldObjectMaker.MakeWorldObject(DefDatabase<WorldObjectDef>.GetNamed("RRY_USCM_TravelingDropshipUD4L", true));
-            travelingTransportPods.Tile = base.Map.Tile;
-            travelingTransportPods.SetFaction(Faction.OfPlayer);
-            travelingTransportPods.destinationTile = this.destinationTile;
-            travelingTransportPods.arrivalAction = this.arrivalAction;
-            Find.WorldObjects.Add(travelingTransportPods);
+            TravellingTransporters travelingTransporters = (TravellingTransporters)WorldObjectMaker.MakeWorldObject(DefDatabase<WorldObjectDef>.GetNamed("RRY_USCM_TravelingDropshipUD4L", true));
+            travelingTransporters.Tile = base.Map.Tile;
+            travelingTransporters.SetFaction(Faction.OfPlayer);
+            travelingTransporters.destinationTile = this.destinationTile;
+            travelingTransporters.arrivalAction = this.arrivalAction;
+            Find.WorldObjects.Add(travelingTransporters);
             DropShipLeaving.tmpActiveTransporters.Clear();
             DropShipLeaving.tmpActiveTransporters.AddRange(base.Map.listerThings.ThingsInGroup(ThingRequestGroup.ActiveTransporter));
             for (int i = 0; i < DropShipLeaving.tmpActiveTransporters.Count; i++)
@@ -102,7 +102,7 @@ namespace RRYautja
                 if (DropshipLeaving != null && DropshipLeaving.groupID == this.groupID)
                 {
                     DropshipLeaving.alreadyLeft = true;
-                    travelingTransportPods.AddTransporter(DropshipLeaving.Contents, true);
+                    travelingTransporters.AddTransporter(DropshipLeaving.Contents, true);
                     DropshipLeaving.Contents = null;
                     DropshipLeaving.Destroy(DestroyMode.Vanish);
                 }

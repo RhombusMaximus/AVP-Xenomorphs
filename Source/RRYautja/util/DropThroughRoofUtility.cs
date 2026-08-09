@@ -36,7 +36,7 @@ namespace RimWorld
                     Log.Warning(string.Concat(new object[]
                     {
                         "DropThingsNear failed to find a place to drop ",
-                        list.FirstOrDefault<Thing>(),
+                        list.FirstOrDefault(),
                         " near ",
                         dropCenter,
                         ". Dropping on random square instead."

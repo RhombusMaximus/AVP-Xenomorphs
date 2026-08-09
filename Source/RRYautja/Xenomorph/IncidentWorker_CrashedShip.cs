@@ -1,4 +1,4 @@
-﻿using RimWorld;
+using RimWorld;
 using System;
 using System.Collections.Generic;
 using UnityEngine;
@@ -43,8 +43,8 @@ namespace RRYautja
             }
             for (int i = 0; i < countToSpawn; i++)
             {
-                IntVec3 intVec;
-                if (!CellFinderLoose.TryFindSkyfallerCell(ThingDefOf.CrashedShipPartIncoming, map, null, out intVec, 14, default(IntVec3), -1, false, true, true, true, true, false, null))
+                IntVec3 intVec = IntVec3.Invalid;
+                if (!CellFinderLoose.TryFindSkyfallerCell(ThingDefOf.CrashedShipPartIncoming, map, null, out IntVec3 vec3, 14, default(IntVec3), -1, false, true, true, true, true, false, null))
                 {
                     break;
                 }

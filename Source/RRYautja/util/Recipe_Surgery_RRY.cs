@@ -1,9 +1,10 @@
-﻿using RimWorld;
+using RimWorld;
 using RRYautja.settings;
 using System;
 using System.Collections.Generic;
 using UnityEngine;
 using Verse;
+using System.Linq;
 
 namespace RRYautja
 {

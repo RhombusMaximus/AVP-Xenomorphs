@@ -1,4 +1,4 @@
-﻿using System;
+using System;
 using RimWorld;
 using RRYautja;
 using UnityEngine;
@@ -90,7 +90,7 @@ namespace Verse
                         {
                             projectileHitFlags &= ~ProjectileHitFlags.NonTargetPawns;
                         }
-                        projectile2.Launch(launcher, drawPos, new LocalTargetInfo(c), this.currentTarget, projectileHitFlags, false, equipment, null);
+                        projectile2.Launch(launcher, drawPos, new LocalTargetInfo(c), this.currentTarget, projectileHitFlags, equipment, null);
                         return true;
                     }
                 }
@@ -108,7 +108,7 @@ namespace Verse
                 {
                     projectileHitFlags2 |= ProjectileHitFlags.NonTargetPawns;
                 }
-                projectile2.Launch(launcher, drawPos, new LocalTargetInfo(shootLine.Dest), this.currentTarget, projectileHitFlags2, false, equipment, targetCoverDef);
+                projectile2.Launch(launcher, drawPos, new LocalTargetInfo(shootLine.Dest), this.currentTarget, projectileHitFlags2, equipment, targetCoverDef);
                 return true;
             }
             if (this.currentTarget.Thing != null && this.currentTarget.Thing.def.category == ThingCategory.Pawn && !Rand.Chance(shotReport.PassCoverChance))
@@ -120,7 +120,7 @@ namespace Verse
                 {
                     projectileHitFlags3 |= ProjectileHitFlags.NonTargetPawns;
                 }
-                projectile2.Launch(launcher, drawPos, new LocalTargetInfo(randomCoverToMissInto), this.currentTarget, projectileHitFlags3, false, equipment, targetCoverDef);
+                projectile2.Launch(launcher, drawPos, new LocalTargetInfo(randomCoverToMissInto), this.currentTarget, projectileHitFlags3, equipment, targetCoverDef);
                 return true;
             }
             ProjectileHitFlags projectileHitFlags4 = ProjectileHitFlags.IntendedTarget;
@@ -135,12 +135,12 @@ namespace Verse
             this.ThrowDebugText("ToHit" + ((!this.canHitNonTargetPawnsNow) ? string.Empty : "\nchntp"));
             if (this.currentTarget.Thing != null)
             {
-                projectile2.Launch(launcher, drawPos, this.currentTarget, this.currentTarget, projectileHitFlags4, false, equipment, targetCoverDef);
+                projectile2.Launch(launcher, drawPos, this.currentTarget, this.currentTarget, projectileHitFlags4, equipment, targetCoverDef);
                 this.ThrowDebugText("Hit\nDest", this.currentTarget.Cell);
             }
             else
             {
-                projectile2.Launch(launcher, drawPos, new LocalTargetInfo(shootLine.Dest), this.currentTarget, projectileHitFlags4, false, equipment, targetCoverDef);
+                projectile2.Launch(launcher, drawPos, new LocalTargetInfo(shootLine.Dest), this.currentTarget, projectileHitFlags4, equipment, targetCoverDef);
                 this.ThrowDebugText("Hit\nDest", shootLine.Dest);
             }
             return true;

@@ -822,12 +822,12 @@ namespace RRYautja
                 }
 
                 TravellingTransporters travellingTransporters = (TravellingTransporters)WorldObjectMaker.MakeWorldObject(DefDatabase<WorldObjectDef>.GetNamed("RRY_USCM_TravelingDropshipUD4L", true));
-                travelingTransportPods.Tile = cafr.Tile;
-                travelingTransportPods.SetFaction(Faction.OfPlayer);
-                travelingTransportPods.destinationTile = destinationTile;
-                travelingTransportPods.arrivalAction = arrivalAction;
-                Find.WorldObjects.Add(travelingTransportPods);
-                travelingTransportPods.AddPod(activeDropPod.Contents, true);
+                travellingTransporters.Tile = cafr.Tile;
+                travellingTransporters.SetFaction(Faction.OfPlayer);
+                travellingTransporters.destinationTile = destinationTile;
+                travellingTransporters.arrivalAction = arrivalAction;
+                Find.WorldObjects.Add(travellingTransporters);
+                travellingTransporters.AddTransporter(activeDropPod.Contents, true);
             //    activeDropPod.Contents = null;
             //    activeDropPod.Destroy(DestroyMode.Vanish);
                 // CameraJumper.TryHideWorld();
@@ -1008,7 +1008,7 @@ namespace RRYautja
                 float num = 0f;
                 for (int i = 0; i < transportersInGroup.Count; i++)
                 {
-                    Building fuelingPortSource = transportersInGroup[i].Launchable.parent;
+                    Building fuelingPortSource = (Building)transportersInGroup[i].Launchable.parent;
                     if (fuelingPortSource != null)
                     {
                         num = Mathf.Max(num, fuelingPortSource.GetComp<CompRefuelable>().Props.fuelCapacity);

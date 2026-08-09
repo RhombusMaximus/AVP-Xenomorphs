@@ -1,4 +1,4 @@
-﻿using System;
+using System;
 using System.Collections.Generic;
 using UnityEngine;
 using Verse;
@@ -17,13 +17,13 @@ namespace RimWorld
             
 			Map map = (Map)parms.target;
 
-            if (!InfestationLikeCellFinder.TryFindCell(out intVec, out lc, map, false, false, false, true))
+            if (!InfestationLikeCellFinder.TryFindCell(out IntVec3 vec3_1, out lc, map, false, false, false, true))
             {
-                if (!InfestationLikeCellFinder.TryFindCell(out intVec, out lc, map, true, false, false, true))
+                if (!InfestationLikeCellFinder.TryFindCell(out IntVec3 vec3_2, out lc, map, true, false, false, true))
                 {
-                    if (!InfestationLikeCellFinder.TryFindCell(out intVec, out lc, map, true, true, false, true))
+                    if (!InfestationLikeCellFinder.TryFindCell(out IntVec3 vec3_3, out lc, map, true, true, false, true))
                     {
-                        if (!InfestationLikeCellFinder.TryFindCell(out intVec, out lc, map, true, true, true, true))
+                        if (!InfestationLikeCellFinder.TryFindCell(out IntVec3 vec3_4, out lc, map, true, true, true, true))
                         {
                             return false;
                         }
@@ -49,9 +49,9 @@ namespace RimWorld
 
             if (intVec == IntVec3.Invalid)
             {
-                if (!InfestationLikeCellFinder.TryFindCell(out intVec, out lc, map, true, false, true, true))
+                if (!InfestationLikeCellFinder.TryFindCell(out IntVec3 vec3_5, out lc, map, true, false, true, true))
                 {
-                    if (!InfestationLikeCellFinder.TryFindCell(out intVec, out lc, map, true, true, true, true))
+                    if (!InfestationLikeCellFinder.TryFindCell(out IntVec3 vec3_6, out lc, map, true, true, true, true))
                     {
                         return false;
                     }

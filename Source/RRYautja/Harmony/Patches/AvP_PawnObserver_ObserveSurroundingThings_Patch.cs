@@ -1,4 +1,4 @@
-﻿using RimWorld;
+using RimWorld;
 using Verse;
 using HarmonyLib;
 using System.Reflection;
@@ -53,7 +53,7 @@ namespace RRYautja
                 //    Log.Message(string.Format("{0} observed {1}", pawn.LabelShortCap, observed.LabelShortCap));
                     if (thoughtGiver != null)
                     {
-                        Thought_Memory thought_Memory = thoughtGiver.GiveObservedThought(__instance);
+                        Thought_Memory thought_Memory = thoughtGiver.GiveObservedThought(Traverse.Create(__instance).Field("pawn").GetValue<Pawn>());
                         if (thought_Memory != null)
                         {
                             //Log.Message(string.Format("{0} TryGainMemory {1}", pawn.LabelShortCap, thought_Memory.LabelCap));

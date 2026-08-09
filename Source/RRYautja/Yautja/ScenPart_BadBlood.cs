@@ -1,4 +1,4 @@
-﻿using System;
+using System;
 using RimWorld;
 using RRYautja;
 using Verse;
@@ -13,7 +13,7 @@ namespace RimWorld
         {
             foreach (var f in Find.FactionManager.AllFactionsListForReading.FindAll(x=> !x.IsPlayer && x.def!=YautjaDefOf.RRY_Yautja_BadBloodFaction))
             {
-                f.TryAffectGoodwillWith(Find.FactionManager.OfPlayer, -100);
+                f.TryAffectGoodwillWith(Find.FactionManager.OfPlayer, -100, false, true, null, null);
             }
         }
         

@@ -1,4 +1,4 @@
-﻿using RRYautja;
+using RRYautja;
 using System;
 using System.Collections.Generic;
 using Verse;
@@ -26,7 +26,8 @@ namespace RimWorld
             jobGiver_XenosKidnap.MinRange = this.MinRange;
             jobGiver_XenosKidnap.forceRoofed = this.forceRoofed;
             jobGiver_XenosKidnap.allowCocooned = this.allowCocooned;
-            jobGiver_XenosKidnap.canBash = this.canBash;
+            // TODO: canBash removed from Job in 1.6
+            // jobGiver_XenosKidnap.canBash = this.canBash;
             jobGiver_XenosKidnap.forceCanDig = this.forceCanDig;
             jobGiver_XenosKidnap.forceCanDigIfAnyHostileActiveThreat = this.forceCanDigIfAnyHostileActiveThreat;
             jobGiver_XenosKidnap.forceCanDigIfCantReachMapEdge = this.forceCanDigIfCantReachMapEdge;

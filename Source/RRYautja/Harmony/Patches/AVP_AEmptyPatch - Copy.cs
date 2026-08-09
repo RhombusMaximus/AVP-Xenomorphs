@@ -137,7 +137,7 @@ namespace RRYautja
                 if (info.innerContainer.Contains(USCMDefOf.RRY_USCM_DropshipUD4L))
                 {
                 //    Log.Message(string.Format("pods: {0}", info.innerContainer.ContentsString));
-                    Thing lookTarget = null // TransportPodsArrivalActionUtility.GetLookTarget(pods) // Removed in 1.6;
+                    Thing lookTarget = null; // TransportPodsArrivalActionUtility.GetLookTarget(pods) removed in 1.6
                     Traverse tv = Traverse.Create(__instance);
                     IntVec3 c = tv.Field("cell").GetValue<IntVec3>();
                     Map map = tv.Field("mapParent").GetValue<MapParent>().Map;

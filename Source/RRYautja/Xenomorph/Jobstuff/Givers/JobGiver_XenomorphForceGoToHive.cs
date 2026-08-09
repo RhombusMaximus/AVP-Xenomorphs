@@ -1,4 +1,4 @@
-﻿using System;
+using System;
 using RimWorld;
 using RRYautja.ExtensionMethods;
 
@@ -13,7 +13,8 @@ namespace Verse.AI
             JobGiver_XenomorphForceGoToHive jobGiver_ForceGoTo = (JobGiver_XenomorphForceGoToHive)base.DeepCopy(resolve);
             jobGiver_ForceGoTo.defaultLocomotion = this.defaultLocomotion;
             jobGiver_ForceGoTo.jobMaxDuration = this.jobMaxDuration;
-            jobGiver_ForceGoTo.canBashDoors = this.canBash;
+            // TODO: canBash removed from Job in 1.6
+            // jobGiver_ForceGoTo.canBash = this.canBash;
             jobGiver_ForceGoTo.forceCanDig = this.forceCanDig;
             jobGiver_ForceGoTo.forceCanDigIfAnyHostileActiveThreat = this.forceCanDigIfAnyHostileActiveThreat;
             jobGiver_ForceGoTo.forceCanDigIfCantReachMapEdge = this.forceCanDigIfCantReachMapEdge;
@@ -114,7 +115,8 @@ namespace Verse.AI
                 failIfCantJoinOrCreateCaravan = this.failIfCantJoinOrCreateCaravan,
                 locomotionUrgency = PawnUtility.ResolveLocomotion(pawn, this.defaultLocomotion, LocomotionUrgency.Jog),
                 expiryInterval = this.jobMaxDuration,
-                canBashDoors = this.canBash
+                // TODO: canBash removed in 1.6
+                // canBash = this.canBash
             };
         }
 

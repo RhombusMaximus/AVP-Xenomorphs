@@ -1,4 +1,4 @@
-﻿using RimWorld;
+using RimWorld;
 using RRYautja.ExtensionMethods;
 using System;
 using System.Collections.Generic;
@@ -108,7 +108,7 @@ namespace RRYautja
         {
             get
             {
-                Predicate<Pawn> validator = delegate (Pawn t)
+                Func<Pawn, bool> validator = delegate (Pawn t)
                 {
                     bool RoyalHugger = t.kindDef == RoyalKindDef;
                     bool RoyalHuggerInfection = (t.health.hediffSet.HasHediff(XenomorphDefOf.RRY_FaceHuggerInfection) && t.health.hediffSet.GetFirstHediffOfDef(XenomorphDefOf.RRY_FaceHuggerInfection).TryGetComp<HediffComp_XenoFacehugger>().RoyaleHugger);

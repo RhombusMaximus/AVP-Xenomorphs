@@ -1,4 +1,4 @@
-﻿using System;
+using System;
 using System.Linq;
 using RimWorld;
 
@@ -13,7 +13,8 @@ namespace Verse.AI
 			JobGiver_Xenomorph_ExitMap jobGiver_ExitMap = (JobGiver_Xenomorph_ExitMap)base.DeepCopy(resolve);
 			jobGiver_ExitMap.defaultLocomotion = this.defaultLocomotion;
 			jobGiver_ExitMap.jobMaxDuration = this.jobMaxDuration;
-			jobGiver_ExitMap.canBash = this.canBash;
+            // TODO: canBash removed from Job in 1.6
+            // jobGiver_ExitMap.canBash = this.canBash;
 			jobGiver_ExitMap.forceCanDig = this.forceCanDig;
 			jobGiver_ExitMap.forceCanDigIfAnyHostileActiveThreat = this.forceCanDigIfAnyHostileActiveThreat;
 			jobGiver_ExitMap.forceCanDigIfCantReachMapEdge = this.forceCanDigIfCantReachMapEdge;

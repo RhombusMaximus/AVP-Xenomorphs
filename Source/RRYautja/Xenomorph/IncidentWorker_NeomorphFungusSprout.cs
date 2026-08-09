@@ -1,4 +1,4 @@
-﻿using RimWorld;
+using RimWorld;
 using System;
 using System.Collections.Generic;
 using Verse;
@@ -16,8 +16,8 @@ namespace RRYautja
 				return false;
 			}
 			Map map = (Map)parms.target;
-			IntVec3 intVec;
-			return PlantUtility.GrowthSeasonNow(map, XenomorphDefOf.RRY_Plant_Neomorph_Fungus) && this.TryFindRootCell(map, out intVec);
+			IntVec3 intVec = IntVec3.Invalid;
+			return PlantUtility.GrowthSeasonNow(map, XenomorphDefOf.RRY_Plant_Neomorph_Fungus) && this.TryFindRootCell(map, out IntVec3 cell);
 		}
 
 		// Token: 0x06000E23 RID: 3619 RVA: 0x00069D68 File Offset: 0x00068168
@@ -42,8 +42,8 @@ namespace RRYautja
 			int randomInRange = IncidentWorker_NeomorphFungusSprout.CountRange.RandomInRange;
 			for (int i = 0; i < randomInRange; i++)
 			{
-				IntVec3 intVec;
-				if (!CellFinder.TryRandomClosewalkCellNear(root, map, 6, out intVec, (IntVec3 x) => this.CanSpawnAt(x, map)))
+				IntVec3 intVec = IntVec3.Invalid;
+				if (!CellFinder.TryRandomClosewalkCellNear(root, map, 6, out IntVec3 vec3, (IntVec3 x) => this.CanSpawnAt(x, map)))
 				{
 					break;
 				}

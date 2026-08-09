@@ -1,4 +1,4 @@
-﻿using RimWorld;
+using RimWorld;
 using RimWorld.Planet;
 using System;
 using System.Collections.Generic;
@@ -80,7 +80,7 @@ namespace RRYautja
                     int goodwillChange = -15;
                     string reason = "GoodwillChangedReason_RemovedBodyPart".Translate(part.LabelShort);
                     GlobalTargetInfo? lookTarget = new GlobalTargetInfo?(pawn);
-                    faction.TryAffectGoodwillWith(faction2, goodwillChange, true, true, null, reason, lookTarget);
+                    faction.TryAffectGoodwillWith(faction2, goodwillChange, true, true, null, null); // TODO: reason/HistoryEventDef param changed in 1.6 // TODO: lookTarget param removed in 1.6
                 }
             }
 
@@ -120,7 +120,7 @@ namespace RRYautja
                 int goodwillChange = -15;
                 string reason = "GoodwillChangedReason_RemovedBodyPart".Translate(part.LabelShort);
                 GlobalTargetInfo? lookTarget = new GlobalTargetInfo?(pawn);
-                faction.TryAffectGoodwillWith(faction2, goodwillChange, true, true, null, reason, lookTarget);
+                faction.TryAffectGoodwillWith(faction2, goodwillChange, true, true, null, null); // TODO: reason/HistoryEventDef param changed in 1.6 // TODO: lookTarget param removed in 1.6
             }
             */
         }

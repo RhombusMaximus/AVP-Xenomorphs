@@ -1,4 +1,4 @@
-﻿using System;
+using System;
 using System.Collections.Generic;
 using UnityEngine;
 using Verse;
@@ -17,7 +17,7 @@ namespace RimWorld
 
         protected override bool TryExecuteWorker(IncidentParms parms)
         {
-            int num = this.worldObject.Tile;
+            RimWorld.Planet.PlanetTile num = this.worldObject.Tile;
             if (num == -1)
             {
                 if (!TileFinder.TryFindNewSiteTile(out num, 7, 27, false, null, 0.5f, true, TileFinderMode.Near, false, false))

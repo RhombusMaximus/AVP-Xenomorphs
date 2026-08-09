@@ -6,6 +6,7 @@ using System.Collections.Generic;
 using System.Text;
 using UnityEngine;
 using Verse;
+using System.Linq;
 
 namespace RRYautja
 {
@@ -100,7 +101,7 @@ namespace RRYautja
             get
             {
                 bool selected = Find.Selector.SelectedObjects.Contains(Pawn) && Prefs.DevMode;
-                Predicate<Pawn> validator = delegate (Pawn t)
+                Func<Pawn, bool> validator = delegate (Pawn t)
                 {
                     bool SelfFlag = t != Pawn;
                     bool RoyalHuggerInfection = (t.health.hediffSet.HasHediff(XenomorphDefOf.RRY_FaceHuggerInfection) && t.health.hediffSet.GetFirstHediffOfDef(XenomorphDefOf.RRY_FaceHuggerInfection).TryGetComp<HediffComp_XenoFacehugger>().RoyaleHugger);

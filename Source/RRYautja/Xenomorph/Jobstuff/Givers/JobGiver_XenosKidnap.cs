@@ -1,4 +1,4 @@
-﻿using RRYautja;
+using RRYautja;
 using RRYautja.ExtensionMethods;
 using System;
 using System.Collections.Generic;
@@ -26,7 +26,8 @@ namespace RimWorld
             JobGiver_XenosKidnap jobGiver_XenosKidnap = (JobGiver_XenosKidnap)base.DeepCopy(resolve);
             jobGiver_XenosKidnap.HuntingRange = this.HuntingRange;
             jobGiver_XenosKidnap.forceRoofed = this.forceRoofed;
-            jobGiver_XenosKidnap.canBash = this.canBash;
+            // TODO: canBash removed from Job in 1.6
+            // jobGiver_XenosKidnap.canBash = this.canBash;
             jobGiver_XenosKidnap.forceCanDig = this.forceCanDig;
             jobGiver_XenosKidnap.allowCocooned = this.allowCocooned;
             jobGiver_XenosKidnap.allowHosts = this.allowHosts;
