@@ -447,7 +447,7 @@ namespace RRYautja
             this.impactAngleVect = Vector3Utility.HorizontalVectorFromAngle(dinfo.Angle);
             Vector3 loc = base.Wearer.TrueCenter() + this.impactAngleVect.RotatedBy(180f) * 0.5f;
             float num = Mathf.Min(10f, 2f + (float)dinfo.Amount / 10f);
-            MoteMaker.MakeStaticMote(loc, base.Wearer.Map, ThingDefOf.Mote_ExplosionFlash, num);
+            FleckMaker.Static(loc, base.Wearer.Map, FleckDefOf.ExplosionFlash, num);
             int num2 = (int)num;
             for (int i = 0; i < num2; i++)
             {
@@ -460,8 +460,8 @@ namespace RRYautja
         // Token: 0x0600005C RID: 92 RVA: 0x00003EBC File Offset: 0x000020BC
         private void Break()
         {
-            SoundDefOf.EnergyShield_Broken.PlayOneShot(new TargetInfo(base.Wearer.Position, base.Wearer.Map, false));
-            MoteMaker.MakeStaticMote(base.Wearer.TrueCenter(), base.Wearer.Map, ThingDefOf.Mote_ExplosionFlash, 12f);
+            SoundDefOf.EnergyShield_AbsorbDamage.PlayOneShot(new TargetInfo(base.Wearer.Position, base.Wearer.Map, false));
+            FleckMaker.Static(base.Wearer.TrueCenter(), base.Wearer.Map, FleckDefOf.ExplosionFlash, 12f);
             for (int i = 0; i < 6; i++)
             {
                 FleckMaker.ThrowDustPuff(base.Wearer.TrueCenter() + Vector3Utility.HorizontalVectorFromAngle((float)Rand.Range(0, 360)) * Rand.Range(0.3f, 0.6f), base.Wearer.Map, Rand.Range(0.8f, 1.2f));

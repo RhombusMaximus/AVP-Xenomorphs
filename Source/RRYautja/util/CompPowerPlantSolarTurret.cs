@@ -35,8 +35,8 @@ namespace RimWorld
         {
             base.SetUpPowerVars();
             CompProperties_SolarCell props = this.Props;
-            this.PowerOutput = -1f * props.basePowerConsumption;
-            this.powerLastOutputted = (props.basePowerConsumption <= 0f);
+            this.PowerOutput = -1f * 0f; // basePowerConsumption removed in 1.6
+            this.powerLastOutputted = (0f <= 0f); // basePowerConsumption removed in 1.6
         }
 
         // Token: 0x1700028D RID: 653 transNet

@@ -53,7 +53,7 @@ namespace RRYautja
                 //    Log.Message(string.Format("{0} observed {1}", pawn.LabelShortCap, observed.LabelShortCap));
                     if (thoughtGiver != null)
                     {
-                        Thought_Memory thought_Memory = thoughtGiver.GiveObservedThought();
+                        Thought_Memory thought_Memory = thoughtGiver.GiveObservedThought(__instance);
                         if (thought_Memory != null)
                         {
                             //Log.Message(string.Format("{0} TryGainMemory {1}", pawn.LabelShortCap, thought_Memory.LabelCap));

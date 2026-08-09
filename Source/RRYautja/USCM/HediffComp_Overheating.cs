@@ -18,7 +18,7 @@ namespace RRYautja
     public class HediffComp_Overheating : HediffComp
     {
         public HediffCompProperties_Overheating Props => (HediffCompProperties_Overheating)this.props;
-        public HediffDef burn = HediffDefOf.Burn;
+        public HediffDef burn = DefDatabase<HediffDef>.GetNamed("Burn");
         public override void CompExposeData()
         {
             Scribe_Values.Look(ref this.ticksUntilSmoke, "ticksUntilSmoke");
@@ -47,7 +47,7 @@ namespace RRYautja
                                 Pawn.health.AddHediff(HediffMaker.MakeHediff(burn, Pawn, damaged));
                                 if (Rand.Chance(chance / 10))
                                 {
-                                    Pawn.TryAttachFire(chance / 4);
+                                    Pawn.TryAttachFire(chance / 4, null);
                                 }
                                 else
                                 {
@@ -94,7 +94,7 @@ namespace RRYautja
             }
             if (parent.Severity > 1.25f && this.parent == null)
             {
-                FleckMaker.ThrowFireGlow(Pawn.Position, Pawn.Map, Pawn.BodySize);
+                FleckMaker.ThrowFireGlow(Pawn.Position.ToVector3Shifted(), Pawn.Map, Pawn.BodySize);
             }
             float num = Pawn.BodySize / 2f;
             if (num > 1f)

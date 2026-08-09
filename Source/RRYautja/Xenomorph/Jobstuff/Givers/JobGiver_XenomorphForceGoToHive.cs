@@ -13,7 +13,7 @@ namespace Verse.AI
             JobGiver_XenomorphForceGoToHive jobGiver_ForceGoTo = (JobGiver_XenomorphForceGoToHive)base.DeepCopy(resolve);
             jobGiver_ForceGoTo.defaultLocomotion = this.defaultLocomotion;
             jobGiver_ForceGoTo.jobMaxDuration = this.jobMaxDuration;
-            jobGiver_ForceGoTo.canBash = this.canBash;
+            jobGiver_ForceGoTo.canBashDoors = this.canBash;
             jobGiver_ForceGoTo.forceCanDig = this.forceCanDig;
             jobGiver_ForceGoTo.forceCanDigIfAnyHostileActiveThreat = this.forceCanDigIfAnyHostileActiveThreat;
             jobGiver_ForceGoTo.forceCanDigIfCantReachMapEdge = this.forceCanDigIfCantReachMapEdge;
@@ -114,7 +114,7 @@ namespace Verse.AI
                 failIfCantJoinOrCreateCaravan = this.failIfCantJoinOrCreateCaravan,
                 locomotionUrgency = PawnUtility.ResolveLocomotion(pawn, this.defaultLocomotion, LocomotionUrgency.Jog),
                 expiryInterval = this.jobMaxDuration,
-                canBash = this.canBash
+                canBashDoors = this.canBash
             };
         }
 

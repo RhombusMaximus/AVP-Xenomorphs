@@ -288,7 +288,7 @@ namespace RimWorld
 						minDist = 0f;
 					}
                     */
-					flag = CellFinder.TryFindRandomReachableCellNear(pos, map, maxDist, TraverseParms.For(TraverseMode.NoPassClosedDoors, Danger.Deadly, false), (IntVec3 c) => CompSpawnerHiveLikes.CanSpawnHiveAt(c, map, pos, parentDef, minDist, ignoreRoofedRequirement), null, out intVec, 999999);
+					flag = CellFinder.TryFindRandomReachableNearbyCell(pos, map, maxDist, TraverseParms.For(TraverseMode.NoPassClosedDoors, Danger.Deadly, false), (IntVec3 c) => CompSpawnerHiveLikes.CanSpawnHiveAt(c, map, pos, parentDef, minDist, ignoreRoofedRequirement), null, out intVec, 999999);
 				}
 				else
 				{

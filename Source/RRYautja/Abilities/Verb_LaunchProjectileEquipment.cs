@@ -127,7 +127,7 @@ namespace RRYautja
             ThingDef targetCoverDef = (randomCoverToMissInto != null) ? randomCoverToMissInto.def : null;
             if (!Rand.Chance(shotReport.AimOnTargetChance_IgnoringPosture))
             {
-                shootLine.ChangeDestToMissWild(shotReport.AimOnTargetChance_StandardTarget, false, __instance.caster.Map);
+                shootLine.ChangeDestToMissWild(shotReport.AimOnTargetChance_StandardTarget, false, this.caster.Map);
                 this.ThrowDebugText("ToWild" + (this.canHitNonTargetPawnsNow ? "\nchntp" : ""));
                 this.ThrowDebugText("Wild\nDest", shootLine.Dest);
                 ProjectileHitFlags projectileHitFlags2 = ProjectileHitFlags.NonTargetWorld;

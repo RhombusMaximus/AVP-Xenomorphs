@@ -98,7 +98,7 @@ namespace RRYautja
 #endif
                     return RoyalHugger || RoyalHuggerInfection || RoyalImpregnation || RoyalHiddenImpregnation;
                 };
-                return MyMap.mapPawns.AllPawnsSpawned.Any(validator);
+                return MyMap.mapPawns.AllPawnsSpawned.Any((Func<Pawn, bool>)validator);
             }
         }
 

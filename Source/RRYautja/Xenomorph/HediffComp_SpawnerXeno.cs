@@ -108,7 +108,7 @@ namespace RRYautja
                     bool RoyalHiddenImpregnation = (t.health.hediffSet.HasHediff(XenomorphDefOf.RRY_HiddenXenomorphImpregnation) && t.health.hediffSet.GetFirstHediffOfDef(XenomorphDefOf.RRY_HiddenXenomorphImpregnation).TryGetComp<HediffComp_XenoSpawner>().RoyaleHugger);
                     return SelfFlag || RoyalHuggerInfection || RoyalImpregnation || RoyalHiddenImpregnation;
                 };
-                return MyMap.mapPawns.AllPawnsSpawned.Any(validator);
+                return MyMap.mapPawns.AllPawnsSpawned.Any((Func<Pawn, bool>)validator);
             }
         }
 

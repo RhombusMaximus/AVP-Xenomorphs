@@ -96,7 +96,7 @@ namespace RimWorld
         {
             mapRect.ClipInsideMap(map);
             CellRect cellRect;
-            cellRect = new CellRect(mapRect.BottomLeft.x + 1, mapRect.BottomLeft.z + 1, 2, 1);
+            cellRect = new CellRect(mapRect.minX + 1, mapRect.minZ + 1, 2, 1);
             cellRect.ClipInsideMap(map);
             foreach (IntVec3 intVec in cellRect)
             {
@@ -111,7 +111,7 @@ namespace RimWorld
                 }
             }
             Building_XenomorphCryptosleepCasket building_CryptosleepCasket = (Building_XenomorphCryptosleepCasket)ThingMaker.MakeThing(thingDef, null);
-            building_CryptosleepCasket.SetPositionDirect(cellRect.BottomLeft);
+            building_CryptosleepCasket.SetPositionDirect(cellRect.Min);
             bool flag2 = Rand.Value < 0.5f;
             if (flag2)
             {

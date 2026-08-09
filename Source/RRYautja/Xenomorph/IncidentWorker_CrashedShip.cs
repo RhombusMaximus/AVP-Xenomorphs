@@ -44,7 +44,7 @@ namespace RRYautja
             for (int i = 0; i < countToSpawn; i++)
             {
                 IntVec3 intVec;
-                if (!CellFinderLoose.TryFindSkyfallerCell(ThingDefOf.CrashedShipPartIncoming, map, out intVec, 14, default(IntVec3), -1, false, true, true, true, true, false, null))
+                if (!CellFinderLoose.TryFindSkyfallerCell(ThingDefOf.CrashedShipPartIncoming, map, null, out intVec, 14, default(IntVec3), -1, false, true, true, true, true, false, null))
                 {
                     break;
                 }

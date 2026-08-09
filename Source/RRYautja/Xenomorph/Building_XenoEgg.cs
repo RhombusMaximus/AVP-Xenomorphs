@@ -129,7 +129,7 @@ namespace RRYautja
                     bool RoyalHiddenImpregnation = (t.health.hediffSet.HasHediff(XenomorphDefOf.RRY_HiddenXenomorphImpregnation) && t.health.hediffSet.GetFirstHediffOfDef(XenomorphDefOf.RRY_HiddenXenomorphImpregnation).TryGetComp<HediffComp_XenoSpawner>().RoyaleHugger);
                     return RoyalHugger || RoyalHuggerInfection || RoyalImpregnation || RoyalHiddenImpregnation || QueenPresent;
                 };
-                return MyMap.mapPawns.AllPawnsSpawned.Any(validator);
+                return MyMap.mapPawns.AllPawnsSpawned.Any((Func<Pawn, bool>)validator);
             }
         }
         public Vector2 DrawSize
@@ -489,7 +489,7 @@ namespace RRYautja
                             {
                                 if (pawn.playerSettings != null && this.hatcheeParent.playerSettings != null && this.hatcheeParent.Faction == this.hatcheeFaction)
                                 {
-                                    pawn.playerSettings.AreaRestriction = this.hatcheeParent.playerSettings.AreaRestriction;
+                                    pawn.playerSettings.AreaRestrictionInPawnCurrentMap = this.hatcheeParent.playerSettings.AreaRestrictionInPawnCurrentMap;
                                 }
                                 if (pawn.RaceProps.IsFlesh)
                                 {

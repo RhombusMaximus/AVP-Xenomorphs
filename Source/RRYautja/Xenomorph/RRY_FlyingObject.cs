@@ -167,7 +167,7 @@ namespace RRYautja
                         return;
                     }
                     Pawn pawn = this.flyingThing as Pawn;
-                    pawn.Drawer.DrawAt(this.DrawPos);
+                    pawn.Drawer.renderer.DrawAt(this.DrawPos);
                 }
                 else
                 {
@@ -231,7 +231,7 @@ namespace RRYautja
                 bool flag5 = this.explosion;
                 if (flag5)
                 {
-                    GenExplosion.DoExplosion(base.Position, base.Map, 0.9f, DamageDefOf.Stun, this, -1, -1f, null, null, null, null, null, 0f, 1, false, null, 0f, 1, 0f, false);
+                    GenExplosion.DoExplosion(base.Position, base.Map, 0.9f, DamageDefOf.Stun, this, -1, -1f, null, null, null, null, null, 0f, 1, null, null, 255, false, null, 0f, 1, 0f, false);
                 }
             }
             GenSpawn.Spawn(this.flyingThing, base.Position, base.Map, 0);

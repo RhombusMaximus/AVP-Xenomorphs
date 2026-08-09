@@ -74,7 +74,7 @@ namespace RRYautja
 											}
 										}
 										*/
-										__instance.forceIncap = false;
+										__instance.forceDowned = false;
 										methodBase.Invoke(__instance, new object[]
 										{
 											dinfo,

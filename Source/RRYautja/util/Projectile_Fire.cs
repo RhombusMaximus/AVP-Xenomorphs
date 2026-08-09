@@ -70,7 +70,7 @@ namespace RRYautja
             cellsToAffect.Clear();
             cellsToAffect.AddRange(def.projectile.damageDef.Worker.ExplosionCellsToHit(Position, map, radius));
 
-            MoteMaker.MakeStaticMote(Position, map, ThingDefOf.Mote_ExplosionFlash, radius * 4f);
+            FleckMaker.Static(Position, map, FleckDefOf.ExplosionFlash, radius * 4f);
             for (int i = 0; i < 4; i++)
             {
                 FleckMaker.ThrowSmoke(Position.ToVector3Shifted() + Gen.RandomHorizontalVector(radius * 0.7f), map, radius * 0.6f);
@@ -82,7 +82,7 @@ namespace RRYautja
                     var fireSize = radius - vec3.DistanceTo(Position);
                     if (fireSize > 0.1f)
                     {
-                        FireUtility.TryStartFireIn(vec3, map, fireSize);
+                        FireUtility.TryStartFireIn(vec3, map, fireSize, this.launcher);
                     }
                 }
 
@@ -93,7 +93,7 @@ namespace RRYautja
                 effecter.Trigger(new TargetInfo(this.Position, map, false), new TargetInfo(this.Position, map, false));
                 effecter.Cleanup();
             }
-            GenExplosion.DoExplosion(this.Position, map, this.def.projectile.explosionRadius, this.def.projectile.damageDef, this.launcher, this.def.projectile.GetDamageAmount(1, null), this.def.projectile.GetArmorPenetration(1, null), this.def.projectile.soundExplode, this.equipmentDef, this.def, null, this.def.projectile.postExplosionSpawnThingDef, this.def.projectile.postExplosionSpawnChance, this.def.projectile.postExplosionSpawnThingCount, this.def.projectile.applyDamageToExplosionCellsNeighbors, this.def.projectile.preExplosionSpawnThingDef, this.def.projectile.preExplosionSpawnChance, this.def.projectile.preExplosionSpawnThingCount, this.def.projectile.explosionChanceToStartFire, this.def.projectile.explosionDamageFalloff);
+            GenExplosion.DoExplosion(this.Position, map, this.def.projectile.explosionRadius, this.def.projectile.damageDef, this.launcher, this.def.projectile.GetDamageAmount(this.launcher), this.def.projectile.GetArmorPenetration(this.launcher), this.def.projectile.soundExplode, this.equipmentDef, this.def, null, this.def.projectile.postExplosionSpawnThingDef, this.def.projectile.postExplosionSpawnChance, this.def.projectile.postExplosionSpawnThingCount, null, null, 255, this.def.projectile.applyDamageToExplosionCellsNeighbors, this.def.projectile.preExplosionSpawnThingDef, this.def.projectile.preExplosionSpawnChance, this.def.projectile.preExplosionSpawnThingCount, this.def.projectile.explosionChanceToStartFire, this.def.projectile.explosionDamageFalloff);
         }
 
         protected void TrySpread()
@@ -129,7 +129,7 @@ namespace RRYautja
                 }
                 else
                 {
-                    FireUtility.TryStartFireIn(intVec, base.Map, 0.1f);
+                    FireUtility.TryStartFireIn(intVec, base.Map, 0.1f, this.launcher);
                 }
             }
         }

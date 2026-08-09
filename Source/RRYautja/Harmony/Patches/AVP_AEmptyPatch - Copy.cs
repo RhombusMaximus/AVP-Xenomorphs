@@ -137,11 +137,11 @@ namespace RRYautja
                 if (info.innerContainer.Contains(USCMDefOf.RRY_USCM_DropshipUD4L))
                 {
                 //    Log.Message(string.Format("pods: {0}", info.innerContainer.ContentsString));
-                    Thing lookTarget = TransportPodsArrivalActionUtility.GetLookTarget(pods);
+                    Thing lookTarget = null // TransportPodsArrivalActionUtility.GetLookTarget(pods) // Removed in 1.6;
                     Traverse tv = Traverse.Create(__instance);
                     IntVec3 c = tv.Field("cell").GetValue<IntVec3>();
                     Map map = tv.Field("mapParent").GetValue<MapParent>().Map;
-                    TransportPodsArrivalActionUtility.RemovePawnsFromWorldPawns(pods);
+                    // TransportPodsArrivalActionUtility.RemovePawnsFromWorldPawns(pods) // Removed in 1.6;
                     for (int i = 0; i < pods.Count; i++)
                     {
                         DropPodUtility.MakeDropPodAt(c, map, pods[i]);

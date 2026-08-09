@@ -54,7 +54,7 @@ namespace RRYautja
         }
         public static void ThumperPatch()
         {
-            AvPMod.harmony.Patch(AccessTools.Method(typeof(Thumper.HarmonyPatches), "AlienVsPredator_Compatibility", null, null), new HarmonyMethod(Main.patchType, "AlienVsPredator_Compatibility_Prefix", null));
+            // AvPMod.harmony.Patch(AccessTools.Method(typeof(Thumper.HarmonyPatches), "AlienVsPredator_Compatibility", null, null), new HarmonyMethod(Main.patchType, "AlienVsPredator_Compatibility_Prefix", null)); // Thumper mod not available
         }
         public static bool AlienVsPredator_Compatibility_Prefix()
         {

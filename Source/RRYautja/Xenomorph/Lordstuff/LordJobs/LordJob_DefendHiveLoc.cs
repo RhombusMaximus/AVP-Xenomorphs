@@ -40,7 +40,7 @@ namespace RimWorld
             Transition transition3 = new Transition(lordToil_DefendBase, lordToil_AssaultColony, false, true);
             transition3.AddTrigger(new Trigger_FractionPawnsLost(0.2f));
             transition3.AddTrigger(new Trigger_PawnHarmed(0.4f, true)); //, null));
-            //    transition3.AddTrigger(new Trigger_ChanceOnTickInteval(2500, 0.03f));
+            //    transition3.AddTrigger(new Trigger_ChanceOnTickInterval(2500, 0.03f));
             //    transition3.AddTrigger(new Trigger_TicksPassed(251999));
             transition3.AddTrigger(new Trigger_UrgentlyHungry());
             transition3.AddTrigger(new Trigger_ChanceOnPlayerHarmNPCBuilding(0.4f));
@@ -50,7 +50,7 @@ namespace RimWorld
             stateGraph.AddTransition(transition3, false);
 
             Transition transition4 = new Transition(lordToil_AssaultColony, lordToil_DefendBase2, false, true);
-                transition4.AddTrigger(new Trigger_ChanceOnTickInteval(2500, 0.03f));
+                transition4.AddTrigger(new Trigger_ChanceOnTickInterval(2500, 0.03f));
                 transition4.AddTrigger(new Trigger_TicksPassedWithoutHarm(9000));
             transition4.AddPostAction(new TransitionAction_EndAllJobs());
             string message2 = "MessageDefendersAttacking".Translate(this.faction.def.pawnsPlural, this.faction.Name, Faction.OfPlayer.def.pawnsPlural).CapitalizeFirst();

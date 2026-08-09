@@ -77,7 +77,7 @@ namespace RRYautja
         public override void CompTick()
         {
             base.CompTick();
-            this.innerContainer.DoTick(true);
+            this.innerContainer.DoTick();
         }
 
         // Token: 0x06002A31 RID: 10801 RVA: 0x0013F2F8 File Offset: 0x0013D6F8

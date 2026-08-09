@@ -27,10 +27,10 @@ namespace RRYautja
             }
             num *= Recipe_Surgery_RRY.MedicineMedicalPotencyToSurgeryChanceFactor.Evaluate(this.GetAverageMedicalPotency(ingredients, bill));
             num *= this.recipe.surgerySuccessChanceFactor;
-            if (surgeon.InspirationDef == InspirationDefOf.Inspired_Surgery && !patient.RaceProps.IsMechanoid)
+            if (surgeon.InspirationDef == DefDatabase<InspirationDef>.GetNamedSilentFail("Inspired_Surgery") && !patient.RaceProps.IsMechanoid)
             {
                 num *= 2f;
-                surgeon.mindState.inspirationHandler.EndInspiration(InspirationDefOf.Inspired_Surgery);
+                surgeon.mindState.inspirationHandler.EndInspiration(DefDatabase<InspirationDef>.GetNamedSilentFail("Inspired_Surgery"));
             }
             num = Mathf.Min(num, 0.98f);
             if (!Rand.Chance(num))
@@ -130,7 +130,7 @@ namespace RRYautja
             ThingDef thingDef;
             if (bill is Bill_Medical bill_Medical)
             {
-                thingDef = bill_Medical.consumedInitialMedicineDef;
+                thingDef = bill_Medical.consumedMedicine.Keys.FirstOrDefault();
             }
             else
             {

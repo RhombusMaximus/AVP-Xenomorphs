@@ -194,7 +194,7 @@ namespace RimWorld
                 this.sustainer.Maintain();
                 Vector3 vector = base.Position.ToVector3Shifted();
                 ResetStaticData();
-                if (Rand.MTBEventOccurs(FilthSpawnMTB, 1f, 1.TicksToSeconds()) && CellFinder.TryFindRandomReachableCellNear(base.Position, base.Map, TunnelHiveLikeSpawner.FilthSpawnRadius, TraverseParms.For(TraverseMode.NoPassClosedDoors, Danger.Deadly, false), null, null, out IntVec3 c, 999999))
+                if (Rand.MTBEventOccurs(FilthSpawnMTB, 1f, 1.TicksToSeconds()) && CellFinder.TryFindRandomReachableNearbyCell(base.Position, base.Map, TunnelHiveLikeSpawner.FilthSpawnRadius, TraverseParms.For(TraverseMode.NoPassClosedDoors, Danger.Deadly, false), null, null, out IntVec3 c, 999999))
                 {
                     FilthMaker.TryMakeFilth(c, base.Map, filthTypes.RandomElement<ThingDef>(), 1);
                 }
@@ -220,7 +220,7 @@ namespace RimWorld
                         }
                         if (Def.explodesprespawn)
                         {
-                            GenExplosion.DoExplosion(position, map, Def.blastradius, Def.damageDef, null, -1, -1f, null, null, null, null, null, 0f, 1, false, null, 0f, 1, 0f, false);
+                            GenExplosion.DoExplosion(position, map, Def.blastradius, Def.damageDef, null, -1, -1f, null, null, null, null, null, 0f, 1, null, null, 255, false, null, 0f, 1, 0f, false);
 
                         }
                         hive = (HiveLike)GenSpawn.Spawn(ThingMaker.MakeThing(hiveDef, null), position, map, WipeMode.Vanish);

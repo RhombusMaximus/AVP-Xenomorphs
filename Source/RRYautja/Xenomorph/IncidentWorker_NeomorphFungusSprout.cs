@@ -17,7 +17,7 @@ namespace RRYautja
 			}
 			Map map = (Map)parms.target;
 			IntVec3 intVec;
-			return map.weatherManager.growthSeasonMemory.GrowthSeasonOutdoorsNow && this.TryFindRootCell(map, out intVec);
+			return PlantUtility.GrowthSeasonNow(map, XenomorphDefOf.RRY_Plant_Neomorph_Fungus) && this.TryFindRootCell(map, out intVec);
 		}
 
 		// Token: 0x06000E23 RID: 3619 RVA: 0x00069D68 File Offset: 0x00068168
@@ -78,7 +78,7 @@ namespace RRYautja
 		// Token: 0x06000E25 RID: 3621 RVA: 0x00069E88 File Offset: 0x00068288
 		private bool CanSpawnAt(IntVec3 c, Map map)
 		{
-			if (!c.Standable(map) || c.Fogged(map) || map.fertilityGrid.FertilityAt(c) < XenomorphDefOf.RRY_Plant_Neomorph_Fungus.plant.fertilityMin || !RegionAndRoomQuery.RoomAt(c, map, RegionType.Set_Passable).PsychologicallyOutdoors || c.GetEdifice(map) != null || !PlantUtility.GrowthSeasonNow(c, map, false))
+			if (!c.Standable(map) || c.Fogged(map) || map.fertilityGrid.FertilityAt(c) < XenomorphDefOf.RRY_Plant_Neomorph_Fungus.plant.fertilityMin || !RegionAndRoomQuery.RoomAt(c, map, RegionType.Set_Passable).PsychologicallyOutdoors || c.GetEdifice(map) != null || !PlantUtility.GrowthSeasonNow(c, map, XenomorphDefOf.RRY_Plant_Neomorph_Fungus))
 			{
 				return false;
 			}

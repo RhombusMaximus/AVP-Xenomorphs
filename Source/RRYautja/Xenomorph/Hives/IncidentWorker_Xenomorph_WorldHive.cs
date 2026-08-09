@@ -20,14 +20,14 @@ namespace RimWorld
             int num = this.worldObject.Tile;
             if (num == -1)
             {
-                if (!TileFinder.TryFindNewSiteTile(out num, 7, 27, false, true, -1))
+                if (!TileFinder.TryFindNewSiteTile(out num, 7, 27, false, null, 0.5f, true, TileFinderMode.Near, false, false))
                 {
                     num = -1;
                 }
             }
             else if (Find.WorldObjects.AnyWorldObjectAt(num))
             {
-                if (!TileFinder.TryFindPassableTileWithTraversalDistance(num, 1, 50, out num, (int x) => !Find.WorldObjects.AnyWorldObjectAt(x), false, true, false))
+                if (!TileFinder.TryFindPassableTileWithTraversalDistance(num, 1, 50, out num, (PlanetTile x) => !Find.WorldObjects.AnyWorldObjectAt(x), false, TileFinderMode.Random, false))
                 {
                     num = -1;
                 }

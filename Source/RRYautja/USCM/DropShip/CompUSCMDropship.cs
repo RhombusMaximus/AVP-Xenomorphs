@@ -505,7 +505,7 @@ namespace RRYautja
                 Messages.Message("MessageTransportPodsDestinationIsTooFar".Translate(CompUSCMDropship.FuelNeededToLaunchAtDist((float)num).ToString("0.#")), MessageTypeDefOf.RejectInput, false);
                 return false;
             }
-            if (Find.WorldGrid[target.Tile].biome.impassable || Find.World.Impassable(target.Tile))
+            if (Find.WorldGrid[target.Tile].PrimaryBiome.impassable || Find.World.Impassable(target.Tile))
             {
 
                 Messages.Message("MessageTransportPodsDestinationIsInvalid".Translate(), MessageTypeDefOf.RejectInput, false);
@@ -520,7 +520,7 @@ namespace RRYautja
 
             if (!transportPodsFloatMenuOptionsAt.Any<FloatMenuOption>())
             {
-                if (Find.WorldGrid[target.Tile].biome.impassable || Find.World.Impassable(target.Tile))
+                if (Find.WorldGrid[target.Tile].PrimaryBiome.impassable || Find.World.Impassable(target.Tile))
                 {
 
                     Messages.Message("MessageTransportPodsDestinationIsInvalid".Translate(), MessageTypeDefOf.RejectInput, false);
@@ -576,7 +576,7 @@ namespace RRYautja
                     IEnumerable<FloatMenuOption> transportPodsFloatMenuOptionsAt = this.GetTransportPodsFloatMenuOptionsAt(target.Tile);
                     if (!transportPodsFloatMenuOptionsAt.Any<FloatMenuOption>())
                     {
-                        if (Find.WorldGrid[target.Tile].biome.impassable || Find.World.Impassable(target.Tile))
+                        if (Find.WorldGrid[target.Tile].PrimaryBiome.impassable || Find.World.Impassable(target.Tile))
                         {
 
                             return ("MessageTransportPodsDestinationIsInvalid".Translate());
@@ -633,7 +633,7 @@ namespace RRYautja
                     IEnumerable<FloatMenuOption> transportPodsFloatMenuOptionsAt = this.GetTransportPodsFloatMenuOptionsAt(target.Tile, car);
                     if (!transportPodsFloatMenuOptionsAt.Any<FloatMenuOption>())
                     {
-                        if (Find.WorldGrid[target.Tile].biome.impassable || Find.World.Impassable(target.Tile))
+                        if (Find.WorldGrid[target.Tile].PrimaryBiome.impassable || Find.World.Impassable(target.Tile))
                         {
                             return ("MessageTransportPodsDestinationIsInvalid".Translate());
 
@@ -821,7 +821,7 @@ namespace RRYautja
                     Find.WorldObjects.Remove(cafr);
                 }
 
-                TravelingTransportPods travelingTransportPods = (TravelingTransportPods)WorldObjectMaker.MakeWorldObject(DefDatabase<WorldObjectDef>.GetNamed("RRY_USCM_TravelingDropshipUD4L", true));
+                TravellingTransporters travellingTransporters = (TravellingTransporters)WorldObjectMaker.MakeWorldObject(DefDatabase<WorldObjectDef>.GetNamed("RRY_USCM_TravelingDropshipUD4L", true));
                 travelingTransportPods.Tile = cafr.Tile;
                 travelingTransportPods.SetFaction(Faction.OfPlayer);
                 travelingTransportPods.destinationTile = destinationTile;
@@ -1008,13 +1008,13 @@ namespace RRYautja
                 float num = 0f;
                 for (int i = 0; i < transportersInGroup.Count; i++)
                 {
-                    Building fuelingPortSource = transportersInGroup[i].Launchable.FuelingPortSource;
+                    Building fuelingPortSource = transportersInGroup[i].Launchable.parent;
                     if (fuelingPortSource != null)
                     {
                         num = Mathf.Max(num, fuelingPortSource.GetComp<CompRefuelable>().Props.fuelCapacity);
                     }
                 }
-                return CompLaunchable.MaxLaunchDistanceAtFuelLevel(num);
+                return transportersInGroup[0].Launchable.MaxLaunchDistanceAtFuelLevel(num);
             }
         }
 

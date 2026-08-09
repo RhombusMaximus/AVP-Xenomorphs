@@ -90,7 +90,7 @@ namespace Verse
                         {
                             projectileHitFlags &= ~ProjectileHitFlags.NonTargetPawns;
                         }
-                        projectile2.Launch(launcher, drawPos, c, this.currentTarget, projectileHitFlags, false, equipment, null);
+                        projectile2.Launch(launcher, drawPos, new LocalTargetInfo(c), this.currentTarget, projectileHitFlags, false, equipment, null);
                         return true;
                     }
                 }
@@ -100,7 +100,7 @@ namespace Verse
             ThingDef targetCoverDef = randomCoverToMissInto?.def;
             if (!Rand.Chance(shotReport.AimOnTargetChance_IgnoringPosture))
             {
-                shootLine.ChangeDestToMissWild(shotReport.AimOnTargetChance_StandardTarget, false, __instance.caster.Map);
+                shootLine.ChangeDestToMissWild(shotReport.AimOnTargetChance_StandardTarget, false, this.caster.Map);
                 this.ThrowDebugText("ToWild" + ((!this.canHitNonTargetPawnsNow) ? string.Empty : "\nchntp"));
                 this.ThrowDebugText("Wild\nDest", shootLine.Dest);
                 ProjectileHitFlags projectileHitFlags2 = ProjectileHitFlags.NonTargetWorld;
@@ -108,7 +108,7 @@ namespace Verse
                 {
                     projectileHitFlags2 |= ProjectileHitFlags.NonTargetPawns;
                 }
-                projectile2.Launch(launcher, drawPos, shootLine.Dest, this.currentTarget, projectileHitFlags2, false, equipment, targetCoverDef);
+                projectile2.Launch(launcher, drawPos, new LocalTargetInfo(shootLine.Dest), this.currentTarget, projectileHitFlags2, false, equipment, targetCoverDef);
                 return true;
             }
             if (this.currentTarget.Thing != null && this.currentTarget.Thing.def.category == ThingCategory.Pawn && !Rand.Chance(shotReport.PassCoverChance))
@@ -120,7 +120,7 @@ namespace Verse
                 {
                     projectileHitFlags3 |= ProjectileHitFlags.NonTargetPawns;
                 }
-                projectile2.Launch(launcher, drawPos, randomCoverToMissInto, this.currentTarget, projectileHitFlags3, false, equipment, targetCoverDef);
+                projectile2.Launch(launcher, drawPos, new LocalTargetInfo(randomCoverToMissInto), this.currentTarget, projectileHitFlags3, false, equipment, targetCoverDef);
                 return true;
             }
             ProjectileHitFlags projectileHitFlags4 = ProjectileHitFlags.IntendedTarget;
@@ -140,7 +140,7 @@ namespace Verse
             }
             else
             {
-                projectile2.Launch(launcher, drawPos, shootLine.Dest, this.currentTarget, projectileHitFlags4, false, equipment, targetCoverDef);
+                projectile2.Launch(launcher, drawPos, new LocalTargetInfo(shootLine.Dest), this.currentTarget, projectileHitFlags4, false, equipment, targetCoverDef);
                 this.ThrowDebugText("Hit\nDest", shootLine.Dest);
             }
             return true;

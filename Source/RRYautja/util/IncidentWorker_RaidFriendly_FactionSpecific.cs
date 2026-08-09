@@ -43,11 +43,11 @@ namespace RimWorld
                 }
                 return true;
             }
-            if (!base.CandidateFactions(map, false).Any<Faction>())
+            if (!base.CandidateFactions(parms, false).Any<Faction>())
             {
                 return false;
             }
-            parms.faction = base.CandidateFactions(map, false).RandomElementByWeight((Faction fac) => (float)fac.PlayerGoodwill + 120.000008f);
+            parms.faction = base.CandidateFactions(parms, false).RandomElementByWeight((Faction fac) => (float)fac.PlayerGoodwill + 120.000008f);
             return true;
         }
 

@@ -44,7 +44,7 @@ namespace RimWorld
             raidParms.points = Mathf.Max((raidParms.points / 5) * IncidentWorker_PowerCut.RaidPointsFactorRange.RandomInRange, 500f);
             raidParms.pawnGroupMakerSeed = new int?(@int);
             PawnGroupMakerParms defaultPawnGroupMakerParms = IncidentParmsUtility.GetDefaultPawnGroupMakerParms(PawnGroupKindDefOf.Combat, raidParms, true);
-            defaultPawnGroupMakerParms.points = IncidentWorker_Raid.AdjustedRaidPoints(defaultPawnGroupMakerParms.points, XenomorphDefOf.RRY_DropThroughRoofNearPower, XenomorphDefOf.RRY_PowerCut, defaultPawnGroupMakerParms.faction, PawnGroupKindDefOf.Combat);
+            defaultPawnGroupMakerParms.points = IncidentWorker_Raid.AdjustedRaidPoints(defaultPawnGroupMakerParms.points, XenomorphDefOf.RRY_DropThroughRoofNearPower, XenomorphDefOf.RRY_PowerCut, defaultPawnGroupMakerParms.faction, PawnGroupKindDefOf.Combat, raidParms.target);
             IEnumerable<PawnKindDef> pawnKinds = PawnGroupMakerUtility.GeneratePawnKindsExample(defaultPawnGroupMakerParms);
 
             base.SendStandardLetter(parms, null);

@@ -64,7 +64,7 @@ namespace RimWorld
                 {
                     return false;
                 }
-                if (thing.def.category != ThingCategory.Plant && GenSpawn.SpawningWipes(ThingDefOf.ActiveTransporter, thing.def))
+                if (thing.def.category != ThingCategory.Plant && GenSpawn.SpawningWipes(ThingDefOf.ActiveDropPod, thing.def))
                 {
                     return false;
                 }

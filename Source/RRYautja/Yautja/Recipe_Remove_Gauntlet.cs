@@ -69,9 +69,9 @@ namespace RRYautja
                 {
                     if (pawn.Dead)
                     {
-                        ThoughtUtility.GiveThoughtsForPawnExecuted(pawn, PawnExecutionKind.OrganHarvesting);
+                        ThoughtUtility.GiveThoughtsForPawnExecuted(pawn, null, PawnExecutionKind.OrganHarvesting);
                     }
-                    ThoughtUtility.GiveThoughtsForPawnOrganHarvested(pawn);
+                    ThoughtUtility.GiveThoughtsForPawnOrganHarvested(pawn, null);
                 }
                 if (flag2 && pawn.Faction != null && billDoer != null && billDoer.Faction != null)
                 {
@@ -80,7 +80,7 @@ namespace RRYautja
                     int goodwillChange = -15;
                     string reason = "GoodwillChangedReason_RemovedBodyPart".Translate(part.LabelShort);
                     GlobalTargetInfo? lookTarget = new GlobalTargetInfo?(pawn);
-                    faction.TryAffectGoodwillWith(faction2, goodwillChange, true, true, reason, lookTarget);
+                    faction.TryAffectGoodwillWith(faction2, goodwillChange, true, true, null, reason, lookTarget);
                 }
             }
 
@@ -109,9 +109,9 @@ namespace RRYautja
             {
                 if (pawn.Dead)
                 {
-                    ThoughtUtility.GiveThoughtsForPawnExecuted(pawn, PawnExecutionKind.OrganHarvesting);
+                    ThoughtUtility.GiveThoughtsForPawnExecuted(pawn, null, PawnExecutionKind.OrganHarvesting);
                 }
-                ThoughtUtility.GiveThoughtsForPawnOrganHarvested(pawn);
+                ThoughtUtility.GiveThoughtsForPawnOrganHarvested(pawn, null);
             }
             if (flag2 && pawn.Faction != null && billDoer != null && billDoer.Faction != null)
             {
@@ -120,7 +120,7 @@ namespace RRYautja
                 int goodwillChange = -15;
                 string reason = "GoodwillChangedReason_RemovedBodyPart".Translate(part.LabelShort);
                 GlobalTargetInfo? lookTarget = new GlobalTargetInfo?(pawn);
-                faction.TryAffectGoodwillWith(faction2, goodwillChange, true, true, reason, lookTarget);
+                faction.TryAffectGoodwillWith(faction2, goodwillChange, true, true, null, reason, lookTarget);
             }
             */
         }

@@ -37,7 +37,7 @@ namespace RRYautja
                 bool flag4 = doctor != null && doctor.IsColonistPlayerControlled;
                 if (flag4)
                 {
-                    patient.records.AccumulateStoryEvent(StoryEventDefOf.TendedByPlayer);
+                    // patient.records.AccumulateStoryEvent(StoryEventDefOf.TendedByPlayer); // Removed in 1.6
                 }
                 bool flag5 = doctor != null && doctor.RaceProps.Humanlike && patient.RaceProps.Animal;
                 if (flag5)
@@ -48,7 +48,7 @@ namespace RRYautja
                         bool flag7 = doctor.Faction != null && doctor.Faction != patient.Faction;
                         if (flag7)
                         {
-                            InteractionWorker_RecruitAttempt.DoRecruit(doctor, patient, 1f, false);
+                            InteractionWorker_RecruitAttempt.DoRecruit(doctor, patient, true);
                         }
                     }
                 }

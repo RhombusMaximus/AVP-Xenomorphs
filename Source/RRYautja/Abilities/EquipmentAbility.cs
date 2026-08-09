@@ -139,7 +139,7 @@ namespace RRYautja
             if (CooldownTicksLeft > -1 && !Find.TickManager.Paused)
             {
                 CooldownTicksLeft--;
-                if (!this.gizmo.disabled)
+                if (!this.gizmo.Disabled)
                 {
                     this.gizmo.Disable("On Cooldown");
                 }
@@ -150,9 +150,9 @@ namespace RRYautja
                 {
                     if (this.gizmo != null)
                     {
-                        if (this.gizmo.disabled)
+                        if (this.gizmo.Disabled)
                         {
-                            this.gizmo.disabled = false;
+                            this.gizmo.Disabled = false;
                         }
                     }
                 }

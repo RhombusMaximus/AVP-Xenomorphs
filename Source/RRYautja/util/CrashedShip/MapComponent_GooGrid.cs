@@ -13,7 +13,7 @@ namespace RRYautja
         // Token: 0x06000217 RID: 535 RVA: 0x0000B430 File Offset: 0x00009630
         public MapComponent_GooGrid(Map map) : base(map)
         {
-            this.map = map;
+            // this.map = map; // readonly field in 1.6
             this.depthGrid = new float[map.cellIndices.NumGridCells];
         }
         

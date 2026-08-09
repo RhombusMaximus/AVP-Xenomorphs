@@ -40,11 +40,11 @@ namespace RRYautja
                             {
                                 if (parasite.def.defName.Contains("Neomorph"))
                                 {
-                                    parasite.TryGetComp<HediffComp_NeoSpawner>().Notify_PawnDied();
+                                    parasite.TryGetComp<HediffComp_NeoSpawner>().Notify_PawnDied(null, null);
                                 }
                                 else
                                 {
-                                    parasite.TryGetComp<HediffComp_XenoSpawner>().Notify_PawnDied();
+                                    parasite.TryGetComp<HediffComp_XenoSpawner>().Notify_PawnDied(null, null);
                                 }
                             }
                         }

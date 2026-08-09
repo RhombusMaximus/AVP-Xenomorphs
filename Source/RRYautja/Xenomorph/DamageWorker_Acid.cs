@@ -29,9 +29,9 @@ namespace Verse
                 {
                     FilthMaker.TryMakeFilth(c, map, ThingDefOf.Filth_Ash, 1);
                 }
-                if (victim is Plant plant && victim.def.plant.IsTree && plant.LifeStage != PlantLifeStage.Sowing && victim.def != ThingDefOf.BurnedTree)
+                if (victim is Plant plant && victim.def.plant.IsTree && plant.LifeStage != PlantLifeStage.Sowing && victim.def != DefDatabase<ThingDef>.GetNamedSilentFail("BurnedTree"))
                 {
-                    DeadPlant deadPlant = (DeadPlant)GenSpawn.Spawn(ThingDefOf.BurnedTree, victim.Position, map, WipeMode.Vanish);
+                    DeadPlant deadPlant = (DeadPlant)GenSpawn.Spawn(DefDatabase<ThingDef>.GetNamedSilentFail("BurnedTree"), victim.Position, map, WipeMode.Vanish);
                     deadPlant.Growth = plant.Growth;
                 }
 

@@ -245,7 +245,7 @@ namespace RimWorld
         public override bool ModifyCarriedThingDrawPos(ref Vector3 drawPos, ref bool flip)
         {
             IntVec3 cell = this.job.GetTarget(TargetIndex.B).Cell;
-            return JobDriver_Ingest.ModifyCarriedThingDrawPosWorker(ref drawPos, ref behind, ref flip, cell, this.pawn);
+            bool behind = false; return JobDriver_Ingest.ModifyCarriedThingDrawPosWorker(ref drawPos, ref behind, ref flip, cell, this.pawn);
         }
 
         // Token: 0x060003EA RID: 1002 RVA: 0x00028270 File Offset: 0x00026670

@@ -76,7 +76,7 @@ namespace RRYautja
                 this.sustainer.Maintain();
                 Vector3 vector = base.Position.ToVector3Shifted();
                 IntVec3 c;
-                if (Rand.MTBEventOccurs(TunnelSpawner.FilthSpawnMTB, 1f, 1.TicksToSeconds()) && CellFinder.TryFindRandomReachableCellNear(base.Position, base.Map, TunnelSpawner.FilthSpawnRadius, TraverseParms.For(TraverseMode.NoPassClosedDoors, Danger.Deadly, false), null, null, out c, 999999))
+                if (Rand.MTBEventOccurs(TunnelSpawner.FilthSpawnMTB, 1f, 1.TicksToSeconds()) && CellFinder.TryFindRandomReachableNearbyCell(base.Position, base.Map, TunnelSpawner.FilthSpawnRadius, TraverseParms.For(TraverseMode.NoPassClosedDoors, Danger.Deadly, false), null, null, out c, 999999))
                 {
                     FilthMaker.TryMakeFilth(c, base.Map, TunnelSpawner.filthTypes.RandomElement<ThingDef>(), 1);
                 }

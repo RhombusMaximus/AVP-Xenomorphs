@@ -52,7 +52,7 @@ namespace RimWorld
                     Thing thing = potentialTargetsFor[j].Thing;
                     if (pawn.Position.InHorDistOf(thing.Position, 30f))
                     {
-                        if (SelfDefenseUtility.ShouldFleeFrom(thing, pawn, false, true))
+                        if (FleeUtility.ShouldFleeFrom(thing, pawn, false, true))
                         {
                             Pawn pawn2 = thing as Pawn;
                             if (pawn2 == null || !pawn2.AnimalOrWildMan() || pawn2.Faction != null)

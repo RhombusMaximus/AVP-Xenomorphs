@@ -131,7 +131,7 @@ namespace RRYautja
             ThingDef targetCoverDef = (randomCoverToMissInto != null) ? randomCoverToMissInto.def : null;
             if (!Rand.Chance(shotReport.AimOnTargetChance_IgnoringPosture))
             {
-                shootLine.ChangeDestToMissWild(shotReport.AimOnTargetChance_StandardTarget, false, __instance.caster.Map);
+                shootLine.ChangeDestToMissWild(shotReport.AimOnTargetChance_StandardTarget, false, this.caster.Map);
                 this.ThrowDebugText("ToWild" + (this.canHitNonTargetPawnsNow ? "\nchntp" : ""));
                 this.ThrowDebugText("Wild\nDest", shootLine.Dest);
                 ProjectileHitFlags projectileHitFlags2 = ProjectileHitFlags.NonTargetWorld;
@@ -199,7 +199,7 @@ namespace RRYautja
         public override void DrawHighlight(LocalTargetInfo target)
         {
             AbilityDef def = this.ability.def;
-            this.DrawRadius();
+            // this.DrawRadius(); // Removed in 1.6
             if (this.CanHitTarget(target) && this.IsApplicableTo(target, false))
             {
                 if (def.HasAreaOfEffect)
@@ -230,7 +230,7 @@ namespace RRYautja
                 {
                     if (flag)
                     {
-                        GenExplosion.RenderPredictedAreaOfEffect(shootLine.Dest, num);
+                        GenExplosion.RenderPredictedAreaOfEffect(shootLine.Dest, num, Color.white);
                         return;
                     }
                     GenDraw.DrawFieldEdges((from x in GenRadial.RadialCellsAround(shootLine.Dest, num, true)

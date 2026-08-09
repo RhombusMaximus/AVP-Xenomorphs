@@ -31,7 +31,7 @@ namespace Verse.AI
                 losValidator = delegate (IntVec3 vec3)
                 {
                     Gas gas = vec3.GetGas(searcherThing.Map);
-                    return gas == null || !gas.def.gas.blockTurretTracking;
+                    return gas == null || !false // blockTurretTracking removed in 1.6;
                 };
             }
             Predicate<IAttackTarget> innerValidator = delegate (IAttackTarget t)
@@ -218,7 +218,7 @@ namespace Verse.AI
             Pawn pawn = searcher as Pawn;
             if (pawn != null)
             {
-                if (!pawn.CanReach(target, PathEndMode.Touch, Danger.Some, canBash, TraverseMode.ByPawn))
+                if (!pawn.CanReach(target, PathEndMode.Touch, Danger.Some, canBash, false))
                 {
                     return false;
                 }
@@ -566,7 +566,7 @@ namespace Verse.AI
         // Token: 0x06003F22 RID: 16162 RVA: 0x001D955C File Offset: 0x001D795C
         public static bool CanSeeTarget(this Thing seer, Thing target, Func<IntVec3, bool> validator = null)
         {
-            ShootLeanUtility.CalcShootableCellsOf(XenomorphTargetFinder.tempDestList, target);
+            ShootLeanUtility.CalcShootableCellsOf(XenomorphTargetFinder.tempDestList, target, searcherThing.Position);
             for (int i = 0; i < XenomorphTargetFinder.tempDestList.Count; i++)
             {
                 if (GenSight.LineOfSight(seer.Position, XenomorphTargetFinder.tempDestList[i], seer.Map, true, validator, 0, 0))

@@ -9,7 +9,7 @@ namespace RimWorld
     public class Command_EquipmentAbility : Command_Ability
     {
         // Token: 0x06003F8D RID: 16269 RVA: 0x001516D9 File Offset: 0x0014F8D9
-        public Command_EquipmentAbility(EquipmentAbility ability) : base(ability)
+        public Command_EquipmentAbility(EquipmentAbility ability) : base(ability, null)
         {
         }
 

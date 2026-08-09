@@ -26,11 +26,11 @@ namespace RRYautja
                 int num;
                 if (c.x == pawn.Position.x || c.z == pawn.Position.z)
                 {
-                    num = pawn.TicksPerMoveCardinal;
+                    num = (int)pawn.TicksPerMoveCardinal;
                 }
                 else
                 {
-                    num = pawn.TicksPerMoveDiagonal;
+                    num = (int)pawn.TicksPerMoveDiagonal;
                 }
 
                 Building edifice = c.GetEdifice(pawn.Map);

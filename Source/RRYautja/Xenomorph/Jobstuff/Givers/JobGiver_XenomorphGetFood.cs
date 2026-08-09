@@ -99,7 +99,7 @@ namespace RimWorld
                     killIncappedTarget = true
                 };
             }
-            float nutrition = FoodUtility.GetNutrition(thing, thingDef);
+            float nutrition = FoodUtility.GetNutrition(pawn, thing, thingDef);
             return new Job(XenomorphDefOf.RRY_Neomorph_Ingest, thing)
             {
                 count = FoodUtility.WillIngestStackCountOf(pawn, thingDef, nutrition)

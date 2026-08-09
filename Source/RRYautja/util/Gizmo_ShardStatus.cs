@@ -11,7 +11,7 @@ namespace RRYautja
         // Token: 0x06000003 RID: 3 RVA: 0x00002069 File Offset: 0x00000269
         public Gizmo_InjectorStatus()
         {
-            this.order = -100f;
+            this.Order = -100f;
         }
 
         // Token: 0x06000004 RID: 4 RVA: 0x00002080 File Offset: 0x00000280

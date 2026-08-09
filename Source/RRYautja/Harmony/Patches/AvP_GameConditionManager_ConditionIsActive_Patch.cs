@@ -21,7 +21,7 @@ namespace RRYautja
         [HarmonyPostfix]
         public static void Postfix(GameConditionManager __instance, ref GameConditionDef def, ref bool __result)
         {
-            if (def == GameConditionDefOf.SolarFlare)
+            if (def == GameConditionDefOf.Eclipse)
             {
                 //    Log.Message(string.Format("GameConditionManager_ConditionIsActive_Patch SolarFlare: {0}", __result));
                 __result = __result || __instance.ConditionIsActive(XenomorphDefOf.RRY_Xenomorph_PowerCut);

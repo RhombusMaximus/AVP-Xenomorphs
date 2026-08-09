@@ -541,7 +541,7 @@ namespace RimWorld
             }
             pawn.xenomorph().HiveLoc = this.Position;
             lord.AddPawn(pawn);
-            SoundDefOf.Hive_Spawn.PlayOneShot(this);
+            DefDatabase<SoundDef>.GetNamedSilentFail("Hive_Spawn")?.PlayOneShot(this);
             return true;
         }
 
@@ -575,7 +575,7 @@ namespace RimWorld
                 lord = this.CreateNewLord();
             }
             lord.AddPawn(pawn);
-            SoundDefOf.Hive_Spawn.PlayOneShot(this);
+            DefDatabase<SoundDef>.GetNamedSilentFail("Hive_Spawn")?.PlayOneShot(this);
             return true;
         }
 

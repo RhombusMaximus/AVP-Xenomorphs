@@ -133,7 +133,7 @@ namespace RRYautja
                 return false;
             }
             */
-            if (haulable != null && haulable.def.BlockPlanting)
+            if (haulable != null && haulable.def.category == ThingCategory.Building)
             {
                 Zone zone = worker.Map.zoneManager.ZoneAt(c);
                 if (zone is Zone_Growing)

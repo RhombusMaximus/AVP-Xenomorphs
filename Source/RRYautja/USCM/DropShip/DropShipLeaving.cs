@@ -53,7 +53,7 @@ namespace RRYautja
         {
             base.ExposeData();
             Scribe_Values.Look<int>(ref this.groupID, "groupID", 0, false);
-            Scribe_Values.Look<int>(ref this.destinationTile, "destinationTile", 0, false);
+            Scribe_Values.Look(ref this.destinationTile, "destinationTile", PlanetTile.Invalid, false);
             Scribe_Deep.Look<TransportersArrivalAction>(ref this.arrivalAction, "arrivalAction", new object[0]);
             Scribe_Values.Look<bool>(ref this.alreadyLeft, "alreadyLeft", false, false);
         }
@@ -102,7 +102,7 @@ namespace RRYautja
                 if (DropshipLeaving != null && DropshipLeaving.groupID == this.groupID)
                 {
                     DropshipLeaving.alreadyLeft = true;
-                    travelingTransportPods.AddPod(DropshipLeaving.Contents, true);
+                    travelingTransportPods.AddTransporter(DropshipLeaving.Contents, true);
                     DropshipLeaving.Contents = null;
                     DropshipLeaving.Destroy(DestroyMode.Vanish);
                 }

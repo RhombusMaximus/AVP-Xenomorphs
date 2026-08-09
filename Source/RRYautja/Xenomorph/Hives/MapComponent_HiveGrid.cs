@@ -52,7 +52,7 @@ namespace RRYautja
         // Token: 0x06000217 RID: 535 RVA: 0x0000B430 File Offset: 0x00009630
         public MapComponent_HiveGrid(Map map) : base(map)
         {
-            this.map = map;
+            // this.map = map; // readonly field in 1.6
             this.innerContainer = new ThingOwner<Thing>(this, false, LookMode.Deep);
             this.depthGrid = new float[map.cellIndices.NumGridCells];
             this.potentialHosts = new List<Pawn>();
@@ -116,7 +116,7 @@ namespace RRYautja
                     bool RoyalHiddenImpregnation = (t.health.hediffSet.HasHediff(XenomorphDefOf.RRY_HiddenXenomorphImpregnation) && t.health.hediffSet.GetFirstHediffOfDef(XenomorphDefOf.RRY_HiddenXenomorphImpregnation).TryGetComp<HediffComp_XenoSpawner>().RoyaleHugger);
                     return RoyalHugger || RoyalHuggerInfection || RoyalImpregnation || RoyalHiddenImpregnation;
                 };
-                return map.mapPawns.AllPawnsSpawned.Any(validator);
+                return map.mapPawns.AllPawnsSpawned.Any((Func<Pawn, bool>)validator);
             }
         }
 

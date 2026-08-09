@@ -71,7 +71,7 @@ namespace RRYautja
         public static IEnumerable<FloatMenuOption> GetVisitFloatMenuOptions(CompUSCMDropship representative, IEnumerable<IThingHolder> pods, Settlement settlement, Caravan car)
         {
             return DropShipArrivalActionUtility.GetFloatMenuOptions<TransportersArrivalAction_VisitSettlement>(() => TransportersArrivalAction_VisitSettlement.CanVisit(pods, settlement),
-                () => new TransportersArrivalAction_VisitSettlement(settlement), "VisitSettlement".Translate(settlement.Label), representative, settlement.Tile, car);
+                () => new TransportersArrivalAction_VisitSettlement(settlement, "LetterLabelVisitSettlement".Translate(settlement.Label)), "VisitSettlement".Translate(settlement.Label), representative, settlement.Tile, car);
         }
     }
 }

@@ -46,7 +46,7 @@ namespace RRYautja
                             Rand.PopState();
                             raidParms.pawnGroupMakerSeed = new int?(@int);
                             PawnGroupMakerParms defaultPawnGroupMakerParms = IncidentParmsUtility.GetDefaultPawnGroupMakerParms(PawnGroupKindDefOf.Combat, raidParms, true);
-                            defaultPawnGroupMakerParms.points = IncidentWorker_Raid.AdjustedRaidPoints(defaultPawnGroupMakerParms.points, XenomorphDefOf.RRY_DropThroughRoofNearPower, XenomorphDefOf.RRY_PowerCut, defaultPawnGroupMakerParms.faction, PawnGroupKindDefOf.Combat);
+                            defaultPawnGroupMakerParms.points = IncidentWorker_Raid.AdjustedRaidPoints(defaultPawnGroupMakerParms.points, XenomorphDefOf.RRY_DropThroughRoofNearPower, XenomorphDefOf.RRY_PowerCut, defaultPawnGroupMakerParms.faction, PawnGroupKindDefOf.Combat, raidParms.target);
                             IEnumerable<PawnKindDef> pawnKinds = PawnGroupMakerUtility.GeneratePawnKindsExample(defaultPawnGroupMakerParms);
 
                             QueuedIncident qi = new QueuedIncident(new FiringIncident(XenomorphDefOf.RRY_PowerCut_Xenomorph, null, raidParms), Find.TickManager.TicksGame + AvP_IncidentWorker_RaidEnemy_TryExecute_PowerCut_Patch.RaidDelay.RandomInRange, 0);

@@ -217,7 +217,7 @@ namespace RRYautja
             HediffDef hediffDefFromDamage = HealthUtility.GetHediffDefFromDamage(dinfo.Def, pawn, dinfo.HitPart);
             Hediff_Injury hediff_Injury = (Hediff_Injury)HediffMaker.MakeHediff(hediffDefFromDamage, pawn, null);
             hediff_Injury.Part = dinfo.HitPart;
-            hediff_Injury.source = dinfo.Weapon;
+            hediff_Injury.sourceDef = dinfo.Weapon;
             hediff_Injury.sourceBodyPartGroup = dinfo.WeaponBodyPartGroup;
             hediff_Injury.sourceHediffDef = dinfo.WeaponLinkedHediff;
             hediff_Injury.Severity = totalDamage;
@@ -276,7 +276,7 @@ namespace RRYautja
                         HediffDef hediffDefFromDamage = HealthUtility.GetHediffDefFromDamage(dinfo.Def, pawn, parent);
                         Hediff_Injury hediff_Injury = (Hediff_Injury)HediffMaker.MakeHediff(hediffDefFromDamage, pawn, null);
                         hediff_Injury.Part = parent;
-                        hediff_Injury.source = dinfo.Weapon;
+                        hediff_Injury.sourceDef = dinfo.Weapon;
                         hediff_Injury.sourceBodyPartGroup = dinfo.WeaponBodyPartGroup;
                         hediff_Injury.Severity = totalDamage;
                         if (hediff_Injury.Severity <= 0f)
@@ -339,7 +339,7 @@ namespace RRYautja
             }
             if (dinfo.Def.ExternalViolenceFor(pawn))
             {
-                LifeStageUtility.PlayNearestLifestageSound(pawn, (LifeStageAge ls) => ls.soundWounded, 1f);
+                LifeStageUtility.PlayNearestLifestageSound(pawn, (LifeStageAge ls) => ls.soundWounded, null, null, 1f);
             }
         }
 
