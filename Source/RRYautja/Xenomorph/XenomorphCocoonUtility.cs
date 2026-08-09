@@ -25,7 +25,7 @@ namespace RRYautja
                     ", but there are only ",
                     sleepingSlotsCount,
                     " sleeping slots available."
-                });
+                }));
                 return bedCenter;
             }
             CellRect cellRect = GenAdj.OccupiedRect(bedCenter, bedRot, bedSize);

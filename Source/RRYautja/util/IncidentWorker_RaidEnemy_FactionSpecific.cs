@@ -88,7 +88,7 @@ namespace RimWorld
                     groupKind,
                     "\nparms=",
                     parms
-                });
+                }));
                 if (!Prefs.DevMode)
                 {
                     parms.raidStrategy = RaidStrategyDefOf.ImmediateAttack;
