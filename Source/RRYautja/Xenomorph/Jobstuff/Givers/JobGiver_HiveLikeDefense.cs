@@ -1,4 +1,4 @@
-﻿using RRYautja;
+using RRYautja;
 using RRYautja.ExtensionMethods;
 using System;
 using Verse;
@@ -95,7 +95,7 @@ namespace RimWorld
 		}
 
 		// Token: 0x06000418 RID: 1048 RVA: 0x0002C8F0 File Offset: 0x0002ACF0
-		protected override Job MeleeAttackJob(Thing enemyTarget)
+		protected override Job MeleeAttackJob(Pawn pawn, Thing enemyTarget)
 		{
 			Job job = base.MeleeAttackJob(enemyTarget);
 			job.attackDoorIfTargetLost = true;

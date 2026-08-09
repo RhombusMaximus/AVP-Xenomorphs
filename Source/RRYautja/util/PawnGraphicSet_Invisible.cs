@@ -1,4 +1,6 @@
-﻿using System;
+#if false
+// TODO: PawnGraphicSet_Invisible was removed in RimWorld 1.5+
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
@@ -53,3 +55,5 @@ namespace RRYautja
         }
     }
 }
+
+#endif

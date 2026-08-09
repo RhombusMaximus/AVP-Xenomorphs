@@ -1,4 +1,4 @@
-﻿using RimWorld;
+using RimWorld;
 using Verse;
 using HarmonyLib;
 using System.Reflection;
@@ -15,8 +15,8 @@ using RRYautja.ExtensionMethods;
 
 namespace RRYautja
 {
-    [HarmonyPatch(typeof(SnowUtility), "AddSnowRadial")]
-    public static class AvP_SnowUtility_AddSnowRadial_Patch
+    [HarmonyPatch(typeof(WeatherBuildupUtility), "AddSnowRadial")]
+    public static class AvP_WeatherBuildupUtility_AddSnowRadial_Patch
     {
         [HarmonyPostfix]
         public static void AddSnowRadialPostfix(IntVec3 center, Map map, float radius, float depth)

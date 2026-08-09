@@ -1,4 +1,4 @@
-﻿using System;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using Verse;
@@ -256,7 +256,7 @@ namespace RRYautja
             }
         }
         */
-        private PawnGraphicSet oldGraphics;
+        private object oldGraphics /* TODO: was PawnGraphicSet */;
         private Graphic_Shadow oldShadow;
         private int lastSpottedTick = -9999;
         private Graphic lastCarriedGraphic;

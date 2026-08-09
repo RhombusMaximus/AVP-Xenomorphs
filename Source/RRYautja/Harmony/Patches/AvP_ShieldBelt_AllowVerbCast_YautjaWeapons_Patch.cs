@@ -1,4 +1,6 @@
-﻿using RimWorld;
+#if false
+// TODO: ShieldBelt removed in 1.6
+using RimWorld;
 using Verse;
 using HarmonyLib;
 using System.Reflection;
@@ -29,3 +31,4 @@ namespace RRYautja
     }
 
 }
+#endif
