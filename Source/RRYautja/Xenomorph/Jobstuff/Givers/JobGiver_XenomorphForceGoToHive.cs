@@ -60,7 +60,7 @@ namespace Verse.AI
             
             if (flag)
             {
-                using (PawnPath pawnPath = pawn.Map.pathFinder.FindPathNow(pawn.Position, c, TraverseParms.For(pawn, Danger.Deadly, TraverseMode.PassAllDestroyableThings, false), PathEndMode.OnCell))
+                using (PawnPath pawnPath = pawn.Map.pathFinder.FindPathNow(pawn.Position, c, TraverseParms.For(pawn, Danger.Deadly, TraverseMode.PassAllDestroyableThings, false), null, PathEndMode.OnCell))
                 {
                     IntVec3 cellBeforeBlocker;
                     Thing thing = pawnPath.FirstBlockingBuilding(out cellBeforeBlocker, pawn);

@@ -296,7 +296,7 @@ namespace RRYautja
                 parent.pawn.resultingXenomorph();
             }
             bool BeViolent = pawnKindDef == XenomorphDefOf.RRY_Xenomorph_Thrumbomorph ? true : true;
-            PawnGenerationRequest request = new PawnGenerationRequest(pawnKindDef, Find.FactionManager.FirstFactionOfDef(pawnKindDef.defaultFactionDef), PawnGenerationContext.NonPlayer, -1, true, true, false, false, true, false, 20f, fixedGender: gender);
+            PawnGenerationRequest request = new PawnGenerationRequest(pawnKindDef, Find.FactionManager.FirstFactionOfDef(pawnKindDef.defaultFactionDef), PawnGenerationContext.NonPlayer, -1, true, true, false, false, true, 20f, false, fixedGender: gender);
 
             Pawn pawn = PawnGenerator.GeneratePawn(request);
             XenomorphPawn XP = pawn as XenomorphPawn;
@@ -305,11 +305,11 @@ namespace RRYautja
                 XP.HostRace = Pawn.def;
             }
             /*
-            XP.Drawer.renderer.graphics.nakedGraphic.colorTwo = HostBloodColour;
+            // XP.Drawer.renderer.graphics.nakedGraphic.colorTwo = HostBloodColour; // 1.6: PawnGraphicSet removed
             pawn.Notify_ColorChanged();
             */
             pawn.ageTracker.CurKindLifeStage.bodyGraphicData.colorTwo = HostBloodColour;
-            XP.Drawer.renderer.graphics.ResolveAllGraphics();
+            // XP.Drawer.renderer.graphics.ResolveAllGraphics(); // 1.6: PawnGraphicSet removed
             return pawn;
         }
 

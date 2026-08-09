@@ -381,7 +381,7 @@ namespace RRYautja
                 {
                     this.ticksSinceHeal = 0;
                     float num = 8f;
-                    Hediff_Injury hediff_Injury = GenCollection.RandomElement<Hediff_Injury>(from x in ((Pawn)base.parent).health.hediffSet.GetHediffs<Hediff_Injury>()
+                    Hediff_Injury hediff_Injury = GenCollection.RandomElement<Hediff_Injury>(from x in ((Pawn)base.parent).health.hediffSet.hediffs.OfType<Hediff_Injury>()
                                                                                              where HediffUtility.CanHealNaturally(x)
                                                                                              select x);
                     hediff_Injury.Heal(num * ((Pawn)base.parent).HealthScale * 0.01f);
@@ -549,7 +549,7 @@ namespace RRYautja
             {
                 if (Rand.ChanceSeeded(0.25f, AvPConstants.AvPSeed))
                 {
-                    hediff.Tended(Math.Min(Rand.Value + Rand.Value + Rand.Value, 1f));
+                    hediff.Tended(Math.Min(Rand.Value + Rand.Value + Rand.Value, 1f), 1f);
                 }
                 i--;
 

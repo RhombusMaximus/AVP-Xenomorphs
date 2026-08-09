@@ -369,9 +369,9 @@ namespace RRYautja
 
         public void MakeInvisible()
         {
-            oldGraphics = pawn.Drawer.renderer.graphics;
+            // oldGraphics = pawn.Drawer.renderer.graphics; // 1.6: PawnGraphicSet removed
             oldShadow = GetShadowGraphic(pawn.Drawer.renderer);
-            pawn.Drawer.renderer.graphics = new PawnGraphicSet_Invisible(pawn);
+            // pawn.Drawer.renderer.graphics = new object // PawnGraphicSet_Invisible removed in 1.6(pawn); // 1.6: PawnGraphicSet removed
             ShadowData shadowData = new ShadowData
             {
                 volume = new Vector3(0, 0, 0),
@@ -396,7 +396,7 @@ namespace RRYautja
 
         public void MakeVisible()
         {
-            if (oldGraphics != null) pawn.Drawer.renderer.graphics = oldGraphics;
+            // if (oldGraphics != null) pawn.Drawer.renderer.graphics = oldGraphics; // 1.6: PawnGraphicSet removed
             if (oldShadow != null) SetShadowGraphic(pawn.Drawer.renderer, oldShadow);
             Thing holding = pawn.carryTracker.CarriedThing;
             if (holding != null)
@@ -407,7 +407,7 @@ namespace RRYautja
             {
                 SetGraphicInt(lastCarried, lastCarriedGraphic);
             }
-            pawn.Drawer.renderer.graphics.ResolveAllGraphics();
+            // pawn.Drawer.renderer.graphics.ResolveAllGraphics(); // 1.6: PawnGraphicSet removed
             //     Log.Message(string.Format("removing xeno hidden from {0}", pawn.LabelShortCap));
 
             if (!PlayerKnowledgeDatabase.IsComplete(XenomorphConceptDefOf.RRY_Concept_Runners) && pawn.kindDef == XenomorphDefOf.RRY_Xenomorph_Runner)

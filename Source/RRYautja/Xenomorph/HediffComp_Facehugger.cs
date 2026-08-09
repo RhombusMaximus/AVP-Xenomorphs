@@ -296,7 +296,7 @@ namespace RRYautja
                 else
                 {
                 //    Log.Message("using PawnGenerator");
-                    PawnGenerationRequest pawnGenerationRequest = new PawnGenerationRequest(pawnKindDef, null, PawnGenerationContext.NonPlayer, -1, true, false, true, false, true, true, 0f);
+                    PawnGenerationRequest pawnGenerationRequest = new PawnGenerationRequest(pawnKindDef, null, PawnGenerationContext.NonPlayer, -1, true, false, true, false, true, 0f, true);
                     pawn = PawnGenerator.GeneratePawn(pawnGenerationRequest);
                 }
             }

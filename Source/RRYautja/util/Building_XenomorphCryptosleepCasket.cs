@@ -276,7 +276,7 @@ namespace RRYautja
         {
             Faction faction = Find.FactionManager.FirstFactionOfDef(Faction.OfPlayer.def);
             PawnGenerationRequest pawnGenerationRequest;
-            pawnGenerationRequest = new PawnGenerationRequest(Building_XenomorphCryptosleepCasket.FindRandomAnimalForSpawn(), faction, (PawnGenerationContext)2, (pod.Map != null ? pod.Map.Tile : pod.MapHeld.Tile), false, false, false, false, true, false, 1f, false, true, true, false, true, false, false);
+            pawnGenerationRequest = new PawnGenerationRequest(Building_XenomorphCryptosleepCasket.FindRandomAnimalForSpawn(), faction, (PawnGenerationContext)2, (pod.Map != null ? pod.Map.Tile : pod.MapHeld.Tile), false, false, false, false, true, 1f, false, false, true, true, false, true, false, false);
             Pawn pawn = PawnGenerator.GeneratePawn(pawnGenerationRequest);
             if (Rand.Chance(0.25f))
             {
@@ -295,7 +295,7 @@ namespace RRYautja
         {
             Faction faction = null;
             PawnGenerationRequest pawnGenerationRequest;
-            pawnGenerationRequest = new PawnGenerationRequest(Building_XenomorphCryptosleepCasket.FindRandomAnimalForSpawn(), faction, (PawnGenerationContext)2, (pod.Map != null ? pod.Map.Tile : pod.MapHeld.Tile), false, false, false, false, true, false, 1f, false, true, true, false, true, false, false);
+            pawnGenerationRequest = new PawnGenerationRequest(Building_XenomorphCryptosleepCasket.FindRandomAnimalForSpawn(), faction, (PawnGenerationContext)2, (pod.Map != null ? pod.Map.Tile : pod.MapHeld.Tile), false, false, false, false, true, 1f, false, false, true, true, false, true, false, false);
             Pawn pawn = PawnGenerator.GeneratePawn(pawnGenerationRequest);
             if (Rand.Chance(0.5f))
             {
@@ -314,7 +314,7 @@ namespace RRYautja
         {
             Faction faction = Find.FactionManager.FirstFactionOfDef(XenomorphDefOf.RRY_Xenomorph);
             PawnGenerationRequest pawnGenerationRequest;
-            pawnGenerationRequest = new PawnGenerationRequest(Building_XenomorphCryptosleepCasket.FindRandomXenomorphForSpawn(), faction, (PawnGenerationContext)2, (pod.Map != null ? pod.Map.Tile : pod.MapHeld.Tile), false, false, false, false, true, false, 1f, false, true, true, false, true, false, false);
+            pawnGenerationRequest = new PawnGenerationRequest(Building_XenomorphCryptosleepCasket.FindRandomXenomorphForSpawn(), faction, (PawnGenerationContext)2, (pod.Map != null ? pod.Map.Tile : pod.MapHeld.Tile), false, false, false, false, true, 1f, false, false, true, true, false, true, false, false);
             Pawn pawn = PawnGenerator.GeneratePawn(pawnGenerationRequest);
             bool flag = !pod.TryAcceptThing(pawn, false);
             if (flag)
@@ -327,7 +327,7 @@ namespace RRYautja
         private static void GenerateFriendlySpacer(Building_XenomorphCryptosleepCasket pod)
         {
             PawnGenerationRequest pawnGenerationRequest;
-            pawnGenerationRequest = new PawnGenerationRequest(Building_XenomorphCryptosleepCasket.FindRandomSpacerPawnForSpawn(), Faction.OfAncients, (PawnGenerationContext)2, (pod.Map != null ? pod.Map.Tile : pod.MapHeld.Tile), false, false, false, false, true, false, 1f, false, true, true, false, true, false, false);
+            pawnGenerationRequest = new PawnGenerationRequest(Building_XenomorphCryptosleepCasket.FindRandomSpacerPawnForSpawn(), Faction.OfAncients, (PawnGenerationContext)2, (pod.Map != null ? pod.Map.Tile : pod.MapHeld.Tile), false, false, false, false, true, 1f, false, false, true, true, false, true, false, false);
             Pawn pawn = PawnGenerator.GeneratePawn(pawnGenerationRequest);
             if (Rand.Chance(0.25f))
             {
@@ -353,7 +353,7 @@ namespace RRYautja
         private static void GenerateIncappedSpacer(Building_XenomorphCryptosleepCasket pod)
         {
             PawnGenerationRequest pawnGenerationRequest;
-            pawnGenerationRequest = new PawnGenerationRequest(Building_XenomorphCryptosleepCasket.FindRandomSpacerPawnForSpawn(), Faction.OfAncients, (PawnGenerationContext)2, (pod.Map != null ? pod.Map.Tile : pod.MapHeld.Tile), false, false, false, false, true, false, 1f, false, true, true, false, true, false, false);
+            pawnGenerationRequest = new PawnGenerationRequest(Building_XenomorphCryptosleepCasket.FindRandomSpacerPawnForSpawn(), Faction.OfAncients, (PawnGenerationContext)2, (pod.Map != null ? pod.Map.Tile : pod.MapHeld.Tile), false, false, false, false, true, 1f, false, false, true, true, false, true, false, false);
             Pawn pawn = PawnGenerator.GeneratePawn(pawnGenerationRequest);
             HealthUtility.DamageUntilDowned(pawn, true);
             if (Rand.Chance(0.25f))
@@ -379,7 +379,7 @@ namespace RRYautja
         private static void GenerateSlave(Building_XenomorphCryptosleepCasket pod)
         {
             PawnGenerationRequest pawnGenerationRequest;
-            pawnGenerationRequest = new PawnGenerationRequest(Building_XenomorphCryptosleepCasket.FindRandomPreSpacerPawnForSpawn(), Faction.OfAncients, (PawnGenerationContext)2, (pod.Map != null ? pod.Map.Tile : pod.MapHeld.Tile), false, false, false, false, true, false, 1f, false, true, true, false, true, false, false);
+            pawnGenerationRequest = new PawnGenerationRequest(Building_XenomorphCryptosleepCasket.FindRandomPreSpacerPawnForSpawn(), Faction.OfAncients, (PawnGenerationContext)2, (pod.Map != null ? pod.Map.Tile : pod.MapHeld.Tile), false, false, false, false, true, 1f, false, false, true, true, false, true, false, false);
             Pawn pawn = PawnGenerator.GeneratePawn(pawnGenerationRequest);
             HealthUtility.DamageUntilDowned(pawn, true);
             if (Rand.Chance(0.75f))
@@ -404,7 +404,7 @@ namespace RRYautja
         private static void GenerateAngryAncient(Building_XenomorphCryptosleepCasket pod)
         {
             PawnGenerationRequest pawnGenerationRequest;
-            pawnGenerationRequest = new PawnGenerationRequest(Building_XenomorphCryptosleepCasket.FindRandomSpacerPawnForSpawn(), Faction.OfAncientsHostile, (PawnGenerationContext)2, (pod.Map != null ? pod.Map.Tile : pod.MapHeld.Tile), false, false, false, false, true, false, 1f, false, true, true, false, true, false, false);
+            pawnGenerationRequest = new PawnGenerationRequest(Building_XenomorphCryptosleepCasket.FindRandomSpacerPawnForSpawn(), Faction.OfAncientsHostile, (PawnGenerationContext)2, (pod.Map != null ? pod.Map.Tile : pod.MapHeld.Tile), false, false, false, false, true, 1f, false, false, true, true, false, true, false, false);
             Pawn pawn = PawnGenerator.GeneratePawn(pawnGenerationRequest);
             if (Rand.Chance(0.15f))
             {
@@ -429,7 +429,7 @@ namespace RRYautja
         private static void GenerateHalfEatenAncient(Building_XenomorphCryptosleepCasket pod)
         {
             PawnGenerationRequest pawnGenerationRequest;
-            pawnGenerationRequest = new PawnGenerationRequest(Building_XenomorphCryptosleepCasket.FindRandomSpacerPawnForSpawn(), Faction.OfAncients, (PawnGenerationContext)2, (pod.Map != null ? pod.Map.Tile : pod.MapHeld.Tile), false, false, false, false, true, false, 1f, false, true, true, false, true, false, false);
+            pawnGenerationRequest = new PawnGenerationRequest(Building_XenomorphCryptosleepCasket.FindRandomSpacerPawnForSpawn(), Faction.OfAncients, (PawnGenerationContext)2, (pod.Map != null ? pod.Map.Tile : pod.MapHeld.Tile), false, false, false, false, true, 1f, false, false, true, true, false, true, false, false);
             Pawn pawn = PawnGenerator.GeneratePawn(pawnGenerationRequest);
             HediffSet hediffSet = pawn.health.hediffSet;
             int num = Rand.Range(5, 10);
@@ -499,7 +499,7 @@ namespace RRYautja
         private void GenerateFromPawnkindList(Building_XenomorphCryptosleepCasket pod)
         {
             PawnGenerationRequest pawnGenerationRequest;
-            pawnGenerationRequest = new PawnGenerationRequest(OfPawnKinds.RandomElement(), OfFaction, (PawnGenerationContext)2, -1, false, false, false, false, true, false, 1f, false, true, true, false, true, false, false);
+            pawnGenerationRequest = new PawnGenerationRequest(OfPawnKinds.RandomElement(), OfFaction, (PawnGenerationContext)2, -1, false, false, false, false, true, 1f, false, false, true, true, false, true, false, false);
             Pawn pawn = PawnGenerator.GeneratePawn(pawnGenerationRequest);
             if (Def.infectionDef!=null)
             {

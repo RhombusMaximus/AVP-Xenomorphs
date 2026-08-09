@@ -86,16 +86,16 @@ namespace RRYautja
         {
             base.PostAdd(dinfo);
             
-                oldGraphics = pawn.Drawer.renderer.graphics;
+                // oldGraphics = pawn.Drawer.renderer.graphics; // 1.6: PawnGraphicSet removed
                 oldShadow = GetShadowGraphic(pawn.Drawer.renderer);
-                pawn.Drawer.renderer.graphics = new PawnGraphicSet_Invisible(pawn);
+                // pawn.Drawer.renderer.graphics = new object // PawnGraphicSet_Invisible removed in 1.6(pawn); // 1.6: PawnGraphicSet removed
             ShadowData shadowData = new ShadowData
             {
                 volume = new Vector3(0, 0, 0),
                 offset = new Vector3(0, 0, 0)
             };
             SetShadowGraphic(pawn.Drawer.renderer, new Graphic_Shadow(shadowData));
-            //pawn.Drawer.renderer.graphics.ResolveAllGraphics();
+            //// pawn.Drawer.renderer.graphics.ResolveAllGraphics(); // 1.6: PawnGraphicSet removed
 
 
             pawn.stances.CancelBusyStanceHard();
@@ -213,8 +213,8 @@ namespace RRYautja
                     }
                 }
             }
-            pawn.Drawer.renderer.graphics = oldGraphics;
-            pawn.Drawer.renderer.graphics.ResolveAllGraphics();
+            // pawn.Drawer.renderer.graphics = oldGraphics; // 1.6: PawnGraphicSet removed
+            // pawn.Drawer.renderer.graphics.ResolveAllGraphics(); // 1.6: PawnGraphicSet removed
             SetShadowGraphic(pawn.Drawer.renderer, oldShadow);
             Thing holding = pawn.carryTracker.CarriedThing;
             if (holding != null)

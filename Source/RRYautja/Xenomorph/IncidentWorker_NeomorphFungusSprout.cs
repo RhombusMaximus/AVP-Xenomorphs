@@ -72,13 +72,13 @@ namespace RRYautja
 		// Token: 0x06000E24 RID: 3620 RVA: 0x00069E4C File Offset: 0x0006824C
 		private bool TryFindRootCell(Map map, out IntVec3 cell)
 		{
-			return CellFinderLoose.TryFindRandomNotEdgeCellWith(10, (IntVec3 x) => this.CanSpawnAt(x, map) && x.GetRoom(map, RegionType.Set_Passable).CellCount >= 64, map, out cell);
+			return CellFinderLoose.TryFindRandomNotEdgeCellWith(10, (IntVec3 x) => this.CanSpawnAt(x, map) && RegionAndRoomQuery.RoomAt(x, map, RegionType.Set_Passable).CellCount >= 64, map, out cell);
 		}
 
 		// Token: 0x06000E25 RID: 3621 RVA: 0x00069E88 File Offset: 0x00068288
 		private bool CanSpawnAt(IntVec3 c, Map map)
 		{
-			if (!c.Standable(map) || c.Fogged(map) || map.fertilityGrid.FertilityAt(c) < XenomorphDefOf.RRY_Plant_Neomorph_Fungus.plant.fertilityMin || !c.GetRoom(map, RegionType.Set_Passable).PsychologicallyOutdoors || c.GetEdifice(map) != null || !PlantUtility.GrowthSeasonNow(c, map, false))
+			if (!c.Standable(map) || c.Fogged(map) || map.fertilityGrid.FertilityAt(c) < XenomorphDefOf.RRY_Plant_Neomorph_Fungus.plant.fertilityMin || !RegionAndRoomQuery.RoomAt(c, map, RegionType.Set_Passable).PsychologicallyOutdoors || c.GetEdifice(map) != null || !PlantUtility.GrowthSeasonNow(c, map, false))
 			{
 				return false;
 			}

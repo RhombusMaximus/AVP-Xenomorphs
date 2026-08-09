@@ -78,7 +78,7 @@ namespace RRYautja
                     if (food.CurLevel > (num / 100))
                     {
                         Hediff_Injury hediff_Injury = GenCollection.RandomElement<Hediff_Injury>
-                            (from x in pawn.health.hediffSet.GetHediffs<Hediff_Injury>()
+                            (from x in pawn.health.hediffSet.hediffs.OfType<Hediff_Injury>()
                              where HediffUtility.CanHealNaturally(x)
                              select x);
                         doClot(pawn);
@@ -103,7 +103,7 @@ namespace RRYautja
             var i = 5;
             foreach (var hediff in pawn.health.hediffSet.hediffs.Where(x => x.Bleeding).OrderByDescending(x => x.BleedRate))
             {
-                hediff.Tended(Math.Min(Rand.Value + Rand.Value + Rand.Value, 1f));
+                hediff.Tended(Math.Min(Rand.Value + Rand.Value + Rand.Value, 1f), 1f);
                 i--;
 
                 if (i <= 0) return;

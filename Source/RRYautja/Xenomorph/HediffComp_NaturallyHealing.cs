@@ -47,7 +47,7 @@ namespace RRYautja
                 {
                     this.ticksSinceHeal = 0;
                     float num = 8f;
-                    Hediff_Injury hediff_Injury = GenCollection.RandomElement<Hediff_Injury>(from x in base.Pawn.health.hediffSet.GetHediffs<Hediff_Injury>()
+                    Hediff_Injury hediff_Injury = GenCollection.RandomElement<Hediff_Injury>(from x in base.Pawn.health.hediffSet.hediffs.OfType<Hediff_Injury>()
                                                                                              where HediffUtility.CanHealNaturally(x)
                                                                                              select x);
                     hediff_Injury.Heal(num * base.Pawn.HealthScale * 0.01f);

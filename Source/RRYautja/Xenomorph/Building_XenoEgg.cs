@@ -477,7 +477,7 @@ namespace RRYautja
             try
             {
                 PawnKindDef hatchKindDef = eggType == EggType.Royal ? Building_XenoEgg.RoyalKindDef : Building_XenoEgg.NormalKindDef;
-                PawnGenerationRequest request = new PawnGenerationRequest(hatchKindDef, this.hatcheeFaction, PawnGenerationContext.NonPlayer, -1, false, true, false, false, true, false, 1f, false, true, true, false, false, false, false);
+                PawnGenerationRequest request = new PawnGenerationRequest(hatchKindDef, this.hatcheeFaction, PawnGenerationContext.NonPlayer, -1, false, true, false, false, true, 1f, false, false, true, true, false, false, false, false);
                 for (int i = 0; i < spawncount; i++)
                 {
                     Pawn pawn = PawnGenerator.GeneratePawn(request);

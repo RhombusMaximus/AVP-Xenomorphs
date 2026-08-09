@@ -106,7 +106,7 @@ namespace RRYautja
                 if (flag2)
                 {
                     float num = 4f;
-                    Hediff_Injury hediff_Injury = GenCollection.RandomElement<Hediff_Injury>(from x in Facehugger.health.hediffSet.GetHediffs<Hediff_Injury>()
+                    Hediff_Injury hediff_Injury = GenCollection.RandomElement<Hediff_Injury>(from x in Facehugger.health.hediffSet.hediffs.OfType<Hediff_Injury>()
                                                                                              where HediffUtility.CanHealNaturally(x)
                                                                                              select x);
                     hediff_Injury.Heal(num * Facehugger.HealthScale * 0.01f);

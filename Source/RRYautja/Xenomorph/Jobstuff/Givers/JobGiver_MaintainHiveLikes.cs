@@ -38,7 +38,7 @@ namespace RimWorld
 				IntVec3 intVec = pawn.Position + GenRadial.RadialPattern[num];
 				if (intVec.InBounds(pawn.Map))
 				{
-					if (intVec.GetRoom(pawn.Map, RegionType.Set_Passable) == room)
+					if (RegionAndRoomQuery.RoomAt(intVec, pawn.Map, RegionType.Set_Passable) == room)
 					{
 						HiveLike hivelike = (HiveLike)pawn.Map.thingGrid.ThingAt(intVec, hiveDef);
 						if (hivelike != null && pawn.CanReserve(hivelike, 1, -1, null, false))

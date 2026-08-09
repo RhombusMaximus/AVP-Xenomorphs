@@ -199,7 +199,7 @@ namespace RimWorld
 				IntVec3 intVec = this.parent.Position + GenRadial.RadialPattern[i];
 				if (intVec.InBounds(this.parent.Map))
 				{
-					if (intVec.GetRoom(this.parent.Map, RegionType.Set_Passable) == room)
+					if (RegionAndRoomQuery.RoomAt(intVec, this.parent.Map, RegionType.Set_Passable) == room)
 					{
 						if (intVec.GetThingList(this.parent.Map).Any((Thing t) => t is HiveLike))
 						{
