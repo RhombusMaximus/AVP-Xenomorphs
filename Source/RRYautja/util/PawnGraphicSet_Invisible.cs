@@ -1,6 +1,4 @@
-#if false
-// TODO: PawnGraphicSet was removed in RimWorld 1.5+. Replaced by PawnRenderTree/PawnRenderer render node system.
-using System;
+﻿using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
@@ -55,5 +53,3 @@ namespace RRYautja
         }
     }
 }
-
-#endif

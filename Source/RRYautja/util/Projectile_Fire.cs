@@ -17,7 +17,7 @@ namespace RRYautja
             Ignite();
         }
 
-        protected override void Tick()
+        public override void Tick()
         {
             base.Tick();
 
@@ -181,7 +181,7 @@ namespace RRYautja
             GenSpawn.Spawn(moteThrown, loc.ToIntVec3(), map, WipeMode.Vanish);
         }
         
-        protected override void DrawAt(Vector3 drawLoc, bool flip = false)
+        public override void Draw()
         {
 
             Mesh mesh = MeshPool.GridPlane(this.def.graphicData.drawSize * traveled);

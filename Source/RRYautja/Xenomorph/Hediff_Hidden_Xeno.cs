@@ -1,4 +1,4 @@
-using System;
+﻿using System;
 using System.Collections.Generic;
 using Verse;
 using Verse.AI;
@@ -98,7 +98,7 @@ namespace RRYautja
             Scribe_Values.Look(ref raidOnAlert, "raidOnAlert", false);
             Scribe_Values.Look(ref hidden, "hidden", false);
             Scribe_References.Look(ref lastCarried, "lastCarried");
-            // object /* TODO: was PawnGraphicSet, removed in 1.5+ */
+            // PawnGraphicSet
             /*
             Scribe_Values.Look(ref oldGraphics, "oldGraphics");
             Scribe_Values.Look(ref oldShadow, "oldShadow");
@@ -350,7 +350,7 @@ namespace RRYautja
         }
 
 
-        private object /* TODO: was PawnGraphicSet, removed in 1.5+ */ oldGraphics;
+        private PawnGraphicSet oldGraphics;
         private Graphic_Shadow oldShadow;
         private int lastSpottedTick = -9999;
         private Graphic lastCarriedGraphic;

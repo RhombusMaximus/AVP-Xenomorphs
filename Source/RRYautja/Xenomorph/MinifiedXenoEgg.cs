@@ -61,7 +61,7 @@ namespace RRYautja
         }
 
         // Token: 0x0600237B RID: 9083 RVA: 0x0010F4C4 File Offset: 0x0010D8C4
-        protected override void Tick()
+        public override void Tick()
         {
             if (this.InnerThing == null)
             {

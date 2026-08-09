@@ -1,6 +1,4 @@
-#if false
-// TODO: NeurotrainerDefGenerator was renamed to ThingDefGenerator_Neurotrainer in 1.6
-using System;
+﻿using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
@@ -39,5 +37,3 @@ namespace RRYautja.HarmonyInstance
     
 
 }
-
-#endif

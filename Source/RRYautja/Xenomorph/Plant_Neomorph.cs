@@ -1,4 +1,4 @@
-using System;
+﻿using System;
 using System.Collections.Generic;
 using RimWorld;
 using RRYautja;
@@ -125,13 +125,11 @@ namespace RRYautja
             }
         }
 
-        public override void MakeLeafless(LeaflessCause cause, bool sendMessage = true)
+        public override void MakeLeafless(LeaflessCause cause)
         {
             return;
         }
 
-        // TODO: PathFindCostFor was removed from Plant in 1.5+
-#if false
         public override ushort PathFindCostFor(Pawn p)
         {
             if (!XenomorphUtil.IsXenomorph(p))
@@ -147,7 +145,6 @@ namespace RRYautja
             }
             return base.PathFindCostFor(p);
         }
-#endif
 
         public float DistanceBetween(IntVec3 a, IntVec3 b)
         {

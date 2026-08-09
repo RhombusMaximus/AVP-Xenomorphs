@@ -7,7 +7,7 @@ namespace RRYautja
     public class Projectile_AbilityRRY_ThrownWeapon : Projectile_AbilityRRY
     {
 
-        protected override void Impact(Thing hitThing, bool blockedByShield = false)
+        protected override void Impact(Thing hitThing)
         {
             base.Impact(hitThing);
             if (hitThing != null)

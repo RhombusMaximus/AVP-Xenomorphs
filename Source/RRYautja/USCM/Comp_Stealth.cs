@@ -1,4 +1,4 @@
-using RimWorld;
+﻿using RimWorld;
 using RRYautja.ExtensionMethods;
 using System;
 using System.Collections.Generic;
@@ -34,7 +34,7 @@ namespace RRYautja
         private FieldInfo _shadowGraphic;
         private FieldInfo _graphicInt;
         private FieldInfo _lastCell;
-        private object /* TODO: was PawnGraphicSet, removed in 1.5+ */ oldGraphics;
+        private PawnGraphicSet oldGraphics;
         private Graphic_Shadow oldShadow;
         private int lastSpottedTick = -9999;
         private Graphic lastCarriedGraphic;

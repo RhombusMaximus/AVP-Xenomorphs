@@ -1,4 +1,4 @@
-using System;
+﻿using System;
 using Verse;
 using Verse.AI;
 
@@ -8,7 +8,7 @@ namespace RimWorld
     public class JobGiver_XenomorphFightEnemies : JobGiver_AIFightEnemy
     {
         // Token: 0x06000458 RID: 1112 RVA: 0x0002C7FC File Offset: 0x0002ABFC
-        protected override bool TryFindShootingPosition(Pawn pawn, out IntVec3 dest, Verb verbToUse = null)
+        protected override bool TryFindShootingPosition(Pawn pawn, out IntVec3 dest)
         {
             Thing enemyTarget = pawn.mindState.enemyTarget;
             int forceMeleeRange = 7;

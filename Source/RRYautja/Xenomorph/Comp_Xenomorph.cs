@@ -23,7 +23,7 @@ namespace RRYautja
         public int healIntervalTicks = 60;
     }
 
-    public class Comp_Xenomorph : ThingComp, IObservedThoughtGiver
+    public class Comp_Xenomorph : ThingComp, IThoughtGiver
     {
         public CompProperties_Xenomorph Props
         {
@@ -939,7 +939,7 @@ namespace RRYautja
             return num3;
         }
         
-        public Thought_Memory GiveObservedThought(Pawn observer)
+        public Thought_Memory GiveObservedThought()
         {
             DefDatabase<ThoughtDef>.AllDefs.Any(x => x.defName.Contains("RRY_Observed_Xenomorph") && x.defName.Contains(pawn.LabelCap));
             string concept = string.Format("RRY_Concept_{0}s", pawn.def.label);
@@ -1223,10 +1223,5 @@ namespace RRYautja
         private static List<Pawn> tmpPredatorCandidates = new List<Pawn>();
         public PawnKindDef host;
         public int ticksSinceHeal;
-
-        public HistoryEventDef GiveObservedHistoryEvent(Pawn observer)
-        {
-            return null;
-        }
     }
 }

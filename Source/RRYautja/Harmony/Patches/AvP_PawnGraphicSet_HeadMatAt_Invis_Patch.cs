@@ -1,6 +1,4 @@
-#if false
-// TODO: PawnGraphicSet.HeadMatAt was removed in 1.5+
-using RimWorld;
+﻿using RimWorld;
 using Verse;
 using HarmonyLib;
 using System.Reflection;
@@ -56,4 +54,3 @@ namespace RRYautja
 	}
    
 }
-#endif
