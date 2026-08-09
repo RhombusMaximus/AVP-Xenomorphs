@@ -1,4 +1,4 @@
-﻿using System;
+using System;
 using RimWorld;
 using UnityEngine;
 using Verse;
@@ -17,7 +17,7 @@ namespace RRYautja
         }
 
         // Token: 0x06000044 RID: 68 RVA: 0x00003878 File Offset: 0x00001A78
-        public override GizmoResult GizmoOnGUI(Vector2 topLeft, float maxWidth)
+        public override GizmoResult GizmoOnGUI(Vector2 topLeft, float maxWidth, GizmoRenderParms parms)
         {
             Rect overRect = new Rect(topLeft.x, topLeft.y, this.GetWidth(maxWidth), 75f);
             Find.WindowStack.ImmediateWindow(1221392, overRect, WindowLayer.GameUI, delegate

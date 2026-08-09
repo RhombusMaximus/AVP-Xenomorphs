@@ -1,4 +1,4 @@
-﻿using RimWorld;
+using RimWorld;
 using RimWorld.Planet;
 using System;
 using System.Collections.Generic;
@@ -11,7 +11,7 @@ namespace RRYautja
     public static class DropShipArrivalActionUtility
     {
 
-        public static IEnumerable<FloatMenuOption> GetFloatMenuOptions<T>(Func<FloatMenuAcceptanceReport> acceptanceReportGetter, Func<T> arrivalActionGetter, string label, CompUSCMDropship representative, int destinationTile, Caravan car) where T : TransportPodsArrivalAction
+        public static IEnumerable<FloatMenuOption> GetFloatMenuOptions<T>(Func<FloatMenuAcceptanceReport> acceptanceReportGetter, Func<T> arrivalActionGetter, string label, CompUSCMDropship representative, int destinationTile, Caravan car) where T : TransportersArrivalAction
         {
             FloatMenuAcceptanceReport rep = acceptanceReportGetter();
             if (rep.Accepted || !rep.FailReason.NullOrEmpty() || !rep.FailMessage.NullOrEmpty())
@@ -43,11 +43,11 @@ namespace RRYautja
 
         public static IEnumerable<FloatMenuOption> GetATKFloatMenuOptions(CompUSCMDropship representative, IEnumerable<IThingHolder> pods, Settlement settlement, Caravan car)
         {
-            foreach (FloatMenuOption f in DropShipArrivalActionUtility.GetFloatMenuOptions<TransportPodsArrivalAction_AttackSettlement>(() => TransportPodsArrivalAction_AttackSettlement.CanAttack(pods, settlement), () => new TransportPodsArrivalAction_AttackSettlement(settlement, PawnsArrivalModeDefOf.EdgeDrop), "AttackAndDropAtEdge".Translate(settlement.Label), representative, settlement.Tile, car))
+            foreach (FloatMenuOption f in DropShipArrivalActionUtility.GetFloatMenuOptions<TransportersArrivalAction_AttackSettlement>(() => TransportersArrivalAction_AttackSettlement.CanAttack(pods, settlement), () => new TransportersArrivalAction_AttackSettlement(settlement, PawnsArrivalModeDefOf.EdgeDrop), "AttackAndDropAtEdge".Translate(settlement.Label), representative, settlement.Tile, car))
             {
                 yield return f;
             }
-            foreach (FloatMenuOption f2 in DropShipArrivalActionUtility.GetFloatMenuOptions<TransportPodsArrivalAction_AttackSettlement>(() => TransportPodsArrivalAction_AttackSettlement.CanAttack(pods, settlement), () => new TransportPodsArrivalAction_AttackSettlement(settlement, PawnsArrivalModeDefOf.CenterDrop), "AttackAndDropInCenter".Translate(settlement.Label), representative, settlement.Tile, car))
+            foreach (FloatMenuOption f2 in DropShipArrivalActionUtility.GetFloatMenuOptions<TransportersArrivalAction_AttackSettlement>(() => TransportersArrivalAction_AttackSettlement.CanAttack(pods, settlement), () => new TransportersArrivalAction_AttackSettlement(settlement, PawnsArrivalModeDefOf.CenterDrop), "AttackAndDropInCenter".Translate(settlement.Label), representative, settlement.Tile, car))
             {
                 yield return f2;
             }
@@ -62,16 +62,16 @@ namespace RRYautja
             {
                 return Enumerable.Empty<FloatMenuOption>();
             }
-            return DropShipArrivalActionUtility.GetFloatMenuOptions<TransportPodsArrivalAction_GiveGift>(() => TransportPodsArrivalAction_GiveGift.CanGiveGiftTo(pods, settlement),
-                () => new TransportPodsArrivalAction_GiveGift(settlement), "GiveGiftViaTransportPods".Translate(settlement.Faction.Name,
+            return DropShipArrivalActionUtility.GetFloatMenuOptions<TransportersArrivalAction_GiveGift>(() => TransportersArrivalAction_GiveGift.CanGiveGiftTo(pods, settlement),
+                () => new TransportersArrivalAction_GiveGift(settlement), "GiveGiftViaTransportPods".Translate(settlement.Faction.Name,
                 FactionGiftUtility.GetGoodwillChange(pods, settlement).ToStringWithSign()), representative, settlement.Tile, car);
             */
         }
 
         public static IEnumerable<FloatMenuOption> GetVisitFloatMenuOptions(CompUSCMDropship representative, IEnumerable<IThingHolder> pods, Settlement settlement, Caravan car)
         {
-            return DropShipArrivalActionUtility.GetFloatMenuOptions<TransportPodsArrivalAction_VisitSettlement>(() => TransportPodsArrivalAction_VisitSettlement.CanVisit(pods, settlement),
-                () => new TransportPodsArrivalAction_VisitSettlement(settlement), "VisitSettlement".Translate(settlement.Label), representative, settlement.Tile, car);
+            return DropShipArrivalActionUtility.GetFloatMenuOptions<TransportersArrivalAction_VisitSettlement>(() => TransportersArrivalAction_VisitSettlement.CanVisit(pods, settlement),
+                () => new TransportersArrivalAction_VisitSettlement(settlement), "VisitSettlement".Translate(settlement.Label), representative, settlement.Tile, car);
         }
     }
 }

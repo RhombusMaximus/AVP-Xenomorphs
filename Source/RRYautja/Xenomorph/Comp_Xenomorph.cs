@@ -1,4 +1,4 @@
-﻿using HarmonyLib;
+using HarmonyLib;
 using RimWorld;
 using RRYautja.ExtensionMethods;
 using System;
@@ -623,7 +623,7 @@ namespace RRYautja
 
         }
 
-        public override void PostPreApplyDamage(DamageInfo dinfo, out bool absorbed)
+        public override void PostPreApplyDamage(ref DamageInfo dinfo, out bool absorbed)
         {
             bool acidburns = true;
             if (base.parent is Pawn pawn && pawn != null)
@@ -684,7 +684,7 @@ namespace RRYautja
                     }
                 }
             }
-            base.PostPreApplyDamage(dinfo, out absorbed);
+            base.PostPreApplyDamage(ref dinfo, out absorbed);
         }
 
         // Token: 0x06000186 RID: 390 RVA: 0x0000E940 File Offset: 0x0000CD40
@@ -1159,7 +1159,7 @@ namespace RRYautja
             }
         }
 
-        public override void PostDeSpawn(Map map)
+        public override void PostDeSpawn(Map map, DestroyMode mode = DestroyMode.Vanish)
         {
 
             MapComponent_HiveGrid hiveGrid = map.HiveGrid();

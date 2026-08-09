@@ -1,4 +1,4 @@
-﻿using RimWorld;
+using RimWorld;
 using System;
 using System.Collections.Generic;
 using UnityEngine;
@@ -81,7 +81,7 @@ namespace RRYautja
         }
 
         // Token: 0x06002A31 RID: 10801 RVA: 0x0013F2F8 File Offset: 0x0013D6F8
-        public override void PostDeSpawn(Map map)
+        public override void PostDeSpawn(Map map, DestroyMode mode = DestroyMode.Vanish)
         {
             base.PostDeSpawn(map);
             this.innerContainer.TryDropAll(this.parent.Position, map, ThingPlaceMode.Near, null, null);

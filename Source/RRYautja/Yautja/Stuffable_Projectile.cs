@@ -1,4 +1,4 @@
-﻿using System;
+using System;
 using System.Collections.Generic;
 using RimWorld;
 using UnityEngine;
@@ -169,7 +169,7 @@ namespace RRYautja
         }
 
         // Token: 0x0600529F RID: 21151 RVA: 0x001298F8 File Offset: 0x00127CF8
-        public override void Tick()
+        protected override void Tick()
         {
             base.Tick();
             if (this.landed)
@@ -352,7 +352,7 @@ namespace RRYautja
         }
 
         // Token: 0x060052A3 RID: 21155 RVA: 0x00129D98 File Offset: 0x00128198
-        public override void Draw()
+        protected override void DrawAt(Vector3 drawLoc, bool flip = false)
         {
             Mesh mesh = MeshPool.GridPlane(this.def.graphicData.drawSize);
             Graphics.DrawMesh(mesh, this.DrawPos, this.ExactRotation, this.def.DrawMatSingle, 0);

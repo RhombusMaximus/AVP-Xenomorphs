@@ -1,4 +1,4 @@
-﻿using System.Collections.Generic;
+using System.Collections.Generic;
 using System.Linq;
 using RimWorld;
 using Verse;
@@ -100,10 +100,10 @@ namespace RRYautja
             }
         }
 
-        public override void Notify_PawnDied()
+        public override void Notify_PawnDied(DamageInfo? dinfo, Hediff culprit = null)
         {
             this.pawn.health.RemoveHediff(this);
-            base.Notify_PawnDied();
+            base.Notify_PawnDied(dinfo, culprit);
         }
 
         public override void PostRemoved()

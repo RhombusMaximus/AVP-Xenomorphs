@@ -1,4 +1,4 @@
-﻿using System.Collections.Generic;
+using System.Collections.Generic;
 using UnityEngine;
 using Verse;
 
@@ -25,7 +25,7 @@ namespace RRYautja
             }
         }
 
-        public override void Tick()
+        protected override void Tick()
         {
             base.Tick();
         }

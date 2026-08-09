@@ -1,4 +1,4 @@
-﻿using System;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using RimWorld;
@@ -27,7 +27,7 @@ namespace RRYautja
         }
 
         // Token: 0x06002188 RID: 8584 RVA: 0x0000FFF1 File Offset: 0x0000E1F1
-        public override bool ValidateTarget(LocalTargetInfo target)
+        public override bool ValidateTarget(LocalTargetInfo target, bool showMessages = true)
         {
             return true;
         }

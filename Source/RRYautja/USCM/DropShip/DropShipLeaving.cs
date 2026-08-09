@@ -1,4 +1,4 @@
-﻿using RimWorld;
+using RimWorld;
 using RimWorld.Planet;
 using System;
 using System.Collections.Generic;
@@ -9,8 +9,34 @@ using Verse.AI.Group;
 
 namespace RRYautja
 {
-    public class DropShipLeaving : DropPodLeaving, IActiveDropPod, IThingHolder
+    public class DropShipLeaving : Skyfaller, IActiveTransporter, IThingHolder
     {
+        public ActiveTransporterInfo Contents
+        {
+            get
+            {
+                if (innerContainer.Count > 0 && innerContainer[0] is ActiveTransporter at)
+                    return at.Contents;
+                return null;
+            }
+            set
+            {
+                if (innerContainer.Count > 0 && innerContainer[0] is ActiveTransporter at)
+                    at.Contents = value;
+            }
+        }
+
+        public IThingHolder ParentHolder => base.ParentHolder;
+
+        public ThingOwner GetDirectlyHeldThings()
+        {
+            return null;
+        }
+
+        public void GetChildHolders(List<IThingHolder> outChildren)
+        {
+            ThingOwnerUtility.AppendThingHoldersFromThings(outChildren, GetDirectlyHeldThings());
+        }
         // Token: 0x170005F0 RID: 1520
         // Token: 0x0600271D RID: 10013 RVA: 0x00129CD4 File Offset: 0x001280D4
         public override void ExposeData()
@@ -18,7 +44,7 @@ namespace RRYautja
             base.ExposeData();
             Scribe_Values.Look<int>(ref this.groupID, "groupID", 0, false);
             Scribe_Values.Look<int>(ref this.destinationTile, "destinationTile", 0, false);
-            Scribe_Deep.Look<TransportPodsArrivalAction>(ref this.arrivalAction, "arrivalAction", new object[0]);
+            Scribe_Deep.Look<TransportersArrivalAction>(ref this.arrivalAction, "arrivalAction", new object[0]);
             Scribe_Values.Look<bool>(ref this.alreadyLeft, "alreadyLeft", false, false);
         }
 
@@ -52,14 +78,14 @@ namespace RRYautja
             {
                 base.Map.lordManager.RemoveLord(lord);
             }
-            TravelingTransportPods travelingTransportPods = (TravelingTransportPods)WorldObjectMaker.MakeWorldObject(DefDatabase<WorldObjectDef>.GetNamed("RRY_USCM_TravelingDropshipUD4L", true));
+            TravellingTransporters travelingTransportPods = (TravellingTransporters)WorldObjectMaker.MakeWorldObject(DefDatabase<WorldObjectDef>.GetNamed("RRY_USCM_TravelingDropshipUD4L", true));
             travelingTransportPods.Tile = base.Map.Tile;
             travelingTransportPods.SetFaction(Faction.OfPlayer);
             travelingTransportPods.destinationTile = this.destinationTile;
             travelingTransportPods.arrivalAction = this.arrivalAction;
             Find.WorldObjects.Add(travelingTransportPods);
             DropShipLeaving.tmpActiveDropPods.Clear();
-            DropShipLeaving.tmpActiveDropPods.AddRange(base.Map.listerThings.ThingsInGroup(ThingRequestGroup.ActiveDropPod));
+            DropShipLeaving.tmpActiveDropPods.AddRange(base.Map.listerThings.ThingsInGroup(ThingRequestGroup.ActiveTransporter));
             for (int i = 0; i < DropShipLeaving.tmpActiveDropPods.Count; i++)
             {
                 DropShipLeaving DropshipLeaving = DropShipLeaving.tmpActiveDropPods[i] as DropShipLeaving;

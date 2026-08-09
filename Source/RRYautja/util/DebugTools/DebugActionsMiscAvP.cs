@@ -1,4 +1,6 @@
-﻿using System;
+// TODO: DebugAction system was reworked in RimWorld 1.6 - needs migration
+#if false
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using RimWorld;
@@ -27,3 +29,5 @@ namespace Verse
 
 	}
 }
+
+#endif

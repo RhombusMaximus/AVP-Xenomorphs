@@ -1,4 +1,4 @@
-﻿using RRYautja;
+using RRYautja;
 using System;
 using UnityEngine;
 using Verse;
@@ -80,7 +80,7 @@ namespace RimWorld
         public int timesBounced = 0;
         
         // Token: 0x06002721 RID: 10017 RVA: 0x0012A314 File Offset: 0x00128714
-        protected override void Impact(Thing hitThing)
+        protected override void Impact(Thing hitThing, bool blockedByShield = false)
         {
             Map map = base.Map;
             BattleLogEntry_RangedImpact battleLogEntry_RangedImpact = new BattleLogEntry_RangedImpact(this.launcher, hitThing, this.intendedTarget.Thing, this.equipmentDef, this.def, this.targetCoverDef);
@@ -131,7 +131,7 @@ namespace RimWorld
             this.DeSpawn();
         }
 
-        public override void Tick()
+        protected override void Tick()
         {
             base.Tick();
             /*

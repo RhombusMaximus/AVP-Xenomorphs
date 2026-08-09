@@ -1,4 +1,4 @@
-﻿using RRYautja;
+using RRYautja;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -58,7 +58,7 @@ namespace RimWorld
 			this.Medical = true;
         }
 
-        public override void Tick()
+        protected override void Tick()
         {
             base.Tick();
             if (Occupied)

@@ -1,4 +1,4 @@
-﻿using System;
+using System;
 using System.Collections.Generic;
 using RimWorld;
 using UnityEngine;
@@ -45,7 +45,7 @@ namespace RRYautja
         }
 
         // Token: 0x06000024 RID: 36 RVA: 0x00002DD4 File Offset: 0x00000FD4
-        public override void Tick()
+        protected override void Tick()
         {
             bool destroyed = base.Destroyed;
             if (!destroyed)

@@ -1,4 +1,4 @@
-﻿using UnityEngine;
+using UnityEngine;
 using Verse;
 
 namespace RRYautja
@@ -7,7 +7,7 @@ namespace RRYautja
     {
         public int TicksToImpact => ticksToImpact;
         
-        protected override void Impact(Thing hitThing)
+        protected override void Impact(Thing hitThing, bool blockedByShield = false)
         {
             base.Impact(hitThing);
             if (hitThing != null)

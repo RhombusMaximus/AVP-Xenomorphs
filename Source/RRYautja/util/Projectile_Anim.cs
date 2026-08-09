@@ -1,4 +1,4 @@
-﻿using System.Collections.Generic;
+using System.Collections.Generic;
 using System.Reflection;
 using HarmonyLib;
 using RimWorld;
@@ -11,7 +11,7 @@ namespace RRYautja
     {
         private static int frameTicks = 5;
         private int TicksforFrame = frameTicks;
-        public override void Tick()
+        protected override void Tick()
         {
             base.Tick();
             checked
@@ -59,7 +59,7 @@ namespace RRYautja
 
         }
 
-        public override void Draw()
+        protected override void DrawAt(Vector3 drawLoc, bool flip = false)
         {
 
             Mesh mesh = MeshPool.GridPlane(this.def.graphicData.drawSize);

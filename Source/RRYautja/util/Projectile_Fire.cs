@@ -1,4 +1,4 @@
-﻿using System.Collections.Generic;
+using System.Collections.Generic;
 using System.Reflection;
 using HarmonyLib;
 using RimWorld;
@@ -11,7 +11,7 @@ namespace RRYautja
     //Credit to these 3 or combination, whoever responsible for this code. Orion, JoeysLucky22, Erdelf
     public class Projectile_Fire : Projectile_Anim
     {
-        protected override void Impact(Thing hitThing)
+        protected override void Impact(Thing hitThing, bool blockedByShield = false)
         {
         //    base.Impact(hitThing);
             Ignite();

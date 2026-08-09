@@ -1,4 +1,4 @@
-﻿using RimWorld;
+using RimWorld;
 using System;
 using System.Collections.Generic;
 using UnityEngine;
@@ -72,7 +72,7 @@ namespace RRYautja
         }
 
         // Token: 0x06002382 RID: 9090 RVA: 0x0010F644 File Offset: 0x0010DA44
-        public override void DrawAt(Vector3 drawLoc, bool flip = false)
+        protected override void DrawAt(Vector3 drawLoc, bool flip = false)
         {
             try
             {

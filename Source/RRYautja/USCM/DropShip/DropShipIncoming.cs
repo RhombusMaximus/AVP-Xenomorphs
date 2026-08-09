@@ -1,4 +1,4 @@
-﻿using RimWorld;
+using RimWorld;
 using System;
 using Verse;
 
@@ -6,7 +6,7 @@ namespace RRYautja
 {
 	// Token: 0x02001598 RID: 5528
 	[StaticConstructorOnStartup]
-	public class DropShipIncoming : DropPodIncoming, IActiveDropPod, IThingHolder
+	public class DropShipIncoming : DropPodIncoming, IActiveTransporter, IThingHolder
 	{
 		protected override void SpawnThings()
 		{

@@ -1,4 +1,4 @@
-﻿using System;
+using System;
 using UnityEngine;
 using Verse;
 
@@ -41,9 +41,9 @@ namespace RRYautja
         }
 
         // Token: 0x060028BA RID: 10426 RVA: 0x00135B4C File Offset: 0x00133F4C
-        public override void PostDynamicDrawPhase()
+        public override void PostDraw()
         {
-            base.PostDynamicDrawPhase();
+            base.PostDraw();
             Vector3 drawPos = this.parent.DrawPos;
             drawPos.y += 0.046875f;
             CompFungalOverlay.FireGraphic.Draw(drawPos, Rot4.North, this.parent, 0f);

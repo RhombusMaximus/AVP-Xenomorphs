@@ -1,4 +1,4 @@
-﻿using RimWorld;
+using RimWorld;
 using RRYautja.ExtensionMethods;
 using System;
 using System.Collections.Generic;
@@ -232,7 +232,7 @@ namespace RRYautja
             }
         } 
 
-        public override void Notify_PawnDied()
+        public override void Notify_PawnDied(DamageInfo? dinfo, Hediff culprit = null)
         {
             IntVec3 spawnLoc = !base.Pawn.Dead ? base.parent.pawn.Position : base.parent.pawn.PositionHeld;
             Map spawnMap = !base.Pawn.Dead ? base.parent.pawn.Map : base.parent.pawn.MapHeld;
@@ -328,7 +328,6 @@ namespace RRYautja
         // Token: 0x04003401 RID: 13313
         protected const int SeverityUpdateInterval = 200;
 
-        [TweakValue("Gameplay", 0f, 1f)]
         private static float DustMoteSpawnMTB = 0.2f;
     }
 }

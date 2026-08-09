@@ -1,4 +1,4 @@
-﻿
+
 using HarmonyLib;
 using RimWorld;
 using System;
@@ -59,7 +59,7 @@ namespace RRYautja
         }
         // Token: 0x06003FD3 RID: 16339 RVA: 0x0015269F File Offset: 0x0015089F
 
-        public override Command GetGizmo()
+        public override IEnumerable<Command> GetGizmos()
         {
             if (this.gizmo == null)
             {
@@ -90,7 +90,7 @@ namespace RRYautja
                     command_CastPower.Disable(reason);
                 this.gizmo = command_CastPower;
             }
-            return this.gizmo;
+            yield return this.gizmo;
         }
 
         public virtual bool CanCastPowerCheck(string context, out string reason)

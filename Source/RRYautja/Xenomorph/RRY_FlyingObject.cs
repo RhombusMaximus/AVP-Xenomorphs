@@ -1,4 +1,4 @@
-﻿using System;
+using System;
 using System.Linq;
 using RimWorld;
 using UnityEngine;
@@ -118,7 +118,7 @@ namespace RRYautja
         }
 
         // Token: 0x06000064 RID: 100 RVA: 0x00004198 File Offset: 0x00002398
-        public override void Tick()
+        protected override void Tick()
         {
             base.Tick();
             Vector3 exactPosition = this.ExactPosition;
@@ -147,7 +147,7 @@ namespace RRYautja
         }
 
         // Token: 0x06000065 RID: 101 RVA: 0x00004254 File Offset: 0x00002454
-        public override void Draw()
+        protected override void DrawAt(Vector3 drawLoc, bool flip = false)
         {
             bool flag = this.flyingThing != null;
             if (flag)

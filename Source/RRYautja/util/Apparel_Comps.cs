@@ -1,4 +1,4 @@
-﻿using RimWorld;
+using RimWorld;
 using UnityEngine;
 using System.Collections.Generic;
 using Verse;
@@ -160,7 +160,7 @@ namespace RRYautja
         }
 
         // heavily based on Rimworld.CompExplosive.PostPreApplyDamage()
-        public override void PostPreApplyDamage(DamageInfo dinfo, out bool absorbed)
+        public override void PostPreApplyDamage(ref DamageInfo dinfo, out bool absorbed)
         {
             absorbed = false;
 

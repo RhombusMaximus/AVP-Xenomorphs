@@ -1,4 +1,4 @@
-﻿using RimWorld;
+using RimWorld;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -243,10 +243,10 @@ namespace RRYautja
             }
         }
 
-        public override void Notify_PawnDied()
+        public override void Notify_PawnDied(DamageInfo? dinfo, Hediff culprit = null)
         {
             Pawn.health.RemoveHediff(this.parent);
-            base.Notify_PawnDied();
+            base.Notify_PawnDied(dinfo, culprit);
         }
 
         public override void CompPostPostAdd(DamageInfo? dinfo)

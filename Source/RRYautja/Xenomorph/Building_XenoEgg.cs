@@ -1,4 +1,4 @@
-﻿using RimWorld;
+using RimWorld;
 using RimWorld.Planet;
 using RRYautja.ExtensionMethods;
 using System;
@@ -204,7 +204,7 @@ namespace RRYautja
             }
         }
 
-        public override void Tick()
+        protected override void Tick()
         {
             base.Tick();
             if (Find.TickManager.TicksGame % 60 == 0)
@@ -612,7 +612,7 @@ namespace RRYautja
             }
             yield break;
         }
-        public override void PostGeneratedForTrader(TraderKindDef trader, int forTile, Faction forFaction)
+        public override void PostGeneratedForTrader(TraderKindDef trader, PlanetTile forTile, Faction forFaction)
         {
             base.PostGeneratedForTrader(trader, forTile, forFaction);
             this.hatcheeFaction = Find.FactionManager.FirstFactionOfDef(XenomorphDefOf.RRY_Xenomorph);

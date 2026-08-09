@@ -1,4 +1,4 @@
-﻿using RRYautja;
+using RRYautja;
 using System;
 using System.Collections.Generic;
 using Verse;
@@ -7,13 +7,29 @@ using Verse.Sound;
 namespace RimWorld
 {
 	// Token: 0x02001596 RID: 5526
-	public class ActiveDropShip : ActiveDropPod, IActiveDropPod, IThingHolder
+	public class ActiveDropShip : ActiveTransporter, IActiveTransporter, IThingHolder
+    {
+        public IThingHolder ParentHolder => base.ParentHolder;
+
+        public ThingOwner GetDirectlyHeldThings()
+        {
+            return null;
+        }
+
+        public void GetChildHolders(List<IThingHolder> outChildren)
+        {
+            ThingOwnerUtility.AppendThingHoldersFromThings(outChildren, GetDirectlyHeldThings());
+            if (this.Contents != null)
+            {
+                outChildren.Add(this.Contents);
+            }
+        }
 	{
 		public override void ExposeData()
 		{
 			base.ExposeData();
 			Scribe_Values.Look<int>(ref this.age, "age", 0, false);
-			Scribe_Deep.Look<ActiveDropPodInfo>(ref this.contents, "contents", new object[]
+			Scribe_Deep.Look<ActiveTransporterInfo>(ref this.contents, "contents", new object[]
 			{
 				this
 			});
@@ -84,6 +100,6 @@ namespace RimWorld
 		public new int age;
 
 		// Token: 0x04004DE4 RID: 19940
-		private ActiveDropPodInfo contents;
+		private ActiveTransporterInfo contents;
 	}
 }

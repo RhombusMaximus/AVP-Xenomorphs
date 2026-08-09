@@ -1,4 +1,4 @@
-﻿using RRYautja;
+using RRYautja;
 using UnityEngine;
 using Verse;
 using Verse.Sound;
@@ -17,7 +17,7 @@ namespace RimWorld
         public new EquipmentAbility ability => (EquipmentAbility)base.ability;
         // Token: 0x06003F8E RID: 16270 RVA: 0x001516E4 File Offset: 0x0014F8E4
         /*
-        public override GizmoResult GizmoOnGUI(Vector2 topLeft, float maxWidth)
+        public override GizmoResult GizmoOnGUI(Vector2 topLeft, float maxWidth, GizmoRenderParms parms)
         {
             EquipmentAbilityDef def = (EquipmentAbilityDef)this.ability.def;
             Pawn pawn = this.ability.pawn;
@@ -54,7 +54,7 @@ namespace RimWorld
             }
         }
 
-        public override GizmoResult GizmoOnGUI(Vector2 topLeft, float maxWidth)
+        public override GizmoResult GizmoOnGUI(Vector2 topLeft, float maxWidth, GizmoRenderParms parms)
         {
             //    this.defaultDesc = this.ability.def.GetTooltip(this.ability.pawn);
             var rect = new Rect(topLeft.x, topLeft.y, this.GetWidth(maxWidth), 75f);

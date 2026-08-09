@@ -1,4 +1,4 @@
-﻿using System;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
@@ -10,7 +10,7 @@ namespace RRYautja
     public class Projectile_AcidSpit : Projectile
     {
         // Token: 0x06000003 RID: 3 RVA: 0x000020FC File Offset: 0x000010FC
-        public override void Tick()
+        protected override void Tick()
         {
             base.Tick();
             checked

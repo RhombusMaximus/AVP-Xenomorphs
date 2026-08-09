@@ -1,4 +1,4 @@
-﻿using RimWorld;
+using RimWorld;
 using RimWorld.Planet;
 using System;
 using System.Collections.Generic;
@@ -264,12 +264,12 @@ namespace RRYautja
             }
             if (car == null)
             {
-                if (TransportPodsArrivalAction_FormCaravan.CanFormCaravanAt(pods, tile) && !Find.WorldObjects.AnySettlementBaseAt(tile) && !Find.WorldObjects.AnySiteAt(tile))
+                if (TransportersArrivalAction_FormCaravan.CanFormCaravanAt(pods, tile) && !Find.WorldObjects.AnySettlementBaseAt(tile) && !Find.WorldObjects.AnySiteAt(tile))
                 {
                     anything = true;
                     yield return new FloatMenuOption("FormCaravanHere".Translate(), delegate
                     {
-                        this.TryLaunch(tile, new TransportPodsArrivalAction_FormCaravan(), car);
+                        this.TryLaunch(tile, new TransportersArrivalAction_FormCaravan(), car);
 
                     }, MenuOptionPriority.Default, null, null, 0f, null, null);
                 }
@@ -281,7 +281,7 @@ namespace RRYautja
                     anything = true;
                     yield return new FloatMenuOption("FormCaravanHere".Translate(), delegate
                     {
-                        this.TryLaunch(tile, new TransportPodsArrivalAction_FormCaravan(), car);
+                        this.TryLaunch(tile, new TransportersArrivalAction_FormCaravan(), car);
 
                     }, MenuOptionPriority.Default, null, null, 0f, null, null);
                 }
@@ -297,7 +297,7 @@ namespace RRYautja
                     {
                         yield return new FloatMenuOption("FormCaravanHere".Translate(), delegate
                         {
-                            this.TryLaunch(tile, new TransportPodsArrivalAction_FormCaravan(), car);
+                            this.TryLaunch(tile, new TransportersArrivalAction_FormCaravan(), car);
                         }, MenuOptionPriority.Default, null, null, 0f, null, null);
                     }
                     else
@@ -357,7 +357,7 @@ namespace RRYautja
             */
 
 
-            if (TransportPodsArrivalAction_LandInSpecificCell.CanLandInSpecificCell(pods, mapparent))
+            if (TransportersArrivalAction_LandInSpecificCell.CanLandInSpecificCell(pods, mapparent))
             {
                 yield return new FloatMenuOption("LandInExistingMap".Translate(mapparent.Label), delegate
                 {
@@ -373,7 +373,7 @@ namespace RRYautja
                     CameraJumper.TryHideWorld();
                     Find.Targeter.BeginTargeting(TargetingParameters.ForDropPodsDestination(), delegate (LocalTargetInfo x)
                     {
-                        representative.TryLaunch(mapparent.Tile, new TransportPodsArrivalAction_LandInSpecificCell(mapparent, x.Cell),car);
+                        representative.TryLaunch(mapparent.Tile, new TransportersArrivalAction_LandInSpecificCell(mapparent, x.Cell),car);
                     }, null, delegate
                     {
 
@@ -404,11 +404,11 @@ namespace RRYautja
 
         public static IEnumerable<FloatMenuOption> GetVisitSite(CompUSCMDropship representative, IEnumerable<IThingHolder> pods, Site site, Caravan car)
         {
-            foreach (FloatMenuOption f in DropShipArrivalActionUtility.GetFloatMenuOptions<TransportPodsArrivalAction_VisitSite>(() => TransportPodsArrivalAction_VisitSite.CanVisit(pods, site), () => new TransportPodsArrivalAction_VisitSite(site, PawnsArrivalModeDefOf.EdgeDrop), "DropAtEdge".Translate(), representative, site.Tile, car))
+            foreach (FloatMenuOption f in DropShipArrivalActionUtility.GetFloatMenuOptions<TransportersArrivalAction_VisitSite>(() => TransportersArrivalAction_VisitSite.CanVisit(pods, site), () => new TransportersArrivalAction_VisitSite(site, PawnsArrivalModeDefOf.EdgeDrop), "DropAtEdge".Translate(), representative, site.Tile, car))
             {
                 yield return f;
             }
-            foreach (FloatMenuOption f2 in DropShipArrivalActionUtility.GetFloatMenuOptions<TransportPodsArrivalAction_VisitSite>(() => TransportPodsArrivalAction_VisitSite.CanVisit(pods, site), () => new TransportPodsArrivalAction_VisitSite(site, PawnsArrivalModeDefOf.CenterDrop), "DropInCenter".Translate(), representative, site.Tile, car))
+            foreach (FloatMenuOption f2 in DropShipArrivalActionUtility.GetFloatMenuOptions<TransportersArrivalAction_VisitSite>(() => TransportersArrivalAction_VisitSite.CanVisit(pods, site), () => new TransportersArrivalAction_VisitSite(site, PawnsArrivalModeDefOf.CenterDrop), "DropInCenter".Translate(), representative, site.Tile, car))
             {
                 yield return f2;
             }
@@ -661,7 +661,7 @@ namespace RRYautja
             });
         }
 
-        public void TryLaunch(int destinationTile, TransportPodsArrivalAction arrivalAction, Caravan cafr = null)
+        public void TryLaunch(int destinationTile, TransportersArrivalAction arrivalAction, Caravan cafr = null)
         {
             //Log.Warning("CARR:" + this.carr+"/"+cafr);
             if (cafr == null)

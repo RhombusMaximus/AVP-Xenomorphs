@@ -1,4 +1,4 @@
-﻿using RimWorld;
+using RimWorld;
 using Verse;
 using HarmonyLib;
 using System.Reflection;
@@ -40,10 +40,10 @@ namespace RRYautja
     }
 
     //helicopter incoming, Edge Code thanks to SmashPhil and Neceros of SRTS-Expanded!
-    [HarmonyPatch(typeof(DropPodUtility), "MakeDropPodAt", new Type[] { typeof(IntVec3), typeof(Map), typeof(ActiveDropPodInfo) })]
+    [HarmonyPatch(typeof(DropPodUtility), "MakeDropPodAt", new Type[] { typeof(IntVec3), typeof(Map), typeof(ActiveTransporterInfo), typeof(Faction) })]
     public static class HarmonyTest
     {
-        public static bool Prefix(IntVec3 c, Map map, ActiveDropPodInfo info)
+        public static bool Prefix(IntVec3 c, Map map, ActiveTransporterInfo info)
         {
             Thing dropship = null;
             CompUSCMDropship cargo = null;
@@ -126,13 +126,13 @@ namespace RRYautja
     }
 
     //helicopter arrive jingzhun
-    [HarmonyPatch(typeof(TransportPodsArrivalAction_LandInSpecificCell), "Arrived", new Type[]  { typeof(List<ActiveDropPodInfo>), typeof(int) })]
+    [HarmonyPatch(typeof(TransportersArrivalAction_LandInSpecificCell), "Arrived", new Type[]  { typeof(List<ActiveTransporterInfo>), typeof(int) })]
     public static class HarmonyTest_AJ
     {
-        public static bool Prefix(TransportPodsArrivalAction_LandInSpecificCell __instance, List<ActiveDropPodInfo> pods, int tile)
+        public static bool Prefix(TransportersArrivalAction_LandInSpecificCell __instance, List<ActiveTransporterInfo> pods, int tile)
         {
         //    Log.Message(string.Format("pods: {0}", pods.Count));
-            foreach (ActiveDropPodInfo info in pods)
+            foreach (ActiveTransporterInfo info in pods)
             {
                 if (info.innerContainer.Contains(USCMDefOf.RRY_USCM_DropshipUD4L))
                 {

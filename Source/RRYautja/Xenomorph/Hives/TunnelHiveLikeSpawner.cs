@@ -1,4 +1,4 @@
-﻿using System;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using UnityEngine;
@@ -185,7 +185,7 @@ namespace RimWorld
 
 
         // Token: 0x06002627 RID: 9767 RVA: 0x00122210 File Offset: 0x00120610
-        public override void Tick()
+        protected override void Tick()
         {
             if (base.Spawned)
             {
@@ -276,7 +276,7 @@ namespace RimWorld
         }
 
         // Token: 0x06002628 RID: 9768 RVA: 0x00122538 File Offset: 0x00120938
-        public override void Draw()
+        protected override void DrawAt(Vector3 drawLoc, bool flip = false)
         {
             Rand.PushState();
             Rand.Seed = this.thingIDNumber;
@@ -332,15 +332,12 @@ namespace RimWorld
         private readonly FloatRange ResultSpawnDelay = new FloatRange(12f, 16f);
 
         // Token: 0x0400157B RID: 5499
-        [TweakValue("Gameplay", 0f, 1f)]
         private static float DustMoteSpawnMTB = 0.2f;
 
         // Token: 0x0400157C RID: 5500
-        [TweakValue("Gameplay", 0f, 1f)]
         private static float FilthSpawnMTB = 0.3f;
 
         // Token: 0x0400157D RID: 5501
-        [TweakValue("Gameplay", 0f, 10f)]
         private static float FilthSpawnRadius = 3f;
 
         // Token: 0x0400157F RID: 5503
