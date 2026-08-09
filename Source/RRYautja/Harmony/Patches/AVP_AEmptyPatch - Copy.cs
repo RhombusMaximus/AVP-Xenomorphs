@@ -129,22 +129,22 @@ namespace RRYautja
     [HarmonyPatch(typeof(TransportersArrivalAction_LandInSpecificCell), "Arrived", new Type[]  { typeof(List<ActiveTransporterInfo>), typeof(RimWorld.Planet.PlanetTile) })]
     public static class HarmonyTest_AJ
     {
-        public static bool Prefix(TransportersArrivalAction_LandInSpecificCell __instance, List<ActiveTransporterInfo> pods, RimWorld.Planet.PlanetTile tile)
+        public static bool Prefix(TransportersArrivalAction_LandInSpecificCell __instance, List<ActiveTransporterInfo> transporters, RimWorld.Planet.PlanetTile tile)
         {
         //    Log.Message(string.Format("pods: {0}", pods.Count));
-            foreach (ActiveTransporterInfo info in pods)
+            foreach (ActiveTransporterInfo info in transporters)
             {
                 if (info.innerContainer.Contains(USCMDefOf.RRY_USCM_DropshipUD4L))
                 {
                 //    Log.Message(string.Format("pods: {0}", info.innerContainer.ContentsString));
-                    Thing lookTarget = null; // TransportPodsArrivalActionUtility.GetLookTarget(pods) removed in 1.6
+                    Thing lookTarget = null; // TransportPodsArrivalActionUtility.GetLookTarget(transporters) removed in 1.6
                     Traverse tv = Traverse.Create(__instance);
                     IntVec3 c = tv.Field("cell").GetValue<IntVec3>();
                     Map map = tv.Field("mapParent").GetValue<MapParent>().Map;
                     // TransportPodsArrivalActionUtility.RemovePawnsFromWorldPawns(pods) // Removed in 1.6;
-                    for (int i = 0; i < pods.Count; i++)
+                    for (int i = 0; i < transporters.Count; i++)
                     {
-                        DropPodUtility.MakeDropPodAt(c, map, pods[i]);
+                        DropPodUtility.MakeDropPodAt(c, map, transporters[i]);
                     }
                     Messages.Message("USCM_Dropship_MessageArrived".Translate(), lookTarget, MessageTypeDefOf.TaskCompletion, true);
                     return false;
