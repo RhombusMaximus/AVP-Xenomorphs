@@ -24,7 +24,7 @@ namespace RimWorld
                 outChildren.Add(this.Contents);
             }
         }
-	{
+
 		public override void ExposeData()
 		{
 			base.ExposeData();
