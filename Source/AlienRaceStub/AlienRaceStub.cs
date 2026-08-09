@@ -12,4 +12,9 @@ namespace AlienRace
     {
         public RimWorld.BackstoryDef backstory;
     }
+
+    public class AlienPartGenerator
+    {
+        public class BodyAddon { }
+    }
 }

@@ -37,7 +37,7 @@ namespace RimWorld
 
 
 		// Token: 0x06007928 RID: 31016 RVA: 0x00239A08 File Offset: 0x00237C08
-		public override void Tick()
+		protected override void Tick()
 		{
 			if (this.contents == null)
 			{

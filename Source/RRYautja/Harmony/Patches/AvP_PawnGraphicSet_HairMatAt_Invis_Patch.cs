@@ -1,4 +1,6 @@
-﻿using RimWorld;
+#if false
+// TODO: PawnGraphicSet.HairMatAt was removed in 1.5+
+using RimWorld;
 using Verse;
 using HarmonyLib;
 using System.Reflection;
@@ -54,3 +56,4 @@ namespace RRYautja
 	}
    
 }
+#endif

@@ -1,4 +1,6 @@
-﻿using RimWorld;
+#if false
+// TODO: ShieldBelt class was removed in 1.6. Shield functionality is now in CompShield.
+using RimWorld;
 using Verse;
 using HarmonyLib;
 using System.Reflection;
@@ -29,3 +31,4 @@ namespace RRYautja
     }
 
 }
+#endif

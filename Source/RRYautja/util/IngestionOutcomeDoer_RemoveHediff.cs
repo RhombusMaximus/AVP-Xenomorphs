@@ -1,4 +1,4 @@
-﻿using RimWorld;
+using RimWorld;
 using System;
 using System.Collections.Generic;
 using UnityEngine;
@@ -10,7 +10,7 @@ namespace RRYautja
     public class IngestionOutcomeDoer_RemoveHediff : IngestionOutcomeDoer
     {
         // Token: 0x06000AED RID: 2797 RVA: 0x00057114 File Offset: 0x00055514
-        protected override void DoIngestionOutcomeSpecial(Pawn pawn, Thing ingested)
+        protected override void DoIngestionOutcomeSpecial(Pawn pawn, Thing ingested, int ingestedCount)
         {
             bool hashediff = pawn.health.hediffSet.hediffs.Any(x=> x.def == hediffDef || hediffDefs.Contains(x.def));
             if (hashediff)

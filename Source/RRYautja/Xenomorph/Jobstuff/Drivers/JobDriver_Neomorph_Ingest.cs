@@ -1,4 +1,4 @@
-﻿using System;
+using System;
 using System.Collections.Generic;
 using UnityEngine;
 using Verse;
@@ -242,10 +242,10 @@ namespace RimWorld
         }
 
         // Token: 0x060003E9 RID: 1001 RVA: 0x0002823C File Offset: 0x0002663C
-        public override bool ModifyCarriedThingDrawPos(ref Vector3 drawPos, ref bool behind, ref bool flip)
+        public override bool ModifyCarriedThingDrawPos(ref Vector3 drawPos, ref bool flip)
         {
             IntVec3 cell = this.job.GetTarget(TargetIndex.B).Cell;
-            return JobDriver_Ingest.ModifyCarriedThingDrawPosWorker(ref drawPos, ref behind, ref flip, cell, this.pawn);
+            return JobDriver_Ingest.ModifyCarriedThingDrawPosWorker(ref drawPos, ref flip, ref flip, cell, this.pawn) /* TODO: 3rd param may need adjustment */;
         }
 
         // Token: 0x060003EA RID: 1002 RVA: 0x00028270 File Offset: 0x00026670
