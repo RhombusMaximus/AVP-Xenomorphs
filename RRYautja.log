@@ -1,10 +1,13 @@
-Error while instantiating a mod of type .settings.AvPMod: System.Reflection.TargetInvocationException: Exception has been thrown by the target of an invocation. ---> HarmonyLib.HarmonyException: Patching exception in method null ---> System.ArgumentException: Undefined target method for patch method static System.Boolean RRYautja.HarmonyTest_AJ::Prefix(RimWorld.Planet.TransportersArrivalAction_LandInSpecificCell __instance, System.Collections.Generic.List`1<RimWorld.ActiveTransporterInfo> pods, System.Int32 tile)
-[Ref 6CDD5CBC]
-  at HarmonyLib.PatchClassProcessor.PatchWithAttributes (System.Reflection.MethodBase& lastOriginal, System.Boolean unpatch) [0x00047] in <e53399289d9b419d83f9f5b02c5cf609>:0 
-  at HarmonyLib.PatchClassProcessor.Patch () [0x00064] in <e53399289d9b419d83f9f5b02c5cf609>:0 
+Error while instantiating a mod of type RRYautja.settings.AvPMod: System.Reflection.TargetInvocationException: Exception has been thrown by the target of an invocation. ---> HarmonyLib.HarmonyException: Patching exception in method virtual System.Void RimWorld.Planet.TransportersArrivalAction_LandInSpecificCell::Arrived(System.Collections.Generic.List`1<RimWorld.ActiveTransporterInfo> transporters, RimWorld.Planet.PlanetTile tile) ---> System.Exception: Parameter "pods" not found in method virtual System.Void RimWorld.Planet.TransportersArrivalAction_LandInSpecificCell::Arrived(System.Collections.Generic.List`1<RimWorld.ActiveTransporterInfo> transporters, RimWorld.Planet.PlanetTile tile)
+[Ref 9C326C2C]
+  at HarmonyLib.MethodCreatorTools.EmitCallParameter (HarmonyLib.MethodCreator creator, System.Reflection.MethodInfo patch, System.Boolean allowFirsParamPassthrough, System.Reflection.Emit.LocalBuilder& tmpInstanceBoxingVar, System.Reflection.Emit.LocalBuilder& tmpObjectVar, System.Boolean& refResultUsed, System.Collections.Generic.List`1[T] tmpBoxVars) [0x00a37] in <e53399289d9b419d83f9f5b02c5cf609>:0 
+  at HarmonyLib.MethodCreator.AddPrefixes () [0x0009c] in <e53399289d9b419d83f9f5b02c5cf609>:0 
+  at HarmonyLib.MethodCreator.CreateReplacement () [0x0033a] in <e53399289d9b419d83f9f5b02c5cf609>:0 
+  at HarmonyLib.PatchFunctions.UpdateWrapper (System.Reflection.MethodBase original, HarmonyLib.PatchInfo patchInfo) [0x0007c] in <e53399289d9b419d83f9f5b02c5cf609>:0 
+  at HarmonyLib.PatchClassProcessor.ProcessPatchJob (HarmonyLib.PatchJobs`1+Job[T] job) [0x000f8] in <e53399289d9b419d83f9f5b02c5cf609>:0 
    --- End of inner exception stack trace ---
-[Ref B08B6404]
-  at HarmonyLib.PatchClassProcessor.ReportException (System.Exception exception, System.Reflection.MethodBase original) [0x00154] in <e53399289d9b419d83f9f5b02c5cf609>:0 
+[Ref 4BCA7F53]
+  at HarmonyLib.PatchClassProcessor.ReportException (System.Exception exception, System.Reflection.MethodBase original) [0x0013c] in <e53399289d9b419d83f9f5b02c5cf609>:0 
   at HarmonyLib.PatchClassProcessor.Patch () [0x00096] in <e53399289d9b419d83f9f5b02c5cf609>:0 
   at HarmonyLib.Harmony.<PatchAll>b__10_1 (System.Type type) [0x00007] in <e53399289d9b419d83f9f5b02c5cf609>:0 
   at HarmonyLib.CollectionExtensions.Do[T] (System.Collections.Generic.IEnumerable`1[T] sequence, System.Action`1[T] action) [0x00014] in <e53399289d9b419d83f9f5b02c5cf609>:0 
