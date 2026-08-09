@@ -67,7 +67,7 @@ namespace RimWorld
                     ThingDef namedA = XenomorphDefOf.RRY_Xenomorph_Cocoon_Humanoid;
                     ThingDef namedB = XenomorphDefOf.RRY_Xenomorph_Cocoon_Animal;
                     bool selected = pawn.Map != null ? Find.Selector.SelectedObjects.Contains(pawn) && (Prefs.DevMode) : false;
-                    if (c != IntVec3.Invalid && t != null && pawn.CanReach(c, PathEndMode.ClosestTouch, Danger.Deadly, true, TraverseMode.PassAllDestroyableThings))
+                    if (c != IntVec3.Invalid && t != null && pawn.CanReach(c, PathEndMode.ClosestTouch, Danger.Deadly, true, false, TraverseMode.PassAllDestroyableThings))
                     {
                         Predicate<IntVec3> validator = delegate (IntVec3 y)
                         {

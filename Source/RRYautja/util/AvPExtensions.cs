@@ -6,6 +6,7 @@ using UnityEngine;
 using Verse;
 using Verse.AI;
 using Verse.AI.Group;
+using System.Linq;
 
 namespace RRYautja.ExtensionMethods
 {
@@ -634,17 +635,17 @@ namespace RRYautja.ExtensionMethods
         */
         public static List<Pawn> ViableHosts(this Map m)
         {
-            return m.mapPawns.AllPawnsSpawned.FindAll(x => x.isPotentialHost());
+            return m.mapPawns.AllPawnsSpawned.ToList().FindAll(x => x.isPotentialHost());
         }
 
         public static List<Pawn> InviableHosts(this Map m)
         {
-            return m.mapPawns.AllPawnsSpawned.FindAll(x => !x.isPotentialHost());
+            return m.mapPawns.AllPawnsSpawned.ToList().FindAll(x => !x.isPotentialHost());
         }
 
         public static List<Pawn> CocoonedPawns(this Map m)
         {
-            return m.mapPawns.AllPawnsSpawned.FindAll(x => x.isCocooned());
+            return m.mapPawns.AllPawnsSpawned.ToList().FindAll(x => x.isCocooned());
         }
 
         public static bool isHost(this Pawn p)

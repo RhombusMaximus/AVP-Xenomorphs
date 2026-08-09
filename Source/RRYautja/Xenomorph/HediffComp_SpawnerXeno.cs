@@ -296,7 +296,7 @@ namespace RRYautja
                 parent.pawn.resultingXenomorph();
             }
             bool BeViolent = pawnKindDef == XenomorphDefOf.RRY_Xenomorph_Thrumbomorph ? true : true;
-            PawnGenerationRequest request = new PawnGenerationRequest(pawnKindDef, Find.FactionManager.FirstFactionOfDef(pawnKindDef.defaultFactionType), PawnGenerationContext.NonPlayer, -1, true, true, false, false, true, false, 20f, fixedGender: gender);
+            PawnGenerationRequest request = new PawnGenerationRequest(pawnKindDef, Find.FactionManager.FirstFactionOfDef(pawnKindDef.defaultFactionDef), PawnGenerationContext.NonPlayer, -1, true, true, false, false, true, false, 20f, fixedGender: gender);
 
             Pawn pawn = PawnGenerator.GeneratePawn(request);
             XenomorphPawn XP = pawn as XenomorphPawn;
@@ -361,7 +361,7 @@ namespace RRYautja
                     {
                         if (Rand.MTBEventOccurs(DustMoteSpawnMTB, 2f, 3.TicksToSeconds()))
                         {
-                            MoteMaker.ThrowDustPuffThick(new Vector3(vector.x, 0f, vector.z)
+                            FleckMaker.ThrowDustPuffThick(new Vector3(vector.x, 0f, vector.z)
                             {
                                 y = AltitudeLayer.MoteOverhead.AltitudeFor()
                             }, spawnMap, 1.5f, HostBloodColour);

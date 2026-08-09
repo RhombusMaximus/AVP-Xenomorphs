@@ -28,9 +28,9 @@ namespace RRYautja
 		{
 			for (int i = 0; i < 6; i++)
 			{
-				MoteMaker.ThrowDustPuff(base.Position.ToVector3Shifted() + Gen.RandomHorizontalVector(1f), base.Map, 1.2f);
+				FleckMaker.ThrowDustPuff(base.Position.ToVector3Shifted() + Gen.RandomHorizontalVector(1f), base.Map, 1.2f);
 			}
-			MoteMaker.ThrowLightningGlow(base.Position.ToVector3Shifted(), base.Map, 2f);
+			FleckMaker.ThrowLightningGlow(base.Position.ToVector3Shifted(), base.Map, 2f);
 			GenClamor.DoClamor(this, 15f, ClamorDefOf.Impact);
 			base.Impact();
 		}

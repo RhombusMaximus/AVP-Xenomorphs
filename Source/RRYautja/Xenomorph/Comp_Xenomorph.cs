@@ -164,7 +164,7 @@ namespace RRYautja
                     return true;
                 }
 
-                List<Pawn> pawns = map.mapPawns.AllPawnsSpawned.FindAll(x => !x.isXenomorph() && pawn.Position.InHorDistOf(x.Position, MinHideDist));
+                List<Pawn> pawns = map.mapPawns.AllPawnsSpawned.ToList().FindAll(x => !x.isXenomorph() && pawn.Position.InHorDistOf(x.Position, MinHideDist));
                 if (!pawns.NullOrEmpty())
                 {
                     if (pawns.Any(x => GenSight.LineOfSight(pawn.Position, x.Position, map)))
@@ -740,7 +740,7 @@ namespace RRYautja
                         {
                             if (IsAcceptablePreyFor(predator, pawn2, findhost))
                             {
-                                if (predator.CanReach(pawn2, PathEndMode.ClosestTouch, Danger.Deadly, false, TraverseMode.ByPawn))
+                                if (predator.CanReach(pawn2, PathEndMode.ClosestTouch, Danger.Deadly, false, false, TraverseMode.ByPawn))
                                 {
                                     if (!pawn2.IsForbidden(predator))
                                     {

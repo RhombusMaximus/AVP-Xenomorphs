@@ -5,6 +5,7 @@ using UnityEngine;
 using Verse;
 using Verse.AI.Group;
 using Verse.Sound;
+using RimWorld;
 
 namespace RimWorld
 {
@@ -98,7 +99,7 @@ namespace RimWorld
                     else if (faction != null)
                     {
                         var list = (from def in DefDatabase<PawnKindDef>.AllDefs
-                                    where ((def.defaultFactionType == faction.def && def.defaultFactionType != null) || (def.defaultFactionType == null && faction.def.pawnGroupMakers.Any(pgm => pgm.options.Any(opt => opt.kind == def) && pgm.kindDef != PawnGroupKindDefOf.Trader && pgm.kindDef != PawnGroupKindDefOf.Peaceful))) && def.isFighter
+                                    where ((def.defaultFactionDef == faction.def && def.defaultFactionDef != null) || (def.defaultFactionDef == null && faction.def.pawnGroupMakers.Any(pgm => pgm.options.Any(opt => opt.kind == def) && pgm.kindDef != PawnGroupKindDefOf.Trader && pgm.kindDef != PawnGroupKindDefOf.Peaceful))) && def.isFighter
                                     select def).ToList();
                         if (list.Count > 0)
                         {
@@ -136,9 +137,9 @@ namespace RimWorld
                 Vector3 loc = this.strikeLoc.ToVector3Shifted();
                 for (int i = 0; i < 4; i++)
                 {
-                    MoteMaker.ThrowSmoke(loc, map, 1.5f);
-                    MoteMaker.ThrowMicroSparks(loc, map);
-                    MoteMaker.ThrowLightningGlow(loc, map, 1.5f);
+                    FleckMaker.ThrowSmoke(loc, map, 1.5f);
+                    FleckMaker.ThrowMicroSparks(loc, map);
+                    FleckMaker.ThrowLightningGlow(loc, map, 1.5f);
                 }
             }
             SoundInfo info = SoundInfo.InMap(new TargetInfo(this.strikeLoc, map, false), MaintenanceType.None);
@@ -199,7 +200,7 @@ namespace RimWorld
                 }
                 if (Rand.MTBEventOccurs(DustMoteSpawnMTB, 1f, 1.TicksToSeconds()))
                 {
-                    MoteMaker.ThrowDustPuffThick(new Vector3(vector.x, 0f, vector.z)
+                    FleckMaker.ThrowDustPuffThick(new Vector3(vector.x, 0f, vector.z)
                     {
                         y = AltitudeLayer.MoteOverhead.AltitudeFor()
                     }, base.Map, Rand.Range(1.5f, 3f), new Color(1f, 1f, 1f, 2.5f));

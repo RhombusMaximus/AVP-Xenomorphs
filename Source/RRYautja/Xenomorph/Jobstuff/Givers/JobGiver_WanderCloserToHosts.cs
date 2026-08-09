@@ -23,7 +23,7 @@ namespace RRYautja
             bool anyPotentialHosts = !pawn.Map.ViableHosts().NullOrEmpty();
             if (anyPotentialHosts)
             {
-                bool anyReachablePotentialHosts = pawn.Map.ViableHosts().Any(x => pawn.CanReach(x, PathEndMode.ClosestTouch, Danger.Deadly, false, TraverseMode.NoPassClosedDoors));
+                bool anyReachablePotentialHosts = pawn.Map.ViableHosts().Any(x => pawn.CanReach(x, PathEndMode.ClosestTouch, Danger.Deadly, false, false, TraverseMode.NoPassClosedDoors));
                 if (anyReachablePotentialHosts)
                 {
                     Pawn potentialHost = (Pawn)GenClosest.ClosestThingReachable(pawn.Position, pawn.Map, ThingRequest.ForGroup(ThingRequestGroup.Pawn), PathEndMode.ClosestTouch, TraverseParms.For(TraverseMode.NoPassClosedDoors, Danger.Some), float.MaxValue, (x => ((Pawn)x).isPotentialHost())) ?? null;

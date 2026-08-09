@@ -53,7 +53,7 @@ namespace RRYautja
                 if (info.innerContainer[index].TryGetComp<CompUSCMDropship>() != null)
                 {
                     dropship = info.innerContainer[index];
-                    ActiveDropPod activeDropPod = (ActiveDropPod)ThingMaker.MakeThing(USCMDefOf.RRY_USCM_ActiveDropshipUD4L, null);
+                    ActiveTransporter activeDropPod = (ActiveTransporter)ThingMaker.MakeThing(USCMDefOf.RRY_USCM_ActiveDropshipUD4L, null);
 
                     activeDropPod.Contents = info;
                     EnsureInBounds(ref c, info.innerContainer[index].def, map);

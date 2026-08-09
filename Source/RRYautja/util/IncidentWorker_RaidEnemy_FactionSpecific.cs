@@ -53,7 +53,7 @@ namespace RimWorld
         {
             if (parms.points <= 0f)
             {
-                Log.Error("RaidEnemy is resolving raid points. They should always be set before initiating the incident.", false);
+                Log.Error("RaidEnemy is resolving raid points. They should always be set before initiating the incident.");
                 parms.points = StorytellerUtility.DefaultThreatPointsNow(parms.target);
             }
         }

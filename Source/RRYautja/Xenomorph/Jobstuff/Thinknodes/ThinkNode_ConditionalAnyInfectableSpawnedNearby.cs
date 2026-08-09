@@ -25,7 +25,7 @@ namespace RimWorld
         {
             if (pawn.Spawned && pawn.isXenomorph())
             {
-                List<Pawn> list = pawn.Map.mapPawns.AllPawns.Where(x => !x.Downed && x.isPotentialHost() && pawn.CanReach(x, PathEndMode.Touch, Danger.Deadly, false, TraverseMode.NoPassClosedDoors)).ToList();
+                List<Pawn> list = pawn.Map.mapPawns.AllPawns.Where(x => !x.Downed && x.isPotentialHost() && pawn.CanReach(x, PathEndMode.Touch, Danger.Deadly, false, false, TraverseMode.NoPassClosedDoors)).ToList();
                 if (!list.NullOrEmpty())
                 {
                     if (pawn.jobs.debugLog) pawn.jobs.DebugLogEvent(string.Format("List is {0} long",list.Count));

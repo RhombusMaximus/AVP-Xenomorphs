@@ -30,7 +30,7 @@ namespace RimWorld
             }
             Pawn pawn2 = FindPawnTarget(pawn);
         //    Pawn pawn2 = BestPawnToHuntForPredator(pawn, forceScanWholeMap);
-            if (pawn2 != null && !pawn2.Dead && _Facehugger.Impregnations<_Facehugger.maxImpregnations && pawn2.isPotentialHost() && pawn.CanReach(pawn2, PathEndMode.Touch, Danger.Deadly, false, TraverseMode.ByPawn))
+            if (pawn2 != null && !pawn2.Dead && _Facehugger.Impregnations<_Facehugger.maxImpregnations && pawn2.isPotentialHost() && pawn.CanReach(pawn2, PathEndMode.Touch, Danger.Deadly, false, false, TraverseMode.ByPawn))
             {
 
 #if DEBUG
@@ -48,7 +48,7 @@ namespace RimWorld
                     }
                     if (!pawnPath.TryFindLastCellBeforeBlockingDoor(pawn, out IntVec3 loc))
                     {
-                        Log.Error(pawn + " did TryFindLastCellBeforeDoor but found none when it should have been one. Target: " + pawn2.LabelCap, false);
+                        Log.Error(pawn + " did TryFindLastCellBeforeDoor but found none when it should have been one. Target: " + pawn2.LabelCap);
                         return null;
                     }
                     IntVec3 randomCell = CellFinder.RandomRegionNear(loc.GetRegion(pawn.Map, RegionType.Set_Passable), 9, TraverseParms.For(pawn, Danger.Deadly, TraverseMode.ByPawn, false), null, null, RegionType.Set_Passable).RandomCell;
@@ -161,7 +161,7 @@ namespace RimWorld
                         {
                             if (IsAcceptablePreyFor(predator, pawn2))
                             {
-                                if (predator.CanReach(pawn2, PathEndMode.ClosestTouch, Danger.Deadly, false, TraverseMode.ByPawn))
+                                if (predator.CanReach(pawn2, PathEndMode.ClosestTouch, Danger.Deadly, false, false, TraverseMode.ByPawn))
                                 {
                                     if (!pawn2.IsForbidden(predator))
                                     {

@@ -122,7 +122,7 @@ namespace RimWorld
                 else
                 {
                     var list = (from def in DefDatabase<PawnKindDef>.AllDefs
-                                where ((def.defaultFactionType == OfFaction.def && def.defaultFactionType != null) || (def.defaultFactionType == null && OfFaction.def.pawnGroupMakers.Any(pgm => pgm.options.Any(opt => opt.kind == def) && pgm.kindDef != PawnGroupKindDefOf.Trader && pgm.kindDef != PawnGroupKindDefOf.Peaceful))) && def.isFighter
+                                where ((def.defaultFactionDef == OfFaction.def && def.defaultFactionDef != null) || (def.defaultFactionDef == null && OfFaction.def.pawnGroupMakers.Any(pgm => pgm.options.Any(opt => opt.kind == def) && pgm.kindDef != PawnGroupKindDefOf.Trader && pgm.kindDef != PawnGroupKindDefOf.Peaceful))) && def.isFighter
                                 select def).ToList();
                     if (list.Count > 0)
                     {
@@ -354,7 +354,7 @@ namespace RimWorld
 				num++;
 				if (num > 1000)
 				{
-					Log.Error("Too many iterations.", false);
+					Log.Error("Too many iterations.");
 					break;
 				}
                 if (!this.TrySpawnPawn(out Pawn pawn))

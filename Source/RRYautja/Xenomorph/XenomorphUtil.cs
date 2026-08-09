@@ -248,7 +248,7 @@ namespace RRYautja
         */
         public static List<Pawn> SpawnedInfectablePawns(Map map)
         {
-            return map.mapPawns.AllPawnsSpawned.FindAll(x => x.isPotentialHost());
+            return map.mapPawns.AllPawnsSpawned.ToList().FindAll(x => x.isPotentialHost());
         }
 
         public static int TotalSpawnedInfectablePawnCount(Map map)
@@ -258,7 +258,7 @@ namespace RRYautja
 
         public static List<Pawn> SpawnedInfectablePawns(Map map, int radius, IntVec3 position)
         {
-            return map.mapPawns.AllPawnsSpawned.FindAll(x => x.isPotentialHost() && XenomorphUtil.DistanceBetween(x.Position, position) < radius);
+            return map.mapPawns.AllPawnsSpawned.ToList().FindAll(x => x.isPotentialHost() && XenomorphUtil.DistanceBetween(x.Position, position) < radius);
         }
 
         public static int TotalSpawnedInfectablePawnCount(Map map, int radius, IntVec3 position)
@@ -269,7 +269,7 @@ namespace RRYautja
 
         public static List<Pawn> SpawnedInfectablePawns(Map map, int radius, IntVec3 position, IntVec3 otherposition)
         {
-            return map.mapPawns.AllPawnsSpawned.FindAll(x => x.isPotentialHost() && XenomorphUtil.DistanceBetween(otherposition, position) < radius);
+            return map.mapPawns.AllPawnsSpawned.ToList().FindAll(x => x.isPotentialHost() && XenomorphUtil.DistanceBetween(otherposition, position) < radius);
         }
 
         public static int TotalSpawnedInfectablePawnCount(Map map, int radius, IntVec3 position, IntVec3 otherposition)
@@ -302,7 +302,7 @@ namespace RRYautja
 
         public static List<Pawn> SpawnedInfectedPawns(Map map)
         {
-            return map.mapPawns.AllPawnsSpawned.FindAll(x => XenomorphUtil.IsInfectedPawn(x));
+            return map.mapPawns.AllPawnsSpawned.ToList().FindAll(x => XenomorphUtil.IsInfectedPawn(x));
         }
 
         public static int TotalSpawnedInfectedPawnCount(Map map)
@@ -363,7 +363,7 @@ namespace RRYautja
 
         public static List<Pawn> SpawnedXenomorphPawns(Map map)
         {
-            return map.mapPawns.AllPawnsSpawned.FindAll(x => XenomorphUtil.IsXenomorph(x));
+            return map.mapPawns.AllPawnsSpawned.ToList().FindAll(x => XenomorphUtil.IsXenomorph(x));
         }
 
         public static int TotalSpawnedXenomorphPawnCount(Map map)
@@ -373,17 +373,17 @@ namespace RRYautja
 
         public static List<Pawn> SpawnedFacehuggerPawns(Map map)
         {
-            return map.mapPawns.AllPawnsSpawned.FindAll(x => XenomorphUtil.IsXenomorphFacehugger(x));
+            return map.mapPawns.AllPawnsSpawned.ToList().FindAll(x => XenomorphUtil.IsXenomorphFacehugger(x));
         }
 
         public static List<Pawn> SpawnedFacehuggerPawns(Map map, int radius, IntVec3 position)
         {
-            return map.mapPawns.AllPawnsSpawned.FindAll(x => XenomorphUtil.IsXenomorphFacehugger(x) && position.InHorDistOf(x.Position, radius));
+            return map.mapPawns.AllPawnsSpawned.ToList().FindAll(x => XenomorphUtil.IsXenomorphFacehugger(x) && position.InHorDistOf(x.Position, radius));
         }
 
         public static List<Pawn> SpawnedFacehuggerPawns(Map map, int radius, IntVec3 position, IntVec3 otherposition)
         {
-            return map.mapPawns.AllPawnsSpawned.FindAll(x => XenomorphUtil.IsXenomorphFacehugger(x) && XenomorphUtil.DistanceBetween(otherposition, position) < radius);
+            return map.mapPawns.AllPawnsSpawned.ToList().FindAll(x => XenomorphUtil.IsXenomorphFacehugger(x) && XenomorphUtil.DistanceBetween(otherposition, position) < radius);
         }
 
         public static int TotalSpawnedFacehuggerPawnCount(Map map)
@@ -403,7 +403,7 @@ namespace RRYautja
 
         public static List<Pawn> SpawnedFacehuggerPawns(Map map, int radius, Pawn pawn, IntVec3 otherposition)
         {
-            return map.mapPawns.AllPawnsSpawned.FindAll(x => XenomorphUtil.IsXenomorphFacehugger(x) && XenomorphUtil.DistanceBetween(otherposition, pawn.Position) < radius && pawn.CanReach(x, PathEndMode.ClosestTouch, Danger.Deadly));
+            return map.mapPawns.AllPawnsSpawned.ToList().FindAll(x => XenomorphUtil.IsXenomorphFacehugger(x) && XenomorphUtil.DistanceBetween(otherposition, pawn.Position) < radius && pawn.CanReach(x, PathEndMode.ClosestTouch, Danger.Deadly));
         }
 
         public static int TotalSpawnedFacehuggerPawnCount(Map map, int radius, Pawn pawn, IntVec3 otherposition)
@@ -413,7 +413,7 @@ namespace RRYautja
 
         public static List<Pawn> SpawnedFacehuggerPawns(Map map, int radius, Pawn pawn)
         {
-            return map.mapPawns.AllPawnsSpawned.FindAll(x => XenomorphUtil.IsXenomorphFacehugger(x) && XenomorphUtil.DistanceBetween(x.Position, pawn.Position) < radius && x.CanReach(pawn, PathEndMode.ClosestTouch, Danger.Deadly));
+            return map.mapPawns.AllPawnsSpawned.ToList().FindAll(x => XenomorphUtil.IsXenomorphFacehugger(x) && XenomorphUtil.DistanceBetween(x.Position, pawn.Position) < radius && x.CanReach(pawn, PathEndMode.ClosestTouch, Danger.Deadly));
         }
 
         public static int TotalSpawnedFacehuggerPawnCount(Map map, int radius, Thing thing)
@@ -581,7 +581,7 @@ namespace RRYautja
         }
         public static List<Thing> SpawnedEmptyCocoons(Map map, ThingDef t)
         {
-            return SpawnedCocoons(map, t).FindAll(x => (x is Building_XenomorphCocoon XC && XC.AnyUnoccupiedSleepingSlot));
+            return SpawnedCocoons(map, t).ToList().FindAll(x => (x is Building_XenomorphCocoon XC && XC.AnyUnoccupiedSleepingSlot));
         }
 
 

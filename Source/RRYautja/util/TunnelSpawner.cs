@@ -82,7 +82,7 @@ namespace RRYautja
                 }
                 if (Rand.MTBEventOccurs(TunnelSpawner.DustMoteSpawnMTB, 1f, 1.TicksToSeconds()))
                 {
-                    MoteMaker.ThrowDustPuffThick(new Vector3(vector.x, 0f, vector.z)
+                    FleckMaker.ThrowDustPuffThick(new Vector3(vector.x, 0f, vector.z)
                     {
                         y = AltitudeLayer.MoteOverhead.AltitudeFor()
                     }, base.Map, Rand.Range(1.5f, 3f), new Color(1f, 1f, 1f, 2.5f));

@@ -1,5 +1,5 @@
 #if false
-// TODO: NeurotrainerDefGenerator renamed in 1.6
+// TODO: NeurotrainerDefGenerator renamed to ThingDefGenerator_Neurotrainer in 1.6
 using System;
 using System.Collections.Generic;
 using System.Linq;

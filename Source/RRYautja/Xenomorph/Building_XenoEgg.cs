@@ -32,20 +32,20 @@ namespace RRYautja
         public bool EggPresent(EggType state) => MyMap.listerThings.ThingsOfDef(this.def).Any(x => x as Building_XenoEgg != null && x as Building_XenoEgg is Building_XenoEgg hatcher && (hatcher.eggType == state || hatcher.eggType == EggType.All) && x != this);
         public bool EggsPresent(EggType state, out List<Thing> eggList)
         {
-            eggList = MyMap.listerThings.ThingsOfDef(this.def).FindAll(x => x as Building_XenoEgg != null && x as Building_XenoEgg is Building_XenoEgg hatcher && (hatcher.eggType == state || hatcher.eggType == EggType.All) && x != this);
+            eggList = MyMap.listerThings.ThingsOfDef(this.def).ToList().FindAll(x => x as Building_XenoEgg != null && x as Building_XenoEgg is Building_XenoEgg hatcher && (hatcher.eggType == state || hatcher.eggType == EggType.All) && x != this);
             bool result = !eggList.NullOrEmpty();
             return result;
         }
         public bool EggsPresent(EggType state, out List<Thing> eggList, float MaxRange)
         {
-            eggList = MyMap.listerThings.ThingsOfDef(this.def).FindAll(x => x as Building_XenoEgg != null && x as Building_XenoEgg is Building_XenoEgg hatcher && (hatcher.eggType == state || hatcher.eggType == EggType.All) && x != this && hatcher.MyPos.InHorDistOf(this.MyPos, hatchRange));
+            eggList = MyMap.listerThings.ThingsOfDef(this.def).ToList().FindAll(x => x as Building_XenoEgg != null && x as Building_XenoEgg is Building_XenoEgg hatcher && (hatcher.eggType == state || hatcher.eggType == EggType.All) && x != this && hatcher.MyPos.InHorDistOf(this.MyPos, hatchRange));
             bool result = !eggList.NullOrEmpty();
             return result;
         }
         public bool EggsPresent(GestationState state, float MaxRange, out List<Building_XenoEgg> eggList, EggType type = EggType.All)
         {
             eggList = new List<Building_XenoEgg>();
-            foreach (var item in MyMap.listerThings.ThingsOfDef(this.def).FindAll(x => x as Building_XenoEgg != null && x as Building_XenoEgg is Building_XenoEgg hatcher && (hatcher.eggType == type || type == EggType.All) && x != this && hatcher.MyPos.InHorDistOf(this.MyPos, hatchRange)))
+            foreach (var item in MyMap.listerThings.ThingsOfDef(this.def).ToList().FindAll(x => x as Building_XenoEgg != null && x as Building_XenoEgg is Building_XenoEgg hatcher && (hatcher.eggType == type || type == EggType.All) && x != this && hatcher.MyPos.InHorDistOf(this.MyPos, hatchRange)))
             {
                 eggList.Add((Building_XenoEgg)item);
             }
@@ -57,7 +57,7 @@ namespace RRYautja
         public bool HostsPresent() => HostsPresent(out List<Pawn> hostList);
         public bool HostsPresent(out List<Pawn> hostList)
         {
-            hostList = MyMap.mapPawns.AllPawnsSpawned.FindAll(x => x.isPotentialHost() && x.Position.InHorDistOf(this.MyPos, hatchRange));
+            hostList = MyMap.mapPawns.AllPawnsSpawned.ToList().FindAll(x => x.isPotentialHost() && x.Position.InHorDistOf(this.MyPos, hatchRange));
             return !hostList.NullOrEmpty();
         }
         public bool Gestating(out string reason)

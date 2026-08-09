@@ -120,7 +120,7 @@ namespace RRYautja
             bool destroyed = base.Destroyed;
             if (!destroyed)
             {
-                MoteMaker.ThrowDustPuff(this.Position, base.Map, 0.2f);
+                FleckMaker.ThrowDustPuff(this.Position, base.Map, 0.2f);
                 List<Thing> thingList = GridsUtility.GetThingList(base.Position, base.Map);
                 for (int i = 0; i < thingList.Count; i++)
                 {
@@ -138,7 +138,7 @@ namespace RRYautja
                         {
                             this.touchingThings.Add(thing);
                             this.damageEntities(thing, Mathf.RoundToInt((float)this.AcidDamage * Rand.Range(0.5f, 1.25f)));
-                            MoteMaker.ThrowDustPuff(thing.Position, base.Map, 0.2f);
+                            FleckMaker.ThrowDustPuff(thing.Position, base.Map, 0.2f);
                         }
                         bool flag3 = pawn != null;
                         if (flag3 && flag2b)
@@ -148,7 +148,7 @@ namespace RRYautja
                             if (flag4)
                             {
                                 this.addAcidDamage(pawn);
-                                MoteMaker.ThrowDustPuff(pawn.Position, base.Map, 0.2f);
+                                FleckMaker.ThrowDustPuff(pawn.Position, base.Map, 0.2f);
                             }
                         }
                     }
@@ -221,7 +221,7 @@ namespace RRYautja
             if (flag)
             {
                 e.TakeDamage(damageInfo);
-                MoteMaker.ThrowDustPuff(e.Position, base.Map, 0.2f);
+                FleckMaker.ThrowDustPuff(e.Position, base.Map, 0.2f);
             }
         }
 
@@ -246,7 +246,7 @@ namespace RRYautja
                 bool flag4 = flag3;
                 if (flag4)
                 {
-                    MoteMaker.ThrowDustPuff(firstBuilding.Position, base.Map, 0.2f);
+                    FleckMaker.ThrowDustPuff(firstBuilding.Position, base.Map, 0.2f);
                     firstBuilding.TakeDamage(damageInfo);
                 }
             }
@@ -260,7 +260,7 @@ namespace RRYautja
             if (p.RaceProps.Humanlike) wornApparel = p.apparel.WornApparel;
             int num = Mathf.RoundToInt((float)this.AcidDamage * Rand.Range(0.5f, 1.25f));
             DamageInfo damageInfo = default(DamageInfo);
-            MoteMaker.ThrowDustPuff(p.Position, base.Map, 0.2f);
+            FleckMaker.ThrowDustPuff(p.Position, base.Map, 0.2f);
             BodyPartHeight bodyPartHeight = p.Downed ? BodyPartHeight.Undefined : BodyPartHeight.Bottom;
             foreach (BodyPartRecord bodyPartRecord in p.health.hediffSet.GetNotMissingParts(bodyPartHeight, BodyPartDepth.Outside, null, null))
             {

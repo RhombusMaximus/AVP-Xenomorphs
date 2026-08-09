@@ -60,11 +60,11 @@ namespace RimWorld
             for (int i = 0; i < thingList.Count; i++)
             {
                 Thing thing = thingList[i];
-                if (thing is IActiveDropPod || thing is Skyfaller)
+                if (thing is IActiveTransporter || thing is Skyfaller)
                 {
                     return false;
                 }
-                if (thing.def.category != ThingCategory.Plant && GenSpawn.SpawningWipes(ThingDefOf.ActiveDropPod, thing.def))
+                if (thing.def.category != ThingCategory.Plant && GenSpawn.SpawningWipes(ThingDefOf.ActiveTransporter, thing.def))
                 {
                     return false;
                 }

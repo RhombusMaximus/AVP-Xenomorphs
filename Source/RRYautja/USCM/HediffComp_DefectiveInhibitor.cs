@@ -271,7 +271,7 @@ namespace RRYautja
         {
             if (pawn.story.traits.HasTrait(trait.def))
             {
-                Log.Warning(pawn + " already has trait " + trait.def, false);
+                Log.Warning(pawn + " already has trait " + trait.def);
                 return;
             }
             pawn.story.traits.allTraits.Add(trait);

@@ -20,7 +20,7 @@ namespace RimWorld
             bool selected = Find.Selector.SingleSelectedThing == pawn;
             if (selected) Log.Message(string.Format("{0} hunting {1}", pawn, pawn2));
 #endif
-            if (pawn2 != null && pawn.CanReach(pawn2, PathEndMode.Touch, Danger.Deadly, false, TraverseMode.ByPawn))
+            if (pawn2 != null && pawn.CanReach(pawn2, PathEndMode.Touch, Danger.Deadly, false, false, TraverseMode.ByPawn))
             {
                 return this.MeleeAttackJob(pawn, pawn2);
             }

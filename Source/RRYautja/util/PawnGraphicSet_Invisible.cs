@@ -1,5 +1,5 @@
 #if false
-// TODO: PawnGraphicSet_Invisible was removed in RimWorld 1.5+
+// TODO: PawnGraphicSet_Invisible class removed in RimWorld 1.5+
 using System;
 using System.Collections.Generic;
 using System.Linq;

@@ -52,7 +52,7 @@ namespace RimWorld
                 string failReason = canBeUsed.Reason;
                 yield return new FloatMenuOption(this.FloatMenuOptionLabel(myPawn) + ((failReason == null) ? string.Empty : (" (" + failReason + ")")), null, MenuOptionPriority.Default, null, null, 0f, null, null);
             }
-            else if (!myPawn.CanReach(this.parent, PathEndMode.InteractionCell, Danger.Deadly, false, TraverseMode.ByPawn))
+            else if (!myPawn.CanReach(this.parent, PathEndMode.InteractionCell, Danger.Deadly, false, false, TraverseMode.ByPawn))
             {
                 yield return new FloatMenuOption(this.FloatMenuOptionLabel(myPawn) + " (" + "NoPath".Translate() + ")", null, MenuOptionPriority.Default, null, null, 0f, null, null);
             }

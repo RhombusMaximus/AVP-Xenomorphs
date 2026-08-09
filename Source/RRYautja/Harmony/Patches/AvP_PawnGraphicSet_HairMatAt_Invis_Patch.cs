@@ -1,5 +1,5 @@
 #if false
-// TODO: PawnGraphicSet.HairMatAt was removed in RimWorld 1.5+
+// TODO: PawnGraphicSet.HairMatAt removed in RimWorld 1.5+
 using RimWorld;
 using Verse;
 using HarmonyLib;

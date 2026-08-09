@@ -229,7 +229,7 @@ namespace RRYautja
 
         public override IEnumerable<FloatMenuOption> CompFloatMenuOptions(Pawn selPawn)
         {
-            if (!selPawn.CanReach(this.parent, PathEndMode.Touch, Danger.Deadly, false, TraverseMode.ByPawn))
+            if (!selPawn.CanReach(this.parent, PathEndMode.Touch, Danger.Deadly, false, false, TraverseMode.ByPawn))
             {
                 yield break;
             }
@@ -667,14 +667,14 @@ namespace RRYautja
             if (cafr == null)
                 if (!this.parent.Spawned)
                 {
-                    Log.Error("Tried to launch " + this.parent + ", but it's unspawned.", false);
+                    Log.Error("Tried to launch " + this.parent + ", but it's unspawned.");
                     return;
                 }
             /*
             List<CompTransporter> transportersInGroup = this.TransportersInGroup;
             if (transportersInGroup == null)
             {
-                Log.Error("Tried to launch " + this.parent + ", but it's not in any group.", false);
+                Log.Error("Tried to launch " + this.parent + ", but it's not in any group.");
                 return;
             }
             */
@@ -726,8 +726,8 @@ namespace RRYautja
                 dropship.stackCount = 1;
                 directlyHeldThings.TryAddOrTransfer(dropship);
 
-                ActiveDropPod activeDropPod = (ActiveDropPod)ThingMaker.MakeThing(USCMDefOf.RRY_USCM_ActiveDropshipUD4L, null);
-                activeDropPod.Contents = new ActiveDropPodInfo();
+                ActiveTransporter activeDropPod = (ActiveTransporter)ThingMaker.MakeThing(USCMDefOf.RRY_USCM_ActiveDropshipUD4L, null);
+                activeDropPod.Contents = new ActiveTransporterInfo();
                 activeDropPod.Contents.innerContainer.TryAddRangeOrTransfer(directlyHeldThings, true, true);
                 DropShipLeaving dropPodLeaving = (DropShipLeaving)SkyfallerMaker.MakeSkyfaller(USCMDefOf.RRY_USCM_DropshipUD4LLeaving, activeDropPod);
                 dropPodLeaving.groupID = groupID;
@@ -796,8 +796,8 @@ namespace RRYautja
                 }
                 */
 
-                ActiveDropPod activeDropPod = (ActiveDropPod)ThingMaker.MakeThing(USCMDefOf.RRY_USCM_ActiveDropshipUD4L, null);
-                activeDropPod.Contents = new ActiveDropPodInfo();
+                ActiveTransporter activeDropPod = (ActiveTransporter)ThingMaker.MakeThing(USCMDefOf.RRY_USCM_ActiveDropshipUD4L, null);
+                activeDropPod.Contents = new ActiveTransporterInfo();
                 foreach (var item in carr.AllThings)
                 {
                 //    Log.Message(string.Format("carr.AllThings: {0}", item));
@@ -840,12 +840,12 @@ namespace RRYautja
         {
             if (!Thing.allowDestroyNonDestroyable && !thing.def.destroyable)
             {
-                Log.Error("Tried to destroy non-destroyable thing " + thing, false);
+                Log.Error("Tried to destroy non-destroyable thing " + thing);
                 return;
             }
             if (thing.Destroyed)
             {
-                Log.Error("Tried to destroy already-destroyed thing " + thing, false);
+                Log.Error("Tried to destroy already-destroyed thing " + thing);
                 return;
             }
             bool spawned = thing.Spawned;
@@ -1054,7 +1054,7 @@ namespace RRYautja
         //    Log.Message("2 ");
             if (!this.parent.Spawned)
             {
-                Log.Error("Tried to send " + this.parent + ", but it's unspawned.", false);
+                Log.Error("Tried to send " + this.parent + ", but it's unspawned.");
                 return;
             }
         //    Log.Message("3 ");
@@ -1068,7 +1068,7 @@ namespace RRYautja
             {
                 if (transportersInGroup == null)
                 {
-                    Log.Error("Tried to send " + this.parent + ", but it's not in any group.", false);
+                    Log.Error("Tried to send " + this.parent + ", but it's not in any group.");
                     return;
                 }
             }

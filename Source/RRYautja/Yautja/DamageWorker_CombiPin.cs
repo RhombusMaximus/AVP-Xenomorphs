@@ -311,7 +311,7 @@ namespace RRYautja
             BodyPartRecord bodyPartRecord = this.ChooseHitPart(dinfo, pawn);
             if (bodyPartRecord == null)
             {
-            //    Log.Warning("ChooseHitPart returned null (any part).", false);
+            //    Log.Warning("ChooseHitPart returned null (any part).");
             }
             return bodyPartRecord;
         }

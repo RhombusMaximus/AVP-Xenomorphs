@@ -73,7 +73,7 @@ namespace RRYautja
             MoteMaker.MakeStaticMote(Position, map, ThingDefOf.Mote_ExplosionFlash, radius * 4f);
             for (int i = 0; i < 4; i++)
             {
-                MoteMaker.ThrowSmoke(Position.ToVector3Shifted() + Gen.RandomHorizontalVector(radius * 0.7f), map, radius * 0.6f);
+                FleckMaker.ThrowSmoke(Position.ToVector3Shifted() + Gen.RandomHorizontalVector(radius * 0.7f), map, radius * 0.6f);
             }
 
             if (Rand.Chance(ignitionChance))
@@ -140,11 +140,11 @@ namespace RRYautja
         {
             if (Fire.fireCount < 15)
             {
-                MoteMaker.ThrowSmoke(this.DrawPos, base.Map, this.fireSize);
+                FleckMaker.ThrowSmoke(this.DrawPos, base.Map, this.fireSize);
             }
             if (this.fireSize > 0.5f && this.parent == null)
             {
-                MoteMaker.ThrowFireGlow(base.Position, base.Map, this.fireSize);
+                FleckMaker.ThrowFireGlow(base.Position, base.Map, this.fireSize);
             }
             float num = this.fireSize / 2f;
             if (num > 1f)

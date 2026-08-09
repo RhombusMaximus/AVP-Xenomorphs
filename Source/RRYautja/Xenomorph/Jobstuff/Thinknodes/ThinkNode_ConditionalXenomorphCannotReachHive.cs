@@ -40,7 +40,7 @@ namespace RimWorld
             if (CompXeno.HiveLoc.IsValid && CompXeno.HiveLoc != IntVec3.Zero && CompXeno.HiveLoc.InBounds(map))
             {
                 c = pawn.xenomorph().HiveLoc;
-                result = !pawn.CanReach(c, PathEndMode.OnCell, Danger.Deadly, false, TraverseMode.NoPassClosedDoors);
+                result = !pawn.CanReach(c, PathEndMode.OnCell, Danger.Deadly, false, false, TraverseMode.NoPassClosedDoors);
                 return result;
             }
             else
@@ -50,7 +50,7 @@ namespace RimWorld
                     if (!map.HiveGrid().HiveLoclist.NullOrEmpty())
                     {
                         c = map.HiveGrid().HiveLoclist.RandomElement();
-                        result = !pawn.CanReach(c, PathEndMode.Touch, Danger.Deadly, true, TraverseMode.PassAllDestroyableThingsNotWater);
+                        result = !pawn.CanReach(c, PathEndMode.Touch, Danger.Deadly, true, false, TraverseMode.PassAllDestroyableThingsNotWater);
                     }
                     else
                     {

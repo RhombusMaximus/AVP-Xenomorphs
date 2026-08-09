@@ -11,6 +11,16 @@ namespace RRYautja
 {
     public class DropShipLeaving : Skyfaller, IActiveTransporter, IThingHolder
     {
+        public int groupID = -1;
+
+        public PlanetTile destinationTile = PlanetTile.Invalid;
+
+        public TransportersArrivalAction arrivalAction;
+
+        private bool alreadyLeft;
+
+        private static List<Thing> tmpActiveDropPods = new List<Thing>();
+
         public ActiveTransporterInfo Contents
         {
             get
@@ -84,11 +94,11 @@ namespace RRYautja
             travelingTransportPods.destinationTile = this.destinationTile;
             travelingTransportPods.arrivalAction = this.arrivalAction;
             Find.WorldObjects.Add(travelingTransportPods);
-            DropShipLeaving.tmpActiveDropPods.Clear();
-            DropShipLeaving.tmpActiveDropPods.AddRange(base.Map.listerThings.ThingsInGroup(ThingRequestGroup.ActiveTransporter));
-            for (int i = 0; i < DropShipLeaving.tmpActiveDropPods.Count; i++)
+            DropShipLeaving.tmpActiveTransporters.Clear();
+            DropShipLeaving.tmpActiveTransporters.AddRange(base.Map.listerThings.ThingsInGroup(ThingRequestGroup.ActiveTransporter));
+            for (int i = 0; i < DropShipLeaving.tmpActiveTransporters.Count; i++)
             {
-                DropShipLeaving DropshipLeaving = DropShipLeaving.tmpActiveDropPods[i] as DropShipLeaving;
+                DropShipLeaving DropshipLeaving = DropShipLeaving.tmpActiveTransporters[i] as DropShipLeaving;
                 if (DropshipLeaving != null && DropshipLeaving.groupID == this.groupID)
                 {
                     DropshipLeaving.alreadyLeft = true;
@@ -99,10 +109,7 @@ namespace RRYautja
             }
         }
 
-        // Token: 0x04001627 RID: 5671
-        private bool alreadyLeft;
-
         // Token: 0x04001628 RID: 5672
-        private static List<Thing> tmpActiveDropPods = new List<Thing>();
+        private static List<Thing> tmpActiveTransporters = new List<Thing>();
     }
 }

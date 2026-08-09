@@ -34,7 +34,7 @@ namespace RimWorld
             {
                 c = xenomorph.HiveLoc;
                 bool selected = pawn.Map != null ? Find.Selector.SelectedObjects.Contains(pawn) && (Prefs.DevMode) : false;
-                if (pawn.CanReach(c, PathEndMode.ClosestTouch, Danger.Deadly, true, TraverseMode.PassAllDestroyableThingsNotWater))
+                if (pawn.CanReach(c, PathEndMode.ClosestTouch, Danger.Deadly, true, false, TraverseMode.PassAllDestroyableThingsNotWater))
                 {
                     using (PawnPath pawnPath = pawn.Map.pathFinder.FindPath(pawn.Position, c, TraverseParms.For(pawn, Danger.Deadly, TraverseMode.PassAllDestroyableThings, false), PathEndMode.OnCell))
                     {
@@ -79,7 +79,7 @@ namespace RimWorld
                 }
                 if (XenomorphKidnapUtility.TryFindGoodHiveLoc(pawn, out c))
                 {
-                    if (c != IntVec3.Invalid && pawn.CanReach(c, PathEndMode.ClosestTouch, Danger.Deadly, true, TraverseMode.PassAllDestroyableThings))
+                    if (c != IntVec3.Invalid && pawn.CanReach(c, PathEndMode.ClosestTouch, Danger.Deadly, true, false, TraverseMode.PassAllDestroyableThings))
                     {
                         Predicate<IntVec3> validator = delegate (IntVec3 y)
                         {

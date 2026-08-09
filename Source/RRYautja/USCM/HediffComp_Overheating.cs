@@ -59,7 +59,7 @@ namespace RRYautja
                     }
                     if (parent.Severity > 1f && Rand.Value < parent.Severity)
                     {
-                        MoteMaker.ThrowMicroSparks(Pawn.DrawPos, Pawn.Map);
+                        FleckMaker.ThrowMicroSparks(Pawn.DrawPos, Pawn.Map);
                     }
                 }
                 if (this.ticksUntilSmoke <= 0)
@@ -90,11 +90,11 @@ namespace RRYautja
         {
             if (parent.CurStageIndex > 2)
             {
-                MoteMaker.ThrowSmoke(Pawn.DrawPos, Pawn.Map, this.parent.Severity);
+                FleckMaker.ThrowSmoke(Pawn.DrawPos, Pawn.Map, this.parent.Severity);
             }
             if (parent.Severity > 1.25f && this.parent == null)
             {
-                MoteMaker.ThrowFireGlow(Pawn.Position, Pawn.Map, Pawn.BodySize);
+                FleckMaker.ThrowFireGlow(Pawn.Position, Pawn.Map, Pawn.BodySize);
             }
             float num = Pawn.BodySize / 2f;
             if (num > 1f)

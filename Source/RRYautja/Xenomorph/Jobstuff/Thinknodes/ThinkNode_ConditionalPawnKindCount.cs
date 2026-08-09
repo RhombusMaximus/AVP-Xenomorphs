@@ -2,6 +2,7 @@
 using System;
 using Verse;
 using Verse.AI;
+using System.Linq;
 
 namespace RimWorld
 {
@@ -20,8 +21,8 @@ namespace RimWorld
         // Token: 0x060009B9 RID: 2489 RVA: 0x0004E0A3 File Offset: 0x0004C4A3
         protected override bool Satisfied(Pawn pawn)
         {
-        //    if (Find.Selector.SelectedObjects.Contains(pawn)) Log.Message(string.Format("{0} needs < {2} {3}, Result: {1}", this, pawn.Map.mapPawns.AllPawnsSpawned.FindAll(x => x.kindDef == pawnKind).Count < this.pawnKindCount || pawn.Map.mapPawns.AllPawnsSpawned.FindAll(x => x.kindDef == pawnKind).NullOrEmpty(), pawnKindCount, pawnKind.LabelCap));
-            return pawn.Map.mapPawns.AllPawnsSpawned.FindAll(x => x.kindDef == pawnKind).Count > this.pawnKindCount && !pawn.Map.mapPawns.AllPawnsSpawned.FindAll(x => x.kindDef == pawnKind).NullOrEmpty();
+        //    if (Find.Selector.SelectedObjects.Contains(pawn)) Log.Message(string.Format("{0} needs < {2} {3}, Result: {1}", this, pawn.Map.mapPawns.AllPawnsSpawned.ToList().FindAll(x => x.kindDef == pawnKind).Count < this.pawnKindCount || pawn.Map.mapPawns.AllPawnsSpawned.ToList().FindAll(x => x.kindDef == pawnKind).NullOrEmpty(), pawnKindCount, pawnKind.LabelCap));
+            return pawn.Map.mapPawns.AllPawnsSpawned.ToList().FindAll(x => x.kindDef == pawnKind).Count > this.pawnKindCount && !pawn.Map.mapPawns.AllPawnsSpawned.ToList().FindAll(x => x.kindDef == pawnKind).NullOrEmpty();
         }
 
         // Token: 0x040003F6 RID: 1014
@@ -44,8 +45,8 @@ namespace RimWorld
         // Token: 0x060009B9 RID: 2489 RVA: 0x0004E0A3 File Offset: 0x0004C4A3
         protected override bool Satisfied(Pawn pawn)
         {
-        //    if (Find.Selector.SelectedObjects.Contains(pawn)) Log.Message(string.Format("{0} needs < {2} {3}, Result: {1}", this, pawn.Map.mapPawns.AllPawnsSpawned.FindAll(x => x.kindDef == pawnKind).Count < this.pawnKindCount || pawn.Map.mapPawns.AllPawnsSpawned.FindAll(x => x.kindDef == pawnKind).NullOrEmpty(), pawnKindCount, pawnKind.LabelCap));
-            return pawn.Map.mapPawns.AllPawnsSpawned.FindAll(x => x.kindDef == pawnKind).Count < this.pawnKindCount || pawn.Map.mapPawns.AllPawnsSpawned.FindAll(x => x.kindDef == pawnKind).NullOrEmpty();
+        //    if (Find.Selector.SelectedObjects.Contains(pawn)) Log.Message(string.Format("{0} needs < {2} {3}, Result: {1}", this, pawn.Map.mapPawns.AllPawnsSpawned.ToList().FindAll(x => x.kindDef == pawnKind).Count < this.pawnKindCount || pawn.Map.mapPawns.AllPawnsSpawned.ToList().FindAll(x => x.kindDef == pawnKind).NullOrEmpty(), pawnKindCount, pawnKind.LabelCap));
+            return pawn.Map.mapPawns.AllPawnsSpawned.ToList().FindAll(x => x.kindDef == pawnKind).Count < this.pawnKindCount || pawn.Map.mapPawns.AllPawnsSpawned.ToList().FindAll(x => x.kindDef == pawnKind).NullOrEmpty();
         }
 
         // Token: 0x040003F6 RID: 1014
@@ -66,8 +67,8 @@ namespace RimWorld
         // Token: 0x060009B9 RID: 2489 RVA: 0x0004E0A3 File Offset: 0x0004C4A3
         protected override bool Satisfied(Pawn pawn)
         {
-            if (Find.Selector.SelectedObjects.Contains(pawn)) Log.Message(string.Format("{0} needs > {2}, Found: {3} Result: {1}", this, pawn.Map.mapPawns.AllPawnsSpawned.FindAll(x => XenomorphUtil.IsInfectedPawn(x)).Count < this.victimCount || pawn.Map.mapPawns.AllPawnsSpawned.FindAll(x => XenomorphUtil.IsInfectedPawn(x)).NullOrEmpty(), victimCount, pawn.Map.mapPawns.AllPawnsSpawned.FindAll(x => XenomorphUtil.IsInfectedPawn(x)).Count));
-            return pawn.Map.mapPawns.AllPawnsSpawned.FindAll(x => XenomorphUtil.IsInfectedPawn(x)).Count > this.victimCount || pawn.Map.mapPawns.AllPawnsSpawned.FindAll(x => XenomorphUtil.IsInfectedPawn(x)).NullOrEmpty();
+            if (Find.Selector.SelectedObjects.Contains(pawn)) Log.Message(string.Format("{0} needs > {2}, Found: {3} Result: {1}", this, pawn.Map.mapPawns.AllPawnsSpawned.ToList().FindAll(x => XenomorphUtil.IsInfectedPawn(x)).Count < this.victimCount || pawn.Map.mapPawns.AllPawnsSpawned.ToList().FindAll(x => XenomorphUtil.IsInfectedPawn(x)).NullOrEmpty(), victimCount, pawn.Map.mapPawns.AllPawnsSpawned.ToList().FindAll(x => XenomorphUtil.IsInfectedPawn(x)).Count));
+            return pawn.Map.mapPawns.AllPawnsSpawned.ToList().FindAll(x => XenomorphUtil.IsInfectedPawn(x)).Count > this.victimCount || pawn.Map.mapPawns.AllPawnsSpawned.ToList().FindAll(x => XenomorphUtil.IsInfectedPawn(x)).NullOrEmpty();
         }
 
         public int victimCount;
@@ -87,8 +88,8 @@ namespace RimWorld
         // Token: 0x060009B9 RID: 2489 RVA: 0x0004E0A3 File Offset: 0x0004C4A3
         protected override bool Satisfied(Pawn pawn)
         {
-            if (Find.Selector.SelectedObjects.Contains(pawn)) Log.Message(string.Format("{0} needs < {2}, Found: {3} Result: {1}", this, pawn.Map.mapPawns.AllPawnsSpawned.FindAll(x => XenomorphUtil.IsInfectedPawn(x)).Count < this.victimCount || pawn.Map.mapPawns.AllPawnsSpawned.FindAll(x => XenomorphUtil.IsInfectedPawn(x)).NullOrEmpty(), victimCount, pawn.Map.mapPawns.AllPawnsSpawned.FindAll(x => XenomorphUtil.IsInfectedPawn(x)).Count));
-            return pawn.Map.mapPawns.AllPawnsSpawned.FindAll(x => XenomorphUtil.IsInfectedPawn(x)).Count < this.victimCount || pawn.Map.mapPawns.AllPawnsSpawned.FindAll(x => XenomorphUtil.IsInfectedPawn(x)).NullOrEmpty();
+            if (Find.Selector.SelectedObjects.Contains(pawn)) Log.Message(string.Format("{0} needs < {2}, Found: {3} Result: {1}", this, pawn.Map.mapPawns.AllPawnsSpawned.ToList().FindAll(x => XenomorphUtil.IsInfectedPawn(x)).Count < this.victimCount || pawn.Map.mapPawns.AllPawnsSpawned.ToList().FindAll(x => XenomorphUtil.IsInfectedPawn(x)).NullOrEmpty(), victimCount, pawn.Map.mapPawns.AllPawnsSpawned.ToList().FindAll(x => XenomorphUtil.IsInfectedPawn(x)).Count));
+            return pawn.Map.mapPawns.AllPawnsSpawned.ToList().FindAll(x => XenomorphUtil.IsInfectedPawn(x)).Count < this.victimCount || pawn.Map.mapPawns.AllPawnsSpawned.ToList().FindAll(x => XenomorphUtil.IsInfectedPawn(x)).NullOrEmpty();
         }
 
         public int victimCount;
@@ -107,8 +108,8 @@ namespace RimWorld
         // Token: 0x060009B9 RID: 2489 RVA: 0x0004E0A3 File Offset: 0x0004C4A3
         protected override bool Satisfied(Pawn pawn)
         {
-            if (Find.Selector.SelectedObjects.Contains(pawn)) Log.Message(string.Format("{0} needs > {2}, Found: {3} Result: {1}", this, pawn.Map.mapPawns.AllPawnsSpawned.FindAll(x => x.health.hediffSet.HasHediff(XenomorphDefOf.RRY_FaceHuggerInfection)).Count < this.victimCount || pawn.Map.mapPawns.AllPawnsSpawned.FindAll(x => x.health.hediffSet.HasHediff(XenomorphDefOf.RRY_FaceHuggerInfection)).NullOrEmpty(), victimCount, pawn.Map.mapPawns.AllPawnsSpawned.FindAll(x => x.health.hediffSet.HasHediff(XenomorphDefOf.RRY_FaceHuggerInfection)).Count));
-            return pawn.Map.mapPawns.AllPawnsSpawned.FindAll(x => x.health.hediffSet.HasHediff(XenomorphDefOf.RRY_FaceHuggerInfection)).Count > this.victimCount || pawn.Map.mapPawns.AllPawnsSpawned.FindAll(x => x.health.hediffSet.HasHediff(XenomorphDefOf.RRY_FaceHuggerInfection)).NullOrEmpty();
+            if (Find.Selector.SelectedObjects.Contains(pawn)) Log.Message(string.Format("{0} needs > {2}, Found: {3} Result: {1}", this, pawn.Map.mapPawns.AllPawnsSpawned.ToList().FindAll(x => x.health.hediffSet.HasHediff(XenomorphDefOf.RRY_FaceHuggerInfection)).Count < this.victimCount || pawn.Map.mapPawns.AllPawnsSpawned.ToList().FindAll(x => x.health.hediffSet.HasHediff(XenomorphDefOf.RRY_FaceHuggerInfection)).NullOrEmpty(), victimCount, pawn.Map.mapPawns.AllPawnsSpawned.ToList().FindAll(x => x.health.hediffSet.HasHediff(XenomorphDefOf.RRY_FaceHuggerInfection)).Count));
+            return pawn.Map.mapPawns.AllPawnsSpawned.ToList().FindAll(x => x.health.hediffSet.HasHediff(XenomorphDefOf.RRY_FaceHuggerInfection)).Count > this.victimCount || pawn.Map.mapPawns.AllPawnsSpawned.ToList().FindAll(x => x.health.hediffSet.HasHediff(XenomorphDefOf.RRY_FaceHuggerInfection)).NullOrEmpty();
         }
 
         public int victimCount;
@@ -128,8 +129,8 @@ namespace RimWorld
         // Token: 0x060009B9 RID: 2489 RVA: 0x0004E0A3 File Offset: 0x0004C4A3
         protected override bool Satisfied(Pawn pawn)
         {
-            if (Find.Selector.SelectedObjects.Contains(pawn)) Log.Message(string.Format("{0} needs < {2}, Found: {3} Result: {1}", this, pawn.Map.mapPawns.AllPawnsSpawned.FindAll(x => x.health.hediffSet.HasHediff(XenomorphDefOf.RRY_FaceHuggerInfection)).Count < this.victimCount || pawn.Map.mapPawns.AllPawnsSpawned.FindAll(x => x.health.hediffSet.HasHediff(XenomorphDefOf.RRY_FaceHuggerInfection)).NullOrEmpty(), victimCount, pawn.Map.mapPawns.AllPawnsSpawned.FindAll(x => x.health.hediffSet.HasHediff(XenomorphDefOf.RRY_FaceHuggerInfection)).Count));
-            return pawn.Map.mapPawns.AllPawnsSpawned.FindAll(x => x.health.hediffSet.HasHediff(XenomorphDefOf.RRY_FaceHuggerInfection)).Count < this.victimCount || pawn.Map.mapPawns.AllPawnsSpawned.FindAll(x => x.health.hediffSet.HasHediff(XenomorphDefOf.RRY_FaceHuggerInfection)).NullOrEmpty();
+            if (Find.Selector.SelectedObjects.Contains(pawn)) Log.Message(string.Format("{0} needs < {2}, Found: {3} Result: {1}", this, pawn.Map.mapPawns.AllPawnsSpawned.ToList().FindAll(x => x.health.hediffSet.HasHediff(XenomorphDefOf.RRY_FaceHuggerInfection)).Count < this.victimCount || pawn.Map.mapPawns.AllPawnsSpawned.ToList().FindAll(x => x.health.hediffSet.HasHediff(XenomorphDefOf.RRY_FaceHuggerInfection)).NullOrEmpty(), victimCount, pawn.Map.mapPawns.AllPawnsSpawned.ToList().FindAll(x => x.health.hediffSet.HasHediff(XenomorphDefOf.RRY_FaceHuggerInfection)).Count));
+            return pawn.Map.mapPawns.AllPawnsSpawned.ToList().FindAll(x => x.health.hediffSet.HasHediff(XenomorphDefOf.RRY_FaceHuggerInfection)).Count < this.victimCount || pawn.Map.mapPawns.AllPawnsSpawned.ToList().FindAll(x => x.health.hediffSet.HasHediff(XenomorphDefOf.RRY_FaceHuggerInfection)).NullOrEmpty();
         }
 
         public int victimCount;

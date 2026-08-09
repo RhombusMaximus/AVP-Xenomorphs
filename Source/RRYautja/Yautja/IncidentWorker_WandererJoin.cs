@@ -52,7 +52,7 @@ namespace RRYautja
                 //pawnKind = DefDatabase<PawnKindDef>.GetNamedSilentFail("StrangerInBlack");
             }
 
-            pawnKind.defaultFactionType = ofPlayer.def;
+            pawnKind.defaultFactionDef = ofPlayer.def;
             //Log.Message(string.Format("{0}", pawnKind.defName));
             bool pawnMustBeCapableOfViolence = this.def.pawnMustBeCapableOfViolence;
             Gender? fixedGender = gender;

@@ -77,7 +77,7 @@ namespace RimWorld
                 else
                 */
                 bool selected = pawn.Map != null ? Find.Selector.SelectedObjects.Contains(pawn) && (Prefs.DevMode) : false;
-                if (c != IntVec3.Invalid && Victim != null && pawn.CanReach(c, PathEndMode.ClosestTouch, Danger.Deadly, true, TraverseMode.PassAllDestroyableThings))
+                if (c != IntVec3.Invalid && Victim != null && pawn.CanReach(c, PathEndMode.ClosestTouch, Danger.Deadly, true, false, TraverseMode.PassAllDestroyableThings))
                 {
                     Predicate<IntVec3> validator = delegate (IntVec3 y)
                     {

@@ -34,7 +34,7 @@ namespace RRYautja
             bool flag = spawned && base.Pawn.Map != null;
             if (flag)
             {
-                MoteMaker.ThrowLightningGlow(GenThing.TrueCenter(base.Pawn), base.Pawn.Map, 3f);
+                FleckMaker.ThrowLightningGlow(GenThing.TrueCenter(base.Pawn), base.Pawn.Map, 3f);
             }
         }
 
