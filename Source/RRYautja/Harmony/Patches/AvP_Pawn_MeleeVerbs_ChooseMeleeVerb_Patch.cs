@@ -67,7 +67,7 @@ namespace RRYautja
                     updatedAvailableVerbsList.ToStringSafeEnumerable(),
                     " bodyVerbs=",
                     __instance.Pawn.verbTracker.AllVerbs.ToStringSafeEnumerable()
-                        }), __instance.Pawn.thingIDNumber ^ 195867354, false);
+                        }), __instance.Pawn.thingIDNumber ^ 195867354);
                         ___curMeleeVerb = null;
                     }
                 }

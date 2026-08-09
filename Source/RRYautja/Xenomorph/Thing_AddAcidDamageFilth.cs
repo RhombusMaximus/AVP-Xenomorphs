@@ -62,7 +62,7 @@ namespace RRYautja
                 IntVec3 c = base.Position + adjacentCellsAndInside[i];
                 if (c.InBounds(map))
                 {
-                    map.pathGrid.RecalculatePerceivedPathCostAt(c);
+                    map.pathing.RecalculatePerceivedPathCostAt(c);
                 }
             }
         }

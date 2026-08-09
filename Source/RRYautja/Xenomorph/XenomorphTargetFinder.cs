@@ -499,7 +499,7 @@ namespace Verse.AI
             }
             Map map = pawn.Map;
             ShotReport report = ShotReport.HitReportFor(pawn, verb, (Thing)target);
-            float a = VerbUtility.CalculateAdjustedForcedMiss(verb.verbProps.forcedMissRadius, report.ShootLine.Dest - report.ShootLine.Source);
+            float a = VerbUtility.CalculateAdjustedForcedMiss(verb.verbProps.ForcedMissRadius, report.ShootLine.Dest - report.ShootLine.Source);
             float radius = Mathf.Max(a, 1.5f);
             IntVec3 dest2 = report.ShootLine.Dest;
             IEnumerable<IntVec3> source = from dest in GenRadial.RadialCellsAround(dest2, radius, true)

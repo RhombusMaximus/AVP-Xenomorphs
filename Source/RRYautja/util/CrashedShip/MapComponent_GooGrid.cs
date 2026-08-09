@@ -120,7 +120,7 @@ namespace RRYautja
                 }
                 if (XenomorphHiveUtility.GetGooCategory(oldDepth) != XenomorphHiveUtility.GetGooCategory(newDepth))
                 {
-                    this.map.pathGrid.RecalculatePerceivedPathCostAt(c);
+                    this.map.pathing.RecalculatePerceivedPathCostAt(c);
                 }
             }
         }

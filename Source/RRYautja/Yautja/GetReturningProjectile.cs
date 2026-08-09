@@ -35,7 +35,7 @@ namespace RRYautja
         //    Log.Message(string.Format("Returning_Projectile Impact 2"));
             GenSpawn.Spawn(projectile2, base.Position, base.Map, 0);
         //    Log.Message(string.Format("Returning_Projectile Impact 3 redirecting to {0}", OriginalPawn));
-            projectile2.Launch(this, base.Position.ToVector3(), OriginalPawn, OriginalPawn, ProjectileHitFlags.IntendedTarget, OriginalWeapon);
+            projectile2.Launch(this, new LocalTargetInfo(OriginalPawn), OriginalPawn, ProjectileHitFlags.IntendedTarget, false, OriginalWeapon);
         //    Log.Message(string.Format("Returning_Projectile Impact 4"));
             this.Destroy(0);
         }

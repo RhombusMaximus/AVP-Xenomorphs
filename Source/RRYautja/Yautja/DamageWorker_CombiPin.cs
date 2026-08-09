@@ -236,7 +236,7 @@ namespace RRYautja
                         hediffDefFromDamage,
                         " on ",
                         pawn
-                    }), false);
+                    });
                 }
             }
             return this.FinalizeAndAddInjury(pawn, hediff_Injury, dinfo, result);

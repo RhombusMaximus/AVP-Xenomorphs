@@ -61,7 +61,7 @@ namespace RimWorld
         {
             foreach (IntVec3 intVec in mapRect)
             {
-                bool flag = !map.pathGrid.WalkableFast(intVec);
+                bool flag = !map.pathing.Normal.pathGrid.WalkableFast(intVec);
                 if (flag)
                 {
                     return false;

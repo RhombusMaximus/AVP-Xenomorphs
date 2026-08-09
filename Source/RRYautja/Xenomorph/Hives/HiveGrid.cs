@@ -184,7 +184,7 @@ namespace RRYautja
                 }
                 if (HiveUtility.GetSnowCategory(oldDepth) != HiveUtility.GetSnowCategory(newDepth))
                 {
-                    this.map.pathGrid.RecalculatePerceivedPathCostAt(c);
+                    this.map.pathing.RecalculatePerceivedPathCostAt(c);
                 }
             }
         }

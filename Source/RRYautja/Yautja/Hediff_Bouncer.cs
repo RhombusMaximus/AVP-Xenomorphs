@@ -157,7 +157,7 @@ namespace RRYautja
             //    Log.Message(string.Format("TimesBounced: {0}, OriginalPawn: {1}, OriginalWeapon: {2}, OriginalProjectile: {3}, ", this.TimesBounced, this.OriginalPawn, this.OriginalWeapon, this.OriginalProjectile));
                 GenSpawn.Spawn(Rprojectile, hitpos, hitmap, 0);
             //    Log.Message(string.Format("GenSpawn"));
-                Rprojectile.Launch(OriginalWeapon, hitpos.ToVector3ShiftedWithAltitude(AltitudeLayer.Projectile), targetthing, targetthing, ProjectileHitFlags.IntendedTarget, OriginalPawn.equipment.Primary);
+                Rprojectile.Launch(OriginalWeapon, new LocalTargetInfo(targetthing), targetthing, ProjectileHitFlags.IntendedTarget, false, OriginalPawn.equipment.Primary);
             //    Log.Message(string.Format("Launch: ") + msg);
             //    Log.Message(msg);
             }
@@ -165,7 +165,7 @@ namespace RRYautja
             {
                 GenSpawn.Spawn(projectile, hitpos, hitmap, 0);
             //    Log.Message(string.Format("GenSpawn"));
-                projectile.Launch(OriginalWeapon, hitpos.ToVector3ShiftedWithAltitude(AltitudeLayer.Projectile), targetthing, targetthing, ProjectileHitFlags.IntendedTarget, OriginalPawn.equipment.Primary);
+                projectile.Launch(OriginalWeapon, new LocalTargetInfo(targetthing), targetthing, ProjectileHitFlags.IntendedTarget, false, OriginalPawn.equipment.Primary);
             //    Log.Message(string.Format("Launch: ") + msg);
             //    Log.Message(msg);
             }

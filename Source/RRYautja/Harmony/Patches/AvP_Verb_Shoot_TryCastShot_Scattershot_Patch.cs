@@ -77,9 +77,9 @@ namespace RRYautja
             }
             Vector3 drawPos = __instance.caster.DrawPos;
             Projectile projectile2 = (Projectile)GenSpawn.Spawn(projectile, shootLine.Source, __instance.caster.Map, WipeMode.Vanish);
-            if (__instance.verbProps.forcedMissRadius > 0.5f)
+            if (__instance.verbProps.ForcedMissRadius > 0.5f)
             {
-                float num = VerbUtility.CalculateAdjustedForcedMiss(__instance.verbProps.forcedMissRadius, currentTarget.Cell - __instance.caster.Position);
+                float num = VerbUtility.CalculateAdjustedForcedMiss(__instance.verbProps.ForcedMissRadius, currentTarget.Cell - __instance.caster.Position);
                 if (num > 0.5f)
                 {
                     int max = GenRadial.NumCellsInRadius(num);
@@ -97,7 +97,7 @@ namespace RRYautja
                         {
                             projectileHitFlags &= ~ProjectileHitFlags.NonTargetPawns;
                         }
-                        projectile2.Launch(launcher, drawPos, c, currentTarget, projectileHitFlags, equipment, null);
+                        projectile2.Launch(launcher, drawPos, c, currentTarget, projectileHitFlags, false, equipment, null);
                         return true;
                     }
                 }
@@ -107,13 +107,13 @@ namespace RRYautja
             ThingDef targetCoverDef = (randomCoverToMissInto == null) ? null : randomCoverToMissInto.def;
             if (!Rand.Chance(shotReport.AimOnTargetChance_IgnoringPosture))
             {
-                shootLine.ChangeDestToMissWild(shotReport.AimOnTargetChance_StandardTarget);
+                shootLine.ChangeDestToMissWild(shotReport.AimOnTargetChance_StandardTarget, false, __instance.caster.Map);
                 ProjectileHitFlags projectileHitFlags2 = ProjectileHitFlags.NonTargetWorld;
                 if (Rand.Chance(0.5f) && canHitNonTargetPawnsNow)
                 {
                     projectileHitFlags2 |= ProjectileHitFlags.NonTargetPawns;
                 }
-                projectile2.Launch(launcher, drawPos, shootLine.Dest, currentTarget, projectileHitFlags2, equipment, targetCoverDef);
+                projectile2.Launch(launcher, drawPos, shootLine.Dest, currentTarget, projectileHitFlags2, false, equipment, targetCoverDef);
                 return true;
             }
             if (currentTarget.Thing != null && currentTarget.Thing.def.category == ThingCategory.Pawn && !Rand.Chance(shotReport.PassCoverChance))
@@ -124,7 +124,7 @@ namespace RRYautja
                 {
                     projectileHitFlags3 |= ProjectileHitFlags.NonTargetPawns;
                 }
-                projectile2.Launch(launcher, drawPos, randomCoverToMissInto, currentTarget, projectileHitFlags3, equipment, targetCoverDef);
+                projectile2.Launch(launcher, drawPos, randomCoverToMissInto, currentTarget, projectileHitFlags3, false, equipment, targetCoverDef);
                 return true;
             }
             ProjectileHitFlags projectileHitFlags4 = ProjectileHitFlags.IntendedTarget;
@@ -138,11 +138,11 @@ namespace RRYautja
             }
             if (currentTarget.Thing != null)
             {
-                projectile2.Launch(launcher, drawPos, currentTarget, currentTarget, projectileHitFlags4, equipment, targetCoverDef);
+                projectile2.Launch(launcher, drawPos, currentTarget, currentTarget, projectileHitFlags4, false, equipment, targetCoverDef);
             }
             else
             {
-                projectile2.Launch(launcher, drawPos, shootLine.Dest, currentTarget, projectileHitFlags4, equipment, targetCoverDef);
+                projectile2.Launch(launcher, drawPos, shootLine.Dest, currentTarget, projectileHitFlags4, false, equipment, targetCoverDef);
             }
             return true;
         }
@@ -209,9 +209,9 @@ namespace RRYautja
             }
             Vector3 drawPos = __instance.caster.DrawPos;
             Projectile projectile2 = (Projectile)GenSpawn.Spawn(projectile, shootLine.Source, __instance.caster.Map, WipeMode.Vanish);
-            if (__instance.verbProps.forcedMissRadius > 0.5f)
+            if (__instance.verbProps.ForcedMissRadius > 0.5f)
             {
-                float num = VerbUtility.CalculateAdjustedForcedMiss(__instance.verbProps.forcedMissRadius, currentTarget.Cell - __instance.caster.Position);
+                float num = VerbUtility.CalculateAdjustedForcedMiss(__instance.verbProps.ForcedMissRadius, currentTarget.Cell - __instance.caster.Position);
                 if (num > 0.5f)
                 {
                     int max = GenRadial.NumCellsInRadius(num);
@@ -229,7 +229,7 @@ namespace RRYautja
                         {
                             projectileHitFlags &= ~ProjectileHitFlags.NonTargetPawns;
                         }
-                        projectile2.Launch(launcher, drawPos, c, currentTarget, projectileHitFlags, equipment, null);
+                        projectile2.Launch(launcher, drawPos, c, currentTarget, projectileHitFlags, false, equipment, null);
                         return true;
                     }
                 }
@@ -239,13 +239,13 @@ namespace RRYautja
             ThingDef targetCoverDef = (randomCoverToMissInto == null) ? null : randomCoverToMissInto.def;
             if (!Rand.Chance(shotReport.AimOnTargetChance_IgnoringPosture))
             {
-                shootLine.ChangeDestToMissWild(shotReport.AimOnTargetChance_StandardTarget);
+                shootLine.ChangeDestToMissWild(shotReport.AimOnTargetChance_StandardTarget, false, __instance.caster.Map);
                 ProjectileHitFlags projectileHitFlags2 = ProjectileHitFlags.NonTargetWorld;
                 if (Rand.Chance(0.5f) && canHitNonTargetPawnsNow)
                 {
                     projectileHitFlags2 |= ProjectileHitFlags.NonTargetPawns;
                 }
-                projectile2.Launch(launcher, drawPos, shootLine.Dest, currentTarget, projectileHitFlags2, equipment, targetCoverDef);
+                projectile2.Launch(launcher, drawPos, shootLine.Dest, currentTarget, projectileHitFlags2, false, equipment, targetCoverDef);
                 return true;
             }
             if (currentTarget.Thing != null && currentTarget.Thing.def.category == ThingCategory.Pawn && !Rand.Chance(shotReport.PassCoverChance))
@@ -256,7 +256,7 @@ namespace RRYautja
                 {
                     projectileHitFlags3 |= ProjectileHitFlags.NonTargetPawns;
                 }
-                projectile2.Launch(launcher, drawPos, randomCoverToMissInto, currentTarget, projectileHitFlags3, equipment, targetCoverDef);
+                projectile2.Launch(launcher, drawPos, randomCoverToMissInto, currentTarget, projectileHitFlags3, false, equipment, targetCoverDef);
                 return true;
             }
             ProjectileHitFlags projectileHitFlags4 = ProjectileHitFlags.IntendedTarget;
@@ -270,11 +270,11 @@ namespace RRYautja
             }
             if (currentTarget.Thing != null)
             {
-                projectile2.Launch(launcher, drawPos, currentTarget, currentTarget, projectileHitFlags4, equipment, targetCoverDef);
+                projectile2.Launch(launcher, drawPos, currentTarget, currentTarget, projectileHitFlags4, false, equipment, targetCoverDef);
             }
             else
             {
-                projectile2.Launch(launcher, drawPos, shootLine.Dest, currentTarget, projectileHitFlags4, equipment, targetCoverDef);
+                projectile2.Launch(launcher, drawPos, shootLine.Dest, currentTarget, projectileHitFlags4, false, equipment, targetCoverDef);
             }
             return true;
         }
@@ -412,9 +412,9 @@ namespace RRYautja
             }
             Vector3 drawPos = __instance.caster.DrawPos;
             Projectile projectile2 = (Projectile)GenSpawn.Spawn(projectile, shootLine.Source, __instance.caster.Map, WipeMode.Vanish);
-            if (__instance.verbProps.forcedMissRadius > 0.5f)
+            if (__instance.verbProps.ForcedMissRadius > 0.5f)
             {
-                float num = VerbUtility.CalculateAdjustedForcedMiss(__instance.verbProps.forcedMissRadius, currentTarget.Cell - __instance.caster.Position);
+                float num = VerbUtility.CalculateAdjustedForcedMiss(__instance.verbProps.ForcedMissRadius, currentTarget.Cell - __instance.caster.Position);
                 if (num > 0.5f)
                 {
                     int max = GenRadial.NumCellsInRadius(num);
@@ -432,7 +432,7 @@ namespace RRYautja
                         {
                             projectileHitFlags &= ~ProjectileHitFlags.NonTargetPawns;
                         }
-                        projectile2.Launch(launcher, drawPos, c, currentTarget, projectileHitFlags, equipment, null);
+                        projectile2.Launch(launcher, drawPos, c, currentTarget, projectileHitFlags, false, equipment, null);
                         return true;
                     }
                 }
@@ -442,13 +442,13 @@ namespace RRYautja
             ThingDef targetCoverDef = (randomCoverToMissInto == null) ? null : randomCoverToMissInto.def;
             if (!Rand.Chance(shotReport.AimOnTargetChance_IgnoringPosture))
             {
-                shootLine.ChangeDestToMissWild(shotReport.AimOnTargetChance_StandardTarget);
+                shootLine.ChangeDestToMissWild(shotReport.AimOnTargetChance_StandardTarget, false, __instance.caster.Map);
                 ProjectileHitFlags projectileHitFlags2 = ProjectileHitFlags.NonTargetWorld;
                 if (Rand.Chance(0.5f) && canHitNonTargetPawnsNow)
                 {
                     projectileHitFlags2 |= ProjectileHitFlags.NonTargetPawns;
                 }
-                projectile2.Launch(launcher, drawPos, shootLine.Dest, currentTarget, projectileHitFlags2, equipment, targetCoverDef);
+                projectile2.Launch(launcher, drawPos, shootLine.Dest, currentTarget, projectileHitFlags2, false, equipment, targetCoverDef);
                 return true;
             }
             if (currentTarget.Thing != null && currentTarget.Thing.def.category == ThingCategory.Pawn && !Rand.Chance(shotReport.PassCoverChance))
@@ -459,7 +459,7 @@ namespace RRYautja
                 {
                     projectileHitFlags3 |= ProjectileHitFlags.NonTargetPawns;
                 }
-                projectile2.Launch(launcher, drawPos, randomCoverToMissInto, currentTarget, projectileHitFlags3, equipment, targetCoverDef);
+                projectile2.Launch(launcher, drawPos, randomCoverToMissInto, currentTarget, projectileHitFlags3, false, equipment, targetCoverDef);
                 return true;
             }
             ProjectileHitFlags projectileHitFlags4 = ProjectileHitFlags.IntendedTarget;
@@ -473,11 +473,11 @@ namespace RRYautja
             }
             if (currentTarget.Thing != null)
             {
-                projectile2.Launch(launcher, drawPos, currentTarget, currentTarget, projectileHitFlags4, equipment, targetCoverDef);
+                projectile2.Launch(launcher, drawPos, currentTarget, currentTarget, projectileHitFlags4, false, equipment, targetCoverDef);
             }
             else
             {
-                projectile2.Launch(launcher, drawPos, shootLine.Dest, currentTarget, projectileHitFlags4, equipment, targetCoverDef);
+                projectile2.Launch(launcher, drawPos, shootLine.Dest, currentTarget, projectileHitFlags4, false, equipment, targetCoverDef);
             }
             return true;
         }

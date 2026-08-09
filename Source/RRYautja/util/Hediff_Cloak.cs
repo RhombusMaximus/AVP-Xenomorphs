@@ -112,7 +112,7 @@ namespace RRYautja
             {
                 pawn.health.RemoveHediff(this);
             }
-            if (pawn.Downed || pawn.Dead || (pawn.pather != null && pawn.pather.WillCollideWithPawnOnNextPathCell()))
+            if (pawn.Downed || pawn.Dead || (pawn.pather != null && pawn.pather.WillCollideNextCell))
             {
                 pawn.health.RemoveHediff(this);
                 /*
@@ -149,7 +149,7 @@ namespace RRYautja
                                 if (observer != null && observer != pawn && observer.Faction != null && (observer.Faction.IsPlayer || observer.Faction.HostileTo(pawn.Faction)))
                                 {
                                     float observerSight = observer.health.capacities.GetLevel(PawnCapacityDefOf.Sight);
-                                    observerSight *= 0.805f + (pawn.Map.glowGrid.GameGlowAt(pawn.Position) / 4);
+                                    observerSight *= 0.805f + (pawn.Map.glowGrid.GroundGlowAt(pawn.Position) / 4);
                                     if (observer.RaceProps.Animal)
                                     {
                                         observerSight *= 0.9f;

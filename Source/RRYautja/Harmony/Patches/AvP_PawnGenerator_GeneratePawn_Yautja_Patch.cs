@@ -26,7 +26,7 @@ namespace RRYautja
             if (_Yautja != null)
             {
                 Backstory pawnStoryC = __result.story.childhood;
-                Backstory pawnStoryA = __result.story.adulthood ?? null;
+                Backstory pawnStoryA = __result.story.Adulthood ?? null;
 
                 AlienRace.BackstoryDef bsDefUnblooded = DefDatabase<AlienRace.BackstoryDef>.GetNamed("RRY_Yautja_YoungBlood");
                 AlienRace.BackstoryDef bsDefBlooded = DefDatabase<AlienRace.BackstoryDef>.GetNamed("RRY_Yautja_Blooded");

@@ -69,7 +69,7 @@ namespace RRYautja.settings
             SettingsHelper.latest = this.settings;
             harmony = new Harmony("com.ogliss.rimworld.mod.rryatuja");
             harmony.PatchAll(Assembly.GetExecutingAssembly());
-            if (Prefs.DevMode) Log.Message(string.Format("Alien Vs Predator: successfully completed {0} harmony patches.", harmony.GetPatchedMethods().Select(new Func<MethodBase, Patches>(Harmony.GetPatchInfo)).SelectMany((Patches p) => p.Prefixes.Concat(p.Postfixes).Concat(p.Transpilers)).Count((Patch p) => p.owner.Contains(harmony.Id))), false);
+            if (Prefs.DevMode) Log.Message(string.Format("Alien Vs Predator: successfully completed {0} harmony patches.", harmony.GetPatchedMethods().Select(new Func<MethodBase, Patches>(Harmony.GetPatchInfo)).SelectMany((Patches p) => p.Prefixes.Concat(p.Postfixes).Concat(p.Transpilers)).Count((Patch p) => p.owner.Contains(harmony.Id))));
         }
 
         public override string SettingsCategory() => "Aliens Vs Predator";

@@ -36,7 +36,7 @@ namespace RimWorld
                 bool selected = pawn.Map != null ? Find.Selector.SelectedObjects.Contains(pawn) && (Prefs.DevMode) : false;
                 if (pawn.CanReach(c, PathEndMode.ClosestTouch, Danger.Deadly, true, false, TraverseMode.PassAllDestroyableThingsNotWater))
                 {
-                    using (PawnPath pawnPath = pawn.Map.pathFinder.FindPath(pawn.Position, c, TraverseParms.For(pawn, Danger.Deadly, TraverseMode.PassAllDestroyableThings, false), PathEndMode.OnCell))
+                    using (PawnPath pawnPath = pawn.Map.pathFinder.FindPathNow(pawn.Position, c, TraverseParms.For(pawn, Danger.Deadly, TraverseMode.PassAllDestroyableThings, false), PathEndMode.OnCell))
                     {
                         IntVec3 cellBeforeBlocker;
                         Thing thing = pawnPath.FirstBlockingBuilding(out cellBeforeBlocker, pawn);

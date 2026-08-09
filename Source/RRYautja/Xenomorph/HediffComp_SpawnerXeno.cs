@@ -116,7 +116,7 @@ namespace RRYautja
         {
             base.CompPostPostAdd(dinfo);
             DeathActionWorker daw = this.Pawn.def.race.DeathActionWorker;
-            this.Pawn.def.race.deathActionWorkerClass = typeof(DeathActionWorker_Simple);
+            this.Pawn.def.race.deathAction.workerClass = typeof(DeathActionWorker_Simple);
             if (parent.pawn.Spawned)
             {
                 if (parent.pawn.Map != null)
@@ -327,7 +327,7 @@ namespace RRYautja
         {
             IntVec3 spawnLoc = !base.Pawn.Dead ? base.parent.pawn.Position : base.parent.pawn.PositionHeld;
             Map spawnMap = !base.Pawn.Dead ? base.parent.pawn.Map : base.parent.pawn.MapHeld;
-            this.Pawn.def.race.deathActionWorkerClass = typeof(DeathActionWorker_Simple);
+            this.Pawn.def.race.deathAction.workerClass = typeof(DeathActionWorker_Simple);
             bool fullterm = this.parent.CurStageIndex > this.parent.def.stages.Count - 3;
             if (!fullterm || bursted || spawnMap == null || spawnLoc == null)
             {

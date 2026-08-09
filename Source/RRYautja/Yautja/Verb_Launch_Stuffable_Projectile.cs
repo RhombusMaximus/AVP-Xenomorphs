@@ -69,9 +69,9 @@ namespace Verse
             }
             Vector3 drawPos = this.caster.DrawPos;
             Stuffable_Projectile projectile2 = (Stuffable_Projectile)GenSpawn.Spawn(projectile, shootLine.Source, this.caster.Map, WipeMode.Vanish);
-            if (this.verbProps.forcedMissRadius > 0.5f)
+            if (this.verbProps.ForcedMissRadius > 0.5f)
             {
-                float num = VerbUtility.CalculateAdjustedForcedMiss(this.verbProps.forcedMissRadius, this.currentTarget.Cell - this.caster.Position);
+                float num = VerbUtility.CalculateAdjustedForcedMiss(this.verbProps.ForcedMissRadius, this.currentTarget.Cell - this.caster.Position);
                 if (num > 0.5f)
                 {
                     int max = GenRadial.NumCellsInRadius(num);
@@ -90,7 +90,7 @@ namespace Verse
                         {
                             projectileHitFlags &= ~ProjectileHitFlags.NonTargetPawns;
                         }
-                        projectile2.Launch(launcher, drawPos, c, this.currentTarget, projectileHitFlags, equipment, null);
+                        projectile2.Launch(launcher, drawPos, c, this.currentTarget, projectileHitFlags, false, equipment, null);
                         return true;
                     }
                 }
@@ -100,7 +100,7 @@ namespace Verse
             ThingDef targetCoverDef = randomCoverToMissInto?.def;
             if (!Rand.Chance(shotReport.AimOnTargetChance_IgnoringPosture))
             {
-                shootLine.ChangeDestToMissWild(shotReport.AimOnTargetChance_StandardTarget);
+                shootLine.ChangeDestToMissWild(shotReport.AimOnTargetChance_StandardTarget, false, __instance.caster.Map);
                 this.ThrowDebugText("ToWild" + ((!this.canHitNonTargetPawnsNow) ? string.Empty : "\nchntp"));
                 this.ThrowDebugText("Wild\nDest", shootLine.Dest);
                 ProjectileHitFlags projectileHitFlags2 = ProjectileHitFlags.NonTargetWorld;
@@ -108,7 +108,7 @@ namespace Verse
                 {
                     projectileHitFlags2 |= ProjectileHitFlags.NonTargetPawns;
                 }
-                projectile2.Launch(launcher, drawPos, shootLine.Dest, this.currentTarget, projectileHitFlags2, equipment, targetCoverDef);
+                projectile2.Launch(launcher, drawPos, shootLine.Dest, this.currentTarget, projectileHitFlags2, false, equipment, targetCoverDef);
                 return true;
             }
             if (this.currentTarget.Thing != null && this.currentTarget.Thing.def.category == ThingCategory.Pawn && !Rand.Chance(shotReport.PassCoverChance))
@@ -120,7 +120,7 @@ namespace Verse
                 {
                     projectileHitFlags3 |= ProjectileHitFlags.NonTargetPawns;
                 }
-                projectile2.Launch(launcher, drawPos, randomCoverToMissInto, this.currentTarget, projectileHitFlags3, equipment, targetCoverDef);
+                projectile2.Launch(launcher, drawPos, randomCoverToMissInto, this.currentTarget, projectileHitFlags3, false, equipment, targetCoverDef);
                 return true;
             }
             ProjectileHitFlags projectileHitFlags4 = ProjectileHitFlags.IntendedTarget;
@@ -135,12 +135,12 @@ namespace Verse
             this.ThrowDebugText("ToHit" + ((!this.canHitNonTargetPawnsNow) ? string.Empty : "\nchntp"));
             if (this.currentTarget.Thing != null)
             {
-                projectile2.Launch(launcher, drawPos, this.currentTarget, this.currentTarget, projectileHitFlags4, equipment, targetCoverDef);
+                projectile2.Launch(launcher, drawPos, this.currentTarget, this.currentTarget, projectileHitFlags4, false, equipment, targetCoverDef);
                 this.ThrowDebugText("Hit\nDest", this.currentTarget.Cell);
             }
             else
             {
-                projectile2.Launch(launcher, drawPos, shootLine.Dest, this.currentTarget, projectileHitFlags4, equipment, targetCoverDef);
+                projectile2.Launch(launcher, drawPos, shootLine.Dest, this.currentTarget, projectileHitFlags4, false, equipment, targetCoverDef);
                 this.ThrowDebugText("Hit\nDest", shootLine.Dest);
             }
             return true;

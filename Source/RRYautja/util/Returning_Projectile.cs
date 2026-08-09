@@ -102,7 +102,7 @@ namespace RimWorld
                 ThingDef equipmentDef = this.equipmentDef;
                 DamageInfo dinfo = new DamageInfo(damageDef, amount, armorPenetration, y, launcher, null, equipmentDef, DamageInfo.SourceCategory.ThingOrUnknown, this.intendedTarget.Thing);
                 hitThing.TakeDamage(dinfo).AssociateWithLog(battleLogEntry_RangedImpact);
-                if (hitThing is Pawn pawn && pawn.stances != null && pawn.BodySize <= this.def.projectile.StoppingPower + 0.001f)
+                if (hitThing is Pawn pawn && pawn.stances != null && pawn.BodySize <= this.def.projectile.stoppingPower + 0.001f)
                 {
                     pawn.stances.StaggerFor(95);
                 }
@@ -172,7 +172,7 @@ namespace RimWorld
                 //    Log.Message(string.Format("Target OriginalPawn {0}", OriginalPawn));
                     GenSpawn.Spawn(projectile, base.Position, launcher.Map, 0);
                 //    Log.Message(string.Format("Launch projectile2 {0} at {1}", projectile, OriginalPawn));
-                    projectile.Launch(OriginalWeapon, base.Position.ToVector3ShiftedWithAltitude(AltitudeLayer.Projectile), OriginalPawn, OriginalPawn, ProjectileHitFlags.IntendedTarget, OriginalWeapon);
+                    projectile.Launch(OriginalWeapon, new LocalTargetInfo(OriginalPawn), OriginalPawn, ProjectileHitFlags.IntendedTarget, false, OriginalWeapon);
                 }
             }
             else
@@ -223,7 +223,7 @@ namespace RimWorld
             //    Log.Message(string.Format("Target OriginalPawn {0}", OriginalPawn));
                 GenSpawn.Spawn(projectile, base.Position, launcher.Map, 0);
             //    Log.Message(string.Format("Launch projectile2 {0} at {1}", Rprojectile, OriginalPawn));
-                projectile.Launch(OriginalWeapon, base.Position.ToVector3ShiftedWithAltitude(AltitudeLayer.Projectile), OriginalPawn, OriginalPawn, ProjectileHitFlags.IntendedTarget, OriginalWeapon);
+                projectile.Launch(OriginalWeapon, new LocalTargetInfo(OriginalPawn), OriginalPawn, ProjectileHitFlags.IntendedTarget, false, OriginalWeapon);
             }
         }
 

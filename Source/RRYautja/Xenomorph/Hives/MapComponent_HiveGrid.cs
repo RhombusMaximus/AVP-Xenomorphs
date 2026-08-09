@@ -400,7 +400,7 @@ namespace RRYautja
                 }
                 if (XenomorphHiveUtility.GetHiveCategory(oldDepth) != XenomorphHiveUtility.GetHiveCategory(newDepth))
                 {
-                    this.map.pathGrid.RecalculatePerceivedPathCostAt(c);
+                    this.map.pathing.RecalculatePerceivedPathCostAt(c);
                 }
             }
         }

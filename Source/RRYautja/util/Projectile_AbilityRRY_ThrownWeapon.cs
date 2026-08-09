@@ -12,9 +12,9 @@ namespace RRYautja
             base.Impact(hitThing);
             if (hitThing != null)
             {
-                var damageAmountBase = def.projectile.GetDamageAmount(1f);
+                var damageAmountBase = def.projectile.GetDamageAmount(1f, null);
                 var equipmentDef = this.equipmentDef;
-                var dinfo = new DamageInfo(def.projectile.damageDef, damageAmountBase, this.def.projectile.GetArmorPenetration(1f), ExactRotation.eulerAngles.y,
+                var dinfo = new DamageInfo(def.projectile.damageDef, damageAmountBase, this.def.projectile.GetArmorPenetration(null), ExactRotation.eulerAngles.y,
                     launcher, null, equipmentDef);
                 hitThing.TakeDamage(dinfo);
             }

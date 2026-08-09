@@ -43,7 +43,7 @@ namespace RimWorld
 			{
 				return;
 			}
-			this.contents.innerContainer.ThingOwnerTick(true);
+			this.contents.innerContainer.DoTick(true);
 			if (base.Spawned)
 			{
 				this.age++;

@@ -150,14 +150,14 @@ namespace RRYautja
                 {
                     List<BodyPartRecord> list = new List<BodyPartRecord>();
                     float num = 0.028758334f;
-                    num *= StatExtension.GetStatValue(p, StatDefOf.ToxicSensitivity, true);
+                    num *= StatExtension.GetStatValue(p, StatDefOf.ToxicResistance, true);
                     bool flag3 = num != 0f;
                     if (flag3)
                     {
                         float num2 = Mathf.Lerp(0.85f, 1.15f, Rand.ValueSeeded(p.thingIDNumber ^ 74374237));
                         num *= num2;
                     }
-                    float statValue = StatExtension.GetStatValue(p, StatDefOf.ToxicSensitivity, true);
+                    float statValue = StatExtension.GetStatValue(p, StatDefOf.ToxicResistance, true);
                     hediff.Severity = _hediffseverity * statValue;
                     foreach (BodyPartRecord bodyPartRecord in p.health.hediffSet.GetNotMissingParts(0, BodyPartDepth.Inside, null, null))
                     {
@@ -226,7 +226,7 @@ namespace RRYautja
                     }
                     Hediff hediff5 = hediff4;
                     float num4 = Rand.Range(0.1f, 0.2f);
-                    float statValue2 = StatExtension.GetStatValue(p, StatDefOf.ToxicSensitivity, true);
+                    float statValue2 = StatExtension.GetStatValue(p, StatDefOf.ToxicResistance, true);
                     bool flag7 = hediff5 != null;
                     if (flag7)
                     {

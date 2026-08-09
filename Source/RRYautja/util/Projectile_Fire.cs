@@ -125,7 +125,7 @@ namespace RRYautja
                         return;
                     }
                     Spark spark = (Spark)GenSpawn.Spawn(ThingDefOf.Spark, base.Position, base.Map, WipeMode.Vanish);
-                    spark.Launch(this, intVec, intVec, ProjectileHitFlags.All, null);
+                    spark.Launch(this, intVec, intVec, ProjectileHitFlags.All, false, null);
                 }
                 else
                 {

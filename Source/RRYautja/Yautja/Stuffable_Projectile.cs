@@ -105,7 +105,7 @@ namespace RRYautja
         {
             get
             {
-                return this.def.projectile.GetArmorPenetration(this.weaponDamageMultiplier, null);
+                return this.def.projectile.GetArmorPenetration(null);
             }
         }
 
