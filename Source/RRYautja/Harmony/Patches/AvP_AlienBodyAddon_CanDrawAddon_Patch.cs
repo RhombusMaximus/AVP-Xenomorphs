@@ -1,4 +1,6 @@
-﻿using RimWorld;
+#if false
+// TODO: AlienPartGenerator.BodyAddon.CanDrawAddon may have changed in AlienRace 1.6 — verify method name and signature
+using RimWorld;
 using Verse;
 using HarmonyLib;
 using System.Reflection;
@@ -32,3 +34,4 @@ namespace RRYautja
     }
     
 }
+#endif
