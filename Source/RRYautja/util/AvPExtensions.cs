@@ -902,27 +902,20 @@ namespace RRYautja.ExtensionMethods
                 }
                 else
                 {
-                    if (yautja)
+                    if (large)
                     {
-                        kindDef.Add(XenomorphDefOf.RRY_Xenomorph_Predalien);
+                        kindDef.Add(XenomorphDefOf.RRY_Xenomorph_Warrior);
                     }
                     else
                     {
-                        if (large)
+                        if (small)
                         {
-                            kindDef.Add(XenomorphDefOf.RRY_Xenomorph_Warrior);
+                            kindDef.Add(XenomorphDefOf.RRY_Xenomorph_Drone);
                         }
                         else
                         {
-                            if (small)
-                            {
-                                kindDef.Add(XenomorphDefOf.RRY_Xenomorph_Drone);
-                            }
-                            else
-                            {
-                                kindDef.Add(XenomorphDefOf.RRY_Xenomorph_Warrior);
-                                kindDef.Add(XenomorphDefOf.RRY_Xenomorph_Drone);
-                            }
+                            kindDef.Add(XenomorphDefOf.RRY_Xenomorph_Warrior);
+                            kindDef.Add(XenomorphDefOf.RRY_Xenomorph_Drone);
                         }
                     }
                 }

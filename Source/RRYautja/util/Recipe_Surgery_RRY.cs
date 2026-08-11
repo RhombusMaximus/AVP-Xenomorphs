@@ -2,16 +2,56 @@ using RimWorld;
 using RRYautja.settings;
 using System;
 using System.Collections.Generic;
+using System.Linq;
 using UnityEngine;
 using Verse;
-using System.Linq;
 
 namespace RRYautja
 {
     // Token: 0x02000480 RID: 1152
     public class Recipe_Surgery_RRY : RecipeWorker
     {
-        // Token: 0x06001465 RID: 5221 RVA: 0x0009C6B4 File Offset: 0x0009AAB4
+        // Inlined surgery failure injury helpers (originally from HealthShardTendUtility)
+        private static void GiveInjuriesOperationFailureCatastrophic(Pawn p, BodyPartRecord part)
+        {
+            GiveRandomSurgeryInjuries(p, 65, part);
+        }
+        private static void GiveInjuriesOperationFailureRidiculous(Pawn p)
+        {
+            GiveRandomSurgeryInjuries(p, 65, null);
+        }
+        private static void GiveInjuriesOperationFailureMinor(Pawn p, BodyPartRecord part)
+        {
+            GiveRandomSurgeryInjuries(p, 20, part);
+        }
+        private static void GiveRandomSurgeryInjuries(Pawn p, int totalDamage, BodyPartRecord operatedPart)
+        {
+            IEnumerable<BodyPartRecord> source;
+            if (operatedPart == null)
+            {
+                source = from x in p.health.hediffSet.GetNotMissingParts(BodyPartHeight.Undefined, BodyPartDepth.Undefined, null, null)
+                         where !x.def.conceptual
+                         select x;
+            }
+            else
+            {
+                source = from x in p.health.hediffSet.GetNotMissingParts(BodyPartHeight.Undefined, BodyPartDepth.Undefined, null, null)
+                         where !x.def.conceptual
+                         select x into pa
+                         where pa == operatedPart || pa.parent == operatedPart || (operatedPart != null && operatedPart.parent == pa)
+                         select pa;
+            }
+            while (totalDamage > 0 && source.Any())
+            {
+                BodyPartRecord bodyPartRecord = source.RandomElementByWeight((BodyPartRecord x) => x.coverageAbs);
+                int num = Mathf.RoundToInt((float)totalDamage * Rand.Range(0.4f, 0.8f));
+                num = Mathf.Max(1, num);
+                DamageInfo dinfo = new DamageInfo(DamageDefOf.SurgicalCut, num, 0f, -1f, null, bodyPartRecord, null);
+                p.TakeDamage(dinfo);
+                totalDamage -= num;
+            }
+        }
+
         protected virtual bool CheckSurgeryFail(Pawn surgeon, Pawn patient, List<Thing> ingredients, BodyPartRecord part, Bill bill)
         {
             IntVec3 patientLoc = patient.Position;
@@ -47,7 +87,7 @@ namespace RRYautja
                 }
                 if (Rand.Chance(faildeathchance))
                 {
-                    HealthShardTendUtility.GiveInjuriesOperationFailureCatastrophic(patient, part);
+                    GiveInjuriesOperationFailureCatastrophic(patient, part);
                     if (!patient.Dead)
                     {
                         patient.Kill(null, null);
@@ -63,7 +103,7 @@ namespace RRYautja
                         */
                         patient.health.RemoveHediff(patient.health.hediffSet.GetFirstHediffOfDef(XenomorphDefOf.RRY_FaceHuggerInfection));
                         Messages.Message("RRYMessageMedicalOperationFailureRidiculous".Translate(surgeon.LabelShort, patient.LabelShort, surgeon.Named("SURGEON"), patient.Named("PATIENT")), patient, MessageTypeDefOf.NegativeHealthEvent, true);
-                        HealthShardTendUtility.GiveInjuriesOperationFailureRidiculous(patient);
+                        GiveInjuriesOperationFailureRidiculous(patient);
 
                     }
                     else
@@ -85,7 +125,7 @@ namespace RRYautja
                             GenSpawn.Spawn(ThingMaker.MakeThing(XenomorphDefOf.RRY_FilthBloodXenomorph_Active), patientLoc.RandomAdjacentCell8Way(), surgeon.Map);
                         }
                         Messages.Message("RRYMessageMedicalOperationFailureCatastrophic".Translate(surgeon.LabelShort, patient.LabelShort, surgeon.Named("SURGEON"), patient.Named("PATIENT")), patient, MessageTypeDefOf.NegativeHealthEvent, true);
-                        HealthShardTendUtility.GiveInjuriesOperationFailureCatastrophic(patient, part);
+                        GiveInjuriesOperationFailureCatastrophic(patient, part);
                     }
                 }
                 else
@@ -98,12 +138,12 @@ namespace RRYautja
                         }
                         else GenSpawn.Spawn(ThingMaker.MakeThing(XenomorphDefOf.RRY_FilthBloodXenomorph_Active), patientLoc.RandomAdjacentCell8Way(), surgeon.Map);
                         Messages.Message("RRYMessageMedicalOperationFailureMinorB".Translate(surgeon.LabelShort, patient.LabelShort, surgeon.Named("SURGEON"), patient.Named("PATIENT")), patient, MessageTypeDefOf.NegativeHealthEvent, true);
-                        HealthShardTendUtility.GiveInjuriesOperationFailureMinor(patient, part);
+                        GiveInjuriesOperationFailureMinor(patient, part);
                     }
                     else
                     {
                         Messages.Message("RRYMessageMedicalOperationFailureMinorA".Translate(surgeon.LabelShort, patient.LabelShort, surgeon.Named("SURGEON"), patient.Named("PATIENT")), patient, MessageTypeDefOf.NegativeHealthEvent, true);
-                        HealthShardTendUtility.GiveInjuriesOperationFailureMinor(patient, part);
+                        GiveInjuriesOperationFailureMinor(patient, part);
                     }
                 }
                 if (!patient.Dead)

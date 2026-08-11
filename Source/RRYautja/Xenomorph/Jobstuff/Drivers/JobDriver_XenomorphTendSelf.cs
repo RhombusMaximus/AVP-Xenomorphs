@@ -40,7 +40,25 @@ namespace RRYautja
                 float num = (!actor.RaceProps.Animal) ? 500f : 175f;
                 float num2 = 0.5f;
                 actor.skills.Learn(SkillDefOf.Medicine, num * num2, false);
-                HealthShardTendUtility.DoTend(actor, actor, null);
+                // Inline tend logic (originally from HealthShardTendUtility.DoTend)
+                if (actor.health.HasHediffsNeedingTend(false))
+                {
+                    float tendQuality = 0.75f; // Default self-tend quality
+                    List<Hediff> hediffsToTend = new List<Hediff>();
+                    foreach (Hediff hediff in actor.health.hediffSet.hediffs)
+                    {
+                        if (hediff.TendableNow())
+                        {
+                            hediffsToTend.Add(hediff);
+                        }
+                    }
+                    for (int i = 0; i < hediffsToTend.Count; i++)
+                    {
+                        hediffsToTend[i].Tended(tendQuality, i);
+                    }
+                    actor.records.Increment(RecordDefOf.TimesTendedTo);
+                    actor.mindState.Notify_SelfTended();
+                }
             };
             toil.defaultCompleteMode = (ToilCompleteMode)1;
             yield return toil;
