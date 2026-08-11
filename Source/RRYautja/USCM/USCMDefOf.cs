@@ -59,6 +59,6 @@ namespace RimWorld
             DefOfHelper.EnsureInitializedInCtor(typeof(USCMConceptDefOf));
         }
         // USCM ConceptDefs
-        public static ConceptDef RRY_Concept_Gauntlet;
+        // RRY_Concept_Gauntlet removed (Yautja-only)
     }
 }

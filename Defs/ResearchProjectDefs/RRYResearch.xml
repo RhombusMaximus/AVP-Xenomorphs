@@ -16,7 +16,7 @@
 		<researchViewY>0</researchViewY>
 	</ResearchProjectDef>
 	
-	<!-- Commented out in case we ever want to revert back to Armour and Wapon Crafting later - acide_bob
+	<!-- Commented out in case we ever want to revert back to Armour and Wapon Crafting later - acide_bob -->
 	
 	<ResearchProjectDef>
 		<tab>RRY_RTab</tab>

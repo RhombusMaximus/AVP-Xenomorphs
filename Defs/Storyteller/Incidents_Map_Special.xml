@@ -25,6 +25,8 @@
 
 	<!-- =========================== Good - special ============================ 
 
+	<!-- StrangerInBlackJoin incident removed (IncidentWorker_WandererJoin was Yautja-only) -->
+	<!--
 	<IncidentDef>
 		<defName>StrangerInBlackJoin</defName>
 		<label>man in black</label>
@@ -42,5 +44,6 @@
 		<pawnFixedGender>Male</pawnFixedGender>
 		<pawnMustBeCapableOfViolence>true</pawnMustBeCapableOfViolence>
 	</IncidentDef>
+	-->
 -->
 </Defs>

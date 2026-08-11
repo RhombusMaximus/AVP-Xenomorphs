@@ -18,39 +18,10 @@
 	<makesAlert>false</makesAlert>
 	<makesSickThought>false</makesSickThought>
 	</HediffDef>
-
-	
-  <HediffDef ParentName="RRY_SpecialGoodHeDiff">
-    <defName>RRY_WristbladeHeDiff</defName>
-    <label>wristblade</label>
-    <description>wristblade</description>
-    <labelNoun>a wristblade</labelNoun>
-    <stages>
-      <li>
-        <label>initial</label>
-        <becomeVisible>false</becomeVisible>
-      </li>
-    </stages>
-    <comps>
-      <li Class="HediffCompProperties_VerbGiver">
-		<tools>
-			<li>
-				<label>wristblade</label>
-				<capacities>
-					<li>Cut</li>
-					<li>Stab</li>
-				</capacities>
-				<power>28</power>
-				<cooldownTime>1.8</cooldownTime>
-				<chanceFactor>0.75</chanceFactor>
-			</li>
-		</tools>
-      </li>
-    </comps>
-  </HediffDef>
   
-  <HediffDef>
-    <hediffClass>HediffWithComps</hediffClass>
+  <!-- RRY_WristbladeHeDiff removed (Yautja-only) -->
+
+  <HediffDef ParentName="RRY_SpecialGoodHeDiff">
     <defName>RRY_Hediff_PinnedCombistaff</defName>
     <label>pinned</label>
     <description>pinned</description>
@@ -149,23 +120,7 @@
       </li>
     </stages>
     <comps> 
-		  <li Class="RRYautja.HediffCompProperties_PinnedByWeapon">
-      </li>
-<!--
-      <li>
-        <compClass>RRYautja.HediffComp_Blur</compClass>
-      </li>
-      <li Class="JecsTools.HediffCompProperties_Knockback">
-        <knockbackChance>0.8</knockbackChance>
-		<stunChance>0.2</stunChance>
-		<stunTicks>60</stunTicks>
-		<knockDistance>
-		  <min>2</min>
-		  <max>3</max>
-		</knockDistance>
-		<explosiveKnockback>false</explosiveKnockback>
-      </li>
--->
+<!-- HediffCompProperties_PinnedByWeapon removed (Yautja Combistaff) -->
     </comps>
 	
   </HediffDef>
