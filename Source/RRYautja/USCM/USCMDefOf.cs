@@ -28,7 +28,7 @@ namespace RimWorld
         //    public static ThingDef RRY_Gun_Compound_Bow;
 
         // USCM ThingDefs  Projectiles
-        //    public static ThingDef RRY_SmartDisk_Thrown;
+        //    // Yautja SmartDisk removed
 
         // USCM ThingDefs  Equipment RRY_USCM_ActiveDropshipUD4L
         public static ThingDef RRY_USCM_DropshipUD4L;
@@ -38,13 +38,13 @@ namespace RimWorld
         public static ThingDef RRY_USCM_DropshipUD4LLeaving;
 
         // USCM ThingDefs  Motes
-        //    public static ThingDef RRY_SmartDisk_Mote;
+        //    // Yautja SmartDisk Mote removed
 
         // USCM PawnsArrivalModeDefs 
         //    public static PawnsArrivalModeDef EdgeWalkInGroups;
 
         // USCM ThoughtDefs
-        //    public static ThoughtDef RRY_HonourableVsBadBlood;
+        //    // Yautja HonourableVsBadBlood removed
 
         // USCM ThoughtDefs Memories
         //    public static ThoughtDef RRY_Thought_ThrillOfTheHunt;

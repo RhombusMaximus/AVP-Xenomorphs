@@ -13,13 +13,13 @@ namespace RimWorld
 			DefOfHelper.EnsureInitializedInCtor(typeof(TrapsDefOf));
 		}
         
-        // Yautja WorkTypeDefs 
+        // TrapsRearmable WorkTypeDefs 
     //    public static WorkTypeDef TR_Rearm;
 
-        // Yautja DesignationDefs
+        // TrapsRearmable DesignationDefs
         public static DesignationDef TR_RearmTrap;
 
-        // Yautja RecordDefs
+        // TrapsRearmable RecordDefs
         public static RecordDef TR_TrapsRearmed;
 
         // TrapsRearmable JobDefs
