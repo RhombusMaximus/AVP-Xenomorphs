@@ -1,7 +1,6 @@
 <?xml version="1.0" encoding="utf-8" ?>
 <LanguageData>
   <!-- Mod Settings -->
-  <RRY_AllowYautjaFaction>Enable Extra Factions: this Should enable all extra factions, Scenarios, related incidents and events</RRY_AllowYautjaFaction>
   <RRY_AllowXenomorphFaction>Enable Xenomorphs:\n1this Should enable all Xenomorph related incidents and events</RRY_AllowXenomorphFaction>
   <RRY_AllowHiddenInfections>Allow Hidden Impregnations:\nDisable this to stop pawns spawning impregnated</RRY_AllowHiddenInfections>
   <RRY_AllowPredalienImpregnations>Allow Predalien Impregnations: Disable this to Predaliens from being able to impregnate female pawns</RRY_AllowPredalienImpregnations>
