@@ -30,7 +30,7 @@ namespace RRYautja
                 foreach (ScenarioDef scenDef in DefDatabase<ScenarioDef>.AllDefs)
                 {
                     //    Log.Message(string.Format("Found {0}", scenarios.Count()));
-                    if ((!scenDef.defName.Contains("Yautja") && !SettingsHelper.latest.AllowYautjaFaction) || SettingsHelper.latest.AllowYautjaFaction)
+                    if (!scenDef.defName.Contains("Yautja"))
                     {
                         yield return scenDef.scenario;
                     }
@@ -42,7 +42,7 @@ namespace RRYautja
                 foreach (Scenario scen in scenarios)
                 {
                     //    Log.Message(string.Format("Found {0}", scenarios.Count()));
-                    if ((!scen.name.Contains("Yautja") && !SettingsHelper.latest.AllowYautjaFaction) || SettingsHelper.latest.AllowYautjaFaction)
+                    if (!scen.name.Contains("Yautja"))
                     {
                         yield return scen;
                     }
@@ -54,7 +54,7 @@ namespace RRYautja
                 foreach (Scenario scen2 in scenarios)
                 {
                     //    Log.Message(string.Format("Found {0}", scenarios.Count()));
-                    if ((!scen2.name.Contains("Yautja") && !SettingsHelper.latest.AllowYautjaFaction) || SettingsHelper.latest.AllowYautjaFaction)
+                    if (!scen2.name.Contains("Yautja"))
                     {
                         yield return scen2;
                     }

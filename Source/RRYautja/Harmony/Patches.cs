@@ -42,7 +42,6 @@ namespace RRYautja
                 {
                     if (!AlienRace.RaceRestrictionSettings.apparelWhiteDict.ContainsKey(key: def))
                         AlienRace.RaceRestrictionSettings.apparelWhiteDict.Add(key: def, value: new List<AlienRace.ThingDef_AlienRace>());
-                    AlienRace.RaceRestrictionSettings.apparelWhiteDict[key: def].Add(item: ((AlienRace.ThingDef_AlienRace)YautjaDefOf.RRY_Alien_Yautja));
                 }
             }
 

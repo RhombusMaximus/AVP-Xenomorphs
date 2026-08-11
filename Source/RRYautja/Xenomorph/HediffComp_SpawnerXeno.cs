@@ -207,11 +207,7 @@ namespace RRYautja
             }
             else
             {
-                if (Pawn.kindDef.race == YautjaDefOf.RRY_Alien_Yautja && SettingsHelper.latest.AllowPredaliens)// && !predalienImpregnation)
-                {
-                    pawnKindDef = XenomorphDefOf.RRY_Xenomorph_Predalien;
-                }
-                else if (Pawn.RaceProps.Humanlike)
+                if (Pawn.RaceProps.Humanlike)
                 {
                     pawnKindDef = Rand.Chance(0.5f) ? XenomorphDefOf.RRY_Xenomorph_Drone : XenomorphDefOf.RRY_Xenomorph_Warrior;
                 }

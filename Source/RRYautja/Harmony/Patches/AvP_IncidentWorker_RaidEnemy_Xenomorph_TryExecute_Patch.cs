@@ -41,7 +41,6 @@ namespace RRYautja
                             if ((parms.target as Map).skyManager.CurSkyGlow <= 0.5f)
                             {
                                 parms.points *= 2;
-                                parms.raidArrivalMode = YautjaDefOf.EdgeWalkInGroups;
                                 if (Rand.Chance(0.05f))
                                 {
                                     parms.forced = true;

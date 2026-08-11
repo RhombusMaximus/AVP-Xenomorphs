@@ -1,8 +1,8 @@
 ﻿<?xml version="1.0" encoding="utf-8" ?>
 <Defs>
-	<!-- ========================= Yautja - Catagories ========================== -->
-	<!-- ========================= Yautja - Gear Catagories ========================== -->
-	<!-- ========================= Yautja - Weapon Catagories ========================== -->
+	<!-- ========================= Catagories ========================== -->
+	<!-- ========================= Gear Catagories ========================== -->
+	<!-- ========================= Weapon Catagories ========================== -->
 	<ThingCategoryDef>
 		<defName>RRY_Weapons</defName>
 		<label>Weapons</label>
@@ -21,7 +21,7 @@
 		<parent>RRY_Weapons</parent>
 	</ThingCategoryDef>
 			
-	<!-- ========================= Yautja - Armour Catagories ========================== -->
+	<!-- ========================= Armour Catagories ========================== -->
 	<ThingCategoryDef>
 		<defName>RRY_Apparel</defName>
 		<label>Apparel</label>
@@ -52,7 +52,7 @@
 		<parent>Apparel</parent>
 	</ThingCategoryDef>
 	
-	<!-- ========================= Yautja - Corpse Catagories ========================== -->
+	<!-- ========================= Corpse Catagories ========================== -->
     <ThingCategoryDef>
     <defName>RRY_Corpses_Xenomorph</defName>
     <label>Xenomorph corpses</label>

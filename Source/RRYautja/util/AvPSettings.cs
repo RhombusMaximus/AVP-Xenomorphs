@@ -3,7 +3,7 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Reflection;
 using HarmonyLib;
-using HunterMarkingSystem;
+
 using RimWorld;
 using RRYautja.ExtensionMethods;
 using RRYautja.Xenomorph;
@@ -28,7 +28,7 @@ namespace RRYautja.settings
         public bool AllowThrumbomorphs = true;
         public bool AllowNeomorphs = true; 
         public bool AllowPredaliens = true;
-        public bool AllowXenomorphFaction = true, AllowYautjaFaction = true, AllowHiddenInfections = true, AllowPredalienImpregnations = true;
+        public bool AllowXenomorphFaction = true, AllowHiddenInfections = true, AllowPredalienImpregnations = true;
         public float fachuggerRemovalFailureDeathChance = 0.35f, embryoRemovalFailureDeathChance = 0.35f;
 
         public Dictionary<string, bool> RaceKeyPairs;
@@ -40,7 +40,7 @@ namespace RRYautja.settings
         {
             base.ExposeData();
             Scribe_Values.Look(ref this.AllowXenomorphFaction, "AllowXenomorphFaction", true);
-            Scribe_Values.Look(ref this.AllowYautjaFaction, "AllowYautjaFaction", true);
+
             Scribe_Values.Look(ref this.AllowHiddenInfections, "AllowHiddenInfections", true);
             Scribe_Values.Look(ref this.AllowPredalienImpregnations, "AllowPredalienImpregnations", true);
             Scribe_Values.Look(ref this.AllowXenoCocoonMetamorph, "AllowXenoCocoonMetamorph", true);
@@ -82,7 +82,7 @@ namespace RRYautja.settings
             Rect rect = new Rect(inRect.x, inRect.y + 50, numa, numa2);
             Widgets.Label(inRect.TopHalf().TopHalf().TopHalf().TopHalf().ContractedBy(4),
                 "Restart before playing to ensure your changes take effect.");
-            Widgets.CheckboxLabeled(inRect.TopHalf().TopHalf().TopHalf().BottomHalf().ContractedBy(4), "RRY_AllowYautjaFaction".Translate(), ref settings.AllowYautjaFaction);
+
             /*
             Widgets.CheckboxLabeled(inRect.TopHalf().TopHalf().BottomHalf().TopHalf().ContractedBy(4), "RRY_AllowXenomorphFaction".Translate(), ref settings.AllowXenomorphFaction);
             Widgets.CheckboxLabeled(inRect.TopHalf().TopHalf().BottomHalf().BottomHalf().LeftHalf().ContractedBy(4), "RRY_AllowHiddenInfections".Translate(), ref settings.AllowHiddenInfections);
@@ -144,8 +144,8 @@ namespace RRYautja.settings
                 }
                 */
                 settings.RaceKeyPairs.TryGetValue(td.defName, out bool setting);
-                Widgets.CheckboxLabeled(new Rect(x, num2, hostRect.width, 20f), text, ref setting, (td == ThingDefOf.Human|| td == YautjaDefOf.RRY_Alien_Yautja));
-                settings.RaceKeyPairs.SetOrAdd(td.defName, setting || (td == ThingDefOf.Human || td == YautjaDefOf.RRY_Alien_Yautja));
+                Widgets.CheckboxLabeled(new Rect(x, num2, hostRect.width, 20f), text, ref setting, (td == ThingDefOf.Human));
+                settings.RaceKeyPairs.SetOrAdd(td.defName, setting || (td == ThingDefOf.Human));
                 num2 += 20f;
             }
             Widgets.EndScrollView();

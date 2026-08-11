@@ -4,8 +4,7 @@ using RimWorld;
 using Verse;
 using Verse.AI;
 using System.Linq;
-using HunterMarkingSystem.Settings;
-using HunterMarkingSystem.ExtensionMethods;
+
 using RRYautja.ExtensionMethods;
 using RRYautja.settings;
 

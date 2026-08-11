@@ -43,14 +43,7 @@ namespace RRYautja
                     }
                     if (defName.Contains("RRY") && defName.Contains("Yautja"))
                     {
-                        if (!SettingsHelper.latest.AllowYautjaFaction)
-                        {
-                            AvP_FactionGenerator_GenerateFactionsIntoWorld_Patch.UpdateDef(factionDef, 0);
-                        }
-                        else
-                        {
-                            AvP_FactionGenerator_GenerateFactionsIntoWorld_Patch.UpdateDef(factionDef, 1);
-                        }
+                        AvP_FactionGenerator_GenerateFactionsIntoWorld_Patch.UpdateDef(factionDef, 0);
                     }
                     /*
                     if (defName.Contains("RRY") && defName.Contains("USCM"))

@@ -108,7 +108,7 @@
     <highlightTags>
       <li></li>
     </highlightTags>
-    <helpText>Predaliens only spawn when a facehugger impregnates a yautja, when fully grown they can impregnate female pawns.\n\nAnother side effect of the combination of Xenomorph and Yautja DNA is that the Predalien impregnations mature faster and can yield more than a single Xenomorph, a side effect of this is that it tends to only produce runners or drones.</helpText>
+    <helpText>Predaliens are a rare variant of Xenomorph that can impregnate female pawns.\n\nPredalien impregnations mature faster and can yield more than a single Xenomorph, a side effect of this is that it tends to only produce runners or drones.</helpText>
   </ConceptDef>	
   
   <ConceptDef>
@@ -119,7 +119,7 @@
     <highlightTags>
       <li></li>
     </highlightTags>
-    <helpText>Queens only spawn from a royal facehuggers first impregnation, which will always spawn a queen regardless of the host.(Unless its a yautja, then a predalien is spawned instead).\n\nQueens are Tough as nails and pack a hell of a punch, a signle queen can take on two thrumbos at once and come out on top.\n\nQueens will lay eggs</helpText>
+    <helpText>Queens only spawn from a royal facehuggers first impregnation, which will always spawn a queen regardless of the host.\n\nQueens are Tough as nails and pack a hell of a punch, a signle queen can take on two thrumbos at once and come out on top.\n\nQueens will lay eggs</helpText>
   </ConceptDef>
   
   <ConceptDef>
@@ -142,7 +142,7 @@
     <highlightTags>
       <li></li>
     </highlightTags>
-    <helpText>Predaliens only spawn when a facehugger impregnates a yautja, when fully grown they can impregnate female pawns.\n\nAnother side effect of the combination of Xenomorph and Yautja DNA is that the Predalien impregnations mature faster and can yield more than a single Xenomorph, a side effect of this is that it tends to only produce runners or drones.</helpText>
+    <helpText>Predaliens are a rare variant of Xenomorph that can impregnate female pawns.\n\nPredalien impregnations mature faster and can yield more than a single Xenomorph, a side effect of this is that it tends to only produce runners or drones.</helpText>
   </ConceptDef>	
   -->
   

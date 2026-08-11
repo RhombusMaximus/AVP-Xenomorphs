@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8" ?>
 <LanguageData>
   <!-- Mod Settings -->
-  <RRY_AllowYautjaFaction>Enable Yautja: this Should enable all Yautja factions, Scenarios, related incidents and events</RRY_AllowYautjaFaction>
+  <RRY_AllowYautjaFaction>Enable Extra Factions: this Should enable all extra factions, Scenarios, related incidents and events</RRY_AllowYautjaFaction>
   <RRY_AllowXenomorphFaction>Enable Xenomorphs:\n1this Should enable all Xenomorph related incidents and events</RRY_AllowXenomorphFaction>
   <RRY_AllowHiddenInfections>Allow Hidden Impregnations:\nDisable this to stop pawns spawning impregnated</RRY_AllowHiddenInfections>
   <RRY_AllowPredalienImpregnations>Allow Predalien Impregnations: Disable this to Predaliens from being able to impregnate female pawns</RRY_AllowPredalienImpregnations>
@@ -36,13 +36,6 @@
   <WearableExplosives_Timer_Stop_Label>Stop Countdown</WearableExplosives_Timer_Stop_Label>
   <WearableExplosives_Detonate_Desc>Detonate this pawn's self destruct device.</WearableExplosives_Detonate_Desc>
   <WearableExplosives_Timer_Desc>Start this pawn's 10 second self destruct countdown. clicking a second time will stop the countdown</WearableExplosives_Timer_Desc>
-  <HealthShardUses>Shards remaining</HealthShardUses>
-  <UseHealthShard>Use Health Shard</UseHealthShard>
-  <UseHealthShardDesc>Use a Health Shard to quickly return to the hunt</UseHealthShardDesc>
-  <MedicompTendSelf>Tend Self</MedicompTendSelf>
-  <MedicompTendSelfDesc>Tend thier own wounds on the spot</MedicompTendSelfDesc>
-   <!-- Yautja -->
-  <RRY_Remove_Gauntlet>Surgically Remove Gauntlet</RRY_Remove_Gauntlet>
   <!-- USCM -->
   <USCM_Dropship_MessageArrived>Dropship has arrive on station</USCM_Dropship_MessageArrived>
   <USCM_Dropship_CommandAddFuel>Add Fuel</USCM_Dropship_CommandAddFuel>

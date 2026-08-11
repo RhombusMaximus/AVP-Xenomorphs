@@ -37,11 +37,10 @@ namespace RRYautja
             toil.initAction = delegate ()
             {
                 Pawn actor = toil.actor;
-                Cloakgen medkit = actor.apparel.WornApparel.OfType<Cloakgen>().FirstOrDefault<Cloakgen>();
                 float num = (!actor.RaceProps.Animal) ? 500f : 175f;
-                float num2 = (medkit != null) ? medkit.kitComp.Props.medicine.MedicineTendXpGainFactor : 0.5f;
+                float num2 = 0.5f;
                 actor.skills.Learn(SkillDefOf.Medicine, num * num2, false);
-                HealthShardTendUtility.DoTend(actor, actor, medkit);
+                HealthShardTendUtility.DoTend(actor, actor, null);
             };
             toil.defaultCompleteMode = (ToilCompleteMode)1;
             yield return toil;

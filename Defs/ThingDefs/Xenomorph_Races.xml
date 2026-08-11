@@ -356,12 +356,6 @@
         <eggCountRange>1</eggCountRange>
       </li> 
     </comps>
-	<modExtensions>
-	  <li Class="HunterMarkingSystem.MarkDefExtension">
-		<!-- DefName of the Marking Hediff Kills of this race give --> 
-		<hediffs><li>HMS_Hediff_BloodedMXenomorphQueen</li></hediffs>
-	  </li>
-	</modExtensions>
 	<!--
     <butcherProducts>
       <Steel>50</Steel>
@@ -521,12 +515,6 @@
 
   <!-- Walker (Warrior/Runner/Drone) base -->
   <ThingDef ParentName="BaseXenomorphWalker" Name="BaseXenomorphWalker_Cannon" Abstract="True">
-	<modExtensions>
-	  <li Class="HunterMarkingSystem.MarkDefExtension">
-		<!-- DefName of the Marking Hediff Kills of this race give --> 
-		<hediffs><li>HMS_Hediff_BloodedMXenomorph</li></hediffs>
-	  </li>
-	</modExtensions>
   </ThingDef>
 
   <!-- Drone - Basic -->
@@ -1121,7 +1109,7 @@
   <ThingDef ParentName="BaseXenomorphWalker">
     <defName>RRY_Xenomorph_Predalien</defName>
     <label>Predalien</label>
-    <description>Predaliens are Xenomorphs spawned from a Yautja. A more obvious result of the Xenomorph's DNA Reflex, the Predalien takes more clearly after its Yautja host, sharing physical features such as dreadlocks, mandibles and lighter skin coloration./n/n They are lethal combatants, often seen to possess strength far in excess of human-spawned Xenomorphs owing to the greater physical prowess of their hosts, a trait the Predalien subsequently inherits and enhances. They are apparently rare and are regarded by the Yautja as abominations and an insult to their species.</description>
+    <description>Predaliens are a rare and deadly variant of Xenomorph. A more obvious result of the Xenomorph's DNA Reflex, the Predalien has distinctive physical features such as dreadlocks, mandibles and lighter skin coloration./n/n They are lethal combatants, often seen to possess strength far in excess of human-spawned Xenomorphs, a trait the Predalien subsequently inherits and enhances. They are apparently rare and are regarded as abominations by other Xenomorphs.</description>
     <statBases>
       <Mass>95</Mass>
       <MoveSpeed>5.6</MoveSpeed>
@@ -1230,12 +1218,6 @@
       <soundMeleeHitBuilding>Pawn_Melee_Punch_HitBuilding</soundMeleeHitBuilding>
       <soundMeleeMiss>Pawn_Melee_Punch_Miss</soundMeleeMiss>
     </race>
-	<modExtensions>
-	  <li Class="HunterMarkingSystem.MarkDefExtension">
-		<!-- DefName of the Marking Hediff Kills of this race give --> 
-		<hediffs><li>HMS_Hediff_BloodedMPredalien</li></hediffs>
-	  </li>
-	</modExtensions>
   </ThingDef>
 
   <PawnKindDef ParentName="RRY_BaseXenomorphKind">
@@ -1494,12 +1476,6 @@
       <ComponentIndustrial>2</ComponentIndustrial>
     </butcherProducts>
 	-->
-	<modExtensions>
-	  <li Class="HunterMarkingSystem.MarkDefExtension">
-		<!-- DefName of the Marking Hediff Kills of this race give --> 
-		<hediffs><li>HMS_Hediff_BloodedMXenomorphThrumbo</li></hediffs>
-	  </li>
-	</modExtensions>
   </ThingDef>
 
   <PawnKindDef ParentName="RRY_BaseXenomorphKind">
