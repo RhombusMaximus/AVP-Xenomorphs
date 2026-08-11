@@ -23,13 +23,6 @@
         <li>
             <compClass>CompAttachBase</compClass>
         </li>
-		<!--
-		<li Class="RRYautja.CompProperties_Yautja">
-			<bloodedDefs>
-			<li>HMS_Hediff_BloodedM</li>
-			</bloodedDefs>
-		</li> 
-		-->
     </comps>
     <drawGUIOverlay>true</drawGUIOverlay>
     <alwaysFlee>true</alwaysFlee>

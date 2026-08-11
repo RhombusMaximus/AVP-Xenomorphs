@@ -1,34 +1,3 @@
 <?xml version="1.0" encoding="utf-8"?>
 <Defs>
-  <HairDef>
-    <defName>RRY_Yaujta_Dreds</defName>
-    <label>Yaujta Dreds</label>
-    <hairGender>Any</hairGender>
-    <texPath>Things/Pawn/Yautja/Hair/Hair_Yautja</texPath>
-		<hairTags>
-			<li>YaujtaDreds</li>
-			<li>YaujtaHair</li>
-		</hairTags>
-  </HairDef>
-  
-  <HairDef>
-    <defName>RRY_Yaujta_Ponytail</defName>
-    <label>Yaujta Ponytail</label>
-    <hairGender>Any</hairGender>
-    <texPath>Things/Pawn/Yautja/Hair/Hair_Yautja_Ponytail</texPath>
-		<hairTags>
-			<li>YaujtaPonytail</li>
-			<li>YaujtaHair</li>
-		</hairTags>
-  </HairDef>
-  
-  <HairDef>
-    <defName>RRY_Yaujta_Bald</defName>
-    <label>Bald</label>
-    <hairGender>Any</hairGender>
-    <texPath>Things/Pawn/Yautja/Hair/Hairless_Yautja</texPath>
-		<hairTags>
-			<li>YaujtaBald</li>
-		</hairTags>
-  </HairDef>
 </Defs>

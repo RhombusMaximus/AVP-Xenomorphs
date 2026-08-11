@@ -484,12 +484,6 @@
 			<AIPersonaCore>1</AIPersonaCore>
 			
 	</butcherProducts>
-	<modExtensions>
-	  <li Class="HunterMarkingSystem.MarkDefExtension">
-		<!-- DefName of the Marking Hediff Kills of this race give --> 
-		<hediffs><li>HMS_Hediff_BloodedMMechanoid</li></hediffs>
-	  </li>
-	</modExtensions>
 </AlienRace.ThingDef_AlienRace>
 
 

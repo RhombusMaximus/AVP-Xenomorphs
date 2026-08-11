@@ -156,7 +156,7 @@
  <AlienRace.BackstoryDef>
     <defName>RRY_USCM_Blooded</defName>
     <title>Blooded</title>
-    <description>[PAWN_nameDef] had an encounter with the illusive Yautjas. Fortunately for [PAWN_possessive], [PAWN_pronoun] survived and in the process really impressed the Hunter race. [PAWN_pronoun] was marked by an Ancient and left to live as a reward. [PAWN_nameDef] still carries the mark with [PAWN_objective].</description>
+    <description>[PAWN_nameDef] had an encounter with the illusive Hunters. Fortunately for [PAWN_possessive], [PAWN_pronoun] survived and in the process really impressed the Hunter race. [PAWN_pronoun] was marked by an Ancient and left to live as a reward. [PAWN_nameDef] still carries the mark with [PAWN_objective].</description>
 	<bodyTypeMale>Male</bodyTypeMale>
     <bodyTypeFemale>Female</bodyTypeFemale>
 	<slot>Adulthood</slot>
@@ -180,9 +180,6 @@
       </li>
       
     </skillGains>
-	<forcedHediffs>
-		<li>HMS_Hediff_BloodedMHuman</li>
-    </forcedHediffs>
     <spawnCategories>
       <li>RRY_USCM_Backstories</li>
       

@@ -69,20 +69,6 @@
   </HediffDef>
   
   <HediffDef>
-    <defName>RRY_Hediff_Cloaked</defName>
-    <hediffClass>RRYautja.Hediff_Cloak</hediffClass>
-    <initialSeverity>1</initialSeverity>
-    <label>Stealth</label>
-    <description>Stealth</description>
-    <stages>
-      <li>
-        <label>hidden</label>
-        <becomeVisible>false</becomeVisible>
-      </li>
-    </stages>
-  </HediffDef>
-  
-  <HediffDef>
     <defName>RRY_Hediff_Xenomorph_Hidden</defName>
     <hediffClass>RRYautja.Hediff_Hidden_Xeno</hediffClass>
     <initialSeverity>1</initialSeverity>
@@ -90,20 +76,6 @@
     <description>hidden</description>
     <stages>
       <li>
-        <becomeVisible>false</becomeVisible>
-      </li>
-    </stages>
-  </HediffDef>
-  
-  <HediffDef>
-    <defName>RRY_Hediff_BouncedProjectile</defName>
-    <hediffClass>RRYautja.Hediff_Bouncer</hediffClass>
-    <initialSeverity>1</initialSeverity>
-    <label>Stealth</label>
-    <description>Stealth</description>
-    <stages>
-      <li>
-        <label>hidden</label>
         <becomeVisible>false</becomeVisible>
       </li>
     </stages>

@@ -2,28 +2,6 @@
 
 <Defs>
   <FleshTypeDef>
-    <defName>RRY_YautjaFlesh</defName>
-    <ateDirect>AteHumanlikeMeatDirect</ateDirect>
-    <ateAsIngredient>AteHumanlikeMeatAsIngredient</ateAsIngredient>
-    <corpseCategory>RRY_Corpses_Yautja</corpseCategory>
-	<!-- RGB in the photoshop is (R=196  G= 192  B=124) -->
-    <wounds>
-      <li>
-        <texture>Things/Pawn/Wounds/WoundA</texture>
-        <color>0.0,0.45,0.0</color>
-      </li>
-      <li>
-        <texture>Things/Pawn/Wounds/WoundB</texture>
-        <color>0.0,0.45,0.0</color>
-      </li>
-      <li>
-        <texture>Things/Pawn/Wounds/WoundC</texture>
-        <color>0.0,0.45,0.0</color>
-      </li>
-    </wounds>
-  </FleshTypeDef>
-  
-  <FleshTypeDef>
     <defName>RRY_Xenomorph</defName>
     <ateDirect>AteInsectMeatDirect</ateDirect>
     <ateAsIngredient>AteInsectMeatAsIngredient</ateAsIngredient>

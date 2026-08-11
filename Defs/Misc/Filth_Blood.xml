@@ -1,24 +1,6 @@
 <?xml version="1.0" encoding="utf-8" ?>
 <Defs>
 
-  <ThingDef ParentName="BaseFilth">
-    <defName>RRY_FilthBloodYautja</defName>
-    <label>blood</label>
-    <statBases>
-      <Beauty>-14</Beauty>
-      <Cleanliness>-10</Cleanliness>
-    </statBases>
-    <graphicData>
-      <texPath>Things/Filth/Spatter</texPath>
-      <color>(0, 200, 0, 180)</color>
-    </graphicData>
-    <filth>
-      <rainWashes>true</rainWashes>
-      <cleaningWorkToReduceThickness>90</cleaningWorkToReduceThickness>
-      <canFilthAttach>true</canFilthAttach>
-    </filth>
-  </ThingDef>  
-   
   <ThingDef Class="RRYautja.Filth_AddAcidDamageDef" ParentName="BaseFilth">
     <defName>RRY_FilthBloodXenomorph_Active</defName>
     <label>acidic blood</label>

@@ -1,5 +1,4 @@
-﻿using HunterMarkingSystem;
-using RimWorld;
+﻿using RimWorld;
 using System;
 using System.Collections.Generic;
 using UnityEngine;
@@ -37,34 +36,9 @@ namespace RRYautja.ExtensionMethods
             return m.GetComponent<MapComponent_GooGrid>();
         }
 
-        public static bool isYautja(this Pawn p)
-        {
-            return p.def == YautjaDefOf.RRY_Alien_Yautja;
-        }
-
-        public static bool isUnblooded(this Pawn p)
-        {
-            return p.health.hediffSet.hediffs.Any(x => x.def.defName.Contains("RRY_Hediff_Unblooded"));
-        }
-
-        public static bool isBlooded(this Pawn p)
-        {
-            return p.health.hediffSet.hediffs.Any(x => x.def.defName.Contains("RRY_Hediff_Blooded"));
-        }
-
-        public static bool isBloodUnmarked(this Pawn p)
-        {
-            return p.health.hediffSet.hediffs.Any(x => x.def.defName.Contains("RRY_Hediff_BloodedUM"));
-        }
-
-        public static bool isBloodMarked(this Pawn p)
-        {
-            return p.health.hediffSet.hediffs.Any(x => x.def.defName.Contains("RRY_Hediff_BloodedM"));
-        }
-
         public static bool switchLord (this Pawn p, Lord L)
         {
-        //    Log.Message(string.Format("trying to switch {0} to {1}", p.LabelShortCap, L));
+         //    Log.Message(string.Format("trying to switch {0} to {1}", p.LabelShortCap, L));
             if (p.GetLord() != null && p.GetLord() is Lord l)
             {
             //    Log.Message(string.Format("{0} currently belongs to {1}", p.LabelShortCap, l));
@@ -686,10 +660,9 @@ namespace RRYautja.ExtensionMethods
             {
                 return null;
             }
-            bool human = p.def.defName.Contains("Human") || HMSUtility.GetMark(p.kindDef) == YautjaDefOf.HMS_Hediff_BloodedMHuman;
-            bool yautja = p.def.defName.Contains("Yautja");
-            bool thrumbo = p.def.defName.Contains("Human") || HMSUtility.GetMark(p.kindDef) == YautjaDefOf.HMS_Hediff_BloodedMThrumbo;
-            bool hound = HMSUtility.GetMark(p.kindDef) == YautjaDefOf.HMS_Hediff_BloodedMHound;
+            bool human = p.def.defName.Contains("Human");
+            bool thrumbo = p.def.defName.Contains("Thrumbo");
+            bool hound = p.def.defName.Contains("Hound") || p.def.defName.Contains("hound") || p.def.defName.Contains("Dog") || p.def.defName.Contains("dog") || p.def.defName.Contains("Wolf") || p.def.defName.Contains("wolf") || p.def.defName.Contains("Warg") || p.def.defName.Contains("warg");
 
             bool humanlike = p.RaceProps.Humanlike;
 
@@ -735,32 +708,25 @@ namespace RRYautja.ExtensionMethods
                 }
                 else
                 {
-                    if (yautja)
+                    if (royaleEmbryo)
                     {
-                        kindDef = XenomorphDefOf.RRY_Xenomorph_Predalien;
+                        kindDef = XenomorphDefOf.RRY_Xenomorph_Queen;
                     }
                     else
                     {
-                        if (royaleEmbryo)
+                        if (large)
                         {
-                            kindDef = XenomorphDefOf.RRY_Xenomorph_Queen;
+                            kindDef = XenomorphDefOf.RRY_Xenomorph_Warrior;
                         }
                         else
                         {
-                            if (large)
+                            if (small)
                             {
-                                kindDef = XenomorphDefOf.RRY_Xenomorph_Warrior;
+                                kindDef = XenomorphDefOf.RRY_Xenomorph_Drone;
                             }
                             else
                             {
-                                if (small)
-                                {
-                                    kindDef = XenomorphDefOf.RRY_Xenomorph_Drone;
-                                }
-                                else
-                                {
-                                    kindDef = p.kindDef.RaceProps.predator ? XenomorphDefOf.RRY_Xenomorph_Warrior : XenomorphDefOf.RRY_Xenomorph_Drone;
-                                }
+                                kindDef = p.kindDef.RaceProps.predator ? XenomorphDefOf.RRY_Xenomorph_Warrior : XenomorphDefOf.RRY_Xenomorph_Drone;
                             }
                         }
                     }
@@ -814,10 +780,9 @@ namespace RRYautja.ExtensionMethods
             {
                 return null;
             }
-            bool human = p.race.defName.Contains("Human") || HMSUtility.GetMark(p) == YautjaDefOf.HMS_Hediff_BloodedMHuman;
-            bool yautja = p.race.defName.Contains("Yautja");
-            bool thrumbo = p.race.defName.Contains("Human") || HMSUtility.GetMark(p) == YautjaDefOf.HMS_Hediff_BloodedMThrumbo;
-            bool hound = HMSUtility.GetMark(p).defName.Contains("BloodedMHound");
+            bool human = p.race.defName.Contains("Human");
+            bool thrumbo = p.race.defName.Contains("Thrumbo");
+            bool hound = p.race.defName.Contains("Hound") || p.race.defName.Contains("hound") || p.race.defName.Contains("Dog") || p.race.defName.Contains("dog") || p.race.defName.Contains("Wolf") || p.race.defName.Contains("wolf") || p.race.defName.Contains("Warg") || p.race.defName.Contains("warg");
 
             bool humanlike = p.RaceProps.Humanlike;
 
@@ -846,26 +811,19 @@ namespace RRYautja.ExtensionMethods
                 }
                 else
                 {
-                    if (yautja)
+                    if (large)
                     {
-                        kindDef = XenomorphDefOf.RRY_Xenomorph_Predalien;
+                        kindDef = XenomorphDefOf.RRY_Xenomorph_Warrior;
                     }
                     else
                     {
-                        if (large)
+                        if (small)
                         {
-                            kindDef = XenomorphDefOf.RRY_Xenomorph_Warrior;
+                            kindDef = XenomorphDefOf.RRY_Xenomorph_Drone;
                         }
                         else
                         {
-                            if (small)
-                            {
-                                kindDef = XenomorphDefOf.RRY_Xenomorph_Drone;
-                            }
-                            else
-                            {
-                                kindDef = p.RaceProps.predator ? XenomorphDefOf.RRY_Xenomorph_Warrior : XenomorphDefOf.RRY_Xenomorph_Drone;
-                            }
+                            kindDef = p.RaceProps.predator ? XenomorphDefOf.RRY_Xenomorph_Warrior : XenomorphDefOf.RRY_Xenomorph_Drone;
                         }
                     }
                 }
@@ -913,7 +871,6 @@ namespace RRYautja.ExtensionMethods
                 return null;
             }
             bool human = p.defName.Contains("Human");
-            bool yautja = p.defName.Contains("Alien_Yautja");
             bool thrumbo = p.defName.Contains("Thrumbo");
             bool hound = p.defName.Contains("Hound") || p.defName.Contains("hound") || p.defName.Contains("Dog") || p.defName.Contains("dog") || p.defName.Contains("Wolf") || p.defName.Contains("wolf") || p.defName.Contains("Warg") || p.defName.Contains("warg") || p.description.Contains("Hound") || p.description.Contains("hound") || p.description.Contains("Dog") || p.description.Contains("dog") || p.description.Contains("Wolf") || p.description.Contains("wolf") || p.description.Contains("Warg") || p.description.Contains("warg");
 

@@ -54,12 +54,6 @@
 	
 	<!-- ========================= Yautja - Corpse Catagories ========================== -->
     <ThingCategoryDef>
-    <defName>RRY_Corpses_Yautja</defName>
-    <label>yautja corpses</label>
-      <parent>CorpsesHumanlike</parent>
-    </ThingCategoryDef>
-
-    <ThingCategoryDef>
     <defName>RRY_Corpses_Xenomorph</defName>
     <label>Xenomorph corpses</label>
       <parent>Corpses</parent>

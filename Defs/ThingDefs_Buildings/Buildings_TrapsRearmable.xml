@@ -55,9 +55,6 @@
     <placeWorkers>
       <li>PlaceWorker_NeverAdjacentTrap</li>
     </placeWorkers>
-    <researchPrerequisites>
-      <li>RRY_Yautja_Traps</li>
-    </researchPrerequisites>
   </ThingDef>
 
   <DesignationDef>

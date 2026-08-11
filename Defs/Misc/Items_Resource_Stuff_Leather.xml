@@ -1,50 +1,6 @@
 ﻿<?xml version="1.0" encoding="utf-8" ?>
 <Defs>
 
-  <ThingDef ParentName="LeatherBase">
-    <defName>RRY_Leather_Yautja</defName>
-    <label>Yautja leather</label>
-    <description>Tanned, dried, scraped Yautja skin. While quite tough, it is a poor insulator.</description>
-    <graphicData>
-      <color>(114,128,79)</color>
-    </graphicData>
-    <statBases>
-      <MarketValue>4.2</MarketValue>
-      <StuffPower_Armor_Sharp>1.12</StuffPower_Armor_Sharp>
-      <StuffPower_Insulation_Cold>10</StuffPower_Insulation_Cold>
-      <StuffPower_Insulation_Heat>12</StuffPower_Insulation_Heat>
-    </statBases>
-    <stuffProps>
-      <color>(114,128,79)</color>
-      <commonality>0.025</commonality>
-      <statFactors>
-        <MaxHitPoints>1.5</MaxHitPoints>
-      </statFactors>
-    </stuffProps>
-  </ThingDef>
-  
-    <ThingDef ParentName="LeatherBase">
-    <defName>RRY_Leather_Rynath</defName>
-    <label>Rynath leather</label>
-    <description>Tanned, dried, scraped rhinocerous skin. It is exceptionally durable in combat, but provides little protection from weather.</description>
-    <graphicData>
-      <color>(150,150,150)</color>
-    </graphicData>
-    <statBases>
-      <MarketValue>2.2</MarketValue>
-      <StuffPower_Armor_Sharp>1.29</StuffPower_Armor_Sharp>
-      <StuffPower_Insulation_Cold>14</StuffPower_Insulation_Cold>
-      <StuffPower_Insulation_Heat>14</StuffPower_Insulation_Heat>
-    </statBases>
-    <stuffProps>
-      <color>(150,150,150)</color>
-      <commonality>0.025</commonality>
-      <statFactors>
-        <MaxHitPoints>1.5</MaxHitPoints>
-      </statFactors>
-    </stuffProps>
-  </ThingDef>
-
     <ThingDef ParentName="LeatherBase">
     <defName>RRY_Leather_Xenomorph</defName>
     <label>Xenomorph leather</label>
