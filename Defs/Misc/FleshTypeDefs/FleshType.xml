@@ -1,6 +1,20 @@
 ﻿<?xml version="1.0" encoding="utf-8" ?>
 
 <Defs>
+  <FleshTypeDef>
+    <defName>RRY_Xenomorph</defName>
+    <ateDirect>AteInsectMeatDirect</ateDirect>
+    <ateAsIngredient>AteInsectMeatAsIngredient</ateAsIngredient>
+    <corpseCategory>RRY_Corpses_Xenomorph</corpseCategory>
+  </FleshTypeDef>
+  
+  <FleshTypeDef>
+    <defName>RRY_Neomorph</defName>
+    <ateDirect>AteInsectMeatDirect</ateDirect>
+    <ateAsIngredient>AteInsectMeatAsIngredient</ateAsIngredient>
+    <corpseCategory>RRY_Corpses_Xenomorph</corpseCategory>
+  </FleshTypeDef>
+  
   <!-- Synth flesh type removed -->
   
 </Defs>

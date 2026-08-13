@@ -1,8 +1,46 @@
 <?xml version="1.0" encoding="utf-8" ?>
 <Defs>
 
-  <!-- Synth filth removed -->    
-  
+  <ThingDef Class="RRYautja.Filth_AddAcidDamageDef" ParentName="BaseFilth">
+    <defName>RRY_FilthBloodXenomorph_Active</defName>
+    <label>acidic blood</label>
+    <statBases>
+      <Beauty>-14</Beauty>
+      <Cleanliness>-10</Cleanliness>
+    </statBases>
+    <graphicData>
+      <texPath>Things/Filth/Spatter</texPath>
+      <color>(250, 225, 0, 180)</color>
+    </graphicData>
+    <tickerType>Normal</tickerType>
+    <thingClass>RRYautja.Filth_AddAcidDamage</thingClass>
+    <filth>
+      <rainWashes>true</rainWashes>
+      <cleaningWorkToReduceThickness>90</cleaningWorkToReduceThickness>
+      <canFilthAttach>true</canFilthAttach>
+    </filth>
+  </ThingDef>
+
+  <ThingDef ParentName="BaseFilth">
+    <defName>RRY_FilthBloodXenomorph</defName>
+    <label>blood</label>
+    <statBases>
+      <Beauty>-14</Beauty>
+      <Cleanliness>-10</Cleanliness>
+    </statBases>
+    <graphicData>
+      <texPath>Things/Filth/Spatter</texPath>
+      <color>(250, 225, 0, 180)</color>
+    </graphicData>
+    <filth>
+      <rainWashes>true</rainWashes>
+      <cleaningWorkToReduceThickness>90</cleaningWorkToReduceThickness>
+      <canFilthAttach>true</canFilthAttach>
+    </filth>
+  </ThingDef>
+
+  <!-- Synth blood removed -->
+
   <ThingDef ParentName="BaseFilth">
     <defName>RRY_FilthBloodNeomorph</defName>
     <label>blood</label>
@@ -19,6 +57,6 @@
       <cleaningWorkToReduceThickness>90</cleaningWorkToReduceThickness>
       <canFilthAttach>true</canFilthAttach>
     </filth>
-  </ThingDef>  
-   
+  </ThingDef>
+
 </Defs>

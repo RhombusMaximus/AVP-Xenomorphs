@@ -1,29 +1,7 @@
 ﻿<?xml version="1.0" encoding="utf-8" ?>
 <Defs>
 
-  <PawnsArrivalModeDef>
-    <defName>RRY_DropThroughRoofNearPower</defName>
-    <workerClass>PawnsArrivalModeWorker_DropThroughRoofNearPower</workerClass>
-    <selectionWeightCurve>
-      <points>
-        <li>(0, 0)</li>
-      </points>
-    </selectionWeightCurve>
-    <textEnemy>A group of {0} from {1} have crashed through the roof.</textEnemy>
-    <textFriendly>A group of friendly {0} from {1} have crashed through the roof.</textFriendly>
-  </PawnsArrivalModeDef>
-
-  <PawnsArrivalModeDef>
-    <defName>RRY_RandomDropThroughRoof</defName>
-    <workerClass>PawnsArrivalModeWorker_RandomDropThroughRoof</workerClass>
-    <selectionWeightCurve>
-      <points>
-        <li>(0, 0)</li>
-      </points>
-    </selectionWeightCurve>
-    <textEnemy>A group of {0} from {1} have crashed through the roof.</textEnemy>
-    <textFriendly>A group of friendly {0} from {1} have crashed through the roof.</textFriendly>
-  </PawnsArrivalModeDef>
+  <!-- DropThroughRoof arrival modes removed (USCM dropship content) -->
 
   <PawnsArrivalModeDef>
     <defName>RRY_RandomEnterFromTunnel</defName>
