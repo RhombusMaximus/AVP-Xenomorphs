@@ -66,37 +66,7 @@
 		</recipeUsers>
 		</recipeMaker>
 		<comps>
-			<li Class="PawnShields.CompProperties_Shield">
-				<!-- Rendering systems -->
-				<wieldedGraphic>
-					<graphicClass>Graphic_Multi</graphicClass>
-					<texPath>Things/Shields/Xenomorph/Xenomorph_Head_Shield/Xenomorph_Drone</texPath>
-					<drawSize>(1.1, 1.1)</drawSize>
-				</wieldedGraphic>
-				<renderProperties>
-					<!-- Same as defaults in C# -->
-					<northOffset>(-0.3, -0.017, -0.3)</northOffset>
-					<southOffset>(0.3, 0.033, -0.3)</southOffset>
-					<westOffset>(-0.0, 0.053, -0.0)</westOffset>
-					<eastOffset>(0.0, -0.017, -0.0)</eastOffset>
-					<flipRotation>true</flipRotation>
-					<renderWhenPeaceful>false</renderWhenPeaceful>
-				</renderProperties>
-				<!-- Blocking system (Optional???) -->
-				<canBlockRanged>true</canBlockRanged>
-				<canBlockMelee>true</canBlockMelee>
-				<meleeBlockChanceFactor>8.0</meleeBlockChanceFactor>				<!-- Default: 1.0 == 100% -->
-				<rangedBlockChanceFactor>0.5</rangedBlockChanceFactor>
-				<!-- Shield damage system (Optional) -->
-				<shieldTakeDamage>true</shieldTakeDamage>
-				<shieldTakeDamageFactor>1.2</shieldTakeDamageFactor>
-				<!-- Auto discard system (Optional) -->
-				<canBeAutoDiscarded>true</canBeAutoDiscarded>
-				<healthAutoDiscardThreshold>0.2</healthAutoDiscardThreshold>
-				<!-- Shield fatigue system (Optional) -->
-				<useFatigue>true</useFatigue>
-				<damageToFatigueFactor>0.005</damageToFatigueFactor>
-			</li>
+			<!-- PawnShields.CompProperties_Shield removed (PawnShields mod deleted) -->
 		</comps>
 	</ThingDef>	
 	
