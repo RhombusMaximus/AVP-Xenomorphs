@@ -1,4 +1,41 @@
 ﻿<?xml version="1.0" encoding="utf-8" ?>
 <Defs>
-  <!-- Synth hediff giver sets removed (Synth content removed) -->
+
+  <HediffGiverSetDef>
+    <defName>RRY_Xenomorph_Infection_Humanlike</defName>
+    <hediffGivers>
+      <li Class="RRYautja.HediffGiver_StartWithXenomorphHediff">
+        <hediff>RRY_HiddenXenomorphImpregnation</hediff>
+        <partsToAffect>
+          <li>Torso</li>
+        </partsToAffect>
+        <chance>5</chance>
+      </li>
+      <li Class="RRYautja.HediffGiver_StartWithXenomorphHediff">
+        <hediff>RRY_HiddenNeomorphImpregnation</hediff>
+        <partsToAffect>
+          <li>Torso</li>
+        </partsToAffect>
+        <chance>5</chance>
+      </li>
+    </hediffGivers>
+  </HediffGiverSetDef>
+
+  <HediffGiverSetDef>
+    <defName>RRY_Xenomorph_Standard</defName>
+    <hediffGivers>
+      <li Class="HediffGiver_Bleeding">
+        <hediff>BloodLoss</hediff>
+      </li>
+      <li Class="HediffGiver_Hypothermia">
+        <hediff>HypothermicSlowdown</hediff>
+      </li>
+      <li Class="HediffGiver_Heat">
+        <hediff>Heatstroke</hediff>
+      </li>
+    </hediffGivers>
+  </HediffGiverSetDef>
+
+  <!-- Synth hediff giver sets removed -->
+
 </Defs>

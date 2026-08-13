@@ -1,6 +1,31 @@
 ﻿<?xml version="1.0" encoding="utf-8" ?>
 <Defs>
 
-    <!-- Synthetic skin removed (Synth content) -->
-  
+  <ThingDef ParentName="LeatherBase">
+    <defName>RRY_Leather_Xenomorph</defName>
+    <label>Xenomorph leather</label>
+    <description>Tanned, dried, scraped Xenomorph skin. It is exceptionally durable in combat, and provides ample protection from weather.</description>
+    <graphicData>
+      <color>(53,68,75)</color>
+    </graphicData>
+    <statBases>
+      <RRY_AcidResistance>1</RRY_AcidResistance>
+      <MarketValue>3.2</MarketValue>
+      <RRY_StuffPower_Armor_Acid>2</RRY_StuffPower_Armor_Acid>
+      <StuffPower_Armor_Sharp>1.29</StuffPower_Armor_Sharp>
+      <StuffPower_Insulation_Cold>24</StuffPower_Insulation_Cold>
+      <StuffPower_Insulation_Heat>24</StuffPower_Insulation_Heat>
+    </statBases>
+    <stuffProps>
+      <color>(53,68,75)</color>
+      <commonality>0.025</commonality>
+      <statFactors>
+        <RRY_AcidResistance>1</RRY_AcidResistance>
+        <MaxHitPoints>1.5</MaxHitPoints>
+      </statFactors>
+    </stuffProps>
+  </ThingDef>
+
+  <!-- Synthetic skin removed -->
+
 </Defs>
