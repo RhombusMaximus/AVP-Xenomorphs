@@ -148,7 +148,7 @@
         <thingDefCountRange>3~4</thingDefCountRange>
         <countRange>1~2</countRange>
       </li>
-      <li Class="StockGenerator_Art">
+      <li Class="StockGenerator_MarketValue">
         <countRange>5~10</countRange>
       </li>
       <li Class="StockGenerator_Tag">

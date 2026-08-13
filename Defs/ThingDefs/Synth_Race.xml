@@ -250,10 +250,7 @@
         </generalSettings>
         <graphicPaths>
         </graphicPaths>
-        <!-- hairSettings removed -->
-        <!--
-        <!-- hairSettings removed -->
-        -->
+        <!-- hairSettings removed (HAR 1.4+ compatibility) -->
         <thoughtSettings>
 			<cannotReceiveThoughts>
 					<li>NeedFood</li>

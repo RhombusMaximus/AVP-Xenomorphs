@@ -4,58 +4,18 @@
 		<defName>Namer_RRY_USCM_Operations</defName>
 		<rulePack>
 			<rulesStrings>
-				<li>name->[USCMword][USCMword]</li>
+				<li>name->Operation [USCMletter]</li>
+				<li>USCMletter->[Alpha]</li>
+				<li>USCMletter->[Bravo]</li>
+				<li>USCMletter->[Charlie]</li>
+				<li>USCMletter->[Delta]</li>
+				<li>USCMletter->[Echo]</li>
+				<li>USCMletter->[Foxtrot]</li>
+				<li>USCMletter->[Overwatch]</li>
+				<li>USCMletter->[Hammer]</li>
+				<li>USCMletter->[Sentinel]</li>
+				<li>USCMletter->[Vanguard]</li>
 			</rulesStrings>
-			<rulesRaw>
-				<li Class="Rule_String">
-					<keyword>USCMword</keyword>
-					<string>Operation</string>
-				</li>
-				<li Class="Rule_String">
-					<keyword>USCMword</keyword>
-					<string>Squad</string>
-				</li>
-				<li Class="Rule_String">
-					<keyword>USCMword</keyword>
-					<string>Bravo</string>
-				</li>
-				<li Class="Rule_String">
-					<keyword>USCMword</keyword>
-					<string>Alpha</string>
-				</li>
-				<li Class="Rule_String">
-					<keyword>USCMword</keyword>
-					<string>Delta</string>
-				</li>
-				<li Class="Rule_String">
-					<keyword>USCMword</keyword>
-					<string>Charlie</string>
-				</li>
-				<li Class="Rule_String">
-					<keyword>USCMword</keyword>
-					<string>Echo</string>
-				</li>
-				<li Class="Rule_String">
-					<keyword>USCMword</keyword>
-					<string>Foxtrot</string>
-				</li>
-				<li Class="Rule_String">
-					<keyword>USCMword</keyword>
-					<string>Overwatch</string>
-				</li>
-				<li Class="Rule_String">
-					<keyword>USCMword</keyword>
-					<string>Hammer</string>
-				</li>
-				<li Class="Rule_String">
-					<keyword>USCMword</keyword>
-					<string>Sentinel</string>
-				</li>
-				<li Class="Rule_String">
-					<keyword>USCMword</keyword>
-					<string>Vanguard</string>
-				</li>
-			</rulesRaw>
 		</rulePack>
 	</RulePackDef>
 
@@ -64,37 +24,14 @@
 		<rulePack>
 			<rulesStrings>
 				<li>name->[Squadword]</li>
+				<li>Squadword->Outpost</li>
+				<li>Squadword->Station</li>
+				<li>Squadword->Base</li>
+				<li>Squadword->Garrison</li>
+				<li>Squadword->Bunker</li>
+				<li>Squadword->Foothold</li>
+				<li>Squadword->Camp</li>
 			</rulesStrings>
-			<rulesRaw>
-				<li Class="Rule_String">
-					<keyword>Squadword</keyword>
-					<string>Outpost</string>
-				</li>
-				<li Class="Rule_String">
-					<keyword>Squadword</keyword>
-					<string>Station</string>
-				</li>
-				<li Class="Rule_String">
-					<keyword>Squadword</keyword>
-					<string>Base</string>
-				</li>
-				<li Class="Rule_String">
-					<keyword>Squadword</keyword>
-					<string>Garrison</string>
-				</li>
-				<li Class="Rule_String">
-					<keyword>Squadword</keyword>
-					<string>Bunker</string>
-				</li>
-				<li Class="Rule_String">
-					<keyword>Squadword</keyword>
-					<string>Foothold</string>
-				</li>
-				<li Class="Rule_String">
-					<keyword>Squadword</keyword>
-					<string>Camp</string>
-				</li>
-			</rulesRaw>
 		</rulePack>
 	</RulePackDef>
 </Defs>

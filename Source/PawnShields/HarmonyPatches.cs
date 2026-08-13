@@ -50,6 +50,8 @@ namespace PawnShields
         {
             //HarmonyInstance.DEBUG = true;
             Harmony harmony = new Harmony("chjees.shields");
+            try
+            {
 
             //ThingDef
 //            {
@@ -175,6 +177,11 @@ namespace PawnShields
                     patchMethod,
                     null,
                     new HarmonyMethod(patchCustomMethod));
+            }
+            }
+            catch (System.Exception e)
+            {
+                Verse.Log.Error("PawnShields.HarmonyPatches: Failed to initialize: " + e.Message);
             }
         }
 //
