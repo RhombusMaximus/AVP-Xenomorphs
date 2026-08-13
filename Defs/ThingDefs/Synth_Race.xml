@@ -250,9 +250,9 @@
         </generalSettings>
         <graphicPaths>
         </graphicPaths>
-        <!-- hairSettings removed in HAR 1.4+ - hasHair and hairTags are no longer under AlienSettings -->
+        <!-- hairSettings removed -->
         <!--
-        <!-- hairSettings removed (HAR 1.4+ compatibility) -->
+        <!-- hairSettings removed -->
         -->
         <thoughtSettings>
 			<cannotReceiveThoughts>

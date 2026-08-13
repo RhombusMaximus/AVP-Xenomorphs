@@ -13,7 +13,7 @@
     <hediff>Burn</hediff>
     <armorCategory>Heat</armorCategory>
     <explosionHeatEnergyPerCell>15</explosionHeatEnergyPerCell>
-    <!-- explosionCellMote removed (Mote_BlastFlame renamed in 1.6) -->
+    <!-- explosionCellMote removed -->
     <explosionColorCenter>(1, 0.7, 0.7)</explosionColorCenter>
     <explosionColorEdge>(1, 1, 0.7)</explosionColorEdge>
     <soundExplosion>Explosion_Flame</soundExplosion>
@@ -35,7 +35,7 @@
     <defaultDamage>10</defaultDamage>
     <defaultArmorPenetration>0</defaultArmorPenetration>
     <explosionHeatEnergyPerCell>15</explosionHeatEnergyPerCell>
-    <!-- explosionCellMote removed (Mote_BlastFlame renamed in 1.6) -->
+    <!-- explosionCellMote removed -->
     <explosionColorCenter>(1, 0.7, 0.7)</explosionColorCenter>
     <explosionColorEdge>(1, 1, 0.7)</explosionColorEdge>
     <soundExplosion>Explosion_Flame</soundExplosion>
@@ -59,7 +59,7 @@
         <hediff>RRY_EmergingChestburster</hediff>
 	<deathMessage>{0} has been stunned to death.</deathMessage>
 	<defaultDamage>0</defaultDamage>
-	<!-- explosionCellMote removed (Mote_BlastDry renamed in 1.6) -->
+	<!-- explosionCellMote removed -->
     <explosionColorCenter>(1, 0.5, 0.3)</explosionColorCenter>
     <explosionColorEdge>(0.6, 0.5, 0.4)</explosionColorEdge>
 	<soundExplosion>Explosion_Stun</soundExplosion>

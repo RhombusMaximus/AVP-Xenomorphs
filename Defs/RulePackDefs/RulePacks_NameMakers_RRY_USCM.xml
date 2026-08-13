@@ -9,51 +9,51 @@
 			<rulesRaw>
 				<li Class="Rule_String">
 					<keyword>USCMword</keyword>
-					<value>Operation</value>
+					<string>Operation</string>
 				</li>
 				<li Class="Rule_String">
 					<keyword>USCMword</keyword>
-					<value>Squad</value>
+					<string>Squad</string>
 				</li>
 				<li Class="Rule_String">
 					<keyword>USCMword</keyword>
-					<value>Bravo</value>
+					<string>Bravo</string>
 				</li>
 				<li Class="Rule_String">
 					<keyword>USCMword</keyword>
-					<value>Alpha</value>
+					<string>Alpha</string>
 				</li>
 				<li Class="Rule_String">
 					<keyword>USCMword</keyword>
-					<value>Delta</value>
+					<string>Delta</string>
 				</li>
 				<li Class="Rule_String">
 					<keyword>USCMword</keyword>
-					<value>Charlie</value>
+					<string>Charlie</string>
 				</li>
 				<li Class="Rule_String">
 					<keyword>USCMword</keyword>
-					<value>Echo</value>
+					<string>Echo</string>
 				</li>
 				<li Class="Rule_String">
 					<keyword>USCMword</keyword>
-					<value>Foxtrot</value>
+					<string>Foxtrot</string>
 				</li>
 				<li Class="Rule_String">
 					<keyword>USCMword</keyword>
-					<value>Overwatch</value>
+					<string>Overwatch</string>
 				</li>
 				<li Class="Rule_String">
 					<keyword>USCMword</keyword>
-					<value>Hammer</value>
+					<string>Hammer</string>
 				</li>
 				<li Class="Rule_String">
 					<keyword>USCMword</keyword>
-					<value>Sentinel</value>
+					<string>Sentinel</string>
 				</li>
 				<li Class="Rule_String">
 					<keyword>USCMword</keyword>
-					<value>Vanguard</value>
+					<string>Vanguard</string>
 				</li>
 			</rulesRaw>
 		</rulePack>
@@ -68,31 +68,31 @@
 			<rulesRaw>
 				<li Class="Rule_String">
 					<keyword>Squadword</keyword>
-					<value>Outpost</value>
+					<string>Outpost</string>
 				</li>
 				<li Class="Rule_String">
 					<keyword>Squadword</keyword>
-					<value>Station</value>
+					<string>Station</string>
 				</li>
 				<li Class="Rule_String">
 					<keyword>Squadword</keyword>
-					<value>Base</value>
+					<string>Base</string>
 				</li>
 				<li Class="Rule_String">
 					<keyword>Squadword</keyword>
-					<value>Garrison</value>
+					<string>Garrison</string>
 				</li>
 				<li Class="Rule_String">
 					<keyword>Squadword</keyword>
-					<value>Bunker</value>
+					<string>Bunker</string>
 				</li>
 				<li Class="Rule_String">
 					<keyword>Squadword</keyword>
-					<value>Foothold</value>
+					<string>Foothold</string>
 				</li>
 				<li Class="Rule_String">
 					<keyword>Squadword</keyword>
-					<value>Camp</value>
+					<string>Camp</string>
 				</li>
 			</rulesRaw>
 		</rulePack>

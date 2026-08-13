@@ -40,10 +40,7 @@
 			<RangedWeapon_Cooldown>3.1</RangedWeapon_Cooldown>
 		</statBases>
 		<comps>
-			<li Class="AdeptusMechanicus.CompProperties_OversizedWeapon">
-				<southOffset>0.125,0.1,-0.15</southOffset>
-				<eastOffset>0.0,0.1,-0.0</eastOffset>
-			</li> 
+			<!-- CompProperties_OversizedWeapon removed (DLL incompatible with 1.6) --> 
 			<li Class="RRYautja.CompProperties_SmartgunSystem"> 
 			<WarmUpReductionQualityAffected>false</WarmUpReductionQualityAffected>
 			<TargeterDef>RRY_Equipment_HMS</TargeterDef>

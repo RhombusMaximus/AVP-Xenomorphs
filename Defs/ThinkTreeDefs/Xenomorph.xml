@@ -6,8 +6,8 @@
 		<thinkRoot Class="ThinkNode_Priority">
       <subNodes>
 		<!-- Has no lord, Brood -->
-		<li Class="ThinkNode_ConditionalHasLord">
-		  <invert>true</invert>
+		<li Class="ThinkNode_ConditionalNoLord">
+		  
 		  <subNodes>
 			<!-- 
 			 <li Class="JobGiver_XenosKidnap" /> 
@@ -65,7 +65,7 @@
 		
         <!-- Wild animals dig out if no path to map edge and starving -->
         <li Class="ThinkNode_ConditionalHasFaction">
-          <invert>true</invert>
+          
           <subNodes>
             <li Class="ThinkNode_ConditionalStarving">
               <subNodes>
@@ -200,7 +200,7 @@
 
         <!-- Wild animals leave map in some conditions -->
         <li Class="ThinkNode_ConditionalHasFaction">
-          <invert>true</invert>
+          
           <subNodes>
             <li Class="ThinkNode_Subtree">
               <treeDef>LeaveIfWrongSeason</treeDef>
