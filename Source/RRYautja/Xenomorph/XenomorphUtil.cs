@@ -206,10 +206,8 @@ namespace RRYautja
                     str = NonBio;
                 }
 
-                if (UtilSynths.isAvPSynth(thingDef))
-                {
-                    str = NonBio;
-                }
+                // Synth check removed (USCM/Synth content removed)
+
                 FailReason = string.Format("{0}", str);
                 return false; 
             }
