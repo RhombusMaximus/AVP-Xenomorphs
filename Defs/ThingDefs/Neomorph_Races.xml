@@ -39,6 +39,7 @@
       <ImmunityGainSpeed>2.25</ImmunityGainSpeed>
       <PsychicSensitivity>0</PsychicSensitivity>
       <Flammability>0.5</Flammability>
+      <ToxicResistance>0</ToxicResistance>
       <ComfyTemperatureMin>-30</ComfyTemperatureMin>
       <ComfyTemperatureMax>150</ComfyTemperatureMax>
       <MeatAmount>15</MeatAmount>

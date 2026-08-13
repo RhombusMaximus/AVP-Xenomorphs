@@ -298,6 +298,7 @@
 		<MarketValue>5000</MarketValue>
 		<MoveSpeed>4.8</MoveSpeed>
 		<Flammability>0.8</Flammability>
+      <ToxicResistance>0</ToxicResistance>
 		
 		<!-- Don't forget to change temp back to -10 to 30 after you done testing -->
 		<ComfyTemperatureMin>-10</ComfyTemperatureMin>
