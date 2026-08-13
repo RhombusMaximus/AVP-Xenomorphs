@@ -36,14 +36,7 @@ namespace RRYautja
             Main._cachedVerbProperties = pawn_NativeVerbs.GetField("cachedVerbProperties", BindingFlags.Instance | BindingFlags.Static | BindingFlags.Public | BindingFlags.NonPublic | BindingFlags.GetField | BindingFlags.GetProperty | BindingFlags.SetProperty);
             Main._pawnPawnNativeVerbs = pawn_NativeVerbs.GetField("pawn", BindingFlags.Instance | BindingFlags.Static | BindingFlags.Public | BindingFlags.NonPublic | BindingFlags.GetField | BindingFlags.GetProperty | BindingFlags.SetProperty);
             //    HarmonyInstance.DEBUG = true;
-            foreach (ThingDef def in DefDatabase<ThingDef>.AllDefs.Where(x=> x.apparel!=null))
-            {
-                if (def.apparel.wornGraphicPath.NullOrEmpty())
-                {
-                    if (!AlienRace.RaceRestrictionSettings.apparelWhiteDict.ContainsKey(key: def))
-                        AlienRace.RaceRestrictionSettings.apparelWhiteDict.Add(key: def, value: new List<AlienRace.ThingDef_AlienRace>());
-                }
-            }
+            // HAR apparel whitelist code removed (HAR dependency removed)
 
             ThingDef thing = DefDatabase<ThingDef>.GetNamedSilentFail("O21_AntiInfestationThumper");
             if (thing != null)

@@ -29,11 +29,6 @@
   </ItemGroup>
 
   <ItemGroup>
-    <Reference Include="AlienRace">
-      <HintPath>..\..\Assemblies\AlienRace.dll</HintPath>
-      <Private>False</Private>
-    </Reference>
-    <Compile Include="..\AlienRaceStub\AlienRaceStub.cs" />
     <Reference Include="Thumper">
       <HintPath>..\..\Assemblies\Thumper.dll</HintPath>
       <Private>False</Private>

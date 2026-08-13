@@ -12,7 +12,6 @@ using RimWorld.Planet;
 using UnityEngine;
 using RRYautja.settings;
 using RRYautja.ExtensionMethods;
-using AlienRace;
 
 namespace RRYautja
 {
