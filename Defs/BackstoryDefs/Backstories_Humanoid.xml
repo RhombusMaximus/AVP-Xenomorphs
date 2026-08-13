@@ -4,14 +4,14 @@
 <!-- ================================ USCM - Childhood ================================ -->
 <!-- ================================ USCM - Colony Survivor ================================ -->
   
-  <AlienRace.BackstoryDef>
+  <AlienRace.AlienBackstoryDef>
     <defName>RRY_USCM_ColonySurvivor</defName>
     <title>Colony Survivor</title>
     <description>[PAWN_nameDef] was raised in an off-world colony. [PAWN_pronoun] lived with the bare minimum allowed in space. Had nothing [PAWN_pronoun] could really call [PAWN_possessive] own. Life was sordid and bleak. Then the USCM recruiter came and [PAWN_nameDef] felt like [PAWN_pronoun] had found a purpose.</description>
     <bodyTypeMale>Male</bodyTypeMale>
     <bodyTypeFemale>Female</bodyTypeFemale>
 	<slot>Childhood</slot>
-    <forcedTraits>
+    <forcedTraitsChance>
 		<li>
 			<defName>Ascetic</defName>
 			<chance>50</chance>
@@ -20,41 +20,41 @@
 			<defName>Undergrounder</defName>
 			<chance>35</chance>
 		</li>
-	</forcedTraits>	
+	</forcedTraitsChance>	
 	<skillGains>
       <li>
-        <defName>Melee</defName>
-        <amount>2</amount>
-      </li>
+				<key>Melee</key>
+				<value>2</value>
+			</li>
       <li>
-        <defName>Cooking</defName>
-        <amount>2</amount>
-      </li>
+				<key>Cooking</key>
+				<value>2</value>
+			</li>
      <li>
-        <defName>Crafting</defName>
-        <amount>3</amount>
-      </li>
+				<key>Crafting</key>
+				<value>3</value>
+			</li>
       <li>
-        <defName>Medicine</defName>
-        <amount>1</amount>
-      </li>
+				<key>Medicine</key>
+				<value>1</value>
+			</li>
       
     </skillGains>
 	<spawnCategories>
       <li>RRY_USCM_Backstories</li>
     </spawnCategories>
-  </AlienRace.BackstoryDef>
+  </AlienRace.AlienBackstoryDef>
   
   <!-- ================================ USCM - Service Or Jail Act ================================ -->
   
-  <AlienRace.BackstoryDef>
+  <AlienRace.AlienBackstoryDef>
     <defName>RRY_USCM_SOJA</defName>
     <title>USCM SOJA-E</title>
     <description>Growing up [PAWN_nameDef] was taught it's fight or survive on the mean streets of their home-city. [PAWN_pronoun] started young and found themselves surrounded by gang violence, drugs, and no hope for a better future. Eventually, [PAWN_nameDef] went to juvenile prison and at the age of 17 a recruiter showed up standing next to [PAWN_possessive] probation officer. Service-Or-Jail Act. A way out had shown its face. [PAWN_nameDef] agreed and was quickly shipped off to MEPS.</description>
     <bodyTypeMale>Male</bodyTypeMale>
     <bodyTypeFemale>Female</bodyTypeFemale>
 	<slot>Childhood</slot>
-    <forcedTraits>
+    <forcedTraitsChance>
 		<li>
 			<defName>Tough</defName>
 			<chance>50</chance>
@@ -83,38 +83,38 @@
 			<degree>2</degree>
 			<chance>10</chance>
 		</li>
-	</forcedTraits>	
+	</forcedTraitsChance>	
 	<skillGains>
 	<li>
-        <defName>Shooting</defName>
-        <amount>3</amount>
-      </li>
+				<key>Shooting</key>
+				<value>3</value>
+			</li>
       <li>
-        <defName>Melee</defName>
-        <amount>2</amount>
-      </li>
+				<key>Melee</key>
+				<value>2</value>
+			</li>
       <li>
-        <defName>Medicine</defName>
-        <amount>2</amount>
-      </li>
+				<key>Medicine</key>
+				<value>2</value>
+			</li>
       
     </skillGains>
 	<spawnCategories>
       <li>RRY_USCM_Backstories</li>
      
     </spawnCategories>
-  </AlienRace.BackstoryDef>
+  </AlienRace.AlienBackstoryDef>
   
   <!-- ================================ USCM - Adulthood ================================ -->
 <!-- ================================ USCM - Colonial Marine ================================ -->
- <AlienRace.BackstoryDef>
+ <AlienRace.AlienBackstoryDef>
     <defName>RRY_USCM_ColonialMarine</defName>
     <title>Colonial Marine</title>
     <description>[PAWN_nameDef] found purpose in the USCM. Went to Basic Training, found a new family. [PAWN_pronoun] even got matching tattoos with [PAWN_possessive] squadmates. [PAWN_nameDef] is now a proud member of the USCM Corps. and is ready to serve.</description>
 	<bodyTypeMale>Male</bodyTypeMale>
     <bodyTypeFemale>Female</bodyTypeFemale>
 	<slot>Adulthood</slot>
-    <forcedTraits>
+    <forcedTraitsChance>
 		<li>
 			<defName>Ascetic</defName>
 			<chance>50</chance>
@@ -123,26 +123,26 @@
 			<defName>Undergrounder</defName>
 			<chance>35</chance>
 		</li>
-	</forcedTraits>	
+	</forcedTraitsChance>	
 	
     
 	<skillGains>
       <li>
-        <defName>Melee</defName>
-        <amount>2</amount>
-      </li>
+				<key>Melee</key>
+				<value>2</value>
+			</li>
       <li>
-        <defName>Cooking</defName>
-        <amount>2</amount>
-      </li>
+				<key>Cooking</key>
+				<value>2</value>
+			</li>
      <li>
-        <defName>Crafting</defName>
-        <amount>3</amount>
-      </li>
+				<key>Crafting</key>
+				<value>3</value>
+			</li>
       <li>
-        <defName>Medicine</defName>
-        <amount>1</amount>
-      </li>
+				<key>Medicine</key>
+				<value>1</value>
+			</li>
       
     </skillGains>
 	
@@ -150,10 +150,10 @@
       <li>RRY_USCM_Backstories</li>
       
     </spawnCategories>
-  </AlienRace.BackstoryDef>
+  </AlienRace.AlienBackstoryDef>
   
   <!-- ================================ USCM - Blooded Human ================================ -->
- <AlienRace.BackstoryDef>
+ <AlienRace.AlienBackstoryDef>
     <defName>RRY_USCM_Blooded</defName>
     <title>Blooded</title>
     <description>[PAWN_nameDef] had an encounter with the illusive Hunters. Fortunately for [PAWN_possessive], [PAWN_pronoun] survived and in the process really impressed the Hunter race. [PAWN_pronoun] was marked by an Ancient and left to live as a reward. [PAWN_nameDef] still carries the mark with [PAWN_objective].</description>
@@ -163,32 +163,32 @@
    
 	<skillGains>
       <li>
-        <defName>Melee</defName>
-        <amount>6</amount>
-      </li>
+				<key>Melee</key>
+				<value>6</value>
+			</li>
       <li>
-        <defName>Cooking</defName>
-        <amount>3</amount>
-      </li>
+				<key>Cooking</key>
+				<value>3</value>
+			</li>
      <li>
-        <defName>Crafting</defName>
-        <amount>2</amount>
-      </li>
+				<key>Crafting</key>
+				<value>2</value>
+			</li>
       <li>
-        <defName>Medicine</defName>
-        <amount>3</amount>
-      </li>
+				<key>Medicine</key>
+				<value>3</value>
+			</li>
       
     </skillGains>
     <spawnCategories>
       <li>RRY_USCM_Backstories</li>
       
     </spawnCategories>
-  </AlienRace.BackstoryDef>
+  </AlienRace.AlienBackstoryDef>
   
   
   <!-- ================================ USCM - WY Liaison ================================ -->
- <AlienRace.BackstoryDef>
+ <AlienRace.AlienBackstoryDef>
     <defName>RRY_USCM_WYLiaison</defName>
     <title>Corporate Liaison</title>
     <description>[PAWN_nameDef] joined the corporate branch of Weyland-Yutani, which is involved in many of the momentous decisions behind the money-making initiatives of the company.\n\nUnfortunately, unimpressive first impressions lead to [PAWN_nameDef] being assigned as a liaison for a frontier mercenary group under Weyland-Yutani's payroll. Being confined to a cramped corporate office with a group of soldiers who cared for little beyond their pay lead to [PAWN_nameDef] being ignored at best, and openly disparaged at worst. The military environment rubbed off on [PAWN_objective], either as a minimal sign of camaraderie, or due to a need for [PAWN_nameDef] to defend [PAWN_objective]self from the mercenaries themselves. </description>
@@ -198,33 +198,31 @@
     
 	<skillGains>
       <li>
-        <defName>Shooting</defName>
-        <amount>2</amount>
-	  </li>
+				<key>Shooting</key>
+				<value>2</value>
+			</li>
 	  <li>
-		<defName>Social</defName>
-		<amount>5</amount>
-	  </li>
+				<key>Social</key>
+				<value>5</value>
+			</li>
     </skillGains>
 	
     <spawnCategories>
       <li>RRY_USCM_Backstories</li>
     </spawnCategories>
-  </AlienRace.BackstoryDef>
+  </AlienRace.AlienBackstoryDef>
   
    <!-- ================================ USCM - Xenomorph Survivor ================================ -->
- <AlienRace.BackstoryDef>
+ <AlienRace.AlienBackstoryDef>
     <defName>RRY_USCM_XenoSurvivor</defName>
     <title>Survivor</title>
     <description>[PAWN_nameDef] lived out on a outer rim colony before a ship burst through the atmosphere and crashed near the colony grounds. A search team was sent out but communications with them quickly went silent. Not long after the colony was attacked by xenomorphs, it was a blood bath. [PAWN_nameDef] was the only survivor of the attack, rescued by the USCM just in time. [PAWN_pronoun] decided to join the USCM to help as much as [PAWN_pronoun] could. But the nightmares make it hard to focus.\n\nPTSD the doc called it.</description>
 	<bodyTypeMale>Male</bodyTypeMale>
     <bodyTypeFemale>Female</bodyTypeFemale>
 	<slot>Adulthood</slot>
-    <workDisables>
-		<li>Violent</li>
-    </workDisables>
+    <workDisables>Violent</workDisables>
 	
-	<forcedTraits>
+	<forcedTraitsChance>
 		<li>
 			<defName>Nerves</defName>
 			<degree>-1</degree>
@@ -245,41 +243,41 @@
 			<degree>2</degree>
 			<chance>10</chance>
 		</li>
-	</forcedTraits>	
+	</forcedTraitsChance>	
 	
 	<skillGains>
       <li>
-		<defName>Social</defName>
-		<amount>-4</amount>
-	  </li>
+				<key>Social</key>
+				<value>-4</value>
+			</li>
 	  <li>
-		<defName>Cooking</defName>
-		<amount>4</amount>
-	  </li>
+				<key>Cooking</key>
+				<value>4</value>
+			</li>
 	  <li>
-		<defName>Crafting</defName>
-		<amount>5</amount>
-	  </li>
+				<key>Crafting</key>
+				<value>5</value>
+			</li>
 	  <li>
-		<defName>Intellectual</defName>
-		<amount>3</amount>
-	  </li>
+				<key>Intellectual</key>
+				<value>3</value>
+			</li>
     </skillGains>
 	
     <spawnCategories>
       <li>RRY_USCM_Backstories</li>
     </spawnCategories>
-  </AlienRace.BackstoryDef>
+  </AlienRace.AlienBackstoryDef>
   
   <!-- ================================ USCM - M56 Operator ================================ -->
- <AlienRace.BackstoryDef>
+ <AlienRace.AlienBackstoryDef>
     <defName>RRY_USCM_Operator</defName>
     <title>M56 Operator</title>
     <description>[PAWN_nameDef] is a Smart Gun System Operator. While most of the Marines can put their Pulse Rifles on burst and keep shooting, that may not be enough. [PAWN_title]s are trained in the time-honored tactic of accuracy through volume.\n\n"I've got a bullet with your name on it and I'm gonna keep firing until I find which one!"</description>
 	<bodyTypeMale>Male</bodyTypeMale>
     <bodyTypeFemale>Female</bodyTypeFemale>
 	<slot>Adulthood</slot>
-    <forcedTraits>
+    <forcedTraitsChance>
 		<li>
 			<defName>ShootingAccuracy</defName>
 			<chance>-1</chance>
@@ -298,20 +296,20 @@
 			<defName>Bloodlust</defName>
 			<chance>45</chance>
 		</li>
-	</forcedTraits>	
+	</forcedTraitsChance>	
 	
     
 	<skillGains>
       <li>
-        <defName>Shooting</defName>
-        <amount>7</amount>
-      </li>
+				<key>Shooting</key>
+				<value>7</value>
+			</li>
     </skillGains>
 	
     <spawnCategories>
       <li>RRY_USCM_Backstories</li>
       
     </spawnCategories>
-  </AlienRace.BackstoryDef>
+  </AlienRace.AlienBackstoryDef>
   
 </Defs>

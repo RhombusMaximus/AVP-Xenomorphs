@@ -117,7 +117,8 @@
       </li>
 
       <!-- Weapons -->
-      <li Class="StockGenerator_WeaponsRanged">
+      <li Class="StockGenerator_Tag">
+			<tag>Weapon</tag>
         <countRange>3~6</countRange>
       </li>
       <li Class="StockGenerator_Category">
@@ -127,7 +128,7 @@
       </li>
 
       <!-- Apparel -->
-      <li Class="StockGenerator_Clothes">
+      <li Class="StockGenerator_MiscItems">
         <countRange>10~16</countRange>
       </li>
       <li Class="StockGenerator_Armor">
@@ -240,7 +241,8 @@
       </li>
       
       <!-- Weapons -->
-      <li Class="StockGenerator_WeaponsRanged">
+      <li Class="StockGenerator_Tag">
+			<tag>Weapon</tag>
         <countRange>5~5</countRange>
       </li>
       <li Class="StockGenerator_Category">
@@ -328,7 +330,8 @@
       </li>
       
       <!-- Weapons -->
-      <li Class="StockGenerator_WeaponsRanged">
+      <li Class="StockGenerator_Tag">
+			<tag>Weapon</tag>
         <countRange>10~14</countRange>
       </li>
       <li Class="StockGenerator_Category">
@@ -444,7 +447,7 @@
       <!-- none -->
       
       <!-- Apparel -->
-      <li Class="StockGenerator_Clothes">
+      <li Class="StockGenerator_MiscItems">
         <countRange>10~10</countRange>
       </li>
       

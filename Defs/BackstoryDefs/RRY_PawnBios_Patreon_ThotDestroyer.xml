@@ -1,9 +1,9 @@
-﻿<?xml version="1.0" encoding="utf-8"?>
+<!-- ﻿<?xml version="1.0" encoding="utf-8"?>
 <Defs>
 <AlienRace.PawnBioDef>
     <defName>RRY_USCM_ThotDestroyer</defName>
-    <childhoodDef>RRY_USCM_ThotDestroyer_Child</childhoodDef>
-    <adulthoodDef>RRY_USCM_ThotDestroyer_Adult</adulthoodDef>
+    <childhood>RRY_USCM_ThotDestroyer_Child</childhood>
+    <adulthood>RRY_USCM_ThotDestroyer_Adult</adulthood>
     <gender>Male</gender> <!-- other options are Male and Female -->
     <name>
       <first>Dylan</first>
@@ -17,7 +17,7 @@
 </AlienRace.PawnBioDef>
 
   <!-- ================================ USCM - Childhood ================================ -->
-  <AlienRace.BackstoryDef>
+  <AlienRace.AlienBackstoryDef>
     <defName>RRY_USCM_ThotDestroyer_Child</defName>
     <title>USCM Recruit</title>
     <description>[PAWN_nameDef] has always Dreamed of the stars and Colonial Marine Corp, wanting nothing but to join up as soon as possible. Learning and training as much as possible to get in.\nThis left little time or social interaction with other people bar the family animals.\nThis suited [PAWN_nameDef] as it gave more time to focus on coming a glorious Colonial Marine.</description>
@@ -25,24 +25,22 @@
     <bodyTypeFemale>Female</bodyTypeFemale>
     <linkedBackstory>RRY_USCM_Silentlord_Adult</linkedBackstory>
 	<slot>Childhood</slot>
-    <forcedTraits>
-	</forcedTraits>	
-    <workDisables>
-      <li>Social</li>
-    </workDisables>
+    <forcedTraitsChance>
+	</forcedTraitsChance>	
+    <workDisables>Social</workDisables>
 	<skillGains>
       <li>
-        <defName>Animals</defName>
-        <amount>2</amount>
-      </li>
+				<key>Animals</key>
+				<value>2</value>
+			</li>
     </skillGains>
 	<spawnCategories>
       <li>RRY_USCM_Silentlord</li>
     </spawnCategories>
-  </AlienRace.BackstoryDef>
+  </AlienRace.AlienBackstoryDef>
   
   <!-- ================================ USCM - Adulthood ================================ -->
- <AlienRace.BackstoryDef>
+ <AlienRace.AlienBackstoryDef>
     <defName>RRY_USCM_ThotDestroyer_Adult</defName>
     <title>USCM Rifleman</title>
     <titleShort>USCM Recruit</titleShort>
@@ -53,7 +51,7 @@
 	<slot>Adulthood</slot>
 	<bioAgeRange>30~40</bioAgeRange>
 	<chronoAgeRange>130~140</chronoAgeRange>
-    <forcedTraits>
+    <forcedTraitsChance>
 		<!--
 		<li>
 			<defName>Ascetic</defName>
@@ -64,21 +62,17 @@
 			<chance>35</chance>
 		</li>
 		-->
-	</forcedTraits>	
-    <workDisables>
-      <li>PlantWork</li>
-      <li>Artistic</li>
-      <li>Cooking</li>
-    </workDisables>
+	</forcedTraitsChance>	
+    <workDisables>PlantWork,Artistic,Cooking</workDisables>
 	<skillGains>
      <li>
-        <defName>Crafting</defName>
-        <amount>3</amount>
-      </li>
+				<key>Crafting</key>
+				<value>3</value>
+			</li>
       <li>
-        <defName>Intellectual</defName>
-        <amount>2</amount>
-      </li>
+				<key>Intellectual</key>
+				<value>2</value>
+			</li>
     </skillGains>
     <forcedHediffs>
       <li>BadBack</li>
@@ -86,6 +80,6 @@
     <spawnCategories>
       <li>RRY_USCM_Silentlord</li>
     </spawnCategories>
-  </AlienRace.BackstoryDef>
+  </AlienRace.AlienBackstoryDef>
   
-</Defs>
+</Defs> -->

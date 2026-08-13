@@ -110,7 +110,7 @@
     <defName>RRY_USCM_TravelingDropshipUD4L</defName>
     <label>UD-4L Cheyenne Dropship</label>
     <description>Dropships in flight.</description>
-    <worldObjectClass>TravelingTransportPods</worldObjectClass>
+    <!-- worldObjectClass removed (TravelingTransportPods renamed in 1.6) -->
     <texture>World/WorldObjects/TravelingUD4L</texture>
     <useDynamicDrawer>true</useDynamicDrawer>
     <expandingIcon>true</expandingIcon>

@@ -7,20 +7,7 @@
     <ateAsIngredient>AteInsectMeatAsIngredient</ateAsIngredient>
     <corpseCategory>RRY_Corpses_Xenomorph</corpseCategory>
 	<!-- RGB in the photoshop is (R=196  G= 192  B=124) -->
-    <wounds>
-      <li>
-        <texture>Things/Pawn/Wounds/WoundA</texture>
-        <color>0.98,1,0</color>
-      </li>
-      <li>
-        <texture>Things/Pawn/Wounds/WoundB</texture>
-        <color>0.98,1,0</color>
-      </li>
-      <li>
-        <texture>Things/Pawn/Wounds/WoundC</texture>
-        <color>0.98,1,0</color>
-      </li>
-    </wounds>
+    
   </FleshTypeDef>
   
   <FleshTypeDef>
@@ -29,20 +16,7 @@
     <ateAsIngredient>AteInsectMeatAsIngredient</ateAsIngredient>
     <corpseCategory>RRY_Corpses_Xenomorph</corpseCategory>
 	<!-- RGB in the photoshop is (R=196  G= 192  B=124) -->
-    <wounds>
-      <li>
-        <texture>Things/Pawn/Wounds/WoundA</texture>
-        <color>0.98,1,0</color>
-      </li>
-      <li>
-        <texture>Things/Pawn/Wounds/WoundB</texture>
-        <color>0.98,1,0</color>
-      </li>
-      <li>
-        <texture>Things/Pawn/Wounds/WoundC</texture>
-        <color>0.98,1,0</color>
-      </li>
-    </wounds>
+    
   </FleshTypeDef>
   
   <FleshTypeDef>
@@ -51,20 +25,7 @@
     <ateAsIngredient>AteInsectMeatAsIngredient</ateAsIngredient>
     <corpseCategory>RRY_Corpses_Xenomorph</corpseCategory>
 	<!-- RGB in the photoshop is (R=224  G= 224  B=224) -->
-    <wounds>
-      <li>
-        <texture>Things/Pawn/Wounds/WoundA</texture>
-        <color>0.878,0.878,0.878</color>
-      </li>
-      <li>
-        <texture>Things/Pawn/Wounds/WoundB</texture>
-        <color>0.878,0.878,0.878</color>
-      </li>
-      <li>
-        <texture>Things/Pawn/Wounds/WoundC</texture>
-        <color>0.878,0.878,0.878</color>
-      </li>
-    </wounds>
+    
   </FleshTypeDef>
   
 </Defs>

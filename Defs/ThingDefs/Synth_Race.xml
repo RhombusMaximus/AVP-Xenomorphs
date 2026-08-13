@@ -223,11 +223,11 @@
             <alienPartGenerator>
 				<!--<useGenderedHeads>true</useGenderedHeads>
 				<useGenderedBodies>true</useGenderedBodies>-->
-                <alienbodytypes>
-					<li>Thin</li>
-					<li>Male</li>
-					<li>Female</li>
-				</alienbodytypes>
+                <bodyTypes>
+				<li>Thin</li>
+				<li>Male</li>
+				<li>Female</li>
+				</bodyTypes>
 			</alienPartGenerator>
 			<chemicalSettings>	
 		    </chemicalSettings>
@@ -250,11 +250,10 @@
         </generalSettings>
         <graphicPaths>
         </graphicPaths>
-        <hairSettings>
-            <hasHair>true</hasHair>
-            <hairTags>
-            </hairTags>
-        </hairSettings>
+        <!-- hairSettings removed in HAR 1.4+ - hasHair and hairTags are no longer under AlienSettings -->
+        <!--
+        <!-- hairSettings removed (HAR 1.4+ compatibility) -->
+        -->
         <thoughtSettings>
 			<cannotReceiveThoughts>
 					<li>NeedFood</li>
@@ -307,7 +306,6 @@
 		<MeatAmount>40</MeatAmount>
         <CarryingCapacity>125</CarryingCapacity>
 		<PsychicSensitivity>0</PsychicSensitivity>
-		<ToxicSensitivity>0.3</ToxicSensitivity>
 		<MiningSpeed>1.2</MiningSpeed>
 		<ShootingAccuracyPawn>1</ShootingAccuracyPawn>
 		<AimingDelayFactor>1.0</AimingDelayFactor>
@@ -327,7 +325,6 @@
         <TradePriceImprovement>0.8</TradePriceImprovement>
 		<!--
 		-->
-		<ThinkTreeMain>Humanlike</ThinkTreeMain>
     </statBases>
   <tools>
       <li>

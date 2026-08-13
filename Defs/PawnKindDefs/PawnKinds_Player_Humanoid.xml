@@ -7,7 +7,6 @@
   <PawnKindDef Abstract="True" Name="BaseUSCMPawnKind">
     <race>Human</race>
     <combatPower>50</combatPower>
-    <baseRecruitDifficulty>1.0</baseRecruitDifficulty>
     <isFighter>true</isFighter>
     <apparelIgnoreSeasons>true</apparelIgnoreSeasons>
     <forceNormalGearQuality>true</forceNormalGearQuality>

@@ -61,11 +61,7 @@
         <Crafting>4</Crafting>
       </skillRequirements>
     </recipeMaker>
-	<comps>     
-		<li>
-			<compClass>AdeptusMechanicus.CompOversizedWeapon</compClass>
-		</li>
-	</comps>
+	<!-- CompOversizedWeapon removed (DLL incompatible with 1.6) -->
   </ThingDef>
 
 </Defs>

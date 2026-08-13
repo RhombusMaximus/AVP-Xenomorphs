@@ -4,7 +4,7 @@
 <!-- ================================ Artificial - Synth - Childhood ================================ -->
 <!-- ================================ Synth - Medical ================================ -->
   
-	<AlienRace.BackstoryDef>
+	<AlienRace.AlienBackstoryDef>
 		
 		<defName>RRY_Synth_Medical</defName>
 		<title>Medical Synth</title>
@@ -12,22 +12,20 @@
 		<bodyTypeMale>Male</bodyTypeMale>
 		<bodyTypeFemale>Female</bodyTypeFemale>
 		<slot>Childhood</slot>
-		<workDisables>
+		<workDisables>None</workDisables>
 	
-		</workDisables>
-	
-		<forcedTraits>
+		<forcedTraitsChance>
 		
-		</forcedTraits>	
-		<disallowedTraits>
+		</forcedTraitsChance>	
+		<disallowedTraitsChance>
 		
-		</disallowedTraits>
+		</disallowedTraitsChance>
     
 		<skillGains>
       
 			<li>
-				<defName>Medicine</defName>
-				<amount>8</amount>
+				<key>Medicine</key>
+				<value>8</value>
 			</li>
       
 		</skillGains>
@@ -38,11 +36,11 @@
 			<li>RRY_Synth_Backstories</li>
 		</spawnCategories>
 	
-	</AlienRace.BackstoryDef>
+	</AlienRace.AlienBackstoryDef>
 	
 	<!-- ================================ Synth - Farmhand ================================ -->
   
-	<AlienRace.BackstoryDef>
+	<AlienRace.AlienBackstoryDef>
 		
 		<defName>RRY_Synth_Farmhand</defName>
 		<title>Farmhand Synth</title>
@@ -50,11 +48,9 @@
 		<bodyTypeMale>Male</bodyTypeMale>
 		<bodyTypeFemale>Female</bodyTypeFemale>
 		<slot>Childhood</slot>
-		<workDisables>
-			<li>Intellectual</li>
-		</workDisables>
+		<workDisables>Intellectual</workDisables>
 	
-		<forcedTraits>
+		<forcedTraitsChance>
 			<li>
 				<defName>Industriousness</defName>
 				<degree>1</degree>
@@ -65,20 +61,20 @@
 				<degree>1</degree>
 				<chance>30</chance>
 			</li>
-		</forcedTraits>	
-		<disallowedTraits>
+		</forcedTraitsChance>	
+		<disallowedTraitsChance>
 		
-		</disallowedTraits>
+		</disallowedTraitsChance>
     
 		<skillGains>
       
 			<li>
-				<defName>Animals</defName>
-				<amount>8</amount>
+				<key>Animals</key>
+				<value>8</value>
 			</li>
 			<li>
-				<defName>Plants</defName>
-				<amount>6</amount>
+				<key>Plants</key>
+				<value>6</value>
 			</li>
 		</skillGains>
 		<forcedHediffs>
@@ -88,10 +84,10 @@
 			<li>RRY_Synth_Backstories</li>
 		</spawnCategories>
 	
-	</AlienRace.BackstoryDef>
+	</AlienRace.AlienBackstoryDef>
 	
 	<!-- ================================ Synth - Service ================================ -->
-	<AlienRace.BackstoryDef>
+	<AlienRace.AlienBackstoryDef>
 		
 		<defName>RRY_Synth_Service</defName>
 		<title>Service Synth</title>
@@ -100,10 +96,9 @@
 		<bodyTypeFemale>Female</bodyTypeFemale>
 		<slot>Childhood</slot>
 		
-		<workDisables>
-		</workDisables>
+		<workDisables>None</workDisables>
 		
-		<forcedTraits>
+		<forcedTraitsChance>
 			<li>
 				<defName>Industriousness</defName>
 				<degree>1</degree>
@@ -114,15 +109,15 @@
 				<degree>1</degree>
 				<chance>5</chance>
 			</li>
-		</forcedTraits>	
+		</forcedTraitsChance>	
 		
-		<disallowedTraits>
-		</disallowedTraits>
+		<disallowedTraitsChance>
+		</disallowedTraitsChance>
 		
 		<skillGains>
 			<li>
-				<defName>Cooking</defName>
-				<amount>6</amount>
+				<key>Cooking</key>
+				<value>6</value>
 			</li>
 			
 		</skillGains>
@@ -134,10 +129,10 @@
 			<li>RRY_Synth_Backstories</li>
 		</spawnCategories>
 	
-	</AlienRace.BackstoryDef>	
+	</AlienRace.AlienBackstoryDef>	
 	
 <!-- ================================ Synth - Worker ================================ -->	
-	<AlienRace.BackstoryDef>
+	<AlienRace.AlienBackstoryDef>
 		
 		<defName>RRY_Synth_Worker</defName>
 		<title>Worker Synth</title>
@@ -146,10 +141,9 @@
 		<bodyTypeFemale>Female</bodyTypeFemale>
 		<slot>Childhood</slot>
 		
-		<workDisables>
-		</workDisables>
+		<workDisables>None</workDisables>
 		
-		<forcedTraits>
+		<forcedTraitsChance>
 			<li>
 				<defName>Industriousness</defName>
 				<degree>1</degree>
@@ -163,19 +157,19 @@
 			<li>
 				<defName>Tough</defName>
 			</li>
-		</forcedTraits>	
+		</forcedTraitsChance>	
 		
-		<disallowedTraits>
-		</disallowedTraits>
+		<disallowedTraitsChance>
+		</disallowedTraitsChance>
 		
 		<skillGains>
 			<li>
-				<defName>Mining</defName>
-				<amount>5</amount>
+				<key>Mining</key>
+				<value>5</value>
 			</li>
 			<li>
-				<defName>Crafting</defName>
-				<amount>5</amount>
+				<key>Crafting</key>
+				<value>5</value>
 			</li>
 		</skillGains>
 		
@@ -186,10 +180,10 @@
 			<li>RRY_Synth_Backstories</li>
 		</spawnCategories>
 	
-	</AlienRace.BackstoryDef>
+	</AlienRace.AlienBackstoryDef>
 	
 	<!-- ================================ Synth - Social ================================ -->
-	<AlienRace.BackstoryDef>
+	<AlienRace.AlienBackstoryDef>
 		
 		<defName>RRY_Synth_Social</defName>
 		<title>Social Synth</title>
@@ -198,10 +192,9 @@
 		<bodyTypeFemale>Female</bodyTypeFemale>
 		<slot>Childhood</slot>
     
-		<workDisables>
-		</workDisables>
+		<workDisables>None</workDisables>
 	
-		<forcedTraits>
+		<forcedTraitsChance>
 			<li>
 				<defName>Beauty</defName>
 				<degree>1</degree>
@@ -212,19 +205,19 @@
 				<degree>2</degree>
 				<chance>10</chance>
 			</li>
-		</forcedTraits>	
+		</forcedTraitsChance>	
 	
-		<disallowedTraits>
-		</disallowedTraits>
+		<disallowedTraitsChance>
+		</disallowedTraitsChance>
     
 		<skillGains>
 			<li>
-				<defName>Social</defName>
-				<amount>8</amount>
+				<key>Social</key>
+				<value>8</value>
 			</li>
 			<li>
-				<defName>Cooking</defName>
-				<amount>2</amount>
+				<key>Cooking</key>
+				<value>2</value>
 			</li>
 		</skillGains>
 	
@@ -235,11 +228,11 @@
 			<li>RRY_Synth_Backstories</li>
 		</spawnCategories>
 	
-	</AlienRace.BackstoryDef>
+	</AlienRace.AlienBackstoryDef>
   
 	<!-- ================================ Artificial - Age-specific Backstories ================================ -->
 	<!-- ================================ Synth - Refurbished ================================ -->
-	<AlienRace.BackstoryDef>
+	<AlienRace.AlienBackstoryDef>
 		<defName>RRY_Artificials_Refurbished</defName>
 		<title>Refurbished Synth</title>
 		<description>[PAWN_nameDef] was sent for refurbishing. Over the years, [PAWN_nameDef] suffered lot of damages that left permanent flaws in this unit, along with unexpected behaviors and knowledges.</description>
@@ -247,39 +240,38 @@
 		<bodyTypeFemale>Female</bodyTypeFemale>
 		<slot>Childhood</slot>
     
-		<workDisables>
-		</workDisables>
+		<workDisables>None</workDisables>
 	
-		<forcedTraits>
-		</forcedTraits>	
+		<forcedTraitsChance>
+		</forcedTraitsChance>	
 		
-		<disallowedTraits>
-		</disallowedTraits>
+		<disallowedTraitsChance>
+		</disallowedTraitsChance>
     
 		<skillGains>
 			<li>
-				<defName>Shooting</defName>
-				<amount>3</amount>
+				<key>Shooting</key>
+				<value>3</value>
 			</li>
 			<li>
-				<defName>Melee</defName>
-				<amount>2</amount>
+				<key>Melee</key>
+				<value>2</value>
 			</li>
 			<li>
-				<defName>Cooking</defName>
-				<amount>4</amount>
+				<key>Cooking</key>
+				<value>4</value>
 			</li>
 			<li>
-				<defName>Crafting</defName>
-				<amount>5</amount>
+				<key>Crafting</key>
+				<value>5</value>
 			</li>
 			<li>
-				<defName>Medicine</defName>
-				<amount>5</amount>
+				<key>Medicine</key>
+				<value>5</value>
 			</li>
 			<li>
-				<defName>Intellectual</defName>
-				<amount>6</amount>
+				<key>Intellectual</key>
+				<value>6</value>
 			</li>
 		</skillGains>
 	
@@ -295,10 +287,10 @@
 			<min>5</min>
 			<max>20</max>
 		</bioAgeRange>
-	</AlienRace.BackstoryDef>
+	</AlienRace.AlienBackstoryDef>
   
   <!-- ================================ Synth - Military ================================ -->
-	<AlienRace.BackstoryDef>
+	<AlienRace.AlienBackstoryDef>
 		<defName>RRY_Artificials_Military</defName>
 		<title>Military Synth</title>
 		<description>[PAWN_nameDef] was sent to USCM conditioning department. [PAWN_pronoun] went through basic training and assigned to a squad.</description>
@@ -306,10 +298,9 @@
 		<bodyTypeFemale>Female</bodyTypeFemale>
 		<slot>Childhood</slot>
     
-		<workDisables>
-		</workDisables>
+		<workDisables>None</workDisables>
 			
-		<forcedTraits>
+		<forcedTraitsChance>
 			<li>
 				<defName>Tough</defName>
 				<chance>60</chance>
@@ -334,27 +325,27 @@
 				<degree>-1</degree>
 				<chance>25</chance>
 			</li>
-		</forcedTraits>	
+		</forcedTraitsChance>	
 		
-		<disallowedTraits>
-		</disallowedTraits>
+		<disallowedTraitsChance>
+		</disallowedTraitsChance>
     
 		<skillGains>
 			<li>
-				<defName>Shooting</defName>
-				<amount>4</amount>
+				<key>Shooting</key>
+				<value>4</value>
 			</li>
 			<li>
-				<defName>Melee</defName>
-				<amount>3</amount>
+				<key>Melee</key>
+				<value>3</value>
 			</li>
 			<li>
-				<defName>Crafting</defName>
-				<amount>2</amount>
+				<key>Crafting</key>
+				<value>2</value>
 			</li>
 			<li>
-				<defName>Medicine</defName>
-				<amount>3</amount>
+				<key>Medicine</key>
+				<value>3</value>
 			</li>
 		</skillGains>
 	
@@ -369,6 +360,6 @@
 			<min>5</min>
 			<max>20</max>
 		</bioAgeRange>
-	</AlienRace.BackstoryDef>
+	</AlienRace.AlienBackstoryDef>
   
 </Defs>

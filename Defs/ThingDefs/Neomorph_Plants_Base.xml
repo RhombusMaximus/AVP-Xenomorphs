@@ -1,6 +1,19 @@
 ﻿<?xml version="1.0" encoding="utf-8" ?>
 <Defs>
-  <ThingDef Name="RRY_Plant_Base" Abstract="True">
+
+	<!-- BaseGas abstract def for 1.6 compatibility -->
+	<ThingDef Abstract="True" Name="BaseGas">
+		<category>Gas</category>
+		<thingClass>Gas</thingClass>
+		<drawerType>MapMeshOnly</drawerType>
+		<useHitPoints>false</useHitPoints>
+		<selectable>false</selectable>
+		<rotatable>false</rotatable>
+		<altitudeLayer>Gas</altitudeLayer>
+		<tickerType>Normal</tickerType>
+	</ThingDef>
+
+	  <ThingDef Name="RRY_Plant_Base" Abstract="True">
     <category>Plant</category>
     <thingClass>Plant</thingClass>
     <altitudeLayer>FloorEmplacement</altitudeLayer>
@@ -51,7 +64,6 @@
 			<texPath>Things/Plants/Neomorph_Spores</texPath>
 			<graphicClass>Graphic_Random</graphicClass>
 		</graphicData>
-		<hideAtSnowDepth>0.5</hideAtSnowDepth>
     <ingestible>
       <outcomeDoers>
         <li Class="IngestionOutcomeDoer_GiveHediff">
@@ -99,9 +111,6 @@
         <min>35</min>
         <max>50</max>
       </expireSeconds>
-      <blockTurretTracking>true</blockTurretTracking>
-      <accuracyPenalty>0.4</accuracyPenalty>
-      <rotationSpeed>10</rotationSpeed>
 	  
     </gas>
   </ThingDef>
@@ -120,7 +129,6 @@
 			<texPath>Things/Plants/Neomorph_Spores</texPath>
 			<graphicClass>Graphic_Random</graphicClass>
 		</graphicData>
-		<hideAtSnowDepth>0.5</hideAtSnowDepth>
     <ingestible>
       <outcomeDoers>
         <li Class="IngestionOutcomeDoer_GiveHediff">
@@ -167,9 +175,6 @@
         <min>35</min>
         <max>50</max>
       </expireSeconds>
-      <blockTurretTracking>true</blockTurretTracking>
-      <accuracyPenalty>0.4</accuracyPenalty>
-      <rotationSpeed>10</rotationSpeed>
 	  
     </gas>
   </ThingDef>

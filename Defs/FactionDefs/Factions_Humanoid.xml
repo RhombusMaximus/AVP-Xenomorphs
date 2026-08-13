@@ -32,12 +32,7 @@
     <startingResearchTags>
       <li>ClassicStart</li>
     </startingResearchTags>
-    <hairTags>
-		<li>Rural</li>
-		<li>Tribal</li>
-		<li>Urban</li>
-		<li>Punk</li>
-    </hairTags>
+    
     <apparelStuffFilter>
       <thingDefs>
         <li>Synthread</li>
@@ -76,10 +71,7 @@
     <canSiege>true</canSiege>
     <canStageAttacks>true</canStageAttacks>
     <leaderTitle>Commanding Officer</leaderTitle>
-    <startingGoodwill>
-      <min>30</min>
-      <max>100</max>
-    </startingGoodwill>
+    
 	<factionNameMaker>Namer_RRY_USCM_Operations</factionNameMaker>
 	<settlementNameMaker>Namer_RRY_USCM_Squads</settlementNameMaker>
 	<techLevel>Spacer</techLevel>
@@ -93,15 +85,8 @@
         </categories>
       </li>
     </backstoryFilters>
-	<hairTags>
-		<li>Civil</li>
-		<li>Rural</li>
-		<li>Tribal</li>
-	</hairTags>
-    <naturalColonyGoodwill>
-      <min>0</min>
-      <max>30</max>
-    </naturalColonyGoodwill>
+	
+    
     <visitorTraderKinds>
 	
     </visitorTraderKinds>

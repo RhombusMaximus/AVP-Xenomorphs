@@ -35,14 +35,12 @@
       <MiningSpeed>1.5</MiningSpeed>
       <ImmunityGainSpeed>2.25</ImmunityGainSpeed>
       <PsychicSensitivity>1</PsychicSensitivity>
-      <ToxicSensitivity>0.5</ToxicSensitivity>
       <Flammability>0.5</Flammability>
       <ComfyTemperatureMin>-30</ComfyTemperatureMin>
       <ComfyTemperatureMax>150</ComfyTemperatureMax>
       <MeatAmount>15</MeatAmount>
       <LeatherAmount>15</LeatherAmount>
       <ArmorRating_Heat>0.75</ArmorRating_Heat>
-      <ThinkTreeMain>RRY_Xenomorph_ThinkTree</ThinkTreeMain>
     </statBases>
     <race>
       <thinkTreeConstant>XenomorphConstant</thinkTreeConstant>
@@ -201,7 +199,6 @@
       <MeatAmount>115</MeatAmount>
       <LeatherAmount>90</LeatherAmount>
       <PsychicSensitivity>0.25</PsychicSensitivity>
-      <ToxicSensitivity>0.25</ToxicSensitivity>
     </statBases>
     <tools>
       <li>
@@ -1300,7 +1297,6 @@
       <MeatAmount>215</MeatAmount>
       <LeatherAmount>140</LeatherAmount>
       <PsychicSensitivity>0.5</PsychicSensitivity>
-      <ToxicSensitivity>0.25</ToxicSensitivity>
     </statBases>
     <tools>
       <li>

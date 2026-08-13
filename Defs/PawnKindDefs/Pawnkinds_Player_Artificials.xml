@@ -7,7 +7,6 @@
   <PawnKindDef Abstract="True" Name="BaseArtificialPawnKind">
     <race>RRY_Synth</race>
     <combatPower>40</combatPower>
-    <baseRecruitDifficulty>0.5</baseRecruitDifficulty>
     <isFighter>true</isFighter>
     <apparelIgnoreSeasons>true</apparelIgnoreSeasons>
     <forceNormalGearQuality>false</forceNormalGearQuality>

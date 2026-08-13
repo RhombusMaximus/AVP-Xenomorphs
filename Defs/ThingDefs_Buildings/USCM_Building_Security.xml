@@ -130,7 +130,6 @@
 			<shaderType>CutoutComplex</shaderType>
 			<drawSize>(2,2)</drawSize>
 		</graphicData>		
-		<menuHidden>true</menuHidden>
 		<soundInteract>Interact_Rifle</soundInteract>
 		<tradeability>None</tradeability>
 		<passability>Impassable</passability>

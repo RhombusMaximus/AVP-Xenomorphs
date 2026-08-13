@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+	<RulePackDef>
+		<defName>Namer_RRY_USCM_Operations</defName>
+		<rulePack>
+			<rulesStrings>
+				<li>name->[USCMword][USCMword]</li>
+			</rulesStrings>
+			<rulesRaw>
+				<li Class="Rule_String">
+					<keyword>USCMword</keyword>
+					<value>Operation</value>
+				</li>
+				<li Class="Rule_String">
+					<keyword>USCMword</keyword>
+					<value>Squad</value>
+				</li>
+				<li Class="Rule_String">
+					<keyword>USCMword</keyword>
+					<value>Bravo</value>
+				</li>
+				<li Class="Rule_String">
+					<keyword>USCMword</keyword>
+					<value>Alpha</value>
+				</li>
+				<li Class="Rule_String">
+					<keyword>USCMword</keyword>
+					<value>Delta</value>
+				</li>
+				<li Class="Rule_String">
+					<keyword>USCMword</keyword>
+					<value>Charlie</value>
+				</li>
+				<li Class="Rule_String">
+					<keyword>USCMword</keyword>
+					<value>Echo</value>
+				</li>
+				<li Class="Rule_String">
+					<keyword>USCMword</keyword>
+					<value>Foxtrot</value>
+				</li>
+				<li Class="Rule_String">
+					<keyword>USCMword</keyword>
+					<value>Overwatch</value>
+				</li>
+				<li Class="Rule_String">
+					<keyword>USCMword</keyword>
+					<value>Hammer</value>
+				</li>
+				<li Class="Rule_String">
+					<keyword>USCMword</keyword>
+					<value>Sentinel</value>
+				</li>
+				<li Class="Rule_String">
+					<keyword>USCMword</keyword>
+					<value>Vanguard</value>
+				</li>
+			</rulesRaw>
+		</rulePack>
+	</RulePackDef>
+
+	<RulePackDef>
+		<defName>Namer_RRY_USCM_Squads</defName>
+		<rulePack>
+			<rulesStrings>
+				<li>name->[Squadword]</li>
+			</rulesStrings>
+			<rulesRaw>
+				<li Class="Rule_String">
+					<keyword>Squadword</keyword>
+					<value>Outpost</value>
+				</li>
+				<li Class="Rule_String">
+					<keyword>Squadword</keyword>
+					<value>Station</value>
+				</li>
+				<li Class="Rule_String">
+					<keyword>Squadword</keyword>
+					<value>Base</value>
+				</li>
+				<li Class="Rule_String">
+					<keyword>Squadword</keyword>
+					<value>Garrison</value>
+				</li>
+				<li Class="Rule_String">
+					<keyword>Squadword</keyword>
+					<value>Bunker</value>
+				</li>
+				<li Class="Rule_String">
+					<keyword>Squadword</keyword>
+					<value>Foothold</value>
+				</li>
+				<li Class="Rule_String">
+					<keyword>Squadword</keyword>
+					<value>Camp</value>
+				</li>
+			</rulesRaw>
+		</rulePack>
+	</RulePackDef>
+</Defs>
