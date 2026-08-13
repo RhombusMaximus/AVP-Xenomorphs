@@ -42,19 +42,7 @@ namespace RRYautja
                         //    return false;
                     }
                     // Yautja factions removed from mod
-                    /*
-                    if (defName.Contains("RRY") && defName.Contains("USCM"))
-                    {
-                        if (!SettingsHelper.latest.AllowUSCMFaction)
-                        {
-                            AvP_FactionGenerator_GenerateFactionsIntoWorld_Patch.UpdateDef(factionDef, 0);
-                        }
-                        else
-                        {
-                            AvP_FactionGenerator_GenerateFactionsIntoWorld_Patch.UpdateDef(factionDef, 1);
-                        }
-                    }
-                    */
+                    /* USCM faction removed */
                 }
             }
             return true;

@@ -4,47 +4,11 @@
 
 <!--=============================================== USCM - Player Faction ===============================================-->
 <!--=============================================== USCM - Base ===============================================-->
-  <PawnKindDef Abstract="True" Name="BaseUSCMPawnKind">
-    <race>Human</race>
-    <combatPower>50</combatPower>
-    <isFighter>true</isFighter>
-    <apparelIgnoreSeasons>true</apparelIgnoreSeasons>
-    <forceNormalGearQuality>true</forceNormalGearQuality>
-	    <lifeStages>
-      <li>
-        <bodyGraphicData>
-          <drawSize>0.75</drawSize>
-        </bodyGraphicData>
-      </li>
-      <li>
-        <bodyGraphicData>
-          <drawSize>1</drawSize>
-        </bodyGraphicData>
-      </li>
-    </lifeStages>
-	<backstoryCategories>
-			<!--<li>Civil</li>
-			<li>Tribal</li>
-			<li>Raider</li>-->
-			<li>RRY_USCM_Backstories</li>
-  	</backstoryCategories>
-  </PawnKindDef>
+  <!-- USCM player pawnkind removed -->
 
 <!--=============================================== USCM - Private ===============================================-->
 
-  <PawnKindDef ParentName="BaseUSCMPawnKind">
-    <defName>RRY_USCM_PlayerPrivate</defName>
-    <label>marine</label>
-    <defaultFactionType>RRY_USCM_PlayerColony</defaultFactionType>
-    <apparelTags>
-		<li>USCM_StandardIssue_Apparel</li>
-	</apparelTags>
-	<apparelMoney>
-		<min>5000</min>
-		<max>10000</max>
-    </apparelMoney>
-	<backstoryCryptosleepCommonality>1</backstoryCryptosleepCommonality>
-  </PawnKindDef>
+  <!-- USCM player pawnkind removed -->
   
  
 </Defs>

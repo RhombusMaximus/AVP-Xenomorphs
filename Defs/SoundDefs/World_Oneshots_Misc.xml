@@ -1,35 +1,7 @@
 ﻿<?xml version="1.0" encoding="utf-8"?><Defs>
 
-  <SoundDef>
-    <defName>RRY_USCM_DropshipUD4L_Landing</defName>  
-    <context>MapOnly</context>
-    <maxSimultaneous>1</maxSimultaneous>  
-    <subSounds>
-      <li>
-        <grains>
-          <li Class="AudioGrain_Folder">
-            <clipFolderPath>Misc/Dropship/UD4Land</clipFolderPath>
-          </li>
-        </grains>
-        <volumeRange>30~30</volumeRange>
-      </li>
-    </subSounds>
-  </SoundDef>
+  <!-- USCM sound removed -->
 
-  <SoundDef>
-    <defName>RRY_USCM_DropshipUD4L_Leaving</defName>  
-    <context>MapOnly</context>
-    <maxSimultaneous>1</maxSimultaneous>  
-    <subSounds>
-      <li>
-        <grains>
-          <li Class="AudioGrain_Folder">
-            <clipFolderPath>Misc/Dropship/UD4Takeoff</clipFolderPath>
-          </li>
-        </grains>
-        <volumeRange>30~30</volumeRange>
-      </li>
-    </subSounds>
-  </SoundDef>
+  <!-- USCM sound removed -->
 
 </Defs>

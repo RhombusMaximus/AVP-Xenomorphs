@@ -1,31 +1,6 @@
 ﻿<?xml version="1.0" encoding="utf-8" ?>
 
 <Defs>
-  <FleshTypeDef>
-    <defName>RRY_Xenomorph</defName>
-    <ateDirect>AteInsectMeatDirect</ateDirect>
-    <ateAsIngredient>AteInsectMeatAsIngredient</ateAsIngredient>
-    <corpseCategory>RRY_Corpses_Xenomorph</corpseCategory>
-	<!-- RGB in the photoshop is (R=196  G= 192  B=124) -->
-    
-  </FleshTypeDef>
-  
-  <FleshTypeDef>
-    <defName>RRY_Neomorph</defName>
-    <ateDirect>AteInsectMeatDirect</ateDirect>
-    <ateAsIngredient>AteInsectMeatAsIngredient</ateAsIngredient>
-    <corpseCategory>RRY_Corpses_Xenomorph</corpseCategory>
-	<!-- RGB in the photoshop is (R=196  G= 192  B=124) -->
-    
-  </FleshTypeDef>
-  
-  <FleshTypeDef>
-    <defName>RRY_SynthFlesh</defName>
-    <ateDirect>AteInsectMeatDirect</ateDirect>
-    <ateAsIngredient>AteInsectMeatAsIngredient</ateAsIngredient>
-    <corpseCategory>RRY_Corpses_Xenomorph</corpseCategory>
-	<!-- RGB in the photoshop is (R=224  G= 224  B=224) -->
-    
-  </FleshTypeDef>
+  <!-- Synth flesh type removed -->
   
 </Defs>

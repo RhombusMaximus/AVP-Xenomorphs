@@ -193,7 +193,7 @@ namespace RRYautja
                 FailReason = string.Format("{0}", str);
                 return false;
             }
-            bool pawnflag = !((UtilChjAndroids.ChjAndroid && UtilChjAndroids.isChjAndroid(thingDef)) || (UtilTieredAndroids.TieredAndroid && UtilTieredAndroids.isAtlasAndroid(thingDef)) || (UtilSynths.isAvPSynth(thingDef)));
+            bool pawnflag = !((UtilChjAndroids.ChjAndroid && UtilChjAndroids.isChjAndroid(thingDef)) || (UtilTieredAndroids.TieredAndroid && UtilTieredAndroids.isAtlasAndroid(thingDef)));
             if (!pawnflag)
             {
                 string str = string.Empty;

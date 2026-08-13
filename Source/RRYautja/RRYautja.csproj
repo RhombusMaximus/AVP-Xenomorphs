@@ -29,35 +29,11 @@
   </ItemGroup>
 
   <ItemGroup>
-    <Reference Include="1AnimatedProjectile">
-      <HintPath>..\..\Assemblies\1AnimatedProjectile.dll</HintPath>
-      <Private>False</Private>
-    </Reference>
-    <Reference Include="1CompActivatableEffect">
-      <HintPath>..\..\Assemblies\1CompActivatableEffect.dll</HintPath>
-      <Private>False</Private>
-    </Reference>
-    <Reference Include="1CompOversizedWeapon">
-      <HintPath>..\..\Assemblies\1CompOversizedWeapon.dll</HintPath>
-      <Private>False</Private>
-    </Reference>
-    <Reference Include="1CompSlotLoadable">
-      <HintPath>..\..\Assemblies\1CompSlotLoadable.dll</HintPath>
-      <Private>False</Private>
-    </Reference>
-    <Reference Include="1CompToggleDef">
-      <HintPath>..\..\Assemblies\1CompToggleDef.dll</HintPath>
-      <Private>False</Private>
-    </Reference>
     <Reference Include="AlienRace">
       <HintPath>..\..\Assemblies\AlienRace.dll</HintPath>
       <Private>False</Private>
     </Reference>
     <Compile Include="..\AlienRaceStub\AlienRaceStub.cs" />
-    <Reference Include="PawnShields">
-      <HintPath>..\..\Assemblies\PawnShields.dll</HintPath>
-      <Private>False</Private>
-    </Reference>
     <Reference Include="Thumper">
       <HintPath>..\..\Assemblies\Thumper.dll</HintPath>
       <Private>False</Private>

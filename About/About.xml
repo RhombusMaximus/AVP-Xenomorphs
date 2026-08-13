@@ -1,52 +1,17 @@
 <?xml version="1.0" encoding="utf-8"?>
 <ModMetaData>
-	<name>Alien Vs Predator</name>
+	<name>AVP Xenomorphs</name>
 	<author>Ogliss</author>
 	<supportedVersions>
 		<li>1.6</li>
 	</supportedVersions>
-	<packageId>Ogliss.AlienVsPredator</packageId>
+	<packageId>Ogliss.AVPXenomorphs</packageId>
 	<description>V1.5.0.5
 	
 	Requirments
 	Humanoid Alien Races 2.0
 	
 	"All right, sweethearts, what are you waiting for? Breakfast in bed? It's another glorious day in the Corps. A day in the Marine Corps is like a day on the farm: Every meal's a banquet. Every paycheck's a fortune! Every formation's a parade! I love the Corps!" - Sgt. Apone
-	Thats right, the USCM have arrived on the Rim!
-	
-	Apparel:
-	USCM Bandana
-	USCM Military Cap
-	USCM Fatigues
-	USCM Medical jumpsuit
-	USCM Engineer jumpsuit
-	
-	Armour:
-	M10 Ballistic Helmet
-	M3 Personal Armor
-	M56 Combat Harness - (Smart Gun System Component)
-	
-	Equipment:
-	Head Mounted Sight - (Smart Gun System Component)
-	Weapons:
-	M4A3 Service Pistol
-	M4A4 Pistol
-	88 Mod 4 Combat Pistol
-	M41A Pulse rifle - (Underslung Grenade Launcher)
-	M41B Pulse rifle - (Underslung Shotgun)
-	M56 Smartgun - (Smart Gun System Component)
-	M240 Incinerator Unit
-	M2402 Heavy incinerator
-	M39 Submachine gun
-	M37A2 Pump Shotgun
-	M42A Sniper Rifle
-	M5 Rocket Propelled Grenade
-	
-	Turrets:
-	UA 571-C automated sentry gun
-	
-	Misc:
-
 	Synth race:
 
 	"Perfect organism. Its structural perfection is matched only by its hostility."
