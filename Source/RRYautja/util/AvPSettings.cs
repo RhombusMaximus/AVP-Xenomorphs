@@ -68,7 +68,14 @@ namespace RRYautja.settings
             this.settings = GetSettings<AvPSettings>();
             SettingsHelper.latest = this.settings;
             harmony = new Harmony("com.ogliss.rimworld.mod.rryatuja");
-            harmony.PatchAll(Assembly.GetExecutingAssembly());
+            try
+            {
+                harmony.PatchAll(Assembly.GetExecutingAssembly());
+            }
+            catch (System.Exception e)
+            {
+                Log.Error("AVP Xenomorphs: Failed to apply some harmony patches (likely 1.6 API changes): " + e.Message);
+            }
             if (Prefs.DevMode) Log.Message(string.Format("Alien Vs Predator: successfully completed {0} harmony patches.", harmony.GetPatchedMethods().Select(new Func<MethodBase, Patches>(Harmony.GetPatchInfo)).SelectMany((Patches p) => p.Prefixes.Concat(p.Postfixes).Concat(p.Transpilers)).Count((Patch p) => p.owner.Contains(harmony.Id))));
         }
 

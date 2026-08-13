@@ -28,12 +28,6 @@
     <Compile Remove="Xenomorph\XenoGetPawnThing.cs" />
   </ItemGroup>
 
-  <ItemGroup>
-    <Reference Include="Thumper">
-      <HintPath>..\..\Assemblies\Thumper.dll</HintPath>
-      <Private>False</Private>
-    </Reference>
-  </ItemGroup>
 
 
   <ItemGroup>
