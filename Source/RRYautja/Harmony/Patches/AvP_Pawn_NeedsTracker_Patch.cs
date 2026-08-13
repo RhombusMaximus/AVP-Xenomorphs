@@ -1,3 +1,4 @@
+#if false
 ﻿using RimWorld;
 using Verse;
 using HarmonyLib;
@@ -39,3 +40,4 @@ namespace RRYautja
         public static FieldInfo pawn = typeof(Pawn_NeedsTracker).GetField("pawn", BindingFlags.Instance | BindingFlags.NonPublic | BindingFlags.GetField);
     }
 }
+#endif
