@@ -1,23 +1,4 @@
 <?xml version="1.0" encoding="utf-8" ?>
 <Defs>
-<!--============================================= Artificials =============================================-->
-  
-  
-  <TraitDef>
-    <defName>RRY_DefectiveInhibitor</defName>
-        <ignoreConfigErrors>true</ignoreConfigErrors>
-	<!-- 0.08 -->
-    <commonality>0.00</commonality>
-    <degreeDatas>
-      <li>
-        <label>Defective Inhibitor</label>
-        <description>[PAWN_nameDef] has a defective inhibitor.</description>
-		
-       </li>
-    </degreeDatas>
-    <conflictingTraits>
-	</conflictingTraits>
-    
-  </TraitDef>
-  
+  <!-- Synth traits removed (Synth content removed) -->
 </Defs>

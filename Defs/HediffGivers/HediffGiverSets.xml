@@ -1,24 +1,4 @@
 ﻿<?xml version="1.0" encoding="utf-8" ?>
 <Defs>
-
-  
-<!--============================================= Common =============================================-->
-  
-  <!-- Synth hediff giver set removed -->
-	
-	<HediffGiverSetDef>
-		<defName>RRY_Artificials_Inhibitor_Hediffgiver</defName>
-		<hediffGivers>
-		  <li Class="HediffGiver_BrainInjury">
-			<hediff>RRY_Damaged_Inhibitor</hediff>
-			<partsToAffect>
-			  <li>RRY_BehavorialInhibitor</li>
-			</partsToAffect>
-			<chancePerDamagePct>0.85</chancePerDamagePct>
-			<letterLabel>Damaged Inhibitor</letterLabel>
-			<letter>[PAWN_nameDef]'s head injury has caused [PAWN_objective]'s behaviorial inhibitor to malfunction.</letter>
-		  </li>
-		</hediffGivers>
-	</HediffGiverSetDef>
-	
+  <!-- Synth hediff giver sets removed (Synth content removed) -->
 </Defs>
