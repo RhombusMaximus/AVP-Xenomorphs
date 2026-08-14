@@ -213,6 +213,10 @@ namespace RRYautja
                 {
                     this.SetFaction(Find.FactionManager.FirstFactionOfDef(XenomorphDefOf.RRY_Xenomorph));
                 }
+                if (this.hatcheeFaction == null)
+                {
+                    this.hatcheeFaction = Find.FactionManager.FirstFactionOfDef(XenomorphDefOf.RRY_Xenomorph);
+                }
             }
 
             float ambientTemperature = this.AmbientTemperature;
