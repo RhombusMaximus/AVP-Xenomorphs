@@ -32,6 +32,7 @@
 	<!--OG==================== Carapace Armours =========================OG-->
 
 	<ResearchProjectDef>
+		<defName>RRY_CarapaceArmours</defName>
 		<tab>Main</tab>
 		<label>Carapace Armours</label>
 		<description>Allows you to create advanced personal armours.</description>

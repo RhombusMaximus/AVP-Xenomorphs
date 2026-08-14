@@ -15,7 +15,16 @@ namespace RRYautja
         }
 
         // Token: 0x040000CD RID: 205
-        public DamageDef cycleDamage = DamageDefOf.Bite;
+        public DamageDef cycleDamage = null;
+
+        public override void ResolveReferences()
+        {
+            base.ResolveReferences();
+            if (cycleDamage == null)
+            {
+                cycleDamage = DamageDefOf.Bite;
+            }
+        }
 
         // Token: 0x040000CE RID: 206
         public int cycleDamageAmt = 1;
