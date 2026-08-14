@@ -17,12 +17,15 @@ namespace RRYautja
         // Token: 0x040000CD RID: 205
         public DamageDef cycleDamage = null;
 
-        public override void ResolveReferences()
+        public DamageDef CycleDamageResolved
         {
-            base.ResolveReferences();
-            if (cycleDamage == null)
+            get
             {
-                cycleDamage = DamageDefOf.Bite;
+                if (cycleDamage == null)
+                {
+                    cycleDamage = DamageDefOf.Bite;
+                }
+                return cycleDamage;
             }
         }
 
@@ -98,7 +101,7 @@ namespace RRYautja
         // Token: 0x06000125 RID: 293 RVA: 0x0000AEB0 File Offset: 0x000090B0
         public DamageInfo GetDamageInfo()
         {
-            return new DamageInfo(this.Props.cycleDamage, (float)this.Props.cycleDamageAmt, this.Props.armorPenetration, -1f, this.parent.pawn, this.parent.Part, null, 0, null);
+            return new DamageInfo(this.Props.CycleDamageResolved, (float)this.Props.cycleDamageAmt, this.Props.armorPenetration, -1f, this.parent.pawn, this.parent.Part, null, 0, null);
         }
 
         // Token: 0x06000126 RID: 294 RVA: 0x0000AF07 File Offset: 0x00009107
