@@ -299,7 +299,7 @@ namespace RRYautja
             {
                 if (!TryFindHost(out pawn))
                 {
-                    Log.MessageOnce("[AVP Xenomorphs] Egg " + this.thingIDNumber + " readyToHatch but no host found");
+                    Log.Message("[AVP Xenomorphs] Egg " + this.thingIDNumber + " readyToHatch but no host found");
                     return;
                 }
                 else
@@ -322,7 +322,7 @@ namespace RRYautja
                 {
                     if (canHatch && shouldHatch)
                     {
-                        Log.MessageOnce("[AVP Xenomorphs] Egg " + this.thingIDNumber + " canHatch && shouldHatch both true, rolling for hatch...");
+                        Log.Message("[AVP Xenomorphs] Egg " + this.thingIDNumber + " canHatch && shouldHatch both true, rolling for hatch...");
                         float thingdist = MyPos.DistanceTo(pawn.Position);
                         float thingsize = pawn.BodySize;
                         float thingstealth = targetThing.GetStatValue(StatDefOf.HuntingStealth);
