@@ -160,10 +160,13 @@ namespace RRYautja
         {
             get
             {
-                string path = this.DefaultGraphic.path;
-                Graphic graphic = base.Graphic.GetCopy(DrawSize);
-                Color color = Color.white;
-                Color colortwo = Color.white;
+                try
+                {
+                    string path = this.DefaultGraphic.path;
+                    Graphic graphic = base.Graphic.GetCopy(DrawSize);
+                    if (graphic == null) return base.Graphic;
+                    Color color = Color.white;
+                    Color colortwo = Color.white;
                 switch (eggType)
                 {
                     case Building_XenoEgg.EggType.Hyperfertile:
@@ -192,6 +195,11 @@ namespace RRYautja
                 graphic.path = path;
                 graphic.drawSize = DrawSize;
                 return graphic.GetCopy(DrawSize);
+                }
+                catch
+                {
+                    return base.Graphic;
+                }
             //    return graphic.GetColoredVersion(ShaderTypeDefOf.Cutout.Shader, color, colortwo);
             }
         }
