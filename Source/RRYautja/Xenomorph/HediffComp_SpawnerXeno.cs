@@ -305,8 +305,9 @@ namespace RRYautja
             // XP.Drawer.renderer.graphics.nakedGraphic.colorTwo = HostBloodColour; // 1.6: PawnGraphicSet removed
             pawn.Notify_ColorChanged();
             */
-            pawn.ageTracker.CurKindLifeStage.bodyGraphicData.colorTwo = HostBloodColour;
-            // XP.Drawer.renderer.graphics.ResolveAllGraphics(); // 1.6: PawnGraphicSet removed
+            // XP.Drawer.renderer.graphics.nakedGraphic.colorTwo = HostBloodColour; // 1.6: PawnGraphicSet removed
+            // pawn.Notify_ColorChanged(); // 1.6: removed
+            // pawn.ageTracker.CurKindLifeStage.bodyGraphicData.colorTwo = HostBloodColour; // Don't modify shared bodyGraphicData
             return pawn;
         }
 

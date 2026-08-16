@@ -44,6 +44,7 @@
       <ArmorRating_Heat>0.75</ArmorRating_Heat>
     </statBases>
     <race>
+      <thinkTreeMain>RRY_Xenomorph_ThinkTree</thinkTreeMain>
       <thinkTreeConstant>XenomorphConstant</thinkTreeConstant>
       <!-- <deathActionWorkerClass>RRYautja.DeathActionWorker_Xenomorph</deathActionWorkerClass> -->
       <herdAnimal>false</herdAnimal>
