@@ -310,7 +310,7 @@ namespace RRYautja
                 }
                 if (!pawn.Spawned)
                 {
-                    GenSpawn.Spawn(pawn, spawnLoc, spawnMap, 0);
+                    GenSpawn.Spawn(pawn, spawnLoc, spawnMap, WipeMode.Vanish);
                 }
                 pawn.jobs.ClearQueuedJobs();
             //    pawn.jobs.curJob = new Verse.AI.Job(JobDefOf.FleeAndCower, hostPawn);
@@ -324,7 +324,7 @@ namespace RRYautja
             //    Log.Message("using spawnDead");
                 if (!pawn.Spawned)
                 {
-                    GenSpawn.Spawn(pawn, spawnLoc, spawnMap, 0);
+                    GenSpawn.Spawn(pawn, spawnLoc, spawnMap, WipeMode.Vanish);
                 }
                 Comp_Facehugger _Facehugger = pawn.TryGetComp<Comp_Facehugger>();
             //    pawn.jobs.ClearQueuedJobs();

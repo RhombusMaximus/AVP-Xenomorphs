@@ -352,7 +352,7 @@ namespace RRYautja
                         {
                             _Xenomorph.host = base.parent.pawn.kindDef;
                         }
-                        GenSpawn.Spawn(pawn, spawnLoc, spawnMap, 0);
+                        GenSpawn.Spawn(pawn, spawnLoc, spawnMap, WipeMode.Vanish);
                     }
                     Vector3 vector = spawnLoc.ToVector3Shifted();
                     for (int i = 0; i < 101; i++)

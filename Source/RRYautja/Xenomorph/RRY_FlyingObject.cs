@@ -235,7 +235,7 @@ namespace RRYautja
                     GenExplosion.DoExplosion(base.Position, base.Map, 0.9f, DamageDefOf.Stun, this, -1, -1f, null, null, null, null, null, 0f, 1, null, null, 255, false, null, 0f, 1, 0f, false);
                 }
             }
-            GenSpawn.Spawn(this.flyingThing, base.Position, base.Map, 0);
+            GenSpawn.Spawn(this.flyingThing, base.Position, base.Map, WipeMode.Vanish);
             Pawn p = (Pawn)this.flyingThing;
             if (drafted) p.drafter.Drafted = true;
             this.Destroy(0);

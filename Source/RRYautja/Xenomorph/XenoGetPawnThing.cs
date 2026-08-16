@@ -21,7 +21,7 @@ namespace RRYautja
             Pawn pawn = PawnGenerator.GeneratePawn(pawnGenerationRequest);
             pawn.ageTracker.AgeBiologicalTicks = 70000000L;
             //pawn.ChangeKind(PawnKindDefOf.WildMan);
-            GenSpawn.Spawn(pawn, base.Position, base.Map, 0);
+            GenSpawn.Spawn(pawn, base.Position, base.Map, WipeMode.Vanish);
             
             this.Destroy(0);
         }

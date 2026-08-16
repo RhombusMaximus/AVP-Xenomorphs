@@ -36,7 +36,7 @@ namespace RRYautja
         {
             LocalTargetInfo targetInfo = new LocalTargetInfo(launcher.Position);
             Projectile projectile2 = (Projectile)ThingMaker.MakeThing(def, null);
-            GenSpawn.Spawn(projectile2, base.PositionHeld, launcher.Map, 0);
+            GenSpawn.Spawn(projectile2, base.PositionHeld, launcher.Map, WipeMode.Vanish);
             projectile2.Launch(this, new LocalTargetInfo(launcher), launcher, ProjectileHitFlags.IntendedTarget, false, launcher);
         }
         
