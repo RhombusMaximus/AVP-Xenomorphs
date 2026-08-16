@@ -2,7 +2,7 @@
 <Defs>
 
 <ThingDef Name="RRY_BaseXenomorphPawn" Abstract="True">
-    <thingClass>RRYautja.XenomorphPawn</thingClass>
+    <thingClass>Pawn</thingClass>
     <category>Pawn</category>
     <selectable>true</selectable>
     <tickerType>Normal</tickerType>
