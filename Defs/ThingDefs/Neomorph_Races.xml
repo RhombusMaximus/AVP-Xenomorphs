@@ -50,6 +50,7 @@
       <!-- <deathActionWorkerClass>RRYautja.DeathActionWorker_Xenomorph</deathActionWorkerClass> -->
       <intelligence>ToolUser</intelligence>
       <trainability>Intermediate</trainability>
+      <renderTree>Animal</renderTree>
       <thinkTreeMain>RRY_Neomorph_ThinkTree</thinkTreeMain>
       <thinkTreeConstant>NeomorphConstant</thinkTreeConstant>
       <fleshType>RRY_Neomorph</fleshType>
