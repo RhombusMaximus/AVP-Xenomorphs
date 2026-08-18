@@ -40,7 +40,7 @@ namespace RRYautja
             Scribe_Values.Look<bool>(ref this.killhugger, "killhugger");
             Scribe_Values.Look<int>(ref this.previousImpregnations, "previousImpregnations", 0);
             Scribe_Defs.Look<PawnKindDef>(ref this.instigatorKindDef, "InstigatorKindDef");
-            Scribe_Defs.Look<HediffDef>(ref this.heDiffDeff, "heDiffDeff");
+            Scribe_Defs.Look<HediffDef>(ref this._heDiffDeff, "heDiffDeff");
             Scribe_Deep.Look<Pawn>(ref this.instigator, "instigator");//, Props.pawn);
         }
 
