@@ -159,8 +159,10 @@ namespace RimWorld
             use.initAction = delegate ()
             {
                 Pawn actor = use.actor;
+                IntVec3 cell = TargetA.Cell;
+                if (cell.GetFirstBuilding(actor.Map) != null) return;
                 Thing thing = ThingMaker.MakeThing(MyDef);
-                GenSpawn.Spawn(thing, TargetA.Cell, actor.Map, Rot4.South, WipeMode.FullRefund, false);
+                GenSpawn.Spawn(thing, cell, actor.Map, Rot4.South, WipeMode.Vanish, false);
             };
             use.defaultCompleteMode = ToilCompleteMode.Instant;
             yield return use;
@@ -214,6 +216,8 @@ namespace RimWorld
             use.initAction = delegate ()
             {
                 Pawn actor = use.actor;
+                IntVec3 cell = TargetA.Cell;
+                if (cell.GetFirstBuilding(actor.Map) != null) return;
                 Thing thing = ThingMaker.MakeThing(MyDef);
                 HiveLike hive = (HiveLike)thing;
                 hive.active = false;
@@ -221,7 +225,7 @@ namespace RimWorld
                 hive.getsQueen = false;
                 hive.InitialPawnsPoints = 0;
                 hive.MaxSpawnedPawnsPoints = 0;
-                GenSpawn.Spawn(thing, TargetA.Cell, actor.Map, Rot4.South, WipeMode.FullRefund, false);
+                GenSpawn.Spawn(thing, cell, actor.Map, Rot4.South, WipeMode.Vanish, false);
                 hive.Lord.AddPawn(actor);
             };
             use.defaultCompleteMode = ToilCompleteMode.Instant;
@@ -276,8 +280,10 @@ namespace RimWorld
             use.initAction = delegate ()
             {
                 Pawn actor = use.actor;
+                IntVec3 cell = TargetA.Cell;
+                if (cell.GetFirstBuilding(actor.Map) != null) return;
                 Thing thing = ThingMaker.MakeThing(MyDef);
-                GenSpawn.Spawn(thing, TargetA.Cell, actor.Map, Rot4.South, WipeMode.FullRefund, false);
+                GenSpawn.Spawn(thing, cell, actor.Map, Rot4.South, WipeMode.Vanish, false);
             };
             use.defaultCompleteMode = ToilCompleteMode.Instant;
             yield return use;
@@ -331,10 +337,12 @@ namespace RimWorld
             use.initAction = delegate ()
             {
                 Pawn actor = use.actor;
+                IntVec3 cell = TargetA.Cell;
+                if (cell.GetFirstBuilding(actor.Map) != null) return;
                 MyDef = XenomorphDefOf.RRY_Xenomorph_Hive;
                 Thing thing = ThingMaker.MakeThing(MyDef);
                 HiveLike hive = (HiveLike)thing;
-                GenSpawn.Spawn(thing, TargetA.Cell, actor.Map, Rot4.South, WipeMode.FullRefund, false);
+                GenSpawn.Spawn(thing, cell, actor.Map, Rot4.South, WipeMode.Vanish, false);
             };
             use.defaultCompleteMode = ToilCompleteMode.Instant;
             yield return use;
