@@ -81,7 +81,7 @@ namespace RRYautja
             }
         }
 
-        PawnKindDef RoyalKindDef = XenomorphDefOf.RRY_Xenomorph_RoyaleHugger;
+        PawnKindDef RoyalKindDef { get { return XenomorphDefOf.RRY_Xenomorph_RoyaleHugger; } }
         public bool RoyalPresent
         {
             get
@@ -111,7 +111,7 @@ namespace RRYautja
             }
         }
 
-        PawnKindDef QueenKindDef = XenomorphDefOf.RRY_Xenomorph_Queen;
+        PawnKindDef QueenKindDef { get { return XenomorphDefOf.RRY_Xenomorph_Queen; } }
         public bool QueenPresent
         {
             get
@@ -132,7 +132,7 @@ namespace RRYautja
             }
         }
 
-        PawnKindDef PredalienKindDef = XenomorphDefOf.RRY_Xenomorph_Predalien;
+        PawnKindDef PredalienKindDef { get { return XenomorphDefOf.RRY_Xenomorph_Predalien; } }
         public bool PredalienPresent
         {
             get
@@ -148,7 +148,7 @@ namespace RRYautja
                 return MyMap.listerThings.ThingsOfDef(eggDef).Any(x => x is Building_XenoEgg egg && egg.eggType == Building_XenoEgg.EggType.Royal);
             }
         }
-        ThingDef eggDef = XenomorphDefOf.RRY_EggXenomorphFertilized;
+        ThingDef eggDef { get { return XenomorphDefOf.RRY_EggXenomorphFertilized; } }
 
         public override void CompPostPostAdd(DamageInfo? dinfo)
         {

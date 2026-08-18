@@ -313,7 +313,7 @@ namespace RimWorld
             return pawn.Reserve(targetA, job, 1, -1, null, errorOnFailed);
         }
 
-        public ThingDef MyDef { get { return XenomorphDefOf.RRY_Xenomorph_Hive_Slime; } }
+        private ThingDef _myDef; public ThingDef MyDef { get { return _myDef ?? (_myDef = XenomorphDefOf.RRY_Xenomorph_Hive_Slime); } set { _myDef = value; } }
 
         // Token: 0x06000393 RID: 915 RVA: 0x000245C8 File Offset: 0x000229C8
         protected override IEnumerable<Toil> MakeNewToils()

@@ -103,7 +103,7 @@ namespace RRYautja
         }
 
 
-        PawnKindDef RoyalKindDef = XenomorphDefOf.RRY_Xenomorph_RoyaleHugger;
+        PawnKindDef RoyalKindDef { get { return XenomorphDefOf.RRY_Xenomorph_RoyaleHugger; } }
         public bool RoyalPresent
         {
             get

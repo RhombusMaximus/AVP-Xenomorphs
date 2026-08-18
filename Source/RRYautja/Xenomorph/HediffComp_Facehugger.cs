@@ -51,7 +51,7 @@ namespace RRYautja
         public PawnKindDef RoyaleKindDef { get { return XenomorphDefOf.RRY_Xenomorph_RoyaleHugger; } }
 
         public PawnKindDef instigatorKindDef;
-        public HediffDef heDiffDeff { get { return XenomorphDefOf.RRY_XenomorphImpregnation; } }
+        private HediffDef _heDiffDeff; public HediffDef heDiffDeff { get { return _heDiffDeff ?? (_heDiffDeff = XenomorphDefOf.RRY_XenomorphImpregnation); } set { _heDiffDeff = value; } }
         public int timer = 0;
         public int timer2 = 0;
         public int previousImpregnations;
