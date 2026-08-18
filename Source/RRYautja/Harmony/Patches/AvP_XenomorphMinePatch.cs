@@ -17,7 +17,7 @@ namespace RRYautja
     {
         static AvP_XenomorphMinePatch()
         {
-            var harmony = AvPMod.harmony;
+            var harmony = RRYautja.settings.AvPMod.harmony;
             if (harmony == null) return;
 
             try
