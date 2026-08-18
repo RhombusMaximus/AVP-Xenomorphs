@@ -235,7 +235,6 @@
         <bodyGraphicData>
           <texPath>Things/Pawn/Xenomorph/Xenomorph_Neomorph</texPath>
           <graphicClass>Graphic_Multi</graphicClass>
-          <flipWest>true</flipWest>
           <drawSize>0.5</drawSize>
           <shadowData>
             <volume><!--(0.6, 0.8, 0.6)-->((0.1, 0.1, 0.1)</volume>
@@ -247,7 +246,6 @@
         <bodyGraphicData>
           <texPath>Things/Pawn/Xenomorph/Xenomorph_Neomorph</texPath>
           <graphicClass>Graphic_Multi</graphicClass>
-          <flipWest>true</flipWest>
           <color>(180,180,180)</color>
           <drawSize>0.75</drawSize>
           <shadowData>
@@ -259,7 +257,6 @@
         <bodyGraphicData>
           <texPath>Things/Pawn/Xenomorph/Xenomorph_Neomorph</texPath>
           <graphicClass>Graphic_Multi</graphicClass>
-          <flipWest>true</flipWest>
           <color>(180,180,180)</color>
           <drawSize>1.0</drawSize>
           <shadowData>
@@ -271,7 +268,6 @@
         <bodyGraphicData>
           <texPath>Things/Pawn/Xenomorph/Xenomorph_Neomorph</texPath>
           <graphicClass>Graphic_Multi</graphicClass>
-          <flipWest>true</flipWest>
           <color>(180,180,180)</color>
           <drawSize>1.25</drawSize>
           <shadowData>
@@ -283,7 +279,6 @@
         <bodyGraphicData>
           <texPath>Things/Pawn/Xenomorph/Xenomorph_Neomorph</texPath>
           <graphicClass>Graphic_Multi</graphicClass>
-          <flipWest>true</flipWest>
           <color>(221,231,237)</color>
           <drawSize>1.7</drawSize>
           <shadowData>

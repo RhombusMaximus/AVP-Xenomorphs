@@ -154,7 +154,6 @@
         <bodyGraphicData>
           <texPath>Things/Pawn/Xenomorph/Xenomorph_FaceHugger</texPath>
           <graphicClass>Graphic_Multi</graphicClass>
-          <flipWest>true</flipWest>
           <drawSize>2.30</drawSize>
         </bodyGraphicData>
       </li>
@@ -177,7 +176,6 @@
         <bodyGraphicData>
           <texPath>Things/Pawn/Xenomorph/Xenomorph_FaceHuggerRoyal</texPath>
           <graphicClass>Graphic_Multi</graphicClass>
-          <flipWest>true</flipWest>
           <drawSize>1.30</drawSize>
         </bodyGraphicData>
       </li>
@@ -377,7 +375,6 @@
         <bodyGraphicData>
           <texPath>Things/Pawn/Xenomorph/ChestBursterBloody</texPath>
           <graphicClass>Graphic_Multi</graphicClass>
-          <flipWest>true</flipWest>
           <drawSize>0.5</drawSize>
           <shadowData>
             <volume><!--(0.6, 0.8, 0.6)-->(0.0, 0.0, 0.0)</volume>
@@ -391,7 +388,6 @@
         <bodyGraphicData>
           <texPath>Things/Pawn/Xenomorph/ChestBurster</texPath>
           <graphicClass>Graphic_Multi</graphicClass>
-          <flipWest>true</flipWest>
           <drawSize>0.75</drawSize>
           <shadowData>
             <volume><!--(0.6, 0.8, 0.6)-->(0.0, 0.0, 0.0)</volume>
@@ -403,7 +399,6 @@
         <bodyGraphicData>
           <texPath>Things/Pawn/Xenomorph/QueenYoung</texPath>
           <graphicClass>Graphic_Multi</graphicClass>
-          <flipWest>true</flipWest>
           <drawSize>1</drawSize>
           <shadowData>
             <volume>(0.6, 0.8, 0.6)</volume>
@@ -416,7 +411,6 @@
         <bodyGraphicData>
           <texPath>Things/Pawn/Xenomorph/QueenYoung</texPath>
           <graphicClass>Graphic_Multi</graphicClass>
-          <flipWest>true</flipWest>
           <drawSize>2</drawSize>
           <shadowData>
             <volume>(0.6, 0.8, 0.6)</volume>
@@ -429,7 +423,6 @@
         <bodyGraphicData>
           <texPath>Things/Pawn/Xenomorph/Queen</texPath>
           <graphicClass>Graphic_Multi</graphicClass>
-          <flipWest>true</flipWest>
           <drawSize>3.3</drawSize>
           <shadowData>
             <volume>(0.6, 0.8, 0.6)</volume>
@@ -664,7 +657,6 @@
         <bodyGraphicData>
           <texPath>Things/Pawn/Xenomorph/ChestBursterBloody</texPath>
           <graphicClass>Graphic_Multi</graphicClass>
-          <flipWest>true</flipWest>
           <drawSize>0.5</drawSize>
           <shadowData>
             <volume><!--(0.6, 0.8, 0.6)-->(0.0, 0.0, 0.0)</volume>
@@ -678,7 +670,6 @@
         <bodyGraphicData>
           <texPath>Things/Pawn/Xenomorph/ChestBurster</texPath>
           <graphicClass>Graphic_Multi</graphicClass>
-          <flipWest>true</flipWest>
           <drawSize>0.75</drawSize>
           <shadowData>
             <volume><!--(0.6, 0.8, 0.6)-->(0.0, 0.0, 0.0)</volume>
@@ -690,7 +681,6 @@
         <bodyGraphicData>
           <texPath>Things/Pawn/Xenomorph/Xenomorph_Drone</texPath>
           <graphicClass>Graphic_Multi</graphicClass>
-          <flipWest>true</flipWest>
           <drawSize>1.0</drawSize>
           <shadowData>
             <volume>(0.4, 0.8, 0.4)</volume>
@@ -701,7 +691,6 @@
         <bodyGraphicData>
           <texPath>Things/Pawn/Xenomorph/Xenomorph_Drone</texPath>
           <graphicClass>Graphic_Multi</graphicClass>
-          <flipWest>true</flipWest>
           <drawSize>1.25</drawSize>
           <shadowData>
             <volume>(0.4, 0.8, 0.4)</volume>
@@ -712,7 +701,6 @@
         <bodyGraphicData>
           <texPath>Things/Pawn/Xenomorph/Xenomorph_Drone</texPath>
           <graphicClass>Graphic_Multi</graphicClass>
-          <flipWest>true</flipWest>
           <drawSize>1.5</drawSize>
           <shadowData>
             <volume>(0.4, 0.8, 0.4)</volume>
@@ -870,7 +858,6 @@
         <bodyGraphicData>
           <texPath>Things/Pawn/Xenomorph/ChestBursterBloody</texPath>
           <graphicClass>Graphic_Multi</graphicClass>
-          <flipWest>true</flipWest>
           <drawSize>0.5</drawSize>
           <shadowData>
             <volume><!--(0.6, 0.8, 0.6)-->(0.0, 0.0, 0.0)</volume>
@@ -884,7 +871,6 @@
         <bodyGraphicData>
           <texPath>Things/Pawn/Xenomorph/ChestBurster</texPath>
           <graphicClass>Graphic_Multi</graphicClass>
-          <flipWest>true</flipWest>
           <drawSize>0.75</drawSize>
           <shadowData>
             <volume><!--(0.6, 0.8, 0.6)-->(0.0, 0.0, 0.0)</volume>
@@ -896,7 +882,6 @@
         <bodyGraphicData>
           <texPath>Things/Pawn/Xenomorph/Warrior</texPath>
           <graphicClass>Graphic_Multi</graphicClass>
-          <flipWest>true</flipWest>
           <shaderType>CutoutComplex</shaderType>
           <drawSize>0.95</drawSize>
           <shadowData>
@@ -909,7 +894,6 @@
         <bodyGraphicData>
           <texPath>Things/Pawn/Xenomorph/Warrior</texPath>
           <graphicClass>Graphic_Multi</graphicClass>
-          <flipWest>true</flipWest>
           <shaderType>CutoutComplex</shaderType>
           <drawSize>1.35</drawSize>
           <shadowData>
@@ -922,7 +906,6 @@
         <bodyGraphicData>
           <texPath>Things/Pawn/Xenomorph/Warrior</texPath>
           <graphicClass>Graphic_Multi</graphicClass>
-          <flipWest>true</flipWest>
           <shaderType>CutoutComplex</shaderType>
           <drawSize>1.75</drawSize>
           <shadowData>
@@ -1066,7 +1049,6 @@
         <bodyGraphicData>
           <texPath>Things/Pawn/Xenomorph/Xenomorph_ChestBurster</texPath>
           <graphicClass>Graphic_Multi</graphicClass>
-          <flipWest>true</flipWest>
           <drawSize>0.5</drawSize>
           <shadowData>
             <volume><!--(0.6, 0.8, 0.6)-->(0.0, 0.0, 0.0)</volume>
@@ -1078,7 +1060,6 @@
         <bodyGraphicData>
           <texPath>Things/Pawn/Xenomorph/Xenomorph_ChestBurster</texPath>
           <graphicClass>Graphic_Multi</graphicClass>
-          <flipWest>true</flipWest>
           <drawSize>0.75</drawSize>
           <shadowData>
             <volume><!--(0.6, 0.8, 0.6)-->(0.0, 0.0, 0.0)</volume>
@@ -1089,7 +1070,6 @@
         <bodyGraphicData>
           <texPath>Things/Pawn/Xenomorph/Xenomorph_Runner</texPath>
           <graphicClass>Graphic_Multi</graphicClass>
-          <flipWest>true</flipWest>
           <drawSize>1.00</drawSize>
           <shadowData>
             <volume>(0.4, 0.8, 0.4)</volume>
@@ -1100,7 +1080,6 @@
         <bodyGraphicData>
           <texPath>Things/Pawn/Xenomorph/Xenomorph_Runner</texPath>
           <graphicClass>Graphic_Multi</graphicClass>
-          <flipWest>true</flipWest>
           <drawSize>1.15</drawSize>
           <shadowData>
             <volume>(0.4, 0.8, 0.4)</volume>
@@ -1111,7 +1090,6 @@
         <bodyGraphicData>
           <texPath>Things/Pawn/Xenomorph/Xenomorph_Runner</texPath>
           <graphicClass>Graphic_Multi</graphicClass>
-          <flipWest>true</flipWest>
           <drawSize>1.9</drawSize>
           <shadowData>
             <volume>(0.4, 0.8, 0.4)</volume>
@@ -1252,7 +1230,6 @@
         <bodyGraphicData>
           <texPath>Things/Pawn/Xenomorph/Xenomorph_PredBurster</texPath>
           <graphicClass>Graphic_Multi</graphicClass>
-          <flipWest>true</flipWest>
           <drawSize>0.5</drawSize>
           <shadowData>
             <volume><!--(0.6, 0.8, 0.6)-->(0.0, 0.0, 0.0)</volume>
@@ -1264,7 +1241,6 @@
         <bodyGraphicData>
           <texPath>Things/Pawn/Xenomorph/Xenomorph_PredBurster</texPath>
           <graphicClass>Graphic_Multi</graphicClass>
-          <flipWest>true</flipWest>
           <drawSize>0.75</drawSize>
           <shadowData>
             <volume><!--(0.6, 0.8, 0.6)-->(0.0, 0.0, 0.0)</volume>
@@ -1275,7 +1251,6 @@
         <bodyGraphicData>
           <texPath>Things/Pawn/Xenomorph/Xenomorph_Predalien</texPath>
           <graphicClass>Graphic_Multi</graphicClass>
-          <flipWest>true</flipWest>
           <drawSize>1.00</drawSize>
           <shadowData>
             <volume>(0.4, 0.8, 0.4)</volume>
@@ -1286,7 +1261,6 @@
         <bodyGraphicData>
           <texPath>Things/Pawn/Xenomorph/Xenomorph_Predalien</texPath>
           <graphicClass>Graphic_Multi</graphicClass>
-          <flipWest>true</flipWest>
           <drawSize>1.25</drawSize>
           <shadowData>
             <volume>(0.4, 0.8, 0.4)</volume>
@@ -1297,7 +1271,6 @@
         <bodyGraphicData>
           <texPath>Things/Pawn/Xenomorph/Xenomorph_Predalien</texPath>
           <graphicClass>Graphic_Multi</graphicClass>
-          <flipWest>true</flipWest>
           <drawSize>2.1</drawSize>
           <shadowData>
             <volume>(0.4, 0.8, 0.4)</volume>
@@ -1514,7 +1487,6 @@
         <bodyGraphicData>
           <texPath>Things/Pawn/Xenomorph/Xenomorph_ChestBurster</texPath>
           <graphicClass>Graphic_Multi</graphicClass>
-          <flipWest>true</flipWest>
           <drawSize>0.5</drawSize>
           <shadowData>
             <volume><!--(0.6, 0.8, 0.6)-->(0.0, 0.0, 0.0)</volume>
@@ -1526,7 +1498,6 @@
         <bodyGraphicData>
           <texPath>Things/Pawn/Xenomorph/Xenomorph_ChestBurster</texPath>
           <graphicClass>Graphic_Multi</graphicClass>
-          <flipWest>true</flipWest>
           <drawSize>0.75</drawSize>
           <shadowData>
             <volume><!--(0.6, 0.8, 0.6)-->(0.0, 0.0, 0.0)</volume>
@@ -1537,7 +1508,6 @@
         <bodyGraphicData>
           <texPath>Things/Pawn/Xenomorph/Xenomorph_Thrumbomorph</texPath>
           <graphicClass>Graphic_Multi</graphicClass>
-          <flipWest>true</flipWest>
           <drawSize>2</drawSize>
           <shadowData>
             <volume>(0.6, 0.8, 0.6)</volume>
@@ -1548,7 +1518,6 @@
         <bodyGraphicData>
           <texPath>Things/Pawn/Xenomorph/Xenomorph_Thrumbomorph</texPath>
           <graphicClass>Graphic_Multi</graphicClass>
-          <flipWest>true</flipWest>
           <drawSize>3</drawSize>
           <shadowData>
             <volume>(0.6, 0.8, 0.6)</volume>
@@ -1559,7 +1528,6 @@
         <bodyGraphicData>
           <texPath>Things/Pawn/Xenomorph/Xenomorph_Thrumbomorph</texPath>
           <graphicClass>Graphic_Multi</graphicClass>
-          <flipWest>true</flipWest>
           <drawSize>4</drawSize>
           <shadowData>
             <volume>(0.6, 0.8, 0.6)</volume>
