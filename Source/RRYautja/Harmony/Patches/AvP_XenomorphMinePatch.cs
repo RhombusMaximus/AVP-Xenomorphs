@@ -15,6 +15,9 @@ namespace RRYautja
     [StaticConstructorOnStartup]
     static class AvP_XenomorphMinePatch
     {
+        // Track which Mineable things are being mined by Xenomorphs
+        public static HashSet<Thing> xenomorphMiningTargets = new HashSet<Thing>();
+
         static AvP_XenomorphMinePatch()
         {
             var harmony = RRYautja.settings.AvPMod.harmony;
@@ -28,39 +31,55 @@ namespace RRYautja
                 {
                     harmony.Patch(original, prefix: new HarmonyMethod(typeof(AvP_XenomorphMinePatch), nameof(YieldComponentsPrefix)));
                 }
+
+                // Patch JobDriver_Mine.OnDestroy to track Xenomorph mining targets
+                var mineDestroy = AccessTools.Method(typeof(Mineable), "Notify_DestroyedMineable");
+                if (mineDestroy != null)
+                {
+                    harmony.Patch(mineDestroy, postfix: new HarmonyMethod(typeof(AvP_XenomorphMinePatch), nameof(NotifyDestroyedPostfix)));
+                }
             }
             catch (System.Exception e)
             {
-                Log.Error("[AVP Xenomorphs] Failed to patch Mineable.YieldComponents: " + e.Message);
+                Log.Error("[AVP Xenomorphs] Failed to patch mine: " + e.Message);
             }
         }
 
-        /// <summary>
-        /// Check if the thing being mined is being mined by a Xenomorph.
-        /// If so, suppress all yield (no chunks, no rubble).
-        /// </summary>
         public static bool YieldComponentsPrefix(Mineable __instance, ref IEnumerable<Thing> __result)
         {
-            // Check if any Xenomorph pawn is currently mining this thing
-            Map map = __instance.Map;
-            if (map == null) return true;
-
-            // Find any pawn with a Mine job targeting this thing
-            foreach (var pawn in map.mapPawns.AllPawnsSpawned)
+            if (xenomorphMiningTargets.Contains(__instance))
             {
-                if (pawn.CurJobDef == JobDefOf.Mine && pawn.jobs.curDriver != null)
+                __result = new List<Thing>();
+                return false;
+            }
+            return true;
+        }
+
+        public static void NotifyDestroyedPostfix(Mineable __instance)
+        {
+            xenomorphMiningTargets.Remove(__instance);
+        }
+    }
+
+    /// <summary>
+    /// Patch JobDriver_Mine to track when Xenomorphs start mining a target.
+    /// This runs at the start of the mine job, before YieldComponents is called.
+    /// </summary>
+    [HarmonyPatch(typeof(JobDriver_Mine))]
+    [HarmonyPatch("MakeNewToils")]
+    static class AvP_MineJobTrackerPatch
+    {
+        static void Postfix(JobDriver_Mine __instance)
+        {
+            Pawn pawn = __instance.pawn;
+            if (pawn != null && pawn.isXenomorph())
+            {
+                Thing target = __instance.job.targetA.Thing;
+                if (target != null && target is Mineable)
                 {
-                    var job = pawn.CurJob;
-                    if (job != null && job.targetA.Thing == __instance && pawn.isXenomorph())
-                    {
-                        // Suppress yield - return empty list
-                        __result = new List<Thing>();
-                        return false;
-                    }
+                    AvP_XenomorphMinePatch.xenomorphMiningTargets.Add(target);
                 }
             }
-
-            return true;
         }
     }
 }

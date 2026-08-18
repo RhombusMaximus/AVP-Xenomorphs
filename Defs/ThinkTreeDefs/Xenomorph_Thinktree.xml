@@ -119,6 +119,10 @@
 		  <subNodes>
 				<!-- React to close melee threat -->
 				<li Class="JobGiver_ReactToCloseMeleeThreat" />
+				<li Class="JobGiver_AIFightEnemies">
+				  <targetAcquireRadius>30</targetAcquireRadius>
+				  <targetKeepRadius>40</targetKeepRadius>
+				</li>
 				
 				<!-- Do a queued job -->
 				<li Class="ThinkNode_QueuedJob" />
