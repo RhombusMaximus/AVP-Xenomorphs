@@ -711,7 +711,7 @@ namespace RRYautja
         }
 
 
-        private static PawnKindDef RoyalKindDef = XenomorphDefOf.RRY_Xenomorph_RoyaleHugger;
-        private static PawnKindDef NormalKindDef = XenomorphDefOf.RRY_Xenomorph_FaceHugger;
+        static PawnKindDef RoyalKindDef { get { return XenomorphDefOf.RRY_Xenomorph_RoyaleHugger; } }
+        static PawnKindDef NormalKindDef { get { return XenomorphDefOf.RRY_Xenomorph_FaceHugger; } }
     }
 }

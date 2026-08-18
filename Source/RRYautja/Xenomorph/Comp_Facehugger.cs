@@ -85,8 +85,8 @@ namespace RRYautja
         }
         public int Impregnations;
 
-        public PawnKindDef HuggerKindDef = XenomorphDefOf.RRY_Xenomorph_FaceHugger;
-        public PawnKindDef RoyaleKindDef = XenomorphDefOf.RRY_Xenomorph_RoyaleHugger;
+        public PawnKindDef HuggerKindDef { get { return XenomorphDefOf.RRY_Xenomorph_FaceHugger; } }
+        public PawnKindDef RoyaleKindDef { get { return XenomorphDefOf.RRY_Xenomorph_RoyaleHugger; } }
 
         public int healIntervalTicks = 100;
         public int deathIntervalTicks = 300 * Rand.RangeInclusive(1,5);

@@ -43,10 +43,10 @@ namespace RRYautja
 
         public ThingDef HostDef = null;
 
-        public PawnKindDef HuggerKindDef = XenomorphDefOf.RRY_Xenomorph_FaceHugger;
-        public PawnKindDef RoyaleKindDef = XenomorphDefOf.RRY_Xenomorph_RoyaleHugger;
+        public PawnKindDef HuggerKindDef { get { return XenomorphDefOf.RRY_Xenomorph_FaceHugger; } }
+        public PawnKindDef RoyaleKindDef { get { return XenomorphDefOf.RRY_Xenomorph_RoyaleHugger; } }
 
-        public PawnKindDef QueenDef = XenomorphDefOf.RRY_Xenomorph_Queen;
+        public PawnKindDef QueenDef { get { return XenomorphDefOf.RRY_Xenomorph_Queen; } }
         public override void PostExposeData()
         {
             base.PostExposeData();

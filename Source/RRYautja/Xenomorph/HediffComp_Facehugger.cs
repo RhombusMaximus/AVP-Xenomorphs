@@ -47,11 +47,11 @@ namespace RRYautja
         private string FacehuggerTexpath = "Things/Pawn/Xenomorph/Xenomorph_FaceHugger_Mask";
         private string RoyalhuggerTexpath = "Things/Pawn/Xenomorph/Xenomorph_FaceHuggerRoyal_Mask";
 
-        public PawnKindDef HuggerKindDef = XenomorphDefOf.RRY_Xenomorph_FaceHugger;
-        public PawnKindDef RoyaleKindDef = XenomorphDefOf.RRY_Xenomorph_RoyaleHugger;
+        public PawnKindDef HuggerKindDef { get { return XenomorphDefOf.RRY_Xenomorph_FaceHugger; } }
+        public PawnKindDef RoyaleKindDef { get { return XenomorphDefOf.RRY_Xenomorph_RoyaleHugger; } }
 
         public PawnKindDef instigatorKindDef;
-        public HediffDef heDiffDeff = XenomorphDefOf.RRY_XenomorphImpregnation;
+        public HediffDef heDiffDeff { get { return XenomorphDefOf.RRY_XenomorphImpregnation; } }
         public int timer = 0;
         public int timer2 = 0;
         public int previousImpregnations;

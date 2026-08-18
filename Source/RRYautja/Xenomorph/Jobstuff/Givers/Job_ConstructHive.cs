@@ -141,7 +141,7 @@ namespace RimWorld
             return pawn.Reserve(targetA, job, 1, -1, ReservationLayerDefOf.Floor, errorOnFailed);
         }
 
-        public ThingDef MyDef = XenomorphDefOf.RRY_Xenomorph_Hive_Wall;
+        public ThingDef MyDef { get { return XenomorphDefOf.RRY_Xenomorph_Hive_Wall; } }
 
         // Token: 0x06000393 RID: 915 RVA: 0x000245C8 File Offset: 0x000229C8
         protected override IEnumerable<Toil> MakeNewToils()
@@ -196,7 +196,7 @@ namespace RimWorld
             return pawn.Reserve(targetA, job, 1, -1, null, errorOnFailed);
         }
 
-        public ThingDef MyDef = XenomorphDefOf.RRY_Xenomorph_Hive;
+        public ThingDef MyDef { get { return XenomorphDefOf.RRY_Xenomorph_Hive; } }
 
         // Token: 0x06000393 RID: 915 RVA: 0x000245C8 File Offset: 0x000229C8
         protected override IEnumerable<Toil> MakeNewToils()
@@ -258,7 +258,7 @@ namespace RimWorld
             return pawn.Reserve(targetA, job, 1, -1, null, errorOnFailed);
         }
 
-        public ThingDef MyDef = XenomorphDefOf.RRY_Xenomorph_Hive_Child;
+        public ThingDef MyDef { get { return XenomorphDefOf.RRY_Xenomorph_Hive_Child; } }
 
         // Token: 0x06000393 RID: 915 RVA: 0x000245C8 File Offset: 0x000229C8
         protected override IEnumerable<Toil> MakeNewToils()
@@ -313,7 +313,7 @@ namespace RimWorld
             return pawn.Reserve(targetA, job, 1, -1, null, errorOnFailed);
         }
 
-        public ThingDef MyDef = XenomorphDefOf.RRY_Xenomorph_Hive_Slime;
+        public ThingDef MyDef { get { return XenomorphDefOf.RRY_Xenomorph_Hive_Slime; } }
 
         // Token: 0x06000393 RID: 915 RVA: 0x000245C8 File Offset: 0x000229C8
         protected override IEnumerable<Toil> MakeNewToils()

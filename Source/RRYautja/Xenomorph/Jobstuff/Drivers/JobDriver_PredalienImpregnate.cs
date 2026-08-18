@@ -24,7 +24,7 @@ namespace RimWorld
             }
         }
 
-        public HediffDef heDiffDeff = XenomorphDefOf.RRY_XenomorphImpregnation;
+        public HediffDef heDiffDeff { get { return XenomorphDefOf.RRY_XenomorphImpregnation; } }
 
         // Token: 0x06000391 RID: 913 RVA: 0x00024554 File Offset: 0x00022954
         public override void Notify_Starting()
