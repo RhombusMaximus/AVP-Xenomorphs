@@ -30,8 +30,8 @@
     <statBases>
       <Mass>70</Mass>
       <PainShockThreshold>0.9999</PainShockThreshold>
-      <MeleeDodgeChance>1.5</MeleeDodgeChance>
-      <MeleeHitChance>1.5</MeleeHitChance>
+      <MeleeDodgeChance>0.75</MeleeDodgeChance>
+      <MeleeHitChance>0.75</MeleeHitChance>
       <MiningSpeed>1.5</MiningSpeed>
       <ImmunityGainSpeed>2.25</ImmunityGainSpeed>
       <PsychicSensitivity>1</PsychicSensitivity>
@@ -41,7 +41,7 @@
       <ComfyTemperatureMax>150</ComfyTemperatureMax>
       <MeatAmount>15</MeatAmount>
       <LeatherAmount>15</LeatherAmount>
-      <ArmorRating_Heat>0.75</ArmorRating_Heat>
+      <ArmorRating_Heat>0.375</ArmorRating_Heat>
     </statBases>
     <race>
       <renderTree>Animal</renderTree>
@@ -51,9 +51,9 @@
       <herdAnimal>false</herdAnimal>
       <!--predator>true</predator-->
       <maxPreyBodySize>3.0</maxPreyBodySize>
-      <baseBodySize>1.5</baseBodySize>
+      <baseBodySize>0.75</baseBodySize>
       <baseHungerRate>0.0</baseHungerRate>
-      <baseHealthScale>1.5</baseHealthScale>
+      <baseHealthScale>0.75</baseHealthScale>
       <fleshType>RRY_Xenomorph</fleshType>
       <bloodDef>RRY_FilthBloodXenomorph</bloodDef>	
       <needsRest>false</needsRest>
@@ -80,9 +80,9 @@
     <description>Facehuggers are the second stage in the Xenomorph's life cycle. It has eight long, finger-like legs, which allow it to crawl rapidly, and a long tail adapted for making great leaps. These particular appendages give it an appearance somewhat comparable to chelicerate arthropods such as arachnids and horseshoe crabs./n/nThe facehugger is a parasitoid; its only purpose is to make contact with the host's mouth for the implantation process by gripping its legs around the victim's head and wrapping its tail around the host's neck. Upon making contact, the facehugger administers a cynose-based paralytic in order to render it unconscious and immobile. During a successful attachment, the facehugger will insert a proboscis down the host's throat while simultaneously implanting an embryo. The host is kept alive, and the creature breathes for the host. Attempts to remove facehuggers generally prove fatal, as the parasitoid will respond by tightening its tail around the host's neck, and its acidic blood prevents it from being cut away. In addition, its grip on the host's head is strong enough to tear the host's face off if it is forcibly removed./n/nOnce the embryo is implanted, the facehugger will remain attached until the implant is secure, which can take anywhere from less than a minute to 16 hours. Once this happens, the parasite detaches, crawls away, and dies. The victim awakens with no awareness of the implantation, believing themselves to have been asleep, and appears to have a normal, healthy bodily function.</description>
     <statBases>
       <Mass>1.5</Mass>
-      <MoveSpeed>6.9</MoveSpeed>
-      <ArmorRating_Blunt>0.2</ArmorRating_Blunt>
-      <ArmorRating_Sharp>0.2</ArmorRating_Sharp>
+      <MoveSpeed>3.45</MoveSpeed>
+      <ArmorRating_Blunt>0.1</ArmorRating_Blunt>
+      <ArmorRating_Sharp>0.1</ArmorRating_Sharp>
     </statBases>
     <tools>
       <li>
@@ -91,8 +91,8 @@
           <!-- <li>RRY_FaceHuggerGrab</li> -->
           <li>Blunt</li>
         </capacities>
-        <power>3</power>
-        <cooldownTime>2</cooldownTime>
+        <power>1.5</power>
+        <cooldownTime>4.0</cooldownTime>
         <linkedBodyPartsGroup>HeadAttackTool</linkedBodyPartsGroup>
         <chanceFactor>0.5</chanceFactor>
       </li>
@@ -101,8 +101,8 @@
         <capacities>
           <li>Blunt</li>
         </capacities>
-        <power>3</power>
-        <cooldownTime>2</cooldownTime>
+        <power>1.5</power>
+        <cooldownTime>4.0</cooldownTime>
         <linkedBodyPartsGroup>HeadAttackTool</linkedBodyPartsGroup>
         <ensureLinkedBodyPartsGroupAlwaysUsable>true</ensureLinkedBodyPartsGroupAlwaysUsable>
         <chanceFactor>0.2</chanceFactor>
@@ -114,8 +114,8 @@
       <maxPreyBodySize>30</maxPreyBodySize>
       <intelligence>ToolUser</intelligence>
       <body>RRY_Xenomorph_FaceHugger</body>
-      <baseBodySize>0.30</baseBodySize>
-      <baseHealthScale>0.3</baseHealthScale>
+      <baseBodySize>0.15</baseBodySize>
+      <baseHealthScale>0.15</baseHealthScale>
       <lifeStageAges>
         <li>
           <def>RRY_XFacehuggerFullyFormed</def>
@@ -148,12 +148,13 @@
     <defName>RRY_Xenomorph_FaceHugger</defName>
     <label>Face Hugger</label>
     <race>RRY_Xenomorph_FaceHugger</race>
-    <combatPower>50</combatPower>
+    <combatPower>25.0</combatPower>
     <lifeStages>
       <li>
         <bodyGraphicData>
           <texPath>Things/Pawn/Xenomorph/Xenomorph_FaceHugger</texPath>
           <graphicClass>Graphic_Multi</graphicClass>
+          <flipWest>true</flipWest>
           <drawSize>2.30</drawSize>
         </bodyGraphicData>
       </li>
@@ -170,12 +171,13 @@
     <defName>RRY_Xenomorph_RoyaleHugger</defName>
     <label>Face Hugger</label>
     <race>RRY_Xenomorph_FaceHugger</race>
-    <combatPower>70</combatPower>
+    <combatPower>35.0</combatPower>
     <lifeStages>
       <li>
         <bodyGraphicData>
           <texPath>Things/Pawn/Xenomorph/Xenomorph_FaceHuggerRoyal</texPath>
           <graphicClass>Graphic_Multi</graphicClass>
+          <flipWest>true</flipWest>
           <drawSize>1.30</drawSize>
         </bodyGraphicData>
       </li>
@@ -195,10 +197,10 @@
     <description>Queen Xenomorphs are significantly larger and stronger than the normal adults, being approximately 4.5 metres (15 ft) tall. Their body structure differs also, having two pairs of arms, one large and one small. The queen's head is larger than those of other adult Xenomorphs and is protected by a large, flat crest, like a crown, which varies from queen to queen. Unlike other Xenomorphs, the queen's external mouth is separately segmented from the rest of her head, allowing her to turn her mouth left and right almost to the point where it is facing perpendicular to the direction of the rest of her head./n/nEgg-laying Xenomorph queens possess an immense ovipositor attached to their lower torso, similar to a queen termite's. Unlike insect queens, there appears to be no need for an Xenomorph queen's eggs to be fertilized. When attached to her ovipositor, the queen is supported by a "biomechanical throne" that consists of a lattice of struts resembling massive insect legs.</description>
     <statBases>
       <Mass>160</Mass>
-      <MoveSpeed>5.75</MoveSpeed>
-      <ArmorRating_Blunt>1.10</ArmorRating_Blunt>
-      <ArmorRating_Sharp>1.10</ArmorRating_Sharp>
-      <ArmorRating_Heat>1.10</ArmorRating_Heat>
+      <MoveSpeed>2.875</MoveSpeed>
+      <ArmorRating_Blunt>0.55</ArmorRating_Blunt>
+      <ArmorRating_Sharp>0.55</ArmorRating_Sharp>
+      <ArmorRating_Heat>0.55</ArmorRating_Heat>
       <MeatAmount>115</MeatAmount>
       <LeatherAmount>90</LeatherAmount>
       <PsychicSensitivity>0.25</PsychicSensitivity>
@@ -210,8 +212,8 @@
           <li>Blunt</li>
           <li>Cut</li>
         </capacities>
-        <power>15</power>
-        <cooldownTime>2</cooldownTime>
+        <power>7.5</power>
+        <cooldownTime>4.0</cooldownTime>
         <linkedBodyPartsGroup>RRY_Xeno_LeftHand</linkedBodyPartsGroup>
         <surpriseAttack>
           <extraMeleeDamages>
@@ -228,8 +230,8 @@
           <li>Blunt</li>
           <li>Cut</li>
         </capacities>
-        <power>15</power>
-        <cooldownTime>2</cooldownTime>
+        <power>7.5</power>
+        <cooldownTime>4.0</cooldownTime>
         <linkedBodyPartsGroup>RRY_Xeno_RightHand</linkedBodyPartsGroup>
         <surpriseAttack>
           <extraMeleeDamages>
@@ -245,8 +247,8 @@
         <capacities>
           <li>Bite</li>
         </capacities>
-        <power>25</power>
-        <cooldownTime>2</cooldownTime>
+        <power>12.5</power>
+        <cooldownTime>4.0</cooldownTime>
         <linkedBodyPartsGroup>Teeth</linkedBodyPartsGroup>
         <chanceFactor>0.07</chanceFactor>
       </li>
@@ -255,8 +257,8 @@
         <capacities>
           <li>Bite</li>
         </capacities>
-        <power>30</power>
-        <cooldownTime>2</cooldownTime>
+        <power>15.0</power>
+        <cooldownTime>4.0</cooldownTime>
         <linkedBodyPartsGroup>Teeth</linkedBodyPartsGroup>
         <chanceFactor>0.07</chanceFactor>
       </li>
@@ -265,8 +267,8 @@
         <capacities>
           <li>Blunt</li>
         </capacities>
-        <power>15</power>
-        <cooldownTime>2</cooldownTime>
+        <power>7.5</power>
+        <cooldownTime>4.0</cooldownTime>
         <linkedBodyPartsGroup>HeadAttackTool</linkedBodyPartsGroup>
         <ensureLinkedBodyPartsGroupAlwaysUsable>true</ensureLinkedBodyPartsGroupAlwaysUsable>
         <chanceFactor>0.2</chanceFactor>
@@ -277,8 +279,8 @@
           <li>Blunt</li>
           <li>RRY_TailWhip</li>
         </capacities>
-        <power>10</power>
-        <cooldownTime>2</cooldownTime>
+        <power>5.0</power>
+        <cooldownTime>4.0</cooldownTime>
         <linkedBodyPartsGroup>RRY_Xeno_Tail_AttackTool</linkedBodyPartsGroup>
         <chanceFactor>0.2</chanceFactor>
       </li>
@@ -288,8 +290,8 @@
           <li>Stab</li>
           <li>Cut</li>
         </capacities>
-        <power>40</power>
-        <cooldownTime>2.5</cooldownTime>
+        <power>20.0</power>
+        <cooldownTime>5.0</cooldownTime>
         <linkedBodyPartsGroup>RRY_Xeno_Tail_SpikeAttackTool</linkedBodyPartsGroup>
         <chanceFactor>0.2</chanceFactor>
       </li>
@@ -298,8 +300,8 @@
       <intelligence>ToolUser</intelligence>
       <body>RRY_Xenomorph_Biped</body>
 	  <useMeatFrom>RRY_Xenomorph_FaceHugger</useMeatFrom>
-      <baseBodySize>3.0</baseBodySize>
-      <baseHealthScale>28.5</baseHealthScale>
+      <baseBodySize>1.5</baseBodySize>
+      <baseHealthScale>14.25</baseHealthScale>
       <lifeStageAges>
         <li>
           <def>RRY_XenomorphChestBursterBaby</def>
@@ -369,12 +371,13 @@
     <defName>RRY_Xenomorph_Queen</defName>
     <label>Queen</label>
     <race>RRY_Xenomorph_Queen</race>
-    <combatPower>750</combatPower>
+    <combatPower>375.0</combatPower>
     <lifeStages>
       <li>
         <bodyGraphicData>
           <texPath>Things/Pawn/Xenomorph/ChestBursterBloody</texPath>
           <graphicClass>Graphic_Multi</graphicClass>
+          <flipWest>true</flipWest>
           <drawSize>0.5</drawSize>
           <shadowData>
             <volume><!--(0.6, 0.8, 0.6)-->(0.0, 0.0, 0.0)</volume>
@@ -388,6 +391,7 @@
         <bodyGraphicData>
           <texPath>Things/Pawn/Xenomorph/ChestBurster</texPath>
           <graphicClass>Graphic_Multi</graphicClass>
+          <flipWest>true</flipWest>
           <drawSize>0.75</drawSize>
           <shadowData>
             <volume><!--(0.6, 0.8, 0.6)-->(0.0, 0.0, 0.0)</volume>
@@ -399,6 +403,7 @@
         <bodyGraphicData>
           <texPath>Things/Pawn/Xenomorph/QueenYoung</texPath>
           <graphicClass>Graphic_Multi</graphicClass>
+          <flipWest>true</flipWest>
           <drawSize>1</drawSize>
           <shadowData>
             <volume>(0.6, 0.8, 0.6)</volume>
@@ -411,6 +416,7 @@
         <bodyGraphicData>
           <texPath>Things/Pawn/Xenomorph/QueenYoung</texPath>
           <graphicClass>Graphic_Multi</graphicClass>
+          <flipWest>true</flipWest>
           <drawSize>2</drawSize>
           <shadowData>
             <volume>(0.6, 0.8, 0.6)</volume>
@@ -423,6 +429,7 @@
         <bodyGraphicData>
           <texPath>Things/Pawn/Xenomorph/Queen</texPath>
           <graphicClass>Graphic_Multi</graphicClass>
+          <flipWest>true</flipWest>
           <drawSize>3.3</drawSize>
           <shadowData>
             <volume>(0.6, 0.8, 0.6)</volume>
@@ -445,7 +452,7 @@
   <ThingDef ParentName="RRY_BaseXenomorph" Name="BaseXenomorphWalker" Abstract="True">
     <race>
       <intelligence>ToolUser</intelligence>
-      <baseBodySize>1.0</baseBodySize>
+      <baseBodySize>0.5</baseBodySize>
       <lifeStageAges>
         <li>
           <def>RRY_XenomorphChestBursterBaby</def>
@@ -523,11 +530,11 @@
     <label>Drone</label>
     <description>Drones are an adult form of the species Xenomorph XX121, often said to be the most basic adult caste. They are loyal servants of the Queen, but essentially represents the lowliest class of Xenomorph, comparable to a worker ant. Drones construct Xenomorph Hives, using a resin-like secretion that they produce, and collect hosts for impregnation./n/n Drones are easily identified by their smooth head carapaces, among the smoothest of all Xenomorphs, and they are capable of spitting cysts of acidic blood at their enemies. They average around 8 feet tall when standing on hind legs, and about 14–15 feet long, tail included.</description>
     <statBases>
-      <MoveSpeed>5.2</MoveSpeed>
-      <MeleeDodgeChance>1.75</MeleeDodgeChance>
-      <MeleeHitChance>1.25</MeleeHitChance>
-      <ArmorRating_Blunt>0.40</ArmorRating_Blunt>
-      <ArmorRating_Sharp>0.60</ArmorRating_Sharp>
+      <MoveSpeed>2.6</MoveSpeed>
+      <MeleeDodgeChance>0.875</MeleeDodgeChance>
+      <MeleeHitChance>0.625</MeleeHitChance>
+      <ArmorRating_Blunt>0.2</ArmorRating_Blunt>
+      <ArmorRating_Sharp>0.3</ArmorRating_Sharp>
       <MeatAmount>30</MeatAmount>
       <LeatherAmount>30</LeatherAmount>
 		<ShootingAccuracyPawn>1.5</ShootingAccuracyPawn>
@@ -539,8 +546,8 @@
           <li>Blunt</li>
           <li>Cut</li>
         </capacities>
-        <power>11.5</power>
-        <cooldownTime>2</cooldownTime>
+        <power>5.75</power>
+        <cooldownTime>4.0</cooldownTime>
         <linkedBodyPartsGroup>RRY_Xeno_LeftHand</linkedBodyPartsGroup>
         <surpriseAttack>
           <extraMeleeDamages>
@@ -557,8 +564,8 @@
           <li>Blunt</li>
           <li>Cut</li>
         </capacities>
-        <power>11.5</power>
-        <cooldownTime>2</cooldownTime>
+        <power>5.75</power>
+        <cooldownTime>4.0</cooldownTime>
         <linkedBodyPartsGroup>RRY_Xeno_RightHand</linkedBodyPartsGroup>
         <surpriseAttack>
           <extraMeleeDamages>
@@ -574,8 +581,8 @@
         <capacities>
           <li>Bite</li>
         </capacities>
-        <power>12.5</power>
-        <cooldownTime>2</cooldownTime>
+        <power>6.25</power>
+        <cooldownTime>4.0</cooldownTime>
         <linkedBodyPartsGroup>Teeth</linkedBodyPartsGroup>
         <chanceFactor>0.07</chanceFactor>
       </li>
@@ -584,8 +591,8 @@
         <capacities>
           <li>Bite</li>
         </capacities>
-        <power>18.2</power>
-        <cooldownTime>2</cooldownTime>
+        <power>9.1</power>
+        <cooldownTime>4.0</cooldownTime>
         <linkedBodyPartsGroup>RRY_Xeno_InnerTeeth</linkedBodyPartsGroup>
         <chanceFactor>0.07</chanceFactor>
       </li>
@@ -594,8 +601,8 @@
         <capacities>
           <li>Blunt</li>
         </capacities>
-        <power>8</power>
-        <cooldownTime>2</cooldownTime>
+        <power>4.0</power>
+        <cooldownTime>4.0</cooldownTime>
         <linkedBodyPartsGroup>HeadAttackTool</linkedBodyPartsGroup>
         <ensureLinkedBodyPartsGroupAlwaysUsable>true</ensureLinkedBodyPartsGroupAlwaysUsable>
         <chanceFactor>0.5</chanceFactor>
@@ -606,8 +613,8 @@
           <li>Blunt</li>
           <li>RRY_TailWhip</li>
         </capacities>
-        <power>10</power>
-        <cooldownTime>2</cooldownTime>
+        <power>5.0</power>
+        <cooldownTime>4.0</cooldownTime>
         <linkedBodyPartsGroup>RRY_Xeno_Tail_AttackTool</linkedBodyPartsGroup>
         <chanceFactor>0.2</chanceFactor>
       </li>
@@ -617,8 +624,8 @@
           <li>Stab</li>
           <li>Cut</li>
         </capacities>
-        <power>20</power>
-        <cooldownTime>2</cooldownTime>
+        <power>10.0</power>
+        <cooldownTime>4.0</cooldownTime>
         <linkedBodyPartsGroup>RRY_Xeno_Tail_SpikeAttackTool</linkedBodyPartsGroup>
         <chanceFactor>0.2</chanceFactor>
       </li>
@@ -626,8 +633,8 @@
     <race>
       <body>RRY_Xenomorph_Biped</body>
 	  <useMeatFrom>RRY_Xenomorph_FaceHugger</useMeatFrom>
-      <baseHealthScale>0.72</baseHealthScale>
-      <baseBodySize>1.6</baseBodySize>
+      <baseHealthScale>0.36</baseHealthScale>
+      <baseBodySize>0.8</baseBodySize>
       <soundMeleeHitPawn>Pawn_Melee_Punch_HitPawn</soundMeleeHitPawn>
       <soundMeleeHitBuilding>Pawn_Melee_Punch_HitBuilding_Generic</soundMeleeHitBuilding>
       <soundMeleeMiss>Pawn_Melee_Punch_Miss</soundMeleeMiss>
@@ -644,7 +651,7 @@
     <defName>RRY_Xenomorph_Drone</defName>
     <label>Drone</label>
     <race>RRY_Xenomorph_Drone</race>
-    <combatPower>125</combatPower>
+    <combatPower>62.5</combatPower>
     <alternateGraphicChance>0.2</alternateGraphicChance>
     <alternateGraphics>
       <li><texPath>Things/Pawn/Xenomorph/Xenomorph_Drone_New_Dark</texPath></li>
@@ -657,6 +664,7 @@
         <bodyGraphicData>
           <texPath>Things/Pawn/Xenomorph/ChestBursterBloody</texPath>
           <graphicClass>Graphic_Multi</graphicClass>
+          <flipWest>true</flipWest>
           <drawSize>0.5</drawSize>
           <shadowData>
             <volume><!--(0.6, 0.8, 0.6)-->(0.0, 0.0, 0.0)</volume>
@@ -670,6 +678,7 @@
         <bodyGraphicData>
           <texPath>Things/Pawn/Xenomorph/ChestBurster</texPath>
           <graphicClass>Graphic_Multi</graphicClass>
+          <flipWest>true</flipWest>
           <drawSize>0.75</drawSize>
           <shadowData>
             <volume><!--(0.6, 0.8, 0.6)-->(0.0, 0.0, 0.0)</volume>
@@ -681,6 +690,7 @@
         <bodyGraphicData>
           <texPath>Things/Pawn/Xenomorph/Xenomorph_Drone</texPath>
           <graphicClass>Graphic_Multi</graphicClass>
+          <flipWest>true</flipWest>
           <drawSize>1.0</drawSize>
           <shadowData>
             <volume>(0.4, 0.8, 0.4)</volume>
@@ -691,6 +701,7 @@
         <bodyGraphicData>
           <texPath>Things/Pawn/Xenomorph/Xenomorph_Drone</texPath>
           <graphicClass>Graphic_Multi</graphicClass>
+          <flipWest>true</flipWest>
           <drawSize>1.25</drawSize>
           <shadowData>
             <volume>(0.4, 0.8, 0.4)</volume>
@@ -701,6 +712,7 @@
         <bodyGraphicData>
           <texPath>Things/Pawn/Xenomorph/Xenomorph_Drone</texPath>
           <graphicClass>Graphic_Multi</graphicClass>
+          <flipWest>true</flipWest>
           <drawSize>1.5</drawSize>
           <shadowData>
             <volume>(0.4, 0.8, 0.4)</volume>
@@ -733,9 +745,9 @@
     <description>Warriors, also known as Soldiers, are the primary assault caste of the Xenomorph XX121 species and as such is almost certainly the most numerous caste of Xenomorph in existence. They are fast, reasonably tough, and savage combatants./n/nEven in death the Warrior is dangerous, as its pressurized bloodstream will cause it to burst apart, drenching nearby enemies in acid blood. Warriors are identified by their ridged heads, and stand around 7–8 feet tall on their hind legs. They are about 14–16 feet long, including their tail.</description>
     <statBases>
       <Mass>85</Mass>
-      <MoveSpeed>5.5</MoveSpeed>
-      <ArmorRating_Blunt>0.55</ArmorRating_Blunt>
-      <ArmorRating_Sharp>0.70</ArmorRating_Sharp>
+      <MoveSpeed>2.75</MoveSpeed>
+      <ArmorRating_Blunt>0.275</ArmorRating_Blunt>
+      <ArmorRating_Sharp>0.35</ArmorRating_Sharp>
       <MeatAmount>45</MeatAmount>
       <LeatherAmount>45</LeatherAmount>
     </statBases>
@@ -746,8 +758,8 @@
           <li>Blunt</li>
           <li>Cut</li>
         </capacities>
-        <power>16.2</power>
-        <cooldownTime>2</cooldownTime>
+        <power>8.1</power>
+        <cooldownTime>4.0</cooldownTime>
         <linkedBodyPartsGroup>RRY_Xeno_LeftHand</linkedBodyPartsGroup>
         <surpriseAttack>
           <extraMeleeDamages>
@@ -764,8 +776,8 @@
           <li>Blunt</li>
           <li>Cut</li>
         </capacities>
-        <power>16.2</power>
-        <cooldownTime>2</cooldownTime>
+        <power>8.1</power>
+        <cooldownTime>4.0</cooldownTime>
         <linkedBodyPartsGroup>RRY_Xeno_RightHand</linkedBodyPartsGroup>
         <surpriseAttack>
           <extraMeleeDamages>
@@ -781,8 +793,8 @@
         <capacities>
           <li>Bite</li>
         </capacities>
-        <power>12.2</power>
-        <cooldownTime>2</cooldownTime>
+        <power>6.1</power>
+        <cooldownTime>4.0</cooldownTime>
         <linkedBodyPartsGroup>Teeth</linkedBodyPartsGroup>
         <chanceFactor>0.07</chanceFactor>
       </li>
@@ -791,8 +803,8 @@
         <capacities>
           <li>Bite</li>
         </capacities>
-        <power>20.2</power>
-        <cooldownTime>2</cooldownTime>
+        <power>10.1</power>
+        <cooldownTime>4.0</cooldownTime>
         <linkedBodyPartsGroup>Teeth</linkedBodyPartsGroup>
         <chanceFactor>0.07</chanceFactor>
       </li>
@@ -801,8 +813,8 @@
         <capacities>
           <li>Blunt</li>
         </capacities>
-        <power>9</power>
-        <cooldownTime>2</cooldownTime>
+        <power>4.5</power>
+        <cooldownTime>4.0</cooldownTime>
         <linkedBodyPartsGroup>HeadAttackTool</linkedBodyPartsGroup>
         <ensureLinkedBodyPartsGroupAlwaysUsable>true</ensureLinkedBodyPartsGroupAlwaysUsable>
         <chanceFactor>0.2</chanceFactor>
@@ -813,8 +825,8 @@
           <li>Blunt</li>
           <li>RRY_TailWhip</li>
         </capacities>
-        <power>9</power>
-        <cooldownTime>2</cooldownTime>
+        <power>4.5</power>
+        <cooldownTime>4.0</cooldownTime>
         <linkedBodyPartsGroup>RRY_Xeno_Tail_AttackTool</linkedBodyPartsGroup>
         <chanceFactor>0.2</chanceFactor>
       </li>
@@ -824,8 +836,8 @@
           <li>Stab</li>
           <li>Cut</li>
         </capacities>
-        <power>25</power>
-        <cooldownTime>2</cooldownTime>
+        <power>12.5</power>
+        <cooldownTime>4.0</cooldownTime>
         <linkedBodyPartsGroup>RRY_Xeno_Tail_SpikeAttackTool</linkedBodyPartsGroup>
         <chanceFactor>0.2</chanceFactor>
       </li>
@@ -833,8 +845,8 @@
     <race>
       <body>RRY_Xenomorph_Biped</body>
 	  <useMeatFrom>RRY_Xenomorph_FaceHugger</useMeatFrom>
-      <baseHealthScale>1.72</baseHealthScale>
-      <baseBodySize>2.0</baseBodySize>
+      <baseHealthScale>0.86</baseHealthScale>
+      <baseBodySize>1.0</baseBodySize>
       <soundMeleeHitPawn>Pawn_Melee_Punch_HitPawn</soundMeleeHitPawn>
       <soundMeleeHitBuilding>Pawn_Melee_Punch_HitBuilding_Generic</soundMeleeHitBuilding>
       <soundMeleeMiss>Pawn_Melee_Punch_Miss</soundMeleeMiss>
@@ -845,7 +857,7 @@
     <defName>RRY_Xenomorph_Warrior</defName>
     <label>Warrior</label>
     <race>RRY_Xenomorph_Warrior</race>
-    <combatPower>160</combatPower>
+    <combatPower>80.0</combatPower>
 	<!--
     <alternateGraphicChance>0.5</alternateGraphicChance>
     <alternateGraphics>
@@ -858,6 +870,7 @@
         <bodyGraphicData>
           <texPath>Things/Pawn/Xenomorph/ChestBursterBloody</texPath>
           <graphicClass>Graphic_Multi</graphicClass>
+          <flipWest>true</flipWest>
           <drawSize>0.5</drawSize>
           <shadowData>
             <volume><!--(0.6, 0.8, 0.6)-->(0.0, 0.0, 0.0)</volume>
@@ -871,6 +884,7 @@
         <bodyGraphicData>
           <texPath>Things/Pawn/Xenomorph/ChestBurster</texPath>
           <graphicClass>Graphic_Multi</graphicClass>
+          <flipWest>true</flipWest>
           <drawSize>0.75</drawSize>
           <shadowData>
             <volume><!--(0.6, 0.8, 0.6)-->(0.0, 0.0, 0.0)</volume>
@@ -882,6 +896,7 @@
         <bodyGraphicData>
           <texPath>Things/Pawn/Xenomorph/Warrior</texPath>
           <graphicClass>Graphic_Multi</graphicClass>
+          <flipWest>true</flipWest>
           <shaderType>CutoutComplex</shaderType>
           <drawSize>0.95</drawSize>
           <shadowData>
@@ -894,6 +909,7 @@
         <bodyGraphicData>
           <texPath>Things/Pawn/Xenomorph/Warrior</texPath>
           <graphicClass>Graphic_Multi</graphicClass>
+          <flipWest>true</flipWest>
           <shaderType>CutoutComplex</shaderType>
           <drawSize>1.35</drawSize>
           <shadowData>
@@ -906,6 +922,7 @@
         <bodyGraphicData>
           <texPath>Things/Pawn/Xenomorph/Warrior</texPath>
           <graphicClass>Graphic_Multi</graphicClass>
+          <flipWest>true</flipWest>
           <shaderType>CutoutComplex</shaderType>
           <drawSize>1.75</drawSize>
           <shadowData>
@@ -931,9 +948,9 @@
     <description>Runners, also known as Dog Aliens or Ox Aliens, is an adult form of the species Xenomorph XX121 spawned from a quadrupedal host animal (such as a dog). Runners, as their name implies, are fast and agile, and can spit acid from their mouths./n/n Runners have variously been portrayed as being slightly larger and slightly smaller than typical human-spawned Aliens, differences that no doubt derive from the animal that hosted the creature. However, Runners average around 7 feet 5 inches tall when standing on their hind legs.</description>
     <statBases>
       <Mass>60</Mass>
-      <MoveSpeed>7.6</MoveSpeed>
-      <ArmorRating_Blunt>0.25</ArmorRating_Blunt>
-      <ArmorRating_Sharp>0.40</ArmorRating_Sharp>
+      <MoveSpeed>3.8</MoveSpeed>
+      <ArmorRating_Blunt>0.125</ArmorRating_Blunt>
+      <ArmorRating_Sharp>0.2</ArmorRating_Sharp>
       <MeatAmount>25</MeatAmount>
       <LeatherAmount>25</LeatherAmount>
     </statBases>
@@ -944,8 +961,8 @@
           <li>Blunt</li>
           <li>Cut</li>
         </capacities>
-        <power>10.2</power>
-        <cooldownTime>2</cooldownTime>
+        <power>5.1</power>
+        <cooldownTime>4.0</cooldownTime>
         <linkedBodyPartsGroup>RRY_Xeno_LeftHand</linkedBodyPartsGroup>
         <surpriseAttack>
           <extraMeleeDamages>
@@ -962,8 +979,8 @@
           <li>Blunt</li>
           <li>Cut</li>
         </capacities>
-        <power>10.2</power>
-        <cooldownTime>2</cooldownTime>
+        <power>5.1</power>
+        <cooldownTime>4.0</cooldownTime>
         <linkedBodyPartsGroup>RRY_Xeno_RightHand</linkedBodyPartsGroup>
         <surpriseAttack>
           <extraMeleeDamages>
@@ -979,8 +996,8 @@
         <capacities>
           <li>Bite</li>
         </capacities>
-        <power>15.2</power>
-        <cooldownTime>2</cooldownTime>
+        <power>7.6</power>
+        <cooldownTime>4.0</cooldownTime>
         <linkedBodyPartsGroup>Teeth</linkedBodyPartsGroup>
         <chanceFactor>0.07</chanceFactor>
       </li>
@@ -989,8 +1006,8 @@
         <capacities>
           <li>Bite</li>
         </capacities>
-        <power>20.2</power>
-        <cooldownTime>2</cooldownTime>
+        <power>10.1</power>
+        <cooldownTime>4.0</cooldownTime>
         <linkedBodyPartsGroup>RRY_Xeno_InnerTeeth</linkedBodyPartsGroup>
         <chanceFactor>0.07</chanceFactor>
       </li>
@@ -999,8 +1016,8 @@
         <capacities>
           <li>Blunt</li>
         </capacities>
-        <power>6</power>
-        <cooldownTime>2</cooldownTime>
+        <power>3.0</power>
+        <cooldownTime>4.0</cooldownTime>
         <linkedBodyPartsGroup>HeadAttackTool</linkedBodyPartsGroup>
         <ensureLinkedBodyPartsGroupAlwaysUsable>true</ensureLinkedBodyPartsGroupAlwaysUsable>
         <chanceFactor>0.2</chanceFactor>
@@ -1011,8 +1028,8 @@
           <li>Blunt</li>
           <li>RRY_TailWhip</li>
         </capacities>
-        <power>7</power>
-        <cooldownTime>2</cooldownTime>
+        <power>3.5</power>
+        <cooldownTime>4.0</cooldownTime>
         <linkedBodyPartsGroup>RRY_Xeno_Tail_AttackTool</linkedBodyPartsGroup>
         <chanceFactor>0.2</chanceFactor>
       </li>
@@ -1022,8 +1039,8 @@
           <li>Stab</li>
           <li>Cut</li>
         </capacities>
-        <power>25</power>
-        <cooldownTime>2</cooldownTime>
+        <power>12.5</power>
+        <cooldownTime>4.0</cooldownTime>
         <linkedBodyPartsGroup>RRY_Xeno_Tail_SpikeAttackTool</linkedBodyPartsGroup>
         <chanceFactor>0.2</chanceFactor>
       </li>
@@ -1031,8 +1048,8 @@
     <race>
       <body>RRY_Xenomorph_Quadruped</body>
 	  <useMeatFrom>RRY_Xenomorph_FaceHugger</useMeatFrom>
-      <baseBodySize>1.4</baseBodySize>
-      <baseHealthScale>1.32</baseHealthScale>
+      <baseBodySize>0.7</baseBodySize>
+      <baseHealthScale>0.66</baseHealthScale>
       <soundMeleeHitPawn>Pawn_Melee_Punch_HitPawn</soundMeleeHitPawn>
       <soundMeleeHitBuilding>Pawn_Melee_Punch_HitBuilding_Generic</soundMeleeHitBuilding>
       <soundMeleeMiss>Pawn_Melee_Punch_Miss</soundMeleeMiss>
@@ -1043,12 +1060,13 @@
     <defName>RRY_Xenomorph_Runner</defName>
     <label>Runner</label>
     <race>RRY_Xenomorph_Runner</race>
-    <combatPower>100</combatPower>
+    <combatPower>50.0</combatPower>
     <lifeStages>
       <li>
         <bodyGraphicData>
           <texPath>Things/Pawn/Xenomorph/Xenomorph_ChestBurster</texPath>
           <graphicClass>Graphic_Multi</graphicClass>
+          <flipWest>true</flipWest>
           <drawSize>0.5</drawSize>
           <shadowData>
             <volume><!--(0.6, 0.8, 0.6)-->(0.0, 0.0, 0.0)</volume>
@@ -1060,6 +1078,7 @@
         <bodyGraphicData>
           <texPath>Things/Pawn/Xenomorph/Xenomorph_ChestBurster</texPath>
           <graphicClass>Graphic_Multi</graphicClass>
+          <flipWest>true</flipWest>
           <drawSize>0.75</drawSize>
           <shadowData>
             <volume><!--(0.6, 0.8, 0.6)-->(0.0, 0.0, 0.0)</volume>
@@ -1070,6 +1089,7 @@
         <bodyGraphicData>
           <texPath>Things/Pawn/Xenomorph/Xenomorph_Runner</texPath>
           <graphicClass>Graphic_Multi</graphicClass>
+          <flipWest>true</flipWest>
           <drawSize>1.00</drawSize>
           <shadowData>
             <volume>(0.4, 0.8, 0.4)</volume>
@@ -1080,6 +1100,7 @@
         <bodyGraphicData>
           <texPath>Things/Pawn/Xenomorph/Xenomorph_Runner</texPath>
           <graphicClass>Graphic_Multi</graphicClass>
+          <flipWest>true</flipWest>
           <drawSize>1.15</drawSize>
           <shadowData>
             <volume>(0.4, 0.8, 0.4)</volume>
@@ -1090,6 +1111,7 @@
         <bodyGraphicData>
           <texPath>Things/Pawn/Xenomorph/Xenomorph_Runner</texPath>
           <graphicClass>Graphic_Multi</graphicClass>
+          <flipWest>true</flipWest>
           <drawSize>1.9</drawSize>
           <shadowData>
             <volume>(0.4, 0.8, 0.4)</volume>
@@ -1112,9 +1134,9 @@
     <description>Predaliens are a rare and deadly variant of Xenomorph. A more obvious result of the Xenomorph's DNA Reflex, the Predalien has distinctive physical features such as dreadlocks, mandibles and lighter skin coloration./n/n They are lethal combatants, often seen to possess strength far in excess of human-spawned Xenomorphs, a trait the Predalien subsequently inherits and enhances. They are apparently rare and are regarded as abominations by other Xenomorphs.</description>
     <statBases>
       <Mass>95</Mass>
-      <MoveSpeed>5.6</MoveSpeed>
-      <ArmorRating_Blunt>0.55</ArmorRating_Blunt>
-      <ArmorRating_Sharp>0.80</ArmorRating_Sharp>
+      <MoveSpeed>2.8</MoveSpeed>
+      <ArmorRating_Blunt>0.275</ArmorRating_Blunt>
+      <ArmorRating_Sharp>0.4</ArmorRating_Sharp>
       <MeatAmount>25</MeatAmount>
       <LeatherAmount>25</LeatherAmount>
     </statBases>
@@ -1125,8 +1147,8 @@
           <li>Blunt</li>
           <li>Cut</li>
         </capacities>
-        <power>17.2</power>
-        <cooldownTime>2</cooldownTime>
+        <power>8.6</power>
+        <cooldownTime>4.0</cooldownTime>
         <linkedBodyPartsGroup>RRY_Xeno_LeftHand</linkedBodyPartsGroup>
         <surpriseAttack>
           <extraMeleeDamages>
@@ -1143,8 +1165,8 @@
           <li>Blunt</li>
           <li>Cut</li>
         </capacities>
-        <power>17.2</power>
-        <cooldownTime>2</cooldownTime>
+        <power>8.6</power>
+        <cooldownTime>4.0</cooldownTime>
         <linkedBodyPartsGroup>RRY_Xeno_RightHand</linkedBodyPartsGroup>
         <surpriseAttack>
           <extraMeleeDamages>
@@ -1160,8 +1182,8 @@
         <capacities>
           <li>Bite</li>
         </capacities>
-        <power>13.2</power>
-        <cooldownTime>2</cooldownTime>
+        <power>6.6</power>
+        <cooldownTime>4.0</cooldownTime>
         <linkedBodyPartsGroup>Teeth</linkedBodyPartsGroup>
         <chanceFactor>0.07</chanceFactor>
       </li>
@@ -1170,8 +1192,8 @@
         <capacities>
           <li>Bite</li>
         </capacities>
-        <power>22.2</power>
-        <cooldownTime>2</cooldownTime>
+        <power>11.1</power>
+        <cooldownTime>4.0</cooldownTime>
         <linkedBodyPartsGroup>Teeth</linkedBodyPartsGroup>
         <chanceFactor>0.07</chanceFactor>
       </li>
@@ -1180,8 +1202,8 @@
         <capacities>
           <li>Blunt</li>
         </capacities>
-        <power>10</power>
-        <cooldownTime>2</cooldownTime>
+        <power>5.0</power>
+        <cooldownTime>4.0</cooldownTime>
         <linkedBodyPartsGroup>HeadAttackTool</linkedBodyPartsGroup>
         <ensureLinkedBodyPartsGroupAlwaysUsable>true</ensureLinkedBodyPartsGroupAlwaysUsable>
         <chanceFactor>0.2</chanceFactor>
@@ -1192,8 +1214,8 @@
           <li>Blunt</li>
           <li>RRY_TailWhip</li>
         </capacities>
-        <power>12</power>
-        <cooldownTime>2</cooldownTime>
+        <power>6.0</power>
+        <cooldownTime>4.0</cooldownTime>
         <linkedBodyPartsGroup>RRY_Xeno_Tail_AttackTool</linkedBodyPartsGroup>
         <chanceFactor>0.2</chanceFactor>
       </li>
@@ -1203,8 +1225,8 @@
           <li>Stab</li>
           <li>Cut</li>
         </capacities>
-        <power>30</power>
-        <cooldownTime>2</cooldownTime>
+        <power>15.0</power>
+        <cooldownTime>4.0</cooldownTime>
         <linkedBodyPartsGroup>RRY_Xeno_Tail_SpikeAttackTool</linkedBodyPartsGroup>
         <chanceFactor>0.2</chanceFactor>
       </li>
@@ -1212,8 +1234,8 @@
     <race>
       <body>RRY_Xenomorph_Biped_Predalien</body>
 	  <useMeatFrom>RRY_Xenomorph_FaceHugger</useMeatFrom>
-      <baseHealthScale>2.72</baseHealthScale>
-      <baseBodySize>2.4</baseBodySize>
+      <baseHealthScale>1.36</baseHealthScale>
+      <baseBodySize>1.2</baseBodySize>
       <soundMeleeHitPawn>Pawn_Melee_Punch_HitPawn</soundMeleeHitPawn>
       <soundMeleeHitBuilding>Pawn_Melee_Punch_HitBuilding_Generic</soundMeleeHitBuilding>
       <soundMeleeMiss>Pawn_Melee_Punch_Miss</soundMeleeMiss>
@@ -1224,12 +1246,13 @@
     <defName>RRY_Xenomorph_Predalien</defName>
     <label>Predalien</label>
     <race>RRY_Xenomorph_Predalien</race>
-    <combatPower>230</combatPower>
+    <combatPower>115.0</combatPower>
     <lifeStages>
       <li>
         <bodyGraphicData>
           <texPath>Things/Pawn/Xenomorph/Xenomorph_PredBurster</texPath>
           <graphicClass>Graphic_Multi</graphicClass>
+          <flipWest>true</flipWest>
           <drawSize>0.5</drawSize>
           <shadowData>
             <volume><!--(0.6, 0.8, 0.6)-->(0.0, 0.0, 0.0)</volume>
@@ -1241,6 +1264,7 @@
         <bodyGraphicData>
           <texPath>Things/Pawn/Xenomorph/Xenomorph_PredBurster</texPath>
           <graphicClass>Graphic_Multi</graphicClass>
+          <flipWest>true</flipWest>
           <drawSize>0.75</drawSize>
           <shadowData>
             <volume><!--(0.6, 0.8, 0.6)-->(0.0, 0.0, 0.0)</volume>
@@ -1251,6 +1275,7 @@
         <bodyGraphicData>
           <texPath>Things/Pawn/Xenomorph/Xenomorph_Predalien</texPath>
           <graphicClass>Graphic_Multi</graphicClass>
+          <flipWest>true</flipWest>
           <drawSize>1.00</drawSize>
           <shadowData>
             <volume>(0.4, 0.8, 0.4)</volume>
@@ -1261,6 +1286,7 @@
         <bodyGraphicData>
           <texPath>Things/Pawn/Xenomorph/Xenomorph_Predalien</texPath>
           <graphicClass>Graphic_Multi</graphicClass>
+          <flipWest>true</flipWest>
           <drawSize>1.25</drawSize>
           <shadowData>
             <volume>(0.4, 0.8, 0.4)</volume>
@@ -1271,6 +1297,7 @@
         <bodyGraphicData>
           <texPath>Things/Pawn/Xenomorph/Xenomorph_Predalien</texPath>
           <graphicClass>Graphic_Multi</graphicClass>
+          <flipWest>true</flipWest>
           <drawSize>2.1</drawSize>
           <shadowData>
             <volume>(0.4, 0.8, 0.4)</volume>
@@ -1293,10 +1320,10 @@
     <description>Thrumbomorph Xenomorphs are significantly larger and stronger than the normal adults, being over 5 metres tall. Their body structure differs also, having no arms, although its large limbs many manipulate objects. The thrumbomorphs's head is larger than those of other adult Xenomorphs and is adorned by a large, flat blade, which is an inherited feature from its host./n/nThis thing is a total monstrosity and can easily dismantle a battle tank, do not engage lightly.</description>
     <statBases>
       <Mass>200</Mass>
-      <MoveSpeed>5.5</MoveSpeed>
-      <ArmorRating_Blunt>1.30</ArmorRating_Blunt>
-      <ArmorRating_Sharp>1.60</ArmorRating_Sharp>
-      <ArmorRating_Heat>1.00</ArmorRating_Heat>
+      <MoveSpeed>2.75</MoveSpeed>
+      <ArmorRating_Blunt>0.65</ArmorRating_Blunt>
+      <ArmorRating_Sharp>0.8</ArmorRating_Sharp>
+      <ArmorRating_Heat>0.5</ArmorRating_Heat>
       <MeatAmount>215</MeatAmount>
       <LeatherAmount>140</LeatherAmount>
       <PsychicSensitivity>0.5</PsychicSensitivity>
@@ -1308,8 +1335,8 @@
           <li>Scratch</li>
           <li>Stab</li>
         </capacities>
-        <power>50</power>
-        <cooldownTime>2</cooldownTime>
+        <power>25.0</power>
+        <cooldownTime>4.0</cooldownTime>
         <linkedBodyPartsGroup>HornAttackTool</linkedBodyPartsGroup>
       </li>
       <li>
@@ -1318,8 +1345,8 @@
           <li>Blunt</li>
           <li>Cut</li>
         </capacities>
-        <power>15</power>
-        <cooldownTime>2</cooldownTime>
+        <power>7.5</power>
+        <cooldownTime>4.0</cooldownTime>
         <linkedBodyPartsGroup>RRY_Xeno_LeftHand</linkedBodyPartsGroup>
         <surpriseAttack>
           <extraMeleeDamages>
@@ -1336,8 +1363,8 @@
           <li>Blunt</li>
           <li>Cut</li>
         </capacities>
-        <power>15</power>
-        <cooldownTime>2</cooldownTime>
+        <power>7.5</power>
+        <cooldownTime>4.0</cooldownTime>
         <linkedBodyPartsGroup>RRY_Xeno_RightHand</linkedBodyPartsGroup>
         <surpriseAttack>
           <extraMeleeDamages>
@@ -1353,8 +1380,8 @@
         <capacities>
           <li>Bite</li>
         </capacities>
-        <power>25</power>
-        <cooldownTime>2</cooldownTime>
+        <power>12.5</power>
+        <cooldownTime>4.0</cooldownTime>
         <linkedBodyPartsGroup>Teeth</linkedBodyPartsGroup>
         <chanceFactor>0.07</chanceFactor>
       </li>
@@ -1363,8 +1390,8 @@
         <capacities>
           <li>Bite</li>
         </capacities>
-        <power>30</power>
-        <cooldownTime>2</cooldownTime>
+        <power>15.0</power>
+        <cooldownTime>4.0</cooldownTime>
         <linkedBodyPartsGroup>Teeth</linkedBodyPartsGroup>
         <chanceFactor>0.07</chanceFactor>
       </li>
@@ -1373,8 +1400,8 @@
         <capacities>
           <li>Blunt</li>
         </capacities>
-        <power>20</power>
-        <cooldownTime>2</cooldownTime>
+        <power>10.0</power>
+        <cooldownTime>4.0</cooldownTime>
         <linkedBodyPartsGroup>HeadAttackTool</linkedBodyPartsGroup>
         <ensureLinkedBodyPartsGroupAlwaysUsable>true</ensureLinkedBodyPartsGroupAlwaysUsable>
         <chanceFactor>0.2</chanceFactor>
@@ -1385,8 +1412,8 @@
           <li>Blunt</li>
           <li>RRY_TailWhip</li>
         </capacities>
-        <power>15</power>
-        <cooldownTime>2</cooldownTime>
+        <power>7.5</power>
+        <cooldownTime>4.0</cooldownTime>
         <linkedBodyPartsGroup>RRY_Xeno_Tail_AttackTool</linkedBodyPartsGroup>
         <chanceFactor>0.2</chanceFactor>
       </li>
@@ -1396,8 +1423,8 @@
           <li>Stab</li>
           <li>Cut</li>
         </capacities>
-        <power>40</power>
-        <cooldownTime>2.5</cooldownTime>
+        <power>20.0</power>
+        <cooldownTime>5.0</cooldownTime>
         <linkedBodyPartsGroup>RRY_Xeno_Tail_SpikeAttackTool</linkedBodyPartsGroup>
         <chanceFactor>0.2</chanceFactor>
       </li>
@@ -1406,8 +1433,8 @@
       <intelligence>ToolUser</intelligence>
       <body>RRY_Xenomorph_QuadrupedWithHorn</body>
 	  <useMeatFrom>RRY_Xenomorph_FaceHugger</useMeatFrom>
-      <baseBodySize>4</baseBodySize>
-      <baseHealthScale>8.0</baseHealthScale>
+      <baseBodySize>2.0</baseBodySize>
+      <baseHealthScale>4.0</baseHealthScale>
       <manhunterOnDamageChance>1.00</manhunterOnDamageChance>
       <lifeStageAges>
         <li>
@@ -1481,12 +1508,13 @@
     <defName>RRY_Xenomorph_Thrumbomorph</defName>
     <label>Thrumbomorph</label>
     <race>RRY_Xenomorph_Thrumbomorph</race>
-    <combatPower>1250</combatPower>
+    <combatPower>625.0</combatPower>
     <lifeStages>
       <li>
         <bodyGraphicData>
           <texPath>Things/Pawn/Xenomorph/Xenomorph_ChestBurster</texPath>
           <graphicClass>Graphic_Multi</graphicClass>
+          <flipWest>true</flipWest>
           <drawSize>0.5</drawSize>
           <shadowData>
             <volume><!--(0.6, 0.8, 0.6)-->(0.0, 0.0, 0.0)</volume>
@@ -1498,6 +1526,7 @@
         <bodyGraphicData>
           <texPath>Things/Pawn/Xenomorph/Xenomorph_ChestBurster</texPath>
           <graphicClass>Graphic_Multi</graphicClass>
+          <flipWest>true</flipWest>
           <drawSize>0.75</drawSize>
           <shadowData>
             <volume><!--(0.6, 0.8, 0.6)-->(0.0, 0.0, 0.0)</volume>
@@ -1508,6 +1537,7 @@
         <bodyGraphicData>
           <texPath>Things/Pawn/Xenomorph/Xenomorph_Thrumbomorph</texPath>
           <graphicClass>Graphic_Multi</graphicClass>
+          <flipWest>true</flipWest>
           <drawSize>2</drawSize>
           <shadowData>
             <volume>(0.6, 0.8, 0.6)</volume>
@@ -1518,6 +1548,7 @@
         <bodyGraphicData>
           <texPath>Things/Pawn/Xenomorph/Xenomorph_Thrumbomorph</texPath>
           <graphicClass>Graphic_Multi</graphicClass>
+          <flipWest>true</flipWest>
           <drawSize>3</drawSize>
           <shadowData>
             <volume>(0.6, 0.8, 0.6)</volume>
@@ -1528,6 +1559,7 @@
         <bodyGraphicData>
           <texPath>Things/Pawn/Xenomorph/Xenomorph_Thrumbomorph</texPath>
           <graphicClass>Graphic_Multi</graphicClass>
+          <flipWest>true</flipWest>
           <drawSize>4</drawSize>
           <shadowData>
             <volume>(0.6, 0.8, 0.6)</volume>
