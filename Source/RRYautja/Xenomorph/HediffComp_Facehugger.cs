@@ -296,7 +296,8 @@ namespace RRYautja
                 else
                 {
                 //    Log.Message("using PawnGenerator");
-                    PawnGenerationRequest pawnGenerationRequest = new PawnGenerationRequest(pawnKindDef, null, PawnGenerationContext.NonPlayer, -1, true, false, true, false, true, 0f, true);
+                    Faction huggerFaction = Find.FactionManager.FirstFactionOfDef(XenomorphDefOf.RRY_Xenomorph);
+                    PawnGenerationRequest pawnGenerationRequest = new PawnGenerationRequest(pawnKindDef, huggerFaction, PawnGenerationContext.NonPlayer, -1, true, false, true, false, true, 0f, true);
                     pawn = PawnGenerator.GeneratePawn(pawnGenerationRequest);
                 }
             }
