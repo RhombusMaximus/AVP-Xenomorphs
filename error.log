@@ -1991,21 +1991,6 @@ Verse.LongEventHandler:LongEventsUpdate (bool&)
 (wrapper dynamic-method) MonoMod.Utils.DynamicMethodDefinition:Verse.Root.Update_Patch1 (Verse.Root)
 Verse.Root_Entry:Update ()
 
-[ImageOpt] load image "D:\\SteamLibrary\\steamapps\\workshop\\content\\294100\\1465459039\\Textures\\Rimlaser\\Weapons\\LaserHeavyMounted.dds": Unsupported DDS format
-UnityEngine.StackTraceUtility:ExtractStackTrace ()
-Verse.Log:Warning (string)
-ImageOpt.ImageOpt/<>c:<FlushLogger>b__5_1 (byte*)
-ImageOpt.ImageOpt:FlushLogger ()
-ImageOpt.ParallelTextureLoadPatch:PrefixV2 (Verse.ModContentHolder`1<UnityEngine.Texture2D>&,Verse.ModContentPack)
-ImageOpt.ParallelTextureLoadPatch:Prefix (Verse.ModContentHolder`1<UnityEngine.Texture2D>&,Verse.ModContentPack)
-(wrapper dynamic-method) MonoMod.Utils.DynamicMethodDefinition:Verse.ModContentPack.AnyContentLoaded_Patch1 (Verse.ModContentPack)
-Verse.LoadedModManager/<>c:<LoadModContent>b__13_1 ()
-ilyvion.LoadingProgress.LongEventHandler_ExecuteToExecuteWhenFinished_Patches/<ExecuteToExecuteWhenFinished>d__3:MoveNext () (at /home/runner/work/loading-progress/loading-progress/Source/ilyvion.LoadingProgress/LongEventHandler_ExecuteToExecuteWhenFinished_Patches.cs:263)
-Verse.LongEventHandler:UpdateCurrentEnumeratorEvent ()
-Verse.LongEventHandler:LongEventsUpdate (bool&)
-(wrapper dynamic-method) MonoMod.Utils.DynamicMethodDefinition:Verse.Root.Update_Patch1 (Verse.Root)
-Verse.Root_Entry:Update ()
-
 [ImageOpt] load image "D:\\SteamLibrary\\steamapps\\workshop\\content\\294100\\1465459039\\Textures\\Rimlaser\\Weapons\\LaserMinigun-1.dds": Unsupported DDS format
 UnityEngine.StackTraceUtility:ExtractStackTrace ()
 Verse.Log:Warning (string)
@@ -2036,7 +2021,7 @@ Verse.LongEventHandler:LongEventsUpdate (bool&)
 (wrapper dynamic-method) MonoMod.Utils.DynamicMethodDefinition:Verse.Root.Update_Patch1 (Verse.Root)
 Verse.Root_Entry:Update ()
 
-[ImageOpt] load image "D:\\SteamLibrary\\steamapps\\workshop\\content\\294100\\1465459039\\Textures\\Rimlaser\\Weapons\\LaserMinigun-4.dds": Unsupported DDS format
+[ImageOpt] load image "D:\\SteamLibrary\\steamapps\\workshop\\content\\294100\\1465459039\\Textures\\Rimlaser\\Weapons\\LaserHeavyMounted.dds": Unsupported DDS format
 UnityEngine.StackTraceUtility:ExtractStackTrace ()
 Verse.Log:Warning (string)
 ImageOpt.ImageOpt/<>c:<FlushLogger>b__5_1 (byte*)
@@ -2066,22 +2051,7 @@ Verse.LongEventHandler:LongEventsUpdate (bool&)
 (wrapper dynamic-method) MonoMod.Utils.DynamicMethodDefinition:Verse.Root.Update_Patch1 (Verse.Root)
 Verse.Root_Entry:Update ()
 
-[ImageOpt] load image "D:\\SteamLibrary\\steamapps\\workshop\\content\\294100\\1465459039\\Textures\\Rimlaser\\Items\\Crystal\\Crystal_a.dds": Unsupported DDS format
-UnityEngine.StackTraceUtility:ExtractStackTrace ()
-Verse.Log:Warning (string)
-ImageOpt.ImageOpt/<>c:<FlushLogger>b__5_1 (byte*)
-ImageOpt.ImageOpt:FlushLogger ()
-ImageOpt.ParallelTextureLoadPatch:PrefixV2 (Verse.ModContentHolder`1<UnityEngine.Texture2D>&,Verse.ModContentPack)
-ImageOpt.ParallelTextureLoadPatch:Prefix (Verse.ModContentHolder`1<UnityEngine.Texture2D>&,Verse.ModContentPack)
-(wrapper dynamic-method) MonoMod.Utils.DynamicMethodDefinition:Verse.ModContentPack.AnyContentLoaded_Patch1 (Verse.ModContentPack)
-Verse.LoadedModManager/<>c:<LoadModContent>b__13_1 ()
-ilyvion.LoadingProgress.LongEventHandler_ExecuteToExecuteWhenFinished_Patches/<ExecuteToExecuteWhenFinished>d__3:MoveNext () (at /home/runner/work/loading-progress/loading-progress/Source/ilyvion.LoadingProgress/LongEventHandler_ExecuteToExecuteWhenFinished_Patches.cs:263)
-Verse.LongEventHandler:UpdateCurrentEnumeratorEvent ()
-Verse.LongEventHandler:LongEventsUpdate (bool&)
-(wrapper dynamic-method) MonoMod.Utils.DynamicMethodDefinition:Verse.Root.Update_Patch1 (Verse.Root)
-Verse.Root_Entry:Update ()
-
-[ImageOpt] load image "D:\\SteamLibrary\\steamapps\\workshop\\content\\294100\\1465459039\\Textures\\Rimlaser\\Weapons\\LaserRifleMounted.dds": Unsupported DDS format
+[ImageOpt] load image "D:\\SteamLibrary\\steamapps\\workshop\\content\\294100\\1465459039\\Textures\\Rimlaser\\Weapons\\LaserMinigun-4.dds": Unsupported DDS format
 UnityEngine.StackTraceUtility:ExtractStackTrace ()
 Verse.Log:Warning (string)
 ImageOpt.ImageOpt/<>c:<FlushLogger>b__5_1 (byte*)
@@ -2097,6 +2067,21 @@ Verse.LongEventHandler:LongEventsUpdate (bool&)
 Verse.Root_Entry:Update ()
 
 [ImageOpt] load image "D:\\SteamLibrary\\steamapps\\workshop\\content\\294100\\1465459039\\Textures\\Rimlaser\\Items\\Crystal\\Crystal_c.dds": Unsupported DDS format
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+Verse.Log:Warning (string)
+ImageOpt.ImageOpt/<>c:<FlushLogger>b__5_1 (byte*)
+ImageOpt.ImageOpt:FlushLogger ()
+ImageOpt.ParallelTextureLoadPatch:PrefixV2 (Verse.ModContentHolder`1<UnityEngine.Texture2D>&,Verse.ModContentPack)
+ImageOpt.ParallelTextureLoadPatch:Prefix (Verse.ModContentHolder`1<UnityEngine.Texture2D>&,Verse.ModContentPack)
+(wrapper dynamic-method) MonoMod.Utils.DynamicMethodDefinition:Verse.ModContentPack.AnyContentLoaded_Patch1 (Verse.ModContentPack)
+Verse.LoadedModManager/<>c:<LoadModContent>b__13_1 ()
+ilyvion.LoadingProgress.LongEventHandler_ExecuteToExecuteWhenFinished_Patches/<ExecuteToExecuteWhenFinished>d__3:MoveNext () (at /home/runner/work/loading-progress/loading-progress/Source/ilyvion.LoadingProgress/LongEventHandler_ExecuteToExecuteWhenFinished_Patches.cs:263)
+Verse.LongEventHandler:UpdateCurrentEnumeratorEvent ()
+Verse.LongEventHandler:LongEventsUpdate (bool&)
+(wrapper dynamic-method) MonoMod.Utils.DynamicMethodDefinition:Verse.Root.Update_Patch1 (Verse.Root)
+Verse.Root_Entry:Update ()
+
+[ImageOpt] load image "D:\\SteamLibrary\\steamapps\\workshop\\content\\294100\\1465459039\\Textures\\Rimlaser\\Items\\Crystal\\Crystal_a.dds": Unsupported DDS format
 UnityEngine.StackTraceUtility:ExtractStackTrace ()
 Verse.Log:Warning (string)
 ImageOpt.ImageOpt/<>c:<FlushLogger>b__5_1 (byte*)
@@ -2127,6 +2112,21 @@ Verse.LongEventHandler:LongEventsUpdate (bool&)
 Verse.Root_Entry:Update ()
 
 [ImageOpt] load image "D:\\SteamLibrary\\steamapps\\workshop\\content\\294100\\1465459039\\Textures\\Rimlaser\\Items\\Prism\\Prism_c.dds": Unsupported DDS format
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+Verse.Log:Warning (string)
+ImageOpt.ImageOpt/<>c:<FlushLogger>b__5_1 (byte*)
+ImageOpt.ImageOpt:FlushLogger ()
+ImageOpt.ParallelTextureLoadPatch:PrefixV2 (Verse.ModContentHolder`1<UnityEngine.Texture2D>&,Verse.ModContentPack)
+ImageOpt.ParallelTextureLoadPatch:Prefix (Verse.ModContentHolder`1<UnityEngine.Texture2D>&,Verse.ModContentPack)
+(wrapper dynamic-method) MonoMod.Utils.DynamicMethodDefinition:Verse.ModContentPack.AnyContentLoaded_Patch1 (Verse.ModContentPack)
+Verse.LoadedModManager/<>c:<LoadModContent>b__13_1 ()
+ilyvion.LoadingProgress.LongEventHandler_ExecuteToExecuteWhenFinished_Patches/<ExecuteToExecuteWhenFinished>d__3:MoveNext () (at /home/runner/work/loading-progress/loading-progress/Source/ilyvion.LoadingProgress/LongEventHandler_ExecuteToExecuteWhenFinished_Patches.cs:263)
+Verse.LongEventHandler:UpdateCurrentEnumeratorEvent ()
+Verse.LongEventHandler:LongEventsUpdate (bool&)
+(wrapper dynamic-method) MonoMod.Utils.DynamicMethodDefinition:Verse.Root.Update_Patch1 (Verse.Root)
+Verse.Root_Entry:Update ()
+
+[ImageOpt] load image "D:\\SteamLibrary\\steamapps\\workshop\\content\\294100\\1465459039\\Textures\\Rimlaser\\Weapons\\LaserRifleMounted.dds": Unsupported DDS format
 UnityEngine.StackTraceUtility:ExtractStackTrace ()
 Verse.Log:Warning (string)
 ImageOpt.ImageOpt/<>c:<FlushLogger>b__5_1 (byte*)
@@ -3045,7 +3045,7 @@ Verse.LongEventHandler:LongEventsUpdate (bool&)
 (wrapper dynamic-method) MonoMod.Utils.DynamicMethodDefinition:Verse.Root.Update_Patch1 (Verse.Root)
 Verse.Root_Entry:Update ()
 
-[XML Extensions] 10679 total patch operations run in 35133ms, 0 failed
+[XML Extensions] 10679 total patch operations run in 32982ms, 0 failed
 UnityEngine.StackTraceUtility:ExtractStackTrace ()
 Verse.Log:Message (string)
 XmlExtensions.XmlExtensions:.cctor ()
@@ -3682,7 +3682,7 @@ Verse.Root_Entry:Update ()
     Biotech DLC 机械体充电速率修改('Building_MechChargerTickPatch') 已应用
     Biotech DLC 机械体充电速率修改 - 相应信息('MechChargeRateInspectPatch') 已应用
     Biotech DLC 恐火症基因增强 - 易燃性为 0 时无视('FireTerrorFlammability') 已应用
-"Biotech DLC" 共计 7 个Patch。执行总计0.07秒
+"Biotech DLC" 共计 7 个Patch。执行总计0.04秒
 [RWQoLTweaks] 已找到 [Core]! 应用Patch...
     Core 禁止囚犯越狱('NoPrisonBreakPatch') 已应用
     Core 迫击炮自动冷却('BurstCooldownTickPatch') 已应用
@@ -3698,11 +3698,11 @@ Verse.Root_Entry:Update ()
     Core 敌方中心空投变成边缘空投 - 当 raidArrivalMode == null 时('NoCenterDropPatch') 已应用
     Core 中心空投变成边缘空投(不再区分敌友) - 当 raidArrivalMode ！= null 时('NoCenterDropPatch2') 已应用
     Core 禁用衣衫褴褛('NoApparelDamagedThoughtPatch') 已应用
-"Core" 共计 14 个Patch。执行总计0.07秒
+"Core" 共计 14 个Patch。执行总计0.05秒
 [RWQoLTweaks] 已找到 [Dubs Bad Hygiene]! 应用Patch...
     Dubs Bad Hygiene DBH 翻译补充('DBH_WaterStringPatch') 已应用
     Dubs Bad Hygiene DBH 翻译补充2('DBH_CapStringPatch') 已应用
-"Dubs Bad Hygiene" 共计 2 个Patch。执行总计0.07秒
+"Dubs Bad Hygiene" 共计 2 个Patch。执行总计0.01秒
 [RWQoLTweaks] 已找到 [Ideology DLC]! 应用Patch...
     Ideology DLC 专家数量上限修改('PreceptRolesCountUnlimit') 已应用
 "Ideology DLC" 共计 1 个Patch。执行总计0.01秒
@@ -3712,7 +3712,7 @@ Verse.Root_Entry:Update ()
     Odyssey DLC 禁用载客穿梭机冷却('ShuttleNoCoolDownTranspilerPatch') 已应用
     Odyssey DLC 禁用载客穿梭机冷却 - 禁用提示冷却文本('ShuttleNoCoolDownTranspilerPatch') 已应用
     Odyssey DLC 禁止偷窃推进器('TrusterStealNoMore') 已应用
-"Odyssey DLC" 共计 5 个Patch。执行总计0.01秒
+"Odyssey DLC" 共计 5 个Patch。执行总计0.02秒
 [RWQoLTweaks] 已找到 [Rimatomic]! 应用Patch...
     Rimatomic Rimatomic 无人操作补丁('RimatomicUnmannedPatch') 已应用
     Rimatomic Rimatomic 硬编码翻译补充('RimatomicTrackingLocPatch') 已应用
@@ -3720,12 +3720,12 @@ Verse.Root_Entry:Update ()
 [RWQoLTweaks] 已找到 [Royalty DLC]! 应用Patch...
     Royalty DLC 穿梭机自动装载('SetShuttleAutoload') 已应用
     Royalty DLC 精神力不自动衰减('NoPsyfocusDownPatch') 已应用
-"Royalty DLC" 共计 2 个Patch。执行总计0.00秒
+"Royalty DLC" 共计 2 个Patch。执行总计0.01秒
 [RWQoLTweaks] 已找到 [Vanilla Expanded Framework]! 应用Patch...
     Vanilla Expanded Framework VEF 翻译补充 - Process.QualitySelections('VEFQualitySelectionsLocPatch') 已应用
     Vanilla Expanded Framework VEF 翻译补充 - Process.DoInterface('VEFProcessDoInterfaceLocPatch') 已应用
-"Vanilla Expanded Framework" 共计 2 个Patch。执行总计0.01秒
-[RWQoLTweaks] Patch 全部运行完毕！共针对 9 个 Mod 进行了 Patch，跳过了 4 个 Mod。总耗时：0.29秒
+"Vanilla Expanded Framework" 共计 2 个Patch。执行总计0.03秒
+[RWQoLTweaks] Patch 全部运行完毕！共针对 9 个 Mod 进行了 Patch，跳过了 4 个 Mod。总耗时：0.25秒
 
 UnityEngine.StackTraceUtility:ExtractStackTrace ()
 Verse.Log:Message (string)
@@ -3994,7 +3994,7 @@ Verse.LongEventHandler:LongEventsUpdate (bool&)
 (wrapper dynamic-method) MonoMod.Utils.DynamicMethodDefinition:Verse.Root.Update_Patch1 (Verse.Root)
 Verse.Root_Entry:Update ()
 
-[TMM] Auto capitalization fix: scanned=18997, changed=1993, time=44ms
+[TMM] Auto capitalization fix: scanned=18997, changed=1993, time=42ms
 UnityEngine.StackTraceUtility:ExtractStackTrace ()
 Verse.Log:Message (string)
 TooManyMods.TMM_AutoCapitalizationFix:ApplyIfEnabled ()
@@ -4410,7 +4410,7 @@ System.Threading.ExecutionContext:Run (System.Threading.ExecutionContext,System.
 System.Threading.ExecutionContext:Run (System.Threading.ExecutionContext,System.Threading.ContextCallback,object)
 System.Threading.ThreadHelper:ThreadStart ()
 
-<color=#66ffb5>[MeleeAnim]</color> PreCached all retexture info in 387.4ms
+<color=#66ffb5>[MeleeAnim]</color> PreCached all retexture info in 401.9ms
 UnityEngine.StackTraceUtility:ExtractStackTrace ()
 Verse.Log:Message (string)
 AM.Core:Log (string)
@@ -4488,7 +4488,7 @@ Verse.LongEventHandler:LongEventsUpdate (bool&)
 (wrapper dynamic-method) MonoMod.Utils.DynamicMethodDefinition:Verse.Root.Update_Patch1 (Verse.Root)
 Verse.Root_Entry:Update ()
 
-<color=#66ffb5>[MeleeAnim]</color> Patched 4 classes that directly inherit from Verb_MeleeAttack in 137.1 ms to detect hits:
+<color=#66ffb5>[MeleeAnim]</color> Patched 4 classes that directly inherit from Verb_MeleeAttack in 138.3 ms to detect hits:
 RimWorld.Verb_MeleeApplyHediff from Assembly-CSharp
 RimWorld.Verb_MeleeAttackDamage from Assembly-CSharp
 RRYautja.Verb_MeleeAttackKnockback from RRYautja
@@ -4504,7 +4504,7 @@ Verse.LongEventHandler:LongEventsUpdate (bool&)
 (wrapper dynamic-method) MonoMod.Utils.DynamicMethodDefinition:Verse.Root.Update_Patch1 (Verse.Root)
 Verse.Root_Entry:Update ()
 
-<color=#66ffb5>[MeleeAnim]</color> Found 12 items of clothing that cover hands, took 1.35 ms:
+<color=#66ffb5>[MeleeAnim]</color> Found 12 items of clothing that cover hands, took 1.41 ms:
 VAE_Handwear_PlateGloves (Plate gloves),
 VAE_Handwear_MarineGloves (Marine gloves),
 VAE_Apparel_Shield_Riot (Riot shield),
@@ -4557,7 +4557,7 @@ Verse.LongEventHandler:LongEventsUpdate (bool&)
 (wrapper dynamic-method) MonoMod.Utils.DynamicMethodDefinition:Verse.Root.Update_Patch1 (Verse.Root)
 Verse.Root_Entry:Update ()
 
-  --> [What's That Mod] Took 1.05 seconds to scan all patches. <--
+  --> [What's That Mod] Took 1.02 seconds to scan all patches. <--
 UnityEngine.StackTraceUtility:ExtractStackTrace ()
 Verse.Log:Message (string)
 WhatsThatMod.ModCore:DefWriter (bool,System.Collections.Generic.HashSet`1<string>,string,string)
@@ -4579,7 +4579,7 @@ Verse.LongEventHandler:LongEventsUpdate (bool&)
 (wrapper dynamic-method) MonoMod.Utils.DynamicMethodDefinition:Verse.Root.Update_Patch1 (Verse.Root)
 Verse.Root_Entry:Update ()
 
-What's That Mod took 1086 milliseconds to generate all def descriptions.
+What's That Mod took 1055 milliseconds to generate all def descriptions.
 UnityEngine.StackTraceUtility:ExtractStackTrace ()
 Verse.Log:Message (string)
 WhatsThatMod.ModCore:Run ()
