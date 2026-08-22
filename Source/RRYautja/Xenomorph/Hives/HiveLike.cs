@@ -532,6 +532,10 @@ namespace RimWorld
                 kindDef = XenomorphDefOf.RRY_Xenomorph_Drone;
             }
             pawn = PawnGenerator.GeneratePawn(kindDef, base.Faction);
+            if (pawn.Faction == null && base.Faction != null)
+            {
+                pawn.SetFaction(base.Faction);
+            }
             this.spawnedPawns.Add(pawn);
             GenSpawn.Spawn(pawn, CellFinder.RandomClosewalkCellNear(base.Position, base.Map, 2, null), base.Map, WipeMode.Vanish);
             Lord lord = this.Lord;
