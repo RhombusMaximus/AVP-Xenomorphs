@@ -91,7 +91,15 @@ namespace RimWorld
             ThingDef_HiveLike thingDef = (ThingDef_HiveLike)this.def.mechClusterBuilding;
             HiveLike hivelike = (HiveLike)ThingMaker.MakeThing(thingDef, null);
             GenSpawn.Spawn(ThingMaker.MakeThing(hivelike.Def.TunnelDef, null), loc, map);
-            hivelike.SetFaction(hivelike.OfFaction, null);
+            Faction xenoFaction = Find.FactionManager.FirstFactionOfDef(XenomorphDefOf.RRY_Xenomorph);
+            if (xenoFaction != null)
+            {
+                hivelike.SetFaction(xenoFaction, null);
+            }
+            else
+            {
+                hivelike.SetFaction(hivelike.OfFaction, null);
+            }
             IncidentWorker_Xenomorph_Hivelike.SpawnItemInstantly(hivelike);
             for (int i = 0; i < hiveCount - 1; i++)
             {
@@ -113,7 +121,11 @@ namespace RimWorld
             TunnelHiveLikeSpawner hivelike = (TunnelHiveLikeSpawner)ThingMaker.MakeThing(thingDef, null);
             hivelike.hivePoints = parms.points / hiveCount;
             GenSpawn.Spawn(ThingMaker.MakeThing(hivelike.def, null), loc, map);
-            //hivelike.SetFaction(hivelike.faction, null);
+            Faction xenoFaction2 = Find.FactionManager.FirstFactionOfDef(XenomorphDefOf.RRY_Xenomorph);
+            if (xenoFaction2 != null)
+            {
+                hivelike.SetFaction(xenoFaction2, null);
+            }
             IncidentWorker_Xenomorph_Hivelike.SpawnItemInstantly(hivelike);
             for (int i = 0; i < hiveCount - 1; i++)
             {

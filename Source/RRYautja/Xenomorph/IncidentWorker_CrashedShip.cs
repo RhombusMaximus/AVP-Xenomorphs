@@ -34,7 +34,7 @@ namespace RRYautja
             int countToSpawn = this.CountToSpawn;
             List<TargetInfo> list = new List<TargetInfo>();
             float shrapnelDirection = Rand.Range(0f, 360f);
-            Faction faction = null;
+            Faction faction = Find.FactionManager.FirstFactionOfDef(XenomorphDefOf.RRY_Xenomorph);
             Building building_CrashedShipPart = null;
             building_CrashedShipPart = (Building)ThingMaker.MakeThing(this.def.mechClusterBuilding, null);
             if (faction == null)
