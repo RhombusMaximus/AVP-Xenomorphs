@@ -21,6 +21,7 @@
     <canUseAvoidGrid>false</canUseAvoidGrid>
     <techLevel>Animal</techLevel>
     <permanentEnemy>true</permanentEnemy>
+    <naturalEnemy>true</naturalEnemy>
     <maxPawnCostPerTotalPointsCurve>
       <points>
         <li>(400,200)</li>

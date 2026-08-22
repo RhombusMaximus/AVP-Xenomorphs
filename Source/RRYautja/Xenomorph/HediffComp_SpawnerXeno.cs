@@ -344,7 +344,15 @@ namespace RRYautja
                     for (int i = 0; i < countToSpawn; i++)
                     {
                         Pawn pawn = XenomorphSpawnRequest();
-                        //    Log.Message(string.Format("Xenomorph to hatch: {0}", pawn.LabelShortCap));
+                        // Ensure faction is set
+                        if (pawn.Faction == null)
+                        {
+                            Faction xenoFaction = Find.FactionManager.FirstFactionOfDef(XenomorphDefOf.RRY_Xenomorph);
+                            if (xenoFaction != null)
+                            {
+                                pawn.SetFaction(xenoFaction);
+                            }
+                        }
                         pawn.ageTracker.AgeBiologicalTicks = 0;
                         pawn.ageTracker.AgeChronologicalTicks = 0;
                         Comp_Xenomorph _Xenomorph = pawn.TryGetComp<Comp_Xenomorph>();

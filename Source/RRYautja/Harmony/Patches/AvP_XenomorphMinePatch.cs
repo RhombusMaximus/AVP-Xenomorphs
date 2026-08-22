@@ -10,12 +10,11 @@ namespace RRYautja
 {
     /// <summary>
     /// When a Xenomorph mines rock, suppress chunk/filth spawning.
-    /// Xenomorphs dissolve rock with resin instead of producing rubble.
+    /// Uses a static set to track Mineable things being mined by Xenomorphs.
     /// </summary>
     [StaticConstructorOnStartup]
     static class AvP_XenomorphMinePatch
     {
-        // Track which Mineable things are being mined by Xenomorphs
         public static HashSet<Thing> xenomorphMiningTargets = new HashSet<Thing>();
 
         static AvP_XenomorphMinePatch()
@@ -32,11 +31,19 @@ namespace RRYautja
                     harmony.Patch(original, prefix: new HarmonyMethod(typeof(AvP_XenomorphMinePatch), nameof(YieldComponentsPrefix)));
                 }
 
-                // Patch JobDriver_Mine.OnDestroy to track Xenomorph mining targets
+                // Patch Mineable.Notify_DestroyedMineable to clean up tracking
                 var mineDestroy = AccessTools.Method(typeof(Mineable), "Notify_DestroyedMineable");
                 if (mineDestroy != null)
                 {
                     harmony.Patch(mineDestroy, postfix: new HarmonyMethod(typeof(AvP_XenomorphMinePatch), nameof(NotifyDestroyedPostfix)));
+                }
+
+                // Patch JobDriver_Mine.OnStart to track Xenomorph mining targets
+                // This runs when the pawn starts the mine job, before YieldComponents is called
+                var mineJobStart = AccessTools.Method(typeof(JobDriver_Mine), "OnStart");
+                if (mineJobStart != null)
+                {
+                    harmony.Patch(mineJobStart, postfix: new HarmonyMethod(typeof(AvP_XenomorphMinePatch), nameof(OnStartPostfix)));
                 }
             }
             catch (System.Exception e)
@@ -59,17 +66,8 @@ namespace RRYautja
         {
             xenomorphMiningTargets.Remove(__instance);
         }
-    }
 
-    /// <summary>
-    /// Patch JobDriver_Mine to track when Xenomorphs start mining a target.
-    /// This runs at the start of the mine job, before YieldComponents is called.
-    /// </summary>
-    [HarmonyPatch(typeof(JobDriver_Mine))]
-    [HarmonyPatch("MakeNewToils")]
-    static class AvP_MineJobTrackerPatch
-    {
-        static void Postfix(JobDriver_Mine __instance)
+        public static void OnStartPostfix(JobDriver_Mine __instance)
         {
             Pawn pawn = __instance.pawn;
             if (pawn != null && pawn.isXenomorph())
@@ -77,7 +75,7 @@ namespace RRYautja
                 Thing target = __instance.job.targetA.Thing;
                 if (target != null && target is Mineable)
                 {
-                    AvP_XenomorphMinePatch.xenomorphMiningTargets.Add(target);
+                    xenomorphMiningTargets.Add(target);
                 }
             }
         }
