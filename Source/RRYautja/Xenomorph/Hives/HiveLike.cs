@@ -673,7 +673,8 @@ namespace RimWorld
                             Pawn newQueen = PawnGenerator.GeneratePawn(new PawnGenerationRequest(XenomorphDefOf.RRY_Xenomorph_Queen, factionInt));
                             this.innerContainer.TryAdd(newQueen);
                             this.assignedQueen = newQueen;
-                        };
+                        }
+                    };
                 }
 
             }
