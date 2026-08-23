@@ -16,6 +16,7 @@
 		</raidCommonalityFromPointsCurve>
     <earliestRaidDays>45</earliestRaidDays>
     <humanlikeFaction>false</humanlikeFaction>
+    <hidden>true</hidden>
     <autoFlee>false</autoFlee>
     <canUseAvoidGrid>false</canUseAvoidGrid>
     <techLevel>Animal</techLevel>
@@ -93,7 +94,6 @@
     </pawnGroupMakers>
     <settlementTexturePath>World/WorldObjects/TribalSettlement</settlementTexturePath>
     <factionIconPath>Ui/Icons/Icon_Xenomorph</factionIconPath>
-    <settlementGenerationWeight>1.0</settlementGenerationWeight>
     <allowedArrivalTemperatureRange>
       <min>-100</min>
       <max>200</max>
