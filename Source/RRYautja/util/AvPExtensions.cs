@@ -278,6 +278,9 @@ namespace RRYautja.ExtensionMethods
             }
             if (thingDef.race.IsMechanoid) { FailReason = NonBio; return false; }
             if (thingDef.race.body.defName.Contains("AIRobot")) { FailReason = NonBio; return false; }
+            // Block android types from being facehugger hosts
+            if (thingDef.defName.Contains("Android")) { FailReason = NonBio; return false; }
+            if (thingDef.defName == "AG_Hiveling") { FailReason = NonBio; return false; }
             if (thingDef.defName.Contains("TM_"))
             {
                 if (thingDef.defName.Contains("Undead") || thingDef.defName.Contains("Minion") || thingDef.defName.Contains("Demon")) { FailReason = NonBio; return false; }
