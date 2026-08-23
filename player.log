@@ -306,3 +306,92 @@ CE is trying to apply modified parameters...
 no modifications for genes
 no modifications for lifestages
 ...done
+Unloading 2 Unused Serialized files (Serialized files now loaded: 7)
+Unloading 0 unused Assets to reduce memory usage. Loaded Objects now: 33798.
+Total: 210.685600 ms (FindLiveObjects: 1.814000 ms CreateObjectMapping: 0.911500 ms MarkObjects: 207.905600 ms  DeleteObjects: 0.054300 ms)
+
+Unloading 2 Unused Serialized files (Serialized files now loaded: 7)
+Unloading 736 unused Assets to reduce memory usage. Loaded Objects now: 33811.
+Total: 231.413600 ms (FindLiveObjects: 1.872600 ms CreateObjectMapping: 1.028200 ms MarkObjects: 227.639000 ms  DeleteObjects: 0.873700 ms)
+
+RandomElementByWeight with totalWeight=0 - use TryRandomElementByWeight.
+Unloading 3 Unused Serialized files (Serialized files now loaded: 7)
+UnloadTime: 0.546600 ms
+Unloading 3 unused Assets to reduce memory usage. Loaded Objects now: 34229.
+Total: 217.841000 ms (FindLiveObjects: 1.618100 ms CreateObjectMapping: 0.812900 ms MarkObjects: 215.334800 ms  DeleteObjects: 0.075000 ms)
+
+Initializing new game with mods:
+  - brrainz.harmony
+  - ilyvion.LoadingProgress
+  - Ludeon.RimWorld
+  - Ludeon.RimWorld.Royalty
+  - Ludeon.RimWorld.Ideology
+  - Ludeon.RimWorld.Biotech
+  - Ludeon.RimWorld.Anomaly
+  - UnlimitedHugs.HugsLib
+  - Ogliss.AVPXenomorphs
+  - UnlimitedHugs.AllowTool
+  - TheVillain.Animalfoodsextended
+  - falconne.AFF
+  - Dizzy.BIRDUP.AllInOne
+  - tyrannidae.birdupplus
+  - Milkman.BiotechCosmeticGenesMM
+  - Ludeon.RimWorld.Odyssey
+  - Darknote.BunkBeds
+  - Mlie.Callouts
+  - brrainz.cameraplus
+  - Aoba.Tent
+  - void.charactereditor
+  - Cerule.CleaningAreaRelaunched
+  - erdelf.HumanoidAlienRaces
+  - zal.covetheus
+  - CaesarV6.DamageIndicators
+  - telardo.DragSelect
+  - Dubwise.DubsMintMenus
+  - dubwise.dubsmintminimap
+  - Dubwise.DubsPerformanceAnalyzer.steam
+  - zeracronius.dynamictradeinterface
+  - Romyashi.ExtractAnyPlant
+  - matvey24.FPSStabilizer
+  - MemeGoddess.GiddyUp
+  - GonDragon.TTPF
+  - GonDragon.TechTree
+  - automatic.gunplay
+  - jkluch.HaulToStack
+  - aRandomKiwi.HuntForMe
+  - Taveron.IncreasedStack
+  - Aoba.Fortress.Industrial.Concrete
+  - futurplanet.industrialconcretefloorpatch
+  - Koth.ISiD
+  - jecrell.doorsexpanded
+  - avius.locks
+  - Mlie.LogAfterDefError
+  - m00nl1ght.MapPreview
+  - co.uk.epicguru.meleeanimation
+  - erdelf.MinifyEverything
+  - mosi.MoreMiniHorns
+  - kenzej.multihunter
+  - komunre.BetterExp.PassiveResearch
+  - Mlie.PredatorHuntAlert
+  - DawnsGlow.qualcolor
+  - Memegoddess.ReplaceStuff
+  - Aelanna.ResearchTabColors
+  - fluffy.researchtree
+  - XanderNirpows.ResearchPalForked16
+  - Mlie.RunAndHide
+  - MemeGoddess.RunAndGun
+  - PeteTimesSix.SimpleSidearms
+  - Haecriver.SimplyMoreColors
+  - Garwel.StartingTechLevel
+  - automatic.traderships
+  - CarnySenpai.TraitRarityColors
+  - Arylice.Rimworld.AutomaticHunting
+  - tradingpost.programmerlily.com
+checking editor settings...
+bodysizes genes are active
+[AVP Xenomorphs] Created Xenomorph hive faction (was missing).
+Unloading 0 Unused Serialized files (Serialized files now loaded: 7)
+Unloading 1 unused Assets to reduce memory usage. Loaded Objects now: 40927.
+Total: 267.234000 ms (FindLiveObjects: 2.029300 ms CreateObjectMapping: 2.460200 ms MarkObjects: 262.653500 ms  DeleteObjects: 0.090500 ms)
+
+Life stage def HumanlikeChild not found while searching for min age of Dusey
