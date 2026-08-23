@@ -60,6 +60,22 @@ namespace RimWorld
             */
             if (XenomorphKidnapUtility.TryFindGoodKidnapVictim(pawn, Searchradius, out Victim, null,forceRoofed, allowCocooned, minRadius, allowHosts) && !GenAI.InDangerousCombat(pawn))
             {
+                // Limit to 3 drones per downed victim
+                int maxDronesPerVictim = 3;
+                int alreadyTargeting = 0;
+                foreach (var otherPawn in map.mapPawns.AllPawnsSpawned)
+                {
+                    if (otherPawn == pawn || !otherPawn.isXenomorph()) continue;
+                    var otherJob = otherPawn.CurJob;
+                    if (otherJob != null && otherJob.def == XenomorphDefOf.RRY_Job_Xenomorph_Kidnap && otherJob.targetA.Thing == Victim)
+                    {
+                        alreadyTargeting++;
+                    }
+                }
+                if (alreadyTargeting >= maxDronesPerVictim)
+                {
+                    return null; // Too many drones already going for this victim
+                }
                 if (xenomorph.HiveLoc.IsValid && xenomorph.HiveLoc.InBounds(map) && xenomorph.HiveLoc != IntVec3.Zero)
                 {
                     c = xenomorph.HiveLoc;
