@@ -11,7 +11,7 @@ Direct3D:
     VRAM:     8042 MB
     Driver:   32.0.16.1088
 Begin MonoManager ReloadAssembly
-- Loaded All Assemblies, in  0.155 seconds
+- Loaded All Assemblies, in  0.156 seconds
 - Finished resetting the current domain, in  0.001 seconds
 <RI> Initializing input.
 
@@ -20,21 +20,21 @@ Begin MonoManager ReloadAssembly
 <RI> Initialized touch support.
 
 [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
-UnloadTime: 0.634200 ms
+UnloadTime: 0.697600 ms
 Command line arguments: -disable-compute-shaders
 RimWorld 1.6.4871 rev591
 Mod Realistic Humansounds HAR Patch dependency (Mlie.RealisticHumanSounds) needs to have <downloadUrl> and/or <steamWorkshopUrl> specified.
-Fallback handler could not load library D:/SteamLibrary/steamapps/common/RimWorld/RimWorldWin64_Data/MonoBleedingEdge/data-000001A3A1D9AA60.dll
-Fallback handler could not load library D:/SteamLibrary/steamapps/common/RimWorld/RimWorldWin64_Data/MonoBleedingEdge/data-000001A3A20B33D0.dll
+Fallback handler could not load library D:/SteamLibrary/steamapps/common/RimWorld/RimWorldWin64_Data/MonoBleedingEdge/data-0000021230E21020.dll
+Fallback handler could not load library D:/SteamLibrary/steamapps/common/RimWorld/RimWorldWin64_Data/MonoBleedingEdge/data-0000021265045070.dll
 [Loading Progress] Loading Progress initialized! Enjoy the rest of your loading experience!
 [HugsLib] version 12.0.0
 [HugsLib] early-initializing AllowTool
-Fallback handler could not load library D:/SteamLibrary/steamapps/common/RimWorld/RimWorldWin64_Data/MonoBleedingEdge/data-000001A3A5436D00.dll
+Fallback handler could not load library D:/SteamLibrary/steamapps/common/RimWorld/RimWorldWin64_Data/MonoBleedingEdge/data-0000021268369030.dll
 DubsMintMenus v1.3.1086
 [Analyzer] Loaded version 1.6.0 rev 1
 [Analyzer] ResearchTree
 FPSStabilizer v1.1 loaded, patcher message: Patched successfully, fps set to 60
-Fallback handler could not load library D:/SteamLibrary/steamapps/common/RimWorld/RimWorldWin64_Data/MonoBleedingEdge/data-000001A3A57E2020.dll
+Fallback handler could not load library D:/SteamLibrary/steamapps/common/RimWorld/RimWorldWin64_Data/MonoBleedingEdge/data-0000021268664010.dll
 <color=#66ffb5>[MeleeAnim]</color> Hello, world!
 Build date: 4/13/2026 8:02 AM
 Loaded assemblies (9):
@@ -60,9 +60,6 @@ Could not execute post-long-event action. Exception: System.NullReferenceExcepti
   at ilyvion.LoadingProgress.LongEventHandler_ExecuteToExecuteWhenFinished_Patches+<ExecuteToExecuteWhenFinished>d__3.MoveNext () [0x00590] in /home/runner/work/loading-progress/loading-progress/Source/ilyvion.LoadingProgress/LongEventHandler_ExecuteToExecuteWhenFinished_Patches.cs:263 
 Could not execute post-long-event action. Exception: System.NullReferenceException: Object reference not set to an instance of an object
 [Ref 282A3C73] Duplicate stacktrace, see ref for original
-RRY_Pawn_Xenomorph_Queen_Call SubSound RRY_Pawn_Xenomorph_Queen_Call_0 has no resolvedGrains.
-RRY_Pawn_Xenomorph_Normal_Wounded SubSound RRY_Pawn_Xenomorph_Normal_Wounded_0 has no resolvedGrains.
-RRY_Pawn_Xenomorph_Normal_Call SubSound RRY_Pawn_Xenomorph_Normal_Call_0 has no resolvedGrains.
 [AVP Xenomorphs] Patched Mineable.TrySpawnYield
 [AVP Xenomorphs] Patched Mineable.TrySpawnYield
 Xenomorph Host System Loaded
@@ -80,7 +77,7 @@ Locks version: 3.1.2 loaded.
 (Research Tab Colors) Transpiler injected.
 Unloading 5 Unused Serialized files (Serialized files now loaded: 5)
 Unloading 563 unused Assets to reduce memory usage. Loaded Objects now: 31506.
-Total: 193.993400 ms (FindLiveObjects: 1.560600 ms CreateObjectMapping: 1.825000 ms MarkObjects: 189.834000 ms  DeleteObjects: 0.773400 ms)
+Total: 202.414600 ms (FindLiveObjects: 1.618900 ms CreateObjectMapping: 1.740700 ms MarkObjects: 198.280400 ms  DeleteObjects: 0.774400 ms)
 
 [com.ogliss.rimworld.mod.rryatuja.minepatch] Patches on methods annotated as Obsolete were detected by HugsLib: RimWorld.Mineable.TrySpawnYield
 CharacterEditor v1.6.3 initializing...
@@ -263,18 +260,18 @@ Transpilers:
 Postfixes:
   [PeteTimesSix.SimpleSidearms] TryCastShot
 Unloading 1 Unused Serialized files (Serialized files now loaded: 7)
-<color=#66ffb5>[MeleeAnim]</color> PreCached all retexture info in 21.4ms
+<color=#66ffb5>[MeleeAnim]</color> PreCached all retexture info in 20.0ms
 <color=#66ffb5>[MeleeAnim]</color> Loaded tweak data for 22 weapons.
 <color=#66ffb5>[MeleeAnim]</color> ogliss.avpxenomorphs 'AVP Xenomorphs' has 3 missing weapon tweak data.
 <color=#66ffb5>[MeleeAnim]</color> ludeon.rimworld.odyssey 'Odyssey' has 2 missing weapon tweak data.
 <color=#66ffb5>[MeleeAnim]</color> Skipping reporting of missing mod/weapons because user opted out or the feature is disabled by the developer.
-<color=#66ffb5>[MeleeAnim]</color> Patched 3 classes that directly inherit from Verb_MeleeAttack in 44.1 ms to detect hits:
+<color=#66ffb5>[MeleeAnim]</color> Patched 3 classes that directly inherit from Verb_MeleeAttack in 46.6 ms to detect hits:
 RimWorld.Verb_MeleeApplyHediff from Assembly-CSharp
 RimWorld.Verb_MeleeAttackDamage from Assembly-CSharp
 RRYautja.Verb_MeleeAttackKnockback from RRYautja
-<color=#66ffb5>[MeleeAnim]</color> Found 0 items of clothing that cover hands, took 0.65 ms:
+<color=#66ffb5>[MeleeAnim]</color> Found 0 items of clothing that cover hands, took 0.58 ms:
 Unloading 61 unused Assets to reduce memory usage. Loaded Objects now: 31674.
-Total: 191.094900 ms (FindLiveObjects: 1.481000 ms CreateObjectMapping: 0.826700 ms MarkObjects: 188.662400 ms  DeleteObjects: 0.124600 ms)
+Total: 189.233000 ms (FindLiveObjects: 1.527300 ms CreateObjectMapping: 1.813300 ms MarkObjects: 185.775500 ms  DeleteObjects: 0.116600 ms)
 
 Unloading 0 Unused Serialized files (Serialized files now loaded: 7)
 [Loading Progress] Why is ResearchPal.Profiler.Start from ResearchPal 1.6 - Temp calling DeepProfiler.Start (and by extension our patch) with null?! Stop it.
@@ -285,15 +282,15 @@ Unloading 0 Unused Serialized files (Serialized files now loaded: 7)
 [Loading Progress] Why is ResearchPal.Profiler.Start from ResearchPal 1.6 - Temp calling DeepProfiler.Start (and by extension our patch) with null?! Stop it.
 ResearchPal :: Research layout initialized
 Unloading 0 unused Assets to reduce memory usage. Loaded Objects now: 31674.
-Total: 188.999700 ms (FindLiveObjects: 1.681400 ms CreateObjectMapping: 0.918500 ms MarkObjects: 186.350200 ms  DeleteObjects: 0.049200 ms)
+Total: 193.542100 ms (FindLiveObjects: 1.589400 ms CreateObjectMapping: 1.874000 ms MarkObjects: 190.038100 ms  DeleteObjects: 0.040400 ms)
 
 Unloading 0 Unused Serialized files (Serialized files now loaded: 7)
 Unloading 0 unused Assets to reduce memory usage. Loaded Objects now: 31674.
-Total: 189.458200 ms (FindLiveObjects: 2.080000 ms CreateObjectMapping: 1.921100 ms MarkObjects: 185.403400 ms  DeleteObjects: 0.053300 ms)
+Total: 182.284400 ms (FindLiveObjects: 1.947000 ms CreateObjectMapping: 1.519300 ms MarkObjects: 178.774100 ms  DeleteObjects: 0.043700 ms)
 
 Unloading 0 Unused Serialized files (Serialized files now loaded: 7)
 Unloading 0 unused Assets to reduce memory usage. Loaded Objects now: 31674.
-Total: 187.527000 ms (FindLiveObjects: 1.584500 ms CreateObjectMapping: 1.900100 ms MarkObjects: 183.999800 ms  DeleteObjects: 0.042100 ms)
+Total: 193.601000 ms (FindLiveObjects: 1.582300 ms CreateObjectMapping: 1.796900 ms MarkObjects: 190.179100 ms  DeleteObjects: 0.042300 ms)
 
 CE is trying to create default parameter lists ...
 creating default parameter list for genes...
@@ -308,13 +305,13 @@ no modifications for genes
 no modifications for lifestages
 ...done
 Unloading 2 Unused Serialized files (Serialized files now loaded: 7)
-Unloading 0 unused Assets to reduce memory usage. Loaded Objects now: 33407.
-Total: 210.205500 ms (FindLiveObjects: 1.570200 ms CreateObjectMapping: 1.004300 ms MarkObjects: 207.572300 ms  DeleteObjects: 0.058300 ms)
+Unloading 0 unused Assets to reduce memory usage. Loaded Objects now: 33310.
+Total: 210.438700 ms (FindLiveObjects: 1.696700 ms CreateObjectMapping: 1.003300 ms MarkObjects: 207.692400 ms  DeleteObjects: 0.045900 ms)
 
 Unloading 3 Unused Serialized files (Serialized files now loaded: 7)
-UnloadTime: 0.532500 ms
-Unloading 4 unused Assets to reduce memory usage. Loaded Objects now: 33821.
-Total: 214.469400 ms (FindLiveObjects: 1.667800 ms CreateObjectMapping: 0.917700 ms MarkObjects: 211.799200 ms  DeleteObjects: 0.084300 ms)
+UnloadTime: 0.808000 ms
+Unloading 4 unused Assets to reduce memory usage. Loaded Objects now: 33749.
+Total: 214.897100 ms (FindLiveObjects: 1.602600 ms CreateObjectMapping: 1.196900 ms MarkObjects: 212.020900 ms  DeleteObjects: 0.076300 ms)
 
 Initializing new game with mods:
   - brrainz.harmony
@@ -386,166 +383,314 @@ Initializing new game with mods:
 checking editor settings...
 bodysizes genes are active
 Unloading 0 Unused Serialized files (Serialized files now loaded: 7)
-Unloading 1 unused Assets to reduce memory usage. Loaded Objects now: 42151.
-Total: 272.114100 ms (FindLiveObjects: 2.062700 ms CreateObjectMapping: 2.486300 ms MarkObjects: 267.468400 ms  DeleteObjects: 0.096200 ms)
+Unloading 1 unused Assets to reduce memory usage. Loaded Objects now: 41753.
+Total: 267.023100 ms (FindLiveObjects: 2.131400 ms CreateObjectMapping: 1.315800 ms MarkObjects: 263.474800 ms  DeleteObjects: 0.100900 ms)
 
-Life stage def HumanlikeChild not found while searching for min age of Lan
-Exception ticking Alia (at (126, 0, 124)). Suppressing further errors. Exception: System.NullReferenceException: Object reference not set to an instance of an object
-[Ref 28A69E90]
-  at RimWorld.CompPowerPlantSteam.CompTick () [0x0001a] in <61e4173561894da49d210260257b5097>:0 
-  at Verse.ThingWithComps.Tick () [0x00025] in <61e4173561894da49d210260257b5097>:0 
-  at Verse.Thing.DoTick () [0x0007b] in <61e4173561894da49d210260257b5097>:0 
-  at Verse.ThingOwner.DoTick () [0x00041] in <61e4173561894da49d210260257b5097>:0 
-    - PREFIX rimworld.erdelf.minify_everything: Boolean MinifyEverything.MinifyEverything:ThingOwnerTickPrefix(IThingHolder ___owner)
-  at Verse.Thing.DoTick () [0x0023c] in <61e4173561894da49d210260257b5097>:0 
-  at Verse.TickList.Tick () [0x00139] in <61e4173561894da49d210260257b5097>:0 
-Attempted to draw Squirrel49319 without a resolved render tree.
-Attempted to draw BU_RedwingedBlackbird49324 without a resolved render tree.
-Tried to spawn Dead Pawn Fedosia. Replacing with corpse.
-Tried to spawn Dead Pawn Spark. Replacing with corpse.
-Tried to spawn Dead Pawn Lupine. Replacing with corpse.
-Exception in JobDriver fixed tick for pawn Lupine driver=JobDriver_LayDown (toilIndex=1) driver.job=(LayDown (Job_187832) A = (100, 0, 31))
-System.NullReferenceException: Object reference not set to an instance of an object
-[Ref A1C778B0]
-  at RimWorld.Toils_LayDown.ApplyBedThoughts (Verse.Pawn actor, RimWorld.Building_Bed bed) [0x001fa] in <61e4173561894da49d210260257b5097>:0 
-    - POSTFIX com.otters.rimworld.mod.Tents: Void Tent.Patch_Toils_LayDown_ApplyBedThoughts:Postfix(Pawn actor)
-  at RimWorld.Toils_LayDown.ApplyBedRelatedEffects (Verse.Pawn p, RimWorld.Building_Bed bed, System.Boolean asleep, System.Boolean gainRest, System.Int32 delta) [0x0016f] in <61e4173561894da49d210260257b5097>:0 
-  at RimWorld.Toils_LayDown+<>c__DisplayClass6_0.<LayDown>b__1 () [0x000a3] in <61e4173561894da49d210260257b5097>:0 
-  at Verse.AI.JobDriver.DriverTick () [0x00170] in <61e4173561894da49d210260257b5097>:0 
-Exception in JobDriver fixed tick for pawn Spark driver=JobDriver_LayDown (toilIndex=1) driver.job=(LayDown (Job_188834) A = (76, 0, 43))
-System.NullReferenceException: Object reference not set to an instance of an object
-[Ref A1C778B0] Duplicate stacktrace, see ref for original
-Cannot play RRY_Pawn_Xenomorph_Normal_Call (subSound RRY_Pawn_Xenomorph_Normal_Call_0_: No resolved grains.
-Cannot play RRY_Pawn_Xenomorph_Normal_Call (subSound RRY_Pawn_Xenomorph_Normal_Call_0_: No resolved grains.
-Cannot play RRY_Pawn_Xenomorph_Normal_Call (subSound RRY_Pawn_Xenomorph_Normal_Call_0_: No resolved grains.
-Cannot play RRY_Pawn_Xenomorph_Normal_Call (subSound RRY_Pawn_Xenomorph_Normal_Call_0_: No resolved grains.
-Cannot play RRY_Pawn_Xenomorph_Normal_Call (subSound RRY_Pawn_Xenomorph_Normal_Call_0_: No resolved grains.
-Cannot play RRY_Pawn_Xenomorph_Normal_Call (subSound RRY_Pawn_Xenomorph_Normal_Call_0_: No resolved grains.
-Cannot play RRY_Pawn_Xenomorph_Normal_Call (subSound RRY_Pawn_Xenomorph_Normal_Call_0_: No resolved grains.
-Cannot play RRY_Pawn_Xenomorph_Normal_Call (subSound RRY_Pawn_Xenomorph_Normal_Call_0_: No resolved grains.
-Cannot play RRY_Pawn_Xenomorph_Normal_Call (subSound RRY_Pawn_Xenomorph_Normal_Call_0_: No resolved grains.
-Cannot play RRY_Pawn_Xenomorph_Normal_Call (subSound RRY_Pawn_Xenomorph_Normal_Call_0_: No resolved grains.
-Cannot play RRY_Pawn_Xenomorph_Normal_Call (subSound RRY_Pawn_Xenomorph_Normal_Call_0_: No resolved grains.
-Cannot play RRY_Pawn_Xenomorph_Normal_Call (subSound RRY_Pawn_Xenomorph_Normal_Call_0_: No resolved grains.
-Cannot play RRY_Pawn_Xenomorph_Normal_Call (subSound RRY_Pawn_Xenomorph_Normal_Call_0_: No resolved grains.
-Cannot play RRY_Pawn_Xenomorph_Normal_Call (subSound RRY_Pawn_Xenomorph_Normal_Call_0_: No resolved grains.
-Cannot play RRY_Pawn_Xenomorph_Normal_Call (subSound RRY_Pawn_Xenomorph_Normal_Call_0_: No resolved grains.
-Cannot play RRY_Pawn_Xenomorph_Normal_Call (subSound RRY_Pawn_Xenomorph_Normal_Call_0_: No resolved grains.
-Cannot play RRY_Pawn_Xenomorph_Normal_Call (subSound RRY_Pawn_Xenomorph_Normal_Call_0_: No resolved grains.
-Cannot play RRY_Pawn_Xenomorph_Normal_Call (subSound RRY_Pawn_Xenomorph_Normal_Call_0_: No resolved grains.
-Cannot play RRY_Pawn_Xenomorph_Normal_Call (subSound RRY_Pawn_Xenomorph_Normal_Call_0_: No resolved grains.
-Cannot play RRY_Pawn_Xenomorph_Normal_Call (subSound RRY_Pawn_Xenomorph_Normal_Call_0_: No resolved grains.
-Cannot play RRY_Pawn_Xenomorph_Normal_Call (subSound RRY_Pawn_Xenomorph_Normal_Call_0_: No resolved grains.
-Cannot play RRY_Pawn_Xenomorph_Normal_Call (subSound RRY_Pawn_Xenomorph_Normal_Call_0_: No resolved grains.
-Cannot play RRY_Pawn_Xenomorph_Normal_Call (subSound RRY_Pawn_Xenomorph_Normal_Call_0_: No resolved grains.
-Cannot play RRY_Pawn_Xenomorph_Normal_Call (subSound RRY_Pawn_Xenomorph_Normal_Call_0_: No resolved grains.
-Cannot play RRY_Pawn_Xenomorph_Normal_Call (subSound RRY_Pawn_Xenomorph_Normal_Call_0_: No resolved grains.
-Cannot play RRY_Pawn_Xenomorph_Normal_Call (subSound RRY_Pawn_Xenomorph_Normal_Call_0_: No resolved grains.
-Cannot play RRY_Pawn_Xenomorph_Normal_Call (subSound RRY_Pawn_Xenomorph_Normal_Call_0_: No resolved grains.
-Cannot play RRY_Pawn_Xenomorph_Normal_Call (subSound RRY_Pawn_Xenomorph_Normal_Call_0_: No resolved grains.
-Cannot play RRY_Pawn_Xenomorph_Normal_Call (subSound RRY_Pawn_Xenomorph_Normal_Call_0_: No resolved grains.
-Cannot play RRY_Pawn_Xenomorph_Normal_Call (subSound RRY_Pawn_Xenomorph_Normal_Call_0_: No resolved grains.
-Cannot play RRY_Pawn_Xenomorph_Normal_Call (subSound RRY_Pawn_Xenomorph_Normal_Call_0_: No resolved grains.
-Cannot play RRY_Pawn_Xenomorph_Normal_Call (subSound RRY_Pawn_Xenomorph_Normal_Call_0_: No resolved grains.
-Cannot play RRY_Pawn_Xenomorph_Normal_Call (subSound RRY_Pawn_Xenomorph_Normal_Call_0_: No resolved grains.
-Cannot play RRY_Pawn_Xenomorph_Normal_Call (subSound RRY_Pawn_Xenomorph_Normal_Call_0_: No resolved grains.
-Cannot play RRY_Pawn_Xenomorph_Normal_Call (subSound RRY_Pawn_Xenomorph_Normal_Call_0_: No resolved grains.
-Cannot play RRY_Pawn_Xenomorph_Normal_Call (subSound RRY_Pawn_Xenomorph_Normal_Call_0_: No resolved grains.
-Cannot play RRY_Pawn_Xenomorph_Normal_Call (subSound RRY_Pawn_Xenomorph_Normal_Call_0_: No resolved grains.
-Cannot play RRY_Pawn_Xenomorph_Normal_Call (subSound RRY_Pawn_Xenomorph_Normal_Call_0_: No resolved grains.
-Cannot play RRY_Pawn_Xenomorph_Normal_Call (subSound RRY_Pawn_Xenomorph_Normal_Call_0_: No resolved grains.
-Cannot play RRY_Pawn_Xenomorph_Normal_Call (subSound RRY_Pawn_Xenomorph_Normal_Call_0_: No resolved grains.
-Cannot play RRY_Pawn_Xenomorph_Normal_Call (subSound RRY_Pawn_Xenomorph_Normal_Call_0_: No resolved grains.
-Cannot play RRY_Pawn_Xenomorph_Normal_Call (subSound RRY_Pawn_Xenomorph_Normal_Call_0_: No resolved grains.
-Cannot play RRY_Pawn_Xenomorph_Normal_Call (subSound RRY_Pawn_Xenomorph_Normal_Call_0_: No resolved grains.
-Cannot play RRY_Pawn_Xenomorph_Normal_Call (subSound RRY_Pawn_Xenomorph_Normal_Call_0_: No resolved grains.
-Cannot play RRY_Pawn_Xenomorph_Normal_Call (subSound RRY_Pawn_Xenomorph_Normal_Call_0_: No resolved grains.
-Cannot play RRY_Pawn_Xenomorph_Normal_Call (subSound RRY_Pawn_Xenomorph_Normal_Call_0_: No resolved grains.
-Cannot play RRY_Pawn_Xenomorph_Normal_Call (subSound RRY_Pawn_Xenomorph_Normal_Call_0_: No resolved grains.
-Cannot play RRY_Pawn_Xenomorph_Normal_Call (subSound RRY_Pawn_Xenomorph_Normal_Call_0_: No resolved grains.
-Cannot play RRY_Pawn_Xenomorph_Normal_Call (subSound RRY_Pawn_Xenomorph_Normal_Call_0_: No resolved grains.
-Cannot play RRY_Pawn_Xenomorph_Normal_Call (subSound RRY_Pawn_Xenomorph_Normal_Call_0_: No resolved grains.
-Cannot play RRY_Pawn_Xenomorph_Normal_Call (subSound RRY_Pawn_Xenomorph_Normal_Call_0_: No resolved grains.
-Cannot play RRY_Pawn_Xenomorph_Normal_Call (subSound RRY_Pawn_Xenomorph_Normal_Call_0_: No resolved grains.
-Cannot play RRY_Pawn_Xenomorph_Normal_Call (subSound RRY_Pawn_Xenomorph_Normal_Call_0_: No resolved grains.
-Cannot play RRY_Pawn_Xenomorph_Normal_Call (subSound RRY_Pawn_Xenomorph_Normal_Call_0_: No resolved grains.
-Cannot play RRY_Pawn_Xenomorph_Normal_Call (subSound RRY_Pawn_Xenomorph_Normal_Call_0_: No resolved grains.
-Cannot play RRY_Pawn_Xenomorph_Normal_Call (subSound RRY_Pawn_Xenomorph_Normal_Call_0_: No resolved grains.
-Cannot play RRY_Pawn_Xenomorph_Normal_Call (subSound RRY_Pawn_Xenomorph_Normal_Call_0_: No resolved grains.
-Cannot play RRY_Pawn_Xenomorph_Normal_Call (subSound RRY_Pawn_Xenomorph_Normal_Call_0_: No resolved grains.
-Cannot play RRY_Pawn_Xenomorph_Normal_Call (subSound RRY_Pawn_Xenomorph_Normal_Call_0_: No resolved grains.
-Cannot play RRY_Pawn_Xenomorph_Normal_Call (subSound RRY_Pawn_Xenomorph_Normal_Call_0_: No resolved grains.
-Cannot play RRY_Pawn_Xenomorph_Normal_Call (subSound RRY_Pawn_Xenomorph_Normal_Call_0_: No resolved grains.
-Cannot play RRY_Pawn_Xenomorph_Normal_Call (subSound RRY_Pawn_Xenomorph_Normal_Call_0_: No resolved grains.
-Cannot play RRY_Pawn_Xenomorph_Normal_Call (subSound RRY_Pawn_Xenomorph_Normal_Call_0_: No resolved grains.
-Cannot play RRY_Pawn_Xenomorph_Normal_Call (subSound RRY_Pawn_Xenomorph_Normal_Call_0_: No resolved grains.
-Cannot play RRY_Pawn_Xenomorph_Normal_Call (subSound RRY_Pawn_Xenomorph_Normal_Call_0_: No resolved grains.
-Cannot play RRY_Pawn_Xenomorph_Normal_Call (subSound RRY_Pawn_Xenomorph_Normal_Call_0_: No resolved grains.
-Cannot play RRY_Pawn_Xenomorph_Normal_Call (subSound RRY_Pawn_Xenomorph_Normal_Call_0_: No resolved grains.
-Cannot play RRY_Pawn_Xenomorph_Normal_Call (subSound RRY_Pawn_Xenomorph_Normal_Call_0_: No resolved grains.
-Cannot play RRY_Pawn_Xenomorph_Normal_Call (subSound RRY_Pawn_Xenomorph_Normal_Call_0_: No resolved grains.
-Cannot play RRY_Pawn_Xenomorph_Normal_Call (subSound RRY_Pawn_Xenomorph_Normal_Call_0_: No resolved grains.
-Cannot play RRY_Pawn_Xenomorph_Normal_Call (subSound RRY_Pawn_Xenomorph_Normal_Call_0_: No resolved grains.
-Cannot play RRY_Pawn_Xenomorph_Normal_Call (subSound RRY_Pawn_Xenomorph_Normal_Call_0_: No resolved grains.
-Cannot play RRY_Pawn_Xenomorph_Normal_Call (subSound RRY_Pawn_Xenomorph_Normal_Call_0_: No resolved grains.
-Cannot play RRY_Pawn_Xenomorph_Normal_Call (subSound RRY_Pawn_Xenomorph_Normal_Call_0_: No resolved grains.
-Cannot play RRY_Pawn_Xenomorph_Normal_Call (subSound RRY_Pawn_Xenomorph_Normal_Call_0_: No resolved grains.
-Cannot play RRY_Pawn_Xenomorph_Normal_Call (subSound RRY_Pawn_Xenomorph_Normal_Call_0_: No resolved grains.
-Cannot play RRY_Pawn_Xenomorph_Normal_Call (subSound RRY_Pawn_Xenomorph_Normal_Call_0_: No resolved grains.
-Cannot play RRY_Pawn_Xenomorph_Normal_Call (subSound RRY_Pawn_Xenomorph_Normal_Call_0_: No resolved grains.
-Cannot play RRY_Pawn_Xenomorph_Normal_Call (subSound RRY_Pawn_Xenomorph_Normal_Call_0_: No resolved grains.
-Cannot play RRY_Pawn_Xenomorph_Normal_Call (subSound RRY_Pawn_Xenomorph_Normal_Call_0_: No resolved grains.
-Cannot play RRY_Pawn_Xenomorph_Normal_Call (subSound RRY_Pawn_Xenomorph_Normal_Call_0_: No resolved grains.
-Cannot play RRY_Pawn_Xenomorph_Normal_Call (subSound RRY_Pawn_Xenomorph_Normal_Call_0_: No resolved grains.
-Cannot play RRY_Pawn_Xenomorph_Normal_Call (subSound RRY_Pawn_Xenomorph_Normal_Call_0_: No resolved grains.
-Cannot play RRY_Pawn_Xenomorph_Normal_Call (subSound RRY_Pawn_Xenomorph_Normal_Call_0_: No resolved grains.
-Cannot play RRY_Pawn_Xenomorph_Normal_Call (subSound RRY_Pawn_Xenomorph_Normal_Call_0_: No resolved grains.
-Cannot play RRY_Pawn_Xenomorph_Normal_Call (subSound RRY_Pawn_Xenomorph_Normal_Call_0_: No resolved grains.
-Cannot play RRY_Pawn_Xenomorph_Normal_Call (subSound RRY_Pawn_Xenomorph_Normal_Call_0_: No resolved grains.
-Exception in JobDriver fixed tick for pawn Spark driver=JobDriver_LayDown (toilIndex=1) driver.job=(LayDown (Job_195965) A = (76, 0, 43))
-System.NullReferenceException: Object reference not set to an instance of an object
-[Ref A1C778B0] Duplicate stacktrace, see ref for original
-Cannot play RRY_Pawn_Xenomorph_Normal_Call (subSound RRY_Pawn_Xenomorph_Normal_Call_0_: No resolved grains.
-Cannot play RRY_Pawn_Xenomorph_Normal_Call (subSound RRY_Pawn_Xenomorph_Normal_Call_0_: No resolved grains.
-Cannot play RRY_Pawn_Xenomorph_Normal_Call (subSound RRY_Pawn_Xenomorph_Normal_Call_0_: No resolved grains.
-Cannot play RRY_Pawn_Xenomorph_Normal_Call (subSound RRY_Pawn_Xenomorph_Normal_Call_0_: No resolved grains.
-Cannot play RRY_Pawn_Xenomorph_Normal_Call (subSound RRY_Pawn_Xenomorph_Normal_Call_0_: No resolved grains.
-Cannot play RRY_Pawn_Xenomorph_Normal_Call (subSound RRY_Pawn_Xenomorph_Normal_Call_0_: No resolved grains.
-Cannot play RRY_Pawn_Xenomorph_Normal_Call (subSound RRY_Pawn_Xenomorph_Normal_Call_0_: No resolved grains.
-Cannot play RRY_Pawn_Xenomorph_Normal_Call (subSound RRY_Pawn_Xenomorph_Normal_Call_0_: No resolved grains.
-Cannot play RRY_Pawn_Xenomorph_Normal_Call (subSound RRY_Pawn_Xenomorph_Normal_Call_0_: No resolved grains.
-Cannot play RRY_Pawn_Xenomorph_Normal_Call (subSound RRY_Pawn_Xenomorph_Normal_Call_0_: No resolved grains.
-Cannot play RRY_Pawn_Xenomorph_Normal_Call (subSound RRY_Pawn_Xenomorph_Normal_Call_0_: No resolved grains.
-Cannot play RRY_Pawn_Xenomorph_Normal_Call (subSound RRY_Pawn_Xenomorph_Normal_Call_0_: No resolved grains.
-Cannot play RRY_Pawn_Xenomorph_Normal_Call (subSound RRY_Pawn_Xenomorph_Normal_Call_0_: No resolved grains.
-Cannot play RRY_Pawn_Xenomorph_Normal_Call (subSound RRY_Pawn_Xenomorph_Normal_Call_0_: No resolved grains.
-Cannot play RRY_Pawn_Xenomorph_Normal_Call (subSound RRY_Pawn_Xenomorph_Normal_Call_0_: No resolved grains.
-Cannot play RRY_Pawn_Xenomorph_Normal_Call (subSound RRY_Pawn_Xenomorph_Normal_Call_0_: No resolved grains.
-Cannot play RRY_Pawn_Xenomorph_Normal_Call (subSound RRY_Pawn_Xenomorph_Normal_Call_0_: No resolved grains.
-Cannot play RRY_Pawn_Xenomorph_Normal_Call (subSound RRY_Pawn_Xenomorph_Normal_Call_0_: No resolved grains.
-Cannot play RRY_Pawn_Xenomorph_Normal_Call (subSound RRY_Pawn_Xenomorph_Normal_Call_0_: No resolved grains.
-Cannot play RRY_Pawn_Xenomorph_Normal_Call (subSound RRY_Pawn_Xenomorph_Normal_Call_0_: No resolved grains.
-Cannot play RRY_Pawn_Xenomorph_Normal_Call (subSound RRY_Pawn_Xenomorph_Normal_Call_0_: No resolved grains.
-Cannot play RRY_Pawn_Xenomorph_Normal_Call (subSound RRY_Pawn_Xenomorph_Normal_Call_0_: No resolved grains.
-Cannot play RRY_Pawn_Xenomorph_Normal_Call (subSound RRY_Pawn_Xenomorph_Normal_Call_0_: No resolved grains.
-Cannot play RRY_Pawn_Xenomorph_Normal_Call (subSound RRY_Pawn_Xenomorph_Normal_Call_0_: No resolved grains.
-Cannot play RRY_Pawn_Xenomorph_Normal_Call (subSound RRY_Pawn_Xenomorph_Normal_Call_0_: No resolved grains.
-Cannot play RRY_Pawn_Xenomorph_Normal_Call (subSound RRY_Pawn_Xenomorph_Normal_Call_0_: No resolved grains.
-Cannot play RRY_Pawn_Xenomorph_Normal_Call (subSound RRY_Pawn_Xenomorph_Normal_Call_0_: No resolved grains.
-Cannot play RRY_Pawn_Xenomorph_Normal_Call (subSound RRY_Pawn_Xenomorph_Normal_Call_0_: No resolved grains.
-Cannot play RRY_Pawn_Xenomorph_Normal_Call (subSound RRY_Pawn_Xenomorph_Normal_Call_0_: No resolved grains.
-Cannot play RRY_Pawn_Xenomorph_Normal_Call (subSound RRY_Pawn_Xenomorph_Normal_Call_0_: No resolved grains.
-Cannot play RRY_Pawn_Xenomorph_Normal_Call (subSound RRY_Pawn_Xenomorph_Normal_Call_0_: No resolved grains.
-Cannot play RRY_Pawn_Xenomorph_Normal_Call (subSound RRY_Pawn_Xenomorph_Normal_Call_0_: No resolved grains.
-Cannot play RRY_Pawn_Xenomorph_Normal_Call (subSound RRY_Pawn_Xenomorph_Normal_Call_0_: No resolved grains.
-Cannot play RRY_Pawn_Xenomorph_Normal_Call (subSound RRY_Pawn_Xenomorph_Normal_Call_0_: No resolved grains.
-Cannot play RRY_Pawn_Xenomorph_Normal_Call (subSound RRY_Pawn_Xenomorph_Normal_Call_0_: No resolved grains.
-Cannot play RRY_Pawn_Xenomorph_Normal_Call (subSound RRY_Pawn_Xenomorph_Normal_Call_0_: No resolved grains.
-Cannot play RRY_Pawn_Xenomorph_Normal_Call (subSound RRY_Pawn_Xenomorph_Normal_Call_0_: No resolved grains.
-Cannot play RRY_Pawn_Xenomorph_Normal_Call (subSound RRY_Pawn_Xenomorph_Normal_Call_0_: No resolved grains.
-Cannot play RRY_Pawn_Xenomorph_Normal_Call (subSound RRY_Pawn_Xenomorph_Normal_Call_0_: No resolved grains.
-Cannot play RRY_Pawn_Xenomorph_Normal_Call (subSound RRY_Pawn_Xenomorph_Normal_Call_0_: No resolved grains.
-Cannot play RRY_Pawn_Xenomorph_Normal_Call (subSound RRY_Pawn_Xenomorph_Normal_Call_0_: No resolved grains.
-Cannot play RRY_Pawn_Xenomorph_Normal_Call (subSound RRY_Pawn_Xenomorph_Normal_Call_0_: No resolved grains.
-Cannot play RRY_Pawn_Xenomorph_Normal_Call (subSound RRY_Pawn_Xenomorph_Normal_Call_0_: No resolved grains.
-Cannot play RRY_Pawn_Xenomorph_Normal_Call (subSound RRY_Pawn_Xenomorph_Normal_Call_0_: No resolved grains.
+Life stage def HumanlikeChild not found while searching for min age of Leif
+Memory Statistics:
+[ALLOC_TEMP_TLS] TLS Allocator
+  StackAllocators : 
+    [ALLOC_TEMP_MAIN]
+      Peak usage frame count: [0-1.0 KB]: 4024 frames, [1.0 KB-2.0 KB]: 17 frames, [2.0 KB-4.0 KB]: 10177 frames, [4.0 KB-8.0 KB]: 3208 frames, [8.0 KB-16.0 KB]: 56 frames, [16.0 KB-32.0 KB]: 15 frames, [32.0 KB-64.0 KB]: 18 frames, [64.0 KB-128.0 KB]: 10 frames, [128.0 KB-256.0 KB]: 5 frames, [256.0 KB-0.5 MB]: 5 frames, [0.5 MB-1.0 MB]: 1 frames, [1.0 MB-2.0 MB]: 7 frames, [2.0 MB-4.0 MB]: 8 frames, [4.0 MB-8.0 MB]: 3 frames
+      Initial Block Size 4.0 MB
+      Current Block Size 5.3 MB
+      Peak Allocated Bytes 5.3 MB
+      Overflow Count 17
+    [ALLOC_TEMP_Loading.AsyncRead]
+      Initial Block Size 64.0 KB
+      Current Block Size 120.0 KB
+      Peak Allocated Bytes 117.2 KB
+      Overflow Count 0
+    [ALLOC_TEMP_Loading.PreloadManager]
+      Initial Block Size 256.0 KB
+      Current Block Size 256.0 KB
+      Peak Allocated Bytes 3.8 KB
+      Overflow Count 8
+    [ALLOC_TEMP_Background Job.Worker 8]
+      Initial Block Size 32.0 KB
+      Current Block Size 32.0 KB
+      Peak Allocated Bytes 54 B
+      Overflow Count 0
+    [ALLOC_TEMP_Job.Worker 6]
+      Initial Block Size 256.0 KB
+      Current Block Size 256.0 KB
+      Peak Allocated Bytes 176 B
+      Overflow Count 0
+    [ALLOC_TEMP_Job.Worker 0]
+      Initial Block Size 256.0 KB
+      Current Block Size 256.0 KB
+      Peak Allocated Bytes 160 B
+      Overflow Count 0
+    [ALLOC_TEMP_Background Job.Worker 10]
+      Initial Block Size 32.0 KB
+      Current Block Size 32.0 KB
+      Peak Allocated Bytes 54 B
+      Overflow Count 0
+    [ALLOC_TEMP_Background Job.Worker 9]
+      Initial Block Size 32.0 KB
+      Current Block Size 32.0 KB
+      Peak Allocated Bytes 54 B
+      Overflow Count 0
+    [ALLOC_TEMP_Job.Worker 5]
+      Initial Block Size 256.0 KB
+      Current Block Size 256.0 KB
+      Peak Allocated Bytes 176 B
+      Overflow Count 0
+    [ALLOC_TEMP_Background Job.Worker 14]
+      Initial Block Size 32.0 KB
+      Current Block Size 32.0 KB
+      Peak Allocated Bytes 54 B
+      Overflow Count 0
+    [ALLOC_TEMP_Background Job.Worker 6]
+      Initial Block Size 32.0 KB
+      Current Block Size 32.0 KB
+      Peak Allocated Bytes 54 B
+      Overflow Count 0
+    [ALLOC_TEMP_Job.Worker 4]
+      Initial Block Size 256.0 KB
+      Current Block Size 256.0 KB
+      Peak Allocated Bytes 176 B
+      Overflow Count 0
+    [ALLOC_TEMP_ReadCacheIndex]
+      Initial Block Size 64.0 KB
+      Current Block Size 64.0 KB
+      Peak Allocated Bytes 0.6 KB
+      Overflow Count 0
+    [ALLOC_TEMP_Job.Worker 3]
+      Initial Block Size 256.0 KB
+      Current Block Size 256.0 KB
+      Peak Allocated Bytes 144 B
+      Overflow Count 0
+    [ALLOC_TEMP_Background Job.Worker 12]
+      Initial Block Size 32.0 KB
+      Current Block Size 32.0 KB
+      Peak Allocated Bytes 54 B
+      Overflow Count 0
+    [ALLOC_TEMP_EnlightenWorker] x 6
+      Initial Block Size 64.0 KB
+      Current Block Size 64.0 KB
+      Peak Allocated Bytes 54 B
+      Overflow Count 0
+    [ALLOC_TEMP_Background Job.Worker 15]
+      Initial Block Size 32.0 KB
+      Current Block Size 32.0 KB
+      Peak Allocated Bytes 54 B
+      Overflow Count 0
+    [ALLOC_TEMP_Background Job.Worker 1]
+      Initial Block Size 32.0 KB
+      Current Block Size 32.0 KB
+      Peak Allocated Bytes 54 B
+      Overflow Count 0
+    [ALLOC_TEMP_Background Job.Worker 2]
+      Initial Block Size 32.0 KB
+      Current Block Size 32.0 KB
+      Peak Allocated Bytes 54 B
+      Overflow Count 0
+    [ALLOC_TEMP_Background Job.Worker 7]
+      Initial Block Size 32.0 KB
+      Current Block Size 32.0 KB
+      Peak Allocated Bytes 54 B
+      Overflow Count 0
+    [ALLOC_TEMP_UnityGfxDeviceWorker]
+      Initial Block Size 256.0 KB
+      Current Block Size 256.0 KB
+      Peak Allocated Bytes 10.3 KB
+      Overflow Count 0
+    [ALLOC_TEMP_AssetGarbageCollectorHelper] x 11
+      Initial Block Size 64.0 KB
+      Current Block Size 64.0 KB
+      Peak Allocated Bytes 138 B
+      Overflow Count 0
+    [ALLOC_TEMP_Background Job.Worker 5]
+      Initial Block Size 32.0 KB
+      Current Block Size 32.0 KB
+      Peak Allocated Bytes 54 B
+      Overflow Count 0
+    [ALLOC_TEMP_Job.Worker 9]
+      Initial Block Size 256.0 KB
+      Current Block Size 256.0 KB
+      Peak Allocated Bytes 160 B
+      Overflow Count 0
+    [ALLOC_TEMP_Background Job.Worker 13]
+      Initial Block Size 32.0 KB
+      Current Block Size 32.0 KB
+      Peak Allocated Bytes 54 B
+      Overflow Count 0
+    [ALLOC_TEMP_Job.Worker 8]
+      Initial Block Size 256.0 KB
+      Current Block Size 256.0 KB
+      Peak Allocated Bytes 176 B
+      Overflow Count 0
+    [ALLOC_TEMP_Job.Worker 7]
+      Initial Block Size 256.0 KB
+      Current Block Size 256.0 KB
+      Peak Allocated Bytes 160 B
+      Overflow Count 0
+    [ALLOC_TEMP_Job.Worker 1]
+      Initial Block Size 256.0 KB
+      Current Block Size 256.0 KB
+      Peak Allocated Bytes 507 B
+      Overflow Count 0
+    [ALLOC_TEMP_Job.Worker 2]
+      Initial Block Size 256.0 KB
+      Current Block Size 256.0 KB
+      Peak Allocated Bytes 288 B
+      Overflow Count 0
+    [ALLOC_TEMP_Background Job.Worker 3]
+      Initial Block Size 32.0 KB
+      Current Block Size 32.0 KB
+      Peak Allocated Bytes 54 B
+      Overflow Count 0
+    [ALLOC_TEMP_Background Job.Worker 11]
+      Initial Block Size 32.0 KB
+      Current Block Size 32.0 KB
+      Peak Allocated Bytes 54 B
+      Overflow Count 0
+    [ALLOC_TEMP_Job.Worker 10]
+      Initial Block Size 256.0 KB
+      Current Block Size 256.0 KB
+      Peak Allocated Bytes 160 B
+      Overflow Count 0
+    [ALLOC_TEMP_Background Job.Worker 0]
+      Initial Block Size 32.0 KB
+      Current Block Size 32.0 KB
+      Peak Allocated Bytes 54 B
+      Overflow Count 0
+    [ALLOC_TEMP_Background Job.Worker 4]
+      Initial Block Size 32.0 KB
+      Current Block Size 32.0 KB
+      Peak Allocated Bytes 54 B
+      Overflow Count 0
+    [ALLOC_TEMP_BatchDeleteObjects]
+      Initial Block Size 64.0 KB
+      Current Block Size 64.0 KB
+      Peak Allocated Bytes 54 B
+      Overflow Count 0
+[ALLOC_DEFAULT] Dual Thread Allocator
+  Peak main deferred allocation count 43524
+    [ALLOC_BUCKET]
+      Large Block size 4.0 MB
+      Used Block count 1
+      Peak Allocated bytes 4.0 MB
+      Failed Allocations. Bucket layout:
+        16B: 5 Subsections = 5120 buckets. Failed count: 61613
+        32B: 34 Subsections = 17408 buckets. Failed count: 170056
+        48B: 49 Subsections = 16725 buckets. Failed count: 132962
+        64B: 40 Subsections = 10240 buckets. Failed count: 63339
+        80B: 85 Subsections = 17408 buckets. Failed count: 72787
+        96B: 27 Subsections = 4608 buckets. Failed count: 46739
+        112B: 10 Subsections = 1462 buckets. Failed count: 28430
+        128B: 6 Subsections = 768 buckets. Failed count: 16384
+    [ALLOC_DEFAULT_MAIN]
+      Peak usage frame count: [16.0 MB-32.0 MB]: 567 frames, [32.0 MB-64.0 MB]: 26 frames, [64.0 MB-128.0 MB]: 11 frames, [128.0 MB-256.0 MB]: 7999 frames, [256.0 MB-0.50 GB]: 8951 frames
+      Requested Block Size 16.0 MB
+      Peak Block count 17
+      Peak Allocated memory 278.4 MB
+      Peak Large allocation bytes 63.2 MB
+    [ALLOC_DEFAULT_THREAD]
+      Peak usage frame count: [8.0 MB-16.0 MB]: 3348 frames, [16.0 MB-32.0 MB]: 2 frames, [32.0 MB-64.0 MB]: 15 frames, [64.0 MB-128.0 MB]: 5238 frames, [128.0 MB-256.0 MB]: 8951 frames
+      Requested Block Size 16.0 MB
+      Peak Block count 7
+      Peak Allocated memory 136.5 MB
+      Peak Large allocation bytes 33.8 MB
+[ALLOC_TEMP_JOB_1_FRAME]
+  Initial Block Size 2.0 MB
+  Used Block Count 0
+  Overflow Count (too large) 0
+  Overflow Count (full) 0
+[ALLOC_TEMP_JOB_2_FRAMES]
+  Initial Block Size 2.0 MB
+  Used Block Count 0
+  Overflow Count (too large) 0
+  Overflow Count (full) 0
+[ALLOC_TEMP_JOB_4_FRAMES (JobTemp)]
+  Initial Block Size 2.0 MB
+  Used Block Count 1
+  Overflow Count (too large) 16
+  Overflow Count (full) 0
+[ALLOC_TEMP_JOB_ASYNC (Background)]
+  Initial Block Size 1.0 MB
+  Used Block Count 1
+  Overflow Count (too large) 0
+  Overflow Count (full) 0
+[ALLOC_GFX] Dual Thread Allocator
+  Peak main deferred allocation count 930
+    [ALLOC_BUCKET]
+      Large Block size 4.0 MB
+      Used Block count 1
+      Peak Allocated bytes 4.0 MB
+      Failed Allocations. Bucket layout:
+        16B: 5 Subsections = 5120 buckets. Failed count: 61613
+        32B: 34 Subsections = 17408 buckets. Failed count: 170056
+        48B: 49 Subsections = 16725 buckets. Failed count: 132962
+        64B: 40 Subsections = 10240 buckets. Failed count: 63339
+        80B: 85 Subsections = 17408 buckets. Failed count: 72787
+        96B: 27 Subsections = 4608 buckets. Failed count: 46739
+        112B: 10 Subsections = 1462 buckets. Failed count: 28430
+        128B: 6 Subsections = 768 buckets. Failed count: 16384
+    [ALLOC_GFX_MAIN]
+      Peak usage frame count: [128.0 KB-256.0 KB]: 1 frames, [2.0 MB-4.0 MB]: 603 frames, [4.0 MB-8.0 MB]: 6 frames, [8.0 MB-16.0 MB]: 2686 frames, [16.0 MB-32.0 MB]: 775 frames, [64.0 MB-128.0 MB]: 4531 frames, [128.0 MB-256.0 MB]: 8951 frames, [256.0 MB-0.50 GB]: 1 frames
+      Requested Block Size 16.0 MB
+      Peak Block count 8
+      Peak Allocated memory 473.5 MB
+      Peak Large allocation bytes 394.2 MB
+    [ALLOC_GFX_THREAD]
+      Peak usage frame count: [0-1.0 KB]: 616 frames, [1.0 KB-2.0 KB]: 420 frames, [2.0 KB-4.0 KB]: 1545 frames, [4.0 KB-8.0 KB]: 1499 frames, [16.0 KB-32.0 KB]: 4516 frames, [32.0 KB-64.0 KB]: 9 frames, [64.0 KB-128.0 KB]: 388 frames, [128.0 KB-256.0 KB]: 7047 frames, [256.0 KB-0.5 MB]: 1514 frames
+      Requested Block Size 16.0 MB
+      Peak Block count 1
+      Peak Allocated memory 330.4 KB
+      Peak Large allocation bytes 0 B
+[ALLOC_CACHEOBJECTS] Dual Thread Allocator
+  Peak main deferred allocation count 101
+    [ALLOC_BUCKET]
+      Large Block size 4.0 MB
+      Used Block count 1
+      Peak Allocated bytes 4.0 MB
+      Failed Allocations. Bucket layout:
+        16B: 5 Subsections = 5120 buckets. Failed count: 61613
+        32B: 34 Subsections = 17408 buckets. Failed count: 170056
+        48B: 49 Subsections = 16725 buckets. Failed count: 132962
+        64B: 40 Subsections = 10240 buckets. Failed count: 63339
+        80B: 85 Subsections = 17408 buckets. Failed count: 72787
+        96B: 27 Subsections = 4608 buckets. Failed count: 46739
+        112B: 10 Subsections = 1462 buckets. Failed count: 28430
+        128B: 6 Subsections = 768 buckets. Failed count: 16384
+    [ALLOC_CACHEOBJECTS_MAIN]
+      Peak usage frame count: [4.0 MB-8.0 MB]: 1 frames, [8.0 MB-16.0 MB]: 604 frames, [16.0 MB-32.0 MB]: 16949 frames
+      Requested Block Size 4.0 MB
+      Peak Block count 5
+      Peak Allocated memory 17.9 MB
+      Peak Large allocation bytes 0 B
+    [ALLOC_CACHEOBJECTS_THREAD]
+      Peak usage frame count: [4.0 KB-8.0 KB]: 8299 frames, [32.0 KB-64.0 KB]: 1 frames, [64.0 KB-128.0 KB]: 9232 frames, [128.0 KB-256.0 KB]: 4 frames, [256.0 KB-0.5 MB]: 17 frames, [0.5 MB-1.0 MB]: 1 frames
+      Requested Block Size 4.0 MB
+      Peak Block count 1
+      Peak Allocated memory 0.6 MB
+      Peak Large allocation bytes 0 B
+[ALLOC_TYPETREE] Dual Thread Allocator
+  Peak main deferred allocation count 0
+    [ALLOC_BUCKET]
+      Large Block size 4.0 MB
+      Used Block count 1
+      Peak Allocated bytes 4.0 MB
+      Failed Allocations. Bucket layout:
+        16B: 5 Subsections = 5120 buckets. Failed count: 61613
+        32B: 34 Subsections = 17408 buckets. Failed count: 170056
+        48B: 49 Subsections = 16725 buckets. Failed count: 132962
+        64B: 40 Subsections = 10240 buckets. Failed count: 63339
+        80B: 85 Subsections = 17408 buckets. Failed count: 72787
+        96B: 27 Subsections = 4608 buckets. Failed count: 46739
+        112B: 10 Subsections = 1462 buckets. Failed count: 28430
+        128B: 6 Subsections = 768 buckets. Failed count: 16384
+    [ALLOC_TYPETREE_MAIN]
+      Peak usage frame count: [4.0 KB-8.0 KB]: 1 frames, [8.0 KB-16.0 KB]: 567 frames, [32.0 KB-64.0 KB]: 58 frames, [256.0 KB-0.5 MB]: 16928 frames
+      Requested Block Size 2.0 MB
+      Peak Block count 1
+      Peak Allocated memory 357.7 KB
+      Peak Large allocation bytes 0 B
+    [ALLOC_TYPETREE_THREAD]
+      Peak usage frame count: [0-1.0 KB]: 17554 frames
+      Requested Block Size 2.0 MB
+      Peak Block count 0
+      Peak Allocated memory 0 B
+      Peak Large allocation bytes 0 B
