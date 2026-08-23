@@ -362,24 +362,15 @@ namespace RRYautja
                         }
                         GenSpawn.Spawn(pawn, spawnLoc, spawnMap, WipeMode.Vanish);
                         // Assign a Lord so chestburster-spawned Xenos don't all do the same job
-                        if (pawn.GetLord() == null)
+                        var existingLord = spawnMap.lordManager.lords.FirstOrDefault(l => l.faction == pawn.Faction);
+                        if (existingLord != null)
                         {
-                            // Find nearest hive to assign the pawn to, or create a new lord
-                            Verse.AI.Group.Lord lord = null;
-                            // Try to find an existing Xenomorph lord on the map
-                            foreach (var l in spawnMap.lordManager.lords)
-                            {
-                                if (l.faction != null && l.faction == pawn.Faction)
-                                {
-                                    lord = l;
-                                    break;
-                                }
-                            }
-                            if (lord == null)
-                            {
-                                lord = Verse.AI.Group.LordMaker.MakeNewLord(pawn.Faction, new LordJob_DefendAndExpandHiveLike(false), spawnMap, null);
-                            }
-                            lord.AddPawn(pawn);
+                            existingLord.AddPawn(pawn);
+                        }
+                        else
+                        {
+                            var newLord = Verse.AI.Group.LordMaker.MakeNewLord(pawn.Faction, new LordJob_DefendAndExpandHiveLike(false), spawnMap, null);
+                            newLord.AddPawn(pawn);
                         }
                     }
                     Vector3 vector = spawnLoc.ToVector3Shifted();
