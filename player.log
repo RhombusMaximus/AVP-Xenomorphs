@@ -1,0 +1,790 @@
+Mono path[0] = 'D:/SteamLibrary/steamapps/common/RimWorld/RimWorldWin64_Data/Managed'
+Mono config path = 'D:/SteamLibrary/steamapps/common/RimWorld/MonoBleedingEdge/etc'
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+Initialize engine version: 2022.3.35f1 (011206c7a712)
+[Subsystems] Discovering subsystems at path D:/SteamLibrary/steamapps/common/RimWorld/RimWorldWin64_Data/UnitySubsystems
+GfxDevice: creating device client; threaded=1; jobified=0
+Direct3D:
+    Version:  Direct3D 11.0 [level 11.1]
+    Renderer: NVIDIA GeForce RTX 3050 (ID=0x2507)
+    Vendor:   NVIDIA
+    VRAM:     8042 MB
+    Driver:   32.0.16.1088
+Begin MonoManager ReloadAssembly
+- Loaded All Assemblies, in  0.154 seconds
+- Finished resetting the current domain, in  0.001 seconds
+<RI> Initializing input.
+
+<RI> Input initialized.
+
+<RI> Initialized touch support.
+
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+UnloadTime: 0.608900 ms
+Command line arguments: -disable-compute-shaders
+RimWorld 1.6.4871 rev591
+Mod Realistic Humansounds HAR Patch dependency (Mlie.RealisticHumanSounds) needs to have <downloadUrl> and/or <steamWorkshopUrl> specified.
+Fallback handler could not load library D:/SteamLibrary/steamapps/common/RimWorld/RimWorldWin64_Data/MonoBleedingEdge/data-00000143E3A0BE30.dll
+Fallback handler could not load library D:/SteamLibrary/steamapps/common/RimWorld/RimWorldWin64_Data/MonoBleedingEdge/data-00000143E3D690F0.dll
+[Loading Progress] Loading Progress initialized! Enjoy the rest of your loading experience!
+[HugsLib] version 12.0.0
+[HugsLib] early-initializing AllowTool
+Fallback handler could not load library D:/SteamLibrary/steamapps/common/RimWorld/RimWorldWin64_Data/MonoBleedingEdge/data-00000143E4BCE010.dll
+DubsMintMenus v1.3.1086
+[Analyzer] Loaded version 1.6.0 rev 1
+[Analyzer] ResearchTree
+FPSStabilizer v1.1 loaded, patcher message: Patched successfully, fps set to 60
+Fallback handler could not load library D:/SteamLibrary/steamapps/common/RimWorld/RimWorldWin64_Data/MonoBleedingEdge/data-00000143E71E7020.dll
+<color=#66ffb5>[MeleeAnim]</color> Hello, world!
+Build date: 4/13/2026 8:02 AM
+Loaded assemblies (9):
+0BetterFloatMenu, Version=16.0.0.0, Culture=neutral, PublicKeyToken=null,
+0ColourPicker, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null,
+AMRetextureSupport, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null,
+Meta.Numerics, Version=3.1.0.0, Culture=neutral, PublicKeyToken=67d25c65a6631347,
+ModRequestAPI, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null,
+ModRequestAPI.Models, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null,
+Unity.Newtonsoft.Json, Version=7.0.0.0, Culture=neutral, PublicKeyToken=null,
+zAnimationMod, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null,
+AM.AlienRacesPatch, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null
+<color=#66ffb5>[MeleeAnim]</color> Scanning 62 mods for animation data...
+<color=#66ffb5>[MeleeAnim]</color> Found 1 mod folders with animation data, total 69 loadable files.
+<color=#66ffb5>[MeleeAnim]</color> <color=#ffa8fc>[Alien Races Patch]</color> Loaded alien races patch!
+XML error: <mustBePermanentEnemy>true</mustBePermanentEnemy> doesn't correspond to any field in type FactionDef. Context: <FactionDef ParentName="RRY_Xenomorph_Faction_Base"><label>Xenomorph hive</label><pawnSingular>Xenomorph</pawnSingular><pawnsPlural>Xenomorphs</pawnsPlural><requiredCountAtGameStart>1</requiredCountAtGameStart><fixedName>a Xenomorph hive</fixedName><raidCommonalityFromPointsCurve><points><li>(300,  0)</li><li>(700,  1)</li><li>(1400, 2)</li><li>(2800, 3.5)</li></points></raidCommonalityFromPointsCurve><earliestRaidDays>45</earliestRaidDays><humanlikeFaction>false</humanlikeFaction><hidden>true</hidden><autoFlee>false</autoFlee><canUseAvoidGrid>false</canUseAvoidGrid><techLevel>Animal</techLevel><permanentEnemy>true</permanentEnemy><naturalEnemy>true</naturalEnemy><mustBePermanentEnemy>true</mustBePermanentEnemy><maxPawnCostPerTotalPointsCurve><points><li>(400,200)</li><li>(900,300)</li><li>(100000,10000)</li></points></maxPawnCostPerTotalPointsCurve><pawnGroupMakers><li><kindDef>Combat</kindDef><commonality>10</commonality><options><RRY_Xenomorph_Queen>1</RRY_Xenomorph_Queen><RRY_Xenomorph_Runner>150</RRY_Xenomorph_Runner><RRY_Xenomorph_Drone>100</RRY_Xenomorph_Drone><RRY_Xenomorph_Warrior>100</RRY_Xenomorph_Warrior></options><disallowedStrategies><li>Siege</li><li>ImmediateAttackSappers</li><li>RRY_PowerCut</li></disallowedStrategies></li><li><kindDef>Combat</kindDef><commonality>100</commonality><options><RRY_Xenomorph_Runner>150</RRY_Xenomorph_Runner><RRY_Xenomorph_Drone>100</RRY_Xenomorph_Drone><RRY_Xenomorph_Warrior>100</RRY_Xenomorph_Warrior></options><disallowedStrategies><li>Siege</li><li>ImmediateAttackSappers</li><li>RRY_PowerCut</li></disallowedStrategies></li><li><kindDef>Combat</kindDef><commonality>100</commonality><options><RRY_Xenomorph_Queen>1</RRY_Xenomorph_Queen><RRY_Xenomorph_Runner>150</RRY_Xenomorph_Runner><RRY_Xenomorph_Drone>100</RRY_Xenomorph_Drone><RRY_Xenomorph_Warrior>100</RRY_Xenomorph_Warrior></options><disallowedStrategies><li>Siege</li><li>ImmediateAttackSappers</li><li>RRY_PowerCut</li></disallowedStrategies></li><li><kindDef>Combat</kindDef><commonality>100</commonality><options><RRY_Xenomorph_Runner>150</RRY_Xenomorph_Runner><RRY_Xenomorph_Drone>100</RRY_Xenomorph_Drone><RRY_Xenomorph_Warrior>100</RRY_Xenomorph_Warrior></options><disallowedStrategies><li>Siege</li><li>ImmediateAttackSappers</li></disallowedStrategies></li></pawnGroupMakers><settlementTexturePath>World/WorldObjects/TribalSettlement</settlementTexturePath><factionIconPath>Ui/Icons/Icon_Xenomorph</factionIconPath><allowedArrivalTemperatureRange><min>-100</min><max>200</max></allowedArrivalTemperatureRange><defName>RRY_Xenomorph</defName></FactionDef>
+[Def Error]: RRY_Xenomorph
+AVP Xenomorphs\Defs\FactionDefs\Factions_Xenomorph.xml
+Failed to find RimWorld.PawnsArrivalModeDef named RRY_RandomDropThroughRoof. There are 14 defs of this type loaded.
+Failed to find RimWorld.PawnsArrivalModeDef named RRY_DropThroughRoofNearPower. There are 14 defs of this type loaded.
+Tried to load duplicate UnityEngine.Texture2D with path: FilesystemFile [D:\SteamLibrary\steamapps\common\RimWorld\Mods\AVP-Xenomorphs\Textures\Things\Addons\Blood_Marks\Xenomorph_Kills\Mark_Thrumbomorphkill_south.psd], Length 28603 and internal path: Things/Addons/Blood_Marks/Xenomorph_Kills/Mark_Thrumbomorphkill_south
+Texture TribalA has dimensions of 64 x 64, but its mask has 128 x 128. This is not supported, texture will be excluded from atlas
+Could not execute post-long-event action. Exception: System.NullReferenceException: Object reference not set to an instance of an object
+[Ref 282A3C73]
+  at Verse.ThingDef.<PostLoad>b__398_0 () [0x00046] in <61e4173561894da49d210260257b5097>:0 
+  at ilyvion.LoadingProgress.LongEventHandler_ExecuteToExecuteWhenFinished_Patches+<ExecuteToExecuteWhenFinished>d__3.MoveNext () [0x00590] in /home/runner/work/loading-progress/loading-progress/Source/ilyvion.LoadingProgress/LongEventHandler_ExecuteToExecuteWhenFinished_Patches.cs:263 
+Could not execute post-long-event action. Exception: System.NullReferenceException: Object reference not set to an instance of an object
+[Ref 282A3C73] Duplicate stacktrace, see ref for original
+RRY_Pawn_Xenomorph_Queen_Call SubSound RRY_Pawn_Xenomorph_Queen_Call_0 has no resolvedGrains.
+RRY_Pawn_Xenomorph_Normal_Wounded SubSound RRY_Pawn_Xenomorph_Normal_Wounded_0 has no resolvedGrains.
+RRY_Pawn_Xenomorph_Normal_Call SubSound RRY_Pawn_Xenomorph_Normal_Call_0 has no resolvedGrains.
+[AVP Xenomorphs] Patched Mineable.TrySpawnYield
+[AVP Xenomorphs] Patched Mineable.TrySpawnYield
+Xenomorph Host System Loaded
+158 Possible Hosts out of 355 Races detected: Race Setting init
+<color=#FF00FFFF>[AnimalFoodsExtended] Loading.</color>
+[AnimalFoodsExtended] Patching.
+[AnimalFoodsExtended] Loaded successfully.
+[CleaningAreaRelaunched] Loaded
+Alien race successfully completed 279 patches (50 pre, 82 post, 147 trans) with harmony.
+Damage Indicators initialized.
+Locks: Doors expanded found
+Locks: SoS2 not found 
+Locks version: 3.1.2 loaded.
+[TrueTerrainColors v1.12.26] Loaded cached true colors for 765 terrain defs from file.
+(Research Tab Colors) Transpiler injected.
+SS: Resaving settings by request (one-time migration or clearing out invalid defs).
+Unloading 5 Unused Serialized files (Serialized files now loaded: 5)
+Unloading 563 unused Assets to reduce memory usage. Loaded Objects now: 31490.
+Total: 202.089300 ms (FindLiveObjects: 1.740400 ms CreateObjectMapping: 1.883600 ms MarkObjects: 197.684500 ms  DeleteObjects: 0.780400 ms)
+
+[com.ogliss.rimworld.mod.rryatuja.minepatch] Patches on methods annotated as Obsolete were detected by HugsLib: RimWorld.Mineable.TrySpawnYield
+CharacterEditor v1.6.3 initializing...
+updating labels for english...
+loading pawn slot content from file...
+character editor instance created
+checking editor settings...
+bodysizes genes are active
+CharacterEditor v1.6.3 ...done
+CameraPlus: Found mod at D:\SteamLibrary\steamapps\workshop\content\294100\867467808
+<color=#66ffb5>[MeleeAnim]</color> Potential patch conflicts (10):
+<color=#66ffb5>[MeleeAnim]</color> 
+Verse.BattleLogEntry_MeleeCombat RimWorld.Verb_MeleeAttack::CreateCombatLog(System.Func`2<Verse.ManeuverDef, Verse.RulePackDef> rulePackGetter, System.Boolean alwaysShow)
+Prefixes:
+  [co.uk.epicguru.meleeanimation] Prefix
+Transpilers:
+Postfixes:
+  [CM_Callouts] Postfix
+
+System.Void Verse.PawnRenderer::RenderPawnAt(UnityEngine.Vector3 drawLoc, System.Nullable`1<Verse.Rot4> rotOverride, System.Boolean neverAimWeapon)
+Prefixes:
+  [net.pardeike.rimworld.mod.camera+] Prefix
+  [com.otters.rimworld.mod.Tents] Prefix
+  [co.uk.epicguru.meleeanimation] Prefix
+Transpilers:
+Postfixes:
+  [co.uk.epicguru.meleeanimation] Postfix
+
+System.Boolean Verse.HediffSet::get_HasHead()
+Prefixes:
+  [co.uk.epicguru.meleeanimation] Prefix
+  [rimworld.erdelf.alien_race.main] HasHeadPrefix
+Transpilers:
+Postfixes:
+
+static System.Void Verse.PawnGenerator::GenerateGearFor(Verse.Pawn pawn, Verse.PawnGenerationRequest request)
+Prefixes:
+Transpilers:
+Postfixes:
+  [co.uk.epicguru.meleeanimation] Postfix
+  [PeteTimesSix.SimpleSidearms] GenerateGearFor
+  [rimworld.erdelf.alien_race.main] GenerateGearForPostfix
+
+static System.Void Verse.PawnRenderUtility::DrawEquipmentAiming(Verse.Thing eq, UnityEngine.Vector3 drawLoc, System.Single aimAngle)
+Prefixes:
+  [co.uk.epicguru.meleeanimation] Prefix
+  [com.github.automatic1111.gunplay] Prefix
+Transpilers:
+Postfixes:
+
+Verse.PreRenderResults Verse.PawnRenderer::ParallelGetPreRenderResults(UnityEngine.Vector3 drawLoc, System.Nullable`1<Verse.Rot4> rotOverride, System.Boolean neverAimWeapon, System.Boolean disableCache)
+Prefixes:
+  [GiddyUp] Prefix
+Transpilers:
+  [rimworld.erdelf.alien_race.main] PostureTranspiler
+Postfixes:
+  [co.uk.epicguru.meleeanimation] Postfix
+
+virtual System.Boolean RimWorld.Verb_MeleeAttack::TryCastShot()
+Prefixes:
+  [co.uk.epicguru.meleeanimation] Prefix
+Transpilers:
+Postfixes:
+  [PeteTimesSix.SimpleSidearms] TryCastShot
+<color=#66ffb5>[MeleeAnim]</color> Full patch list:
+<color=#66ffb5>[MeleeAnim]</color> 
+Verse.BattleLogEntry_MeleeCombat RimWorld.Verb_MeleeAttack::CreateCombatLog(System.Func`2<Verse.ManeuverDef, Verse.RulePackDef> rulePackGetter, System.Boolean alwaysShow)
+Prefixes:
+  [co.uk.epicguru.meleeanimation] Prefix
+Transpilers:
+Postfixes:
+  [CM_Callouts] Postfix
+
+System.Void Verse.PawnRenderer::RenderPawnAt(UnityEngine.Vector3 drawLoc, System.Nullable`1<Verse.Rot4> rotOverride, System.Boolean neverAimWeapon)
+Prefixes:
+  [net.pardeike.rimworld.mod.camera+] Prefix
+  [com.otters.rimworld.mod.Tents] Prefix
+  [co.uk.epicguru.meleeanimation] Prefix
+Transpilers:
+Postfixes:
+  [co.uk.epicguru.meleeanimation] Postfix
+
+System.Void RimWorld.Building_ProximityDetector::RunDetection()
+Prefixes:
+  [co.uk.epicguru.meleeanimation] Prefix
+Transpilers:
+Postfixes:
+  [co.uk.epicguru.meleeanimation] Postfix
+
+static System.Collections.Generic.List`1<Verse.FloatMenuOption> RimWorld.FloatMenuMakerMap::GetOptions(System.Collections.Generic.List`1<Verse.Pawn> selectedPawns, UnityEngine.Vector3 clickPos, RimWorld.FloatMenuContext& context)
+Prefixes:
+Transpilers:
+Postfixes:
+  [co.uk.epicguru.meleeanimation] Postfix
+
+System.Boolean Verse.HediffSet::get_HasHead()
+Prefixes:
+  [co.uk.epicguru.meleeanimation] Prefix
+  [rimworld.erdelf.alien_race.main] HasHeadPrefix
+Transpilers:
+Postfixes:
+
+static System.Boolean RimWorld.InvisibilityUtility::IsPsychologicallyInvisible(Verse.Pawn pawn)
+Prefixes:
+  [co.uk.epicguru.meleeanimation] Prefix
+Transpilers:
+Postfixes:
+
+static System.Void Verse.PawnGenerator::GenerateGearFor(Verse.Pawn pawn, Verse.PawnGenerationRequest request)
+Prefixes:
+Transpilers:
+Postfixes:
+  [co.uk.epicguru.meleeanimation] Postfix
+  [PeteTimesSix.SimpleSidearms] GenerateGearFor
+  [rimworld.erdelf.alien_race.main] GenerateGearForPostfix
+
+static System.Void Verse.PawnRenderUtility::DrawEquipmentAiming(Verse.Thing eq, UnityEngine.Vector3 drawLoc, System.Single aimAngle)
+Prefixes:
+  [co.uk.epicguru.meleeanimation] Prefix
+  [com.github.automatic1111.gunplay] Prefix
+Transpilers:
+Postfixes:
+
+System.Void Verse.PawnRenderer::DrawShadowInternal(UnityEngine.Vector3 drawLoc)
+Prefixes:
+  [co.uk.epicguru.meleeanimation] Prefix
+Transpilers:
+Postfixes:
+
+Verse.PreRenderResults Verse.PawnRenderer::ParallelGetPreRenderResults(UnityEngine.Vector3 drawLoc, System.Nullable`1<Verse.Rot4> rotOverride, System.Boolean neverAimWeapon, System.Boolean disableCache)
+Prefixes:
+  [GiddyUp] Prefix
+Transpilers:
+  [rimworld.erdelf.alien_race.main] PostureTranspiler
+Postfixes:
+  [co.uk.epicguru.meleeanimation] Postfix
+
+System.Void Verse.PawnRenderer::ParallelPreRenderPawnAt(UnityEngine.Vector3 drawLoc, System.Nullable`1<Verse.Rot4> rotOverride, System.Boolean neverAimWeapon)
+Prefixes:
+  [co.uk.epicguru.meleeanimation] Prefix
+Transpilers:
+Postfixes:
+
+System.Void Verse.PawnRenderTree::ParallelPreDraw(Verse.PawnDrawParms parms)
+Prefixes:
+  [co.uk.epicguru.meleeanimation] Prefix
+Transpilers:
+Postfixes:
+  [co.uk.epicguru.meleeanimation] Postfix
+
+static Verse.Pawn RimWorld.PawnUtility::PawnBlockingPathAt(Verse.IntVec3 c, Verse.Pawn forPawn, System.Boolean actAsIfHadCollideWithPawnsJob, System.Boolean collideOnlyWithStandingPawns, System.Boolean forPathFinder, System.Boolean useId)
+Prefixes:
+  [co.uk.epicguru.meleeanimation] Prefix
+  [co.uk.epicguru.meleeanimation] Prefix
+Transpilers:
+Postfixes:
+
+System.Void RimWorld.Pawn_ApparelTracker::Notify_ApparelChanged()
+Prefixes:
+  [co.uk.epicguru.meleeanimation] Prefix
+Transpilers:
+Postfixes:
+
+virtual System.Void Verse.Pawn::DrawGUIOverlay()
+Prefixes:
+  [co.uk.epicguru.meleeanimation] Prefix
+Transpilers:
+Postfixes:
+
+System.Void Verse.Pawn_DrawTracker::Notify_MeleeAttackOn(Verse.Thing Target)
+Prefixes:
+  [co.uk.epicguru.meleeanimation] Prefix
+Transpilers:
+Postfixes:
+
+virtual System.Boolean RimWorld.Verb_MeleeAttack::TryCastShot()
+Prefixes:
+  [co.uk.epicguru.meleeanimation] Prefix
+Transpilers:
+Postfixes:
+  [PeteTimesSix.SimpleSidearms] TryCastShot
+Unloading 1 Unused Serialized files (Serialized files now loaded: 7)
+<color=#66ffb5>[MeleeAnim]</color> PreCached all retexture info in 21.0ms
+<color=#66ffb5>[MeleeAnim]</color> Loaded tweak data for 22 weapons.
+<color=#66ffb5>[MeleeAnim]</color> ogliss.avpxenomorphs 'AVP Xenomorphs' has 3 missing weapon tweak data.
+<color=#66ffb5>[MeleeAnim]</color> ludeon.rimworld.odyssey 'Odyssey' has 2 missing weapon tweak data.
+<color=#66ffb5>[MeleeAnim]</color> Skipping reporting of missing mod/weapons because user opted out or the feature is disabled by the developer.
+<color=#66ffb5>[MeleeAnim]</color> Patched 3 classes that directly inherit from Verb_MeleeAttack in 43.8 ms to detect hits:
+RimWorld.Verb_MeleeApplyHediff from Assembly-CSharp
+RimWorld.Verb_MeleeAttackDamage from Assembly-CSharp
+RRYautja.Verb_MeleeAttackKnockback from RRYautja
+<color=#66ffb5>[MeleeAnim]</color> Found 0 items of clothing that cover hands, took 0.66 ms:
+Unloading 61 unused Assets to reduce memory usage. Loaded Objects now: 31658.
+Total: 190.941700 ms (FindLiveObjects: 1.525400 ms CreateObjectMapping: 0.824500 ms MarkObjects: 188.478400 ms  DeleteObjects: 0.113200 ms)
+
+Unloading 0 Unused Serialized files (Serialized files now loaded: 7)
+[Loading Progress] Why is ResearchPal.Profiler.Start from ResearchPal 1.6 - Temp calling DeepProfiler.Start (and by extension our patch) with null?! Stop it.
+[Loading Progress] Why is ResearchPal.Profiler.Start from ResearchPal 1.6 - Temp calling DeepProfiler.Start (and by extension our patch) with null?! Stop it.
+[Loading Progress] Why is ResearchPal.Profiler.Start from ResearchPal 1.6 - Temp calling DeepProfiler.Start (and by extension our patch) with null?! Stop it.
+[Loading Progress] Why is ResearchPal.Profiler.Start from ResearchPal 1.6 - Temp calling DeepProfiler.Start (and by extension our patch) with null?! Stop it.
+[Loading Progress] Why is ResearchPal.Profiler.Start from ResearchPal 1.6 - Temp calling DeepProfiler.Start (and by extension our patch) with null?! Stop it.
+[Loading Progress] Why is ResearchPal.Profiler.Start from ResearchPal 1.6 - Temp calling DeepProfiler.Start (and by extension our patch) with null?! Stop it.
+ResearchPal :: Research layout initialized
+Unloading 0 unused Assets to reduce memory usage. Loaded Objects now: 31658.
+Total: 180.605900 ms (FindLiveObjects: 1.636500 ms CreateObjectMapping: 0.802700 ms MarkObjects: 178.123900 ms  DeleteObjects: 0.042300 ms)
+
+Unloading 0 Unused Serialized files (Serialized files now loaded: 7)
+Unloading 0 unused Assets to reduce memory usage. Loaded Objects now: 31658.
+Total: 188.691100 ms (FindLiveObjects: 2.032300 ms CreateObjectMapping: 1.465000 ms MarkObjects: 185.148400 ms  DeleteObjects: 0.045200 ms)
+
+Unloading 0 Unused Serialized files (Serialized files now loaded: 7)
+Unloading 0 unused Assets to reduce memory usage. Loaded Objects now: 31658.
+Total: 189.116200 ms (FindLiveObjects: 1.561700 ms CreateObjectMapping: 0.752000 ms MarkObjects: 186.759900 ms  DeleteObjects: 0.042200 ms)
+
+CE is trying to create default parameter lists ...
+creating default parameter list for genes...
+426 default entities for genes created
+creating default parameter list for objects...
+1777 default entities for objects created
+creating default parameter list for turrets...
+12 default entities for turrets created
+...lists created
+CE is trying to apply modified parameters...
+no modifications for genes
+no modifications for lifestages
+...done
+Unloading 2 Unused Serialized files (Serialized files now loaded: 7)
+Unloading 0 unused Assets to reduce memory usage. Loaded Objects now: 33492.
+Total: 210.708400 ms (FindLiveObjects: 1.759600 ms CreateObjectMapping: 0.960300 ms MarkObjects: 207.938000 ms  DeleteObjects: 0.050100 ms)
+
+Unloading 3 Unused Serialized files (Serialized files now loaded: 7)
+UnloadTime: 0.720200 ms
+Unloading 4 unused Assets to reduce memory usage. Loaded Objects now: 33930.
+Total: 213.211300 ms (FindLiveObjects: 1.620400 ms CreateObjectMapping: 1.964300 ms MarkObjects: 209.550300 ms  DeleteObjects: 0.075900 ms)
+
+Initializing new game with mods:
+  - brrainz.harmony
+  - ilyvion.LoadingProgress
+  - Ludeon.RimWorld
+  - Ludeon.RimWorld.Royalty
+  - Ludeon.RimWorld.Ideology
+  - Ludeon.RimWorld.Biotech
+  - Ludeon.RimWorld.Anomaly
+  - UnlimitedHugs.HugsLib
+  - Ogliss.AVPXenomorphs
+  - UnlimitedHugs.AllowTool
+  - TheVillain.Animalfoodsextended
+  - falconne.AFF
+  - Dizzy.BIRDUP.AllInOne
+  - tyrannidae.birdupplus
+  - Milkman.BiotechCosmeticGenesMM
+  - Ludeon.RimWorld.Odyssey
+  - Darknote.BunkBeds
+  - Mlie.Callouts
+  - brrainz.cameraplus
+  - Aoba.Tent
+  - void.charactereditor
+  - Cerule.CleaningAreaRelaunched
+  - erdelf.HumanoidAlienRaces
+  - zal.covetheus
+  - CaesarV6.DamageIndicators
+  - telardo.DragSelect
+  - Dubwise.DubsMintMenus
+  - dubwise.dubsmintminimap
+  - Dubwise.DubsPerformanceAnalyzer.steam
+  - zeracronius.dynamictradeinterface
+  - Romyashi.ExtractAnyPlant
+  - matvey24.FPSStabilizer
+  - MemeGoddess.GiddyUp
+  - GonDragon.TTPF
+  - GonDragon.TechTree
+  - automatic.gunplay
+  - jkluch.HaulToStack
+  - Taveron.IncreasedStack
+  - Aoba.Fortress.Industrial.Concrete
+  - futurplanet.industrialconcretefloorpatch
+  - Koth.ISiD
+  - jecrell.doorsexpanded
+  - avius.locks
+  - Mlie.LogAfterDefError
+  - m00nl1ght.MapPreview
+  - co.uk.epicguru.meleeanimation
+  - erdelf.MinifyEverything
+  - mosi.MoreMiniHorns
+  - komunre.BetterExp.PassiveResearch
+  - DawnsGlow.qualcolor
+  - Memegoddess.ReplaceStuff
+  - Aelanna.ResearchTabColors
+  - fluffy.researchtree
+  - XanderNirpows.ResearchPalForked16
+  - Mlie.RunAndHide
+  - MemeGoddess.RunAndGun
+  - PeteTimesSix.SimpleSidearms
+  - Haecriver.SimplyMoreColors
+  - Garwel.StartingTechLevel
+  - automatic.traderships
+  - CarnySenpai.TraitRarityColors
+  - tradingpost.programmerlily.com
+checking editor settings...
+bodysizes genes are active
+Unloading 0 Unused Serialized files (Serialized files now loaded: 7)
+Unloading 1 unused Assets to reduce memory usage. Loaded Objects now: 41729.
+Total: 261.440800 ms (FindLiveObjects: 2.048600 ms CreateObjectMapping: 2.513900 ms MarkObjects: 256.782600 ms  DeleteObjects: 0.095600 ms)
+
+Life stage def HumanlikeChild not found while searching for min age of Tessier
+Cannot play RRY_Pawn_Xenomorph_Normal_Call (subSound RRY_Pawn_Xenomorph_Normal_Call_0_: No resolved grains.
+Cannot play RRY_Pawn_Xenomorph_Normal_Call (subSound RRY_Pawn_Xenomorph_Normal_Call_0_: No resolved grains.
+Cannot play RRY_Pawn_Xenomorph_Normal_Call (subSound RRY_Pawn_Xenomorph_Normal_Call_0_: No resolved grains.
+Cannot play RRY_Pawn_Xenomorph_Normal_Call (subSound RRY_Pawn_Xenomorph_Normal_Call_0_: No resolved grains.
+Cannot play RRY_Pawn_Xenomorph_Normal_Call (subSound RRY_Pawn_Xenomorph_Normal_Call_0_: No resolved grains.
+Cannot play RRY_Pawn_Xenomorph_Normal_Call (subSound RRY_Pawn_Xenomorph_Normal_Call_0_: No resolved grains.
+Cannot play RRY_Pawn_Xenomorph_Normal_Call (subSound RRY_Pawn_Xenomorph_Normal_Call_0_: No resolved grains.
+Cannot play RRY_Pawn_Xenomorph_Normal_Call (subSound RRY_Pawn_Xenomorph_Normal_Call_0_: No resolved grains.
+Cannot play RRY_Pawn_Xenomorph_Normal_Call (subSound RRY_Pawn_Xenomorph_Normal_Call_0_: No resolved grains.
+Cannot play RRY_Pawn_Xenomorph_Normal_Call (subSound RRY_Pawn_Xenomorph_Normal_Call_0_: No resolved grains.
+Cannot play RRY_Pawn_Xenomorph_Normal_Call (subSound RRY_Pawn_Xenomorph_Normal_Call_0_: No resolved grains.
+Cannot play RRY_Pawn_Xenomorph_Normal_Call (subSound RRY_Pawn_Xenomorph_Normal_Call_0_: No resolved grains.
+Cannot play RRY_Pawn_Xenomorph_Normal_Call (subSound RRY_Pawn_Xenomorph_Normal_Call_0_: No resolved grains.
+Cannot play RRY_Pawn_Xenomorph_Normal_Call (subSound RRY_Pawn_Xenomorph_Normal_Call_0_: No resolved grains.
+Cannot play RRY_Pawn_Xenomorph_Normal_Call (subSound RRY_Pawn_Xenomorph_Normal_Call_0_: No resolved grains.
+Cannot play RRY_Pawn_Xenomorph_Normal_Call (subSound RRY_Pawn_Xenomorph_Normal_Call_0_: No resolved grains.
+Exception ticking Katya (at (109, 0, 152)). Suppressing further errors. Exception: System.NullReferenceException: Object reference not set to an instance of an object
+[Ref 28A69E90]
+  at RimWorld.CompPowerPlantSteam.CompTick () [0x0001a] in <61e4173561894da49d210260257b5097>:0 
+  at Verse.ThingWithComps.Tick () [0x00025] in <61e4173561894da49d210260257b5097>:0 
+  at Verse.Thing.DoTick () [0x0007b] in <61e4173561894da49d210260257b5097>:0 
+  at Verse.ThingOwner.DoTick () [0x00041] in <61e4173561894da49d210260257b5097>:0 
+    - PREFIX rimworld.erdelf.minify_everything: Boolean MinifyEverything.MinifyEverything:ThingOwnerTickPrefix(IThingHolder ___owner)
+  at Verse.Thing.DoTick () [0x0023c] in <61e4173561894da49d210260257b5097>:0 
+  at Verse.TickList.Tick () [0x00139] in <61e4173561894da49d210260257b5097>:0 
+Cannot play RRY_Pawn_Xenomorph_Normal_Call (subSound RRY_Pawn_Xenomorph_Normal_Call_0_: No resolved grains.
+Cannot play RRY_Pawn_Xenomorph_Normal_Call (subSound RRY_Pawn_Xenomorph_Normal_Call_0_: No resolved grains.
+Cannot play RRY_Pawn_Xenomorph_Normal_Call (subSound RRY_Pawn_Xenomorph_Normal_Call_0_: No resolved grains.
+Cannot play RRY_Pawn_Xenomorph_Normal_Call (subSound RRY_Pawn_Xenomorph_Normal_Call_0_: No resolved grains.
+Cannot play RRY_Pawn_Xenomorph_Normal_Call (subSound RRY_Pawn_Xenomorph_Normal_Call_0_: No resolved grains.
+Cannot play RRY_Pawn_Xenomorph_Normal_Call (subSound RRY_Pawn_Xenomorph_Normal_Call_0_: No resolved grains.
+Cannot play RRY_Pawn_Xenomorph_Normal_Call (subSound RRY_Pawn_Xenomorph_Normal_Call_0_: No resolved grains.
+Cannot play RRY_Pawn_Xenomorph_Normal_Call (subSound RRY_Pawn_Xenomorph_Normal_Call_0_: No resolved grains.
+Cannot play RRY_Pawn_Xenomorph_Normal_Call (subSound RRY_Pawn_Xenomorph_Normal_Call_0_: No resolved grains.
+Cannot play RRY_Pawn_Xenomorph_Normal_Call (subSound RRY_Pawn_Xenomorph_Normal_Call_0_: No resolved grains.
+Cannot play RRY_Pawn_Xenomorph_Normal_Call (subSound RRY_Pawn_Xenomorph_Normal_Call_0_: No resolved grains.
+Cannot play RRY_Pawn_Xenomorph_Normal_Call (subSound RRY_Pawn_Xenomorph_Normal_Call_0_: No resolved grains.
+Cannot play RRY_Pawn_Xenomorph_Normal_Call (subSound RRY_Pawn_Xenomorph_Normal_Call_0_: No resolved grains.
+Cannot play RRY_Pawn_Xenomorph_Normal_Call (subSound RRY_Pawn_Xenomorph_Normal_Call_0_: No resolved grains.
+Cannot play RRY_Pawn_Xenomorph_Normal_Call (subSound RRY_Pawn_Xenomorph_Normal_Call_0_: No resolved grains.
+Cannot play RRY_Pawn_Xenomorph_Normal_Call (subSound RRY_Pawn_Xenomorph_Normal_Call_0_: No resolved grains.
+Cannot play RRY_Pawn_Xenomorph_Normal_Call (subSound RRY_Pawn_Xenomorph_Normal_Call_0_: No resolved grains.
+Cannot play RRY_Pawn_Xenomorph_Normal_Call (subSound RRY_Pawn_Xenomorph_Normal_Call_0_: No resolved grains.
+Cannot play RRY_Pawn_Xenomorph_Normal_Call (subSound RRY_Pawn_Xenomorph_Normal_Call_0_: No resolved grains.
+Cannot play RRY_Pawn_Xenomorph_Normal_Call (subSound RRY_Pawn_Xenomorph_Normal_Call_0_: No resolved grains.
+Cannot play RRY_Pawn_Xenomorph_Normal_Call (subSound RRY_Pawn_Xenomorph_Normal_Call_0_: No resolved grains.
+Cannot play RRY_Pawn_Xenomorph_Normal_Call (subSound RRY_Pawn_Xenomorph_Normal_Call_0_: No resolved grains.
+Cannot play RRY_Pawn_Xenomorph_Normal_Call (subSound RRY_Pawn_Xenomorph_Normal_Call_0_: No resolved grains.
+Cannot play RRY_Pawn_Xenomorph_Normal_Call (subSound RRY_Pawn_Xenomorph_Normal_Call_0_: No resolved grains.
+Cannot play RRY_Pawn_Xenomorph_Normal_Call (subSound RRY_Pawn_Xenomorph_Normal_Call_0_: No resolved grains.
+Cannot play RRY_Pawn_Xenomorph_Normal_Call (subSound RRY_Pawn_Xenomorph_Normal_Call_0_: No resolved grains.
+Cannot play RRY_Pawn_Xenomorph_Normal_Call (subSound RRY_Pawn_Xenomorph_Normal_Call_0_: No resolved grains.
+Cannot play RRY_Pawn_Xenomorph_Normal_Call (subSound RRY_Pawn_Xenomorph_Normal_Call_0_: No resolved grains.
+Cannot play RRY_Pawn_Xenomorph_Normal_Call (subSound RRY_Pawn_Xenomorph_Normal_Call_0_: No resolved grains.
+Cannot play RRY_Pawn_Xenomorph_Normal_Call (subSound RRY_Pawn_Xenomorph_Normal_Call_0_: No resolved grains.
+Cannot play RRY_Pawn_Xenomorph_Normal_Call (subSound RRY_Pawn_Xenomorph_Normal_Call_0_: No resolved grains.
+Cannot play RRY_Pawn_Xenomorph_Normal_Call (subSound RRY_Pawn_Xenomorph_Normal_Call_0_: No resolved grains.
+Cannot play RRY_Pawn_Xenomorph_Normal_Call (subSound RRY_Pawn_Xenomorph_Normal_Call_0_: No resolved grains.
+Cannot play RRY_Pawn_Xenomorph_Normal_Call (subSound RRY_Pawn_Xenomorph_Normal_Call_0_: No resolved grains.
+Cannot play RRY_Pawn_Xenomorph_Normal_Call (subSound RRY_Pawn_Xenomorph_Normal_Call_0_: No resolved grains.
+Cannot play RRY_Pawn_Xenomorph_Normal_Call (subSound RRY_Pawn_Xenomorph_Normal_Call_0_: No resolved grains.
+Cannot play RRY_Pawn_Xenomorph_Normal_Call (subSound RRY_Pawn_Xenomorph_Normal_Call_0_: No resolved grains.
+Cannot play RRY_Pawn_Xenomorph_Normal_Call (subSound RRY_Pawn_Xenomorph_Normal_Call_0_: No resolved grains.
+Cannot play RRY_Pawn_Xenomorph_Normal_Call (subSound RRY_Pawn_Xenomorph_Normal_Call_0_: No resolved grains.
+Cannot play RRY_Pawn_Xenomorph_Normal_Call (subSound RRY_Pawn_Xenomorph_Normal_Call_0_: No resolved grains.
+Cannot play RRY_Pawn_Xenomorph_Normal_Call (subSound RRY_Pawn_Xenomorph_Normal_Call_0_: No resolved grains.
+Cannot play RRY_Pawn_Xenomorph_Normal_Call (subSound RRY_Pawn_Xenomorph_Normal_Call_0_: No resolved grains.
+Cannot play RRY_Pawn_Xenomorph_Normal_Call (subSound RRY_Pawn_Xenomorph_Normal_Call_0_: No resolved grains.
+Cannot play RRY_Pawn_Xenomorph_Normal_Call (subSound RRY_Pawn_Xenomorph_Normal_Call_0_: No resolved grains.
+Cannot play RRY_Pawn_Xenomorph_Normal_Call (subSound RRY_Pawn_Xenomorph_Normal_Call_0_: No resolved grains.
+Cannot play RRY_Pawn_Xenomorph_Normal_Call (subSound RRY_Pawn_Xenomorph_Normal_Call_0_: No resolved grains.
+Cannot play RRY_Pawn_Xenomorph_Normal_Call (subSound RRY_Pawn_Xenomorph_Normal_Call_0_: No resolved grains.
+Cannot play RRY_Pawn_Xenomorph_Normal_Call (subSound RRY_Pawn_Xenomorph_Normal_Call_0_: No resolved grains.
+Cannot play RRY_Pawn_Xenomorph_Normal_Call (subSound RRY_Pawn_Xenomorph_Normal_Call_0_: No resolved grains.
+Cannot play RRY_Pawn_Xenomorph_Normal_Call (subSound RRY_Pawn_Xenomorph_Normal_Call_0_: No resolved grains.
+Cannot play RRY_Pawn_Xenomorph_Normal_Call (subSound RRY_Pawn_Xenomorph_Normal_Call_0_: No resolved grains.
+Cannot play RRY_Pawn_Xenomorph_Normal_Call (subSound RRY_Pawn_Xenomorph_Normal_Call_0_: No resolved grains.
+Cannot play RRY_Pawn_Xenomorph_Normal_Call (subSound RRY_Pawn_Xenomorph_Normal_Call_0_: No resolved grains.
+Cannot play RRY_Pawn_Xenomorph_Normal_Call (subSound RRY_Pawn_Xenomorph_Normal_Call_0_: No resolved grains.
+Cannot play RRY_Pawn_Xenomorph_Normal_Call (subSound RRY_Pawn_Xenomorph_Normal_Call_0_: No resolved grains.
+Cannot play RRY_Pawn_Xenomorph_Normal_Call (subSound RRY_Pawn_Xenomorph_Normal_Call_0_: No resolved grains.
+Cannot play RRY_Pawn_Xenomorph_Normal_Call (subSound RRY_Pawn_Xenomorph_Normal_Call_0_: No resolved grains.
+Cannot play RRY_Pawn_Xenomorph_Normal_Call (subSound RRY_Pawn_Xenomorph_Normal_Call_0_: No resolved grains.
+Cannot play RRY_Pawn_Xenomorph_Normal_Call (subSound RRY_Pawn_Xenomorph_Normal_Call_0_: No resolved grains.
+Cannot play RRY_Pawn_Xenomorph_Normal_Call (subSound RRY_Pawn_Xenomorph_Normal_Call_0_: No resolved grains.
+Cannot play RRY_Pawn_Xenomorph_Normal_Wounded (subSound RRY_Pawn_Xenomorph_Normal_Wounded_0_: No resolved grains.
+Cannot play RRY_Pawn_Xenomorph_Normal_Call (subSound RRY_Pawn_Xenomorph_Normal_Call_0_: No resolved grains.
+Cannot play RRY_Pawn_Xenomorph_Normal_Call (subSound RRY_Pawn_Xenomorph_Normal_Call_0_: No resolved grains.
+Cannot play RRY_Pawn_Xenomorph_Normal_Call (subSound RRY_Pawn_Xenomorph_Normal_Call_0_: No resolved grains.
+Cannot play RRY_Pawn_Xenomorph_Normal_Call (subSound RRY_Pawn_Xenomorph_Normal_Call_0_: No resolved grains.
+Cannot play RRY_Pawn_Xenomorph_Normal_Wounded (subSound RRY_Pawn_Xenomorph_Normal_Wounded_0_: No resolved grains.
+Memory Statistics:
+[ALLOC_TEMP_TLS] TLS Allocator
+  StackAllocators : 
+    [ALLOC_TEMP_MAIN]
+      Peak usage frame count: [0-1.0 KB]: 4160 frames, [1.0 KB-2.0 KB]: 15 frames, [2.0 KB-4.0 KB]: 26596 frames, [4.0 KB-8.0 KB]: 990 frames, [8.0 KB-16.0 KB]: 247 frames, [16.0 KB-32.0 KB]: 31 frames, [32.0 KB-64.0 KB]: 18 frames, [64.0 KB-128.0 KB]: 9 frames, [128.0 KB-256.0 KB]: 7 frames, [256.0 KB-0.5 MB]: 7 frames, [0.5 MB-1.0 MB]: 2 frames, [1.0 MB-2.0 MB]: 8 frames, [2.0 MB-4.0 MB]: 8 frames, [4.0 MB-8.0 MB]: 3 frames
+      Initial Block Size 4.0 MB
+      Current Block Size 5.3 MB
+      Peak Allocated Bytes 5.3 MB
+      Overflow Count 17
+    [ALLOC_TEMP_Loading.AsyncRead]
+      Initial Block Size 64.0 KB
+      Current Block Size 120.0 KB
+      Peak Allocated Bytes 117.2 KB
+      Overflow Count 0
+    [ALLOC_TEMP_Loading.PreloadManager]
+      Initial Block Size 256.0 KB
+      Current Block Size 256.0 KB
+      Peak Allocated Bytes 3.8 KB
+      Overflow Count 8
+    [ALLOC_TEMP_Background Job.Worker 8]
+      Initial Block Size 32.0 KB
+      Current Block Size 32.0 KB
+      Peak Allocated Bytes 54 B
+      Overflow Count 0
+    [ALLOC_TEMP_Job.Worker 6]
+      Initial Block Size 256.0 KB
+      Current Block Size 256.0 KB
+      Peak Allocated Bytes 176 B
+      Overflow Count 0
+    [ALLOC_TEMP_Job.Worker 0]
+      Initial Block Size 256.0 KB
+      Current Block Size 256.0 KB
+      Peak Allocated Bytes 160 B
+      Overflow Count 0
+    [ALLOC_TEMP_Background Job.Worker 10]
+      Initial Block Size 32.0 KB
+      Current Block Size 32.0 KB
+      Peak Allocated Bytes 54 B
+      Overflow Count 0
+    [ALLOC_TEMP_Background Job.Worker 9]
+      Initial Block Size 32.0 KB
+      Current Block Size 32.0 KB
+      Peak Allocated Bytes 54 B
+      Overflow Count 0
+    [ALLOC_TEMP_Job.Worker 5]
+      Initial Block Size 256.0 KB
+      Current Block Size 256.0 KB
+      Peak Allocated Bytes 176 B
+      Overflow Count 0
+    [ALLOC_TEMP_Background Job.Worker 14]
+      Initial Block Size 32.0 KB
+      Current Block Size 32.0 KB
+      Peak Allocated Bytes 54 B
+      Overflow Count 0
+    [ALLOC_TEMP_Background Job.Worker 6]
+      Initial Block Size 32.0 KB
+      Current Block Size 32.0 KB
+      Peak Allocated Bytes 54 B
+      Overflow Count 0
+    [ALLOC_TEMP_Job.Worker 4]
+      Initial Block Size 256.0 KB
+      Current Block Size 256.0 KB
+      Peak Allocated Bytes 176 B
+      Overflow Count 0
+    [ALLOC_TEMP_ReadCacheIndex]
+      Initial Block Size 64.0 KB
+      Current Block Size 64.0 KB
+      Peak Allocated Bytes 0.6 KB
+      Overflow Count 0
+    [ALLOC_TEMP_Job.Worker 3]
+      Initial Block Size 256.0 KB
+      Current Block Size 256.0 KB
+      Peak Allocated Bytes 160 B
+      Overflow Count 0
+    [ALLOC_TEMP_Background Job.Worker 12]
+      Initial Block Size 32.0 KB
+      Current Block Size 32.0 KB
+      Peak Allocated Bytes 54 B
+      Overflow Count 0
+    [ALLOC_TEMP_EnlightenWorker] x 6
+      Initial Block Size 64.0 KB
+      Current Block Size 64.0 KB
+      Peak Allocated Bytes 54 B
+      Overflow Count 0
+    [ALLOC_TEMP_Background Job.Worker 15]
+      Initial Block Size 32.0 KB
+      Current Block Size 32.0 KB
+      Peak Allocated Bytes 54 B
+      Overflow Count 0
+    [ALLOC_TEMP_Background Job.Worker 1]
+      Initial Block Size 32.0 KB
+      Current Block Size 32.0 KB
+      Peak Allocated Bytes 54 B
+      Overflow Count 0
+    [ALLOC_TEMP_Background Job.Worker 2]
+      Initial Block Size 32.0 KB
+      Current Block Size 32.0 KB
+      Peak Allocated Bytes 54 B
+      Overflow Count 0
+    [ALLOC_TEMP_Background Job.Worker 7]
+      Initial Block Size 32.0 KB
+      Current Block Size 32.0 KB
+      Peak Allocated Bytes 54 B
+      Overflow Count 0
+    [ALLOC_TEMP_UnityGfxDeviceWorker]
+      Initial Block Size 256.0 KB
+      Current Block Size 256.0 KB
+      Peak Allocated Bytes 10.3 KB
+      Overflow Count 0
+    [ALLOC_TEMP_AssetGarbageCollectorHelper] x 11
+      Initial Block Size 64.0 KB
+      Current Block Size 64.0 KB
+      Peak Allocated Bytes 138 B
+      Overflow Count 0
+    [ALLOC_TEMP_Background Job.Worker 5]
+      Initial Block Size 32.0 KB
+      Current Block Size 32.0 KB
+      Peak Allocated Bytes 54 B
+      Overflow Count 0
+    [ALLOC_TEMP_Job.Worker 9]
+      Initial Block Size 256.0 KB
+      Current Block Size 256.0 KB
+      Peak Allocated Bytes 176 B
+      Overflow Count 0
+    [ALLOC_TEMP_Background Job.Worker 13]
+      Initial Block Size 32.0 KB
+      Current Block Size 32.0 KB
+      Peak Allocated Bytes 54 B
+      Overflow Count 0
+    [ALLOC_TEMP_Job.Worker 8]
+      Initial Block Size 256.0 KB
+      Current Block Size 256.0 KB
+      Peak Allocated Bytes 176 B
+      Overflow Count 0
+    [ALLOC_TEMP_Job.Worker 7]
+      Initial Block Size 256.0 KB
+      Current Block Size 256.0 KB
+      Peak Allocated Bytes 160 B
+      Overflow Count 0
+    [ALLOC_TEMP_Job.Worker 1]
+      Initial Block Size 256.0 KB
+      Current Block Size 256.0 KB
+      Peak Allocated Bytes 507 B
+      Overflow Count 0
+    [ALLOC_TEMP_Job.Worker 2]
+      Initial Block Size 256.0 KB
+      Current Block Size 256.0 KB
+      Peak Allocated Bytes 208 B
+      Overflow Count 0
+    [ALLOC_TEMP_Background Job.Worker 3]
+      Initial Block Size 32.0 KB
+      Current Block Size 32.0 KB
+      Peak Allocated Bytes 54 B
+      Overflow Count 0
+    [ALLOC_TEMP_Background Job.Worker 11]
+      Initial Block Size 32.0 KB
+      Current Block Size 32.0 KB
+      Peak Allocated Bytes 54 B
+      Overflow Count 0
+    [ALLOC_TEMP_Job.Worker 10]
+      Initial Block Size 256.0 KB
+      Current Block Size 256.0 KB
+      Peak Allocated Bytes 176 B
+      Overflow Count 0
+    [ALLOC_TEMP_Background Job.Worker 0]
+      Initial Block Size 32.0 KB
+      Current Block Size 32.0 KB
+      Peak Allocated Bytes 54 B
+      Overflow Count 0
+    [ALLOC_TEMP_Background Job.Worker 4]
+      Initial Block Size 32.0 KB
+      Current Block Size 32.0 KB
+      Peak Allocated Bytes 54 B
+      Overflow Count 0
+    [ALLOC_TEMP_BatchDeleteObjects]
+      Initial Block Size 64.0 KB
+      Current Block Size 64.0 KB
+      Peak Allocated Bytes 54 B
+      Overflow Count 0
+[ALLOC_DEFAULT] Dual Thread Allocator
+  Peak main deferred allocation count 43410
+    [ALLOC_BUCKET]
+      Large Block size 4.0 MB
+      Used Block count 1
+      Peak Allocated bytes 4.0 MB
+      Failed Allocations. Bucket layout:
+        16B: 4 Subsections = 4096 buckets. Failed count: 148178
+        32B: 34 Subsections = 17408 buckets. Failed count: 283497
+        48B: 49 Subsections = 16725 buckets. Failed count: 173942
+        64B: 40 Subsections = 10240 buckets. Failed count: 72533
+        80B: 85 Subsections = 17408 buckets. Failed count: 271291
+        96B: 28 Subsections = 4778 buckets. Failed count: 44844
+        112B: 10 Subsections = 1462 buckets. Failed count: 52377
+        128B: 6 Subsections = 768 buckets. Failed count: 27007
+    [ALLOC_DEFAULT_MAIN]
+      Peak usage frame count: [16.0 MB-32.0 MB]: 897 frames, [32.0 MB-64.0 MB]: 34 frames, [64.0 MB-128.0 MB]: 10 frames, [128.0 MB-256.0 MB]: 6936 frames, [256.0 MB-0.50 GB]: 24224 frames
+      Requested Block Size 16.0 MB
+      Peak Block count 18
+      Peak Allocated memory 293.1 MB
+      Peak Large allocation bytes 63.2 MB
+    [ALLOC_DEFAULT_THREAD]
+      Peak usage frame count: [8.0 MB-16.0 MB]: 3435 frames, [16.0 MB-32.0 MB]: 2 frames, [32.0 MB-64.0 MB]: 15 frames, [64.0 MB-128.0 MB]: 4425 frames, [128.0 MB-256.0 MB]: 24224 frames
+      Requested Block Size 16.0 MB
+      Peak Block count 8
+      Peak Allocated memory 142.6 MB
+      Peak Large allocation bytes 33.8 MB
+[ALLOC_TEMP_JOB_1_FRAME]
+  Initial Block Size 2.0 MB
+  Used Block Count 0
+  Overflow Count (too large) 0
+  Overflow Count (full) 0
+[ALLOC_TEMP_JOB_2_FRAMES]
+  Initial Block Size 2.0 MB
+  Used Block Count 0
+  Overflow Count (too large) 0
+  Overflow Count (full) 0
+[ALLOC_TEMP_JOB_4_FRAMES (JobTemp)]
+  Initial Block Size 2.0 MB
+  Used Block Count 1
+  Overflow Count (too large) 16
+  Overflow Count (full) 0
+[ALLOC_TEMP_JOB_ASYNC (Background)]
+  Initial Block Size 1.0 MB
+  Used Block Count 1
+  Overflow Count (too large) 0
+  Overflow Count (full) 0
+[ALLOC_GFX] Dual Thread Allocator
+  Peak main deferred allocation count 932
+    [ALLOC_BUCKET]
+      Large Block size 4.0 MB
+      Used Block count 1
+      Peak Allocated bytes 4.0 MB
+      Failed Allocations. Bucket layout:
+        16B: 4 Subsections = 4096 buckets. Failed count: 148178
+        32B: 34 Subsections = 17408 buckets. Failed count: 283497
+        48B: 49 Subsections = 16725 buckets. Failed count: 173942
+        64B: 40 Subsections = 10240 buckets. Failed count: 72533
+        80B: 85 Subsections = 17408 buckets. Failed count: 271291
+        96B: 28 Subsections = 4778 buckets. Failed count: 44844
+        112B: 10 Subsections = 1462 buckets. Failed count: 52377
+        128B: 6 Subsections = 768 buckets. Failed count: 27007
+    [ALLOC_GFX_MAIN]
+      Peak usage frame count: [128.0 KB-256.0 KB]: 1 frames, [2.0 MB-4.0 MB]: 939 frames, [4.0 MB-8.0 MB]: 3174 frames, [8.0 MB-16.0 MB]: 5 frames, [32.0 MB-64.0 MB]: 3750 frames, [64.0 MB-128.0 MB]: 24231 frames, [256.0 MB-0.50 GB]: 1 frames
+      Requested Block Size 16.0 MB
+      Peak Block count 8
+      Peak Allocated memory 420.4 MB
+      Peak Large allocation bytes 341.0 MB
+    [ALLOC_GFX_THREAD]
+      Peak usage frame count: [0-1.0 KB]: 900 frames, [1.0 KB-2.0 KB]: 504 frames, [2.0 KB-4.0 KB]: 1148 frames, [4.0 KB-8.0 KB]: 1575 frames, [16.0 KB-32.0 KB]: 3603 frames, [32.0 KB-64.0 KB]: 149 frames, [64.0 KB-128.0 KB]: 3094 frames, [128.0 KB-256.0 KB]: 10387 frames, [256.0 KB-0.5 MB]: 7024 frames, [0.5 MB-1.0 MB]: 3717 frames
+      Requested Block Size 16.0 MB
+      Peak Block count 1
+      Peak Allocated memory 0.9 MB
+      Peak Large allocation bytes 0 B
+[ALLOC_CACHEOBJECTS] Dual Thread Allocator
+  Peak main deferred allocation count 101
+    [ALLOC_BUCKET]
+      Large Block size 4.0 MB
+      Used Block count 1
+      Peak Allocated bytes 4.0 MB
+      Failed Allocations. Bucket layout:
+        16B: 4 Subsections = 4096 buckets. Failed count: 148178
+        32B: 34 Subsections = 17408 buckets. Failed count: 283497
+        48B: 49 Subsections = 16725 buckets. Failed count: 173942
+        64B: 40 Subsections = 10240 buckets. Failed count: 72533
+        80B: 85 Subsections = 17408 buckets. Failed count: 271291
+        96B: 28 Subsections = 4778 buckets. Failed count: 44844
+        112B: 10 Subsections = 1462 buckets. Failed count: 52377
+        128B: 6 Subsections = 768 buckets. Failed count: 27007
+    [ALLOC_CACHEOBJECTS_MAIN]
+      Peak usage frame count: [4.0 MB-8.0 MB]: 1 frames, [8.0 MB-16.0 MB]: 942 frames, [16.0 MB-32.0 MB]: 31158 frames
+      Requested Block Size 4.0 MB
+      Peak Block count 5
+      Peak Allocated memory 17.9 MB
+      Peak Large allocation bytes 0 B
+    [ALLOC_CACHEOBJECTS_THREAD]
+      Peak usage frame count: [4.0 KB-8.0 KB]: 7492 frames, [32.0 KB-64.0 KB]: 1 frames, [64.0 KB-128.0 KB]: 24586 frames, [128.0 KB-256.0 KB]: 4 frames, [256.0 KB-0.5 MB]: 17 frames, [0.5 MB-1.0 MB]: 1 frames
+      Requested Block Size 4.0 MB
+      Peak Block count 1
+      Peak Allocated memory 0.6 MB
+      Peak Large allocation bytes 0 B
+[ALLOC_TYPETREE] Dual Thread Allocator
+  Peak main deferred allocation count 0
+    [ALLOC_BUCKET]
+      Large Block size 4.0 MB
+      Used Block count 1
+      Peak Allocated bytes 4.0 MB
+      Failed Allocations. Bucket layout:
+        16B: 4 Subsections = 4096 buckets. Failed count: 148178
+        32B: 34 Subsections = 17408 buckets. Failed count: 283497
+        48B: 49 Subsections = 16725 buckets. Failed count: 173942
+        64B: 40 Subsections = 10240 buckets. Failed count: 72533
+        80B: 85 Subsections = 17408 buckets. Failed count: 271291
+        96B: 28 Subsections = 4778 buckets. Failed count: 44844
+        112B: 10 Subsections = 1462 buckets. Failed count: 52377
+        128B: 6 Subsections = 768 buckets. Failed count: 27007
+    [ALLOC_TYPETREE_MAIN]
+      Peak usage frame count: [4.0 KB-8.0 KB]: 1 frames, [8.0 KB-16.0 KB]: 897 frames, [32.0 KB-64.0 KB]: 65 frames, [256.0 KB-0.5 MB]: 31138 frames
+      Requested Block Size 2.0 MB
+      Peak Block count 1
+      Peak Allocated memory 357.7 KB
+      Peak Large allocation bytes 0 B
+    [ALLOC_TYPETREE_THREAD]
+      Peak usage frame count: [0-1.0 KB]: 32101 frames
+      Requested Block Size 2.0 MB
+      Peak Block count 0
+      Peak Allocated memory 0 B
+      Peak Large allocation bytes 0 B
