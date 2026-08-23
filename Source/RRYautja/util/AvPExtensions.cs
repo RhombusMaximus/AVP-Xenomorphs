@@ -281,6 +281,8 @@ namespace RRYautja.ExtensionMethods
             // Block android types from being facehugger hosts
             if (thingDef.defName.Contains("Android")) { FailReason = NonBio; return false; }
             if (thingDef.defName == "AG_Hiveling") { FailReason = NonBio; return false; }
+            // Block Covetheus mod's Walter android (different defName from standard Androids mod)
+            if (thingDef.defName.Contains("Walter")) { FailReason = NonBio; return false; }
             if (thingDef.defName.Contains("TM_"))
             {
                 if (thingDef.defName.Contains("Undead") || thingDef.defName.Contains("Minion") || thingDef.defName.Contains("Demon")) { FailReason = NonBio; return false; }
@@ -399,6 +401,11 @@ namespace RRYautja.ExtensionMethods
             if (p.race.defName.Contains("Android"))
             {
                 failReason = "Android";
+                return false;
+            }
+            if (p.race.defName.Contains("Walter"))
+            {
+                failReason = "Walter android";
                 return false;
             }
             if (p.race.defName.Contains("Droid"))
