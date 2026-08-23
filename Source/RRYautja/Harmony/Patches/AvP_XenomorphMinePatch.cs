@@ -61,7 +61,7 @@ namespace RRYautja
                 if (!pawn.isXenomorph()) continue;
                 if (pawn.CurJobDef == JobDefOf.Mine)
                 {
-                    Thing target = pawn.CurJob?.targetA?.Thing;
+                    Thing target = pawn.CurJob.targetA.Thing;
                     if (target == mineable) return true;
                 }
             }
