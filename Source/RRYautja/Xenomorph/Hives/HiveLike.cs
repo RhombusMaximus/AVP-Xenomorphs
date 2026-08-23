@@ -300,6 +300,7 @@ namespace RimWorld
             {
                 Pawn newQueen = PawnGenerator.GeneratePawn(new PawnGenerationRequest(XenomorphDefOf.RRY_Xenomorph_Queen, factionInt));
                 this.innerContainer.TryAdd(newQueen);
+                this.assignedQueen = newQueen;
             }
 			if (!respawningAfterLoad && this.active && canSpawnPawns)
             {
@@ -366,11 +367,17 @@ namespace RimWorld
 		}
 
 		// Token: 0x06002676 RID: 9846 RVA: 0x0012417C File Offset: 0x0012257C
-		protected override void Tick()
+		public override void Tick()
 		{
 			base.Tick();
 			if (base.Spawned)
 			{
+				// Check if assigned Queen has died
+				if (assignedQueen != null && (assignedQueen.Dead || assignedQueen.Destroyed))
+				{
+					canSpawnPawns = false;
+					assignedQueen = null;
+				}
 				this.FilterOutUnspawnedPawns();
 				if (!this.active && !base.Position.Fogged(base.Map) && canSpawnPawns)
 				{
@@ -665,7 +672,7 @@ namespace RimWorld
                         {
                             Pawn newQueen = PawnGenerator.GeneratePawn(new PawnGenerationRequest(XenomorphDefOf.RRY_Xenomorph_Queen, factionInt));
                             this.innerContainer.TryAdd(newQueen);
-                        }
+                            this.assignedQueen = newQueen;
                     };
                 }
 
@@ -840,7 +847,8 @@ namespace RimWorld
         public List<Pawn> spawnedScoutPawns = new List<Pawn>();
         public bool caveColony;
 		public bool canSpawnPawns = true;
-        public bool getsQueen = true; 
+        public bool getsQueen = true;
+        public Pawn assignedQueen;
         public const int PawnSpawnRadius = 2;
 		private static readonly FloatRange PawnSpawnIntervalDays = new FloatRange(0.85f, 1.15f);
         public List<PawnKindDef> spawnablePawnKinds = new List<PawnKindDef>();
@@ -862,6 +870,7 @@ namespace RimWorld
             Scribe_Values.Look<bool>(ref this.caveColony, "caveColony", false, false);
             Scribe_Values.Look<bool>(ref this.canSpawnPawns, "canSpawnPawns", true, false);
             Scribe_Values.Look<bool>(ref this.getsQueen, "getsQueen", true, false);
+            Scribe_References.Look<Pawn>(ref this.assignedQueen, "assignedQueen");
             Scribe_References.Look<HiveLike>(ref this.parentHiveLike, "parentHiveLike");
             if (Scribe.mode == LoadSaveMode.PostLoadInit)
             {
