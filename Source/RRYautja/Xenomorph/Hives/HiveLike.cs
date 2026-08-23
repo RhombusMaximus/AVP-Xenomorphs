@@ -367,7 +367,7 @@ namespace RimWorld
 		}
 
 		// Token: 0x06002676 RID: 9846 RVA: 0x0012417C File Offset: 0x0012257C
-		public override void Tick()
+		protected override void Tick()
 		{
 			base.Tick();
 			if (base.Spawned)
