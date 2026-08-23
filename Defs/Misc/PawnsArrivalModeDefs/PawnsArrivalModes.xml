@@ -1,8 +1,6 @@
 ﻿<?xml version="1.0" encoding="utf-8" ?>
 <Defs>
 
-  <!-- DropThroughRoof arrival modes removed (USCM dropship content) -->
-
   <PawnsArrivalModeDef>
     <defName>RRY_RandomEnterFromTunnel</defName>
     <workerClass>PawnsArrivalModeWorker_RandomEnterFromTunnel</workerClass>
@@ -13,6 +11,30 @@
     </selectionWeightCurve>
     <textEnemy>A group of {0} from {1} have emerged from nearby tunnels.</textEnemy>
     <textFriendly>A group of friendly {0} from {1} have emerged from nearby tunnels.</textFriendly>
+  </PawnsArrivalModeDef>
+
+  <PawnsArrivalModeDef>
+    <defName>RRY_DropThroughRoofNearPower</defName>
+    <workerClass>RimWorld.PawnsArrivalModeWorker_DropPod</workerClass>
+    <selectionWeightCurve>
+      <points>
+        <li>(0, 0)</li>
+      </points>
+    </selectionWeightCurve>
+    <textEnemy>A group of {0} from {1} have dropped through the roof near a power source.</textEnemy>
+    <textFriendly>A group of friendly {0} from {1} have dropped through the roof near a power source.</textFriendly>
+  </PawnsArrivalModeDef>
+
+  <PawnsArrivalModeDef>
+    <defName>RRY_RandomDropThroughRoof</defName>
+    <workerClass>RimWorld.PawnsArrivalModeWorker_DropPod</workerClass>
+    <selectionWeightCurve>
+      <points>
+        <li>(0, 0)</li>
+      </points>
+    </selectionWeightCurve>
+    <textEnemy>A group of {0} from {1} have dropped through the roof.</textEnemy>
+    <textFriendly>A group of friendly {0} from {1} have dropped through the roof.</textFriendly>
   </PawnsArrivalModeDef>
 
 </Defs>
