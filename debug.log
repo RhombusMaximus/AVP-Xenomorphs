@@ -245,7 +245,7 @@ System.Threading.ExecutionContext:Run (System.Threading.ExecutionContext,System.
 System.Threading.ExecutionContext:Run (System.Threading.ExecutionContext,System.Threading.ContextCallback,object)
 System.Threading.ThreadHelper:ThreadStart ()
 
-<color=#66ffb5>[MeleeAnim]</color> Scanning 62 mods for animation data...
+<color=#66ffb5>[MeleeAnim]</color> Scanning 66 mods for animation data...
 UnityEngine.StackTraceUtility:ExtractStackTrace ()
 Verse.Log:Message (string)
 AM.Core:Log (string)
@@ -308,45 +308,6 @@ System.RuntimeType:CreateInstanceImpl (System.Reflection.BindingFlags,System.Ref
 System.Activator:CreateInstance (System.Type,System.Reflection.BindingFlags,System.Reflection.Binder,object[],System.Globalization.CultureInfo,object[])
 System.Activator:CreateInstance (System.Type,object[])
 Verse.LoadedModManager:CreateModClasses ()
-Verse.LoadedModManager:LoadAllActiveMods (bool)
-Verse.PlayDataLoader:DoPlayLoad ()
-Verse.PlayDataLoader:LoadAllPlayData (bool)
-Verse.Root/<>c:<Start>b__10_1 ()
-Verse.LongEventHandler:RunEventFromAnotherThread (System.Action)
-Verse.LongEventHandler/<>c:<UpdateCurrentAsynchronousEvent>b__28_0 ()
-System.Threading.ThreadHelper:ThreadStart_Context (object)
-System.Threading.ExecutionContext:RunInternal (System.Threading.ExecutionContext,System.Threading.ContextCallback,object,bool)
-System.Threading.ExecutionContext:Run (System.Threading.ExecutionContext,System.Threading.ContextCallback,object,bool)
-System.Threading.ExecutionContext:Run (System.Threading.ExecutionContext,System.Threading.ContextCallback,object)
-System.Threading.ThreadHelper:ThreadStart ()
-
-XML error: <mustBePermanentEnemy>true</mustBePermanentEnemy> doesn't correspond to any field in type FactionDef. Context: <FactionDef ParentName="RRY_Xenomorph_Faction_Base"><label>Xenomorph hive</label><pawnSingular>Xenomorph</pawnSingular><pawnsPlural>Xenomorphs</pawnsPlural><requiredCountAtGameStart>1</requiredCountAtGameStart><fixedName>a Xenomorph hive</fixedName><raidCommonalityFromPointsCurve><points><li>(300,  0)</li><li>(700,  1)</li><li>(1400, 2)</li><li>(2800, 3.5)</li></points></raidCommonalityFromPointsCurve><earliestRaidDays>45</earliestRaidDays><humanlikeFaction>false</humanlikeFaction><hidden>true</hidden><autoFlee>false</autoFlee><canUseAvoidGrid>false</canUseAvoidGrid><techLevel>Animal</techLevel><permanentEnemy>true</permanentEnemy><naturalEnemy>true</naturalEnemy><mustBePermanentEnemy>true</mustBePermanentEnemy><maxPawnCostPerTotalPointsCurve><points><li>(400,200)</li><li>(900,300)</li><li>(100000,10000)</li></points></maxPawnCostPerTotalPointsCurve><pawnGroupMakers><li><kindDef>Combat</kindDef><commonality>10</commonality><options><RRY_Xenomorph_Queen>1</RRY_Xenomorph_Queen><RRY_Xenomorph_Runner>150</RRY_Xenomorph_Runner><RRY_Xenomorph_Drone>100</RRY_Xenomorph_Drone><RRY_Xenomorph_Warrior>100</RRY_Xenomorph_Warrior></options><disallowedStrategies><li>Siege</li><li>ImmediateAttackSappers</li><li>RRY_PowerCut</li></disallowedStrategies></li><li><kindDef>Combat</kindDef><commonality>100</commonality><options><RRY_Xenomorph_Runner>150</RRY_Xenomorph_Runner><RRY_Xenomorph_Drone>100</RRY_Xenomorph_Drone><RRY_Xenomorph_Warrior>100</RRY_Xenomorph_Warrior></options><disallowedStrategies><li>Siege</li><li>ImmediateAttackSappers</li><li>RRY_PowerCut</li></disallowedStrategies></li><li><kindDef>Combat</kindDef><commonality>100</commonality><options><RRY_Xenomorph_Queen>1</RRY_Xenomorph_Queen><RRY_Xenomorph_Runner>150</RRY_Xenomorph_Runner><RRY_Xenomorph_Drone>100</RRY_Xenomorph_Drone><RRY_Xenomorph_Warrior>100</RRY_Xenomorph_Warrior></options><disallowedStrategies><li>Siege</li><li>ImmediateAttackSappers</li><li>RRY_PowerCut</li></disallowedStrategies></li><li><kindDef>Combat</kindDef><commonality>100</commonality><options><RRY_Xenomorph_Runner>150</RRY_Xenomorph_Runner><RRY_Xenomorph_Drone>100</RRY_Xenomorph_Drone><RRY_Xenomorph_Warrior>100</RRY_Xenomorph_Warrior></options><disallowedStrategies><li>Siege</li><li>ImmediateAttackSappers</li></disallowedStrategies></li></pawnGroupMakers><settlementTexturePath>World/WorldObjects/TribalSettlement</settlementTexturePath><factionIconPath>Ui/Icons/Icon_Xenomorph</factionIconPath><allowedArrivalTemperatureRange><min>-100</min><max>200</max></allowedArrivalTemperatureRange><defName>RRY_Xenomorph</defName></FactionDef>
-UnityEngine.StackTraceUtility:ExtractStackTrace ()
-(wrapper dynamic-method) MonoMod.Utils.DynamicMethodDefinition:Verse.Log.Error_Patch1 (string)
-Verse.XmlToObjectUtils:DoFieldSearch (System.Type,System.Xml.XmlNode,System.Xml.XmlNode)
-Verse.DirectXmlToObjectNew:ResolveFieldForNode (System.Type,System.Xml.XmlNode,System.Xml.XmlNode)
-(wrapper dynamic-method) Verse.DirectXmlToObjectNew/DummyTypeToHoldDynamicMethods:ParseAndReturnDef_RimWorld_FactionDef (int,int,System.Xml.XmlNode,System.Type)
-(wrapper dynamic-method) MonoMod.Utils.DynamicMethodDefinition:Verse.DirectXmlToObjectNew.DefFromNodeNew_Patch2 (System.Xml.XmlNode,Verse.LoadableXmlAsset)
-Verse.LoadedModManager:ParseAndProcessXML (System.Xml.XmlDocument,System.Collections.Generic.Dictionary`2<System.Xml.XmlNode, Verse.LoadableXmlAsset>,bool)
-Verse.LoadedModManager:LoadAllActiveMods (bool)
-Verse.PlayDataLoader:DoPlayLoad ()
-Verse.PlayDataLoader:LoadAllPlayData (bool)
-Verse.Root/<>c:<Start>b__10_1 ()
-Verse.LongEventHandler:RunEventFromAnotherThread (System.Action)
-Verse.LongEventHandler/<>c:<UpdateCurrentAsynchronousEvent>b__28_0 ()
-System.Threading.ThreadHelper:ThreadStart_Context (object)
-System.Threading.ExecutionContext:RunInternal (System.Threading.ExecutionContext,System.Threading.ContextCallback,object,bool)
-System.Threading.ExecutionContext:Run (System.Threading.ExecutionContext,System.Threading.ContextCallback,object,bool)
-System.Threading.ExecutionContext:Run (System.Threading.ExecutionContext,System.Threading.ContextCallback,object)
-System.Threading.ThreadHelper:ThreadStart ()
-
-[Def Error]: RRY_Xenomorph
-AVP Xenomorphs\Defs\FactionDefs\Factions_Xenomorph.xml
-UnityEngine.StackTraceUtility:ExtractStackTrace ()
-Verse.Log:Message (string)
-LogAfterDefError.DirectXmlLoader_DefFromNode:Postfix (Verse.Def,Verse.LoadableXmlAsset,Verse.LogMessage)
-(wrapper dynamic-method) MonoMod.Utils.DynamicMethodDefinition:Verse.DirectXmlToObjectNew.DefFromNodeNew_Patch2 (System.Xml.XmlNode,Verse.LoadableXmlAsset)
-Verse.LoadedModManager:ParseAndProcessXML (System.Xml.XmlDocument,System.Collections.Generic.Dictionary`2<System.Xml.XmlNode, Verse.LoadableXmlAsset>,bool)
 Verse.LoadedModManager:LoadAllActiveMods (bool)
 Verse.PlayDataLoader:DoPlayLoad ()
 Verse.PlayDataLoader:LoadAllPlayData (bool)
@@ -638,17 +599,6 @@ HarmonyLib.PatchFunctions:UpdateWrapper (System.Reflection.MethodBase,HarmonyLib
 HarmonyLib.PatchProcessor:Patch ()
 HarmonyLib.Harmony:Patch (System.Reflection.MethodBase,HarmonyLib.HarmonyMethod,HarmonyLib.HarmonyMethod,HarmonyLib.HarmonyMethod,HarmonyLib.HarmonyMethod)
 ResearchTabColors.HarmonyPatches:.cctor ()
-System.Runtime.CompilerServices.RuntimeHelpers:RunClassConstructor (System.RuntimeTypeHandle)
-ilyvion.LoadingProgress.StaticConstructorOnStartupUtilityReplacement/<CallAll>d__2:MoveNext () (at /home/runner/work/loading-progress/loading-progress/Source/ilyvion.LoadingProgress/StaticConstructorOnStartupUtilityReplacement.cs:42)
-Verse.LongEventHandler:UpdateCurrentEnumeratorEvent ()
-Verse.LongEventHandler:LongEventsUpdate (bool&)
-(wrapper dynamic-method) MonoMod.Utils.DynamicMethodDefinition:Verse.Root.Update_Patch1 (Verse.Root)
-Verse.Root_Entry:Update ()
-
-SS: Resaving settings by request (one-time migration or clearing out invalid defs).
-UnityEngine.StackTraceUtility:ExtractStackTrace ()
-Verse.Log:Message (string)
-PeteTimesSix.SimpleSidearms.SimpleSidearms_PostInit:.cctor ()
 System.Runtime.CompilerServices.RuntimeHelpers:RunClassConstructor (System.RuntimeTypeHandle)
 ilyvion.LoadingProgress.StaticConstructorOnStartupUtilityReplacement/<CallAll>d__2:MoveNext () (at /home/runner/work/loading-progress/loading-progress/Source/ilyvion.LoadingProgress/StaticConstructorOnStartupUtilityReplacement.cs:42)
 Verse.LongEventHandler:UpdateCurrentEnumeratorEvent ()
@@ -1012,7 +962,7 @@ System.Threading.ExecutionContext:Run (System.Threading.ExecutionContext,System.
 System.Threading.ExecutionContext:Run (System.Threading.ExecutionContext,System.Threading.ContextCallback,object)
 System.Threading.ThreadHelper:ThreadStart ()
 
-<color=#66ffb5>[MeleeAnim]</color> PreCached all retexture info in 21.0ms
+<color=#66ffb5>[MeleeAnim]</color> PreCached all retexture info in 21.4ms
 UnityEngine.StackTraceUtility:ExtractStackTrace ()
 Verse.Log:Message (string)
 AM.Core:Log (string)
@@ -1067,7 +1017,7 @@ Verse.LongEventHandler:LongEventsUpdate (bool&)
 (wrapper dynamic-method) MonoMod.Utils.DynamicMethodDefinition:Verse.Root.Update_Patch1 (Verse.Root)
 Verse.Root_Entry:Update ()
 
-<color=#66ffb5>[MeleeAnim]</color> Patched 3 classes that directly inherit from Verb_MeleeAttack in 43.8 ms to detect hits:
+<color=#66ffb5>[MeleeAnim]</color> Patched 3 classes that directly inherit from Verb_MeleeAttack in 44.1 ms to detect hits:
 RimWorld.Verb_MeleeApplyHediff from Assembly-CSharp
 RimWorld.Verb_MeleeAttackDamage from Assembly-CSharp
 RRYautja.Verb_MeleeAttackKnockback from RRYautja
@@ -1082,7 +1032,7 @@ Verse.LongEventHandler:LongEventsUpdate (bool&)
 (wrapper dynamic-method) MonoMod.Utils.DynamicMethodDefinition:Verse.Root.Update_Patch1 (Verse.Root)
 Verse.Root_Entry:Update ()
 
-<color=#66ffb5>[MeleeAnim]</color> Found 0 items of clothing that cover hands, took 0.66 ms:
+<color=#66ffb5>[MeleeAnim]</color> Found 0 items of clothing that cover hands, took 0.65 ms:
 
 UnityEngine.StackTraceUtility:ExtractStackTrace ()
 Verse.Log:Message (string)
