@@ -1,5 +1,4 @@
 using System.Collections.Generic;
-using System.Linq;
 using System.Reflection;
 using HarmonyLib;
 using RimWorld;
@@ -21,27 +20,24 @@ namespace RRYautja
             {
                 var harmony = new Harmony("com.ogliss.rimworld.mod.rryatuja.minepatch");
 
-                // List all methods on Mineable for debugging
-                var allMethods = typeof(Mineable).GetMethods(BindingFlags.Public | BindingFlags.NonPublic | BindingFlags.Instance | BindingFlags.DeclaredOnly);
-                foreach (var m in allMethods)
+                // TrySpawnYield is the method that spawns chunks when mining
+                // Two overloads: TrySpawnYield(Map, float, bool, Pawn) and TrySpawnYield(Map, bool, Pawn)
+                var methods = typeof(Mineable).GetMethods(BindingFlags.Public | BindingFlags.NonPublic | BindingFlags.Instance | BindingFlags.DeclaredOnly);
+                foreach (var m in methods)
                 {
-                    Log.Message("[AVP Xenomorphs] Mineable method: " + m.Name + " (" + string.Join(", ", m.GetParameters().Select(p => p.ParameterType.Name)) + ")");
+                    if (m.Name == "TrySpawnYield")
+                    {
+                        harmony.Patch(m, prefix: new HarmonyMethod(typeof(AvP_XenomorphMinePatch), nameof(TrySpawnYieldPrefix)));
+                        Log.Message("[AVP Xenomorphs] Patched Mineable." + m.Name + "(" + string.Join(", ", System.Array.ConvertAll(m.GetParameters(), p => p.ParameterType.Name)) + ")");
+                    }
                 }
 
-                // Try common method names for yield/drop/spawn
-                string[] methodNames = { "YieldComponents", "DestroyedMineable", "StruckMineable",
-                    "Notify_DestroyedMineable", "DropProducts", "SpawnProducts", "GetYield",
-                    "Notify_MineableDestroyed", "OnMineableDestroyed", "ProduceYield",
-                    "GetEffectiveMineableYield", "EffectiveMineableYield" };
-
-                foreach (var name in methodNames)
+                // Also patch DestroyMined which is called when a mineable is destroyed by mining
+                var destroyMined = AccessTools.Method(typeof(Mineable), "DestroyMined");
+                if (destroyMined != null)
                 {
-                    var method = AccessTools.Method(typeof(Mineable), name);
-                    if (method != null)
-                    {
-                        Log.Message("[AVP Xenomorphs] Found Mineable." + name + " - patching");
-                        harmony.Patch(method, prefix: new HarmonyMethod(typeof(AvP_XenomorphMinePatch), nameof(MineableMethodPrefix)));
-                    }
+                    harmony.Patch(destroyMined, prefix: new HarmonyMethod(typeof(AvP_XenomorphMinePatch), nameof(DestroyMinedPrefix)));
+                    Log.Message("[AVP Xenomorphs] Patched Mineable.DestroyMined");
                 }
             }
             catch (System.Exception e)
@@ -51,29 +47,35 @@ namespace RRYautja
         }
 
         /// <summary>
-        /// Check if any Xenomorph pawn on the map is currently mining this thing.
-        /// If so, suppress the method (return false = skip original).
+        /// Suppress yield when a Xenomorph mines.
+        /// The Pawn parameter is the last parameter in both overloads.
         /// </summary>
-        public static bool MineableMethodPrefix(Mineable __instance, string __methodName)
+        public static bool TrySpawnYieldPrefix(Mineable __instance, ref bool __result, object[] __args)
         {
-            // For yield/drop/destroy methods, check if a Xenomorph is mining
-            Map map = __instance.Map;
-            if (map == null) return true;
-
-            foreach (var pawn in map.mapPawns.AllPawnsSpawned)
+            // Find the Pawn argument (last parameter in both overloads)
+            Pawn miner = null;
+            foreach (var arg in __args)
             {
-                if (!pawn.isXenomorph()) continue;
-                if (pawn.CurJobDef == JobDefOf.Mine)
-                {
-                    var target = pawn.CurJob.targetA.Thing;
-                    if (target == __instance)
-                    {
-                        Log.Message("[AVP Xenomorphs] Suppressing " + __methodName + " for Xenomorph-mined " + __instance.def.defName);
-                        return false;
-                    }
-                }
+                if (arg is Pawn p) { miner = p; break; }
+            }
+
+            if (miner != null && miner.isXenomorph())
+            {
+                __result = false;
+                return false; // Skip TrySpawnYield entirely - no chunks
             }
             return true;
+        }
+
+        /// <summary>
+        /// DestroyMined is called when a mineable is fully mined.
+        /// It calls TrySpawnYield internally, but we patch both for safety.
+        /// </summary>
+        public static bool DestroyMinedPrefix(Mineable __instance, Pawn ___miner)
+        {
+            // Check if the miner pawn parameter is a Xenomorph
+            // DestroyMined takes a Pawn parameter
+            return true; // Don't skip - let it destroy, but TrySpawnYield will be suppressed
         }
     }
 }
