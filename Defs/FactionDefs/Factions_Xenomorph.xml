@@ -22,6 +22,7 @@
     <techLevel>Animal</techLevel>
     <permanentEnemy>true</permanentEnemy>
     <naturalEnemy>true</naturalEnemy>
+    <mustBePermanentEnemy>true</mustBePermanentEnemy>
     <maxPawnCostPerTotalPointsCurve>
       <points>
         <li>(400,200)</li>
