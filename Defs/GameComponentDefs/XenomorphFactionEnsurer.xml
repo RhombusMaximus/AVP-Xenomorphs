@@ -1,9 +1,0 @@
-<?xml version="1.0" encoding="utf-8" ?>
-<Defs>
-
-  <GameComponentDef>
-    <defName>RRY_XenomorphFactionEnsurer</defName>
-    <componentClass>RRYautja.GameComponent_XenomorphFactionEnsurer</componentClass>
-  </GameComponentDef>
-
-</Defs>
