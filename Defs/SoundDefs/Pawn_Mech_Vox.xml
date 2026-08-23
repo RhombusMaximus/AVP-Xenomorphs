@@ -57,8 +57,8 @@
     <subSounds>
       <li>
         <grains>
-          <li Class="AudioGrain_Folder">
-            <clipFolderPath>Pawn/Xenomorph/Queen/Xeno_Queen_Call</clipFolderPath>
+          <li Class="AudioGrain_Clip">
+            <clipPath>Pawn/Xenomorph/Queen/Xeno_Queen_Call</clipPath>
           </li>
         </grains>      
         <volumeRange>
@@ -82,8 +82,8 @@
     <subSounds>
       <li>
         <grains>
-          <li Class="AudioGrain_Folder">
-            <clipFolderPath>Pawn/Xenomorph/Normal/Pain</clipFolderPath>
+          <li Class="AudioGrain_Clip">
+            <clipPath>Pawn/Xenomorph/Normal/Pain</clipPath>
           </li>
         </grains>      
         <volumeRange>
@@ -131,8 +131,8 @@
     <subSounds>
       <li>
         <grains>
-          <li Class="AudioGrain_Folder">
-            <clipFolderPath>Pawn/Xenomorph/Normal/Calls</clipFolderPath>
+          <li Class="AudioGrain_Clip">
+            <clipPath>Pawn/Xenomorph/Normal/Calls</clipPath>
           </li>
         </grains>      
         <volumeRange>
