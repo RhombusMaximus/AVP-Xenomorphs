@@ -168,6 +168,11 @@ namespace RimWorld
                                         if (!tutorialMode || pawn2.Faction != Faction.OfPlayer)
                                         {
                                             float preyScoreFor = FoodUtility.GetPreyScoreFor(predator, pawn2);
+                                            // Prioritize animals over humanlike pawns
+                                            if (!pawn2.RaceProps.Humanlike)
+                                            {
+                                                preyScoreFor *= 3f; // Animals get 3x score boost
+                                            }
                                             if (preyScoreFor > num || pawn == null)
                                             {
                                                 num = preyScoreFor;
