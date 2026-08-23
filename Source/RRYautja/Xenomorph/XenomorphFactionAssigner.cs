@@ -23,14 +23,16 @@ namespace RRYautja
 
                 // Patch all GeneratePawn overloads
                 var methods = typeof(PawnGenerator).GetMethods(BindingFlags.Public | BindingFlags.NonPublic | BindingFlags.Static);
+                int patched = 0;
                 foreach (var m in methods)
                 {
                     if (m.Name == "GeneratePawn" && m.ReturnType == typeof(Pawn))
                     {
                         harmony.Patch(m, postfix: new HarmonyMethod(typeof(XenomorphFactionAssigner), nameof(GeneratePawnPostfix)));
+                        patched++;
                     }
                 }
-                Log.Message("[AVP Xenomorphs] Patched PawnGenerator.GeneratePawn for faction assignment");
+                Log.Message("[AVP Xenomorphs] Patched PawnGenerator.GeneratePawn (" + patched + " overloads) for faction assignment");
             }
             catch (System.Exception e)
             {
