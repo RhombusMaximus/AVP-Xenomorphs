@@ -137,13 +137,13 @@ namespace RRYautja.settings
 
             // Debug toggle — placed below the spawning options scroll view on the right side
             Rect spawningScroll = inRect.BottomHalf().RightHalf().ContractedBy(4);
-            float debugY = spawningScroll.yMin + 80f; // 80px down from top of scroll view = below 3 checkboxes
+            float debugY = spawningScroll.yMin + 100f; // below 3 checkboxes + spacing
             Rect debugRect = new Rect(spawningScroll.x, debugY, spawningScroll.width, 22f);
             Widgets.CheckboxLabeled(debugRect, "Debug Mode (extra logging)", ref settings.DebugMode);
 
             // Faction selectability toggle
             Rect factionRect = new Rect(debugRect.x, debugRect.yMax + 4, debugRect.width, 22f);
-            Widgets.CheckboxLabeled(factionRect, "Faction Selectable (show on map, selectable at game start)", ref settings.FactionSelectable);
+            Widgets.CheckboxLabeled(factionRect, "Faction Selectable (WIP - not yet working)", ref settings.FactionSelectable);
             if (settings.FactionSelectable)
             {
                 Rect warnRect = new Rect(factionRect.x + 20, factionRect.yMax + 2, factionRect.width - 20, 18f);
