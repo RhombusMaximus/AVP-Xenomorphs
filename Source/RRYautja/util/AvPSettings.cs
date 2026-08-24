@@ -136,17 +136,17 @@ namespace RRYautja.settings
             TextFieldNumericLabeled<float>(rectShowXenoOptions.BottomHalf().BottomHalf().RightHalf().ContractedBy(4), "RRY_EmbryoRemovalDeathChance".Translate(this.settings.embryoRemovalFailureDeathChance * 100), ref settings.embryoRemovalFailureDeathChance, ref settings.embryoRemovalFailureDeathChanceBuffer, 0f, 1f);
 
             // Debug toggle
-            Rect debugRect = new Rect(rect.x, rectShowXenoOptions.yMax + 10, numa, 30f);
+            Rect debugRect = new Rect(rect.x, rectShowXenoOptions.yMax + 10, rect.width, 24f);
             Widgets.CheckboxLabeled(debugRect, "Debug Mode (extra logging)", ref settings.DebugMode);
 
             // Faction selectability toggle
-            Rect factionRect = new Rect(rect.x, debugRect.yMax + 5, numa, 30f);
+            Rect factionRect = new Rect(rect.x, debugRect.yMax + 4, rect.width, 24f);
             Widgets.CheckboxLabeled(factionRect, "Faction Selectable (show on map, selectable at game start)", ref settings.FactionSelectable);
             if (settings.FactionSelectable)
             {
-                Rect warnRect = new Rect(rect.x, factionRect.yMax + 2, numa, 20f);
+                Rect warnRect = new Rect(rect.x + 20, factionRect.yMax, rect.width - 20, 20f);
                 GUI.color = Color.yellow;
-                Widgets.Label(warnRect, "  Requires new game to take effect.");
+                Widgets.Label(warnRect, "Requires new game to take effect.");
                 GUI.color = Color.white;
             }
 
