@@ -30,6 +30,7 @@ namespace RRYautja.settings
         public bool AllowPredaliens = true;
         public bool AllowXenomorphFaction = true, AllowHiddenInfections = true, AllowPredalienImpregnations = true;
         public bool DebugMode = false;
+        public bool FactionSelectable = false;
         public float fachuggerRemovalFailureDeathChance = 0.35f, embryoRemovalFailureDeathChance = 0.35f;
 
         public Dictionary<string, bool> RaceKeyPairs;
@@ -42,6 +43,7 @@ namespace RRYautja.settings
             base.ExposeData();
             Scribe_Values.Look(ref this.AllowXenomorphFaction, "AllowXenomorphFaction", true);
             Scribe_Values.Look(ref this.DebugMode, "DebugMode", false);
+            Scribe_Values.Look(ref this.FactionSelectable, "FactionSelectable", false);
 
             Scribe_Values.Look(ref this.AllowHiddenInfections, "AllowHiddenInfections", true);
             Scribe_Values.Look(ref this.AllowPredalienImpregnations, "AllowPredalienImpregnations", true);
@@ -79,6 +81,17 @@ namespace RRYautja.settings
                 Log.Error("AVP Xenomorphs: Failed to apply some harmony patches (likely 1.6 API changes): " + e.Message);
             }
             if (Prefs.DevMode) Log.Message(string.Format("Alien Vs Predator: successfully completed {0} harmony patches.", harmony.GetPatchedMethods().Select(new Func<MethodBase, Patches>(Harmony.GetPatchInfo)).SelectMany((Patches p) => p.Prefixes.Concat(p.Postfixes).Concat(p.Transpilers)).Count((Patch p) => p.owner.Contains(harmony.Id))));
+
+            // Toggle faction visibility based on settings
+            if (this.settings.FactionSelectable)
+            {
+                var xenoDef = DefDatabase<FactionDef>.GetNamed("RRY_Xenomorph", false);
+                if (xenoDef != null)
+                {
+                    xenoDef.hidden = false;
+                    Log.Message("[AVP Xenomorphs] Faction made selectable (hidden=false)");
+                }
+            }
         }
 
         public override string SettingsCategory() => "Aliens Vs Predator";
@@ -125,6 +138,17 @@ namespace RRYautja.settings
             // Debug toggle
             Rect debugRect = new Rect(rect.x, rectShowXenoOptions.yMax + 10, numa, 30f);
             Widgets.CheckboxLabeled(debugRect, "Debug Mode (extra logging)", ref settings.DebugMode);
+
+            // Faction selectability toggle
+            Rect factionRect = new Rect(rect.x, debugRect.yMax + 5, numa, 30f);
+            Widgets.CheckboxLabeled(factionRect, "Faction Selectable (show on map, selectable at game start)", ref settings.FactionSelectable);
+            if (settings.FactionSelectable)
+            {
+                Rect warnRect = new Rect(rect.x, factionRect.yMax + 2, numa, 20f);
+                GUI.color = Color.yellow;
+                Widgets.Label(warnRect, "  Requires new game to take effect.");
+                GUI.color = Color.white;
+            }
 
 
             float x = inRect.x;
