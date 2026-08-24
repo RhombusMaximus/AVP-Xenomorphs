@@ -25,7 +25,7 @@ namespace RRYautja
                 if (initMethod != null)
                 {
                     harmony.Patch(initMethod, postfix: new HarmonyMethod(typeof(XenomorphFactionEnsurer), nameof(EnsureFactionPostfix)));
-                    Log.Message("[AVP Xenomorphs] Patched Game.InitNewGame for faction ensurer");
+                    AvPDebug.LogOnce("Patch", "[AVP Xenomorphs] Patched Game.InitNewGame for faction ensurer");
                 }
 
                 // Patch Game.LoadGame
@@ -33,7 +33,7 @@ namespace RRYautja
                 if (loadMethod != null)
                 {
                     harmony.Patch(loadMethod, postfix: new HarmonyMethod(typeof(XenomorphFactionEnsurer), nameof(EnsureFactionPostfix)));
-                    Log.Message("[AVP Xenomorphs] Patched Game.LoadGame for faction ensurer");
+                    AvPDebug.LogOnce("Patch", "[AVP Xenomorphs] Patched Game.LoadGame for faction ensurer");
                 }
             }
             catch (System.Exception e)
@@ -54,14 +54,14 @@ namespace RRYautja
             Faction existing = Find.FactionManager?.FirstFactionOfDef(xenoDef);
             if (existing != null)
             {
-                Log.Message("[AVP Xenomorphs] Xenomorph hive faction already exists.");
+                AvPDebug.LogOnce("FactionExists", "Xenomorph hive faction already exists.");
                 return;
             }
 
             // Create the faction using RimWorld's faction manager
             Faction faction = FactionGenerator.NewGeneratedFaction(new FactionGeneratorParms(xenoDef));
             Find.FactionManager.Add(faction);
-            Log.Message("[AVP Xenomorphs] Created Xenomorph hive faction (was missing).");
+            AvPDebug.LogOnce("FactionCreated", "Created Xenomorph hive faction (was missing).");
         }
     }
 }

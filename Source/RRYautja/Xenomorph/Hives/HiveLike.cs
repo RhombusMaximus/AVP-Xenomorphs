@@ -375,6 +375,7 @@ namespace RimWorld
 				// Check if assigned Queen has died
 				if (assignedQueen != null && (assignedQueen.Dead || assignedQueen.Destroyed))
 				{
+					AvPDebug.LogOnce("QueenDied", "Queen " + assignedQueen.LabelShort + " died - hive at " + Position + " stops spawning");
 					canSpawnPawns = false;
 					assignedQueen = null;
 				}

@@ -32,7 +32,7 @@ namespace RRYautja
                         patched++;
                     }
                 }
-                Log.Message("[AVP Xenomorphs] Patched PawnGenerator.GeneratePawn (" + patched + " overloads) for faction assignment");
+                AvPDebug.LogOnce("Patch", "[AVP Xenomorphs] Patched PawnGenerator.GeneratePawn (" + patched + " overloads) for faction assignment");
             }
             catch (System.Exception e)
             {
@@ -57,6 +57,11 @@ namespace RRYautja
             if (xenoFaction != null)
             {
                 __result.SetFaction(xenoFaction);
+                AvPDebug.Log("Faction", "Force-set faction on " + __result.LabelShort + " (was null)");
+            }
+            else if (AvPDebug.Enabled)
+            {
+                AvPDebug.Warning("Xenomorph faction is null - " + __result.LabelShort + " spawned with no faction");
             }
         }
     }

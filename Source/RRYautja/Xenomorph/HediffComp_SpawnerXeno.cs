@@ -361,6 +361,7 @@ namespace RRYautja
                             _Xenomorph.host = base.parent.pawn.kindDef;
                         }
                         GenSpawn.Spawn(pawn, spawnLoc, spawnMap, WipeMode.Vanish);
+                        AvPDebug.Log("Spawn", "Chestburster spawned: " + pawn.LabelShort + " faction=" + (pawn.Faction?.Name ?? "null"));
                         // Assign a Lord so chestburster-spawned Xenos don't all do the same job
                         var existingLord = spawnMap.lordManager.lords.FirstOrDefault(l => l.faction == pawn.Faction);
                         if (existingLord != null)

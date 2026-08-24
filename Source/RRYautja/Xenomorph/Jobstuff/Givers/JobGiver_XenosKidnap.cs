@@ -74,8 +74,10 @@ namespace RimWorld
                 }
                 if (alreadyTargeting >= maxDronesPerVictim)
                 {
+                    AvPDebug.Log("Kidnap", pawn.LabelShort + " skipped - " + alreadyTargeting + " drones already targeting " + Victim.LabelShort);
                     return null; // Too many drones already going for this victim
                 }
+                AvPDebug.Log("Kidnap", pawn.LabelShort + " targeting " + Victim.LabelShort + " (" + (alreadyTargeting + 1) + "/3 drones)");
                 if (xenomorph.HiveLoc.IsValid && xenomorph.HiveLoc.InBounds(map) && xenomorph.HiveLoc != IntVec3.Zero)
                 {
                     c = xenomorph.HiveLoc;

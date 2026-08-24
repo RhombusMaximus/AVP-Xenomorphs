@@ -27,7 +27,7 @@ namespace RRYautja
                     if (m.Name == "TrySpawnYield")
                     {
                         harmony.Patch(m, prefix: new HarmonyMethod(typeof(AvP_XenomorphMinePatch), nameof(TrySpawnYieldPrefix)));
-                        Log.Message("[AVP Xenomorphs] Patched Mineable.TrySpawnYield");
+                        AvPDebug.LogOnce("Patch", "[AVP Xenomorphs] Patched Mineable.TrySpawnYield");
                     }
                 }
             }
@@ -53,6 +53,7 @@ namespace RRYautja
 
             if (miner != null && miner.isXenomorph())
             {
+                AvPDebug.Log("Mine", "Suppressing chunks for " + miner.LabelShort + " mining " + __instance.def.defName);
                 return false; // Skip TrySpawnYield entirely - no chunks
             }
             return true;
