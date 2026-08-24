@@ -135,16 +135,17 @@ namespace RRYautja.settings
 
             TextFieldNumericLabeled<float>(rectShowXenoOptions.BottomHalf().BottomHalf().RightHalf().ContractedBy(4), "RRY_EmbryoRemovalDeathChance".Translate(this.settings.embryoRemovalFailureDeathChance * 100), ref settings.embryoRemovalFailureDeathChance, ref settings.embryoRemovalFailureDeathChanceBuffer, 0f, 1f);
 
-            // Debug toggle (placed below xeno options, before host list)
-            Rect debugRect = new Rect(rect.x, rectShowXenoOptions.yMax + 6, rect.width, 22f);
+            // Debug toggle — placed in the empty space below spawning options on the right side
+            float debugY = inRect.TopHalf().BottomHalf().BottomHalf().BottomHalf().RightHalf().yMax + 4;
+            Rect debugRect = new Rect(inRect.TopHalf().BottomHalf().BottomHalf().BottomHalf().RightHalf().ContractedBy(4).x, debugY, inRect.BottomHalf().RightHalf().ContractedBy(4).width, 22f);
             Widgets.CheckboxLabeled(debugRect, "Debug Mode (extra logging)", ref settings.DebugMode);
 
             // Faction selectability toggle
-            Rect factionRect = new Rect(rect.x, debugRect.yMax + 2, rect.width, 22f);
+            Rect factionRect = new Rect(debugRect.x, debugRect.yMax + 2, debugRect.width, 22f);
             Widgets.CheckboxLabeled(factionRect, "Faction Selectable (show on map, selectable at game start)", ref settings.FactionSelectable);
             if (settings.FactionSelectable)
             {
-                Rect warnRect = new Rect(rect.x + 20, factionRect.yMax, rect.width - 20, 18f);
+                Rect warnRect = new Rect(factionRect.x + 20, factionRect.yMax, factionRect.width - 20, 18f);
                 GUI.color = Color.yellow;
                 Widgets.Label(warnRect, "Requires new game to take effect.");
                 GUI.color = Color.white;
