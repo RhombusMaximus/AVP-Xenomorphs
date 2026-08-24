@@ -123,7 +123,7 @@ namespace RRYautja.settings
 
             //    Widgets.BeginScrollView(inRect.BottomHalf().BottomHalf().BottomHalf().LeftHalf().ContractedBy(4), ref );
             */
-            Rect rectShowXenoOptions = new Rect(rect.x, rect.y + 10, numa, 180f);
+            Rect rectShowXenoOptions = new Rect(rect.x, rect.y + 10, numa, 160f);
             Widgets.CheckboxLabeled(rectShowXenoOptions.TopHalf().TopHalf().LeftHalf().ContractedBy(4), "RRY_AllowXenomorphFaction".Translate(), ref settings.AllowXenomorphFaction);
             Widgets.CheckboxLabeled(rectShowXenoOptions.TopHalf().BottomHalf().LeftHalf().ContractedBy(4), "RRY_AllowHiddenInfections".Translate(), ref settings.AllowHiddenInfections);
             Widgets.CheckboxLabeled(rectShowXenoOptions.TopHalf().TopHalf().RightHalf().ContractedBy(4), "RRY_AllowPredalienImpregnations".Translate(), ref settings.AllowPredalienImpregnations);
@@ -135,16 +135,16 @@ namespace RRYautja.settings
 
             TextFieldNumericLabeled<float>(rectShowXenoOptions.BottomHalf().BottomHalf().RightHalf().ContractedBy(4), "RRY_EmbryoRemovalDeathChance".Translate(this.settings.embryoRemovalFailureDeathChance * 100), ref settings.embryoRemovalFailureDeathChance, ref settings.embryoRemovalFailureDeathChanceBuffer, 0f, 1f);
 
-            // Debug toggle
-            Rect debugRect = new Rect(rect.x, rectShowXenoOptions.yMax + 10, rect.width, 24f);
+            // Debug toggle (placed below xeno options, before host list)
+            Rect debugRect = new Rect(rect.x, rectShowXenoOptions.yMax + 6, rect.width, 22f);
             Widgets.CheckboxLabeled(debugRect, "Debug Mode (extra logging)", ref settings.DebugMode);
 
             // Faction selectability toggle
-            Rect factionRect = new Rect(rect.x, debugRect.yMax + 4, rect.width, 24f);
+            Rect factionRect = new Rect(rect.x, debugRect.yMax + 2, rect.width, 22f);
             Widgets.CheckboxLabeled(factionRect, "Faction Selectable (show on map, selectable at game start)", ref settings.FactionSelectable);
             if (settings.FactionSelectable)
             {
-                Rect warnRect = new Rect(rect.x + 20, factionRect.yMax, rect.width - 20, 20f);
+                Rect warnRect = new Rect(rect.x + 20, factionRect.yMax, rect.width - 20, 18f);
                 GUI.color = Color.yellow;
                 Widgets.Label(warnRect, "Requires new game to take effect.");
                 GUI.color = Color.white;
