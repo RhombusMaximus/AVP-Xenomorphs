@@ -214,7 +214,7 @@ System.Threading.ThreadHelper:ThreadStart ()
 Build date: 4/13/2026 8:02 AM
 Loaded assemblies (9):
 0BetterFloatMenu, Version=16.0.0.0, Culture=neutral, PublicKeyToken=null,
-0ColourPicker, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null,
+0ColourPicker, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null,
 AMRetextureSupport, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null,
 Meta.Numerics, Version=3.1.0.0, Culture=neutral, PublicKeyToken=67d25c65a6631347,
 ModRequestAPI, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null,
@@ -245,7 +245,7 @@ System.Threading.ExecutionContext:Run (System.Threading.ExecutionContext,System.
 System.Threading.ExecutionContext:Run (System.Threading.ExecutionContext,System.Threading.ContextCallback,object)
 System.Threading.ThreadHelper:ThreadStart ()
 
-<color=#66ffb5>[MeleeAnim]</color> Scanning 106 mods for animation data...
+<color=#66ffb5>[MeleeAnim]</color> Scanning 85 mods for animation data...
 UnityEngine.StackTraceUtility:ExtractStackTrace ()
 Verse.Log:Message (string)
 AM.Core:Log (string)
@@ -469,40 +469,6 @@ System.Threading.ExecutionContext:Run (System.Threading.ExecutionContext,System.
 System.Threading.ExecutionContext:Run (System.Threading.ExecutionContext,System.Threading.ContextCallback,object)
 System.Threading.ThreadHelper:ThreadStart ()
 
-Key binding conflict: ToggleMinimalBrightness and Misc10 are both bound to L.
-UnityEngine.StackTraceUtility:ExtractStackTrace ()
-Verse.Log:Warning (string)
-Verse.KeyPrefsData:ErrorCheckOn (Verse.KeyBindingDef,Verse.KeyPrefs/BindingSlot)
-Verse.KeyPrefsData:ErrorCheck ()
-Verse.KeyPrefs:Init ()
-Verse.PlayDataLoader:DoPlayLoad ()
-Verse.PlayDataLoader:LoadAllPlayData (bool)
-Verse.Root/<>c:<Start>b__10_1 ()
-Verse.LongEventHandler:RunEventFromAnotherThread (System.Action)
-Verse.LongEventHandler/<>c:<UpdateCurrentAsynchronousEvent>b__28_0 ()
-System.Threading.ThreadHelper:ThreadStart_Context (object)
-System.Threading.ExecutionContext:RunInternal (System.Threading.ExecutionContext,System.Threading.ContextCallback,object,bool)
-System.Threading.ExecutionContext:Run (System.Threading.ExecutionContext,System.Threading.ContextCallback,object,bool)
-System.Threading.ExecutionContext:Run (System.Threading.ExecutionContext,System.Threading.ContextCallback,object)
-System.Threading.ThreadHelper:ThreadStart ()
-
-Key binding conflict: Misc10 and ToggleMinimalBrightness are both bound to L.
-UnityEngine.StackTraceUtility:ExtractStackTrace ()
-Verse.Log:Warning (string)
-Verse.KeyPrefsData:ErrorCheckOn (Verse.KeyBindingDef,Verse.KeyPrefs/BindingSlot)
-Verse.KeyPrefsData:ErrorCheck ()
-Verse.KeyPrefs:Init ()
-Verse.PlayDataLoader:DoPlayLoad ()
-Verse.PlayDataLoader:LoadAllPlayData (bool)
-Verse.Root/<>c:<Start>b__10_1 ()
-Verse.LongEventHandler:RunEventFromAnotherThread (System.Action)
-Verse.LongEventHandler/<>c:<UpdateCurrentAsynchronousEvent>b__28_0 ()
-System.Threading.ThreadHelper:ThreadStart_Context (object)
-System.Threading.ExecutionContext:RunInternal (System.Threading.ExecutionContext,System.Threading.ContextCallback,object,bool)
-System.Threading.ExecutionContext:Run (System.Threading.ExecutionContext,System.Threading.ContextCallback,object,bool)
-System.Threading.ExecutionContext:Run (System.Threading.ExecutionContext,System.Threading.ContextCallback,object)
-System.Threading.ThreadHelper:ThreadStart ()
-
 Tried to load duplicate UnityEngine.Texture2D with path: FilesystemFile [D:\SteamLibrary\steamapps\common\RimWorld\Mods\AVP-Xenomorphs\Textures\Things\Addons\Blood_Marks\Xenomorph_Kills\Mark_Thrumbomorphkill_south.psd], Length 28603 and internal path: Things/Addons/Blood_Marks/Xenomorph_Kills/Mark_Thrumbomorphkill_south
 UnityEngine.StackTraceUtility:ExtractStackTrace ()
 Verse.Log:Warning (string)
@@ -572,9 +538,10 @@ Verse.LongEventHandler:LongEventsUpdate (bool&)
 (wrapper dynamic-method) MonoMod.Utils.DynamicMethodDefinition:Verse.Root.Update_Patch1 (Verse.Root)
 Verse.Root_Entry:Update ()
 
-[AVP Xenomorphs] Patched Mineable.TrySpawnYield
+[AVP Xenomorphs] [AVP Xenomorphs] Patched Mineable.TrySpawnYield
 UnityEngine.StackTraceUtility:ExtractStackTrace ()
 Verse.Log:Message (string)
+RRYautja.AvPDebug:LogOnce (string,string)
 RRYautja.AvP_XenomorphMinePatch:.cctor ()
 System.Runtime.CompilerServices.RuntimeHelpers:RunClassConstructor (System.RuntimeTypeHandle)
 ilyvion.LoadingProgress.StaticConstructorOnStartupUtilityReplacement/<CallAll>d__2:MoveNext () (at /home/runner/work/loading-progress/loading-progress/Source/ilyvion.LoadingProgress/StaticConstructorOnStartupUtilityReplacement.cs:42)
@@ -583,94 +550,11 @@ Verse.LongEventHandler:LongEventsUpdate (bool&)
 (wrapper dynamic-method) MonoMod.Utils.DynamicMethodDefinition:Verse.Root.Update_Patch1 (Verse.Root)
 Verse.Root_Entry:Update ()
 
-[AVP Xenomorphs] PawnRenderer.RenderPawnInternal not found
-UnityEngine.StackTraceUtility:ExtractStackTrace ()
-Verse.Log:Warning (string)
-RRYautja.FacehuggerMaskRenderer:.cctor ()
-System.Runtime.CompilerServices.RuntimeHelpers:RunClassConstructor (System.RuntimeTypeHandle)
-ilyvion.LoadingProgress.StaticConstructorOnStartupUtilityReplacement/<CallAll>d__2:MoveNext () (at /home/runner/work/loading-progress/loading-progress/Source/ilyvion.LoadingProgress/StaticConstructorOnStartupUtilityReplacement.cs:42)
-Verse.LongEventHandler:UpdateCurrentEnumeratorEvent ()
-Verse.LongEventHandler:LongEventsUpdate (bool&)
-(wrapper dynamic-method) MonoMod.Utils.DynamicMethodDefinition:Verse.Root.Update_Patch1 (Verse.Root)
-Verse.Root_Entry:Update ()
-
-[AVP Xenomorphs] Patched PawnGenerator.GeneratePawn (2 overloads) for faction assignment
-UnityEngine.StackTraceUtility:ExtractStackTrace ()
-Verse.Log:Message (string)
-RRYautja.XenomorphFactionAssigner:.cctor ()
-System.Runtime.CompilerServices.RuntimeHelpers:RunClassConstructor (System.RuntimeTypeHandle)
-ilyvion.LoadingProgress.StaticConstructorOnStartupUtilityReplacement/<CallAll>d__2:MoveNext () (at /home/runner/work/loading-progress/loading-progress/Source/ilyvion.LoadingProgress/StaticConstructorOnStartupUtilityReplacement.cs:42)
-Verse.LongEventHandler:UpdateCurrentEnumeratorEvent ()
-Verse.LongEventHandler:LongEventsUpdate (bool&)
-(wrapper dynamic-method) MonoMod.Utils.DynamicMethodDefinition:Verse.Root.Update_Patch1 (Verse.Root)
-Verse.Root_Entry:Update ()
-
-[AVP Xenomorphs] Patched Game.InitNewGame for faction ensurer
-UnityEngine.StackTraceUtility:ExtractStackTrace ()
-Verse.Log:Message (string)
-RRYautja.XenomorphFactionEnsurer:.cctor ()
-System.Runtime.CompilerServices.RuntimeHelpers:RunClassConstructor (System.RuntimeTypeHandle)
-ilyvion.LoadingProgress.StaticConstructorOnStartupUtilityReplacement/<CallAll>d__2:MoveNext () (at /home/runner/work/loading-progress/loading-progress/Source/ilyvion.LoadingProgress/StaticConstructorOnStartupUtilityReplacement.cs:42)
-Verse.LongEventHandler:UpdateCurrentEnumeratorEvent ()
-Verse.LongEventHandler:LongEventsUpdate (bool&)
-(wrapper dynamic-method) MonoMod.Utils.DynamicMethodDefinition:Verse.Root.Update_Patch1 (Verse.Root)
-Verse.Root_Entry:Update ()
-
-[AVP Xenomorphs] Patched Game.LoadGame for faction ensurer
-UnityEngine.StackTraceUtility:ExtractStackTrace ()
-Verse.Log:Message (string)
-RRYautja.XenomorphFactionEnsurer:.cctor ()
-System.Runtime.CompilerServices.RuntimeHelpers:RunClassConstructor (System.RuntimeTypeHandle)
-ilyvion.LoadingProgress.StaticConstructorOnStartupUtilityReplacement/<CallAll>d__2:MoveNext () (at /home/runner/work/loading-progress/loading-progress/Source/ilyvion.LoadingProgress/StaticConstructorOnStartupUtilityReplacement.cs:42)
-Verse.LongEventHandler:UpdateCurrentEnumeratorEvent ()
-Verse.LongEventHandler:LongEventsUpdate (bool&)
-(wrapper dynamic-method) MonoMod.Utils.DynamicMethodDefinition:Verse.Root.Update_Patch1 (Verse.Root)
-Verse.Root_Entry:Update ()
-
 Xenomorph Host System Loaded
-162 Possible Hosts out of 363 Races detected: Race Setting init
+158 Possible Hosts out of 339 Races detected: Race Setting init
 UnityEngine.StackTraceUtility:ExtractStackTrace ()
 Verse.Log:Message (string)
 RRYautja.Xenomorph.XenomorphHostSystem:.cctor ()
-System.Runtime.CompilerServices.RuntimeHelpers:RunClassConstructor (System.RuntimeTypeHandle)
-ilyvion.LoadingProgress.StaticConstructorOnStartupUtilityReplacement/<CallAll>d__2:MoveNext () (at /home/runner/work/loading-progress/loading-progress/Source/ilyvion.LoadingProgress/StaticConstructorOnStartupUtilityReplacement.cs:42)
-Verse.LongEventHandler:UpdateCurrentEnumeratorEvent ()
-Verse.LongEventHandler:LongEventsUpdate (bool&)
-(wrapper dynamic-method) MonoMod.Utils.DynamicMethodDefinition:Verse.Root.Update_Patch1 (Verse.Root)
-Verse.Root_Entry:Update ()
-
-<color=#FF00FFFF>[AnimalFoodsExtended] Loading.</color>
-UnityEngine.StackTraceUtility:ExtractStackTrace ()
-Verse.Log:Message (string)
-AnimalFoodsExtended.Extensions:DebugMessage (object,System.Action`1<string>,System.Nullable`1<UnityEngine.Color>) (at D:/repos/RimWorld/Animal Foods Extended/Extensions.cs:16)
-AnimalFoodsExtended.Mod:OnStartup () (at D:/repos/RimWorld/Animal Foods Extended/Mod.cs:14)
-AnimalFoodsExtended.StartupHandler:.cctor () (at D:/repos/RimWorld/Animal Foods Extended/StartupHandler.cs:8)
-System.Runtime.CompilerServices.RuntimeHelpers:RunClassConstructor (System.RuntimeTypeHandle)
-ilyvion.LoadingProgress.StaticConstructorOnStartupUtilityReplacement/<CallAll>d__2:MoveNext () (at /home/runner/work/loading-progress/loading-progress/Source/ilyvion.LoadingProgress/StaticConstructorOnStartupUtilityReplacement.cs:42)
-Verse.LongEventHandler:UpdateCurrentEnumeratorEvent ()
-Verse.LongEventHandler:LongEventsUpdate (bool&)
-(wrapper dynamic-method) MonoMod.Utils.DynamicMethodDefinition:Verse.Root.Update_Patch1 (Verse.Root)
-Verse.Root_Entry:Update ()
-
-[AnimalFoodsExtended] Patching.
-UnityEngine.StackTraceUtility:ExtractStackTrace ()
-Verse.Log:Message (string)
-AnimalFoodsExtended.Extensions:DebugMessage (object,System.Action`1<string>,System.Nullable`1<UnityEngine.Color>) (at D:/repos/RimWorld/Animal Foods Extended/Extensions.cs:16)
-AnimalFoodsExtended.Mod:OnStartup () (at D:/repos/RimWorld/Animal Foods Extended/Mod.cs:17)
-AnimalFoodsExtended.StartupHandler:.cctor () (at D:/repos/RimWorld/Animal Foods Extended/StartupHandler.cs:8)
-System.Runtime.CompilerServices.RuntimeHelpers:RunClassConstructor (System.RuntimeTypeHandle)
-ilyvion.LoadingProgress.StaticConstructorOnStartupUtilityReplacement/<CallAll>d__2:MoveNext () (at /home/runner/work/loading-progress/loading-progress/Source/ilyvion.LoadingProgress/StaticConstructorOnStartupUtilityReplacement.cs:42)
-Verse.LongEventHandler:UpdateCurrentEnumeratorEvent ()
-Verse.LongEventHandler:LongEventsUpdate (bool&)
-(wrapper dynamic-method) MonoMod.Utils.DynamicMethodDefinition:Verse.Root.Update_Patch1 (Verse.Root)
-Verse.Root_Entry:Update ()
-
-[AnimalFoodsExtended] Loaded successfully.
-UnityEngine.StackTraceUtility:ExtractStackTrace ()
-Verse.Log:Message (string)
-AnimalFoodsExtended.Extensions:DebugMessage (object,System.Action`1<string>,System.Nullable`1<UnityEngine.Color>) (at D:/repos/RimWorld/Animal Foods Extended/Extensions.cs:16)
-AnimalFoodsExtended.Mod:OnStartup () (at D:/repos/RimWorld/Animal Foods Extended/Mod.cs:21)
-AnimalFoodsExtended.StartupHandler:.cctor () (at D:/repos/RimWorld/Animal Foods Extended/StartupHandler.cs:8)
 System.Runtime.CompilerServices.RuntimeHelpers:RunClassConstructor (System.RuntimeTypeHandle)
 ilyvion.LoadingProgress.StaticConstructorOnStartupUtilityReplacement/<CallAll>d__2:MoveNext () (at /home/runner/work/loading-progress/loading-progress/Source/ilyvion.LoadingProgress/StaticConstructorOnStartupUtilityReplacement.cs:42)
 Verse.LongEventHandler:UpdateCurrentEnumeratorEvent ()
@@ -689,7 +573,7 @@ Verse.LongEventHandler:LongEventsUpdate (bool&)
 (wrapper dynamic-method) MonoMod.Utils.DynamicMethodDefinition:Verse.Root.Update_Patch1 (Verse.Root)
 Verse.Root_Entry:Update ()
 
-Alien race successfully completed 279 patches (50 pre, 82 post, 147 trans) with harmony.
+Alien race successfully completed 280 patches (50 pre, 82 post, 148 trans) with harmony.
 UnityEngine.StackTraceUtility:ExtractStackTrace ()
 Verse.Log:Message (string)
 AlienRace.HarmonyPatches:.cctor () (at C:/Program Files (x86)/Steam/steamapps/common/RimWorld/Mods/AlienRaces/Source/AlienRace/AlienRace/HarmonyPatches.cs:407)
@@ -711,7 +595,7 @@ Verse.LongEventHandler:LongEventsUpdate (bool&)
 (wrapper dynamic-method) MonoMod.Utils.DynamicMethodDefinition:Verse.Root.Update_Patch1 (Verse.Root)
 Verse.Root_Entry:Update ()
 
-KCSG has Created 7611 symbolDefs for vanilla and DLCs
+KCSG has Created 7615 symbolDefs for vanilla and DLCs
 UnityEngine.StackTraceUtility:ExtractStackTrace ()
 Verse.Log:Message (string)
 KCSG.StartupActions:CreateSymbols ()
@@ -1020,7 +904,7 @@ Verse.LongEventHandler:LongEventsUpdate (bool&)
 (wrapper dynamic-method) MonoMod.Utils.DynamicMethodDefinition:Verse.Root.Update_Patch1 (Verse.Root)
 Verse.Root_Entry:Update ()
 
-MVCF successfully applied 42 patches
+MVCF successfully applied 41 patches
 UnityEngine.StackTraceUtility:ExtractStackTrace ()
 Verse.Log:Message (string)
 MVCF.Patch:PrintSummary ()
@@ -1166,7 +1050,7 @@ AlienRace.ExtendedGraphics.DefaultGraphicsLoader:LoadAllGraphics (string,AlienRa
 UnityEngine.BeforeRenderHelper:Invoke ()
 UnityEngine.Application:InvokeOnBeforeRender ()
 
-<color=#66ffb5>[MeleeAnim]</color> Potential patch conflicts (15):
+<color=#66ffb5>[MeleeAnim]</color> Potential patch conflicts (14):
 UnityEngine.StackTraceUtility:ExtractStackTrace ()
 Verse.Log:Warning (string)
 AM.Core:Warn (string)
@@ -1182,13 +1066,6 @@ System.Threading.ExecutionContext:Run (System.Threading.ExecutionContext,System.
 System.Threading.ThreadHelper:ThreadStart ()
 
 <color=#66ffb5>[MeleeAnim]</color> 
-Verse.BattleLogEntry_MeleeCombat RimWorld.Verb_MeleeAttack::CreateCombatLog(System.Func`2<Verse.ManeuverDef, Verse.RulePackDef> rulePackGetter, System.Boolean alwaysShow)
-Prefixes:
-  [co.uk.epicguru.meleeanimation] Prefix
-Transpilers:
-Postfixes:
-  [CM_Callouts] Postfix
-
 System.Void Verse.PawnRenderer::RenderPawnAt(UnityEngine.Vector3 drawLoc, System.Nullable`1<Verse.Rot4> rotOverride, System.Boolean neverAimWeapon)
 Prefixes:
   [net.pardeike.rimworld.mod.camera+] Prefix
@@ -1270,13 +1147,6 @@ System.Threading.ExecutionContext:Run (System.Threading.ExecutionContext,System.
 System.Threading.ThreadHelper:ThreadStart ()
 
 <color=#66ffb5>[MeleeAnim]</color> 
-Verse.BattleLogEntry_MeleeCombat RimWorld.Verb_MeleeAttack::CreateCombatLog(System.Func`2<Verse.ManeuverDef, Verse.RulePackDef> rulePackGetter, System.Boolean alwaysShow)
-Prefixes:
-  [co.uk.epicguru.meleeanimation] Prefix
-Transpilers:
-Postfixes:
-  [CM_Callouts] Postfix
-
 System.Void Verse.PawnRenderer::RenderPawnAt(UnityEngine.Vector3 drawLoc, System.Nullable`1<Verse.Rot4> rotOverride, System.Boolean neverAimWeapon)
 Prefixes:
   [net.pardeike.rimworld.mod.camera+] Prefix
@@ -1384,6 +1254,12 @@ Prefixes:
 Transpilers:
 Postfixes:
 
+Verse.BattleLogEntry_MeleeCombat RimWorld.Verb_MeleeAttack::CreateCombatLog(System.Func`2<Verse.ManeuverDef, Verse.RulePackDef> rulePackGetter, System.Boolean alwaysShow)
+Prefixes:
+  [co.uk.epicguru.meleeanimation] Prefix
+Transpilers:
+Postfixes:
+
 virtual System.Boolean RimWorld.Verb_MeleeAttack::TryCastShot()
 Prefixes:
   [co.uk.epicguru.meleeanimation] Prefix
@@ -1405,7 +1281,7 @@ System.Threading.ExecutionContext:Run (System.Threading.ExecutionContext,System.
 System.Threading.ExecutionContext:Run (System.Threading.ExecutionContext,System.Threading.ContextCallback,object)
 System.Threading.ThreadHelper:ThreadStart ()
 
-<color=#66ffb5>[MeleeAnim]</color> PreCached all retexture info in 36.6ms
+<color=#66ffb5>[MeleeAnim]</color> PreCached all retexture info in 30.9ms
 UnityEngine.StackTraceUtility:ExtractStackTrace ()
 Verse.Log:Message (string)
 AM.Core:Log (string)
@@ -1460,7 +1336,7 @@ Verse.LongEventHandler:LongEventsUpdate (bool&)
 (wrapper dynamic-method) MonoMod.Utils.DynamicMethodDefinition:Verse.Root.Update_Patch1 (Verse.Root)
 Verse.Root_Entry:Update ()
 
-<color=#66ffb5>[MeleeAnim]</color> Patched 3 classes that directly inherit from Verb_MeleeAttack in 57.0 ms to detect hits:
+<color=#66ffb5>[MeleeAnim]</color> Patched 3 classes that directly inherit from Verb_MeleeAttack in 57.1 ms to detect hits:
 RimWorld.Verb_MeleeApplyHediff from Assembly-CSharp
 RimWorld.Verb_MeleeAttackDamage from Assembly-CSharp
 RRYautja.Verb_MeleeAttackKnockback from RRYautja
@@ -1475,7 +1351,7 @@ Verse.LongEventHandler:LongEventsUpdate (bool&)
 (wrapper dynamic-method) MonoMod.Utils.DynamicMethodDefinition:Verse.Root.Update_Patch1 (Verse.Root)
 Verse.Root_Entry:Update ()
 
-<color=#66ffb5>[MeleeAnim]</color> Found 0 items of clothing that cover hands, took 0.71 ms:
+<color=#66ffb5>[MeleeAnim]</color> Found 0 items of clothing that cover hands, took 0.68 ms:
 
 UnityEngine.StackTraceUtility:ExtractStackTrace ()
 Verse.Log:Message (string)
@@ -1544,226 +1420,6 @@ Verse.LongEventHandler:LongEventsUpdate (bool&)
 (wrapper dynamic-method) MonoMod.Utils.DynamicMethodDefinition:Verse.Root.Update_Patch1 (Verse.Root)
 Verse.Root_Entry:Update ()
 
-Couldn't find plant def named: VCE_Grass
-UnityEngine.StackTraceUtility:ExtractStackTrace ()
-Verse.Log:Message (string)
-RealTiltMod.PlantPatch:SetPlantStats (string,single,single,bool,single,single,single,single,single,single,int,single,single,bool,single,single,single)
-RealTiltMod.PlantPatch:applyPlantBalance ()
-RealTiltMod.RealTiltMod/<>c:<.ctor>b__8_0 ()
-Verse.LongEventHandler:UpdateCurrentSynchronousEvent (bool&)
-Verse.LongEventHandler:LongEventsUpdate (bool&)
-(wrapper dynamic-method) MonoMod.Utils.DynamicMethodDefinition:Verse.Root.Update_Patch1 (Verse.Root)
-Verse.Root_Entry:Update ()
-
-Couldn't find plant def named: VCE_TallGrass
-UnityEngine.StackTraceUtility:ExtractStackTrace ()
-Verse.Log:Message (string)
-RealTiltMod.PlantPatch:SetPlantStats (string,single,single,bool,single,single,single,single,single,single,int,single,single,bool,single,single,single)
-RealTiltMod.PlantPatch:applyPlantBalance ()
-RealTiltMod.RealTiltMod/<>c:<.ctor>b__8_0 ()
-Verse.LongEventHandler:UpdateCurrentSynchronousEvent (bool&)
-Verse.LongEventHandler:LongEventsUpdate (bool&)
-(wrapper dynamic-method) MonoMod.Utils.DynamicMethodDefinition:Verse.Root.Update_Patch1 (Verse.Root)
-Verse.Root_Entry:Update ()
-
-Couldn't find plant def named: VCE_Onion
-UnityEngine.StackTraceUtility:ExtractStackTrace ()
-Verse.Log:Message (string)
-RealTiltMod.PlantPatch:SetPlantStats (string,single,single,bool,single,single,single,single,single,single,int,single,single,bool,single,single,single)
-RealTiltMod.PlantPatch:applyPlantBalance ()
-RealTiltMod.RealTiltMod/<>c:<.ctor>b__8_0 ()
-Verse.LongEventHandler:UpdateCurrentSynchronousEvent (bool&)
-Verse.LongEventHandler:LongEventsUpdate (bool&)
-(wrapper dynamic-method) MonoMod.Utils.DynamicMethodDefinition:Verse.Root.Update_Patch1 (Verse.Root)
-Verse.Root_Entry:Update ()
-
-Couldn't find plant def named: VCE_Cabbage
-UnityEngine.StackTraceUtility:ExtractStackTrace ()
-Verse.Log:Message (string)
-RealTiltMod.PlantPatch:SetPlantStats (string,single,single,bool,single,single,single,single,single,single,int,single,single,bool,single,single,single)
-RealTiltMod.PlantPatch:applyPlantBalance ()
-RealTiltMod.RealTiltMod/<>c:<.ctor>b__8_0 ()
-Verse.LongEventHandler:UpdateCurrentSynchronousEvent (bool&)
-Verse.LongEventHandler:LongEventsUpdate (bool&)
-(wrapper dynamic-method) MonoMod.Utils.DynamicMethodDefinition:Verse.Root.Update_Patch1 (Verse.Root)
-Verse.Root_Entry:Update ()
-
-Couldn't find plant def named: VCE_Beet
-UnityEngine.StackTraceUtility:ExtractStackTrace ()
-Verse.Log:Message (string)
-RealTiltMod.PlantPatch:SetPlantStats (string,single,single,bool,single,single,single,single,single,single,int,single,single,bool,single,single,single)
-RealTiltMod.PlantPatch:applyPlantBalance ()
-RealTiltMod.RealTiltMod/<>c:<.ctor>b__8_0 ()
-Verse.LongEventHandler:UpdateCurrentSynchronousEvent (bool&)
-Verse.LongEventHandler:LongEventsUpdate (bool&)
-(wrapper dynamic-method) MonoMod.Utils.DynamicMethodDefinition:Verse.Root.Update_Patch1 (Verse.Root)
-Verse.Root_Entry:Update ()
-
-Couldn't find plant def named: VCE_Peas
-UnityEngine.StackTraceUtility:ExtractStackTrace ()
-Verse.Log:Message (string)
-RealTiltMod.PlantPatch:SetPlantStats (string,single,single,bool,single,single,single,single,single,single,int,single,single,bool,single,single,single)
-RealTiltMod.PlantPatch:applyPlantBalance ()
-RealTiltMod.RealTiltMod/<>c:<.ctor>b__8_0 ()
-Verse.LongEventHandler:UpdateCurrentSynchronousEvent (bool&)
-Verse.LongEventHandler:LongEventsUpdate (bool&)
-(wrapper dynamic-method) MonoMod.Utils.DynamicMethodDefinition:Verse.Root.Update_Patch1 (Verse.Root)
-Verse.Root_Entry:Update ()
-
-Couldn't find plant def named: VCE_Pepper
-UnityEngine.StackTraceUtility:ExtractStackTrace ()
-Verse.Log:Message (string)
-RealTiltMod.PlantPatch:SetPlantStats (string,single,single,bool,single,single,single,single,single,single,int,single,single,bool,single,single,single)
-RealTiltMod.PlantPatch:applyPlantBalance ()
-RealTiltMod.RealTiltMod/<>c:<.ctor>b__8_0 ()
-Verse.LongEventHandler:UpdateCurrentSynchronousEvent (bool&)
-Verse.LongEventHandler:LongEventsUpdate (bool&)
-(wrapper dynamic-method) MonoMod.Utils.DynamicMethodDefinition:Verse.Root.Update_Patch1 (Verse.Root)
-Verse.Root_Entry:Update ()
-
-Couldn't find plant def named: VCE_Eggplant
-UnityEngine.StackTraceUtility:ExtractStackTrace ()
-Verse.Log:Message (string)
-RealTiltMod.PlantPatch:SetPlantStats (string,single,single,bool,single,single,single,single,single,single,int,single,single,bool,single,single,single)
-RealTiltMod.PlantPatch:applyPlantBalance ()
-RealTiltMod.RealTiltMod/<>c:<.ctor>b__8_0 ()
-Verse.LongEventHandler:UpdateCurrentSynchronousEvent (bool&)
-Verse.LongEventHandler:LongEventsUpdate (bool&)
-(wrapper dynamic-method) MonoMod.Utils.DynamicMethodDefinition:Verse.Root.Update_Patch1 (Verse.Root)
-Verse.Root_Entry:Update ()
-
-Couldn't find plant def named: VCE_Pumpkin
-UnityEngine.StackTraceUtility:ExtractStackTrace ()
-Verse.Log:Message (string)
-RealTiltMod.PlantPatch:SetPlantStats (string,single,single,bool,single,single,single,single,single,single,int,single,single,bool,single,single,single)
-RealTiltMod.PlantPatch:applyPlantBalance ()
-RealTiltMod.RealTiltMod/<>c:<.ctor>b__8_0 ()
-Verse.LongEventHandler:UpdateCurrentSynchronousEvent (bool&)
-Verse.LongEventHandler:LongEventsUpdate (bool&)
-(wrapper dynamic-method) MonoMod.Utils.DynamicMethodDefinition:Verse.Root.Update_Patch1 (Verse.Root)
-Verse.Root_Entry:Update ()
-
-Couldn't find plant def named: VCE_Agave
-UnityEngine.StackTraceUtility:ExtractStackTrace ()
-Verse.Log:Message (string)
-RealTiltMod.PlantPatch:SetPlantStats (string,single,single,bool,single,single,single,single,single,single,int,single,single,bool,single,single,single)
-RealTiltMod.PlantPatch:applyPlantBalance ()
-RealTiltMod.RealTiltMod/<>c:<.ctor>b__8_0 ()
-Verse.LongEventHandler:UpdateCurrentSynchronousEvent (bool&)
-Verse.LongEventHandler:LongEventsUpdate (bool&)
-(wrapper dynamic-method) MonoMod.Utils.DynamicMethodDefinition:Verse.Root.Update_Patch1 (Verse.Root)
-Verse.Root_Entry:Update ()
-
-Couldn't find plant def named: VCE_Tomato
-UnityEngine.StackTraceUtility:ExtractStackTrace ()
-Verse.Log:Message (string)
-RealTiltMod.PlantPatch:SetPlantStats (string,single,single,bool,single,single,single,single,single,single,int,single,single,bool,single,single,single)
-RealTiltMod.PlantPatch:applyPlantBalance ()
-RealTiltMod.RealTiltMod/<>c:<.ctor>b__8_0 ()
-Verse.LongEventHandler:UpdateCurrentSynchronousEvent (bool&)
-Verse.LongEventHandler:LongEventsUpdate (bool&)
-(wrapper dynamic-method) MonoMod.Utils.DynamicMethodDefinition:Verse.Root.Update_Patch1 (Verse.Root)
-Verse.Root_Entry:Update ()
-
-Couldn't find plant def named: VCE_AppleTree
-UnityEngine.StackTraceUtility:ExtractStackTrace ()
-Verse.Log:Message (string)
-RealTiltMod.PlantPatch:SetPlantStats (string,single,single,bool,single,single,single,single,single,single,int,single,single,bool,single,single,single)
-RealTiltMod.PlantPatch:applyPlantBalance ()
-RealTiltMod.RealTiltMod/<>c:<.ctor>b__8_0 ()
-Verse.LongEventHandler:UpdateCurrentSynchronousEvent (bool&)
-Verse.LongEventHandler:LongEventsUpdate (bool&)
-(wrapper dynamic-method) MonoMod.Utils.DynamicMethodDefinition:Verse.Root.Update_Patch1 (Verse.Root)
-Verse.Root_Entry:Update ()
-
-Couldn't find plant def named: VCE_PeachTree
-UnityEngine.StackTraceUtility:ExtractStackTrace ()
-Verse.Log:Message (string)
-RealTiltMod.PlantPatch:SetPlantStats (string,single,single,bool,single,single,single,single,single,single,int,single,single,bool,single,single,single)
-RealTiltMod.PlantPatch:applyPlantBalance ()
-RealTiltMod.RealTiltMod/<>c:<.ctor>b__8_0 ()
-Verse.LongEventHandler:UpdateCurrentSynchronousEvent (bool&)
-Verse.LongEventHandler:LongEventsUpdate (bool&)
-(wrapper dynamic-method) MonoMod.Utils.DynamicMethodDefinition:Verse.Root.Update_Patch1 (Verse.Root)
-Verse.Root_Entry:Update ()
-
-Couldn't find plant def named: VCE_CherryTree
-UnityEngine.StackTraceUtility:ExtractStackTrace ()
-Verse.Log:Message (string)
-RealTiltMod.PlantPatch:SetPlantStats (string,single,single,bool,single,single,single,single,single,single,int,single,single,bool,single,single,single)
-RealTiltMod.PlantPatch:applyPlantBalance ()
-RealTiltMod.RealTiltMod/<>c:<.ctor>b__8_0 ()
-Verse.LongEventHandler:UpdateCurrentSynchronousEvent (bool&)
-Verse.LongEventHandler:LongEventsUpdate (bool&)
-(wrapper dynamic-method) MonoMod.Utils.DynamicMethodDefinition:Verse.Root.Update_Patch1 (Verse.Root)
-Verse.Root_Entry:Update ()
-
-Couldn't find plant def named: VCE_PlumTree
-UnityEngine.StackTraceUtility:ExtractStackTrace ()
-Verse.Log:Message (string)
-RealTiltMod.PlantPatch:SetPlantStats (string,single,single,bool,single,single,single,single,single,single,int,single,single,bool,single,single,single)
-RealTiltMod.PlantPatch:applyPlantBalance ()
-RealTiltMod.RealTiltMod/<>c:<.ctor>b__8_0 ()
-Verse.LongEventHandler:UpdateCurrentSynchronousEvent (bool&)
-Verse.LongEventHandler:LongEventsUpdate (bool&)
-(wrapper dynamic-method) MonoMod.Utils.DynamicMethodDefinition:Verse.Root.Update_Patch1 (Verse.Root)
-Verse.Root_Entry:Update ()
-
-Couldn't find plant def named: VCE_PearTree
-UnityEngine.StackTraceUtility:ExtractStackTrace ()
-Verse.Log:Message (string)
-RealTiltMod.PlantPatch:SetPlantStats (string,single,single,bool,single,single,single,single,single,single,int,single,single,bool,single,single,single)
-RealTiltMod.PlantPatch:applyPlantBalance ()
-RealTiltMod.RealTiltMod/<>c:<.ctor>b__8_0 ()
-Verse.LongEventHandler:UpdateCurrentSynchronousEvent (bool&)
-Verse.LongEventHandler:LongEventsUpdate (bool&)
-(wrapper dynamic-method) MonoMod.Utils.DynamicMethodDefinition:Verse.Root.Update_Patch1 (Verse.Root)
-Verse.Root_Entry:Update ()
-
-Couldn't find plant def named: VCE_BananaTree
-UnityEngine.StackTraceUtility:ExtractStackTrace ()
-Verse.Log:Message (string)
-RealTiltMod.PlantPatch:SetPlantStats (string,single,single,bool,single,single,single,single,single,single,int,single,single,bool,single,single,single)
-RealTiltMod.PlantPatch:applyPlantBalance ()
-RealTiltMod.RealTiltMod/<>c:<.ctor>b__8_0 ()
-Verse.LongEventHandler:UpdateCurrentSynchronousEvent (bool&)
-Verse.LongEventHandler:LongEventsUpdate (bool&)
-(wrapper dynamic-method) MonoMod.Utils.DynamicMethodDefinition:Verse.Root.Update_Patch1 (Verse.Root)
-Verse.Root_Entry:Update ()
-
-Couldn't find plant def named: VCE_Opuntia
-UnityEngine.StackTraceUtility:ExtractStackTrace ()
-Verse.Log:Message (string)
-RealTiltMod.PlantPatch:SetPlantStats (string,single,single,bool,single,single,single,single,single,single,int,single,single,bool,single,single,single)
-RealTiltMod.PlantPatch:applyPlantBalance ()
-RealTiltMod.RealTiltMod/<>c:<.ctor>b__8_0 ()
-Verse.LongEventHandler:UpdateCurrentSynchronousEvent (bool&)
-Verse.LongEventHandler:LongEventsUpdate (bool&)
-(wrapper dynamic-method) MonoMod.Utils.DynamicMethodDefinition:Verse.Root.Update_Patch1 (Verse.Root)
-Verse.Root_Entry:Update ()
-
-Couldn't find plant def named: VCE_BearBerryBush
-UnityEngine.StackTraceUtility:ExtractStackTrace ()
-Verse.Log:Message (string)
-RealTiltMod.PlantPatch:SetPlantStats (string,single,single,bool,single,single,single,single,single,single,int,single,single,bool,single,single,single)
-RealTiltMod.PlantPatch:applyPlantBalance ()
-RealTiltMod.RealTiltMod/<>c:<.ctor>b__8_0 ()
-Verse.LongEventHandler:UpdateCurrentSynchronousEvent (bool&)
-Verse.LongEventHandler:LongEventsUpdate (bool&)
-(wrapper dynamic-method) MonoMod.Utils.DynamicMethodDefinition:Verse.Root.Update_Patch1 (Verse.Root)
-Verse.Root_Entry:Update ()
-
-Couldn't find plant def named: VCE_OrangeTree
-UnityEngine.StackTraceUtility:ExtractStackTrace ()
-Verse.Log:Message (string)
-RealTiltMod.PlantPatch:SetPlantStats (string,single,single,bool,single,single,single,single,single,single,int,single,single,bool,single,single,single)
-RealTiltMod.PlantPatch:applyPlantBalance ()
-RealTiltMod.RealTiltMod/<>c:<.ctor>b__8_0 ()
-Verse.LongEventHandler:UpdateCurrentSynchronousEvent (bool&)
-Verse.LongEventHandler:LongEventsUpdate (bool&)
-(wrapper dynamic-method) MonoMod.Utils.DynamicMethodDefinition:Verse.Root.Update_Patch1 (Verse.Root)
-Verse.Root_Entry:Update ()
-
 [HugsLib] initializing TerraformRimworld
 UnityEngine.StackTraceUtility:ExtractStackTrace ()
 Verse.Log:Message (string)
@@ -1801,7 +1457,7 @@ CharacterEditor.CEditor:OnMainMenuOnGUI ()
 (wrapper dynamic-method) MonoMod.Utils.DynamicMethodDefinition:Verse.UIRoot_Entry.UIRootOnGUI_Patch1 (Verse.UIRoot_Entry)
 (wrapper dynamic-method) MonoMod.Utils.DynamicMethodDefinition:Verse.Root.OnGUI_Patch2 (Verse.Root)
 
-426 default entities for genes created
+250 default entities for genes created
 UnityEngine.StackTraceUtility:ExtractStackTrace ()
 Verse.Log:Message (string)
 CharacterEditor.Preset:CreateDefaults<CharacterEditor.PresetGene, Verse.GeneDef> (System.Collections.Generic.HashSet`1<Verse.GeneDef>,System.Func`2<Verse.GeneDef, string>,System.Func`2<Verse.GeneDef, CharacterEditor.PresetGene>,string)
@@ -1829,7 +1485,7 @@ CharacterEditor.CEditor:OnMainMenuOnGUI ()
 (wrapper dynamic-method) MonoMod.Utils.DynamicMethodDefinition:Verse.UIRoot_Entry.UIRootOnGUI_Patch1 (Verse.UIRoot_Entry)
 (wrapper dynamic-method) MonoMod.Utils.DynamicMethodDefinition:Verse.Root.OnGUI_Patch2 (Verse.Root)
 
-2471 default entities for objects created
+2403 default entities for objects created
 UnityEngine.StackTraceUtility:ExtractStackTrace ()
 Verse.Log:Message (string)
 CharacterEditor.Preset:CreateDefaults<CharacterEditor.PresetObject, Verse.ThingDef> (System.Collections.Generic.HashSet`1<Verse.ThingDef>,System.Func`2<Verse.ThingDef, string>,System.Func`2<Verse.ThingDef, CharacterEditor.PresetObject>,string)
