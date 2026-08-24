@@ -15,7 +15,7 @@
 
   <PawnsArrivalModeDef>
     <defName>RRY_DropThroughRoofNearPower</defName>
-    <workerClass>RimWorld.PawnsArrivalModeWorker_DropPod</workerClass>
+    <workerClass>PawnsArrivalModeWorker_RandomDrop</workerClass>
     <selectionWeightCurve>
       <points>
         <li>(0, 0)</li>
@@ -27,7 +27,7 @@
 
   <PawnsArrivalModeDef>
     <defName>RRY_RandomDropThroughRoof</defName>
-    <workerClass>RimWorld.PawnsArrivalModeWorker_DropPod</workerClass>
+    <workerClass>PawnsArrivalModeWorker_RandomDrop</workerClass>
     <selectionWeightCurve>
       <points>
         <li>(0, 0)</li>
