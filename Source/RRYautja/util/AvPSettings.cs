@@ -29,6 +29,7 @@ namespace RRYautja.settings
         public bool AllowNeomorphs = true; 
         public bool AllowPredaliens = true;
         public bool AllowXenomorphFaction = true, AllowHiddenInfections = true, AllowPredalienImpregnations = true;
+        public bool DebugMode = false;
         public float fachuggerRemovalFailureDeathChance = 0.35f, embryoRemovalFailureDeathChance = 0.35f;
 
         public Dictionary<string, bool> RaceKeyPairs;
@@ -40,6 +41,7 @@ namespace RRYautja.settings
         {
             base.ExposeData();
             Scribe_Values.Look(ref this.AllowXenomorphFaction, "AllowXenomorphFaction", true);
+            Scribe_Values.Look(ref this.DebugMode, "DebugMode", false);
 
             Scribe_Values.Look(ref this.AllowHiddenInfections, "AllowHiddenInfections", true);
             Scribe_Values.Look(ref this.AllowPredalienImpregnations, "AllowPredalienImpregnations", true);
@@ -119,6 +121,10 @@ namespace RRYautja.settings
             TextFieldNumericLabeled<float>(rectShowXenoOptions.BottomHalf().TopHalf().RightHalf().ContractedBy(4), "RRY_FacehuggerRemovalDeathChance".Translate(this.settings.fachuggerRemovalFailureDeathChance * 100), ref settings.fachuggerRemovalFailureDeathChance, ref settings.fachuggerRemovalFailureDeathChanceBuffer, 0f, 1f);
 
             TextFieldNumericLabeled<float>(rectShowXenoOptions.BottomHalf().BottomHalf().RightHalf().ContractedBy(4), "RRY_EmbryoRemovalDeathChance".Translate(this.settings.embryoRemovalFailureDeathChance * 100), ref settings.embryoRemovalFailureDeathChance, ref settings.embryoRemovalFailureDeathChanceBuffer, 0f, 1f);
+
+            // Debug toggle
+            Rect debugRect = new Rect(rect.x, rectShowXenoOptions.yMax + 10, numa, 30f);
+            Widgets.CheckboxLabeled(debugRect, "Debug Mode (extra logging)", ref settings.DebugMode);
 
 
             float x = inRect.x;
