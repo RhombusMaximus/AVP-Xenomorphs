@@ -62,7 +62,7 @@ namespace RRYautja
             if (__instance == null || !__instance.Spawned || __instance.Dead) return;
 
             bool hasInfection = __instance.health.hediffSet.HasHediff(XenomorphDefOf.RRY_FaceHuggerInfection);
-            if (RRYautja.settings.AvPMod.settings?.DebugMode == true && hasInfection)
+            if (RRYautja.settings.SettingsHelper.latest?.DebugMode == true && hasInfection)
             {
                 Log.Message("[AVP Xenomorphs] Debug: Drawing mask for " + __instance.LabelShort + " at " + drawLoc);
             }
