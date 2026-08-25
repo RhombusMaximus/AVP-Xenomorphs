@@ -666,3 +666,38 @@ System.NullReferenceException: Object reference not set to an instance of an obj
 [Ref 2BEE724E] Duplicate stacktrace, see ref for original
 An error occurred while starting an error recover job. We have to stop now to avoid infinite loops. This means that the pawn is now jobless which can cause further bugs. pawn=RRY_Xenomorph_FaceHugger57174
 [AVP Xenomorphs] [Kidnap] Drone targeting Hurst (1/3 drones) (tick 202452)
+[AVP Xenomorphs] [Kidnap] Drone targeting Rascal (1/3 drones) (tick 204305)
+Exception in RimWorld.ThinkNode_ConditionalFacehuggerFertile TryIssueJobPackage: System.NullReferenceException: Object reference not set to an instance of an object
+[Ref 5A9032F1] Duplicate stacktrace, see ref for original
+Exception in Verse.AI.ThinkNode_Tagger TryIssueJobPackage: System.NullReferenceException: Object reference not set to an instance of an object
+[Ref B3A85BBC] Duplicate stacktrace, see ref for original
+JobDriver threw exception in toil MakeNewToils's initAction for pawn RRY_Xenomorph_FaceHugger57352 driver=JobDriver_Wait (toilIndex=0) driver.job=(Wait_Wander (Job_90251) Giver = JobGiver_WanderAnywhere [workGiverDef: null])
+System.NullReferenceException: Object reference not set to an instance of an object
+[Ref 2BEE724E] Duplicate stacktrace, see ref for original
+JobDriver threw exception in toil MakeNewToils's initAction for pawn RRY_Xenomorph_FaceHugger57352 driver=JobDriver_Wait (toilIndex=0) driver.job=(Wait (Job_90252))
+System.NullReferenceException: Object reference not set to an instance of an object
+[Ref 2BEE724E] Duplicate stacktrace, see ref for original
+An error occurred while starting an error recover job. We have to stop now to avoid infinite loops. This means that the pawn is now jobless which can cause further bugs. pawn=RRY_Xenomorph_FaceHugger57352
+Exception in RimWorld.ThinkNode_ConditionalFacehuggerFertile TryIssueJobPackage: System.NullReferenceException: Object reference not set to an instance of an object
+[Ref 5A9032F1] Duplicate stacktrace, see ref for original
+Exception in Verse.AI.ThinkNode_Tagger TryIssueJobPackage: System.NullReferenceException: Object reference not set to an instance of an object
+[Ref B3A85BBC] Duplicate stacktrace, see ref for original
+JobDriver threw exception in toil MakeNewToils's initAction for pawn RRY_Xenomorph_FaceHugger57355 driver=JobDriver_Wait (toilIndex=0) driver.job=(Wait_Wander (Job_90255) Giver = JobGiver_WanderAnywhere [workGiverDef: null])
+System.NullReferenceException: Object reference not set to an instance of an object
+[Ref 2BEE724E] Duplicate stacktrace, see ref for original
+JobDriver threw exception in toil MakeNewToils's initAction for pawn RRY_Xenomorph_FaceHugger57355 driver=JobDriver_Wait (toilIndex=0) driver.job=(Wait (Job_90256))
+System.NullReferenceException: Object reference not set to an instance of an object
+[Ref 2BEE724E] Duplicate stacktrace, see ref for original
+An error occurred while starting an error recover job. We have to stop now to avoid infinite loops. This means that the pawn is now jobless which can cause further bugs. pawn=RRY_Xenomorph_FaceHugger57355
+Exception in RimWorld.ThinkNode_ConditionalFacehuggerFertile TryIssueJobPackage: System.NullReferenceException: Object reference not set to an instance of an object
+[Ref 5A9032F1] Duplicate stacktrace, see ref for original
+Exception in Verse.AI.ThinkNode_Tagger TryIssueJobPackage: System.NullReferenceException: Object reference not set to an instance of an object
+[Ref B3A85BBC] Duplicate stacktrace, see ref for original
+JobDriver threw exception in toil MakeNewToils's initAction for pawn RRY_Xenomorph_FaceHugger57416 driver=JobDriver_Wait (toilIndex=0) driver.job=(Wait_Wander (Job_90406) Giver = JobGiver_WanderAnywhere [workGiverDef: null])
+System.NullReferenceException: Object reference not set to an instance of an object
+[Ref 2BEE724E] Duplicate stacktrace, see ref for original
+JobDriver threw exception in toil MakeNewToils's initAction for pawn RRY_Xenomorph_FaceHugger57416 driver=JobDriver_Wait (toilIndex=0) driver.job=(Wait (Job_90407))
+System.NullReferenceException: Object reference not set to an instance of an object
+[Ref 2BEE724E] Duplicate stacktrace, see ref for original
+An error occurred while starting an error recover job. We have to stop now to avoid infinite loops. This means that the pawn is now jobless which can cause further bugs. pawn=RRY_Xenomorph_FaceHugger57416
+Wrote screenshot C:\Users\clint\AppData\LocalLow\Ludeon Studios\RimWorld by Ludeon Studios\RimSaves\Previews\USCSS Colony20.dat of size 151823
