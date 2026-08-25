@@ -7,21 +7,20 @@ using System.Linq;
 
 namespace RimWorld
 {
-    // Token: 0x020001BE RID: 446
     public class ThinkNode_ConditionalQueenPresent : ThinkNode_Conditional
     {
-        // Token: 0x06000956 RID: 2390 RVA: 0x0004D678 File Offset: 0x0004BA78
         protected override bool Satisfied(Pawn pawn)
         {
+            if (pawn?.Map == null) return false;
             PawnKindDef Queen = XenomorphDefOf.RRY_Xenomorph_Queen;
             return pawn.Map.mapPawns.AllPawnsSpawned.Any(x => x.kindDef == Queen);
         }
     }
     public class ThinkNode_ConditionalQueenAbsent : ThinkNode_Conditional
     {
-        // Token: 0x06000956 RID: 2390 RVA: 0x0004D678 File Offset: 0x0004BA78
         protected override bool Satisfied(Pawn pawn)
         {
+            if (pawn?.Map == null) return true;
             PawnKindDef Queen = XenomorphDefOf.RRY_Xenomorph_Queen;
             return !pawn.Map.mapPawns.AllPawnsSpawned.Any(x => x.kindDef == Queen);
         }
@@ -29,37 +28,41 @@ namespace RimWorld
 
     public class ThinkNode_ConditionalHivePresent : ThinkNode_Conditional
     {
-        // Token: 0x06000956 RID: 2390 RVA: 0x0004D678 File Offset: 0x0004BA78
         protected override bool Satisfied(Pawn pawn)
         {
-            return !XenomorphUtil.ClosestReachableHivelike(pawn).DestroyedOrNull();
+            if (pawn?.Map == null) return false;
+            var hive = XenomorphUtil.ClosestReachableHivelike(pawn);
+            return hive != null && !hive.DestroyedOrNull();
         }
     }
     public class ThinkNode_ConditionalHiveAbsent : ThinkNode_Conditional
     {
-        // Token: 0x06000956 RID: 2390 RVA: 0x0004D678 File Offset: 0x0004BA78
         protected override bool Satisfied(Pawn pawn)
         {
-            return XenomorphUtil.ClosestReachableHivelike(pawn).DestroyedOrNull();
+            if (pawn?.Map == null) return true;
+            var hive = XenomorphUtil.ClosestReachableHivelike(pawn);
+            return hive == null || hive.DestroyedOrNull();
         }
     }
 
     public class ThinkNode_ConditionalNotDefendPoint : ThinkNode_Conditional
     {
-        // Token: 0x06000956 RID: 2390 RVA: 0x0004D678 File Offset: 0x0004BA78
         protected override bool Satisfied(Pawn pawn)
         {
-            return !(pawn.GetLord().LordJob is LordJob_DefendPoint);
+            Lord lord = pawn?.GetLord();
+            if (lord == null) return true;
+            return !(lord.LordJob is LordJob_DefendPoint);
         }
     }
-    
+
     public class ThinkNode_ConditionalDefendPoint : ThinkNode_Conditional
     {
-        // Token: 0x06000956 RID: 2390 RVA: 0x0004D678 File Offset: 0x0004BA78
         protected override bool Satisfied(Pawn pawn)
         {
-            return pawn.GetLord().LordJob is LordJob_DefendPoint;
+            Lord lord = pawn?.GetLord();
+            if (lord == null) return false;
+            return lord.LordJob is LordJob_DefendPoint;
         }
     }
-    
+
 }

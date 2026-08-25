@@ -42,6 +42,7 @@ namespace RimWorld
         protected override bool Satisfied(Pawn pawn)
         {
             Comp_Facehugger _Facehugger = pawn.TryGetComp<Comp_Facehugger>();
+            if (_Facehugger == null) return false;
             return _Facehugger.Impregnations < _Facehugger.maxImpregnations;
         }
 
