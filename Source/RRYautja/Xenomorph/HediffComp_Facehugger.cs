@@ -121,7 +121,7 @@ namespace RRYautja
 
                 Apparel apparel = (Apparel)ThingMaker.MakeThing(maskDef, null);
                 apparel.holdingOwner = null;
-                Pawn.apparel.TryAdd(apparel, false);
+                Pawn.apparel.AddApparel(apparel, false);
                 maskApparel = apparel;
                 AvPDebug.LogOnce("MaskAdd", "[AVP Xenomorphs] Added facehugger mask apparel to " + Pawn.LabelShort);
             }
