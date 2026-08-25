@@ -277,21 +277,10 @@ namespace RRYautja
                 timer2++;
                 if (timer2 >= 600)
                 {
-#if DEBUG
-                //    Log.Message("post impreg checking Severity");
-#endif
-                    if (Rand.Chance(this.parent.Severity))
-                    {
-#if DEBUG
-                    //    Log.Message("removing Facehugger");
-#endif
-                        Pawn.health.hediffSet.hediffs.Remove(this.parent);
-                        this.CompPostPostRemoved();
-
-                    }
-                    timer2 = 0;
-                }
-            }
+                    // Facehugger detaches after post-impregnation
+                    // Use RemoveHediff instead of direct list removal to ensure proper cleanup
+                    Pawn.health.RemoveHediff(this.parent);
+                    return;
         }
 
         public override void Notify_PawnDied(DamageInfo? dinfo, Hediff culprit = null)
