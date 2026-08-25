@@ -20,21 +20,21 @@ Begin MonoManager ReloadAssembly
 <RI> Initialized touch support.
 
 [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
-UnloadTime: 0.569100 ms
+UnloadTime: 0.608000 ms
 Command line arguments: -disable-compute-shaders
 RimWorld 1.6.4871 rev591
 Mod Realistic Humansounds HAR Patch dependency (Mlie.RealisticHumanSounds) needs to have <downloadUrl> and/or <steamWorkshopUrl> specified.
-Fallback handler could not load library D:/SteamLibrary/steamapps/common/RimWorld/RimWorldWin64_Data/MonoBleedingEdge/data-000001F66A9839E0.dll
-Fallback handler could not load library D:/SteamLibrary/steamapps/common/RimWorld/RimWorldWin64_Data/MonoBleedingEdge/data-000001F66AA98170.dll
+Fallback handler could not load library D:/SteamLibrary/steamapps/common/RimWorld/RimWorldWin64_Data/MonoBleedingEdge/data-000001761EA7E0F0.dll
+Fallback handler could not load library D:/SteamLibrary/steamapps/common/RimWorld/RimWorldWin64_Data/MonoBleedingEdge/data-000001761ECE71B0.dll
 [Loading Progress] Loading Progress initialized! Enjoy the rest of your loading experience!
 [HugsLib] version 12.0.0
 [HugsLib] early-initializing AllowTool
-Fallback handler could not load library D:/SteamLibrary/steamapps/common/RimWorld/RimWorldWin64_Data/MonoBleedingEdge/data-000001F66D2617E0.dll
+Fallback handler could not load library D:/SteamLibrary/steamapps/common/RimWorld/RimWorldWin64_Data/MonoBleedingEdge/data-00000176212FBF60.dll
 DubsMintMenus v1.3.1086
 [Analyzer] Loaded version 1.6.0 rev 1
 [Analyzer] ResearchTree
 FPSStabilizer v1.1 loaded, patcher message: Patched successfully, fps set to 60
-Fallback handler could not load library D:/SteamLibrary/steamapps/common/RimWorld/RimWorldWin64_Data/MonoBleedingEdge/data-000001F67146FDA0.dll
+Fallback handler could not load library D:/SteamLibrary/steamapps/common/RimWorld/RimWorldWin64_Data/MonoBleedingEdge/data-000001762557E020.dll
 <color=#66ffb5>[MeleeAnim]</color> Hello, world!
 Build date: 4/13/2026 8:02 AM
 Loaded assemblies (9):
@@ -101,7 +101,7 @@ NamesGalore: Current Lang English
 (Research Tab Colors) Transpiler injected.
 Unloading 5 Unused Serialized files (Serialized files now loaded: 5)
 Unloading 529 unused Assets to reduce memory usage. Loaded Objects now: 34443.
-Total: 279.197400 ms (FindLiveObjects: 1.758900 ms CreateObjectMapping: 2.102100 ms MarkObjects: 274.563900 ms  DeleteObjects: 0.772200 ms)
+Total: 287.315800 ms (FindLiveObjects: 1.825200 ms CreateObjectMapping: 1.087900 ms MarkObjects: 283.633500 ms  DeleteObjects: 0.769100 ms)
 
 MVCF successfully applied 41 patches
 [com.ogliss.rimworld.mod.rryatuja.minepatch] Patches on methods annotated as Obsolete were detected by HugsLib: RimWorld.Mineable.TrySpawnYield
@@ -288,25 +288,25 @@ Transpilers:
 Postfixes:
   [PeteTimesSix.SimpleSidearms] TryCastShot
 Unloading 1 Unused Serialized files (Serialized files now loaded: 7)
-<color=#66ffb5>[MeleeAnim]</color> PreCached all retexture info in 34.2ms
+<color=#66ffb5>[MeleeAnim]</color> PreCached all retexture info in 31.7ms
 <color=#66ffb5>[MeleeAnim]</color> Loaded tweak data for 29 weapons.
 <color=#66ffb5>[MeleeAnim]</color> ludeon.rimworld.odyssey 'Odyssey' has 2 missing weapon tweak data.
 <color=#66ffb5>[MeleeAnim]</color> ogliss.avpxenomorphs 'AVP Xenomorphs' has 3 missing weapon tweak data.
 <color=#66ffb5>[MeleeAnim]</color> Skipping reporting of missing mod/weapons because user opted out or the feature is disabled by the developer.
-<color=#66ffb5>[MeleeAnim]</color> Patched 3 classes that directly inherit from Verb_MeleeAttack in 56.0 ms to detect hits:
+<color=#66ffb5>[MeleeAnim]</color> Patched 3 classes that directly inherit from Verb_MeleeAttack in 57.9 ms to detect hits:
 RimWorld.Verb_MeleeApplyHediff from Assembly-CSharp
 RimWorld.Verb_MeleeAttackDamage from Assembly-CSharp
 RRYautja.Verb_MeleeAttackKnockback from RRYautja
-<color=#66ffb5>[MeleeAnim]</color> Found 0 items of clothing that cover hands, took 0.70 ms:
+<color=#66ffb5>[MeleeAnim]</color> Found 0 items of clothing that cover hands, took 0.69 ms:
 Unloading 55 unused Assets to reduce memory usage. Loaded Objects now: 34607.
-Total: 268.420500 ms (FindLiveObjects: 1.751400 ms CreateObjectMapping: 0.994500 ms MarkObjects: 265.550200 ms  DeleteObjects: 0.124300 ms)
+Total: 271.904400 ms (FindLiveObjects: 1.677800 ms CreateObjectMapping: 1.974100 ms MarkObjects: 268.131400 ms  DeleteObjects: 0.120700 ms)
 
 Unloading 0 Unused Serialized files (Serialized files now loaded: 7)
 Loading asset bundle MuzzleFlash.shaders-windows
 Loaded shader Unlit/AnimatedAdditiveInstanced
 [Muzzle Flash] Shader loaded from MuzzleFlash: Unlit/AnimatedAdditiveInstanced
 Unloading 0 unused Assets to reduce memory usage. Loaded Objects now: 34609.
-Total: 296.186600 ms (FindLiveObjects: 1.698200 ms CreateObjectMapping: 1.965900 ms MarkObjects: 292.459400 ms  DeleteObjects: 0.062600 ms)
+Total: 268.822700 ms (FindLiveObjects: 1.738400 ms CreateObjectMapping: 1.973400 ms MarkObjects: 265.061500 ms  DeleteObjects: 0.048900 ms)
 
 Unloading 0 Unused Serialized files (Serialized files now loaded: 8)
 [Loading Progress] Why is ResearchPal.Profiler.Start from ResearchPal 1.6 - Temp calling DeepProfiler.Start (and by extension our patch) with null?! Stop it.
@@ -317,11 +317,11 @@ Unloading 0 Unused Serialized files (Serialized files now loaded: 8)
 [Loading Progress] Why is ResearchPal.Profiler.Start from ResearchPal 1.6 - Temp calling DeepProfiler.Start (and by extension our patch) with null?! Stop it.
 ResearchPal :: Research layout initialized
 Unloading 0 unused Assets to reduce memory usage. Loaded Objects now: 34609.
-Total: 262.579400 ms (FindLiveObjects: 1.761100 ms CreateObjectMapping: 0.917100 ms MarkObjects: 259.851900 ms  DeleteObjects: 0.048700 ms)
+Total: 268.387600 ms (FindLiveObjects: 1.627700 ms CreateObjectMapping: 2.014000 ms MarkObjects: 264.696400 ms  DeleteObjects: 0.048700 ms)
 
 Unloading 0 Unused Serialized files (Serialized files now loaded: 8)
 Unloading 0 unused Assets to reduce memory usage. Loaded Objects now: 34609.
-Total: 265.462200 ms (FindLiveObjects: 2.260200 ms CreateObjectMapping: 1.829700 ms MarkObjects: 261.317200 ms  DeleteObjects: 0.054800 ms)
+Total: 272.411100 ms (FindLiveObjects: 2.108200 ms CreateObjectMapping: 2.162100 ms MarkObjects: 268.080100 ms  DeleteObjects: 0.060600 ms)
 
 [HugsLib] initializing TerraformRimworld
 CE is trying to create default parameter lists ...
@@ -338,9 +338,9 @@ no modifications for lifestages
 ...done
 Unloading 3 Unused Serialized files (Serialized files now loaded: 8)
 [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
-UnloadTime: 0.868900 ms
+UnloadTime: 1.262100 ms
 Unloading 2 unused Assets to reduce memory usage. Loaded Objects now: 34886.
-Total: 284.813800 ms (FindLiveObjects: 1.599000 ms CreateObjectMapping: 0.896900 ms MarkObjects: 282.252500 ms  DeleteObjects: 0.065000 ms)
+Total: 284.913300 ms (FindLiveObjects: 1.745300 ms CreateObjectMapping: 0.967200 ms MarkObjects: 282.135000 ms  DeleteObjects: 0.065400 ms)
 
 Loading game from file Autosave-3 with mods:
   - brrainz.harmony
@@ -465,19 +465,19 @@ checking editor settings...
 bodysizes genes are active
 [AVP Xenomorphs] Xenomorph hive faction already exists.
 Unloading 1 Unused Serialized files (Serialized files now loaded: 8)
-Unloading 1 unused Assets to reduce memory usage. Loaded Objects now: 43114.
-Total: 341.087600 ms (FindLiveObjects: 2.097200 ms CreateObjectMapping: 1.537500 ms MarkObjects: 337.361400 ms  DeleteObjects: 0.091000 ms)
+Unloading 1 unused Assets to reduce memory usage. Loaded Objects now: 43115.
+Total: 342.390500 ms (FindLiveObjects: 2.309700 ms CreateObjectMapping: 2.258100 ms MarkObjects: 337.726200 ms  DeleteObjects: 0.096100 ms)
 
-Wrote screenshot C:\Users\clint\AppData\LocalLow\Ludeon Studios\RimWorld by Ludeon Studios\RimSaves\Previews\Autosave-3.dat of size 72348
-[AVP Xenomorphs] [AVP Xenomorphs] CompPostPostAdd called for Tabitha (humanlike=True)
-[AVP Xenomorphs] [AVP Xenomorphs] Added facehugger mask apparel to Tabitha
+Wrote screenshot C:\Users\clint\AppData\LocalLow\Ludeon Studios\RimWorld by Ludeon Studios\RimSaves\Previews\Autosave-3.dat of size 72376
+[AVP Xenomorphs] [AVP Xenomorphs] CompPostPostAdd called for Nytro (humanlike=True)
+[AVP Xenomorphs] [AVP Xenomorphs] Added facehugger mask apparel to Nytro
 Exception in RimWorld.ThinkNode_ConditionalFacehuggerFertile TryIssueJobPackage: System.NullReferenceException: Object reference not set to an instance of an object
-[Ref 6C548908]
+[Ref 897BBC6D]
   at Verse.GenClosest.EarlyOutSearch (Verse.IntVec3 start, Verse.Map map, Verse.ThingRequest thingReq, System.Collections.Generic.IEnumerable`1[T] customGlobalSearchSet, System.Predicate`1[T] validator) [0x00015] in <61e4173561894da49d210260257b5097>:0 
   at Verse.GenClosest.ClosestThingReachable (Verse.IntVec3 root, Verse.Map map, Verse.ThingRequest thingReq, Verse.AI.PathEndMode peMode, Verse.TraverseParms traverseParams, System.Single maxDistance, System.Predicate`1[T] validator, System.Collections.Generic.IEnumerable`1[T] customGlobalSearchSet, System.Int32 searchRegionsMin, System.Int32 searchRegionsMax, System.Boolean forceAllowGlobalSearch, Verse.RegionType traversableRegionTypes, System.Boolean ignoreEntirelyForbiddenRegions, System.Boolean lookInHaulSources) [0x0008c] in <61e4173561894da49d210260257b5097>:0 
-  at Verse.AI.XenomorphTargetFinder.BestAttackTarget (Verse.AI.IAttackTargetSearcher searcher, Verse.AI.TargetScanFlags flags, System.Predicate`1[T] validator, System.Single minDist, System.Single maxDist, Verse.IntVec3 locus, System.Single maxTravelRadiusFromLocus, System.Boolean canBash, System.Boolean canTakeTargetsCloserThanEffectiveMinRange) [0x0036e] in <f783e1b0b15f4b218eceaceab538eda6>:0 
-  at RimWorld.JobGiver_FacehuggerHunt.FindPawnTarget (Verse.Pawn pawn) [0x00038] in <f783e1b0b15f4b218eceaceab538eda6>:0 
-  at RimWorld.JobGiver_FacehuggerHunt.TryGiveJob (Verse.Pawn pawn) [0x0001f] in <f783e1b0b15f4b218eceaceab538eda6>:0 
+  at Verse.AI.XenomorphTargetFinder.BestAttackTarget (Verse.AI.IAttackTargetSearcher searcher, Verse.AI.TargetScanFlags flags, System.Predicate`1[T] validator, System.Single minDist, System.Single maxDist, Verse.IntVec3 locus, System.Single maxTravelRadiusFromLocus, System.Boolean canBash, System.Boolean canTakeTargetsCloserThanEffectiveMinRange) [0x0036e] in <763efb2adb604db185976ab4c3933a75>:0 
+  at RimWorld.JobGiver_FacehuggerHunt.FindPawnTarget (Verse.Pawn pawn) [0x00038] in <763efb2adb604db185976ab4c3933a75>:0 
+  at RimWorld.JobGiver_FacehuggerHunt.TryGiveJob (Verse.Pawn pawn) [0x0001f] in <763efb2adb604db185976ab4c3933a75>:0 
   at Verse.AI.ThinkNode_JobGiver.TryIssueJobPackage (Verse.Pawn pawn, Verse.AI.JobIssueParams jobParams) [0x00000] in <61e4173561894da49d210260257b5097>:0 
   at Verse.AI.ThinkNode_Priority.TryIssueJobPackage (Verse.Pawn pawn, Verse.AI.JobIssueParams jobParams) [0x00022] in <61e4173561894da49d210260257b5097>:0 
 Exception in Verse.AI.ThinkNode_Tagger TryIssueJobPackage: System.NullReferenceException: Object reference not set to an instance of an object
@@ -489,7 +489,7 @@ Exception in Verse.AI.ThinkNode_Tagger TryIssueJobPackage: System.NullReferenceE
   at Verse.AI.JobGiver_Wander.TryGiveJob (Verse.Pawn pawn) [0x00061] in <61e4173561894da49d210260257b5097>:0 
   at Verse.AI.ThinkNode_JobGiver.TryIssueJobPackage (Verse.Pawn pawn, Verse.AI.JobIssueParams jobParams) [0x00000] in <61e4173561894da49d210260257b5097>:0 
   at Verse.AI.ThinkNode_Priority.TryIssueJobPackage (Verse.Pawn pawn, Verse.AI.JobIssueParams jobParams) [0x00022] in <61e4173561894da49d210260257b5097>:0 
-JobDriver threw exception in toil MakeNewToils's initAction for pawn RRY_Xenomorph_FaceHugger89624 driver=JobDriver_Wait (toilIndex=0) driver.job=(Wait_Wander (Job_85876) Giver = JobGiver_WanderAnywhere [workGiverDef: null])
+JobDriver threw exception in toil MakeNewToils's initAction for pawn RRY_Xenomorph_FaceHugger89596 driver=JobDriver_Wait (toilIndex=0) driver.job=(Wait_Wander (Job_84728) Giver = JobGiver_WanderAnywhere [workGiverDef: null])
 System.NullReferenceException: Object reference not set to an instance of an object
 [Ref 2BEE724E]
   at Verse.AI.JobDriver_Wait.CheckForAutoAttack () [0x0012f] in <61e4173561894da49d210260257b5097>:0 
@@ -498,58 +498,201 @@ System.NullReferenceException: Object reference not set to an instance of an obj
     - POSTFIX UnlimitedHugs.AllowTool: Void AllowTool.Patches.JobDriverWait_CheckForAutoAttack_Patch:DoPartyHunting(JobDriver_Wait __instance)
   at Verse.AI.JobDriver_Wait.<MakeNewToils>b__3_0 () [0x0003d] in <61e4173561894da49d210260257b5097>:0 
   at Verse.AI.JobDriver.TryActuallyStartNextToil () [0x001b0] in <61e4173561894da49d210260257b5097>:0 
-JobDriver threw exception in toil MakeNewToils's initAction for pawn RRY_Xenomorph_FaceHugger89624 driver=JobDriver_Wait (toilIndex=0) driver.job=(Wait (Job_85877))
+JobDriver threw exception in toil MakeNewToils's initAction for pawn RRY_Xenomorph_FaceHugger89596 driver=JobDriver_Wait (toilIndex=0) driver.job=(Wait (Job_84729))
 System.NullReferenceException: Object reference not set to an instance of an object
 [Ref 2BEE724E] Duplicate stacktrace, see ref for original
-An error occurred while starting an error recover job. We have to stop now to avoid infinite loops. This means that the pawn is now jobless which can cause further bugs. pawn=RRY_Xenomorph_FaceHugger89624
-Exception in RimWorld.ThinkNode_ConditionalFacehuggerFertile TryIssueJobPackage: System.NullReferenceException: Object reference not set to an instance of an object
-[Ref 6C548908] Duplicate stacktrace, see ref for original
-JobDriver threw exception in toil MakeNewToils's initAction for pawn RRY_Xenomorph_FaceHugger89568 driver=JobDriver_Wait (toilIndex=0) driver.job=(Wait_Wander (Job_86334) Giver = JobGiver_WanderAnywhere [workGiverDef: null])
-System.NullReferenceException: Object reference not set to an instance of an object
-[Ref 2BEE724E] Duplicate stacktrace, see ref for original
-JobDriver threw exception in toil MakeNewToils's initAction for pawn RRY_Xenomorph_FaceHugger89568 driver=JobDriver_Wait (toilIndex=0) driver.job=(Wait (Job_86335))
-System.NullReferenceException: Object reference not set to an instance of an object
-[Ref 2BEE724E] Duplicate stacktrace, see ref for original
-An error occurred while starting an error recover job. We have to stop now to avoid infinite loops. This means that the pawn is now jobless which can cause further bugs. pawn=RRY_Xenomorph_FaceHugger89568
-[AVP Xenomorphs] [Kidnap] Drone targeting Napoleon (1/3 drones) (tick 185463)
+An error occurred while starting an error recover job. We have to stop now to avoid infinite loops. This means that the pawn is now jobless which can cause further bugs. pawn=RRY_Xenomorph_FaceHugger89596
 queen can reach eggsite
 queen can reach eggsite
 Exception in RimWorld.ThinkNode_ConditionalFacehuggerFertile TryIssueJobPackage: System.NullReferenceException: Object reference not set to an instance of an object
-[Ref 6C548908] Duplicate stacktrace, see ref for original
+[Ref 897BBC6D] Duplicate stacktrace, see ref for original
 Exception in Verse.AI.ThinkNode_Tagger TryIssueJobPackage: System.NullReferenceException: Object reference not set to an instance of an object
 [Ref B3A85BBC] Duplicate stacktrace, see ref for original
-JobDriver threw exception in toil MakeNewToils's initAction for pawn RRY_Xenomorph_FaceHugger89765 driver=JobDriver_Wait (toilIndex=0) driver.job=(Wait_Wander (Job_88114) Giver = JobGiver_WanderAnywhere [workGiverDef: null])
+JobDriver threw exception in toil MakeNewToils's initAction for pawn RRY_Xenomorph_FaceHugger89584 driver=JobDriver_Wait (toilIndex=0) driver.job=(Wait_Wander (Job_88138) Giver = JobGiver_WanderAnywhere [workGiverDef: null])
 System.NullReferenceException: Object reference not set to an instance of an object
 [Ref 2BEE724E] Duplicate stacktrace, see ref for original
-JobDriver threw exception in toil MakeNewToils's initAction for pawn RRY_Xenomorph_FaceHugger89765 driver=JobDriver_Wait (toilIndex=0) driver.job=(Wait (Job_88115))
+JobDriver threw exception in toil MakeNewToils's initAction for pawn RRY_Xenomorph_FaceHugger89584 driver=JobDriver_Wait (toilIndex=0) driver.job=(Wait (Job_88139))
 System.NullReferenceException: Object reference not set to an instance of an object
 [Ref 2BEE724E] Duplicate stacktrace, see ref for original
-An error occurred while starting an error recover job. We have to stop now to avoid infinite loops. This means that the pawn is now jobless which can cause further bugs. pawn=RRY_Xenomorph_FaceHugger89765
+An error occurred while starting an error recover job. We have to stop now to avoid infinite loops. This means that the pawn is now jobless which can cause further bugs. pawn=RRY_Xenomorph_FaceHugger89584
 Exception in RimWorld.ThinkNode_ConditionalFacehuggerFertile TryIssueJobPackage: System.NullReferenceException: Object reference not set to an instance of an object
-[Ref 6C548908] Duplicate stacktrace, see ref for original
+[Ref 897BBC6D] Duplicate stacktrace, see ref for original
 Exception in Verse.AI.ThinkNode_Tagger TryIssueJobPackage: System.NullReferenceException: Object reference not set to an instance of an object
 [Ref B3A85BBC] Duplicate stacktrace, see ref for original
-JobDriver threw exception in toil MakeNewToils's initAction for pawn RRY_Xenomorph_FaceHugger89773 driver=JobDriver_Wait (toilIndex=0) driver.job=(Wait_Wander (Job_88932) Giver = JobGiver_WanderAnywhere [workGiverDef: null])
+JobDriver threw exception in toil MakeNewToils's initAction for pawn RRY_Xenomorph_FaceHugger89896 driver=JobDriver_Wait (toilIndex=0) driver.job=(Wait_Wander (Job_88866) Giver = JobGiver_WanderAnywhere [workGiverDef: null])
 System.NullReferenceException: Object reference not set to an instance of an object
 [Ref 2BEE724E] Duplicate stacktrace, see ref for original
-JobDriver threw exception in toil MakeNewToils's initAction for pawn RRY_Xenomorph_FaceHugger89773 driver=JobDriver_Wait (toilIndex=0) driver.job=(Wait (Job_88933))
+JobDriver threw exception in toil MakeNewToils's initAction for pawn RRY_Xenomorph_FaceHugger89896 driver=JobDriver_Wait (toilIndex=0) driver.job=(Wait (Job_88867))
 System.NullReferenceException: Object reference not set to an instance of an object
 [Ref 2BEE724E] Duplicate stacktrace, see ref for original
-An error occurred while starting an error recover job. We have to stop now to avoid infinite loops. This means that the pawn is now jobless which can cause further bugs. pawn=RRY_Xenomorph_FaceHugger89773
+An error occurred while starting an error recover job. We have to stop now to avoid infinite loops. This means that the pawn is now jobless which can cause further bugs. pawn=RRY_Xenomorph_FaceHugger89896
+Exception in RimWorld.ThinkNode_ConditionalFacehuggerFertile TryIssueJobPackage: System.NullReferenceException: Object reference not set to an instance of an object
+[Ref 897BBC6D] Duplicate stacktrace, see ref for original
+Exception in Verse.AI.ThinkNode_Tagger TryIssueJobPackage: System.NullReferenceException: Object reference not set to an instance of an object
+[Ref B3A85BBC] Duplicate stacktrace, see ref for original
+JobDriver threw exception in toil MakeNewToils's initAction for pawn RRY_Xenomorph_FaceHugger89651 driver=JobDriver_Wait (toilIndex=0) driver.job=(Wait_Wander (Job_89272) Giver = JobGiver_WanderAnywhere [workGiverDef: null])
+System.NullReferenceException: Object reference not set to an instance of an object
+[Ref 2BEE724E] Duplicate stacktrace, see ref for original
+JobDriver threw exception in toil MakeNewToils's initAction for pawn RRY_Xenomorph_FaceHugger89651 driver=JobDriver_Wait (toilIndex=0) driver.job=(Wait (Job_89273))
+System.NullReferenceException: Object reference not set to an instance of an object
+[Ref 2BEE724E] Duplicate stacktrace, see ref for original
+An error occurred while starting an error recover job. We have to stop now to avoid infinite loops. This means that the pawn is now jobless which can cause further bugs. pawn=RRY_Xenomorph_FaceHugger89651
+Exception in RimWorld.ThinkNode_ConditionalFacehuggerFertile TryIssueJobPackage: System.NullReferenceException: Object reference not set to an instance of an object
+[Ref 897BBC6D] Duplicate stacktrace, see ref for original
+JobDriver threw exception in toil MakeNewToils's initAction for pawn RRY_Xenomorph_FaceHugger89692 driver=JobDriver_Wait (toilIndex=0) driver.job=(Wait_Wander (Job_91241) Giver = JobGiver_WanderAnywhere [workGiverDef: null])
+System.NullReferenceException: Object reference not set to an instance of an object
+[Ref 2BEE724E] Duplicate stacktrace, see ref for original
+JobDriver threw exception in toil MakeNewToils's initAction for pawn RRY_Xenomorph_FaceHugger89692 driver=JobDriver_Wait (toilIndex=0) driver.job=(Wait (Job_91242))
+System.NullReferenceException: Object reference not set to an instance of an object
+[Ref 2BEE724E] Duplicate stacktrace, see ref for original
+An error occurred while starting an error recover job. We have to stop now to avoid infinite loops. This means that the pawn is now jobless which can cause further bugs. pawn=RRY_Xenomorph_FaceHugger89692
 queen can reach eggsite
 queen can reach eggsite
 queen can reach eggsite
 queen can reach eggsite
+Error while determining if Mechanent90354 should have Need Chemical_Alcohol: System.NullReferenceException: Object reference not set to an instance of an object
+[Ref 7FBF863E]
+  at RimWorld.LifeStageWorker_HumanlikeAdult.Notify_LifeStageStarted (Verse.Pawn pawn, RimWorld.LifeStageDef previousLifeStage) [0x00050] in <61e4173561894da49d210260257b5097>:0 
+    - TRANSPILER rimworld.erdelf.alien_race.main: IEnumerable`1 AlienRace.HarmonyPatches:AdultLifeStageStartedTranspiler(IEnumerable`1 instructions)
+    - POSTFIX rimworld.erdelf.alien_race.main: Void AlienRace.HarmonyPatches:AdultLifeStageStartedPostfix(Pawn pawn)
+  at Verse.Pawn_AgeTracker.RecalculateLifeStageIndex () [0x00167] in <61e4173561894da49d210260257b5097>:0 
+    - TRANSPILER rimworld.erdelf.alien_race.main: IEnumerable`1 AlienRace.HarmonyPatches:RecalculateLifeStageIndexTranspiler(IEnumerable`1 instructions)
+    - POSTFIX com.ogliss.rimworld.mod.rryatuja: Void RRYautja.AvP_Pawn_AgeTracker_RecalculateLifeStageIndex_Xenomorph_Patch:Post_RecalculateLifeStageIndex(Pawn_AgeTracker __instance)
+    - POSTFIX rimworld.mod.charactereditor: Void CharacterEditor.CEditor:OnRecalcIndex(Pawn_AgeTracker __instance)
+  at Verse.Pawn_AgeTracker.get_CurLifeStageIndex () [0x00009] in <61e4173561894da49d210260257b5097>:0 
+  at Verse.Pawn_AgeTracker.get_CurLifeStageRace () [0x00000] in <61e4173561894da49d210260257b5097>:0 
+  at Verse.Pawn_AgeTracker.get_CurLifeStage () [0x00000] in <61e4173561894da49d210260257b5097>:0 
+  at Verse.Pawn.get_DevelopmentalStage () [0x00012] in <61e4173561894da49d210260257b5097>:0 
+  at RimWorld.Pawn_NeedsTracker.ShouldHaveNeed (RimWorld.NeedDef nd) [0x0004d] in <61e4173561894da49d210260257b5097>:0 
+    - PREFIX vexedtrees.RimRobots: Boolean VexedThings.HarmonyPatches.ShouldHaveNeed_HarmonyPatch:Prefix(NeedDef nd, Pawn ___pawn)
+  at RimWorld.Pawn_NeedsTracker.AddOrRemoveNeedsAsAppropriate () [0x0001b] in <61e4173561894da49d210260257b5097>:0 
+    - PREFIX OskarPotocki.VEF: Void VEF.AestheticScaling.VanillaExpandedFramework_Pawn_NeedsTracker_AddOrRemoveNeedsAsAppropriate_Patch:Prefix()
+    - POSTFIX OskarPotocki.VEF: Void VEF.AestheticScaling.VanillaExpandedFramework_Pawn_NeedsTracker_AddOrRemoveNeedsAsAppropriate_Patch:Postfix()
+Error while determining if Mechanent90357 should have Need Chemical_Alcohol: System.NullReferenceException: Object reference not set to an instance of an object
+[Ref 7FBF863E] Duplicate stacktrace, see ref for original
 queen can reach eggsite
 queen can reach eggsite
+<color=#66ffb5>[MeleeAnim]</color> Failed: failed to spawn flyer.
 [AVP Xenomorphs] [AVP Xenomorphs] Removed facehugger mask apparel from Nytro
+Error while killing RRY_Xenomorph_Drone50007 during phase 2: System.NullReferenceException: Object reference not set to an instance of an object
+[Ref D57B65F5]
+  at RRYautja.AvP_RecordsUtility_Notify_PawnKilled_Patch.IncrementPostfix (Verse.Pawn killed, Verse.Pawn killer) [0x0002e] in <763efb2adb604db185976ab4c3933a75>:0 
+  at RimWorld.RecordsUtility.Notify_PawnKilled (Verse.Pawn killed, Verse.Pawn killer) [0x000a9] in <61e4173561894da49d210260257b5097>:0 
+    - POSTFIX com.ogliss.rimworld.mod.rryatuja: Void RRYautja.AvP_RecordsUtility_Notify_PawnKilled_Patch:IncrementPostfix(Pawn killed, Pawn killer)
+  at Verse.Pawn.DoKillSideEffects (System.Nullable`1[T] dinfo, Verse.Hediff exactCulprit, System.Boolean spawned) [0x00120] in <61e4173561894da49d210260257b5097>:0 
+  at Verse.Pawn.Kill (System.Nullable`1[T] dinfo, Verse.Hediff exactCulprit) [0x00214] in <61e4173561894da49d210260257b5097>:0 
+    - PREFIX OskarPotocki.VEF: Void VEF.Storyteller.VanillaExpandedFramework_Pawn_Kill_Patch:Prefix(Pawn __instance, Nullable`1 dinfo, Hediff exactCulprit)
+    - PREFIX OskarPotocki.VEF: Boolean VEF.Apparels.VanillaExpandedFramework_Pawn_Kill_Patch:Prefix(Pawn __instance, List`1& __state)
+    - POSTFIX UnlimitedHugs.AllowTool: Void AllowTool.Patches.Pawn_Kill_Patch:UnforbidDraftedHuntBody(Pawn __instance, Nullable`1 dinfo)
+    - POSTFIX OskarPotocki.VEF: Void VEF.Pawns.VanillaExpandedFramework_Pawn_Kill:Postfix(Pawn __instance)
+    - POSTFIX OskarPotocki.VEF: Void VEF.Apparels.VanillaExpandedFramework_Pawn_Kill_Patch:Postfix(Pawn __instance, List`1 __state)
+    - POSTFIX VFEEmpire.Mod: Void VFEEmpire.HarmonyPatches.ColonistTitleCache+OnPawn:Postfix(Pawn __instance)
+    - POSTFIX vanillaexpanded.factions.deserters: Void VFED.HarmonyPatches.MiscPatches:ExplodePackOnDeath(Pawn __instance)
+Error while killing RRY_Xenomorph_Drone50007 during phase 2: System.NullReferenceException: Object reference not set to an instance of an object
+[Ref D57B65F5] Duplicate stacktrace, see ref for original
+Error while killing RRY_Xenomorph_Drone50017 during phase 2: System.NullReferenceException: Object reference not set to an instance of an object
+[Ref D57B65F5] Duplicate stacktrace, see ref for original
+Error while killing RRY_Xenomorph_Drone50017 during phase 2: System.NullReferenceException: Object reference not set to an instance of an object
+[Ref D57B65F5] Duplicate stacktrace, see ref for original
+Error while killing RRY_Xenomorph_Drone50017 during phase 2: System.NullReferenceException: Object reference not set to an instance of an object
+[Ref D57B65F5] Duplicate stacktrace, see ref for original
+Error while killing RRY_Xenomorph_Drone50017 during phase 2: System.NullReferenceException: Object reference not set to an instance of an object
+[Ref D57B65F5] Duplicate stacktrace, see ref for original
+Error while killing RRY_Xenomorph_Drone50017 during phase 2: System.NullReferenceException: Object reference not set to an instance of an object
+[Ref D57B65F5] Duplicate stacktrace, see ref for original
 queen can reach eggsite
 queen can reach eggsite
+queen can reach eggsite
+queen can reach eggsite
+Brittany started 10 jobs in one tick. newJob=RemoveApparel (Job_110147) A = Thing_RRY_FacehuggerMask89826 jobGiver=RimWorld.JobGiver_OptimizeApparel jobList=
+[AVP Xenomorphs] [Spawn] Chestburster spawned: Drone faction=a Xenomorph hive (tick 224051)
+Error while killing Nytro during phase 6: System.NullReferenceException: Object reference not set to an instance of an object
+[Ref 40083A80]
+  at Verse.ThingMaker.MakeThing (Verse.ThingDef def, Verse.ThingDef stuff) [0x0005b] in <61e4173561894da49d210260257b5097>:0 
+  at RimWorld.MoteMaker.ThrowExplosionCell (Verse.IntVec3 cell, Verse.Map map, Verse.ThingDef moteDef, UnityEngine.Color color) [0x0000b] in <61e4173561894da49d210260257b5097>:0 
+  at RRYautja.HediffComp_XenoSpawner.Notify_PawnDied (System.Nullable`1[T] dinfo, Verse.Hediff culprit) [0x00308] in <763efb2adb604db185976ab4c3933a75>:0 
+  at Verse.HediffWithComps.Notify_PawnDied (System.Nullable`1[T] dinfo, Verse.Hediff culprit) [0x00024] in <61e4173561894da49d210260257b5097>:0 
+  at RRYautja.XenoHediffWithComps.Notify_PawnDied (System.Nullable`1[T] dinfo, Verse.Hediff culprit) [0x00000] in <763efb2adb604db185976ab4c3933a75>:0 
+  at Verse.HediffSet.Notify_PawnDied (System.Nullable`1[T] dinfo, Verse.Hediff culprit) [0x0001c] in <61e4173561894da49d210260257b5097>:0 
+  at Verse.Pawn.Kill (System.Nullable`1[T] dinfo, Verse.Hediff exactCulprit) [0x0064c] in <61e4173561894da49d210260257b5097>:0 
+    - PREFIX OskarPotocki.VEF: Void VEF.Storyteller.VanillaExpandedFramework_Pawn_Kill_Patch:Prefix(Pawn __instance, Nullable`1 dinfo, Hediff exactCulprit)
+    - PREFIX OskarPotocki.VEF: Boolean VEF.Apparels.VanillaExpandedFramework_Pawn_Kill_Patch:Prefix(Pawn __instance, List`1& __state)
+    - POSTFIX UnlimitedHugs.AllowTool: Void AllowTool.Patches.Pawn_Kill_Patch:UnforbidDraftedHuntBody(Pawn __instance, Nullable`1 dinfo)
+    - POSTFIX OskarPotocki.VEF: Void VEF.Pawns.VanillaExpandedFramework_Pawn_Kill:Postfix(Pawn __instance)
+    - POSTFIX OskarPotocki.VEF: Void VEF.Apparels.VanillaExpandedFramework_Pawn_Kill_Patch:Postfix(Pawn __instance, List`1 __state)
+    - POSTFIX VFEEmpire.Mod: Void VFEEmpire.HarmonyPatches.ColonistTitleCache+OnPawn:Postfix(Pawn __instance)
+    - POSTFIX vanillaexpanded.factions.deserters: Void VFED.HarmonyPatches.MiscPatches:ExplodePackOnDeath(Pawn __instance)
+Brittany started 10 jobs in one tick. newJob=RemoveApparel (Job_110185) A = Thing_RRY_FacehuggerMask89826 jobGiver=RimWorld.JobGiver_OptimizeApparel jobList=
+Brittany started 10 jobs in one tick. newJob=RemoveApparel (Job_110230) A = Thing_RRY_FacehuggerMask89826 jobGiver=RimWorld.JobGiver_OptimizeApparel jobList=
+Brittany started 10 jobs in one tick. newJob=RemoveApparel (Job_110267) A = Thing_RRY_FacehuggerMask89826 jobGiver=RimWorld.JobGiver_OptimizeApparel jobList=
+Brittany started 10 jobs in one tick. newJob=RemoveApparel (Job_110306) A = Thing_RRY_FacehuggerMask89826 jobGiver=RimWorld.JobGiver_OptimizeApparel jobList=
+Brittany started 10 jobs in one tick. newJob=RemoveApparel (Job_110347) A = Thing_RRY_FacehuggerMask89826 jobGiver=RimWorld.JobGiver_OptimizeApparel jobList=
+Brittany started 10 jobs in one tick. newJob=RemoveApparel (Job_110395) A = Thing_RRY_FacehuggerMask89826 jobGiver=RimWorld.JobGiver_OptimizeApparel jobList=
+Brittany started 10 jobs in one tick. newJob=RemoveApparel (Job_110438) A = Thing_RRY_FacehuggerMask89826 jobGiver=RimWorld.JobGiver_OptimizeApparel jobList=
+queen can reach eggsite
+Brittany started 10 jobs in one tick. newJob=RemoveApparel (Job_110475) A = Thing_RRY_FacehuggerMask89826 jobGiver=RimWorld.JobGiver_OptimizeApparel jobList=
+Brittany started 10 jobs in one tick. newJob=RemoveApparel (Job_110513) A = Thing_RRY_FacehuggerMask89826 jobGiver=RimWorld.JobGiver_OptimizeApparel jobList=
+Jackal started 10 jobs in one tick. newJob=RemoveApparel (Job_110538) A = Thing_RRY_FacehuggerMask89943 jobGiver=RimWorld.JobGiver_OptimizeApparel jobList=
+Brittany started 10 jobs in one tick. newJob=RemoveApparel (Job_110570) A = Thing_RRY_FacehuggerMask89826 jobGiver=RimWorld.JobGiver_OptimizeApparel jobList=
+Jackal started 10 jobs in one tick. newJob=RemoveApparel (Job_110589) A = Thing_RRY_FacehuggerMask89943 jobGiver=RimWorld.JobGiver_OptimizeApparel jobList=
+Tabitha started 10 jobs in one tick. newJob=RemoveApparel (Job_110617) A = Thing_RRY_FacehuggerMask89998 jobGiver=RimWorld.JobGiver_OptimizeApparel jobList=
+Brittany started 10 jobs in one tick. newJob=RemoveApparel (Job_110636) A = Thing_RRY_FacehuggerMask89826 jobGiver=RimWorld.JobGiver_OptimizeApparel jobList=
+Jackal started 10 jobs in one tick. newJob=RemoveApparel (Job_110651) A = Thing_RRY_FacehuggerMask89943 jobGiver=RimWorld.JobGiver_OptimizeApparel jobList=
+Tabitha started 10 jobs in one tick. newJob=RemoveApparel (Job_110666) A = Thing_RRY_FacehuggerMask89998 jobGiver=RimWorld.JobGiver_OptimizeApparel jobList=
+Brittany started 10 jobs in one tick. newJob=RemoveApparel (Job_110697) A = Thing_RRY_FacehuggerMask89826 jobGiver=RimWorld.JobGiver_OptimizeApparel jobList=
+queen can reach eggsite
+Jackal started 10 jobs in one tick. newJob=RemoveApparel (Job_110715) A = Thing_RRY_FacehuggerMask89943 jobGiver=RimWorld.JobGiver_OptimizeApparel jobList=
+Tabitha started 10 jobs in one tick. newJob=RemoveApparel (Job_110729) A = Thing_RRY_FacehuggerMask89998 jobGiver=RimWorld.JobGiver_OptimizeApparel jobList=
+Brittany started 10 jobs in one tick. newJob=RemoveApparel (Job_110755) A = Thing_RRY_FacehuggerMask89826 jobGiver=RimWorld.JobGiver_OptimizeApparel jobList=
+Jackal started 10 jobs in one tick. newJob=RemoveApparel (Job_110772) A = Thing_RRY_FacehuggerMask89943 jobGiver=RimWorld.JobGiver_OptimizeApparel jobList=
+Tabitha started 10 jobs in one tick. newJob=RemoveApparel (Job_110789) A = Thing_RRY_FacehuggerMask89998 jobGiver=RimWorld.JobGiver_OptimizeApparel jobList=
+Brittany started 10 jobs in one tick. newJob=RemoveApparel (Job_110818) A = Thing_RRY_FacehuggerMask89826 jobGiver=RimWorld.JobGiver_OptimizeApparel jobList=
+Jackal started 10 jobs in one tick. newJob=RemoveApparel (Job_110833) A = Thing_RRY_FacehuggerMask89943 jobGiver=RimWorld.JobGiver_OptimizeApparel jobList=
+Tabitha started 10 jobs in one tick. newJob=RemoveApparel (Job_110852) A = Thing_RRY_FacehuggerMask89998 jobGiver=RimWorld.JobGiver_OptimizeApparel jobList=
+Brittany started 10 jobs in one tick. newJob=RemoveApparel (Job_110875) A = Thing_RRY_FacehuggerMask89826 jobGiver=RimWorld.JobGiver_OptimizeApparel jobList=
+Jackal started 10 jobs in one tick. newJob=RemoveApparel (Job_110890) A = Thing_RRY_FacehuggerMask89943 jobGiver=RimWorld.JobGiver_OptimizeApparel jobList=
+Tabitha started 10 jobs in one tick. newJob=RemoveApparel (Job_110911) A = Thing_RRY_FacehuggerMask89998 jobGiver=RimWorld.JobGiver_OptimizeApparel jobList=
+Brittany started 10 jobs in one tick. newJob=RemoveApparel (Job_110941) A = Thing_RRY_FacehuggerMask89826 jobGiver=RimWorld.JobGiver_OptimizeApparel jobList=
+Jackal started 10 jobs in one tick. newJob=RemoveApparel (Job_110955) A = Thing_RRY_FacehuggerMask89943 jobGiver=RimWorld.JobGiver_OptimizeApparel jobList=
+Tabitha started 10 jobs in one tick. newJob=RemoveApparel (Job_110970) A = Thing_RRY_FacehuggerMask89998 jobGiver=RimWorld.JobGiver_OptimizeApparel jobList=
+Brittany started 10 jobs in one tick. newJob=RemoveApparel (Job_111000) A = Thing_RRY_FacehuggerMask89826 jobGiver=RimWorld.JobGiver_OptimizeApparel jobList=
+Jackal started 10 jobs in one tick. newJob=RemoveApparel (Job_111019) A = Thing_RRY_FacehuggerMask89943 jobGiver=RimWorld.JobGiver_OptimizeApparel jobList=
+Tabitha started 10 jobs in one tick. newJob=RemoveApparel (Job_111034) A = Thing_RRY_FacehuggerMask89998 jobGiver=RimWorld.JobGiver_OptimizeApparel jobList=
+Brittany started 10 jobs in one tick. newJob=RemoveApparel (Job_111056) A = Thing_RRY_FacehuggerMask89826 jobGiver=RimWorld.JobGiver_OptimizeApparel jobList=
+Jackal started 10 jobs in one tick. newJob=RemoveApparel (Job_111073) A = Thing_RRY_FacehuggerMask89943 jobGiver=RimWorld.JobGiver_OptimizeApparel jobList=
+Tabitha started 10 jobs in one tick. newJob=RemoveApparel (Job_111096) A = Thing_RRY_FacehuggerMask89998 jobGiver=RimWorld.JobGiver_OptimizeApparel jobList=
+Brittany started 10 jobs in one tick. newJob=RemoveApparel (Job_111125) A = Thing_RRY_FacehuggerMask89826 jobGiver=RimWorld.JobGiver_OptimizeApparel jobList=
+Jackal started 10 jobs in one tick. newJob=RemoveApparel (Job_111138) A = Thing_RRY_FacehuggerMask89943 jobGiver=RimWorld.JobGiver_OptimizeApparel jobList=
+Tabitha started 10 jobs in one tick. newJob=RemoveApparel (Job_111152) A = Thing_RRY_FacehuggerMask89998 jobGiver=RimWorld.JobGiver_OptimizeApparel jobList=
+Brittany started 10 jobs in one tick. newJob=RemoveApparel (Job_111182) A = Thing_RRY_FacehuggerMask89826 jobGiver=RimWorld.JobGiver_OptimizeApparel jobList=
+Jackal started 10 jobs in one tick. newJob=RemoveApparel (Job_111195) A = Thing_RRY_FacehuggerMask89943 jobGiver=RimWorld.JobGiver_OptimizeApparel jobList=
+Tabitha started 10 jobs in one tick. newJob=RemoveApparel (Job_111214) A = Thing_RRY_FacehuggerMask89998 jobGiver=RimWorld.JobGiver_OptimizeApparel jobList=
+Jackal started 10 jobs in one tick. newJob=RemoveApparel (Job_111238) A = Thing_RRY_FacehuggerMask89943 jobGiver=RimWorld.JobGiver_OptimizeApparel jobList=
+Tabitha started 10 jobs in one tick. newJob=RemoveApparel (Job_111251) A = Thing_RRY_FacehuggerMask89998 jobGiver=RimWorld.JobGiver_OptimizeApparel jobList=
+Jackal started 10 jobs in one tick. newJob=RemoveApparel (Job_111276) A = Thing_RRY_FacehuggerMask89943 jobGiver=RimWorld.JobGiver_OptimizeApparel jobList=
+Tabitha started 10 jobs in one tick. newJob=RemoveApparel (Job_111289) A = Thing_RRY_FacehuggerMask89998 jobGiver=RimWorld.JobGiver_OptimizeApparel jobList=
+[AVP Xenomorphs] [Spawn] Chestburster spawned: Drone faction=a Xenomorph hive (tick 230682)
+Error while killing Brittany during phase 6: System.NullReferenceException: Object reference not set to an instance of an object
+[Ref 40083A80] Duplicate stacktrace, see ref for original
+Tabitha started 10 jobs in one tick. newJob=RemoveApparel (Job_111321) A = Thing_RRY_FacehuggerMask89998 jobGiver=RimWorld.JobGiver_OptimizeApparel jobList=
+Jackal started 10 jobs in one tick. newJob=RemoveApparel (Job_111335) A = Thing_RRY_FacehuggerMask89943 jobGiver=RimWorld.JobGiver_OptimizeApparel jobList=
+Tabitha started 10 jobs in one tick. newJob=RemoveApparel (Job_111369) A = Thing_RRY_FacehuggerMask89998 jobGiver=RimWorld.JobGiver_OptimizeApparel jobList=
+Jackal started 10 jobs in one tick. newJob=RemoveApparel (Job_111383) A = Thing_RRY_FacehuggerMask89943 jobGiver=RimWorld.JobGiver_OptimizeApparel jobList=
+Tabitha started 10 jobs in one tick. newJob=RemoveApparel (Job_111420) A = Thing_RRY_FacehuggerMask89998 jobGiver=RimWorld.JobGiver_OptimizeApparel jobList=
+Tabitha started 10 jobs in one tick. newJob=RemoveApparel (Job_111453) A = Thing_RRY_FacehuggerMask89998 jobGiver=RimWorld.JobGiver_OptimizeApparel jobList=
+Tabitha started 10 jobs in one tick. newJob=RemoveApparel (Job_111482) A = Thing_RRY_FacehuggerMask89998 jobGiver=RimWorld.JobGiver_OptimizeApparel jobList=
+[AVP Xenomorphs] [Spawn] Chestburster spawned: Warrior faction=a Xenomorph hive (tick 232875)
+Error while killing Jackal during phase 6: System.NullReferenceException: Object reference not set to an instance of an object
+[Ref 40083A80] Duplicate stacktrace, see ref for original
+queen can reach eggsite
+[AVP Xenomorphs] [Spawn] Chestburster spawned: Warrior faction=a Xenomorph hive (tick 234019)
+Error while killing Napoleon during phase 6: System.NullReferenceException: Object reference not set to an instance of an object
+[Ref 40083A80] Duplicate stacktrace, see ref for original
 Memory Statistics:
 [ALLOC_TEMP_TLS] TLS Allocator
   StackAllocators : 
     [ALLOC_TEMP_MAIN]
-      Peak usage frame count: [0-1.0 KB]: 1574 frames, [1.0 KB-2.0 KB]: 12 frames, [2.0 KB-4.0 KB]: 19116 frames, [4.0 KB-8.0 KB]: 308 frames, [8.0 KB-16.0 KB]: 83 frames, [16.0 KB-32.0 KB]: 4 frames, [32.0 KB-64.0 KB]: 6 frames, [64.0 KB-128.0 KB]: 6 frames, [128.0 KB-256.0 KB]: 6 frames, [256.0 KB-0.5 MB]: 5 frames, [0.5 MB-1.0 MB]: 2 frames, [1.0 MB-2.0 MB]: 7 frames, [2.0 MB-4.0 MB]: 3 frames, [4.0 MB-8.0 MB]: 14 frames
+      Peak usage frame count: [0-1.0 KB]: 1405 frames, [1.0 KB-2.0 KB]: 16 frames, [2.0 KB-4.0 KB]: 26250 frames, [4.0 KB-8.0 KB]: 383 frames, [8.0 KB-16.0 KB]: 79 frames, [16.0 KB-32.0 KB]: 8 frames, [32.0 KB-64.0 KB]: 6 frames, [64.0 KB-128.0 KB]: 9 frames, [128.0 KB-256.0 KB]: 5 frames, [256.0 KB-0.5 MB]: 2 frames, [0.5 MB-1.0 MB]: 2 frames, [1.0 MB-2.0 MB]: 7 frames, [2.0 MB-4.0 MB]: 3 frames, [4.0 MB-8.0 MB]: 14 frames
       Initial Block Size 4.0 MB
       Current Block Size 5.3 MB
       Peak Allocated Bytes 5.3 MB
@@ -577,7 +720,7 @@ Memory Statistics:
     [ALLOC_TEMP_Job.Worker 0]
       Initial Block Size 256.0 KB
       Current Block Size 256.0 KB
-      Peak Allocated Bytes 176 B
+      Peak Allocated Bytes 160 B
       Overflow Count 0
     [ALLOC_TEMP_Background Job.Worker 10]
       Initial Block Size 32.0 KB
@@ -617,7 +760,7 @@ Memory Statistics:
     [ALLOC_TEMP_Job.Worker 3]
       Initial Block Size 256.0 KB
       Current Block Size 256.0 KB
-      Peak Allocated Bytes 176 B
+      Peak Allocated Bytes 144 B
       Overflow Count 0
     [ALLOC_TEMP_Background Job.Worker 12]
       Initial Block Size 32.0 KB
@@ -682,7 +825,7 @@ Memory Statistics:
     [ALLOC_TEMP_Job.Worker 7]
       Initial Block Size 256.0 KB
       Current Block Size 256.0 KB
-      Peak Allocated Bytes 160 B
+      Peak Allocated Bytes 176 B
       Overflow Count 0
     [ALLOC_TEMP_Job.Worker 1]
       Initial Block Size 256.0 KB
@@ -692,7 +835,7 @@ Memory Statistics:
     [ALLOC_TEMP_Job.Worker 2]
       Initial Block Size 256.0 KB
       Current Block Size 256.0 KB
-      Peak Allocated Bytes 202 B
+      Peak Allocated Bytes 480 B
       Overflow Count 0
     [ALLOC_TEMP_Background Job.Worker 3]
       Initial Block Size 32.0 KB
@@ -725,31 +868,31 @@ Memory Statistics:
       Peak Allocated Bytes 54 B
       Overflow Count 0
 [ALLOC_DEFAULT] Dual Thread Allocator
-  Peak main deferred allocation count 43423
+  Peak main deferred allocation count 43410
     [ALLOC_BUCKET]
       Large Block size 4.0 MB
       Used Block count 1
       Peak Allocated bytes 4.0 MB
       Failed Allocations. Bucket layout:
-        16B: 5 Subsections = 5120 buckets. Failed count: 176885
-        32B: 34 Subsections = 17408 buckets. Failed count: 222036
-        48B: 49 Subsections = 16725 buckets. Failed count: 143813
-        64B: 40 Subsections = 10240 buckets. Failed count: 63511
-        80B: 85 Subsections = 17408 buckets. Failed count: 155537
-        96B: 27 Subsections = 4608 buckets. Failed count: 47392
-        112B: 10 Subsections = 1462 buckets. Failed count: 25546
-        128B: 6 Subsections = 768 buckets. Failed count: 15299
+        16B: 5 Subsections = 5120 buckets. Failed count: 175280
+        32B: 34 Subsections = 17408 buckets. Failed count: 228686
+        48B: 49 Subsections = 16725 buckets. Failed count: 152883
+        64B: 40 Subsections = 10240 buckets. Failed count: 73371
+        80B: 85 Subsections = 17408 buckets. Failed count: 140089
+        96B: 27 Subsections = 4608 buckets. Failed count: 48149
+        112B: 10 Subsections = 1462 buckets. Failed count: 40577
+        128B: 6 Subsections = 768 buckets. Failed count: 15101
     [ALLOC_DEFAULT_MAIN]
-      Peak usage frame count: [16.0 MB-32.0 MB]: 822 frames, [32.0 MB-64.0 MB]: 14 frames, [64.0 MB-128.0 MB]: 33 frames, [128.0 MB-256.0 MB]: 1251 frames, [256.0 MB-0.50 GB]: 19026 frames
+      Peak usage frame count: [16.0 MB-32.0 MB]: 804 frames, [32.0 MB-64.0 MB]: 11 frames, [64.0 MB-128.0 MB]: 32 frames, [128.0 MB-256.0 MB]: 1056 frames, [256.0 MB-0.50 GB]: 26286 frames
       Requested Block Size 16.0 MB
-      Peak Block count 17
-      Peak Allocated memory 289.9 MB
+      Peak Block count 18
+      Peak Allocated memory 295.4 MB
       Peak Large allocation bytes 63.2 MB
     [ALLOC_DEFAULT_THREAD]
-      Peak usage frame count: [8.0 MB-16.0 MB]: 1934 frames, [16.0 MB-32.0 MB]: 2 frames, [32.0 MB-64.0 MB]: 19 frames, [64.0 MB-128.0 MB]: 19191 frames
+      Peak usage frame count: [8.0 MB-16.0 MB]: 1697 frames, [16.0 MB-32.0 MB]: 2 frames, [32.0 MB-64.0 MB]: 18 frames, [64.0 MB-128.0 MB]: 13065 frames, [128.0 MB-256.0 MB]: 13407 frames
       Requested Block Size 16.0 MB
       Peak Block count 7
-      Peak Allocated memory 126.7 MB
+      Peak Allocated memory 131.4 MB
       Peak Large allocation bytes 33.8 MB
 [ALLOC_TEMP_JOB_1_FRAME]
   Initial Block Size 2.0 MB
@@ -778,25 +921,25 @@ Memory Statistics:
       Used Block count 1
       Peak Allocated bytes 4.0 MB
       Failed Allocations. Bucket layout:
-        16B: 5 Subsections = 5120 buckets. Failed count: 176885
-        32B: 34 Subsections = 17408 buckets. Failed count: 222036
-        48B: 49 Subsections = 16725 buckets. Failed count: 143813
-        64B: 40 Subsections = 10240 buckets. Failed count: 63511
-        80B: 85 Subsections = 17408 buckets. Failed count: 155537
-        96B: 27 Subsections = 4608 buckets. Failed count: 47392
-        112B: 10 Subsections = 1462 buckets. Failed count: 25546
-        128B: 6 Subsections = 768 buckets. Failed count: 15299
+        16B: 5 Subsections = 5120 buckets. Failed count: 175280
+        32B: 34 Subsections = 17408 buckets. Failed count: 228686
+        48B: 49 Subsections = 16725 buckets. Failed count: 152883
+        64B: 40 Subsections = 10240 buckets. Failed count: 73371
+        80B: 85 Subsections = 17408 buckets. Failed count: 140089
+        96B: 27 Subsections = 4608 buckets. Failed count: 48149
+        112B: 10 Subsections = 1462 buckets. Failed count: 40577
+        128B: 6 Subsections = 768 buckets. Failed count: 15101
     [ALLOC_GFX_MAIN]
-      Peak usage frame count: [128.0 KB-256.0 KB]: 1 frames, [2.0 MB-4.0 MB]: 863 frames, [4.0 MB-8.0 MB]: 709 frames, [8.0 MB-16.0 MB]: 531 frames, [16.0 MB-32.0 MB]: 2 frames, [32.0 MB-64.0 MB]: 1 frames, [64.0 MB-128.0 MB]: 19038 frames, [0.50 GB-1.00 GB]: 1 frames
+      Peak usage frame count: [128.0 KB-256.0 KB]: 1 frames, [2.0 MB-4.0 MB]: 841 frames, [4.0 MB-8.0 MB]: 537 frames, [8.0 MB-16.0 MB]: 504 frames, [16.0 MB-32.0 MB]: 2 frames, [32.0 MB-64.0 MB]: 1 frames, [64.0 MB-128.0 MB]: 26302 frames, [0.50 GB-1.00 GB]: 1 frames
       Requested Block Size 16.0 MB
       Peak Block count 6
       Peak Allocated memory 0.81 GB
       Peak Large allocation bytes 0.75 GB
     [ALLOC_GFX_THREAD]
-      Peak usage frame count: [0-1.0 KB]: 897 frames, [1.0 KB-2.0 KB]: 110 frames, [2.0 KB-4.0 KB]: 2 frames, [4.0 KB-8.0 KB]: 513 frames, [8.0 KB-16.0 KB]: 601 frames, [16.0 KB-32.0 KB]: 180 frames, [32.0 KB-64.0 KB]: 18843 frames
+      Peak usage frame count: [0-1.0 KB]: 874 frames, [1.0 KB-2.0 KB]: 144 frames, [2.0 KB-4.0 KB]: 2 frames, [4.0 KB-8.0 KB]: 486 frames, [8.0 KB-16.0 KB]: 398 frames, [16.0 KB-32.0 KB]: 66 frames, [32.0 KB-64.0 KB]: 10694 frames, [64.0 KB-128.0 KB]: 1025 frames, [128.0 KB-256.0 KB]: 2039 frames, [256.0 KB-0.5 MB]: 4089 frames, [0.5 MB-1.0 MB]: 8372 frames
       Requested Block Size 16.0 MB
       Peak Block count 1
-      Peak Allocated memory 46.9 KB
+      Peak Allocated memory 0.5 MB
       Peak Large allocation bytes 0 B
 [ALLOC_CACHEOBJECTS] Dual Thread Allocator
   Peak main deferred allocation count 101
@@ -805,22 +948,22 @@ Memory Statistics:
       Used Block count 1
       Peak Allocated bytes 4.0 MB
       Failed Allocations. Bucket layout:
-        16B: 5 Subsections = 5120 buckets. Failed count: 176885
-        32B: 34 Subsections = 17408 buckets. Failed count: 222036
-        48B: 49 Subsections = 16725 buckets. Failed count: 143813
-        64B: 40 Subsections = 10240 buckets. Failed count: 63511
-        80B: 85 Subsections = 17408 buckets. Failed count: 155537
-        96B: 27 Subsections = 4608 buckets. Failed count: 47392
-        112B: 10 Subsections = 1462 buckets. Failed count: 25546
-        128B: 6 Subsections = 768 buckets. Failed count: 15299
+        16B: 5 Subsections = 5120 buckets. Failed count: 175280
+        32B: 34 Subsections = 17408 buckets. Failed count: 228686
+        48B: 49 Subsections = 16725 buckets. Failed count: 152883
+        64B: 40 Subsections = 10240 buckets. Failed count: 73371
+        80B: 85 Subsections = 17408 buckets. Failed count: 140089
+        96B: 27 Subsections = 4608 buckets. Failed count: 48149
+        112B: 10 Subsections = 1462 buckets. Failed count: 40577
+        128B: 6 Subsections = 768 buckets. Failed count: 15101
     [ALLOC_CACHEOBJECTS_MAIN]
-      Peak usage frame count: [4.0 MB-8.0 MB]: 1 frames, [8.0 MB-16.0 MB]: 872 frames, [16.0 MB-32.0 MB]: 20273 frames
+      Peak usage frame count: [4.0 MB-8.0 MB]: 1 frames, [8.0 MB-16.0 MB]: 850 frames, [16.0 MB-32.0 MB]: 27338 frames
       Requested Block Size 4.0 MB
       Peak Block count 5
       Peak Allocated memory 18.0 MB
       Peak Large allocation bytes 0 B
     [ALLOC_CACHEOBJECTS_THREAD]
-      Peak usage frame count: [4.0 KB-8.0 KB]: 1823 frames, [32.0 KB-64.0 KB]: 1 frames, [64.0 KB-128.0 KB]: 19297 frames, [128.0 KB-256.0 KB]: 4 frames, [256.0 KB-0.5 MB]: 20 frames, [0.5 MB-1.0 MB]: 1 frames
+      Peak usage frame count: [4.0 KB-8.0 KB]: 1583 frames, [32.0 KB-64.0 KB]: 1 frames, [64.0 KB-128.0 KB]: 26581 frames, [128.0 KB-256.0 KB]: 3 frames, [256.0 KB-0.5 MB]: 20 frames, [0.5 MB-1.0 MB]: 1 frames
       Requested Block Size 4.0 MB
       Peak Block count 1
       Peak Allocated memory 0.6 MB
@@ -832,22 +975,22 @@ Memory Statistics:
       Used Block count 1
       Peak Allocated bytes 4.0 MB
       Failed Allocations. Bucket layout:
-        16B: 5 Subsections = 5120 buckets. Failed count: 176885
-        32B: 34 Subsections = 17408 buckets. Failed count: 222036
-        48B: 49 Subsections = 16725 buckets. Failed count: 143813
-        64B: 40 Subsections = 10240 buckets. Failed count: 63511
-        80B: 85 Subsections = 17408 buckets. Failed count: 155537
-        96B: 27 Subsections = 4608 buckets. Failed count: 47392
-        112B: 10 Subsections = 1462 buckets. Failed count: 25546
-        128B: 6 Subsections = 768 buckets. Failed count: 15299
+        16B: 5 Subsections = 5120 buckets. Failed count: 175280
+        32B: 34 Subsections = 17408 buckets. Failed count: 228686
+        48B: 49 Subsections = 16725 buckets. Failed count: 152883
+        64B: 40 Subsections = 10240 buckets. Failed count: 73371
+        80B: 85 Subsections = 17408 buckets. Failed count: 140089
+        96B: 27 Subsections = 4608 buckets. Failed count: 48149
+        112B: 10 Subsections = 1462 buckets. Failed count: 40577
+        128B: 6 Subsections = 768 buckets. Failed count: 15101
     [ALLOC_TYPETREE_MAIN]
-      Peak usage frame count: [4.0 KB-8.0 KB]: 1 frames, [8.0 KB-16.0 KB]: 822 frames, [32.0 KB-64.0 KB]: 77 frames, [256.0 KB-0.5 MB]: 20246 frames
+      Peak usage frame count: [4.0 KB-8.0 KB]: 1 frames, [8.0 KB-16.0 KB]: 803 frames, [32.0 KB-64.0 KB]: 76 frames, [256.0 KB-0.5 MB]: 27309 frames
       Requested Block Size 2.0 MB
       Peak Block count 1
       Peak Allocated memory 442.6 KB
       Peak Large allocation bytes 0 B
     [ALLOC_TYPETREE_THREAD]
-      Peak usage frame count: [0-1.0 KB]: 21146 frames
+      Peak usage frame count: [0-1.0 KB]: 28189 frames
       Requested Block Size 2.0 MB
       Peak Block count 0
       Peak Allocated memory 0 B
