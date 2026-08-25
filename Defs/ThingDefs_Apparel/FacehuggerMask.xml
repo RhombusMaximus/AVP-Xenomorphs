@@ -33,9 +33,6 @@
       <defaultOutfitTags>
         <li>Worker</li>
       </defaultOutfitTags>
-      <wornGraphicData>
-        <wornGraphicPath>Things/Pawn/Xenomorph/Xenomorph_FaceHugger_Mask</wornGraphicPath>
-      </wornGraphicData>
     </apparel>
   </ThingDef>
 
@@ -43,6 +40,9 @@
     <defName>RRY_FacehuggerMask</defName>
     <label>Facehugger</label>
     <description>A facehugger attached to a host's face.</description>
+    <apparel>
+      <wornGraphicPath>Things/Pawn/Xenomorph/Xenomorph_FaceHugger_Mask</wornGraphicPath>
+    </apparel>
   </ThingDef>
 
   <ThingDef ParentName="RRY_FacehuggerMaskBase">
@@ -50,18 +50,7 @@
     <label>Royal Facehugger</label>
     <description>A royal facehugger attached to a host's face.</description>
     <apparel>
-      <bodyPartGroups>
-        <li>FullHead</li>
-      </bodyPartGroups>
-      <layers>
-        <li>Overhead</li>
-      </layers>
-      <defaultOutfitTags>
-        <li>Worker</li>
-      </defaultOutfitTags>
-      <wornGraphicData>
-        <wornGraphicPath>Things/Pawn/Xenomorph/Xenomorph_FaceHuggerRoyal_Mask</wornGraphicPath>
-      </wornGraphicData>
+      <wornGraphicPath>Things/Pawn/Xenomorph/Xenomorph_FaceHuggerRoyal_Mask</wornGraphicPath>
     </apparel>
   </ThingDef>
 
