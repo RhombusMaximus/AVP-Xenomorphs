@@ -8,7 +8,771 @@ Direct3D:
     Version:  Direct3D 11.0 [level 11.1]
     Renderer: NVIDIA GeForce RTX 3050 (ID=0x2507)
     Vendor:   NVIDIA
+    VRAM:     8042 MBMono path[0] = 'D:/SteamLibrary/steamapps/common/RimWorld/RimWorldWin64_Data/Managed'
+Mono config path = 'D:/SteamLibrary/steamapps/common/RimWorld/MonoBleedingEdge/etc'
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+Initialize engine version: 2022.3.35f1 (011206c7a712)
+[Subsystems] Discovering subsystems at path D:/SteamLibrary/steamapps/common/RimWorld/RimWorldWin64_Data/UnitySubsystems
+GfxDevice: creating device client; threaded=1; jobified=0
+Direct3D:
+    Version:  Direct3D 11.0 [level 11.1]
+    Renderer: NVIDIA GeForce RTX 3050 (ID=0x2507)
+    Vendor:   NVIDIA
     VRAM:     8042 MB
+    Driver:   32.0.16.1088
+Begin MonoManager ReloadAssembly
+- Loaded All Assemblies, in  0.151 seconds
+- Finished resetting the current domain, in  0.001 seconds
+<RI> Initializing input.
+
+<RI> Input initialized.
+
+<RI> Initialized touch support.
+
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+UnloadTime: 0.687700 ms
+Command line arguments: -disable-compute-shaders
+RimWorld 1.6.4871 rev591
+Mod Realistic Humansounds HAR Patch dependency (Mlie.RealisticHumanSounds) needs to have <downloadUrl> and/or <steamWorkshopUrl> specified.
+Fallback handler could not load library D:/SteamLibrary/steamapps/common/RimWorld/RimWorldWin64_Data/MonoBleedingEdge/data-0000018BE644A6B0.dll
+Fallback handler could not load library D:/SteamLibrary/steamapps/common/RimWorld/RimWorldWin64_Data/MonoBleedingEdge/data-0000018BE678A360.dll
+[Loading Progress] Loading Progress initialized! Enjoy the rest of your loading experience!
+[HugsLib] version 12.0.0
+[HugsLib] early-initializing AllowTool
+Fallback handler could not load library D:/SteamLibrary/steamapps/common/RimWorld/RimWorldWin64_Data/MonoBleedingEdge/data-0000018BB508C030.dll
+DubsMintMenus v1.3.1086
+[Analyzer] Loaded version 1.6.0 rev 1
+[Analyzer] ResearchTree
+FPSStabilizer v1.1 loaded, patcher message: Patched successfully, fps set to 60
+Fallback handler could not load library D:/SteamLibrary/steamapps/common/RimWorld/RimWorldWin64_Data/MonoBleedingEdge/data-0000018BED1FD120.dll
+<color=#66ffb5>[MeleeAnim]</color> Hello, world!
+Build date: 4/13/2026 8:02 AM
+Loaded assemblies (9):
+0BetterFloatMenu, Version=16.0.0.0, Culture=neutral, PublicKeyToken=null,
+0ColourPicker, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null,
+AMRetextureSupport, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null,
+Meta.Numerics, Version=3.1.0.0, Culture=neutral, PublicKeyToken=67d25c65a6631347,
+ModRequestAPI, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null,
+ModRequestAPI.Models, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null,
+Unity.Newtonsoft.Json, Version=7.0.0.0, Culture=neutral, PublicKeyToken=null,
+zAnimationMod, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null,
+AM.AlienRacesPatch, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null
+<color=#66ffb5>[MeleeAnim]</color> Scanning 81 mods for animation data...
+<color=#66ffb5>[MeleeAnim]</color> Found 1 mod folders with animation data, total 69 loadable files.
+<color=#66ffb5>[MeleeAnim]</color> <color=#ffa8fc>[Alien Races Patch]</color> Loaded alien races patch!
+RimSaves NX rev27
+[SafePatcher]The xPath: "Defs/ThingDef[defName="Gun_NestMMG"]" not found
+[SafePatcher]The xPath: "Defs/ThingDef[defName="Gun_NestMissile"]" not found
+Could not resolve cross-reference: No RimWorld.StatDef named SellPriceMultiplier found to give to RimWorld.StatModifier (null stat)
+Could not resolve cross-reference: No RimWorld.StatDef named SellPriceMultiplier found to give to RimWorld.StatModifier (null stat)
+Tried to load duplicate UnityEngine.Texture2D with path: FilesystemFile [D:\SteamLibrary\steamapps\common\RimWorld\Mods\AVP-Xenomorphs\Textures\Things\Addons\Blood_Marks\Xenomorph_Kills\Mark_Thrumbomorphkill_south.psd], Length 28603 and internal path: Things/Addons/Blood_Marks/Xenomorph_Kills/Mark_Thrumbomorphkill_south
+Texture TribalA has dimensions of 64 x 64, but its mask has 128 x 128. This is not supported, texture will be excluded from atlas
+Could not execute post-long-event action. Exception: System.NullReferenceException: Object reference not set to an instance of an object
+[Ref 282A3C73]
+  at Verse.ThingDef.<PostLoad>b__398_0 () [0x00046] in <61e4173561894da49d210260257b5097>:0 
+  at ilyvion.LoadingProgress.LongEventHandler_ExecuteToExecuteWhenFinished_Patches+<ExecuteToExecuteWhenFinished>d__3.MoveNext () [0x00590] in /home/runner/work/loading-progress/loading-progress/Source/ilyvion.LoadingProgress/LongEventHandler_ExecuteToExecuteWhenFinished_Patches.cs:263 
+Could not execute post-long-event action. Exception: System.NullReferenceException: Object reference not set to an instance of an object
+[Ref 282A3C73] Duplicate stacktrace, see ref for original
+Translation data for language English has 4 errors. Generate translation report for more info.
+[AVP Xenomorphs] [AVP Xenomorphs] Patched Mineable.TrySpawnYield
+[AVP Xenomorphs] [AVP Xenomorphs] Facehugger mask graphic loaded: Things/Pawn/Xenomorph/Xenomorph_FaceHugger_Mask
+Xenomorph Host System Loaded
+158 Possible Hosts out of 335 Races detected: Race Setting init
+[CleaningAreaRelaunched] Loaded
+Alien race successfully completed 280 patches (50 pre, 82 post, 148 trans) with harmony.
+Damage Indicators initialized.
+KCSG has Created 7615 symbolDefs for vanilla and DLCs
+Locks: Doors expanded found
+Locks: SoS2 not found 
+Locks version: 3.1.2 loaded.
+[TrueTerrainColors v1.12.26] Loaded cached true colors for 765 terrain defs from file.
+Mines 2.0 -> RecipeDef named MinesAutomated_RecipeDef_MineableSteel added to the mine.
+Mines 2.0 -> RecipeDef named MinesAutomated_RecipeDef_MineableComponentsIndustrial added to the mine.
+Mines 2.0 -> RecipeDef named MinesAutomated_RecipeDef_MineableUranium added to the mine.
+Mines 2.0 -> RecipeDef named MinesAutomated_RecipeDef_MineableSilver added to the mine.
+Mines 2.0 -> RecipeDef named MinesAutomated_RecipeDef_MineableGold added to the mine.
+Mines 2.0 -> RecipeDef named MinesAutomated_RecipeDef_MineableJade added to the mine.
+Mines 2.0 -> RecipeDef named MinesAutomated_RecipeDef_MineablePlasteel added to the mine.
+Mines 2.0 -> RecipeDef named MinesAutomated_RecipeDef_MineableObsidian added to the mine.
+Mines 2.0 -> RecipeDef named MinesAutomated_RecipeDef_Sandstone added to the mine.
+Mines 2.0 -> RecipeDef named MinesAutomated_RecipeDef_Marble added to the mine.
+Mines 2.0 -> RecipeDef named MinesAutomated_RecipeDef_Slate added to the mine.
+Mines 2.0 -> RecipeDef named MinesAutomated_RecipeDef_Vacstone added to the mine.
+Mines 2.0 -> RecipeDef named MinesAutomated_RecipeDef_Limestone added to the mine.
+Mines 2.0 -> RecipeDef named MinesAutomated_RecipeDef_Granite added to the mine.
+NamesGalore: Injecting Names
+Chinese
+NamesGalore: Current Lang English
+[Quality Of Building] patching
+(Research Tab Colors) Transpiler injected.
+Unloading 5 Unused Serialized files (Serialized files now loaded: 5)
+Unloading 529 unused Assets to reduce memory usage. Loaded Objects now: 34067.
+Total: 268.270000 ms (FindLiveObjects: 1.803800 ms CreateObjectMapping: 2.002400 ms MarkObjects: 263.663900 ms  DeleteObjects: 0.799600 ms)
+
+MVCF successfully applied 41 patches
+[com.ogliss.rimworld.mod.rryatuja.minepatch] Patches on methods annotated as Obsolete were detected by HugsLib: RimWorld.Mineable.TrySpawnYield
+CharacterEditor v1.6.3 initializing...
+updating labels for english...
+loading pawn slot content from file...
+character editor instance created
+checking editor settings...
+bodysizes genes are active
+CharacterEditor v1.6.3 ...done
+CameraPlus: Found mod at D:\SteamLibrary\steamapps\workshop\content\294100\867467808
+Shader 'Camera+/Bordered': fallback shader 'Diffuse' not found
+<color=#66ffb5>[MeleeAnim]</color> Potential patch conflicts (13):
+<color=#66ffb5>[MeleeAnim]</color> 
+System.Void Verse.PawnRenderer::RenderPawnAt(UnityEngine.Vector3 drawLoc, System.Nullable`1<Verse.Rot4> rotOverride, System.Boolean neverAimWeapon)
+Prefixes:
+  [net.pardeike.rimworld.mod.camera+] Prefix
+  [com.otters.rimworld.mod.Tents] Prefix
+  [co.uk.epicguru.meleeanimation] Prefix
+Transpilers:
+Postfixes:
+  [co.uk.epicguru.meleeanimation] Postfix
+
+static System.Void Verse.PawnRenderUtility::DrawEquipmentAiming(Verse.Thing eq, UnityEngine.Vector3 drawLoc, System.Single aimAngle)
+Prefixes:
+  [OskarPotocki.VEF] Prefix
+  [OskarPotocki.VEF] Prefix
+  [OskarPotocki.VEF] DrawEquipmentAimingPrefix
+  [co.uk.epicguru.meleeanimation] Prefix
+Transpilers:
+Postfixes:
+  [Vodka.MuzzleFlash] Postfix
+
+Verse.PreRenderResults Verse.PawnRenderer::ParallelGetPreRenderResults(UnityEngine.Vector3 drawLoc, System.Nullable`1<Verse.Rot4> rotOverride, System.Boolean neverAimWeapon, System.Boolean disableCache)
+Prefixes:
+  [OskarPotocki.VEF] Prefix
+  [GiddyUp] Prefix
+Transpilers:
+  [rimworld.erdelf.alien_race.main] PostureTranspiler
+Postfixes:
+  [co.uk.epicguru.meleeanimation] Postfix
+
+System.Boolean Verse.HediffSet::get_HasHead()
+Prefixes:
+  [co.uk.epicguru.meleeanimation] Prefix
+  [rimworld.erdelf.alien_race.main] HasHeadPrefix
+Transpilers:
+Postfixes:
+
+static System.Void Verse.PawnGenerator::GenerateGearFor(Verse.Pawn pawn, Verse.PawnGenerationRequest request)
+Prefixes:
+Transpilers:
+Postfixes:
+  [co.uk.epicguru.meleeanimation] Postfix
+  [PeteTimesSix.SimpleSidearms] GenerateGearFor
+  [rimworld.erdelf.alien_race.main] GenerateGearForPostfix
+
+virtual System.Boolean RimWorld.Verb_MeleeAttack::TryCastShot()
+Prefixes:
+  [co.uk.epicguru.meleeanimation] Prefix
+Transpilers:
+Postfixes:
+  [PeteTimesSix.SimpleSidearms] TryCastShot
+<color=#66ffb5>[MeleeAnim]</color> Full patch list:
+<color=#66ffb5>[MeleeAnim]</color> 
+System.Void Verse.PawnRenderer::RenderPawnAt(UnityEngine.Vector3 drawLoc, System.Nullable`1<Verse.Rot4> rotOverride, System.Boolean neverAimWeapon)
+Prefixes:
+  [net.pardeike.rimworld.mod.camera+] Prefix
+  [com.otters.rimworld.mod.Tents] Prefix
+  [co.uk.epicguru.meleeanimation] Prefix
+Transpilers:
+Postfixes:
+  [co.uk.epicguru.meleeanimation] Postfix
+
+static System.Void Verse.PawnRenderUtility::DrawEquipmentAiming(Verse.Thing eq, UnityEngine.Vector3 drawLoc, System.Single aimAngle)
+Prefixes:
+  [OskarPotocki.VEF] Prefix
+  [OskarPotocki.VEF] Prefix
+  [OskarPotocki.VEF] DrawEquipmentAimingPrefix
+  [co.uk.epicguru.meleeanimation] Prefix
+Transpilers:
+Postfixes:
+  [Vodka.MuzzleFlash] Postfix
+
+Verse.PreRenderResults Verse.PawnRenderer::ParallelGetPreRenderResults(UnityEngine.Vector3 drawLoc, System.Nullable`1<Verse.Rot4> rotOverride, System.Boolean neverAimWeapon, System.Boolean disableCache)
+Prefixes:
+  [OskarPotocki.VEF] Prefix
+  [GiddyUp] Prefix
+Transpilers:
+  [rimworld.erdelf.alien_race.main] PostureTranspiler
+Postfixes:
+  [co.uk.epicguru.meleeanimation] Postfix
+
+System.Void RimWorld.Building_ProximityDetector::RunDetection()
+Prefixes:
+  [co.uk.epicguru.meleeanimation] Prefix
+Transpilers:
+Postfixes:
+  [co.uk.epicguru.meleeanimation] Postfix
+
+static System.Collections.Generic.List`1<Verse.FloatMenuOption> RimWorld.FloatMenuMakerMap::GetOptions(System.Collections.Generic.List`1<Verse.Pawn> selectedPawns, UnityEngine.Vector3 clickPos, RimWorld.FloatMenuContext& context)
+Prefixes:
+Transpilers:
+Postfixes:
+  [co.uk.epicguru.meleeanimation] Postfix
+
+System.Boolean Verse.HediffSet::get_HasHead()
+Prefixes:
+  [co.uk.epicguru.meleeanimation] Prefix
+  [rimworld.erdelf.alien_race.main] HasHeadPrefix
+Transpilers:
+Postfixes:
+
+static System.Boolean RimWorld.InvisibilityUtility::IsPsychologicallyInvisible(Verse.Pawn pawn)
+Prefixes:
+  [co.uk.epicguru.meleeanimation] Prefix
+Transpilers:
+Postfixes:
+
+static System.Void Verse.PawnGenerator::GenerateGearFor(Verse.Pawn pawn, Verse.PawnGenerationRequest request)
+Prefixes:
+Transpilers:
+Postfixes:
+  [co.uk.epicguru.meleeanimation] Postfix
+  [PeteTimesSix.SimpleSidearms] GenerateGearFor
+  [rimworld.erdelf.alien_race.main] GenerateGearForPostfix
+
+System.Void Verse.PawnRenderer::DrawShadowInternal(UnityEngine.Vector3 drawLoc)
+Prefixes:
+  [co.uk.epicguru.meleeanimation] Prefix
+Transpilers:
+Postfixes:
+
+System.Void Verse.PawnRenderer::ParallelPreRenderPawnAt(UnityEngine.Vector3 drawLoc, System.Nullable`1<Verse.Rot4> rotOverride, System.Boolean neverAimWeapon)
+Prefixes:
+  [co.uk.epicguru.meleeanimation] Prefix
+Transpilers:
+Postfixes:
+
+System.Void Verse.PawnRenderTree::ParallelPreDraw(Verse.PawnDrawParms parms)
+Prefixes:
+  [co.uk.epicguru.meleeanimation] Prefix
+Transpilers:
+Postfixes:
+  [co.uk.epicguru.meleeanimation] Postfix
+
+static Verse.Pawn RimWorld.PawnUtility::PawnBlockingPathAt(Verse.IntVec3 c, Verse.Pawn forPawn, System.Boolean actAsIfHadCollideWithPawnsJob, System.Boolean collideOnlyWithStandingPawns, System.Boolean forPathFinder, System.Boolean useId)
+Prefixes:
+  [co.uk.epicguru.meleeanimation] Prefix
+  [co.uk.epicguru.meleeanimation] Prefix
+Transpilers:
+Postfixes:
+
+System.Void RimWorld.Pawn_ApparelTracker::Notify_ApparelChanged()
+Prefixes:
+  [co.uk.epicguru.meleeanimation] Prefix
+Transpilers:
+Postfixes:
+
+virtual System.Void Verse.Pawn::DrawGUIOverlay()
+Prefixes:
+  [co.uk.epicguru.meleeanimation] Prefix
+Transpilers:
+Postfixes:
+
+System.Void Verse.Pawn_DrawTracker::Notify_MeleeAttackOn(Verse.Thing Target)
+Prefixes:
+  [co.uk.epicguru.meleeanimation] Prefix
+Transpilers:
+Postfixes:
+
+Verse.BattleLogEntry_MeleeCombat RimWorld.Verb_MeleeAttack::CreateCombatLog(System.Func`2<Verse.ManeuverDef, Verse.RulePackDef> rulePackGetter, System.Boolean alwaysShow)
+Prefixes:
+  [co.uk.epicguru.meleeanimation] Prefix
+Transpilers:
+Postfixes:
+
+virtual System.Boolean RimWorld.Verb_MeleeAttack::TryCastShot()
+Prefixes:
+  [co.uk.epicguru.meleeanimation] Prefix
+Transpilers:
+Postfixes:
+  [PeteTimesSix.SimpleSidearms] TryCastShot
+Unloading 2 Unused Serialized files (Serialized files now loaded: 7)
+<color=#66ffb5>[MeleeAnim]</color> PreCached all retexture info in 28.3ms
+<color=#66ffb5>[MeleeAnim]</color> Loaded tweak data for 29 weapons.
+<color=#66ffb5>[MeleeAnim]</color> ludeon.rimworld.odyssey 'Odyssey' has 2 missing weapon tweak data.
+<color=#66ffb5>[MeleeAnim]</color> ogliss.avpxenomorphs 'AVP Xenomorphs' has 3 missing weapon tweak data.
+<color=#66ffb5>[MeleeAnim]</color> Skipping reporting of missing mod/weapons because user opted out or the feature is disabled by the developer.
+<color=#66ffb5>[MeleeAnim]</color> Patched 3 classes that directly inherit from Verb_MeleeAttack in 57.1 ms to detect hits:
+RimWorld.Verb_MeleeApplyHediff from Assembly-CSharp
+RimWorld.Verb_MeleeAttackDamage from Assembly-CSharp
+RRYautja.Verb_MeleeAttackKnockback from RRYautja
+<color=#66ffb5>[MeleeAnim]</color> Found 0 items of clothing that cover hands, took 0.66 ms:
+Unloading 55 unused Assets to reduce memory usage. Loaded Objects now: 34230.
+Total: 260.549400 ms (FindLiveObjects: 1.641400 ms CreateObjectMapping: 0.910600 ms MarkObjects: 257.882700 ms  DeleteObjects: 0.114300 ms)
+
+Unloading 0 Unused Serialized files (Serialized files now loaded: 7)
+Loading asset bundle MuzzleFlash.shaders-windows
+Loaded shader Unlit/AnimatedAdditiveInstanced
+[Muzzle Flash] Shader loaded from MuzzleFlash: Unlit/AnimatedAdditiveInstanced
+Unloading 0 unused Assets to reduce memory usage. Loaded Objects now: 34232.
+Total: 254.789000 ms (FindLiveObjects: 1.861200 ms CreateObjectMapping: 2.028100 ms MarkObjects: 250.847500 ms  DeleteObjects: 0.051900 ms)
+
+Unloading 0 Unused Serialized files (Serialized files now loaded: 8)
+[Loading Progress] Why is ResearchPal.Profiler.Start from ResearchPal 1.6 - Temp calling DeepProfiler.Start (and by extension our patch) with null?! Stop it.
+[Loading Progress] Why is ResearchPal.Profiler.Start from ResearchPal 1.6 - Temp calling DeepProfiler.Start (and by extension our patch) with null?! Stop it.
+[Loading Progress] Why is ResearchPal.Profiler.Start from ResearchPal 1.6 - Temp calling DeepProfiler.Start (and by extension our patch) with null?! Stop it.
+[Loading Progress] Why is ResearchPal.Profiler.Start from ResearchPal 1.6 - Temp calling DeepProfiler.Start (and by extension our patch) with null?! Stop it.
+[Loading Progress] Why is ResearchPal.Profiler.Start from ResearchPal 1.6 - Temp calling DeepProfiler.Start (and by extension our patch) with null?! Stop it.
+[Loading Progress] Why is ResearchPal.Profiler.Start from ResearchPal 1.6 - Temp calling DeepProfiler.Start (and by extension our patch) with null?! Stop it.
+ResearchPal :: Research layout initialized
+Unloading 0 unused Assets to reduce memory usage. Loaded Objects now: 34232.
+Total: 254.654800 ms (FindLiveObjects: 1.745800 ms CreateObjectMapping: 0.852200 ms MarkObjects: 252.008400 ms  DeleteObjects: 0.048000 ms)
+
+Unloading 0 Unused Serialized files (Serialized files now loaded: 8)
+Unloading 0 unused Assets to reduce memory usage. Loaded Objects now: 34232.
+Total: 260.882100 ms (FindLiveObjects: 2.197100 ms CreateObjectMapping: 2.152800 ms MarkObjects: 256.477400 ms  DeleteObjects: 0.054400 ms)
+
+[HugsLib] initializing TerraformRimworld
+CE is trying to create default parameter lists ...
+creating default parameter list for genes...
+250 default entities for genes created
+creating default parameter list for objects...
+2364 default entities for objects created
+creating default parameter list for turrets...
+40 default entities for turrets created
+...lists created
+CE is trying to apply modified parameters...
+no modifications for genes
+no modifications for lifestages
+...done
+Unloading 3 Unused Serialized files (Serialized files now loaded: 8)
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+UnloadTime: 1.170000 ms
+Unloading 2 unused Assets to reduce memory usage. Loaded Objects now: 34507.
+Total: 274.531500 ms (FindLiveObjects: 1.681900 ms CreateObjectMapping: 0.922900 ms MarkObjects: 271.860100 ms  DeleteObjects: 0.066400 ms)
+
+Loading game from file USCSS Colony20 with mods:
+  - brrainz.harmony
+  - ilyvion.LoadingProgress
+  - Ludeon.RimWorld
+  - Ludeon.RimWorld.Royalty
+  - Ludeon.RimWorld.Ideology
+  - Ludeon.RimWorld.Biotech
+  - Ludeon.RimWorld.Anomaly
+  - Ludeon.RimWorld.Odyssey
+  - Ogliss.AVPXenomorphs
+  - UnlimitedHugs.HugsLib
+  - UnlimitedHugs.AllowTool
+  - Darknote.BunkBeds
+  - brrainz.cameraplus
+  - Aoba.Tent
+  - void.charactereditor
+  - Cerule.CleaningAreaRelaunched
+  - erdelf.HumanoidAlienRaces
+  - zal.covetheus
+  - CaesarV6.DamageIndicators
+  - telardo.DragSelect
+  - Dubwise.DubsMintMenus
+  - dubwise.dubsmintminimap
+  - Dubwise.DubsPerformanceAnalyzer.steam
+  - zeracronius.dynamictradeinterface
+  - Romyashi.ExtractAnyPlant
+  - matvey24.FPSStabilizer
+  - MemeGoddess.GiddyUp
+  - GonDragon.TTPF
+  - adaptive.storage.framework
+  - OskarPotocki.VanillaFactionsExpanded.Core
+  - OskarPotocki.VFE.Empire
+  - OskarPotocki.VFE.Deserters
+  - GonDragon.TechTree
+  - jkluch.HaulToStack
+  - Taveron.IncreasedStack
+  - Aoba.Fortress.Industrial.Concrete
+  - futurplanet.industrialconcretefloorpatch
+  - Koth.ISiD
+  - ASF.DeepStorage
+  - jecrell.doorsexpanded
+  - Haplo.Miscellaneous.Robots
+  - avius.locks
+  - Mlie.LogAfterDefError
+  - plaxen.MalangBodies
+  - m00nl1ght.MapPreview
+  - sumghai.Medpod
+  - co.uk.epicguru.meleeanimation
+  - notfood.MendAndRecycle
+  - Cain.Mineshaft
+  - erdelf.MinifyEverything
+  - mosi.MoreMiniHorns
+  - IssacZhuang.MuzzleFlash
+  - zal.namesgalore
+  - VitaKaninen.ShelfPatch
+  - Doug.NoJobAuthors
+  - mrwireman.Noconduit
+  - komunre.BetterExp.PassiveResearch
+  - Mlie.PredatorHuntAlert
+  - DawnsGlow.qualcolor
+  - sdknm2.QualityOfBuilding
+  - Memegoddess.ReplaceStuff
+  - Aelanna.ResearchTabColors
+  - fluffy.researchtree
+  - XanderNirpows.ResearchPalForked16
+  - aRandomKiwi.RimSaves
+  - rimsenal.core
+  - rimsenal.security
+  - Mlie.RunAndHide
+  - MemeGoddess.RunAndGun
+  - BP.ShowBuildableMaterialCount
+  - zal.simplefxshinies
+  - Owlchemist.SimpleFX.Smoke2
+  - Owlchemist.SimpleFX.Splashes
+  - Atlas.SimpleFX.Vapor.Revaporized
+  - Owlchemist.FridgeUtilities
+  - PeteTimesSix.SimpleSidearms
+  - Haecriver.SimplyMoreColors
+  - sarg.smartspeed
+  - dhultgren.smarterconstruction
+  - Garwel.StartingTechLevel
+  - void.terraformrimworld
+Could not load reference to Verse.ResearchProjectDef named MechanentCreation
+Could not load reference to Verse.ResearchProjectDef named PersonaCreation
+Null key while loading dictionary of Verse.ResearchProjectDef and System.Single. label=progress
+Null key while loading dictionary of Verse.ResearchProjectDef and System.Single. label=progress
+Could not load reference to Verse.ThingDef named FuelNode_SynthDiet
+Could not load reference to Verse.ThingDef named Corpse_Mechanent
+Could not load reference to Verse.ThingDef named Corpse_Personae_
+Could not load reference to Verse.ThingDef named Corpse_Mechanent
+Could not load reference to Verse.ThingDef named Corpse_Personae_
+Could not load reference to Verse.ThingDef named Corpse_Mechanent
+Could not load reference to Verse.ThingDef named Corpse_Personae_
+Could not load reference to Verse.ThingDef named Corpse_Mechanent
+Could not load reference to Verse.ThingDef named Corpse_Personae_
+Could not load reference to Verse.ThingDef named Corpse_Mechanent
+Could not load reference to Verse.ThingDef named Corpse_Personae_
+Could not load reference to Verse.ThingDef named FuelNode_SynthDiet
+Could not load reference to Verse.ThingDef named Corpse_Mechanent
+Could not load reference to Verse.ThingDef named Corpse_Personae_
+Could not load reference to RimWorld.FactionDef named SynthCivil
+Could not load reference to RimWorld.FactionDef named SynthEvil
+Could not load reference to RimWorld.FactionDef named SynthCivil
+Could not load reference to RimWorld.FactionDef named SynthEvil
+Some factions were null after loading.
+Could not load reference to RimWorld.PreceptDef named RR_MechanicalPawns_Distrust
+Some ideoligion precepts were null after loading.
+Could not load reference to RimWorld.PreceptDef named RR_MechanicalPawns_Hatred
+Some ideoligion precepts were null after loading.
+Could not load reference to RimWorld.MemeDef named RR_MechanicalPrimacy
+Could not load reference to RimWorld.MemeDef named RR_MechanicalPrimacy
+Could not load reference to RimWorld.PreceptDef named RR_BiologicalPawns_Hatred
+Some ideoligion memes were null after loading.
+Some ideoligion precepts were null after loading.
+Could not load reference to RimWorld.TraitDef named Automatonophobia
+Some traits had null def after loading.
+Could not load reference to RimWorld.TraitDef named Automatonophobia
+Some traits had null def after loading.
+Could not load reference to Verse.ThingDef named Personae_
+SaveableFromNode exception: System.NullReferenceException: Object reference not set to an instance of an object
+[Ref 7BD2861F]
+  at Verse.Thing.ExposeData () [0x00034] in <61e4173561894da49d210260257b5097>:0 
+    - TRANSPILER bs.savegamecompatibilityoperation: IEnumerable`1 SaveGameCompatibility.ExposeDataPatch:Transpiler(IEnumerable`1 instructions, MethodBase targetMethod)
+  at Verse.ThingWithComps.ExposeData () [0x00000] in <61e4173561894da49d210260257b5097>:0 
+  at Verse.Pawn.ExposeData () [0x00000] in <61e4173561894da49d210260257b5097>:0 
+    - POSTFIX VFEEmpire.Mod: Void VFEEmpire.HarmonyPatches.Patch_HonorsMisc:ExposeData_Postfix(Pawn __instance)
+    - POSTFIX legodude17.mvcf: Void MVCF.PatchSets.PatchSet_Base:PostExposeDataPawn(Pawn __instance)
+  at Verse.ScribeExtractor.SaveableFromNode[T] (System.Xml.XmlNode subNode, System.Object[] ctorArgs) [0x001dd] in <61e4173561894da49d210260257b5097>:0 
+Subnode:
+<li><def>Personae_</def><tickDelta>1</tickDelta><id>Personae_821</id><faction>Faction_2</faction><questTags IsNull="True" /><despawnedTick>-1</despawnedTick><isEnabled>True</isEnabled><disabled>True</disabled><rememberedWeapons /><forcedWeapon IsNull="True" /><forcedWeaponWhileDrafted IsNull="True" /><defaultRangedWeapon IsNull="True" /><preferredMeleeWeapon IsNull="True" /><primaryWeaponMode>BySkill</primaryWeaponMode><targetHolder>null</targetHolder><lastStudiedTick>-9999999</lastStudiedTick><AlienRaces_AlienComp><addonVariants IsNull="True" /><addonColors /><colorChannels><keys><li>base</li><li>hair</li><li>skin</li><li>skinBase</li><li>tattoo</li><li>favorite</li><li>ideo</li><li>mech</li></keys><values><li><first>RGBA(1.000, 1.000, 1.000, 1.000)</first><second>RGBA(1.000, 1.000, 1.000, 1.000)</second></li><li><first>RGBA(0.741, 0.522, 0.192, 1.000)</first><second>RGBA(1.000, 1.000, 1.000, 1.000)</second></li><li><first>RGBA(1.000, 1.000, 1.000, 1.000)</first><second>RGBA(0.859, 0.243, 0.694, 1.000)</second></li><li><first>RGBA(1.000, 1.000, 1.000, 1.000)</first><second>RGBA(0.859, 0.243, 0.694, 1.000)</second></li><li><first>RGBA(1.000, 1.000, 1.000, 0.800)</first><second>RGBA(0.859, 0.243, 0.694, 0.800)</second></li><li /><li /><li /></values></colorChannels><colorChannelLinks><keys /><values /></colorChannelLinks><lastAlienMeatIngestedTick>-3963</lastAlienMeatIngestedTick></AlienRaces_AlienComp><ticksToReset>2147468647</ticksToReset><lastKeepDisplayTick>-9999</lastKeepDisplayTick><learnedAbilities /><currentlyCasting>null</currentlyCasting><currentlyCastingTargets /><kindDef>Personae_Nexus</kindDef><name Class="NameTriple"><first>Kasen</first><nick>Mosquito</nick><last>Mosquito</last></name><deadlifeDustFaction>null</deadlifeDustFaction><mindState><meleeThreat>null</meleeThreat><enemyTarget>null</enemyTarget><knownExploder>null</knownExploder><lastMannedThing>null</lastMannedThing><droppedWeapon>null</droppedWeapon><thinkData><keys /><values /></thinkData><lastEngageTargetTick>-99999</lastEngageTargetTick><lastAttackTargetTick>-99999</lastAttackTargetTick><canFleeIndividual>True</canFleeIndividual><lastMeleeThreatHarmTick>-99999</lastMeleeThreatHarmTick><duty IsNull="True" /><mentalStateHandler><curState IsNull="True" /></mentalStateHandler><mentalBreaker /><mentalFitGenerator /><inspirationHandler><curState IsNull="True" /></inspirationHandler><priorityWork><prioritizedCell>(-1000, -1000, -1000)</prioritizedCell></priorityWork><lastSelfTendTick>-99999</lastSelfTendTick><breachingTarget IsNull="True" /><babyAutoBreastfeedMoms><keys /><values /></babyAutoBreastfeedMoms><babyCaravanBreastfeed><keys /><values /></babyCaravanBreastfeed><resurrectTarget IsNull="True" /><lastCombatantTick>14999</lastCombatantTick><lastDayInteractionTick>17499</lastDayInteractionTick></mindState><jobs><curJob IsNull="True" /><curDriver IsNull="True" /><jobQueue><jobs /></jobQueue><formingCaravanTick>-1</formingCaravanTick></jobs><stances><stunner><showStunMote>True</showStunMote><adaptationTicksLeft><keys /><values /></adaptationTicksLeft></stunner><stagger /><curStance Class="Stance_Mobile" /></stances><infectionVectors><pathways><keys /><values /></pathways></infectionVectors><verbTracker><verbs IsNull="True" /></verbTracker><natives IsNull="True" /><meleeVerbs><curMeleeVerb>null</curMeleeVerb><terrainVerbs IsNull="True" /></meleeVerbs><rotationTracker IsNull="True" /><pather IsNull="True" /><carryTracker><innerContainer><maxStacks>1</maxStacks><innerList /></innerContainer></carryTracker><apparel><wornApparel><innerList><li><def>Apparel_CollarShirt</def><id>Apparel_CollarShirt826</id><health>130</health><stackCount>1</stackCount><stuff>Leather_Pig</stuff><questTags IsNull="True" /><despawnedTick>-1</despawnedTick><color>RGBA(0.627, 0.616, 0.627, 1.000)</color><colorActive>True</colorActive><quality>Normal</quality><sourcePrecept>null</sourcePrecept><abilities /></li><li><def>Apparel_FlakVest</def><id>Apparel_FlakVest823</id><health>200</health><stackCount>1</stackCount><questTags IsNull="True" /><despawnedTick>-1</despawnedTick><color>RGBA(0.627, 0.616, 0.627, 1.000)</color><colorActive>True</colorActive><quality>Normal</quality><sourcePrecept>null</sourcePrecept><abilities /></li><li><def>Apparel_FlakPants</def><id>Apparel_FlakPants824</id><health>200</health><stackCount>1</stackCount><questTags IsNull="True" /><despawnedTick>-1</despawnedTick><color>RGBA(0.627, 0.616, 0.627, 1.000)</color><colorActive>True</colorActive><quality>Good</quality><sourcePrecept>null</sourcePrecept><abilities /></li><li><def>Apparel_Duster</def><id>Apparel_Duster825</id><health>200</health><stackCount>1</stackCount><stuff>WoolAlpaca</stuff><questTags IsNull="True" /><despawnedTick>-1</despawnedTick><color>RGBA(0.627, 0.616, 0.627, 1.000)</color><colorActive>True</colorActive><quality>Good</quality><sourcePrecept>null</sourcePrecept><abilities /></li><li><def>Apparel_BowlerHat</def><id>Apparel_BowlerHat822</id><health>80</health><stackCount>1</stackCount><stuff>Cloth</stuff><questTags IsNull="True" /><despawnedTick>-1</despawnedTick><color>RGBA(0.627, 0.616, 0.627, 1.000)</color><colorActive>True</colorActive><quality>Excellent</quality><sourcePrecept>null</sourcePrecept><abilities /></li></innerList></wornApparel><lockedApparel IsNull="True" /><lastApparelWearoutTick>224</lastApparelWearoutTick></apparel><story><bodyType>Thin</bodyType><hairDef>Revolt</hairDef><hairColor>RGBA(0.741, 0.522, 0.192, 1.000)</hairColor><traits><allTraits><li><def>Abrasive</def><sourceGene>null</sourceGene><suppressedBy>null</suppressedBy></li></allTraits></traits><birthLastName>Mosquito</birthLastName><favoriteColorDef>haec00102</favoriteColorDef><headType>Male_Persona</headType><childhood>ChildhoodPersonae5</childhood><adulthood>Mathematician6</adulthood></story><equipment><equipment><innerList><li><def>Gun_HeavySMG</def><id>Gun_HeavySMG827</id><health>100</health><stackCount>1</stackCount><questTags IsNull="True" /><despawnedTick>-1</despawnedTick><verbTracker><verbs><li Class="Verb_Shoot"><loadID>CompEquippable_Gun_HeavySMG827_0</loadID><lastShotTick>-999999</lastShotTick><canHitNonTargetPawnsNow>True</canHitNonTargetPawnsNow><MVCF_ManagedVerb><enabled>True</enabled><loadId>CompEquippable_Gun_HeavySMG827_0_Managed</loadId></MVCF_ManagedVerb></li><li Class="Verb_MeleeAttackDamage"><loadID>CompEquippable_Gun_HeavySMG827_0_Smash</loadID><lastShotTick>-999999</lastShotTick><canHitNonTargetPawnsNow>True</canHitNonTargetPawnsNow><MVCF_ManagedVerb><enabled>True</enabled><loadId>CompEquippable_Gun_HeavySMG827_0_Smash_Managed</loadId></MVCF_ManagedVerb></li><li Class="Verb_MeleeAttackDamage"><loadID>CompEquippable_Gun_HeavySMG827_1_Smash</loadID><lastShotTick>-999999</lastShotTick><canHitNonTargetPawnsNow>True</canHitNonTargetPawnsNow><MVCF_ManagedVerb><enabled>True</enabled><loadId>CompEquippable_Gun_HeavySMG827_1_Smash_Managed</loadId></MVCF_ManagedVerb></li><li Class="Verb_MeleeAttackDamage"><loadID>CompEquippable_Gun_HeavySMG827_1_Poke</loadID><lastShotTick>-999999</lastShotTick><canHitNonTargetPawnsNow>True</canHitNonTargetPawnsNow><MVCF_ManagedVerb><enabled>True</enabled><loadId>CompEquippable_Gun_HeavySMG827_1_Poke_Managed</loadId></MVCF_ManagedVerb></li></verbs></verbTracker><sourcePrecept>null</sourcePrecept><taleRef IsNull="True" /><quality>Good</quality><codedPawn>null</codedPawn></li></innerList></equipment><bondedWeapon>null</bondedWeapon></equipment><drafter IsNull="True" /><ageTracker><ageBiologicalTicks>7275238211</ageBiologicalTicks><birthAbsTicks>-7275043213</birthAbsTicks><growth>1</growth><nextGrowthCheckTick>9223372036854775807</nextGrowthCheckTick><ageReversalDemandedAtAgeTicks>7277263212</ageReversalDemandedAtAgeTicks></ageTracker><healthTracker><hediffSet><hediffs><li Class="Hediff_Injury"><ageTicks>14999</ageTicks><visible>True</visible><severity>5</severity><canBeThreateningToPart>True</canBeThreateningToPart><def>Stab</def><part><body>PersonaeBody</body><index>7</index></part><combatLogEntry>null</combatLogEntry><abilities IsNull="True" /><infectionChanceFactor>1</infectionChanceFactor><isPermanent>True</isPermanent><painCategory>LowPain</painCategory></li><li Class="HediffWithComps"><loadID>1</loadID><ageTicks>14999</ageTicks><severity>1</severity><canBeThreateningToPart>True</canBeThreateningToPart><def>SyntheticNature_Hediff</def><combatLogEntry>null</combatLogEntry><abilities IsNull="True" /></li></hediffs></hediffSet><surgeryBills><bills /></surgeryBills><immunity><imList /></immunity></healthTracker><records><records><vals><li>0</li><li>0</li><li>0</li><li>0</li><li>0</li><li>0</li><li>0</li><li>0</li><li>0</li><li>0</li><li>0</li><li>0</li><li>0</li><li>0</li><li>0</li><li>0</li><li>0</li><li>0</li><li>0</li><li>0</li><li>0</li><li>0</li><li>0</li><li>0</li><li>0</li><li>0</li><li>0</li><li>0</li><li>0</li><li>0</li><li>0</li><li>0</li><li>0</li><li>0</li><li>0</li><li>0</li><li>0</li><li>0</li><li>0</li><li>0</li><li>0</li><li>0</li><li>0</li><li>0</li><li>0</li><li>0</li><li>0</li><li>0</li><li>0</li><li>0</li><li>0</li><li>0</li><li>0</li><li>0</li><li>0</li><li>0</li><li>0</li><li>0</li><li>0</li><li>0</li><li>0</li><li>0</li><li>0</li><li>0</li><li>0</li><li>0</li><li>0</li><li>0</li><li>0</li><li>0</li><li>0</li></vals></records><battleActive>null</battleActive></records><inventory><itemsNotForSale /><unpackedCaravanItems /><innerContainer><innerList /></innerContainer></inventory><filth IsNull="True" /><roping IsNull="True" /><needs><needs><li Class="Need_Mood"><def>Mood</def><curLevel>0.5</curLevel><thoughts><memories><memories /></memories></thoughts><recentMemory /></li><li Class="Need_Food"><def>Food</def><curLevel>0.800000012</curLevel><lastNonStarvingTick>14924</lastNonStarvingTick></li><li Class="Need_Rest"><def>Rest</def><curLevel>0.99405241</curLevel></li></needs></needs><guest><hostFaction>null</hostFaction><slaveFaction>null</slaveFaction><joinStatus>JoinAsSlave</joinStatus><interactionMode>MaintainOnly</interactionMode><slaveInteractionMode>NoInteraction</slaveInteractionMode><spotToWaitInsteadOfEscaping>(-1000, -1000, -1000)</spotToWaitInsteadOfEscaping><lastPrisonBreakTicks>-1</lastPrisonBreakTicks><ideoForConversion>null</ideoForConversion><enabledNonExclusiveInteractions /><lastResistanceInteractionData IsNull="True" /><finalResistanceInteractionData IsNull="True" /></guest><guilt /><royalty><titles /><favor><keys /><values /></favor><highestTitles><keys /><values /></highestTitles><heirs><keys /><values /></heirs><permits /><abilities /></royalty><social><directRelations /><virtualRelations /><relativeInvolvedInRescueQuest>null</relativeInvolvedInRescueQuest><pregnancyApproaches><keys /><values /></pregnancyApproaches><romanceEnableTick>-1</romanceEnableTick><additionalPregnancyApproachData><partners><keys /><values /></partners></additionalPregnancyApproachData></social><psychicEntropy><limitEntropyAmount>True</limitEntropyAmount></psychicEntropy><shambler IsNull="True" /><ownership><ownedBed>null</ownedBed><assignedMeditationSpot>null</assignedMeditationSpot><assignedGrave>null</assignedGrave><assignedThrone>null</assignedThrone><assignedDeathrestCasket>null</assignedDeathrestCasket></ownership><interactions IsNull="True" /><skills><skills><li><def>Shooting</def><level>1</level></li><li><def>Melee</def><level>3</level></li><li><def>Construction</def></li><li><def>Mining</def><level>5</level></li><li><def>Cooking</def><level>4</level></li><li><def>Plants</def></li><li><def>Animals</def><level>3</level></li><li><def>Crafting</def><level>6</level><passion>Major</passion></li><li><def>Artistic</def><level>1</level></li><li><def>Medicine</def><level>2</level></li><li><def>Social</def><level>6</level><passion>Minor</passion></li><li><def>Intellectual</def><level>17</level><xpSinceLastLevel>-300</xpSinceLastLevel><passion>Major</passion><xpSinceMidnight>-300</xpSinceMidnight></li></skills><lastXpSinceMidnightResetTimestamp>-1</lastXpSinceMidnightResetTimestamp></skills><abilities><abilities /></abilities><ideo><ideo>Ideo_2</ideo><previousIdeos /><certainty>0.789870083</certainty><babyIdeoExposure IsNull="True" /></ideo><workSettings><priorities IsNull="True" /></workSettings><trader IsNull="True" /><outfits IsNull="True" /><drugs IsNull="True" /><foodRestriction IsNull="True" /><timetable IsNull="True" /><playerSettings IsNull="True" /><training IsNull="True" /><style><beardDef>Stubble</beardDef><faceTattoo>NoTattoo_Face</faceTattoo><bodyTattoo>NoTattoo_Body</bodyTattoo></style><styleObserver /><connections><connectedThings /></connections><inventoryStock IsNull="True" /><treeSightings><miniTreeSightings /><fullTreeSightings /><superTreeSightings /></treeSightings><thinker /><mechanitor IsNull="True" /><genes><xenogenes /><endogenes /><xenotype>Baseliner</xenotype></genes><learning IsNull="True" /><reading IsNull="True" /><creepjoiner IsNull="True" /><duplicate /><flight IsNull="True" /><vfee_honors><honors /><pendingHonors /></vfee_honors><MVCF_VerbManager IsNull="True" /></li>
+Could not load reference to Verse.ThingDef named Personae_
+SaveableFromNode exception: System.NullReferenceException: Object reference not set to an instance of an object
+[Ref 7BD2861F] Duplicate stacktrace, see ref for original
+Subnode:
+<li><def>Personae_</def><tickDelta>1</tickDelta><id>Personae_861</id><faction>Faction_14</faction><questTags IsNull="True" /><despawnedTick>-1</despawnedTick><isEnabled>True</isEnabled><disabled>True</disabled><rememberedWeapons /><forcedWeapon IsNull="True" /><forcedWeaponWhileDrafted IsNull="True" /><defaultRangedWeapon IsNull="True" /><preferredMeleeWeapon IsNull="True" /><primaryWeaponMode>BySkill</primaryWeaponMode><targetHolder>null</targetHolder><lastStudiedTick>-9999999</lastStudiedTick><AlienRaces_AlienComp><addonVariants IsNull="True" /><addonColors /><colorChannels><keys><li>base</li><li>hair</li><li>skin</li><li>skinBase</li><li>tattoo</li><li>favorite</li><li>ideo</li><li>mech</li></keys><values><li><first>RGBA(1.000, 1.000, 1.000, 1.000)</first><second>RGBA(1.000, 1.000, 1.000, 1.000)</second></li><li><first>RGBA(0.929, 0.792, 0.612, 1.000)</first><second>RGBA(1.000, 1.000, 1.000, 1.000)</second></li><li><first>RGBA(0.871, 0.416, 0.416, 1.000)</first><second>RGBA(1.000, 0.678, 0.000, 1.000)</second></li><li><first>RGBA(0.871, 0.416, 0.416, 1.000)</first><second>RGBA(1.000, 0.678, 0.000, 1.000)</second></li><li><first>RGBA(0.871, 0.416, 0.416, 0.800)</first><second>RGBA(1.000, 0.678, 0.000, 0.800)</second></li><li /><li /><li /></values></colorChannels><colorChannelLinks><keys /><values /></colorChannelLinks><lastAlienMeatIngestedTick>-55233</lastAlienMeatIngestedTick></AlienRaces_AlienComp><ticksToReset>2147468647</ticksToReset><lastKeepDisplayTick>-9999</lastKeepDisplayTick><learnedAbilities /><currentlyCasting>null</currentlyCasting><currentlyCastingTargets /><kindDef>Personae_Nexus</kindDef><name Class="NameTriple"><first>Kamdyn</first><nick>Kamdyn</nick><last>Naugiric</last></name><deadlifeDustFaction>null</deadlifeDustFaction><mindState><meleeThreat>null</meleeThreat><enemyTarget>null</enemyTarget><knownExploder>null</knownExploder><lastMannedThing>null</lastMannedThing><droppedWeapon>null</droppedWeapon><thinkData><keys /><values /></thinkData><lastEngageTargetTick>-99999</lastEngageTargetTick><lastAttackTargetTick>-99999</lastAttackTargetTick><canFleeIndividual>True</canFleeIndividual><lastMeleeThreatHarmTick>-99999</lastMeleeThreatHarmTick><duty IsNull="True" /><mentalStateHandler><curState IsNull="True" /></mentalStateHandler><mentalBreaker /><mentalFitGenerator /><inspirationHandler><curState IsNull="True" /></inspirationHandler><priorityWork><prioritizedCell>(-1000, -1000, -1000)</prioritizedCell></priorityWork><lastSelfTendTick>-99999</lastSelfTendTick><breachingTarget IsNull="True" /><babyAutoBreastfeedMoms><keys /><values /></babyAutoBreastfeedMoms><babyCaravanBreastfeed><keys /><values /></babyCaravanBreastfeed><resurrectTarget IsNull="True" /><lastCombatantTick>14999</lastCombatantTick><lastDayInteractionTick>17499</lastDayInteractionTick></mindState><jobs><curJob IsNull="True" /><curDriver IsNull="True" /><jobQueue><jobs /></jobQueue><formingCaravanTick>-1</formingCaravanTick></jobs><stances><stunner><showStunMote>True</showStunMote><adaptationTicksLeft><keys /><values /></adaptationTicksLeft></stunner><stagger /><curStance Class="Stance_Mobile" /></stances><infectionVectors><pathways><keys /><values /></pathways></infectionVectors><verbTracker><verbs IsNull="True" /></verbTracker><natives IsNull="True" /><meleeVerbs><curMeleeVerb>null</curMeleeVerb><terrainVerbs IsNull="True" /></meleeVerbs><rotationTracker IsNull="True" /><pather IsNull="True" /><carryTracker><innerContainer><maxStacks>1</maxStacks><innerList /></innerContainer></carryTracker><apparel><wornApparel><innerList><li><def>Apparel_Pants</def><id>Apparel_Pants863</id><health>100</health><stackCount>1</stackCount><stuff>WoolMuffalo</stuff><questTags IsNull="True" /><despawnedTick>-1</despawnedTick><color>RGBA(0.627, 0.616, 0.627, 1.000)</color><colorActive>True</colorActive><quality>Good</quality><sourcePrecept>null</sourcePrecept><abilities /></li><li><def>Apparel_CollarShirt</def><id>Apparel_CollarShirt866</id><health>100</health><stackCount>1</stackCount><stuff>Cloth</stuff><questTags IsNull="True" /><despawnedTick>-1</despawnedTick><color>RGBA(0.627, 0.616, 0.627, 1.000)</color><colorActive>True</colorActive><quality>Good</quality><sourcePrecept>null</sourcePrecept><abilities /></li><li><def>Apparel_Duster</def><id>Apparel_Duster864</id><health>200</health><stackCount>1</stackCount><stuff>Leather_Bird</stuff><questTags IsNull="True" /><despawnedTick>-1</despawnedTick><color>RGBA(0.627, 0.616, 0.627, 1.000)</color><colorActive>True</colorActive><quality>Good</quality><sourcePrecept>null</sourcePrecept><abilities /></li><li Class="BroadshieldPack"><def>Apparel_PackBroadshield</def><id>Apparel_PackBroadshield865</id><health>100</health><stackCount>1</stackCount><questTags IsNull="True" /><despawnedTick>-1</despawnedTick><color>RGBA(0.627, 0.616, 0.627, 1.000)</color><colorActive>True</colorActive><verbTracker><verbs><li Class="Verb_DeployBroadshield"><loadID>CompVerbOwner_Apparel_PackBroadshield865_0</loadID><lastShotTick>-999999</lastShotTick><canHitNonTargetPawnsNow>True</canHitNonTargetPawnsNow><MVCF_ManagedVerb IsNull="True" /></li></verbs></verbTracker><remainingCharges>1</remainingCharges><abilities /></li><li><def>Apparel_BowlerHat</def><id>Apparel_BowlerHat862</id><health>80</health><stackCount>1</stackCount><stuff>Cloth</stuff><questTags IsNull="True" /><despawnedTick>-1</despawnedTick><color>RGBA(0.627, 0.616, 0.627, 1.000)</color><colorActive>True</colorActive><quality>Good</quality><sourcePrecept>null</sourcePrecept><abilities /></li></innerList></wornApparel><lockedApparel IsNull="True" /><lastApparelWearoutTick>14</lastApparelWearoutTick></apparel><story><bodyType>Thin</bodyType><hairDef>Revolt</hairDef><hairColor>RGBA(0.929, 0.792, 0.612, 1.000)</hairColor><traits><allTraits><li><def>Psychopath</def><sourceGene>null</sourceGene><suppressedBy>null</suppressedBy></li></allTraits></traits><birthLastName>Naugiric</birthLastName><favoriteColorDef>Orange</favoriteColorDef><headType>Male_PersonaNarrowWide</headType><childhood>ChildhoodPersonae13</childhood><adulthood>AdulthoodPersonae18</adulthood></story><equipment><equipment><innerList><li><def>Gun_HellcatRifle</def><id>Gun_HellcatRifle867</id><health>100</health><stackCount>1</stackCount><questTags IsNull="True" /><despawnedTick>-1</despawnedTick><verbTracker><verbs><li Class="Verb_Shoot"><loadID>CompEquippable_Gun_HellcatRifle867_0</loadID><lastShotTick>-999999</lastShotTick><canHitNonTargetPawnsNow>True</canHitNonTargetPawnsNow><MVCF_ManagedVerb><enabled>True</enabled><loadId>CompEquippable_Gun_HellcatRifle867_0_Managed</loadId></MVCF_ManagedVerb></li><li Class="Verb_MeleeAttackDamage"><loadID>CompEquippable_Gun_HellcatRifle867_0_Smash</loadID><lastShotTick>-999999</lastShotTick><canHitNonTargetPawnsNow>True</canHitNonTargetPawnsNow><MVCF_ManagedVerb><enabled>True</enabled><loadId>CompEquippable_Gun_HellcatRifle867_0_Smash_Managed</loadId></MVCF_ManagedVerb></li><li Class="Verb_MeleeAttackDamage"><loadID>CompEquippable_Gun_HellcatRifle867_1_Smash</loadID><lastShotTick>-999999</lastShotTick><canHitNonTargetPawnsNow>True</canHitNonTargetPawnsNow><MVCF_ManagedVerb><enabled>True</enabled><loadId>CompEquippable_Gun_HellcatRifle867_1_Smash_Managed</loadId></MVCF_ManagedVerb></li><li Class="Verb_MeleeAttackDamage"><loadID>CompEquippable_Gun_HellcatRifle867_1_Poke</loadID><lastShotTick>-999999</lastShotTick><canHitNonTargetPawnsNow>True</canHitNonTargetPawnsNow><MVCF_ManagedVerb><enabled>True</enabled><loadId>CompEquippable_Gun_HellcatRifle867_1_Poke_Managed</loadId></MVCF_ManagedVerb></li></verbs></verbTracker><ability><def>HellcatBurner</def><Id>101</Id><sourcePrecept>null</sourcePrecept><verbTracker><verbs><li Class="Verb_CastAbility"><loadID>Ability_101_0</loadID><currentTarget>(0, 0, 0)</currentTarget><currentDestination>(0, 0, 0)</currentDestination><lastShotTick>-999999</lastShotTick><canHitNonTargetPawnsNow>True</canHitNonTargetPawnsNow><MVCF_ManagedVerb IsNull="True" /><ability>Ability_101</ability></li></verbs></verbTracker><maxCharges>2</maxCharges><charges>2</charges></ability><sourcePrecept>null</sourcePrecept><codedPawn>null</codedPawn><quality>Normal</quality><taleRef IsNull="True" /></li></innerList></equipment><bondedWeapon>null</bondedWeapon></equipment><drafter IsNull="True" /><ageTracker><ageBiologicalTicks>3406079984</ageBiologicalTicks><birthAbsTicks>-3405884986</birthAbsTicks><growth>1</growth><nextGrowthCheckTick>9223372036854775807</nextGrowthCheckTick><ageReversalDemandedAtAgeTicks>3407084985</ageReversalDemandedAtAgeTicks></ageTracker><healthTracker><hediffSet><hediffs><li Class="Hediff_Injury"><loadID>14</loadID><ageTicks>14999</ageTicks><visible>True</visible><severity>5</severity><canBeThreateningToPart>True</canBeThreateningToPart><def>Frostbite</def><part><body>PersonaeBody</body><index>53</index></part><combatLogEntry>null</combatLogEntry><abilities IsNull="True" /><infectionChanceFactor>1</infectionChanceFactor><isPermanent>True</isPermanent><painCategory>LowPain</painCategory></li><li Class="HediffWithComps"><loadID>15</loadID><ageTicks>14999</ageTicks><severity>1</severity><canBeThreateningToPart>True</canBeThreateningToPart><def>SyntheticNature_Hediff</def><combatLogEntry>null</combatLogEntry><abilities IsNull="True" /></li></hediffs></hediffSet><surgeryBills><bills /></surgeryBills><immunity><imList /></immunity></healthTracker><records><records><vals><li>0</li><li>0</li><li>0</li><li>0</li><li>0</li><li>0</li><li>0</li><li>0</li><li>0</li><li>0</li><li>0</li><li>0</li><li>0</li><li>0</li><li>0</li><li>0</li><li>0</li><li>0</li><li>0</li><li>0</li><li>0</li><li>0</li><li>0</li><li>0</li><li>0</li><li>0</li><li>0</li><li>0</li><li>0</li><li>0</li><li>0</li><li>0</li><li>0</li><li>0</li><li>0</li><li>0</li><li>0</li><li>0</li><li>0</li><li>0</li><li>0</li><li>0</li><li>0</li><li>0</li><li>0</li><li>0</li><li>0</li><li>0</li><li>0</li><li>0</li><li>0</li><li>0</li><li>0</li><li>0</li><li>0</li><li>0</li><li>0</li><li>0</li><li>0</li><li>0</li><li>0</li><li>0</li><li>0</li><li>0</li><li>0</li><li>0</li><li>0</li><li>0</li><li>0</li><li>0</li><li>0</li></vals></records><battleActive>null</battleActive></records><inventory><itemsNotForSale /><unpackedCaravanItems /><innerContainer><innerList /></innerContainer></inventory><filth IsNull="True" /><roping IsNull="True" /><needs><needs><li Class="Need_Mood"><def>Mood</def><curLevel>0.5</curLevel><thoughts><memories><memories /></memories></thoughts><recentMemory /></li><li Class="Need_Food"><def>Food</def><curLevel>0.800000012</curLevel><lastNonStarvingTick>14864</lastNonStarvingTick></li><li Class="Need_Rest"><def>Rest</def><curLevel>0.969092906</curLevel></li></needs></needs><guest><hostFaction>null</hostFaction><slaveFaction>null</slaveFaction><joinStatus>JoinAsColonist</joinStatus><interactionMode>MaintainOnly</interactionMode><slaveInteractionMode>NoInteraction</slaveInteractionMode><spotToWaitInsteadOfEscaping>(-1000, -1000, -1000)</spotToWaitInsteadOfEscaping><lastPrisonBreakTicks>-1</lastPrisonBreakTicks><ideoForConversion>null</ideoForConversion><enabledNonExclusiveInteractions /><lastResistanceInteractionData IsNull="True" /><finalResistanceInteractionData IsNull="True" /></guest><guilt /><royalty><titles /><favor><keys /><values /></favor><highestTitles><keys /><values /></highestTitles><heirs><keys /><values /></heirs><permits /><abilities /></royalty><social><directRelations /><virtualRelations /><relativeInvolvedInRescueQuest>null</relativeInvolvedInRescueQuest><pregnancyApproaches><keys /><values /></pregnancyApproaches><romanceEnableTick>-1</romanceEnableTick><additionalPregnancyApproachData><partners><keys /><values /></partners></additionalPregnancyApproachData></social><psychicEntropy><limitEntropyAmount>True</limitEntropyAmount></psychicEntropy><shambler IsNull="True" /><ownership><ownedBed>null</ownedBed><assignedMeditationSpot>null</assignedMeditationSpot><assignedGrave>null</assignedGrave><assignedThrone>null</assignedThrone><assignedDeathrestCasket>null</assignedDeathrestCasket></ownership><interactions IsNull="True" /><skills><skills><li><def>Shooting</def><level>6</level></li><li><def>Melee</def><level>2</level></li><li><def>Construction</def></li><li><def>Mining</def></li><li><def>Cooking</def><level>4</level></li><li><def>Plants</def><level>6</level></li><li><def>Animals</def><level>12</level><xpSinceLastLevel>-29.9999809</xpSinceLastLevel><passion>Major</passion><xpSinceMidnight>-29.9999809</xpSinceMidnight></li><li><def>Crafting</def><level>3</level></li><li><def>Artistic</def><level>3</level></li><li><def>Medicine</def></li><li><def>Social</def><level>7</level><passion>Major</passion></li><li><def>Intellectual</def><level>16</level><xpSinceLastLevel>-210.000137</xpSinceLastLevel><passion>Major</passion><xpSinceMidnight>-210.000137</xpSinceMidnight></li></skills><lastXpSinceMidnightResetTimestamp>-1</lastXpSinceMidnightResetTimestamp></skills><abilities><abilities /></abilities><ideo><ideo>Ideo_9</ideo><previousIdeos /><certainty>0.774719715</certainty><babyIdeoExposure IsNull="True" /></ideo><workSettings><priorities IsNull="True" /></workSettings><trader IsNull="True" /><outfits IsNull="True" /><drugs IsNull="True" /><foodRestriction IsNull="True" /><timetable IsNull="True" /><playerSettings IsNull="True" /><training IsNull="True" /><style><beardDef>Circle</beardDef><faceTattoo>NoTattoo_Face</faceTattoo><bodyTattoo>NoTattoo_Body</bodyTattoo></style><styleObserver /><connections><connectedThings /></connections><inventoryStock IsNull="True" /><treeSightings><miniTreeSightings /><fullTreeSightings /><superTreeSightings /></treeSightings><thinker /><mechanitor IsNull="True" /><genes><xenogenes /><endogenes /><xenotype>Baseliner</xenotype></genes><learning IsNull="True" /><reading IsNull="True" /><creepjoiner IsNull="True" /><duplicate /><flight IsNull="True" /><vfee_honors><honors /><pendingHonors /></vfee_honors><MVCF_VerbManager IsNull="True" /></li>
+Could not load reference to RimWorld.FactionDef named SynthCivil
+Could not load reference to RimWorld.FactionDef named SynthEvil
+Could not load reference to RimWorld.FactionDef named PlayerColonySynth
+Could not load reference to Verse.ThingDef named FuelNode_SynthDiet
+Could not load reference to Verse.ThingDef named ComponentMechanent
+Could not load reference to Verse.ThingDef named ComponentPersona
+Could not load reference to Verse.ThingDef named UnfinishedComponentMechanent
+Could not load reference to Verse.ThingDef named UnfinishedComponentPersonae
+Could not load reference to Verse.ThingDef named PsylinkFormerSynth
+Could not load reference to Verse.ThingDef named MechlinkSynth
+Could not load reference to Verse.ThingDef named ControlSublinkSynth
+Could not load reference to Verse.ThingDef named ControlSublinkHighSynth
+Could not load reference to Verse.ThingDef named RemoteRepairerSynth
+Could not load reference to Verse.ThingDef named MechFormfeederSynth
+Could not load reference to Verse.ThingDef named RemoteShielderSynth
+Could not load reference to Verse.ThingDef named RepairProbeSynth
+Could not load reference to Verse.ThingDef named RR_AddedScythesItem
+Could not load reference to Verse.ThingDef named RR_EMPFilamentsItem
+Could not load reference to Verse.ThingDef named Item_MechArmSynth
+Could not load reference to Verse.ThingDef named Item_MechLegSynth
+Could not load reference to Verse.ThingDef named Item_MechEyeSynth
+Could not load reference to Verse.ThingDef named Item_MechJawSynth
+Could not load reference to Verse.ThingDef named Item_SynthArmSynth
+Could not load reference to Verse.ThingDef named Item_SynthLegSynth
+Could not load reference to Verse.ThingDef named Item_SynthEyeSynth
+Could not load reference to Verse.ThingDef named Item_SynthJawSynth
+Could not load reference to Verse.ThingDef named RR_FissionReactorItem
+Could not load reference to Verse.ThingDef named RR_MechanoidVisualSensorItem
+Could not load reference to Verse.ThingDef named RR_MechaniteRepairNexusItem
+Could not load reference to Verse.ThingDef named RR_VanometricReactorItem
+Could not load reference to Verse.ThingDef named RR_ArchotechUplinkItem
+Could not load reference to Verse.ThingDef named MechCreationCasket
+Could not load reference to Verse.ThingDef named IndustrialChargePylon
+Could not load reference to Verse.ThingDef named Printed_Mechanent_Spawner
+Could not load reference to Verse.ThingDef named Printed_Persona_Spawner
+Could not load reference to Verse.ThingDef named Corpse_Mechanent
+Could not load reference to Verse.ThingDef named Corpse_Personae_
+Could not load reference to Verse.SpecialThingFilterDef named AllowCorpsesSyntheticlikeFriendly
+Could not load reference to Verse.ThingDef named Corpse_Mechanent
+Could not load reference to Verse.ThingDef named Corpse_Personae_
+Could not load reference to Verse.SpecialThingFilterDef named AllowCorpsesSyntheticlikeFriendly
+Could not load reference to Verse.ThingDef named Corpse_Mechanent
+Could not load reference to Verse.ThingDef named Corpse_Personae_
+Couldn't load adult backstory AISalesman for Kylonoscos 'Kylonoscos' Kusnik. Giving random.
+Could not load reference to Verse.SpecialThingFilterDef named AllowCorpsesSyntheticlikeFriendly
+Could not load reference to Verse.ThingDef named Corpse_Mechanent
+Could not load reference to Verse.ThingDef named Corpse_Personae_
+Could not load reference to Verse.SpecialThingFilterDef named AllowCorpsesSyntheticlikeFriendly
+Could not load reference to Verse.ThingDef named Corpse_Mechanent
+Could not load reference to Verse.ThingDef named Corpse_Personae_
+Could not load reference to Verse.SpecialThingFilterDef named AllowCorpsesPersonaFriendly
+Could not load reference to Verse.SpecialThingFilterDef named AllowCorpsesSyntheticlikeFriendly
+Could not load reference to Verse.SpecialThingFilterDef named AllowCorpsesPersonaFriendly
+Could not load reference to Verse.SpecialThingFilterDef named AllowCorpsesSyntheticlikeFriendly
+Exception registering Verse.Pawn Verse.Pawn in loaded object directory with unique load ID [excepted]: System.NullReferenceException: Object reference not set to an instance of an object
+[Ref A461AFC4]
+  at Verse.Thing.get_ThingID () [0x00000] in <61e4173561894da49d210260257b5097>:0 
+  at Verse.Thing.GetUniqueLoadID () [0x00000] in <61e4173561894da49d210260257b5097>:0 
+  at Verse.LoadedObjectDirectory.RegisterLoaded (Verse.ILoadReferenceable reffable) [0x000ce] in <61e4173561894da49d210260257b5097>:0 
+Exception registering Verse.Pawn Verse.Pawn in loaded object directory with unique load ID [excepted]: System.NullReferenceException: Object reference not set to an instance of an object
+[Ref A461AFC4] Duplicate stacktrace, see ref for original
+Exception registering Verse.Pawn Verse.Pawn in loaded object directory with unique thing ID -1: System.ArgumentException: An item with the same key has already been added. Key: -1
+[Ref FF0803AD]
+ [0x00006] in <51fded79cd284d4d911c5949aff4cb21>:0 
+  at System.Collections.Generic.Dictionary`2[TKey,TValue].TryInsert (TKey key, TValue value, System.Collections.Generic.InsertionBehavior behavior) [0x000dd] in <51fded79cd284d4d911c5949aff4cb21>:0 
+  at System.Collections.Generic.Dictionary`2[TKey,TValue].Add (TKey key, TValue value) [0x00000] in <51fded79cd284d4d911c5949aff4cb21>:0 
+  at Verse.LoadedObjectDirectory.RegisterLoaded (Verse.ILoadReferenceable reffable) [0x0017e] in <61e4173561894da49d210260257b5097>:0 
+Could not resolve reference to object with loadID Thing_Personae_821 of type Verse.Pawn. Was it compressed away, destroyed, had no ID number, or not saved/loaded right? curParent=Robotic InesWP curPathRelToParent=
+Could not resolve reference to object with loadID Thing_Personae_861 of type Verse.Pawn. Was it compressed away, destroyed, had no ID number, or not saved/loaded right? curParent=Anxious EspherOB2 curPathRelToParent=
+Could not resolve reference to object with loadID Thing_Personae_821 of type Verse.Pawn. Was it compressed away, destroyed, had no ID number, or not saved/loaded right? curParent=RimWorld.Planet.WorldPawns curPathRelToParent=/pawnsForcefullyKeptAsWorldPawns
+Could not resolve reference to object with loadID Thing_Personae_861 of type Verse.Pawn. Was it compressed away, destroyed, had no ID number, or not saved/loaded right? curParent=RimWorld.Planet.WorldPawns curPathRelToParent=/pawnsForcefullyKeptAsWorldPawns
+Could not resolve reference to object with loadID Thing_Human41745 of type Verse.Pawn. Was it compressed away, destroyed, had no ID number, or not saved/loaded right? curParent=RimWorld.DirectPawnRelation curPathRelToParent=
+Could not resolve cross refs: System.NullReferenceException: Object reference not set to an instance of an object
+[Ref D1F727D8]
+  at Verse.Thing.ExposeData () [0x00034] in <61e4173561894da49d210260257b5097>:0 
+    - TRANSPILER bs.savegamecompatibilityoperation: IEnumerable`1 SaveGameCompatibility.ExposeDataPatch:Transpiler(IEnumerable`1 instructions, MethodBase targetMethod)
+  at Verse.ThingWithComps.ExposeData () [0x00000] in <61e4173561894da49d210260257b5097>:0 
+  at Verse.Pawn.ExposeData () [0x00000] in <61e4173561894da49d210260257b5097>:0 
+    - POSTFIX VFEEmpire.Mod: Void VFEEmpire.HarmonyPatches.Patch_HonorsMisc:ExposeData_Postfix(Pawn __instance)
+    - POSTFIX legodude17.mvcf: Void MVCF.PatchSets.PatchSet_Base:PostExposeDataPawn(Pawn __instance)
+  at Verse.CrossRefHandler.ResolveAllCrossReferences () [0x000e8] in <61e4173561894da49d210260257b5097>:0 
+Could not resolve cross refs: System.NullReferenceException: Object reference not set to an instance of an object
+[Ref D1F727D8] Duplicate stacktrace, see ref for original
+Pawn Lissa has relation "Spouse" with null pawn after loading. This means that we forgot to serialize pawns somewhere (e.g. pawns from passing trade ships).
+Could not do PostLoadInit on RimWorld.Pawn_TrainingTracker: System.NullReferenceException: Object reference not set to an instance of an object
+[Ref F8FF2929]
+  at RimWorld.Pawn_TrainingTracker.CanAssignToTrain (RimWorld.TrainableDef td, Verse.ThingDef pawnDef, System.Boolean& visible, Verse.Pawn pawn) [0x0018d] in <61e4173561894da49d210260257b5097>:0 
+  at RimWorld.Pawn_TrainingTracker.CanAssignToTrain (RimWorld.TrainableDef td, System.Boolean& visible) [0x00000] in <61e4173561894da49d210260257b5097>:0 
+  at RimWorld.Pawn_TrainingTracker.CanAssignToTrain (RimWorld.TrainableDef td) [0x00000] in <61e4173561894da49d210260257b5097>:0 
+  at Verse.BackCompatibility.PawnTrainingTrackerPostLoadInit (RimWorld.Pawn_TrainingTracker tracker, Verse.DefMap`2[RimWorld.TrainableDef,System.Boolean]& wantedTrainables, Verse.DefMap`2[RimWorld.TrainableDef,System.Int32]& steps, Verse.DefMap`2[RimWorld.TrainableDef,System.Boolean]& learned) [0x00082] in <61e4173561894da49d210260257b5097>:0 
+  at RimWorld.Pawn_TrainingTracker.ExposeData () [0x0006a] in <61e4173561894da49d210260257b5097>:0 
+  at Verse.PostLoadIniter.DoAllPostLoadInits () [0x00032] in <61e4173561894da49d210260257b5097>:0 
+Some pawnsForcefullyKeptAsWorldPawns were null after loading.
+Some pawnsMothballed were null after loading.
+<color=#66ffb5>[MeleeAnim]</color> Loaded 0 animation renderers on map Map-0-PlayerHome
+Could not do PostLoadInit on RimWorld.Pawn_TrainingTracker: System.NullReferenceException: Object reference not set to an instance of an object
+[Ref F8FF2929] Duplicate stacktrace, see ref for original
+Could not do PostLoadInit on RimWorld.Pawn_TrainingTracker: System.NullReferenceException: Object reference not set to an instance of an object
+[Ref F8FF2929] Duplicate stacktrace, see ref for original
+Could not do PostLoadInit on RimWorld.Pawn_TrainingTracker: System.NullReferenceException: Object reference not set to an instance of an object
+[Ref F8FF2929] Duplicate stacktrace, see ref for original
+Could not do PostLoadInit on RimWorld.Pawn_TrainingTracker: System.NullReferenceException: Object reference not set to an instance of an object
+[Ref F8FF2929] Duplicate stacktrace, see ref for original
+Could not do PostLoadInit on RimWorld.Pawn_TrainingTracker: System.NullReferenceException: Object reference not set to an instance of an object
+[Ref F8FF2929] Duplicate stacktrace, see ref for original
+Could not do PostLoadInit on RimWorld.Pawn_TrainingTracker: System.NullReferenceException: Object reference not set to an instance of an object
+[Ref F8FF2929] Duplicate stacktrace, see ref for original
+Could not do PostLoadInit on RimWorld.Pawn_TrainingTracker: System.NullReferenceException: Object reference not set to an instance of an object
+[Ref F8FF2929] Duplicate stacktrace, see ref for original
+Could not do PostLoadInit on RimWorld.Pawn_TrainingTracker: System.NullReferenceException: Object reference not set to an instance of an object
+[Ref F8FF2929] Duplicate stacktrace, see ref for original
+Could not do PostLoadInit on RimWorld.Pawn_TrainingTracker: System.NullReferenceException: Object reference not set to an instance of an object
+[Ref F8FF2929] Duplicate stacktrace, see ref for original
+Could not do PostLoadInit on RimWorld.Pawn_TrainingTracker: System.NullReferenceException: Object reference not set to an instance of an object
+[Ref F8FF2929] Duplicate stacktrace, see ref for original
+Could not do PostLoadInit on RimWorld.Pawn_TrainingTracker: System.NullReferenceException: Object reference not set to an instance of an object
+[Ref F8FF2929] Duplicate stacktrace, see ref for original
+checking editor settings...
+bodysizes genes are active
+[AVP Xenomorphs] Xenomorph hive faction already exists.
+Unloading 1 Unused Serialized files (Serialized files now loaded: 8)
+Unloading 1 unused Assets to reduce memory usage. Loaded Objects now: 43040.
+Total: 365.105800 ms (FindLiveObjects: 2.100400 ms CreateObjectMapping: 2.630700 ms MarkObjects: 360.278300 ms  DeleteObjects: 0.096000 ms)
+
+Wrote screenshot C:\Users\clint\AppData\LocalLow\Ludeon Studios\RimWorld by Ludeon Studios\RimSaves\Previews\USCSS Colony20.dat of size 156138
+Unloading 2 Unused Serialized files (Serialized files now loaded: 8)
+Unloading 579 unused Assets to reduce memory usage. Loaded Objects now: 36691.
+Total: 323.749400 ms (FindLiveObjects: 1.928600 ms CreateObjectMapping: 1.445900 ms MarkObjects: 319.722200 ms  DeleteObjects: 0.652100 ms)
+
+Unloading 2 Unused Serialized files (Serialized files now loaded: 8)
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+UnloadTime: 0.433900 ms
+checking editor settings...
+bodysizes genes are active
+CharacterEditor v1.6.3 ...done
+Unloading 5 unused Assets to reduce memory usage. Loaded Objects now: 36387.
+Total: 341.511300 ms (FindLiveObjects: 2.338800 ms CreateObjectMapping: 2.360900 ms MarkObjects: 336.717400 ms  DeleteObjects: 0.093800 ms)
+
+RandomElementByWeight with totalWeight=0 - use TryRandomElementByWeight.
+Unloading 2 Unused Serialized files (Serialized files now loaded: 8)
+Unloading 0 unused Assets to reduce memory usage. Loaded Objects now: 38108.
+Total: 360.559800 ms (FindLiveObjects: 1.947400 ms CreateObjectMapping: 1.277500 ms MarkObjects: 357.182000 ms  DeleteObjects: 0.151700 ms)
+
+Accessing TicksAbs but gameStartAbsTick is not set yet (you most likely want to use GenTicks.TicksAbs instead).
+Unloading 3 Unused Serialized files (Serialized files now loaded: 8)
+UnloadTime: 0.202300 ms
+Unloading 4 unused Assets to reduce memory usage. Loaded Objects now: 38501.
+Total: 344.196200 ms (FindLiveObjects: 1.911700 ms CreateObjectMapping: 1.060700 ms MarkObjects: 341.143900 ms  DeleteObjects: 0.079700 ms)
+
+Initializing new game with mods:
+  - brrainz.harmony
+  - ilyvion.LoadingProgress
+  - Ludeon.RimWorld
+  - Ludeon.RimWorld.Royalty
+  - Ludeon.RimWorld.Ideology
+  - Ludeon.RimWorld.Biotech
+  - Ludeon.RimWorld.Anomaly
+  - Ludeon.RimWorld.Odyssey
+  - Ogliss.AVPXenomorphs
+  - UnlimitedHugs.HugsLib
+  - UnlimitedHugs.AllowTool
+  - Darknote.BunkBeds
+  - brrainz.cameraplus
+  - Aoba.Tent
+  - void.charactereditor
+  - Cerule.CleaningAreaRelaunched
+  - erdelf.HumanoidAlienRaces
+  - zal.covetheus
+  - CaesarV6.DamageIndicators
+  - telardo.DragSelect
+  - Dubwise.DubsMintMenus
+  - dubwise.dubsmintminimap
+  - Dubwise.DubsPerformanceAnalyzer.steam
+  - zeracronius.dynamictradeinterface
+  - Romyashi.ExtractAnyPlant
+  - matvey24.FPSStabilizer
+  - MemeGoddess.GiddyUp
+  - GonDragon.TTPF
+  - adaptive.storage.framework
+  - OskarPotocki.VanillaFactionsExpanded.Core
+  - OskarPotocki.VFE.Empire
+  - OskarPotocki.VFE.Deserters
+  - GonDragon.TechTree
+  - jkluch.HaulToStack
+  - Taveron.IncreasedStack
+  - Aoba.Fortress.Industrial.Concrete
+  - futurplanet.industrialconcretefloorpatch
+  - Koth.ISiD
+  - ASF.DeepStorage
+  - jecrell.doorsexpanded
+  - Haplo.Miscellaneous.Robots
+  - avius.locks
+  - Mlie.LogAfterDefError
+  - plaxen.MalangBodies
+  - m00nl1ght.MapPreview
+  - sumghai.Medpod
+  - co.uk.epicguru.meleeanimation
+  - notfood.MendAndRecycle
+  - Cain.Mineshaft
+  - erdelf.MinifyEverything
+  - mosi.MoreMiniHorns
+  - IssacZhuang.MuzzleFlash
+  - zal.namesgalore
+  - VitaKaninen.ShelfPatch
+  - Doug.NoJobAuthors
+  - mrwireman.Noconduit
+  - komunre.BetterExp.PassiveResearch
+  - Mlie.PredatorHuntAlert
+  - DawnsGlow.qualcolor
+  - sdknm2.QualityOfBuilding
+  - Memegoddess.ReplaceStuff
+  - Aelanna.ResearchTabColors
+  - fluffy.researchtree
+  - XanderNirpows.ResearchPalForked16
+  - aRandomKiwi.RimSaves
+  - rimsenal.core
+  - rimsenal.security
+  - Mlie.RunAndHide
+  - MemeGoddess.RunAndGun
+  - BP.ShowBuildableMaterialCount
+  - zal.simplefxshinies
+  - Owlchemist.SimpleFX.Smoke2
+  - Owlchemist.SimpleFX.Splashes
+  - Atlas.SimpleFX.Vapor.Revaporized
+  - Owlchemist.FridgeUtilities
+  - PeteTimesSix.SimpleSidearms
+  - Haecriver.SimplyMoreColors
+  - sarg.smartspeed
+  - dhultgren.smarterconstruction
+  - Garwel.StartingTechLevel
+  - void.terraformrimworld
+[AVP Xenomorphs] Xenomorph faction is null - Queen spawned with no faction
+[AVP Xenomorphs] Xenomorph faction is null - Drone spawned with no faction
+[AVP Xenomorphs] Xenomorph faction is null - Drone spawned with no faction
+[AVP Xenomorphs] Xenomorph faction is null - Drone spawned with no faction
+[AVP Xenomorphs] Xenomorph faction is null - Drone spawned with no faction
+[AVP Xenomorphs] Xenomorph faction is null - Drone spawned with no faction
+[AVP Xenomorphs] Xenomorph faction is null - Drone spawned with no faction
+[AVP Xenomorphs] Xenomorph faction is null - Drone spawned with no faction
+[AVP Xenomorphs] Xenomorph faction is null - Drone spawned with no faction
+[AVP Xenomorphs] Xenomorph faction is null - Drone spawned with no faction
+[AVP Xenomorphs] Xenomorph faction is null - Drone spawned with no faction
+[AVP Xenomorphs] Xenomorph faction is null - Drone spawned with no faction
+[AVP Xenomorphs] Xenomorph faction is null - Drone spawned with no faction
+checking editor settings...
+bodysizes genes are active
+[AVP Xenomorphs] Created Xenomorph hive faction (was missing).
+Unloading 0 Unused Serialized files (Serialized files now loaded: 8)
+Unloading 1 unused Assets to reduce memory usage. Loaded Objects now: 46633.
+Total: 362.095700 ms (FindLiveObjects: 2.358800 ms CreateObjectMapping: 3.084200 ms MarkObjects: 356.399300 ms  DeleteObjects: 0.252200 ms)
+
+[AVP Xenomorphs] [Mine] Suppressing chunks for Drone mining Limestone (tick 828)
+[AVP Xenomorphs] [Mine] Suppressing chunks for Drone mining Limestone (tick 1084)
+[AVP Xenomorphs] [Mine] Suppressing chunks for Drone mining Limestone (tick 1471)
+[AVP Xenomorphs] [Mine] Suppressing chunks for Drone mining Limestone (tick 1728)
+[AVP Xenomorphs] [Mine] Suppressing chunks for Drone mining Limestone (tick 2176)
+[AVP Xenomorphs] [Mine] Suppressing chunks for Drone mining Limestone (tick 2476)
+[AVP Xenomorphs] [Mine] Suppressing chunks for Drone mining Limestone (tick 2866)
+[AVP Xenomorphs] [Mine] Suppressing chunks for Drone mining Limestone (tick 3123)
+[AVP Xenomorphs] [Mine] Suppressing chunks for Drone mining Limestone (tick 3670)
+[AVP Xenomorphs] [Mine] Suppressing chunks for Drone mining Limestone (tick 3929)
+[AVP Xenomorphs] [Mine] Suppressing chunks for Drone mining Limestone (tick 4299)
+[AVP Xenomorphs] [Mine] Suppressing chunks for Drone mining Limestone (tick 4578)
+[AVP Xenomorphs] [Mine] Suppressing chunks for Drone mining Limestone (tick 4893)
+[AVP Xenomorphs] [Mine] Suppressing chunks for Drone mining Limestone (tick 5174)
+[AVP Xenomorphs] [Mine] Suppressing chunks for Drone mining Limestone (tick 5611)
+[AVP Xenomorphs] [Mine] Suppressing chunks for Drone mining Limestone (tick 5863)
+[AVP Xenomorphs] [Mine] Suppressing chunks for Drone mining Limestone (tick 6258)
+[AVP Xenomorphs] [Mine] Suppressing chunks for Drone mining Limestone (tick 6704)
+Wrote screenshot C:\Users\clint\AppData\LocalLow\Ludeon Studios\RimWorld by Ludeon Studios\RimSaves\Previews\USCSS Colony21.dat of size 172589
+[AVP Xenomorphs] [Mine] Suppressing chunks for Drone mining Limestone (tick 7098)
+[AVP Xenomorphs] [Mine] Suppressing chunks for Drone mining Limestone (tick 7492)
+[AVP Xenomorphs] [Mine] Suppressing chunks for Drone mining Limestone (tick 7765)
+[AVP Xenomorphs] [Mine] Suppressing chunks for Drone mining Limestone (tick 8132)
+[AVP Xenomorphs] [Mine] Suppressing chunks for Drone mining Limestone (tick 8405)
+[AVP Xenomorphs] [Mine] Suppressing chunks for Drone mining Limestone (tick 8793)
+[AVP Xenomorphs] [Mine] Suppressing chunks for Drone mining Limestone (tick 9301)
+[AVP Xenomorphs] [Mine] Suppressing chunks for Drone mining Limestone (tick 9569)
+[AVP Xenomorphs] [Mine] Suppressing chunks for Drone mining Limestone (tick 9934)
+[AVP Xenomorphs] [Mine] Suppressing chunks for Drone mining Limestone (tick 25300)
+[AVP Xenomorphs] [Mine] Suppressing chunks for Drone mining Limestone (tick 25638)
+[AVP Xenomorphs] [Mine] Suppressing chunks for Drone mining Limestone (tick 25953)
+[AVP Xenomorphs] [Mine] Suppressing chunks for Drone mining Limestone (tick 26291)
+[AVP Xenomorphs] [Mine] Suppressing chunks for Drone mining Limestone (tick 26582)
+[AVP Xenomorphs] [Mine] Suppressing chunks for Drone mining Limestone (tick 26920)
+[AVP Xenomorphs] [Mine] Suppressing chunks for Drone mining Limestone (tick 27319)
+[AVP Xenomorphs] [Mine] Suppressing chunks for Drone mining Limestone (tick 27616)
+[AVP Xenomorphs] [Mine] Suppressing chunks for Drone mining Limestone (tick 27922)
+[AVP Xenomorphs] [Mine] Suppressing chunks for Drone mining Limestone (tick 28314)
+[AVP Xenomorphs] [Mine] Suppressing chunks for Drone mining Limestone (tick 28874)
+Wrote screenshot C:\Users\clint\AppData\LocalLow\Ludeon Studios\RimWorld by Ludeon Studios\RimSaves\Previews\USCSS Colony22.dat of size 88712
+
     Driver:   32.0.16.1088
 Begin MonoManager ReloadAssembly
 - Loaded All Assemblies, in  0.153 seconds
