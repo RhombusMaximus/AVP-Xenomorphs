@@ -110,7 +110,9 @@ namespace RRYautja
             Material mat = maskGraphic.MatAt(pawn.Rotation);
             if (mat == null) return;
 
-            GenDraw.DrawMeshNowOrLater(MeshPool.plane10, Matrix4x4.TRS(pos, Quaternion.identity, drawSize), mat);
+            // Use GenDraw.DrawMeshNowOrLater — renders in the map camera pipeline
+            Matrix4x4 matrix = Matrix4x4.TRS(pos, Quaternion.identity, drawSize);
+            GenDraw.DrawMeshNowOrLater(MeshPool.plane10, matrix, mat, false);
         }
     }
 }
