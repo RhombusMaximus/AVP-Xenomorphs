@@ -522,6 +522,10 @@
     <defName>RRY_Xenomorph_Drone</defName>
     <label>Drone</label>
     <description>Drones are an adult form of the species Xenomorph XX121, often said to be the most basic adult caste. They are loyal servants of the Queen, but essentially represents the lowliest class of Xenomorph, comparable to a worker ant. Drones construct Xenomorph Hives, using a resin-like secretion that they produce, and collect hosts for impregnation./n/n Drones are easily identified by their smooth head carapaces, among the smoothest of all Xenomorphs, and they are capable of spitting cysts of acidic blood at their enemies. They average around 8 feet tall when standing on hind legs, and about 14–15 feet long, tail included.</description>
+    <graphicData>
+      <texPath>Things/Pawn/Xenomorph/Xenomorph_Drone</texPath>
+      <graphicClass>Graphic_Multi</graphicClass>
+    </graphicData>
     <statBases>
       <MoveSpeed>2.6</MoveSpeed>
       <MeleeDodgeChance>0.875</MeleeDodgeChance>

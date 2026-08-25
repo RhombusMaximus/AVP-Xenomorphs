@@ -25,10 +25,10 @@
     </statBases>
     <apparel>
       <bodyPartGroups>
-        <li>FullHead</li>
+        <li>UpperHead</li>
       </bodyPartGroups>
       <layers>
-        <li>Overhead</li>
+        <li>EyeCover</li>
       </layers>
       <defaultOutfitTags>
         <li>Worker</li>
@@ -50,6 +50,15 @@
     <label>Royal Facehugger</label>
     <description>A royal facehugger attached to a host's face.</description>
     <apparel>
+      <bodyPartGroups>
+        <li>UpperHead</li>
+      </bodyPartGroups>
+      <layers>
+        <li>EyeCover</li>
+      </layers>
+      <defaultOutfitTags>
+        <li>Worker</li>
+      </defaultOutfitTags>
       <wornGraphicPath>Things/Pawn/Xenomorph/Xenomorph_FaceHuggerRoyal_Mask</wornGraphicPath>
     </apparel>
   </ThingDef>
