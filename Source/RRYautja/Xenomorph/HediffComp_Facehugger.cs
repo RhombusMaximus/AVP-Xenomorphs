@@ -281,6 +281,8 @@ namespace RRYautja
                     // Use RemoveHediff instead of direct list removal to ensure proper cleanup
                     Pawn.health.RemoveHediff(this.parent);
                     return;
+                }
+            }
         }
 
         public override void Notify_PawnDied(DamageInfo? dinfo, Hediff culprit = null)
