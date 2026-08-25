@@ -124,6 +124,8 @@ namespace RRYautja
                 Apparel apparel = (Apparel)ThingMaker.MakeThing(maskDef, null);
                 // Add via the WornApparel list
                 Pawn.apparel.WornApparel.Add(apparel);
+                // Force the render tree to recache so the new apparel shows up
+                Pawn.Drawer.renderer.graphics.forceRenderTreeRecache = true;
                 maskApparel = apparel;
                 AvPDebug.LogOnce("MaskAdd", "[AVP Xenomorphs] Added facehugger mask apparel to " + Pawn.LabelShort);
             }
@@ -144,6 +146,8 @@ namespace RRYautja
                 {
                     Pawn.apparel.Remove(mask);
                     mask.Destroy();
+                    // Force render tree recache so the removed apparel disappears
+                    Pawn.Drawer.renderer.graphics.forceRenderTreeRecache = true;
                     AvPDebug.LogOnce("MaskRemove", "[AVP Xenomorphs] Removed facehugger mask apparel from " + Pawn.LabelShort);
                 }
             }
