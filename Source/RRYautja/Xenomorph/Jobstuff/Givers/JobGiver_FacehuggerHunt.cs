@@ -168,6 +168,11 @@ namespace RimWorld
                                         if (!tutorialMode || pawn2.Faction != Faction.OfPlayer)
                                         {
                                             float preyScoreFor = FoodUtility.GetPreyScoreFor(predator, pawn2);
+                                            // Prioritize downed pawns (easy targets, can't fight back)
+                                            if (pawn2.Downed)
+                                            {
+                                                preyScoreFor *= 5f; // Downed targets get 5x score boost
+                                            }
                                             // Prioritize animals over humanlike pawns
                                             if (!pawn2.RaceProps.Humanlike)
                                             {
