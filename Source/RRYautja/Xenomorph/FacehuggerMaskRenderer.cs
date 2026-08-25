@@ -12,6 +12,7 @@ namespace RRYautja
 {
     /// <summary>
     /// Draws facehugger mask overlay on pawns that have the FaceHuggerInfection hediff.
+    /// Uses GenDraw.DrawMeshNowOrLater to render in the map rendering pipeline.
     /// </summary>
     [StaticConstructorOnStartup]
     static class FacehuggerMaskRenderer
@@ -36,23 +37,36 @@ namespace RRYautja
                     Vector2.one,
                     Color.white);
 
-                // Log whether graphics loaded
                 if (facehuggerMaskGraphic != null)
                     AvPDebug.LogOnce("MaskInit", "[AVP Xenomorphs] Facehugger mask graphic loaded: " + facehuggerMaskGraphic.path);
                 else
                     AvPDebug.Error("Facehugger mask graphic failed to load!");
 
-                var drawMethod = AccessTools.Method(typeof(Pawn), "DrawAt");
+                // Patch the Comps_DrawAt method which is called AFTER the pawn body renders
+                // This ensures the mask is drawn on top of the pawn
+                var drawMethod = AccessTools.Method(typeof(ThingWithComps), "DrawAt");
                 if (drawMethod != null)
                 {
                     var harmony = new Harmony("com.ogliss.rimworld.mod.rryatuja.facehuggermask");
                     harmony.Patch(drawMethod, postfix: new HarmonyMethod(typeof(FacehuggerMaskRenderer), nameof(DrawAtPostfix)));
-                    AvPDebug.LogOnce("Patch", "[AVP Xenomorphs] Patched Pawn.DrawAt for facehugger mask");
+                    AvPDebug.LogOnce("Patch", "[AVP Xenomorphs] Patched ThingWithComps.DrawAt for facehugger mask");
                     initialized = true;
                 }
                 else
                 {
-                    Log.Warning("[AVP Xenomorphs] Pawn.DrawAt not found, facehugger mask will not render");
+                    // Fallback to Pawn.DrawAt
+                    var pawnDraw = AccessTools.Method(typeof(Pawn), "DrawAt");
+                    if (pawnDraw != null)
+                    {
+                        var harmony = new Harmony("com.ogliss.rimworld.mod.rryatuja.facehuggermask");
+                        harmony.Patch(pawnDraw, postfix: new HarmonyMethod(typeof(FacehuggerMaskRenderer), nameof(DrawAtPostfix)));
+                        AvPDebug.LogOnce("Patch", "[AVP Xenomorphs] Patched Pawn.DrawAt for facehugger mask");
+                        initialized = true;
+                    }
+                    else
+                    {
+                        Log.Warning("[AVP Xenomorphs] No DrawAt method found, facehugger mask will not render");
+                    }
                 }
             }
             catch (Exception e)
@@ -61,11 +75,12 @@ namespace RRYautja
             }
         }
 
-        public static void DrawAtPostfix(Pawn __instance, Vector3 drawLoc, bool flip)
+        public static void DrawAtPostfix(Thing __instance, Vector3 drawLoc, bool flip)
         {
             if (!initialized) return;
-            if (__instance == null || !__instance.Spawned || __instance.Dead) return;
-            TryDrawMask(__instance, drawLoc);
+            if (__instance == null || !__instance.Spawned) return;
+            if (!(__instance is Pawn pawn)) return;
+            TryDrawMask(pawn, drawLoc);
         }
 
         public static void TryDrawMask(Pawn pawn, Vector3 drawLoc)
@@ -80,27 +95,22 @@ namespace RRYautja
             var facehuggerComp = hediff.TryGetComp<HediffComp_XenoFacehugger>();
             if (facehuggerComp == null) return;
 
-            // Debug logging — rate limited via AvPDebug
             AvPDebug.Log("Mask", "Drawing mask for " + pawn.LabelShort + " (royal=" + facehuggerComp.RoyaleHugger + ")");
 
             Graphic maskGraphic = facehuggerComp.RoyaleHugger ? royalFacehuggerMaskGraphic : facehuggerMaskGraphic;
             if (maskGraphic == null) return;
 
-            // Draw at pawn position, slightly above pawn draw layer
+            // Use GenDraw.DrawMeshNowOrLater — renders in the map camera pipeline
             Vector3 pos = drawLoc;
-            // Use the same altitude as the pawn but slightly higher so mask is visible on top
-            pos.y += 0.03f;
+            pos.y += 0.03f; // Slightly above pawn body
 
-            float scale = Mathf.Lerp(1.0f, 1.3f, pawn.BodySize);
+            float scale = pawn.RaceProps.Humanlike ? 1.0f : Mathf.Lerp(1.2f, 1.55f, pawn.BodySize);
             Vector3 drawSize = new Vector3(scale, 1f, scale);
 
-            // Get the material for the pawn's facing direction
             Material mat = maskGraphic.MatAt(pawn.Rotation);
             if (mat == null) return;
 
-            // Use GenDraw to render — this respects the camera and rendering pipeline
-            Matrix4x4 matrix = Matrix4x4.TRS(pos, Quaternion.identity, drawSize);
-            Graphics.DrawMesh(MeshPool.plane10, matrix, mat, 0);
+            GenDraw.DrawMeshNowOrLater(MeshPool.plane10, Matrix4x4.TRS(pos, Quaternion.identity, drawSize), mat);
         }
     }
 }
