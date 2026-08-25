@@ -11,7 +11,7 @@ Direct3D:
     VRAM:     8042 MB
     Driver:   32.0.16.1088
 Begin MonoManager ReloadAssembly
-- Loaded All Assemblies, in  0.158 seconds
+- Loaded All Assemblies, in  4.056 seconds
 - Finished resetting the current domain, in  0.001 seconds
 <RI> Initializing input.
 
@@ -20,21 +20,21 @@ Begin MonoManager ReloadAssembly
 <RI> Initialized touch support.
 
 [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
-UnloadTime: 0.641200 ms
+UnloadTime: 0.876300 ms
 Command line arguments: -disable-compute-shaders
 RimWorld 1.6.4871 rev591
 Mod Realistic Humansounds HAR Patch dependency (Mlie.RealisticHumanSounds) needs to have <downloadUrl> and/or <steamWorkshopUrl> specified.
-Fallback handler could not load library D:/SteamLibrary/steamapps/common/RimWorld/RimWorldWin64_Data/MonoBleedingEdge/data-000002449A6BD7F0.dll
-Fallback handler could not load library D:/SteamLibrary/steamapps/common/RimWorld/RimWorldWin64_Data/MonoBleedingEdge/data-000002449AD86180.dll
+Fallback handler could not load library D:/SteamLibrary/steamapps/common/RimWorld/RimWorldWin64_Data/MonoBleedingEdge/data-000001B579A49020.dll
+Fallback handler could not load library D:/SteamLibrary/steamapps/common/RimWorld/RimWorldWin64_Data/MonoBleedingEdge/data-000001B579953080.dll
 [Loading Progress] Loading Progress initialized! Enjoy the rest of your loading experience!
 [HugsLib] version 12.0.0
 [HugsLib] early-initializing AllowTool
-Fallback handler could not load library D:/SteamLibrary/steamapps/common/RimWorld/RimWorldWin64_Data/MonoBleedingEdge/data-000002449D8E3050.dll
+Fallback handler could not load library D:/SteamLibrary/steamapps/common/RimWorld/RimWorldWin64_Data/MonoBleedingEdge/data-000001B57C305D20.dll
 DubsMintMenus v1.3.1086
 [Analyzer] Loaded version 1.6.0 rev 1
 [Analyzer] ResearchTree
 FPSStabilizer v1.1 loaded, patcher message: Patched successfully, fps set to 60
-Fallback handler could not load library D:/SteamLibrary/steamapps/common/RimWorld/RimWorldWin64_Data/MonoBleedingEdge/data-00000244A1D81EE0.dll
+Fallback handler could not load library D:/SteamLibrary/steamapps/common/RimWorld/RimWorldWin64_Data/MonoBleedingEdge/data-000001B38152C130.dll
 <color=#66ffb5>[MeleeAnim]</color> Hello, world!
 Build date: 4/13/2026 8:02 AM
 Loaded assemblies (9):
@@ -53,12 +53,6 @@ AM.AlienRacesPatch, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null
 RimSaves NX rev27
 [SafePatcher]The xPath: "Defs/ThingDef[defName="Gun_NestMMG"]" not found
 [SafePatcher]The xPath: "Defs/ThingDef[defName="Gun_NestMissile"]" not found
-Could not find a type named RimWorld.PawnsArrivalModeWorker_DropPod
-[Def Error]: RRY_DropThroughRoofNearPower
-AVP Xenomorphs\Defs\Misc\PawnsArrivalModeDefs\PawnsArrivalModes.xml
-Could not find a type named RimWorld.PawnsArrivalModeWorker_DropPod
-[Def Error]: RRY_RandomDropThroughRoof
-AVP Xenomorphs\Defs\Misc\PawnsArrivalModeDefs\PawnsArrivalModes.xml
 Tried to load duplicate UnityEngine.Texture2D with path: FilesystemFile [D:\SteamLibrary\steamapps\common\RimWorld\Mods\AVP-Xenomorphs\Textures\Things\Addons\Blood_Marks\Xenomorph_Kills\Mark_Thrumbomorphkill_south.psd], Length 28603 and internal path: Things/Addons/Blood_Marks/Xenomorph_Kills/Mark_Thrumbomorphkill_south
 Texture TribalA has dimensions of 64 x 64, but its mask has 128 x 128. This is not supported, texture will be excluded from atlas
 Could not execute post-long-event action. Exception: System.NullReferenceException: Object reference not set to an instance of an object
@@ -104,7 +98,7 @@ NamesGalore: Current Lang English
 (Research Tab Colors) Transpiler injected.
 Unloading 5 Unused Serialized files (Serialized files now loaded: 5)
 Unloading 529 unused Assets to reduce memory usage. Loaded Objects now: 34443.
-Total: 281.248900 ms (FindLiveObjects: 1.736900 ms CreateObjectMapping: 1.076100 ms MarkObjects: 277.636000 ms  DeleteObjects: 0.799400 ms)
+Total: 286.836300 ms (FindLiveObjects: 1.783100 ms CreateObjectMapping: 1.064800 ms MarkObjects: 283.202000 ms  DeleteObjects: 0.786000 ms)
 
 MVCF successfully applied 41 patches
 [com.ogliss.rimworld.mod.rryatuja.minepatch] Patches on methods annotated as Obsolete were detected by HugsLib: RimWorld.Mineable.TrySpawnYield
@@ -291,25 +285,25 @@ Transpilers:
 Postfixes:
   [PeteTimesSix.SimpleSidearms] TryCastShot
 Unloading 1 Unused Serialized files (Serialized files now loaded: 7)
-<color=#66ffb5>[MeleeAnim]</color> PreCached all retexture info in 33.2ms
+<color=#66ffb5>[MeleeAnim]</color> PreCached all retexture info in 29.7ms
 <color=#66ffb5>[MeleeAnim]</color> Loaded tweak data for 29 weapons.
 <color=#66ffb5>[MeleeAnim]</color> ludeon.rimworld.odyssey 'Odyssey' has 2 missing weapon tweak data.
 <color=#66ffb5>[MeleeAnim]</color> ogliss.avpxenomorphs 'AVP Xenomorphs' has 3 missing weapon tweak data.
 <color=#66ffb5>[MeleeAnim]</color> Skipping reporting of missing mod/weapons because user opted out or the feature is disabled by the developer.
-<color=#66ffb5>[MeleeAnim]</color> Patched 3 classes that directly inherit from Verb_MeleeAttack in 56.9 ms to detect hits:
+<color=#66ffb5>[MeleeAnim]</color> Patched 3 classes that directly inherit from Verb_MeleeAttack in 57.5 ms to detect hits:
 RimWorld.Verb_MeleeApplyHediff from Assembly-CSharp
 RimWorld.Verb_MeleeAttackDamage from Assembly-CSharp
 RRYautja.Verb_MeleeAttackKnockback from RRYautja
 <color=#66ffb5>[MeleeAnim]</color> Found 0 items of clothing that cover hands, took 0.72 ms:
 Unloading 55 unused Assets to reduce memory usage. Loaded Objects now: 34607.
-Total: 267.349500 ms (FindLiveObjects: 1.674000 ms CreateObjectMapping: 1.866200 ms MarkObjects: 263.690100 ms  DeleteObjects: 0.119000 ms)
+Total: 271.731000 ms (FindLiveObjects: 1.728400 ms CreateObjectMapping: 1.065400 ms MarkObjects: 268.822600 ms  DeleteObjects: 0.114300 ms)
 
 Unloading 0 Unused Serialized files (Serialized files now loaded: 7)
 Loading asset bundle MuzzleFlash.shaders-windows
 Loaded shader Unlit/AnimatedAdditiveInstanced
 [Muzzle Flash] Shader loaded from MuzzleFlash: Unlit/AnimatedAdditiveInstanced
 Unloading 0 unused Assets to reduce memory usage. Loaded Objects now: 34609.
-Total: 259.705600 ms (FindLiveObjects: 1.752100 ms CreateObjectMapping: 1.960900 ms MarkObjects: 255.931300 ms  DeleteObjects: 0.060700 ms)
+Total: 270.302500 ms (FindLiveObjects: 1.848400 ms CreateObjectMapping: 2.033400 ms MarkObjects: 266.374700 ms  DeleteObjects: 0.045700 ms)
 
 Unloading 0 Unused Serialized files (Serialized files now loaded: 8)
 [Loading Progress] Why is ResearchPal.Profiler.Start from ResearchPal 1.6 - Temp calling DeepProfiler.Start (and by extension our patch) with null?! Stop it.
@@ -320,11 +314,11 @@ Unloading 0 Unused Serialized files (Serialized files now loaded: 8)
 [Loading Progress] Why is ResearchPal.Profiler.Start from ResearchPal 1.6 - Temp calling DeepProfiler.Start (and by extension our patch) with null?! Stop it.
 ResearchPal :: Research layout initialized
 Unloading 0 unused Assets to reduce memory usage. Loaded Objects now: 34609.
-Total: 266.112300 ms (FindLiveObjects: 1.649400 ms CreateObjectMapping: 0.892700 ms MarkObjects: 263.504400 ms  DeleteObjects: 0.065200 ms)
+Total: 270.106200 ms (FindLiveObjects: 1.634600 ms CreateObjectMapping: 0.827500 ms MarkObjects: 267.595200 ms  DeleteObjects: 0.048600 ms)
 
 Unloading 0 Unused Serialized files (Serialized files now loaded: 8)
 Unloading 0 unused Assets to reduce memory usage. Loaded Objects now: 34609.
-Total: 268.030000 ms (FindLiveObjects: 1.835000 ms CreateObjectMapping: 2.232200 ms MarkObjects: 263.872100 ms  DeleteObjects: 0.090300 ms)
+Total: 260.575400 ms (FindLiveObjects: 2.123600 ms CreateObjectMapping: 2.231700 ms MarkObjects: 256.168200 ms  DeleteObjects: 0.051600 ms)
 
 [HugsLib] initializing TerraformRimworld
 CE is trying to create default parameter lists ...
@@ -340,16 +334,13 @@ no modifications for genes
 no modifications for lifestages
 ...done
 Unloading 2 Unused Serialized files (Serialized files now loaded: 8)
-Unloading 0 unused Assets to reduce memory usage. Loaded Objects now: 36621.
-Total: 312.382600 ms (FindLiveObjects: 1.813800 ms CreateObjectMapping: 1.025900 ms MarkObjects: 309.478700 ms  DeleteObjects: 0.063900 ms)
+Unloading 0 unused Assets to reduce memory usage. Loaded Objects now: 36498.
+Total: 377.796400 ms (FindLiveObjects: 2.170500 ms CreateObjectMapping: 1.513100 ms MarkObjects: 374.053700 ms  DeleteObjects: 0.058800 ms)
 
-A hidden ritual precept was missing, adding: Bestow honor
-A hidden ritual precept was missing, adding: Bestow title
-A hidden ritual precept was missing, adding: Royal address
 Unloading 3 Unused Serialized files (Serialized files now loaded: 8)
-UnloadTime: 0.571400 ms
-Unloading 4 unused Assets to reduce memory usage. Loaded Objects now: 37043.
-Total: 314.233600 ms (FindLiveObjects: 1.740900 ms CreateObjectMapping: 1.047200 ms MarkObjects: 311.353800 ms  DeleteObjects: 0.091500 ms)
+UnloadTime: 1.524700 ms
+Unloading 3 unused Assets to reduce memory usage. Loaded Objects now: 36917.
+Total: 316.640800 ms (FindLiveObjects: 1.800200 ms CreateObjectMapping: 2.164500 ms MarkObjects: 312.480800 ms  DeleteObjects: 0.195100 ms)
 
 Initializing new game with mods:
   - brrainz.harmony
@@ -437,11 +428,13 @@ Initializing new game with mods:
   - dhultgren.smarterconstruction
   - Garwel.StartingTechLevel
   - void.terraformrimworld
-[Simple FX: Shinies] Tried to remove a shiny area from unknown map: 0
-[Simple FX: Shinies] Tried to remove a shiny area from unknown map: 0
-[Simple FX: Shinies] Tried to remove a shiny area from unknown map: 0
-[Simple FX: Shinies] Tried to remove a shiny area from unknown map: 0
 [AVP Xenomorphs] Xenomorph faction is null - Queen spawned with no faction
+[AVP Xenomorphs] Xenomorph faction is null - Drone spawned with no faction
+[AVP Xenomorphs] Xenomorph faction is null - Drone spawned with no faction
+[AVP Xenomorphs] Xenomorph faction is null - Drone spawned with no faction
+[AVP Xenomorphs] Xenomorph faction is null - Drone spawned with no faction
+[AVP Xenomorphs] Xenomorph faction is null - Drone spawned with no faction
+[AVP Xenomorphs] Xenomorph faction is null - Drone spawned with no faction
 [AVP Xenomorphs] Xenomorph faction is null - Drone spawned with no faction
 [AVP Xenomorphs] Xenomorph faction is null - Drone spawned with no faction
 [AVP Xenomorphs] Xenomorph faction is null - Drone spawned with no faction
@@ -456,580 +449,103 @@ checking editor settings...
 bodysizes genes are active
 [AVP Xenomorphs] Created Xenomorph hive faction (was missing).
 Unloading 0 Unused Serialized files (Serialized files now loaded: 8)
-Unloading 1 unused Assets to reduce memory usage. Loaded Objects now: 44862.
-Total: 354.201500 ms (FindLiveObjects: 2.357200 ms CreateObjectMapping: 2.679600 ms MarkObjects: 349.055000 ms  DeleteObjects: 0.109500 ms)
+Unloading 1 unused Assets to reduce memory usage. Loaded Objects now: 44978.
+Total: 345.409600 ms (FindLiveObjects: 2.363900 ms CreateObjectMapping: 1.997300 ms MarkObjects: 340.944300 ms  DeleteObjects: 0.103800 ms)
 
-Exception in UIRootUpdate: System.ArgumentNullException: Value cannot be null.
-Parameter name: key
-[Ref B9E4F9EB]
- [0x00006] in <51fded79cd284d4d911c5949aff4cb21>:0 
-  at System.Collections.Generic.Dictionary`2[TKey,TValue].FindEntry (TKey key) [0x00008] in <51fded79cd284d4d911c5949aff4cb21>:0 
-  at System.Collections.Generic.Dictionary`2[TKey,TValue].TryGetValue (TKey key, TValue& value) [0x00000] in <51fded79cd284d4d911c5949aff4cb21>:0 
-  at Verse.ModContentHolder`1[T].Get (System.String path) [0x00000] in <61e4173561894da49d210260257b5097>:0 
-  at Verse.ContentFinder`1[T].Get (System.String itemPath, System.Boolean reportFailure) [0x00066] in <61e4173561894da49d210260257b5097>:0 
-  at Verse.Graphic_Single.Init (Verse.GraphicRequest req) [0x00048] in <61e4173561894da49d210260257b5097>:0 
-  at Verse.GraphicDatabase.GetInner[T] (Verse.GraphicRequest req) [0x000a5] in <61e4173561894da49d210260257b5097>:0 
-  at Verse.GraphicDatabase.Get[T] (System.String path, UnityEngine.Shader shader, UnityEngine.Vector2 drawSize, UnityEngine.Color color, System.Int32 renderQueue) [0x0001d] in <61e4173561894da49d210260257b5097>:0 
-  at Replace_Stuff.OverMineable.ShowGhostOverFog.GetRenderHigh (System.String path, UnityEngine.Shader shader, UnityEngine.Vector2 drawSize, UnityEngine.Color color) [0x00000] in <328a960ccd7e402da507c97704111424>:0 
-  at Verse.GhostUtility.GhostGraphicFor (Verse.Graphic baseGraphic, Verse.ThingDef thingDef, UnityEngine.Color ghostCol, Verse.ThingDef stuff) [0x0008b] in <61e4173561894da49d210260257b5097>:0 
-    - TRANSPILER Uuugggg.rimworld.Replace_Stuff.main: IEnumerable`1 Replace_Stuff.OverMineable.ShowGhostOverFog:Transpiler(IEnumerable`1 instructions)
-    - TRANSPILER rimworld.jecrell.doorsexpanded: IEnumerable`1 DoorsExpanded.HarmonyPatches:DoorExpandedGhostGraphicForTranspiler(IEnumerable`1 instructions)
-  at Verse.GhostDrawer.DrawGhostThing (Verse.IntVec3 center, Verse.Rot4 rot, Verse.ThingDef thingDef, Verse.Graphic baseGraphic, UnityEngine.Color ghostCol, Verse.AltitudeLayer drawAltitude, Verse.Thing thing, System.Boolean drawPlaceWorkers, Verse.ThingDef stuff) [0x0001c] in <61e4173561894da49d210260257b5097>:0 
-    - TRANSPILER rimworld.jecrell.doorsexpanded: IEnumerable`1 DoorsExpanded.HarmonyPatches:DoorExpandedDrawGhostThingTranspiler(IEnumerable`1 instructions)
-  at RimWorld.Designator_Install.DrawGhost (UnityEngine.Color ghostCol) [0x000a5] in <61e4173561894da49d210260257b5097>:0 
-  at RimWorld.Designator_Place.SelectedUpdate () [0x0007f] in <61e4173561894da49d210260257b5097>:0 
-  at RimWorld.Designator_Install.SelectedUpdate () [0x00000] in <61e4173561894da49d210260257b5097>:0 
-    - POSTFIX Kikohi.PipeSystem: Void PipeSystem.Designator_Install_Patch:Postfix(Designator_Install __instance)
-  at Verse.DesignatorManager.DesignatorManagerUpdate () [0x00013] in <61e4173561894da49d210260257b5097>:0 
-  at RimWorld.MapInterface.MapInterfaceUpdate () [0x00025] in <61e4173561894da49d210260257b5097>:0 
-  at RimWorld.UIRoot_Play.UIRootUpdate () [0x00015] in <61e4173561894da49d210260257b5097>:0 
-Exception in UIRootUpdate: System.ArgumentNullException: Value cannot be null.
-Parameter name: key
-[Ref B9E4F9EB] Duplicate stacktrace, see ref for original
-Exception in UIRootUpdate: System.ArgumentNullException: Value cannot be null.
-Parameter name: key
-[Ref B9E4F9EB] Duplicate stacktrace, see ref for original
-Exception in UIRootUpdate: System.ArgumentNullException: Value cannot be null.
-Parameter name: key
-[Ref B9E4F9EB] Duplicate stacktrace, see ref for original
-Exception in UIRootUpdate: System.ArgumentNullException: Value cannot be null.
-Parameter name: key
-[Ref B9E4F9EB] Duplicate stacktrace, see ref for original
-Exception in UIRootUpdate: System.ArgumentNullException: Value cannot be null.
-Parameter name: key
-[Ref B9E4F9EB] Duplicate stacktrace, see ref for original
-Exception in UIRootUpdate: System.ArgumentNullException: Value cannot be null.
-Parameter name: key
-[Ref B9E4F9EB] Duplicate stacktrace, see ref for original
-Exception in UIRootUpdate: System.ArgumentNullException: Value cannot be null.
-Parameter name: key
-[Ref B9E4F9EB] Duplicate stacktrace, see ref for original
-Exception in UIRootUpdate: System.ArgumentNullException: Value cannot be null.
-Parameter name: key
-[Ref B9E4F9EB] Duplicate stacktrace, see ref for original
-Exception in UIRootUpdate: System.ArgumentNullException: Value cannot be null.
-Parameter name: key
-[Ref B9E4F9EB] Duplicate stacktrace, see ref for original
-Exception in UIRootUpdate: System.ArgumentNullException: Value cannot be null.
-Parameter name: key
-[Ref B9E4F9EB] Duplicate stacktrace, see ref for original
-Exception in UIRootUpdate: System.ArgumentNullException: Value cannot be null.
-Parameter name: key
-[Ref B9E4F9EB] Duplicate stacktrace, see ref for original
-Exception in UIRootUpdate: System.ArgumentNullException: Value cannot be null.
-Parameter name: key
-[Ref B9E4F9EB] Duplicate stacktrace, see ref for original
-Exception in UIRootUpdate: System.ArgumentNullException: Value cannot be null.
-Parameter name: key
-[Ref B9E4F9EB] Duplicate stacktrace, see ref for original
-Exception in UIRootUpdate: System.ArgumentNullException: Value cannot be null.
-Parameter name: key
-[Ref B9E4F9EB] Duplicate stacktrace, see ref for original
-Exception in UIRootUpdate: System.ArgumentNullException: Value cannot be null.
-Parameter name: key
-[Ref B9E4F9EB] Duplicate stacktrace, see ref for original
-Exception in UIRootUpdate: System.ArgumentNullException: Value cannot be null.
-Parameter name: key
-[Ref B9E4F9EB] Duplicate stacktrace, see ref for original
-Exception in UIRootUpdate: System.ArgumentNullException: Value cannot be null.
-Parameter name: key
-[Ref B9E4F9EB] Duplicate stacktrace, see ref for original
-Exception in UIRootUpdate: System.ArgumentNullException: Value cannot be null.
-Parameter name: key
-[Ref B9E4F9EB] Duplicate stacktrace, see ref for original
-Exception in UIRootUpdate: System.ArgumentNullException: Value cannot be null.
-Parameter name: key
-[Ref B9E4F9EB] Duplicate stacktrace, see ref for original
-Exception in UIRootUpdate: System.ArgumentNullException: Value cannot be null.
-Parameter name: key
-[Ref B9E4F9EB] Duplicate stacktrace, see ref for original
-Exception in UIRootUpdate: System.ArgumentNullException: Value cannot be null.
-Parameter name: key
-[Ref B9E4F9EB] Duplicate stacktrace, see ref for original
-Exception in UIRootUpdate: System.ArgumentNullException: Value cannot be null.
-Parameter name: key
-[Ref B9E4F9EB] Duplicate stacktrace, see ref for original
-Exception in UIRootUpdate: System.ArgumentNullException: Value cannot be null.
-Parameter name: key
-[Ref B9E4F9EB] Duplicate stacktrace, see ref for original
-Exception in UIRootUpdate: System.ArgumentNullException: Value cannot be null.
-Parameter name: key
-[Ref B9E4F9EB] Duplicate stacktrace, see ref for original
-Exception in UIRootUpdate: System.ArgumentNullException: Value cannot be null.
-Parameter name: key
-[Ref B9E4F9EB] Duplicate stacktrace, see ref for original
-Exception in UIRootUpdate: System.ArgumentNullException: Value cannot be null.
-Parameter name: key
-[Ref B9E4F9EB] Duplicate stacktrace, see ref for original
-Exception in UIRootUpdate: System.ArgumentNullException: Value cannot be null.
-Parameter name: key
-[Ref B9E4F9EB] Duplicate stacktrace, see ref for original
-Exception in UIRootUpdate: System.ArgumentNullException: Value cannot be null.
-Parameter name: key
-[Ref B9E4F9EB] Duplicate stacktrace, see ref for original
-Exception in UIRootUpdate: System.ArgumentNullException: Value cannot be null.
-Parameter name: key
-[Ref B9E4F9EB] Duplicate stacktrace, see ref for original
-Exception in UIRootUpdate: System.ArgumentNullException: Value cannot be null.
-Parameter name: key
-[Ref B9E4F9EB] Duplicate stacktrace, see ref for original
-Exception in UIRootUpdate: System.ArgumentNullException: Value cannot be null.
-Parameter name: key
-[Ref B9E4F9EB] Duplicate stacktrace, see ref for original
-Exception in UIRootUpdate: System.ArgumentNullException: Value cannot be null.
-Parameter name: key
-[Ref B9E4F9EB] Duplicate stacktrace, see ref for original
-Exception in UIRootUpdate: System.ArgumentNullException: Value cannot be null.
-Parameter name: key
-[Ref B9E4F9EB] Duplicate stacktrace, see ref for original
-Exception in UIRootUpdate: System.ArgumentNullException: Value cannot be null.
-Parameter name: key
-[Ref B9E4F9EB] Duplicate stacktrace, see ref for original
-Exception in UIRootUpdate: System.ArgumentNullException: Value cannot be null.
-Parameter name: key
-[Ref B9E4F9EB] Duplicate stacktrace, see ref for original
-Exception in UIRootUpdate: System.ArgumentNullException: Value cannot be null.
-Parameter name: key
-[Ref B9E4F9EB] Duplicate stacktrace, see ref for original
-Exception in UIRootUpdate: System.ArgumentNullException: Value cannot be null.
-Parameter name: key
-[Ref B9E4F9EB] Duplicate stacktrace, see ref for original
-Exception in UIRootUpdate: System.ArgumentNullException: Value cannot be null.
-Parameter name: key
-[Ref B9E4F9EB] Duplicate stacktrace, see ref for original
-Exception in UIRootUpdate: System.ArgumentNullException: Value cannot be null.
-Parameter name: key
-[Ref B9E4F9EB] Duplicate stacktrace, see ref for original
-Exception in UIRootUpdate: System.ArgumentNullException: Value cannot be null.
-Parameter name: key
-[Ref B9E4F9EB] Duplicate stacktrace, see ref for original
-Exception in UIRootUpdate: System.ArgumentNullException: Value cannot be null.
-Parameter name: key
-[Ref B9E4F9EB] Duplicate stacktrace, see ref for original
-Exception in UIRootUpdate: System.ArgumentNullException: Value cannot be null.
-Parameter name: key
-[Ref B9E4F9EB] Duplicate stacktrace, see ref for original
-Exception in UIRootUpdate: System.ArgumentNullException: Value cannot be null.
-Parameter name: key
-[Ref B9E4F9EB] Duplicate stacktrace, see ref for original
-Exception in UIRootUpdate: System.ArgumentNullException: Value cannot be null.
-Parameter name: key
-[Ref B9E4F9EB] Duplicate stacktrace, see ref for original
-Exception in UIRootUpdate: System.ArgumentNullException: Value cannot be null.
-Parameter name: key
-[Ref B9E4F9EB] Duplicate stacktrace, see ref for original
-Exception in UIRootUpdate: System.ArgumentNullException: Value cannot be null.
-Parameter name: key
-[Ref B9E4F9EB] Duplicate stacktrace, see ref for original
-Exception in UIRootUpdate: System.ArgumentNullException: Value cannot be null.
-Parameter name: key
-[Ref B9E4F9EB] Duplicate stacktrace, see ref for original
-Exception in UIRootUpdate: System.ArgumentNullException: Value cannot be null.
-Parameter name: key
-[Ref B9E4F9EB] Duplicate stacktrace, see ref for original
-Exception in UIRootUpdate: System.ArgumentNullException: Value cannot be null.
-Parameter name: key
-[Ref B9E4F9EB] Duplicate stacktrace, see ref for original
-Exception in UIRootUpdate: System.ArgumentNullException: Value cannot be null.
-Parameter name: key
-[Ref B9E4F9EB] Duplicate stacktrace, see ref for original
-Exception in UIRootUpdate: System.ArgumentNullException: Value cannot be null.
-Parameter name: key
-[Ref B9E4F9EB] Duplicate stacktrace, see ref for original
-Exception in UIRootUpdate: System.ArgumentNullException: Value cannot be null.
-Parameter name: key
-[Ref B9E4F9EB] Duplicate stacktrace, see ref for original
-Exception in UIRootUpdate: System.ArgumentNullException: Value cannot be null.
-Parameter name: key
-[Ref B9E4F9EB] Duplicate stacktrace, see ref for original
-Exception in UIRootUpdate: System.ArgumentNullException: Value cannot be null.
-Parameter name: key
-[Ref B9E4F9EB] Duplicate stacktrace, see ref for original
-Exception in UIRootUpdate: System.ArgumentNullException: Value cannot be null.
-Parameter name: key
-[Ref B9E4F9EB] Duplicate stacktrace, see ref for original
-Exception in UIRootUpdate: System.ArgumentNullException: Value cannot be null.
-Parameter name: key
-[Ref B9E4F9EB] Duplicate stacktrace, see ref for original
-Exception in UIRootUpdate: System.ArgumentNullException: Value cannot be null.
-Parameter name: key
-[Ref B9E4F9EB] Duplicate stacktrace, see ref for original
-Exception in UIRootUpdate: System.ArgumentNullException: Value cannot be null.
-Parameter name: key
-[Ref B9E4F9EB] Duplicate stacktrace, see ref for original
-Exception in UIRootUpdate: System.ArgumentNullException: Value cannot be null.
-Parameter name: key
-[Ref B9E4F9EB] Duplicate stacktrace, see ref for original
-Exception in UIRootUpdate: System.ArgumentNullException: Value cannot be null.
-Parameter name: key
-[Ref B9E4F9EB] Duplicate stacktrace, see ref for original
-Exception in UIRootUpdate: System.ArgumentNullException: Value cannot be null.
-Parameter name: key
-[Ref B9E4F9EB] Duplicate stacktrace, see ref for original
-Exception in UIRootUpdate: System.ArgumentNullException: Value cannot be null.
-Parameter name: key
-[Ref B9E4F9EB] Duplicate stacktrace, see ref for original
-Exception in UIRootUpdate: System.ArgumentNullException: Value cannot be null.
-Parameter name: key
-[Ref B9E4F9EB] Duplicate stacktrace, see ref for original
-Exception in UIRootUpdate: System.ArgumentNullException: Value cannot be null.
-Parameter name: key
-[Ref B9E4F9EB] Duplicate stacktrace, see ref for original
-Exception in UIRootUpdate: System.ArgumentNullException: Value cannot be null.
-Parameter name: key
-[Ref B9E4F9EB] Duplicate stacktrace, see ref for original
-Exception in UIRootUpdate: System.ArgumentNullException: Value cannot be null.
-Parameter name: key
-[Ref B9E4F9EB] Duplicate stacktrace, see ref for original
-Exception in UIRootUpdate: System.ArgumentNullException: Value cannot be null.
-Parameter name: key
-[Ref B9E4F9EB] Duplicate stacktrace, see ref for original
-Exception in UIRootUpdate: System.ArgumentNullException: Value cannot be null.
-Parameter name: key
-[Ref B9E4F9EB] Duplicate stacktrace, see ref for original
-Exception in UIRootUpdate: System.ArgumentNullException: Value cannot be null.
-Parameter name: key
-[Ref B9E4F9EB] Duplicate stacktrace, see ref for original
-Exception in UIRootUpdate: System.ArgumentNullException: Value cannot be null.
-Parameter name: key
-[Ref B9E4F9EB] Duplicate stacktrace, see ref for original
-Exception in UIRootUpdate: System.ArgumentNullException: Value cannot be null.
-Parameter name: key
-[Ref B9E4F9EB] Duplicate stacktrace, see ref for original
-Exception in UIRootUpdate: System.ArgumentNullException: Value cannot be null.
-Parameter name: key
-[Ref B9E4F9EB] Duplicate stacktrace, see ref for original
-Exception in UIRootUpdate: System.ArgumentNullException: Value cannot be null.
-Parameter name: key
-[Ref B9E4F9EB] Duplicate stacktrace, see ref for original
-Wrote screenshot C:\Users\clint\AppData\LocalLow\Ludeon Studios\RimWorld by Ludeon Studios\RimSaves\Previews\Autosave-3.dat of size 137198
-Exception ticking GeothermalGenerator52088. Suppressing further errors. Exception: System.NullReferenceException: Object reference not set to an instance of an object
-[Ref D8196CD5]
-  at RimWorld.CompPowerPlantSteam.CompTick () [0x0001a] in <61e4173561894da49d210260257b5097>:0 
-  at Verse.ThingWithComps.Tick () [0x00025] in <61e4173561894da49d210260257b5097>:0 
-  at Verse.Thing.DoTick () [0x0007b] in <61e4173561894da49d210260257b5097>:0 
-  at Verse.TickList.Tick () [0x00139] in <61e4173561894da49d210260257b5097>:0 
-Exception ticking PH_DoorDouble52038. Suppressing further errors. Exception: System.NullReferenceException: Object reference not set to an instance of an object
-[Ref 62CAC82]
-  at Verse.GridsUtility.GetThingList (Verse.IntVec3 c, Verse.Map map) [0x00000] in <61e4173561894da49d210260257b5097>:0 
-  at RimWorld.Building_Door.Tick () [0x000c2] in <61e4173561894da49d210260257b5097>:0 
-  at RimWorld.Building_SupportedDoor.Tick () [0x00000] in <61e4173561894da49d210260257b5097>:0 
-  at RimWorld.Building_MultiTileDoor.Tick () [0x00000] in <61e4173561894da49d210260257b5097>:0 
-  at DoorsExpanded.Building_DoorExpanded.Tick () [0x00000] in <76873f350a7a403eac286d76301ebe70>:0 
-  at Verse.Thing.DoTick () [0x0007b] in <61e4173561894da49d210260257b5097>:0 
-  at Verse.TickList.Tick () [0x00139] in <61e4173561894da49d210260257b5097>:0 
-Wrote screenshot C:\Users\clint\AppData\LocalLow\Ludeon Studios\RimWorld by Ludeon Studios\RimSaves\Previews\Autosave-4.dat of size 140592
-Attempted to draw Bluebird51570 without a resolved render tree.
-Wrote screenshot C:\Users\clint\AppData\LocalLow\Ludeon Studios\RimWorld by Ludeon Studios\RimSaves\Previews\Autosave-5.dat of size 148507
-[AVP Xenomorphs] [Mine] Suppressing chunks for Drone mining Sandstone (tick 182469)
-[AVP Xenomorphs] [Mine] Suppressing chunks for Drone mining Sandstone (tick 183296)
-[AVP Xenomorphs] [Mine] Suppressing chunks for Drone mining Sandstone (tick 185652)
-[AVP Xenomorphs] [Mine] Suppressing chunks for Drone mining Sandstone (tick 186013)
-Wrote screenshot C:\Users\clint\AppData\LocalLow\Ludeon Studios\RimWorld by Ludeon Studios\RimSaves\Previews\USCSS Colony16.dat of size 133218
-Memory Statistics:
-[ALLOC_TEMP_TLS] TLS Allocator
-  StackAllocators : 
-    [ALLOC_TEMP_MAIN]
-      Peak usage frame count: [0-1.0 KB]: 5564 frames, [1.0 KB-2.0 KB]: 44 frames, [2.0 KB-4.0 KB]: 79248 frames, [4.0 KB-8.0 KB]: 4917 frames, [8.0 KB-16.0 KB]: 311 frames, [16.0 KB-32.0 KB]: 95 frames, [32.0 KB-64.0 KB]: 60 frames, [64.0 KB-128.0 KB]: 16 frames, [128.0 KB-256.0 KB]: 8 frames, [256.0 KB-0.5 MB]: 5 frames, [0.5 MB-1.0 MB]: 2 frames, [1.0 MB-2.0 MB]: 7 frames, [2.0 MB-4.0 MB]: 3 frames, [4.0 MB-8.0 MB]: 15 frames
-      Initial Block Size 4.0 MB
-      Current Block Size 6.2 MB
-      Peak Allocated Bytes 6.2 MB
-      Overflow Count 22
-    [ALLOC_TEMP_Loading.AsyncRead]
-      Initial Block Size 64.0 KB
-      Current Block Size 120.0 KB
-      Peak Allocated Bytes 117.2 KB
-      Overflow Count 0
-    [ALLOC_TEMP_Loading.PreloadManager]
-      Initial Block Size 256.0 KB
-      Current Block Size 256.0 KB
-      Peak Allocated Bytes 3.8 KB
-      Overflow Count 8
-    [ALLOC_TEMP_Background Job.Worker 8]
-      Initial Block Size 32.0 KB
-      Current Block Size 32.0 KB
-      Peak Allocated Bytes 54 B
-      Overflow Count 0
-    [ALLOC_TEMP_Background Job.Worker 9]
-      Initial Block Size 32.0 KB
-      Current Block Size 32.0 KB
-      Peak Allocated Bytes 54 B
-      Overflow Count 0
-    [ALLOC_TEMP_Job.Worker 0]
-      Initial Block Size 256.0 KB
-      Current Block Size 256.0 KB
-      Peak Allocated Bytes 176 B
-      Overflow Count 0
-    [ALLOC_TEMP_Background Job.Worker 10]
-      Initial Block Size 32.0 KB
-      Current Block Size 32.0 KB
-      Peak Allocated Bytes 54 B
-      Overflow Count 0
-    [ALLOC_TEMP_Job.Worker 6]
-      Initial Block Size 256.0 KB
-      Current Block Size 256.0 KB
-      Peak Allocated Bytes 176 B
-      Overflow Count 0
-    [ALLOC_TEMP_Job.Worker 5]
-      Initial Block Size 256.0 KB
-      Current Block Size 256.0 KB
-      Peak Allocated Bytes 202 B
-      Overflow Count 0
-    [ALLOC_TEMP_Background Job.Worker 14]
-      Initial Block Size 32.0 KB
-      Current Block Size 32.0 KB
-      Peak Allocated Bytes 54 B
-      Overflow Count 0
-    [ALLOC_TEMP_Background Job.Worker 6]
-      Initial Block Size 32.0 KB
-      Current Block Size 32.0 KB
-      Peak Allocated Bytes 54 B
-      Overflow Count 0
-    [ALLOC_TEMP_Job.Worker 4]
-      Initial Block Size 256.0 KB
-      Current Block Size 256.0 KB
-      Peak Allocated Bytes 176 B
-      Overflow Count 0
-    [ALLOC_TEMP_ReadCacheIndex]
-      Initial Block Size 64.0 KB
-      Current Block Size 64.0 KB
-      Peak Allocated Bytes 0.6 KB
-      Overflow Count 0
-    [ALLOC_TEMP_Job.Worker 3]
-      Initial Block Size 256.0 KB
-      Current Block Size 256.0 KB
-      Peak Allocated Bytes 176 B
-      Overflow Count 0
-    [ALLOC_TEMP_Background Job.Worker 12]
-      Initial Block Size 32.0 KB
-      Current Block Size 32.0 KB
-      Peak Allocated Bytes 54 B
-      Overflow Count 0
-    [ALLOC_TEMP_EnlightenWorker] x 6
-      Initial Block Size 64.0 KB
-      Current Block Size 64.0 KB
-      Peak Allocated Bytes 54 B
-      Overflow Count 0
-    [ALLOC_TEMP_Background Job.Worker 15]
-      Initial Block Size 32.0 KB
-      Current Block Size 32.0 KB
-      Peak Allocated Bytes 54 B
-      Overflow Count 0
-    [ALLOC_TEMP_Background Job.Worker 1]
-      Initial Block Size 32.0 KB
-      Current Block Size 32.0 KB
-      Peak Allocated Bytes 54 B
-      Overflow Count 0
-    [ALLOC_TEMP_Background Job.Worker 2]
-      Initial Block Size 32.0 KB
-      Current Block Size 32.0 KB
-      Peak Allocated Bytes 54 B
-      Overflow Count 0
-    [ALLOC_TEMP_Background Job.Worker 7]
-      Initial Block Size 32.0 KB
-      Current Block Size 32.0 KB
-      Peak Allocated Bytes 54 B
-      Overflow Count 0
-    [ALLOC_TEMP_UnityGfxDeviceWorker]
-      Initial Block Size 256.0 KB
-      Current Block Size 256.0 KB
-      Peak Allocated Bytes 10.3 KB
-      Overflow Count 0
-    [ALLOC_TEMP_AssetGarbageCollectorHelper] x 11
-      Initial Block Size 64.0 KB
-      Current Block Size 64.0 KB
-      Peak Allocated Bytes 138 B
-      Overflow Count 0
-    [ALLOC_TEMP_Background Job.Worker 5]
-      Initial Block Size 32.0 KB
-      Current Block Size 32.0 KB
-      Peak Allocated Bytes 54 B
-      Overflow Count 0
-    [ALLOC_TEMP_Job.Worker 9]
-      Initial Block Size 256.0 KB
-      Current Block Size 256.0 KB
-      Peak Allocated Bytes 160 B
-      Overflow Count 0
-    [ALLOC_TEMP_Background Job.Worker 13]
-      Initial Block Size 32.0 KB
-      Current Block Size 32.0 KB
-      Peak Allocated Bytes 54 B
-      Overflow Count 0
-    [ALLOC_TEMP_Job.Worker 8]
-      Initial Block Size 256.0 KB
-      Current Block Size 256.0 KB
-      Peak Allocated Bytes 176 B
-      Overflow Count 0
-    [ALLOC_TEMP_Job.Worker 7]
-      Initial Block Size 256.0 KB
-      Current Block Size 256.0 KB
-      Peak Allocated Bytes 160 B
-      Overflow Count 0
-    [ALLOC_TEMP_Job.Worker 1]
-      Initial Block Size 256.0 KB
-      Current Block Size 256.0 KB
-      Peak Allocated Bytes 507 B
-      Overflow Count 0
-    [ALLOC_TEMP_Job.Worker 2]
-      Initial Block Size 256.0 KB
-      Current Block Size 256.0 KB
-      Peak Allocated Bytes 480 B
-      Overflow Count 0
-    [ALLOC_TEMP_Background Job.Worker 3]
-      Initial Block Size 32.0 KB
-      Current Block Size 32.0 KB
-      Peak Allocated Bytes 54 B
-      Overflow Count 0
-    [ALLOC_TEMP_Background Job.Worker 11]
-      Initial Block Size 32.0 KB
-      Current Block Size 32.0 KB
-      Peak Allocated Bytes 54 B
-      Overflow Count 0
-    [ALLOC_TEMP_Job.Worker 10]
-      Initial Block Size 256.0 KB
-      Current Block Size 256.0 KB
-      Peak Allocated Bytes 160 B
-      Overflow Count 0
-    [ALLOC_TEMP_Background Job.Worker 0]
-      Initial Block Size 32.0 KB
-      Current Block Size 32.0 KB
-      Peak Allocated Bytes 54 B
-      Overflow Count 0
-    [ALLOC_TEMP_Background Job.Worker 4]
-      Initial Block Size 32.0 KB
-      Current Block Size 32.0 KB
-      Peak Allocated Bytes 54 B
-      Overflow Count 0
-    [ALLOC_TEMP_BatchDeleteObjects]
-      Initial Block Size 64.0 KB
-      Current Block Size 64.0 KB
-      Peak Allocated Bytes 54 B
-      Overflow Count 0
-[ALLOC_DEFAULT] Dual Thread Allocator
-  Peak main deferred allocation count 43565
-    [ALLOC_BUCKET]
-      Large Block size 4.0 MB
-      Used Block count 1
-      Peak Allocated bytes 4.0 MB
-      Failed Allocations. Bucket layout:
-        16B: 5 Subsections = 5120 buckets. Failed count: 555947
-        32B: 34 Subsections = 17408 buckets. Failed count: 797015
-        48B: 49 Subsections = 16725 buckets. Failed count: 317520
-        64B: 40 Subsections = 10240 buckets. Failed count: 103285
-        80B: 85 Subsections = 17408 buckets. Failed count: 1609473
-        96B: 27 Subsections = 4608 buckets. Failed count: 46187
-        112B: 10 Subsections = 1462 buckets. Failed count: 76078
-        128B: 6 Subsections = 768 buckets. Failed count: 52958
-    [ALLOC_DEFAULT_MAIN]
-      Peak usage frame count: [16.0 MB-32.0 MB]: 790 frames, [32.0 MB-64.0 MB]: 11 frames, [64.0 MB-128.0 MB]: 33 frames, [128.0 MB-256.0 MB]: 4897 frames, [256.0 MB-0.50 GB]: 84564 frames
-      Requested Block Size 16.0 MB
-      Peak Block count 19
-      Peak Allocated memory 320.2 MB
-      Peak Large allocation bytes 63.2 MB
-    [ALLOC_DEFAULT_THREAD]
-      Peak usage frame count: [8.0 MB-16.0 MB]: 4978 frames, [16.0 MB-32.0 MB]: 2 frames, [32.0 MB-64.0 MB]: 19 frames, [64.0 MB-128.0 MB]: 5362 frames, [128.0 MB-256.0 MB]: 79934 frames
-      Requested Block Size 16.0 MB
-      Peak Block count 7
-      Peak Allocated memory 137.9 MB
-      Peak Large allocation bytes 33.8 MB
-[ALLOC_TEMP_JOB_1_FRAME]
-  Initial Block Size 2.0 MB
-  Used Block Count 0
-  Overflow Count (too large) 0
-  Overflow Count (full) 0
-[ALLOC_TEMP_JOB_2_FRAMES]
-  Initial Block Size 2.0 MB
-  Used Block Count 0
-  Overflow Count (too large) 0
-  Overflow Count (full) 0
-[ALLOC_TEMP_JOB_4_FRAMES (JobTemp)]
-  Initial Block Size 2.0 MB
-  Used Block Count 1
-  Overflow Count (too large) 20
-  Overflow Count (full) 0
-[ALLOC_TEMP_JOB_ASYNC (Background)]
-  Initial Block Size 1.0 MB
-  Used Block Count 1
-  Overflow Count (too large) 0
-  Overflow Count (full) 0
-[ALLOC_GFX] Dual Thread Allocator
-  Peak main deferred allocation count 862
-    [ALLOC_BUCKET]
-      Large Block size 4.0 MB
-      Used Block count 1
-      Peak Allocated bytes 4.0 MB
-      Failed Allocations. Bucket layout:
-        16B: 5 Subsections = 5120 buckets. Failed count: 555947
-        32B: 34 Subsections = 17408 buckets. Failed count: 797015
-        48B: 49 Subsections = 16725 buckets. Failed count: 317520
-        64B: 40 Subsections = 10240 buckets. Failed count: 103285
-        80B: 85 Subsections = 17408 buckets. Failed count: 1609473
-        96B: 27 Subsections = 4608 buckets. Failed count: 46187
-        112B: 10 Subsections = 1462 buckets. Failed count: 76078
-        128B: 6 Subsections = 768 buckets. Failed count: 52958
-    [ALLOC_GFX_MAIN]
-      Peak usage frame count: [128.0 KB-256.0 KB]: 1 frames, [2.0 MB-4.0 MB]: 828 frames, [4.0 MB-8.0 MB]: 4079 frames, [8.0 MB-16.0 MB]: 805 frames, [16.0 MB-32.0 MB]: 2 frames, [32.0 MB-64.0 MB]: 4631 frames, [64.0 MB-128.0 MB]: 22583 frames, [128.0 MB-256.0 MB]: 57365 frames, [0.50 GB-1.00 GB]: 1 frames
-      Requested Block Size 16.0 MB
-      Peak Block count 10
-      Peak Allocated memory 0.81 GB
-      Peak Large allocation bytes 0.75 GB
-    [ALLOC_GFX_THREAD]
-      Peak usage frame count: [0-1.0 KB]: 854 frames, [1.0 KB-2.0 KB]: 1128 frames, [2.0 KB-4.0 KB]: 1408 frames, [4.0 KB-8.0 KB]: 1611 frames, [8.0 KB-16.0 KB]: 730 frames, [16.0 KB-32.0 KB]: 4009 frames, [32.0 KB-64.0 KB]: 623 frames, [64.0 KB-128.0 KB]: 674 frames, [128.0 KB-256.0 KB]: 36824 frames, [256.0 KB-0.5 MB]: 37461 frames, [0.5 MB-1.0 MB]: 4973 frames
-      Requested Block Size 16.0 MB
-      Peak Block count 1
-      Peak Allocated memory 0.6 MB
-      Peak Large allocation bytes 0 B
-[ALLOC_CACHEOBJECTS] Dual Thread Allocator
-  Peak main deferred allocation count 101
-    [ALLOC_BUCKET]
-      Large Block size 4.0 MB
-      Used Block count 1
-      Peak Allocated bytes 4.0 MB
-      Failed Allocations. Bucket layout:
-        16B: 5 Subsections = 5120 buckets. Failed count: 555947
-        32B: 34 Subsections = 17408 buckets. Failed count: 797015
-        48B: 49 Subsections = 16725 buckets. Failed count: 317520
-        64B: 40 Subsections = 10240 buckets. Failed count: 103285
-        80B: 85 Subsections = 17408 buckets. Failed count: 1609473
-        96B: 27 Subsections = 4608 buckets. Failed count: 46187
-        112B: 10 Subsections = 1462 buckets. Failed count: 76078
-        128B: 6 Subsections = 768 buckets. Failed count: 52958
-    [ALLOC_CACHEOBJECTS_MAIN]
-      Peak usage frame count: [4.0 MB-8.0 MB]: 1 frames, [8.0 MB-16.0 MB]: 838 frames, [16.0 MB-32.0 MB]: 89456 frames
-      Requested Block Size 4.0 MB
-      Peak Block count 5
-      Peak Allocated memory 17.9 MB
-      Peak Large allocation bytes 0 B
-    [ALLOC_CACHEOBJECTS_THREAD]
-      Peak usage frame count: [4.0 KB-8.0 KB]: 10069 frames, [32.0 KB-64.0 KB]: 1 frames, [64.0 KB-128.0 KB]: 66064 frames, [128.0 KB-256.0 KB]: 14140 frames, [256.0 KB-0.5 MB]: 20 frames, [0.5 MB-1.0 MB]: 1 frames
-      Requested Block Size 4.0 MB
-      Peak Block count 1
-      Peak Allocated memory 0.6 MB
-      Peak Large allocation bytes 0 B
-[ALLOC_TYPETREE] Dual Thread Allocator
-  Peak main deferred allocation count 0
-    [ALLOC_BUCKET]
-      Large Block size 4.0 MB
-      Used Block count 1
-      Peak Allocated bytes 4.0 MB
-      Failed Allocations. Bucket layout:
-        16B: 5 Subsections = 5120 buckets. Failed count: 555947
-        32B: 34 Subsections = 17408 buckets. Failed count: 797015
-        48B: 49 Subsections = 16725 buckets. Failed count: 317520
-        64B: 40 Subsections = 10240 buckets. Failed count: 103285
-        80B: 85 Subsections = 17408 buckets. Failed count: 1609473
-        96B: 27 Subsections = 4608 buckets. Failed count: 46187
-        112B: 10 Subsections = 1462 buckets. Failed count: 76078
-        128B: 6 Subsections = 768 buckets. Failed count: 52958
-    [ALLOC_TYPETREE_MAIN]
-      Peak usage frame count: [4.0 KB-8.0 KB]: 1 frames, [8.0 KB-16.0 KB]: 789 frames, [32.0 KB-64.0 KB]: 76 frames, [256.0 KB-0.5 MB]: 89429 frames
-      Requested Block Size 2.0 MB
-      Peak Block count 1
-      Peak Allocated memory 448.6 KB
-      Peak Large allocation bytes 0 B
-    [ALLOC_TYPETREE_THREAD]
-      Peak usage frame count: [0-1.0 KB]: 90295 frames
-      Requested Block Size 2.0 MB
-      Peak Block count 0
-      Peak Allocated memory 0 B
-      Peak Large allocation bytes 0 B
+[AVP Xenomorphs] [Mine] Suppressing chunks for Drone mining Slate (tick 696)
+[AVP Xenomorphs] [Mine] Suppressing chunks for Drone mining Slate (tick 957)
+[AVP Xenomorphs] [Mine] Suppressing chunks for Drone mining Slate (tick 1258)
+[AVP Xenomorphs] [Mine] Suppressing chunks for Drone mining Slate (tick 1852)
+[AVP Xenomorphs] [Mine] Suppressing chunks for Drone mining Slate (tick 2150)
+[AVP Xenomorphs] [Mine] Suppressing chunks for Drone mining Slate (tick 2407)
+[AVP Xenomorphs] [Mine] Suppressing chunks for Drone mining Slate (tick 2705)
+[AVP Xenomorphs] [Mine] Suppressing chunks for Drone mining Slate (tick 2976)
+[AVP Xenomorphs] [Mine] Suppressing chunks for Drone mining Slate (tick 3272)
+[AVP Xenomorphs] [Mine] Suppressing chunks for Drone mining Slate (tick 3603)
+[AVP Xenomorphs] [Mine] Suppressing chunks for Drone mining Slate (tick 3888)
+[AVP Xenomorphs] [Mine] Suppressing chunks for Drone mining Slate (tick 4289)
+[AVP Xenomorphs] [Mine] Suppressing chunks for Drone mining Slate (tick 4594)
+[AVP Xenomorphs] [Mine] Suppressing chunks for Drone mining Slate (tick 4957)
+Wrote screenshot C:\Users\clint\AppData\LocalLow\Ludeon Studios\RimWorld by Ludeon Studios\RimSaves\Previews\Autosave-1.dat of size 120980
+Wrote screenshot C:\Users\clint\AppData\LocalLow\Ludeon Studios\RimWorld by Ludeon Studios\RimSaves\Previews\Autosave-2.dat of size 152585
+Wrote screenshot C:\Users\clint\AppData\LocalLow\Ludeon Studios\RimWorld by Ludeon Studios\RimSaves\Previews\Autosave-3.dat of size 68814
+[AVP Xenomorphs] [Kidnap] Drone targeting Nytro (1/3 drones) (tick 181381)
+Exception in RimWorld.ThinkNode_ConditionalFacehuggerFertile TryIssueJobPackage: System.NullReferenceException: Object reference not set to an instance of an object
+[Ref 5FABECD9]
+  at Verse.GenClosest.EarlyOutSearch (Verse.IntVec3 start, Verse.Map map, Verse.ThingRequest thingReq, System.Collections.Generic.IEnumerable`1[T] customGlobalSearchSet, System.Predicate`1[T] validator) [0x00015] in <61e4173561894da49d210260257b5097>:0 
+  at Verse.GenClosest.ClosestThingReachable (Verse.IntVec3 root, Verse.Map map, Verse.ThingRequest thingReq, Verse.AI.PathEndMode peMode, Verse.TraverseParms traverseParams, System.Single maxDistance, System.Predicate`1[T] validator, System.Collections.Generic.IEnumerable`1[T] customGlobalSearchSet, System.Int32 searchRegionsMin, System.Int32 searchRegionsMax, System.Boolean forceAllowGlobalSearch, Verse.RegionType traversableRegionTypes, System.Boolean ignoreEntirelyForbiddenRegions, System.Boolean lookInHaulSources) [0x0008c] in <61e4173561894da49d210260257b5097>:0 
+  at Verse.AI.XenomorphTargetFinder.BestAttackTarget (Verse.AI.IAttackTargetSearcher searcher, Verse.AI.TargetScanFlags flags, System.Predicate`1[T] validator, System.Single minDist, System.Single maxDist, Verse.IntVec3 locus, System.Single maxTravelRadiusFromLocus, System.Boolean canBash, System.Boolean canTakeTargetsCloserThanEffectiveMinRange) [0x0036e] in <8dcb52b80dec4eb48fdd36b4029d8e49>:0 
+  at RimWorld.JobGiver_FacehuggerHunt.FindPawnTarget (Verse.Pawn pawn) [0x00038] in <8dcb52b80dec4eb48fdd36b4029d8e49>:0 
+  at RimWorld.JobGiver_FacehuggerHunt.TryGiveJob (Verse.Pawn pawn) [0x0001f] in <8dcb52b80dec4eb48fdd36b4029d8e49>:0 
+  at Verse.AI.ThinkNode_JobGiver.TryIssueJobPackage (Verse.Pawn pawn, Verse.AI.JobIssueParams jobParams) [0x00000] in <61e4173561894da49d210260257b5097>:0 
+  at Verse.AI.ThinkNode_Priority.TryIssueJobPackage (Verse.Pawn pawn, Verse.AI.JobIssueParams jobParams) [0x00022] in <61e4173561894da49d210260257b5097>:0 
+Exception in Verse.AI.ThinkNode_Tagger TryIssueJobPackage: System.NullReferenceException: Object reference not set to an instance of an object
+[Ref B3A85BBC]
+  at Verse.RegionAndRoomQuery.RegionAt (Verse.IntVec3 c, Verse.Map map, Verse.RegionType allowedRegionTypes) [0x00000] in <61e4173561894da49d210260257b5097>:0 
+  at Verse.GridsUtility.GetRegion (Verse.IntVec3 loc, Verse.Map map, Verse.RegionType allowedRegionTypes) [0x00000] in <61e4173561894da49d210260257b5097>:0 
+  at RimWorld.RCellFinder.RandomWanderDestFor (Verse.Pawn pawn, Verse.IntVec3 root, System.Single radius, System.Func`4[T1,T2,T3,TResult] validator, Verse.Danger maxDanger, System.Boolean canBashDoors) [0x00085] in <61e4173561894da49d210260257b5097>:0 
+  at Verse.AI.JobGiver_Wander.GetExactWanderDest (Verse.Pawn pawn) [0x0005b] in <61e4173561894da49d210260257b5097>:0 
+  at Verse.AI.JobGiver_Wander.TryGiveJob (Verse.Pawn pawn) [0x00061] in <61e4173561894da49d210260257b5097>:0 
+  at Verse.AI.ThinkNode_JobGiver.TryIssueJobPackage (Verse.Pawn pawn, Verse.AI.JobIssueParams jobParams) [0x00000] in <61e4173561894da49d210260257b5097>:0 
+  at Verse.AI.ThinkNode_Priority.TryIssueJobPackage (Verse.Pawn pawn, Verse.AI.JobIssueParams jobParams) [0x00022] in <61e4173561894da49d210260257b5097>:0 
+JobDriver threw exception in toil MakeNewToils's initAction for pawn RRY_Xenomorph_FaceHugger53733 driver=JobDriver_Wait (toilIndex=0) driver.job=(Wait_Wander (Job_84944) Giver = JobGiver_WanderAnywhere [workGiverDef: null])
+System.NullReferenceException: Object reference not set to an instance of an object
+[Ref 2BEE724E]
+  at Verse.AI.JobDriver_Wait.CheckForAutoAttack () [0x0012f] in <61e4173561894da49d210260257b5097>:0 
+    - TRANSPILER OskarPotocki.VEF: IEnumerable`1 VEF.Weapons.VanillaExpandedFramework_JobDriver_Wait_CheckForAutoAttack_Patch:Transpiler(IEnumerable`1 instructions, ILGenerator generator)
+    - TRANSPILER legodude17.mvcf: IEnumerable`1 MVCF.PatchSets.PatchSet_TargetFinder:BestTargetTranspiler(IEnumerable`1 instructions)
+    - POSTFIX UnlimitedHugs.AllowTool: Void AllowTool.Patches.JobDriverWait_CheckForAutoAttack_Patch:DoPartyHunting(JobDriver_Wait __instance)
+  at Verse.AI.JobDriver_Wait.<MakeNewToils>b__3_0 () [0x0003d] in <61e4173561894da49d210260257b5097>:0 
+  at Verse.AI.JobDriver.TryActuallyStartNextToil () [0x001b0] in <61e4173561894da49d210260257b5097>:0 
+JobDriver threw exception in toil MakeNewToils's initAction for pawn RRY_Xenomorph_FaceHugger53733 driver=JobDriver_Wait (toilIndex=0) driver.job=(Wait (Job_84945))
+System.NullReferenceException: Object reference not set to an instance of an object
+[Ref 2BEE724E] Duplicate stacktrace, see ref for original
+An error occurred while starting an error recover job. We have to stop now to avoid infinite loops. This means that the pawn is now jobless which can cause further bugs. pawn=RRY_Xenomorph_FaceHugger53733
+[AVP Xenomorphs] [Mask] Drawing mask for Nytro (royal=False) (tick 182274)
+[AVP Xenomorphs] [Mask] Drawing mask for Nytro (royal=False) (tick 182525)
+[AVP Xenomorphs] [Mask] Drawing mask for Nytro (royal=False) (tick 182775)
+[AVP Xenomorphs] [Mask] Drawing mask for Nytro (royal=False) (tick 183025)
+[AVP Xenomorphs] [Mask] Drawing mask for Nytro (royal=False) (tick 183275)
+[AVP Xenomorphs] [Mask] Drawing mask for Nytro (royal=False) (tick 183525)
+[AVP Xenomorphs] [Mask] Drawing mask for Nytro (royal=False) (tick 183777)
+[AVP Xenomorphs] [Mask] Drawing mask for Nytro (royal=False) (tick 184027)
+[AVP Xenomorphs] [Mask] Drawing mask for Nytro (royal=False) (tick 184279)
+[AVP Xenomorphs] [Mask] Drawing mask for Nytro (royal=False) (tick 184531)
+[AVP Xenomorphs] [Mask] Drawing mask for Nytro (royal=False) (tick 184783)
+[AVP Xenomorphs] [Mask] Drawing mask for Nytro (royal=False) (tick 185034)
+[AVP Xenomorphs] [Mask] Drawing mask for Nytro (royal=False) (tick 185285)
+[AVP Xenomorphs] [Mask] Drawing mask for Nytro (royal=False) (tick 185671)
+[AVP Xenomorphs] [Mask] Drawing mask for Nytro (royal=False) (tick 185923)
+[AVP Xenomorphs] [Mask] Drawing mask for Nytro (royal=False) (tick 186173)
+[AVP Xenomorphs] [Mask] Drawing mask for Nytro (royal=False) (tick 186425)
+[AVP Xenomorphs] [Mask] Drawing mask for Nytro (royal=False) (tick 186675)
+[AVP Xenomorphs] [Mask] Drawing mask for Nytro (royal=False) (tick 186926)
+[AVP Xenomorphs] [Mask] Drawing mask for Nytro (royal=False) (tick 187178)
+[AVP Xenomorphs] [Mask] Drawing mask for Nytro (royal=False) (tick 187429)
+[AVP Xenomorphs] [Mask] Drawing mask for Nytro (royal=False) (tick 187683)
+[AVP Xenomorphs] [Mask] Drawing mask for Nytro (royal=False) (tick 187933)
+[AVP Xenomorphs] [Mask] Drawing mask for Nytro (royal=False) (tick 188183)
+[AVP Xenomorphs] [Mask] Drawing mask for Nytro (royal=False) (tick 188433)
+[AVP Xenomorphs] [Mask] Drawing mask for Nytro (royal=False) (tick 188685)
+[AVP Xenomorphs] [Mask] Drawing mask for Nytro (royal=False) (tick 188937)
+[AVP Xenomorphs] [Mask] Drawing mask for Nytro (royal=False) (tick 189187)
+[AVP Xenomorphs] [Mask] Drawing mask for Nytro (royal=False) (tick 189439)
+[AVP Xenomorphs] [Mask] Drawing mask for Nytro (royal=False) (tick 189691)
+[AVP Xenomorphs] [Mask] Drawing mask for Nytro (royal=False) (tick 189941)
+[AVP Xenomorphs] [Mask] Drawing mask for Nytro (royal=False) (tick 190192)
+[AVP Xenomorphs] [Mask] Drawing mask for Nytro (royal=False) (tick 190443)
+[AVP Xenomorphs] [Mask] Drawing mask for Nytro (royal=False) (tick 190695)
+[AVP Xenomorphs] [Mask] Drawing mask for Nytro (royal=False) (tick 190946)
+[AVP Xenomorphs] [Mask] Drawing mask for Nytro (royal=False) (tick 191197)
+[AVP Xenomorphs] [Mask] Drawing mask for Nytro (royal=False) (tick 191449)
+[AVP Xenomorphs] [Mask] Drawing mask for Nytro (royal=False) (tick 191702)
+[AVP Xenomorphs] [Mask] Drawing mask for Nytro (royal=False) (tick 191954)
+[AVP Xenomorphs] [Mask] Drawing mask for Nytro (royal=False) (tick 192205)
+[AVP Xenomorphs] [Mask] Drawing mask for Nytro (royal=False) (tick 192455)
+[AVP Xenomorphs] [Mask] Drawing mask for Nytro (royal=False) (tick 192707)
+[AVP Xenomorphs] [Mask] Drawing mask for Nytro (royal=False) (tick 192958)
+[AVP Xenomorphs] [Mask] Drawing mask for Nytro (royal=False) (tick 193209)
+[AVP Xenomorphs] [Mask] Drawing mask for Nytro (royal=False) (tick 193460)
+[AVP Xenomorphs] [Mask] Drawing mask for Nytro (royal=False) (tick 193715)
+[AVP Xenomorphs] [Mask] Drawing mask for Nytro (royal=False) (tick 193965)
+[AVP Xenomorphs] [Mask] Drawing mask for Nytro (royal=False) (tick 194216)
