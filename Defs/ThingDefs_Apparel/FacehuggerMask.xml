@@ -34,14 +34,9 @@
         <li>Worker</li>
       </defaultOutfitTags>
       <wornGraphicData>
-        <texPath>Things/Pawn/Xenomorph/Xenomorph_FaceHugger_Mask</texPath>
-        <graphicClass>Graphic_Multi</graphicClass>
+        <wornGraphicPath>Things/Pawn/Xenomorph/Xenomorph_FaceHugger_Mask</wornGraphicPath>
       </wornGraphicData>
-      <drawWornBodyPart>FullHead</drawWornBodyPart>
     </apparel>
-    <comps>
-      <li Class="CompProperties_Useable" />
-    </comps>
   </ThingDef>
 
   <ThingDef ParentName="RRY_FacehuggerMaskBase">
@@ -54,10 +49,6 @@
     <defName>RRY_RoyalFacehuggerMask</defName>
     <label>Royal Facehugger</label>
     <description>A royal facehugger attached to a host's face.</description>
-    <graphicData>
-      <graphicClass>Graphic_Single</graphicClass>
-      <texPath>Things/Pawn/Xenomorph/Xenomorph_FaceHuggerRoyal_Mask_south</texPath>
-    </graphicData>
     <apparel>
       <bodyPartGroups>
         <li>FullHead</li>
@@ -65,11 +56,12 @@
       <layers>
         <li>Overhead</li>
       </layers>
+      <defaultOutfitTags>
+        <li>Worker</li>
+      </defaultOutfitTags>
       <wornGraphicData>
-        <texPath>Things/Pawn/Xenomorph/Xenomorph_FaceHuggerRoyal_Mask</texPath>
-        <graphicClass>Graphic_Multi</graphicClass>
+        <wornGraphicPath>Things/Pawn/Xenomorph/Xenomorph_FaceHuggerRoyal_Mask</wornGraphicPath>
       </wornGraphicData>
-      <drawWornBodyPart>FullHead</drawWornBodyPart>
     </apparel>
   </ThingDef>
 
