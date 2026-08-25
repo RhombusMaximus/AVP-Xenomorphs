@@ -296,11 +296,12 @@ namespace RimWorld
 				this.SetFaction(OfFaction, null);
 
             }
-            if (this.getsQueen && hiveNode)
+            if (this.getsQueen && hiveNode && !respawningAfterLoad && !hasQueen)
             {
                 Pawn newQueen = PawnGenerator.GeneratePawn(new PawnGenerationRequest(XenomorphDefOf.RRY_Xenomorph_Queen, factionInt));
                 this.innerContainer.TryAdd(newQueen);
                 this.assignedQueen = newQueen;
+                this.getsQueen = false; // Only spawn queen once
             }
 			if (!respawningAfterLoad && this.active && canSpawnPawns)
             {
