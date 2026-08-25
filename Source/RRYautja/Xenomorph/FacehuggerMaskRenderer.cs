@@ -19,8 +19,6 @@ namespace RRYautja
         private static Graphic facehuggerMaskGraphic;
         private static Graphic royalFacehuggerMaskGraphic;
         private static bool initialized = false;
-        private static int lastDebugLogTick = -1;
-        private static int debugLogCount = 0;
 
         static FacehuggerMaskRenderer()
         {
@@ -37,6 +35,12 @@ namespace RRYautja
                     ShaderDatabase.Cutout,
                     Vector2.one,
                     Color.white);
+
+                // Log whether graphics loaded
+                if (facehuggerMaskGraphic != null)
+                    AvPDebug.LogOnce("MaskInit", "[AVP Xenomorphs] Facehugger mask graphic loaded: " + facehuggerMaskGraphic.path);
+                else
+                    AvPDebug.Error("Facehugger mask graphic failed to load!");
 
                 var drawMethod = AccessTools.Method(typeof(Pawn), "DrawAt");
                 if (drawMethod != null)
@@ -82,26 +86,21 @@ namespace RRYautja
             Graphic maskGraphic = facehuggerComp.RoyaleHugger ? royalFacehuggerMaskGraphic : facehuggerMaskGraphic;
             if (maskGraphic == null) return;
 
+            // Draw at pawn position, slightly above pawn draw layer
             Vector3 pos = drawLoc;
-            pos.y = Altitudes.AltitudeFor(AltitudeLayer.VisEffects);
+            // Use the same altitude as the pawn but slightly higher so mask is visible on top
+            pos.y += 0.03f;
 
-            float num = Mathf.Lerp(1.2f, 1.55f, pawn.BodySize);
+            float scale = Mathf.Lerp(1.0f, 1.3f, pawn.BodySize);
+            Vector3 drawSize = new Vector3(scale, 1f, scale);
 
-            if (!pawn.RaceProps.Humanlike)
-            {
-                Vector3 s = new Vector3(num, 1f, num);
-                Matrix4x4 matrix = default(Matrix4x4);
-                matrix.SetTRS(pos, Quaternion.identity, s);
-                Graphics.DrawMesh(MeshPool.plane10, matrix, maskGraphic.MatAt(Rot4.South), 0);
-            }
-            else
-            {
-                pos += new Vector3(0f, 0f, 0.15f);
-                Vector3 s = new Vector3(0.9f, 1f, 0.9f);
-                Matrix4x4 matrix = default(Matrix4x4);
-                matrix.SetTRS(pos, Quaternion.identity, s);
-                Graphics.DrawMesh(MeshPool.plane10, matrix, maskGraphic.MatAt(pawn.Rotation), 0);
-            }
+            // Get the material for the pawn's facing direction
+            Material mat = maskGraphic.MatAt(pawn.Rotation);
+            if (mat == null) return;
+
+            // Use GenDraw to render — this respects the camera and rendering pipeline
+            Matrix4x4 matrix = Matrix4x4.TRS(pos, Quaternion.identity, drawSize);
+            Graphics.DrawMesh(MeshPool.plane10, matrix, mat, 0);
         }
     }
 }
