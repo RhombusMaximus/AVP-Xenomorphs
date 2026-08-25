@@ -112,7 +112,9 @@ namespace RRYautja
         {
             try
             {
-                if (Pawn == null || Pawn.apparel == null) return;
+                if (Pawn == null) return;
+                if (!Pawn.RaceProps.Humanlike) return; // Only humanlike pawns can wear apparel
+                if (Pawn.apparel == null) return;
                 // Don't add if already wearing one
                 if (Pawn.apparel.WornApparel.Any(a => a.def.defName == "RRY_FacehuggerMask" || a.def.defName == "RRY_RoyalFacehuggerMask")) return;
 
@@ -297,7 +299,8 @@ namespace RRYautja
         public override void CompPostPostAdd(DamageInfo? dinfo)
         {
             base.CompPostPostAdd(dinfo);
-            // Add facehugger mask apparel to the host
+            // Add facehugger mask apparel to the host (humanlike only)
+            AvPDebug.LogOnce("MaskAddCall", "[AVP Xenomorphs] CompPostPostAdd called for " + Pawn.LabelShort + " (humanlike=" + Pawn.RaceProps.Humanlike + ")");
             AddMaskApparel();
             if (!PlayerKnowledgeDatabase.IsComplete(XenomorphConceptDefOf.RRY_Concept_Facehuggers) && Pawn.Spawned && Pawn.IsColonist)
             {

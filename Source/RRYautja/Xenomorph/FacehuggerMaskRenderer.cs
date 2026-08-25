@@ -72,6 +72,8 @@ namespace RRYautja
         public static void TryDrawMask(Pawn pawn, Vector3 drawLoc)
         {
             if (pawn == null || !pawn.Spawned || pawn.Dead) return;
+            // Only draw manually for non-humanlike pawns (humanlike use apparel)
+            if (pawn.RaceProps.Humanlike) return;
 
             if (!pawn.health.hediffSet.HasHediff(XenomorphDefOf.RRY_FaceHuggerInfection)) return;
 
