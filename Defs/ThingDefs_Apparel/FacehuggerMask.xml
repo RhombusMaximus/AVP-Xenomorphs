@@ -28,7 +28,7 @@
         <li>UpperHead</li>
       </bodyPartGroups>
       <layers>
-        <li>EyeCover</li>
+        <li>OnSkin</li>
       </layers>
       <defaultOutfitTags>
         <li>Worker</li>
@@ -54,7 +54,7 @@
         <li>UpperHead</li>
       </bodyPartGroups>
       <layers>
-        <li>EyeCover</li>
+        <li>OnSkin</li>
       </layers>
       <defaultOutfitTags>
         <li>Worker</li>
