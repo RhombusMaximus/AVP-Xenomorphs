@@ -245,7 +245,7 @@ System.Threading.ExecutionContext:Run (System.Threading.ExecutionContext,System.
 System.Threading.ExecutionContext:Run (System.Threading.ExecutionContext,System.Threading.ContextCallback,object)
 System.Threading.ThreadHelper:ThreadStart ()
 
-<color=#66ffb5>[MeleeAnim]</color> Scanning 85 mods for animation data...
+<color=#66ffb5>[MeleeAnim]</color> Scanning 81 mods for animation data...
 UnityEngine.StackTraceUtility:ExtractStackTrace ()
 Verse.Log:Message (string)
 AM.Core:Log (string)
@@ -446,18 +446,6 @@ Verse.LongEventHandler:LongEventsUpdate (bool&)
 (wrapper dynamic-method) MonoMod.Utils.DynamicMethodDefinition:Verse.Root.Update_Patch1 (Verse.Root)
 Verse.Root_Entry:Update ()
 
-Could not execute post-long-event action. Exception: System.NullReferenceException: Object reference not set to an instance of an object
-[Ref D931580]
-  at AlienRace.ThingDef_AlienRace.<ResolveReferences>b__1_1 () [0x00037] in C:\Program Files (x86)\Steam\steamapps\common\RimWorld\Mods\AlienRaces\Source\AlienRace\AlienRace\ThingDef_AlienRace.cs:282 
-  at ilyvion.LoadingProgress.LongEventHandler_ExecuteToExecuteWhenFinished_Patches+<ExecuteToExecuteWhenFinished>d__3.MoveNext () [0x00590] in /home/runner/work/loading-progress/loading-progress/Source/ilyvion.LoadingProgress/LongEventHandler_ExecuteToExecuteWhenFinished_Patches.cs:263 
-UnityEngine.StackTraceUtility:ExtractStackTrace ()
-(wrapper dynamic-method) MonoMod.Utils.DynamicMethodDefinition:Verse.Log.Error_Patch2 (string)
-ilyvion.LoadingProgress.LongEventHandler_ExecuteToExecuteWhenFinished_Patches/<ExecuteToExecuteWhenFinished>d__3:MoveNext () (at /home/runner/work/loading-progress/loading-progress/Source/ilyvion.LoadingProgress/LongEventHandler_ExecuteToExecuteWhenFinished_Patches.cs:281)
-Verse.LongEventHandler:UpdateCurrentEnumeratorEvent ()
-Verse.LongEventHandler:LongEventsUpdate (bool&)
-(wrapper dynamic-method) MonoMod.Utils.DynamicMethodDefinition:Verse.Root.Update_Patch1 (Verse.Root)
-Verse.Root_Entry:Update ()
-
 Translation data for language English has 4 errors. Generate translation report for more info.
 UnityEngine.StackTraceUtility:ExtractStackTrace ()
 Verse.Log:Warning (string)
@@ -494,7 +482,7 @@ Verse.LongEventHandler:LongEventsUpdate (bool&)
 Verse.Root_Entry:Update ()
 
 Xenomorph Host System Loaded
-158 Possible Hosts out of 339 Races detected: Race Setting init
+158 Possible Hosts out of 335 Races detected: Race Setting init
 UnityEngine.StackTraceUtility:ExtractStackTrace ()
 Verse.Log:Message (string)
 RRYautja.Xenomorph.XenomorphHostSystem:.cctor ()
@@ -985,15 +973,7 @@ Verse.LongEventHandler:LongEventsUpdate (bool&)
 (wrapper dynamic-method) MonoMod.Utils.DynamicMethodDefinition:Verse.Root.Update_Patch1 (Verse.Root)
 Verse.Root_Entry:Update ()
 
-Textures were not found for one or more extended graphics for Mechanent: RobotRace/Stump_Mechanent/SynthNeck
-UnityEngine.StackTraceUtility:ExtractStackTrace ()
-Verse.Log:Message (string)
-AlienRace.ExtendedGraphics.DefaultGraphicsLoader:LoadAllGraphics (string,AlienRace.AlienPartGenerator/ExtendedGraphicTop[]) (at C:/Program Files (x86)/Steam/steamapps/common/RimWorld/Mods/AlienRaces/Source/AlienRace/AlienRace/ExtendedGraphics/DefaultGraphicsLoader.cs:122)
-(wrapper dynamic-method) MonoMod.Utils.DynamicMethodDefinition:AlienRace.AlienPartGenerator.LoadGraphicsHook_Patch1 ()
-UnityEngine.BeforeRenderHelper:Invoke ()
-UnityEngine.Application:InvokeOnBeforeRender ()
-
-<color=#66ffb5>[MeleeAnim]</color> Potential patch conflicts (14):
+<color=#66ffb5>[MeleeAnim]</color> Potential patch conflicts (13):
 UnityEngine.StackTraceUtility:ExtractStackTrace ()
 Verse.Log:Warning (string)
 AM.Core:Warn (string)
@@ -1024,7 +1004,6 @@ Prefixes:
   [OskarPotocki.VEF] Prefix
   [OskarPotocki.VEF] DrawEquipmentAimingPrefix
   [co.uk.epicguru.meleeanimation] Prefix
-  [com.github.automatic1111.gunplay] Prefix
 Transpilers:
 Postfixes:
   [Vodka.MuzzleFlash] Postfix
@@ -1105,7 +1084,6 @@ Prefixes:
   [OskarPotocki.VEF] Prefix
   [OskarPotocki.VEF] DrawEquipmentAimingPrefix
   [co.uk.epicguru.meleeanimation] Prefix
-  [com.github.automatic1111.gunplay] Prefix
 Transpilers:
 Postfixes:
   [Vodka.MuzzleFlash] Postfix
@@ -1224,7 +1202,7 @@ System.Threading.ExecutionContext:Run (System.Threading.ExecutionContext,System.
 System.Threading.ExecutionContext:Run (System.Threading.ExecutionContext,System.Threading.ContextCallback,object)
 System.Threading.ThreadHelper:ThreadStart ()
 
-<color=#66ffb5>[MeleeAnim]</color> PreCached all retexture info in 34.8ms
+<color=#66ffb5>[MeleeAnim]</color> PreCached all retexture info in 28.3ms
 UnityEngine.StackTraceUtility:ExtractStackTrace ()
 Verse.Log:Message (string)
 AM.Core:Log (string)
@@ -1279,7 +1257,7 @@ Verse.LongEventHandler:LongEventsUpdate (bool&)
 (wrapper dynamic-method) MonoMod.Utils.DynamicMethodDefinition:Verse.Root.Update_Patch1 (Verse.Root)
 Verse.Root_Entry:Update ()
 
-<color=#66ffb5>[MeleeAnim]</color> Patched 3 classes that directly inherit from Verb_MeleeAttack in 58.5 ms to detect hits:
+<color=#66ffb5>[MeleeAnim]</color> Patched 3 classes that directly inherit from Verb_MeleeAttack in 57.1 ms to detect hits:
 RimWorld.Verb_MeleeApplyHediff from Assembly-CSharp
 RimWorld.Verb_MeleeAttackDamage from Assembly-CSharp
 RRYautja.Verb_MeleeAttackKnockback from RRYautja
@@ -1294,7 +1272,7 @@ Verse.LongEventHandler:LongEventsUpdate (bool&)
 (wrapper dynamic-method) MonoMod.Utils.DynamicMethodDefinition:Verse.Root.Update_Patch1 (Verse.Root)
 Verse.Root_Entry:Update ()
 
-<color=#66ffb5>[MeleeAnim]</color> Found 0 items of clothing that cover hands, took 0.69 ms:
+<color=#66ffb5>[MeleeAnim]</color> Found 0 items of clothing that cover hands, took 0.66 ms:
 
 UnityEngine.StackTraceUtility:ExtractStackTrace ()
 Verse.Log:Message (string)
@@ -1428,7 +1406,7 @@ CharacterEditor.CEditor:OnMainMenuOnGUI ()
 (wrapper dynamic-method) MonoMod.Utils.DynamicMethodDefinition:Verse.UIRoot_Entry.UIRootOnGUI_Patch1 (Verse.UIRoot_Entry)
 (wrapper dynamic-method) MonoMod.Utils.DynamicMethodDefinition:Verse.Root.OnGUI_Patch2 (Verse.Root)
 
-2405 default entities for objects created
+2364 default entities for objects created
 UnityEngine.StackTraceUtility:ExtractStackTrace ()
 Verse.Log:Message (string)
 CharacterEditor.Preset:CreateDefaults<CharacterEditor.PresetObject, Verse.ThingDef> (System.Collections.Generic.HashSet`1<Verse.ThingDef>,System.Func`2<Verse.ThingDef, string>,System.Func`2<Verse.ThingDef, CharacterEditor.PresetObject>,string)
