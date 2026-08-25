@@ -42,31 +42,18 @@ namespace RRYautja
                 else
                     AvPDebug.Error("Facehugger mask graphic failed to load!");
 
-                // Patch the Comps_DrawAt method which is called AFTER the pawn body renders
-                // This ensures the mask is drawn on top of the pawn
-                var drawMethod = AccessTools.Method(typeof(ThingWithComps), "DrawAt");
+                // Patch Pawn.DrawAt — this is what we know works (log messages appeared before)
+                var drawMethod = AccessTools.Method(typeof(Pawn), "DrawAt");
                 if (drawMethod != null)
                 {
                     var harmony = new Harmony("com.ogliss.rimworld.mod.rryatuja.facehuggermask");
                     harmony.Patch(drawMethod, postfix: new HarmonyMethod(typeof(FacehuggerMaskRenderer), nameof(DrawAtPostfix)));
-                    AvPDebug.LogOnce("Patch", "[AVP Xenomorphs] Patched ThingWithComps.DrawAt for facehugger mask");
+                    AvPDebug.LogOnce("Patch", "[AVP Xenomorphs] Patched Pawn.DrawAt for facehugger mask");
                     initialized = true;
                 }
                 else
                 {
-                    // Fallback to Pawn.DrawAt
-                    var pawnDraw = AccessTools.Method(typeof(Pawn), "DrawAt");
-                    if (pawnDraw != null)
-                    {
-                        var harmony = new Harmony("com.ogliss.rimworld.mod.rryatuja.facehuggermask");
-                        harmony.Patch(pawnDraw, postfix: new HarmonyMethod(typeof(FacehuggerMaskRenderer), nameof(DrawAtPostfix)));
-                        AvPDebug.LogOnce("Patch", "[AVP Xenomorphs] Patched Pawn.DrawAt for facehugger mask");
-                        initialized = true;
-                    }
-                    else
-                    {
-                        Log.Warning("[AVP Xenomorphs] No DrawAt method found, facehugger mask will not render");
-                    }
+                    Log.Warning("[AVP Xenomorphs] Pawn.DrawAt not found, facehugger mask will not render");
                 }
             }
             catch (Exception e)
@@ -75,12 +62,11 @@ namespace RRYautja
             }
         }
 
-        public static void DrawAtPostfix(Thing __instance, Vector3 drawLoc, bool flip)
+        public static void DrawAtPostfix(Pawn __instance, Vector3 drawLoc, bool flip)
         {
             if (!initialized) return;
-            if (__instance == null || !__instance.Spawned) return;
-            if (!(__instance is Pawn pawn)) return;
-            TryDrawMask(pawn, drawLoc);
+            if (__instance == null || !__instance.Spawned || __instance.Dead) return;
+            TryDrawMask(__instance, drawLoc);
         }
 
         public static void TryDrawMask(Pawn pawn, Vector3 drawLoc)
@@ -110,9 +96,9 @@ namespace RRYautja
             Material mat = maskGraphic.MatAt(pawn.Rotation);
             if (mat == null) return;
 
-            // Use GenDraw.DrawMeshNowOrLater — renders in the map camera pipeline
+            // Use GenDraw.DrawMeshNowOrLater with drawNow=true to render immediately
             Matrix4x4 matrix = Matrix4x4.TRS(pos, Quaternion.identity, drawSize);
-            GenDraw.DrawMeshNowOrLater(MeshPool.plane10, matrix, mat, false);
+            GenDraw.DrawMeshNowOrLater(MeshPool.plane10, matrix, mat, true);
         }
     }
 }
