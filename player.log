@@ -564,3 +564,195 @@ System.NullReferenceException: Object reference not set to an instance of an obj
 An error occurred while starting an error recover job. We have to stop now to avoid infinite loops. This means that the pawn is now jobless which can cause further bugs. pawn=RRY_Xenomorph_FaceHugger94881
 queen can reach eggsite
 queen can reach eggsite
+queen can reach eggsite
+queen can reach eggsite
+Exception in RimWorld.ThinkNode_ConditionalFacehuggerFertile TryIssueJobPackage: System.NullReferenceException: Object reference not set to an instance of an object
+[Ref 5A9032F1] Duplicate stacktrace, see ref for original
+Exception in Verse.AI.ThinkNode_Tagger TryIssueJobPackage: System.NullReferenceException: Object reference not set to an instance of an object
+[Ref B3A85BBC] Duplicate stacktrace, see ref for original
+JobDriver threw exception in toil MakeNewToils's initAction for pawn RRY_Xenomorph_FaceHugger95190 driver=JobDriver_Wait (toilIndex=0) driver.job=(Wait_Wander (Job_45727) Giver = JobGiver_WanderAnywhere [workGiverDef: null])
+System.NullReferenceException: Object reference not set to an instance of an object
+[Ref 2BEE724E] Duplicate stacktrace, see ref for original
+JobDriver threw exception in toil MakeNewToils's initAction for pawn RRY_Xenomorph_FaceHugger95190 driver=JobDriver_Wait (toilIndex=0) driver.job=(Wait (Job_45728))
+System.NullReferenceException: Object reference not set to an instance of an object
+[Ref 2BEE724E] Duplicate stacktrace, see ref for original
+An error occurred while starting an error recover job. We have to stop now to avoid infinite loops. This means that the pawn is now jobless which can cause further bugs. pawn=RRY_Xenomorph_FaceHugger95190
+[AVP Xenomorphs] [Kidnap] Queen targeting Catty (1/3 drones) (tick 124197)
+queen can reach eggsite
+[AVP Xenomorphs] [AVP Xenomorphs] Removed facehugger mask apparel from Jerbear
+queen can reach eggsite
+queen can reach eggsite
+Exception in RimWorld.ThinkNode_ConditionalFacehuggerFertile TryIssueJobPackage: System.NullReferenceException: Object reference not set to an instance of an object
+[Ref 5A9032F1] Duplicate stacktrace, see ref for original
+Exception in Verse.AI.ThinkNode_Tagger TryIssueJobPackage: System.NullReferenceException: Object reference not set to an instance of an object
+[Ref B3A85BBC] Duplicate stacktrace, see ref for original
+JobDriver threw exception in toil MakeNewToils's initAction for pawn RRY_Xenomorph_FaceHugger95454 driver=JobDriver_Wait (toilIndex=0) driver.job=(Wait_Wander (Job_53828) Giver = JobGiver_WanderAnywhere [workGiverDef: null])
+System.NullReferenceException: Object reference not set to an instance of an object
+[Ref 2BEE724E] Duplicate stacktrace, see ref for original
+JobDriver threw exception in toil MakeNewToils's initAction for pawn RRY_Xenomorph_FaceHugger95454 driver=JobDriver_Wait (toilIndex=0) driver.job=(Wait (Job_53829))
+System.NullReferenceException: Object reference not set to an instance of an object
+[Ref 2BEE724E] Duplicate stacktrace, see ref for original
+An error occurred while starting an error recover job. We have to stop now to avoid infinite loops. This means that the pawn is now jobless which can cause further bugs. pawn=RRY_Xenomorph_FaceHugger95454
+queen can reach eggsite
+queen can reach eggsite
+queen can reach eggsite
+queen can reach eggsite
+[AVP Xenomorphs] [Spawn] Chestburster spawned: Drone faction=a Xenomorph hive (tick 142076)
+Error while killing Timofei during phase 6: System.NullReferenceException: Object reference not set to an instance of an object
+[Ref 8B9A2F00]
+  at Verse.ThingMaker.MakeThing (Verse.ThingDef def, Verse.ThingDef stuff) [0x0005b] in <61e4173561894da49d210260257b5097>:0 
+  at RimWorld.MoteMaker.ThrowExplosionCell (Verse.IntVec3 cell, Verse.Map map, Verse.ThingDef moteDef, UnityEngine.Color color) [0x0000b] in <61e4173561894da49d210260257b5097>:0 
+  at RRYautja.HediffComp_XenoSpawner.Notify_PawnDied (System.Nullable`1[T] dinfo, Verse.Hediff culprit) [0x00308] in <d798db5b4e554a7e80e546d4088fc5e5>:0 
+  at Verse.HediffWithComps.Notify_PawnDied (System.Nullable`1[T] dinfo, Verse.Hediff culprit) [0x00024] in <61e4173561894da49d210260257b5097>:0 
+  at RRYautja.XenoHediffWithComps.Notify_PawnDied (System.Nullable`1[T] dinfo, Verse.Hediff culprit) [0x00000] in <d798db5b4e554a7e80e546d4088fc5e5>:0 
+  at Verse.HediffSet.Notify_PawnDied (System.Nullable`1[T] dinfo, Verse.Hediff culprit) [0x0001c] in <61e4173561894da49d210260257b5097>:0 
+  at Verse.Pawn.Kill (System.Nullable`1[T] dinfo, Verse.Hediff exactCulprit) [0x0064c] in <61e4173561894da49d210260257b5097>:0 
+    - PREFIX OskarPotocki.VEF: Void VEF.Storyteller.VanillaExpandedFramework_Pawn_Kill_Patch:Prefix(Pawn __instance, Nullable`1 dinfo, Hediff exactCulprit)
+    - PREFIX OskarPotocki.VEF: Boolean VEF.Apparels.VanillaExpandedFramework_Pawn_Kill_Patch:Prefix(Pawn __instance, List`1& __state)
+    - POSTFIX UnlimitedHugs.AllowTool: Void AllowTool.Patches.Pawn_Kill_Patch:UnforbidDraftedHuntBody(Pawn __instance, Nullable`1 dinfo)
+    - POSTFIX OskarPotocki.VEF: Void VEF.Pawns.VanillaExpandedFramework_Pawn_Kill:Postfix(Pawn __instance)
+    - POSTFIX OskarPotocki.VEF: Void VEF.Apparels.VanillaExpandedFramework_Pawn_Kill_Patch:Postfix(Pawn __instance, List`1 __state)
+    - POSTFIX VFEEmpire.Mod: Void VFEEmpire.HarmonyPatches.ColonistTitleCache+OnPawn:Postfix(Pawn __instance)
+    - POSTFIX vanillaexpanded.factions.deserters: Void VFED.HarmonyPatches.MiscPatches:ExplodePackOnDeath(Pawn __instance)
+Error while killing Kirby during phase 6: System.NullReferenceException: Object reference not set to an instance of an object
+[Ref 8B9A2F00] Duplicate stacktrace, see ref for original
+queen can reach eggsite
+queen can reach eggsite
+[AVP Xenomorphs] [Spawn] Chestburster spawned: Drone faction=a Xenomorph hive (tick 144104)
+Error while killing Cave during phase 6: System.NullReferenceException: Object reference not set to an instance of an object
+[Ref 8B9A2F00] Duplicate stacktrace, see ref for original
+[AVP Xenomorphs] [Spawn] Chestburster spawned: Warrior faction=a Xenomorph hive (tick 144449)
+Error while killing Jerbear during phase 6: System.NullReferenceException: Object reference not set to an instance of an object
+[Ref 8B9A2F00] Duplicate stacktrace, see ref for original
+[AVP Xenomorphs] [Spawn] Chestburster spawned: Runner faction=a Xenomorph hive (tick 146746)
+Error while killing Megasloth55232 during phase 6: System.NullReferenceException: Object reference not set to an instance of an object
+[Ref 8B9A2F00] Duplicate stacktrace, see ref for original
+queen can reach eggsite
+queen can reach eggsite
+[AVP Xenomorphs] [Spawn] Chestburster spawned: Drone faction=a Xenomorph hive (tick 151593)
+Error while killing Vay during phase 6: System.NullReferenceException: Object reference not set to an instance of an object
+[Ref 8B9A2F00] Duplicate stacktrace, see ref for original
+Exception in RimWorld.ThinkNode_ConditionalFacehuggerFertile TryIssueJobPackage: System.NullReferenceException: Object reference not set to an instance of an object
+[Ref 5A9032F1] Duplicate stacktrace, see ref for original
+Exception in Verse.AI.ThinkNode_Tagger TryIssueJobPackage: System.NullReferenceException: Object reference not set to an instance of an object
+[Ref B3A85BBC] Duplicate stacktrace, see ref for original
+JobDriver threw exception in toil MakeNewToils's initAction for pawn RRY_Xenomorph_FaceHugger95769 driver=JobDriver_Wait (toilIndex=0) driver.job=(Wait_Wander (Job_65724) Giver = JobGiver_WanderAnywhere [workGiverDef: null])
+System.NullReferenceException: Object reference not set to an instance of an object
+[Ref 2BEE724E] Duplicate stacktrace, see ref for original
+JobDriver threw exception in toil MakeNewToils's initAction for pawn RRY_Xenomorph_FaceHugger95769 driver=JobDriver_Wait (toilIndex=0) driver.job=(Wait (Job_65725))
+System.NullReferenceException: Object reference not set to an instance of an object
+[Ref 2BEE724E] Duplicate stacktrace, see ref for original
+An error occurred while starting an error recover job. We have to stop now to avoid infinite loops. This means that the pawn is now jobless which can cause further bugs. pawn=RRY_Xenomorph_FaceHugger95769
+[AVP Xenomorphs] [Spawn] Chestburster spawned: Warrior faction=a Xenomorph hive (tick 153600)
+Error while killing Matthew during phase 6: System.NullReferenceException: Object reference not set to an instance of an object
+[Ref 8B9A2F00] Duplicate stacktrace, see ref for original
+queen can reach eggsite
+queen can reach eggsite
+Deep-saving discarded thing RRY_FacehuggerMask94991. This mode means that the thing is no longer managed by anything in the code and should not be deep-saved anywhere. (even with saveDestroyedThings==true) , label=li
+Deep-saving discarded thing RRY_FacehuggerMask94981. This mode means that the thing is no longer managed by anything in the code and should not be deep-saved anywhere. (even with saveDestroyedThings==true) , label=li
+Deep-saving discarded thing RRY_FacehuggerMask94984. This mode means that the thing is no longer managed by anything in the code and should not be deep-saved anywhere. (even with saveDestroyedThings==true) , label=li
+Deep-saving discarded thing RRY_FacehuggerMask94985. This mode means that the thing is no longer managed by anything in the code and should not be deep-saved anywhere. (even with saveDestroyedThings==true) , label=li
+Deep-saving discarded thing RRY_FacehuggerMask94922. This mode means that the thing is no longer managed by anything in the code and should not be deep-saved anywhere. (even with saveDestroyedThings==true) , label=li
+Deep-saving discarded thing RRY_FacehuggerMask95101. This mode means that the thing is no longer managed by anything in the code and should not be deep-saved anywhere. (even with saveDestroyedThings==true) , label=li
+Deep-saving discarded thing RRY_FacehuggerMask95098. This mode means that the thing is no longer managed by anything in the code and should not be deep-saved anywhere. (even with saveDestroyedThings==true) , label=li
+Deep-saving discarded thing RRY_FacehuggerMask95208. This mode means that the thing is no longer managed by anything in the code and should not be deep-saved anywhere. (even with saveDestroyedThings==true) , label=li
+Wrote screenshot C:\Users\clint\AppData\LocalLow\Ludeon Studios\RimWorld by Ludeon Studios\RimSaves\Previews\Autosave-4.dat of size 97624
+Tried to destroy already-destroyed thing RRY_FacehuggerMask94981
+Tried to destroy already-destroyed thing RRY_FacehuggerMask94981
+Tried to destroy already-destroyed thing RRY_FacehuggerMask94981
+Tried to destroy already-destroyed thing RRY_FacehuggerMask94981
+Tried to destroy already-destroyed thing RRY_FacehuggerMask94981
+Tried to destroy already-destroyed thing RRY_FacehuggerMask94981
+Tried to destroy already-destroyed thing RRY_FacehuggerMask94981
+Tried to destroy already-destroyed thing RRY_FacehuggerMask94981
+Tried to destroy already-destroyed thing RRY_FacehuggerMask94981
+Tried to destroy already-destroyed thing RRY_FacehuggerMask94981
+Tried to destroy already-destroyed thing RRY_FacehuggerMask94981
+Tried to destroy already-destroyed thing RRY_FacehuggerMask94981
+Tried to destroy already-destroyed thing RRY_FacehuggerMask94981
+Tried to destroy already-destroyed thing RRY_FacehuggerMask94981
+Tried to destroy already-destroyed thing RRY_FacehuggerMask94981
+Tried to destroy already-destroyed thing RRY_FacehuggerMask94981
+Tried to destroy already-destroyed thing RRY_FacehuggerMask94981
+Tried to destroy already-destroyed thing RRY_FacehuggerMask94981
+Tried to destroy already-destroyed thing RRY_FacehuggerMask94981
+Tried to destroy already-destroyed thing RRY_FacehuggerMask94981
+Tried to destroy already-destroyed thing RRY_FacehuggerMask94981
+Tried to destroy already-destroyed thing RRY_FacehuggerMask94981
+Tried to destroy already-destroyed thing RRY_FacehuggerMask94981
+Tried to destroy already-destroyed thing RRY_FacehuggerMask94981
+Tried to destroy already-destroyed thing RRY_FacehuggerMask94981
+Tried to destroy already-destroyed thing RRY_FacehuggerMask94981
+Tried to destroy already-destroyed thing RRY_FacehuggerMask94981
+Tried to destroy already-destroyed thing RRY_FacehuggerMask94981
+Tried to destroy already-destroyed thing RRY_FacehuggerMask94981
+Tried to destroy already-destroyed thing RRY_FacehuggerMask94981
+Tried to destroy already-destroyed thing RRY_FacehuggerMask94981
+Tried to destroy already-destroyed thing RRY_FacehuggerMask94981
+Tried to destroy already-destroyed thing RRY_FacehuggerMask94981
+Tried to destroy already-destroyed thing RRY_FacehuggerMask94981
+Tried to destroy already-destroyed thing RRY_FacehuggerMask94981
+Tried to destroy already-destroyed thing RRY_FacehuggerMask94981
+Tried to destroy already-destroyed thing RRY_FacehuggerMask94981
+Tried to destroy already-destroyed thing RRY_FacehuggerMask94981
+Tried to destroy already-destroyed thing RRY_FacehuggerMask94981
+Tried to destroy already-destroyed thing RRY_FacehuggerMask94981
+Tried to destroy already-destroyed thing RRY_FacehuggerMask94981
+Tried to destroy already-destroyed thing RRY_FacehuggerMask94981
+Tried to destroy already-destroyed thing RRY_FacehuggerMask94981
+Tried to destroy already-destroyed thing RRY_FacehuggerMask94981
+Tried to destroy already-destroyed thing RRY_FacehuggerMask94981
+Tried to destroy already-destroyed thing RRY_FacehuggerMask94981
+Tried to destroy already-destroyed thing RRY_FacehuggerMask94981
+Tried to destroy already-destroyed thing RRY_FacehuggerMask94981
+Tried to destroy already-destroyed thing RRY_FacehuggerMask94981
+Tried to destroy already-destroyed thing RRY_FacehuggerMask94981
+Tried to destroy already-destroyed thing RRY_FacehuggerMask94981
+Tried to destroy already-destroyed thing RRY_FacehuggerMask94981
+Tried to destroy already-destroyed thing RRY_FacehuggerMask94981
+Tried to destroy already-destroyed thing RRY_FacehuggerMask94981
+Tried to destroy already-destroyed thing RRY_FacehuggerMask94981
+Tried to destroy already-destroyed thing RRY_FacehuggerMask94981
+Tried to destroy already-destroyed thing RRY_FacehuggerMask94981
+Tried to destroy already-destroyed thing RRY_FacehuggerMask94981
+Tried to destroy already-destroyed thing RRY_FacehuggerMask94981
+Tried to destroy already-destroyed thing RRY_FacehuggerMask94981
+Tried to destroy already-destroyed thing RRY_FacehuggerMask94981
+Tried to destroy already-destroyed thing RRY_FacehuggerMask94981
+Tried to destroy already-destroyed thing RRY_FacehuggerMask94981
+Tried to destroy already-destroyed thing RRY_FacehuggerMask94981
+Tried to destroy already-destroyed thing RRY_FacehuggerMask94981
+Tried to destroy already-destroyed thing RRY_FacehuggerMask94981
+Tried to destroy already-destroyed thing RRY_FacehuggerMask94981
+Tried to destroy already-destroyed thing RRY_FacehuggerMask94981
+Tried to destroy already-destroyed thing RRY_FacehuggerMask94981
+Tried to destroy already-destroyed thing RRY_FacehuggerMask94981
+Tried to destroy already-destroyed thing RRY_FacehuggerMask94981
+Tried to destroy already-destroyed thing RRY_FacehuggerMask94981
+Tried to destroy already-destroyed thing RRY_FacehuggerMask94981
+Tried to destroy already-destroyed thing RRY_FacehuggerMask94981
+Tried to destroy already-destroyed thing RRY_FacehuggerMask94981
+Tried to destroy already-destroyed thing RRY_FacehuggerMask94981
+Tried to destroy already-destroyed thing RRY_FacehuggerMask94981
+Tried to destroy already-destroyed thing RRY_FacehuggerMask94981
+Tried to destroy already-destroyed thing RRY_FacehuggerMask94981
+Tried to destroy already-destroyed thing RRY_FacehuggerMask94981
+Tried to destroy already-destroyed thing RRY_FacehuggerMask94981
+Tried to destroy already-destroyed thing RRY_FacehuggerMask94981
+Tried to destroy already-destroyed thing RRY_FacehuggerMask94981
+Tried to destroy already-destroyed thing RRY_FacehuggerMask94981
+Tried to destroy already-destroyed thing RRY_FacehuggerMask94981
+Tried to destroy already-destroyed thing RRY_FacehuggerMask94981
+Tried to destroy already-destroyed thing RRY_FacehuggerMask94981
+Tried to destroy already-destroyed thing RRY_FacehuggerMask94981
+Tried to destroy already-destroyed thing RRY_FacehuggerMask94981
+Tried to destroy already-destroyed thing RRY_FacehuggerMask94981
+Tried to destroy already-destroyed thing RRY_FacehuggerMask94981
+Tried to destroy already-destroyed thing RRY_FacehuggerMask94981
+Tried to destroy already-destroyed thing RRY_FacehuggerMask94981
+Tried to destroy already-destroyed thing RRY_FacehuggerMask94981
+Tried to destroy already-destroyed thing RRY_FacehuggerMask94981
+Tried to destroy already-destroyed thing RRY_FacehuggerMask94981
+Tried to destroy already-destroyed thing RRY_FacehuggerMask94981
+Tried to destroy already-destroyed thing RRY_FacehuggerMask94981
+Tried to destroy already-destroyed thing RRY_FacehuggerMask94981
