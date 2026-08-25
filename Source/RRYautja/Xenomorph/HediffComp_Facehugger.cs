@@ -106,6 +106,51 @@ namespace RRYautja
             }
         }
 
+        private Apparel maskApparel;
+
+        private void AddMaskApparel()
+        {
+            try
+            {
+                if (Pawn == null || Pawn.apparel == null) return;
+                // Don't add if already wearing one
+                if (Pawn.apparel.WornApparel.Any(a => a.def.defName == "RRY_FacehuggerMask" || a.def.defName == "RRY_RoyalFacehuggerMask")) return;
+
+                ThingDef maskDef = RoyaleHugger ? ThingDef.Named("RRY_RoyalFacehuggerMask") : ThingDef.Named("RRY_FacehuggerMask");
+                if (maskDef == null) return;
+
+                Apparel apparel = (Apparel)ThingMaker.MakeThing(maskDef, null);
+                apparel.holdingOwner = null;
+                Pawn.apparel.TryGainApparel(apparel);
+                maskApparel = apparel;
+                AvPDebug.LogOnce("MaskAdd", "[AVP Xenomorphs] Added facehugger mask apparel to " + Pawn.LabelShort);
+            }
+            catch (System.Exception e)
+            {
+                AvPDebug.Error("Failed to add facehugger mask: " + e.Message);
+            }
+        }
+
+        private void RemoveMaskApparel()
+        {
+            try
+            {
+                if (Pawn == null || Pawn.apparel == null) return;
+                // Remove the mask apparel
+                var mask = Pawn.apparel.WornApparel.FirstOrDefault(a => a.def.defName == "RRY_FacehuggerMask" || a.def.defName == "RRY_RoyalFacehuggerMask");
+                if (mask != null)
+                {
+                    Pawn.apparel.Remove(mask);
+                    mask.Destroy();
+                    AvPDebug.LogOnce("MaskRemove", "[AVP Xenomorphs] Removed facehugger mask apparel from " + Pawn.LabelShort);
+                }
+            }
+            catch (System.Exception e)
+            {
+                AvPDebug.Error("Failed to remove facehugger mask: " + e.Message);
+            }
+        }
+
         public bool spawnLive
         {
             get
@@ -252,6 +297,8 @@ namespace RRYautja
         public override void CompPostPostAdd(DamageInfo? dinfo)
         {
             base.CompPostPostAdd(dinfo);
+            // Add facehugger mask apparel to the host
+            AddMaskApparel();
             if (!PlayerKnowledgeDatabase.IsComplete(XenomorphConceptDefOf.RRY_Concept_Facehuggers) && Pawn.Spawned && Pawn.IsColonist)
             {
                 LessonAutoActivator.TeachOpportunity(XenomorphConceptDefOf.RRY_Concept_Facehuggers, OpportunityType.Important);
@@ -260,6 +307,8 @@ namespace RRYautja
 
         public override void CompPostPostRemoved()
         {
+            // Remove facehugger mask apparel from the host
+            RemoveMaskApparel();
             Thing hostThing = Pawn;
             Pawn hostPawn = Pawn;
             Map spawnMap = !Pawn.Dead ? Pawn.Map : Pawn.MapHeld;

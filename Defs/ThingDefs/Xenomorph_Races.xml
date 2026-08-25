@@ -645,13 +645,6 @@
     <label>Drone</label>
     <race>RRY_Xenomorph_Drone</race>
     <combatPower>62.5</combatPower>
-    <alternateGraphicChance>0.2</alternateGraphicChance>
-    <alternateGraphics>
-      <li><texPath>Things/Pawn/Xenomorph/Xenomorph_Drone_New_Dark</texPath></li>
-      <li><texPath>Things/Pawn/Xenomorph/Xenomorph_Drone_New_Gold</texPath></li>
-      <li><texPath>Things/Pawn/Xenomorph/Xenomorph_Drone_New_Light</texPath></li>
-      <!--<li><texPath>Things/Pawn/Xenomorph/Xenomorph_Drone_New_Red</texPath></li>-->
-    </alternateGraphics>
     <lifeStages>
       <li>
         <bodyGraphicData>

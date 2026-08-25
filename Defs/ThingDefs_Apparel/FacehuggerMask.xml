@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+  <ThingDef Name="RRY_FacehuggerMaskBase" Abstract="true">
+    <thingCategories>
+      <li>RRY_Headgear</li>
+    </thingCategories>
+    <thingClass>Apparel</thingClass>
+    <category>Item</category>
+    <selectable>True</selectable>
+    <pathCost>10</pathCost>
+    <useHitPoints>True</useHitPoints>
+    <graphicData>
+      <graphicClass>Graphic_Single</graphicClass>
+      <texPath>Things/Pawn/Xenomorph/Xenomorph_FaceHugger_Mask_south</texPath>
+    </graphicData>
+    <drawGUIOverlay>true</drawGUIOverlay>
+    <statBases>
+      <MaxHitPoints>100</MaxHitPoints>
+      <Flammability>1</Flammability>
+      <DeteriorationRate>0</DeteriorationRate>
+      <SellPriceFactor>0.0</SellPriceFactor>
+      <SellPriceMultiplier>0.0</SellPriceMultiplier>
+      <Mass>0.1</Mass>
+    </statBases>
+    <apparel>
+      <bodyPartGroups>
+        <li>FullHead</li>
+      </bodyPartGroups>
+      <layers>
+        <li>Overhead</li>
+      </layers>
+      <defaultOutfitTags>
+        <li>Worker</li>
+      </defaultOutfitTags>
+      <wornGraphicData>
+        <texPath>Things/Pawn/Xenomorph/Xenomorph_FaceHugger_Mask</texPath>
+        <graphicClass>Graphic_Multi</graphicClass>
+      </wornGraphicData>
+      <drawWornBodyPart>FullHead</drawWornBodyPart>
+    </apparel>
+    <comps>
+      <li Class="CompProperties_Useable" />
+    </comps>
+  </ThingDef>
+
+  <ThingDef ParentName="RRY_FacehuggerMaskBase">
+    <defName>RRY_FacehuggerMask</defName>
+    <label>Facehugger</label>
+    <description>A facehugger attached to a host's face.</description>
+  </ThingDef>
+
+  <ThingDef ParentName="RRY_FacehuggerMaskBase">
+    <defName>RRY_RoyalFacehuggerMask</defName>
+    <label>Royal Facehugger</label>
+    <description>A royal facehugger attached to a host's face.</description>
+    <graphicData>
+      <graphicClass>Graphic_Single</graphicClass>
+      <texPath>Things/Pawn/Xenomorph/Xenomorph_FaceHuggerRoyal_Mask_south</texPath>
+    </graphicData>
+    <apparel>
+      <bodyPartGroups>
+        <li>FullHead</li>
+      </bodyPartGroups>
+      <layers>
+        <li>Overhead</li>
+      </layers>
+      <wornGraphicData>
+        <texPath>Things/Pawn/Xenomorph/Xenomorph_FaceHuggerRoyal_Mask</texPath>
+        <graphicClass>Graphic_Multi</graphicClass>
+      </wornGraphicData>
+      <drawWornBodyPart>FullHead</drawWornBodyPart>
+    </apparel>
+  </ThingDef>
+
+</Defs>
