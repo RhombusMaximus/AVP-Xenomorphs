@@ -33,14 +33,6 @@
       <defaultOutfitTags>
         <li>Worker</li>
       </defaultOutfitTags>
-      <renderNodeProperties>
-        <li>
-          <drawOffsetSouth>(0, -0.1, 0)</drawOffsetSouth>
-          <drawOffsetNorth>(0, -0.1, 0)</drawOffsetNorth>
-          <drawOffsetEast>(0, -0.1, 0)</drawOffsetEast>
-          <drawOffsetWest>(0, -0.1, 0)</drawOffsetWest>
-        </li>
-      </renderNodeProperties>
     </apparel>
   </ThingDef>
 
@@ -68,14 +60,6 @@
         <li>Worker</li>
       </defaultOutfitTags>
       <wornGraphicPath>Things/Pawn/Xenomorph/Xenomorph_FaceHuggerRoyal_Mask</wornGraphicPath>
-      <renderNodeProperties>
-        <li>
-          <drawOffsetSouth>(0, -0.1, 0)</drawOffsetSouth>
-          <drawOffsetNorth>(0, -0.1, 0)</drawOffsetNorth>
-          <drawOffsetEast>(0, -0.1, 0)</drawOffsetEast>
-          <drawOffsetWest>(0, -0.1, 0)</drawOffsetWest>
-        </li>
-      </renderNodeProperties>
     </apparel>
   </ThingDef>
 
