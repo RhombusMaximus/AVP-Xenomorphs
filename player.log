@@ -11,7 +11,7 @@ Direct3D:
     VRAM:     8042 MB
     Driver:   32.0.16.1088
 Begin MonoManager ReloadAssembly
-- Loaded All Assemblies, in  0.148 seconds
+- Loaded All Assemblies, in  0.150 seconds
 - Finished resetting the current domain, in  0.001 seconds
 <RI> Initializing input.
 
@@ -20,21 +20,21 @@ Begin MonoManager ReloadAssembly
 <RI> Initialized touch support.
 
 [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
-UnloadTime: 0.640600 ms
+UnloadTime: 0.608200 ms
 Command line arguments: -disable-compute-shaders
 RimWorld 1.6.4871 rev591
 Mod Realistic Humansounds HAR Patch dependency (Mlie.RealisticHumanSounds) needs to have <downloadUrl> and/or <steamWorkshopUrl> specified.
-Fallback handler could not load library D:/SteamLibrary/steamapps/common/RimWorld/RimWorldWin64_Data/MonoBleedingEdge/data-000002F56EDE2660.dll
-Fallback handler could not load library D:/SteamLibrary/steamapps/common/RimWorld/RimWorldWin64_Data/MonoBleedingEdge/data-000002F56EE19A00.dll
+Fallback handler could not load library D:/SteamLibrary/steamapps/common/RimWorld/RimWorldWin64_Data/MonoBleedingEdge/data-000002427106E030.dll
+Fallback handler could not load library D:/SteamLibrary/steamapps/common/RimWorld/RimWorldWin64_Data/MonoBleedingEdge/data-0000024271234060.dll
 [Loading Progress] Loading Progress initialized! Enjoy the rest of your loading experience!
 [HugsLib] version 12.0.0
 [HugsLib] early-initializing AllowTool
-Fallback handler could not load library D:/SteamLibrary/steamapps/common/RimWorld/RimWorldWin64_Data/MonoBleedingEdge/data-000002F570833020.dll
+Fallback handler could not load library D:/SteamLibrary/steamapps/common/RimWorld/RimWorldWin64_Data/MonoBleedingEdge/data-00000242737AB0D0.dll
 DubsMintMenus v1.3.1086
 [Analyzer] Loaded version 1.6.0 rev 1
 [Analyzer] ResearchTree
 FPSStabilizer v1.1 loaded, patcher message: Patched successfully, fps set to 60
-Fallback handler could not load library D:/SteamLibrary/steamapps/common/RimWorld/RimWorldWin64_Data/MonoBleedingEdge/data-000002F536C1F020.dll
+Fallback handler could not load library D:/SteamLibrary/steamapps/common/RimWorld/RimWorldWin64_Data/MonoBleedingEdge/data-0000024277D30010.dll
 <color=#66ffb5>[MeleeAnim]</color> Hello, world!
 Build date: 4/13/2026 8:02 AM
 Loaded assemblies (9):
@@ -53,25 +53,12 @@ AM.AlienRacesPatch, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null
 RimSaves NX rev27
 [SafePatcher]The xPath: "Defs/ThingDef[defName="Gun_NestMMG"]" not found
 [SafePatcher]The xPath: "Defs/ThingDef[defName="Gun_NestMissile"]" not found
-XML error: <texPath>Things/Pawn/Xenomorph/Xenomorph_FaceHugger_Mask</texPath> doesn't correspond to any field in type WornGraphicData. Context: <wornGraphicData><texPath>Things/Pawn/Xenomorph/Xenomorph_FaceHugger_Mask</texPath><graphicClass>Graphic_Multi</graphicClass></wornGraphicData>
-XML error: <graphicClass>Graphic_Multi</graphicClass> doesn't correspond to any field in type WornGraphicData. Context: <wornGraphicData><texPath>Things/Pawn/Xenomorph/Xenomorph_FaceHugger_Mask</texPath><graphicClass>Graphic_Multi</graphicClass></wornGraphicData>
-XML error: <drawWornBodyPart>FullHead</drawWornBodyPart> doesn't correspond to any field in type ApparelProperties. Context: <apparel><bodyPartGroups><li>FullHead</li></bodyPartGroups><layers><li>Overhead</li></layers><defaultOutfitTags><li>Worker</li></defaultOutfitTags><wornGraphicData><texPath>Things/Pawn/Xenomorph/Xenomorph_FaceHugger_Mask</texPath><graphicClass>Graphic_Multi</graphicClass></wornGraphicData><drawWornBodyPart>FullHead</drawWornBodyPart></apparel>
-Exception loading def from file FacehuggerMask.xml: System.ArgumentException: Could not find type named CompProperties_Useable from node <li Class="CompProperties_Useable" />
-Parameter name: node
-[Ref B3CE18E]
-  at Verse.DirectXmlToObjectNew.ResolveTypeForNode (System.Type defaultType, System.Xml.XmlNode node) [0x0005a] in <61e4173561894da49d210260257b5097>:0 
-(wrapper dynamic-method) Verse.DirectXmlToObjectNew+DummyTypeToHoldDynamicMethods.ParseAndSetListField_Verse_CompProperties(object,System.Reflection.FieldInfo,System.Xml.XmlNode,System.Type)
-(wrapper dynamic-method) Verse.DirectXmlToObjectNew+DummyTypeToHoldDynamicMethods.ParseAndReturnDef_Verse_ThingDef(int,int,System.Xml.XmlNode,System.Type)
-  at Verse.DirectXmlToObjectNew.DefFromNodeNew (System.Xml.XmlNode node, Verse.LoadableXmlAsset loadingAsset) [0x0010e] in <61e4173561894da49d210260257b5097>:0 
-    - PREFIX ordpus.logafterdeferror: Void LogAfterDefError.DirectXmlLoader_DefFromNode:Prefix(LogMessage& __state)
-    - POSTFIX ilyvion.loadingprogress: Void ilyvion.LoadingProgress.DirectXmlToObjectNew_LoadingDataTracker_Patches:DefFromNodeNewPostfix(Def __result)
-    - POSTFIX ordpus.logafterdeferror: Void LogAfterDefError.DirectXmlLoader_DefFromNode:Postfix(Def __result, LoadableXmlAsset loadingAsset, LogMessage __state)
-XML error: <texPath>Things/Pawn/Xenomorph/Xenomorph_FaceHuggerRoyal_Mask</texPath> doesn't correspond to any field in type WornGraphicData. Context: <wornGraphicData><texPath>Things/Pawn/Xenomorph/Xenomorph_FaceHuggerRoyal_Mask</texPath><graphicClass>Graphic_Multi</graphicClass></wornGraphicData>
-XML error: <graphicClass>Graphic_Multi</graphicClass> doesn't correspond to any field in type WornGraphicData. Context: <wornGraphicData><texPath>Things/Pawn/Xenomorph/Xenomorph_FaceHuggerRoyal_Mask</texPath><graphicClass>Graphic_Multi</graphicClass></wornGraphicData>
-XML error: <drawWornBodyPart>FullHead</drawWornBodyPart> doesn't correspond to any field in type ApparelProperties. Context: <apparel><bodyPartGroups><li>FullHead</li><li>FullHead</li></bodyPartGroups><layers><li>Overhead</li><li>Overhead</li></layers><defaultOutfitTags><li>Worker</li></defaultOutfitTags><wornGraphicData><texPath>Things/Pawn/Xenomorph/Xenomorph_FaceHuggerRoyal_Mask</texPath><graphicClass>Graphic_Multi</graphicClass></wornGraphicData><drawWornBodyPart>FullHead</drawWornBodyPart></apparel>
-Exception loading def from file FacehuggerMask.xml: System.ArgumentException: Could not find type named CompProperties_Useable from node <li Class="CompProperties_Useable" />
-Parameter name: node
-[Ref B3CE18E] Duplicate stacktrace, see ref for original
+XML error: <wornGraphicPath>Things/Pawn/Xenomorph/Xenomorph_FaceHugger_Mask</wornGraphicPath> doesn't correspond to any field in type WornGraphicData. Context: <wornGraphicData><wornGraphicPath>Things/Pawn/Xenomorph/Xenomorph_FaceHugger_Mask</wornGraphicPath></wornGraphicData>
+[Def Error]: RRY_FacehuggerMask
+AVP Xenomorphs\Defs\ThingDefs_Apparel\FacehuggerMask.xml
+XML error: <wornGraphicPath>Things/Pawn/Xenomorph/Xenomorph_FaceHuggerRoyal_Mask</wornGraphicPath> doesn't correspond to any field in type WornGraphicData. Context: <wornGraphicData><wornGraphicPath>Things/Pawn/Xenomorph/Xenomorph_FaceHuggerRoyal_Mask</wornGraphicPath></wornGraphicData>
+[Def Error]: RRY_RoyalFacehuggerMask
+AVP Xenomorphs\Defs\ThingDefs_Apparel\FacehuggerMask.xml
 Could not resolve cross-reference: No RimWorld.StatDef named SellPriceMultiplier found to give to RimWorld.StatModifier (null stat)
 Could not resolve cross-reference: No RimWorld.StatDef named SellPriceMultiplier found to give to RimWorld.StatModifier (null stat)
 Tried to load duplicate UnityEngine.Texture2D with path: FilesystemFile [D:\SteamLibrary\steamapps\common\RimWorld\Mods\AVP-Xenomorphs\Textures\Things\Addons\Blood_Marks\Xenomorph_Kills\Mark_Thrumbomorphkill_south.psd], Length 28603 and internal path: Things/Addons/Blood_Marks/Xenomorph_Kills/Mark_Thrumbomorphkill_south
@@ -120,7 +107,7 @@ NamesGalore: Current Lang English
 (Research Tab Colors) Transpiler injected.
 Unloading 5 Unused Serialized files (Serialized files now loaded: 5)
 Unloading 529 unused Assets to reduce memory usage. Loaded Objects now: 34443.
-Total: 278.775100 ms (FindLiveObjects: 1.949800 ms CreateObjectMapping: 1.839800 ms MarkObjects: 274.196600 ms  DeleteObjects: 0.788500 ms)
+Total: 275.167500 ms (FindLiveObjects: 1.679500 ms CreateObjectMapping: 1.062500 ms MarkObjects: 271.651300 ms  DeleteObjects: 0.773800 ms)
 
 MVCF successfully applied 41 patches
 [com.ogliss.rimworld.mod.rryatuja.minepatch] Patches on methods annotated as Obsolete were detected by HugsLib: RimWorld.Mineable.TrySpawnYield
@@ -307,25 +294,25 @@ Transpilers:
 Postfixes:
   [PeteTimesSix.SimpleSidearms] TryCastShot
 Unloading 1 Unused Serialized files (Serialized files now loaded: 7)
-<color=#66ffb5>[MeleeAnim]</color> PreCached all retexture info in 29.6ms
+<color=#66ffb5>[MeleeAnim]</color> PreCached all retexture info in 34.7ms
 <color=#66ffb5>[MeleeAnim]</color> Loaded tweak data for 29 weapons.
 <color=#66ffb5>[MeleeAnim]</color> ludeon.rimworld.odyssey 'Odyssey' has 2 missing weapon tweak data.
 <color=#66ffb5>[MeleeAnim]</color> ogliss.avpxenomorphs 'AVP Xenomorphs' has 3 missing weapon tweak data.
 <color=#66ffb5>[MeleeAnim]</color> Skipping reporting of missing mod/weapons because user opted out or the feature is disabled by the developer.
-<color=#66ffb5>[MeleeAnim]</color> Patched 3 classes that directly inherit from Verb_MeleeAttack in 55.4 ms to detect hits:
+<color=#66ffb5>[MeleeAnim]</color> Patched 3 classes that directly inherit from Verb_MeleeAttack in 58.4 ms to detect hits:
 RimWorld.Verb_MeleeApplyHediff from Assembly-CSharp
 RimWorld.Verb_MeleeAttackDamage from Assembly-CSharp
 RRYautja.Verb_MeleeAttackKnockback from RRYautja
-<color=#66ffb5>[MeleeAnim]</color> Found 0 items of clothing that cover hands, took 0.69 ms:
+<color=#66ffb5>[MeleeAnim]</color> Found 0 items of clothing that cover hands, took 0.66 ms:
 Unloading 55 unused Assets to reduce memory usage. Loaded Objects now: 34607.
-Total: 258.759100 ms (FindLiveObjects: 1.642900 ms CreateObjectMapping: 0.897500 ms MarkObjects: 256.106700 ms  DeleteObjects: 0.111700 ms)
+Total: 268.991000 ms (FindLiveObjects: 1.749400 ms CreateObjectMapping: 1.989200 ms MarkObjects: 265.129000 ms  DeleteObjects: 0.123200 ms)
 
 Unloading 0 Unused Serialized files (Serialized files now loaded: 7)
 Loading asset bundle MuzzleFlash.shaders-windows
 Loaded shader Unlit/AnimatedAdditiveInstanced
 [Muzzle Flash] Shader loaded from MuzzleFlash: Unlit/AnimatedAdditiveInstanced
 Unloading 0 unused Assets to reduce memory usage. Loaded Objects now: 34609.
-Total: 271.485300 ms (FindLiveObjects: 1.689900 ms CreateObjectMapping: 1.972300 ms MarkObjects: 267.768300 ms  DeleteObjects: 0.054100 ms)
+Total: 261.346200 ms (FindLiveObjects: 1.749200 ms CreateObjectMapping: 1.998200 ms MarkObjects: 257.545600 ms  DeleteObjects: 0.053000 ms)
 
 Unloading 0 Unused Serialized files (Serialized files now loaded: 8)
 [Loading Progress] Why is ResearchPal.Profiler.Start from ResearchPal 1.6 - Temp calling DeepProfiler.Start (and by extension our patch) with null?! Stop it.
@@ -336,18 +323,18 @@ Unloading 0 Unused Serialized files (Serialized files now loaded: 8)
 [Loading Progress] Why is ResearchPal.Profiler.Start from ResearchPal 1.6 - Temp calling DeepProfiler.Start (and by extension our patch) with null?! Stop it.
 ResearchPal :: Research layout initialized
 Unloading 0 unused Assets to reduce memory usage. Loaded Objects now: 34609.
-Total: 259.283700 ms (FindLiveObjects: 1.733200 ms CreateObjectMapping: 2.049700 ms MarkObjects: 255.443100 ms  DeleteObjects: 0.057200 ms)
+Total: 267.356500 ms (FindLiveObjects: 1.686000 ms CreateObjectMapping: 1.226800 ms MarkObjects: 264.391800 ms  DeleteObjects: 0.051600 ms)
 
 Unloading 0 Unused Serialized files (Serialized files now loaded: 8)
 Unloading 0 unused Assets to reduce memory usage. Loaded Objects now: 34609.
-Total: 261.967500 ms (FindLiveObjects: 2.199000 ms CreateObjectMapping: 2.151100 ms MarkObjects: 257.557400 ms  DeleteObjects: 0.059700 ms)
+Total: 266.425400 ms (FindLiveObjects: 2.481700 ms CreateObjectMapping: 2.112600 ms MarkObjects: 261.777400 ms  DeleteObjects: 0.053400 ms)
 
 [HugsLib] initializing TerraformRimworld
 CE is trying to create default parameter lists ...
 creating default parameter list for genes...
 250 default entities for genes created
 creating default parameter list for objects...
-2403 default entities for objects created
+2405 default entities for objects created
 creating default parameter list for turrets...
 40 default entities for turrets created
 ...lists created
@@ -357,140 +344,9 @@ no modifications for lifestages
 ...done
 Unloading 3 Unused Serialized files (Serialized files now loaded: 8)
 [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
-UnloadTime: 1.013300 ms
-Unloading 2 unused Assets to reduce memory usage. Loaded Objects now: 34887.
-Total: 280.592900 ms (FindLiveObjects: 2.118400 ms CreateObjectMapping: 1.029400 ms MarkObjects: 277.373200 ms  DeleteObjects: 0.071500 ms)
-
-Loading game from file Autosave-1 with mods:
-  - brrainz.harmony
-  - ilyvion.LoadingProgress
-  - Ludeon.RimWorld
-  - Ludeon.RimWorld.Royalty
-  - Ludeon.RimWorld.Ideology
-  - Ludeon.RimWorld.Biotech
-  - Ludeon.RimWorld.Anomaly
-  - Ludeon.RimWorld.Odyssey
-  - Ogliss.AVPXenomorphs
-  - UnlimitedHugs.HugsLib
-  - UnlimitedHugs.AllowTool
-  - Darknote.BunkBeds
-  - brrainz.cameraplus
-  - Aoba.Tent
-  - void.charactereditor
-  - Cerule.CleaningAreaRelaunched
-  - erdelf.HumanoidAlienRaces
-  - zal.covetheus
-  - CaesarV6.DamageIndicators
-  - telardo.DragSelect
-  - Dubwise.DubsMintMenus
-  - dubwise.dubsmintminimap
-  - Dubwise.DubsPerformanceAnalyzer.steam
-  - zeracronius.dynamictradeinterface
-  - Romyashi.ExtractAnyPlant
-  - matvey24.FPSStabilizer
-  - MemeGoddess.GiddyUp
-  - GonDragon.TTPF
-  - adaptive.storage.framework
-  - OskarPotocki.VanillaFactionsExpanded.Core
-  - OskarPotocki.VFE.Empire
-  - OskarPotocki.VFE.Deserters
-  - GonDragon.TechTree
-  - automatic.gunplay
-  - jkluch.HaulToStack
-  - aRandomKiwi.HuntForMe
-  - Taveron.IncreasedStack
-  - Aoba.Fortress.Industrial.Concrete
-  - futurplanet.industrialconcretefloorpatch
-  - Koth.ISiD
-  - ASF.DeepStorage
-  - jecrell.doorsexpanded
-  - Haplo.Miscellaneous.Robots
-  - avius.locks
-  - Mlie.LogAfterDefError
-  - plaxen.MalangBodies
-  - m00nl1ght.MapPreview
-  - sumghai.Medpod
-  - co.uk.epicguru.meleeanimation
-  - notfood.MendAndRecycle
-  - Cain.Mineshaft
-  - erdelf.MinifyEverything
-  - mosi.MoreMiniHorns
-  - kenzej.multihunter
-  - IssacZhuang.MuzzleFlash
-  - zal.namesgalore
-  - VitaKaninen.ShelfPatch
-  - Doug.NoJobAuthors
-  - mrwireman.Noconduit
-  - komunre.BetterExp.PassiveResearch
-  - Mlie.PredatorHuntAlert
-  - DawnsGlow.qualcolor
-  - sdknm2.QualityOfBuilding
-  - Memegoddess.ReplaceStuff
-  - Aelanna.ResearchTabColors
-  - fluffy.researchtree
-  - XanderNirpows.ResearchPalForked16
-  - VexedTrees980.RimRobots
-  - aRandomKiwi.RimSaves
-  - rimsenal.core
-  - rimsenal.security
-  - Mlie.RunAndHide
-  - MemeGoddess.RunAndGun
-  - BP.ShowBuildableMaterialCount
-  - zal.simplefxshinies
-  - Owlchemist.SimpleFX.Smoke2
-  - Owlchemist.SimpleFX.Splashes
-  - Atlas.SimpleFX.Vapor.Revaporized
-  - Owlchemist.FridgeUtilities
-  - PeteTimesSix.SimpleSidearms
-  - Haecriver.SimplyMoreColors
-  - sarg.smartspeed
-  - dhultgren.smarterconstruction
-  - Garwel.StartingTechLevel
-  - void.terraformrimworld
-Could not resolve reference to object with loadID Thing_Human39240 of type Verse.Pawn. Was it compressed away, destroyed, had no ID number, or not saved/loaded right? curParent=RimWorld.DirectPawnRelation curPathRelToParent=
-Could not resolve reference to object with loadID Thing_Human39240 of type Verse.Pawn. Was it compressed away, destroyed, had no ID number, or not saved/loaded right? curParent=RimWorld.DirectPawnRelation curPathRelToParent=
-Pawn Lirusela has relation "Lover" with null pawn after loading. This means that we forgot to serialize pawns somewhere (e.g. pawns from passing trade ships).
-Pawn Eudokia has relation "Parent" with null pawn after loading. This means that we forgot to serialize pawns somewhere (e.g. pawns from passing trade ships).
-<color=#66ffb5>[MeleeAnim]</color> Loaded 0 animation renderers on map Map-0-PlayerHome
-Could not do PostLoadInit on RimWorld.Pawn_TrainingTracker: System.NullReferenceException: Object reference not set to an instance of an object
-[Ref F8FF2929]
-  at RimWorld.Pawn_TrainingTracker.CanAssignToTrain (RimWorld.TrainableDef td, Verse.ThingDef pawnDef, System.Boolean& visible, Verse.Pawn pawn) [0x0018d] in <61e4173561894da49d210260257b5097>:0 
-  at RimWorld.Pawn_TrainingTracker.CanAssignToTrain (RimWorld.TrainableDef td, System.Boolean& visible) [0x00000] in <61e4173561894da49d210260257b5097>:0 
-  at RimWorld.Pawn_TrainingTracker.CanAssignToTrain (RimWorld.TrainableDef td) [0x00000] in <61e4173561894da49d210260257b5097>:0 
-  at Verse.BackCompatibility.PawnTrainingTrackerPostLoadInit (RimWorld.Pawn_TrainingTracker tracker, Verse.DefMap`2[RimWorld.TrainableDef,System.Boolean]& wantedTrainables, Verse.DefMap`2[RimWorld.TrainableDef,System.Int32]& steps, Verse.DefMap`2[RimWorld.TrainableDef,System.Boolean]& learned) [0x00082] in <61e4173561894da49d210260257b5097>:0 
-  at RimWorld.Pawn_TrainingTracker.ExposeData () [0x0006a] in <61e4173561894da49d210260257b5097>:0 
-  at Verse.PostLoadIniter.DoAllPostLoadInits () [0x00032] in <61e4173561894da49d210260257b5097>:0 
-Could not do PostLoadInit on RimWorld.Pawn_TrainingTracker: System.NullReferenceException: Object reference not set to an instance of an object
-[Ref F8FF2929] Duplicate stacktrace, see ref for original
-Could not do PostLoadInit on RimWorld.Pawn_TrainingTracker: System.NullReferenceException: Object reference not set to an instance of an object
-[Ref F8FF2929] Duplicate stacktrace, see ref for original
-Could not do PostLoadInit on RimWorld.Pawn_TrainingTracker: System.NullReferenceException: Object reference not set to an instance of an object
-[Ref F8FF2929] Duplicate stacktrace, see ref for original
-Could not do PostLoadInit on RimWorld.Pawn_TrainingTracker: System.NullReferenceException: Object reference not set to an instance of an object
-[Ref F8FF2929] Duplicate stacktrace, see ref for original
-Could not do PostLoadInit on RimWorld.Pawn_TrainingTracker: System.NullReferenceException: Object reference not set to an instance of an object
-[Ref F8FF2929] Duplicate stacktrace, see ref for original
-Could not do PostLoadInit on RimWorld.Pawn_TrainingTracker: System.NullReferenceException: Object reference not set to an instance of an object
-[Ref F8FF2929] Duplicate stacktrace, see ref for original
-Could not do PostLoadInit on RimWorld.Pawn_TrainingTracker: System.NullReferenceException: Object reference not set to an instance of an object
-[Ref F8FF2929] Duplicate stacktrace, see ref for original
-checking editor settings...
-bodysizes genes are active
-[AVP Xenomorphs] Xenomorph hive faction already exists.
-Unloading 0 Unused Serialized files (Serialized files now loaded: 8)
-Unloading 1 unused Assets to reduce memory usage. Loaded Objects now: 43119.
-Total: 330.880900 ms (FindLiveObjects: 2.105300 ms CreateObjectMapping: 2.693100 ms MarkObjects: 325.987400 ms  DeleteObjects: 0.094800 ms)
-
-Wrote screenshot C:\Users\clint\AppData\LocalLow\Ludeon Studios\RimWorld by Ludeon Studios\RimSaves\Previews\Autosave-1.dat of size 120445
-Unloading 2 Unused Serialized files (Serialized files now loaded: 8)
-Unloading 578 unused Assets to reduce memory usage. Loaded Objects now: 36524.
-Total: 370.313300 ms (FindLiveObjects: 1.905300 ms CreateObjectMapping: 1.259200 ms MarkObjects: 366.488000 ms  DeleteObjects: 0.660400 ms)
-
-Unloading 2 Unused Serialized files (Serialized files now loaded: 8)
-[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
-UnloadTime: 0.452400 ms
-Unloading 9 unused Assets to reduce memory usage. Loaded Objects now: 36210.
-Total: 319.809000 ms (FindLiveObjects: 1.875600 ms CreateObjectMapping: 1.047600 ms MarkObjects: 316.754000 ms  DeleteObjects: 0.131400 ms)
+UnloadTime: 0.742100 ms
+Unloading 2 unused Assets to reduce memory usage. Loaded Objects now: 34886.
+Total: 291.134600 ms (FindLiveObjects: 1.690000 ms CreateObjectMapping: 2.107200 ms MarkObjects: 287.265000 ms  DeleteObjects: 0.071500 ms)
 
 Loading game from file Autosave-3 with mods:
   - brrainz.harmony
@@ -590,7 +446,13 @@ Pawn Eudokia has relation "Parent" with null pawn after loading. This means that
 <color=#66ffb5>[MeleeAnim]</color> Loaded 0 animation renderers on map Map-0-PlayerHome
 Pawn Hat has relation "Spouse" with null pawn after loading. This means that we forgot to serialize pawns somewhere (e.g. pawns from passing trade ships).
 Could not do PostLoadInit on RimWorld.Pawn_TrainingTracker: System.NullReferenceException: Object reference not set to an instance of an object
-[Ref F8FF2929] Duplicate stacktrace, see ref for original
+[Ref F8FF2929]
+  at RimWorld.Pawn_TrainingTracker.CanAssignToTrain (RimWorld.TrainableDef td, Verse.ThingDef pawnDef, System.Boolean& visible, Verse.Pawn pawn) [0x0018d] in <61e4173561894da49d210260257b5097>:0 
+  at RimWorld.Pawn_TrainingTracker.CanAssignToTrain (RimWorld.TrainableDef td, System.Boolean& visible) [0x00000] in <61e4173561894da49d210260257b5097>:0 
+  at RimWorld.Pawn_TrainingTracker.CanAssignToTrain (RimWorld.TrainableDef td) [0x00000] in <61e4173561894da49d210260257b5097>:0 
+  at Verse.BackCompatibility.PawnTrainingTrackerPostLoadInit (RimWorld.Pawn_TrainingTracker tracker, Verse.DefMap`2[RimWorld.TrainableDef,System.Boolean]& wantedTrainables, Verse.DefMap`2[RimWorld.TrainableDef,System.Int32]& steps, Verse.DefMap`2[RimWorld.TrainableDef,System.Boolean]& learned) [0x00082] in <61e4173561894da49d210260257b5097>:0 
+  at RimWorld.Pawn_TrainingTracker.ExposeData () [0x0006a] in <61e4173561894da49d210260257b5097>:0 
+  at Verse.PostLoadIniter.DoAllPostLoadInits () [0x00032] in <61e4173561894da49d210260257b5097>:0 
 Could not do PostLoadInit on RimWorld.Pawn_TrainingTracker: System.NullReferenceException: Object reference not set to an instance of an object
 [Ref F8FF2929] Duplicate stacktrace, see ref for original
 Could not do PostLoadInit on RimWorld.Pawn_TrainingTracker: System.NullReferenceException: Object reference not set to an instance of an object
@@ -607,25 +469,13 @@ Could not do PostLoadInit on RimWorld.Pawn_TrainingTracker: System.NullReference
 [Ref F8FF2929] Duplicate stacktrace, see ref for original
 checking editor settings...
 bodysizes genes are active
-Unloading 0 Unused Serialized files (Serialized files now loaded: 8)
-[ResearchTree]: Error initializing research tree. 
-System.InvalidOperationException: Collection was modified; enumeration operation may not execute.
-[Ref E0079975]
- [0x00000] in <51fded79cd284d4d911c5949aff4cb21>:0 
-  at System.Collections.Generic.List`1+Enumerator[T].MoveNextRare () [0x00013] in <51fded79cd284d4d911c5949aff4cb21>:0 
-  at System.Collections.Generic.List`1+Enumerator[T].MoveNext () [0x0004a] in <51fded79cd284d4d911c5949aff4cb21>:0 
-  at System.Linq.Enumerable.Max[TSource] (System.Collections.Generic.IEnumerable`1[T] source, System.Func`2[T,TResult] selector) [0x00053] in <1f993cbf88314b1baa1e10ca917bdc64>:0 
-  at FluffyResearchTree.Node.set_Y (System.Int32 value) [0x00057] in <cf458c1860c64b04a118760b101044c3>:0 
-  at FluffyResearchTree.Tree.TrySwap (FluffyResearchTree.Node A, FluffyResearchTree.Node B) [0x00039] in <cf458c1860c64b04a118760b101044c3>:0 
-  at FluffyResearchTree.Tree.EdgeLengthSweep_Global_Layer (System.Int32 l, System.Boolean in) [0x00108] in <cf458c1860c64b04a118760b101044c3>:0 
-  at FluffyResearchTree.Tree.EdgeLengthSweep_Global () [0x0000b] in <cf458c1860c64b04a118760b101044c3>:0 
-  at FluffyResearchTree.Tree.MinimizeEdgeLength () [0x0002f] in <cf458c1860c64b04a118760b101044c3>:0 
-  at FluffyResearchTree.Tree.Init () [0x00074] in <cf458c1860c64b04a118760b101044c3>:0 
-Unloading 0 unused Assets to reduce memory usage. Loaded Objects now: 44139.
-Total: 344.766400 ms (FindLiveObjects: 2.243400 ms CreateObjectMapping: 2.919900 ms MarkObjects: 339.530100 ms  DeleteObjects: 0.072500 ms)
+[AVP Xenomorphs] Xenomorph hive faction already exists.
+Unloading 1 Unused Serialized files (Serialized files now loaded: 8)
+Unloading 1 unused Assets to reduce memory usage. Loaded Objects now: 43113.
+Total: 333.406000 ms (FindLiveObjects: 2.140000 ms CreateObjectMapping: 1.500000 ms MarkObjects: 329.674100 ms  DeleteObjects: 0.091500 ms)
 
-Wrote screenshot C:\Users\clint\AppData\LocalLow\Ludeon Studios\RimWorld by Ludeon Studios\RimSaves\Previews\Autosave-3.dat of size 72348
-[AVP Xenomorphs] [Kidnap] Drone targeting Nytro (1/3 drones) (tick 183220)
+Wrote screenshot C:\Users\clint\AppData\LocalLow\Ludeon Studios\RimWorld by Ludeon Studios\RimSaves\Previews\Autosave-3.dat of size 72392
+[AVP Xenomorphs] [Kidnap] Queen targeting Nytro (1/3 drones) (tick 184899)
 Exception in RimWorld.ThinkNode_Conditional_OverHealth TryIssueJobPackage: System.NullReferenceException: Object reference not set to an instance of an object
 [Ref EDC7177C]
   at Verse.GenGrid.CanBeSeenOver (Verse.IntVec3 c, Verse.Map map) [0x00000] in <61e4173561894da49d210260257b5097>:0 
@@ -659,14 +509,8 @@ Exception in RimWorld.ThinkNode_Conditional_OverHealth TryIssueJobPackage: Syste
 [Ref EDC7177C] Duplicate stacktrace, see ref for original
 Exception in RimWorld.ThinkNode_Conditional_OverHealth TryIssueJobPackage: System.NullReferenceException: Object reference not set to an instance of an object
 [Ref EDC7177C] Duplicate stacktrace, see ref for original
-Exception in RimWorld.ThinkNode_Conditional_OverHealth TryIssueJobPackage: System.NullReferenceException: Object reference not set to an instance of an object
-[Ref EDC7177C] Duplicate stacktrace, see ref for original
-Exception in RimWorld.ThinkNode_Conditional_OverHealth TryIssueJobPackage: System.NullReferenceException: Object reference not set to an instance of an object
-[Ref EDC7177C] Duplicate stacktrace, see ref for original
-Exception in RimWorld.ThinkNode_Conditional_OverHealth TryIssueJobPackage: System.NullReferenceException: Object reference not set to an instance of an object
-[Ref EDC7177C] Duplicate stacktrace, see ref for original
 [AVP Xenomorphs] [AVP Xenomorphs] CompPostPostAdd called for Nytro (humanlike=True)
-Failed to find Verse.ThingDef named RRY_FacehuggerMask. There are 5696 defs of this type loaded.
+[AVP Xenomorphs] [AVP Xenomorphs] Added facehugger mask apparel to Nytro
 Exception in RimWorld.ThinkNode_ConditionalFacehuggerFertile TryIssueJobPackage: System.NullReferenceException: Object reference not set to an instance of an object
 [Ref 6C548908]
   at Verse.GenClosest.EarlyOutSearch (Verse.IntVec3 start, Verse.Map map, Verse.ThingRequest thingReq, System.Collections.Generic.IEnumerable`1[T] customGlobalSearchSet, System.Predicate`1[T] validator) [0x00015] in <61e4173561894da49d210260257b5097>:0 
@@ -685,7 +529,7 @@ Exception in Verse.AI.ThinkNode_Tagger TryIssueJobPackage: System.NullReferenceE
   at Verse.AI.JobGiver_Wander.TryGiveJob (Verse.Pawn pawn) [0x00061] in <61e4173561894da49d210260257b5097>:0 
   at Verse.AI.ThinkNode_JobGiver.TryIssueJobPackage (Verse.Pawn pawn, Verse.AI.JobIssueParams jobParams) [0x00000] in <61e4173561894da49d210260257b5097>:0 
   at Verse.AI.ThinkNode_Priority.TryIssueJobPackage (Verse.Pawn pawn, Verse.AI.JobIssueParams jobParams) [0x00022] in <61e4173561894da49d210260257b5097>:0 
-JobDriver threw exception in toil MakeNewToils's initAction for pawn RRY_Xenomorph_FaceHugger89709 driver=JobDriver_Wait (toilIndex=0) driver.job=(Wait_Wander (Job_87558) Giver = JobGiver_WanderAnywhere [workGiverDef: null])
+JobDriver threw exception in toil MakeNewToils's initAction for pawn RRY_Xenomorph_FaceHugger89609 driver=JobDriver_Wait (toilIndex=0) driver.job=(Wait_Wander (Job_87066) Giver = JobGiver_WanderAnywhere [workGiverDef: null])
 System.NullReferenceException: Object reference not set to an instance of an object
 [Ref 2BEE724E]
   at Verse.AI.JobDriver_Wait.CheckForAutoAttack () [0x0012f] in <61e4173561894da49d210260257b5097>:0 
@@ -694,24 +538,81 @@ System.NullReferenceException: Object reference not set to an instance of an obj
     - POSTFIX UnlimitedHugs.AllowTool: Void AllowTool.Patches.JobDriverWait_CheckForAutoAttack_Patch:DoPartyHunting(JobDriver_Wait __instance)
   at Verse.AI.JobDriver_Wait.<MakeNewToils>b__3_0 () [0x0003d] in <61e4173561894da49d210260257b5097>:0 
   at Verse.AI.JobDriver.TryActuallyStartNextToil () [0x001b0] in <61e4173561894da49d210260257b5097>:0 
-JobDriver threw exception in toil MakeNewToils's initAction for pawn RRY_Xenomorph_FaceHugger89709 driver=JobDriver_Wait (toilIndex=0) driver.job=(Wait (Job_87559))
+JobDriver threw exception in toil MakeNewToils's initAction for pawn RRY_Xenomorph_FaceHugger89609 driver=JobDriver_Wait (toilIndex=0) driver.job=(Wait (Job_87067))
 System.NullReferenceException: Object reference not set to an instance of an object
 [Ref 2BEE724E] Duplicate stacktrace, see ref for original
-An error occurred while starting an error recover job. We have to stop now to avoid infinite loops. This means that the pawn is now jobless which can cause further bugs. pawn=RRY_Xenomorph_FaceHugger89709
+An error occurred while starting an error recover job. We have to stop now to avoid infinite loops. This means that the pawn is now jobless which can cause further bugs. pawn=RRY_Xenomorph_FaceHugger89609
 queen can reach eggsite
 queen can reach eggsite
-[AVP Xenomorphs] [Kidnap] Drone targeting gazelle (1/3 drones) (tick 189957)
 queen can reach eggsite
 queen can reach eggsite
-Failed to find Verse.ThingDef named RRY_FacehuggerMask. There are 5696 defs of this type loaded.
+queen can reach eggsite
+queen can reach eggsite
 Exception in RimWorld.ThinkNode_ConditionalFacehuggerFertile TryIssueJobPackage: System.NullReferenceException: Object reference not set to an instance of an object
 [Ref 6C548908] Duplicate stacktrace, see ref for original
 Exception in Verse.AI.ThinkNode_Tagger TryIssueJobPackage: System.NullReferenceException: Object reference not set to an instance of an object
 [Ref B3A85BBC] Duplicate stacktrace, see ref for original
-JobDriver threw exception in toil MakeNewToils's initAction for pawn RRY_Xenomorph_FaceHugger89714 driver=JobDriver_Wait (toilIndex=0) driver.job=(Wait_Wander (Job_92600) Giver = JobGiver_WanderAnywhere [workGiverDef: null])
+JobDriver threw exception in toil MakeNewToils's initAction for pawn RRY_Xenomorph_FaceHugger89972 driver=JobDriver_Wait (toilIndex=0) driver.job=(Wait_Wander (Job_97365) Giver = JobGiver_WanderAnywhere [workGiverDef: null])
 System.NullReferenceException: Object reference not set to an instance of an object
 [Ref 2BEE724E] Duplicate stacktrace, see ref for original
-JobDriver threw exception in toil MakeNewToils's initAction for pawn RRY_Xenomorph_FaceHugger89714 driver=JobDriver_Wait (toilIndex=0) driver.job=(Wait (Job_92601))
+JobDriver threw exception in toil MakeNewToils's initAction for pawn RRY_Xenomorph_FaceHugger89972 driver=JobDriver_Wait (toilIndex=0) driver.job=(Wait (Job_97366))
 System.NullReferenceException: Object reference not set to an instance of an object
 [Ref 2BEE724E] Duplicate stacktrace, see ref for original
-An error occurred while starting an error recover job. We have to stop now to avoid infinite loops. This means that the pawn is now jobless which can cause further bugs. pawn=RRY_Xenomorph_FaceHugger89714
+An error occurred while starting an error recover job. We have to stop now to avoid infinite loops. This means that the pawn is now jobless which can cause further bugs. pawn=RRY_Xenomorph_FaceHugger89972
+Error while determining if Mechanent90083 should have Need Chemical_Alcohol: System.NullReferenceException: Object reference not set to an instance of an object
+[Ref 7FBF863E]
+  at RimWorld.LifeStageWorker_HumanlikeAdult.Notify_LifeStageStarted (Verse.Pawn pawn, RimWorld.LifeStageDef previousLifeStage) [0x00050] in <61e4173561894da49d210260257b5097>:0 
+    - TRANSPILER rimworld.erdelf.alien_race.main: IEnumerable`1 AlienRace.HarmonyPatches:AdultLifeStageStartedTranspiler(IEnumerable`1 instructions)
+    - POSTFIX rimworld.erdelf.alien_race.main: Void AlienRace.HarmonyPatches:AdultLifeStageStartedPostfix(Pawn pawn)
+  at Verse.Pawn_AgeTracker.RecalculateLifeStageIndex () [0x00167] in <61e4173561894da49d210260257b5097>:0 
+    - TRANSPILER rimworld.erdelf.alien_race.main: IEnumerable`1 AlienRace.HarmonyPatches:RecalculateLifeStageIndexTranspiler(IEnumerable`1 instructions)
+    - POSTFIX com.ogliss.rimworld.mod.rryatuja: Void RRYautja.AvP_Pawn_AgeTracker_RecalculateLifeStageIndex_Xenomorph_Patch:Post_RecalculateLifeStageIndex(Pawn_AgeTracker __instance)
+    - POSTFIX rimworld.mod.charactereditor: Void CharacterEditor.CEditor:OnRecalcIndex(Pawn_AgeTracker __instance)
+  at Verse.Pawn_AgeTracker.get_CurLifeStageIndex () [0x00009] in <61e4173561894da49d210260257b5097>:0 
+  at Verse.Pawn_AgeTracker.get_CurLifeStageRace () [0x00000] in <61e4173561894da49d210260257b5097>:0 
+  at Verse.Pawn_AgeTracker.get_CurLifeStage () [0x00000] in <61e4173561894da49d210260257b5097>:0 
+  at Verse.Pawn.get_DevelopmentalStage () [0x00012] in <61e4173561894da49d210260257b5097>:0 
+  at RimWorld.Pawn_NeedsTracker.ShouldHaveNeed (RimWorld.NeedDef nd) [0x0004d] in <61e4173561894da49d210260257b5097>:0 
+    - PREFIX vexedtrees.RimRobots: Boolean VexedThings.HarmonyPatches.ShouldHaveNeed_HarmonyPatch:Prefix(NeedDef nd, Pawn ___pawn)
+  at RimWorld.Pawn_NeedsTracker.AddOrRemoveNeedsAsAppropriate () [0x0001b] in <61e4173561894da49d210260257b5097>:0 
+    - PREFIX OskarPotocki.VEF: Void VEF.AestheticScaling.VanillaExpandedFramework_Pawn_NeedsTracker_AddOrRemoveNeedsAsAppropriate_Patch:Prefix()
+    - POSTFIX OskarPotocki.VEF: Void VEF.AestheticScaling.VanillaExpandedFramework_Pawn_NeedsTracker_AddOrRemoveNeedsAsAppropriate_Patch:Postfix()
+Error while determining if Mechanent90087 should have Need Chemical_Alcohol: System.NullReferenceException: Object reference not set to an instance of an object
+[Ref 7FBF863E] Duplicate stacktrace, see ref for original
+queen can reach eggsite
+queen can reach eggsite
+[AVP Xenomorphs] [Kidnap] Drone targeting Brittany (1/3 drones) (tick 209975)
+Exception in RimWorld.ThinkNode_ConditionalFacehuggerFertile TryIssueJobPackage: System.NullReferenceException: Object reference not set to an instance of an object
+[Ref 6C548908] Duplicate stacktrace, see ref for original
+Exception in Verse.AI.ThinkNode_Tagger TryIssueJobPackage: System.NullReferenceException: Object reference not set to an instance of an object
+[Ref B3A85BBC] Duplicate stacktrace, see ref for original
+JobDriver threw exception in toil MakeNewToils's initAction for pawn RRY_Xenomorph_FaceHugger89928 driver=JobDriver_Wait (toilIndex=0) driver.job=(Wait_Wander (Job_102073) Giver = JobGiver_WanderAnywhere [workGiverDef: null])
+System.NullReferenceException: Object reference not set to an instance of an object
+[Ref 2BEE724E] Duplicate stacktrace, see ref for original
+JobDriver threw exception in toil MakeNewToils's initAction for pawn RRY_Xenomorph_FaceHugger89928 driver=JobDriver_Wait (toilIndex=0) driver.job=(Wait (Job_102074))
+System.NullReferenceException: Object reference not set to an instance of an object
+[Ref 2BEE724E] Duplicate stacktrace, see ref for original
+An error occurred while starting an error recover job. We have to stop now to avoid infinite loops. This means that the pawn is now jobless which can cause further bugs. pawn=RRY_Xenomorph_FaceHugger89928
+RimWorld.Pawn_ApparelTracker container tried to drop  RRY_FacehuggerMask90053 which it didn't contain.
+RimWorld.Pawn_ApparelTracker container tried to drop  RRY_FacehuggerMask90053 which it didn't contain.
+RimWorld.Pawn_ApparelTracker container tried to drop  RRY_FacehuggerMask90053 which it didn't contain.
+RimWorld.Pawn_ApparelTracker container tried to drop  RRY_FacehuggerMask90053 which it didn't contain.
+RimWorld.Pawn_ApparelTracker container tried to drop  RRY_FacehuggerMask90053 which it didn't contain.
+RimWorld.Pawn_ApparelTracker container tried to drop  RRY_FacehuggerMask90053 which it didn't contain.
+RimWorld.Pawn_ApparelTracker container tried to drop  RRY_FacehuggerMask90053 which it didn't contain.
+RimWorld.Pawn_ApparelTracker container tried to drop  RRY_FacehuggerMask90053 which it didn't contain.
+RimWorld.Pawn_ApparelTracker container tried to drop  RRY_FacehuggerMask90053 which it didn't contain.
+Exception in RimWorld.ThinkNode_ConditionalFacehuggerFertile TryIssueJobPackage: System.NullReferenceException: Object reference not set to an instance of an object
+[Ref 6C548908] Duplicate stacktrace, see ref for original
+Exception in Verse.AI.ThinkNode_Tagger TryIssueJobPackage: System.NullReferenceException: Object reference not set to an instance of an object
+[Ref B3A85BBC] Duplicate stacktrace, see ref for original
+JobDriver threw exception in toil MakeNewToils's initAction for pawn RRY_Xenomorph_FaceHugger90214 driver=JobDriver_Wait (toilIndex=0) driver.job=(Wait_Wander (Job_103523) Giver = JobGiver_WanderAnywhere [workGiverDef: null])
+System.NullReferenceException: Object reference not set to an instance of an object
+[Ref 2BEE724E] Duplicate stacktrace, see ref for original
+JobDriver threw exception in toil MakeNewToils's initAction for pawn RRY_Xenomorph_FaceHugger90214 driver=JobDriver_Wait (toilIndex=0) driver.job=(Wait (Job_103524))
+System.NullReferenceException: Object reference not set to an instance of an object
+[Ref 2BEE724E] Duplicate stacktrace, see ref for original
+An error occurred while starting an error recover job. We have to stop now to avoid infinite loops. This means that the pawn is now jobless which can cause further bugs. pawn=RRY_Xenomorph_FaceHugger90214
+[AVP Xenomorphs] [AVP Xenomorphs] Removed facehugger mask apparel from Nytro
+queen can reach eggsite
+queen can reach eggsite
