@@ -53,7 +53,6 @@ namespace RRYautja
 
             if (miner != null && miner.isXenomorph())
             {
-                AvPDebug.Log("Mine", "Suppressing chunks for " + miner.LabelShort + " mining " + __instance.def.defName);
                 return false; // Skip TrySpawnYield entirely - no chunks
             }
             return true;
