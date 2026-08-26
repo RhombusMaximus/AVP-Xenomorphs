@@ -9,8 +9,8 @@ namespace RRYautja
 {
     /// <summary>
     /// Adds 25% knockout chance to Drone and Warrior melee attacks.
-    /// When a Drone or Warrior hits a target, there's a 25% chance
-    /// to apply the Anesthetic hediff (knocking the target out).
+    /// Patches Verb_MeleeAttackDamage.ApplyDamage which is the actual
+    /// method that applies melee damage in 1.6.
     /// </summary>
     [StaticConstructorOnStartup]
     static class XenomorphKnockoutPatch
@@ -20,11 +20,38 @@ namespace RRYautja
             try
             {
                 var harmony = new Harmony("com.ogliss.rimworld.mod.rryatuja.knockout");
-                var method = AccessTools.Method(typeof(Verb_MeleeAttack), "ApplyMeleeDamageToTarget");
-                if (method != null)
+
+                // Try multiple method names — the internal damage method varies by RimWorld version
+                string[] methodNames = { "ApplyDamage", "DoMeleeHit", "ApplyMeleeDamageToTarget" };
+                bool patched = false;
+
+                foreach (string name in methodNames)
                 {
-                    harmony.Patch(method, postfix: new HarmonyMethod(typeof(XenomorphKnockoutPatch), nameof(ApplyMeleeDamagePostfix)));
-                    AvPDebug.LogOnce("KnockoutPatch", "[AVP Xenomorphs] Patched Verb_MeleeAttack.ApplyMeleeDamageToTarget for knockout chance");
+                    var method = AccessTools.Method(typeof(Verb_MeleeAttack), name);
+                    if (method != null)
+                    {
+                        try
+                        {
+                            harmony.Patch(method, postfix: new HarmonyMethod(typeof(XenomorphKnockoutPatch), nameof(MeleeDamagePostfix)));
+                            AvPDebug.LogOnce("KnockoutPatch", "[AVP Xenomorphs] Patched Verb_MeleeAttack." + name + " for knockout chance");
+                            patched = true;
+                            break;
+                        }
+                        catch (Exception)
+                        {
+                            // Try next method
+                        }
+                    }
+                }
+
+                if (!patched)
+                {
+                    // List all methods on Verb_MeleeAttack for debugging
+                    var methods = typeof(Verb_MeleeAttack).GetMethods(BindingFlags.Public | BindingFlags.NonPublic | BindingFlags.Instance | BindingFlags.DeclaredOnly);
+                    foreach (var m in methods)
+                    {
+                        AvPDebug.LogOnce("VerbMethod_" + m.Name, "[AVP Xenomorphs] Verb_MeleeAttack method: " + m.Name + "(" + string.Join(", ", Array.ConvertAll(m.GetParameters(), p => p.ParameterType.Name + " " + p.Name)) + ")");
+                    }
                 }
             }
             catch (Exception e)
@@ -33,14 +60,13 @@ namespace RRYautja
             }
         }
 
-        public static void ApplyMeleeDamagePostfix(Verb_MeleeAttack __instance, Thing target)
+        public static void MeleeDamagePostfix(Verb_MeleeAttack __instance, Thing target)
         {
             try
             {
                 Pawn attacker = __instance.CasterPawn;
                 if (attacker == null) return;
                 if (!attacker.isXenomorph()) return;
-                // Only Drones and Warriors get knockout chance
                 string defName = attacker.kindDef?.defName;
                 if (defName != "RRY_Xenomorph_Drone" && defName != "RRY_Xenomorph_Warrior") return;
 
