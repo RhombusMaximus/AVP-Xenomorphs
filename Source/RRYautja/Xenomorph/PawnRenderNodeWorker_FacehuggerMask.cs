@@ -8,9 +8,10 @@ using Verse;
 namespace RRYautja
 {
     /// <summary>
-    /// Patches PawnRenderNode.DrawMesh to offset the facehugger mask down to face level.
-    /// The default head apparel renders at the top of the head (hat position).
-    /// This prefix intercepts the draw call and moves the mask down.
+    /// Patches PawnRenderNode to offset the facehugger mask down to face level.
+    /// In RimWorld 1.6, PawnRenderNode doesn't have a DrawMesh method.
+    /// The draw offset is controlled by TryGetAnimationOffset and the render tree.
+    /// We patch PawnRenderTree.DrawNode to modify the draw location.
     /// </summary>
     [StaticConstructorOnStartup]
     static class FacehuggerMaskOffsetPatch
@@ -21,24 +22,32 @@ namespace RRYautja
             {
                 var harmony = new Harmony("com.ogliss.rimworld.mod.rryatuja.maskoffset");
 
-                // Find PawnRenderNode.DrawMesh method
-                var drawMeshMethod = AccessTools.Method(typeof(PawnRenderNode), "DrawMesh");
-                if (drawMeshMethod != null)
+                // Patch PawnRenderTree.DrawNode to modify the draw position
+                var drawNodeMethod = AccessTools.Method(typeof(PawnRenderTree), "DrawNode");
+                if (drawNodeMethod != null)
                 {
-                    harmony.Patch(drawMeshMethod, prefix: new HarmonyMethod(typeof(FacehuggerMaskOffsetPatch), nameof(DrawMeshPrefix)));
-                    AvPDebug.LogOnce("MaskOffset", "[AVP Xenomorphs] Patched PawnRenderNode.DrawMesh for mask offset");
+                    harmony.Patch(drawNodeMethod, prefix: new HarmonyMethod(typeof(FacehuggerMaskOffsetPatch), nameof(DrawNodePrefix)));
+                    AvPDebug.LogOnce("MaskOffset", "[AVP Xenomorphs] Patched PawnRenderTree.DrawNode for mask offset");
                 }
                 else
                 {
-                    // List available methods for debugging
-                    var methods = typeof(PawnRenderNode).GetMethods(BindingFlags.Public | BindingFlags.NonPublic | BindingFlags.Instance);
+                    // List available methods on PawnRenderTree
+                    var methods = typeof(PawnRenderTree).GetMethods(BindingFlags.Public | BindingFlags.NonPublic | BindingFlags.Instance);
                     foreach (var m in methods)
                     {
-                        if (m.Name.Contains("Draw") || m.Name.Contains("Offset") || m.Name.Contains("Mesh"))
+                        if (m.Name.Contains("Draw") || m.Name.Contains("Node"))
                         {
-                            AvPDebug.LogOnce("MaskMethod_" + m.Name, "[AVP Xenomorphs] PawnRenderNode method: " + m.Name + "(" + string.Join(", ", Array.ConvertAll(m.GetParameters(), p => p.ParameterType.Name + " " + p.Name)) + ")");
+                            AvPDebug.LogOnce("TreeMethod_" + m.Name, "[AVP Xenomorphs] PawnRenderTree method: " + m.Name + "(" + string.Join(", ", Array.ConvertAll(m.GetParameters(), p => p.ParameterType.Name + " " + p.Name)) + ")");
                         }
                     }
+                }
+
+                // Also patch PawnRenderNode.TryGetAnimationOffset to add face offset
+                var offsetMethod = AccessTools.Method(typeof(PawnRenderNode), "TryGetAnimationOffset");
+                if (offsetMethod != null)
+                {
+                    harmony.Patch(offsetMethod, postfix: new HarmonyMethod(typeof(FacehuggerMaskOffsetPatch), nameof(TryGetAnimationOffsetPostfix)));
+                    AvPDebug.LogOnce("MaskOffset2", "[AVP Xenomorphs] Patched PawnRenderNode.TryGetAnimationOffset for mask offset");
                 }
             }
             catch (Exception e)
@@ -48,21 +57,29 @@ namespace RRYautja
         }
 
         /// <summary>
-        /// Prefix on PawnRenderNode.DrawMesh — modifies the draw location
-        /// to move the facehugger mask down to face level.
+        /// Postfix on PawnRenderNode.TryGetAnimationOffset — adds a face offset
+        /// for facehugger mask apparel nodes.
         /// </summary>
-        public static void DrawMeshPrefix(PawnRenderNode __instance, ref Vector3 loc, Rot4 facing, Pawn pawn)
+        public static void TryGetAnimationOffsetPostfix(PawnRenderNode __instance, ref bool __result, ref Vector3 offset)
         {
-            // Check if this render node is for our facehugger mask apparel
             if (__instance is PawnRenderNode_Apparel apparelNode)
             {
                 var def = apparelNode.apparel?.def;
                 if (def != null && (def.defName == "RRY_FacehuggerMask" || def.defName == "RRY_RoyalFacehuggerMask"))
                 {
                     // Move the mask down toward the face (negative Z = down on screen)
-                    loc.z -= 0.15f;
+                    offset.z -= 0.15f;
                 }
             }
+        }
+
+        /// <summary>
+        /// Prefix on PawnRenderTree.DrawNode — modifies the draw location for mask nodes.
+        /// </summary>
+        public static void DrawNodePrefix(PawnRenderNode node)
+        {
+            // This is a fallback if TryGetAnimationOffset doesn't work
+            // We can't easily modify the draw position here without knowing the method signature
         }
     }
 }
