@@ -8,7 +8,686 @@ Direct3D:
     Version:  Direct3D 11.0 [level 11.1]
     Renderer: NVIDIA GeForce RTX 3050 (ID=0x2507)
     Vendor:   NVIDIA
+    VRAM:     8042 MBMono path[0] = 'D:/SteamLibrary/steamapps/common/RimWorld/RimWorldWin64_Data/Managed'
+Mono config path = 'D:/SteamLibrary/steamapps/common/RimWorld/MonoBleedingEdge/etc'
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+Initialize engine version: 2022.3.35f1 (011206c7a712)
+[Subsystems] Discovering subsystems at path D:/SteamLibrary/steamapps/common/RimWorld/RimWorldWin64_Data/UnitySubsystems
+GfxDevice: creating device client; threaded=1; jobified=0
+Direct3D:
+    Version:  Direct3D 11.0 [level 11.1]
+    Renderer: NVIDIA GeForce RTX 3050 (ID=0x2507)
+    Vendor:   NVIDIA
     VRAM:     8042 MB
+    Driver:   32.0.16.1088
+Begin MonoManager ReloadAssembly
+- Loaded All Assemblies, in  0.156 seconds
+- Finished resetting the current domain, in  0.001 seconds
+<RI> Initializing input.
+
+<RI> Input initialized.
+
+<RI> Initialized touch support.
+
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+UnloadTime: 0.607200 ms
+Command line arguments: -disable-compute-shaders
+RimWorld 1.6.4871 rev591
+Mod Realistic Humansounds HAR Patch dependency (Mlie.RealisticHumanSounds) needs to have <downloadUrl> and/or <steamWorkshopUrl> specified.
+Fallback handler could not load library D:/SteamLibrary/steamapps/common/RimWorld/RimWorldWin64_Data/MonoBleedingEdge/data-00000223EC9F0EB0.dll
+Fallback handler could not load library D:/SteamLibrary/steamapps/common/RimWorld/RimWorldWin64_Data/MonoBleedingEdge/data-00000223ECC4B060.dll
+[Loading Progress] Loading Progress initialized! Enjoy the rest of your loading experience!
+[HugsLib] version 12.0.0
+[HugsLib] early-initializing AllowTool
+Fallback handler could not load library D:/SteamLibrary/steamapps/common/RimWorld/RimWorldWin64_Data/MonoBleedingEdge/data-00000223BB31F050.dll
+DubsMintMenus v1.3.1086
+[Analyzer] Loaded version 1.6.0 rev 1
+[Analyzer] ResearchTree
+FPSStabilizer v1.1 loaded, patcher message: Patched successfully, fps set to 60
+Fallback handler could not load library D:/SteamLibrary/steamapps/common/RimWorld/RimWorldWin64_Data/MonoBleedingEdge/data-00000223F34F4010.dll
+<color=#66ffb5>[MeleeAnim]</color> Hello, world!
+Build date: 4/13/2026 8:02 AM
+Loaded assemblies (9):
+0BetterFloatMenu, Version=16.0.0.0, Culture=neutral, PublicKeyToken=null,
+0ColourPicker, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null,
+AMRetextureSupport, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null,
+Meta.Numerics, Version=3.1.0.0, Culture=neutral, PublicKeyToken=67d25c65a6631347,
+ModRequestAPI, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null,
+ModRequestAPI.Models, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null,
+Unity.Newtonsoft.Json, Version=7.0.0.0, Culture=neutral, PublicKeyToken=null,
+zAnimationMod, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null,
+AM.AlienRacesPatch, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null
+<color=#66ffb5>[MeleeAnim]</color> Scanning 81 mods for animation data...
+<color=#66ffb5>[MeleeAnim]</color> Found 1 mod folders with animation data, total 69 loadable files.
+<color=#66ffb5>[MeleeAnim]</color> <color=#ffa8fc>[Alien Races Patch]</color> Loaded alien races patch!
+RimSaves NX rev27
+[SafePatcher]The xPath: "Defs/ThingDef[defName="Gun_NestMMG"]" not found
+[SafePatcher]The xPath: "Defs/ThingDef[defName="Gun_NestMissile"]" not found
+Could not resolve cross-reference: No RimWorld.StatDef named SellPriceMultiplier found to give to RimWorld.StatModifier (null stat)
+Could not resolve cross-reference: No RimWorld.StatDef named SellPriceMultiplier found to give to RimWorld.StatModifier (null stat)
+Tried to load duplicate UnityEngine.Texture2D with path: FilesystemFile [D:\SteamLibrary\steamapps\common\RimWorld\Mods\AVP-Xenomorphs\Textures\Things\Addons\Blood_Marks\Xenomorph_Kills\Mark_Thrumbomorphkill_south.psd], Length 28603 and internal path: Things/Addons/Blood_Marks/Xenomorph_Kills/Mark_Thrumbomorphkill_south
+Texture TribalA has dimensions of 64 x 64, but its mask has 128 x 128. This is not supported, texture will be excluded from atlas
+Could not execute post-long-event action. Exception: System.NullReferenceException: Object reference not set to an instance of an object
+[Ref 282A3C73]
+  at Verse.ThingDef.<PostLoad>b__398_0 () [0x00046] in <61e4173561894da49d210260257b5097>:0 
+  at ilyvion.LoadingProgress.LongEventHandler_ExecuteToExecuteWhenFinished_Patches+<ExecuteToExecuteWhenFinished>d__3.MoveNext () [0x00590] in /home/runner/work/loading-progress/loading-progress/Source/ilyvion.LoadingProgress/LongEventHandler_ExecuteToExecuteWhenFinished_Patches.cs:263 
+Could not execute post-long-event action. Exception: System.NullReferenceException: Object reference not set to an instance of an object
+[Ref 282A3C73] Duplicate stacktrace, see ref for original
+Translation data for language English has 4 errors. Generate translation report for more info.
+[AVP Xenomorphs] [AVP Xenomorphs] Patched Mineable.TrySpawnYield
+[AVP Xenomorphs] [AVP Xenomorphs] Facehugger mask graphic loaded: Things/Pawn/Xenomorph/Xenomorph_FaceHugger_Mask
+Xenomorph Host System Loaded
+158 Possible Hosts out of 335 Races detected: Race Setting init
+[CleaningAreaRelaunched] Loaded
+Alien race successfully completed 280 patches (50 pre, 82 post, 148 trans) with harmony.
+Damage Indicators initialized.
+KCSG has Created 7615 symbolDefs for vanilla and DLCs
+Locks: Doors expanded found
+Locks: SoS2 not found 
+Locks version: 3.1.2 loaded.
+[TrueTerrainColors v1.12.26] Loaded cached true colors for 765 terrain defs from file.
+Mines 2.0 -> RecipeDef named MinesAutomated_RecipeDef_MineableSteel added to the mine.
+Mines 2.0 -> RecipeDef named MinesAutomated_RecipeDef_MineableComponentsIndustrial added to the mine.
+Mines 2.0 -> RecipeDef named MinesAutomated_RecipeDef_MineableUranium added to the mine.
+Mines 2.0 -> RecipeDef named MinesAutomated_RecipeDef_MineableSilver added to the mine.
+Mines 2.0 -> RecipeDef named MinesAutomated_RecipeDef_MineableGold added to the mine.
+Mines 2.0 -> RecipeDef named MinesAutomated_RecipeDef_MineableJade added to the mine.
+Mines 2.0 -> RecipeDef named MinesAutomated_RecipeDef_MineablePlasteel added to the mine.
+Mines 2.0 -> RecipeDef named MinesAutomated_RecipeDef_MineableObsidian added to the mine.
+Mines 2.0 -> RecipeDef named MinesAutomated_RecipeDef_Sandstone added to the mine.
+Mines 2.0 -> RecipeDef named MinesAutomated_RecipeDef_Marble added to the mine.
+Mines 2.0 -> RecipeDef named MinesAutomated_RecipeDef_Slate added to the mine.
+Mines 2.0 -> RecipeDef named MinesAutomated_RecipeDef_Vacstone added to the mine.
+Mines 2.0 -> RecipeDef named MinesAutomated_RecipeDef_Limestone added to the mine.
+Mines 2.0 -> RecipeDef named MinesAutomated_RecipeDef_Granite added to the mine.
+NamesGalore: Injecting Names
+Chinese
+NamesGalore: Current Lang English
+[Quality Of Building] patching
+(Research Tab Colors) Transpiler injected.
+Unloading 5 Unused Serialized files (Serialized files now loaded: 5)
+Unloading 529 unused Assets to reduce memory usage. Loaded Objects now: 34107.
+Total: 265.631500 ms (FindLiveObjects: 1.772700 ms CreateObjectMapping: 1.749100 ms MarkObjects: 261.273100 ms  DeleteObjects: 0.836300 ms)
+
+MVCF successfully applied 41 patches
+[com.ogliss.rimworld.mod.rryatuja.minepatch] Patches on methods annotated as Obsolete were detected by HugsLib: RimWorld.Mineable.TrySpawnYield
+CharacterEditor v1.6.3 initializing...
+updating labels for english...
+loading pawn slot content from file...
+character editor instance created
+checking editor settings...
+bodysizes genes are active
+CharacterEditor v1.6.3 ...done
+CameraPlus: Found mod at D:\SteamLibrary\steamapps\workshop\content\294100\867467808
+Shader 'Camera+/Bordered': fallback shader 'Diffuse' not found
+<color=#66ffb5>[MeleeAnim]</color> Potential patch conflicts (13):
+<color=#66ffb5>[MeleeAnim]</color> 
+System.Void Verse.PawnRenderer::RenderPawnAt(UnityEngine.Vector3 drawLoc, System.Nullable`1<Verse.Rot4> rotOverride, System.Boolean neverAimWeapon)
+Prefixes:
+  [net.pardeike.rimworld.mod.camera+] Prefix
+  [com.otters.rimworld.mod.Tents] Prefix
+  [co.uk.epicguru.meleeanimation] Prefix
+Transpilers:
+Postfixes:
+  [co.uk.epicguru.meleeanimation] Postfix
+
+static System.Void Verse.PawnRenderUtility::DrawEquipmentAiming(Verse.Thing eq, UnityEngine.Vector3 drawLoc, System.Single aimAngle)
+Prefixes:
+  [OskarPotocki.VEF] Prefix
+  [OskarPotocki.VEF] Prefix
+  [OskarPotocki.VEF] DrawEquipmentAimingPrefix
+  [co.uk.epicguru.meleeanimation] Prefix
+Transpilers:
+Postfixes:
+  [Vodka.MuzzleFlash] Postfix
+
+Verse.PreRenderResults Verse.PawnRenderer::ParallelGetPreRenderResults(UnityEngine.Vector3 drawLoc, System.Nullable`1<Verse.Rot4> rotOverride, System.Boolean neverAimWeapon, System.Boolean disableCache)
+Prefixes:
+  [OskarPotocki.VEF] Prefix
+  [GiddyUp] Prefix
+Transpilers:
+  [rimworld.erdelf.alien_race.main] PostureTranspiler
+Postfixes:
+  [co.uk.epicguru.meleeanimation] Postfix
+
+System.Boolean Verse.HediffSet::get_HasHead()
+Prefixes:
+  [co.uk.epicguru.meleeanimation] Prefix
+  [rimworld.erdelf.alien_race.main] HasHeadPrefix
+Transpilers:
+Postfixes:
+
+static System.Void Verse.PawnGenerator::GenerateGearFor(Verse.Pawn pawn, Verse.PawnGenerationRequest request)
+Prefixes:
+Transpilers:
+Postfixes:
+  [co.uk.epicguru.meleeanimation] Postfix
+  [PeteTimesSix.SimpleSidearms] GenerateGearFor
+  [rimworld.erdelf.alien_race.main] GenerateGearForPostfix
+
+virtual System.Boolean RimWorld.Verb_MeleeAttack::TryCastShot()
+Prefixes:
+  [co.uk.epicguru.meleeanimation] Prefix
+Transpilers:
+Postfixes:
+  [PeteTimesSix.SimpleSidearms] TryCastShot
+<color=#66ffb5>[MeleeAnim]</color> Full patch list:
+<color=#66ffb5>[MeleeAnim]</color> 
+System.Void Verse.PawnRenderer::RenderPawnAt(UnityEngine.Vector3 drawLoc, System.Nullable`1<Verse.Rot4> rotOverride, System.Boolean neverAimWeapon)
+Prefixes:
+  [net.pardeike.rimworld.mod.camera+] Prefix
+  [com.otters.rimworld.mod.Tents] Prefix
+  [co.uk.epicguru.meleeanimation] Prefix
+Transpilers:
+Postfixes:
+  [co.uk.epicguru.meleeanimation] Postfix
+
+static System.Void Verse.PawnRenderUtility::DrawEquipmentAiming(Verse.Thing eq, UnityEngine.Vector3 drawLoc, System.Single aimAngle)
+Prefixes:
+  [OskarPotocki.VEF] Prefix
+  [OskarPotocki.VEF] Prefix
+  [OskarPotocki.VEF] DrawEquipmentAimingPrefix
+  [co.uk.epicguru.meleeanimation] Prefix
+Transpilers:
+Postfixes:
+  [Vodka.MuzzleFlash] Postfix
+
+Verse.PreRenderResults Verse.PawnRenderer::ParallelGetPreRenderResults(UnityEngine.Vector3 drawLoc, System.Nullable`1<Verse.Rot4> rotOverride, System.Boolean neverAimWeapon, System.Boolean disableCache)
+Prefixes:
+  [OskarPotocki.VEF] Prefix
+  [GiddyUp] Prefix
+Transpilers:
+  [rimworld.erdelf.alien_race.main] PostureTranspiler
+Postfixes:
+  [co.uk.epicguru.meleeanimation] Postfix
+
+System.Void RimWorld.Building_ProximityDetector::RunDetection()
+Prefixes:
+  [co.uk.epicguru.meleeanimation] Prefix
+Transpilers:
+Postfixes:
+  [co.uk.epicguru.meleeanimation] Postfix
+
+static System.Collections.Generic.List`1<Verse.FloatMenuOption> RimWorld.FloatMenuMakerMap::GetOptions(System.Collections.Generic.List`1<Verse.Pawn> selectedPawns, UnityEngine.Vector3 clickPos, RimWorld.FloatMenuContext& context)
+Prefixes:
+Transpilers:
+Postfixes:
+  [co.uk.epicguru.meleeanimation] Postfix
+
+System.Boolean Verse.HediffSet::get_HasHead()
+Prefixes:
+  [co.uk.epicguru.meleeanimation] Prefix
+  [rimworld.erdelf.alien_race.main] HasHeadPrefix
+Transpilers:
+Postfixes:
+
+static System.Boolean RimWorld.InvisibilityUtility::IsPsychologicallyInvisible(Verse.Pawn pawn)
+Prefixes:
+  [co.uk.epicguru.meleeanimation] Prefix
+Transpilers:
+Postfixes:
+
+static System.Void Verse.PawnGenerator::GenerateGearFor(Verse.Pawn pawn, Verse.PawnGenerationRequest request)
+Prefixes:
+Transpilers:
+Postfixes:
+  [co.uk.epicguru.meleeanimation] Postfix
+  [PeteTimesSix.SimpleSidearms] GenerateGearFor
+  [rimworld.erdelf.alien_race.main] GenerateGearForPostfix
+
+System.Void Verse.PawnRenderer::DrawShadowInternal(UnityEngine.Vector3 drawLoc)
+Prefixes:
+  [co.uk.epicguru.meleeanimation] Prefix
+Transpilers:
+Postfixes:
+
+System.Void Verse.PawnRenderer::ParallelPreRenderPawnAt(UnityEngine.Vector3 drawLoc, System.Nullable`1<Verse.Rot4> rotOverride, System.Boolean neverAimWeapon)
+Prefixes:
+  [co.uk.epicguru.meleeanimation] Prefix
+Transpilers:
+Postfixes:
+
+System.Void Verse.PawnRenderTree::ParallelPreDraw(Verse.PawnDrawParms parms)
+Prefixes:
+  [co.uk.epicguru.meleeanimation] Prefix
+Transpilers:
+Postfixes:
+  [co.uk.epicguru.meleeanimation] Postfix
+
+static Verse.Pawn RimWorld.PawnUtility::PawnBlockingPathAt(Verse.IntVec3 c, Verse.Pawn forPawn, System.Boolean actAsIfHadCollideWithPawnsJob, System.Boolean collideOnlyWithStandingPawns, System.Boolean forPathFinder, System.Boolean useId)
+Prefixes:
+  [co.uk.epicguru.meleeanimation] Prefix
+  [co.uk.epicguru.meleeanimation] Prefix
+Transpilers:
+Postfixes:
+
+System.Void RimWorld.Pawn_ApparelTracker::Notify_ApparelChanged()
+Prefixes:
+  [co.uk.epicguru.meleeanimation] Prefix
+Transpilers:
+Postfixes:
+
+virtual System.Void Verse.Pawn::DrawGUIOverlay()
+Prefixes:
+  [co.uk.epicguru.meleeanimation] Prefix
+Transpilers:
+Postfixes:
+
+System.Void Verse.Pawn_DrawTracker::Notify_MeleeAttackOn(Verse.Thing Target)
+Prefixes:
+  [co.uk.epicguru.meleeanimation] Prefix
+Transpilers:
+Postfixes:
+
+Verse.BattleLogEntry_MeleeCombat RimWorld.Verb_MeleeAttack::CreateCombatLog(System.Func`2<Verse.ManeuverDef, Verse.RulePackDef> rulePackGetter, System.Boolean alwaysShow)
+Prefixes:
+  [co.uk.epicguru.meleeanimation] Prefix
+Transpilers:
+Postfixes:
+
+virtual System.Boolean RimWorld.Verb_MeleeAttack::TryCastShot()
+Prefixes:
+  [co.uk.epicguru.meleeanimation] Prefix
+Transpilers:
+Postfixes:
+  [PeteTimesSix.SimpleSidearms] TryCastShot
+Unloading 2 Unused Serialized files (Serialized files now loaded: 7)
+<color=#66ffb5>[MeleeAnim]</color> PreCached all retexture info in 29.0ms
+<color=#66ffb5>[MeleeAnim]</color> Loaded tweak data for 29 weapons.
+<color=#66ffb5>[MeleeAnim]</color> ludeon.rimworld.odyssey 'Odyssey' has 2 missing weapon tweak data.
+<color=#66ffb5>[MeleeAnim]</color> ogliss.avpxenomorphs 'AVP Xenomorphs' has 3 missing weapon tweak data.
+<color=#66ffb5>[MeleeAnim]</color> Skipping reporting of missing mod/weapons because user opted out or the feature is disabled by the developer.
+<color=#66ffb5>[MeleeAnim]</color> Patched 3 classes that directly inherit from Verb_MeleeAttack in 59.7 ms to detect hits:
+RimWorld.Verb_MeleeApplyHediff from Assembly-CSharp
+RimWorld.Verb_MeleeAttackDamage from Assembly-CSharp
+RRYautja.Verb_MeleeAttackKnockback from RRYautja
+<color=#66ffb5>[MeleeAnim]</color> Found 0 items of clothing that cover hands, took 0.72 ms:
+Unloading 55 unused Assets to reduce memory usage. Loaded Objects now: 34270.
+Total: 258.834500 ms (FindLiveObjects: 1.630600 ms CreateObjectMapping: 1.634200 ms MarkObjects: 255.447400 ms  DeleteObjects: 0.121600 ms)
+
+Unloading 0 Unused Serialized files (Serialized files now loaded: 7)
+Loading asset bundle MuzzleFlash.shaders-windows
+Loaded shader Unlit/AnimatedAdditiveInstanced
+[Muzzle Flash] Shader loaded from MuzzleFlash: Unlit/AnimatedAdditiveInstanced
+Unloading 0 unused Assets to reduce memory usage. Loaded Objects now: 34272.
+Total: 259.806100 ms (FindLiveObjects: 1.711600 ms CreateObjectMapping: 1.695000 ms MarkObjects: 256.346100 ms  DeleteObjects: 0.052900 ms)
+
+Unloading 0 Unused Serialized files (Serialized files now loaded: 8)
+[Loading Progress] Why is ResearchPal.Profiler.Start from ResearchPal 1.6 - Temp calling DeepProfiler.Start (and by extension our patch) with null?! Stop it.
+[Loading Progress] Why is ResearchPal.Profiler.Start from ResearchPal 1.6 - Temp calling DeepProfiler.Start (and by extension our patch) with null?! Stop it.
+[Loading Progress] Why is ResearchPal.Profiler.Start from ResearchPal 1.6 - Temp calling DeepProfiler.Start (and by extension our patch) with null?! Stop it.
+[Loading Progress] Why is ResearchPal.Profiler.Start from ResearchPal 1.6 - Temp calling DeepProfiler.Start (and by extension our patch) with null?! Stop it.
+[Loading Progress] Why is ResearchPal.Profiler.Start from ResearchPal 1.6 - Temp calling DeepProfiler.Start (and by extension our patch) with null?! Stop it.
+[Loading Progress] Why is ResearchPal.Profiler.Start from ResearchPal 1.6 - Temp calling DeepProfiler.Start (and by extension our patch) with null?! Stop it.
+ResearchPal :: Research layout initialized
+Unloading 0 unused Assets to reduce memory usage. Loaded Objects now: 34272.
+Total: 252.475800 ms (FindLiveObjects: 1.667300 ms CreateObjectMapping: 0.940900 ms MarkObjects: 249.817000 ms  DeleteObjects: 0.050400 ms)
+
+Unloading 0 Unused Serialized files (Serialized files now loaded: 8)
+Unloading 0 unused Assets to reduce memory usage. Loaded Objects now: 34272.
+Total: 261.139800 ms (FindLiveObjects: 2.235600 ms CreateObjectMapping: 1.692600 ms MarkObjects: 257.164200 ms  DeleteObjects: 0.047000 ms)
+
+[HugsLib] initializing TerraformRimworld
+CE is trying to create default parameter lists ...
+creating default parameter list for genes...
+250 default entities for genes created
+creating default parameter list for objects...
+2364 default entities for objects created
+creating default parameter list for turrets...
+40 default entities for turrets created
+...lists created
+CE is trying to apply modified parameters...
+no modifications for genes
+FoldingTent modification loaded
+no modifications for lifestages
+...done
+Unloading 2 Unused Serialized files (Serialized files now loaded: 8)
+Unloading 0 unused Assets to reduce memory usage. Loaded Objects now: 36063.
+Total: 303.282400 ms (FindLiveObjects: 1.884900 ms CreateObjectMapping: 2.135200 ms MarkObjects: 299.202600 ms  DeleteObjects: 0.059300 ms)
+
+Unloading 3 Unused Serialized files (Serialized files now loaded: 8)
+UnloadTime: 0.854600 ms
+Unloading 4 unused Assets to reduce memory usage. Loaded Objects now: 36563.
+Total: 330.731400 ms (FindLiveObjects: 1.761200 ms CreateObjectMapping: 2.101300 ms MarkObjects: 326.786400 ms  DeleteObjects: 0.082000 ms)
+
+Initializing new game with mods:
+  - brrainz.harmony
+  - ilyvion.LoadingProgress
+  - Ludeon.RimWorld
+  - Ludeon.RimWorld.Royalty
+  - Ludeon.RimWorld.Ideology
+  - Ludeon.RimWorld.Biotech
+  - Ludeon.RimWorld.Anomaly
+  - Ludeon.RimWorld.Odyssey
+  - Ogliss.AVPXenomorphs
+  - UnlimitedHugs.HugsLib
+  - UnlimitedHugs.AllowTool
+  - Darknote.BunkBeds
+  - brrainz.cameraplus
+  - Aoba.Tent
+  - void.charactereditor
+  - Cerule.CleaningAreaRelaunched
+  - erdelf.HumanoidAlienRaces
+  - zal.covetheus
+  - CaesarV6.DamageIndicators
+  - telardo.DragSelect
+  - Dubwise.DubsMintMenus
+  - dubwise.dubsmintminimap
+  - Dubwise.DubsPerformanceAnalyzer.steam
+  - zeracronius.dynamictradeinterface
+  - Romyashi.ExtractAnyPlant
+  - matvey24.FPSStabilizer
+  - MemeGoddess.GiddyUp
+  - GonDragon.TTPF
+  - adaptive.storage.framework
+  - OskarPotocki.VanillaFactionsExpanded.Core
+  - OskarPotocki.VFE.Empire
+  - OskarPotocki.VFE.Deserters
+  - GonDragon.TechTree
+  - jkluch.HaulToStack
+  - Taveron.IncreasedStack
+  - Aoba.Fortress.Industrial.Concrete
+  - futurplanet.industrialconcretefloorpatch
+  - Koth.ISiD
+  - ASF.DeepStorage
+  - jecrell.doorsexpanded
+  - Haplo.Miscellaneous.Robots
+  - avius.locks
+  - Mlie.LogAfterDefError
+  - plaxen.MalangBodies
+  - m00nl1ght.MapPreview
+  - sumghai.Medpod
+  - co.uk.epicguru.meleeanimation
+  - notfood.MendAndRecycle
+  - Cain.Mineshaft
+  - erdelf.MinifyEverything
+  - mosi.MoreMiniHorns
+  - IssacZhuang.MuzzleFlash
+  - zal.namesgalore
+  - VitaKaninen.ShelfPatch
+  - Doug.NoJobAuthors
+  - mrwireman.Noconduit
+  - komunre.BetterExp.PassiveResearch
+  - Mlie.PredatorHuntAlert
+  - DawnsGlow.qualcolor
+  - sdknm2.QualityOfBuilding
+  - Memegoddess.ReplaceStuff
+  - Aelanna.ResearchTabColors
+  - fluffy.researchtree
+  - XanderNirpows.ResearchPalForked16
+  - aRandomKiwi.RimSaves
+  - rimsenal.core
+  - rimsenal.security
+  - Mlie.RunAndHide
+  - MemeGoddess.RunAndGun
+  - BP.ShowBuildableMaterialCount
+  - zal.simplefxshinies
+  - Owlchemist.SimpleFX.Smoke2
+  - Owlchemist.SimpleFX.Splashes
+  - Atlas.SimpleFX.Vapor.Revaporized
+  - Owlchemist.FridgeUtilities
+  - PeteTimesSix.SimpleSidearms
+  - Haecriver.SimplyMoreColors
+  - sarg.smartspeed
+  - dhultgren.smarterconstruction
+  - Garwel.StartingTechLevel
+  - void.terraformrimworld
+[AVP Xenomorphs] Xenomorph faction is null - Queen spawned with no faction
+[AVP Xenomorphs] Xenomorph faction is null - Drone spawned with no faction
+[AVP Xenomorphs] Xenomorph faction is null - Drone spawned with no faction
+[AVP Xenomorphs] Xenomorph faction is null - Drone spawned with no faction
+[AVP Xenomorphs] Xenomorph faction is null - Drone spawned with no faction
+[AVP Xenomorphs] Xenomorph faction is null - Drone spawned with no faction
+[AVP Xenomorphs] Xenomorph faction is null - Drone spawned with no faction
+[AVP Xenomorphs] Xenomorph faction is null - Drone spawned with no faction
+[AVP Xenomorphs] Xenomorph faction is null - Drone spawned with no faction
+[AVP Xenomorphs] Xenomorph faction is null - Drone spawned with no faction
+[AVP Xenomorphs] Xenomorph faction is null - Drone spawned with no faction
+[AVP Xenomorphs] Xenomorph faction is null - Drone spawned with no faction
+[AVP Xenomorphs] Xenomorph faction is null - Drone spawned with no faction
+[AVP Xenomorphs] Xenomorph faction is null - Drone spawned with no faction
+[AVP Xenomorphs] Xenomorph faction is null - Drone spawned with no faction
+checking editor settings...
+bodysizes genes are active
+[AVP Xenomorphs] Created Xenomorph hive faction (was missing).
+Unloading 0 Unused Serialized files (Serialized files now loaded: 8)
+Unloading 1 unused Assets to reduce memory usage. Loaded Objects now: 45694.
+Total: 383.505100 ms (FindLiveObjects: 2.455300 ms CreateObjectMapping: 3.267100 ms MarkObjects: 377.668600 ms  DeleteObjects: 0.113800 ms)
+
+[AVP Xenomorphs] [Mine] Suppressing chunks for Drone mining Granite (tick 1043)
+[AVP Xenomorphs] [Mine] Suppressing chunks for Drone mining Granite (tick 1363)
+[AVP Xenomorphs] [Mine] Suppressing chunks for Drone mining MineableSteel (tick 1614)
+[AVP Xenomorphs] [Mine] Suppressing chunks for Drone mining Granite (tick 1898)
+[AVP Xenomorphs] [Mine] Suppressing chunks for Drone mining Granite (tick 2303)
+[AVP Xenomorphs] [Mine] Suppressing chunks for Drone mining Granite (tick 2703)
+[AVP Xenomorphs] [Mine] Suppressing chunks for Drone mining MineableSteel (tick 2969)
+[AVP Xenomorphs] [Mine] Suppressing chunks for Drone mining Granite (tick 3232)
+[AVP Xenomorphs] [Mine] Suppressing chunks for Drone mining Granite (tick 3533)
+[AVP Xenomorphs] [Mine] Suppressing chunks for Drone mining Granite (tick 4212)
+[AVP Xenomorphs] [Mine] Suppressing chunks for Drone mining MineableSteel (tick 4466)
+[AVP Xenomorphs] [Mine] Suppressing chunks for Drone mining Granite (tick 5192)
+[AVP Xenomorphs] [Mine] Suppressing chunks for Drone mining MineableSteel (tick 5614)
+[AVP Xenomorphs] [Mine] Suppressing chunks for Drone mining MineableSteel (tick 5996)
+[AVP Xenomorphs] [Mine] Suppressing chunks for Drone mining Granite (tick 6396)
+[AVP Xenomorphs] [Mine] Suppressing chunks for Drone mining MineableSteel (tick 6914)
+[AVP Xenomorphs] [Mine] Suppressing chunks for Drone mining Granite (tick 7227)
+[AVP Xenomorphs] [Mine] Suppressing chunks for Drone mining MineableSteel (tick 7545)
+[AVP Xenomorphs] [Mine] Suppressing chunks for Drone mining Granite (tick 7950)
+[AVP Xenomorphs] [Mine] Suppressing chunks for Drone mining MineableSteel (tick 8226)
+[AVP Xenomorphs] [Mine] Suppressing chunks for Drone mining MineableSteel (tick 8498)
+[AVP Xenomorphs] [Mine] Suppressing chunks for Drone mining Granite (tick 8805)
+[AVP Xenomorphs] [Mine] Suppressing chunks for Drone mining Granite (tick 9117)
+[AVP Xenomorphs] [Mine] Suppressing chunks for Drone mining Granite (tick 9610)
+[AVP Xenomorphs] [Mine] Suppressing chunks for Drone mining MineableSteel (tick 9864)
+[AVP Xenomorphs] [Mine] Suppressing chunks for Drone mining Granite (tick 10806)
+Bane threw exception in WorkGiver HaulUrgently: System.NullReferenceException: Object reference not set to an instance of an object
+[Ref 5DC17AA3]
+  at Verse.GridsUtility.Fogged (Verse.Thing t) [0x00006] in <61e4173561894da49d210260257b5097>:0 
+  at Verse.AI.HaulAIUtility.PawnCanAutomaticallyHaulFast_NewTemp (Verse.Pawn p, Verse.Thing t, System.Boolean forced, System.Boolean checkReachability) [0x00000] in <61e4173561894da49d210260257b5097>:0 
+  at Verse.AI.HaulAIUtility.PawnCanAutomaticallyHaulFast (Verse.Pawn p, Verse.Thing t, System.Boolean forced) [0x00000] in <61e4173561894da49d210260257b5097>:0 
+  at AllowTool.WorkGiver_HaulUrgently+<PotentialWorkThingsGlobal>d__3.MoveNext () [0x00052] in <8a098910d6a84b188090b9d6c096e9ee>:0 
+  at Verse.GenClosest.ClosestThing_Global (Verse.IntVec3 center, System.Collections.IEnumerable searchSet, System.Single maxDistance, System.Predicate`1[T] validator, System.Func`2[T,TResult] priorityGetter, System.Boolean lookInHaulSources) [0x0013c] in <61e4173561894da49d210260257b5097>:0 
+  at Verse.GenClosest.ClosestThingReachable (Verse.IntVec3 root, Verse.Map map, Verse.ThingRequest thingReq, Verse.AI.PathEndMode peMode, Verse.TraverseParms traverseParams, System.Single maxDistance, System.Predicate`1[T] validator, System.Collections.Generic.IEnumerable`1[T] customGlobalSearchSet, System.Int32 searchRegionsMin, System.Int32 searchRegionsMax, System.Boolean forceAllowGlobalSearch, Verse.RegionType traversableRegionTypes, System.Boolean ignoreEntirelyForbiddenRegions, System.Boolean lookInHaulSources) [0x00147] in <61e4173561894da49d210260257b5097>:0 
+  at RimWorld.JobGiver_Work.TryIssueJobPackage (Verse.Pawn pawn, Verse.AI.JobIssueParams jobParams) [0x00678] in <61e4173561894da49d210260257b5097>:0 
+    - TRANSPILER SmarterConstruction: List`1 SmarterConstruction.Patches.PatchMakeFinishFramesPrioritized:Transpiler(IEnumerable`1 instructions, ILGenerator generator)
+Erlene threw exception in WorkGiver HaulUrgently: System.NullReferenceException: Object reference not set to an instance of an object
+[Ref 5DC17AA3] Duplicate stacktrace, see ref for original
+Henry threw exception in WorkGiver HaulUrgently: System.NullReferenceException: Object reference not set to an instance of an object
+[Ref 5DC17AA3] Duplicate stacktrace, see ref for original
+Exception in BreadthFirstTraverse: System.InvalidCastException: Specified cast is not valid.
+[Ref AE7716D9]
+  at RimWorld.JobGiver_FacehuggerHunt+<>c__DisplayClass4_0.<FindPawnTarget>b__0 (Verse.Thing x) [0x00000] in <169797cf17ef4917bf980ab1b9800e92>:0 
+  at Verse.AI.XenomorphTargetFinder+<>c__DisplayClass0_0.<BestAttackTarget>b__1 (Verse.AI.IAttackTarget t) [0x000d4] in <169797cf17ef4917bf980ab1b9800e92>:0 
+  at Verse.AI.XenomorphTargetFinder+<>c__DisplayClass0_0.<BestAttackTarget>b__2 (Verse.Thing x) [0x00000] in <169797cf17ef4917bf980ab1b9800e92>:0 
+  at Verse.RegionProcessorClosestThingReachable.ProcessThing (Verse.Region reg, Verse.Thing t) [0x00080] in <61e4173561894da49d210260257b5097>:0 
+  at Verse.RegionProcessorClosestThingReachable.RegionProcessor (Verse.Region reg) [0x0006c] in <61e4173561894da49d210260257b5097>:0 
+  at Verse.RegionTraverser+BFSWorker.BreadthFirstTraverseWork (Verse.Region root, Verse.RegionEntryPredicate entryCondition, Verse.RegionProcessor regionProcessor, System.Int32 maxRegions, Verse.RegionType traversableRegionTypes) [0x00054] in <61e4173561894da49d210260257b5097>:0 
+  at Verse.RegionTraverser.BreadthFirstTraverse (Verse.Region root, Verse.RegionEntryPredicate entryCondition, Verse.RegionProcessor regionProcessor, System.Int32 maxRegions, Verse.RegionType traversableRegionTypes) [0x00044] in <61e4173561894da49d210260257b5097>:0 
+[AVP Xenomorphs] [AVP Xenomorphs] CompPostPostAdd called for Theo (humanlike=True)
+[AVP Xenomorphs] [AVP Xenomorphs] Added facehugger mask apparel to Theo
+Exception in RimWorld.ThinkNode_ConditionalFacehuggerFertile TryIssueJobPackage: System.NullReferenceException: Object reference not set to an instance of an object
+[Ref D34DC46A]
+  at Verse.GenClosest.EarlyOutSearch (Verse.IntVec3 start, Verse.Map map, Verse.ThingRequest thingReq, System.Collections.Generic.IEnumerable`1[T] customGlobalSearchSet, System.Predicate`1[T] validator) [0x00015] in <61e4173561894da49d210260257b5097>:0 
+  at Verse.GenClosest.ClosestThingReachable (Verse.IntVec3 root, Verse.Map map, Verse.ThingRequest thingReq, Verse.AI.PathEndMode peMode, Verse.TraverseParms traverseParams, System.Single maxDistance, System.Predicate`1[T] validator, System.Collections.Generic.IEnumerable`1[T] customGlobalSearchSet, System.Int32 searchRegionsMin, System.Int32 searchRegionsMax, System.Boolean forceAllowGlobalSearch, Verse.RegionType traversableRegionTypes, System.Boolean ignoreEntirelyForbiddenRegions, System.Boolean lookInHaulSources) [0x0008c] in <61e4173561894da49d210260257b5097>:0 
+  at Verse.AI.XenomorphTargetFinder.BestAttackTarget (Verse.AI.IAttackTargetSearcher searcher, Verse.AI.TargetScanFlags flags, System.Predicate`1[T] validator, System.Single minDist, System.Single maxDist, Verse.IntVec3 locus, System.Single maxTravelRadiusFromLocus, System.Boolean canBash, System.Boolean canTakeTargetsCloserThanEffectiveMinRange) [0x0036e] in <169797cf17ef4917bf980ab1b9800e92>:0 
+  at RimWorld.JobGiver_FacehuggerHunt.FindPawnTarget (Verse.Pawn pawn) [0x00038] in <169797cf17ef4917bf980ab1b9800e92>:0 
+  at RimWorld.JobGiver_FacehuggerHunt.TryGiveJob (Verse.Pawn pawn) [0x0001f] in <169797cf17ef4917bf980ab1b9800e92>:0 
+  at Verse.AI.ThinkNode_JobGiver.TryIssueJobPackage (Verse.Pawn pawn, Verse.AI.JobIssueParams jobParams) [0x00000] in <61e4173561894da49d210260257b5097>:0 
+  at Verse.AI.ThinkNode_Priority.TryIssueJobPackage (Verse.Pawn pawn, Verse.AI.JobIssueParams jobParams) [0x00022] in <61e4173561894da49d210260257b5097>:0 
+Exception in Verse.AI.ThinkNode_Tagger TryIssueJobPackage: System.NullReferenceException: Object reference not set to an instance of an object
+[Ref B3A85BBC]
+  at Verse.RegionAndRoomQuery.RegionAt (Verse.IntVec3 c, Verse.Map map, Verse.RegionType allowedRegionTypes) [0x00000] in <61e4173561894da49d210260257b5097>:0 
+  at Verse.GridsUtility.GetRegion (Verse.IntVec3 loc, Verse.Map map, Verse.RegionType allowedRegionTypes) [0x00000] in <61e4173561894da49d210260257b5097>:0 
+  at RimWorld.RCellFinder.RandomWanderDestFor (Verse.Pawn pawn, Verse.IntVec3 root, System.Single radius, System.Func`4[T1,T2,T3,TResult] validator, Verse.Danger maxDanger, System.Boolean canBashDoors) [0x00085] in <61e4173561894da49d210260257b5097>:0 
+  at Verse.AI.JobGiver_Wander.GetExactWanderDest (Verse.Pawn pawn) [0x0005b] in <61e4173561894da49d210260257b5097>:0 
+  at Verse.AI.JobGiver_Wander.TryGiveJob (Verse.Pawn pawn) [0x00061] in <61e4173561894da49d210260257b5097>:0 
+  at Verse.AI.ThinkNode_JobGiver.TryIssueJobPackage (Verse.Pawn pawn, Verse.AI.JobIssueParams jobParams) [0x00000] in <61e4173561894da49d210260257b5097>:0 
+  at Verse.AI.ThinkNode_Priority.TryIssueJobPackage (Verse.Pawn pawn, Verse.AI.JobIssueParams jobParams) [0x00022] in <61e4173561894da49d210260257b5097>:0 
+JobDriver threw exception in toil MakeNewToils's initAction for pawn RRY_Xenomorph_FaceHugger68688 driver=JobDriver_Wait (toilIndex=0) driver.job=(Wait_Wander (Job_28937) Giver = JobGiver_WanderAnywhere [workGiverDef: null])
+System.NullReferenceException: Object reference not set to an instance of an object
+[Ref 2BEE724E]
+  at Verse.AI.JobDriver_Wait.CheckForAutoAttack () [0x0012f] in <61e4173561894da49d210260257b5097>:0 
+    - TRANSPILER OskarPotocki.VEF: IEnumerable`1 VEF.Weapons.VanillaExpandedFramework_JobDriver_Wait_CheckForAutoAttack_Patch:Transpiler(IEnumerable`1 instructions, ILGenerator generator)
+    - TRANSPILER legodude17.mvcf: IEnumerable`1 MVCF.PatchSets.PatchSet_TargetFinder:BestTargetTranspiler(IEnumerable`1 instructions)
+    - POSTFIX UnlimitedHugs.AllowTool: Void AllowTool.Patches.JobDriverWait_CheckForAutoAttack_Patch:DoPartyHunting(JobDriver_Wait __instance)
+  at Verse.AI.JobDriver_Wait.<MakeNewToils>b__3_0 () [0x0003d] in <61e4173561894da49d210260257b5097>:0 
+  at Verse.AI.JobDriver.TryActuallyStartNextToil () [0x001b0] in <61e4173561894da49d210260257b5097>:0 
+JobDriver threw exception in toil MakeNewToils's initAction for pawn RRY_Xenomorph_FaceHugger68688 driver=JobDriver_Wait (toilIndex=0) driver.job=(Wait (Job_28938))
+System.NullReferenceException: Object reference not set to an instance of an object
+[Ref 2BEE724E] Duplicate stacktrace, see ref for original
+An error occurred while starting an error recover job. We have to stop now to avoid infinite loops. This means that the pawn is now jobless which can cause further bugs. pawn=RRY_Xenomorph_FaceHugger68688
+Exception in RimWorld.ThinkNode_ConditionalFacehuggerFertile TryIssueJobPackage: System.NullReferenceException: Object reference not set to an instance of an object
+[Ref D34DC46A] Duplicate stacktrace, see ref for original
+Exception in Verse.AI.ThinkNode_Tagger TryIssueJobPackage: System.NullReferenceException: Object reference not set to an instance of an object
+[Ref B3A85BBC] Duplicate stacktrace, see ref for original
+JobDriver threw exception in toil MakeNewToils's initAction for pawn RRY_Xenomorph_FaceHugger68817 driver=JobDriver_Wait (toilIndex=0) driver.job=(Wait_Wander (Job_29080) Giver = JobGiver_WanderAnywhere [workGiverDef: null])
+System.NullReferenceException: Object reference not set to an instance of an object
+[Ref 2BEE724E] Duplicate stacktrace, see ref for original
+JobDriver threw exception in toil MakeNewToils's initAction for pawn RRY_Xenomorph_FaceHugger68817 driver=JobDriver_Wait (toilIndex=0) driver.job=(Wait (Job_29081))
+System.NullReferenceException: Object reference not set to an instance of an object
+[Ref 2BEE724E] Duplicate stacktrace, see ref for original
+An error occurred while starting an error recover job. We have to stop now to avoid infinite loops. This means that the pawn is now jobless which can cause further bugs. pawn=RRY_Xenomorph_FaceHugger68817
+Exception in RimWorld.ThinkNode_ConditionalFacehuggerFertile TryIssueJobPackage: System.NullReferenceException: Object reference not set to an instance of an object
+[Ref D34DC46A] Duplicate stacktrace, see ref for original
+Exception in Verse.AI.ThinkNode_Tagger TryIssueJobPackage: System.NullReferenceException: Object reference not set to an instance of an object
+[Ref B3A85BBC] Duplicate stacktrace, see ref for original
+JobDriver threw exception in toil MakeNewToils's initAction for pawn RRY_Xenomorph_FaceHugger68834 driver=JobDriver_Wait (toilIndex=0) driver.job=(Wait_Wander (Job_29350) Giver = JobGiver_WanderAnywhere [workGiverDef: null])
+System.NullReferenceException: Object reference not set to an instance of an object
+[Ref 2BEE724E] Duplicate stacktrace, see ref for original
+JobDriver threw exception in toil MakeNewToils's initAction for pawn RRY_Xenomorph_FaceHugger68834 driver=JobDriver_Wait (toilIndex=0) driver.job=(Wait (Job_29351))
+System.NullReferenceException: Object reference not set to an instance of an object
+[Ref 2BEE724E] Duplicate stacktrace, see ref for original
+An error occurred while starting an error recover job. We have to stop now to avoid infinite loops. This means that the pawn is now jobless which can cause further bugs. pawn=RRY_Xenomorph_FaceHugger68834
+Wrote screenshot C:\Users\clint\AppData\LocalLow\Ludeon Studios\RimWorld by Ludeon Studios\RimSaves\Previews\Autosave-1.dat of size 164622
+[AVP Xenomorphs] [AVP Xenomorphs] Removed facehugger mask apparel from Theo
+[AVP Xenomorphs] [Spawn] Chestburster spawned: Warrior faction=a Xenomorph hive (tick 91319)
+Error while killing Theo during phase 6: System.NullReferenceException: Object reference not set to an instance of an object
+[Ref 2BB146E]
+  at Verse.ThingMaker.MakeThing (Verse.ThingDef def, Verse.ThingDef stuff) [0x0005b] in <61e4173561894da49d210260257b5097>:0 
+  at RimWorld.MoteMaker.ThrowExplosionCell (Verse.IntVec3 cell, Verse.Map map, Verse.ThingDef moteDef, UnityEngine.Color color) [0x0000b] in <61e4173561894da49d210260257b5097>:0 
+  at RRYautja.HediffComp_XenoSpawner.Notify_PawnDied (System.Nullable`1[T] dinfo, Verse.Hediff culprit) [0x00308] in <169797cf17ef4917bf980ab1b9800e92>:0 
+  at Verse.HediffWithComps.Notify_PawnDied (System.Nullable`1[T] dinfo, Verse.Hediff culprit) [0x00024] in <61e4173561894da49d210260257b5097>:0 
+  at RRYautja.XenoHediffWithComps.Notify_PawnDied (System.Nullable`1[T] dinfo, Verse.Hediff culprit) [0x00000] in <169797cf17ef4917bf980ab1b9800e92>:0 
+  at Verse.HediffSet.Notify_PawnDied (System.Nullable`1[T] dinfo, Verse.Hediff culprit) [0x0001c] in <61e4173561894da49d210260257b5097>:0 
+  at Verse.Pawn.Kill (System.Nullable`1[T] dinfo, Verse.Hediff exactCulprit) [0x0064c] in <61e4173561894da49d210260257b5097>:0 
+    - PREFIX OskarPotocki.VEF: Void VEF.Storyteller.VanillaExpandedFramework_Pawn_Kill_Patch:Prefix(Pawn __instance, Nullable`1 dinfo, Hediff exactCulprit)
+    - PREFIX OskarPotocki.VEF: Boolean VEF.Apparels.VanillaExpandedFramework_Pawn_Kill_Patch:Prefix(Pawn __instance, List`1& __state)
+    - POSTFIX UnlimitedHugs.AllowTool: Void AllowTool.Patches.Pawn_Kill_Patch:UnforbidDraftedHuntBody(Pawn __instance, Nullable`1 dinfo)
+    - POSTFIX OskarPotocki.VEF: Void VEF.Pawns.VanillaExpandedFramework_Pawn_Kill:Postfix(Pawn __instance)
+    - POSTFIX OskarPotocki.VEF: Void VEF.Apparels.VanillaExpandedFramework_Pawn_Kill_Patch:Postfix(Pawn __instance, List`1 __state)
+    - POSTFIX VFEEmpire.Mod: Void VFEEmpire.HarmonyPatches.ColonistTitleCache+OnPawn:Postfix(Pawn __instance)
+    - POSTFIX vanillaexpanded.factions.deserters: Void VFED.HarmonyPatches.MiscPatches:ExplodePackOnDeath(Pawn __instance)
+[AVP Xenomorphs] [Spawn] Chestburster spawned: Drone faction=a Xenomorph hive (tick 91799)
+Error while killing Devorah during phase 6: System.NullReferenceException: Object reference not set to an instance of an object
+[Ref 2BB146E] Duplicate stacktrace, see ref for original
+[AVP Xenomorphs] [Spawn] Chestburster spawned: Drone faction=a Xenomorph hive (tick 93900)
+Error while killing Marceline during phase 6: System.NullReferenceException: Object reference not set to an instance of an object
+[Ref 2BB146E] Duplicate stacktrace, see ref for original
+Error in LordToil.UpdateAllDuties(): System.NullReferenceException: Object reference not set to an instance of an object
+[Ref 8A2D91E9]
+  at RimWorld.LordToil_DefendHiveLikeAggressively.UpdateAllDuties () [0x00092] in <169797cf17ef4917bf980ab1b9800e92>:0 
+  at Verse.AI.Group.Lord.GotoToil (Verse.AI.Group.LordToil newLordToil) [0x0017f] in <61e4173561894da49d210260257b5097>:0 
+    - POSTFIX VFEEmpire.Mod: Void VFEEmpire.HarmonyPatches.Patch_Lords:GotoToil_Postfix(Lord __instance, LordToil newLordToil)
+Tried to destroy already-destroyed thing RRY_FacehuggerMask69039
+Tried to destroy already-destroyed thing RRY_FacehuggerMask69039
+Tried to destroy already-destroyed thing RRY_FacehuggerMask69039
+Tried to destroy already-destroyed thing RRY_FacehuggerMask69039
+Tried to destroy already-destroyed thing RRY_FacehuggerMask69039
+Tried to destroy already-destroyed thing RRY_FacehuggerMask69039
+Tried to destroy already-destroyed thing RRY_FacehuggerMask69039
+Tried to destroy already-destroyed thing RRY_FacehuggerMask69039
+Tried to destroy already-destroyed thing RRY_FacehuggerMask69039
+Tried to destroy already-destroyed thing RRY_FacehuggerMask69039
+Tried to destroy already-destroyed thing RRY_FacehuggerMask69039
+Tried to destroy already-destroyed thing RRY_FacehuggerMask69039
+Tried to destroy already-destroyed thing RRY_FacehuggerMask69039
+Tried to destroy already-destroyed thing RRY_FacehuggerMask69039
+Tried to destroy already-destroyed thing RRY_FacehuggerMask69039
+Tried to destroy already-destroyed thing RRY_FacehuggerMask69039
+Tried to destroy already-destroyed thing RRY_FacehuggerMask69039
+Tried to destroy already-destroyed thing RRY_FacehuggerMask69039
+Tried to destroy already-destroyed thing RRY_FacehuggerMask69039
+Tried to destroy already-destroyed thing RRY_FacehuggerMask69039
+Tried to destroy already-destroyed thing RRY_FacehuggerMask69039
+Tried to destroy already-destroyed thing RRY_FacehuggerMask69039
+Tried to destroy already-destroyed thing RRY_FacehuggerMask69039
+Tried to destroy already-destroyed thing RRY_FacehuggerMask69039
+Tried to destroy already-destroyed thing RRY_FacehuggerMask69039
+Tried to destroy already-destroyed thing RRY_FacehuggerMask69039
+Tried to destroy already-destroyed thing RRY_FacehuggerMask69039
+Tried to destroy already-destroyed thing RRY_FacehuggerMask69039
+Tried to destroy already-destroyed thing RRY_FacehuggerMask69039
+Tried to destroy already-destroyed thing RRY_FacehuggerMask69039
+Tried to destroy already-destroyed thing RRY_FacehuggerMask69039
+Tried to destroy already-destroyed thing RRY_FacehuggerMask69039
+Tried to destroy already-destroyed thing RRY_FacehuggerMask69039
+Tried to destroy already-destroyed thing RRY_FacehuggerMask69039
+Tried to destroy already-destroyed thing RRY_FacehuggerMask69039
+Tried to destroy already-destroyed thing RRY_FacehuggerMask69039
+Tried to destroy already-destroyed thing RRY_FacehuggerMask69039
+Tried to destroy already-destroyed thing RRY_FacehuggerMask69039
+Tried to destroy already-destroyed thing RRY_FacehuggerMask69039
+Tried to destroy already-destroyed thing RRY_FacehuggerMask69039
+Tried to destroy already-destroyed thing RRY_FacehuggerMask69039
+Tried to destroy already-destroyed thing RRY_FacehuggerMask69039
+Tried to destroy already-destroyed thing RRY_FacehuggerMask69039
+Tried to destroy already-destroyed thing RRY_FacehuggerMask69039
+Tried to destroy already-destroyed thing RRY_FacehuggerMask69039
+Tried to destroy already-destroyed thing RRY_FacehuggerMask69039
+Tried to destroy already-destroyed thing RRY_FacehuggerMask69039
+Tried to destroy already-destroyed thing RRY_FacehuggerMask69039
+Tried to destroy already-destroyed thing RRY_FacehuggerMask69039
+Tried to destroy already-destroyed thing RRY_FacehuggerMask69039
+Tried to destroy already-destroyed thing RRY_FacehuggerMask69039
+Tried to destroy already-destroyed thing RRY_FacehuggerMask69039
+Tried to destroy already-destroyed thing RRY_FacehuggerMask69039
+Tried to destroy already-destroyed thing RRY_FacehuggerMask69039
+Tried to destroy already-destroyed thing RRY_FacehuggerMask69039
+Tried to destroy already-destroyed thing RRY_FacehuggerMask69039
+Tried to destroy already-destroyed thing RRY_FacehuggerMask69039
+Tried to destroy already-destroyed thing RRY_FacehuggerMask69039
+Tried to destroy already-destroyed thing RRY_FacehuggerMask69039
+Tried to destroy already-destroyed thing RRY_FacehuggerMask69039
+Tried to destroy already-destroyed thing RRY_FacehuggerMask69039
+Tried to destroy already-destroyed thing RRY_FacehuggerMask69039
+Tried to destroy already-destroyed thing RRY_FacehuggerMask69039
+Tried to destroy already-destroyed thing RRY_FacehuggerMask69039
+Tried to destroy already-destroyed thing RRY_FacehuggerMask69039
+Tried to destroy already-destroyed thing RRY_FacehuggerMask69039
+Tried to destroy already-destroyed thing RRY_FacehuggerMask69039
+Tried to destroy already-destroyed thing RRY_FacehuggerMask69039
+Tried to destroy already-destroyed thing RRY_FacehuggerMask69039
+Tried to destroy already-destroyed thing RRY_FacehuggerMask69039
+Tried to destroy already-destroyed thing RRY_FacehuggerMask69039
+Tried to destroy already-destroyed thing RRY_FacehuggerMask69039
+Tried to destroy already-destroyed thing RRY_FacehuggerMask69039
+Tried to destroy already-destroyed thing RRY_FacehuggerMask69039
+Tried to destroy already-destroyed thing RRY_FacehuggerMask69039
+Tried to destroy already-destroyed thing RRY_FacehuggerMask69039
+Tried to destroy already-destroyed thing RRY_FacehuggerMask69039
+Tried to destroy already-destroyed thing RRY_FacehuggerMask69039
+Tried to destroy already-destroyed thing RRY_FacehuggerMask69039
+Tried to destroy already-destroyed thing RRY_FacehuggerMask69039
+Tried to destroy already-destroyed thing RRY_FacehuggerMask69039
+Tried to destroy already-destroyed thing RRY_FacehuggerMask69039
+Tried to destroy already-destroyed thing RRY_FacehuggerMask69039
+Tried to destroy already-destroyed thing RRY_FacehuggerMask69039
+Tried to destroy already-destroyed thing RRY_FacehuggerMask69039
+Tried to destroy already-destroyed thing RRY_FacehuggerMask69039
+Tried to destroy already-destroyed thing RRY_FacehuggerMask69039
+Tried to destroy already-destroyed thing RRY_FacehuggerMask69039
+Tried to destroy already-destroyed thing RRY_FacehuggerMask69039
+Tried to destroy already-destroyed thing RRY_FacehuggerMask69039
+Tried to destroy already-destroyed thing RRY_FacehuggerMask69039
+Tried to destroy already-destroyed thing RRY_FacehuggerMask69039
+Tried to destroy already-destroyed thing RRY_FacehuggerMask69039
+Tried to destroy already-destroyed thing RRY_FacehuggerMask69039
+Tried to destroy already-destroyed thing RRY_FacehuggerMask69039
+Tried to destroy already-destroyed thing RRY_FacehuggerMask69039
+Tried to destroy already-destroyed thing RRY_FacehuggerMask69039
+Tried to destroy already-destroyed thing RRY_FacehuggerMask69039
+Tried to destroy already-destroyed thing RRY_FacehuggerMask69039
+
     Driver:   32.0.16.1088
 Begin MonoManager ReloadAssembly
 - Loaded All Assemblies, in  0.154 seconds
