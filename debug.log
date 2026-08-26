@@ -481,7 +481,7 @@ Verse.LongEventHandler:LongEventsUpdate (bool&)
 (wrapper dynamic-method) MonoMod.Utils.DynamicMethodDefinition:Verse.Root.Update_Patch1 (Verse.Root)
 Verse.Root_Entry:Update ()
 
-[AVP Xenomorphs] [AVP Xenomorphs] PawnRenderNode method: get_DebugOffset()
+[AVP Xenomorphs] [AVP Xenomorphs] PawnRenderTree method: ParallelPreDraw(PawnDrawParms parms)
 UnityEngine.StackTraceUtility:ExtractStackTrace ()
 Verse.Log:Message (string)
 RRYautja.AvPDebug:LogOnce (string,string)
@@ -493,7 +493,7 @@ Verse.LongEventHandler:LongEventsUpdate (bool&)
 (wrapper dynamic-method) MonoMod.Utils.DynamicMethodDefinition:Verse.Root.Update_Patch1 (Verse.Root)
 Verse.Root_Entry:Update ()
 
-[AVP Xenomorphs] [AVP Xenomorphs] PawnRenderNode method: get_DebugAngleOffset()
+[AVP Xenomorphs] [AVP Xenomorphs] PawnRenderTree method: Draw(PawnDrawParms parms)
 UnityEngine.StackTraceUtility:ExtractStackTrace ()
 Verse.Log:Message (string)
 RRYautja.AvPDebug:LogOnce (string,string)
@@ -505,7 +505,7 @@ Verse.LongEventHandler:LongEventsUpdate (bool&)
 (wrapper dynamic-method) MonoMod.Utils.DynamicMethodDefinition:Verse.Root.Update_Patch1 (Verse.Root)
 Verse.Root_Entry:Update ()
 
-[AVP Xenomorphs] [AVP Xenomorphs] PawnRenderNode method: get_CheckMaterialEveryDrawRequest()
+[AVP Xenomorphs] [AVP Xenomorphs] PawnRenderTree method: TryGetNodeByTag(PawnRenderNodeTagDef tag, PawnRenderNode& node)
 UnityEngine.StackTraceUtility:ExtractStackTrace ()
 Verse.Log:Message (string)
 RRYautja.AvPDebug:LogOnce (string,string)
@@ -517,7 +517,7 @@ Verse.LongEventHandler:LongEventsUpdate (bool&)
 (wrapper dynamic-method) MonoMod.Utils.DynamicMethodDefinition:Verse.Root.Update_Patch1 (Verse.Root)
 Verse.Root_Entry:Update ()
 
-[AVP Xenomorphs] [AVP Xenomorphs] PawnRenderNode method: EnsureMeshesInitialized()
+[AVP Xenomorphs] [AVP Xenomorphs] PawnRenderTree method: SetupDynamicNodes()
 UnityEngine.StackTraceUtility:ExtractStackTrace ()
 Verse.Log:Message (string)
 RRYautja.AvPDebug:LogOnce (string,string)
@@ -529,7 +529,7 @@ Verse.LongEventHandler:LongEventsUpdate (bool&)
 (wrapper dynamic-method) MonoMod.Utils.DynamicMethodDefinition:Verse.Root.Update_Patch1 (Verse.Root)
 Verse.Root_Entry:Update ()
 
-[AVP Xenomorphs] [AVP Xenomorphs] PawnRenderNode method: MeshSetFor(Pawn pawn)
+[AVP Xenomorphs] [AVP Xenomorphs] PawnRenderTree method: ShouldAddNodeToTree(PawnRenderNodeProperties props)
 UnityEngine.StackTraceUtility:ExtractStackTrace ()
 Verse.Log:Message (string)
 RRYautja.AvPDebug:LogOnce (string,string)
@@ -541,7 +541,7 @@ Verse.LongEventHandler:LongEventsUpdate (bool&)
 (wrapper dynamic-method) MonoMod.Utils.DynamicMethodDefinition:Verse.Root.Update_Patch1 (Verse.Root)
 Verse.Root_Entry:Update ()
 
-[AVP Xenomorphs] [AVP Xenomorphs] PawnRenderNode method: GetMesh(PawnDrawParms parms)
+[AVP Xenomorphs] [AVP Xenomorphs] PawnRenderTree method: SetTagNode(PawnRenderNodeTagDef tag, PawnRenderNode node)
 UnityEngine.StackTraceUtility:ExtractStackTrace ()
 Verse.Log:Message (string)
 RRYautja.AvPDebug:LogOnce (string,string)
@@ -553,7 +553,7 @@ Verse.LongEventHandler:LongEventsUpdate (bool&)
 (wrapper dynamic-method) MonoMod.Utils.DynamicMethodDefinition:Verse.Root.Update_Patch1 (Verse.Root)
 Verse.Root_Entry:Update ()
 
-[AVP Xenomorphs] [AVP Xenomorphs] PawnRenderNode method: TryGetAnimationOffset(PawnDrawParms parms, Vector3& offset)
+[AVP Xenomorphs] [AVP Xenomorphs] PawnRenderTree method: TryGetAnimationPartForNode(PawnRenderNode node, AnimationPart& animationPart)
 UnityEngine.StackTraceUtility:ExtractStackTrace ()
 Verse.Log:Message (string)
 RRYautja.AvPDebug:LogOnce (string,string)
@@ -565,7 +565,7 @@ Verse.LongEventHandler:LongEventsUpdate (bool&)
 (wrapper dynamic-method) MonoMod.Utils.DynamicMethodDefinition:Verse.Root.Update_Patch1 (Verse.Root)
 Verse.Root_Entry:Update ()
 
-[AVP Xenomorphs] [AVP Xenomorphs] PawnRenderNode method: TryAnimationPostDraw(PawnDrawParms parms, Matrix4x4 matrix)
+[AVP Xenomorphs] [AVP Xenomorphs] Patched PawnRenderNode.TryGetAnimationOffset for mask offset
 UnityEngine.StackTraceUtility:ExtractStackTrace ()
 Verse.Log:Message (string)
 RRYautja.AvPDebug:LogOnce (string,string)
@@ -1298,7 +1298,7 @@ System.Threading.ExecutionContext:Run (System.Threading.ExecutionContext,System.
 System.Threading.ExecutionContext:Run (System.Threading.ExecutionContext,System.Threading.ContextCallback,object)
 System.Threading.ThreadHelper:ThreadStart ()
 
-<color=#66ffb5>[MeleeAnim]</color> PreCached all retexture info in 31.2ms
+<color=#66ffb5>[MeleeAnim]</color> PreCached all retexture info in 33.7ms
 UnityEngine.StackTraceUtility:ExtractStackTrace ()
 Verse.Log:Message (string)
 AM.Core:Log (string)
@@ -1353,7 +1353,7 @@ Verse.LongEventHandler:LongEventsUpdate (bool&)
 (wrapper dynamic-method) MonoMod.Utils.DynamicMethodDefinition:Verse.Root.Update_Patch1 (Verse.Root)
 Verse.Root_Entry:Update ()
 
-<color=#66ffb5>[MeleeAnim]</color> Patched 3 classes that directly inherit from Verb_MeleeAttack in 62.0 ms to detect hits:
+<color=#66ffb5>[MeleeAnim]</color> Patched 3 classes that directly inherit from Verb_MeleeAttack in 58.6 ms to detect hits:
 RimWorld.Verb_MeleeApplyHediff from Assembly-CSharp
 RimWorld.Verb_MeleeAttackDamage from Assembly-CSharp
 RRYautja.Verb_MeleeAttackKnockback from RRYautja
@@ -1368,7 +1368,7 @@ Verse.LongEventHandler:LongEventsUpdate (bool&)
 (wrapper dynamic-method) MonoMod.Utils.DynamicMethodDefinition:Verse.Root.Update_Patch1 (Verse.Root)
 Verse.Root_Entry:Update ()
 
-<color=#66ffb5>[MeleeAnim]</color> Found 0 items of clothing that cover hands, took 0.87 ms:
+<color=#66ffb5>[MeleeAnim]</color> Found 0 items of clothing that cover hands, took 0.69 ms:
 
 UnityEngine.StackTraceUtility:ExtractStackTrace ()
 Verse.Log:Message (string)
