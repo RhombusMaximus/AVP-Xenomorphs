@@ -8,20 +8,10 @@ Direct3D:
     Version:  Direct3D 11.0 [level 11.1]
     Renderer: NVIDIA GeForce RTX 3050 (ID=0x2507)
     Vendor:   NVIDIA
-    VRAM:     8042 MBMono path[0] = 'D:/SteamLibrary/steamapps/common/RimWorld/RimWorldWin64_Data/Managed'
-Mono config path = 'D:/SteamLibrary/steamapps/common/RimWorld/MonoBleedingEdge/etc'
-[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
-Initialize engine version: 2022.3.35f1 (011206c7a712)
-[Subsystems] Discovering subsystems at path D:/SteamLibrary/steamapps/common/RimWorld/RimWorldWin64_Data/UnitySubsystems
-GfxDevice: creating device client; threaded=1; jobified=0
-Direct3D:
-    Version:  Direct3D 11.0 [level 11.1]
-    Renderer: NVIDIA GeForce RTX 3050 (ID=0x2507)
-    Vendor:   NVIDIA
     VRAM:     8042 MB
     Driver:   32.0.16.1088
 Begin MonoManager ReloadAssembly
-- Loaded All Assemblies, in  0.156 seconds
+- Loaded All Assemblies, in  4.347 seconds
 - Finished resetting the current domain, in  0.001 seconds
 <RI> Initializing input.
 
@@ -30,21 +20,21 @@ Begin MonoManager ReloadAssembly
 <RI> Initialized touch support.
 
 [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
-UnloadTime: 0.607200 ms
+UnloadTime: 0.676400 ms
 Command line arguments: -disable-compute-shaders
 RimWorld 1.6.4871 rev591
 Mod Realistic Humansounds HAR Patch dependency (Mlie.RealisticHumanSounds) needs to have <downloadUrl> and/or <steamWorkshopUrl> specified.
-Fallback handler could not load library D:/SteamLibrary/steamapps/common/RimWorld/RimWorldWin64_Data/MonoBleedingEdge/data-00000223EC9F0EB0.dll
-Fallback handler could not load library D:/SteamLibrary/steamapps/common/RimWorld/RimWorldWin64_Data/MonoBleedingEdge/data-00000223ECC4B060.dll
+Fallback handler could not load library D:/SteamLibrary/steamapps/common/RimWorld/RimWorldWin64_Data/MonoBleedingEdge/data-000001527DB41040.dll
+Fallback handler could not load library D:/SteamLibrary/steamapps/common/RimWorld/RimWorldWin64_Data/MonoBleedingEdge/data-000001527DF5A8F0.dll
 [Loading Progress] Loading Progress initialized! Enjoy the rest of your loading experience!
 [HugsLib] version 12.0.0
 [HugsLib] early-initializing AllowTool
-Fallback handler could not load library D:/SteamLibrary/steamapps/common/RimWorld/RimWorldWin64_Data/MonoBleedingEdge/data-00000223BB31F050.dll
+Fallback handler could not load library D:/SteamLibrary/steamapps/common/RimWorld/RimWorldWin64_Data/MonoBleedingEdge/data-000001524C743010.dll
 DubsMintMenus v1.3.1086
 [Analyzer] Loaded version 1.6.0 rev 1
 [Analyzer] ResearchTree
 FPSStabilizer v1.1 loaded, patcher message: Patched successfully, fps set to 60
-Fallback handler could not load library D:/SteamLibrary/steamapps/common/RimWorld/RimWorldWin64_Data/MonoBleedingEdge/data-00000223F34F4010.dll
+Fallback handler could not load library D:/SteamLibrary/steamapps/common/RimWorld/RimWorldWin64_Data/MonoBleedingEdge/data-00000150E5C9E360.dll
 <color=#66ffb5>[MeleeAnim]</color> Hello, world!
 Build date: 4/13/2026 8:02 AM
 Loaded assemblies (9):
@@ -76,6 +66,14 @@ Could not execute post-long-event action. Exception: System.NullReferenceExcepti
 Translation data for language English has 4 errors. Generate translation report for more info.
 [AVP Xenomorphs] [AVP Xenomorphs] Patched Mineable.TrySpawnYield
 [AVP Xenomorphs] [AVP Xenomorphs] Facehugger mask graphic loaded: Things/Pawn/Xenomorph/Xenomorph_FaceHugger_Mask
+[AVP Xenomorphs] [AVP Xenomorphs] PawnRenderNode method: get_DebugOffset()
+[AVP Xenomorphs] [AVP Xenomorphs] PawnRenderNode method: get_DebugAngleOffset()
+[AVP Xenomorphs] [AVP Xenomorphs] PawnRenderNode method: get_CheckMaterialEveryDrawRequest()
+[AVP Xenomorphs] [AVP Xenomorphs] PawnRenderNode method: EnsureMeshesInitialized()
+[AVP Xenomorphs] [AVP Xenomorphs] PawnRenderNode method: MeshSetFor(Pawn pawn)
+[AVP Xenomorphs] [AVP Xenomorphs] PawnRenderNode method: GetMesh(PawnDrawParms parms)
+[AVP Xenomorphs] [AVP Xenomorphs] PawnRenderNode method: TryGetAnimationOffset(PawnDrawParms parms, Vector3& offset)
+[AVP Xenomorphs] [AVP Xenomorphs] PawnRenderNode method: TryAnimationPostDraw(PawnDrawParms parms, Matrix4x4 matrix)
 Xenomorph Host System Loaded
 158 Possible Hosts out of 335 Races detected: Race Setting init
 [CleaningAreaRelaunched] Loaded
@@ -107,7 +105,7 @@ NamesGalore: Current Lang English
 (Research Tab Colors) Transpiler injected.
 Unloading 5 Unused Serialized files (Serialized files now loaded: 5)
 Unloading 529 unused Assets to reduce memory usage. Loaded Objects now: 34107.
-Total: 265.631500 ms (FindLiveObjects: 1.772700 ms CreateObjectMapping: 1.749100 ms MarkObjects: 261.273100 ms  DeleteObjects: 0.836300 ms)
+Total: 280.604200 ms (FindLiveObjects: 1.717200 ms CreateObjectMapping: 0.996800 ms MarkObjects: 277.115700 ms  DeleteObjects: 0.774000 ms)
 
 MVCF successfully applied 41 patches
 [com.ogliss.rimworld.mod.rryatuja.minepatch] Patches on methods annotated as Obsolete were detected by HugsLib: RimWorld.Mineable.TrySpawnYield
@@ -292,25 +290,25 @@ Transpilers:
 Postfixes:
   [PeteTimesSix.SimpleSidearms] TryCastShot
 Unloading 2 Unused Serialized files (Serialized files now loaded: 7)
-<color=#66ffb5>[MeleeAnim]</color> PreCached all retexture info in 29.0ms
+<color=#66ffb5>[MeleeAnim]</color> PreCached all retexture info in 31.2ms
 <color=#66ffb5>[MeleeAnim]</color> Loaded tweak data for 29 weapons.
 <color=#66ffb5>[MeleeAnim]</color> ludeon.rimworld.odyssey 'Odyssey' has 2 missing weapon tweak data.
 <color=#66ffb5>[MeleeAnim]</color> ogliss.avpxenomorphs 'AVP Xenomorphs' has 3 missing weapon tweak data.
 <color=#66ffb5>[MeleeAnim]</color> Skipping reporting of missing mod/weapons because user opted out or the feature is disabled by the developer.
-<color=#66ffb5>[MeleeAnim]</color> Patched 3 classes that directly inherit from Verb_MeleeAttack in 59.7 ms to detect hits:
+<color=#66ffb5>[MeleeAnim]</color> Patched 3 classes that directly inherit from Verb_MeleeAttack in 62.0 ms to detect hits:
 RimWorld.Verb_MeleeApplyHediff from Assembly-CSharp
 RimWorld.Verb_MeleeAttackDamage from Assembly-CSharp
 RRYautja.Verb_MeleeAttackKnockback from RRYautja
-<color=#66ffb5>[MeleeAnim]</color> Found 0 items of clothing that cover hands, took 0.72 ms:
+<color=#66ffb5>[MeleeAnim]</color> Found 0 items of clothing that cover hands, took 0.87 ms:
 Unloading 55 unused Assets to reduce memory usage. Loaded Objects now: 34270.
-Total: 258.834500 ms (FindLiveObjects: 1.630600 ms CreateObjectMapping: 1.634200 ms MarkObjects: 255.447400 ms  DeleteObjects: 0.121600 ms)
+Total: 261.952100 ms (FindLiveObjects: 1.743700 ms CreateObjectMapping: 2.018900 ms MarkObjects: 258.061500 ms  DeleteObjects: 0.127600 ms)
 
 Unloading 0 Unused Serialized files (Serialized files now loaded: 7)
 Loading asset bundle MuzzleFlash.shaders-windows
 Loaded shader Unlit/AnimatedAdditiveInstanced
 [Muzzle Flash] Shader loaded from MuzzleFlash: Unlit/AnimatedAdditiveInstanced
 Unloading 0 unused Assets to reduce memory usage. Loaded Objects now: 34272.
-Total: 259.806100 ms (FindLiveObjects: 1.711600 ms CreateObjectMapping: 1.695000 ms MarkObjects: 256.346100 ms  DeleteObjects: 0.052900 ms)
+Total: 263.071100 ms (FindLiveObjects: 1.776600 ms CreateObjectMapping: 1.034500 ms MarkObjects: 260.206300 ms  DeleteObjects: 0.053300 ms)
 
 Unloading 0 Unused Serialized files (Serialized files now loaded: 8)
 [Loading Progress] Why is ResearchPal.Profiler.Start from ResearchPal 1.6 - Temp calling DeepProfiler.Start (and by extension our patch) with null?! Stop it.
@@ -321,11 +319,11 @@ Unloading 0 Unused Serialized files (Serialized files now loaded: 8)
 [Loading Progress] Why is ResearchPal.Profiler.Start from ResearchPal 1.6 - Temp calling DeepProfiler.Start (and by extension our patch) with null?! Stop it.
 ResearchPal :: Research layout initialized
 Unloading 0 unused Assets to reduce memory usage. Loaded Objects now: 34272.
-Total: 252.475800 ms (FindLiveObjects: 1.667300 ms CreateObjectMapping: 0.940900 ms MarkObjects: 249.817000 ms  DeleteObjects: 0.050400 ms)
+Total: 266.597700 ms (FindLiveObjects: 1.647400 ms CreateObjectMapping: 2.086600 ms MarkObjects: 262.807000 ms  DeleteObjects: 0.056500 ms)
 
 Unloading 0 Unused Serialized files (Serialized files now loaded: 8)
 Unloading 0 unused Assets to reduce memory usage. Loaded Objects now: 34272.
-Total: 261.139800 ms (FindLiveObjects: 2.235600 ms CreateObjectMapping: 1.692600 ms MarkObjects: 257.164200 ms  DeleteObjects: 0.047000 ms)
+Total: 273.316100 ms (FindLiveObjects: 2.127200 ms CreateObjectMapping: 2.255700 ms MarkObjects: 268.877900 ms  DeleteObjects: 0.055100 ms)
 
 [HugsLib] initializing TerraformRimworld
 CE is trying to create default parameter lists ...
@@ -341,16 +339,13 @@ no modifications for genes
 FoldingTent modification loaded
 no modifications for lifestages
 ...done
-Unloading 2 Unused Serialized files (Serialized files now loaded: 8)
-Unloading 0 unused Assets to reduce memory usage. Loaded Objects now: 36063.
-Total: 303.282400 ms (FindLiveObjects: 1.884900 ms CreateObjectMapping: 2.135200 ms MarkObjects: 299.202600 ms  DeleteObjects: 0.059300 ms)
-
 Unloading 3 Unused Serialized files (Serialized files now loaded: 8)
-UnloadTime: 0.854600 ms
-Unloading 4 unused Assets to reduce memory usage. Loaded Objects now: 36563.
-Total: 330.731400 ms (FindLiveObjects: 1.761200 ms CreateObjectMapping: 2.101300 ms MarkObjects: 326.786400 ms  DeleteObjects: 0.082000 ms)
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+UnloadTime: 0.875000 ms
+Unloading 2 unused Assets to reduce memory usage. Loaded Objects now: 34547.
+Total: 282.327800 ms (FindLiveObjects: 1.789100 ms CreateObjectMapping: 1.296500 ms MarkObjects: 279.174900 ms  DeleteObjects: 0.067100 ms)
 
-Initializing new game with mods:
+Loading game from file Autosave-1 with mods:
   - brrainz.harmony
   - ilyvion.LoadingProgress
   - Ludeon.RimWorld
@@ -432,810 +427,103 @@ Initializing new game with mods:
   - dhultgren.smarterconstruction
   - Garwel.StartingTechLevel
   - void.terraformrimworld
-[AVP Xenomorphs] Xenomorph faction is null - Queen spawned with no faction
-[AVP Xenomorphs] Xenomorph faction is null - Drone spawned with no faction
-[AVP Xenomorphs] Xenomorph faction is null - Drone spawned with no faction
-[AVP Xenomorphs] Xenomorph faction is null - Drone spawned with no faction
-[AVP Xenomorphs] Xenomorph faction is null - Drone spawned with no faction
-[AVP Xenomorphs] Xenomorph faction is null - Drone spawned with no faction
-[AVP Xenomorphs] Xenomorph faction is null - Drone spawned with no faction
-[AVP Xenomorphs] Xenomorph faction is null - Drone spawned with no faction
-[AVP Xenomorphs] Xenomorph faction is null - Drone spawned with no faction
-[AVP Xenomorphs] Xenomorph faction is null - Drone spawned with no faction
-[AVP Xenomorphs] Xenomorph faction is null - Drone spawned with no faction
-[AVP Xenomorphs] Xenomorph faction is null - Drone spawned with no faction
-[AVP Xenomorphs] Xenomorph faction is null - Drone spawned with no faction
-[AVP Xenomorphs] Xenomorph faction is null - Drone spawned with no faction
-[AVP Xenomorphs] Xenomorph faction is null - Drone spawned with no faction
+Could not do PostLoadInit on RimWorld.Pawn_TrainingTracker: System.NullReferenceException: Object reference not set to an instance of an object
+[Ref F8FF2929]
+  at RimWorld.Pawn_TrainingTracker.CanAssignToTrain (RimWorld.TrainableDef td, Verse.ThingDef pawnDef, System.Boolean& visible, Verse.Pawn pawn) [0x0018d] in <61e4173561894da49d210260257b5097>:0 
+  at RimWorld.Pawn_TrainingTracker.CanAssignToTrain (RimWorld.TrainableDef td, System.Boolean& visible) [0x00000] in <61e4173561894da49d210260257b5097>:0 
+  at RimWorld.Pawn_TrainingTracker.CanAssignToTrain (RimWorld.TrainableDef td) [0x00000] in <61e4173561894da49d210260257b5097>:0 
+  at Verse.BackCompatibility.PawnTrainingTrackerPostLoadInit (RimWorld.Pawn_TrainingTracker tracker, Verse.DefMap`2[RimWorld.TrainableDef,System.Boolean]& wantedTrainables, Verse.DefMap`2[RimWorld.TrainableDef,System.Int32]& steps, Verse.DefMap`2[RimWorld.TrainableDef,System.Boolean]& learned) [0x00082] in <61e4173561894da49d210260257b5097>:0 
+  at RimWorld.Pawn_TrainingTracker.ExposeData () [0x0006a] in <61e4173561894da49d210260257b5097>:0 
+  at Verse.PostLoadIniter.DoAllPostLoadInits () [0x00032] in <61e4173561894da49d210260257b5097>:0 
+Could not do PostLoadInit on RimWorld.Pawn_TrainingTracker: System.NullReferenceException: Object reference not set to an instance of an object
+[Ref F8FF2929] Duplicate stacktrace, see ref for original
+Could not do PostLoadInit on RimWorld.Pawn_TrainingTracker: System.NullReferenceException: Object reference not set to an instance of an object
+[Ref F8FF2929] Duplicate stacktrace, see ref for original
+Could not do PostLoadInit on RimWorld.Pawn_TrainingTracker: System.NullReferenceException: Object reference not set to an instance of an object
+[Ref F8FF2929] Duplicate stacktrace, see ref for original
+Could not do PostLoadInit on RimWorld.Pawn_TrainingTracker: System.NullReferenceException: Object reference not set to an instance of an object
+[Ref F8FF2929] Duplicate stacktrace, see ref for original
+Could not do PostLoadInit on RimWorld.Pawn_TrainingTracker: System.NullReferenceException: Object reference not set to an instance of an object
+[Ref F8FF2929] Duplicate stacktrace, see ref for original
+<color=#66ffb5>[MeleeAnim]</color> Loaded 0 animation renderers on map Map-0-PlayerHome
+Could not do PostLoadInit on RimWorld.Pawn_TrainingTracker: System.NullReferenceException: Object reference not set to an instance of an object
+[Ref F8FF2929] Duplicate stacktrace, see ref for original
+Could not do PostLoadInit on RimWorld.Pawn_TrainingTracker: System.NullReferenceException: Object reference not set to an instance of an object
+[Ref F8FF2929] Duplicate stacktrace, see ref for original
+Could not do PostLoadInit on RimWorld.Pawn_TrainingTracker: System.NullReferenceException: Object reference not set to an instance of an object
+[Ref F8FF2929] Duplicate stacktrace, see ref for original
+Could not do PostLoadInit on RimWorld.Pawn_TrainingTracker: System.NullReferenceException: Object reference not set to an instance of an object
+[Ref F8FF2929] Duplicate stacktrace, see ref for original
+Could not do PostLoadInit on RimWorld.Pawn_TrainingTracker: System.NullReferenceException: Object reference not set to an instance of an object
+[Ref F8FF2929] Duplicate stacktrace, see ref for original
 checking editor settings...
 bodysizes genes are active
-[AVP Xenomorphs] Created Xenomorph hive faction (was missing).
+[AVP Xenomorphs] Xenomorph hive faction already exists.
 Unloading 0 Unused Serialized files (Serialized files now loaded: 8)
-Unloading 1 unused Assets to reduce memory usage. Loaded Objects now: 45694.
-Total: 383.505100 ms (FindLiveObjects: 2.455300 ms CreateObjectMapping: 3.267100 ms MarkObjects: 377.668600 ms  DeleteObjects: 0.113800 ms)
+Unloading 1 unused Assets to reduce memory usage. Loaded Objects now: 43753.
+Total: 335.443100 ms (FindLiveObjects: 2.367200 ms CreateObjectMapping: 1.467200 ms MarkObjects: 331.509700 ms  DeleteObjects: 0.098800 ms)
 
-[AVP Xenomorphs] [Mine] Suppressing chunks for Drone mining Granite (tick 1043)
-[AVP Xenomorphs] [Mine] Suppressing chunks for Drone mining Granite (tick 1363)
-[AVP Xenomorphs] [Mine] Suppressing chunks for Drone mining MineableSteel (tick 1614)
-[AVP Xenomorphs] [Mine] Suppressing chunks for Drone mining Granite (tick 1898)
-[AVP Xenomorphs] [Mine] Suppressing chunks for Drone mining Granite (tick 2303)
-[AVP Xenomorphs] [Mine] Suppressing chunks for Drone mining Granite (tick 2703)
-[AVP Xenomorphs] [Mine] Suppressing chunks for Drone mining MineableSteel (tick 2969)
-[AVP Xenomorphs] [Mine] Suppressing chunks for Drone mining Granite (tick 3232)
-[AVP Xenomorphs] [Mine] Suppressing chunks for Drone mining Granite (tick 3533)
-[AVP Xenomorphs] [Mine] Suppressing chunks for Drone mining Granite (tick 4212)
-[AVP Xenomorphs] [Mine] Suppressing chunks for Drone mining MineableSteel (tick 4466)
-[AVP Xenomorphs] [Mine] Suppressing chunks for Drone mining Granite (tick 5192)
-[AVP Xenomorphs] [Mine] Suppressing chunks for Drone mining MineableSteel (tick 5614)
-[AVP Xenomorphs] [Mine] Suppressing chunks for Drone mining MineableSteel (tick 5996)
-[AVP Xenomorphs] [Mine] Suppressing chunks for Drone mining Granite (tick 6396)
-[AVP Xenomorphs] [Mine] Suppressing chunks for Drone mining MineableSteel (tick 6914)
-[AVP Xenomorphs] [Mine] Suppressing chunks for Drone mining Granite (tick 7227)
-[AVP Xenomorphs] [Mine] Suppressing chunks for Drone mining MineableSteel (tick 7545)
-[AVP Xenomorphs] [Mine] Suppressing chunks for Drone mining Granite (tick 7950)
-[AVP Xenomorphs] [Mine] Suppressing chunks for Drone mining MineableSteel (tick 8226)
-[AVP Xenomorphs] [Mine] Suppressing chunks for Drone mining MineableSteel (tick 8498)
-[AVP Xenomorphs] [Mine] Suppressing chunks for Drone mining Granite (tick 8805)
-[AVP Xenomorphs] [Mine] Suppressing chunks for Drone mining Granite (tick 9117)
-[AVP Xenomorphs] [Mine] Suppressing chunks for Drone mining Granite (tick 9610)
-[AVP Xenomorphs] [Mine] Suppressing chunks for Drone mining MineableSteel (tick 9864)
-[AVP Xenomorphs] [Mine] Suppressing chunks for Drone mining Granite (tick 10806)
-Bane threw exception in WorkGiver HaulUrgently: System.NullReferenceException: Object reference not set to an instance of an object
-[Ref 5DC17AA3]
-  at Verse.GridsUtility.Fogged (Verse.Thing t) [0x00006] in <61e4173561894da49d210260257b5097>:0 
-  at Verse.AI.HaulAIUtility.PawnCanAutomaticallyHaulFast_NewTemp (Verse.Pawn p, Verse.Thing t, System.Boolean forced, System.Boolean checkReachability) [0x00000] in <61e4173561894da49d210260257b5097>:0 
-  at Verse.AI.HaulAIUtility.PawnCanAutomaticallyHaulFast (Verse.Pawn p, Verse.Thing t, System.Boolean forced) [0x00000] in <61e4173561894da49d210260257b5097>:0 
-  at AllowTool.WorkGiver_HaulUrgently+<PotentialWorkThingsGlobal>d__3.MoveNext () [0x00052] in <8a098910d6a84b188090b9d6c096e9ee>:0 
-  at Verse.GenClosest.ClosestThing_Global (Verse.IntVec3 center, System.Collections.IEnumerable searchSet, System.Single maxDistance, System.Predicate`1[T] validator, System.Func`2[T,TResult] priorityGetter, System.Boolean lookInHaulSources) [0x0013c] in <61e4173561894da49d210260257b5097>:0 
-  at Verse.GenClosest.ClosestThingReachable (Verse.IntVec3 root, Verse.Map map, Verse.ThingRequest thingReq, Verse.AI.PathEndMode peMode, Verse.TraverseParms traverseParams, System.Single maxDistance, System.Predicate`1[T] validator, System.Collections.Generic.IEnumerable`1[T] customGlobalSearchSet, System.Int32 searchRegionsMin, System.Int32 searchRegionsMax, System.Boolean forceAllowGlobalSearch, Verse.RegionType traversableRegionTypes, System.Boolean ignoreEntirelyForbiddenRegions, System.Boolean lookInHaulSources) [0x00147] in <61e4173561894da49d210260257b5097>:0 
-  at RimWorld.JobGiver_Work.TryIssueJobPackage (Verse.Pawn pawn, Verse.AI.JobIssueParams jobParams) [0x00678] in <61e4173561894da49d210260257b5097>:0 
-    - TRANSPILER SmarterConstruction: List`1 SmarterConstruction.Patches.PatchMakeFinishFramesPrioritized:Transpiler(IEnumerable`1 instructions, ILGenerator generator)
-Erlene threw exception in WorkGiver HaulUrgently: System.NullReferenceException: Object reference not set to an instance of an object
-[Ref 5DC17AA3] Duplicate stacktrace, see ref for original
-Henry threw exception in WorkGiver HaulUrgently: System.NullReferenceException: Object reference not set to an instance of an object
-[Ref 5DC17AA3] Duplicate stacktrace, see ref for original
+Wrote screenshot C:\Users\clint\AppData\LocalLow\Ludeon Studios\RimWorld by Ludeon Studios\RimSaves\Previews\Autosave-1.dat of size 165509
+[AVP Xenomorphs] [AVP Xenomorphs] Removed facehugger mask apparel from Theo
+[AVP Xenomorphs] [Spawn] Chestburster spawned: Drone faction=a Xenomorph hive (tick 88319)
+Error while killing Theo during phase 6: System.NullReferenceException: Object reference not set to an instance of an object
+[Ref D15F7558]
+  at Verse.ThingMaker.MakeThing (Verse.ThingDef def, Verse.ThingDef stuff) [0x0005b] in <61e4173561894da49d210260257b5097>:0 
+  at RimWorld.MoteMaker.ThrowExplosionCell (Verse.IntVec3 cell, Verse.Map map, Verse.ThingDef moteDef, UnityEngine.Color color) [0x0000b] in <61e4173561894da49d210260257b5097>:0 
+  at RRYautja.HediffComp_XenoSpawner.Notify_PawnDied (System.Nullable`1[T] dinfo, Verse.Hediff culprit) [0x00308] in <06ef85165a0843d3992c73ee387d38bb>:0 
+  at Verse.HediffWithComps.Notify_PawnDied (System.Nullable`1[T] dinfo, Verse.Hediff culprit) [0x00024] in <61e4173561894da49d210260257b5097>:0 
+  at RRYautja.XenoHediffWithComps.Notify_PawnDied (System.Nullable`1[T] dinfo, Verse.Hediff culprit) [0x00000] in <06ef85165a0843d3992c73ee387d38bb>:0 
+  at Verse.HediffSet.Notify_PawnDied (System.Nullable`1[T] dinfo, Verse.Hediff culprit) [0x0001c] in <61e4173561894da49d210260257b5097>:0 
+  at Verse.Pawn.Kill (System.Nullable`1[T] dinfo, Verse.Hediff exactCulprit) [0x0064c] in <61e4173561894da49d210260257b5097>:0 
+    - PREFIX OskarPotocki.VEF: Void VEF.Storyteller.VanillaExpandedFramework_Pawn_Kill_Patch:Prefix(Pawn __instance, Nullable`1 dinfo, Hediff exactCulprit)
+    - PREFIX OskarPotocki.VEF: Boolean VEF.Apparels.VanillaExpandedFramework_Pawn_Kill_Patch:Prefix(Pawn __instance, List`1& __state)
+    - POSTFIX UnlimitedHugs.AllowTool: Void AllowTool.Patches.Pawn_Kill_Patch:UnforbidDraftedHuntBody(Pawn __instance, Nullable`1 dinfo)
+    - POSTFIX OskarPotocki.VEF: Void VEF.Pawns.VanillaExpandedFramework_Pawn_Kill:Postfix(Pawn __instance)
+    - POSTFIX OskarPotocki.VEF: Void VEF.Apparels.VanillaExpandedFramework_Pawn_Kill_Patch:Postfix(Pawn __instance, List`1 __state)
+    - POSTFIX VFEEmpire.Mod: Void VFEEmpire.HarmonyPatches.ColonistTitleCache+OnPawn:Postfix(Pawn __instance)
+    - POSTFIX vanillaexpanded.factions.deserters: Void VFED.HarmonyPatches.MiscPatches:ExplodePackOnDeath(Pawn __instance)
+[AVP Xenomorphs] [Spawn] Chestburster spawned: Drone faction=a Xenomorph hive (tick 93399)
+Error while killing Devorah during phase 6: System.NullReferenceException: Object reference not set to an instance of an object
+[Ref D15F7558] Duplicate stacktrace, see ref for original
+[AVP Xenomorphs] [Spawn] Chestburster spawned: Warrior faction=a Xenomorph hive (tick 98100)
+Error while killing Marceline during phase 6: System.NullReferenceException: Object reference not set to an instance of an object
+[Ref D15F7558] Duplicate stacktrace, see ref for original
+Wrote screenshot C:\Users\clint\AppData\LocalLow\Ludeon Studios\RimWorld by Ludeon Studios\RimSaves\Previews\Autosave-2.dat of size 175631
 Exception in BreadthFirstTraverse: System.InvalidCastException: Specified cast is not valid.
-[Ref AE7716D9]
-  at RimWorld.JobGiver_FacehuggerHunt+<>c__DisplayClass4_0.<FindPawnTarget>b__0 (Verse.Thing x) [0x00000] in <169797cf17ef4917bf980ab1b9800e92>:0 
-  at Verse.AI.XenomorphTargetFinder+<>c__DisplayClass0_0.<BestAttackTarget>b__1 (Verse.AI.IAttackTarget t) [0x000d4] in <169797cf17ef4917bf980ab1b9800e92>:0 
-  at Verse.AI.XenomorphTargetFinder+<>c__DisplayClass0_0.<BestAttackTarget>b__2 (Verse.Thing x) [0x00000] in <169797cf17ef4917bf980ab1b9800e92>:0 
+[Ref 855AC850]
+  at RimWorld.JobGiver_FacehuggerHunt+<>c__DisplayClass4_0.<FindPawnTarget>b__0 (Verse.Thing x) [0x00000] in <06ef85165a0843d3992c73ee387d38bb>:0 
+  at Verse.AI.XenomorphTargetFinder+<>c__DisplayClass0_0.<BestAttackTarget>b__1 (Verse.AI.IAttackTarget t) [0x000d4] in <06ef85165a0843d3992c73ee387d38bb>:0 
+  at Verse.AI.XenomorphTargetFinder+<>c__DisplayClass0_0.<BestAttackTarget>b__2 (Verse.Thing x) [0x00000] in <06ef85165a0843d3992c73ee387d38bb>:0 
   at Verse.RegionProcessorClosestThingReachable.ProcessThing (Verse.Region reg, Verse.Thing t) [0x00080] in <61e4173561894da49d210260257b5097>:0 
   at Verse.RegionProcessorClosestThingReachable.RegionProcessor (Verse.Region reg) [0x0006c] in <61e4173561894da49d210260257b5097>:0 
   at Verse.RegionTraverser+BFSWorker.BreadthFirstTraverseWork (Verse.Region root, Verse.RegionEntryPredicate entryCondition, Verse.RegionProcessor regionProcessor, System.Int32 maxRegions, Verse.RegionType traversableRegionTypes) [0x00054] in <61e4173561894da49d210260257b5097>:0 
   at Verse.RegionTraverser.BreadthFirstTraverse (Verse.Region root, Verse.RegionEntryPredicate entryCondition, Verse.RegionProcessor regionProcessor, System.Int32 maxRegions, Verse.RegionType traversableRegionTypes) [0x00044] in <61e4173561894da49d210260257b5097>:0 
-[AVP Xenomorphs] [AVP Xenomorphs] CompPostPostAdd called for Theo (humanlike=True)
-[AVP Xenomorphs] [AVP Xenomorphs] Added facehugger mask apparel to Theo
-Exception in RimWorld.ThinkNode_ConditionalFacehuggerFertile TryIssueJobPackage: System.NullReferenceException: Object reference not set to an instance of an object
-[Ref D34DC46A]
-  at Verse.GenClosest.EarlyOutSearch (Verse.IntVec3 start, Verse.Map map, Verse.ThingRequest thingReq, System.Collections.Generic.IEnumerable`1[T] customGlobalSearchSet, System.Predicate`1[T] validator) [0x00015] in <61e4173561894da49d210260257b5097>:0 
-  at Verse.GenClosest.ClosestThingReachable (Verse.IntVec3 root, Verse.Map map, Verse.ThingRequest thingReq, Verse.AI.PathEndMode peMode, Verse.TraverseParms traverseParams, System.Single maxDistance, System.Predicate`1[T] validator, System.Collections.Generic.IEnumerable`1[T] customGlobalSearchSet, System.Int32 searchRegionsMin, System.Int32 searchRegionsMax, System.Boolean forceAllowGlobalSearch, Verse.RegionType traversableRegionTypes, System.Boolean ignoreEntirelyForbiddenRegions, System.Boolean lookInHaulSources) [0x0008c] in <61e4173561894da49d210260257b5097>:0 
-  at Verse.AI.XenomorphTargetFinder.BestAttackTarget (Verse.AI.IAttackTargetSearcher searcher, Verse.AI.TargetScanFlags flags, System.Predicate`1[T] validator, System.Single minDist, System.Single maxDist, Verse.IntVec3 locus, System.Single maxTravelRadiusFromLocus, System.Boolean canBash, System.Boolean canTakeTargetsCloserThanEffectiveMinRange) [0x0036e] in <169797cf17ef4917bf980ab1b9800e92>:0 
-  at RimWorld.JobGiver_FacehuggerHunt.FindPawnTarget (Verse.Pawn pawn) [0x00038] in <169797cf17ef4917bf980ab1b9800e92>:0 
-  at RimWorld.JobGiver_FacehuggerHunt.TryGiveJob (Verse.Pawn pawn) [0x0001f] in <169797cf17ef4917bf980ab1b9800e92>:0 
-  at Verse.AI.ThinkNode_JobGiver.TryIssueJobPackage (Verse.Pawn pawn, Verse.AI.JobIssueParams jobParams) [0x00000] in <61e4173561894da49d210260257b5097>:0 
-  at Verse.AI.ThinkNode_Priority.TryIssueJobPackage (Verse.Pawn pawn, Verse.AI.JobIssueParams jobParams) [0x00022] in <61e4173561894da49d210260257b5097>:0 
-Exception in Verse.AI.ThinkNode_Tagger TryIssueJobPackage: System.NullReferenceException: Object reference not set to an instance of an object
-[Ref B3A85BBC]
-  at Verse.RegionAndRoomQuery.RegionAt (Verse.IntVec3 c, Verse.Map map, Verse.RegionType allowedRegionTypes) [0x00000] in <61e4173561894da49d210260257b5097>:0 
-  at Verse.GridsUtility.GetRegion (Verse.IntVec3 loc, Verse.Map map, Verse.RegionType allowedRegionTypes) [0x00000] in <61e4173561894da49d210260257b5097>:0 
-  at RimWorld.RCellFinder.RandomWanderDestFor (Verse.Pawn pawn, Verse.IntVec3 root, System.Single radius, System.Func`4[T1,T2,T3,TResult] validator, Verse.Danger maxDanger, System.Boolean canBashDoors) [0x00085] in <61e4173561894da49d210260257b5097>:0 
-  at Verse.AI.JobGiver_Wander.GetExactWanderDest (Verse.Pawn pawn) [0x0005b] in <61e4173561894da49d210260257b5097>:0 
-  at Verse.AI.JobGiver_Wander.TryGiveJob (Verse.Pawn pawn) [0x00061] in <61e4173561894da49d210260257b5097>:0 
-  at Verse.AI.ThinkNode_JobGiver.TryIssueJobPackage (Verse.Pawn pawn, Verse.AI.JobIssueParams jobParams) [0x00000] in <61e4173561894da49d210260257b5097>:0 
-  at Verse.AI.ThinkNode_Priority.TryIssueJobPackage (Verse.Pawn pawn, Verse.AI.JobIssueParams jobParams) [0x00022] in <61e4173561894da49d210260257b5097>:0 
-JobDriver threw exception in toil MakeNewToils's initAction for pawn RRY_Xenomorph_FaceHugger68688 driver=JobDriver_Wait (toilIndex=0) driver.job=(Wait_Wander (Job_28937) Giver = JobGiver_WanderAnywhere [workGiverDef: null])
-System.NullReferenceException: Object reference not set to an instance of an object
-[Ref 2BEE724E]
-  at Verse.AI.JobDriver_Wait.CheckForAutoAttack () [0x0012f] in <61e4173561894da49d210260257b5097>:0 
-    - TRANSPILER OskarPotocki.VEF: IEnumerable`1 VEF.Weapons.VanillaExpandedFramework_JobDriver_Wait_CheckForAutoAttack_Patch:Transpiler(IEnumerable`1 instructions, ILGenerator generator)
-    - TRANSPILER legodude17.mvcf: IEnumerable`1 MVCF.PatchSets.PatchSet_TargetFinder:BestTargetTranspiler(IEnumerable`1 instructions)
-    - POSTFIX UnlimitedHugs.AllowTool: Void AllowTool.Patches.JobDriverWait_CheckForAutoAttack_Patch:DoPartyHunting(JobDriver_Wait __instance)
-  at Verse.AI.JobDriver_Wait.<MakeNewToils>b__3_0 () [0x0003d] in <61e4173561894da49d210260257b5097>:0 
-  at Verse.AI.JobDriver.TryActuallyStartNextToil () [0x001b0] in <61e4173561894da49d210260257b5097>:0 
-JobDriver threw exception in toil MakeNewToils's initAction for pawn RRY_Xenomorph_FaceHugger68688 driver=JobDriver_Wait (toilIndex=0) driver.job=(Wait (Job_28938))
-System.NullReferenceException: Object reference not set to an instance of an object
-[Ref 2BEE724E] Duplicate stacktrace, see ref for original
-An error occurred while starting an error recover job. We have to stop now to avoid infinite loops. This means that the pawn is now jobless which can cause further bugs. pawn=RRY_Xenomorph_FaceHugger68688
-Exception in RimWorld.ThinkNode_ConditionalFacehuggerFertile TryIssueJobPackage: System.NullReferenceException: Object reference not set to an instance of an object
-[Ref D34DC46A] Duplicate stacktrace, see ref for original
-Exception in Verse.AI.ThinkNode_Tagger TryIssueJobPackage: System.NullReferenceException: Object reference not set to an instance of an object
-[Ref B3A85BBC] Duplicate stacktrace, see ref for original
-JobDriver threw exception in toil MakeNewToils's initAction for pawn RRY_Xenomorph_FaceHugger68817 driver=JobDriver_Wait (toilIndex=0) driver.job=(Wait_Wander (Job_29080) Giver = JobGiver_WanderAnywhere [workGiverDef: null])
-System.NullReferenceException: Object reference not set to an instance of an object
-[Ref 2BEE724E] Duplicate stacktrace, see ref for original
-JobDriver threw exception in toil MakeNewToils's initAction for pawn RRY_Xenomorph_FaceHugger68817 driver=JobDriver_Wait (toilIndex=0) driver.job=(Wait (Job_29081))
-System.NullReferenceException: Object reference not set to an instance of an object
-[Ref 2BEE724E] Duplicate stacktrace, see ref for original
-An error occurred while starting an error recover job. We have to stop now to avoid infinite loops. This means that the pawn is now jobless which can cause further bugs. pawn=RRY_Xenomorph_FaceHugger68817
-Exception in RimWorld.ThinkNode_ConditionalFacehuggerFertile TryIssueJobPackage: System.NullReferenceException: Object reference not set to an instance of an object
-[Ref D34DC46A] Duplicate stacktrace, see ref for original
-Exception in Verse.AI.ThinkNode_Tagger TryIssueJobPackage: System.NullReferenceException: Object reference not set to an instance of an object
-[Ref B3A85BBC] Duplicate stacktrace, see ref for original
-JobDriver threw exception in toil MakeNewToils's initAction for pawn RRY_Xenomorph_FaceHugger68834 driver=JobDriver_Wait (toilIndex=0) driver.job=(Wait_Wander (Job_29350) Giver = JobGiver_WanderAnywhere [workGiverDef: null])
-System.NullReferenceException: Object reference not set to an instance of an object
-[Ref 2BEE724E] Duplicate stacktrace, see ref for original
-JobDriver threw exception in toil MakeNewToils's initAction for pawn RRY_Xenomorph_FaceHugger68834 driver=JobDriver_Wait (toilIndex=0) driver.job=(Wait (Job_29351))
-System.NullReferenceException: Object reference not set to an instance of an object
-[Ref 2BEE724E] Duplicate stacktrace, see ref for original
-An error occurred while starting an error recover job. We have to stop now to avoid infinite loops. This means that the pawn is now jobless which can cause further bugs. pawn=RRY_Xenomorph_FaceHugger68834
-Wrote screenshot C:\Users\clint\AppData\LocalLow\Ludeon Studios\RimWorld by Ludeon Studios\RimSaves\Previews\Autosave-1.dat of size 164622
-[AVP Xenomorphs] [AVP Xenomorphs] Removed facehugger mask apparel from Theo
-[AVP Xenomorphs] [Spawn] Chestburster spawned: Warrior faction=a Xenomorph hive (tick 91319)
-Error while killing Theo during phase 6: System.NullReferenceException: Object reference not set to an instance of an object
-[Ref 2BB146E]
-  at Verse.ThingMaker.MakeThing (Verse.ThingDef def, Verse.ThingDef stuff) [0x0005b] in <61e4173561894da49d210260257b5097>:0 
-  at RimWorld.MoteMaker.ThrowExplosionCell (Verse.IntVec3 cell, Verse.Map map, Verse.ThingDef moteDef, UnityEngine.Color color) [0x0000b] in <61e4173561894da49d210260257b5097>:0 
-  at RRYautja.HediffComp_XenoSpawner.Notify_PawnDied (System.Nullable`1[T] dinfo, Verse.Hediff culprit) [0x00308] in <169797cf17ef4917bf980ab1b9800e92>:0 
-  at Verse.HediffWithComps.Notify_PawnDied (System.Nullable`1[T] dinfo, Verse.Hediff culprit) [0x00024] in <61e4173561894da49d210260257b5097>:0 
-  at RRYautja.XenoHediffWithComps.Notify_PawnDied (System.Nullable`1[T] dinfo, Verse.Hediff culprit) [0x00000] in <169797cf17ef4917bf980ab1b9800e92>:0 
-  at Verse.HediffSet.Notify_PawnDied (System.Nullable`1[T] dinfo, Verse.Hediff culprit) [0x0001c] in <61e4173561894da49d210260257b5097>:0 
-  at Verse.Pawn.Kill (System.Nullable`1[T] dinfo, Verse.Hediff exactCulprit) [0x0064c] in <61e4173561894da49d210260257b5097>:0 
-    - PREFIX OskarPotocki.VEF: Void VEF.Storyteller.VanillaExpandedFramework_Pawn_Kill_Patch:Prefix(Pawn __instance, Nullable`1 dinfo, Hediff exactCulprit)
-    - PREFIX OskarPotocki.VEF: Boolean VEF.Apparels.VanillaExpandedFramework_Pawn_Kill_Patch:Prefix(Pawn __instance, List`1& __state)
-    - POSTFIX UnlimitedHugs.AllowTool: Void AllowTool.Patches.Pawn_Kill_Patch:UnforbidDraftedHuntBody(Pawn __instance, Nullable`1 dinfo)
-    - POSTFIX OskarPotocki.VEF: Void VEF.Pawns.VanillaExpandedFramework_Pawn_Kill:Postfix(Pawn __instance)
-    - POSTFIX OskarPotocki.VEF: Void VEF.Apparels.VanillaExpandedFramework_Pawn_Kill_Patch:Postfix(Pawn __instance, List`1 __state)
-    - POSTFIX VFEEmpire.Mod: Void VFEEmpire.HarmonyPatches.ColonistTitleCache+OnPawn:Postfix(Pawn __instance)
-    - POSTFIX vanillaexpanded.factions.deserters: Void VFED.HarmonyPatches.MiscPatches:ExplodePackOnDeath(Pawn __instance)
-[AVP Xenomorphs] [Spawn] Chestburster spawned: Drone faction=a Xenomorph hive (tick 91799)
-Error while killing Devorah during phase 6: System.NullReferenceException: Object reference not set to an instance of an object
-[Ref 2BB146E] Duplicate stacktrace, see ref for original
-[AVP Xenomorphs] [Spawn] Chestburster spawned: Drone faction=a Xenomorph hive (tick 93900)
-Error while killing Marceline during phase 6: System.NullReferenceException: Object reference not set to an instance of an object
-[Ref 2BB146E] Duplicate stacktrace, see ref for original
+Exception in BreadthFirstTraverse: System.InvalidCastException: Specified cast is not valid.
+[Ref 855AC850] Duplicate stacktrace, see ref for original
+Exception in BreadthFirstTraverse: System.InvalidCastException: Specified cast is not valid.
+[Ref 855AC850] Duplicate stacktrace, see ref for original
+Exception in BreadthFirstTraverse: System.InvalidCastException: Specified cast is not valid.
+[Ref 855AC850] Duplicate stacktrace, see ref for original
+Exception in BreadthFirstTraverse: System.InvalidCastException: Specified cast is not valid.
+[Ref 855AC850] Duplicate stacktrace, see ref for original
+Exception in BreadthFirstTraverse: System.InvalidCastException: Specified cast is not valid.
+[Ref 855AC850] Duplicate stacktrace, see ref for original
 Error in LordToil.UpdateAllDuties(): System.NullReferenceException: Object reference not set to an instance of an object
-[Ref 8A2D91E9]
-  at RimWorld.LordToil_DefendHiveLikeAggressively.UpdateAllDuties () [0x00092] in <169797cf17ef4917bf980ab1b9800e92>:0 
+[Ref F739E8A4]
+  at RimWorld.LordToil_DefendHiveLikeAggressively.UpdateAllDuties () [0x00092] in <06ef85165a0843d3992c73ee387d38bb>:0 
   at Verse.AI.Group.Lord.GotoToil (Verse.AI.Group.LordToil newLordToil) [0x0017f] in <61e4173561894da49d210260257b5097>:0 
     - POSTFIX VFEEmpire.Mod: Void VFEEmpire.HarmonyPatches.Patch_Lords:GotoToil_Postfix(Lord __instance, LordToil newLordToil)
-Tried to destroy already-destroyed thing RRY_FacehuggerMask69039
-Tried to destroy already-destroyed thing RRY_FacehuggerMask69039
-Tried to destroy already-destroyed thing RRY_FacehuggerMask69039
-Tried to destroy already-destroyed thing RRY_FacehuggerMask69039
-Tried to destroy already-destroyed thing RRY_FacehuggerMask69039
-Tried to destroy already-destroyed thing RRY_FacehuggerMask69039
-Tried to destroy already-destroyed thing RRY_FacehuggerMask69039
-Tried to destroy already-destroyed thing RRY_FacehuggerMask69039
-Tried to destroy already-destroyed thing RRY_FacehuggerMask69039
-Tried to destroy already-destroyed thing RRY_FacehuggerMask69039
-Tried to destroy already-destroyed thing RRY_FacehuggerMask69039
-Tried to destroy already-destroyed thing RRY_FacehuggerMask69039
-Tried to destroy already-destroyed thing RRY_FacehuggerMask69039
-Tried to destroy already-destroyed thing RRY_FacehuggerMask69039
-Tried to destroy already-destroyed thing RRY_FacehuggerMask69039
-Tried to destroy already-destroyed thing RRY_FacehuggerMask69039
-Tried to destroy already-destroyed thing RRY_FacehuggerMask69039
-Tried to destroy already-destroyed thing RRY_FacehuggerMask69039
-Tried to destroy already-destroyed thing RRY_FacehuggerMask69039
-Tried to destroy already-destroyed thing RRY_FacehuggerMask69039
-Tried to destroy already-destroyed thing RRY_FacehuggerMask69039
-Tried to destroy already-destroyed thing RRY_FacehuggerMask69039
-Tried to destroy already-destroyed thing RRY_FacehuggerMask69039
-Tried to destroy already-destroyed thing RRY_FacehuggerMask69039
-Tried to destroy already-destroyed thing RRY_FacehuggerMask69039
-Tried to destroy already-destroyed thing RRY_FacehuggerMask69039
-Tried to destroy already-destroyed thing RRY_FacehuggerMask69039
-Tried to destroy already-destroyed thing RRY_FacehuggerMask69039
-Tried to destroy already-destroyed thing RRY_FacehuggerMask69039
-Tried to destroy already-destroyed thing RRY_FacehuggerMask69039
-Tried to destroy already-destroyed thing RRY_FacehuggerMask69039
-Tried to destroy already-destroyed thing RRY_FacehuggerMask69039
-Tried to destroy already-destroyed thing RRY_FacehuggerMask69039
-Tried to destroy already-destroyed thing RRY_FacehuggerMask69039
-Tried to destroy already-destroyed thing RRY_FacehuggerMask69039
-Tried to destroy already-destroyed thing RRY_FacehuggerMask69039
-Tried to destroy already-destroyed thing RRY_FacehuggerMask69039
-Tried to destroy already-destroyed thing RRY_FacehuggerMask69039
-Tried to destroy already-destroyed thing RRY_FacehuggerMask69039
-Tried to destroy already-destroyed thing RRY_FacehuggerMask69039
-Tried to destroy already-destroyed thing RRY_FacehuggerMask69039
-Tried to destroy already-destroyed thing RRY_FacehuggerMask69039
-Tried to destroy already-destroyed thing RRY_FacehuggerMask69039
-Tried to destroy already-destroyed thing RRY_FacehuggerMask69039
-Tried to destroy already-destroyed thing RRY_FacehuggerMask69039
-Tried to destroy already-destroyed thing RRY_FacehuggerMask69039
-Tried to destroy already-destroyed thing RRY_FacehuggerMask69039
-Tried to destroy already-destroyed thing RRY_FacehuggerMask69039
-Tried to destroy already-destroyed thing RRY_FacehuggerMask69039
-Tried to destroy already-destroyed thing RRY_FacehuggerMask69039
-Tried to destroy already-destroyed thing RRY_FacehuggerMask69039
-Tried to destroy already-destroyed thing RRY_FacehuggerMask69039
-Tried to destroy already-destroyed thing RRY_FacehuggerMask69039
-Tried to destroy already-destroyed thing RRY_FacehuggerMask69039
-Tried to destroy already-destroyed thing RRY_FacehuggerMask69039
-Tried to destroy already-destroyed thing RRY_FacehuggerMask69039
-Tried to destroy already-destroyed thing RRY_FacehuggerMask69039
-Tried to destroy already-destroyed thing RRY_FacehuggerMask69039
-Tried to destroy already-destroyed thing RRY_FacehuggerMask69039
-Tried to destroy already-destroyed thing RRY_FacehuggerMask69039
-Tried to destroy already-destroyed thing RRY_FacehuggerMask69039
-Tried to destroy already-destroyed thing RRY_FacehuggerMask69039
-Tried to destroy already-destroyed thing RRY_FacehuggerMask69039
-Tried to destroy already-destroyed thing RRY_FacehuggerMask69039
-Tried to destroy already-destroyed thing RRY_FacehuggerMask69039
-Tried to destroy already-destroyed thing RRY_FacehuggerMask69039
-Tried to destroy already-destroyed thing RRY_FacehuggerMask69039
-Tried to destroy already-destroyed thing RRY_FacehuggerMask69039
-Tried to destroy already-destroyed thing RRY_FacehuggerMask69039
-Tried to destroy already-destroyed thing RRY_FacehuggerMask69039
-Tried to destroy already-destroyed thing RRY_FacehuggerMask69039
-Tried to destroy already-destroyed thing RRY_FacehuggerMask69039
-Tried to destroy already-destroyed thing RRY_FacehuggerMask69039
-Tried to destroy already-destroyed thing RRY_FacehuggerMask69039
-Tried to destroy already-destroyed thing RRY_FacehuggerMask69039
-Tried to destroy already-destroyed thing RRY_FacehuggerMask69039
-Tried to destroy already-destroyed thing RRY_FacehuggerMask69039
-Tried to destroy already-destroyed thing RRY_FacehuggerMask69039
-Tried to destroy already-destroyed thing RRY_FacehuggerMask69039
-Tried to destroy already-destroyed thing RRY_FacehuggerMask69039
-Tried to destroy already-destroyed thing RRY_FacehuggerMask69039
-Tried to destroy already-destroyed thing RRY_FacehuggerMask69039
-Tried to destroy already-destroyed thing RRY_FacehuggerMask69039
-Tried to destroy already-destroyed thing RRY_FacehuggerMask69039
-Tried to destroy already-destroyed thing RRY_FacehuggerMask69039
-Tried to destroy already-destroyed thing RRY_FacehuggerMask69039
-Tried to destroy already-destroyed thing RRY_FacehuggerMask69039
-Tried to destroy already-destroyed thing RRY_FacehuggerMask69039
-Tried to destroy already-destroyed thing RRY_FacehuggerMask69039
-Tried to destroy already-destroyed thing RRY_FacehuggerMask69039
-Tried to destroy already-destroyed thing RRY_FacehuggerMask69039
-Tried to destroy already-destroyed thing RRY_FacehuggerMask69039
-Tried to destroy already-destroyed thing RRY_FacehuggerMask69039
-Tried to destroy already-destroyed thing RRY_FacehuggerMask69039
-Tried to destroy already-destroyed thing RRY_FacehuggerMask69039
-Tried to destroy already-destroyed thing RRY_FacehuggerMask69039
-Tried to destroy already-destroyed thing RRY_FacehuggerMask69039
-Tried to destroy already-destroyed thing RRY_FacehuggerMask69039
-Tried to destroy already-destroyed thing RRY_FacehuggerMask69039
-
-    Driver:   32.0.16.1088
-Begin MonoManager ReloadAssembly
-- Loaded All Assemblies, in  0.154 seconds
-- Finished resetting the current domain, in  0.001 seconds
-<RI> Initializing input.
-
-<RI> Input initialized.
-
-<RI> Initialized touch support.
-
-[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
-UnloadTime: 0.631800 ms
-Command line arguments: -disable-compute-shaders
-RimWorld 1.6.4871 rev591
-Mod Realistic Humansounds HAR Patch dependency (Mlie.RealisticHumanSounds) needs to have <downloadUrl> and/or <steamWorkshopUrl> specified.
-Fallback handler could not load library D:/SteamLibrary/steamapps/common/RimWorld/RimWorldWin64_Data/MonoBleedingEdge/data-00000207C193CEA0.dll
-Fallback handler could not load library D:/SteamLibrary/steamapps/common/RimWorld/RimWorldWin64_Data/MonoBleedingEdge/data-00000207F57B7120.dll
-[Loading Progress] Loading Progress initialized! Enjoy the rest of your loading experience!
-[HugsLib] version 12.0.0
-[HugsLib] early-initializing AllowTool
-Fallback handler could not load library D:/SteamLibrary/steamapps/common/RimWorld/RimWorldWin64_Data/MonoBleedingEdge/data-00000207E9D5F010.dll
-DubsMintMenus v1.3.1086
-[Analyzer] Loaded version 1.6.0 rev 1
-[Analyzer] ResearchTree
-FPSStabilizer v1.1 loaded, patcher message: Patched successfully, fps set to 60
-Fallback handler could not load library D:/SteamLibrary/steamapps/common/RimWorld/RimWorldWin64_Data/MonoBleedingEdge/data-00000207FC0DE020.dll
-<color=#66ffb5>[MeleeAnim]</color> Hello, world!
-Build date: 4/13/2026 8:02 AM
-Loaded assemblies (9):
-0BetterFloatMenu, Version=16.0.0.0, Culture=neutral, PublicKeyToken=null,
-0ColourPicker, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null,
-AMRetextureSupport, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null,
-Meta.Numerics, Version=3.1.0.0, Culture=neutral, PublicKeyToken=67d25c65a6631347,
-ModRequestAPI, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null,
-ModRequestAPI.Models, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null,
-Unity.Newtonsoft.Json, Version=7.0.0.0, Culture=neutral, PublicKeyToken=null,
-zAnimationMod, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null,
-AM.AlienRacesPatch, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null
-<color=#66ffb5>[MeleeAnim]</color> Scanning 81 mods for animation data...
-<color=#66ffb5>[MeleeAnim]</color> Found 1 mod folders with animation data, total 69 loadable files.
-<color=#66ffb5>[MeleeAnim]</color> <color=#ffa8fc>[Alien Races Patch]</color> Loaded alien races patch!
-RimSaves NX rev27
-[SafePatcher]The xPath: "Defs/ThingDef[defName="Gun_NestMMG"]" not found
-[SafePatcher]The xPath: "Defs/ThingDef[defName="Gun_NestMissile"]" not found
-XML error: <drawOffsetSouth>(0, -0.1, 0)</drawOffsetSouth> doesn't correspond to any field in type PawnRenderNodeProperties. Context: <li><drawOffsetSouth>(0, -0.1, 0)</drawOffsetSouth><drawOffsetNorth>(0, -0.1, 0)</drawOffsetNorth><drawOffsetEast>(0, -0.1, 0)</drawOffsetEast><drawOffsetWest>(0, -0.1, 0)</drawOffsetWest></li>
-XML error: <drawOffsetNorth>(0, -0.1, 0)</drawOffsetNorth> doesn't correspond to any field in type PawnRenderNodeProperties. Context: <li><drawOffsetSouth>(0, -0.1, 0)</drawOffsetSouth><drawOffsetNorth>(0, -0.1, 0)</drawOffsetNorth><drawOffsetEast>(0, -0.1, 0)</drawOffsetEast><drawOffsetWest>(0, -0.1, 0)</drawOffsetWest></li>
-XML error: <drawOffsetEast>(0, -0.1, 0)</drawOffsetEast> doesn't correspond to any field in type PawnRenderNodeProperties. Context: <li><drawOffsetSouth>(0, -0.1, 0)</drawOffsetSouth><drawOffsetNorth>(0, -0.1, 0)</drawOffsetNorth><drawOffsetEast>(0, -0.1, 0)</drawOffsetEast><drawOffsetWest>(0, -0.1, 0)</drawOffsetWest></li>
-XML error: <drawOffsetWest>(0, -0.1, 0)</drawOffsetWest> doesn't correspond to any field in type PawnRenderNodeProperties. Context: <li><drawOffsetSouth>(0, -0.1, 0)</drawOffsetSouth><drawOffsetNorth>(0, -0.1, 0)</drawOffsetNorth><drawOffsetEast>(0, -0.1, 0)</drawOffsetEast><drawOffsetWest>(0, -0.1, 0)</drawOffsetWest></li>
-[Def Error]: RRY_FacehuggerMask
-AVP Xenomorphs\Defs\ThingDefs_Apparel\FacehuggerMask.xml
-XML error: <drawOffsetSouth>(0, -0.1, 0)</drawOffsetSouth> doesn't correspond to any field in type PawnRenderNodeProperties. Context: <li><drawOffsetSouth>(0, -0.1, 0)</drawOffsetSouth><drawOffsetNorth>(0, -0.1, 0)</drawOffsetNorth><drawOffsetEast>(0, -0.1, 0)</drawOffsetEast><drawOffsetWest>(0, -0.1, 0)</drawOffsetWest></li>
-XML error: <drawOffsetNorth>(0, -0.1, 0)</drawOffsetNorth> doesn't correspond to any field in type PawnRenderNodeProperties. Context: <li><drawOffsetSouth>(0, -0.1, 0)</drawOffsetSouth><drawOffsetNorth>(0, -0.1, 0)</drawOffsetNorth><drawOffsetEast>(0, -0.1, 0)</drawOffsetEast><drawOffsetWest>(0, -0.1, 0)</drawOffsetWest></li>
-XML error: <drawOffsetEast>(0, -0.1, 0)</drawOffsetEast> doesn't correspond to any field in type PawnRenderNodeProperties. Context: <li><drawOffsetSouth>(0, -0.1, 0)</drawOffsetSouth><drawOffsetNorth>(0, -0.1, 0)</drawOffsetNorth><drawOffsetEast>(0, -0.1, 0)</drawOffsetEast><drawOffsetWest>(0, -0.1, 0)</drawOffsetWest></li>
-XML error: <drawOffsetWest>(0, -0.1, 0)</drawOffsetWest> doesn't correspond to any field in type PawnRenderNodeProperties. Context: <li><drawOffsetSouth>(0, -0.1, 0)</drawOffsetSouth><drawOffsetNorth>(0, -0.1, 0)</drawOffsetNorth><drawOffsetEast>(0, -0.1, 0)</drawOffsetEast><drawOffsetWest>(0, -0.1, 0)</drawOffsetWest></li>
-XML error: <drawOffsetSouth>(0, -0.1, 0)</drawOffsetSouth> doesn't correspond to any field in type PawnRenderNodeProperties. Context: <li><drawOffsetSouth>(0, -0.1, 0)</drawOffsetSouth><drawOffsetNorth>(0, -0.1, 0)</drawOffsetNorth><drawOffsetEast>(0, -0.1, 0)</drawOffsetEast><drawOffsetWest>(0, -0.1, 0)</drawOffsetWest></li>
-XML error: <drawOffsetNorth>(0, -0.1, 0)</drawOffsetNorth> doesn't correspond to any field in type PawnRenderNodeProperties. Context: <li><drawOffsetSouth>(0, -0.1, 0)</drawOffsetSouth><drawOffsetNorth>(0, -0.1, 0)</drawOffsetNorth><drawOffsetEast>(0, -0.1, 0)</drawOffsetEast><drawOffsetWest>(0, -0.1, 0)</drawOffsetWest></li>
-XML error: <drawOffsetEast>(0, -0.1, 0)</drawOffsetEast> doesn't correspond to any field in type PawnRenderNodeProperties. Context: <li><drawOffsetSouth>(0, -0.1, 0)</drawOffsetSouth><drawOffsetNorth>(0, -0.1, 0)</drawOffsetNorth><drawOffsetEast>(0, -0.1, 0)</drawOffsetEast><drawOffsetWest>(0, -0.1, 0)</drawOffsetWest></li>
-XML error: <drawOffsetWest>(0, -0.1, 0)</drawOffsetWest> doesn't correspond to any field in type PawnRenderNodeProperties. Context: <li><drawOffsetSouth>(0, -0.1, 0)</drawOffsetSouth><drawOffsetNorth>(0, -0.1, 0)</drawOffsetNorth><drawOffsetEast>(0, -0.1, 0)</drawOffsetEast><drawOffsetWest>(0, -0.1, 0)</drawOffsetWest></li>
-[Def Error]: RRY_RoyalFacehuggerMask
-AVP Xenomorphs\Defs\ThingDefs_Apparel\FacehuggerMask.xml
-Could not resolve cross-reference: No RimWorld.StatDef named SellPriceMultiplier found to give to RimWorld.StatModifier (null stat)
-Could not resolve cross-reference: No RimWorld.StatDef named SellPriceMultiplier found to give to RimWorld.StatModifier (null stat)
-Tried to load duplicate UnityEngine.Texture2D with path: FilesystemFile [D:\SteamLibrary\steamapps\common\RimWorld\Mods\AVP-Xenomorphs\Textures\Things\Addons\Blood_Marks\Xenomorph_Kills\Mark_Thrumbomorphkill_south.psd], Length 28603 and internal path: Things/Addons/Blood_Marks/Xenomorph_Kills/Mark_Thrumbomorphkill_south
-Texture TribalA has dimensions of 64 x 64, but its mask has 128 x 128. This is not supported, texture will be excluded from atlas
-Could not execute post-long-event action. Exception: System.NullReferenceException: Object reference not set to an instance of an object
-[Ref 282A3C73]
-  at Verse.ThingDef.<PostLoad>b__398_0 () [0x00046] in <61e4173561894da49d210260257b5097>:0 
-  at ilyvion.LoadingProgress.LongEventHandler_ExecuteToExecuteWhenFinished_Patches+<ExecuteToExecuteWhenFinished>d__3.MoveNext () [0x00590] in /home/runner/work/loading-progress/loading-progress/Source/ilyvion.LoadingProgress/LongEventHandler_ExecuteToExecuteWhenFinished_Patches.cs:263 
-Could not execute post-long-event action. Exception: System.NullReferenceException: Object reference not set to an instance of an object
-[Ref 282A3C73] Duplicate stacktrace, see ref for original
-Translation data for language English has 4 errors. Generate translation report for more info.
-[AVP Xenomorphs] [AVP Xenomorphs] Patched Mineable.TrySpawnYield
-[AVP Xenomorphs] [AVP Xenomorphs] Facehugger mask graphic loaded: Things/Pawn/Xenomorph/Xenomorph_FaceHugger_Mask
-Xenomorph Host System Loaded
-158 Possible Hosts out of 335 Races detected: Race Setting init
-[CleaningAreaRelaunched] Loaded
-Alien race successfully completed 280 patches (50 pre, 82 post, 148 trans) with harmony.
-Damage Indicators initialized.
-KCSG has Created 7615 symbolDefs for vanilla and DLCs
-Locks: Doors expanded found
-Locks: SoS2 not found 
-Locks version: 3.1.2 loaded.
-[TrueTerrainColors v1.12.26] Loaded cached true colors for 765 terrain defs from file.
-Mines 2.0 -> RecipeDef named MinesAutomated_RecipeDef_MineableSteel added to the mine.
-Mines 2.0 -> RecipeDef named MinesAutomated_RecipeDef_MineableComponentsIndustrial added to the mine.
-Mines 2.0 -> RecipeDef named MinesAutomated_RecipeDef_MineableUranium added to the mine.
-Mines 2.0 -> RecipeDef named MinesAutomated_RecipeDef_MineableSilver added to the mine.
-Mines 2.0 -> RecipeDef named MinesAutomated_RecipeDef_MineableGold added to the mine.
-Mines 2.0 -> RecipeDef named MinesAutomated_RecipeDef_MineableJade added to the mine.
-Mines 2.0 -> RecipeDef named MinesAutomated_RecipeDef_MineablePlasteel added to the mine.
-Mines 2.0 -> RecipeDef named MinesAutomated_RecipeDef_MineableObsidian added to the mine.
-Mines 2.0 -> RecipeDef named MinesAutomated_RecipeDef_Sandstone added to the mine.
-Mines 2.0 -> RecipeDef named MinesAutomated_RecipeDef_Marble added to the mine.
-Mines 2.0 -> RecipeDef named MinesAutomated_RecipeDef_Slate added to the mine.
-Mines 2.0 -> RecipeDef named MinesAutomated_RecipeDef_Vacstone added to the mine.
-Mines 2.0 -> RecipeDef named MinesAutomated_RecipeDef_Limestone added to the mine.
-Mines 2.0 -> RecipeDef named MinesAutomated_RecipeDef_Granite added to the mine.
-NamesGalore: Injecting Names
-Chinese
-NamesGalore: Current Lang English
-[Quality Of Building] patching
-(Research Tab Colors) Transpiler injected.
-Unloading 5 Unused Serialized files (Serialized files now loaded: 5)
-Unloading 529 unused Assets to reduce memory usage. Loaded Objects now: 34107.
-Total: 266.614800 ms (FindLiveObjects: 1.847100 ms CreateObjectMapping: 0.896900 ms MarkObjects: 263.102600 ms  DeleteObjects: 0.767600 ms)
-
-MVCF successfully applied 41 patches
-[com.ogliss.rimworld.mod.rryatuja.minepatch] Patches on methods annotated as Obsolete were detected by HugsLib: RimWorld.Mineable.TrySpawnYield
-CharacterEditor v1.6.3 initializing...
-updating labels for english...
-loading pawn slot content from file...
-character editor instance created
-checking editor settings...
-bodysizes genes are active
-CharacterEditor v1.6.3 ...done
-CameraPlus: Found mod at D:\SteamLibrary\steamapps\workshop\content\294100\867467808
-Shader 'Camera+/Bordered': fallback shader 'Diffuse' not found
-<color=#66ffb5>[MeleeAnim]</color> Potential patch conflicts (13):
-<color=#66ffb5>[MeleeAnim]</color> 
-System.Void Verse.PawnRenderer::RenderPawnAt(UnityEngine.Vector3 drawLoc, System.Nullable`1<Verse.Rot4> rotOverride, System.Boolean neverAimWeapon)
-Prefixes:
-  [net.pardeike.rimworld.mod.camera+] Prefix
-  [com.otters.rimworld.mod.Tents] Prefix
-  [co.uk.epicguru.meleeanimation] Prefix
-Transpilers:
-Postfixes:
-  [co.uk.epicguru.meleeanimation] Postfix
-
-static System.Void Verse.PawnRenderUtility::DrawEquipmentAiming(Verse.Thing eq, UnityEngine.Vector3 drawLoc, System.Single aimAngle)
-Prefixes:
-  [OskarPotocki.VEF] Prefix
-  [OskarPotocki.VEF] Prefix
-  [OskarPotocki.VEF] DrawEquipmentAimingPrefix
-  [co.uk.epicguru.meleeanimation] Prefix
-Transpilers:
-Postfixes:
-  [Vodka.MuzzleFlash] Postfix
-
-Verse.PreRenderResults Verse.PawnRenderer::ParallelGetPreRenderResults(UnityEngine.Vector3 drawLoc, System.Nullable`1<Verse.Rot4> rotOverride, System.Boolean neverAimWeapon, System.Boolean disableCache)
-Prefixes:
-  [OskarPotocki.VEF] Prefix
-  [GiddyUp] Prefix
-Transpilers:
-  [rimworld.erdelf.alien_race.main] PostureTranspiler
-Postfixes:
-  [co.uk.epicguru.meleeanimation] Postfix
-
-System.Boolean Verse.HediffSet::get_HasHead()
-Prefixes:
-  [co.uk.epicguru.meleeanimation] Prefix
-  [rimworld.erdelf.alien_race.main] HasHeadPrefix
-Transpilers:
-Postfixes:
-
-static System.Void Verse.PawnGenerator::GenerateGearFor(Verse.Pawn pawn, Verse.PawnGenerationRequest request)
-Prefixes:
-Transpilers:
-Postfixes:
-  [co.uk.epicguru.meleeanimation] Postfix
-  [PeteTimesSix.SimpleSidearms] GenerateGearFor
-  [rimworld.erdelf.alien_race.main] GenerateGearForPostfix
-
-virtual System.Boolean RimWorld.Verb_MeleeAttack::TryCastShot()
-Prefixes:
-  [co.uk.epicguru.meleeanimation] Prefix
-Transpilers:
-Postfixes:
-  [PeteTimesSix.SimpleSidearms] TryCastShot
-<color=#66ffb5>[MeleeAnim]</color> Full patch list:
-<color=#66ffb5>[MeleeAnim]</color> 
-System.Void Verse.PawnRenderer::RenderPawnAt(UnityEngine.Vector3 drawLoc, System.Nullable`1<Verse.Rot4> rotOverride, System.Boolean neverAimWeapon)
-Prefixes:
-  [net.pardeike.rimworld.mod.camera+] Prefix
-  [com.otters.rimworld.mod.Tents] Prefix
-  [co.uk.epicguru.meleeanimation] Prefix
-Transpilers:
-Postfixes:
-  [co.uk.epicguru.meleeanimation] Postfix
-
-static System.Void Verse.PawnRenderUtility::DrawEquipmentAiming(Verse.Thing eq, UnityEngine.Vector3 drawLoc, System.Single aimAngle)
-Prefixes:
-  [OskarPotocki.VEF] Prefix
-  [OskarPotocki.VEF] Prefix
-  [OskarPotocki.VEF] DrawEquipmentAimingPrefix
-  [co.uk.epicguru.meleeanimation] Prefix
-Transpilers:
-Postfixes:
-  [Vodka.MuzzleFlash] Postfix
-
-Verse.PreRenderResults Verse.PawnRenderer::ParallelGetPreRenderResults(UnityEngine.Vector3 drawLoc, System.Nullable`1<Verse.Rot4> rotOverride, System.Boolean neverAimWeapon, System.Boolean disableCache)
-Prefixes:
-  [OskarPotocki.VEF] Prefix
-  [GiddyUp] Prefix
-Transpilers:
-  [rimworld.erdelf.alien_race.main] PostureTranspiler
-Postfixes:
-  [co.uk.epicguru.meleeanimation] Postfix
-
-System.Void RimWorld.Building_ProximityDetector::RunDetection()
-Prefixes:
-  [co.uk.epicguru.meleeanimation] Prefix
-Transpilers:
-Postfixes:
-  [co.uk.epicguru.meleeanimation] Postfix
-
-static System.Collections.Generic.List`1<Verse.FloatMenuOption> RimWorld.FloatMenuMakerMap::GetOptions(System.Collections.Generic.List`1<Verse.Pawn> selectedPawns, UnityEngine.Vector3 clickPos, RimWorld.FloatMenuContext& context)
-Prefixes:
-Transpilers:
-Postfixes:
-  [co.uk.epicguru.meleeanimation] Postfix
-
-System.Boolean Verse.HediffSet::get_HasHead()
-Prefixes:
-  [co.uk.epicguru.meleeanimation] Prefix
-  [rimworld.erdelf.alien_race.main] HasHeadPrefix
-Transpilers:
-Postfixes:
-
-static System.Boolean RimWorld.InvisibilityUtility::IsPsychologicallyInvisible(Verse.Pawn pawn)
-Prefixes:
-  [co.uk.epicguru.meleeanimation] Prefix
-Transpilers:
-Postfixes:
-
-static System.Void Verse.PawnGenerator::GenerateGearFor(Verse.Pawn pawn, Verse.PawnGenerationRequest request)
-Prefixes:
-Transpilers:
-Postfixes:
-  [co.uk.epicguru.meleeanimation] Postfix
-  [PeteTimesSix.SimpleSidearms] GenerateGearFor
-  [rimworld.erdelf.alien_race.main] GenerateGearForPostfix
-
-System.Void Verse.PawnRenderer::DrawShadowInternal(UnityEngine.Vector3 drawLoc)
-Prefixes:
-  [co.uk.epicguru.meleeanimation] Prefix
-Transpilers:
-Postfixes:
-
-System.Void Verse.PawnRenderer::ParallelPreRenderPawnAt(UnityEngine.Vector3 drawLoc, System.Nullable`1<Verse.Rot4> rotOverride, System.Boolean neverAimWeapon)
-Prefixes:
-  [co.uk.epicguru.meleeanimation] Prefix
-Transpilers:
-Postfixes:
-
-System.Void Verse.PawnRenderTree::ParallelPreDraw(Verse.PawnDrawParms parms)
-Prefixes:
-  [co.uk.epicguru.meleeanimation] Prefix
-Transpilers:
-Postfixes:
-  [co.uk.epicguru.meleeanimation] Postfix
-
-static Verse.Pawn RimWorld.PawnUtility::PawnBlockingPathAt(Verse.IntVec3 c, Verse.Pawn forPawn, System.Boolean actAsIfHadCollideWithPawnsJob, System.Boolean collideOnlyWithStandingPawns, System.Boolean forPathFinder, System.Boolean useId)
-Prefixes:
-  [co.uk.epicguru.meleeanimation] Prefix
-  [co.uk.epicguru.meleeanimation] Prefix
-Transpilers:
-Postfixes:
-
-System.Void RimWorld.Pawn_ApparelTracker::Notify_ApparelChanged()
-Prefixes:
-  [co.uk.epicguru.meleeanimation] Prefix
-Transpilers:
-Postfixes:
-
-virtual System.Void Verse.Pawn::DrawGUIOverlay()
-Prefixes:
-  [co.uk.epicguru.meleeanimation] Prefix
-Transpilers:
-Postfixes:
-
-System.Void Verse.Pawn_DrawTracker::Notify_MeleeAttackOn(Verse.Thing Target)
-Prefixes:
-  [co.uk.epicguru.meleeanimation] Prefix
-Transpilers:
-Postfixes:
-
-Verse.BattleLogEntry_MeleeCombat RimWorld.Verb_MeleeAttack::CreateCombatLog(System.Func`2<Verse.ManeuverDef, Verse.RulePackDef> rulePackGetter, System.Boolean alwaysShow)
-Prefixes:
-  [co.uk.epicguru.meleeanimation] Prefix
-Transpilers:
-Postfixes:
-
-virtual System.Boolean RimWorld.Verb_MeleeAttack::TryCastShot()
-Prefixes:
-  [co.uk.epicguru.meleeanimation] Prefix
-Transpilers:
-Postfixes:
-  [PeteTimesSix.SimpleSidearms] TryCastShot
-Unloading 2 Unused Serialized files (Serialized files now loaded: 7)
-<color=#66ffb5>[MeleeAnim]</color> PreCached all retexture info in 28.0ms
-<color=#66ffb5>[MeleeAnim]</color> Loaded tweak data for 29 weapons.
-<color=#66ffb5>[MeleeAnim]</color> ludeon.rimworld.odyssey 'Odyssey' has 2 missing weapon tweak data.
-<color=#66ffb5>[MeleeAnim]</color> ogliss.avpxenomorphs 'AVP Xenomorphs' has 3 missing weapon tweak data.
-<color=#66ffb5>[MeleeAnim]</color> Skipping reporting of missing mod/weapons because user opted out or the feature is disabled by the developer.
-<color=#66ffb5>[MeleeAnim]</color> Patched 3 classes that directly inherit from Verb_MeleeAttack in 57.1 ms to detect hits:
-RimWorld.Verb_MeleeApplyHediff from Assembly-CSharp
-RimWorld.Verb_MeleeAttackDamage from Assembly-CSharp
-RRYautja.Verb_MeleeAttackKnockback from RRYautja
-<color=#66ffb5>[MeleeAnim]</color> Found 0 items of clothing that cover hands, took 0.68 ms:
-Unloading 55 unused Assets to reduce memory usage. Loaded Objects now: 34270.
-Total: 256.352200 ms (FindLiveObjects: 1.660300 ms CreateObjectMapping: 1.969600 ms MarkObjects: 252.616400 ms  DeleteObjects: 0.105600 ms)
-
-Unloading 0 Unused Serialized files (Serialized files now loaded: 7)
-Loading asset bundle MuzzleFlash.shaders-windows
-Loaded shader Unlit/AnimatedAdditiveInstanced
-[Muzzle Flash] Shader loaded from MuzzleFlash: Unlit/AnimatedAdditiveInstanced
-Unloading 0 unused Assets to reduce memory usage. Loaded Objects now: 34272.
-Total: 250.483800 ms (FindLiveObjects: 1.656400 ms CreateObjectMapping: 0.915700 ms MarkObjects: 247.868900 ms  DeleteObjects: 0.042300 ms)
-
-Unloading 0 Unused Serialized files (Serialized files now loaded: 8)
-[Loading Progress] Why is ResearchPal.Profiler.Start from ResearchPal 1.6 - Temp calling DeepProfiler.Start (and by extension our patch) with null?! Stop it.
-[Loading Progress] Why is ResearchPal.Profiler.Start from ResearchPal 1.6 - Temp calling DeepProfiler.Start (and by extension our patch) with null?! Stop it.
-[Loading Progress] Why is ResearchPal.Profiler.Start from ResearchPal 1.6 - Temp calling DeepProfiler.Start (and by extension our patch) with null?! Stop it.
-[Loading Progress] Why is ResearchPal.Profiler.Start from ResearchPal 1.6 - Temp calling DeepProfiler.Start (and by extension our patch) with null?! Stop it.
-[Loading Progress] Why is ResearchPal.Profiler.Start from ResearchPal 1.6 - Temp calling DeepProfiler.Start (and by extension our patch) with null?! Stop it.
-[Loading Progress] Why is ResearchPal.Profiler.Start from ResearchPal 1.6 - Temp calling DeepProfiler.Start (and by extension our patch) with null?! Stop it.
-ResearchPal :: Research layout initialized
-Unloading 0 unused Assets to reduce memory usage. Loaded Objects now: 34272.
-Total: 251.679200 ms (FindLiveObjects: 1.730400 ms CreateObjectMapping: 2.141800 ms MarkObjects: 247.754200 ms  DeleteObjects: 0.052600 ms)
-
-Unloading 0 Unused Serialized files (Serialized files now loaded: 8)
-Unloading 0 unused Assets to reduce memory usage. Loaded Objects now: 34272.
-Total: 252.731200 ms (FindLiveObjects: 2.207100 ms CreateObjectMapping: 2.217000 ms MarkObjects: 248.255800 ms  DeleteObjects: 0.051100 ms)
-
-[HugsLib] initializing TerraformRimworld
-CE is trying to create default parameter lists ...
-creating default parameter list for genes...
-250 default entities for genes created
-creating default parameter list for objects...
-2364 default entities for objects created
-creating default parameter list for turrets...
-40 default entities for turrets created
-...lists created
-CE is trying to apply modified parameters...
-no modifications for genes
-FoldingTent modification loaded
-no modifications for lifestages
-...done
-Unloading 2 Unused Serialized files (Serialized files now loaded: 8)
-Unloading 0 unused Assets to reduce memory usage. Loaded Objects now: 36148.
-Total: 315.972000 ms (FindLiveObjects: 1.854000 ms CreateObjectMapping: 2.069600 ms MarkObjects: 311.986900 ms  DeleteObjects: 0.061300 ms)
-
-Unloading 3 Unused Serialized files (Serialized files now loaded: 8)
-UnloadTime: 0.585900 ms
-Unloading 4 unused Assets to reduce memory usage. Loaded Objects now: 36671.
-Total: 295.998900 ms (FindLiveObjects: 1.737400 ms CreateObjectMapping: 1.071400 ms MarkObjects: 293.103400 ms  DeleteObjects: 0.086400 ms)
-
-Initializing new game with mods:
-  - brrainz.harmony
-  - ilyvion.LoadingProgress
-  - Ludeon.RimWorld
-  - Ludeon.RimWorld.Royalty
-  - Ludeon.RimWorld.Ideology
-  - Ludeon.RimWorld.Biotech
-  - Ludeon.RimWorld.Anomaly
-  - Ludeon.RimWorld.Odyssey
-  - Ogliss.AVPXenomorphs
-  - UnlimitedHugs.HugsLib
-  - UnlimitedHugs.AllowTool
-  - Darknote.BunkBeds
-  - brrainz.cameraplus
-  - Aoba.Tent
-  - void.charactereditor
-  - Cerule.CleaningAreaRelaunched
-  - erdelf.HumanoidAlienRaces
-  - zal.covetheus
-  - CaesarV6.DamageIndicators
-  - telardo.DragSelect
-  - Dubwise.DubsMintMenus
-  - dubwise.dubsmintminimap
-  - Dubwise.DubsPerformanceAnalyzer.steam
-  - zeracronius.dynamictradeinterface
-  - Romyashi.ExtractAnyPlant
-  - matvey24.FPSStabilizer
-  - MemeGoddess.GiddyUp
-  - GonDragon.TTPF
-  - adaptive.storage.framework
-  - OskarPotocki.VanillaFactionsExpanded.Core
-  - OskarPotocki.VFE.Empire
-  - OskarPotocki.VFE.Deserters
-  - GonDragon.TechTree
-  - jkluch.HaulToStack
-  - Taveron.IncreasedStack
-  - Aoba.Fortress.Industrial.Concrete
-  - futurplanet.industrialconcretefloorpatch
-  - Koth.ISiD
-  - ASF.DeepStorage
-  - jecrell.doorsexpanded
-  - Haplo.Miscellaneous.Robots
-  - avius.locks
-  - Mlie.LogAfterDefError
-  - plaxen.MalangBodies
-  - m00nl1ght.MapPreview
-  - sumghai.Medpod
-  - co.uk.epicguru.meleeanimation
-  - notfood.MendAndRecycle
-  - Cain.Mineshaft
-  - erdelf.MinifyEverything
-  - mosi.MoreMiniHorns
-  - IssacZhuang.MuzzleFlash
-  - zal.namesgalore
-  - VitaKaninen.ShelfPatch
-  - Doug.NoJobAuthors
-  - mrwireman.Noconduit
-  - komunre.BetterExp.PassiveResearch
-  - Mlie.PredatorHuntAlert
-  - DawnsGlow.qualcolor
-  - sdknm2.QualityOfBuilding
-  - Memegoddess.ReplaceStuff
-  - Aelanna.ResearchTabColors
-  - fluffy.researchtree
-  - XanderNirpows.ResearchPalForked16
-  - aRandomKiwi.RimSaves
-  - rimsenal.core
-  - rimsenal.security
-  - Mlie.RunAndHide
-  - MemeGoddess.RunAndGun
-  - BP.ShowBuildableMaterialCount
-  - zal.simplefxshinies
-  - Owlchemist.SimpleFX.Smoke2
-  - Owlchemist.SimpleFX.Splashes
-  - Atlas.SimpleFX.Vapor.Revaporized
-  - Owlchemist.FridgeUtilities
-  - PeteTimesSix.SimpleSidearms
-  - Haecriver.SimplyMoreColors
-  - sarg.smartspeed
-  - dhultgren.smarterconstruction
-  - Garwel.StartingTechLevel
-  - void.terraformrimworld
-[AVP Xenomorphs] Xenomorph faction is null - Queen spawned with no faction
-[AVP Xenomorphs] Xenomorph faction is null - Drone spawned with no faction
-[AVP Xenomorphs] Xenomorph faction is null - Drone spawned with no faction
-[AVP Xenomorphs] Xenomorph faction is null - Drone spawned with no faction
-[AVP Xenomorphs] Xenomorph faction is null - Drone spawned with no faction
-[AVP Xenomorphs] Xenomorph faction is null - Drone spawned with no faction
-[AVP Xenomorphs] Xenomorph faction is null - Drone spawned with no faction
-[AVP Xenomorphs] Xenomorph faction is null - Drone spawned with no faction
-[AVP Xenomorphs] Xenomorph faction is null - Drone spawned with no faction
-[AVP Xenomorphs] Xenomorph faction is null - Drone spawned with no faction
-[AVP Xenomorphs] Xenomorph faction is null - Drone spawned with no faction
-[AVP Xenomorphs] Xenomorph faction is null - Drone spawned with no faction
-[AVP Xenomorphs] Xenomorph faction is null - Drone spawned with no faction
-Scatterer RimWorld.GenStep_ScatterLayout from def AncientExostriderRemains could not find cell to generate at, trying fallback validators.
-checking editor settings...
-bodysizes genes are active
-[AVP Xenomorphs] Created Xenomorph hive faction (was missing).
-Unloading 0 Unused Serialized files (Serialized files now loaded: 8)
-Unloading 1 unused Assets to reduce memory usage. Loaded Objects now: 42416.
-Total: 337.554500 ms (FindLiveObjects: 2.138600 ms CreateObjectMapping: 2.545800 ms MarkObjects: 332.767900 ms  DeleteObjects: 0.101800 ms)
-
-[AVP Xenomorphs] [Mine] Suppressing chunks for Drone mining Limestone (tick 972)
-[AVP Xenomorphs] [Mine] Suppressing chunks for Drone mining Granite (tick 1336)
-[AVP Xenomorphs] [Mine] Suppressing chunks for Drone mining Limestone (tick 1677)
-[AVP Xenomorphs] [Mine] Suppressing chunks for Drone mining Granite (tick 2040)
-[AVP Xenomorphs] [Mine] Suppressing chunks for Drone mining Limestone (tick 2317)
-[AVP Xenomorphs] [Mine] Suppressing chunks for Drone mining Limestone (tick 2609)
-[AVP Xenomorphs] [Mine] Suppressing chunks for Drone mining Granite (tick 2890)
-[AVP Xenomorphs] [Mine] Suppressing chunks for Drone mining Limestone (tick 3266)
-[AVP Xenomorphs] [Mine] Suppressing chunks for Drone mining Limestone (tick 3625)
-[AVP Xenomorphs] [Mine] Suppressing chunks for Drone mining Limestone (tick 3946)
-[AVP Xenomorphs] [Mine] Suppressing chunks for Drone mining Limestone (tick 4265)
-[AVP Xenomorphs] [Mine] Suppressing chunks for Drone mining Limestone (tick 4827)
-[AVP Xenomorphs] [Mine] Suppressing chunks for Drone mining Limestone (tick 5105)
-[AVP Xenomorphs] [Mine] Suppressing chunks for Drone mining Limestone (tick 5712)
-[AVP Xenomorphs] [Mine] Suppressing chunks for Drone mining Granite (tick 6009)
-[AVP Xenomorphs] [Mine] Suppressing chunks for Drone mining Granite (tick 6410)
-[AVP Xenomorphs] [Mine] Suppressing chunks for Drone mining Granite (tick 6672)
-[AVP Xenomorphs] [Mine] Suppressing chunks for Drone mining Granite (tick 6924)
-[AVP Xenomorphs] [Mine] Suppressing chunks for Drone mining Limestone (tick 7445)
-[AVP Xenomorphs] [Mine] Suppressing chunks for Drone mining Limestone (tick 7839)
-[AVP Xenomorphs] [Mine] Suppressing chunks for Drone mining Limestone (tick 8261)
-[AVP Xenomorphs] [Mine] Suppressing chunks for Drone mining Granite (tick 8675)
-[AVP Xenomorphs] [Mine] Suppressing chunks for Drone mining Limestone (tick 8995)
-[AVP Xenomorphs] [Mine] Suppressing chunks for Drone mining Granite (tick 9326)
-[AVP Xenomorphs] [Mine] Suppressing chunks for Drone mining Limestone (tick 9624)
-[AVP Xenomorphs] [Mine] Suppressing chunks for Drone mining Limestone (tick 9931)
-[AVP Xenomorphs] [Mine] Suppressing chunks for Drone mining Granite (tick 10241)
-[AVP Xenomorphs] [Mine] Suppressing chunks for Drone mining Limestone (tick 10539)
-[AVP Xenomorphs] [Mine] Suppressing chunks for Drone mining Limestone (tick 10872)
-[AVP Xenomorphs] [Mine] Suppressing chunks for Drone mining Granite (tick 11201)
-[AVP Xenomorphs] [Mine] Suppressing chunks for Drone mining Limestone (tick 11979)
-[AVP Xenomorphs] [Mine] Suppressing chunks for Drone mining Limestone (tick 12466)
-[AVP Xenomorphs] [Mine] Suppressing chunks for Drone mining Granite (tick 12940)
-[AVP Xenomorphs] [Mine] Suppressing chunks for Drone mining Granite (tick 13256)
-[AVP Xenomorphs] [Mine] Suppressing chunks for Drone mining Granite (tick 13711)
-[AVP Xenomorphs] [Mine] Suppressing chunks for Drone mining Limestone (tick 14020)
-[AVP Xenomorphs] [Mine] Suppressing chunks for Drone mining Limestone (tick 14375)
-[AVP Xenomorphs] [Mine] Suppressing chunks for Drone mining Granite (tick 14641)
-[AVP Xenomorphs] [Mine] Suppressing chunks for Drone mining Limestone (tick 15204)
-[AVP Xenomorphs] [Mine] Suppressing chunks for Drone mining Limestone (tick 15537)
-[AVP Xenomorphs] [Mine] Suppressing chunks for Drone mining Granite (tick 15866)
-[AVP Xenomorphs] [Mine] Suppressing chunks for Drone mining Granite (tick 16359)
-[AVP Xenomorphs] [Mine] Suppressing chunks for Drone mining Limestone (tick 16700)
-[AVP Xenomorphs] [Mine] Suppressing chunks for Drone mining Granite (tick 16990)
-[AVP Xenomorphs] [Mine] Suppressing chunks for Drone mining Limestone (tick 17247)
-[AVP Xenomorphs] [Mine] Suppressing chunks for Drone mining Limestone (tick 17840)
-[AVP Xenomorphs] [Mine] Suppressing chunks for Drone mining Limestone (tick 18196)
-[AVP Xenomorphs] [Mine] Suppressing chunks for Drone mining Granite (tick 18657)
-[AVP Xenomorphs] [Mine] Suppressing chunks for Drone mining Limestone (tick 19060)
-[AVP Xenomorphs] [Mine] Suppressing chunks for Drone mining Granite (tick 19370)
-[AVP Xenomorphs] [Mine] Suppressing chunks for Drone mining Limestone (tick 19885)
-[AVP Xenomorphs] [Mine] Suppressing chunks for Drone mining Limestone (tick 20379)
-[AVP Xenomorphs] [Mine] Suppressing chunks for Drone mining Limestone (tick 20686)
-[AVP Xenomorphs] [Mine] Suppressing chunks for Drone mining Granite (tick 21175)
-[AVP Xenomorphs] [Mine] Suppressing chunks for Drone mining Granite (tick 21635)
-[AVP Xenomorphs] [Mine] Suppressing chunks for Drone mining Limestone (tick 21911)
-[AVP Xenomorphs] [Mine] Suppressing chunks for Drone mining Limestone (tick 22315)
-[AVP Xenomorphs] [Mine] Suppressing chunks for Drone mining Limestone (tick 22629)
-[AVP Xenomorphs] [Mine] Suppressing chunks for Drone mining Limestone (tick 23086)
-[AVP Xenomorphs] [Mine] Suppressing chunks for Drone mining Limestone (tick 23825)
-[AVP Xenomorphs] [Mine] Suppressing chunks for Drone mining Granite (tick 24146)
-[AVP Xenomorphs] [Mine] Suppressing chunks for Drone mining Limestone (tick 24631)
-[AVP Xenomorphs] [Mine] Suppressing chunks for Drone mining Granite (tick 25029)
-[AVP Xenomorphs] [Mine] Suppressing chunks for Drone mining Limestone (tick 25480)
-[AVP Xenomorphs] [Mine] Suppressing chunks for Drone mining Limestone (tick 26037)
-[AVP Xenomorphs] [Mine] Suppressing chunks for Drone mining Granite (tick 26720)
-[AVP Xenomorphs] [Mine] Suppressing chunks for Drone mining Limestone (tick 26997)
-[AVP Xenomorphs] [Mine] Suppressing chunks for Drone mining Granite (tick 27556)
-[AVP Xenomorphs] [Mine] Suppressing chunks for Drone mining Limestone (tick 27815)
-[AVP Xenomorphs] [Mine] Suppressing chunks for Drone mining Granite (tick 28576)
-[AVP Xenomorphs] [Mine] Suppressing chunks for Drone mining Limestone (tick 28840)
-[AVP Xenomorphs] [Mine] Suppressing chunks for Drone mining Granite (tick 29345)
-[AVP Xenomorphs] [Mine] Suppressing chunks for Drone mining Limestone (tick 29622)
-[AVP Xenomorphs] [Mine] Suppressing chunks for Drone mining Limestone (tick 30025)
-[AVP Xenomorphs] [Mine] Suppressing chunks for Drone mining Limestone (tick 30620)
-[AVP Xenomorphs] [Mine] Suppressing chunks for Drone mining Limestone (tick 30976)
-[AVP Xenomorphs] [Mine] Suppressing chunks for Drone mining Granite (tick 31360)
-[AVP Xenomorphs] [Mine] Suppressing chunks for Drone mining Limestone (tick 31681)
-[AVP Xenomorphs] [Mine] Suppressing chunks for Drone mining Granite (tick 32066)
-[AVP Xenomorphs] [Mine] Suppressing chunks for Drone mining Limestone (tick 32470)
-[AVP Xenomorphs] [Mine] Suppressing chunks for Drone mining Limestone (tick 32892)
-[AVP Xenomorphs] [Mine] Suppressing chunks for Drone mining Limestone (tick 33236)
-Wrote screenshot C:\Users\clint\AppData\LocalLow\Ludeon Studios\RimWorld by Ludeon Studios\RimSaves\Previews\Autosave-5.dat of size 122862
-Wrote screenshot C:\Users\clint\AppData\LocalLow\Ludeon Studios\RimWorld by Ludeon Studios\RimSaves\Previews\Autosave-1.dat of size 135140
-Wrote screenshot C:\Users\clint\AppData\LocalLow\Ludeon Studios\RimWorld by Ludeon Studios\RimSaves\Previews\Autosave-2.dat of size 148226
-Wrote screenshot C:\Users\clint\AppData\LocalLow\Ludeon Studios\RimWorld by Ludeon Studios\RimSaves\Previews\Autosave-3.dat of size 82702
-Gustel on unwalkable cell (219, 0, 173). Teleporting to (220, 0, 173)
-Cannot drop RRY_Xenomorph_Queen48951 without a dropLoc and with an owner whose map is null.
-Wrote screenshot C:\Users\clint\AppData\LocalLow\Ludeon Studios\RimWorld by Ludeon Studios\RimSaves\Previews\Autosave-4.dat of size 113976
-[AVP Xenomorphs] [AVP Xenomorphs] CompPostPostAdd called for Omar (humanlike=True)
-[AVP Xenomorphs] [AVP Xenomorphs] Added facehugger mask apparel to Omar
+Error in LordToil.UpdateAllDuties(): System.NullReferenceException: Object reference not set to an instance of an object
+[Ref F739E8A4] Duplicate stacktrace, see ref for original
+[AVP Xenomorphs] [AVP Xenomorphs] CompPostPostAdd called for Bane (humanlike=True)
+[AVP Xenomorphs] [AVP Xenomorphs] Added facehugger mask apparel to Bane
 Exception in RimWorld.ThinkNode_ConditionalFacehuggerFertile TryIssueJobPackage: System.NullReferenceException: Object reference not set to an instance of an object
-[Ref C1CCA1B9]
+[Ref E6DF6267]
   at Verse.GenClosest.EarlyOutSearch (Verse.IntVec3 start, Verse.Map map, Verse.ThingRequest thingReq, System.Collections.Generic.IEnumerable`1[T] customGlobalSearchSet, System.Predicate`1[T] validator) [0x00015] in <61e4173561894da49d210260257b5097>:0 
   at Verse.GenClosest.ClosestThingReachable (Verse.IntVec3 root, Verse.Map map, Verse.ThingRequest thingReq, Verse.AI.PathEndMode peMode, Verse.TraverseParms traverseParams, System.Single maxDistance, System.Predicate`1[T] validator, System.Collections.Generic.IEnumerable`1[T] customGlobalSearchSet, System.Int32 searchRegionsMin, System.Int32 searchRegionsMax, System.Boolean forceAllowGlobalSearch, Verse.RegionType traversableRegionTypes, System.Boolean ignoreEntirelyForbiddenRegions, System.Boolean lookInHaulSources) [0x0008c] in <61e4173561894da49d210260257b5097>:0 
-  at Verse.AI.XenomorphTargetFinder.BestAttackTarget (Verse.AI.IAttackTargetSearcher searcher, Verse.AI.TargetScanFlags flags, System.Predicate`1[T] validator, System.Single minDist, System.Single maxDist, Verse.IntVec3 locus, System.Single maxTravelRadiusFromLocus, System.Boolean canBash, System.Boolean canTakeTargetsCloserThanEffectiveMinRange) [0x0036e] in <69bfc55c04214feb867ae3622ad7bbc5>:0 
-  at RimWorld.JobGiver_FacehuggerHunt.FindPawnTarget (Verse.Pawn pawn) [0x00038] in <69bfc55c04214feb867ae3622ad7bbc5>:0 
-  at RimWorld.JobGiver_FacehuggerHunt.TryGiveJob (Verse.Pawn pawn) [0x0001f] in <69bfc55c04214feb867ae3622ad7bbc5>:0 
+  at Verse.AI.XenomorphTargetFinder.BestAttackTarget (Verse.AI.IAttackTargetSearcher searcher, Verse.AI.TargetScanFlags flags, System.Predicate`1[T] validator, System.Single minDist, System.Single maxDist, Verse.IntVec3 locus, System.Single maxTravelRadiusFromLocus, System.Boolean canBash, System.Boolean canTakeTargetsCloserThanEffectiveMinRange) [0x0036e] in <06ef85165a0843d3992c73ee387d38bb>:0 
+  at RimWorld.JobGiver_FacehuggerHunt.FindPawnTarget (Verse.Pawn pawn) [0x00038] in <06ef85165a0843d3992c73ee387d38bb>:0 
+  at RimWorld.JobGiver_FacehuggerHunt.TryGiveJob (Verse.Pawn pawn) [0x0001f] in <06ef85165a0843d3992c73ee387d38bb>:0 
   at Verse.AI.ThinkNode_JobGiver.TryIssueJobPackage (Verse.Pawn pawn, Verse.AI.JobIssueParams jobParams) [0x00000] in <61e4173561894da49d210260257b5097>:0 
   at Verse.AI.ThinkNode_Priority.TryIssueJobPackage (Verse.Pawn pawn, Verse.AI.JobIssueParams jobParams) [0x00022] in <61e4173561894da49d210260257b5097>:0 
 Exception in Verse.AI.ThinkNode_Tagger TryIssueJobPackage: System.NullReferenceException: Object reference not set to an instance of an object
@@ -1247,7 +535,7 @@ Exception in Verse.AI.ThinkNode_Tagger TryIssueJobPackage: System.NullReferenceE
   at Verse.AI.JobGiver_Wander.TryGiveJob (Verse.Pawn pawn) [0x00061] in <61e4173561894da49d210260257b5097>:0 
   at Verse.AI.ThinkNode_JobGiver.TryIssueJobPackage (Verse.Pawn pawn, Verse.AI.JobIssueParams jobParams) [0x00000] in <61e4173561894da49d210260257b5097>:0 
   at Verse.AI.ThinkNode_Priority.TryIssueJobPackage (Verse.Pawn pawn, Verse.AI.JobIssueParams jobParams) [0x00022] in <61e4173561894da49d210260257b5097>:0 
-JobDriver threw exception in toil MakeNewToils's initAction for pawn RRY_Xenomorph_FaceHugger53686 driver=JobDriver_Wait (toilIndex=0) driver.job=(Wait_Wander (Job_105021) Giver = JobGiver_WanderAnywhere [workGiverDef: null])
+JobDriver threw exception in toil MakeNewToils's initAction for pawn RRY_Xenomorph_FaceHugger68854 driver=JobDriver_Wait (toilIndex=0) driver.job=(Wait_Wander (Job_77355) Giver = JobGiver_WanderAnywhere [workGiverDef: null])
 System.NullReferenceException: Object reference not set to an instance of an object
 [Ref 2BEE724E]
   at Verse.AI.JobDriver_Wait.CheckForAutoAttack () [0x0012f] in <61e4173561894da49d210260257b5097>:0 
@@ -1256,299 +544,57 @@ System.NullReferenceException: Object reference not set to an instance of an obj
     - POSTFIX UnlimitedHugs.AllowTool: Void AllowTool.Patches.JobDriverWait_CheckForAutoAttack_Patch:DoPartyHunting(JobDriver_Wait __instance)
   at Verse.AI.JobDriver_Wait.<MakeNewToils>b__3_0 () [0x0003d] in <61e4173561894da49d210260257b5097>:0 
   at Verse.AI.JobDriver.TryActuallyStartNextToil () [0x001b0] in <61e4173561894da49d210260257b5097>:0 
-JobDriver threw exception in toil MakeNewToils's initAction for pawn RRY_Xenomorph_FaceHugger53686 driver=JobDriver_Wait (toilIndex=0) driver.job=(Wait (Job_105022))
+JobDriver threw exception in toil MakeNewToils's initAction for pawn RRY_Xenomorph_FaceHugger68854 driver=JobDriver_Wait (toilIndex=0) driver.job=(Wait (Job_77356))
 System.NullReferenceException: Object reference not set to an instance of an object
 [Ref 2BEE724E] Duplicate stacktrace, see ref for original
-An error occurred while starting an error recover job. We have to stop now to avoid infinite loops. This means that the pawn is now jobless which can cause further bugs. pawn=RRY_Xenomorph_FaceHugger53686
+An error occurred while starting an error recover job. We have to stop now to avoid infinite loops. This means that the pawn is now jobless which can cause further bugs. pawn=RRY_Xenomorph_FaceHugger68854
+[AVP Xenomorphs] [Mine] Suppressing chunks for Drone mining Granite (tick 160016)
+Error in LordToil.UpdateAllDuties(): System.NullReferenceException: Object reference not set to an instance of an object
+[Ref F739E8A4] Duplicate stacktrace, see ref for original
+Humanlike pawn Blackout was added to non-humanlike faction Xenomorph hive
+Humanlike pawn Nguyen was added to non-humanlike faction Xenomorph hive
+Humanlike pawn Bucky was added to non-humanlike faction Xenomorph hive
+Humanlike pawn Cassie was added to non-humanlike faction Xenomorph hive
+Humanlike pawn Hex was added to non-humanlike faction Xenomorph hive
+Humanlike pawn Sander was added to non-humanlike faction Xenomorph hive
+Could not generate a pawn after 70 tries. Last error: Generated pawn doesn't meet scenario requirements. Ignoring scenario requirements.
+Could not generate a pawn after 70 tries. Last error: Generated pawn doesn't meet scenario requirements. Ignoring scenario requirements.
+Could not generate a pawn after 70 tries. Last error: Generated pawn doesn't meet scenario requirements. Ignoring scenario requirements.
+Could not generate a pawn after 70 tries. Last error: Generated pawn doesn't meet scenario requirements. Ignoring scenario requirements.
+Tried 300 times to generate age for bestower
+Tried 300 times to generate age for bestower
+Tried 300 times to generate age for bestower
+Tried 300 times to generate age for bestower
+Tried 300 times to generate age for bestower
+Tried 300 times to generate age for bestower
+Could not generate a pawn after 70 tries. Last error: Generated pawn doesn't meet scenario requirements. Ignoring scenario requirements.
+[AVP Xenomorphs] [Kidnap] Warrior targeting Paulo (1/3 drones) (tick 162354)
+[AVP Xenomorphs] [Kidnap] Drone targeting Jackalope (1/3 drones) (tick 165875)
+[AVP Xenomorphs] [Kidnap] Drone targeting Tuomi (1/3 drones) (tick 166415)
+[AVP Xenomorphs] [Kidnap] Warrior targeting Erlene (1/3 drones) (tick 168086)
+Wrote screenshot C:\Users\clint\AppData\LocalLow\Ludeon Studios\RimWorld by Ludeon Studios\RimSaves\Previews\Autosave-3.dat of size 157824
+[AVP Xenomorphs] [Spawn] Chestburster spawned: Drone faction=a Xenomorph hive (tick 203564)
+Error while killing Bane during phase 6: System.NullReferenceException: Object reference not set to an instance of an object
+[Ref D15F7558] Duplicate stacktrace, see ref for original
 Exception in RimWorld.ThinkNode_ConditionalFacehuggerFertile TryIssueJobPackage: System.NullReferenceException: Object reference not set to an instance of an object
-[Ref C1CCA1B9] Duplicate stacktrace, see ref for original
+[Ref E6DF6267] Duplicate stacktrace, see ref for original
 Exception in Verse.AI.ThinkNode_Tagger TryIssueJobPackage: System.NullReferenceException: Object reference not set to an instance of an object
 [Ref B3A85BBC] Duplicate stacktrace, see ref for original
-JobDriver threw exception in toil MakeNewToils's initAction for pawn RRY_Xenomorph_FaceHugger53693 driver=JobDriver_Wait (toilIndex=0) driver.job=(Wait_Wander (Job_105705) Giver = JobGiver_WanderAnywhere [workGiverDef: null])
+JobDriver threw exception in toil MakeNewToils's initAction for pawn RRY_Xenomorph_FaceHugger119691 driver=JobDriver_Wait (toilIndex=0) driver.job=(Wait_Wander (Job_93924) Giver = JobGiver_WanderAnywhere [workGiverDef: null])
 System.NullReferenceException: Object reference not set to an instance of an object
 [Ref 2BEE724E] Duplicate stacktrace, see ref for original
-JobDriver threw exception in toil MakeNewToils's initAction for pawn RRY_Xenomorph_FaceHugger53693 driver=JobDriver_Wait (toilIndex=0) driver.job=(Wait (Job_105706))
+JobDriver threw exception in toil MakeNewToils's initAction for pawn RRY_Xenomorph_FaceHugger119691 driver=JobDriver_Wait (toilIndex=0) driver.job=(Wait (Job_93925))
 System.NullReferenceException: Object reference not set to an instance of an object
 [Ref 2BEE724E] Duplicate stacktrace, see ref for original
-An error occurred while starting an error recover job. We have to stop now to avoid infinite loops. This means that the pawn is now jobless which can cause further bugs. pawn=RRY_Xenomorph_FaceHugger53693
-[AVP Xenomorphs] [AVP Xenomorphs] Removed facehugger mask apparel from Omar
-[AVP Xenomorphs] [Spawn] Chestburster spawned: Warrior faction=a Xenomorph hive (tick 347907)
-Error while killing Gustel during phase 6: System.NullReferenceException: Object reference not set to an instance of an object
-[Ref 27EEEC48]
-  at Verse.ThingMaker.MakeThing (Verse.ThingDef def, Verse.ThingDef stuff) [0x0005b] in <61e4173561894da49d210260257b5097>:0 
-  at RimWorld.MoteMaker.ThrowExplosionCell (Verse.IntVec3 cell, Verse.Map map, Verse.ThingDef moteDef, UnityEngine.Color color) [0x0000b] in <61e4173561894da49d210260257b5097>:0 
-  at RRYautja.HediffComp_XenoSpawner.Notify_PawnDied (System.Nullable`1[T] dinfo, Verse.Hediff culprit) [0x00308] in <69bfc55c04214feb867ae3622ad7bbc5>:0 
-  at Verse.HediffWithComps.Notify_PawnDied (System.Nullable`1[T] dinfo, Verse.Hediff culprit) [0x00024] in <61e4173561894da49d210260257b5097>:0 
-  at RRYautja.XenoHediffWithComps.Notify_PawnDied (System.Nullable`1[T] dinfo, Verse.Hediff culprit) [0x00000] in <69bfc55c04214feb867ae3622ad7bbc5>:0 
-  at Verse.HediffSet.Notify_PawnDied (System.Nullable`1[T] dinfo, Verse.Hediff culprit) [0x0001c] in <61e4173561894da49d210260257b5097>:0 
-  at Verse.Pawn.Kill (System.Nullable`1[T] dinfo, Verse.Hediff exactCulprit) [0x0064c] in <61e4173561894da49d210260257b5097>:0 
-    - PREFIX OskarPotocki.VEF: Void VEF.Storyteller.VanillaExpandedFramework_Pawn_Kill_Patch:Prefix(Pawn __instance, Nullable`1 dinfo, Hediff exactCulprit)
-    - PREFIX OskarPotocki.VEF: Boolean VEF.Apparels.VanillaExpandedFramework_Pawn_Kill_Patch:Prefix(Pawn __instance, List`1& __state)
-    - POSTFIX UnlimitedHugs.AllowTool: Void AllowTool.Patches.Pawn_Kill_Patch:UnforbidDraftedHuntBody(Pawn __instance, Nullable`1 dinfo)
-    - POSTFIX OskarPotocki.VEF: Void VEF.Pawns.VanillaExpandedFramework_Pawn_Kill:Postfix(Pawn __instance)
-    - POSTFIX OskarPotocki.VEF: Void VEF.Apparels.VanillaExpandedFramework_Pawn_Kill_Patch:Postfix(Pawn __instance, List`1 __state)
-    - POSTFIX VFEEmpire.Mod: Void VFEEmpire.HarmonyPatches.ColonistTitleCache+OnPawn:Postfix(Pawn __instance)
-    - POSTFIX vanillaexpanded.factions.deserters: Void VFED.HarmonyPatches.MiscPatches:ExplodePackOnDeath(Pawn __instance)
-AM.Events.AudioEvent must be instantiated using the ScriptableObject.CreateInstance method instead of new AudioEvent.
-AM.Events.CamShakeEvent must be instantiated using the ScriptableObject.CreateInstance method instead of new CamShakeEvent.
-AM.Events.ClashAudioEvent must be instantiated using the ScriptableObject.CreateInstance method instead of new ClashAudioEvent.
-AM.Events.DamageEffectEvent must be instantiated using the ScriptableObject.CreateInstance method instead of new DamageEffectEvent.
-AM.Events.DuelEvent must be instantiated using the ScriptableObject.CreateInstance method instead of new DuelEvent.
-AM.Events.GoreSplashEvent must be instantiated using the ScriptableObject.CreateInstance method instead of new GoreSplashEvent.
-AM.Events.KillPawnEvent must be instantiated using the ScriptableObject.CreateInstance method instead of new KillPawnEvent.
-AM.Events.MoteEvent must be instantiated using the ScriptableObject.CreateInstance method instead of new MoteEvent.
-AM.Events.PuntPawnEvent must be instantiated using the ScriptableObject.CreateInstance method instead of new PuntPawnEvent.
-AM.Events.TextMoteEvent must be instantiated using the ScriptableObject.CreateInstance method instead of new TextMoteEvent.
-AM.Events.DamageEffectEvent must be instantiated using the ScriptableObject.CreateInstance method instead of new DamageEffectEvent.
-AM.Events.DamageEffectEvent must be instantiated using the ScriptableObject.CreateInstance method instead of new DamageEffectEvent.
-AM.Events.KillPawnEvent must be instantiated using the ScriptableObject.CreateInstance method instead of new KillPawnEvent.
-<color=#66ffb5>[MeleeAnim]</color> Dealt 24.20 pts of dmg as part of injury to RRY_Xenomorph_Warrior54561 (aimed to deal 30.00).
-Cannot drop RRY_Xenomorph_Queen48951 without a dropLoc and with an owner whose map is null.
-Deep-saving discarded thing RRY_FacehuggerMask53723. This mode means that the thing is no longer managed by anything in the code and should not be deep-saved anywhere. (even with saveDestroyedThings==true) , label=li
-Deep-saving discarded thing RRY_FacehuggerMask53737. This mode means that the thing is no longer managed by anything in the code and should not be deep-saved anywhere. (even with saveDestroyedThings==true) , label=li
-Wrote screenshot C:\Users\clint\AppData\LocalLow\Ludeon Studios\RimWorld by Ludeon Studios\RimSaves\Previews\Autosave-5.dat of size 187720
-Cannot drop RRY_Xenomorph_Queen48951 without a dropLoc and with an owner whose map is null.
+An error occurred while starting an error recover job. We have to stop now to avoid infinite loops. This means that the pawn is now jobless which can cause further bugs. pawn=RRY_Xenomorph_FaceHugger119691
 Exception in RimWorld.ThinkNode_ConditionalFacehuggerFertile TryIssueJobPackage: System.NullReferenceException: Object reference not set to an instance of an object
-[Ref C1CCA1B9] Duplicate stacktrace, see ref for original
+[Ref E6DF6267] Duplicate stacktrace, see ref for original
 Exception in Verse.AI.ThinkNode_Tagger TryIssueJobPackage: System.NullReferenceException: Object reference not set to an instance of an object
 [Ref B3A85BBC] Duplicate stacktrace, see ref for original
-JobDriver threw exception in toil MakeNewToils's initAction for pawn RRY_Xenomorph_FaceHugger53198 driver=JobDriver_Wait (toilIndex=0) driver.job=(Wait_Wander (Job_136771) Giver = JobGiver_WanderAnywhere [workGiverDef: null])
+JobDriver threw exception in toil MakeNewToils's initAction for pawn RRY_Xenomorph_FaceHugger119695 driver=JobDriver_Wait (toilIndex=0) driver.job=(Wait_Wander (Job_95468) Giver = JobGiver_WanderAnywhere [workGiverDef: null])
 System.NullReferenceException: Object reference not set to an instance of an object
 [Ref 2BEE724E] Duplicate stacktrace, see ref for original
-JobDriver threw exception in toil MakeNewToils's initAction for pawn RRY_Xenomorph_FaceHugger53198 driver=JobDriver_Wait (toilIndex=0) driver.job=(Wait (Job_136772))
+JobDriver threw exception in toil MakeNewToils's initAction for pawn RRY_Xenomorph_FaceHugger119695 driver=JobDriver_Wait (toilIndex=0) driver.job=(Wait (Job_95469))
 System.NullReferenceException: Object reference not set to an instance of an object
 [Ref 2BEE724E] Duplicate stacktrace, see ref for original
-An error occurred while starting an error recover job. We have to stop now to avoid infinite loops. This means that the pawn is now jobless which can cause further bugs. pawn=RRY_Xenomorph_FaceHugger53198
-Exception in RimWorld.ThinkNode_ConditionalFacehuggerFertile TryIssueJobPackage: System.NullReferenceException: Object reference not set to an instance of an object
-[Ref C1CCA1B9] Duplicate stacktrace, see ref for original
-Exception in Verse.AI.ThinkNode_Tagger TryIssueJobPackage: System.NullReferenceException: Object reference not set to an instance of an object
-[Ref B3A85BBC] Duplicate stacktrace, see ref for original
-JobDriver threw exception in toil MakeNewToils's initAction for pawn RRY_Xenomorph_FaceHugger55147 driver=JobDriver_Wait (toilIndex=0) driver.job=(Wait_Wander (Job_136790) Giver = JobGiver_WanderAnywhere [workGiverDef: null])
-System.NullReferenceException: Object reference not set to an instance of an object
-[Ref 2BEE724E] Duplicate stacktrace, see ref for original
-JobDriver threw exception in toil MakeNewToils's initAction for pawn RRY_Xenomorph_FaceHugger55147 driver=JobDriver_Wait (toilIndex=0) driver.job=(Wait (Job_136791))
-System.NullReferenceException: Object reference not set to an instance of an object
-[Ref 2BEE724E] Duplicate stacktrace, see ref for original
-An error occurred while starting an error recover job. We have to stop now to avoid infinite loops. This means that the pawn is now jobless which can cause further bugs. pawn=RRY_Xenomorph_FaceHugger55147
-Exception in RimWorld.ThinkNode_ConditionalFacehuggerFertile TryIssueJobPackage: System.NullReferenceException: Object reference not set to an instance of an object
-[Ref C1CCA1B9] Duplicate stacktrace, see ref for original
-Exception in Verse.AI.ThinkNode_Tagger TryIssueJobPackage: System.NullReferenceException: Object reference not set to an instance of an object
-[Ref B3A85BBC] Duplicate stacktrace, see ref for original
-JobDriver threw exception in toil MakeNewToils's initAction for pawn RRY_Xenomorph_FaceHugger55215 driver=JobDriver_Wait (toilIndex=0) driver.job=(Wait_Wander (Job_136803) Giver = JobGiver_WanderAnywhere [workGiverDef: null])
-System.NullReferenceException: Object reference not set to an instance of an object
-[Ref 2BEE724E] Duplicate stacktrace, see ref for original
-JobDriver threw exception in toil MakeNewToils's initAction for pawn RRY_Xenomorph_FaceHugger55215 driver=JobDriver_Wait (toilIndex=0) driver.job=(Wait (Job_136804))
-System.NullReferenceException: Object reference not set to an instance of an object
-[Ref 2BEE724E] Duplicate stacktrace, see ref for original
-An error occurred while starting an error recover job. We have to stop now to avoid infinite loops. This means that the pawn is now jobless which can cause further bugs. pawn=RRY_Xenomorph_FaceHugger55215
-Exception in RimWorld.ThinkNode_ConditionalFacehuggerFertile TryIssueJobPackage: System.NullReferenceException: Object reference not set to an instance of an object
-[Ref C1CCA1B9] Duplicate stacktrace, see ref for original
-JobDriver threw exception in toil MakeNewToils's initAction for pawn RRY_Xenomorph_FaceHugger55164 driver=JobDriver_Wait (toilIndex=0) driver.job=(Wait_Wander (Job_139063) Giver = JobGiver_WanderAnywhere [workGiverDef: null])
-System.NullReferenceException: Object reference not set to an instance of an object
-[Ref 2BEE724E] Duplicate stacktrace, see ref for original
-JobDriver threw exception in toil MakeNewToils's initAction for pawn RRY_Xenomorph_FaceHugger55164 driver=JobDriver_Wait (toilIndex=0) driver.job=(Wait (Job_139064))
-System.NullReferenceException: Object reference not set to an instance of an object
-[Ref 2BEE724E] Duplicate stacktrace, see ref for original
-An error occurred while starting an error recover job. We have to stop now to avoid infinite loops. This means that the pawn is now jobless which can cause further bugs. pawn=RRY_Xenomorph_FaceHugger55164
-queen can reach eggsite
-queen can reach eggsite
-queen can reach eggsite
-queen can reach eggsite
-Deep-saving discarded thing RRY_FacehuggerMask55233. This mode means that the thing is no longer managed by anything in the code and should not be deep-saved anywhere. (even with saveDestroyedThings==true) , label=li
-Deep-saving discarded thing RRY_FacehuggerMask53723. This mode means that the thing is no longer managed by anything in the code and should not be deep-saved anywhere. (even with saveDestroyedThings==true) , label=li
-Deep-saving discarded thing RRY_FacehuggerMask53737. This mode means that the thing is no longer managed by anything in the code and should not be deep-saved anywhere. (even with saveDestroyedThings==true) , label=li
-Wrote screenshot C:\Users\clint\AppData\LocalLow\Ludeon Studios\RimWorld by Ludeon Studios\RimSaves\Previews\Autosave-1.dat of size 156506
-queen can reach eggsite
-Exception in RimWorld.ThinkNode_ConditionalFacehuggerFertile TryIssueJobPackage: System.NullReferenceException: Object reference not set to an instance of an object
-[Ref C1CCA1B9] Duplicate stacktrace, see ref for original
-Exception in Verse.AI.ThinkNode_Tagger TryIssueJobPackage: System.NullReferenceException: Object reference not set to an instance of an object
-[Ref B3A85BBC] Duplicate stacktrace, see ref for original
-JobDriver threw exception in toil MakeNewToils's initAction for pawn RRY_Xenomorph_FaceHugger55140 driver=JobDriver_Wait (toilIndex=0) driver.job=(Wait_Wander (Job_143118) Giver = JobGiver_WanderAnywhere [workGiverDef: null])
-System.NullReferenceException: Object reference not set to an instance of an object
-[Ref 2BEE724E] Duplicate stacktrace, see ref for original
-JobDriver threw exception in toil MakeNewToils's initAction for pawn RRY_Xenomorph_FaceHugger55140 driver=JobDriver_Wait (toilIndex=0) driver.job=(Wait (Job_143119))
-System.NullReferenceException: Object reference not set to an instance of an object
-[Ref 2BEE724E] Duplicate stacktrace, see ref for original
-An error occurred while starting an error recover job. We have to stop now to avoid infinite loops. This means that the pawn is now jobless which can cause further bugs. pawn=RRY_Xenomorph_FaceHugger55140
-Exception in RimWorld.ThinkNode_ConditionalFacehuggerFertile TryIssueJobPackage: System.NullReferenceException: Object reference not set to an instance of an object
-[Ref C1CCA1B9] Duplicate stacktrace, see ref for original
-Exception in Verse.AI.ThinkNode_Tagger TryIssueJobPackage: System.NullReferenceException: Object reference not set to an instance of an object
-[Ref B3A85BBC] Duplicate stacktrace, see ref for original
-JobDriver threw exception in toil MakeNewToils's initAction for pawn RRY_Xenomorph_FaceHugger55128 driver=JobDriver_Wait (toilIndex=0) driver.job=(Wait_Wander (Job_143443) Giver = JobGiver_WanderAnywhere [workGiverDef: null])
-System.NullReferenceException: Object reference not set to an instance of an object
-[Ref 2BEE724E] Duplicate stacktrace, see ref for original
-JobDriver threw exception in toil MakeNewToils's initAction for pawn RRY_Xenomorph_FaceHugger55128 driver=JobDriver_Wait (toilIndex=0) driver.job=(Wait (Job_143444))
-System.NullReferenceException: Object reference not set to an instance of an object
-[Ref 2BEE724E] Duplicate stacktrace, see ref for original
-An error occurred while starting an error recover job. We have to stop now to avoid infinite loops. This means that the pawn is now jobless which can cause further bugs. pawn=RRY_Xenomorph_FaceHugger55128
-Exception in RimWorld.ThinkNode_ConditionalFacehuggerFertile TryIssueJobPackage: System.NullReferenceException: Object reference not set to an instance of an object
-[Ref C1CCA1B9] Duplicate stacktrace, see ref for original
-Exception in Verse.AI.ThinkNode_Tagger TryIssueJobPackage: System.NullReferenceException: Object reference not set to an instance of an object
-[Ref B3A85BBC] Duplicate stacktrace, see ref for original
-JobDriver threw exception in toil MakeNewToils's initAction for pawn RRY_Xenomorph_FaceHugger53207 driver=JobDriver_Wait (toilIndex=0) driver.job=(Wait_Wander (Job_143730) Giver = JobGiver_WanderAnywhere [workGiverDef: null])
-System.NullReferenceException: Object reference not set to an instance of an object
-[Ref 2BEE724E] Duplicate stacktrace, see ref for original
-JobDriver threw exception in toil MakeNewToils's initAction for pawn RRY_Xenomorph_FaceHugger53207 driver=JobDriver_Wait (toilIndex=0) driver.job=(Wait (Job_143731))
-System.NullReferenceException: Object reference not set to an instance of an object
-[Ref 2BEE724E] Duplicate stacktrace, see ref for original
-An error occurred while starting an error recover job. We have to stop now to avoid infinite loops. This means that the pawn is now jobless which can cause further bugs. pawn=RRY_Xenomorph_FaceHugger53207
-Exception in RimWorld.ThinkNode_ConditionalFacehuggerFertile TryIssueJobPackage: System.NullReferenceException: Object reference not set to an instance of an object
-[Ref C1CCA1B9] Duplicate stacktrace, see ref for original
-JobDriver threw exception in toil MakeNewToils's initAction for pawn RRY_Xenomorph_FaceHugger55215 driver=JobDriver_Wait (toilIndex=0) driver.job=(Wait_Wander (Job_144365) Giver = JobGiver_WanderAnywhere [workGiverDef: null])
-System.NullReferenceException: Object reference not set to an instance of an object
-[Ref 2BEE724E] Duplicate stacktrace, see ref for original
-JobDriver threw exception in toil MakeNewToils's initAction for pawn RRY_Xenomorph_FaceHugger55215 driver=JobDriver_Wait (toilIndex=0) driver.job=(Wait (Job_144366))
-System.NullReferenceException: Object reference not set to an instance of an object
-[Ref 2BEE724E] Duplicate stacktrace, see ref for original
-An error occurred while starting an error recover job. We have to stop now to avoid infinite loops. This means that the pawn is now jobless which can cause further bugs. pawn=RRY_Xenomorph_FaceHugger55215
-[AVP Xenomorphs] [Mask] Drawing mask for Boomalope 3 (royal=False) (tick 429627)
-[AVP Xenomorphs] [Mask] Drawing mask for Boomalope 3 (royal=False) (tick 429877)
-queen can reach eggsite
-[AVP Xenomorphs] [Mask] Drawing mask for Boomalope 3 (royal=False) (tick 430127)
-[AVP Xenomorphs] [Mask] Drawing mask for Boomalope 3 (royal=False) (tick 430377)
-[AVP Xenomorphs] [Mask] Drawing mask for Boomalope 3 (royal=False) (tick 430627)
-[AVP Xenomorphs] [Mask] Drawing mask for Boomalope 3 (royal=False) (tick 430877)
-[AVP Xenomorphs] [Mask] Drawing mask for Boomalope 3 (royal=False) (tick 431127)
-[AVP Xenomorphs] [Mask] Drawing mask for Boomalope 3 (royal=False) (tick 431377)
-[AVP Xenomorphs] [Mask] Drawing mask for Boomalope 3 (royal=False) (tick 431627)
-[AVP Xenomorphs] [Mask] Drawing mask for Boomalope 3 (royal=False) (tick 431902)
-[AVP Xenomorphs] [Mask] Drawing mask for Boomalope 3 (royal=False) (tick 432152)
-[AVP Xenomorphs] [Mask] Drawing mask for Boomalope 3 (royal=False) (tick 432402)
-[AVP Xenomorphs] [Mask] Drawing mask for Boomalope 3 (royal=False) (tick 432652)
-[AVP Xenomorphs] [Mask] Drawing mask for Boomalope 3 (royal=False) (tick 432902)
-queen can reach eggsite
-[AVP Xenomorphs] [Spawn] Chestburster spawned: Warrior faction=a Xenomorph hive (tick 438222)
-Error while killing Helbig during phase 6: System.NullReferenceException: Object reference not set to an instance of an object
-[Ref 27EEEC48] Duplicate stacktrace, see ref for original
-RandomElementByWeight with totalWeight=0 - use TryRandomElementByWeight.
-RandomElementByWeight with totalWeight=0 - use TryRandomElementByWeight.
-RandomElementByWeight with totalWeight=0 - use TryRandomElementByWeight.
-RandomElementByWeight with totalWeight=0 - use TryRandomElementByWeight.
-RandomElementByWeight with totalWeight=0 - use TryRandomElementByWeight.
-RandomElementByWeight with totalWeight=0 - use TryRandomElementByWeight.
-RandomElementByWeight with totalWeight=0 - use TryRandomElementByWeight.
-RandomElementByWeight with totalWeight=0 - use TryRandomElementByWeight.
-RandomElementByWeight with totalWeight=0 - use TryRandomElementByWeight.
-RandomElementByWeight with totalWeight=0 - use TryRandomElementByWeight.
-queen can reach eggsite
-Exception in Verse.AI.ThinkNode_Tagger TryIssueJobPackage: System.NullReferenceException: Object reference not set to an instance of an object
-[Ref B3A85BBC] Duplicate stacktrace, see ref for original
-JobDriver threw exception in toil MakeNewToils's initAction for pawn RRY_Xenomorph_FaceHugger55164 driver=JobDriver_Wait (toilIndex=0) driver.job=(Wait_Wander (Job_149133) Giver = JobGiver_WanderAnywhere [workGiverDef: null])
-System.NullReferenceException: Object reference not set to an instance of an object
-[Ref 2BEE724E] Duplicate stacktrace, see ref for original
-JobDriver threw exception in toil MakeNewToils's initAction for pawn RRY_Xenomorph_FaceHugger55164 driver=JobDriver_Wait (toilIndex=0) driver.job=(Wait (Job_149134))
-System.NullReferenceException: Object reference not set to an instance of an object
-[Ref 2BEE724E] Duplicate stacktrace, see ref for original
-An error occurred while starting an error recover job. We have to stop now to avoid infinite loops. This means that the pawn is now jobless which can cause further bugs. pawn=RRY_Xenomorph_FaceHugger55164
-Exception in RimWorld.ThinkNode_ConditionalFacehuggerFertile TryIssueJobPackage: System.NullReferenceException: Object reference not set to an instance of an object
-[Ref C1CCA1B9] Duplicate stacktrace, see ref for original
-Exception in Verse.AI.ThinkNode_Tagger TryIssueJobPackage: System.NullReferenceException: Object reference not set to an instance of an object
-[Ref B3A85BBC] Duplicate stacktrace, see ref for original
-JobDriver threw exception in toil MakeNewToils's initAction for pawn RRY_Xenomorph_FaceHugger55200 driver=JobDriver_Wait (toilIndex=0) driver.job=(Wait_Wander (Job_150274) Giver = JobGiver_WanderAnywhere [workGiverDef: null])
-System.NullReferenceException: Object reference not set to an instance of an object
-[Ref 2BEE724E] Duplicate stacktrace, see ref for original
-JobDriver threw exception in toil MakeNewToils's initAction for pawn RRY_Xenomorph_FaceHugger55200 driver=JobDriver_Wait (toilIndex=0) driver.job=(Wait (Job_150275))
-System.NullReferenceException: Object reference not set to an instance of an object
-[Ref 2BEE724E] Duplicate stacktrace, see ref for original
-An error occurred while starting an error recover job. We have to stop now to avoid infinite loops. This means that the pawn is now jobless which can cause further bugs. pawn=RRY_Xenomorph_FaceHugger55200
-[AVP Xenomorphs] [Mask] Drawing mask for Boomalope 3 (royal=False) (tick 448193)
-[AVP Xenomorphs] [Kidnap] Queen targeting Codex (1/3 drones) (tick 453282)
-Tried to destroy already-destroyed thing RRY_FacehuggerMask55233
-Tried to destroy already-destroyed thing RRY_FacehuggerMask55233
-Tried to destroy already-destroyed thing RRY_FacehuggerMask55233
-Tried to destroy already-destroyed thing RRY_FacehuggerMask55233
-Tried to destroy already-destroyed thing RRY_FacehuggerMask55233
-Tried to destroy already-destroyed thing RRY_FacehuggerMask55233
-Tried to destroy already-destroyed thing RRY_FacehuggerMask55233
-Tried to destroy already-destroyed thing RRY_FacehuggerMask55233
-Tried to destroy already-destroyed thing RRY_FacehuggerMask55233
-Tried to destroy already-destroyed thing RRY_FacehuggerMask55233
-Tried to destroy already-destroyed thing RRY_FacehuggerMask55233
-Tried to destroy already-destroyed thing RRY_FacehuggerMask55233
-Tried to destroy already-destroyed thing RRY_FacehuggerMask55233
-Tried to destroy already-destroyed thing RRY_FacehuggerMask55233
-Tried to destroy already-destroyed thing RRY_FacehuggerMask55233
-Tried to destroy already-destroyed thing RRY_FacehuggerMask55233
-Tried to destroy already-destroyed thing RRY_FacehuggerMask55233
-Tried to destroy already-destroyed thing RRY_FacehuggerMask55233
-Tried to destroy already-destroyed thing RRY_FacehuggerMask55233
-Tried to destroy already-destroyed thing RRY_FacehuggerMask55233
-Tried to destroy already-destroyed thing RRY_FacehuggerMask55233
-Tried to destroy already-destroyed thing RRY_FacehuggerMask55233
-Tried to destroy already-destroyed thing RRY_FacehuggerMask55233
-Tried to destroy already-destroyed thing RRY_FacehuggerMask55233
-Tried to destroy already-destroyed thing RRY_FacehuggerMask55233
-Tried to destroy already-destroyed thing RRY_FacehuggerMask55233
-Tried to destroy already-destroyed thing RRY_FacehuggerMask55233
-Tried to destroy already-destroyed thing RRY_FacehuggerMask55233
-Tried to destroy already-destroyed thing RRY_FacehuggerMask55233
-Tried to destroy already-destroyed thing RRY_FacehuggerMask55233
-Tried to destroy already-destroyed thing RRY_FacehuggerMask55233
-Tried to destroy already-destroyed thing RRY_FacehuggerMask55233
-Tried to destroy already-destroyed thing RRY_FacehuggerMask55233
-Tried to destroy already-destroyed thing RRY_FacehuggerMask55233
-Tried to destroy already-destroyed thing RRY_FacehuggerMask55233
-Tried to destroy already-destroyed thing RRY_FacehuggerMask55233
-Tried to destroy already-destroyed thing RRY_FacehuggerMask55233
-Tried to destroy already-destroyed thing RRY_FacehuggerMask55233
-Tried to destroy already-destroyed thing RRY_FacehuggerMask55233
-Tried to destroy already-destroyed thing RRY_FacehuggerMask55233
-Tried to destroy already-destroyed thing RRY_FacehuggerMask55233
-Tried to destroy already-destroyed thing RRY_FacehuggerMask55233
-Tried to destroy already-destroyed thing RRY_FacehuggerMask55233
-Tried to destroy already-destroyed thing RRY_FacehuggerMask55233
-Tried to destroy already-destroyed thing RRY_FacehuggerMask55233
-Tried to destroy already-destroyed thing RRY_FacehuggerMask55233
-Tried to destroy already-destroyed thing RRY_FacehuggerMask55233
-Tried to destroy already-destroyed thing RRY_FacehuggerMask55233
-Tried to destroy already-destroyed thing RRY_FacehuggerMask55233
-Tried to destroy already-destroyed thing RRY_FacehuggerMask55233
-Tried to destroy already-destroyed thing RRY_FacehuggerMask55233
-Tried to destroy already-destroyed thing RRY_FacehuggerMask55233
-Tried to destroy already-destroyed thing RRY_FacehuggerMask55233
-Tried to destroy already-destroyed thing RRY_FacehuggerMask55233
-Tried to destroy already-destroyed thing RRY_FacehuggerMask55233
-Tried to destroy already-destroyed thing RRY_FacehuggerMask55233
-Tried to destroy already-destroyed thing RRY_FacehuggerMask55233
-Tried to destroy already-destroyed thing RRY_FacehuggerMask55233
-Tried to destroy already-destroyed thing RRY_FacehuggerMask55233
-Tried to destroy already-destroyed thing RRY_FacehuggerMask55233
-Tried to destroy already-destroyed thing RRY_FacehuggerMask55233
-Tried to destroy already-destroyed thing RRY_FacehuggerMask55233
-Tried to destroy already-destroyed thing RRY_FacehuggerMask55233
-Tried to destroy already-destroyed thing RRY_FacehuggerMask55233
-Tried to destroy already-destroyed thing RRY_FacehuggerMask55233
-Tried to destroy already-destroyed thing RRY_FacehuggerMask55233
-Tried to destroy already-destroyed thing RRY_FacehuggerMask55233
-Tried to destroy already-destroyed thing RRY_FacehuggerMask55233
-Tried to destroy already-destroyed thing RRY_FacehuggerMask55233
-Tried to destroy already-destroyed thing RRY_FacehuggerMask55233
-Tried to destroy already-destroyed thing RRY_FacehuggerMask55233
-Tried to destroy already-destroyed thing RRY_FacehuggerMask55233
-Tried to destroy already-destroyed thing RRY_FacehuggerMask55233
-Tried to destroy already-destroyed thing RRY_FacehuggerMask55233
-Tried to destroy already-destroyed thing RRY_FacehuggerMask55233
-Tried to destroy already-destroyed thing RRY_FacehuggerMask55233
-Tried to destroy already-destroyed thing RRY_FacehuggerMask55233
-Tried to destroy already-destroyed thing RRY_FacehuggerMask55233
-Tried to destroy already-destroyed thing RRY_FacehuggerMask55233
-Tried to destroy already-destroyed thing RRY_FacehuggerMask55233
-Tried to destroy already-destroyed thing RRY_FacehuggerMask55233
-Tried to destroy already-destroyed thing RRY_FacehuggerMask55233
-Tried to destroy already-destroyed thing RRY_FacehuggerMask55233
-Tried to destroy already-destroyed thing RRY_FacehuggerMask55233
-Tried to destroy already-destroyed thing RRY_FacehuggerMask55233
-Tried to destroy already-destroyed thing RRY_FacehuggerMask55233
-Tried to destroy already-destroyed thing RRY_FacehuggerMask55233
-Tried to destroy already-destroyed thing RRY_FacehuggerMask55233
-Tried to destroy already-destroyed thing RRY_FacehuggerMask55233
-Tried to destroy already-destroyed thing RRY_FacehuggerMask55233
-Tried to destroy already-destroyed thing RRY_FacehuggerMask55233
-Tried to destroy already-destroyed thing RRY_FacehuggerMask55233
-Tried to destroy already-destroyed thing RRY_FacehuggerMask55233
-Tried to destroy already-destroyed thing RRY_FacehuggerMask55233
-Tried to destroy already-destroyed thing RRY_FacehuggerMask55233
-Tried to destroy already-destroyed thing RRY_FacehuggerMask55233
-Tried to destroy already-destroyed thing RRY_FacehuggerMask55233
-Tried to destroy already-destroyed thing RRY_FacehuggerMask55233
-Tried to destroy already-destroyed thing RRY_FacehuggerMask55233
+An error occurred while starting an error recover job. We have to stop now to avoid infinite loops. This means that the pawn is now jobless which can cause further bugs. pawn=RRY_Xenomorph_FaceHugger119695
