@@ -94,11 +94,15 @@ namespace RRYautja.settings
             }
 
             // Set stunFromEMP on all Xenomorph and Neomorph race defs (not XML-writable in 1.6)
-            foreach (var def in DefDatabase<ThingDef>.AllDefs)
+            var stunField = typeof(ThingDef).GetField("stunFromEMP", System.Reflection.BindingFlags.Public | System.Reflection.BindingFlags.NonPublic | System.Reflection.BindingFlags.Instance);
+            if (stunField != null)
             {
-                if (def.defName != null && (def.defName.StartsWith("RRY_Xenomorph") || def.defName.StartsWith("RRY_Neomorph")))
+                foreach (var def in DefDatabase<ThingDef>.AllDefs)
                 {
-                    try { def.stunFromEMP = true; } catch { }
+                    if (def.defName != null && (def.defName.StartsWith("RRY_Xenomorph") || def.defName.StartsWith("RRY_Neomorph")))
+                    {
+                        try { stunField.SetValue(def, true); } catch { }
+                    }
                 }
             }
         }
