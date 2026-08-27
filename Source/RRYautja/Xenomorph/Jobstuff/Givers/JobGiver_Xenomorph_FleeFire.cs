@@ -12,6 +12,7 @@ namespace RimWorld
         // Token: 0x06000433 RID: 1075 RVA: 0x0002D780 File Offset: 0x0002BB80
         protected override Job TryGiveJob(Pawn pawn)
         {
+            if (pawn == null || pawn.Map == null) return null;
             if (pawn.playerSettings != null && pawn.playerSettings.UsesConfigurableHostilityResponse)
             {
                 return null;

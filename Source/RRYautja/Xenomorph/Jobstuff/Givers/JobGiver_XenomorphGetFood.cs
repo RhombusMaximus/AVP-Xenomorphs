@@ -44,6 +44,7 @@ namespace RimWorld
         // Token: 0x060004FD RID: 1277 RVA: 0x000321F8 File Offset: 0x000305F8
         protected override Job TryGiveJob(Pawn pawn)
         {
+            if (pawn == null || pawn.Map == null) return null;
             Need_Food food = pawn.needs.food;
             LifeStageDef stage = pawn.ageTracker.CurLifeStage;
             

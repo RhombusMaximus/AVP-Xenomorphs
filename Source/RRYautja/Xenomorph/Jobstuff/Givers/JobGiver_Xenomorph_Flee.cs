@@ -13,6 +13,7 @@ namespace RimWorld
         // Token: 0x06000433 RID: 1075 RVA: 0x0002D780 File Offset: 0x0002BB80
         protected override Job TryGiveJob(Pawn pawn)
         {
+            if (pawn == null || pawn.Map == null) return null;
             if (pawn.ageTracker.CurLifeStageIndex == pawn.def.race.lifeStageAges.Count-1)
             {
                 return null;
@@ -99,6 +100,7 @@ namespace RimWorld
         // Token: 0x06000435 RID: 1077 RVA: 0x0002D9FC File Offset: 0x0002BDFC
         private Job FleeLargeFireJob(Pawn pawn)
         {
+            if (pawn?.Map == null) return null;
             List<Thing> list = pawn.Map.listerThings.ThingsInGroup(ThingRequestGroup.Fire);
             if (list.Count < 60)
             {

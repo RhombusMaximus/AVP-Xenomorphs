@@ -43,6 +43,7 @@ namespace RimWorld
         // Token: 0x060004D1 RID: 1233 RVA: 0x0003100C File Offset: 0x0002F40C
         protected override Job TryGiveJob(Pawn pawn)
         {
+            if (pawn == null || pawn.Map == null) return null;
             float Searchradius = HuntingRange;
             Map map = pawn.Map;
             IntVec3 c = IntVec3.Invalid;

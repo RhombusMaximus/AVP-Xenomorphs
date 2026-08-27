@@ -19,6 +19,7 @@ namespace RimWorld
 		// Token: 0x0600041B RID: 1051 RVA: 0x0002C940 File Offset: 0x0002AD40
 		protected override Job TryGiveJob(Pawn pawn)
 		{
+		    if (pawn == null || pawn.Map == null) return null;
 		    if (pawn.Faction == null) return null;
 		    ThingDef hiveDef = null;
 		    List<ThingDef_HiveLike> hivedefs = DefDatabase<ThingDef_HiveLike>.AllDefsListForReading.FindAll(x => x.Faction != null && x.Faction == pawn.Faction.def);
