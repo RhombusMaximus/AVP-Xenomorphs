@@ -23,21 +23,23 @@ namespace RRYautja
             {
                 var harmony = new Harmony("com.ogliss.rimworld.mod.rryatuja.maskoffset");
 
-                // Patch PawnRenderTree.Draw — this is the main draw method
-                var drawMethod = AccessTools.Method(typeof(PawnRenderTree), "Draw");
-                if (drawMethod != null)
-                {
-                    harmony.Patch(drawMethod, prefix: new HarmonyMethod(typeof(FacehuggerMaskOffsetPatch), nameof(DrawPrefix)), postfix: new HarmonyMethod(typeof(FacehuggerMaskOffsetPatch), nameof(DrawPostfix)));
-                    AvPDebug.LogOnce("MaskOffset", "[AVP Xenomorphs] Patched PawnRenderTree.Draw for mask offset");
-                }
+                // PawnRenderTree.Draw — track which pawn is being drawn
+                // DISABLED — not needed, was causing per-frame overhead
+                // var drawMethod = AccessTools.Method(typeof(PawnRenderTree), "Draw");
+                // if (drawMethod != null)
+                // {
+                //     harmony.Patch(drawMethod, prefix: new HarmonyMethod(typeof(FacehuggerMaskOffsetPatch), nameof(DrawPrefix)), postfix: new HarmonyMethod(typeof(FacehuggerMaskOffsetPatch), nameof(DrawPostfix)));
+                //     AvPDebug.LogOnce("MaskOffset", "[AVP Xenomorphs] Patched PawnRenderTree.Draw for mask offset");
+                // }
 
-                // Patch PawnRenderNode.TryGetAnimationOffset
-                var offsetMethod = AccessTools.Method(typeof(PawnRenderNode), "TryGetAnimationOffset");
-                if (offsetMethod != null)
-                {
-                    harmony.Patch(offsetMethod, postfix: new HarmonyMethod(typeof(FacehuggerMaskOffsetPatch), nameof(TryGetAnimationOffsetPostfix)));
-                    AvPDebug.LogOnce("MaskOffset2", "[AVP Xenomorphs] Patched PawnRenderNode.TryGetAnimationOffset for mask offset");
-                }
+                // PawnRenderNode.TryGetAnimationOffset — offset mask to face
+                // DISABLED — not working (mask stays on head), was causing per-frame overhead
+                // var offsetMethod = AccessTools.Method(typeof(PawnRenderNode), "TryGetAnimationOffset");
+                // if (offsetMethod != null)
+                // {
+                //     harmony.Patch(offsetMethod, postfix: new HarmonyMethod(typeof(FacehuggerMaskOffsetPatch), nameof(TryGetAnimationOffsetPostfix)));
+                //     AvPDebug.LogOnce("MaskOffset2", "[AVP Xenomorphs] Patched PawnRenderNode.TryGetAnimationOffset for mask offset");
+                // }
 
                 // Patch Pawn.DrawAt to draw mask overlay manually at face position
                 // DISABLED — was causing persistent mask graphic after detach
