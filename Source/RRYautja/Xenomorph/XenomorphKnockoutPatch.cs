@@ -21,12 +21,12 @@ namespace RRYautja
             {
                 var harmony = new Harmony("com.ogliss.rimworld.mod.rryatuja.knockout");
 
-                // Patch Pawn.TakeDamage — guaranteed to have a body in all RimWorld versions
-                var method = AccessTools.Method(typeof(Pawn), "TakeDamage");
+                // Patch Thing.TakeDamage — Pawn.TakeDamage is not directly patchable in 1.6
+                var method = AccessTools.Method(typeof(Thing), "TakeDamage");
                 if (method != null)
                 {
                     harmony.Patch(method, postfix: new HarmonyMethod(typeof(XenomorphKnockoutPatch), nameof(TakeDamagePostfix)));
-                    AvPDebug.LogOnce("KnockoutPatch", "[AVP Xenomorphs] Patched Pawn.TakeDamage for knockout chance");
+                    AvPDebug.LogOnce("KnockoutPatch", "[AVP Xenomorphs] Patched Thing.TakeDamage for knockout chance");
                 }
                 else
                 {
@@ -43,12 +43,12 @@ namespace RRYautja
         /// Postfix on Pawn.TakeDamage — after damage is applied,
         /// check if the attacker is a Drone/Warrior and apply knockout 25% of the time.
         /// </summary>
-        public static void TakeDamagePostfix(Pawn __instance, ref DamageInfo dinfo)
+        public static void TakeDamagePostfix(Thing __instance, ref DamageInfo dinfo)
         {
             try
             {
-                // Only process melee damage
-                if (dinfo.Def == null) return;
+                // Only process pawns
+                if (!(__instance is Pawn victim)) return;
 
                 Pawn attacker = dinfo.Instigator as Pawn;
                 if (attacker == null) return;
@@ -59,13 +59,13 @@ namespace RRYautja
                 if (defName != "RRY_Xenomorph_Drone" && defName != "RRY_Xenomorph_Warrior") return;
 
                 // Only on living, non-downed targets
-                if (__instance.Dead || __instance.Downed) return;
+                if (victim.Dead || victim.Downed) return;
 
                 // 25% chance to knock out
                 if (Rand.Chance(0.25f))
                 {
-                    __instance.health.AddHediff(XenomorphDefOf.RRY_Hediff_Anesthetic);
-                    AvPDebug.Log("Knockout", attacker.LabelShort + " knocked out " + __instance.LabelShort);
+                    victim.health.AddHediff(XenomorphDefOf.RRY_Hediff_Anesthetic);
+                    AvPDebug.Log("Knockout", attacker.LabelShort + " knocked out " + victim.LabelShort);
                 }
             }
             catch (Exception e)

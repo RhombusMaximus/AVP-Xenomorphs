@@ -292,6 +292,8 @@ namespace RRYautja
 
         public override void Notify_PawnDied(DamageInfo? dinfo, Hediff culprit = null)
         {
+            // Remove mask apparel before removing the hediff
+            RemoveMaskApparel();
             Pawn.health.RemoveHediff(this.parent);
             base.Notify_PawnDied(dinfo, culprit);
         }
