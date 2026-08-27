@@ -22,7 +22,9 @@ namespace RimWorld
         // Token: 0x060005B7 RID: 1463 RVA: 0x00037A28 File Offset: 0x00035E28
         protected override Job TryGiveJob(Pawn pawn)
         {
+            if (pawn?.Map == null) return null;
             Comp_Facehugger _Facehugger = pawn.TryGetComp<Comp_Facehugger>();
+            if (_Facehugger == null) return null;
             bool selected = Find.Selector.SingleSelectedThing == pawn;
             if (pawn.TryGetAttackVerb(null, false) == null)
             {
@@ -77,10 +79,12 @@ namespace RimWorld
         // Token: 0x060005B9 RID: 1465 RVA: 0x00037BC0 File Offset: 0x00035FC0
         private Pawn FindPawnTarget(Pawn pawn)
         {
+            if (pawn?.Map == null) return null;
             Predicate<Thing> validator = delegate (Thing x)
             {
                 Pawn p = (Pawn)x;
-            if (pawn.jobs.debugLog) pawn.jobs.DebugLogEvent(string.Format("{0}\nisInfectablePawn: {1}, Alive: {2}", pawn.LabelShortCap, p.isPotentialHost(), !p.Dead));
+                if (p == null) return false;
+                if (pawn.jobs.debugLog) pawn.jobs.DebugLogEvent(string.Format("{0}\nisInfectablePawn: {1}, Alive: {2}", pawn.LabelShortCap, p.isPotentialHost(), !p.Dead));
                 return p.isPotentialHost();
             };
             Pawn pawn2 = (Pawn)XenomorphTargetFinder.BestAttackTarget(pawn, TargetScanFlags.NeedReachable, validator, 0f, HuntingRange, pawn.Position, float.MaxValue, true, true);
