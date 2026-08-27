@@ -245,7 +245,7 @@ System.Threading.ExecutionContext:Run (System.Threading.ExecutionContext,System.
 System.Threading.ExecutionContext:Run (System.Threading.ExecutionContext,System.Threading.ContextCallback,object)
 System.Threading.ThreadHelper:ThreadStart ()
 
-<color=#66ffb5>[MeleeAnim]</color> Scanning 81 mods for animation data...
+<color=#66ffb5>[MeleeAnim]</color> Scanning 96 mods for animation data...
 UnityEngine.StackTraceUtility:ExtractStackTrace ()
 Verse.Log:Message (string)
 AM.Core:Log (string)
@@ -446,6 +446,18 @@ Verse.LongEventHandler:LongEventsUpdate (bool&)
 (wrapper dynamic-method) MonoMod.Utils.DynamicMethodDefinition:Verse.Root.Update_Patch1 (Verse.Root)
 Verse.Root_Entry:Update ()
 
+Could not execute post-long-event action. Exception: System.NullReferenceException: Object reference not set to an instance of an object
+[Ref D931580]
+  at AlienRace.ThingDef_AlienRace.<ResolveReferences>b__1_1 () [0x00037] in C:\Program Files (x86)\Steam\steamapps\common\RimWorld\Mods\AlienRaces\Source\AlienRace\AlienRace\ThingDef_AlienRace.cs:282 
+  at ilyvion.LoadingProgress.LongEventHandler_ExecuteToExecuteWhenFinished_Patches+<ExecuteToExecuteWhenFinished>d__3.MoveNext () [0x00590] in /home/runner/work/loading-progress/loading-progress/Source/ilyvion.LoadingProgress/LongEventHandler_ExecuteToExecuteWhenFinished_Patches.cs:263 
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+(wrapper dynamic-method) MonoMod.Utils.DynamicMethodDefinition:Verse.Log.Error_Patch2 (string)
+ilyvion.LoadingProgress.LongEventHandler_ExecuteToExecuteWhenFinished_Patches/<ExecuteToExecuteWhenFinished>d__3:MoveNext () (at /home/runner/work/loading-progress/loading-progress/Source/ilyvion.LoadingProgress/LongEventHandler_ExecuteToExecuteWhenFinished_Patches.cs:281)
+Verse.LongEventHandler:UpdateCurrentEnumeratorEvent ()
+Verse.LongEventHandler:LongEventsUpdate (bool&)
+(wrapper dynamic-method) MonoMod.Utils.DynamicMethodDefinition:Verse.Root.Update_Patch1 (Verse.Root)
+Verse.Root_Entry:Update ()
+
 Translation data for language English has 4 errors. Generate translation report for more info.
 UnityEngine.StackTraceUtility:ExtractStackTrace ()
 Verse.Log:Warning (string)
@@ -482,7 +494,7 @@ Verse.LongEventHandler:LongEventsUpdate (bool&)
 Verse.Root_Entry:Update ()
 
 Xenomorph Host System Loaded
-158 Possible Hosts out of 335 Races detected: Race Setting init
+250 Possible Hosts out of 433 Races detected: Race Setting init
 UnityEngine.StackTraceUtility:ExtractStackTrace ()
 Verse.Log:Message (string)
 RRYautja.Xenomorph.XenomorphHostSystem:.cctor ()
@@ -504,7 +516,7 @@ Verse.LongEventHandler:LongEventsUpdate (bool&)
 (wrapper dynamic-method) MonoMod.Utils.DynamicMethodDefinition:Verse.Root.Update_Patch1 (Verse.Root)
 Verse.Root_Entry:Update ()
 
-Alien race successfully completed 280 patches (50 pre, 82 post, 148 trans) with harmony.
+Alien race successfully completed 286 patches (50 pre, 88 post, 148 trans) with harmony.
 UnityEngine.StackTraceUtility:ExtractStackTrace ()
 Verse.Log:Message (string)
 AlienRace.HarmonyPatches:.cctor () (at C:/Program Files (x86)/Steam/steamapps/common/RimWorld/Mods/AlienRaces/Source/AlienRace/AlienRace/HarmonyPatches.cs:407)
@@ -812,6 +824,105 @@ Verse.LongEventHandler:LongEventsUpdate (bool&)
 (wrapper dynamic-method) MonoMod.Utils.DynamicMethodDefinition:Verse.Root.Update_Patch1 (Verse.Root)
 Verse.Root_Entry:Update ()
 
+# Real Faction Guest Event Controller - Init Complete
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+Verse.Log:Message (string)
+EventController_rQP.Init:.cctor ()
+System.Runtime.CompilerServices.RuntimeHelpers:RunClassConstructor (System.RuntimeTypeHandle)
+ilyvion.LoadingProgress.StaticConstructorOnStartupUtilityReplacement/<CallAll>d__2:MoveNext () (at /home/runner/work/loading-progress/loading-progress/Source/ilyvion.LoadingProgress/StaticConstructorOnStartupUtilityReplacement.cs:42)
+Verse.LongEventHandler:UpdateCurrentEnumeratorEvent ()
+Verse.LongEventHandler:LongEventsUpdate (bool&)
+(wrapper dynamic-method) MonoMod.Utils.DynamicMethodDefinition:Verse.Root.Update_Patch1 (Verse.Root)
+Verse.Root_Entry:Update ()
+
+# Real Faction Guest - Faction Filter Init Complete
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+Verse.Log:Message (string)
+EventController_rQP.FactionFilter_Init:.cctor ()
+System.Runtime.CompilerServices.RuntimeHelpers:RunClassConstructor (System.RuntimeTypeHandle)
+ilyvion.LoadingProgress.StaticConstructorOnStartupUtilityReplacement/<CallAll>d__2:MoveNext () (at /home/runner/work/loading-progress/loading-progress/Source/ilyvion.LoadingProgress/StaticConstructorOnStartupUtilityReplacement.cs:42)
+Verse.LongEventHandler:UpdateCurrentEnumeratorEvent ()
+Verse.LongEventHandler:LongEventsUpdate (bool&)
+(wrapper dynamic-method) MonoMod.Utils.DynamicMethodDefinition:Verse.Root.Update_Patch1 (Verse.Root)
+Verse.Root_Entry:Update ()
+
+# Real Faction Guest - Initiation Complete
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+Verse.Log:Message (string)
+raceQuestPawn.Core:.cctor ()
+System.Runtime.CompilerServices.RuntimeHelpers:RunClassConstructor (System.RuntimeTypeHandle)
+ilyvion.LoadingProgress.StaticConstructorOnStartupUtilityReplacement/<CallAll>d__2:MoveNext () (at /home/runner/work/loading-progress/loading-progress/Source/ilyvion.LoadingProgress/StaticConstructorOnStartupUtilityReplacement.cs:42)
+Verse.LongEventHandler:UpdateCurrentEnumeratorEvent ()
+Verse.LongEventHandler:LongEventsUpdate (bool&)
+(wrapper dynamic-method) MonoMod.Utils.DynamicMethodDefinition:Verse.Root.Update_Patch1 (Verse.Root)
+Verse.Root_Entry:Update ()
+
+[RelevantStatsInDescription]: Skipping dps-calculation of Mortar as it has no default projectile defined
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+Verse.Log:Message (string)
+RelevantStatsInDescription.RelevantStatsInDescription:.cctor ()
+System.Runtime.CompilerServices.RuntimeHelpers:RunClassConstructor (System.RuntimeTypeHandle)
+ilyvion.LoadingProgress.StaticConstructorOnStartupUtilityReplacement/<CallAll>d__2:MoveNext () (at /home/runner/work/loading-progress/loading-progress/Source/ilyvion.LoadingProgress/StaticConstructorOnStartupUtilityReplacement.cs:42)
+Verse.LongEventHandler:UpdateCurrentEnumeratorEvent ()
+Verse.LongEventHandler:LongEventsUpdate (bool&)
+(wrapper dynamic-method) MonoMod.Utils.DynamicMethodDefinition:Verse.Root.Update_Patch1 (Verse.Root)
+Verse.Root_Entry:Update ()
+
+[RelevantStatsInDescription]: Skipping dps-calculation of Foam turret as its projectile does not cause damage to health
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+Verse.Log:Message (string)
+RelevantStatsInDescription.RelevantStatsInDescription:.cctor ()
+System.Runtime.CompilerServices.RuntimeHelpers:RunClassConstructor (System.RuntimeTypeHandle)
+ilyvion.LoadingProgress.StaticConstructorOnStartupUtilityReplacement/<CallAll>d__2:MoveNext () (at /home/runner/work/loading-progress/loading-progress/Source/ilyvion.LoadingProgress/StaticConstructorOnStartupUtilityReplacement.cs:42)
+Verse.LongEventHandler:UpdateCurrentEnumeratorEvent ()
+Verse.LongEventHandler:LongEventsUpdate (bool&)
+(wrapper dynamic-method) MonoMod.Utils.DynamicMethodDefinition:Verse.Root.Update_Patch1 (Verse.Root)
+Verse.Root_Entry:Update ()
+
+[RelevantStatsInDescription]: Skipping dps-calculation of Cannon as it has no default projectile defined
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+Verse.Log:Message (string)
+RelevantStatsInDescription.RelevantStatsInDescription:.cctor ()
+System.Runtime.CompilerServices.RuntimeHelpers:RunClassConstructor (System.RuntimeTypeHandle)
+ilyvion.LoadingProgress.StaticConstructorOnStartupUtilityReplacement/<CallAll>d__2:MoveNext () (at /home/runner/work/loading-progress/loading-progress/Source/ilyvion.LoadingProgress/StaticConstructorOnStartupUtilityReplacement.cs:42)
+Verse.LongEventHandler:UpdateCurrentEnumeratorEvent ()
+Verse.LongEventHandler:LongEventsUpdate (bool&)
+(wrapper dynamic-method) MonoMod.Utils.DynamicMethodDefinition:Verse.Root.Update_Patch1 (Verse.Root)
+Verse.Root_Entry:Update ()
+
+[RelevantStatsInDescription]: Skipping dps-calculation of EMP lobber turret as its projectile does not cause damage to health
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+Verse.Log:Message (string)
+RelevantStatsInDescription.RelevantStatsInDescription:.cctor ()
+System.Runtime.CompilerServices.RuntimeHelpers:RunClassConstructor (System.RuntimeTypeHandle)
+ilyvion.LoadingProgress.StaticConstructorOnStartupUtilityReplacement/<CallAll>d__2:MoveNext () (at /home/runner/work/loading-progress/loading-progress/Source/ilyvion.LoadingProgress/StaticConstructorOnStartupUtilityReplacement.cs:42)
+Verse.LongEventHandler:UpdateCurrentEnumeratorEvent ()
+Verse.LongEventHandler:LongEventsUpdate (bool&)
+(wrapper dynamic-method) MonoMod.Utils.DynamicMethodDefinition:Verse.Root.Update_Patch1 (Verse.Root)
+Verse.Root_Entry:Update ()
+
+[RelevantStatsInDescription]: Skipping dps-calculation of Incinerator turret as it has no default projectile defined
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+Verse.Log:Message (string)
+RelevantStatsInDescription.RelevantStatsInDescription:.cctor ()
+System.Runtime.CompilerServices.RuntimeHelpers:RunClassConstructor (System.RuntimeTypeHandle)
+ilyvion.LoadingProgress.StaticConstructorOnStartupUtilityReplacement/<CallAll>d__2:MoveNext () (at /home/runner/work/loading-progress/loading-progress/Source/ilyvion.LoadingProgress/StaticConstructorOnStartupUtilityReplacement.cs:42)
+Verse.LongEventHandler:UpdateCurrentEnumeratorEvent ()
+Verse.LongEventHandler:LongEventsUpdate (bool&)
+(wrapper dynamic-method) MonoMod.Utils.DynamicMethodDefinition:Verse.Root.Update_Patch1 (Verse.Root)
+Verse.Root_Entry:Update ()
+
+[RelevantStatsInDescription]: Skipping dps-calculation of Graser turret as it has no default projectile defined
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+Verse.Log:Message (string)
+RelevantStatsInDescription.RelevantStatsInDescription:.cctor ()
+System.Runtime.CompilerServices.RuntimeHelpers:RunClassConstructor (System.RuntimeTypeHandle)
+ilyvion.LoadingProgress.StaticConstructorOnStartupUtilityReplacement/<CallAll>d__2:MoveNext () (at /home/runner/work/loading-progress/loading-progress/Source/ilyvion.LoadingProgress/StaticConstructorOnStartupUtilityReplacement.cs:42)
+Verse.LongEventHandler:UpdateCurrentEnumeratorEvent ()
+Verse.LongEventHandler:LongEventsUpdate (bool&)
+(wrapper dynamic-method) MonoMod.Utils.DynamicMethodDefinition:Verse.Root.Update_Patch1 (Verse.Root)
+Verse.Root_Entry:Update ()
+
 (Research Tab Colors) Transpiler injected.
 UnityEngine.StackTraceUtility:ExtractStackTrace ()
 Verse.Log:Message (string)
@@ -972,6 +1083,14 @@ Verse.LongEventHandler:UpdateCurrentSynchronousEvent (bool&)
 Verse.LongEventHandler:LongEventsUpdate (bool&)
 (wrapper dynamic-method) MonoMod.Utils.DynamicMethodDefinition:Verse.Root.Update_Patch1 (Verse.Root)
 Verse.Root_Entry:Update ()
+
+Textures were not found for one or more extended graphics for Mechanent: RobotRace/Stump_Mechanent/SynthNeck
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+Verse.Log:Message (string)
+AlienRace.ExtendedGraphics.DefaultGraphicsLoader:LoadAllGraphics (string,AlienRace.AlienPartGenerator/ExtendedGraphicTop[]) (at C:/Program Files (x86)/Steam/steamapps/common/RimWorld/Mods/AlienRaces/Source/AlienRace/AlienRace/ExtendedGraphics/DefaultGraphicsLoader.cs:122)
+(wrapper dynamic-method) MonoMod.Utils.DynamicMethodDefinition:AlienRace.AlienPartGenerator.LoadGraphicsHook_Patch1 ()
+UnityEngine.BeforeRenderHelper:Invoke ()
+UnityEngine.Application:InvokeOnBeforeRender ()
 
 <color=#66ffb5>[MeleeAnim]</color> Potential patch conflicts (13):
 UnityEngine.StackTraceUtility:ExtractStackTrace ()
@@ -1202,7 +1321,7 @@ System.Threading.ExecutionContext:Run (System.Threading.ExecutionContext,System.
 System.Threading.ExecutionContext:Run (System.Threading.ExecutionContext,System.Threading.ContextCallback,object)
 System.Threading.ThreadHelper:ThreadStart ()
 
-<color=#66ffb5>[MeleeAnim]</color> PreCached all retexture info in 27.8ms
+<color=#66ffb5>[MeleeAnim]</color> PreCached all retexture info in 39.0ms
 UnityEngine.StackTraceUtility:ExtractStackTrace ()
 Verse.Log:Message (string)
 AM.Core:Log (string)
@@ -1213,10 +1332,21 @@ Verse.LongEventHandler:LongEventsUpdate (bool&)
 (wrapper dynamic-method) MonoMod.Utils.DynamicMethodDefinition:Verse.Root.Update_Patch1 (Verse.Root)
 Verse.Root_Entry:Update ()
 
-<color=#66ffb5>[MeleeAnim]</color> Loaded tweak data for 29 weapons.
+<color=#66ffb5>[MeleeAnim]</color> Loaded tweak data for 35 weapons.
 UnityEngine.StackTraceUtility:ExtractStackTrace ()
 Verse.Log:Message (string)
 AM.Core:Log (string)
+AM.Core:LoadAllTweakData ()
+AM.Core:<AddLateLoadEvents>b__28_1 ()
+Verse.LongEventHandler:UpdateCurrentSynchronousEvent (bool&)
+Verse.LongEventHandler:LongEventsUpdate (bool&)
+(wrapper dynamic-method) MonoMod.Utils.DynamicMethodDefinition:Verse.Root.Update_Patch1 (Verse.Root)
+Verse.Root_Entry:Update ()
+
+<color=#66ffb5>[MeleeAnim]</color> ogliss.avpxenomorphs 'AVP Xenomorphs' has 3 missing weapon tweak data.
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+Verse.Log:Warning (string)
+AM.Core:Warn (string)
 AM.Core:LoadAllTweakData ()
 AM.Core:<AddLateLoadEvents>b__28_1 ()
 Verse.LongEventHandler:UpdateCurrentSynchronousEvent (bool&)
@@ -1235,7 +1365,7 @@ Verse.LongEventHandler:LongEventsUpdate (bool&)
 (wrapper dynamic-method) MonoMod.Utils.DynamicMethodDefinition:Verse.Root.Update_Patch1 (Verse.Root)
 Verse.Root_Entry:Update ()
 
-<color=#66ffb5>[MeleeAnim]</color> ogliss.avpxenomorphs 'AVP Xenomorphs' has 3 missing weapon tweak data.
+<color=#66ffb5>[MeleeAnim]</color> tarojun.morishep.onioftherim 'Oni of the Rim' has 6 missing weapon tweak data.
 UnityEngine.StackTraceUtility:ExtractStackTrace ()
 Verse.Log:Warning (string)
 AM.Core:Warn (string)
@@ -1257,7 +1387,7 @@ Verse.LongEventHandler:LongEventsUpdate (bool&)
 (wrapper dynamic-method) MonoMod.Utils.DynamicMethodDefinition:Verse.Root.Update_Patch1 (Verse.Root)
 Verse.Root_Entry:Update ()
 
-<color=#66ffb5>[MeleeAnim]</color> Patched 3 classes that directly inherit from Verb_MeleeAttack in 57.3 ms to detect hits:
+<color=#66ffb5>[MeleeAnim]</color> Patched 3 classes that directly inherit from Verb_MeleeAttack in 58.1 ms to detect hits:
 RimWorld.Verb_MeleeApplyHediff from Assembly-CSharp
 RimWorld.Verb_MeleeAttackDamage from Assembly-CSharp
 RRYautja.Verb_MeleeAttackKnockback from RRYautja
@@ -1272,7 +1402,7 @@ Verse.LongEventHandler:LongEventsUpdate (bool&)
 (wrapper dynamic-method) MonoMod.Utils.DynamicMethodDefinition:Verse.Root.Update_Patch1 (Verse.Root)
 Verse.Root_Entry:Update ()
 
-<color=#66ffb5>[MeleeAnim]</color> Found 0 items of clothing that cover hands, took 0.65 ms:
+<color=#66ffb5>[MeleeAnim]</color> Found 0 items of clothing that cover hands, took 0.73 ms:
 
 UnityEngine.StackTraceUtility:ExtractStackTrace ()
 Verse.Log:Message (string)
@@ -1378,7 +1508,7 @@ CharacterEditor.CEditor:OnMainMenuOnGUI ()
 (wrapper dynamic-method) MonoMod.Utils.DynamicMethodDefinition:Verse.UIRoot_Entry.UIRootOnGUI_Patch1 (Verse.UIRoot_Entry)
 (wrapper dynamic-method) MonoMod.Utils.DynamicMethodDefinition:Verse.Root.OnGUI_Patch2 (Verse.Root)
 
-250 default entities for genes created
+254 default entities for genes created
 UnityEngine.StackTraceUtility:ExtractStackTrace ()
 Verse.Log:Message (string)
 CharacterEditor.Preset:CreateDefaults<CharacterEditor.PresetGene, Verse.GeneDef> (System.Collections.Generic.HashSet`1<Verse.GeneDef>,System.Func`2<Verse.GeneDef, string>,System.Func`2<Verse.GeneDef, CharacterEditor.PresetGene>,string)
@@ -1406,7 +1536,7 @@ CharacterEditor.CEditor:OnMainMenuOnGUI ()
 (wrapper dynamic-method) MonoMod.Utils.DynamicMethodDefinition:Verse.UIRoot_Entry.UIRootOnGUI_Patch1 (Verse.UIRoot_Entry)
 (wrapper dynamic-method) MonoMod.Utils.DynamicMethodDefinition:Verse.Root.OnGUI_Patch2 (Verse.Root)
 
-2364 default entities for objects created
+2606 default entities for objects created
 UnityEngine.StackTraceUtility:ExtractStackTrace ()
 Verse.Log:Message (string)
 CharacterEditor.Preset:CreateDefaults<CharacterEditor.PresetObject, Verse.ThingDef> (System.Collections.Generic.HashSet`1<Verse.ThingDef>,System.Func`2<Verse.ThingDef, string>,System.Func`2<Verse.ThingDef, CharacterEditor.PresetObject>,string)
@@ -1434,7 +1564,7 @@ CharacterEditor.CEditor:OnMainMenuOnGUI ()
 (wrapper dynamic-method) MonoMod.Utils.DynamicMethodDefinition:Verse.UIRoot_Entry.UIRootOnGUI_Patch1 (Verse.UIRoot_Entry)
 (wrapper dynamic-method) MonoMod.Utils.DynamicMethodDefinition:Verse.Root.OnGUI_Patch2 (Verse.Root)
 
-40 default entities for turrets created
+44 default entities for turrets created
 UnityEngine.StackTraceUtility:ExtractStackTrace ()
 Verse.Log:Message (string)
 CharacterEditor.Preset:CreateDefaults<CharacterEditor.PresetObject, Verse.ThingDef> (System.Collections.Generic.HashSet`1<Verse.ThingDef>,System.Func`2<Verse.ThingDef, string>,System.Func`2<Verse.ThingDef, CharacterEditor.PresetObject>,string)
