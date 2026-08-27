@@ -11,7 +11,7 @@ Direct3D:
     VRAM:     8042 MB
     Driver:   32.0.16.1088
 Begin MonoManager ReloadAssembly
-- Loaded All Assemblies, in  4.206 seconds
+- Loaded All Assemblies, in  0.152 seconds
 - Finished resetting the current domain, in  0.001 seconds
 <RI> Initializing input.
 
@@ -20,21 +20,21 @@ Begin MonoManager ReloadAssembly
 <RI> Initialized touch support.
 
 [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
-UnloadTime: 0.641900 ms
+UnloadTime: 0.655000 ms
 Command line arguments: -disable-compute-shaders
 RimWorld 1.6.4871 rev591
 Mod Realistic Humansounds HAR Patch dependency (Mlie.RealisticHumanSounds) needs to have <downloadUrl> and/or <steamWorkshopUrl> specified.
-Fallback handler could not load library D:/SteamLibrary/steamapps/common/RimWorld/RimWorldWin64_Data/MonoBleedingEdge/data-000001F8EB8F06F0.dll
-Fallback handler could not load library D:/SteamLibrary/steamapps/common/RimWorld/RimWorldWin64_Data/MonoBleedingEdge/data-000001F8EBB84140.dll
+Fallback handler could not load library D:/SteamLibrary/steamapps/common/RimWorld/RimWorldWin64_Data/MonoBleedingEdge/data-000002A7EE797010.dll
+Fallback handler could not load library D:/SteamLibrary/steamapps/common/RimWorld/RimWorldWin64_Data/MonoBleedingEdge/data-000002A7EE8E0180.dll
 [Loading Progress] Loading Progress initialized! Enjoy the rest of your loading experience!
 [HugsLib] version 12.0.0
 [HugsLib] early-initializing AllowTool
-Fallback handler could not load library D:/SteamLibrary/steamapps/common/RimWorld/RimWorldWin64_Data/MonoBleedingEdge/data-000001F8EDDFA040.dll
+Fallback handler could not load library D:/SteamLibrary/steamapps/common/RimWorld/RimWorldWin64_Data/MonoBleedingEdge/data-000002A7BB132AE0.dll
 DubsMintMenus v1.3.1086
 [Analyzer] Loaded version 1.6.0 rev 1
 [Analyzer] ResearchTree
 FPSStabilizer v1.1 loaded, patcher message: Patched successfully, fps set to 60
-Fallback handler could not load library D:/SteamLibrary/steamapps/common/RimWorld/RimWorldWin64_Data/MonoBleedingEdge/data-000001F8F2623D70.dll
+Fallback handler could not load library D:/SteamLibrary/steamapps/common/RimWorld/RimWorldWin64_Data/MonoBleedingEdge/data-000002A7F52D0DB0.dll
 <color=#66ffb5>[MeleeAnim]</color> Hello, world!
 Build date: 4/13/2026 8:02 AM
 Loaded assemblies (9):
@@ -99,7 +99,7 @@ NamesGalore: Current Lang English
 (Research Tab Colors) Transpiler injected.
 Unloading 5 Unused Serialized files (Serialized files now loaded: 5)
 Unloading 529 unused Assets to reduce memory usage. Loaded Objects now: 34107.
-Total: 269.855200 ms (FindLiveObjects: 1.927400 ms CreateObjectMapping: 1.142100 ms MarkObjects: 265.976100 ms  DeleteObjects: 0.809300 ms)
+Total: 261.950800 ms (FindLiveObjects: 1.815900 ms CreateObjectMapping: 2.034700 ms MarkObjects: 257.295200 ms  DeleteObjects: 0.804600 ms)
 
 MVCF successfully applied 41 patches
 [com.ogliss.rimworld.mod.rryatuja.minepatch] Patches on methods annotated as Obsolete were detected by HugsLib: RimWorld.Mineable.TrySpawnYield
@@ -284,25 +284,25 @@ Transpilers:
 Postfixes:
   [PeteTimesSix.SimpleSidearms] TryCastShot
 Unloading 2 Unused Serialized files (Serialized files now loaded: 7)
-<color=#66ffb5>[MeleeAnim]</color> PreCached all retexture info in 28.5ms
+<color=#66ffb5>[MeleeAnim]</color> PreCached all retexture info in 28.1ms
 <color=#66ffb5>[MeleeAnim]</color> Loaded tweak data for 29 weapons.
 <color=#66ffb5>[MeleeAnim]</color> ludeon.rimworld.odyssey 'Odyssey' has 2 missing weapon tweak data.
 <color=#66ffb5>[MeleeAnim]</color> ogliss.avpxenomorphs 'AVP Xenomorphs' has 3 missing weapon tweak data.
 <color=#66ffb5>[MeleeAnim]</color> Skipping reporting of missing mod/weapons because user opted out or the feature is disabled by the developer.
-<color=#66ffb5>[MeleeAnim]</color> Patched 3 classes that directly inherit from Verb_MeleeAttack in 58.5 ms to detect hits:
+<color=#66ffb5>[MeleeAnim]</color> Patched 3 classes that directly inherit from Verb_MeleeAttack in 56.6 ms to detect hits:
 RimWorld.Verb_MeleeApplyHediff from Assembly-CSharp
 RimWorld.Verb_MeleeAttackDamage from Assembly-CSharp
 RRYautja.Verb_MeleeAttackKnockback from RRYautja
-<color=#66ffb5>[MeleeAnim]</color> Found 0 items of clothing that cover hands, took 0.72 ms:
+<color=#66ffb5>[MeleeAnim]</color> Found 0 items of clothing that cover hands, took 0.71 ms:
 Unloading 55 unused Assets to reduce memory usage. Loaded Objects now: 34270.
-Total: 254.031900 ms (FindLiveObjects: 1.703000 ms CreateObjectMapping: 1.973100 ms MarkObjects: 250.231400 ms  DeleteObjects: 0.124000 ms)
+Total: 255.554700 ms (FindLiveObjects: 1.615200 ms CreateObjectMapping: 1.979100 ms MarkObjects: 251.833800 ms  DeleteObjects: 0.126300 ms)
 
 Unloading 0 Unused Serialized files (Serialized files now loaded: 7)
 Loading asset bundle MuzzleFlash.shaders-windows
 Loaded shader Unlit/AnimatedAdditiveInstanced
 [Muzzle Flash] Shader loaded from MuzzleFlash: Unlit/AnimatedAdditiveInstanced
 Unloading 0 unused Assets to reduce memory usage. Loaded Objects now: 34272.
-Total: 253.079300 ms (FindLiveObjects: 1.663100 ms CreateObjectMapping: 1.909900 ms MarkObjects: 249.458200 ms  DeleteObjects: 0.047600 ms)
+Total: 252.290500 ms (FindLiveObjects: 1.793300 ms CreateObjectMapping: 1.989600 ms MarkObjects: 248.450200 ms  DeleteObjects: 0.057000 ms)
 
 Unloading 0 Unused Serialized files (Serialized files now loaded: 8)
 [Loading Progress] Why is ResearchPal.Profiler.Start from ResearchPal 1.6 - Temp calling DeepProfiler.Start (and by extension our patch) with null?! Stop it.
@@ -313,11 +313,11 @@ Unloading 0 Unused Serialized files (Serialized files now loaded: 8)
 [Loading Progress] Why is ResearchPal.Profiler.Start from ResearchPal 1.6 - Temp calling DeepProfiler.Start (and by extension our patch) with null?! Stop it.
 ResearchPal :: Research layout initialized
 Unloading 0 unused Assets to reduce memory usage. Loaded Objects now: 34272.
-Total: 257.901800 ms (FindLiveObjects: 1.686400 ms CreateObjectMapping: 2.067400 ms MarkObjects: 254.100600 ms  DeleteObjects: 0.047100 ms)
+Total: 248.413100 ms (FindLiveObjects: 1.610800 ms CreateObjectMapping: 2.031300 ms MarkObjects: 244.723300 ms  DeleteObjects: 0.047500 ms)
 
 Unloading 0 Unused Serialized files (Serialized files now loaded: 8)
 Unloading 0 unused Assets to reduce memory usage. Loaded Objects now: 34272.
-Total: 259.248300 ms (FindLiveObjects: 2.210100 ms CreateObjectMapping: 2.122000 ms MarkObjects: 254.865800 ms  DeleteObjects: 0.050100 ms)
+Total: 255.702900 ms (FindLiveObjects: 2.119600 ms CreateObjectMapping: 2.129800 ms MarkObjects: 251.405000 ms  DeleteObjects: 0.048300 ms)
 
 [HugsLib] initializing TerraformRimworld
 CE is trying to create default parameter lists ...
@@ -334,13 +334,13 @@ FoldingTent modification loaded
 no modifications for lifestages
 ...done
 Unloading 2 Unused Serialized files (Serialized files now loaded: 8)
-Unloading 0 unused Assets to reduce memory usage. Loaded Objects now: 36392.
-Total: 307.344100 ms (FindLiveObjects: 2.004800 ms CreateObjectMapping: 1.292200 ms MarkObjects: 303.990400 ms  DeleteObjects: 0.056100 ms)
+Unloading 0 unused Assets to reduce memory usage. Loaded Objects now: 36400.
+Total: 308.542100 ms (FindLiveObjects: 1.766800 ms CreateObjectMapping: 1.099900 ms MarkObjects: 305.613100 ms  DeleteObjects: 0.061800 ms)
 
 Unloading 3 Unused Serialized files (Serialized files now loaded: 8)
-UnloadTime: 0.647300 ms
-Unloading 4 unused Assets to reduce memory usage. Loaded Objects now: 36910.
-Total: 313.258100 ms (FindLiveObjects: 1.794500 ms CreateObjectMapping: 1.142700 ms MarkObjects: 310.236400 ms  DeleteObjects: 0.084100 ms)
+UnloadTime: 0.806000 ms
+Unloading 4 unused Assets to reduce memory usage. Loaded Objects now: 36911.
+Total: 299.641700 ms (FindLiveObjects: 1.757700 ms CreateObjectMapping: 0.985100 ms MarkObjects: 296.817500 ms  DeleteObjects: 0.081000 ms)
 
 Initializing new game with mods:
   - brrainz.harmony
@@ -424,27 +424,13 @@ Initializing new game with mods:
   - dhultgren.smarterconstruction
   - Garwel.StartingTechLevel
   - void.terraformrimworld
-Scatterer RimWorld.GenStep_ScatterCaveDebris from def ScatterCaveDebris could not find cell to generate at.
-[AVP Xenomorphs] Xenomorph faction is null - Queen spawned with no faction
-[AVP Xenomorphs] Xenomorph faction is null - Drone spawned with no faction
-[AVP Xenomorphs] Xenomorph faction is null - Drone spawned with no faction
-[AVP Xenomorphs] Xenomorph faction is null - Drone spawned with no faction
-[AVP Xenomorphs] Xenomorph faction is null - Drone spawned with no faction
+[AVP Xenomorphs] Created Xenomorph faction during pawn generation (was missing).
 [AVP Xenomorphs] [DarkDrone] Removed acid spit from Dark drone Drone (tick 0)
-[AVP Xenomorphs] Xenomorph faction is null - Drone spawned with no faction
-[AVP Xenomorphs] Xenomorph faction is null - Drone spawned with no faction
-[AVP Xenomorphs] Xenomorph faction is null - Drone spawned with no faction
-[AVP Xenomorphs] Xenomorph faction is null - Drone spawned with no faction
-[AVP Xenomorphs] Xenomorph faction is null - Drone spawned with no faction
-[AVP Xenomorphs] Xenomorph faction is null - Drone spawned with no faction
-[AVP Xenomorphs] Xenomorph faction is null - Drone spawned with no faction
-[AVP Xenomorphs] Xenomorph faction is null - Drone spawned with no faction
 checking editor settings...
 bodysizes genes are active
-[AVP Xenomorphs] Created Xenomorph hive faction (was missing).
+[AVP Xenomorphs] Xenomorph hive faction already exists.
 Unloading 0 Unused Serialized files (Serialized files now loaded: 8)
-Unloading 1 unused Assets to reduce memory usage. Loaded Objects now: 45091.
-Total: 354.202900 ms (FindLiveObjects: 2.288100 ms CreateObjectMapping: 2.946200 ms MarkObjects: 348.873500 ms  DeleteObjects: 0.094900 ms)
+Unloading 1 unused Assets to reduce memory usage. Loaded Objects now: 45515.
+Total: 362.424800 ms (FindLiveObjects: 2.467300 ms CreateObjectMapping: 2.921200 ms MarkObjects: 356.903300 ms  DeleteObjects: 0.132100 ms)
 
-Wrote screenshot C:\Users\clint\AppData\LocalLow\Ludeon Studios\RimWorld by Ludeon Studios\RimSaves\Previews\USCSS Colony29.dat of size 226855
-Wrote screenshot C:\Users\clint\AppData\LocalLow\Ludeon Studios\RimWorld by Ludeon Studios\RimSaves\Previews\Autosave-5.dat of size 183653
+Wrote screenshot C:\Users\clint\AppData\LocalLow\Ludeon Studios\RimWorld by Ludeon Studios\RimSaves\Previews\USCSS Colony30.dat of size 165144
