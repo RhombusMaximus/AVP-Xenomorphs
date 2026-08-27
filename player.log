@@ -11,7 +11,7 @@ Direct3D:
     VRAM:     8042 MB
     Driver:   32.0.16.1088
 Begin MonoManager ReloadAssembly
-- Loaded All Assemblies, in  0.152 seconds
+- Loaded All Assemblies, in  0.155 seconds
 - Finished resetting the current domain, in  0.001 seconds
 <RI> Initializing input.
 
@@ -20,21 +20,21 @@ Begin MonoManager ReloadAssembly
 <RI> Initialized touch support.
 
 [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
-UnloadTime: 0.830000 ms
+UnloadTime: 0.817000 ms
 Command line arguments: -disable-compute-shaders
 RimWorld 1.6.4871 rev591
 Mod Realistic Humansounds HAR Patch dependency (Mlie.RealisticHumanSounds) needs to have <downloadUrl> and/or <steamWorkshopUrl> specified.
-Fallback handler could not load library D:/SteamLibrary/steamapps/common/RimWorld/RimWorldWin64_Data/MonoBleedingEdge/data-00000191B88C6020.dll
-Fallback handler could not load library D:/SteamLibrary/steamapps/common/RimWorld/RimWorldWin64_Data/MonoBleedingEdge/data-00000191EF3311C0.dll
+Fallback handler could not load library D:/SteamLibrary/steamapps/common/RimWorld/RimWorldWin64_Data/MonoBleedingEdge/data-000001AA40C2AA10.dll
+Fallback handler could not load library D:/SteamLibrary/steamapps/common/RimWorld/RimWorldWin64_Data/MonoBleedingEdge/data-000001AA40E13250.dll
 [Loading Progress] Loading Progress initialized! Enjoy the rest of your loading experience!
 [HugsLib] version 12.0.0
 [HugsLib] early-initializing AllowTool
-Fallback handler could not load library D:/SteamLibrary/steamapps/common/RimWorld/RimWorldWin64_Data/MonoBleedingEdge/data-00000191BBC866A0.dll
+Fallback handler could not load library D:/SteamLibrary/steamapps/common/RimWorld/RimWorldWin64_Data/MonoBleedingEdge/data-000001ABCD13A010.dll
 DubsMintMenus v1.3.1086
 [Analyzer] Loaded version 1.6.0 rev 1
 [Analyzer] ResearchTree
 FPSStabilizer v1.1 loaded, patcher message: Patched successfully, fps set to 60
-Fallback handler could not load library D:/SteamLibrary/steamapps/common/RimWorld/RimWorldWin64_Data/MonoBleedingEdge/data-00000191F5C30020.dll
+Fallback handler could not load library D:/SteamLibrary/steamapps/common/RimWorld/RimWorldWin64_Data/MonoBleedingEdge/data-000001AA478AA010.dll
 <color=#66ffb5>[MeleeAnim]</color> Hello, world!
 Build date: 4/13/2026 8:02 AM
 Loaded assemblies (9):
@@ -67,8 +67,6 @@ Translation data for language English has 4 errors. Generate translation report 
 [AVP Xenomorphs] [AVP Xenomorphs] Patched Mineable.TrySpawnYield
 [AVP Xenomorphs] [AVP Xenomorphs] Patched Pawn.SpawnSetup for dark drone spit removal
 [AVP Xenomorphs] [AVP Xenomorphs] Facehugger mask graphic loaded: Things/Pawn/Xenomorph/Xenomorph_FaceHugger_Mask
-[AVP Xenomorphs] [AVP Xenomorphs] Patched PawnRenderTree.Draw for mask offset
-[AVP Xenomorphs] [AVP Xenomorphs] Patched PawnRenderNode.TryGetAnimationOffset for mask offset
 [AVP Xenomorphs] [AVP Xenomorphs] Patched Thing.TakeDamage for knockout chance
 Xenomorph Host System Loaded
 158 Possible Hosts out of 335 Races detected: Race Setting init
@@ -101,7 +99,7 @@ NamesGalore: Current Lang English
 (Research Tab Colors) Transpiler injected.
 Unloading 5 Unused Serialized files (Serialized files now loaded: 5)
 Unloading 529 unused Assets to reduce memory usage. Loaded Objects now: 34107.
-Total: 265.912900 ms (FindLiveObjects: 1.690200 ms CreateObjectMapping: 1.145700 ms MarkObjects: 262.273500 ms  DeleteObjects: 0.803100 ms)
+Total: 265.040800 ms (FindLiveObjects: 1.711100 ms CreateObjectMapping: 0.884100 ms MarkObjects: 261.685200 ms  DeleteObjects: 0.760100 ms)
 
 MVCF successfully applied 41 patches
 [com.ogliss.rimworld.mod.rryatuja.minepatch] Patches on methods annotated as Obsolete were detected by HugsLib: RimWorld.Mineable.TrySpawnYield
@@ -286,25 +284,25 @@ Transpilers:
 Postfixes:
   [PeteTimesSix.SimpleSidearms] TryCastShot
 Unloading 2 Unused Serialized files (Serialized files now loaded: 7)
-<color=#66ffb5>[MeleeAnim]</color> PreCached all retexture info in 31.0ms
+<color=#66ffb5>[MeleeAnim]</color> PreCached all retexture info in 28.3ms
 <color=#66ffb5>[MeleeAnim]</color> Loaded tweak data for 29 weapons.
 <color=#66ffb5>[MeleeAnim]</color> ludeon.rimworld.odyssey 'Odyssey' has 2 missing weapon tweak data.
 <color=#66ffb5>[MeleeAnim]</color> ogliss.avpxenomorphs 'AVP Xenomorphs' has 3 missing weapon tweak data.
 <color=#66ffb5>[MeleeAnim]</color> Skipping reporting of missing mod/weapons because user opted out or the feature is disabled by the developer.
-<color=#66ffb5>[MeleeAnim]</color> Patched 3 classes that directly inherit from Verb_MeleeAttack in 55.0 ms to detect hits:
+<color=#66ffb5>[MeleeAnim]</color> Patched 3 classes that directly inherit from Verb_MeleeAttack in 57.3 ms to detect hits:
 RimWorld.Verb_MeleeApplyHediff from Assembly-CSharp
 RimWorld.Verb_MeleeAttackDamage from Assembly-CSharp
 RRYautja.Verb_MeleeAttackKnockback from RRYautja
-<color=#66ffb5>[MeleeAnim]</color> Found 0 items of clothing that cover hands, took 0.68 ms:
+<color=#66ffb5>[MeleeAnim]</color> Found 0 items of clothing that cover hands, took 0.66 ms:
 Unloading 55 unused Assets to reduce memory usage. Loaded Objects now: 34270.
-Total: 247.168000 ms (FindLiveObjects: 1.657100 ms CreateObjectMapping: 1.047700 ms MarkObjects: 244.301700 ms  DeleteObjects: 0.161000 ms)
+Total: 258.002700 ms (FindLiveObjects: 1.627600 ms CreateObjectMapping: 0.885000 ms MarkObjects: 255.370400 ms  DeleteObjects: 0.119400 ms)
 
 Unloading 0 Unused Serialized files (Serialized files now loaded: 7)
 Loading asset bundle MuzzleFlash.shaders-windows
 Loaded shader Unlit/AnimatedAdditiveInstanced
 [Muzzle Flash] Shader loaded from MuzzleFlash: Unlit/AnimatedAdditiveInstanced
 Unloading 0 unused Assets to reduce memory usage. Loaded Objects now: 34272.
-Total: 253.163500 ms (FindLiveObjects: 1.707300 ms CreateObjectMapping: 1.923500 ms MarkObjects: 249.480500 ms  DeleteObjects: 0.051800 ms)
+Total: 252.792300 ms (FindLiveObjects: 1.671700 ms CreateObjectMapping: 1.891500 ms MarkObjects: 249.184700 ms  DeleteObjects: 0.044000 ms)
 
 Unloading 0 Unused Serialized files (Serialized files now loaded: 8)
 [Loading Progress] Why is ResearchPal.Profiler.Start from ResearchPal 1.6 - Temp calling DeepProfiler.Start (and by extension our patch) with null?! Stop it.
@@ -315,11 +313,11 @@ Unloading 0 Unused Serialized files (Serialized files now loaded: 8)
 [Loading Progress] Why is ResearchPal.Profiler.Start from ResearchPal 1.6 - Temp calling DeepProfiler.Start (and by extension our patch) with null?! Stop it.
 ResearchPal :: Research layout initialized
 Unloading 0 unused Assets to reduce memory usage. Loaded Objects now: 34272.
-Total: 248.893200 ms (FindLiveObjects: 1.637100 ms CreateObjectMapping: 1.027200 ms MarkObjects: 246.173800 ms  DeleteObjects: 0.054900 ms)
+Total: 252.502400 ms (FindLiveObjects: 1.677800 ms CreateObjectMapping: 0.863200 ms MarkObjects: 249.910400 ms  DeleteObjects: 0.050600 ms)
 
 Unloading 0 Unused Serialized files (Serialized files now loaded: 8)
 Unloading 0 unused Assets to reduce memory usage. Loaded Objects now: 34272.
-Total: 250.784800 ms (FindLiveObjects: 2.200800 ms CreateObjectMapping: 1.356600 ms MarkObjects: 247.174100 ms  DeleteObjects: 0.052900 ms)
+Total: 251.577100 ms (FindLiveObjects: 2.305300 ms CreateObjectMapping: 2.114000 ms MarkObjects: 247.089200 ms  DeleteObjects: 0.068300 ms)
 
 [HugsLib] initializing TerraformRimworld
 CE is trying to create default parameter lists ...
@@ -335,16 +333,13 @@ no modifications for genes
 FoldingTent modification loaded
 no modifications for lifestages
 ...done
-Unloading 2 Unused Serialized files (Serialized files now loaded: 8)
-Unloading 0 unused Assets to reduce memory usage. Loaded Objects now: 36168.
-Total: 294.610100 ms (FindLiveObjects: 1.824100 ms CreateObjectMapping: 2.081200 ms MarkObjects: 290.647300 ms  DeleteObjects: 0.056900 ms)
-
 Unloading 3 Unused Serialized files (Serialized files now loaded: 8)
-UnloadTime: 0.556600 ms
-Unloading 4 unused Assets to reduce memory usage. Loaded Objects now: 36684.
-Total: 303.129100 ms (FindLiveObjects: 1.765600 ms CreateObjectMapping: 1.102400 ms MarkObjects: 300.171000 ms  DeleteObjects: 0.089900 ms)
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+UnloadTime: 0.828200 ms
+Unloading 2 unused Assets to reduce memory usage. Loaded Objects now: 34547.
+Total: 280.781500 ms (FindLiveObjects: 1.683200 ms CreateObjectMapping: 0.982900 ms MarkObjects: 278.046400 ms  DeleteObjects: 0.068900 ms)
 
-Initializing new game with mods:
+Loading game from file USCSS Colony26 with mods:
   - brrainz.harmony
   - ilyvion.LoadingProgress
   - Ludeon.RimWorld
@@ -426,28 +421,33 @@ Initializing new game with mods:
   - dhultgren.smarterconstruction
   - Garwel.StartingTechLevel
   - void.terraformrimworld
-[AVP Xenomorphs] Xenomorph faction is null - Queen spawned with no faction
-[AVP Xenomorphs] Xenomorph faction is null - Drone spawned with no faction
-[AVP Xenomorphs] Xenomorph faction is null - Drone spawned with no faction
-[AVP Xenomorphs] [DarkDrone] Removed acid spit from Dark drone Drone (tick 0)
-[AVP Xenomorphs] Xenomorph faction is null - Drone spawned with no faction
-[AVP Xenomorphs] Xenomorph faction is null - Drone spawned with no faction
-[AVP Xenomorphs] Xenomorph faction is null - Drone spawned with no faction
-[AVP Xenomorphs] Xenomorph faction is null - Drone spawned with no faction
-[AVP Xenomorphs] Xenomorph faction is null - Drone spawned with no faction
-[AVP Xenomorphs] Xenomorph faction is null - Drone spawned with no faction
-[AVP Xenomorphs] Xenomorph faction is null - Drone spawned with no faction
-[AVP Xenomorphs] Xenomorph faction is null - Drone spawned with no faction
-[AVP Xenomorphs] Xenomorph faction is null - Drone spawned with no faction
-[AVP Xenomorphs] Xenomorph faction is null - Drone spawned with no faction
+<color=#66ffb5>[MeleeAnim]</color> Loaded 0 animation renderers on map Map-0-PlayerHome
+Could not do PostLoadInit on RimWorld.Pawn_TrainingTracker: System.NullReferenceException: Object reference not set to an instance of an object
+[Ref F8FF2929]
+  at RimWorld.Pawn_TrainingTracker.CanAssignToTrain (RimWorld.TrainableDef td, Verse.ThingDef pawnDef, System.Boolean& visible, Verse.Pawn pawn) [0x0018d] in <61e4173561894da49d210260257b5097>:0 
+  at RimWorld.Pawn_TrainingTracker.CanAssignToTrain (RimWorld.TrainableDef td, System.Boolean& visible) [0x00000] in <61e4173561894da49d210260257b5097>:0 
+  at RimWorld.Pawn_TrainingTracker.CanAssignToTrain (RimWorld.TrainableDef td) [0x00000] in <61e4173561894da49d210260257b5097>:0 
+  at Verse.BackCompatibility.PawnTrainingTrackerPostLoadInit (RimWorld.Pawn_TrainingTracker tracker, Verse.DefMap`2[RimWorld.TrainableDef,System.Boolean]& wantedTrainables, Verse.DefMap`2[RimWorld.TrainableDef,System.Int32]& steps, Verse.DefMap`2[RimWorld.TrainableDef,System.Boolean]& learned) [0x00082] in <61e4173561894da49d210260257b5097>:0 
+  at RimWorld.Pawn_TrainingTracker.ExposeData () [0x0006a] in <61e4173561894da49d210260257b5097>:0 
+  at Verse.PostLoadIniter.DoAllPostLoadInits () [0x00032] in <61e4173561894da49d210260257b5097>:0 
+Could not do PostLoadInit on RimWorld.Pawn_TrainingTracker: System.NullReferenceException: Object reference not set to an instance of an object
+[Ref F8FF2929] Duplicate stacktrace, see ref for original
+Could not do PostLoadInit on RimWorld.Pawn_TrainingTracker: System.NullReferenceException: Object reference not set to an instance of an object
+[Ref F8FF2929] Duplicate stacktrace, see ref for original
+Could not do PostLoadInit on RimWorld.Pawn_TrainingTracker: System.NullReferenceException: Object reference not set to an instance of an object
+[Ref F8FF2929] Duplicate stacktrace, see ref for original
+Could not do PostLoadInit on RimWorld.Pawn_TrainingTracker: System.NullReferenceException: Object reference not set to an instance of an object
+[Ref F8FF2929] Duplicate stacktrace, see ref for original
+Could not do PostLoadInit on RimWorld.Pawn_TrainingTracker: System.NullReferenceException: Object reference not set to an instance of an object
+[Ref F8FF2929] Duplicate stacktrace, see ref for original
 checking editor settings...
 bodysizes genes are active
-[AVP Xenomorphs] Created Xenomorph hive faction (was missing).
-Unloading 0 Unused Serialized files (Serialized files now loaded: 8)
-Unloading 1 unused Assets to reduce memory usage. Loaded Objects now: 43716.
-Total: 330.112500 ms (FindLiveObjects: 2.193000 ms CreateObjectMapping: 2.709400 ms MarkObjects: 325.116800 ms  DeleteObjects: 0.092800 ms)
+[AVP Xenomorphs] Xenomorph hive faction already exists.
+Unloading 1 Unused Serialized files (Serialized files now loaded: 8)
+Unloading 1 unused Assets to reduce memory usage. Loaded Objects now: 41585.
+Total: 329.857500 ms (FindLiveObjects: 1.982100 ms CreateObjectMapping: 1.170100 ms MarkObjects: 326.528200 ms  DeleteObjects: 0.176600 ms)
 
-Wrote screenshot C:\Users\clint\AppData\LocalLow\Ludeon Studios\RimWorld by Ludeon Studios\RimSaves\Previews\USCSS Colony26.dat of size 232459
+Wrote screenshot C:\Users\clint\AppData\LocalLow\Ludeon Studios\RimWorld by Ludeon Studios\RimSaves\Previews\USCSS Colony26.dat of size 232244
 Exception in UIRootUpdate: System.ArgumentNullException: Value cannot be null.
 Parameter name: key
 [Ref B9E4F9EB]
@@ -769,3 +769,528 @@ Parameter name: key
 Exception in UIRootUpdate: System.ArgumentNullException: Value cannot be null.
 Parameter name: key
 [Ref B9E4F9EB] Duplicate stacktrace, see ref for original
+Wrote screenshot C:\Users\clint\AppData\LocalLow\Ludeon Studios\RimWorld by Ludeon Studios\RimSaves\Previews\Autosave-4.dat of size 196733
+Wrote screenshot C:\Users\clint\AppData\LocalLow\Ludeon Studios\RimWorld by Ludeon Studios\RimSaves\Previews\Autosave-5.dat of size 208573
+[AVP Xenomorphs] [Knockout] Drone knocked out capybara (tick 127127)
+Exception in RimWorld.ThinkNode_Conditional_OverHealth TryIssueJobPackage: System.NullReferenceException: Object reference not set to an instance of an object
+[Ref 2EE12ACA]
+  at Verse.GenGrid.CanBeSeenOver (Verse.IntVec3 c, Verse.Map map) [0x00000] in <61e4173561894da49d210260257b5097>:0 
+  at Verse.ShootLeanUtility.LeanShootingSourcesFromTo (Verse.IntVec3 shooterLoc, Verse.IntVec3 targetPos, Verse.Map map, System.Collections.Generic.List`1[T] listToFill) [0x00075] in <61e4173561894da49d210260257b5097>:0 
+  at Verse.ShootLeanUtility.CalcShootableCellsOf (System.Collections.Generic.List`1[T] outCells, Verse.Thing target, Verse.IntVec3 shooterPos) [0x0001b] in <61e4173561894da49d210260257b5097>:0 
+  at Verse.AI.AttackTargetFinder.CanSee (Verse.Thing seer, Verse.Thing target, System.Func`2[T,TResult] validator) [0x0000c] in <61e4173561894da49d210260257b5097>:0 
+  at RimWorld.JobGiver_XenomorphHosthunter+<>c__DisplayClass12_0.<FindPawnTarget>b__2 (Verse.Pawn x) [0x00015] in <015f9785034c4883abd4d85f6e6a50d9>:0 
+  at System.Linq.Enumerable+WhereListIterator`1[TSource].ToList () [0x00017] in <1f993cbf88314b1baa1e10ca917bdc64>:0 
+  at System.Linq.Enumerable.ToList[TSource] (System.Collections.Generic.IEnumerable`1[T] source) [0x0001f] in <1f993cbf88314b1baa1e10ca917bdc64>:0 
+  at RimWorld.JobGiver_XenomorphHosthunter.FindPawnTarget (Verse.Pawn pawn) [0x00129] in <015f9785034c4883abd4d85f6e6a50d9>:0 
+  at RimWorld.JobGiver_XenomorphHosthunter.TryGiveJob (Verse.Pawn pawn) [0x00136] in <015f9785034c4883abd4d85f6e6a50d9>:0 
+  at Verse.AI.ThinkNode_JobGiver.TryIssueJobPackage (Verse.Pawn pawn, Verse.AI.JobIssueParams jobParams) [0x00000] in <61e4173561894da49d210260257b5097>:0 
+  at Verse.AI.ThinkNode_Priority.TryIssueJobPackage (Verse.Pawn pawn, Verse.AI.JobIssueParams jobParams) [0x00022] in <61e4173561894da49d210260257b5097>:0 
+Exception in RimWorld.ThinkNode_Conditional_OverHealth TryIssueJobPackage: System.NullReferenceException: Object reference not set to an instance of an object
+[Ref 2EE12ACA] Duplicate stacktrace, see ref for original
+Exception in RimWorld.ThinkNode_Conditional_OverHealth TryIssueJobPackage: System.NullReferenceException: Object reference not set to an instance of an object
+[Ref 2EE12ACA] Duplicate stacktrace, see ref for original
+Exception in RimWorld.ThinkNode_Conditional_OverHealth TryIssueJobPackage: System.NullReferenceException: Object reference not set to an instance of an object
+[Ref 2EE12ACA] Duplicate stacktrace, see ref for original
+Exception in RimWorld.ThinkNode_Conditional_OverHealth TryIssueJobPackage: System.NullReferenceException: Object reference not set to an instance of an object
+[Ref 2EE12ACA] Duplicate stacktrace, see ref for original
+Exception in RimWorld.ThinkNode_Conditional_OverHealth TryIssueJobPackage: System.NullReferenceException: Object reference not set to an instance of an object
+[Ref 2EE12ACA] Duplicate stacktrace, see ref for original
+Exception in RimWorld.ThinkNode_Conditional_OverHealth TryIssueJobPackage: System.NullReferenceException: Object reference not set to an instance of an object
+[Ref 2EE12ACA] Duplicate stacktrace, see ref for original
+Exception in RimWorld.ThinkNode_Conditional_OverHealth TryIssueJobPackage: System.NullReferenceException: Object reference not set to an instance of an object
+[Ref 2EE12ACA] Duplicate stacktrace, see ref for original
+Material 'SolidColorMat-Custom/Solid Color-RGBA(0.000, 0.000, 0.000, 0.000)' with Shader 'Custom/Solid Color' doesn't have a texture property '_MainTex'
+Exception printing RRY_Xenomorph_Cocoon_Animal50591 at (234, 0, 233): System.ArgumentNullException: Value cannot be null.
+Parameter name: key
+[Ref 81238DF4]
+ [0x00006] in <51fded79cd284d4d911c5949aff4cb21>:0 
+  at System.Collections.Generic.Dictionary`2[TKey,TValue].FindEntry (TKey key) [0x00008] in <51fded79cd284d4d911c5949aff4cb21>:0 
+  at System.Collections.Generic.Dictionary`2[TKey,TValue].TryGetValue (TKey key, TValue& value) [0x00000] in <51fded79cd284d4d911c5949aff4cb21>:0 
+  at Verse.StaticTextureAtlas.TryGetTile (UnityEngine.Texture texture, Verse.StaticTextureAtlasTile& tile) [0x00000] in <61e4173561894da49d210260257b5097>:0 
+  at Verse.GlobalTextureAtlasManager.TryGetStaticTile (Verse.TextureAtlasGroup group, UnityEngine.Texture2D texture, Verse.StaticTextureAtlasTile& tile, System.Boolean ignoreFoundInOtherAtlas) [0x00023] in <61e4173561894da49d210260257b5097>:0 
+  at Verse.Graphic.TryGetTextureAtlasReplacementInfo (UnityEngine.Material mat, Verse.TextureAtlasGroup group, System.Boolean flipUv, System.Boolean vertexColors, UnityEngine.Material& material, UnityEngine.Vector2[]& uvs, UnityEngine.Color32& vertexColor) [0x0006d] in <61e4173561894da49d210260257b5097>:0 
+  at Verse.Graphic.Print (Verse.SectionLayer layer, Verse.Thing thing, System.Single extraRotation) [0x000e7] in <61e4173561894da49d210260257b5097>:0 
+  at Verse.Thing.Print (Verse.SectionLayer layer) [0x00013] in <61e4173561894da49d210260257b5097>:0 
+  at Verse.ThingWithComps.Print (Verse.SectionLayer layer) [0x00008] in <61e4173561894da49d210260257b5097>:0 
+  at Verse.SectionLayer_ThingsGeneral.TakePrintFrom (Verse.Thing t) [0x0001b] in <61e4173561894da49d210260257b5097>:0 
+    - PREFIX adaptive.storage.framework: Boolean AdaptiveStorage.HarmonyPatches.HideStoredThingsFromSectionLayerAndOverlayDrawer:Prefix(Thing t)
+Material 'SolidColorMat-Custom/Solid Color-RGBA(0.000, 0.000, 0.000, 0.000)' with Shader 'Custom/Solid Color' doesn't have a texture property '_MainTex'
+Exception printing RRY_Xenomorph_Cocoon_Animal50591 at (234, 0, 233): System.ArgumentNullException: Value cannot be null.
+Parameter name: key
+[Ref 81238DF4] Duplicate stacktrace, see ref for original
+Exception in RimWorld.ThinkNode_Conditional_OverHealth TryIssueJobPackage: System.NullReferenceException: Object reference not set to an instance of an object
+[Ref 2EE12ACA] Duplicate stacktrace, see ref for original
+Exception in RimWorld.ThinkNode_Conditional_OverHealth TryIssueJobPackage: System.NullReferenceException: Object reference not set to an instance of an object
+[Ref 2EE12ACA] Duplicate stacktrace, see ref for original
+Material 'SolidColorMat-Custom/Solid Color-RGBA(0.000, 0.000, 0.000, 0.000)' with Shader 'Custom/Solid Color' doesn't have a texture property '_MainTex'
+Exception printing RRY_Xenomorph_Cocoon_Animal50591 at (234, 0, 233): System.ArgumentNullException: Value cannot be null.
+Parameter name: key
+[Ref 81238DF4] Duplicate stacktrace, see ref for original
+Exception in RimWorld.ThinkNode_Conditional_OverHealth TryIssueJobPackage: System.NullReferenceException: Object reference not set to an instance of an object
+[Ref 2EE12ACA] Duplicate stacktrace, see ref for original
+Exception in RimWorld.ThinkNode_Conditional_OverHealth TryIssueJobPackage: System.NullReferenceException: Object reference not set to an instance of an object
+[Ref 2EE12ACA] Duplicate stacktrace, see ref for original
+Material 'SolidColorMat-Custom/Solid Color-RGBA(0.000, 0.000, 0.000, 0.000)' with Shader 'Custom/Solid Color' doesn't have a texture property '_MainTex'
+Exception printing RRY_Xenomorph_Cocoon_Animal50591 at (234, 0, 233): System.ArgumentNullException: Value cannot be null.
+Parameter name: key
+[Ref 81238DF4] Duplicate stacktrace, see ref for original
+Exception in RimWorld.ThinkNode_Conditional_OverHealth TryIssueJobPackage: System.NullReferenceException: Object reference not set to an instance of an object
+[Ref 2EE12ACA] Duplicate stacktrace, see ref for original
+Exception in RimWorld.ThinkNode_Conditional_OverHealth TryIssueJobPackage: System.NullReferenceException: Object reference not set to an instance of an object
+[Ref 2EE12ACA] Duplicate stacktrace, see ref for original
+Exception in RimWorld.ThinkNode_Conditional_OverHealth TryIssueJobPackage: System.NullReferenceException: Object reference not set to an instance of an object
+[Ref 2EE12ACA] Duplicate stacktrace, see ref for original
+Exception in RimWorld.ThinkNode_Conditional_OverHealth TryIssueJobPackage: System.NullReferenceException: Object reference not set to an instance of an object
+[Ref 2EE12ACA] Duplicate stacktrace, see ref for original
+Exception in RimWorld.ThinkNode_Conditional_OverHealth TryIssueJobPackage: System.NullReferenceException: Object reference not set to an instance of an object
+[Ref 2EE12ACA] Duplicate stacktrace, see ref for original
+Exception in RimWorld.ThinkNode_Conditional_OverHealth TryIssueJobPackage: System.NullReferenceException: Object reference not set to an instance of an object
+[Ref 2EE12ACA] Duplicate stacktrace, see ref for original
+Exception in RimWorld.ThinkNode_Conditional_OverHealth TryIssueJobPackage: System.NullReferenceException: Object reference not set to an instance of an object
+[Ref 2EE12ACA] Duplicate stacktrace, see ref for original
+Material 'SolidColorMat-Custom/Solid Color-RGBA(0.000, 0.000, 0.000, 0.000)' with Shader 'Custom/Solid Color' doesn't have a texture property '_MainTex'
+Exception printing RRY_Xenomorph_Cocoon_Animal50591 at (234, 0, 233): System.ArgumentNullException: Value cannot be null.
+Parameter name: key
+[Ref 81238DF4] Duplicate stacktrace, see ref for original
+Material 'SolidColorMat-Custom/Solid Color-RGBA(0.000, 0.000, 0.000, 0.000)' with Shader 'Custom/Solid Color' doesn't have a texture property '_MainTex'
+Exception printing RRY_Xenomorph_Cocoon_Animal50591 at (234, 0, 233): System.ArgumentNullException: Value cannot be null.
+Parameter name: key
+[Ref 81238DF4] Duplicate stacktrace, see ref for original
+Wrote screenshot C:\Users\clint\AppData\LocalLow\Ludeon Studios\RimWorld by Ludeon Studios\RimSaves\Previews\Autosave-1.dat of size 155256
+Material 'SolidColorMat-Custom/Solid Color-RGBA(0.000, 0.000, 0.000, 0.000)' with Shader 'Custom/Solid Color' doesn't have a texture property '_MainTex'
+Exception printing RRY_Xenomorph_Cocoon_Animal50591 at (234, 0, 233): System.ArgumentNullException: Value cannot be null.
+Parameter name: key
+[Ref 81238DF4] Duplicate stacktrace, see ref for original
+Material 'SolidColorMat-Custom/Solid Color-RGBA(0.000, 0.000, 0.000, 0.000)' with Shader 'Custom/Solid Color' doesn't have a texture property '_MainTex'
+Exception printing RRY_Xenomorph_Cocoon_Animal50591 at (234, 0, 233): System.ArgumentNullException: Value cannot be null.
+Parameter name: key
+[Ref 81238DF4] Duplicate stacktrace, see ref for original
+Material 'SolidColorMat-Custom/Solid Color-RGBA(0.000, 0.000, 0.000, 0.000)' with Shader 'Custom/Solid Color' doesn't have a texture property '_MainTex'
+Exception printing RRY_Xenomorph_Cocoon_Animal50591 at (234, 0, 233): System.ArgumentNullException: Value cannot be null.
+Parameter name: key
+[Ref 81238DF4] Duplicate stacktrace, see ref for original
+Material 'SolidColorMat-Custom/Solid Color-RGBA(0.000, 0.000, 0.000, 0.000)' with Shader 'Custom/Solid Color' doesn't have a texture property '_MainTex'
+Exception printing RRY_Xenomorph_Cocoon_Animal50591 at (234, 0, 233): System.ArgumentNullException: Value cannot be null.
+Parameter name: key
+[Ref 81238DF4] Duplicate stacktrace, see ref for original
+Material 'SolidColorMat-Custom/Solid Color-RGBA(0.000, 0.000, 0.000, 0.000)' with Shader 'Custom/Solid Color' doesn't have a texture property '_MainTex'
+Exception printing RRY_Xenomorph_Cocoon_Animal50591 at (234, 0, 233): System.ArgumentNullException: Value cannot be null.
+Parameter name: key
+[Ref 81238DF4] Duplicate stacktrace, see ref for original
+[AVP Xenomorphs] [Knockout] Drone knocked out Bucky (tick 213022)
+Exception in RimWorld.ThinkNode_Conditional_OverHealth TryIssueJobPackage: System.NullReferenceException: Object reference not set to an instance of an object
+[Ref 2EE12ACA] Duplicate stacktrace, see ref for original
+Exception in RimWorld.ThinkNode_Conditional_OverHealth TryIssueJobPackage: System.NullReferenceException: Object reference not set to an instance of an object
+[Ref 2EE12ACA] Duplicate stacktrace, see ref for original
+Exception in RimWorld.ThinkNode_Conditional_OverHealth TryIssueJobPackage: System.NullReferenceException: Object reference not set to an instance of an object
+[Ref 2EE12ACA] Duplicate stacktrace, see ref for original
+Exception in RimWorld.ThinkNode_Conditional_OverHealth TryIssueJobPackage: System.NullReferenceException: Object reference not set to an instance of an object
+[Ref 2EE12ACA] Duplicate stacktrace, see ref for original
+Exception in RimWorld.ThinkNode_Conditional_OverHealth TryIssueJobPackage: System.NullReferenceException: Object reference not set to an instance of an object
+[Ref 2EE12ACA] Duplicate stacktrace, see ref for original
+Exception in RimWorld.ThinkNode_Conditional_OverHealth TryIssueJobPackage: System.NullReferenceException: Object reference not set to an instance of an object
+[Ref 2EE12ACA] Duplicate stacktrace, see ref for original
+[AVP Xenomorphs] [AVP Xenomorphs] CompPostPostAdd called for Bucky (humanlike=True)
+[AVP Xenomorphs] [AVP Xenomorphs] Added facehugger mask apparel to Bucky
+Exception in Verse.AI.ThinkNode_Tagger TryIssueJobPackage: System.NullReferenceException: Object reference not set to an instance of an object
+[Ref B3A85BBC]
+  at Verse.RegionAndRoomQuery.RegionAt (Verse.IntVec3 c, Verse.Map map, Verse.RegionType allowedRegionTypes) [0x00000] in <61e4173561894da49d210260257b5097>:0 
+  at Verse.GridsUtility.GetRegion (Verse.IntVec3 loc, Verse.Map map, Verse.RegionType allowedRegionTypes) [0x00000] in <61e4173561894da49d210260257b5097>:0 
+  at RimWorld.RCellFinder.RandomWanderDestFor (Verse.Pawn pawn, Verse.IntVec3 root, System.Single radius, System.Func`4[T1,T2,T3,TResult] validator, Verse.Danger maxDanger, System.Boolean canBashDoors) [0x00085] in <61e4173561894da49d210260257b5097>:0 
+  at Verse.AI.JobGiver_Wander.GetExactWanderDest (Verse.Pawn pawn) [0x0005b] in <61e4173561894da49d210260257b5097>:0 
+  at Verse.AI.JobGiver_Wander.TryGiveJob (Verse.Pawn pawn) [0x00061] in <61e4173561894da49d210260257b5097>:0 
+  at Verse.AI.ThinkNode_JobGiver.TryIssueJobPackage (Verse.Pawn pawn, Verse.AI.JobIssueParams jobParams) [0x00000] in <61e4173561894da49d210260257b5097>:0 
+  at Verse.AI.ThinkNode_Priority.TryIssueJobPackage (Verse.Pawn pawn, Verse.AI.JobIssueParams jobParams) [0x00022] in <61e4173561894da49d210260257b5097>:0 
+JobDriver threw exception in toil MakeNewToils's initAction for pawn RRY_Xenomorph_FaceHugger52628 driver=JobDriver_Wait (toilIndex=0) driver.job=(Wait_Wander (Job_95835) Giver = JobGiver_WanderAnywhere [workGiverDef: null])
+System.NullReferenceException: Object reference not set to an instance of an object
+[Ref 2BEE724E]
+  at Verse.AI.JobDriver_Wait.CheckForAutoAttack () [0x0012f] in <61e4173561894da49d210260257b5097>:0 
+    - TRANSPILER OskarPotocki.VEF: IEnumerable`1 VEF.Weapons.VanillaExpandedFramework_JobDriver_Wait_CheckForAutoAttack_Patch:Transpiler(IEnumerable`1 instructions, ILGenerator generator)
+    - TRANSPILER legodude17.mvcf: IEnumerable`1 MVCF.PatchSets.PatchSet_TargetFinder:BestTargetTranspiler(IEnumerable`1 instructions)
+    - POSTFIX UnlimitedHugs.AllowTool: Void AllowTool.Patches.JobDriverWait_CheckForAutoAttack_Patch:DoPartyHunting(JobDriver_Wait __instance)
+  at Verse.AI.JobDriver_Wait.<MakeNewToils>b__3_0 () [0x0003d] in <61e4173561894da49d210260257b5097>:0 
+  at Verse.AI.JobDriver.TryActuallyStartNextToil () [0x001b0] in <61e4173561894da49d210260257b5097>:0 
+JobDriver threw exception in toil MakeNewToils's initAction for pawn RRY_Xenomorph_FaceHugger52628 driver=JobDriver_Wait (toilIndex=0) driver.job=(Wait (Job_95836))
+System.NullReferenceException: Object reference not set to an instance of an object
+[Ref 2BEE724E] Duplicate stacktrace, see ref for original
+An error occurred while starting an error recover job. We have to stop now to avoid infinite loops. This means that the pawn is now jobless which can cause further bugs. pawn=RRY_Xenomorph_FaceHugger52628
+Exception in Verse.AI.ThinkNode_Tagger TryIssueJobPackage: System.NullReferenceException: Object reference not set to an instance of an object
+[Ref B3A85BBC] Duplicate stacktrace, see ref for original
+JobDriver threw exception in toil MakeNewToils's initAction for pawn RRY_Xenomorph_FaceHugger52605 driver=JobDriver_Wait (toilIndex=0) driver.job=(Wait_Wander (Job_95844) Giver = JobGiver_WanderAnywhere [workGiverDef: null])
+System.NullReferenceException: Object reference not set to an instance of an object
+[Ref 2BEE724E] Duplicate stacktrace, see ref for original
+JobDriver threw exception in toil MakeNewToils's initAction for pawn RRY_Xenomorph_FaceHugger52605 driver=JobDriver_Wait (toilIndex=0) driver.job=(Wait (Job_95845))
+System.NullReferenceException: Object reference not set to an instance of an object
+[Ref 2BEE724E] Duplicate stacktrace, see ref for original
+An error occurred while starting an error recover job. We have to stop now to avoid infinite loops. This means that the pawn is now jobless which can cause further bugs. pawn=RRY_Xenomorph_FaceHugger52605
+Exception in Verse.AI.ThinkNode_Tagger TryIssueJobPackage: System.NullReferenceException: Object reference not set to an instance of an object
+[Ref B3A85BBC] Duplicate stacktrace, see ref for original
+JobDriver threw exception in toil MakeNewToils's initAction for pawn RRY_Xenomorph_FaceHugger52695 driver=JobDriver_Wait (toilIndex=0) driver.job=(Wait_Wander (Job_95869) Giver = JobGiver_WanderAnywhere [workGiverDef: null])
+System.NullReferenceException: Object reference not set to an instance of an object
+[Ref 2BEE724E] Duplicate stacktrace, see ref for original
+JobDriver threw exception in toil MakeNewToils's initAction for pawn RRY_Xenomorph_FaceHugger52695 driver=JobDriver_Wait (toilIndex=0) driver.job=(Wait (Job_95870))
+System.NullReferenceException: Object reference not set to an instance of an object
+[Ref 2BEE724E] Duplicate stacktrace, see ref for original
+An error occurred while starting an error recover job. We have to stop now to avoid infinite loops. This means that the pawn is now jobless which can cause further bugs. pawn=RRY_Xenomorph_FaceHugger52695
+Exception in Verse.AI.ThinkNode_Tagger TryIssueJobPackage: System.NullReferenceException: Object reference not set to an instance of an object
+[Ref B3A85BBC] Duplicate stacktrace, see ref for original
+JobDriver threw exception in toil MakeNewToils's initAction for pawn RRY_Xenomorph_FaceHugger52620 driver=JobDriver_Wait (toilIndex=0) driver.job=(Wait_Wander (Job_96237) Giver = JobGiver_WanderAnywhere [workGiverDef: null])
+System.NullReferenceException: Object reference not set to an instance of an object
+[Ref 2BEE724E] Duplicate stacktrace, see ref for original
+JobDriver threw exception in toil MakeNewToils's initAction for pawn RRY_Xenomorph_FaceHugger52620 driver=JobDriver_Wait (toilIndex=0) driver.job=(Wait (Job_96238))
+System.NullReferenceException: Object reference not set to an instance of an object
+[Ref 2BEE724E] Duplicate stacktrace, see ref for original
+An error occurred while starting an error recover job. We have to stop now to avoid infinite loops. This means that the pawn is now jobless which can cause further bugs. pawn=RRY_Xenomorph_FaceHugger52620
+Exception in Verse.AI.ThinkNode_Tagger TryIssueJobPackage: System.NullReferenceException: Object reference not set to an instance of an object
+[Ref B3A85BBC] Duplicate stacktrace, see ref for original
+JobDriver threw exception in toil MakeNewToils's initAction for pawn RRY_Xenomorph_FaceHugger52601 driver=JobDriver_Wait (toilIndex=0) driver.job=(Wait_Wander (Job_96485) Giver = JobGiver_WanderAnywhere [workGiverDef: null])
+System.NullReferenceException: Object reference not set to an instance of an object
+[Ref 2BEE724E] Duplicate stacktrace, see ref for original
+JobDriver threw exception in toil MakeNewToils's initAction for pawn RRY_Xenomorph_FaceHugger52601 driver=JobDriver_Wait (toilIndex=0) driver.job=(Wait (Job_96486))
+System.NullReferenceException: Object reference not set to an instance of an object
+[Ref 2BEE724E] Duplicate stacktrace, see ref for original
+An error occurred while starting an error recover job. We have to stop now to avoid infinite loops. This means that the pawn is now jobless which can cause further bugs. pawn=RRY_Xenomorph_FaceHugger52601
+[AVP Xenomorphs] [Mask] Drawing mask for Alpaca 2 (royal=False) (tick 227041)
+[AVP Xenomorphs] [Mask] Drawing mask for Alpaca 2 (royal=False) (tick 227291)
+[AVP Xenomorphs] [Mask] Drawing mask for Alpaca 2 (royal=False) (tick 227541)
+[AVP Xenomorphs] [Mask] Drawing mask for Alpaca 2 (royal=False) (tick 227791)
+[AVP Xenomorphs] [Mask] Drawing mask for Alpaca 2 (royal=False) (tick 228041)
+Exception in Verse.AI.ThinkNode_Tagger TryIssueJobPackage: System.NullReferenceException: Object reference not set to an instance of an object
+[Ref B3A85BBC] Duplicate stacktrace, see ref for original
+JobDriver threw exception in toil MakeNewToils's initAction for pawn RRY_Xenomorph_FaceHugger52616 driver=JobDriver_Wait (toilIndex=0) driver.job=(Wait_Wander (Job_96745) Giver = JobGiver_WanderAnywhere [workGiverDef: null])
+System.NullReferenceException: Object reference not set to an instance of an object
+[Ref 2BEE724E] Duplicate stacktrace, see ref for original
+JobDriver threw exception in toil MakeNewToils's initAction for pawn RRY_Xenomorph_FaceHugger52616 driver=JobDriver_Wait (toilIndex=0) driver.job=(Wait (Job_96746))
+System.NullReferenceException: Object reference not set to an instance of an object
+[Ref 2BEE724E] Duplicate stacktrace, see ref for original
+An error occurred while starting an error recover job. We have to stop now to avoid infinite loops. This means that the pawn is now jobless which can cause further bugs. pawn=RRY_Xenomorph_FaceHugger52616
+[AVP Xenomorphs] [Mask] Drawing mask for Alpaca 2 (royal=False) (tick 228291)
+Exception in Verse.AI.ThinkNode_Tagger TryIssueJobPackage: System.NullReferenceException: Object reference not set to an instance of an object
+[Ref B3A85BBC] Duplicate stacktrace, see ref for original
+JobDriver threw exception in toil MakeNewToils's initAction for pawn RRY_Xenomorph_FaceHugger52717 driver=JobDriver_Wait (toilIndex=0) driver.job=(Wait_Wander (Job_96801) Giver = JobGiver_WanderAnywhere [workGiverDef: null])
+System.NullReferenceException: Object reference not set to an instance of an object
+[Ref 2BEE724E] Duplicate stacktrace, see ref for original
+JobDriver threw exception in toil MakeNewToils's initAction for pawn RRY_Xenomorph_FaceHugger52717 driver=JobDriver_Wait (toilIndex=0) driver.job=(Wait (Job_96802))
+System.NullReferenceException: Object reference not set to an instance of an object
+[Ref 2BEE724E] Duplicate stacktrace, see ref for original
+An error occurred while starting an error recover job. We have to stop now to avoid infinite loops. This means that the pawn is now jobless which can cause further bugs. pawn=RRY_Xenomorph_FaceHugger52717
+[AVP Xenomorphs] [Mask] Drawing mask for Alpaca 2 (royal=False) (tick 228541)
+[AVP Xenomorphs] [Mask] Drawing mask for Alpaca 2 (royal=False) (tick 228791)
+[AVP Xenomorphs] [Mask] Drawing mask for Wild boar 2 (royal=False) (tick 229087)
+[AVP Xenomorphs] [Mask] Drawing mask for Wild boar 2 (royal=False) (tick 229337)
+[AVP Xenomorphs] [Mask] Drawing mask for Wild boar 2 (royal=False) (tick 229587)
+[AVP Xenomorphs] [Mask] Drawing mask for Wild boar 2 (royal=False) (tick 229837)
+[AVP Xenomorphs] [Mask] Drawing mask for Wild boar 2 (royal=False) (tick 230087)
+[AVP Xenomorphs] [Mask] Drawing mask for Wild boar 2 (royal=False) (tick 230337)
+[AVP Xenomorphs] [Mask] Drawing mask for Wild boar 2 (royal=False) (tick 230587)
+[AVP Xenomorphs] [Mask] Drawing mask for Wild boar 2 (royal=False) (tick 230844)
+[AVP Xenomorphs] [Mask] Drawing mask for Wild boar 2 (royal=False) (tick 231094)
+[AVP Xenomorphs] [Mask] Drawing mask for Wild boar 2 (royal=False) (tick 231346)
+[AVP Xenomorphs] [Mask] Drawing mask for Wild boar 2 (royal=False) (tick 231600)
+[AVP Xenomorphs] [Mask] Drawing mask for Wild boar 2 (royal=False) (tick 231853)
+[AVP Xenomorphs] [Mask] Drawing mask for Wild boar 2 (royal=False) (tick 232111)
+[AVP Xenomorphs] [Mask] Drawing mask for Wild boar 2 (royal=False) (tick 232363)
+[AVP Xenomorphs] [Mask] Drawing mask for Wild boar 2 (royal=False) (tick 232615)
+[AVP Xenomorphs] [Mask] Drawing mask for Wild boar 2 (royal=False) (tick 232872)
+[AVP Xenomorphs] [Mask] Drawing mask for Wild boar 2 (royal=False) (tick 233122)
+[AVP Xenomorphs] [Mask] Drawing mask for Wild boar 2 (royal=False) (tick 233377)
+[AVP Xenomorphs] [Mask] Drawing mask for Wild boar 2 (royal=False) (tick 233629)
+[AVP Xenomorphs] [Mask] Drawing mask for Wild boar 2 (royal=False) (tick 233884)
+[AVP Xenomorphs] [Mask] Drawing mask for Wild boar 2 (royal=False) (tick 234138)
+[AVP Xenomorphs] [Mask] Drawing mask for Wild boar 2 (royal=False) (tick 234390)
+[AVP Xenomorphs] [Mask] Drawing mask for Wild boar 2 (royal=False) (tick 234645)
+[AVP Xenomorphs] [Mask] Drawing mask for Wild boar 2 (royal=False) (tick 234901)
+[AVP Xenomorphs] [Mask] Drawing mask for Wild boar 2 (royal=False) (tick 235152)
+[AVP Xenomorphs] [Mask] Drawing mask for Wild boar 2 (royal=False) (tick 235406)
+[AVP Xenomorphs] [Mask] Drawing mask for Wild boar 2 (royal=False) (tick 235657)
+[AVP Xenomorphs] [Mask] Drawing mask for Wild boar 2 (royal=False) (tick 235912)
+[AVP Xenomorphs] [Mask] Drawing mask for Wild boar 2 (royal=False) (tick 236162)
+[AVP Xenomorphs] [Mask] Drawing mask for Wild boar 2 (royal=False) (tick 236420)
+[AVP Xenomorphs] [Mask] Drawing mask for Wild boar 2 (royal=False) (tick 236671)
+[AVP Xenomorphs] [Mask] Drawing mask for Wild boar 2 (royal=False) (tick 236922)
+[AVP Xenomorphs] [Mask] Drawing mask for Wild boar 2 (royal=False) (tick 237177)
+[AVP Xenomorphs] [Mask] Drawing mask for Wild boar 2 (royal=False) (tick 237428)
+[AVP Xenomorphs] [Mask] Drawing mask for Wild boar 2 (royal=False) (tick 237680)
+[AVP Xenomorphs] [Mask] Drawing mask for Wild boar 2 (royal=False) (tick 237930)
+[AVP Xenomorphs] [Mask] Drawing mask for Wild boar 2 (royal=False) (tick 238182)
+[AVP Xenomorphs] [Mask] Drawing mask for Wild boar 2 (royal=False) (tick 238432)
+[AVP Xenomorphs] [Mask] Drawing mask for Wild boar 2 (royal=False) (tick 238682)
+[AVP Xenomorphs] [Mask] Drawing mask for Wild boar 2 (royal=False) (tick 238934)
+[AVP Xenomorphs] [Mask] Drawing mask for Wild boar 2 (royal=False) (tick 239189)
+[AVP Xenomorphs] [Mask] Drawing mask for Wild boar 2 (royal=False) (tick 239440)
+[AVP Xenomorphs] [Mask] Drawing mask for Wild boar 2 (royal=False) (tick 239694)
+[AVP Xenomorphs] [Mask] Drawing mask for Wild boar 2 (royal=False) (tick 239951)
+Wrote screenshot C:\Users\clint\AppData\LocalLow\Ludeon Studios\RimWorld by Ludeon Studios\RimSaves\Previews\Autosave-2.dat of size 193929
+[AVP Xenomorphs] [Mask] Drawing mask for Wild boar 2 (royal=False) (tick 240207)
+[AVP Xenomorphs] [Mask] Drawing mask for Wild boar 2 (royal=False) (tick 240459)
+[AVP Xenomorphs] [Mask] Drawing mask for Wild boar 2 (royal=False) (tick 240709)
+[AVP Xenomorphs] [Mask] Drawing mask for Wild boar 2 (royal=False) (tick 240963)
+[AVP Xenomorphs] [Mask] Drawing mask for Wild boar 2 (royal=False) (tick 241220)
+[AVP Xenomorphs] [Mask] Drawing mask for Wild boar 2 (royal=False) (tick 241472)
+[AVP Xenomorphs] [Mask] Drawing mask for Wild boar 2 (royal=False) (tick 241726)
+[AVP Xenomorphs] [Mask] Drawing mask for Wild boar 2 (royal=False) (tick 241980)
+[AVP Xenomorphs] [Mask] Drawing mask for Wild boar 2 (royal=False) (tick 242234)
+[AVP Xenomorphs] [Mask] Drawing mask for Wild boar 2 (royal=False) (tick 242488)
+[AVP Xenomorphs] [Mask] Drawing mask for Wild boar 2 (royal=False) (tick 242743)
+[AVP Xenomorphs] [Mask] Drawing mask for Wild boar 2 (royal=False) (tick 242995)
+[AVP Xenomorphs] [Mask] Drawing mask for Wild boar 2 (royal=False) (tick 243247)
+[AVP Xenomorphs] [Mask] Drawing mask for Wild boar 2 (royal=False) (tick 243497)
+[AVP Xenomorphs] [Mask] Drawing mask for Wild boar 2 (royal=False) (tick 243754)
+[AVP Xenomorphs] [Mask] Drawing mask for Wild boar 2 (royal=False) (tick 244004)
+[AVP Xenomorphs] [Mask] Drawing mask for Wild boar 2 (royal=False) (tick 244255)
+[AVP Xenomorphs] [Mask] Drawing mask for Wild boar 2 (royal=False) (tick 244505)
+[AVP Xenomorphs] [Mask] Drawing mask for Wild boar 2 (royal=False) (tick 244756)
+[AVP Xenomorphs] [Mask] Drawing mask for Wild boar 2 (royal=False) (tick 245009)
+[AVP Xenomorphs] [Mask] Drawing mask for Wild boar 2 (royal=False) (tick 245264)
+Material 'SolidColorMat-Custom/Solid Color-RGBA(0.000, 0.000, 0.000, 0.000)' with Shader 'Custom/Solid Color' doesn't have a texture property '_MainTex'
+Exception printing RRY_Xenomorph_Cocoon_Animal50591 at (234, 0, 233): System.ArgumentNullException: Value cannot be null.
+Parameter name: key
+[Ref 81238DF4] Duplicate stacktrace, see ref for original
+[AVP Xenomorphs] [Mask] Drawing mask for capybara (royal=False) (tick 245518)
+Material 'SolidColorMat-Custom/Solid Color-RGBA(0.000, 0.000, 0.000, 0.000)' with Shader 'Custom/Solid Color' doesn't have a texture property '_MainTex'
+Exception printing RRY_Xenomorph_Cocoon_Animal50591 at (234, 0, 233): System.ArgumentNullException: Value cannot be null.
+Parameter name: key
+[Ref 81238DF4] Duplicate stacktrace, see ref for original
+[AVP Xenomorphs] [Mask] Drawing mask for capybara (royal=False) (tick 245770)
+[AVP Xenomorphs] [Mask] Drawing mask for capybara (royal=False) (tick 246022)
+[AVP Xenomorphs] [Mask] Drawing mask for capybara (royal=False) (tick 246272)
+[AVP Xenomorphs] [Mask] Drawing mask for capybara (royal=False) (tick 246524)
+Material 'SolidColorMat-Custom/Solid Color-RGBA(0.000, 0.000, 0.000, 0.000)' with Shader 'Custom/Solid Color' doesn't have a texture property '_MainTex'
+Exception printing RRY_Xenomorph_Cocoon_Animal50591 at (234, 0, 233): System.ArgumentNullException: Value cannot be null.
+Parameter name: key
+[Ref 81238DF4] Duplicate stacktrace, see ref for original
+[AVP Xenomorphs] [Mask] Drawing mask for capybara (royal=False) (tick 246777)
+[AVP Xenomorphs] [Mask] Drawing mask for capybara (royal=False) (tick 247029)
+Material 'SolidColorMat-Custom/Solid Color-RGBA(0.000, 0.000, 0.000, 0.000)' with Shader 'Custom/Solid Color' doesn't have a texture property '_MainTex'
+Exception printing RRY_Xenomorph_Cocoon_Animal50591 at (234, 0, 233): System.ArgumentNullException: Value cannot be null.
+Parameter name: key
+[Ref 81238DF4] Duplicate stacktrace, see ref for original
+[AVP Xenomorphs] [Mask] Drawing mask for capybara (royal=False) (tick 247281)
+Material 'SolidColorMat-Custom/Solid Color-RGBA(0.000, 0.000, 0.000, 0.000)' with Shader 'Custom/Solid Color' doesn't have a texture property '_MainTex'
+Exception printing RRY_Xenomorph_Cocoon_Animal50591 at (234, 0, 233): System.ArgumentNullException: Value cannot be null.
+Parameter name: key
+[Ref 81238DF4] Duplicate stacktrace, see ref for original
+[AVP Xenomorphs] [Mask] Drawing mask for capybara (royal=False) (tick 247536)
+[AVP Xenomorphs] [Mask] Drawing mask for capybara (royal=False) (tick 247791)
+[AVP Xenomorphs] [Mask] Drawing mask for capybara (royal=False) (tick 248045)
+[AVP Xenomorphs] [Mask] Drawing mask for capybara (royal=False) (tick 248295)
+Material 'SolidColorMat-Custom/Solid Color-RGBA(0.000, 0.000, 0.000, 0.000)' with Shader 'Custom/Solid Color' doesn't have a texture property '_MainTex'
+Exception printing RRY_Xenomorph_Cocoon_Animal50591 at (234, 0, 233): System.ArgumentNullException: Value cannot be null.
+Parameter name: key
+[Ref 81238DF4] Duplicate stacktrace, see ref for original
+[AVP Xenomorphs] [Mask] Drawing mask for capybara (royal=False) (tick 248550)
+[AVP Xenomorphs] [Detach] capybara in post-impregnation, timer2=209, severity=0.4566663, stage=2 (tick 248800)
+[AVP Xenomorphs] [Detach] capybara in post-impregnation, timer2=459, severity=0.4599997, stage=2 (tick 249050)
+Material 'SolidColorMat-Custom/Solid Color-RGBA(0.000, 0.000, 0.000, 0.000)' with Shader 'Custom/Solid Color' doesn't have a texture property '_MainTex'
+Exception printing RRY_Xenomorph_Cocoon_Animal50591 at (234, 0, 233): System.ArgumentNullException: Value cannot be null.
+Parameter name: key
+[Ref 81238DF4] Duplicate stacktrace, see ref for original
+Material 'SolidColorMat-Custom/Solid Color-RGBA(0.000, 0.000, 0.000, 0.000)' with Shader 'Custom/Solid Color' doesn't have a texture property '_MainTex'
+Exception printing RRY_Xenomorph_Cocoon_Animal50591 at (234, 0, 233): System.ArgumentNullException: Value cannot be null.
+Parameter name: key
+[Ref 81238DF4] Duplicate stacktrace, see ref for original
+Material 'SolidColorMat-Custom/Solid Color-RGBA(0.000, 0.000, 0.000, 0.000)' with Shader 'Custom/Solid Color' doesn't have a texture property '_MainTex'
+Exception printing RRY_Xenomorph_Cocoon_Animal50591 at (234, 0, 233): System.ArgumentNullException: Value cannot be null.
+Parameter name: key
+[Ref 81238DF4] Duplicate stacktrace, see ref for original
+Material 'SolidColorMat-Custom/Solid Color-RGBA(0.000, 0.000, 0.000, 0.000)' with Shader 'Custom/Solid Color' doesn't have a texture property '_MainTex'
+Exception printing RRY_Xenomorph_Cocoon_Animal50591 at (234, 0, 233): System.ArgumentNullException: Value cannot be null.
+Parameter name: key
+[Ref 81238DF4] Duplicate stacktrace, see ref for original
+Material 'SolidColorMat-Custom/Solid Color-RGBA(0.000, 0.000, 0.000, 0.000)' with Shader 'Custom/Solid Color' doesn't have a texture property '_MainTex'
+Exception printing RRY_Xenomorph_Cocoon_Animal50591 at (234, 0, 233): System.ArgumentNullException: Value cannot be null.
+Parameter name: key
+[Ref 81238DF4] Duplicate stacktrace, see ref for original
+Material 'SolidColorMat-Custom/Solid Color-RGBA(0.000, 0.000, 0.000, 0.000)' with Shader 'Custom/Solid Color' doesn't have a texture property '_MainTex'
+Exception printing RRY_Xenomorph_Cocoon_Animal50591 at (234, 0, 233): System.ArgumentNullException: Value cannot be null.
+Parameter name: key
+[Ref 81238DF4] Duplicate stacktrace, see ref for original
+Material 'SolidColorMat-Custom/Solid Color-RGBA(0.000, 0.000, 0.000, 0.000)' with Shader 'Custom/Solid Color' doesn't have a texture property '_MainTex'
+Exception printing RRY_Xenomorph_Cocoon_Animal50591 at (234, 0, 233): System.ArgumentNullException: Value cannot be null.
+Parameter name: key
+[Ref 81238DF4] Duplicate stacktrace, see ref for original
+Material 'SolidColorMat-Custom/Solid Color-RGBA(0.000, 0.000, 0.000, 0.000)' with Shader 'Custom/Solid Color' doesn't have a texture property '_MainTex'
+Exception printing RRY_Xenomorph_Cocoon_Animal50591 at (234, 0, 233): System.ArgumentNullException: Value cannot be null.
+Parameter name: key
+[Ref 81238DF4] Duplicate stacktrace, see ref for original
+Material 'SolidColorMat-Custom/Solid Color-RGBA(0.000, 0.000, 0.000, 0.000)' with Shader 'Custom/Solid Color' doesn't have a texture property '_MainTex'
+Exception printing RRY_Xenomorph_Cocoon_Animal50591 at (234, 0, 233): System.ArgumentNullException: Value cannot be null.
+Parameter name: key
+[Ref 81238DF4] Duplicate stacktrace, see ref for original
+Material 'SolidColorMat-Custom/Solid Color-RGBA(0.000, 0.000, 0.000, 0.000)' with Shader 'Custom/Solid Color' doesn't have a texture property '_MainTex'
+Exception printing RRY_Xenomorph_Cocoon_Animal50591 at (234, 0, 233): System.ArgumentNullException: Value cannot be null.
+Parameter name: key
+[Ref 81238DF4] Duplicate stacktrace, see ref for original
+Material 'SolidColorMat-Custom/Solid Color-RGBA(0.000, 0.000, 0.000, 0.000)' with Shader 'Custom/Solid Color' doesn't have a texture property '_MainTex'
+Exception printing RRY_Xenomorph_Cocoon_Animal50591 at (234, 0, 233): System.ArgumentNullException: Value cannot be null.
+Parameter name: key
+[Ref 81238DF4] Duplicate stacktrace, see ref for original
+Material 'SolidColorMat-Custom/Solid Color-RGBA(0.000, 0.000, 0.000, 0.000)' with Shader 'Custom/Solid Color' doesn't have a texture property '_MainTex'
+Exception printing RRY_Xenomorph_Cocoon_Animal50591 at (234, 0, 233): System.ArgumentNullException: Value cannot be null.
+Parameter name: key
+[Ref 81238DF4] Duplicate stacktrace, see ref for original
+Material 'SolidColorMat-Custom/Solid Color-RGBA(0.000, 0.000, 0.000, 0.000)' with Shader 'Custom/Solid Color' doesn't have a texture property '_MainTex'
+Exception printing RRY_Xenomorph_Cocoon_Animal50591 at (234, 0, 233): System.ArgumentNullException: Value cannot be null.
+Parameter name: key
+[Ref 81238DF4] Duplicate stacktrace, see ref for original
+[AVP Xenomorphs] [Detach] alpaca in post-impregnation, timer2=1, severity=0.453333, stage=2 (tick 251761)
+[AVP Xenomorphs] [Detach] alpaca in post-impregnation, timer2=251, severity=0.4566663, stage=2 (tick 252011)
+Material 'SolidColorMat-Custom/Solid Color-RGBA(0.000, 0.000, 0.000, 0.000)' with Shader 'Custom/Solid Color' doesn't have a texture property '_MainTex'
+Exception printing RRY_Xenomorph_Cocoon_Animal50591 at (234, 0, 233): System.ArgumentNullException: Value cannot be null.
+Parameter name: key
+[Ref 81238DF4] Duplicate stacktrace, see ref for original
+[AVP Xenomorphs] [Detach] alpaca in post-impregnation, timer2=501, severity=0.4599997, stage=2 (tick 252261)
+Material 'SolidColorMat-Custom/Solid Color-RGBA(0.000, 0.000, 0.000, 0.000)' with Shader 'Custom/Solid Color' doesn't have a texture property '_MainTex'
+Exception printing RRY_Xenomorph_Cocoon_Animal50591 at (234, 0, 233): System.ArgumentNullException: Value cannot be null.
+Parameter name: key
+[Ref 81238DF4] Duplicate stacktrace, see ref for original
+Material 'SolidColorMat-Custom/Solid Color-RGBA(0.000, 0.000, 0.000, 0.000)' with Shader 'Custom/Solid Color' doesn't have a texture property '_MainTex'
+Exception printing RRY_Xenomorph_Cocoon_Animal50591 at (234, 0, 233): System.ArgumentNullException: Value cannot be null.
+Parameter name: key
+[Ref 81238DF4] Duplicate stacktrace, see ref for original
+Material 'SolidColorMat-Custom/Solid Color-RGBA(0.000, 0.000, 0.000, 0.000)' with Shader 'Custom/Solid Color' doesn't have a texture property '_MainTex'
+Exception printing RRY_Xenomorph_Cocoon_Animal50591 at (234, 0, 233): System.ArgumentNullException: Value cannot be null.
+Parameter name: key
+[Ref 81238DF4] Duplicate stacktrace, see ref for original
+Material 'SolidColorMat-Custom/Solid Color-RGBA(0.000, 0.000, 0.000, 0.000)' with Shader 'Custom/Solid Color' doesn't have a texture property '_MainTex'
+Exception printing RRY_Xenomorph_Cocoon_Animal50591 at (234, 0, 233): System.ArgumentNullException: Value cannot be null.
+Parameter name: key
+[Ref 81238DF4] Duplicate stacktrace, see ref for original
+Material 'SolidColorMat-Custom/Solid Color-RGBA(0.000, 0.000, 0.000, 0.000)' with Shader 'Custom/Solid Color' doesn't have a texture property '_MainTex'
+Exception printing RRY_Xenomorph_Cocoon_Animal50591 at (234, 0, 233): System.ArgumentNullException: Value cannot be null.
+Parameter name: key
+[Ref 81238DF4] Duplicate stacktrace, see ref for original
+Material 'SolidColorMat-Custom/Solid Color-RGBA(0.000, 0.000, 0.000, 0.000)' with Shader 'Custom/Solid Color' doesn't have a texture property '_MainTex'
+Exception printing RRY_Xenomorph_Cocoon_Animal50591 at (234, 0, 233): System.ArgumentNullException: Value cannot be null.
+Parameter name: key
+[Ref 81238DF4] Duplicate stacktrace, see ref for original
+Material 'SolidColorMat-Custom/Solid Color-RGBA(0.000, 0.000, 0.000, 0.000)' with Shader 'Custom/Solid Color' doesn't have a texture property '_MainTex'
+Exception printing RRY_Xenomorph_Cocoon_Animal50591 at (234, 0, 233): System.ArgumentNullException: Value cannot be null.
+Parameter name: key
+[Ref 81238DF4] Duplicate stacktrace, see ref for original
+[AVP Xenomorphs] [Detach] Alpaca 2 in post-impregnation, timer2=1, severity=0.453333, stage=2 (tick 253486)
+Material 'SolidColorMat-Custom/Solid Color-RGBA(0.000, 0.000, 0.000, 0.000)' with Shader 'Custom/Solid Color' doesn't have a texture property '_MainTex'
+Exception printing RRY_Xenomorph_Cocoon_Animal50591 at (234, 0, 233): System.ArgumentNullException: Value cannot be null.
+Parameter name: key
+[Ref 81238DF4] Duplicate stacktrace, see ref for original
+[AVP Xenomorphs] [Detach] Alpaca 2 in post-impregnation, timer2=251, severity=0.4566663, stage=2 (tick 253736)
+[AVP Xenomorphs] [Detach] Alpaca 2 in post-impregnation, timer2=501, severity=0.4599997, stage=2 (tick 253986)
+[AVP Xenomorphs] [Detach] Michels in post-impregnation, timer2=1, severity=0.453333, stage=2 (tick 254629)
+Material 'SolidColorMat-Custom/Solid Color-RGBA(0.000, 0.000, 0.000, 0.000)' with Shader 'Custom/Solid Color' doesn't have a texture property '_MainTex'
+Exception printing RRY_Xenomorph_Cocoon_Animal50591 at (234, 0, 233): System.ArgumentNullException: Value cannot be null.
+Parameter name: key
+[Ref 81238DF4] Duplicate stacktrace, see ref for original
+[AVP Xenomorphs] [Detach] Michels in post-impregnation, timer2=251, severity=0.4566663, stage=2 (tick 254879)
+Material 'SolidColorMat-Custom/Solid Color-RGBA(0.000, 0.000, 0.000, 0.000)' with Shader 'Custom/Solid Color' doesn't have a texture property '_MainTex'
+Exception printing RRY_Xenomorph_Cocoon_Animal50591 at (234, 0, 233): System.ArgumentNullException: Value cannot be null.
+Parameter name: key
+[Ref 81238DF4] Duplicate stacktrace, see ref for original
+[AVP Xenomorphs] [Detach] Wild boar 2 in post-impregnation, timer2=41, severity=0.453333, stage=2 (tick 255129)
+[AVP Xenomorphs] [Detach] Wild boar 2 in post-impregnation, timer2=291, severity=0.4566663, stage=2 (tick 255379)
+[AVP Xenomorphs] [Detach] Wild boar 2 in post-impregnation, timer2=541, severity=0.4599997, stage=2 (tick 255629)
+Material 'SolidColorMat-Custom/Solid Color-RGBA(0.000, 0.000, 0.000, 0.000)' with Shader 'Custom/Solid Color' doesn't have a texture property '_MainTex'
+Exception printing RRY_Xenomorph_Cocoon_Animal50591 at (234, 0, 233): System.ArgumentNullException: Value cannot be null.
+Parameter name: key
+[Ref 81238DF4] Duplicate stacktrace, see ref for original
+Material 'SolidColorMat-Custom/Solid Color-RGBA(0.000, 0.000, 0.000, 0.000)' with Shader 'Custom/Solid Color' doesn't have a texture property '_MainTex'
+Exception printing RRY_Xenomorph_Cocoon_Animal50591 at (234, 0, 233): System.ArgumentNullException: Value cannot be null.
+Parameter name: key
+[Ref 81238DF4] Duplicate stacktrace, see ref for original
+Material 'SolidColorMat-Custom/Solid Color-RGBA(0.000, 0.000, 0.000, 0.000)' with Shader 'Custom/Solid Color' doesn't have a texture property '_MainTex'
+Exception printing RRY_Xenomorph_Cocoon_Animal50591 at (234, 0, 233): System.ArgumentNullException: Value cannot be null.
+Parameter name: key
+[Ref 81238DF4] Duplicate stacktrace, see ref for original
+Material 'SolidColorMat-Custom/Solid Color-RGBA(0.000, 0.000, 0.000, 0.000)' with Shader 'Custom/Solid Color' doesn't have a texture property '_MainTex'
+Exception printing RRY_Xenomorph_Cocoon_Animal50591 at (234, 0, 233): System.ArgumentNullException: Value cannot be null.
+Parameter name: key
+[Ref 81238DF4] Duplicate stacktrace, see ref for original
+Material 'SolidColorMat-Custom/Solid Color-RGBA(0.000, 0.000, 0.000, 0.000)' with Shader 'Custom/Solid Color' doesn't have a texture property '_MainTex'
+Exception printing RRY_Xenomorph_Cocoon_Animal50591 at (234, 0, 233): System.ArgumentNullException: Value cannot be null.
+Parameter name: key
+[Ref 81238DF4] Duplicate stacktrace, see ref for original
+Material 'SolidColorMat-Custom/Solid Color-RGBA(0.000, 0.000, 0.000, 0.000)' with Shader 'Custom/Solid Color' doesn't have a texture property '_MainTex'
+Exception printing RRY_Xenomorph_Cocoon_Animal50591 at (234, 0, 233): System.ArgumentNullException: Value cannot be null.
+Parameter name: key
+[Ref 81238DF4] Duplicate stacktrace, see ref for original
+Material 'SolidColorMat-Custom/Solid Color-RGBA(0.000, 0.000, 0.000, 0.000)' with Shader 'Custom/Solid Color' doesn't have a texture property '_MainTex'
+Exception printing RRY_Xenomorph_Cocoon_Animal50591 at (234, 0, 233): System.ArgumentNullException: Value cannot be null.
+Parameter name: key
+[Ref 81238DF4] Duplicate stacktrace, see ref for original
+Material 'SolidColorMat-Custom/Solid Color-RGBA(0.000, 0.000, 0.000, 0.000)' with Shader 'Custom/Solid Color' doesn't have a texture property '_MainTex'
+Exception printing RRY_Xenomorph_Cocoon_Animal50591 at (234, 0, 233): System.ArgumentNullException: Value cannot be null.
+Parameter name: key
+[Ref 81238DF4] Duplicate stacktrace, see ref for original
+Material 'SolidColorMat-Custom/Solid Color-RGBA(0.000, 0.000, 0.000, 0.000)' with Shader 'Custom/Solid Color' doesn't have a texture property '_MainTex'
+Exception printing RRY_Xenomorph_Cocoon_Animal50591 at (234, 0, 233): System.ArgumentNullException: Value cannot be null.
+Parameter name: key
+[Ref 81238DF4] Duplicate stacktrace, see ref for original
+Material 'SolidColorMat-Custom/Solid Color-RGBA(0.000, 0.000, 0.000, 0.000)' with Shader 'Custom/Solid Color' doesn't have a texture property '_MainTex'
+Exception printing RRY_Xenomorph_Cocoon_Animal50591 at (234, 0, 233): System.ArgumentNullException: Value cannot be null.
+Parameter name: key
+[Ref 81238DF4] Duplicate stacktrace, see ref for original
+Material 'SolidColorMat-Custom/Solid Color-RGBA(0.000, 0.000, 0.000, 0.000)' with Shader 'Custom/Solid Color' doesn't have a texture property '_MainTex'
+Exception printing RRY_Xenomorph_Cocoon_Animal50591 at (234, 0, 233): System.ArgumentNullException: Value cannot be null.
+Parameter name: key
+[Ref 81238DF4] Duplicate stacktrace, see ref for original
+Material 'SolidColorMat-Custom/Solid Color-RGBA(0.000, 0.000, 0.000, 0.000)' with Shader 'Custom/Solid Color' doesn't have a texture property '_MainTex'
+Exception printing RRY_Xenomorph_Cocoon_Animal50591 at (234, 0, 233): System.ArgumentNullException: Value cannot be null.
+Parameter name: key
+[Ref 81238DF4] Duplicate stacktrace, see ref for original
+Material 'SolidColorMat-Custom/Solid Color-RGBA(0.000, 0.000, 0.000, 0.000)' with Shader 'Custom/Solid Color' doesn't have a texture property '_MainTex'
+Exception printing RRY_Xenomorph_Cocoon_Animal50591 at (234, 0, 233): System.ArgumentNullException: Value cannot be null.
+Parameter name: key
+[Ref 81238DF4] Duplicate stacktrace, see ref for original
+Material 'SolidColorMat-Custom/Solid Color-RGBA(0.000, 0.000, 0.000, 0.000)' with Shader 'Custom/Solid Color' doesn't have a texture property '_MainTex'
+Exception printing RRY_Xenomorph_Cocoon_Animal50591 at (234, 0, 233): System.ArgumentNullException: Value cannot be null.
+Parameter name: key
+[Ref 81238DF4] Duplicate stacktrace, see ref for original
+Material 'SolidColorMat-Custom/Solid Color-RGBA(0.000, 0.000, 0.000, 0.000)' with Shader 'Custom/Solid Color' doesn't have a texture property '_MainTex'
+Exception printing RRY_Xenomorph_Cocoon_Animal50591 at (234, 0, 233): System.ArgumentNullException: Value cannot be null.
+Parameter name: key
+[Ref 81238DF4] Duplicate stacktrace, see ref for original
+Material 'SolidColorMat-Custom/Solid Color-RGBA(0.000, 0.000, 0.000, 0.000)' with Shader 'Custom/Solid Color' doesn't have a texture property '_MainTex'
+Exception printing RRY_Xenomorph_Cocoon_Animal50591 at (234, 0, 233): System.ArgumentNullException: Value cannot be null.
+Parameter name: key
+[Ref 81238DF4] Duplicate stacktrace, see ref for original
+Material 'SolidColorMat-Custom/Solid Color-RGBA(0.000, 0.000, 0.000, 0.000)' with Shader 'Custom/Solid Color' doesn't have a texture property '_MainTex'
+Exception printing RRY_Xenomorph_Cocoon_Animal50591 at (234, 0, 233): System.ArgumentNullException: Value cannot be null.
+Parameter name: key
+[Ref 81238DF4] Duplicate stacktrace, see ref for original
+Material 'SolidColorMat-Custom/Solid Color-RGBA(0.000, 0.000, 0.000, 0.000)' with Shader 'Custom/Solid Color' doesn't have a texture property '_MainTex'
+Exception printing RRY_Xenomorph_Cocoon_Animal50591 at (234, 0, 233): System.ArgumentNullException: Value cannot be null.
+Parameter name: key
+[Ref 81238DF4] Duplicate stacktrace, see ref for original
+Material 'SolidColorMat-Custom/Solid Color-RGBA(0.000, 0.000, 0.000, 0.000)' with Shader 'Custom/Solid Color' doesn't have a texture property '_MainTex'
+Exception printing RRY_Xenomorph_Cocoon_Animal50591 at (234, 0, 233): System.ArgumentNullException: Value cannot be null.
+Parameter name: key
+[Ref 81238DF4] Duplicate stacktrace, see ref for original
+Material 'SolidColorMat-Custom/Solid Color-RGBA(0.000, 0.000, 0.000, 0.000)' with Shader 'Custom/Solid Color' doesn't have a texture property '_MainTex'
+Exception printing RRY_Xenomorph_Cocoon_Animal50591 at (234, 0, 233): System.ArgumentNullException: Value cannot be null.
+Parameter name: key
+[Ref 81238DF4] Duplicate stacktrace, see ref for original
+Material 'SolidColorMat-Custom/Solid Color-RGBA(0.000, 0.000, 0.000, 0.000)' with Shader 'Custom/Solid Color' doesn't have a texture property '_MainTex'
+Exception printing RRY_Xenomorph_Cocoon_Animal50591 at (234, 0, 233): System.ArgumentNullException: Value cannot be null.
+Parameter name: key
+[Ref 81238DF4] Duplicate stacktrace, see ref for original
+[AVP Xenomorphs] [Spawn] Chestburster spawned: Runner faction=a Xenomorph hive (tick 264991)
+Error while killing Capybara36924 during phase 6: System.NullReferenceException: Object reference not set to an instance of an object
+[Ref FFAE1366]
+  at Verse.ThingMaker.MakeThing (Verse.ThingDef def, Verse.ThingDef stuff) [0x0005b] in <61e4173561894da49d210260257b5097>:0 
+  at RimWorld.MoteMaker.ThrowExplosionCell (Verse.IntVec3 cell, Verse.Map map, Verse.ThingDef moteDef, UnityEngine.Color color) [0x0000b] in <61e4173561894da49d210260257b5097>:0 
+  at RRYautja.HediffComp_XenoSpawner.Notify_PawnDied (System.Nullable`1[T] dinfo, Verse.Hediff culprit) [0x00308] in <015f9785034c4883abd4d85f6e6a50d9>:0 
+  at Verse.HediffWithComps.Notify_PawnDied (System.Nullable`1[T] dinfo, Verse.Hediff culprit) [0x00024] in <61e4173561894da49d210260257b5097>:0 
+  at RRYautja.XenoHediffWithComps.Notify_PawnDied (System.Nullable`1[T] dinfo, Verse.Hediff culprit) [0x00000] in <015f9785034c4883abd4d85f6e6a50d9>:0 
+  at Verse.HediffSet.Notify_PawnDied (System.Nullable`1[T] dinfo, Verse.Hediff culprit) [0x0001c] in <61e4173561894da49d210260257b5097>:0 
+  at Verse.Pawn.Kill (System.Nullable`1[T] dinfo, Verse.Hediff exactCulprit) [0x0064c] in <61e4173561894da49d210260257b5097>:0 
+    - PREFIX OskarPotocki.VEF: Void VEF.Storyteller.VanillaExpandedFramework_Pawn_Kill_Patch:Prefix(Pawn __instance, Nullable`1 dinfo, Hediff exactCulprit)
+    - PREFIX OskarPotocki.VEF: Boolean VEF.Apparels.VanillaExpandedFramework_Pawn_Kill_Patch:Prefix(Pawn __instance, List`1& __state)
+    - POSTFIX UnlimitedHugs.AllowTool: Void AllowTool.Patches.Pawn_Kill_Patch:UnforbidDraftedHuntBody(Pawn __instance, Nullable`1 dinfo)
+    - POSTFIX OskarPotocki.VEF: Void VEF.Pawns.VanillaExpandedFramework_Pawn_Kill:Postfix(Pawn __instance)
+    - POSTFIX OskarPotocki.VEF: Void VEF.Apparels.VanillaExpandedFramework_Pawn_Kill_Patch:Postfix(Pawn __instance, List`1 __state)
+    - POSTFIX VFEEmpire.Mod: Void VFEEmpire.HarmonyPatches.ColonistTitleCache+OnPawn:Postfix(Pawn __instance)
+    - POSTFIX vanillaexpanded.factions.deserters: Void VFED.HarmonyPatches.MiscPatches:ExplodePackOnDeath(Pawn __instance)
+[AVP Xenomorphs] [Spawn] Chestburster spawned: Warrior faction=a Xenomorph hive (tick 265560)
+Error while killing Bucky during phase 6: System.NullReferenceException: Object reference not set to an instance of an object
+[Ref FFAE1366] Duplicate stacktrace, see ref for original
+Error while killing Karlsen during phase 6: System.NullReferenceException: Object reference not set to an instance of an object
+[Ref FFAE1366] Duplicate stacktrace, see ref for original
