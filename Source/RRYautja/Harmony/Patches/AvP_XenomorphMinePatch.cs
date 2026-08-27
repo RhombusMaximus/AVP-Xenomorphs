@@ -44,18 +44,22 @@ namespace RRYautja
         /// </summary>
         public static bool TrySpawnYieldPrefix(Mineable __instance, object[] __args)
         {
-            // Find the Pawn argument (last parameter in both overloads)
-            Pawn miner = null;
-            foreach (var arg in __args)
+            // Fast exit — find Pawn argument quickly
+            if (__args == null || __args.Length == 0) return true;
+            // Last argument is usually the Pawn
+            Pawn miner = __args[__args.Length - 1] as Pawn;
+            if (miner == null)
             {
-                if (arg is Pawn p) { miner = p; break; }
+                // Fallback: scan all args
+                foreach (var arg in __args)
+                {
+                    if (arg is Pawn p) { miner = p; break; }
+                }
             }
-
-            if (miner != null && miner.isXenomorph())
-            {
-                return false; // Skip TrySpawnYield entirely - no chunks
-            }
-            return true;
+            if (miner == null) return true;
+            // Direct FleshType check — faster than isXenomorph() extension
+            if (miner.RaceProps?.FleshType != XenomorphRacesDefOf.RRY_Xenomorph) return true;
+            return false; // Skip TrySpawnYield entirely - no chunks
         }
     }
 }
