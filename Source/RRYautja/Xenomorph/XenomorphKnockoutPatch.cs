@@ -47,14 +47,11 @@ namespace RRYautja
         {
             try
             {
-                // Only process pawns
+                // Fast exit — only process pawn targets with pawn attackers
                 if (!(__instance is Pawn victim)) return;
-
                 Pawn attacker = dinfo.Instigator as Pawn;
                 if (attacker == null) return;
-                if (!attacker.isXenomorph()) return;
-
-                // Only Drones and Warriors get knockout chance
+                // Fast exit — check attacker kind defName directly
                 string defName = attacker.kindDef?.defName;
                 if (defName != "RRY_Xenomorph_Drone" && defName != "RRY_Xenomorph_Warrior") return;
 

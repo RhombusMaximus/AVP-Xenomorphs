@@ -62,14 +62,14 @@ namespace RRYautja
         /// </summary>
         public static void TryGetAnimationOffsetPostfix(PawnRenderNode __instance, ref bool __result, ref Vector3 offset)
         {
-            // Quick check — skip if not apparel node
+            // Ultra-fast check — most render nodes are not apparel
             if (!(__instance is PawnRenderNode_Apparel apparelNode)) return;
-            // Quick check — skip if no apparel
+            // Only facehugger mask apparel — check defName directly
             var apparel = apparelNode.apparel;
             if (apparel == null) return;
             var def = apparel.def;
-            if (def == null) return;
-            // Only offset facehugger mask apparel
+            if (def == null || def.defName == null) return;
+            // String comparison is fast — only 2 defNames to check
             if (def.defName != "RRY_FacehuggerMask" && def.defName != "RRY_RoyalFacehuggerMask") return;
             // Move the mask down toward the face (negative Z = down on screen)
             offset.z -= 0.15f;
