@@ -37,7 +37,7 @@
       <PsychicSensitivity>1</PsychicSensitivity>
       <Flammability>0.5</Flammability>
       <ToxicResistance>0</ToxicResistance>
-      <ComfyTemperatureMin>-30</ComfyTemperatureMin>
+      <ComfyTemperatureMin>-20</ComfyTemperatureMin>
       <ComfyTemperatureMax>150</ComfyTemperatureMax>
       <MeatAmount>15</MeatAmount>
       <LeatherAmount>15</LeatherAmount>
