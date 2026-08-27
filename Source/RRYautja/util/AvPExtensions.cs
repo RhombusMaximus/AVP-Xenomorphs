@@ -283,6 +283,11 @@ namespace RRYautja.ExtensionMethods
             if (thingDef.defName == "AG_Hiveling") { FailReason = NonBio; return false; }
             // Block Covetheus mod's Walter android (different defName from standard Androids mod)
             if (thingDef.defName.Contains("Walter")) { FailReason = NonBio; return false; }
+            // Block RimRobots Personae and Mechanent (robot pawns, not biological hosts)
+            if (thingDef.defName.Contains("Personae")) { FailReason = NonBio; return false; }
+            if (thingDef.defName.Contains("Mechanent")) { FailReason = NonBio; return false; }
+            if (thingDef.defName.Contains("Robot")) { FailReason = NonBio; return false; }
+            if (thingDef.race.body.defName.Contains("Robot")) { FailReason = NonBio; return false; }
             if (thingDef.defName.Contains("TM_"))
             {
                 if (thingDef.defName.Contains("Undead") || thingDef.defName.Contains("Minion") || thingDef.defName.Contains("Demon")) { FailReason = NonBio; return false; }
