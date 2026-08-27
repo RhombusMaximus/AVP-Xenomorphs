@@ -279,10 +279,11 @@ namespace RRYautja
             else if ((this.parent.CurStageIndex == 2 || this.parent.CurStage.label == "post impregnation"))
             {
                 timer2++;
+                AvPDebug.Log("Detach", Pawn.LabelShort + " in post-impregnation, timer2=" + timer2 + ", severity=" + this.parent.Severity + ", stage=" + this.parent.CurStageIndex);
                 if (timer2 >= 600)
                 {
                     // Facehugger detaches after post-impregnation
-                    // Use RemoveHediff instead of direct list removal to ensure proper cleanup
+                    AvPDebug.Log("Detach", "Detaching facehugger from " + Pawn.LabelShort + " (timer2 reached 600)");
                     Pawn.health.RemoveHediff(this.parent);
                     return;
                 }
