@@ -195,7 +195,16 @@ namespace RimWorld
                 HuntingRange = HuntingRange * 2;
                 requireLOS = false;
             }
-            List<Pawn> list = pawn.Map.mapPawns.AllPawns.Where((Pawn x) => !x.health.hediffSet.HasHediff(XenomorphDefOf.RRY_Hediff_Cocooned) && (!x.Downed || !x.Awake()) && x.isPotentialHost() && pawn.CanReach(x, PathEndMode.Touch, Danger.Deadly, false, false, TraverseMode.NoPassClosedDoors) && !pawn.health.hediffSet.HasHediff(XenomorphDefOf.RRY_Hediff_Anesthetic) && (this.Gender == Gender.None || (this.Gender!=Gender.None && x.gender == this.Gender))).ToList();
+            // Filter pawns WITHOUT CanReach (expensive pathfinding) — do that later only on candidates
+            List<Pawn> candidates = pawn.Map.mapPawns.AllPawns.Where((Pawn x) =>
+                x != null && x.health != null && x.health.hediffSet != null
+                && !x.health.hediffSet.HasHediff(XenomorphDefOf.RRY_Hediff_Cocooned)
+                && (!x.Downed || !x.Awake())
+                && x.isPotentialHost()
+                && !pawn.health.hediffSet.HasHediff(XenomorphDefOf.RRY_Hediff_Anesthetic)
+                && (this.Gender == Gender.None || x.gender == this.Gender)).ToList();
+            // Now do CanReach only on the filtered candidates (much fewer than all pawns)
+            List<Pawn> list = candidates.Where(x => pawn.CanReach(x, PathEndMode.Touch, Danger.Deadly, false, false, TraverseMode.NoPassClosedDoors)).ToList();
             if (!list.NullOrEmpty())
             {
                 if (pawn.jobs.debugLog) pawn.jobs.DebugLogEvent(string.Format("Xeno found {0} possible targets", list.Count));
