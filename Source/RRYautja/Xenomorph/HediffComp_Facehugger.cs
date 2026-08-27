@@ -314,6 +314,11 @@ namespace RRYautja
             Pawn hostPawn = Pawn;
             Map spawnMap = !Pawn.Dead ? Pawn.Map : Pawn.MapHeld;
             IntVec3 spawnLoc = !Pawn.Dead ? Pawn.Position : Pawn.PositionHeld;
+            // If map or position is invalid, skip spawning the facehugger
+            if (spawnMap == null || !spawnLoc.IsValid)
+            {
+                return;
+            }
             foreach (IntVec3 loc in GenRadial.RadialCellsAround(spawnLoc, 1, false))
             {
                 if (loc.Standable(spawnMap))
