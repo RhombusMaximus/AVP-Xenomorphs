@@ -7,8 +7,7 @@
     <tickerType>Normal</tickerType>
     <altitudeLayer>Pawn</altitudeLayer>
     <useHitPoints>false</useHitPoints>
-    <stunFromEMP>true</stunFromEMP>
-	
+
     <hasTooltip>true</hasTooltip>
     <soundImpactDefault>BulletImpact_Flesh</soundImpactDefault>
     <inspectorTabs>

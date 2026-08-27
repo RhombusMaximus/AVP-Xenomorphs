@@ -27,7 +27,6 @@
 
   <ThingDef ParentName="RRY_BaseXenomorphPawn" Name="RRY_BaseXenomorph" Abstract="True">
     <soundImpactDefault>BulletImpact_Flesh</soundImpactDefault>
-    <stunFromEMP>true</stunFromEMP>
     <statBases>
       <Mass>70</Mass>
       <PainShockThreshold>0.9999</PainShockThreshold>

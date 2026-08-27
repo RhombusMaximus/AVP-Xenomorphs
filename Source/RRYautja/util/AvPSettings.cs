@@ -92,6 +92,15 @@ namespace RRYautja.settings
                     Log.Message("[AVP Xenomorphs] Faction made selectable (hidden=false)");
                 }
             }
+
+            // Set stunFromEMP on all Xenomorph and Neomorph race defs (not XML-writable in 1.6)
+            foreach (var def in DefDatabase<ThingDef>.AllDefs)
+            {
+                if (def.defName != null && (def.defName.StartsWith("RRY_Xenomorph") || def.defName.StartsWith("RRY_Neomorph")))
+                {
+                    try { def.stunFromEMP = true; } catch { }
+                }
+            }
         }
 
         public override string SettingsCategory() => "Aliens Vs Predator";
