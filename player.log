@@ -818,3 +818,185 @@ System.NullReferenceException: Object reference not set to an instance of an obj
 An error occurred while starting an error recover job. We have to stop now to avoid infinite loops. This means that the pawn is now jobless which can cause further bugs. pawn=RRY_Xenomorph_FaceHugger98894
 [AVP Xenomorphs] [Detach] Detaching facehugger from gazelle (impregnation complete) (tick 624526)
 queen can reach eggsite
+[AVP Xenomorphs] [Detach] Detaching facehugger from gazelle (impregnation complete) (tick 629814)
+queen can reach eggsite
+[AVP Xenomorphs] [Spawn] Chestburster spawned: Runner faction=a Xenomorph hive (tick 632213)
+[AVP Xenomorphs] [Spawn] Chestburster spawned: Runner faction=a Xenomorph hive (tick 632801)
+[AVP Xenomorphs] [Spawn] Chestburster spawned: Runner faction=a Xenomorph hive (tick 633939)
+Exception in Verse.AI.ThinkNode_Tagger TryIssueJobPackage: System.NullReferenceException: Object reference not set to an instance of an object
+[Ref B3A85BBC] Duplicate stacktrace, see ref for original
+JobDriver threw exception in toil MakeNewToils's initAction for pawn RRY_Xenomorph_FaceHugger98881 driver=JobDriver_Wait (toilIndex=0) driver.job=(Wait_Wander (Job_199760) Giver = JobGiver_WanderAnywhere [workGiverDef: null])
+System.NullReferenceException: Object reference not set to an instance of an object
+[Ref 2BEE724E] Duplicate stacktrace, see ref for original
+JobDriver threw exception in toil MakeNewToils's initAction for pawn RRY_Xenomorph_FaceHugger98881 driver=JobDriver_Wait (toilIndex=0) driver.job=(Wait (Job_199761))
+System.NullReferenceException: Object reference not set to an instance of an object
+[Ref 2BEE724E] Duplicate stacktrace, see ref for original
+An error occurred while starting an error recover job. We have to stop now to avoid infinite loops. This means that the pawn is now jobless which can cause further bugs. pawn=RRY_Xenomorph_FaceHugger98881
+[AVP Xenomorphs] [Spawn] Chestburster spawned: Warrior faction=a Xenomorph hive (tick 636395)
+[AVP Xenomorphs] [Spawn] Chestburster spawned: Drone faction=a Xenomorph hive (tick 636701)
+Exception in Verse.AI.ThinkNode_Tagger TryIssueJobPackage: System.NullReferenceException: Object reference not set to an instance of an object
+[Ref B3A85BBC] Duplicate stacktrace, see ref for original
+JobDriver threw exception in toil MakeNewToils's initAction for pawn RRY_Xenomorph_FaceHugger98577 driver=JobDriver_Wait (toilIndex=0) driver.job=(Wait_Wander (Job_200806) Giver = JobGiver_WanderAnywhere [workGiverDef: null])
+System.NullReferenceException: Object reference not set to an instance of an object
+[Ref 2BEE724E] Duplicate stacktrace, see ref for original
+JobDriver threw exception in toil MakeNewToils's initAction for pawn RRY_Xenomorph_FaceHugger98577 driver=JobDriver_Wait (toilIndex=0) driver.job=(Wait (Job_200807))
+System.NullReferenceException: Object reference not set to an instance of an object
+[Ref 2BEE724E] Duplicate stacktrace, see ref for original
+An error occurred while starting an error recover job. We have to stop now to avoid infinite loops. This means that the pawn is now jobless which can cause further bugs. pawn=RRY_Xenomorph_FaceHugger98577
+queen can reach eggsite
+[AVP Xenomorphs] [Spawn] Chestburster spawned: Runner faction=a Xenomorph hive (tick 639350)
+[AVP Xenomorphs] [Spawn] Chestburster spawned: Runner faction=a Xenomorph hive (tick 639661)
+[AVP Xenomorphs] [Spawn] Chestburster spawned: Warrior faction=a Xenomorph hive (tick 644160)
+Error in LordToil.UpdateAllDuties(): System.NullReferenceException: Object reference not set to an instance of an object
+[Ref 1189E446]
+  at RimWorld.LordToil_DefendHiveLikeAggressively.UpdateAllDuties () [0x00092] in <fea5bf88d895496b94b800e18e2349e6>:0 
+  at Verse.AI.Group.Lord.GotoToil (Verse.AI.Group.LordToil newLordToil) [0x0017f] in <61e4173561894da49d210260257b5097>:0 
+    - POSTFIX VFEEmpire.Mod: Void VFEEmpire.HarmonyPatches.Patch_Lords:GotoToil_Postfix(Lord __instance, LordToil newLordToil)
+[AVP Xenomorphs] [Spawn] Chestburster spawned: Runner faction=a Xenomorph hive (tick 644668)
+Error in LordToil.UpdateAllDuties(): System.NullReferenceException: Object reference not set to an instance of an object
+[Ref E2211B7E]
+  at RimWorld.LordToil_DefendHiveLikeAggressively.UpdateAllDuties () [0x00092] in <fea5bf88d895496b94b800e18e2349e6>:0 
+  at Verse.AI.Group.Lord.AddPawnInternal (Verse.Pawn p, System.Boolean updateDuties) [0x00102] in <61e4173561894da49d210260257b5097>:0 
+RRY_Xenomorph_Runner99557 doing ThinkNode_DutyConstant with no duty.
+RRY_Xenomorph_Runner99557 doing ThinkNode_DutyConstant with no duty.
+RRY_Xenomorph_Runner99557 doing ThinkNode_DutyConstant with no duty.
+RRY_Xenomorph_Runner99557 doing ThinkNode_DutyConstant with no duty.
+RRY_Xenomorph_Runner99557 doing ThinkNode_DutyConstant with no duty.
+RRY_Xenomorph_Runner99557 doing ThinkNode_DutyConstant with no duty.
+RRY_Xenomorph_Runner99557 doing ThinkNode_DutyConstant with no duty.
+RRY_Xenomorph_Runner99557 doing ThinkNode_DutyConstant with no duty.
+RRY_Xenomorph_Runner99557 doing ThinkNode_DutyConstant with no duty.
+RRY_Xenomorph_Runner99557 doing ThinkNode_DutyConstant with no duty.
+RRY_Xenomorph_Runner99557 doing ThinkNode_DutyConstant with no duty.
+RRY_Xenomorph_Runner99557 doing ThinkNode_DutyConstant with no duty.
+RRY_Xenomorph_Runner99557 doing ThinkNode_DutyConstant with no duty.
+RRY_Xenomorph_Runner99557 doing ThinkNode_DutyConstant with no duty.
+RRY_Xenomorph_Runner99557 doing ThinkNode_DutyConstant with no duty.
+RRY_Xenomorph_Runner99557 doing ThinkNode_DutyConstant with no duty.
+RRY_Xenomorph_Runner99557 doing ThinkNode_DutyConstant with no duty.
+RRY_Xenomorph_Runner99557 doing ThinkNode_DutyConstant with no duty.
+RRY_Xenomorph_Runner99557 doing ThinkNode_DutyConstant with no duty.
+RRY_Xenomorph_Runner99557 doing ThinkNode_DutyConstant with no duty.
+RRY_Xenomorph_Runner99557 doing ThinkNode_DutyConstant with no duty.
+RRY_Xenomorph_Runner99557 doing ThinkNode_DutyConstant with no duty.
+RRY_Xenomorph_Runner99557 doing ThinkNode_DutyConstant with no duty.
+[AVP Xenomorphs] [Spawn] Chestburster spawned: Warrior faction=a Xenomorph hive (tick 645299)
+Error in LordToil.UpdateAllDuties(): System.NullReferenceException: Object reference not set to an instance of an object
+[Ref E2211B7E] Duplicate stacktrace, see ref for original
+RRY_Xenomorph_Warrior99573 doing ThinkNode_DutyConstant with no duty.
+RRY_Xenomorph_Warrior99573 doing ThinkNode_DutyConstant with no duty.
+RRY_Xenomorph_Runner99557 doing ThinkNode_DutyConstant with no duty.
+RRY_Xenomorph_Warrior99573 doing ThinkNode_DutyConstant with no duty.
+RRY_Xenomorph_Runner99557 doing ThinkNode_DutyConstant with no duty.
+RRY_Xenomorph_Warrior99573 doing ThinkNode_DutyConstant with no duty.
+RRY_Xenomorph_Runner99557 doing ThinkNode_DutyConstant with no duty.
+queen can reach eggsite
+RRY_Xenomorph_Warrior99573 doing ThinkNode_DutyConstant with no duty.
+RRY_Xenomorph_Runner99557 doing ThinkNode_DutyConstant with no duty.
+RRY_Xenomorph_Warrior99573 doing ThinkNode_DutyConstant with no duty.
+RRY_Xenomorph_Runner99557 doing ThinkNode_DutyConstant with no duty.
+RRY_Xenomorph_Warrior99573 doing ThinkNode_DutyConstant with no duty.
+RRY_Xenomorph_Runner99557 doing ThinkNode_DutyConstant with no duty.
+RRY_Xenomorph_Warrior99573 doing ThinkNode_DutyConstant with no duty.
+RRY_Xenomorph_Runner99557 doing ThinkNode_DutyConstant with no duty.
+RRY_Xenomorph_Warrior99573 doing ThinkNode_DutyConstant with no duty.
+RRY_Xenomorph_Runner99557 doing ThinkNode_DutyConstant with no duty.
+RRY_Xenomorph_Warrior99573 doing ThinkNode_DutyConstant with no duty.
+RRY_Xenomorph_Runner99557 doing ThinkNode_DutyConstant with no duty.
+RRY_Xenomorph_Warrior99573 doing ThinkNode_DutyConstant with no duty.
+RRY_Xenomorph_Runner99557 doing ThinkNode_DutyConstant with no duty.
+RRY_Xenomorph_Warrior99573 doing ThinkNode_DutyConstant with no duty.
+RRY_Xenomorph_Runner99557 doing ThinkNode_DutyConstant with no duty.
+RRY_Xenomorph_Warrior99573 doing ThinkNode_DutyConstant with no duty.
+RRY_Xenomorph_Runner99557 doing ThinkNode_DutyConstant with no duty.
+RRY_Xenomorph_Warrior99573 doing ThinkNode_DutyConstant with no duty.
+RRY_Xenomorph_Runner99557 doing ThinkNode_DutyConstant with no duty.
+RRY_Xenomorph_Warrior99573 doing ThinkNode_DutyConstant with no duty.
+RRY_Xenomorph_Runner99557 doing ThinkNode_DutyConstant with no duty.
+RRY_Xenomorph_Runner99557 doing ThinkNode_DutyConstant with no duty.
+RRY_Xenomorph_Warrior99573 doing ThinkNode_DutyConstant with no duty.
+RRY_Xenomorph_Runner99557 doing ThinkNode_DutyConstant with no duty.
+RRY_Xenomorph_Warrior99573 doing ThinkNode_DutyConstant with no duty.
+RRY_Xenomorph_Runner99557 doing ThinkNode_DutyConstant with no duty.
+RRY_Xenomorph_Warrior99573 doing ThinkNode_DutyConstant with no duty.
+RRY_Xenomorph_Runner99557 doing ThinkNode_DutyConstant with no duty.
+RRY_Xenomorph_Warrior99573 doing ThinkNode_DutyConstant with no duty.
+RRY_Xenomorph_Warrior99573 doing ThinkNode_DutyConstant with no duty.
+RRY_Xenomorph_Runner99557 doing ThinkNode_DutyConstant with no duty.
+RRY_Xenomorph_Warrior99573 doing ThinkNode_DutyConstant with no duty.
+RRY_Xenomorph_Runner99557 doing ThinkNode_DutyConstant with no duty.
+RRY_Xenomorph_Warrior99573 doing ThinkNode_DutyConstant with no duty.
+RRY_Xenomorph_Runner99557 doing ThinkNode_DutyConstant with no duty.
+RRY_Xenomorph_Warrior99573 doing ThinkNode_DutyConstant with no duty.
+RRY_Xenomorph_Runner99557 doing ThinkNode_DutyConstant with no duty.
+RRY_Xenomorph_Warrior99573 doing ThinkNode_DutyConstant with no duty.
+[AVP Xenomorphs] [Spawn] Chestburster spawned: Runner faction=a Xenomorph hive (tick 647991)
+[AVP Xenomorphs] [Spawn] Chestburster spawned: Runner faction=a Xenomorph hive (tick 651726)
+queen can reach eggsite
+[AVP Xenomorphs] [Detach] Detaching facehugger from Madam (impregnation complete) (tick 653421)
+[AVP Xenomorphs] [Detach] Detaching facehugger from gazelle (impregnation complete) (tick 656338)
+Exception in Verse.AI.ThinkNode_Tagger TryIssueJobPackage: System.NullReferenceException: Object reference not set to an instance of an object
+[Ref B3A85BBC] Duplicate stacktrace, see ref for original
+JobDriver threw exception in toil MakeNewToils's initAction for pawn RRY_Xenomorph_FaceHugger99822 driver=JobDriver_Wait (toilIndex=0) driver.job=(Wait_Wander (Job_204272) Giver = JobGiver_WanderAnywhere [workGiverDef: null])
+System.NullReferenceException: Object reference not set to an instance of an object
+[Ref 2BEE724E] Duplicate stacktrace, see ref for original
+JobDriver threw exception in toil MakeNewToils's initAction for pawn RRY_Xenomorph_FaceHugger99822 driver=JobDriver_Wait (toilIndex=0) driver.job=(Wait (Job_204273))
+System.NullReferenceException: Object reference not set to an instance of an object
+[Ref 2BEE724E] Duplicate stacktrace, see ref for original
+An error occurred while starting an error recover job. We have to stop now to avoid infinite loops. This means that the pawn is now jobless which can cause further bugs. pawn=RRY_Xenomorph_FaceHugger99822
+[AVP Xenomorphs] [Spawn] Chestburster spawned: Runner faction=a Xenomorph hive (tick 657014)
+Error in LordToil.UpdateAllDuties(): System.NullReferenceException: Object reference not set to an instance of an object
+[Ref 1189E446] Duplicate stacktrace, see ref for original
+queen can reach eggsite
+Error in LordToil.UpdateAllDuties(): System.NullReferenceException: Object reference not set to an instance of an object
+[Ref 1189E446] Duplicate stacktrace, see ref for original
+Wrote screenshot C:\Users\clint\AppData\LocalLow\Ludeon Studios\RimWorld by Ludeon Studios\RimSaves\Previews\Autosave-3.dat of size 184030
+Exception in Verse.AI.ThinkNode_Tagger TryIssueJobPackage: System.NullReferenceException: Object reference not set to an instance of an object
+[Ref B3A85BBC] Duplicate stacktrace, see ref for original
+JobDriver threw exception in toil MakeNewToils's initAction for pawn RRY_Xenomorph_FaceHugger99835 driver=JobDriver_Wait (toilIndex=0) driver.job=(Wait_Wander (Job_205054) Giver = JobGiver_WanderAnywhere [workGiverDef: null])
+System.NullReferenceException: Object reference not set to an instance of an object
+[Ref 2BEE724E] Duplicate stacktrace, see ref for original
+JobDriver threw exception in toil MakeNewToils's initAction for pawn RRY_Xenomorph_FaceHugger99835 driver=JobDriver_Wait (toilIndex=0) driver.job=(Wait (Job_205055))
+System.NullReferenceException: Object reference not set to an instance of an object
+[Ref 2BEE724E] Duplicate stacktrace, see ref for original
+An error occurred while starting an error recover job. We have to stop now to avoid infinite loops. This means that the pawn is now jobless which can cause further bugs. pawn=RRY_Xenomorph_FaceHugger99835
+queen can reach eggsite
+[AVP Xenomorphs] [Spawn] Chestburster spawned: Runner faction=a Xenomorph hive (tick 667095)
+queen can reach eggsite
+Error in LordToil.UpdateAllDuties(): System.NullReferenceException: Object reference not set to an instance of an object
+[Ref 1189E446] Duplicate stacktrace, see ref for original
+[AVP Xenomorphs] [Detach] Detaching facehugger from Salema (impregnation complete) (tick 675760)
+[AVP Xenomorphs] [Detach] Detaching facehugger from gazelle (impregnation complete) (tick 678056)
+queen can reach eggsite
+[AVP Xenomorphs] [Spawn] Chestburster spawned: Drone faction=a Xenomorph hive (tick 680621)
+[AVP Xenomorphs] [Spawn] Chestburster spawned: Runner faction=a Xenomorph hive (tick 683538)
+queen can reach eggsite
+Exception in Verse.AI.ThinkNode_Tagger TryIssueJobPackage: System.NullReferenceException: Object reference not set to an instance of an object
+[Ref B3A85BBC] Duplicate stacktrace, see ref for original
+JobDriver threw exception in toil MakeNewToils's initAction for pawn RRY_Xenomorph_FaceHugger100804 driver=JobDriver_Wait (toilIndex=0) driver.job=(Wait_Wander (Job_217394) Giver = JobGiver_WanderAnywhere [workGiverDef: null])
+System.NullReferenceException: Object reference not set to an instance of an object
+[Ref 2BEE724E] Duplicate stacktrace, see ref for original
+JobDriver threw exception in toil MakeNewToils's initAction for pawn RRY_Xenomorph_FaceHugger100804 driver=JobDriver_Wait (toilIndex=0) driver.job=(Wait (Job_217395))
+System.NullReferenceException: Object reference not set to an instance of an object
+[Ref 2BEE724E] Duplicate stacktrace, see ref for original
+An error occurred while starting an error recover job. We have to stop now to avoid infinite loops. This means that the pawn is now jobless which can cause further bugs. pawn=RRY_Xenomorph_FaceHugger100804
+queen can reach eggsite
+Exception in Verse.AI.ThinkNode_Tagger TryIssueJobPackage: System.NullReferenceException: Object reference not set to an instance of an object
+[Ref B3A85BBC] Duplicate stacktrace, see ref for original
+JobDriver threw exception in toil MakeNewToils's initAction for pawn RRY_Xenomorph_FaceHugger100902 driver=JobDriver_Wait (toilIndex=0) driver.job=(Wait_Wander (Job_219491) Giver = JobGiver_WanderAnywhere [workGiverDef: null])
+System.NullReferenceException: Object reference not set to an instance of an object
+[Ref 2BEE724E] Duplicate stacktrace, see ref for original
+JobDriver threw exception in toil MakeNewToils's initAction for pawn RRY_Xenomorph_FaceHugger100902 driver=JobDriver_Wait (toilIndex=0) driver.job=(Wait (Job_219492))
+System.NullReferenceException: Object reference not set to an instance of an object
+[Ref 2BEE724E] Duplicate stacktrace, see ref for original
+An error occurred while starting an error recover job. We have to stop now to avoid infinite loops. This means that the pawn is now jobless which can cause further bugs. pawn=RRY_Xenomorph_FaceHugger100902
+Exception in Verse.AI.ThinkNode_Tagger TryIssueJobPackage: System.NullReferenceException: Object reference not set to an instance of an object
+[Ref B3A85BBC] Duplicate stacktrace, see ref for original
+JobDriver threw exception in toil MakeNewToils's initAction for pawn RRY_Xenomorph_FaceHugger100816 driver=JobDriver_Wait (toilIndex=0) driver.job=(Wait_Wander (Job_220227) Giver = JobGiver_WanderAnywhere [workGiverDef: null])
+System.NullReferenceException: Object reference not set to an instance of an object
+[Ref 2BEE724E] Duplicate stacktrace, see ref for original
+JobDriver threw exception in toil MakeNewToils's initAction for pawn RRY_Xenomorph_FaceHugger100816 driver=JobDriver_Wait (toilIndex=0) driver.job=(Wait (Job_220228))
+System.NullReferenceException: Object reference not set to an instance of an object
+[Ref 2BEE724E] Duplicate stacktrace, see ref for original
+An error occurred while starting an error recover job. We have to stop now to avoid infinite loops. This means that the pawn is now jobless which can cause further bugs. pawn=RRY_Xenomorph_FaceHugger100816
+queen can reach eggsite
