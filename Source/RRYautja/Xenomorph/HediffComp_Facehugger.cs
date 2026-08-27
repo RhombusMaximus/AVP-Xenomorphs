@@ -151,9 +151,10 @@ namespace RRYautja
                     {
                         mask.Destroy();
                     }
-                    // Force render tree recache so the removed apparel disappears
+                    // Force render tree recache and notify apparel change
                     try { Pawn.Drawer?.renderer?.renderTree?.SetDirty(); } catch { }
-                    maskApparel = null; // Clear reference to prevent deep-save of destroyed thing
+                    try { Pawn.apparel?.Notify_ApparelChanged(); } catch { }
+                    maskApparel = null;
                     AvPDebug.Log("MaskRemove", "[AVP Xenomorphs] Removed facehugger mask apparel from " + Pawn.LabelShort);
                 }
             }

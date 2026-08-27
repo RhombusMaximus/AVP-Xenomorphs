@@ -40,12 +40,13 @@ namespace RRYautja
                 }
 
                 // Patch Pawn.DrawAt to draw mask overlay manually at face position
-                var drawAtMethod = AccessTools.Method(typeof(Pawn), "DrawAt");
-                if (drawAtMethod != null)
-                {
-                    harmony.Patch(drawAtMethod, postfix: new HarmonyMethod(typeof(FacehuggerMaskOffsetPatch), nameof(DrawAtPostfix)));
-                    AvPDebug.LogOnce("MaskOffset3", "[AVP Xenomorphs] Patched Pawn.DrawAt for manual mask overlay");
-                }
+                // DISABLED — was causing persistent mask graphic after detach
+                // var drawAtMethod = AccessTools.Method(typeof(Pawn), "DrawAt");
+                // if (drawAtMethod != null)
+                // {
+                //     harmony.Patch(drawAtMethod, postfix: new HarmonyMethod(typeof(FacehuggerMaskOffsetPatch), nameof(DrawAtPostfix)));
+                //     AvPDebug.LogOnce("MaskOffset3", "[AVP Xenomorphs] Patched Pawn.DrawAt for manual mask overlay");
+                // }
             }
             catch (Exception e)
             {

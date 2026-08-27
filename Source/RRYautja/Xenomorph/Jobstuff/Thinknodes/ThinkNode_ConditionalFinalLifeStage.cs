@@ -41,6 +41,7 @@ namespace RimWorld
         // Token: 0x06000956 RID: 2390 RVA: 0x0004D678 File Offset: 0x0004BA78
         protected override bool Satisfied(Pawn pawn)
         {
+            if (pawn == null) return false;
             Comp_Facehugger _Facehugger = pawn.TryGetComp<Comp_Facehugger>();
             if (_Facehugger == null) return false;
             return _Facehugger.Impregnations < _Facehugger.maxImpregnations;
