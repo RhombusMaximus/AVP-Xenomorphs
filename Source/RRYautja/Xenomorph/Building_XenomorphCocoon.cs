@@ -29,6 +29,8 @@ namespace RimWorld
             }
         }
 
+        private static Graphic invisibleGraphic;
+
         public override Graphic Graphic
         {
             get
@@ -41,7 +43,12 @@ namespace RimWorld
                         return base.Graphic;
                     }
                 }
-                return new Graphic_Invisible();
+                // Use a cached transparent texture instead of Graphic_Invisible (which NREs in atlas)
+                if (invisibleGraphic == null)
+                {
+                    invisibleGraphic = GraphicDatabase.Get<Graphic_Single>("DummyTexture", ShaderDatabase.Cutout);
+                }
+                return invisibleGraphic;
             }
         }
         public Pawn LastOccupant;
