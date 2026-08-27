@@ -11,7 +11,7 @@ Direct3D:
     VRAM:     8042 MB
     Driver:   32.0.16.1088
 Begin MonoManager ReloadAssembly
-- Loaded All Assemblies, in  0.167 seconds
+- Loaded All Assemblies, in  0.159 seconds
 - Finished resetting the current domain, in  0.001 seconds
 <RI> Initializing input.
 
@@ -20,21 +20,21 @@ Begin MonoManager ReloadAssembly
 <RI> Initialized touch support.
 
 [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
-UnloadTime: 0.587600 ms
+UnloadTime: 0.643800 ms
 Command line arguments: -disable-compute-shaders
 RimWorld 1.6.4871 rev591
 Mod Realistic Humansounds HAR Patch dependency (Mlie.RealisticHumanSounds) needs to have <downloadUrl> and/or <steamWorkshopUrl> specified.
-Fallback handler could not load library D:/SteamLibrary/steamapps/common/RimWorld/RimWorldWin64_Data/MonoBleedingEdge/data-000001A971AE4080.dll
-Fallback handler could not load library D:/SteamLibrary/steamapps/common/RimWorld/RimWorldWin64_Data/MonoBleedingEdge/data-000001A971C54260.dll
+Fallback handler could not load library D:/SteamLibrary/steamapps/common/RimWorld/RimWorldWin64_Data/MonoBleedingEdge/data-000002946AB49020.dll
+Fallback handler could not load library D:/SteamLibrary/steamapps/common/RimWorld/RimWorldWin64_Data/MonoBleedingEdge/data-000002946AB18200.dll
 [Loading Progress] Loading Progress initialized! Enjoy the rest of your loading experience!
 [HugsLib] version 12.0.0
 [HugsLib] early-initializing AllowTool
-Fallback handler could not load library D:/SteamLibrary/steamapps/common/RimWorld/RimWorldWin64_Data/MonoBleedingEdge/data-000001A93E5B37F0.dll
+Fallback handler could not load library D:/SteamLibrary/steamapps/common/RimWorld/RimWorldWin64_Data/MonoBleedingEdge/data-00000294374B7AA0.dll
 DubsMintMenus v1.3.1086
 [Analyzer] Loaded version 1.6.0 rev 1
 [Analyzer] ResearchTree
 FPSStabilizer v1.1 loaded, patcher message: Patched successfully, fps set to 60
-Fallback handler could not load library D:/SteamLibrary/steamapps/common/RimWorld/RimWorldWin64_Data/MonoBleedingEdge/data-000001A9786B5020.dll
+Fallback handler could not load library D:/SteamLibrary/steamapps/common/RimWorld/RimWorldWin64_Data/MonoBleedingEdge/data-00000294716A5700.dll
 <color=#66ffb5>[MeleeAnim]</color> Hello, world!
 Build date: 4/13/2026 8:02 AM
 Loaded assemblies (9):
@@ -106,7 +106,7 @@ NamesGalore: Current Lang English
 (Research Tab Colors) Transpiler injected.
 Unloading 5 Unused Serialized files (Serialized files now loaded: 5)
 Unloading 529 unused Assets to reduce memory usage. Loaded Objects now: 34107.
-Total: 265.015900 ms (FindLiveObjects: 1.752900 ms CreateObjectMapping: 0.999500 ms MarkObjects: 261.503800 ms  DeleteObjects: 0.759300 ms)
+Total: 266.666800 ms (FindLiveObjects: 1.775000 ms CreateObjectMapping: 1.754600 ms MarkObjects: 262.382300 ms  DeleteObjects: 0.754500 ms)
 
 MVCF successfully applied 41 patches
 [com.ogliss.rimworld.mod.rryatuja.minepatch] Patches on methods annotated as Obsolete were detected by HugsLib: RimWorld.Mineable.TrySpawnYield
@@ -291,25 +291,25 @@ Transpilers:
 Postfixes:
   [PeteTimesSix.SimpleSidearms] TryCastShot
 Unloading 2 Unused Serialized files (Serialized files now loaded: 7)
-<color=#66ffb5>[MeleeAnim]</color> PreCached all retexture info in 29.8ms
+<color=#66ffb5>[MeleeAnim]</color> PreCached all retexture info in 33.4ms
 <color=#66ffb5>[MeleeAnim]</color> Loaded tweak data for 29 weapons.
 <color=#66ffb5>[MeleeAnim]</color> ludeon.rimworld.odyssey 'Odyssey' has 2 missing weapon tweak data.
 <color=#66ffb5>[MeleeAnim]</color> ogliss.avpxenomorphs 'AVP Xenomorphs' has 3 missing weapon tweak data.
 <color=#66ffb5>[MeleeAnim]</color> Skipping reporting of missing mod/weapons because user opted out or the feature is disabled by the developer.
-<color=#66ffb5>[MeleeAnim]</color> Patched 3 classes that directly inherit from Verb_MeleeAttack in 58.7 ms to detect hits:
+<color=#66ffb5>[MeleeAnim]</color> Patched 3 classes that directly inherit from Verb_MeleeAttack in 57.9 ms to detect hits:
 RimWorld.Verb_MeleeApplyHediff from Assembly-CSharp
 RimWorld.Verb_MeleeAttackDamage from Assembly-CSharp
 RRYautja.Verb_MeleeAttackKnockback from RRYautja
-<color=#66ffb5>[MeleeAnim]</color> Found 0 items of clothing that cover hands, took 0.83 ms:
+<color=#66ffb5>[MeleeAnim]</color> Found 0 items of clothing that cover hands, took 0.89 ms:
 Unloading 55 unused Assets to reduce memory usage. Loaded Objects now: 34270.
-Total: 258.821900 ms (FindLiveObjects: 1.712300 ms CreateObjectMapping: 1.960100 ms MarkObjects: 255.015800 ms  DeleteObjects: 0.133500 ms)
+Total: 256.836600 ms (FindLiveObjects: 1.609800 ms CreateObjectMapping: 1.076800 ms MarkObjects: 254.038400 ms  DeleteObjects: 0.111400 ms)
 
 Unloading 0 Unused Serialized files (Serialized files now loaded: 7)
 Loading asset bundle MuzzleFlash.shaders-windows
 Loaded shader Unlit/AnimatedAdditiveInstanced
 [Muzzle Flash] Shader loaded from MuzzleFlash: Unlit/AnimatedAdditiveInstanced
 Unloading 0 unused Assets to reduce memory usage. Loaded Objects now: 34272.
-Total: 254.145900 ms (FindLiveObjects: 1.718200 ms CreateObjectMapping: 1.928700 ms MarkObjects: 250.450400 ms  DeleteObjects: 0.048100 ms)
+Total: 258.097800 ms (FindLiveObjects: 1.626300 ms CreateObjectMapping: 1.516300 ms MarkObjects: 254.905700 ms  DeleteObjects: 0.049300 ms)
 
 Unloading 0 Unused Serialized files (Serialized files now loaded: 8)
 [Loading Progress] Why is ResearchPal.Profiler.Start from ResearchPal 1.6 - Temp calling DeepProfiler.Start (and by extension our patch) with null?! Stop it.
@@ -320,11 +320,11 @@ Unloading 0 Unused Serialized files (Serialized files now loaded: 8)
 [Loading Progress] Why is ResearchPal.Profiler.Start from ResearchPal 1.6 - Temp calling DeepProfiler.Start (and by extension our patch) with null?! Stop it.
 ResearchPal :: Research layout initialized
 Unloading 0 unused Assets to reduce memory usage. Loaded Objects now: 34272.
-Total: 250.548700 ms (FindLiveObjects: 1.582300 ms CreateObjectMapping: 2.009600 ms MarkObjects: 246.905400 ms  DeleteObjects: 0.051100 ms)
+Total: 252.032800 ms (FindLiveObjects: 1.581400 ms CreateObjectMapping: 1.925900 ms MarkObjects: 248.479900 ms  DeleteObjects: 0.045300 ms)
 
 Unloading 0 Unused Serialized files (Serialized files now loaded: 8)
 Unloading 0 unused Assets to reduce memory usage. Loaded Objects now: 34272.
-Total: 264.667100 ms (FindLiveObjects: 2.129600 ms CreateObjectMapping: 2.197700 ms MarkObjects: 260.285200 ms  DeleteObjects: 0.054300 ms)
+Total: 256.156100 ms (FindLiveObjects: 1.993500 ms CreateObjectMapping: 2.134600 ms MarkObjects: 251.974200 ms  DeleteObjects: 0.053500 ms)
 
 [HugsLib] initializing TerraformRimworld
 CE is trying to create default parameter lists ...
@@ -342,9 +342,9 @@ no modifications for lifestages
 ...done
 Unloading 3 Unused Serialized files (Serialized files now loaded: 8)
 [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
-UnloadTime: 1.134600 ms
+UnloadTime: 1.252500 ms
 Unloading 2 unused Assets to reduce memory usage. Loaded Objects now: 34547.
-Total: 276.774500 ms (FindLiveObjects: 1.680500 ms CreateObjectMapping: 2.049000 ms MarkObjects: 272.991000 ms  DeleteObjects: 0.053800 ms)
+Total: 276.802800 ms (FindLiveObjects: 1.815700 ms CreateObjectMapping: 1.478100 ms MarkObjects: 273.448500 ms  DeleteObjects: 0.060300 ms)
 
 Loading game from file USCSS Colony 2126 with mods:
   - brrainz.harmony
@@ -453,15 +453,502 @@ checking editor settings...
 bodysizes genes are active
 [AVP Xenomorphs] Xenomorph hive faction already exists.
 Unloading 1 Unused Serialized files (Serialized files now loaded: 8)
-Unloading 1 unused Assets to reduce memory usage. Loaded Objects now: 42749.
-Total: 338.309200 ms (FindLiveObjects: 2.098000 ms CreateObjectMapping: 2.602600 ms MarkObjects: 333.517500 ms  DeleteObjects: 0.090800 ms)
+Unloading 1 unused Assets to reduce memory usage. Loaded Objects now: 42758.
+Total: 331.198500 ms (FindLiveObjects: 2.037500 ms CreateObjectMapping: 2.603800 ms MarkObjects: 326.469900 ms  DeleteObjects: 0.087100 ms)
 
-Wrote screenshot C:\Users\clint\AppData\LocalLow\Ludeon Studios\RimWorld by Ludeon Studios\RimSaves\Previews\USCSS Colony 2126.dat of size 187401
-[AVP Xenomorphs] [Knockout] Drone knocked out buck (tick 25739)
-[AVP Xenomorphs] [Knockout] Drone knocked out Sochan (tick 36200)
-[AVP Xenomorphs] [Kidnap] Drone targeting Sochan (1/3 drones) (tick 37073)
-[AVP Xenomorphs] [Kidnap] Drone targeting buck (1/3 drones) (tick 40416)
-[AVP Xenomorphs] [Kidnap] Drone targeting Nobuko (1/3 drones) (tick 40703)
-[AVP Xenomorphs] [Kidnap] Drone targeting buck (1/3 drones) (tick 41788)
-[AVP Xenomorphs] [Knockout] Drone knocked out Finn (tick 42498)
-[AVP Xenomorphs] [Kidnap] Drone targeting Sochan (1/3 drones) (tick 43076)
+Wrote screenshot C:\Users\clint\AppData\LocalLow\Ludeon Studios\RimWorld by Ludeon Studios\RimSaves\Previews\USCSS Colony 2126.dat of size 187442
+[AVP Xenomorphs] [Knockout] Drone knocked out buck (tick 15127)
+Root level exception in OnGUI(): System.ArgumentException: An item with the same key has already been added. Key: Wall41342
+[Ref 11D59690]
+ [0x00006] in <51fded79cd284d4d911c5949aff4cb21>:0 
+  at System.Collections.Generic.Dictionary`2[TKey,TValue].TryInsert (TKey key, TValue value, System.Collections.Generic.InsertionBehavior behavior) [0x0015a] in <51fded79cd284d4d911c5949aff4cb21>:0 
+  at System.Collections.Generic.Dictionary`2[TKey,TValue].Add (TKey key, TValue value) [0x00000] in <51fded79cd284d4d911c5949aff4cb21>:0 
+  at Verse.ListerBuildings.RegisterInstallBlueprint (RimWorld.Blueprint_Install blueprint) [0x00011] in <61e4173561894da49d210260257b5097>:0 
+  at RimWorld.Blueprint_Install.SpawnSetup (Verse.Map map, System.Boolean respawningAfterLoad) [0x00008] in <61e4173561894da49d210260257b5097>:0 
+  at Verse.GenSpawn.Spawn (Verse.Thing newThing, Verse.IntVec3 loc, Verse.Map map, Verse.Rot4 rot, Verse.WipeMode wipeMode, System.Boolean respawningAfterLoad, System.Boolean forbidLeavings) [0x00323] in <61e4173561894da49d210260257b5097>:0 
+    - PREFIX Uuugggg.rimworld.Replace_Stuff.main: Void Replace_Stuff.NewThing.TransferSettings:Prefix(Thing newThing, IntVec3 loc, Map map, Rot4 rot, Boolean respawningAfterLoad, Thing& __state)
+    - POSTFIX Uuugggg.rimworld.Replace_Stuff.main: Void Replace_Stuff.NewThing.TransferSettings:Postfix(Thing __result, Thing __state)
+  at RimWorld.GenConstruct.PlaceBlueprintForReinstall (Verse.Building buildingToReinstall, Verse.IntVec3 center, Verse.Map map, Verse.Rot4 rotation, RimWorld.Faction faction, System.Boolean sendBPSpawnedSignal) [0x0005d] in <61e4173561894da49d210260257b5097>:0 
+    - PREFIX Uuugggg.rimworld.Replace_Stuff.main: Void Replace_Stuff.PlaceBridges.InterceptBlueprintPlaceBridgeFrame_Reinstall:Prefix(Building buildingToReinstall, IntVec3 center, Map map, Rot4 rotation, Faction faction)
+  at RimWorld.Designator_Install.DesignateSingleCell (Verse.IntVec3 c) [0x00066] in <61e4173561894da49d210260257b5097>:0 
+  at Verse.Designator.DesignateMultiCell (System.Collections.Generic.IEnumerable`1[T] cells) [0x00041] in <61e4173561894da49d210260257b5097>:0 
+  at Verse.DesignatorManager.ProcessInputEvents () [0x0013e] in <61e4173561894da49d210260257b5097>:0 
+  at RimWorld.MapInterface.HandleMapClicks () [0x00010] in <61e4173561894da49d210260257b5097>:0 
+  at RimWorld.UIRoot_Play.UIRootOnGUI () [0x000a8] in <61e4173561894da49d210260257b5097>:0 
+    - PREFIX Dubwise.PerformanceAnalyzer: Void Analyzer.H_KeyPresses:OnGUI()
+    - POSTFIX net.pardeike.rimworld.mod.camera+: Void CameraPlus.UIRoot_Play_UIRootOnGUI_Patch:Postfix()
+  at Verse.Root.OnGUI () [0x00046] in <61e4173561894da49d210260257b5097>:0 
+    - POSTFIX UnlimitedHugs.HugsLib: Void HugsLib.Patches.Root_OnGUI_Patch:OnGUIHookUnfiltered()
+    - POSTFIX net.pardeike.rimworld.mod.camera+: Void CameraPlus.Root_OnGUI_Patch:Postfix()
+[AVP Xenomorphs] [Knockout] Drone knocked out doe (tick 24973)
+Cannot drop RRY_Xenomorph_Queen54067 without a dropLoc and with an owner whose map is null.
+[AVP Xenomorphs] [AVP Xenomorphs] CompPostPostAdd called for buck (humanlike=False)
+Exception in RimWorld.ThinkNode_ConditionalFacehuggerFertile TryIssueJobPackage: System.NullReferenceException: Object reference not set to an instance of an object
+[Ref B8BB562F]
+  at Verse.GenClosest.EarlyOutSearch (Verse.IntVec3 start, Verse.Map map, Verse.ThingRequest thingReq, System.Collections.Generic.IEnumerable`1[T] customGlobalSearchSet, System.Predicate`1[T] validator) [0x00015] in <61e4173561894da49d210260257b5097>:0 
+  at Verse.GenClosest.ClosestThingReachable (Verse.IntVec3 root, Verse.Map map, Verse.ThingRequest thingReq, Verse.AI.PathEndMode peMode, Verse.TraverseParms traverseParams, System.Single maxDistance, System.Predicate`1[T] validator, System.Collections.Generic.IEnumerable`1[T] customGlobalSearchSet, System.Int32 searchRegionsMin, System.Int32 searchRegionsMax, System.Boolean forceAllowGlobalSearch, Verse.RegionType traversableRegionTypes, System.Boolean ignoreEntirelyForbiddenRegions, System.Boolean lookInHaulSources) [0x0008c] in <61e4173561894da49d210260257b5097>:0 
+  at Verse.AI.XenomorphTargetFinder.BestAttackTarget (Verse.AI.IAttackTargetSearcher searcher, Verse.AI.TargetScanFlags flags, System.Predicate`1[T] validator, System.Single minDist, System.Single maxDist, Verse.IntVec3 locus, System.Single maxTravelRadiusFromLocus, System.Boolean canBash, System.Boolean canTakeTargetsCloserThanEffectiveMinRange) [0x0036e] in <78bda4ec2265443291de8d94258ca93d>:0 
+  at RimWorld.JobGiver_FacehuggerHunt.FindPawnTarget (Verse.Pawn pawn) [0x00038] in <78bda4ec2265443291de8d94258ca93d>:0 
+  at RimWorld.JobGiver_FacehuggerHunt.TryGiveJob (Verse.Pawn pawn) [0x0001f] in <78bda4ec2265443291de8d94258ca93d>:0 
+  at Verse.AI.ThinkNode_JobGiver.TryIssueJobPackage (Verse.Pawn pawn, Verse.AI.JobIssueParams jobParams) [0x00000] in <61e4173561894da49d210260257b5097>:0 
+  at Verse.AI.ThinkNode_Priority.TryIssueJobPackage (Verse.Pawn pawn, Verse.AI.JobIssueParams jobParams) [0x00022] in <61e4173561894da49d210260257b5097>:0 
+Exception in Verse.AI.ThinkNode_Tagger TryIssueJobPackage: System.NullReferenceException: Object reference not set to an instance of an object
+[Ref B3A85BBC]
+  at Verse.RegionAndRoomQuery.RegionAt (Verse.IntVec3 c, Verse.Map map, Verse.RegionType allowedRegionTypes) [0x00000] in <61e4173561894da49d210260257b5097>:0 
+  at Verse.GridsUtility.GetRegion (Verse.IntVec3 loc, Verse.Map map, Verse.RegionType allowedRegionTypes) [0x00000] in <61e4173561894da49d210260257b5097>:0 
+  at RimWorld.RCellFinder.RandomWanderDestFor (Verse.Pawn pawn, Verse.IntVec3 root, System.Single radius, System.Func`4[T1,T2,T3,TResult] validator, Verse.Danger maxDanger, System.Boolean canBashDoors) [0x00085] in <61e4173561894da49d210260257b5097>:0 
+  at Verse.AI.JobGiver_Wander.GetExactWanderDest (Verse.Pawn pawn) [0x0005b] in <61e4173561894da49d210260257b5097>:0 
+  at Verse.AI.JobGiver_Wander.TryGiveJob (Verse.Pawn pawn) [0x00061] in <61e4173561894da49d210260257b5097>:0 
+  at Verse.AI.ThinkNode_JobGiver.TryIssueJobPackage (Verse.Pawn pawn, Verse.AI.JobIssueParams jobParams) [0x00000] in <61e4173561894da49d210260257b5097>:0 
+  at Verse.AI.ThinkNode_Priority.TryIssueJobPackage (Verse.Pawn pawn, Verse.AI.JobIssueParams jobParams) [0x00022] in <61e4173561894da49d210260257b5097>:0 
+JobDriver threw exception in toil MakeNewToils's initAction for pawn RRY_Xenomorph_FaceHugger93249 driver=JobDriver_Wait (toilIndex=0) driver.job=(Wait_Wander (Job_25139) Giver = JobGiver_WanderAnywhere [workGiverDef: null])
+System.NullReferenceException: Object reference not set to an instance of an object
+[Ref 2BEE724E]
+  at Verse.AI.JobDriver_Wait.CheckForAutoAttack () [0x0012f] in <61e4173561894da49d210260257b5097>:0 
+    - TRANSPILER OskarPotocki.VEF: IEnumerable`1 VEF.Weapons.VanillaExpandedFramework_JobDriver_Wait_CheckForAutoAttack_Patch:Transpiler(IEnumerable`1 instructions, ILGenerator generator)
+    - TRANSPILER legodude17.mvcf: IEnumerable`1 MVCF.PatchSets.PatchSet_TargetFinder:BestTargetTranspiler(IEnumerable`1 instructions)
+    - POSTFIX UnlimitedHugs.AllowTool: Void AllowTool.Patches.JobDriverWait_CheckForAutoAttack_Patch:DoPartyHunting(JobDriver_Wait __instance)
+  at Verse.AI.JobDriver_Wait.<MakeNewToils>b__3_0 () [0x0003d] in <61e4173561894da49d210260257b5097>:0 
+  at Verse.AI.JobDriver.TryActuallyStartNextToil () [0x001b0] in <61e4173561894da49d210260257b5097>:0 
+JobDriver threw exception in toil MakeNewToils's initAction for pawn RRY_Xenomorph_FaceHugger93249 driver=JobDriver_Wait (toilIndex=0) driver.job=(Wait (Job_25140))
+System.NullReferenceException: Object reference not set to an instance of an object
+[Ref 2BEE724E] Duplicate stacktrace, see ref for original
+An error occurred while starting an error recover job. We have to stop now to avoid infinite loops. This means that the pawn is now jobless which can cause further bugs. pawn=RRY_Xenomorph_FaceHugger93249
+Exception in RimWorld.ThinkNode_ConditionalFacehuggerFertile TryIssueJobPackage: System.NullReferenceException: Object reference not set to an instance of an object
+[Ref B8BB562F] Duplicate stacktrace, see ref for original
+Exception in Verse.AI.ThinkNode_Tagger TryIssueJobPackage: System.NullReferenceException: Object reference not set to an instance of an object
+[Ref B3A85BBC] Duplicate stacktrace, see ref for original
+JobDriver threw exception in toil MakeNewToils's initAction for pawn RRY_Xenomorph_FaceHugger93000 driver=JobDriver_Wait (toilIndex=0) driver.job=(Wait_Wander (Job_25759) Giver = JobGiver_WanderAnywhere [workGiverDef: null])
+System.NullReferenceException: Object reference not set to an instance of an object
+[Ref 2BEE724E] Duplicate stacktrace, see ref for original
+JobDriver threw exception in toil MakeNewToils's initAction for pawn RRY_Xenomorph_FaceHugger93000 driver=JobDriver_Wait (toilIndex=0) driver.job=(Wait (Job_25760))
+System.NullReferenceException: Object reference not set to an instance of an object
+[Ref 2BEE724E] Duplicate stacktrace, see ref for original
+An error occurred while starting an error recover job. We have to stop now to avoid infinite loops. This means that the pawn is now jobless which can cause further bugs. pawn=RRY_Xenomorph_FaceHugger93000
+[AVP Xenomorphs] [Knockout] Drone knocked out Purrine (tick 34541)
+[AVP Xenomorphs] [Knockout] Drone knocked out buck (tick 35526)
+Exception in RimWorld.ThinkNode_ConditionalFacehuggerFertile TryIssueJobPackage: System.NullReferenceException: Object reference not set to an instance of an object
+[Ref B8BB562F] Duplicate stacktrace, see ref for original
+Exception in Verse.AI.ThinkNode_Tagger TryIssueJobPackage: System.NullReferenceException: Object reference not set to an instance of an object
+[Ref B3A85BBC] Duplicate stacktrace, see ref for original
+JobDriver threw exception in toil MakeNewToils's initAction for pawn RRY_Xenomorph_FaceHugger93567 driver=JobDriver_Wait (toilIndex=0) driver.job=(Wait_Wander (Job_33097) Giver = JobGiver_WanderAnywhere [workGiverDef: null])
+System.NullReferenceException: Object reference not set to an instance of an object
+[Ref 2BEE724E] Duplicate stacktrace, see ref for original
+JobDriver threw exception in toil MakeNewToils's initAction for pawn RRY_Xenomorph_FaceHugger93567 driver=JobDriver_Wait (toilIndex=0) driver.job=(Wait (Job_33098))
+System.NullReferenceException: Object reference not set to an instance of an object
+[Ref 2BEE724E] Duplicate stacktrace, see ref for original
+An error occurred while starting an error recover job. We have to stop now to avoid infinite loops. This means that the pawn is now jobless which can cause further bugs. pawn=RRY_Xenomorph_FaceHugger93567
+Could not find good sleeping slot position for Deer54102. Perhaps AnyUnoccupiedSleepingSlot check is missing somewhere.
+Tried to kick pawn Deer54096 out of a bed they're not currently in.
+Exception in RimWorld.ThinkNode_ConditionalFacehuggerFertile TryIssueJobPackage: System.NullReferenceException: Object reference not set to an instance of an object
+[Ref B8BB562F] Duplicate stacktrace, see ref for original
+Exception in Verse.AI.ThinkNode_Tagger TryIssueJobPackage: System.NullReferenceException: Object reference not set to an instance of an object
+[Ref B3A85BBC] Duplicate stacktrace, see ref for original
+JobDriver threw exception in toil MakeNewToils's initAction for pawn RRY_Xenomorph_FaceHugger93517 driver=JobDriver_Wait (toilIndex=0) driver.job=(Wait_Wander (Job_33411) Giver = JobGiver_WanderAnywhere [workGiverDef: null])
+System.NullReferenceException: Object reference not set to an instance of an object
+[Ref 2BEE724E] Duplicate stacktrace, see ref for original
+JobDriver threw exception in toil MakeNewToils's initAction for pawn RRY_Xenomorph_FaceHugger93517 driver=JobDriver_Wait (toilIndex=0) driver.job=(Wait (Job_33412))
+System.NullReferenceException: Object reference not set to an instance of an object
+[Ref 2BEE724E] Duplicate stacktrace, see ref for original
+An error occurred while starting an error recover job. We have to stop now to avoid infinite loops. This means that the pawn is now jobless which can cause further bugs. pawn=RRY_Xenomorph_FaceHugger93517
+Exception in RimWorld.ThinkNode_ConditionalFacehuggerFertile TryIssueJobPackage: System.NullReferenceException: Object reference not set to an instance of an object
+[Ref B8BB562F] Duplicate stacktrace, see ref for original
+Exception in Verse.AI.ThinkNode_Tagger TryIssueJobPackage: System.NullReferenceException: Object reference not set to an instance of an object
+[Ref B3A85BBC] Duplicate stacktrace, see ref for original
+JobDriver threw exception in toil MakeNewToils's initAction for pawn RRY_Xenomorph_FaceHugger93552 driver=JobDriver_Wait (toilIndex=0) driver.job=(Wait_Wander (Job_34194) Giver = JobGiver_WanderAnywhere [workGiverDef: null])
+System.NullReferenceException: Object reference not set to an instance of an object
+[Ref 2BEE724E] Duplicate stacktrace, see ref for original
+JobDriver threw exception in toil MakeNewToils's initAction for pawn RRY_Xenomorph_FaceHugger93552 driver=JobDriver_Wait (toilIndex=0) driver.job=(Wait (Job_34195))
+System.NullReferenceException: Object reference not set to an instance of an object
+[Ref 2BEE724E] Duplicate stacktrace, see ref for original
+An error occurred while starting an error recover job. We have to stop now to avoid infinite loops. This means that the pawn is now jobless which can cause further bugs. pawn=RRY_Xenomorph_FaceHugger93552
+Exception in RimWorld.ThinkNode_ConditionalFacehuggerFertile TryIssueJobPackage: System.NullReferenceException: Object reference not set to an instance of an object
+[Ref B8BB562F] Duplicate stacktrace, see ref for original
+Exception in Verse.AI.ThinkNode_Tagger TryIssueJobPackage: System.NullReferenceException: Object reference not set to an instance of an object
+[Ref B3A85BBC] Duplicate stacktrace, see ref for original
+JobDriver threw exception in toil MakeNewToils's initAction for pawn RRY_Xenomorph_FaceHugger93619 driver=JobDriver_Wait (toilIndex=0) driver.job=(Wait_Wander (Job_34552) Giver = JobGiver_WanderAnywhere [workGiverDef: null])
+System.NullReferenceException: Object reference not set to an instance of an object
+[Ref 2BEE724E] Duplicate stacktrace, see ref for original
+JobDriver threw exception in toil MakeNewToils's initAction for pawn RRY_Xenomorph_FaceHugger93619 driver=JobDriver_Wait (toilIndex=0) driver.job=(Wait (Job_34553))
+System.NullReferenceException: Object reference not set to an instance of an object
+[Ref 2BEE724E] Duplicate stacktrace, see ref for original
+An error occurred while starting an error recover job. We have to stop now to avoid infinite loops. This means that the pawn is now jobless which can cause further bugs. pawn=RRY_Xenomorph_FaceHugger93619
+Exception in RimWorld.ThinkNode_ConditionalFacehuggerFertile TryIssueJobPackage: System.NullReferenceException: Object reference not set to an instance of an object
+[Ref B8BB562F] Duplicate stacktrace, see ref for original
+JobDriver threw exception in toil MakeNewToils's initAction for pawn RRY_Xenomorph_FaceHugger93558 driver=JobDriver_Wait (toilIndex=0) driver.job=(Wait_Wander (Job_35132) Giver = JobGiver_WanderAnywhere [workGiverDef: null])
+System.NullReferenceException: Object reference not set to an instance of an object
+[Ref 2BEE724E] Duplicate stacktrace, see ref for original
+JobDriver threw exception in toil MakeNewToils's initAction for pawn RRY_Xenomorph_FaceHugger93558 driver=JobDriver_Wait (toilIndex=0) driver.job=(Wait (Job_35133))
+System.NullReferenceException: Object reference not set to an instance of an object
+[Ref 2BEE724E] Duplicate stacktrace, see ref for original
+An error occurred while starting an error recover job. We have to stop now to avoid infinite loops. This means that the pawn is now jobless which can cause further bugs. pawn=RRY_Xenomorph_FaceHugger93558
+Could not find good sleeping slot position for Deer54102. Perhaps AnyUnoccupiedSleepingSlot check is missing somewhere.
+Tried to kick pawn Deer54099 out of a bed they're not currently in.
+[AVP Xenomorphs] [AVP Xenomorphs] Added facehugger mask apparel to Morrison
+Exception in RimWorld.ThinkNode_ConditionalFacehuggerFertile TryIssueJobPackage: System.NullReferenceException: Object reference not set to an instance of an object
+[Ref B8BB562F] Duplicate stacktrace, see ref for original
+Exception in Verse.AI.ThinkNode_Tagger TryIssueJobPackage: System.NullReferenceException: Object reference not set to an instance of an object
+[Ref B3A85BBC] Duplicate stacktrace, see ref for original
+JobDriver threw exception in toil MakeNewToils's initAction for pawn RRY_Xenomorph_FaceHugger93538 driver=JobDriver_Wait (toilIndex=0) driver.job=(Wait_Wander (Job_35734) Giver = JobGiver_WanderAnywhere [workGiverDef: null])
+System.NullReferenceException: Object reference not set to an instance of an object
+[Ref 2BEE724E] Duplicate stacktrace, see ref for original
+JobDriver threw exception in toil MakeNewToils's initAction for pawn RRY_Xenomorph_FaceHugger93538 driver=JobDriver_Wait (toilIndex=0) driver.job=(Wait (Job_35735))
+System.NullReferenceException: Object reference not set to an instance of an object
+[Ref 2BEE724E] Duplicate stacktrace, see ref for original
+An error occurred while starting an error recover job. We have to stop now to avoid infinite loops. This means that the pawn is now jobless which can cause further bugs. pawn=RRY_Xenomorph_FaceHugger93538
+Exception in RimWorld.ThinkNode_ConditionalFacehuggerFertile TryIssueJobPackage: System.NullReferenceException: Object reference not set to an instance of an object
+[Ref B8BB562F] Duplicate stacktrace, see ref for original
+Exception in Verse.AI.ThinkNode_Tagger TryIssueJobPackage: System.NullReferenceException: Object reference not set to an instance of an object
+[Ref B3A85BBC] Duplicate stacktrace, see ref for original
+JobDriver threw exception in toil MakeNewToils's initAction for pawn RRY_Xenomorph_FaceHugger93531 driver=JobDriver_Wait (toilIndex=0) driver.job=(Wait_Wander (Job_35801) Giver = JobGiver_WanderAnywhere [workGiverDef: null])
+System.NullReferenceException: Object reference not set to an instance of an object
+[Ref 2BEE724E] Duplicate stacktrace, see ref for original
+JobDriver threw exception in toil MakeNewToils's initAction for pawn RRY_Xenomorph_FaceHugger93531 driver=JobDriver_Wait (toilIndex=0) driver.job=(Wait (Job_35802))
+System.NullReferenceException: Object reference not set to an instance of an object
+[Ref 2BEE724E] Duplicate stacktrace, see ref for original
+An error occurred while starting an error recover job. We have to stop now to avoid infinite loops. This means that the pawn is now jobless which can cause further bugs. pawn=RRY_Xenomorph_FaceHugger93531
+Exception in RimWorld.ThinkNode_ConditionalFacehuggerFertile TryIssueJobPackage: System.NullReferenceException: Object reference not set to an instance of an object
+[Ref B8BB562F] Duplicate stacktrace, see ref for original
+Exception in Verse.AI.ThinkNode_Tagger TryIssueJobPackage: System.NullReferenceException: Object reference not set to an instance of an object
+[Ref B3A85BBC] Duplicate stacktrace, see ref for original
+JobDriver threw exception in toil MakeNewToils's initAction for pawn RRY_Xenomorph_FaceHugger93494 driver=JobDriver_Wait (toilIndex=0) driver.job=(Wait_Wander (Job_35822) Giver = JobGiver_WanderAnywhere [workGiverDef: null])
+System.NullReferenceException: Object reference not set to an instance of an object
+[Ref 2BEE724E] Duplicate stacktrace, see ref for original
+JobDriver threw exception in toil MakeNewToils's initAction for pawn RRY_Xenomorph_FaceHugger93494 driver=JobDriver_Wait (toilIndex=0) driver.job=(Wait (Job_35823))
+System.NullReferenceException: Object reference not set to an instance of an object
+[Ref 2BEE724E] Duplicate stacktrace, see ref for original
+An error occurred while starting an error recover job. We have to stop now to avoid infinite loops. This means that the pawn is now jobless which can cause further bugs. pawn=RRY_Xenomorph_FaceHugger93494
+Exception in RimWorld.ThinkNode_ConditionalFacehuggerFertile TryIssueJobPackage: System.NullReferenceException: Object reference not set to an instance of an object
+[Ref B8BB562F] Duplicate stacktrace, see ref for original
+Exception in Verse.AI.ThinkNode_Tagger TryIssueJobPackage: System.NullReferenceException: Object reference not set to an instance of an object
+[Ref B3A85BBC] Duplicate stacktrace, see ref for original
+JobDriver threw exception in toil MakeNewToils's initAction for pawn RRY_Xenomorph_FaceHugger93730 driver=JobDriver_Wait (toilIndex=0) driver.job=(Wait_Wander (Job_36745) Giver = JobGiver_WanderAnywhere [workGiverDef: null])
+System.NullReferenceException: Object reference not set to an instance of an object
+[Ref 2BEE724E] Duplicate stacktrace, see ref for original
+JobDriver threw exception in toil MakeNewToils's initAction for pawn RRY_Xenomorph_FaceHugger93730 driver=JobDriver_Wait (toilIndex=0) driver.job=(Wait (Job_36746))
+System.NullReferenceException: Object reference not set to an instance of an object
+[Ref 2BEE724E] Duplicate stacktrace, see ref for original
+An error occurred while starting an error recover job. We have to stop now to avoid infinite loops. This means that the pawn is now jobless which can cause further bugs. pawn=RRY_Xenomorph_FaceHugger93730
+[AVP Xenomorphs] [Detach] buck in post-impregnation, timer2=1, severity=0.453333, stage=2 (tick 59622)
+Could not find good sleeping slot position for Deer54100. Perhaps AnyUnoccupiedSleepingSlot check is missing somewhere.
+Tried to kick pawn Deer54103 out of a bed they're not currently in.
+[AVP Xenomorphs] [Detach] buck in post-impregnation, timer2=251, severity=0.4566663, stage=2 (tick 59872)
+Cannot drop RRY_Xenomorph_Queen54067 without a dropLoc and with an owner whose map is null.
+Wrote screenshot C:\Users\clint\AppData\LocalLow\Ludeon Studios\RimWorld by Ludeon Studios\RimSaves\Previews\Autosave-5.dat of size 162792
+[AVP Xenomorphs] [Detach] buck in post-impregnation, timer2=501, severity=0.4599997, stage=2 (tick 60122)
+[AVP Xenomorphs] [Detach] doe in post-impregnation, timer2=1, severity=0.453333, stage=2 (tick 60405)
+[AVP Xenomorphs] [Detach] doe in post-impregnation, timer2=251, severity=0.4566663, stage=2 (tick 60655)
+[AVP Xenomorphs] [Detach] doe in post-impregnation, timer2=501, severity=0.4599997, stage=2 (tick 60905)
+[AVP Xenomorphs] [Knockout] Drone knocked out ibex doe (tick 68218)
+Exception in RimWorld.ThinkNode_Conditional_OverHealth TryIssueJobPackage: System.NullReferenceException: Object reference not set to an instance of an object
+[Ref E2C5795D]
+  at Verse.GenGrid.CanBeSeenOver (Verse.IntVec3 c, Verse.Map map) [0x00000] in <61e4173561894da49d210260257b5097>:0 
+  at Verse.ShootLeanUtility.LeanShootingSourcesFromTo (Verse.IntVec3 shooterLoc, Verse.IntVec3 targetPos, Verse.Map map, System.Collections.Generic.List`1[T] listToFill) [0x00075] in <61e4173561894da49d210260257b5097>:0 
+  at Verse.ShootLeanUtility.CalcShootableCellsOf (System.Collections.Generic.List`1[T] outCells, Verse.Thing target, Verse.IntVec3 shooterPos) [0x0001b] in <61e4173561894da49d210260257b5097>:0 
+  at Verse.AI.AttackTargetFinder.CanSee (Verse.Thing seer, Verse.Thing target, System.Func`2[T,TResult] validator) [0x0000c] in <61e4173561894da49d210260257b5097>:0 
+  at RimWorld.JobGiver_XenomorphHosthunter+<>c__DisplayClass12_0.<FindPawnTarget>b__2 (Verse.Pawn x) [0x00015] in <78bda4ec2265443291de8d94258ca93d>:0 
+  at System.Linq.Enumerable+WhereListIterator`1[TSource].ToList () [0x00017] in <1f993cbf88314b1baa1e10ca917bdc64>:0 
+  at System.Linq.Enumerable.ToList[TSource] (System.Collections.Generic.IEnumerable`1[T] source) [0x0001f] in <1f993cbf88314b1baa1e10ca917bdc64>:0 
+  at RimWorld.JobGiver_XenomorphHosthunter.FindPawnTarget (Verse.Pawn pawn) [0x00129] in <78bda4ec2265443291de8d94258ca93d>:0 
+  at RimWorld.JobGiver_XenomorphHosthunter.TryGiveJob (Verse.Pawn pawn) [0x00136] in <78bda4ec2265443291de8d94258ca93d>:0 
+  at Verse.AI.ThinkNode_JobGiver.TryIssueJobPackage (Verse.Pawn pawn, Verse.AI.JobIssueParams jobParams) [0x00000] in <61e4173561894da49d210260257b5097>:0 
+  at Verse.AI.ThinkNode_Priority.TryIssueJobPackage (Verse.Pawn pawn, Verse.AI.JobIssueParams jobParams) [0x00022] in <61e4173561894da49d210260257b5097>:0 
+Exception in RimWorld.ThinkNode_Conditional_OverHealth TryIssueJobPackage: System.NullReferenceException: Object reference not set to an instance of an object
+[Ref E2C5795D] Duplicate stacktrace, see ref for original
+Exception in RimWorld.ThinkNode_Conditional_OverHealth TryIssueJobPackage: System.NullReferenceException: Object reference not set to an instance of an object
+[Ref E2C5795D] Duplicate stacktrace, see ref for original
+Exception in RimWorld.ThinkNode_Conditional_OverHealth TryIssueJobPackage: System.NullReferenceException: Object reference not set to an instance of an object
+[Ref E2C5795D] Duplicate stacktrace, see ref for original
+Exception in RimWorld.ThinkNode_Conditional_OverHealth TryIssueJobPackage: System.NullReferenceException: Object reference not set to an instance of an object
+[Ref E2C5795D] Duplicate stacktrace, see ref for original
+Exception in RimWorld.ThinkNode_ConditionalFacehuggerFertile TryIssueJobPackage: System.NullReferenceException: Object reference not set to an instance of an object
+[Ref B8BB562F] Duplicate stacktrace, see ref for original
+Exception in Verse.AI.ThinkNode_Tagger TryIssueJobPackage: System.NullReferenceException: Object reference not set to an instance of an object
+[Ref B3A85BBC] Duplicate stacktrace, see ref for original
+JobDriver threw exception in toil MakeNewToils's initAction for pawn RRY_Xenomorph_FaceHugger93808 driver=JobDriver_Wait (toilIndex=0) driver.job=(Wait_Wander (Job_41061) Giver = JobGiver_WanderAnywhere [workGiverDef: null])
+System.NullReferenceException: Object reference not set to an instance of an object
+[Ref 2BEE724E] Duplicate stacktrace, see ref for original
+JobDriver threw exception in toil MakeNewToils's initAction for pawn RRY_Xenomorph_FaceHugger93808 driver=JobDriver_Wait (toilIndex=0) driver.job=(Wait (Job_41062))
+System.NullReferenceException: Object reference not set to an instance of an object
+[Ref 2BEE724E] Duplicate stacktrace, see ref for original
+An error occurred while starting an error recover job. We have to stop now to avoid infinite loops. This means that the pawn is now jobless which can cause further bugs. pawn=RRY_Xenomorph_FaceHugger93808
+Could not find good sleeping slot position for Ibex54112. Perhaps AnyUnoccupiedSleepingSlot check is missing somewhere.
+Tried to kick pawn Deer54100 out of a bed they're not currently in.
+Could not find good sleeping slot position for Deer54100. Perhaps AnyUnoccupiedSleepingSlot check is missing somewhere.
+Exception in RimWorld.ThinkNode_Conditional_OverHealth TryIssueJobPackage: System.NullReferenceException: Object reference not set to an instance of an object
+[Ref E2C5795D] Duplicate stacktrace, see ref for original
+Exception in RimWorld.ThinkNode_Conditional_OverHealth TryIssueJobPackage: System.NullReferenceException: Object reference not set to an instance of an object
+[Ref E2C5795D] Duplicate stacktrace, see ref for original
+Exception in RimWorld.ThinkNode_Conditional_OverHealth TryIssueJobPackage: System.NullReferenceException: Object reference not set to an instance of an object
+[Ref E2C5795D] Duplicate stacktrace, see ref for original
+Exception in RimWorld.ThinkNode_Conditional_OverHealth TryIssueJobPackage: System.NullReferenceException: Object reference not set to an instance of an object
+[Ref E2C5795D] Duplicate stacktrace, see ref for original
+Cannot drop RRY_Xenomorph_Queen54067 without a dropLoc and with an owner whose map is null.
+Exception in RimWorld.ThinkNode_Conditional_OverHealth TryIssueJobPackage: System.NullReferenceException: Object reference not set to an instance of an object
+[Ref E2C5795D] Duplicate stacktrace, see ref for original
+Exception in RimWorld.ThinkNode_Conditional_OverHealth TryIssueJobPackage: System.NullReferenceException: Object reference not set to an instance of an object
+[Ref E2C5795D] Duplicate stacktrace, see ref for original
+Exception in RimWorld.ThinkNode_Conditional_OverHealth TryIssueJobPackage: System.NullReferenceException: Object reference not set to an instance of an object
+[Ref E2C5795D] Duplicate stacktrace, see ref for original
+Exception in RimWorld.ThinkNode_Conditional_OverHealth TryIssueJobPackage: System.NullReferenceException: Object reference not set to an instance of an object
+[Ref E2C5795D] Duplicate stacktrace, see ref for original
+Exception in RimWorld.ThinkNode_Conditional_OverHealth TryIssueJobPackage: System.NullReferenceException: Object reference not set to an instance of an object
+[Ref E2C5795D] Duplicate stacktrace, see ref for original
+Exception in RimWorld.ThinkNode_Conditional_OverHealth TryIssueJobPackage: System.NullReferenceException: Object reference not set to an instance of an object
+[Ref E2C5795D] Duplicate stacktrace, see ref for original
+Exception in RimWorld.ThinkNode_Conditional_OverHealth TryIssueJobPackage: System.NullReferenceException: Object reference not set to an instance of an object
+[Ref E2C5795D] Duplicate stacktrace, see ref for original
+Exception in RimWorld.ThinkNode_Conditional_OverHealth TryIssueJobPackage: System.NullReferenceException: Object reference not set to an instance of an object
+[Ref E2C5795D] Duplicate stacktrace, see ref for original
+Exception in RimWorld.ThinkNode_Conditional_OverHealth TryIssueJobPackage: System.NullReferenceException: Object reference not set to an instance of an object
+[Ref E2C5795D] Duplicate stacktrace, see ref for original
+Exception in RimWorld.ThinkNode_Conditional_OverHealth TryIssueJobPackage: System.NullReferenceException: Object reference not set to an instance of an object
+[Ref E2C5795D] Duplicate stacktrace, see ref for original
+Exception in RimWorld.ThinkNode_Conditional_OverHealth TryIssueJobPackage: System.NullReferenceException: Object reference not set to an instance of an object
+[Ref E2C5795D] Duplicate stacktrace, see ref for original
+Exception in RimWorld.ThinkNode_Conditional_OverHealth TryIssueJobPackage: System.NullReferenceException: Object reference not set to an instance of an object
+[Ref E2C5795D] Duplicate stacktrace, see ref for original
+Exception in RimWorld.ThinkNode_Conditional_OverHealth TryIssueJobPackage: System.NullReferenceException: Object reference not set to an instance of an object
+[Ref E2C5795D] Duplicate stacktrace, see ref for original
+[AVP Xenomorphs] [Detach] doe in post-impregnation, timer2=1, severity=0.453333, stage=2 (tick 71875)
+Exception in RimWorld.ThinkNode_Conditional_OverHealth TryIssueJobPackage: System.NullReferenceException: Object reference not set to an instance of an object
+[Ref E2C5795D] Duplicate stacktrace, see ref for original
+Exception in RimWorld.ThinkNode_Conditional_OverHealth TryIssueJobPackage: System.NullReferenceException: Object reference not set to an instance of an object
+[Ref E2C5795D] Duplicate stacktrace, see ref for original
+[AVP Xenomorphs] [Detach] doe in post-impregnation, timer2=251, severity=0.4566663, stage=2 (tick 72125)
+Exception in RimWorld.ThinkNode_Conditional_OverHealth TryIssueJobPackage: System.NullReferenceException: Object reference not set to an instance of an object
+[Ref E2C5795D] Duplicate stacktrace, see ref for original
+Exception in RimWorld.ThinkNode_Conditional_OverHealth TryIssueJobPackage: System.NullReferenceException: Object reference not set to an instance of an object
+[Ref E2C5795D] Duplicate stacktrace, see ref for original
+[AVP Xenomorphs] [Detach] doe in post-impregnation, timer2=501, severity=0.4599997, stage=2 (tick 72375)
+Exception in RimWorld.ThinkNode_Conditional_OverHealth TryIssueJobPackage: System.NullReferenceException: Object reference not set to an instance of an object
+[Ref E2C5795D] Duplicate stacktrace, see ref for original
+Exception in RimWorld.ThinkNode_Conditional_OverHealth TryIssueJobPackage: System.NullReferenceException: Object reference not set to an instance of an object
+[Ref E2C5795D] Duplicate stacktrace, see ref for original
+[AVP Xenomorphs] [Detach] doe in post-impregnation, timer2=1, severity=0.453333, stage=2 (tick 72940)
+Exception in RimWorld.ThinkNode_Conditional_OverHealth TryIssueJobPackage: System.NullReferenceException: Object reference not set to an instance of an object
+[Ref E2C5795D] Duplicate stacktrace, see ref for original
+Exception in RimWorld.ThinkNode_Conditional_OverHealth TryIssueJobPackage: System.NullReferenceException: Object reference not set to an instance of an object
+[Ref E2C5795D] Duplicate stacktrace, see ref for original
+Exception in RimWorld.ThinkNode_ConditionalFacehuggerFertile TryIssueJobPackage: System.NullReferenceException: Object reference not set to an instance of an object
+[Ref B8BB562F] Duplicate stacktrace, see ref for original
+Exception in Verse.AI.ThinkNode_Tagger TryIssueJobPackage: System.NullReferenceException: Object reference not set to an instance of an object
+[Ref B3A85BBC] Duplicate stacktrace, see ref for original
+JobDriver threw exception in toil MakeNewToils's initAction for pawn RRY_Xenomorph_FaceHugger93868 driver=JobDriver_Wait (toilIndex=0) driver.job=(Wait_Wander (Job_43725) Giver = JobGiver_WanderAnywhere [workGiverDef: null])
+System.NullReferenceException: Object reference not set to an instance of an object
+[Ref 2BEE724E] Duplicate stacktrace, see ref for original
+JobDriver threw exception in toil MakeNewToils's initAction for pawn RRY_Xenomorph_FaceHugger93868 driver=JobDriver_Wait (toilIndex=0) driver.job=(Wait (Job_43726))
+System.NullReferenceException: Object reference not set to an instance of an object
+[Ref 2BEE724E] Duplicate stacktrace, see ref for original
+An error occurred while starting an error recover job. We have to stop now to avoid infinite loops. This means that the pawn is now jobless which can cause further bugs. pawn=RRY_Xenomorph_FaceHugger93868
+[AVP Xenomorphs] [Detach] doe in post-impregnation, timer2=251, severity=0.4566663, stage=2 (tick 73190)
+Exception in RimWorld.ThinkNode_Conditional_OverHealth TryIssueJobPackage: System.NullReferenceException: Object reference not set to an instance of an object
+[Ref E2C5795D] Duplicate stacktrace, see ref for original
+Exception in RimWorld.ThinkNode_Conditional_OverHealth TryIssueJobPackage: System.NullReferenceException: Object reference not set to an instance of an object
+[Ref E2C5795D] Duplicate stacktrace, see ref for original
+[AVP Xenomorphs] [Detach] doe in post-impregnation, timer2=501, severity=0.4599997, stage=2 (tick 73440)
+Exception in RimWorld.ThinkNode_Conditional_OverHealth TryIssueJobPackage: System.NullReferenceException: Object reference not set to an instance of an object
+[Ref E2C5795D] Duplicate stacktrace, see ref for original
+Exception in RimWorld.ThinkNode_Conditional_OverHealth TryIssueJobPackage: System.NullReferenceException: Object reference not set to an instance of an object
+[Ref E2C5795D] Duplicate stacktrace, see ref for original
+Exception in RimWorld.ThinkNode_Conditional_OverHealth TryIssueJobPackage: System.NullReferenceException: Object reference not set to an instance of an object
+[Ref E2C5795D] Duplicate stacktrace, see ref for original
+Exception in RimWorld.ThinkNode_Conditional_OverHealth TryIssueJobPackage: System.NullReferenceException: Object reference not set to an instance of an object
+[Ref E2C5795D] Duplicate stacktrace, see ref for original
+Exception in RimWorld.ThinkNode_Conditional_OverHealth TryIssueJobPackage: System.NullReferenceException: Object reference not set to an instance of an object
+[Ref E2C5795D] Duplicate stacktrace, see ref for original
+Exception in RimWorld.ThinkNode_Conditional_OverHealth TryIssueJobPackage: System.NullReferenceException: Object reference not set to an instance of an object
+[Ref E2C5795D] Duplicate stacktrace, see ref for original
+Exception in RimWorld.ThinkNode_Conditional_OverHealth TryIssueJobPackage: System.NullReferenceException: Object reference not set to an instance of an object
+[Ref E2C5795D] Duplicate stacktrace, see ref for original
+[AVP Xenomorphs] [Detach] donkey in post-impregnation, timer2=1, severity=0.453333, stage=2 (tick 74910)
+[AVP Xenomorphs] [Detach] donkey in post-impregnation, timer2=251, severity=0.4566663, stage=2 (tick 75160)
+[AVP Xenomorphs] [Detach] donkey in post-impregnation, timer2=501, severity=0.4599997, stage=2 (tick 75410)
+Exception in RimWorld.ThinkNode_Conditional_OverHealth TryIssueJobPackage: System.NullReferenceException: Object reference not set to an instance of an object
+[Ref E2C5795D] Duplicate stacktrace, see ref for original
+Exception in RimWorld.ThinkNode_Conditional_OverHealth TryIssueJobPackage: System.NullReferenceException: Object reference not set to an instance of an object
+[Ref E2C5795D] Duplicate stacktrace, see ref for original
+Exception in RimWorld.ThinkNode_Conditional_OverHealth TryIssueJobPackage: System.NullReferenceException: Object reference not set to an instance of an object
+[Ref E2C5795D] Duplicate stacktrace, see ref for original
+[AVP Xenomorphs] [Detach] buck in post-impregnation, timer2=1, severity=0.453333, stage=2 (tick 75896)
+[AVP Xenomorphs] [Detach] buck in post-impregnation, timer2=251, severity=0.4566663, stage=2 (tick 76146)
+Exception in RimWorld.ThinkNode_Conditional_OverHealth TryIssueJobPackage: System.NullReferenceException: Object reference not set to an instance of an object
+[Ref E2C5795D] Duplicate stacktrace, see ref for original
+[AVP Xenomorphs] [Detach] buck in post-impregnation, timer2=501, severity=0.4599997, stage=2 (tick 76396)
+Exception in RimWorld.ThinkNode_Conditional_OverHealth TryIssueJobPackage: System.NullReferenceException: Object reference not set to an instance of an object
+[Ref E2C5795D] Duplicate stacktrace, see ref for original
+Exception in RimWorld.ThinkNode_Conditional_OverHealth TryIssueJobPackage: System.NullReferenceException: Object reference not set to an instance of an object
+[Ref E2C5795D] Duplicate stacktrace, see ref for original
+Error while killing Deer54097 during phase 6: System.NullReferenceException: Object reference not set to an instance of an object
+[Ref 3DCB6A44]
+  at Verse.ThingMaker.MakeThing (Verse.ThingDef def, Verse.ThingDef stuff) [0x0005b] in <61e4173561894da49d210260257b5097>:0 
+  at RimWorld.MoteMaker.ThrowExplosionCell (Verse.IntVec3 cell, Verse.Map map, Verse.ThingDef moteDef, UnityEngine.Color color) [0x0000b] in <61e4173561894da49d210260257b5097>:0 
+  at RRYautja.HediffComp_XenoSpawner.Notify_PawnDied (System.Nullable`1[T] dinfo, Verse.Hediff culprit) [0x00308] in <78bda4ec2265443291de8d94258ca93d>:0 
+  at Verse.HediffWithComps.Notify_PawnDied (System.Nullable`1[T] dinfo, Verse.Hediff culprit) [0x00024] in <61e4173561894da49d210260257b5097>:0 
+  at RRYautja.XenoHediffWithComps.Notify_PawnDied (System.Nullable`1[T] dinfo, Verse.Hediff culprit) [0x00000] in <78bda4ec2265443291de8d94258ca93d>:0 
+  at Verse.HediffSet.Notify_PawnDied (System.Nullable`1[T] dinfo, Verse.Hediff culprit) [0x0001c] in <61e4173561894da49d210260257b5097>:0 
+  at Verse.Pawn.Kill (System.Nullable`1[T] dinfo, Verse.Hediff exactCulprit) [0x0064c] in <61e4173561894da49d210260257b5097>:0 
+    - PREFIX OskarPotocki.VEF: Void VEF.Storyteller.VanillaExpandedFramework_Pawn_Kill_Patch:Prefix(Pawn __instance, Nullable`1 dinfo, Hediff exactCulprit)
+    - PREFIX OskarPotocki.VEF: Boolean VEF.Apparels.VanillaExpandedFramework_Pawn_Kill_Patch:Prefix(Pawn __instance, List`1& __state)
+    - POSTFIX UnlimitedHugs.AllowTool: Void AllowTool.Patches.Pawn_Kill_Patch:UnforbidDraftedHuntBody(Pawn __instance, Nullable`1 dinfo)
+    - POSTFIX OskarPotocki.VEF: Void VEF.Pawns.VanillaExpandedFramework_Pawn_Kill:Postfix(Pawn __instance)
+    - POSTFIX OskarPotocki.VEF: Void VEF.Apparels.VanillaExpandedFramework_Pawn_Kill_Patch:Postfix(Pawn __instance, List`1 __state)
+    - POSTFIX VFEEmpire.Mod: Void VFEEmpire.HarmonyPatches.ColonistTitleCache+OnPawn:Postfix(Pawn __instance)
+    - POSTFIX vanillaexpanded.factions.deserters: Void VFED.HarmonyPatches.MiscPatches:ExplodePackOnDeath(Pawn __instance)
+Exception in RimWorld.ThinkNode_Conditional_OverHealth TryIssueJobPackage: System.NullReferenceException: Object reference not set to an instance of an object
+[Ref E2C5795D] Duplicate stacktrace, see ref for original
+Exception in RimWorld.ThinkNode_Conditional_OverHealth TryIssueJobPackage: System.NullReferenceException: Object reference not set to an instance of an object
+[Ref E2C5795D] Duplicate stacktrace, see ref for original
+Exception in RimWorld.ThinkNode_Conditional_OverHealth TryIssueJobPackage: System.NullReferenceException: Object reference not set to an instance of an object
+[Ref E2C5795D] Duplicate stacktrace, see ref for original
+Exception in RimWorld.ThinkNode_Conditional_OverHealth TryIssueJobPackage: System.NullReferenceException: Object reference not set to an instance of an object
+[Ref E2C5795D] Duplicate stacktrace, see ref for original
+Exception in RimWorld.ThinkNode_Conditional_OverHealth TryIssueJobPackage: System.NullReferenceException: Object reference not set to an instance of an object
+[Ref E2C5795D] Duplicate stacktrace, see ref for original
+Exception in RimWorld.ThinkNode_Conditional_OverHealth TryIssueJobPackage: System.NullReferenceException: Object reference not set to an instance of an object
+[Ref E2C5795D] Duplicate stacktrace, see ref for original
+Exception in RimWorld.ThinkNode_Conditional_OverHealth TryIssueJobPackage: System.NullReferenceException: Object reference not set to an instance of an object
+[Ref E2C5795D] Duplicate stacktrace, see ref for original
+[AVP Xenomorphs] [Detach] wild boar in post-impregnation, timer2=1, severity=0.453333, stage=2 (tick 77653)
+Exception in RimWorld.ThinkNode_Conditional_OverHealth TryIssueJobPackage: System.NullReferenceException: Object reference not set to an instance of an object
+[Ref E2C5795D] Duplicate stacktrace, see ref for original
+Exception in RimWorld.ThinkNode_Conditional_OverHealth TryIssueJobPackage: System.NullReferenceException: Object reference not set to an instance of an object
+[Ref E2C5795D] Duplicate stacktrace, see ref for original
+[AVP Xenomorphs] [Detach] wild boar in post-impregnation, timer2=251, severity=0.4566663, stage=2 (tick 77903)
+Exception in RimWorld.ThinkNode_Conditional_OverHealth TryIssueJobPackage: System.NullReferenceException: Object reference not set to an instance of an object
+[Ref E2C5795D] Duplicate stacktrace, see ref for original
+[AVP Xenomorphs] [Detach] wild boar in post-impregnation, timer2=501, severity=0.4599997, stage=2 (tick 78153)
+Exception in RimWorld.ThinkNode_Conditional_OverHealth TryIssueJobPackage: System.NullReferenceException: Object reference not set to an instance of an object
+[Ref E2C5795D] Duplicate stacktrace, see ref for original
+Exception in RimWorld.ThinkNode_Conditional_OverHealth TryIssueJobPackage: System.NullReferenceException: Object reference not set to an instance of an object
+[Ref E2C5795D] Duplicate stacktrace, see ref for original
+Exception in RimWorld.ThinkNode_Conditional_OverHealth TryIssueJobPackage: System.NullReferenceException: Object reference not set to an instance of an object
+[Ref E2C5795D] Duplicate stacktrace, see ref for original
+Exception in RimWorld.ThinkNode_Conditional_OverHealth TryIssueJobPackage: System.NullReferenceException: Object reference not set to an instance of an object
+[Ref E2C5795D] Duplicate stacktrace, see ref for original
+Exception in RimWorld.ThinkNode_Conditional_OverHealth TryIssueJobPackage: System.NullReferenceException: Object reference not set to an instance of an object
+[Ref E2C5795D] Duplicate stacktrace, see ref for original
+Exception in RimWorld.ThinkNode_Conditional_OverHealth TryIssueJobPackage: System.NullReferenceException: Object reference not set to an instance of an object
+[Ref E2C5795D] Duplicate stacktrace, see ref for original
+Exception in RimWorld.ThinkNode_Conditional_OverHealth TryIssueJobPackage: System.NullReferenceException: Object reference not set to an instance of an object
+[Ref E2C5795D] Duplicate stacktrace, see ref for original
+Exception in RimWorld.ThinkNode_Conditional_OverHealth TryIssueJobPackage: System.NullReferenceException: Object reference not set to an instance of an object
+[Ref E2C5795D] Duplicate stacktrace, see ref for original
+Exception in RimWorld.ThinkNode_Conditional_OverHealth TryIssueJobPackage: System.NullReferenceException: Object reference not set to an instance of an object
+[Ref E2C5795D] Duplicate stacktrace, see ref for original
+[AVP Xenomorphs] [Detach] Morrison in post-impregnation, timer2=1, severity=0.453333, stage=2 (tick 80312)
+[AVP Xenomorphs] [Detach] Morrison in post-impregnation, timer2=251, severity=0.4566663, stage=2 (tick 80562)
+[AVP Xenomorphs] [Detach] Morrison in post-impregnation, timer2=501, severity=0.4599997, stage=2 (tick 80812)
+Error while killing Deer54104 during phase 6: System.NullReferenceException: Object reference not set to an instance of an object
+[Ref 3DCB6A44] Duplicate stacktrace, see ref for original
+[AVP Xenomorphs] [Detach] Nobuko in post-impregnation, timer2=212, severity=0.4566663, stage=2 (tick 81062)
+[AVP Xenomorphs] [Detach] Nobuko in post-impregnation, timer2=462, severity=0.4599997, stage=2 (tick 81312)
+Exception in RimWorld.ThinkNode_ConditionalFacehuggerFertile TryIssueJobPackage: System.NullReferenceException: Object reference not set to an instance of an object
+[Ref B8BB562F] Duplicate stacktrace, see ref for original
+Exception in Verse.AI.ThinkNode_Tagger TryIssueJobPackage: System.NullReferenceException: Object reference not set to an instance of an object
+[Ref B3A85BBC] Duplicate stacktrace, see ref for original
+JobDriver threw exception in toil MakeNewToils's initAction for pawn RRY_Xenomorph_FaceHugger94038 driver=JobDriver_Wait (toilIndex=0) driver.job=(Wait_Wander (Job_49735) Giver = JobGiver_WanderAnywhere [workGiverDef: null])
+System.NullReferenceException: Object reference not set to an instance of an object
+[Ref 2BEE724E] Duplicate stacktrace, see ref for original
+JobDriver threw exception in toil MakeNewToils's initAction for pawn RRY_Xenomorph_FaceHugger94038 driver=JobDriver_Wait (toilIndex=0) driver.job=(Wait (Job_49736))
+System.NullReferenceException: Object reference not set to an instance of an object
+[Ref 2BEE724E] Duplicate stacktrace, see ref for original
+An error occurred while starting an error recover job. We have to stop now to avoid infinite loops. This means that the pawn is now jobless which can cause further bugs. pawn=RRY_Xenomorph_FaceHugger94038
+Exception in RimWorld.ThinkNode_ConditionalFacehuggerFertile TryIssueJobPackage: System.NullReferenceException: Object reference not set to an instance of an object
+[Ref B8BB562F] Duplicate stacktrace, see ref for original
+Exception in Verse.AI.ThinkNode_Tagger TryIssueJobPackage: System.NullReferenceException: Object reference not set to an instance of an object
+[Ref B3A85BBC] Duplicate stacktrace, see ref for original
+JobDriver threw exception in toil MakeNewToils's initAction for pawn RRY_Xenomorph_FaceHugger94075 driver=JobDriver_Wait (toilIndex=0) driver.job=(Wait_Wander (Job_49879) Giver = JobGiver_WanderAnywhere [workGiverDef: null])
+System.NullReferenceException: Object reference not set to an instance of an object
+[Ref 2BEE724E] Duplicate stacktrace, see ref for original
+JobDriver threw exception in toil MakeNewToils's initAction for pawn RRY_Xenomorph_FaceHugger94075 driver=JobDriver_Wait (toilIndex=0) driver.job=(Wait (Job_49880))
+System.NullReferenceException: Object reference not set to an instance of an object
+[Ref 2BEE724E] Duplicate stacktrace, see ref for original
+An error occurred while starting an error recover job. We have to stop now to avoid infinite loops. This means that the pawn is now jobless which can cause further bugs. pawn=RRY_Xenomorph_FaceHugger94075
+[AVP Xenomorphs] [Detach] buck in post-impregnation, timer2=1, severity=0.453333, stage=2 (tick 85749)
+[AVP Xenomorphs] [Detach] buck in post-impregnation, timer2=251, severity=0.4566663, stage=2 (tick 85999)
+[AVP Xenomorphs] [Detach] buck in post-impregnation, timer2=501, severity=0.4599997, stage=2 (tick 86249)
+Exception in RimWorld.ThinkNode_ConditionalFacehuggerFertile TryIssueJobPackage: System.NullReferenceException: Object reference not set to an instance of an object
+[Ref B8BB562F] Duplicate stacktrace, see ref for original
+Exception in Verse.AI.ThinkNode_Tagger TryIssueJobPackage: System.NullReferenceException: Object reference not set to an instance of an object
+[Ref B3A85BBC] Duplicate stacktrace, see ref for original
+JobDriver threw exception in toil MakeNewToils's initAction for pawn RRY_Xenomorph_FaceHugger94098 driver=JobDriver_Wait (toilIndex=0) driver.job=(Wait_Wander (Job_51895) Giver = JobGiver_WanderAnywhere [workGiverDef: null])
+System.NullReferenceException: Object reference not set to an instance of an object
+[Ref 2BEE724E] Duplicate stacktrace, see ref for original
+JobDriver threw exception in toil MakeNewToils's initAction for pawn RRY_Xenomorph_FaceHugger94098 driver=JobDriver_Wait (toilIndex=0) driver.job=(Wait (Job_51896))
+System.NullReferenceException: Object reference not set to an instance of an object
+[Ref 2BEE724E] Duplicate stacktrace, see ref for original
+An error occurred while starting an error recover job. We have to stop now to avoid infinite loops. This means that the pawn is now jobless which can cause further bugs. pawn=RRY_Xenomorph_FaceHugger94098
+Material 'SolidColorMat-Custom/Solid Color-RGBA(0.000, 0.000, 0.000, 0.000)' with Shader 'Custom/Solid Color' doesn't have a texture property '_MainTex'
+Exception printing RRY_Xenomorph_Cocoon_Animal93562 at (228, 0, 147): System.ArgumentNullException: Value cannot be null.
+Parameter name: key
+[Ref 81238DF4]
+ [0x00006] in <51fded79cd284d4d911c5949aff4cb21>:0 
+  at System.Collections.Generic.Dictionary`2[TKey,TValue].FindEntry (TKey key) [0x00008] in <51fded79cd284d4d911c5949aff4cb21>:0 
+  at System.Collections.Generic.Dictionary`2[TKey,TValue].TryGetValue (TKey key, TValue& value) [0x00000] in <51fded79cd284d4d911c5949aff4cb21>:0 
+  at Verse.StaticTextureAtlas.TryGetTile (UnityEngine.Texture texture, Verse.StaticTextureAtlasTile& tile) [0x00000] in <61e4173561894da49d210260257b5097>:0 
+  at Verse.GlobalTextureAtlasManager.TryGetStaticTile (Verse.TextureAtlasGroup group, UnityEngine.Texture2D texture, Verse.StaticTextureAtlasTile& tile, System.Boolean ignoreFoundInOtherAtlas) [0x00023] in <61e4173561894da49d210260257b5097>:0 
+  at Verse.Graphic.TryGetTextureAtlasReplacementInfo (UnityEngine.Material mat, Verse.TextureAtlasGroup group, System.Boolean flipUv, System.Boolean vertexColors, UnityEngine.Material& material, UnityEngine.Vector2[]& uvs, UnityEngine.Color32& vertexColor) [0x0006d] in <61e4173561894da49d210260257b5097>:0 
+  at Verse.Graphic.Print (Verse.SectionLayer layer, Verse.Thing thing, System.Single extraRotation) [0x000e7] in <61e4173561894da49d210260257b5097>:0 
+  at Verse.Thing.Print (Verse.SectionLayer layer) [0x00013] in <61e4173561894da49d210260257b5097>:0 
+  at Verse.ThingWithComps.Print (Verse.SectionLayer layer) [0x00008] in <61e4173561894da49d210260257b5097>:0 
+  at Verse.SectionLayer_ThingsGeneral.TakePrintFrom (Verse.Thing t) [0x0001b] in <61e4173561894da49d210260257b5097>:0 
+    - PREFIX adaptive.storage.framework: Boolean AdaptiveStorage.HarmonyPatches.HideStoredThingsFromSectionLayerAndOverlayDrawer:Prefix(Thing t)
+Material 'SolidColorMat-Custom/Solid Color-RGBA(0.000, 0.000, 0.000, 0.000)' with Shader 'Custom/Solid Color' doesn't have a texture property '_MainTex'
+Exception printing RRY_Xenomorph_Cocoon_Animal93708 at (227, 0, 148): System.ArgumentNullException: Value cannot be null.
+Parameter name: key
+[Ref 81238DF4] Duplicate stacktrace, see ref for original
+Material 'SolidColorMat-Custom/Solid Color-RGBA(0.000, 0.000, 0.000, 0.000)' with Shader 'Custom/Solid Color' doesn't have a texture property '_MainTex'
+Exception printing RRY_Xenomorph_Cocoon_Animal94030 at (231, 0, 148): System.ArgumentNullException: Value cannot be null.
+Parameter name: key
+[Ref 81238DF4] Duplicate stacktrace, see ref for original
+Material 'SolidColorMat-Custom/Solid Color-RGBA(0.000, 0.000, 0.000, 0.000)' with Shader 'Custom/Solid Color' doesn't have a texture property '_MainTex'
+Exception printing RRY_Xenomorph_Cocoon_Animal93821 at (227, 0, 150): System.ArgumentNullException: Value cannot be null.
+Parameter name: key
+[Ref 81238DF4] Duplicate stacktrace, see ref for original
+[AVP Xenomorphs] [Spawn] Chestburster spawned: Runner faction=a Xenomorph hive (tick 88874)
+Error while killing Deer54101 during phase 6: System.NullReferenceException: Object reference not set to an instance of an object
+[Ref 3DCB6A44] Duplicate stacktrace, see ref for original
+Exception in RimWorld.ThinkNode_ConditionalFacehuggerFertile TryIssueJobPackage: System.NullReferenceException: Object reference not set to an instance of an object
+[Ref B8BB562F] Duplicate stacktrace, see ref for original
+Exception in Verse.AI.ThinkNode_Tagger TryIssueJobPackage: System.NullReferenceException: Object reference not set to an instance of an object
+[Ref B3A85BBC] Duplicate stacktrace, see ref for original
+JobDriver threw exception in toil MakeNewToils's initAction for pawn RRY_Xenomorph_FaceHugger94061 driver=JobDriver_Wait (toilIndex=0) driver.job=(Wait_Wander (Job_53197) Giver = JobGiver_WanderAnywhere [workGiverDef: null])
+System.NullReferenceException: Object reference not set to an instance of an object
+[Ref 2BEE724E] Duplicate stacktrace, see ref for original
+JobDriver threw exception in toil MakeNewToils's initAction for pawn RRY_Xenomorph_FaceHugger94061 driver=JobDriver_Wait (toilIndex=0) driver.job=(Wait (Job_53198))
+System.NullReferenceException: Object reference not set to an instance of an object
+[Ref 2BEE724E] Duplicate stacktrace, see ref for original
+An error occurred while starting an error recover job. We have to stop now to avoid infinite loops. This means that the pawn is now jobless which can cause further bugs. pawn=RRY_Xenomorph_FaceHugger94061
+[AVP Xenomorphs] [Spawn] Chestburster spawned: Runner faction=a Xenomorph hive (tick 90709)
+Error while killing Donkey54116 during phase 6: System.NullReferenceException: Object reference not set to an instance of an object
+[Ref 3DCB6A44] Duplicate stacktrace, see ref for original
+[AVP Xenomorphs] [Spawn] Chestburster spawned: Runner faction=a Xenomorph hive (tick 91695)
+Error while killing Deer54099 during phase 6: System.NullReferenceException: Object reference not set to an instance of an object
+[Ref 3DCB6A44] Duplicate stacktrace, see ref for original
+[AVP Xenomorphs] [Spawn] Chestburster spawned: Runner faction=a Xenomorph hive (tick 92939)
+Error while killing Deer54102 during phase 6: System.NullReferenceException: Object reference not set to an instance of an object
+[Ref 3DCB6A44] Duplicate stacktrace, see ref for original
+[AVP Xenomorphs] [Detach] buck in post-impregnation, timer2=1, severity=0.453333, stage=2 (tick 95154)
+[AVP Xenomorphs] [Detach] buck in post-impregnation, timer2=251, severity=0.4566663, stage=2 (tick 95404)
+[AVP Xenomorphs] [Detach] buck in post-impregnation, timer2=501, severity=0.4599997, stage=2 (tick 95654)
+[AVP Xenomorphs] [Spawn] Chestburster spawned: Runner faction=a Xenomorph hive (tick 96452)
+Error while killing WildBoar54135 during phase 6: System.NullReferenceException: Object reference not set to an instance of an object
+[Ref 3DCB6A44] Duplicate stacktrace, see ref for original
+[AVP Xenomorphs] [Spawn] Chestburster spawned: Warrior faction=a Xenomorph hive (tick 97311)
+Error while killing Morrison during phase 6: System.NullReferenceException: Object reference not set to an instance of an object
+[Ref 3DCB6A44] Duplicate stacktrace, see ref for original
+[AVP Xenomorphs] [Spawn] Chestburster spawned: Warrior faction=a Xenomorph hive (tick 99050)
+Error while killing Nobuko during phase 6: System.NullReferenceException: Object reference not set to an instance of an object
+[Ref 3DCB6A44] Duplicate stacktrace, see ref for original
+Error while killing Finn during phase 6: System.NullReferenceException: Object reference not set to an instance of an object
+[Ref 3DCB6A44] Duplicate stacktrace, see ref for original
+[AVP Xenomorphs] [Detach] doe in post-impregnation, timer2=1, severity=0.453333, stage=2 (tick 99489)
+[AVP Xenomorphs] [Detach] doe in post-impregnation, timer2=251, severity=0.4566663, stage=2 (tick 99739)
+[AVP Xenomorphs] [Detach] doe in post-impregnation, timer2=501, severity=0.4599997, stage=2 (tick 99989)
+[AVP Xenomorphs] [Knockout] Drone knocked out ibex ram (tick 101332)
+[AVP Xenomorphs] [Spawn] Chestburster spawned: Runner faction=a Xenomorph hive (tick 102148)
+Error while killing Deer54103 during phase 6: System.NullReferenceException: Object reference not set to an instance of an object
+[Ref 3DCB6A44] Duplicate stacktrace, see ref for original
+Exception in RimWorld.ThinkNode_Conditional_OverHealth TryIssueJobPackage: System.NullReferenceException: Object reference not set to an instance of an object
+[Ref E2C5795D] Duplicate stacktrace, see ref for original
