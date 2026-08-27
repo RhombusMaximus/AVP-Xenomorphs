@@ -577,9 +577,10 @@ Verse.LongEventHandler:LongEventsUpdate (bool&)
 (wrapper dynamic-method) MonoMod.Utils.DynamicMethodDefinition:Verse.Root.Update_Patch1 (Verse.Root)
 Verse.Root_Entry:Update ()
 
-[AVP Xenomorphs] Failed to init knockout patch: You can only patch implemented methods/constructors. Patch the declared method Verse.DamageResult Verse.Thing::TakeDamage(Verse.DamageInfo dinfo) instead.
+[AVP Xenomorphs] [AVP Xenomorphs] Patched Thing.TakeDamage for knockout chance
 UnityEngine.StackTraceUtility:ExtractStackTrace ()
-(wrapper dynamic-method) MonoMod.Utils.DynamicMethodDefinition:Verse.Log.Error_Patch2 (string)
+Verse.Log:Message (string)
+RRYautja.AvPDebug:LogOnce (string,string)
 RRYautja.XenomorphKnockoutPatch:.cctor ()
 System.Runtime.CompilerServices.RuntimeHelpers:RunClassConstructor (System.RuntimeTypeHandle)
 ilyvion.LoadingProgress.StaticConstructorOnStartupUtilityReplacement/<CallAll>d__2:MoveNext () (at /home/runner/work/loading-progress/loading-progress/Source/ilyvion.LoadingProgress/StaticConstructorOnStartupUtilityReplacement.cs:42)
@@ -1309,7 +1310,7 @@ System.Threading.ExecutionContext:Run (System.Threading.ExecutionContext,System.
 System.Threading.ExecutionContext:Run (System.Threading.ExecutionContext,System.Threading.ContextCallback,object)
 System.Threading.ThreadHelper:ThreadStart ()
 
-<color=#66ffb5>[MeleeAnim]</color> PreCached all retexture info in 28.5ms
+<color=#66ffb5>[MeleeAnim]</color> PreCached all retexture info in 32.7ms
 UnityEngine.StackTraceUtility:ExtractStackTrace ()
 Verse.Log:Message (string)
 AM.Core:Log (string)
@@ -1364,7 +1365,7 @@ Verse.LongEventHandler:LongEventsUpdate (bool&)
 (wrapper dynamic-method) MonoMod.Utils.DynamicMethodDefinition:Verse.Root.Update_Patch1 (Verse.Root)
 Verse.Root_Entry:Update ()
 
-<color=#66ffb5>[MeleeAnim]</color> Patched 3 classes that directly inherit from Verb_MeleeAttack in 58.7 ms to detect hits:
+<color=#66ffb5>[MeleeAnim]</color> Patched 3 classes that directly inherit from Verb_MeleeAttack in 59.4 ms to detect hits:
 RimWorld.Verb_MeleeApplyHediff from Assembly-CSharp
 RimWorld.Verb_MeleeAttackDamage from Assembly-CSharp
 RRYautja.Verb_MeleeAttackKnockback from RRYautja
@@ -1379,7 +1380,7 @@ Verse.LongEventHandler:LongEventsUpdate (bool&)
 (wrapper dynamic-method) MonoMod.Utils.DynamicMethodDefinition:Verse.Root.Update_Patch1 (Verse.Root)
 Verse.Root_Entry:Update ()
 
-<color=#66ffb5>[MeleeAnim]</color> Found 0 items of clothing that cover hands, took 0.69 ms:
+<color=#66ffb5>[MeleeAnim]</color> Found 0 items of clothing that cover hands, took 0.73 ms:
 
 UnityEngine.StackTraceUtility:ExtractStackTrace ()
 Verse.Log:Message (string)
