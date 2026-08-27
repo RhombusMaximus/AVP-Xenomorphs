@@ -469,6 +469,18 @@ Verse.LongEventHandler:LongEventsUpdate (bool&)
 (wrapper dynamic-method) MonoMod.Utils.DynamicMethodDefinition:Verse.Root.Update_Patch1 (Verse.Root)
 Verse.Root_Entry:Update ()
 
+[AVP Xenomorphs] [AVP Xenomorphs] Patched PawnGenerator.GeneratePawn for dark drone spit removal
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+Verse.Log:Message (string)
+RRYautja.AvPDebug:LogOnce (string,string)
+RRYautja.DarkDroneNoSpitPatch:.cctor ()
+System.Runtime.CompilerServices.RuntimeHelpers:RunClassConstructor (System.RuntimeTypeHandle)
+ilyvion.LoadingProgress.StaticConstructorOnStartupUtilityReplacement/<CallAll>d__2:MoveNext () (at /home/runner/work/loading-progress/loading-progress/Source/ilyvion.LoadingProgress/StaticConstructorOnStartupUtilityReplacement.cs:42)
+Verse.LongEventHandler:UpdateCurrentEnumeratorEvent ()
+Verse.LongEventHandler:LongEventsUpdate (bool&)
+(wrapper dynamic-method) MonoMod.Utils.DynamicMethodDefinition:Verse.Root.Update_Patch1 (Verse.Root)
+Verse.Root_Entry:Update ()
+
 [AVP Xenomorphs] [AVP Xenomorphs] Facehugger mask graphic loaded: Things/Pawn/Xenomorph/Xenomorph_FaceHugger_Mask
 UnityEngine.StackTraceUtility:ExtractStackTrace ()
 Verse.Log:Message (string)
@@ -481,79 +493,7 @@ Verse.LongEventHandler:LongEventsUpdate (bool&)
 (wrapper dynamic-method) MonoMod.Utils.DynamicMethodDefinition:Verse.Root.Update_Patch1 (Verse.Root)
 Verse.Root_Entry:Update ()
 
-[AVP Xenomorphs] [AVP Xenomorphs] PawnRenderTree method: ParallelPreDraw(PawnDrawParms parms)
-UnityEngine.StackTraceUtility:ExtractStackTrace ()
-Verse.Log:Message (string)
-RRYautja.AvPDebug:LogOnce (string,string)
-RRYautja.FacehuggerMaskOffsetPatch:.cctor ()
-System.Runtime.CompilerServices.RuntimeHelpers:RunClassConstructor (System.RuntimeTypeHandle)
-ilyvion.LoadingProgress.StaticConstructorOnStartupUtilityReplacement/<CallAll>d__2:MoveNext () (at /home/runner/work/loading-progress/loading-progress/Source/ilyvion.LoadingProgress/StaticConstructorOnStartupUtilityReplacement.cs:42)
-Verse.LongEventHandler:UpdateCurrentEnumeratorEvent ()
-Verse.LongEventHandler:LongEventsUpdate (bool&)
-(wrapper dynamic-method) MonoMod.Utils.DynamicMethodDefinition:Verse.Root.Update_Patch1 (Verse.Root)
-Verse.Root_Entry:Update ()
-
-[AVP Xenomorphs] [AVP Xenomorphs] PawnRenderTree method: Draw(PawnDrawParms parms)
-UnityEngine.StackTraceUtility:ExtractStackTrace ()
-Verse.Log:Message (string)
-RRYautja.AvPDebug:LogOnce (string,string)
-RRYautja.FacehuggerMaskOffsetPatch:.cctor ()
-System.Runtime.CompilerServices.RuntimeHelpers:RunClassConstructor (System.RuntimeTypeHandle)
-ilyvion.LoadingProgress.StaticConstructorOnStartupUtilityReplacement/<CallAll>d__2:MoveNext () (at /home/runner/work/loading-progress/loading-progress/Source/ilyvion.LoadingProgress/StaticConstructorOnStartupUtilityReplacement.cs:42)
-Verse.LongEventHandler:UpdateCurrentEnumeratorEvent ()
-Verse.LongEventHandler:LongEventsUpdate (bool&)
-(wrapper dynamic-method) MonoMod.Utils.DynamicMethodDefinition:Verse.Root.Update_Patch1 (Verse.Root)
-Verse.Root_Entry:Update ()
-
-[AVP Xenomorphs] [AVP Xenomorphs] PawnRenderTree method: TryGetNodeByTag(PawnRenderNodeTagDef tag, PawnRenderNode& node)
-UnityEngine.StackTraceUtility:ExtractStackTrace ()
-Verse.Log:Message (string)
-RRYautja.AvPDebug:LogOnce (string,string)
-RRYautja.FacehuggerMaskOffsetPatch:.cctor ()
-System.Runtime.CompilerServices.RuntimeHelpers:RunClassConstructor (System.RuntimeTypeHandle)
-ilyvion.LoadingProgress.StaticConstructorOnStartupUtilityReplacement/<CallAll>d__2:MoveNext () (at /home/runner/work/loading-progress/loading-progress/Source/ilyvion.LoadingProgress/StaticConstructorOnStartupUtilityReplacement.cs:42)
-Verse.LongEventHandler:UpdateCurrentEnumeratorEvent ()
-Verse.LongEventHandler:LongEventsUpdate (bool&)
-(wrapper dynamic-method) MonoMod.Utils.DynamicMethodDefinition:Verse.Root.Update_Patch1 (Verse.Root)
-Verse.Root_Entry:Update ()
-
-[AVP Xenomorphs] [AVP Xenomorphs] PawnRenderTree method: SetupDynamicNodes()
-UnityEngine.StackTraceUtility:ExtractStackTrace ()
-Verse.Log:Message (string)
-RRYautja.AvPDebug:LogOnce (string,string)
-RRYautja.FacehuggerMaskOffsetPatch:.cctor ()
-System.Runtime.CompilerServices.RuntimeHelpers:RunClassConstructor (System.RuntimeTypeHandle)
-ilyvion.LoadingProgress.StaticConstructorOnStartupUtilityReplacement/<CallAll>d__2:MoveNext () (at /home/runner/work/loading-progress/loading-progress/Source/ilyvion.LoadingProgress/StaticConstructorOnStartupUtilityReplacement.cs:42)
-Verse.LongEventHandler:UpdateCurrentEnumeratorEvent ()
-Verse.LongEventHandler:LongEventsUpdate (bool&)
-(wrapper dynamic-method) MonoMod.Utils.DynamicMethodDefinition:Verse.Root.Update_Patch1 (Verse.Root)
-Verse.Root_Entry:Update ()
-
-[AVP Xenomorphs] [AVP Xenomorphs] PawnRenderTree method: ShouldAddNodeToTree(PawnRenderNodeProperties props)
-UnityEngine.StackTraceUtility:ExtractStackTrace ()
-Verse.Log:Message (string)
-RRYautja.AvPDebug:LogOnce (string,string)
-RRYautja.FacehuggerMaskOffsetPatch:.cctor ()
-System.Runtime.CompilerServices.RuntimeHelpers:RunClassConstructor (System.RuntimeTypeHandle)
-ilyvion.LoadingProgress.StaticConstructorOnStartupUtilityReplacement/<CallAll>d__2:MoveNext () (at /home/runner/work/loading-progress/loading-progress/Source/ilyvion.LoadingProgress/StaticConstructorOnStartupUtilityReplacement.cs:42)
-Verse.LongEventHandler:UpdateCurrentEnumeratorEvent ()
-Verse.LongEventHandler:LongEventsUpdate (bool&)
-(wrapper dynamic-method) MonoMod.Utils.DynamicMethodDefinition:Verse.Root.Update_Patch1 (Verse.Root)
-Verse.Root_Entry:Update ()
-
-[AVP Xenomorphs] [AVP Xenomorphs] PawnRenderTree method: SetTagNode(PawnRenderNodeTagDef tag, PawnRenderNode node)
-UnityEngine.StackTraceUtility:ExtractStackTrace ()
-Verse.Log:Message (string)
-RRYautja.AvPDebug:LogOnce (string,string)
-RRYautja.FacehuggerMaskOffsetPatch:.cctor ()
-System.Runtime.CompilerServices.RuntimeHelpers:RunClassConstructor (System.RuntimeTypeHandle)
-ilyvion.LoadingProgress.StaticConstructorOnStartupUtilityReplacement/<CallAll>d__2:MoveNext () (at /home/runner/work/loading-progress/loading-progress/Source/ilyvion.LoadingProgress/StaticConstructorOnStartupUtilityReplacement.cs:42)
-Verse.LongEventHandler:UpdateCurrentEnumeratorEvent ()
-Verse.LongEventHandler:LongEventsUpdate (bool&)
-(wrapper dynamic-method) MonoMod.Utils.DynamicMethodDefinition:Verse.Root.Update_Patch1 (Verse.Root)
-Verse.Root_Entry:Update ()
-
-[AVP Xenomorphs] [AVP Xenomorphs] PawnRenderTree method: TryGetAnimationPartForNode(PawnRenderNode node, AnimationPart& animationPart)
+[AVP Xenomorphs] [AVP Xenomorphs] Patched PawnRenderTree.Draw for mask offset
 UnityEngine.StackTraceUtility:ExtractStackTrace ()
 Verse.Log:Message (string)
 RRYautja.AvPDebug:LogOnce (string,string)
@@ -566,6 +506,18 @@ Verse.LongEventHandler:LongEventsUpdate (bool&)
 Verse.Root_Entry:Update ()
 
 [AVP Xenomorphs] [AVP Xenomorphs] Patched PawnRenderNode.TryGetAnimationOffset for mask offset
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+Verse.Log:Message (string)
+RRYautja.AvPDebug:LogOnce (string,string)
+RRYautja.FacehuggerMaskOffsetPatch:.cctor ()
+System.Runtime.CompilerServices.RuntimeHelpers:RunClassConstructor (System.RuntimeTypeHandle)
+ilyvion.LoadingProgress.StaticConstructorOnStartupUtilityReplacement/<CallAll>d__2:MoveNext () (at /home/runner/work/loading-progress/loading-progress/Source/ilyvion.LoadingProgress/StaticConstructorOnStartupUtilityReplacement.cs:42)
+Verse.LongEventHandler:UpdateCurrentEnumeratorEvent ()
+Verse.LongEventHandler:LongEventsUpdate (bool&)
+(wrapper dynamic-method) MonoMod.Utils.DynamicMethodDefinition:Verse.Root.Update_Patch1 (Verse.Root)
+Verse.Root_Entry:Update ()
+
+[AVP Xenomorphs] [AVP Xenomorphs] Patched Pawn.DrawAt for manual mask overlay
 UnityEngine.StackTraceUtility:ExtractStackTrace ()
 Verse.Log:Message (string)
 RRYautja.AvPDebug:LogOnce (string,string)
@@ -1310,7 +1262,7 @@ System.Threading.ExecutionContext:Run (System.Threading.ExecutionContext,System.
 System.Threading.ExecutionContext:Run (System.Threading.ExecutionContext,System.Threading.ContextCallback,object)
 System.Threading.ThreadHelper:ThreadStart ()
 
-<color=#66ffb5>[MeleeAnim]</color> PreCached all retexture info in 33.4ms
+<color=#66ffb5>[MeleeAnim]</color> PreCached all retexture info in 28.4ms
 UnityEngine.StackTraceUtility:ExtractStackTrace ()
 Verse.Log:Message (string)
 AM.Core:Log (string)
@@ -1365,7 +1317,7 @@ Verse.LongEventHandler:LongEventsUpdate (bool&)
 (wrapper dynamic-method) MonoMod.Utils.DynamicMethodDefinition:Verse.Root.Update_Patch1 (Verse.Root)
 Verse.Root_Entry:Update ()
 
-<color=#66ffb5>[MeleeAnim]</color> Patched 3 classes that directly inherit from Verb_MeleeAttack in 57.9 ms to detect hits:
+<color=#66ffb5>[MeleeAnim]</color> Patched 3 classes that directly inherit from Verb_MeleeAttack in 56.6 ms to detect hits:
 RimWorld.Verb_MeleeApplyHediff from Assembly-CSharp
 RimWorld.Verb_MeleeAttackDamage from Assembly-CSharp
 RRYautja.Verb_MeleeAttackKnockback from RRYautja
@@ -1380,7 +1332,7 @@ Verse.LongEventHandler:LongEventsUpdate (bool&)
 (wrapper dynamic-method) MonoMod.Utils.DynamicMethodDefinition:Verse.Root.Update_Patch1 (Verse.Root)
 Verse.Root_Entry:Update ()
 
-<color=#66ffb5>[MeleeAnim]</color> Found 0 items of clothing that cover hands, took 0.89 ms:
+<color=#66ffb5>[MeleeAnim]</color> Found 0 items of clothing that cover hands, took 0.70 ms:
 
 UnityEngine.StackTraceUtility:ExtractStackTrace ()
 Verse.Log:Message (string)
