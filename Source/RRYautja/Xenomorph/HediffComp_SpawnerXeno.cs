@@ -394,7 +394,10 @@ namespace RRYautja
                         }
                     }
                     ThingDef motedef = DefDatabase<ThingDef>.GetNamedSilentFail("Mote_BlastExtinguisher");
-                    MoteMaker.ThrowExplosionCell(spawnLoc, MyMap, motedef, HostBloodColour);
+                    if (motedef != null && MyMap != null)
+                    {
+                        try { MoteMaker.ThrowExplosionCell(spawnLoc, MyMap, motedef, HostBloodColour); } catch { }
+                    }
                     // GenAdj.AdjacentCellsAndInside[i];
                     for (int i2 = 0; i2 < GenAdj.AdjacentCellsAndInside.Length; i2++)
                     {
