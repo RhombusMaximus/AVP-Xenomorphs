@@ -11,7 +11,7 @@ Direct3D:
     VRAM:     8042 MB
     Driver:   32.0.16.1088
 Begin MonoManager ReloadAssembly
-- Loaded All Assemblies, in  0.155 seconds
+- Loaded All Assemblies, in  0.167 seconds
 - Finished resetting the current domain, in  0.001 seconds
 <RI> Initializing input.
 
@@ -20,21 +20,21 @@ Begin MonoManager ReloadAssembly
 <RI> Initialized touch support.
 
 [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
-UnloadTime: 0.668100 ms
+UnloadTime: 0.587600 ms
 Command line arguments: -disable-compute-shaders
 RimWorld 1.6.4871 rev591
 Mod Realistic Humansounds HAR Patch dependency (Mlie.RealisticHumanSounds) needs to have <downloadUrl> and/or <steamWorkshopUrl> specified.
-Fallback handler could not load library D:/SteamLibrary/steamapps/common/RimWorld/RimWorldWin64_Data/MonoBleedingEdge/data-0000017BE64C04C0.dll
-Fallback handler could not load library D:/SteamLibrary/steamapps/common/RimWorld/RimWorldWin64_Data/MonoBleedingEdge/data-0000017BE6D450D0.dll
+Fallback handler could not load library D:/SteamLibrary/steamapps/common/RimWorld/RimWorldWin64_Data/MonoBleedingEdge/data-000001A971AE4080.dll
+Fallback handler could not load library D:/SteamLibrary/steamapps/common/RimWorld/RimWorldWin64_Data/MonoBleedingEdge/data-000001A971C54260.dll
 [Loading Progress] Loading Progress initialized! Enjoy the rest of your loading experience!
 [HugsLib] version 12.0.0
 [HugsLib] early-initializing AllowTool
-Fallback handler could not load library D:/SteamLibrary/steamapps/common/RimWorld/RimWorldWin64_Data/MonoBleedingEdge/data-0000017BECA29020.dll
+Fallback handler could not load library D:/SteamLibrary/steamapps/common/RimWorld/RimWorldWin64_Data/MonoBleedingEdge/data-000001A93E5B37F0.dll
 DubsMintMenus v1.3.1086
 [Analyzer] Loaded version 1.6.0 rev 1
 [Analyzer] ResearchTree
 FPSStabilizer v1.1 loaded, patcher message: Patched successfully, fps set to 60
-Fallback handler could not load library D:/SteamLibrary/steamapps/common/RimWorld/RimWorldWin64_Data/MonoBleedingEdge/data-0000017BEF8D6020.dll
+Fallback handler could not load library D:/SteamLibrary/steamapps/common/RimWorld/RimWorldWin64_Data/MonoBleedingEdge/data-000001A9786B5020.dll
 <color=#66ffb5>[MeleeAnim]</color> Hello, world!
 Build date: 4/13/2026 8:02 AM
 Loaded assemblies (9):
@@ -106,7 +106,7 @@ NamesGalore: Current Lang English
 (Research Tab Colors) Transpiler injected.
 Unloading 5 Unused Serialized files (Serialized files now loaded: 5)
 Unloading 529 unused Assets to reduce memory usage. Loaded Objects now: 34107.
-Total: 274.816400 ms (FindLiveObjects: 2.061300 ms CreateObjectMapping: 1.508100 ms MarkObjects: 270.483600 ms  DeleteObjects: 0.762900 ms)
+Total: 265.015900 ms (FindLiveObjects: 1.752900 ms CreateObjectMapping: 0.999500 ms MarkObjects: 261.503800 ms  DeleteObjects: 0.759300 ms)
 
 MVCF successfully applied 41 patches
 [com.ogliss.rimworld.mod.rryatuja.minepatch] Patches on methods annotated as Obsolete were detected by HugsLib: RimWorld.Mineable.TrySpawnYield
@@ -291,25 +291,25 @@ Transpilers:
 Postfixes:
   [PeteTimesSix.SimpleSidearms] TryCastShot
 Unloading 2 Unused Serialized files (Serialized files now loaded: 7)
-<color=#66ffb5>[MeleeAnim]</color> PreCached all retexture info in 37.5ms
+<color=#66ffb5>[MeleeAnim]</color> PreCached all retexture info in 29.8ms
 <color=#66ffb5>[MeleeAnim]</color> Loaded tweak data for 29 weapons.
 <color=#66ffb5>[MeleeAnim]</color> ludeon.rimworld.odyssey 'Odyssey' has 2 missing weapon tweak data.
 <color=#66ffb5>[MeleeAnim]</color> ogliss.avpxenomorphs 'AVP Xenomorphs' has 3 missing weapon tweak data.
 <color=#66ffb5>[MeleeAnim]</color> Skipping reporting of missing mod/weapons because user opted out or the feature is disabled by the developer.
-<color=#66ffb5>[MeleeAnim]</color> Patched 3 classes that directly inherit from Verb_MeleeAttack in 61.0 ms to detect hits:
+<color=#66ffb5>[MeleeAnim]</color> Patched 3 classes that directly inherit from Verb_MeleeAttack in 58.7 ms to detect hits:
 RimWorld.Verb_MeleeApplyHediff from Assembly-CSharp
 RimWorld.Verb_MeleeAttackDamage from Assembly-CSharp
 RRYautja.Verb_MeleeAttackKnockback from RRYautja
-<color=#66ffb5>[MeleeAnim]</color> Found 0 items of clothing that cover hands, took 1.21 ms:
+<color=#66ffb5>[MeleeAnim]</color> Found 0 items of clothing that cover hands, took 0.83 ms:
 Unloading 55 unused Assets to reduce memory usage. Loaded Objects now: 34270.
-Total: 258.062500 ms (FindLiveObjects: 1.759700 ms CreateObjectMapping: 1.164300 ms MarkObjects: 255.025600 ms  DeleteObjects: 0.112500 ms)
+Total: 258.821900 ms (FindLiveObjects: 1.712300 ms CreateObjectMapping: 1.960100 ms MarkObjects: 255.015800 ms  DeleteObjects: 0.133500 ms)
 
 Unloading 0 Unused Serialized files (Serialized files now loaded: 7)
 Loading asset bundle MuzzleFlash.shaders-windows
 Loaded shader Unlit/AnimatedAdditiveInstanced
 [Muzzle Flash] Shader loaded from MuzzleFlash: Unlit/AnimatedAdditiveInstanced
 Unloading 0 unused Assets to reduce memory usage. Loaded Objects now: 34272.
-Total: 259.013700 ms (FindLiveObjects: 1.717600 ms CreateObjectMapping: 1.956300 ms MarkObjects: 255.280000 ms  DeleteObjects: 0.059500 ms)
+Total: 254.145900 ms (FindLiveObjects: 1.718200 ms CreateObjectMapping: 1.928700 ms MarkObjects: 250.450400 ms  DeleteObjects: 0.048100 ms)
 
 Unloading 0 Unused Serialized files (Serialized files now loaded: 8)
 [Loading Progress] Why is ResearchPal.Profiler.Start from ResearchPal 1.6 - Temp calling DeepProfiler.Start (and by extension our patch) with null?! Stop it.
@@ -320,11 +320,11 @@ Unloading 0 Unused Serialized files (Serialized files now loaded: 8)
 [Loading Progress] Why is ResearchPal.Profiler.Start from ResearchPal 1.6 - Temp calling DeepProfiler.Start (and by extension our patch) with null?! Stop it.
 ResearchPal :: Research layout initialized
 Unloading 0 unused Assets to reduce memory usage. Loaded Objects now: 34272.
-Total: 271.021600 ms (FindLiveObjects: 1.766600 ms CreateObjectMapping: 1.930100 ms MarkObjects: 267.267000 ms  DeleteObjects: 0.057200 ms)
+Total: 250.548700 ms (FindLiveObjects: 1.582300 ms CreateObjectMapping: 2.009600 ms MarkObjects: 246.905400 ms  DeleteObjects: 0.051100 ms)
 
 Unloading 0 Unused Serialized files (Serialized files now loaded: 8)
 Unloading 0 unused Assets to reduce memory usage. Loaded Objects now: 34272.
-Total: 295.719200 ms (FindLiveObjects: 2.425600 ms CreateObjectMapping: 2.400300 ms MarkObjects: 290.842800 ms  DeleteObjects: 0.050000 ms)
+Total: 264.667100 ms (FindLiveObjects: 2.129600 ms CreateObjectMapping: 2.197700 ms MarkObjects: 260.285200 ms  DeleteObjects: 0.054300 ms)
 
 [HugsLib] initializing TerraformRimworld
 CE is trying to create default parameter lists ...
@@ -340,16 +340,13 @@ no modifications for genes
 FoldingTent modification loaded
 no modifications for lifestages
 ...done
-Unloading 2 Unused Serialized files (Serialized files now loaded: 8)
-Unloading 0 unused Assets to reduce memory usage. Loaded Objects now: 36243.
-Total: 290.466400 ms (FindLiveObjects: 2.009200 ms CreateObjectMapping: 1.406900 ms MarkObjects: 286.988600 ms  DeleteObjects: 0.061100 ms)
-
 Unloading 3 Unused Serialized files (Serialized files now loaded: 8)
-UnloadTime: 0.548900 ms
-Unloading 3 unused Assets to reduce memory usage. Loaded Objects now: 36746.
-Total: 302.160300 ms (FindLiveObjects: 1.733700 ms CreateObjectMapping: 1.163000 ms MarkObjects: 299.165700 ms  DeleteObjects: 0.097600 ms)
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+UnloadTime: 1.134600 ms
+Unloading 2 unused Assets to reduce memory usage. Loaded Objects now: 34547.
+Total: 276.774500 ms (FindLiveObjects: 1.680500 ms CreateObjectMapping: 2.049000 ms MarkObjects: 272.991000 ms  DeleteObjects: 0.053800 ms)
 
-Initializing new game with mods:
+Loading game from file USCSS Colony 2126 with mods:
   - brrainz.harmony
   - ilyvion.LoadingProgress
   - Ludeon.RimWorld
@@ -431,271 +428,40 @@ Initializing new game with mods:
   - dhultgren.smarterconstruction
   - Garwel.StartingTechLevel
   - void.terraformrimworld
-[AVP Xenomorphs] Xenomorph faction is null - Queen spawned with no faction
-[AVP Xenomorphs] Xenomorph faction is null - Drone spawned with no faction
-[AVP Xenomorphs] Xenomorph faction is null - Drone spawned with no faction
-[AVP Xenomorphs] Xenomorph faction is null - Drone spawned with no faction
-[AVP Xenomorphs] Xenomorph faction is null - Drone spawned with no faction
-[AVP Xenomorphs] Xenomorph faction is null - Drone spawned with no faction
-[AVP Xenomorphs] Xenomorph faction is null - Drone spawned with no faction
-[AVP Xenomorphs] Xenomorph faction is null - Drone spawned with no faction
-[AVP Xenomorphs] Xenomorph faction is null - Drone spawned with no faction
-[AVP Xenomorphs] Xenomorph faction is null - Drone spawned with no faction
-[AVP Xenomorphs] Xenomorph faction is null - Drone spawned with no faction
-[AVP Xenomorphs] Xenomorph faction is null - Drone spawned with no faction
-[AVP Xenomorphs] Xenomorph faction is null - Drone spawned with no faction
-[AVP Xenomorphs] Xenomorph faction is null - Drone spawned with no faction
-[AVP Xenomorphs] Xenomorph faction is null - Drone spawned with no faction
+<color=#66ffb5>[MeleeAnim]</color> Loaded 0 animation renderers on map Map-0-PlayerHome
+Could not do PostLoadInit on RimWorld.Pawn_TrainingTracker: System.NullReferenceException: Object reference not set to an instance of an object
+[Ref F8FF2929]
+  at RimWorld.Pawn_TrainingTracker.CanAssignToTrain (RimWorld.TrainableDef td, Verse.ThingDef pawnDef, System.Boolean& visible, Verse.Pawn pawn) [0x0018d] in <61e4173561894da49d210260257b5097>:0 
+  at RimWorld.Pawn_TrainingTracker.CanAssignToTrain (RimWorld.TrainableDef td, System.Boolean& visible) [0x00000] in <61e4173561894da49d210260257b5097>:0 
+  at RimWorld.Pawn_TrainingTracker.CanAssignToTrain (RimWorld.TrainableDef td) [0x00000] in <61e4173561894da49d210260257b5097>:0 
+  at Verse.BackCompatibility.PawnTrainingTrackerPostLoadInit (RimWorld.Pawn_TrainingTracker tracker, Verse.DefMap`2[RimWorld.TrainableDef,System.Boolean]& wantedTrainables, Verse.DefMap`2[RimWorld.TrainableDef,System.Int32]& steps, Verse.DefMap`2[RimWorld.TrainableDef,System.Boolean]& learned) [0x00082] in <61e4173561894da49d210260257b5097>:0 
+  at RimWorld.Pawn_TrainingTracker.ExposeData () [0x0006a] in <61e4173561894da49d210260257b5097>:0 
+  at Verse.PostLoadIniter.DoAllPostLoadInits () [0x00032] in <61e4173561894da49d210260257b5097>:0 
+Could not do PostLoadInit on RimWorld.Pawn_TrainingTracker: System.NullReferenceException: Object reference not set to an instance of an object
+[Ref F8FF2929] Duplicate stacktrace, see ref for original
+Could not do PostLoadInit on RimWorld.Pawn_TrainingTracker: System.NullReferenceException: Object reference not set to an instance of an object
+[Ref F8FF2929] Duplicate stacktrace, see ref for original
+Could not do PostLoadInit on RimWorld.Pawn_TrainingTracker: System.NullReferenceException: Object reference not set to an instance of an object
+[Ref F8FF2929] Duplicate stacktrace, see ref for original
+Could not do PostLoadInit on RimWorld.Pawn_TrainingTracker: System.NullReferenceException: Object reference not set to an instance of an object
+[Ref F8FF2929] Duplicate stacktrace, see ref for original
+Could not do PostLoadInit on RimWorld.Pawn_TrainingTracker: System.NullReferenceException: Object reference not set to an instance of an object
+[Ref F8FF2929] Duplicate stacktrace, see ref for original
+Could not do PostLoadInit on RimWorld.Pawn_TrainingTracker: System.NullReferenceException: Object reference not set to an instance of an object
+[Ref F8FF2929] Duplicate stacktrace, see ref for original
 checking editor settings...
 bodysizes genes are active
-[AVP Xenomorphs] Created Xenomorph hive faction (was missing).
-Unloading 0 Unused Serialized files (Serialized files now loaded: 8)
-Unloading 1 unused Assets to reduce memory usage. Loaded Objects now: 44937.
-Total: 333.447600 ms (FindLiveObjects: 2.317700 ms CreateObjectMapping: 2.950000 ms MarkObjects: 328.080000 ms  DeleteObjects: 0.099300 ms)
+[AVP Xenomorphs] Xenomorph hive faction already exists.
+Unloading 1 Unused Serialized files (Serialized files now loaded: 8)
+Unloading 1 unused Assets to reduce memory usage. Loaded Objects now: 42749.
+Total: 338.309200 ms (FindLiveObjects: 2.098000 ms CreateObjectMapping: 2.602600 ms MarkObjects: 333.517500 ms  DeleteObjects: 0.090800 ms)
 
-Wrote screenshot C:\Users\clint\AppData\LocalLow\Ludeon Studios\RimWorld by Ludeon Studios\RimSaves\Previews\USCSS Colony 2126.dat of size 187412
-BreadthFirstTraverse with null root region.
-BreadthFirstTraverse with null root region.
-Root level exception in OnGUI(): System.ArgumentException: An item with the same key has already been added. Key: Wall41343
-[Ref 95B1E65E]
- [0x00006] in <51fded79cd284d4d911c5949aff4cb21>:0 
-  at System.Collections.Generic.Dictionary`2[TKey,TValue].TryInsert (TKey key, TValue value, System.Collections.Generic.InsertionBehavior behavior) [0x0015a] in <51fded79cd284d4d911c5949aff4cb21>:0 
-  at System.Collections.Generic.Dictionary`2[TKey,TValue].Add (TKey key, TValue value) [0x00000] in <51fded79cd284d4d911c5949aff4cb21>:0 
-  at Verse.ListerBuildings.RegisterInstallBlueprint (RimWorld.Blueprint_Install blueprint) [0x00011] in <61e4173561894da49d210260257b5097>:0 
-  at RimWorld.Blueprint_Install.SpawnSetup (Verse.Map map, System.Boolean respawningAfterLoad) [0x00008] in <61e4173561894da49d210260257b5097>:0 
-  at Verse.GenSpawn.Spawn (Verse.Thing newThing, Verse.IntVec3 loc, Verse.Map map, Verse.Rot4 rot, Verse.WipeMode wipeMode, System.Boolean respawningAfterLoad, System.Boolean forbidLeavings) [0x00340] in <61e4173561894da49d210260257b5097>:0 
-    - PREFIX Uuugggg.rimworld.Replace_Stuff.main: Void Replace_Stuff.NewThing.TransferSettings:Prefix(Thing newThing, IntVec3 loc, Map map, Rot4 rot, Boolean respawningAfterLoad, Thing& __state)
-    - PREFIX MapPreview.GenLow: Boolean MapPreview.Patches.Patch_Verse_GenSpawn:Spawn_Prefix(Thing newThing, Map map, Thing& __result)
-    - POSTFIX Uuugggg.rimworld.Replace_Stuff.main: Void Replace_Stuff.NewThing.TransferSettings:Postfix(Thing __result, Thing __state)
-  at RimWorld.GenConstruct.PlaceBlueprintForReinstall (Verse.Building buildingToReinstall, Verse.IntVec3 center, Verse.Map map, Verse.Rot4 rotation, RimWorld.Faction faction, System.Boolean sendBPSpawnedSignal) [0x0005d] in <61e4173561894da49d210260257b5097>:0 
-    - PREFIX Uuugggg.rimworld.Replace_Stuff.main: Void Replace_Stuff.PlaceBridges.InterceptBlueprintPlaceBridgeFrame_Reinstall:Prefix(Building buildingToReinstall, IntVec3 center, Map map, Rot4 rotation, Faction faction)
-  at RimWorld.Designator_Install.DesignateSingleCell (Verse.IntVec3 c) [0x00066] in <61e4173561894da49d210260257b5097>:0 
-  at Verse.Designator.DesignateMultiCell (System.Collections.Generic.IEnumerable`1[T] cells) [0x00041] in <61e4173561894da49d210260257b5097>:0 
-  at Verse.DesignatorManager.ProcessInputEvents () [0x0013e] in <61e4173561894da49d210260257b5097>:0 
-  at RimWorld.MapInterface.HandleMapClicks () [0x00010] in <61e4173561894da49d210260257b5097>:0 
-  at RimWorld.UIRoot_Play.UIRootOnGUI () [0x000a8] in <61e4173561894da49d210260257b5097>:0 
-    - PREFIX Dubwise.PerformanceAnalyzer: Void Analyzer.H_KeyPresses:OnGUI()
-    - POSTFIX net.pardeike.rimworld.mod.camera+: Void CameraPlus.UIRoot_Play_UIRootOnGUI_Patch:Postfix()
-  at Verse.Root.OnGUI () [0x00046] in <61e4173561894da49d210260257b5097>:0 
-    - POSTFIX UnlimitedHugs.HugsLib: Void HugsLib.Patches.Root_OnGUI_Patch:OnGUIHookUnfiltered()
-    - POSTFIX net.pardeike.rimworld.mod.camera+: Void CameraPlus.Root_OnGUI_Patch:Postfix()
-Exception in UIRootUpdate: System.NullReferenceException: Object reference not set to an instance of an object
-[Ref DFAC0146]
-  at RimWorld.Blueprint_Install.DrawExtraSelectionOverlays () [0x0002a] in <61e4173561894da49d210260257b5097>:0 
-  at RimWorld.SelectionDrawer.DrawSelectionOverlays () [0x00040] in <61e4173561894da49d210260257b5097>:0 
-  at RimWorld.MapInterface.MapInterfaceUpdate () [0x0001b] in <61e4173561894da49d210260257b5097>:0 
-  at RimWorld.UIRoot_Play.UIRootUpdate () [0x00015] in <61e4173561894da49d210260257b5097>:0 
-System.NullReferenceException: Object reference not set to an instance of an object
-[Ref CF455B29]
-  at RimWorld.Blueprint_Install+<GetGizmos>d__20.MoveNext () [0x00098] in <61e4173561894da49d210260257b5097>:0 
-  at System.Collections.Generic.List`1[T].AddEnumerable (System.Collections.Generic.IEnumerable`1[T] enumerable) [0x00059] in <51fded79cd284d4d911c5949aff4cb21>:0 
-  at System.Collections.Generic.List`1[T].InsertRange (System.Int32 index, System.Collections.Generic.IEnumerable`1[T] collection) [0x000f4] in <51fded79cd284d4d911c5949aff4cb21>:0 
-  at System.Collections.Generic.List`1[T].AddRange (System.Collections.Generic.IEnumerable`1[T] collection) [0x00000] in <51fded79cd284d4d911c5949aff4cb21>:0 
-  at Verse.GizmoGridDrawer.DrawGizmoGridFor (System.Collections.Generic.IEnumerable`1[T] selectedObjects, Verse.Gizmo& mouseoverGizmo) [0x0010a] in <61e4173561894da49d210260257b5097>:0 
-    - TRANSPILER UnlimitedHugs.AllowTool: IEnumerable`1 AllowTool.Patches.GizmoGridDrawer_DrawGizmoGridFor_Patch:ClearReverseDesignators(IEnumerable`1 instructions) currentSelectable: null
-GetInspectString exception on Blueprint_Install_Wall54708:
-System.NullReferenceException: Object reference not set to an instance of an object
-[Ref 3AF79D96]
-  at RimWorld.Blueprint_Install.get_WorkTotal () [0x00006] in <61e4173561894da49d210260257b5097>:0 
-  at RimWorld.Blueprint.GetInspectString () [0x0001a] in <61e4173561894da49d210260257b5097>:0 
-  at RimWorld.InspectPaneFiller.DrawInspectStringFor (Verse.ISelectable sel, UnityEngine.Rect rect) [0x00000] in <61e4173561894da49d210260257b5097>:0 
-Exception in UIRootUpdate: System.NullReferenceException: Object reference not set to an instance of an object
-[Ref DFAC0146] Duplicate stacktrace, see ref for original
-Exception in UIRootUpdate: System.NullReferenceException: Object reference not set to an instance of an object
-[Ref DFAC0146] Duplicate stacktrace, see ref for original
-Exception in UIRootUpdate: System.NullReferenceException: Object reference not set to an instance of an object
-[Ref DFAC0146] Duplicate stacktrace, see ref for original
-Exception in UIRootUpdate: System.NullReferenceException: Object reference not set to an instance of an object
-[Ref DFAC0146] Duplicate stacktrace, see ref for original
-Exception in UIRootUpdate: System.NullReferenceException: Object reference not set to an instance of an object
-[Ref DFAC0146] Duplicate stacktrace, see ref for original
-Exception in UIRootUpdate: System.NullReferenceException: Object reference not set to an instance of an object
-[Ref DFAC0146] Duplicate stacktrace, see ref for original
-Exception in UIRootUpdate: System.NullReferenceException: Object reference not set to an instance of an object
-[Ref DFAC0146] Duplicate stacktrace, see ref for original
-Exception in UIRootUpdate: System.NullReferenceException: Object reference not set to an instance of an object
-[Ref DFAC0146] Duplicate stacktrace, see ref for original
-Exception in UIRootUpdate: System.NullReferenceException: Object reference not set to an instance of an object
-[Ref DFAC0146] Duplicate stacktrace, see ref for original
-Exception in UIRootUpdate: System.NullReferenceException: Object reference not set to an instance of an object
-[Ref DFAC0146] Duplicate stacktrace, see ref for original
-Exception in UIRootUpdate: System.NullReferenceException: Object reference not set to an instance of an object
-[Ref DFAC0146] Duplicate stacktrace, see ref for original
-Exception in UIRootUpdate: System.NullReferenceException: Object reference not set to an instance of an object
-[Ref DFAC0146] Duplicate stacktrace, see ref for original
-Exception in UIRootUpdate: System.NullReferenceException: Object reference not set to an instance of an object
-[Ref DFAC0146] Duplicate stacktrace, see ref for original
-Exception in UIRootUpdate: System.NullReferenceException: Object reference not set to an instance of an object
-[Ref DFAC0146] Duplicate stacktrace, see ref for original
-Exception in UIRootUpdate: System.NullReferenceException: Object reference not set to an instance of an object
-[Ref DFAC0146] Duplicate stacktrace, see ref for original
-Exception in UIRootUpdate: System.NullReferenceException: Object reference not set to an instance of an object
-[Ref DFAC0146] Duplicate stacktrace, see ref for original
-Exception in UIRootUpdate: System.NullReferenceException: Object reference not set to an instance of an object
-[Ref DFAC0146] Duplicate stacktrace, see ref for original
-Exception in UIRootUpdate: System.NullReferenceException: Object reference not set to an instance of an object
-[Ref DFAC0146] Duplicate stacktrace, see ref for original
-Exception in UIRootUpdate: System.NullReferenceException: Object reference not set to an instance of an object
-[Ref DFAC0146] Duplicate stacktrace, see ref for original
-Exception in UIRootUpdate: System.NullReferenceException: Object reference not set to an instance of an object
-[Ref DFAC0146] Duplicate stacktrace, see ref for original
-Exception in UIRootUpdate: System.NullReferenceException: Object reference not set to an instance of an object
-[Ref DFAC0146] Duplicate stacktrace, see ref for original
-Exception in UIRootUpdate: System.NullReferenceException: Object reference not set to an instance of an object
-[Ref DFAC0146] Duplicate stacktrace, see ref for original
-Exception in UIRootUpdate: System.NullReferenceException: Object reference not set to an instance of an object
-[Ref DFAC0146] Duplicate stacktrace, see ref for original
-Exception in UIRootUpdate: System.NullReferenceException: Object reference not set to an instance of an object
-[Ref DFAC0146] Duplicate stacktrace, see ref for original
-Exception in UIRootUpdate: System.NullReferenceException: Object reference not set to an instance of an object
-[Ref DFAC0146] Duplicate stacktrace, see ref for original
-Exception in UIRootUpdate: System.NullReferenceException: Object reference not set to an instance of an object
-[Ref DFAC0146] Duplicate stacktrace, see ref for original
-Exception in UIRootUpdate: System.NullReferenceException: Object reference not set to an instance of an object
-[Ref DFAC0146] Duplicate stacktrace, see ref for original
-Exception in UIRootUpdate: System.NullReferenceException: Object reference not set to an instance of an object
-[Ref DFAC0146] Duplicate stacktrace, see ref for original
-Exception in UIRootUpdate: System.NullReferenceException: Object reference not set to an instance of an object
-[Ref DFAC0146] Duplicate stacktrace, see ref for original
-Exception in UIRootUpdate: System.NullReferenceException: Object reference not set to an instance of an object
-[Ref DFAC0146] Duplicate stacktrace, see ref for original
-Exception in UIRootUpdate: System.NullReferenceException: Object reference not set to an instance of an object
-[Ref DFAC0146] Duplicate stacktrace, see ref for original
-Exception in UIRootUpdate: System.NullReferenceException: Object reference not set to an instance of an object
-[Ref DFAC0146] Duplicate stacktrace, see ref for original
-Exception in UIRootUpdate: System.NullReferenceException: Object reference not set to an instance of an object
-[Ref DFAC0146] Duplicate stacktrace, see ref for original
-Exception in UIRootUpdate: System.NullReferenceException: Object reference not set to an instance of an object
-[Ref DFAC0146] Duplicate stacktrace, see ref for original
-Exception in UIRootUpdate: System.NullReferenceException: Object reference not set to an instance of an object
-[Ref DFAC0146] Duplicate stacktrace, see ref for original
-Exception in UIRootUpdate: System.NullReferenceException: Object reference not set to an instance of an object
-[Ref DFAC0146] Duplicate stacktrace, see ref for original
-Exception in UIRootUpdate: System.NullReferenceException: Object reference not set to an instance of an object
-[Ref DFAC0146] Duplicate stacktrace, see ref for original
-Exception in UIRootUpdate: System.NullReferenceException: Object reference not set to an instance of an object
-[Ref DFAC0146] Duplicate stacktrace, see ref for original
-Exception in UIRootUpdate: System.NullReferenceException: Object reference not set to an instance of an object
-[Ref DFAC0146] Duplicate stacktrace, see ref for original
-Exception in UIRootUpdate: System.NullReferenceException: Object reference not set to an instance of an object
-[Ref DFAC0146] Duplicate stacktrace, see ref for original
-Exception in UIRootUpdate: System.NullReferenceException: Object reference not set to an instance of an object
-[Ref DFAC0146] Duplicate stacktrace, see ref for original
-Exception in UIRootUpdate: System.NullReferenceException: Object reference not set to an instance of an object
-[Ref DFAC0146] Duplicate stacktrace, see ref for original
-Exception in UIRootUpdate: System.NullReferenceException: Object reference not set to an instance of an object
-[Ref DFAC0146] Duplicate stacktrace, see ref for original
-Exception in UIRootUpdate: System.NullReferenceException: Object reference not set to an instance of an object
-[Ref DFAC0146] Duplicate stacktrace, see ref for original
-Exception in UIRootUpdate: System.NullReferenceException: Object reference not set to an instance of an object
-[Ref DFAC0146] Duplicate stacktrace, see ref for original
-Exception in UIRootUpdate: System.NullReferenceException: Object reference not set to an instance of an object
-[Ref DFAC0146] Duplicate stacktrace, see ref for original
-Exception in UIRootUpdate: System.NullReferenceException: Object reference not set to an instance of an object
-[Ref DFAC0146] Duplicate stacktrace, see ref for original
-Exception in UIRootUpdate: System.NullReferenceException: Object reference not set to an instance of an object
-[Ref DFAC0146] Duplicate stacktrace, see ref for original
-Exception in UIRootUpdate: System.NullReferenceException: Object reference not set to an instance of an object
-[Ref DFAC0146] Duplicate stacktrace, see ref for original
-Exception in UIRootUpdate: System.NullReferenceException: Object reference not set to an instance of an object
-[Ref DFAC0146] Duplicate stacktrace, see ref for original
-Exception in UIRootUpdate: System.NullReferenceException: Object reference not set to an instance of an object
-[Ref DFAC0146] Duplicate stacktrace, see ref for original
-Exception in UIRootUpdate: System.NullReferenceException: Object reference not set to an instance of an object
-[Ref DFAC0146] Duplicate stacktrace, see ref for original
-Exception in UIRootUpdate: System.NullReferenceException: Object reference not set to an instance of an object
-[Ref DFAC0146] Duplicate stacktrace, see ref for original
-Exception in UIRootUpdate: System.NullReferenceException: Object reference not set to an instance of an object
-[Ref DFAC0146] Duplicate stacktrace, see ref for original
-Exception in UIRootUpdate: System.NullReferenceException: Object reference not set to an instance of an object
-[Ref DFAC0146] Duplicate stacktrace, see ref for original
-Exception in UIRootUpdate: System.NullReferenceException: Object reference not set to an instance of an object
-[Ref DFAC0146] Duplicate stacktrace, see ref for original
-Exception in UIRootUpdate: System.NullReferenceException: Object reference not set to an instance of an object
-[Ref DFAC0146] Duplicate stacktrace, see ref for original
-Exception in UIRootUpdate: System.NullReferenceException: Object reference not set to an instance of an object
-[Ref DFAC0146] Duplicate stacktrace, see ref for original
-Exception in UIRootUpdate: System.NullReferenceException: Object reference not set to an instance of an object
-[Ref DFAC0146] Duplicate stacktrace, see ref for original
-Exception in UIRootUpdate: System.NullReferenceException: Object reference not set to an instance of an object
-[Ref DFAC0146] Duplicate stacktrace, see ref for original
-Exception in UIRootUpdate: System.NullReferenceException: Object reference not set to an instance of an object
-[Ref DFAC0146] Duplicate stacktrace, see ref for original
-Exception in UIRootUpdate: System.NullReferenceException: Object reference not set to an instance of an object
-[Ref DFAC0146] Duplicate stacktrace, see ref for original
-Exception in UIRootUpdate: System.NullReferenceException: Object reference not set to an instance of an object
-[Ref DFAC0146] Duplicate stacktrace, see ref for original
-Exception in UIRootUpdate: System.NullReferenceException: Object reference not set to an instance of an object
-[Ref DFAC0146] Duplicate stacktrace, see ref for original
-Exception in UIRootUpdate: System.NullReferenceException: Object reference not set to an instance of an object
-[Ref DFAC0146] Duplicate stacktrace, see ref for original
-Exception in UIRootUpdate: System.NullReferenceException: Object reference not set to an instance of an object
-[Ref DFAC0146] Duplicate stacktrace, see ref for original
-Exception in UIRootUpdate: System.NullReferenceException: Object reference not set to an instance of an object
-[Ref DFAC0146] Duplicate stacktrace, see ref for original
-Exception in UIRootUpdate: System.NullReferenceException: Object reference not set to an instance of an object
-[Ref DFAC0146] Duplicate stacktrace, see ref for original
-Exception in UIRootUpdate: System.NullReferenceException: Object reference not set to an instance of an object
-[Ref DFAC0146] Duplicate stacktrace, see ref for original
-Exception in UIRootUpdate: System.NullReferenceException: Object reference not set to an instance of an object
-[Ref DFAC0146] Duplicate stacktrace, see ref for original
-Exception in UIRootUpdate: System.NullReferenceException: Object reference not set to an instance of an object
-[Ref DFAC0146] Duplicate stacktrace, see ref for original
-Exception in UIRootUpdate: System.NullReferenceException: Object reference not set to an instance of an object
-[Ref DFAC0146] Duplicate stacktrace, see ref for original
-Exception in UIRootUpdate: System.NullReferenceException: Object reference not set to an instance of an object
-[Ref DFAC0146] Duplicate stacktrace, see ref for original
-Exception in UIRootUpdate: System.NullReferenceException: Object reference not set to an instance of an object
-[Ref DFAC0146] Duplicate stacktrace, see ref for original
-Exception in UIRootUpdate: System.NullReferenceException: Object reference not set to an instance of an object
-[Ref DFAC0146] Duplicate stacktrace, see ref for original
-Exception in UIRootUpdate: System.NullReferenceException: Object reference not set to an instance of an object
-[Ref DFAC0146] Duplicate stacktrace, see ref for original
-Exception in UIRootUpdate: System.NullReferenceException: Object reference not set to an instance of an object
-[Ref DFAC0146] Duplicate stacktrace, see ref for original
-Exception in UIRootUpdate: System.NullReferenceException: Object reference not set to an instance of an object
-[Ref DFAC0146] Duplicate stacktrace, see ref for original
-Exception in UIRootUpdate: System.NullReferenceException: Object reference not set to an instance of an object
-[Ref DFAC0146] Duplicate stacktrace, see ref for original
-Exception in UIRootUpdate: System.NullReferenceException: Object reference not set to an instance of an object
-[Ref DFAC0146] Duplicate stacktrace, see ref for original
-Exception in UIRootUpdate: System.NullReferenceException: Object reference not set to an instance of an object
-[Ref DFAC0146] Duplicate stacktrace, see ref for original
-Exception in UIRootUpdate: System.NullReferenceException: Object reference not set to an instance of an object
-[Ref DFAC0146] Duplicate stacktrace, see ref for original
-Exception in UIRootUpdate: System.NullReferenceException: Object reference not set to an instance of an object
-[Ref DFAC0146] Duplicate stacktrace, see ref for original
-Exception in UIRootUpdate: System.NullReferenceException: Object reference not set to an instance of an object
-[Ref DFAC0146] Duplicate stacktrace, see ref for original
-Exception in UIRootUpdate: System.NullReferenceException: Object reference not set to an instance of an object
-[Ref DFAC0146] Duplicate stacktrace, see ref for original
-Exception in UIRootUpdate: System.NullReferenceException: Object reference not set to an instance of an object
-[Ref DFAC0146] Duplicate stacktrace, see ref for original
-Exception in UIRootUpdate: System.NullReferenceException: Object reference not set to an instance of an object
-[Ref DFAC0146] Duplicate stacktrace, see ref for original
-Exception in UIRootUpdate: System.NullReferenceException: Object reference not set to an instance of an object
-[Ref DFAC0146] Duplicate stacktrace, see ref for original
-Exception in UIRootUpdate: System.NullReferenceException: Object reference not set to an instance of an object
-[Ref DFAC0146] Duplicate stacktrace, see ref for original
-Exception in UIRootUpdate: System.NullReferenceException: Object reference not set to an instance of an object
-[Ref DFAC0146] Duplicate stacktrace, see ref for original
-Exception in UIRootUpdate: System.NullReferenceException: Object reference not set to an instance of an object
-[Ref DFAC0146] Duplicate stacktrace, see ref for original
-Exception in UIRootUpdate: System.NullReferenceException: Object reference not set to an instance of an object
-[Ref DFAC0146] Duplicate stacktrace, see ref for original
-Exception in UIRootUpdate: System.NullReferenceException: Object reference not set to an instance of an object
-[Ref DFAC0146] Duplicate stacktrace, see ref for original
-Exception in UIRootUpdate: System.NullReferenceException: Object reference not set to an instance of an object
-[Ref DFAC0146] Duplicate stacktrace, see ref for original
-Exception in UIRootUpdate: System.NullReferenceException: Object reference not set to an instance of an object
-[Ref DFAC0146] Duplicate stacktrace, see ref for original
-Exception in UIRootUpdate: System.NullReferenceException: Object reference not set to an instance of an object
-[Ref DFAC0146] Duplicate stacktrace, see ref for original
-Exception in UIRootUpdate: System.NullReferenceException: Object reference not set to an instance of an object
-[Ref DFAC0146] Duplicate stacktrace, see ref for original
-Exception in UIRootUpdate: System.NullReferenceException: Object reference not set to an instance of an object
-[Ref DFAC0146] Duplicate stacktrace, see ref for original
-Exception in UIRootUpdate: System.NullReferenceException: Object reference not set to an instance of an object
-[Ref DFAC0146] Duplicate stacktrace, see ref for original
-[AVP Xenomorphs] [Knockout] Drone knocked out buck (tick 37634)
-[AVP Xenomorphs] [Kidnap] Drone targeting buck (1/3 drones) (tick 38186)
+Wrote screenshot C:\Users\clint\AppData\LocalLow\Ludeon Studios\RimWorld by Ludeon Studios\RimSaves\Previews\USCSS Colony 2126.dat of size 187401
+[AVP Xenomorphs] [Knockout] Drone knocked out buck (tick 25739)
+[AVP Xenomorphs] [Knockout] Drone knocked out Sochan (tick 36200)
+[AVP Xenomorphs] [Kidnap] Drone targeting Sochan (1/3 drones) (tick 37073)
+[AVP Xenomorphs] [Kidnap] Drone targeting buck (1/3 drones) (tick 40416)
+[AVP Xenomorphs] [Kidnap] Drone targeting Nobuko (1/3 drones) (tick 40703)
+[AVP Xenomorphs] [Kidnap] Drone targeting buck (1/3 drones) (tick 41788)
+[AVP Xenomorphs] [Knockout] Drone knocked out Finn (tick 42498)
+[AVP Xenomorphs] [Kidnap] Drone targeting Sochan (1/3 drones) (tick 43076)
