@@ -4,53 +4,47 @@ using HarmonyLib;
 using RimWorld;
 using UnityEngine;
 using Verse;
+using RRYautja.ExtensionMethods;
 
 namespace RRYautja
 {
     /// <summary>
-    /// Patches PawnRenderNode to offset the facehugger mask down to face level.
-    /// In RimWorld 1.6, PawnRenderNode doesn't have a DrawMesh method.
-    /// The draw offset is controlled by TryGetAnimationOffset and the render tree.
-    /// We patch PawnRenderTree.DrawNode to modify the draw location.
+    /// Patches PawnRenderTree.Draw and PawnRenderNode.TryGetAnimationOffset
+    /// to offset the facehugger mask down to face level.
     /// </summary>
     [StaticConstructorOnStartup]
     static class FacehuggerMaskOffsetPatch
     {
+        public static Pawn lastMaskPawn = null;
+
         static FacehuggerMaskOffsetPatch()
         {
             try
             {
                 var harmony = new Harmony("com.ogliss.rimworld.mod.rryatuja.maskoffset");
 
-                // Patch PawnRenderTree.DrawNode to modify the draw position
-                var drawNodeMethod = AccessTools.Method(typeof(PawnRenderTree), "DrawNode");
-                if (drawNodeMethod != null)
+                // Patch PawnRenderTree.Draw — this is the main draw method
+                var drawMethod = AccessTools.Method(typeof(PawnRenderTree), "Draw");
+                if (drawMethod != null)
                 {
-                    // Log the signature for debugging
-                    var parms = drawNodeMethod.GetParameters();
-                    AvPDebug.LogOnce("DrawNodeSig", "[AVP Xenomorphs] DrawNode signature: " + drawNodeMethod.ReturnType.Name + " DrawNode(" + string.Join(", ", Array.ConvertAll(parms, p => p.ParameterType.Name + " " + p.Name)) + ")");
-                    harmony.Patch(drawNodeMethod, prefix: new HarmonyMethod(typeof(FacehuggerMaskOffsetPatch), nameof(DrawNodePrefix)));
-                    AvPDebug.LogOnce("MaskOffset", "[AVP Xenomorphs] Patched PawnRenderTree.DrawNode for mask offset");
-                }
-                else
-                {
-                    // List available methods on PawnRenderTree
-                    var methods = typeof(PawnRenderTree).GetMethods(BindingFlags.Public | BindingFlags.NonPublic | BindingFlags.Instance);
-                    foreach (var m in methods)
-                    {
-                        if (m.Name.Contains("Draw") || m.Name.Contains("Node"))
-                        {
-                            AvPDebug.LogOnce("TreeMethod_" + m.Name, "[AVP Xenomorphs] PawnRenderTree method: " + m.Name + "(" + string.Join(", ", Array.ConvertAll(m.GetParameters(), p => p.ParameterType.Name + " " + p.Name)) + ")");
-                        }
-                    }
+                    harmony.Patch(drawMethod, prefix: new HarmonyMethod(typeof(FacehuggerMaskOffsetPatch), nameof(DrawPrefix)), postfix: new HarmonyMethod(typeof(FacehuggerMaskOffsetPatch), nameof(DrawPostfix)));
+                    AvPDebug.LogOnce("MaskOffset", "[AVP Xenomorphs] Patched PawnRenderTree.Draw for mask offset");
                 }
 
-                // Also patch PawnRenderNode.TryGetAnimationOffset to add face offset
+                // Patch PawnRenderNode.TryGetAnimationOffset
                 var offsetMethod = AccessTools.Method(typeof(PawnRenderNode), "TryGetAnimationOffset");
                 if (offsetMethod != null)
                 {
                     harmony.Patch(offsetMethod, postfix: new HarmonyMethod(typeof(FacehuggerMaskOffsetPatch), nameof(TryGetAnimationOffsetPostfix)));
                     AvPDebug.LogOnce("MaskOffset2", "[AVP Xenomorphs] Patched PawnRenderNode.TryGetAnimationOffset for mask offset");
+                }
+
+                // Patch Pawn.DrawAt to draw mask overlay manually at face position
+                var drawAtMethod = AccessTools.Method(typeof(Pawn), "DrawAt");
+                if (drawAtMethod != null)
+                {
+                    harmony.Patch(drawAtMethod, postfix: new HarmonyMethod(typeof(FacehuggerMaskOffsetPatch), nameof(DrawAtPostfix)));
+                    AvPDebug.LogOnce("MaskOffset3", "[AVP Xenomorphs] Patched Pawn.DrawAt for manual mask overlay");
                 }
             }
             catch (Exception e)
@@ -59,36 +53,85 @@ namespace RRYautja
             }
         }
 
-        /// <summary>
-        /// Postfix on PawnRenderNode.TryGetAnimationOffset — adds a face offset
-        /// for facehugger mask apparel nodes.
-        /// </summary>
+        public static void DrawPrefix(PawnRenderTree __instance, ref PawnDrawParms parms)
+        {
+            // Track which pawn is being drawn
+            lastMaskPawn = parms.pawn;
+        }
+
+        public static void DrawPostfix(PawnRenderTree __instance, PawnDrawParms parms)
+        {
+            lastMaskPawn = null;
+        }
+
         public static void TryGetAnimationOffsetPostfix(PawnRenderNode __instance, ref bool __result, ref Vector3 offset)
         {
             // Ultra-fast check — most render nodes are not apparel
             if (!(__instance is PawnRenderNode_Apparel apparelNode)) return;
-            // Only facehugger mask apparel — check defName directly
             var apparel = apparelNode.apparel;
             if (apparel == null) return;
             var def = apparel.def;
             if (def == null || def.defName == null) return;
-            // String comparison is fast — only 2 defNames to check
             if (def.defName != "RRY_FacehuggerMask" && def.defName != "RRY_RoyalFacehuggerMask") return;
-            // Move the mask down toward the face (negative Z = down on screen)
-            // Increased from 0.15 to 0.35 for more visible face placement
+            // Move the mask down toward the face
             offset.z -= 0.35f;
-            // Also offset Y (vertical on screen in RimWorld's coordinate system)
             offset.y -= 0.1f;
             __result = true;
         }
 
         /// <summary>
-        /// Prefix on PawnRenderTree.DrawNode — modifies the draw location for mask nodes.
+        /// Manual mask overlay — draws the mask texture directly at the face position.
+        /// This is a fallback if the render tree offset doesn't work.
         /// </summary>
-        public static void DrawNodePrefix(PawnRenderNode node)
+        private static Graphic_Multi maskGraphic;
+        private static Graphic_Multi royalMaskGraphic;
+        private static bool maskInitialized = false;
+
+        public static void DrawAtPostfix(Pawn __instance, Vector3 drawLoc, bool flip)
         {
-            // This is a fallback if TryGetAnimationOffset doesn't work
-            // We can't easily modify the draw position here without knowing the method signature
+            // Only for humanlike pawns with facehugger infection
+            if (__instance == null || !__instance.Spawned || __instance.Dead) return;
+            if (!__instance.RaceProps.Humanlike) return;
+            if (!__instance.health.hediffSet.HasHediff(XenomorphDefOf.RRY_FaceHuggerInfection)) return;
+
+            // Initialize graphics
+            if (!maskInitialized)
+            {
+                try
+                {
+                    maskGraphic = (Graphic_Multi)GraphicDatabase.Get<Graphic_Multi>("Things/Pawn/Xenomorph/Xenomorph_FaceHugger_Mask", ShaderDatabase.Cutout, Vector2.one, Color.white);
+                    royalMaskGraphic = (Graphic_Multi)GraphicDatabase.Get<Graphic_Multi>("Things/Pawn/Xenomorph/Xenomorph_FaceHuggerRoyal_Mask", ShaderDatabase.Cutout, Vector2.one, Color.white);
+                    maskInitialized = true;
+                }
+                catch
+                {
+                    return;
+                }
+            }
+
+            // Determine which mask to use
+            var facehuggerHediff = __instance.health.hediffSet.GetFirstHediffOfDef(XenomorphDefOf.RRY_FaceHuggerInfection);
+            bool royal = false;
+            if (facehuggerHediff != null)
+            {
+                var comp = facehuggerHediff.TryGetComp<HediffComp_XenoFacehugger>();
+                royal = comp?.RoyaleHugger ?? false;
+            }
+            Graphic_Multi graphic = royal ? royalMaskGraphic : maskGraphic;
+            if (graphic == null) return;
+
+            // Draw mask at face position — lower than head apparel position
+            Vector3 facePos = drawLoc;
+            facePos.z += 0.05f; // Slightly above body
+            facePos.y += 0.15f; // Face height on the body
+            // Scale based on body size
+            float bodySize = __instance.RaceProps.baseBodySize;
+            Vector3 drawSize = new Vector3(bodySize, 1f, bodySize);
+
+            Material mat = graphic.MatAt(__instance.Rotation);
+            if (mat == null) return;
+
+            GenDraw.DrawMeshNowOrLater(MeshPool.plane10, Matrix4x4.TRS(facePos, Quaternion.identity, drawSize), mat, false);
         }
     }
 }
