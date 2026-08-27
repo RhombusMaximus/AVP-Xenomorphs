@@ -119,10 +119,10 @@
 		  <subNodes>
 				<!-- React to close melee threat -->
 				<li Class="JobGiver_ReactToCloseMeleeThreat" />
-				<li Class="JobGiver_AIFightEnemies">
-				  <targetAcquireRadius>30</targetAcquireRadius>
-				  <targetKeepRadius>40</targetKeepRadius>
-				</li>
+								<li Class="JobGiver_AIFightEnemies">
+								  <targetAcquireRadius>15</targetAcquireRadius>
+								  <targetKeepRadius>40</targetKeepRadius>
+								</li>
 				
 				<!-- Do a queued job -->
 				<li Class="ThinkNode_QueuedJob" />
@@ -144,10 +144,11 @@
 				  </subNodes>
 				</li>
 				
-				<li Class="JobGiver_XenomorphNeohunter"> 
-				</li>
-						
-				<!-- Lord -->	
+								<!-- Neohunter disabled — no Neomorphs in this mod, was scanning entire map for nothing
+								<li Class="JobGiver_XenomorphNeohunter"> 
+								</li>
+								-->
+								<!-- Lord -->	
 				<li Class="ThinkNode_Subtree">
 				  <treeDef>LordDuty</treeDef>
 				</li>
