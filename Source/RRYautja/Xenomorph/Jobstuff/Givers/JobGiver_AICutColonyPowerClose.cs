@@ -11,7 +11,8 @@ namespace RimWorld
         // Token: 0x0600048F RID: 1167 RVA: 0x0002F174 File Offset: 0x0002D574
         protected override Job TryGiveJob(Pawn pawn)
         {
-            Map map = pawn.Map;
+            Map map = pawn?.Map;
+            if (map == null) return null;
             if (!pawn.HostileTo(Faction.OfPlayer))
             {
                 return null;
