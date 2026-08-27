@@ -58,7 +58,7 @@ namespace RimWorld
                 Log.Warning(string.Format("{0} is InDangerousCombat", pawn.NameShortColored));
             }
             */
-            if (XenomorphKidnapUtility.TryFindGoodKidnapVictim(pawn, Searchradius, out Victim, null,forceRoofed, allowCocooned, minRadius, allowHosts) && !GenAI.InDangerousCombat(pawn))
+            if (XenomorphKidnapUtility.TryFindGoodKidnapVictim(pawn, Searchradius, out Victim, null,forceRoofed, allowCocooned, minRadius, allowHosts))
             {
                 // Limit to 3 drones per downed victim
                 int maxDronesPerVictim = 3;

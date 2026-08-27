@@ -139,9 +139,11 @@ namespace RRYautja
         {
             try
             {
-                if (Pawn == null || Pawn.apparel == null) return;
+                if (Pawn == null) return;
+                // Try to get apparel list even if pawn is dead
+                if (Pawn.apparel == null || Pawn.apparel.WornApparel == null) return;
                 // Remove the mask apparel
-                var mask = Pawn.apparel.WornApparel.FirstOrDefault(a => a.def.defName == "RRY_FacehuggerMask" || a.def.defName == "RRY_RoyalFacehuggerMask");
+                var mask = Pawn.apparel.WornApparel.FirstOrDefault(a => a != null && a.def != null && (a.def.defName == "RRY_FacehuggerMask" || a.def.defName == "RRY_RoyalFacehuggerMask"));
                 if (mask != null)
                 {
                     Pawn.apparel.Remove(mask);
@@ -150,7 +152,7 @@ namespace RRYautja
                         mask.Destroy();
                     }
                     // Force render tree recache so the removed apparel disappears
-                    try { Pawn.Drawer.renderer.renderTree.SetDirty(); } catch { }
+                    try { Pawn.Drawer?.renderer?.renderTree?.SetDirty(); } catch { }
                     maskApparel = null; // Clear reference to prevent deep-save of destroyed thing
                     AvPDebug.Log("MaskRemove", "[AVP Xenomorphs] Removed facehugger mask apparel from " + Pawn.LabelShort);
                 }
