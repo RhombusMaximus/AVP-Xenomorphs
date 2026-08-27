@@ -289,8 +289,8 @@ namespace RRYautja
 
         public override void Notify_PawnDied(DamageInfo? dinfo, Hediff culprit = null)
         {
-            // Remove mask apparel before removing the hediff
-            RemoveMaskApparel();
+            // Facehugger mask apparel disabled for troubleshooting
+            // RemoveMaskApparel();
             Pawn.health.RemoveHediff(this.parent);
             base.Notify_PawnDied(dinfo, culprit);
         }
@@ -298,9 +298,8 @@ namespace RRYautja
         public override void CompPostPostAdd(DamageInfo? dinfo)
         {
             base.CompPostPostAdd(dinfo);
-            // Add facehugger mask apparel to the host (humanlike only)
-            AvPDebug.LogOnce("MaskAddCall", "[AVP Xenomorphs] CompPostPostAdd called for " + Pawn.LabelShort + " (humanlike=" + Pawn.RaceProps.Humanlike + ")");
-            AddMaskApparel();
+            // Facehugger mask apparel disabled for troubleshooting
+            // AddMaskApparel();
             if (!PlayerKnowledgeDatabase.IsComplete(XenomorphConceptDefOf.RRY_Concept_Facehuggers) && Pawn.Spawned && Pawn.IsColonist)
             {
                 LessonAutoActivator.TeachOpportunity(XenomorphConceptDefOf.RRY_Concept_Facehuggers, OpportunityType.Important);
@@ -309,8 +308,8 @@ namespace RRYautja
 
         public override void CompPostPostRemoved()
         {
-            // Remove facehugger mask apparel from the host
-            RemoveMaskApparel();
+            // Facehugger mask apparel disabled for troubleshooting
+            // RemoveMaskApparel();
             Thing hostThing = Pawn;
             Pawn hostPawn = Pawn;
             Map spawnMap = !Pawn.Dead ? Pawn.Map : Pawn.MapHeld;
