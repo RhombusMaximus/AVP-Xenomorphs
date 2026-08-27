@@ -50,7 +50,8 @@ namespace RimWorld
         protected override Job TryGiveJob(Pawn pawn)
         {
             Job job = null;
-            bool healthy = (pawn.health.summaryHealth.SummaryHealthPercent > 0.75f && pawn.health.hediffSet.BleedRateTotal < 0.15f);
+            if (pawn == null || pawn.Map == null) return job;
+            bool healthy = (pawn.health?.summaryHealth?.SummaryHealthPercent > 0.75f && pawn.health?.hediffSet?.BleedRateTotal < 0.15f);
             if (!healthy)
             {
                 return job;
@@ -181,12 +182,14 @@ namespace RimWorld
         {
             Pawn pawnt = null;
             float HuntingRange = this.HuntingRange;
-            bool requireLOS = this.requireLOS; 
+            bool requireLOS = this.requireLOS;
             bool selected = Find.Selector.SingleSelectedThing == pawn;
+            if (pawn == null || pawn.Map == null) return null;
             if (!pawn.isXenomorph(out Comp_Xenomorph xenomorph))
             {
                 return null;
             }
+            if (pawn.Map.skyManager == null) return null;
             if (pawn.Map.skyManager.CurSkyGlow<0.5f)
             {
                 HuntingRange = HuntingRange * 2;

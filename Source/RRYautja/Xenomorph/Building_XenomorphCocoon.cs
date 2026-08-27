@@ -33,15 +33,15 @@ namespace RimWorld
         {
             get
             {
-            //    Log.Message(string.Format("Occupied: {0}", Occupied));
-                if (Occupied && GetCurOccupant(0).RaceProps.Humanlike)
+                if (Occupied)
                 {
-                    return base.Graphic;
+                    Pawn occupant = GetCurOccupant(0);
+                    if (occupant != null && occupant.RaceProps != null && occupant.RaceProps.Humanlike)
+                    {
+                        return base.Graphic;
+                    }
                 }
-                else
-                {
-                    return new Graphic_Invisible();
-                }
+                return new Graphic_Invisible();
             }
         }
         public Pawn LastOccupant;
