@@ -1310,7 +1310,7 @@ System.Threading.ExecutionContext:Run (System.Threading.ExecutionContext,System.
 System.Threading.ExecutionContext:Run (System.Threading.ExecutionContext,System.Threading.ContextCallback,object)
 System.Threading.ThreadHelper:ThreadStart ()
 
-<color=#66ffb5>[MeleeAnim]</color> PreCached all retexture info in 37.5ms
+<color=#66ffb5>[MeleeAnim]</color> PreCached all retexture info in 29.8ms
 UnityEngine.StackTraceUtility:ExtractStackTrace ()
 Verse.Log:Message (string)
 AM.Core:Log (string)
@@ -1365,7 +1365,7 @@ Verse.LongEventHandler:LongEventsUpdate (bool&)
 (wrapper dynamic-method) MonoMod.Utils.DynamicMethodDefinition:Verse.Root.Update_Patch1 (Verse.Root)
 Verse.Root_Entry:Update ()
 
-<color=#66ffb5>[MeleeAnim]</color> Patched 3 classes that directly inherit from Verb_MeleeAttack in 61.0 ms to detect hits:
+<color=#66ffb5>[MeleeAnim]</color> Patched 3 classes that directly inherit from Verb_MeleeAttack in 58.7 ms to detect hits:
 RimWorld.Verb_MeleeApplyHediff from Assembly-CSharp
 RimWorld.Verb_MeleeAttackDamage from Assembly-CSharp
 RRYautja.Verb_MeleeAttackKnockback from RRYautja
@@ -1380,7 +1380,7 @@ Verse.LongEventHandler:LongEventsUpdate (bool&)
 (wrapper dynamic-method) MonoMod.Utils.DynamicMethodDefinition:Verse.Root.Update_Patch1 (Verse.Root)
 Verse.Root_Entry:Update ()
 
-<color=#66ffb5>[MeleeAnim]</color> Found 0 items of clothing that cover hands, took 1.21 ms:
+<color=#66ffb5>[MeleeAnim]</color> Found 0 items of clothing that cover hands, took 0.83 ms:
 
 UnityEngine.StackTraceUtility:ExtractStackTrace ()
 Verse.Log:Message (string)
