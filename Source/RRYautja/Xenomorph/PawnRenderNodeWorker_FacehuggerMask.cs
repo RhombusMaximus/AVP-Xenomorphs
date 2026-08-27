@@ -49,6 +49,17 @@ namespace RRYautja
                     harmony.Patch(offsetMethod, postfix: new HarmonyMethod(typeof(FacehuggerMaskOffsetPatch), nameof(TryGetAnimationOffsetPostfix)));
                     AvPDebug.LogOnce("MaskOffset2", "[AVP Xenomorphs] Patched PawnRenderNode.TryGetAnimationOffset for mask offset");
                 }
+
+                // Also try patching PawnRenderTree.DrawNode to modify draw position directly
+                var drawNodeMethod = AccessTools.Method(typeof(PawnRenderTree), "DrawNode");
+                if (drawNodeMethod != null)
+                {
+                    // Log the signature for debugging
+                    var parms = drawNodeMethod.GetParameters();
+                    AvPDebug.LogOnce("DrawNodeSig", "[AVP Xenomorphs] DrawNode signature: " + drawNodeMethod.ReturnType.Name + " DrawNode(" + string.Join(", ", Array.ConvertAll(parms, p => p.ParameterType.Name + " " + p.Name)) + ")");
+                    harmony.Patch(drawNodeMethod, prefix: new HarmonyMethod(typeof(FacehuggerMaskOffsetPatch), nameof(DrawNodePrefix)));
+                    AvPDebug.LogOnce("MaskOffset3", "[AVP Xenomorphs] Patched PawnRenderTree.DrawNode for mask offset");
+                }
             }
             catch (Exception e)
             {
@@ -72,7 +83,11 @@ namespace RRYautja
             // String comparison is fast — only 2 defNames to check
             if (def.defName != "RRY_FacehuggerMask" && def.defName != "RRY_RoyalFacehuggerMask") return;
             // Move the mask down toward the face (negative Z = down on screen)
-            offset.z -= 0.15f;
+            // Increased from 0.15 to 0.35 for more visible face placement
+            offset.z -= 0.35f;
+            // Also offset Y (vertical on screen in RimWorld's coordinate system)
+            offset.y -= 0.1f;
+            __result = true;
         }
 
         /// <summary>
