@@ -11,7 +11,7 @@ Direct3D:
     VRAM:     8042 MB
     Driver:   32.0.16.1088
 Begin MonoManager ReloadAssembly
-- Loaded All Assemblies, in  0.154 seconds
+- Loaded All Assemblies, in  0.151 seconds
 - Finished resetting the current domain, in  0.001 seconds
 <RI> Initializing input.
 
@@ -20,21 +20,21 @@ Begin MonoManager ReloadAssembly
 <RI> Initialized touch support.
 
 [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
-UnloadTime: 0.697700 ms
+UnloadTime: 0.581100 ms
 Command line arguments: -disable-compute-shaders
 RimWorld 1.6.4871 rev591
 Mod Realistic Humansounds HAR Patch dependency (Mlie.RealisticHumanSounds) needs to have <downloadUrl> and/or <steamWorkshopUrl> specified.
-Fallback handler could not load library D:/SteamLibrary/steamapps/common/RimWorld/RimWorldWin64_Data/MonoBleedingEdge/data-0000021C699E3410.dll
-Fallback handler could not load library D:/SteamLibrary/steamapps/common/RimWorld/RimWorldWin64_Data/MonoBleedingEdge/data-0000021C69D1C0A0.dll
+Fallback handler could not load library D:/SteamLibrary/steamapps/common/RimWorld/RimWorldWin64_Data/MonoBleedingEdge/data-000001C03B008050.dll
+Fallback handler could not load library D:/SteamLibrary/steamapps/common/RimWorld/RimWorldWin64_Data/MonoBleedingEdge/data-000001C06C7F8170.dll
 [Loading Progress] Loading Progress initialized! Enjoy the rest of your loading experience!
 [HugsLib] version 12.0.0
 [HugsLib] early-initializing AllowTool
-Fallback handler could not load library D:/SteamLibrary/steamapps/common/RimWorld/RimWorldWin64_Data/MonoBleedingEdge/data-0000021C6C3F7010.dll
+Fallback handler could not load library D:/SteamLibrary/steamapps/common/RimWorld/RimWorldWin64_Data/MonoBleedingEdge/data-000001C06F228020.dll
 DubsMintMenus v1.3.1086
 [Analyzer] Loaded version 1.6.0 rev 1
 [Analyzer] ResearchTree
 FPSStabilizer v1.1 loaded, patcher message: Patched successfully, fps set to 60
-Fallback handler could not load library D:/SteamLibrary/steamapps/common/RimWorld/RimWorldWin64_Data/MonoBleedingEdge/data-0000021C706A3750.dll
+Fallback handler could not load library D:/SteamLibrary/steamapps/common/RimWorld/RimWorldWin64_Data/MonoBleedingEdge/data-000001C07351D7B0.dll
 <color=#66ffb5>[MeleeAnim]</color> Hello, world!
 Build date: 4/13/2026 8:02 AM
 Loaded assemblies (9):
@@ -110,7 +110,7 @@ NamesGalore: Current Lang English
 (Research Tab Colors) Transpiler injected.
 Unloading 5 Unused Serialized files (Serialized files now loaded: 6)
 Unloading 661 unused Assets to reduce memory usage. Loaded Objects now: 36289.
-Total: 297.150900 ms (FindLiveObjects: 1.894000 ms CreateObjectMapping: 1.294900 ms MarkObjects: 293.043100 ms  DeleteObjects: 0.918400 ms)
+Total: 309.532200 ms (FindLiveObjects: 1.981500 ms CreateObjectMapping: 1.063300 ms MarkObjects: 305.595000 ms  DeleteObjects: 0.891800 ms)
 
 MVCF successfully applied 41 patches
 [com.ogliss.rimworld.mod.rryatuja.minepatch] Patches on methods annotated as Obsolete were detected by HugsLib: RimWorld.Mineable.TrySpawnYield
@@ -296,26 +296,26 @@ Transpilers:
 Postfixes:
   [PeteTimesSix.SimpleSidearms] TryCastShot
 Unloading 2 Unused Serialized files (Serialized files now loaded: 8)
-<color=#66ffb5>[MeleeAnim]</color> PreCached all retexture info in 38.6ms
+<color=#66ffb5>[MeleeAnim]</color> PreCached all retexture info in 40.8ms
 <color=#66ffb5>[MeleeAnim]</color> Loaded tweak data for 35 weapons.
 <color=#66ffb5>[MeleeAnim]</color> ogliss.avpxenomorphs 'AVP Xenomorphs' has 3 missing weapon tweak data.
 <color=#66ffb5>[MeleeAnim]</color> ludeon.rimworld.odyssey 'Odyssey' has 2 missing weapon tweak data.
 <color=#66ffb5>[MeleeAnim]</color> tarojun.morishep.onioftherim 'Oni of the Rim' has 6 missing weapon tweak data.
 <color=#66ffb5>[MeleeAnim]</color> Skipping reporting of missing mod/weapons because user opted out or the feature is disabled by the developer.
-<color=#66ffb5>[MeleeAnim]</color> Patched 3 classes that directly inherit from Verb_MeleeAttack in 58.6 ms to detect hits:
+<color=#66ffb5>[MeleeAnim]</color> Patched 3 classes that directly inherit from Verb_MeleeAttack in 58.1 ms to detect hits:
 RimWorld.Verb_MeleeApplyHediff from Assembly-CSharp
 RimWorld.Verb_MeleeAttackDamage from Assembly-CSharp
 RRYautja.Verb_MeleeAttackKnockback from RRYautja
 <color=#66ffb5>[MeleeAnim]</color> Found 0 items of clothing that cover hands, took 0.65 ms:
 Unloading 55 unused Assets to reduce memory usage. Loaded Objects now: 36452.
-Total: 284.724800 ms (FindLiveObjects: 1.839300 ms CreateObjectMapping: 2.151600 ms MarkObjects: 280.615100 ms  DeleteObjects: 0.118500 ms)
+Total: 282.984100 ms (FindLiveObjects: 1.781600 ms CreateObjectMapping: 2.127100 ms MarkObjects: 278.951500 ms  DeleteObjects: 0.123700 ms)
 
 Unloading 0 Unused Serialized files (Serialized files now loaded: 8)
 Loading asset bundle MuzzleFlash.shaders-windows
 Loaded shader Unlit/AnimatedAdditiveInstanced
 [Muzzle Flash] Shader loaded from MuzzleFlash: Unlit/AnimatedAdditiveInstanced
 Unloading 0 unused Assets to reduce memory usage. Loaded Objects now: 36454.
-Total: 285.066200 ms (FindLiveObjects: 1.814100 ms CreateObjectMapping: 2.067600 ms MarkObjects: 281.121100 ms  DeleteObjects: 0.063100 ms)
+Total: 282.668300 ms (FindLiveObjects: 1.782400 ms CreateObjectMapping: 2.057600 ms MarkObjects: 278.760400 ms  DeleteObjects: 0.067700 ms)
 
 Unloading 0 Unused Serialized files (Serialized files now loaded: 9)
 [Loading Progress] Why is ResearchPal.Profiler.Start from ResearchPal 1.6 - Temp calling DeepProfiler.Start (and by extension our patch) with null?! Stop it.
@@ -326,11 +326,11 @@ Unloading 0 Unused Serialized files (Serialized files now loaded: 9)
 [Loading Progress] Why is ResearchPal.Profiler.Start from ResearchPal 1.6 - Temp calling DeepProfiler.Start (and by extension our patch) with null?! Stop it.
 ResearchPal :: Research layout initialized
 Unloading 0 unused Assets to reduce memory usage. Loaded Objects now: 36454.
-Total: 281.509600 ms (FindLiveObjects: 1.890600 ms CreateObjectMapping: 0.781500 ms MarkObjects: 278.779100 ms  DeleteObjects: 0.058200 ms)
+Total: 299.187900 ms (FindLiveObjects: 1.702300 ms CreateObjectMapping: 0.896300 ms MarkObjects: 296.531600 ms  DeleteObjects: 0.057500 ms)
 
 Unloading 0 Unused Serialized files (Serialized files now loaded: 9)
 Unloading 0 unused Assets to reduce memory usage. Loaded Objects now: 36454.
-Total: 316.477700 ms (FindLiveObjects: 2.545100 ms CreateObjectMapping: 1.889300 ms MarkObjects: 311.986700 ms  DeleteObjects: 0.056300 ms)
+Total: 284.515400 ms (FindLiveObjects: 2.474500 ms CreateObjectMapping: 2.316400 ms MarkObjects: 279.659800 ms  DeleteObjects: 0.064400 ms)
 
 [HugsLib] initializing TerraformRimworld
 CE is trying to create default parameter lists ...
@@ -359,13 +359,13 @@ System.ArgumentNullException: Value cannot be null.
 Parameter name: other
 [Ref AF55A1CB]
 Unloading 2 Unused Serialized files (Serialized files now loaded: 9)
-Unloading 0 unused Assets to reduce memory usage. Loaded Objects now: 38594.
-Total: 329.336200 ms (FindLiveObjects: 1.851400 ms CreateObjectMapping: 1.070700 ms MarkObjects: 326.349900 ms  DeleteObjects: 0.064000 ms)
+Unloading 0 unused Assets to reduce memory usage. Loaded Objects now: 38466.
+Total: 331.915000 ms (FindLiveObjects: 1.873700 ms CreateObjectMapping: 1.156300 ms MarkObjects: 328.825900 ms  DeleteObjects: 0.058900 ms)
 
 Unloading 3 Unused Serialized files (Serialized files now loaded: 9)
-UnloadTime: 0.892200 ms
-Unloading 4 unused Assets to reduce memory usage. Loaded Objects now: 39140.
-Total: 312.642800 ms (FindLiveObjects: 1.838400 ms CreateObjectMapping: 1.032800 ms MarkObjects: 309.683500 ms  DeleteObjects: 0.087900 ms)
+UnloadTime: 0.588200 ms
+Unloading 3 unused Assets to reduce memory usage. Loaded Objects now: 38977.
+Total: 331.013400 ms (FindLiveObjects: 1.823900 ms CreateObjectMapping: 1.043200 ms MarkObjects: 328.063900 ms  DeleteObjects: 0.082000 ms)
 
 Initializing new game with mods:
   - brrainz.harmony
@@ -469,196 +469,41 @@ checking editor settings...
 bodysizes genes are active
 [AVP Xenomorphs] Xenomorph hive faction already exists.
 Unloading 0 Unused Serialized files (Serialized files now loaded: 9)
-Unloading 1 unused Assets to reduce memory usage. Loaded Objects now: 47315.
-Total: 378.516900 ms (FindLiveObjects: 2.500700 ms CreateObjectMapping: 3.100500 ms MarkObjects: 372.736900 ms  DeleteObjects: 0.178300 ms)
+Unloading 1 unused Assets to reduce memory usage. Loaded Objects now: 46885.
+Total: 393.242100 ms (FindLiveObjects: 2.338000 ms CreateObjectMapping: 3.014100 ms MarkObjects: 387.777400 ms  DeleteObjects: 0.112200 ms)
 
 # Real Faction Guest - Preparing Player Faction Races Weights Capture
 # Real Faction Guest - Race [Human] ; Weight [87.50 %] ; Factions [OutlanderCivil, OutlanderRough, TribeCivil, TribeRough, TribeSavage, Pirate, Empire, TribeCannibal, NudistTribe, CannibalPirate, TribeRoughNeanderthal, PirateYttakin, TribeSavageImpid, OutlanderRoughPig, PirateWaster, TradersGuild, SynthCivil]
 <color=#FF6D0080>[RFG Warning]</color><color=#00FFFFFF>Trying to find pawn race's potential factions, but none. This means the race has special generation method.</color>
 # Real Faction Guest - Race [Android_Walter] ; Weight [12.50 %] ; Factions [None]
-Wrote screenshot C:\Users\clint\AppData\LocalLow\Ludeon Studios\RimWorld by Ludeon Studios\RimSaves\Previews\Autosave-5.dat of size 131433
-Wrote screenshot C:\Users\clint\AppData\LocalLow\Ludeon Studios\RimWorld by Ludeon Studios\RimSaves\Previews\Autosave-1.dat of size 112111
-Exception in UIRootUpdate: System.ArgumentNullException: Value cannot be null.
-Parameter name: key
-[Ref B9E4F9EB]
- [0x00006] in <51fded79cd284d4d911c5949aff4cb21>:0 
-  at System.Collections.Generic.Dictionary`2[TKey,TValue].FindEntry (TKey key) [0x00008] in <51fded79cd284d4d911c5949aff4cb21>:0 
-  at System.Collections.Generic.Dictionary`2[TKey,TValue].TryGetValue (TKey key, TValue& value) [0x00000] in <51fded79cd284d4d911c5949aff4cb21>:0 
-  at Verse.ModContentHolder`1[T].Get (System.String path) [0x00000] in <61e4173561894da49d210260257b5097>:0 
-  at Verse.ContentFinder`1[T].Get (System.String itemPath, System.Boolean reportFailure) [0x00066] in <61e4173561894da49d210260257b5097>:0 
-  at Verse.Graphic_Single.Init (Verse.GraphicRequest req) [0x00048] in <61e4173561894da49d210260257b5097>:0 
-  at Verse.GraphicDatabase.GetInner[T] (Verse.GraphicRequest req) [0x000a5] in <61e4173561894da49d210260257b5097>:0 
-  at Verse.GraphicDatabase.Get[T] (System.String path, UnityEngine.Shader shader, UnityEngine.Vector2 drawSize, UnityEngine.Color color, System.Int32 renderQueue) [0x0001d] in <61e4173561894da49d210260257b5097>:0 
-  at Replace_Stuff.OverMineable.ShowGhostOverFog.GetRenderHigh (System.String path, UnityEngine.Shader shader, UnityEngine.Vector2 drawSize, UnityEngine.Color color) [0x00000] in <328a960ccd7e402da507c97704111424>:0 
-  at Verse.GhostUtility.GhostGraphicFor (Verse.Graphic baseGraphic, Verse.ThingDef thingDef, UnityEngine.Color ghostCol, Verse.ThingDef stuff) [0x0008b] in <61e4173561894da49d210260257b5097>:0 
-    - TRANSPILER Uuugggg.rimworld.Replace_Stuff.main: IEnumerable`1 Replace_Stuff.OverMineable.ShowGhostOverFog:Transpiler(IEnumerable`1 instructions)
-    - TRANSPILER rimworld.jecrell.doorsexpanded: IEnumerable`1 DoorsExpanded.HarmonyPatches:DoorExpandedGhostGraphicForTranspiler(IEnumerable`1 instructions)
-  at Verse.GhostDrawer.DrawGhostThing (Verse.IntVec3 center, Verse.Rot4 rot, Verse.ThingDef thingDef, Verse.Graphic baseGraphic, UnityEngine.Color ghostCol, Verse.AltitudeLayer drawAltitude, Verse.Thing thing, System.Boolean drawPlaceWorkers, Verse.ThingDef stuff) [0x0001c] in <61e4173561894da49d210260257b5097>:0 
-    - TRANSPILER rimworld.jecrell.doorsexpanded: IEnumerable`1 DoorsExpanded.HarmonyPatches:DoorExpandedDrawGhostThingTranspiler(IEnumerable`1 instructions)
-  at RimWorld.Designator_Install.DrawGhost (UnityEngine.Color ghostCol) [0x000a5] in <61e4173561894da49d210260257b5097>:0 
-  at RimWorld.Designator_Place.SelectedUpdate () [0x0007f] in <61e4173561894da49d210260257b5097>:0 
-  at RimWorld.Designator_Install.SelectedUpdate () [0x00000] in <61e4173561894da49d210260257b5097>:0 
-    - POSTFIX Kikohi.PipeSystem: Void PipeSystem.Designator_Install_Patch:Postfix(Designator_Install __instance)
-  at Verse.DesignatorManager.DesignatorManagerUpdate () [0x00013] in <61e4173561894da49d210260257b5097>:0 
-  at RimWorld.MapInterface.MapInterfaceUpdate () [0x00025] in <61e4173561894da49d210260257b5097>:0 
-  at RimWorld.UIRoot_Play.UIRootUpdate () [0x00015] in <61e4173561894da49d210260257b5097>:0 
-Exception in UIRootUpdate: System.ArgumentNullException: Value cannot be null.
-Parameter name: key
-[Ref B9E4F9EB] Duplicate stacktrace, see ref for original
-Exception in UIRootUpdate: System.ArgumentNullException: Value cannot be null.
-Parameter name: key
-[Ref B9E4F9EB] Duplicate stacktrace, see ref for original
-Exception in UIRootUpdate: System.ArgumentNullException: Value cannot be null.
-Parameter name: key
-[Ref B9E4F9EB] Duplicate stacktrace, see ref for original
-Exception in UIRootUpdate: System.ArgumentNullException: Value cannot be null.
-Parameter name: key
-[Ref B9E4F9EB] Duplicate stacktrace, see ref for original
-Exception in UIRootUpdate: System.ArgumentNullException: Value cannot be null.
-Parameter name: key
-[Ref B9E4F9EB] Duplicate stacktrace, see ref for original
-Exception in UIRootUpdate: System.ArgumentNullException: Value cannot be null.
-Parameter name: key
-[Ref B9E4F9EB] Duplicate stacktrace, see ref for original
-Exception in UIRootUpdate: System.ArgumentNullException: Value cannot be null.
-Parameter name: key
-[Ref B9E4F9EB] Duplicate stacktrace, see ref for original
-Exception in UIRootUpdate: System.ArgumentNullException: Value cannot be null.
-Parameter name: key
-[Ref B9E4F9EB] Duplicate stacktrace, see ref for original
-Exception in UIRootUpdate: System.ArgumentNullException: Value cannot be null.
-Parameter name: key
-[Ref B9E4F9EB] Duplicate stacktrace, see ref for original
-Exception in UIRootUpdate: System.ArgumentNullException: Value cannot be null.
-Parameter name: key
-[Ref B9E4F9EB] Duplicate stacktrace, see ref for original
-Exception in UIRootUpdate: System.ArgumentNullException: Value cannot be null.
-Parameter name: key
-[Ref B9E4F9EB] Duplicate stacktrace, see ref for original
-Exception in UIRootUpdate: System.ArgumentNullException: Value cannot be null.
-Parameter name: key
-[Ref B9E4F9EB] Duplicate stacktrace, see ref for original
-Exception in UIRootUpdate: System.ArgumentNullException: Value cannot be null.
-Parameter name: key
-[Ref B9E4F9EB] Duplicate stacktrace, see ref for original
-Exception in UIRootUpdate: System.ArgumentNullException: Value cannot be null.
-Parameter name: key
-[Ref B9E4F9EB] Duplicate stacktrace, see ref for original
-Exception in UIRootUpdate: System.ArgumentNullException: Value cannot be null.
-Parameter name: key
-[Ref B9E4F9EB] Duplicate stacktrace, see ref for original
-Exception in UIRootUpdate: System.ArgumentNullException: Value cannot be null.
-Parameter name: key
-[Ref B9E4F9EB] Duplicate stacktrace, see ref for original
-Exception in UIRootUpdate: System.ArgumentNullException: Value cannot be null.
-Parameter name: key
-[Ref B9E4F9EB] Duplicate stacktrace, see ref for original
-Exception in UIRootUpdate: System.ArgumentNullException: Value cannot be null.
-Parameter name: key
-[Ref B9E4F9EB] Duplicate stacktrace, see ref for original
-Exception in UIRootUpdate: System.ArgumentNullException: Value cannot be null.
-Parameter name: key
-[Ref B9E4F9EB] Duplicate stacktrace, see ref for original
-Exception in UIRootUpdate: System.ArgumentNullException: Value cannot be null.
-Parameter name: key
-[Ref B9E4F9EB] Duplicate stacktrace, see ref for original
-Exception in UIRootUpdate: System.ArgumentNullException: Value cannot be null.
-Parameter name: key
-[Ref B9E4F9EB] Duplicate stacktrace, see ref for original
-Exception in UIRootUpdate: System.ArgumentNullException: Value cannot be null.
-Parameter name: key
-[Ref B9E4F9EB] Duplicate stacktrace, see ref for original
-Exception in UIRootUpdate: System.ArgumentNullException: Value cannot be null.
-Parameter name: key
-[Ref B9E4F9EB] Duplicate stacktrace, see ref for original
-Exception in UIRootUpdate: System.ArgumentNullException: Value cannot be null.
-Parameter name: key
-[Ref B9E4F9EB] Duplicate stacktrace, see ref for original
-Exception in UIRootUpdate: System.ArgumentNullException: Value cannot be null.
-Parameter name: key
-[Ref B9E4F9EB] Duplicate stacktrace, see ref for original
-Exception in UIRootUpdate: System.ArgumentNullException: Value cannot be null.
-Parameter name: key
-[Ref B9E4F9EB] Duplicate stacktrace, see ref for original
-Exception in UIRootUpdate: System.ArgumentNullException: Value cannot be null.
-Parameter name: key
-[Ref B9E4F9EB] Duplicate stacktrace, see ref for original
-Exception in UIRootUpdate: System.ArgumentNullException: Value cannot be null.
-Parameter name: key
-[Ref B9E4F9EB] Duplicate stacktrace, see ref for original
-Exception in UIRootUpdate: System.ArgumentNullException: Value cannot be null.
-Parameter name: key
-[Ref B9E4F9EB] Duplicate stacktrace, see ref for original
-Exception in UIRootUpdate: System.ArgumentNullException: Value cannot be null.
-Parameter name: key
-[Ref B9E4F9EB] Duplicate stacktrace, see ref for original
-Exception in UIRootUpdate: System.ArgumentNullException: Value cannot be null.
-Parameter name: key
-[Ref B9E4F9EB] Duplicate stacktrace, see ref for original
-Exception in UIRootUpdate: System.ArgumentNullException: Value cannot be null.
-Parameter name: key
-[Ref B9E4F9EB] Duplicate stacktrace, see ref for original
-Exception in UIRootUpdate: System.ArgumentNullException: Value cannot be null.
-Parameter name: key
-[Ref B9E4F9EB] Duplicate stacktrace, see ref for original
-Exception in UIRootUpdate: System.ArgumentNullException: Value cannot be null.
-Parameter name: key
-[Ref B9E4F9EB] Duplicate stacktrace, see ref for original
-Exception in UIRootUpdate: System.ArgumentNullException: Value cannot be null.
-Parameter name: key
-[Ref B9E4F9EB] Duplicate stacktrace, see ref for original
-Exception in UIRootUpdate: System.ArgumentNullException: Value cannot be null.
-Parameter name: key
-[Ref B9E4F9EB] Duplicate stacktrace, see ref for original
-Exception in UIRootUpdate: System.ArgumentNullException: Value cannot be null.
-Parameter name: key
-[Ref B9E4F9EB] Duplicate stacktrace, see ref for original
-Exception in UIRootUpdate: System.ArgumentNullException: Value cannot be null.
-Parameter name: key
-[Ref B9E4F9EB] Duplicate stacktrace, see ref for original
-Exception in UIRootUpdate: System.ArgumentNullException: Value cannot be null.
-Parameter name: key
-[Ref B9E4F9EB] Duplicate stacktrace, see ref for original
-Exception in UIRootUpdate: System.ArgumentNullException: Value cannot be null.
-Parameter name: key
-[Ref B9E4F9EB] Duplicate stacktrace, see ref for original
-Exception in UIRootUpdate: System.ArgumentNullException: Value cannot be null.
-Parameter name: key
-[Ref B9E4F9EB] Duplicate stacktrace, see ref for original
-Exception in UIRootUpdate: System.ArgumentNullException: Value cannot be null.
-Parameter name: key
-[Ref B9E4F9EB] Duplicate stacktrace, see ref for original
-Exception in UIRootUpdate: System.ArgumentNullException: Value cannot be null.
-Parameter name: key
-[Ref B9E4F9EB] Duplicate stacktrace, see ref for original
-Exception in UIRootUpdate: System.ArgumentNullException: Value cannot be null.
-Parameter name: key
-[Ref B9E4F9EB] Duplicate stacktrace, see ref for original
-Exception in UIRootUpdate: System.ArgumentNullException: Value cannot be null.
-Parameter name: key
-[Ref B9E4F9EB] Duplicate stacktrace, see ref for original
-Exception in UIRootUpdate: System.ArgumentNullException: Value cannot be null.
-Parameter name: key
-[Ref B9E4F9EB] Duplicate stacktrace, see ref for original
-Exception in UIRootUpdate: System.ArgumentNullException: Value cannot be null.
-Parameter name: key
-[Ref B9E4F9EB] Duplicate stacktrace, see ref for original
-Exception in UIRootUpdate: System.ArgumentNullException: Value cannot be null.
-Parameter name: key
-[Ref B9E4F9EB] Duplicate stacktrace, see ref for original
-Exception in UIRootUpdate: System.ArgumentNullException: Value cannot be null.
-Parameter name: key
-[Ref B9E4F9EB] Duplicate stacktrace, see ref for original
-Exception in UIRootUpdate: System.ArgumentNullException: Value cannot be null.
-Parameter name: key
-[Ref B9E4F9EB] Duplicate stacktrace, see ref for original
-Exception in UIRootUpdate: System.ArgumentNullException: Value cannot be null.
-Parameter name: key
-[Ref B9E4F9EB] Duplicate stacktrace, see ref for original
-Exception in UIRootUpdate: System.ArgumentNullException: Value cannot be null.
-Parameter name: key
-[Ref B9E4F9EB] Duplicate stacktrace, see ref for original
-Error while determining if Mechanent57661 should have Need Chemical_Alcohol: System.NullReferenceException: Object reference not set to an instance of an object
+Wrote screenshot C:\Users\clint\AppData\LocalLow\Ludeon Studios\RimWorld by Ludeon Studios\RimSaves\Previews\USCSS Colony36.dat of size 194991
+[AVP Xenomorphs] [AVP Xenomorphs] CompPostPostAdd called for Melonson (humanlike=True)
+[AVP Xenomorphs] [AVP Xenomorphs] Added facehugger mask apparel to Melonson
+Exception in Verse.AI.ThinkNode_Tagger TryIssueJobPackage: System.NullReferenceException: Object reference not set to an instance of an object
+[Ref B3A85BBC]
+  at Verse.RegionAndRoomQuery.RegionAt (Verse.IntVec3 c, Verse.Map map, Verse.RegionType allowedRegionTypes) [0x00000] in <61e4173561894da49d210260257b5097>:0 
+  at Verse.GridsUtility.GetRegion (Verse.IntVec3 loc, Verse.Map map, Verse.RegionType allowedRegionTypes) [0x00000] in <61e4173561894da49d210260257b5097>:0 
+  at RimWorld.RCellFinder.RandomWanderDestFor (Verse.Pawn pawn, Verse.IntVec3 root, System.Single radius, System.Func`4[T1,T2,T3,TResult] validator, Verse.Danger maxDanger, System.Boolean canBashDoors) [0x00085] in <61e4173561894da49d210260257b5097>:0 
+  at Verse.AI.JobGiver_Wander.GetExactWanderDest (Verse.Pawn pawn) [0x0005b] in <61e4173561894da49d210260257b5097>:0 
+  at Verse.AI.JobGiver_Wander.TryGiveJob (Verse.Pawn pawn) [0x00061] in <61e4173561894da49d210260257b5097>:0 
+  at Verse.AI.ThinkNode_JobGiver.TryIssueJobPackage (Verse.Pawn pawn, Verse.AI.JobIssueParams jobParams) [0x00000] in <61e4173561894da49d210260257b5097>:0 
+  at Verse.AI.ThinkNode_Priority.TryIssueJobPackage (Verse.Pawn pawn, Verse.AI.JobIssueParams jobParams) [0x00022] in <61e4173561894da49d210260257b5097>:0 
+JobDriver threw exception in toil MakeNewToils's initAction for pawn RRY_Xenomorph_FaceHugger51468 driver=JobDriver_Wait (toilIndex=0) driver.job=(Wait_Wander (Job_19319) Giver = JobGiver_WanderAnywhere [workGiverDef: null])
+System.NullReferenceException: Object reference not set to an instance of an object
+[Ref 2BEE724E]
+  at Verse.AI.JobDriver_Wait.CheckForAutoAttack () [0x0012f] in <61e4173561894da49d210260257b5097>:0 
+    - TRANSPILER OskarPotocki.VEF: IEnumerable`1 VEF.Weapons.VanillaExpandedFramework_JobDriver_Wait_CheckForAutoAttack_Patch:Transpiler(IEnumerable`1 instructions, ILGenerator generator)
+    - TRANSPILER legodude17.mvcf: IEnumerable`1 MVCF.PatchSets.PatchSet_TargetFinder:BestTargetTranspiler(IEnumerable`1 instructions)
+    - POSTFIX UnlimitedHugs.AllowTool: Void AllowTool.Patches.JobDriverWait_CheckForAutoAttack_Patch:DoPartyHunting(JobDriver_Wait __instance)
+  at Verse.AI.JobDriver_Wait.<MakeNewToils>b__3_0 () [0x0003d] in <61e4173561894da49d210260257b5097>:0 
+  at Verse.AI.JobDriver.TryActuallyStartNextToil () [0x001b0] in <61e4173561894da49d210260257b5097>:0 
+JobDriver threw exception in toil MakeNewToils's initAction for pawn RRY_Xenomorph_FaceHugger51468 driver=JobDriver_Wait (toilIndex=0) driver.job=(Wait (Job_19320))
+System.NullReferenceException: Object reference not set to an instance of an object
+[Ref 2BEE724E] Duplicate stacktrace, see ref for original
+An error occurred while starting an error recover job. We have to stop now to avoid infinite loops. This means that the pawn is now jobless which can cause further bugs. pawn=RRY_Xenomorph_FaceHugger51468
+Wrote screenshot C:\Users\clint\AppData\LocalLow\Ludeon Studios\RimWorld by Ludeon Studios\RimSaves\Previews\Autosave-5.dat of size 92388
+[AVP Xenomorphs] [Detach] Detaching facehugger from Melonson (impregnation complete) (tick 70845)
+Error while determining if Mechanent51739 should have Need Chemical_Alcohol: System.NullReferenceException: Object reference not set to an instance of an object
 [Ref 7FBF863E]
   at RimWorld.LifeStageWorker_HumanlikeAdult.Notify_LifeStageStarted (Verse.Pawn pawn, RimWorld.LifeStageDef previousLifeStage) [0x00050] in <61e4173561894da49d210260257b5097>:0 
     - TRANSPILER rimworld.erdelf.alien_race.main: IEnumerable`1 AlienRace.HarmonyPatches:AdultLifeStageStartedTranspiler(IEnumerable`1 instructions)
@@ -676,13 +521,124 @@ Error while determining if Mechanent57661 should have Need Chemical_Alcohol: Sys
   at RimWorld.Pawn_NeedsTracker.AddOrRemoveNeedsAsAppropriate () [0x0001b] in <61e4173561894da49d210260257b5097>:0 
     - PREFIX OskarPotocki.VEF: Void VEF.AestheticScaling.VanillaExpandedFramework_Pawn_NeedsTracker_AddOrRemoveNeedsAsAppropriate_Patch:Prefix()
     - POSTFIX OskarPotocki.VEF: Void VEF.AestheticScaling.VanillaExpandedFramework_Pawn_NeedsTracker_AddOrRemoveNeedsAsAppropriate_Patch:Postfix()
-Error while determining if Personae_57667 should have Need Chemical_Alcohol: System.NullReferenceException: Object reference not set to an instance of an object
+Error while determining if Mechanent51744 should have Need Chemical_Alcohol: System.NullReferenceException: Object reference not set to an instance of an object
 [Ref 7FBF863E] Duplicate stacktrace, see ref for original
-Error while determining if Mechanent57685 should have Need Chemical_Alcohol: System.NullReferenceException: Object reference not set to an instance of an object
+Error while determining if Mechanent51749 should have Need Chemical_Alcohol: System.NullReferenceException: Object reference not set to an instance of an object
 [Ref 7FBF863E] Duplicate stacktrace, see ref for original
-Attempted to draw Macaw55470 without a resolved render tree.
-Attempted to draw Macaw55530 without a resolved render tree.
-Wrote screenshot C:\Users\clint\AppData\LocalLow\Ludeon Studios\RimWorld by Ludeon Studios\RimSaves\Previews\Autosave-2.dat of size 115550
-Wrote screenshot C:\Users\clint\AppData\LocalLow\Ludeon Studios\RimWorld by Ludeon Studios\RimSaves\Previews\USCSS Colony35.dat of size 125560
-Wrote screenshot C:\Users\clint\AppData\LocalLow\Ludeon Studios\RimWorld by Ludeon Studios\RimSaves\Previews\Autosave-3.dat of size 119807
-Wrote screenshot C:\Users\clint\AppData\LocalLow\Ludeon Studios\RimWorld by Ludeon Studios\RimSaves\Previews\Autosave-4.dat of size 138065
+Exception in Verse.AI.ThinkNode_Tagger TryIssueJobPackage: System.NullReferenceException: Object reference not set to an instance of an object
+[Ref 7FF811B2]
+  at Verse.AI.JobGiver_Xenomorph_ExitMap.TryGiveJob (Verse.Pawn pawn) [0x00009] in <3dcd28d30fa340b1b51871ece611ef44>:0 
+  at Verse.AI.ThinkNode_JobGiver.TryIssueJobPackage (Verse.Pawn pawn, Verse.AI.JobIssueParams jobParams) [0x00000] in <61e4173561894da49d210260257b5097>:0 
+  at Verse.AI.ThinkNode_Priority.TryIssueJobPackage (Verse.Pawn pawn, Verse.AI.JobIssueParams jobParams) [0x00022] in <61e4173561894da49d210260257b5097>:0 
+BreadthFirstTraverse with null root region.
+BreadthFirstTraverse with null root region.
+BreadthFirstTraverse with null root region.
+BreadthFirstTraverse with null root region.
+BreadthFirstTraverse with null root region.
+BreadthFirstTraverse with null root region.
+BreadthFirstTraverse with null root region.
+BreadthFirstTraverse with null root region.
+BreadthFirstTraverse with null root region.
+Exception in Verse.AI.ThinkNode_Tagger TryIssueJobPackage: System.NullReferenceException: Object reference not set to an instance of an object
+[Ref 7FF811B2] Duplicate stacktrace, see ref for original
+RRY_Xenomorph_Drone50313 on unwalkable cell (19, 0, 55). Teleporting to (18, 0, 55)
+[AVP Xenomorphs] [Spawn] Chestburster spawned: Drone faction=a Xenomorph hive (tick 98045)
+Tried to destroy already-destroyed thing RRY_FacehuggerMask51485
+Tried to destroy already-destroyed thing RRY_FacehuggerMask51485
+Tried to destroy already-destroyed thing RRY_FacehuggerMask51485
+Tried to destroy already-destroyed thing RRY_FacehuggerMask51485
+Tried to destroy already-destroyed thing RRY_FacehuggerMask51485
+Tried to destroy already-destroyed thing RRY_FacehuggerMask51485
+Tried to destroy already-destroyed thing RRY_FacehuggerMask51485
+Tried to destroy already-destroyed thing RRY_FacehuggerMask51485
+Tried to destroy already-destroyed thing RRY_FacehuggerMask51485
+Tried to destroy already-destroyed thing RRY_FacehuggerMask51485
+Tried to destroy already-destroyed thing RRY_FacehuggerMask51485
+Tried to destroy already-destroyed thing RRY_FacehuggerMask51485
+Tried to destroy already-destroyed thing RRY_FacehuggerMask51485
+Tried to destroy already-destroyed thing RRY_FacehuggerMask51485
+Tried to destroy already-destroyed thing RRY_FacehuggerMask51485
+Tried to destroy already-destroyed thing RRY_FacehuggerMask51485
+Tried to destroy already-destroyed thing RRY_FacehuggerMask51485
+Tried to destroy already-destroyed thing RRY_FacehuggerMask51485
+Tried to destroy already-destroyed thing RRY_FacehuggerMask51485
+Tried to destroy already-destroyed thing RRY_FacehuggerMask51485
+Tried to destroy already-destroyed thing RRY_FacehuggerMask51485
+Tried to destroy already-destroyed thing RRY_FacehuggerMask51485
+Tried to destroy already-destroyed thing RRY_FacehuggerMask51485
+Tried to destroy already-destroyed thing RRY_FacehuggerMask51485
+Tried to destroy already-destroyed thing RRY_FacehuggerMask51485
+Tried to destroy already-destroyed thing RRY_FacehuggerMask51485
+Tried to destroy already-destroyed thing RRY_FacehuggerMask51485
+Tried to destroy already-destroyed thing RRY_FacehuggerMask51485
+Tried to destroy already-destroyed thing RRY_FacehuggerMask51485
+Tried to destroy already-destroyed thing RRY_FacehuggerMask51485
+Tried to destroy already-destroyed thing RRY_FacehuggerMask51485
+Tried to destroy already-destroyed thing RRY_FacehuggerMask51485
+Tried to destroy already-destroyed thing RRY_FacehuggerMask51485
+Tried to destroy already-destroyed thing RRY_FacehuggerMask51485
+Tried to destroy already-destroyed thing RRY_FacehuggerMask51485
+Tried to destroy already-destroyed thing RRY_FacehuggerMask51485
+Tried to destroy already-destroyed thing RRY_FacehuggerMask51485
+Tried to destroy already-destroyed thing RRY_FacehuggerMask51485
+Tried to destroy already-destroyed thing RRY_FacehuggerMask51485
+Tried to destroy already-destroyed thing RRY_FacehuggerMask51485
+Tried to destroy already-destroyed thing RRY_FacehuggerMask51485
+Tried to destroy already-destroyed thing RRY_FacehuggerMask51485
+Tried to destroy already-destroyed thing RRY_FacehuggerMask51485
+Tried to destroy already-destroyed thing RRY_FacehuggerMask51485
+Tried to destroy already-destroyed thing RRY_FacehuggerMask51485
+Tried to destroy already-destroyed thing RRY_FacehuggerMask51485
+Tried to destroy already-destroyed thing RRY_FacehuggerMask51485
+Tried to destroy already-destroyed thing RRY_FacehuggerMask51485
+Tried to destroy already-destroyed thing RRY_FacehuggerMask51485
+Tried to destroy already-destroyed thing RRY_FacehuggerMask51485
+Tried to destroy already-destroyed thing RRY_FacehuggerMask51485
+Tried to destroy already-destroyed thing RRY_FacehuggerMask51485
+Tried to destroy already-destroyed thing RRY_FacehuggerMask51485
+Tried to destroy already-destroyed thing RRY_FacehuggerMask51485
+Tried to destroy already-destroyed thing RRY_FacehuggerMask51485
+Tried to destroy already-destroyed thing RRY_FacehuggerMask51485
+Tried to destroy already-destroyed thing RRY_FacehuggerMask51485
+Tried to destroy already-destroyed thing RRY_FacehuggerMask51485
+Tried to destroy already-destroyed thing RRY_FacehuggerMask51485
+Tried to destroy already-destroyed thing RRY_FacehuggerMask51485
+Tried to destroy already-destroyed thing RRY_FacehuggerMask51485
+Tried to destroy already-destroyed thing RRY_FacehuggerMask51485
+Tried to destroy already-destroyed thing RRY_FacehuggerMask51485
+Tried to destroy already-destroyed thing RRY_FacehuggerMask51485
+Tried to destroy already-destroyed thing RRY_FacehuggerMask51485
+Tried to destroy already-destroyed thing RRY_FacehuggerMask51485
+Tried to destroy already-destroyed thing RRY_FacehuggerMask51485
+Tried to destroy already-destroyed thing RRY_FacehuggerMask51485
+Tried to destroy already-destroyed thing RRY_FacehuggerMask51485
+Tried to destroy already-destroyed thing RRY_FacehuggerMask51485
+Tried to destroy already-destroyed thing RRY_FacehuggerMask51485
+Tried to destroy already-destroyed thing RRY_FacehuggerMask51485
+Tried to destroy already-destroyed thing RRY_FacehuggerMask51485
+Tried to destroy already-destroyed thing RRY_FacehuggerMask51485
+Tried to destroy already-destroyed thing RRY_FacehuggerMask51485
+Tried to destroy already-destroyed thing RRY_FacehuggerMask51485
+Tried to destroy already-destroyed thing RRY_FacehuggerMask51485
+Tried to destroy already-destroyed thing RRY_FacehuggerMask51485
+Tried to destroy already-destroyed thing RRY_FacehuggerMask51485
+Tried to destroy already-destroyed thing RRY_FacehuggerMask51485
+Tried to destroy already-destroyed thing RRY_FacehuggerMask51485
+Tried to destroy already-destroyed thing RRY_FacehuggerMask51485
+Tried to destroy already-destroyed thing RRY_FacehuggerMask51485
+Tried to destroy already-destroyed thing RRY_FacehuggerMask51485
+Tried to destroy already-destroyed thing RRY_FacehuggerMask51485
+Tried to destroy already-destroyed thing RRY_FacehuggerMask51485
+Tried to destroy already-destroyed thing RRY_FacehuggerMask51485
+Tried to destroy already-destroyed thing RRY_FacehuggerMask51485
+Tried to destroy already-destroyed thing RRY_FacehuggerMask51485
+Tried to destroy already-destroyed thing RRY_FacehuggerMask51485
+Tried to destroy already-destroyed thing RRY_FacehuggerMask51485
+Tried to destroy already-destroyed thing RRY_FacehuggerMask51485
+Tried to destroy already-destroyed thing RRY_FacehuggerMask51485
+Tried to destroy already-destroyed thing RRY_FacehuggerMask51485
+Tried to destroy already-destroyed thing RRY_FacehuggerMask51485
+Tried to destroy already-destroyed thing RRY_FacehuggerMask51485
+Tried to destroy already-destroyed thing RRY_FacehuggerMask51485
+Tried to destroy already-destroyed thing RRY_FacehuggerMask51485
+Tried to destroy already-destroyed thing RRY_FacehuggerMask51485
