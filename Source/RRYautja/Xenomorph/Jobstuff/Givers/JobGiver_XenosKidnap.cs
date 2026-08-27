@@ -60,8 +60,8 @@ namespace RimWorld
             */
             if (XenomorphKidnapUtility.TryFindGoodKidnapVictim(pawn, Searchradius, out Victim, null,forceRoofed, allowCocooned, minRadius, allowHosts))
             {
-                // Limit to 3 drones per downed victim
-                int maxDronesPerVictim = 3;
+                // Limit to 1 drone per downed victim to prevent pathfinding lag
+                int maxDronesPerVictim = 1;
                 int alreadyTargeting = 0;
                 foreach (var otherPawn in map.mapPawns.AllPawnsSpawned)
                 {
@@ -74,10 +74,8 @@ namespace RimWorld
                 }
                 if (alreadyTargeting >= maxDronesPerVictim)
                 {
-                    AvPDebug.Log("Kidnap", pawn.LabelShort + " skipped - " + alreadyTargeting + " drones already targeting " + Victim.LabelShort);
-                    return null; // Too many drones already going for this victim
+                    return null; // Another drone already going for this victim
                 }
-                AvPDebug.Log("Kidnap", pawn.LabelShort + " targeting " + Victim.LabelShort + " (" + (alreadyTargeting + 1) + "/3 drones)");
                 if (xenomorph.HiveLoc.IsValid && xenomorph.HiveLoc.InBounds(map) && xenomorph.HiveLoc != IntVec3.Zero)
                 {
                     c = xenomorph.HiveLoc;
