@@ -26,6 +26,9 @@ namespace RRYautja
                 var drawNodeMethod = AccessTools.Method(typeof(PawnRenderTree), "DrawNode");
                 if (drawNodeMethod != null)
                 {
+                    // Log the signature for debugging
+                    var parms = drawNodeMethod.GetParameters();
+                    AvPDebug.LogOnce("DrawNodeSig", "[AVP Xenomorphs] DrawNode signature: " + drawNodeMethod.ReturnType.Name + " DrawNode(" + string.Join(", ", Array.ConvertAll(parms, p => p.ParameterType.Name + " " + p.Name)) + ")");
                     harmony.Patch(drawNodeMethod, prefix: new HarmonyMethod(typeof(FacehuggerMaskOffsetPatch), nameof(DrawNodePrefix)));
                     AvPDebug.LogOnce("MaskOffset", "[AVP Xenomorphs] Patched PawnRenderTree.DrawNode for mask offset");
                 }
@@ -48,17 +51,6 @@ namespace RRYautja
                 {
                     harmony.Patch(offsetMethod, postfix: new HarmonyMethod(typeof(FacehuggerMaskOffsetPatch), nameof(TryGetAnimationOffsetPostfix)));
                     AvPDebug.LogOnce("MaskOffset2", "[AVP Xenomorphs] Patched PawnRenderNode.TryGetAnimationOffset for mask offset");
-                }
-
-                // Also try patching PawnRenderTree.DrawNode to modify draw position directly
-                var drawNodeMethod = AccessTools.Method(typeof(PawnRenderTree), "DrawNode");
-                if (drawNodeMethod != null)
-                {
-                    // Log the signature for debugging
-                    var parms = drawNodeMethod.GetParameters();
-                    AvPDebug.LogOnce("DrawNodeSig", "[AVP Xenomorphs] DrawNode signature: " + drawNodeMethod.ReturnType.Name + " DrawNode(" + string.Join(", ", Array.ConvertAll(parms, p => p.ParameterType.Name + " " + p.Name)) + ")");
-                    harmony.Patch(drawNodeMethod, prefix: new HarmonyMethod(typeof(FacehuggerMaskOffsetPatch), nameof(DrawNodePrefix)));
-                    AvPDebug.LogOnce("MaskOffset3", "[AVP Xenomorphs] Patched PawnRenderTree.DrawNode for mask offset");
                 }
             }
             catch (Exception e)
