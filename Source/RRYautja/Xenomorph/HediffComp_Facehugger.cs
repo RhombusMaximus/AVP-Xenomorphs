@@ -256,14 +256,8 @@ namespace RRYautja
                 timer++;
                 if (timer >= 600 && !isImpregnated)
                 {
-#if DEBUG
-                //    Log.Message("pre impreg checking Severity");
-#endif
                     if (Rand.Chance(this.parent.Severity))
                     {
-#if DEBUG
-                    //    Log.Message("adding embryo");
-#endif
                         parent.pawn.health.AddHediff(heDiffDeff, parent.pawn.RaceProps.body.corePart);
                         Hediff hediff = parent.pawn.health.hediffSet.GetFirstHediffOfDef(heDiffDeff);
                         HediffComp_XenoSpawner _XenoSpawner = hediff.TryGetComp<HediffComp_XenoSpawner>();
@@ -274,6 +268,11 @@ namespace RRYautja
                         {
                             isImpregnated = true;
                             previousImpregnations++;
+                            // Detach facehugger immediately after successful impregnation
+                            // Don't wait for post-impregnation stage — the chestburster will kill the host
+                            AvPDebug.Log("Detach", "Detaching facehugger from " + Pawn.LabelShort + " (impregnation complete)");
+                            Pawn.health.RemoveHediff(this.parent);
+                            return;
                         }
                     }
                     timer = 0;
@@ -281,15 +280,10 @@ namespace RRYautja
             }
             else if ((this.parent.CurStageIndex == 2 || this.parent.CurStage.label == "post impregnation"))
             {
-                timer2++;
-                AvPDebug.Log("Detach", Pawn.LabelShort + " in post-impregnation, timer2=" + timer2 + ", severity=" + this.parent.Severity + ", stage=" + this.parent.CurStageIndex);
-                if (timer2 >= 600)
-                {
-                    // Facehugger detaches after post-impregnation
-                    AvPDebug.Log("Detach", "Detaching facehugger from " + Pawn.LabelShort + " (timer2 reached 600)");
-                    Pawn.health.RemoveHediff(this.parent);
-                    return;
-                }
+                // Safety fallback: if somehow still in post-impregnation, detach immediately
+                AvPDebug.Log("Detach", "Fallback detach for " + Pawn.LabelShort + " (reached post-impregnation stage)");
+                Pawn.health.RemoveHediff(this.parent);
+                return;
             }
         }
 
