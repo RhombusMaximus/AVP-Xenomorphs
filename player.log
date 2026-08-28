@@ -11,7 +11,7 @@ Direct3D:
     VRAM:     8042 MB
     Driver:   32.0.16.1088
 Begin MonoManager ReloadAssembly
-- Loaded All Assemblies, in  4.123 seconds
+- Loaded All Assemblies, in  0.156 seconds
 - Finished resetting the current domain, in  0.001 seconds
 <RI> Initializing input.
 
@@ -20,21 +20,21 @@ Begin MonoManager ReloadAssembly
 <RI> Initialized touch support.
 
 [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
-UnloadTime: 0.723800 ms
+UnloadTime: 0.583900 ms
 Command line arguments: -disable-compute-shaders
 RimWorld 1.6.4871 rev591
 Mod Realistic Humansounds HAR Patch dependency (Mlie.RealisticHumanSounds) needs to have <downloadUrl> and/or <steamWorkshopUrl> specified.
-Fallback handler could not load library D:/SteamLibrary/steamapps/common/RimWorld/RimWorldWin64_Data/MonoBleedingEdge/data-000002AC687B3020.dll
-Fallback handler could not load library D:/SteamLibrary/steamapps/common/RimWorld/RimWorldWin64_Data/MonoBleedingEdge/data-000002AC68B9FB40.dll
+Fallback handler could not load library D:/SteamLibrary/steamapps/common/RimWorld/RimWorldWin64_Data/MonoBleedingEdge/data-00000187ECF7D9E0.dll
+Fallback handler could not load library D:/SteamLibrary/steamapps/common/RimWorld/RimWorldWin64_Data/MonoBleedingEdge/data-00000187ED27A2D0.dll
 [Loading Progress] Loading Progress initialized! Enjoy the rest of your loading experience!
 [HugsLib] version 12.0.0
 [HugsLib] early-initializing AllowTool
-Fallback handler could not load library D:/SteamLibrary/steamapps/common/RimWorld/RimWorldWin64_Data/MonoBleedingEdge/data-000002AC69EDA040.dll
+Fallback handler could not load library D:/SteamLibrary/steamapps/common/RimWorld/RimWorldWin64_Data/MonoBleedingEdge/data-00000187EF87B450.dll
 DubsMintMenus v1.3.1086
 [Analyzer] Loaded version 1.6.0 rev 1
 [Analyzer] ResearchTree
 FPSStabilizer v1.1 loaded, patcher message: Patched successfully, fps set to 60
-Fallback handler could not load library D:/SteamLibrary/steamapps/common/RimWorld/RimWorldWin64_Data/MonoBleedingEdge/data-000002AC6F877010.dll
+Fallback handler could not load library D:/SteamLibrary/steamapps/common/RimWorld/RimWorldWin64_Data/MonoBleedingEdge/data-00000187F3A552A0.dll
 <color=#66ffb5>[MeleeAnim]</color> Hello, world!
 Build date: 4/13/2026 8:02 AM
 Loaded assemblies (9):
@@ -47,15 +47,14 @@ ModRequestAPI.Models, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null,
 Unity.Newtonsoft.Json, Version=7.0.0.0, Culture=neutral, PublicKeyToken=null,
 zAnimationMod, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null,
 AM.AlienRacesPatch, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null
-<color=#66ffb5>[MeleeAnim]</color> Scanning 96 mods for animation data...
+<color=#66ffb5>[MeleeAnim]</color> Scanning 100 mods for animation data...
 <color=#66ffb5>[MeleeAnim]</color> Found 1 mod folders with animation data, total 69 loadable files.
 <color=#66ffb5>[MeleeAnim]</color> <color=#ffa8fc>[Alien Races Patch]</color> Loaded alien races patch!
 RimSaves NX rev27
 [SafePatcher]The xPath: "Defs/ThingDef[defName="Gun_NestMMG"]" not found
 [SafePatcher]The xPath: "Defs/ThingDef[defName="Gun_NestMissile"]" not found
-XML error: <scale>0.7</scale> doesn't correspond to any field in type RotationalData. Context: <defaultData><offset>(0, 0, -0.25)</offset><scale>0.7</scale><layer>55</layer></defaultData>
-[Def Error]: RRY_FaceHuggerInfection
-AVP Xenomorphs\Defs\HediffDefs\Hediffs_Local_Infections.xml
+[Big & Small] Patched 44 PawnRenderNodeProperties to use PawnRenderingProps_Lite for recolorable graphics.
+Remember that you can always disable this again in the mod options.
 Tried to load duplicate UnityEngine.Texture2D with path: FilesystemFile [D:\SteamLibrary\steamapps\common\RimWorld\Mods\AVP-Xenomorphs\Textures\Things\Addons\Blood_Marks\Xenomorph_Kills\Mark_Thrumbomorphkill_south.psd], Length 28603 and internal path: Things/Addons/Blood_Marks/Xenomorph_Kills/Mark_Thrumbomorphkill_south
 Texture TribalA has dimensions of 64 x 64, but its mask has 128 x 128. This is not supported, texture will be excluded from atlas
 Could not execute post-long-event action. Exception: System.NullReferenceException: Object reference not set to an instance of an object
@@ -71,9 +70,9 @@ Could not execute post-long-event action. Exception: System.NullReferenceExcepti
 Translation data for language English has 4 errors. Generate translation report for more info.
 [AVP Xenomorphs] [AVP Xenomorphs] Patched Mineable.TrySpawnYield
 Xenomorph Host System Loaded
-157 Possible Hosts out of 433 Races detected: Race Setting init
-[CleaningAreaRelaunched] Loaded
+294 Possible Hosts out of 570 Races detected: Race Setting init
 Alien race successfully completed 286 patches (50 pre, 88 post, 148 trans) with harmony.
+[CleaningAreaRelaunched] Loaded
 Damage Indicators initialized.
 KCSG has Created 7615 symbolDefs for vanilla and DLCs
 Locks: Doors expanded found
@@ -98,9 +97,6 @@ NamesGalore: Injecting Names
 Chinese
 NamesGalore: Current Lang English
 [Quality Of Building] patching
-# Real Faction Guest Event Controller - Init Complete
-# Real Faction Guest - Faction Filter Init Complete
-# Real Faction Guest - Initiation Complete
 [RelevantStatsInDescription]: Skipping dps-calculation of Mortar as it has no default projectile defined
 [RelevantStatsInDescription]: Skipping dps-calculation of Foam turret as its projectile does not cause damage to health
 [RelevantStatsInDescription]: Skipping dps-calculation of Cannon as it has no default projectile defined
@@ -108,9 +104,9 @@ NamesGalore: Current Lang English
 [RelevantStatsInDescription]: Skipping dps-calculation of Incinerator turret as it has no default projectile defined
 [RelevantStatsInDescription]: Skipping dps-calculation of Graser turret as it has no default projectile defined
 (Research Tab Colors) Transpiler injected.
-Unloading 5 Unused Serialized files (Serialized files now loaded: 6)
-Unloading 661 unused Assets to reduce memory usage. Loaded Objects now: 36281.
-Total: 306.110600 ms (FindLiveObjects: 1.780500 ms CreateObjectMapping: 2.221200 ms MarkObjects: 301.216700 ms  DeleteObjects: 0.891900 ms)
+Unloading 5 Unused Serialized files (Serialized files now loaded: 7)
+Unloading 661 unused Assets to reduce memory usage. Loaded Objects now: 37945.
+Total: 329.093500 ms (FindLiveObjects: 1.904100 ms CreateObjectMapping: 2.326800 ms MarkObjects: 323.933300 ms  DeleteObjects: 0.928800 ms)
 
 MVCF successfully applied 41 patches
 [com.ogliss.rimworld.mod.rryatuja.minepatch] Patches on methods annotated as Obsolete were detected by HugsLib: RimWorld.Mineable.TrySpawnYield
@@ -124,7 +120,7 @@ CharacterEditor v1.6.3 ...done
 CameraPlus: Found mod at D:\SteamLibrary\steamapps\workshop\content\294100\867467808
 Shader 'Camera+/Bordered': fallback shader 'Diffuse' not found
 Textures were not found for one or more extended graphics for Mechanent: RobotRace/Stump_Mechanent/SynthNeck
-<color=#66ffb5>[MeleeAnim]</color> Potential patch conflicts (13):
+<color=#66ffb5>[MeleeAnim]</color> Potential patch conflicts (15):
 <color=#66ffb5>[MeleeAnim]</color> 
 System.Void Verse.PawnRenderer::RenderPawnAt(UnityEngine.Vector3 drawLoc, System.Nullable`1<Verse.Rot4> rotOverride, System.Boolean neverAimWeapon)
 Prefixes:
@@ -148,11 +144,19 @@ Postfixes:
 Verse.PreRenderResults Verse.PawnRenderer::ParallelGetPreRenderResults(UnityEngine.Vector3 drawLoc, System.Nullable`1<Verse.Rot4> rotOverride, System.Boolean neverAimWeapon, System.Boolean disableCache)
 Prefixes:
   [OskarPotocki.VEF] Prefix
+  [RedMattis.BetterPrerequisites] Prefix
   [GiddyUp] Prefix
 Transpilers:
   [rimworld.erdelf.alien_race.main] PostureTranspiler
 Postfixes:
   [co.uk.epicguru.meleeanimation] Postfix
+
+static System.Collections.Generic.List`1<Verse.FloatMenuOption> RimWorld.FloatMenuMakerMap::GetOptions(System.Collections.Generic.List`1<Verse.Pawn> selectedPawns, UnityEngine.Vector3 clickPos, RimWorld.FloatMenuContext& context)
+Prefixes:
+Transpilers:
+Postfixes:
+  [co.uk.epicguru.meleeanimation] Postfix
+  [RedMattis.BetterPrerequisites] Postfix
 
 System.Boolean Verse.HediffSet::get_HasHead()
 Prefixes:
@@ -199,6 +203,7 @@ Postfixes:
 Verse.PreRenderResults Verse.PawnRenderer::ParallelGetPreRenderResults(UnityEngine.Vector3 drawLoc, System.Nullable`1<Verse.Rot4> rotOverride, System.Boolean neverAimWeapon, System.Boolean disableCache)
 Prefixes:
   [OskarPotocki.VEF] Prefix
+  [RedMattis.BetterPrerequisites] Prefix
   [GiddyUp] Prefix
 Transpilers:
   [rimworld.erdelf.alien_race.main] PostureTranspiler
@@ -217,6 +222,7 @@ Prefixes:
 Transpilers:
 Postfixes:
   [co.uk.epicguru.meleeanimation] Postfix
+  [RedMattis.BetterPrerequisites] Postfix
 
 System.Boolean Verse.HediffSet::get_HasHead()
 Prefixes:
@@ -295,29 +301,30 @@ Prefixes:
 Transpilers:
 Postfixes:
   [PeteTimesSix.SimpleSidearms] TryCastShot
-Unloading 2 Unused Serialized files (Serialized files now loaded: 8)
-<color=#66ffb5>[MeleeAnim]</color> PreCached all retexture info in 40.1ms
-<color=#66ffb5>[MeleeAnim]</color> Loaded tweak data for 35 weapons.
-<color=#66ffb5>[MeleeAnim]</color> ogliss.avpxenomorphs 'AVP Xenomorphs' has 3 missing weapon tweak data.
+Unloading 2 Unused Serialized files (Serialized files now loaded: 9)
+<color=#66ffb5>[MeleeAnim]</color> PreCached all retexture info in 61.3ms
+<color=#66ffb5>[MeleeAnim]</color> Loaded tweak data for 42 weapons.
 <color=#66ffb5>[MeleeAnim]</color> ludeon.rimworld.odyssey 'Odyssey' has 2 missing weapon tweak data.
+<color=#66ffb5>[MeleeAnim]</color> ogliss.avpxenomorphs 'AVP Xenomorphs' has 3 missing weapon tweak data.
+<color=#66ffb5>[MeleeAnim]</color> redmattis.betterprerequisites 'Big and Small - Framework' has 1 missing weapon tweak data.
 <color=#66ffb5>[MeleeAnim]</color> tarojun.morishep.onioftherim 'Oni of the Rim' has 6 missing weapon tweak data.
 <color=#66ffb5>[MeleeAnim]</color> Skipping reporting of missing mod/weapons because user opted out or the feature is disabled by the developer.
-<color=#66ffb5>[MeleeAnim]</color> Patched 3 classes that directly inherit from Verb_MeleeAttack in 57.3 ms to detect hits:
+<color=#66ffb5>[MeleeAnim]</color> Patched 3 classes that directly inherit from Verb_MeleeAttack in 61.4 ms to detect hits:
 RimWorld.Verb_MeleeApplyHediff from Assembly-CSharp
 RimWorld.Verb_MeleeAttackDamage from Assembly-CSharp
 RRYautja.Verb_MeleeAttackKnockback from RRYautja
-<color=#66ffb5>[MeleeAnim]</color> Found 0 items of clothing that cover hands, took 0.78 ms:
-Unloading 55 unused Assets to reduce memory usage. Loaded Objects now: 36444.
-Total: 295.813000 ms (FindLiveObjects: 1.782600 ms CreateObjectMapping: 2.145500 ms MarkObjects: 291.764700 ms  DeleteObjects: 0.119700 ms)
+<color=#66ffb5>[MeleeAnim]</color> Found 0 items of clothing that cover hands, took 0.76 ms:
+Unloading 55 unused Assets to reduce memory usage. Loaded Objects now: 38108.
+Total: 311.366600 ms (FindLiveObjects: 1.789300 ms CreateObjectMapping: 1.261100 ms MarkObjects: 308.185600 ms  DeleteObjects: 0.129800 ms)
 
-Unloading 0 Unused Serialized files (Serialized files now loaded: 8)
+Unloading 0 Unused Serialized files (Serialized files now loaded: 9)
 Loading asset bundle MuzzleFlash.shaders-windows
 Loaded shader Unlit/AnimatedAdditiveInstanced
 [Muzzle Flash] Shader loaded from MuzzleFlash: Unlit/AnimatedAdditiveInstanced
-Unloading 0 unused Assets to reduce memory usage. Loaded Objects now: 36446.
-Total: 283.325000 ms (FindLiveObjects: 1.883400 ms CreateObjectMapping: 2.113600 ms MarkObjects: 279.270600 ms  DeleteObjects: 0.057000 ms)
+Unloading 0 unused Assets to reduce memory usage. Loaded Objects now: 38110.
+Total: 324.188500 ms (FindLiveObjects: 1.855100 ms CreateObjectMapping: 2.233000 ms MarkObjects: 320.016800 ms  DeleteObjects: 0.083300 ms)
 
-Unloading 0 Unused Serialized files (Serialized files now loaded: 9)
+Unloading 0 Unused Serialized files (Serialized files now loaded: 10)
 [Loading Progress] Why is ResearchPal.Profiler.Start from ResearchPal 1.6 - Temp calling DeepProfiler.Start (and by extension our patch) with null?! Stop it.
 [Loading Progress] Why is ResearchPal.Profiler.Start from ResearchPal 1.6 - Temp calling DeepProfiler.Start (and by extension our patch) with null?! Stop it.
 [Loading Progress] Why is ResearchPal.Profiler.Start from ResearchPal 1.6 - Temp calling DeepProfiler.Start (and by extension our patch) with null?! Stop it.
@@ -325,19 +332,19 @@ Unloading 0 Unused Serialized files (Serialized files now loaded: 9)
 [Loading Progress] Why is ResearchPal.Profiler.Start from ResearchPal 1.6 - Temp calling DeepProfiler.Start (and by extension our patch) with null?! Stop it.
 [Loading Progress] Why is ResearchPal.Profiler.Start from ResearchPal 1.6 - Temp calling DeepProfiler.Start (and by extension our patch) with null?! Stop it.
 ResearchPal :: Research layout initialized
-Unloading 0 unused Assets to reduce memory usage. Loaded Objects now: 36446.
-Total: 299.511500 ms (FindLiveObjects: 1.937100 ms CreateObjectMapping: 0.928400 ms MarkObjects: 296.588200 ms  DeleteObjects: 0.057500 ms)
+Unloading 0 unused Assets to reduce memory usage. Loaded Objects now: 38110.
+Total: 312.864900 ms (FindLiveObjects: 1.887300 ms CreateObjectMapping: 2.308000 ms MarkObjects: 308.602300 ms  DeleteObjects: 0.066700 ms)
 
-Unloading 0 Unused Serialized files (Serialized files now loaded: 9)
-Unloading 0 unused Assets to reduce memory usage. Loaded Objects now: 36446.
-Total: 309.412600 ms (FindLiveObjects: 2.363600 ms CreateObjectMapping: 1.396300 ms MarkObjects: 305.592600 ms  DeleteObjects: 0.059900 ms)
+Unloading 0 Unused Serialized files (Serialized files now loaded: 10)
+Unloading 0 unused Assets to reduce memory usage. Loaded Objects now: 38110.
+Total: 324.079700 ms (FindLiveObjects: 2.399500 ms CreateObjectMapping: 2.442200 ms MarkObjects: 319.168400 ms  DeleteObjects: 0.068900 ms)
 
 [HugsLib] initializing TerraformRimworld
 CE is trying to create default parameter lists ...
 creating default parameter list for genes...
-254 default entities for genes created
+630 default entities for genes created
 creating default parameter list for objects...
-2604 default entities for objects created
+2697 default entities for objects created
 creating default parameter list for turrets...
 44 default entities for turrets created
 ...lists created
@@ -346,28 +353,13 @@ no modifications for genes
 FoldingTent modification loaded
 no modifications for lifestages
 ...done
-Real Faction Guest: InternalGen
-FactionFix
-BackstoryFix Failed.
-System.ArgumentNullException: Value cannot be null.
-Parameter name: other
-[Ref 8EB1F5FD]
-Real Faction Guest: InternalGen
-FactionFix
-BackstoryFix Failed.
-System.ArgumentNullException: Value cannot be null.
-Parameter name: other
-[Ref AF55A1CB]
-Unloading 2 Unused Serialized files (Serialized files now loaded: 9)
-Unloading 0 unused Assets to reduce memory usage. Loaded Objects now: 38268.
-Total: 321.459300 ms (FindLiveObjects: 1.901200 ms CreateObjectMapping: 1.284400 ms MarkObjects: 318.209300 ms  DeleteObjects: 0.064100 ms)
+Unloading 3 Unused Serialized files (Serialized files now loaded: 10)
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+UnloadTime: 0.781000 ms
+Unloading 2 unused Assets to reduce memory usage. Loaded Objects now: 38402.
+Total: 334.239100 ms (FindLiveObjects: 1.800700 ms CreateObjectMapping: 1.166000 ms MarkObjects: 331.204000 ms  DeleteObjects: 0.068000 ms)
 
-Unloading 3 Unused Serialized files (Serialized files now loaded: 9)
-UnloadTime: 0.605100 ms
-Unloading 4 unused Assets to reduce memory usage. Loaded Objects now: 38783.
-Total: 334.286400 ms (FindLiveObjects: 1.981500 ms CreateObjectMapping: 1.365500 ms MarkObjects: 330.814200 ms  DeleteObjects: 0.124500 ms)
-
-Initializing new game with mods:
+Loading game from file USCSS with mods:
   - brrainz.harmony
   - ilyvion.LoadingProgress
   - Ludeon.RimWorld
@@ -375,16 +367,20 @@ Initializing new game with mods:
   - Ludeon.RimWorld.Ideology
   - Ludeon.RimWorld.Biotech
   - Ludeon.RimWorld.Anomaly
+  - Ludeon.RimWorld.Odyssey
+  - RedMattis.BetterPrerequisites
   - UnlimitedHugs.HugsLib
   - Ogliss.AVPXenomorphs
   - UnlimitedHugs.AllowTool
-  - Ludeon.RimWorld.Odyssey
+  - erdelf.HumanoidAlienRaces
+  - RedMattis.BigSmall.Core
+  - RedMattis.MoreXenos
+  - RedMattis.BiggerGravship
   - Darknote.BunkBeds
   - brrainz.cameraplus
   - Aoba.Tent
   - void.charactereditor
   - Cerule.CleaningAreaRelaunched
-  - erdelf.HumanoidAlienRaces
   - zal.covetheus
   - CaesarV6.DamageIndicators
   - Woolyung.DoTheRitualsYourselves
@@ -429,6 +425,7 @@ Initializing new game with mods:
   - Doug.NoJobAuthors
   - mrwireman.Noconduit
   - tarojun.morishep.onioftherim
+  - vera.bug
   - komunre.BetterExp.PassiveResearch
   - Mlie.PawnNameVariety
   - Arkymn.SlowerPawnTickRate
@@ -436,7 +433,6 @@ Initializing new game with mods:
   - DawnsGlow.qualcolor
   - sdknm2.QualityOfBuilding
   - ratys.rtsolarflareshield
-  - rtxyd.RealFactionGuest
   - Mlie.RealisticHumanSounds
   - Verniy709.RealisticHumanSounds.HARPatch
   - Mlie.RelevantStatsInDescription
@@ -464,681 +460,65 @@ Initializing new game with mods:
   - Garwel.StartingTechLevel
   - void.terraformrimworld
   - Arylice.Rimworld.AutomaticHunting
-[AVP Xenomorphs] Created Xenomorph faction during pawn generation (was missing).
+Could not resolve reference to object with loadID Thing_Human40235 of type Verse.Pawn. Was it compressed away, destroyed, had no ID number, or not saved/loaded right? curParent=RimWorld.RelationshipRecord curPathRelToParent=/references
+Could not resolve reference to object with loadID Thing_Human40266 of type Verse.Pawn. Was it compressed away, destroyed, had no ID number, or not saved/loaded right? curParent=RimWorld.RelationshipRecord curPathRelToParent=/references
+Could not resolve reference to object with loadID Thing_Human40266 of type Verse.Pawn. Was it compressed away, destroyed, had no ID number, or not saved/loaded right? curParent=RimWorld.RelationshipRecord curPathRelToParent=/references
+Could not resolve reference to object with loadID Thing_Human59826 of type Verse.Pawn. Was it compressed away, destroyed, had no ID number, or not saved/loaded right? curParent=RimWorld.RelationshipRecord curPathRelToParent=/references
+Could not resolve reference to object with loadID Thing_Human59826 of type Verse.Pawn. Was it compressed away, destroyed, had no ID number, or not saved/loaded right? curParent=RimWorld.RelationshipRecord curPathRelToParent=/references
+Could not resolve reference to object with loadID Lord_10 of type Verse.AI.Group.Lord. Was it compressed away, destroyed, had no ID number, or not saved/loaded right? curParent=VEF.Storyteller.RaidGroup curPathRelToParent=/lords
+Could not resolve reference to object with loadID Faction_25 of type RimWorld.Faction. Was it compressed away, destroyed, had no ID number, or not saved/loaded right? curParent=VEF.Storyteller.RaidGroup curPathRelToParent=
+Could not resolve reference to object with loadID Thing_Human59871 of type Verse.Pawn. Was it compressed away, destroyed, had no ID number, or not saved/loaded right? curParent=RimWorld.DirectPawnRelation curPathRelToParent=
+Could not resolve reference to object with loadID Thing_Human59865 of type Verse.Pawn. Was it compressed away, destroyed, had no ID number, or not saved/loaded right? curParent=RimWorld.DirectPawnRelation curPathRelToParent=
+Could not resolve reference to object with loadID Thing_Human40208 of type Verse.Pawn. Was it compressed away, destroyed, had no ID number, or not saved/loaded right? curParent=RimWorld.DirectPawnRelation curPathRelToParent=
+Could not resolve reference to object with loadID Thing_Human59826 of type Verse.Pawn. Was it compressed away, destroyed, had no ID number, or not saved/loaded right? curParent=RimWorld.DirectPawnRelation curPathRelToParent=
+Pawn Noskosteos has relation "ExLover" with null pawn after loading. This means that we forgot to serialize pawns somewhere (e.g. pawns from passing trade ships).
+Pawn Damiane has relation "Parent" with null pawn after loading. This means that we forgot to serialize pawns somewhere (e.g. pawns from passing trade ships).
+Pawn Gratian has relation "Parent" with null pawn after loading. This means that we forgot to serialize pawns somewhere (e.g. pawns from passing trade ships).
+Pawn Theophas has relation "Spouse" with null pawn after loading. This means that we forgot to serialize pawns somewhere (e.g. pawns from passing trade ships).
+Could not do PostLoadInit on RimWorld.Pawn_TrainingTracker: System.NullReferenceException: Object reference not set to an instance of an object
+[Ref F8FF2929]
+  at RimWorld.Pawn_TrainingTracker.CanAssignToTrain (RimWorld.TrainableDef td, Verse.ThingDef pawnDef, System.Boolean& visible, Verse.Pawn pawn) [0x0018d] in <61e4173561894da49d210260257b5097>:0 
+  at RimWorld.Pawn_TrainingTracker.CanAssignToTrain (RimWorld.TrainableDef td, System.Boolean& visible) [0x00000] in <61e4173561894da49d210260257b5097>:0 
+  at RimWorld.Pawn_TrainingTracker.CanAssignToTrain (RimWorld.TrainableDef td) [0x00000] in <61e4173561894da49d210260257b5097>:0 
+  at Verse.BackCompatibility.PawnTrainingTrackerPostLoadInit (RimWorld.Pawn_TrainingTracker tracker, Verse.DefMap`2[RimWorld.TrainableDef,System.Boolean]& wantedTrainables, Verse.DefMap`2[RimWorld.TrainableDef,System.Int32]& steps, Verse.DefMap`2[RimWorld.TrainableDef,System.Boolean]& learned) [0x00082] in <61e4173561894da49d210260257b5097>:0 
+  at RimWorld.Pawn_TrainingTracker.ExposeData () [0x0006a] in <61e4173561894da49d210260257b5097>:0 
+  at Verse.PostLoadIniter.DoAllPostLoadInits () [0x00032] in <61e4173561894da49d210260257b5097>:0 
+Could not do PostLoadInit on RimWorld.Pawn_TrainingTracker: System.NullReferenceException: Object reference not set to an instance of an object
+[Ref F8FF2929] Duplicate stacktrace, see ref for original
+Could not do PostLoadInit on RimWorld.Pawn_TrainingTracker: System.NullReferenceException: Object reference not set to an instance of an object
+[Ref F8FF2929] Duplicate stacktrace, see ref for original
+Could not do PostLoadInit on RimWorld.Pawn_TrainingTracker: System.NullReferenceException: Object reference not set to an instance of an object
+[Ref F8FF2929] Duplicate stacktrace, see ref for original
+Could not do PostLoadInit on RimWorld.Pawn_TrainingTracker: System.NullReferenceException: Object reference not set to an instance of an object
+[Ref F8FF2929] Duplicate stacktrace, see ref for original
+Could not do PostLoadInit on RimWorld.Pawn_TrainingTracker: System.NullReferenceException: Object reference not set to an instance of an object
+[Ref F8FF2929] Duplicate stacktrace, see ref for original
+<color=#66ffb5>[MeleeAnim]</color> Loaded 0 animation renderers on map Map-0-PlayerHome
+Could not do PostLoadInit on RimWorld.Pawn_TrainingTracker: System.NullReferenceException: Object reference not set to an instance of an object
+[Ref F8FF2929] Duplicate stacktrace, see ref for original
+Could not do PostLoadInit on RimWorld.Pawn_TrainingTracker: System.NullReferenceException: Object reference not set to an instance of an object
+[Ref F8FF2929] Duplicate stacktrace, see ref for original
+Could not do PostLoadInit on RimWorld.Pawn_TrainingTracker: System.NullReferenceException: Object reference not set to an instance of an object
+[Ref F8FF2929] Duplicate stacktrace, see ref for original
+Could not do PostLoadInit on RimWorld.Pawn_TrainingTracker: System.NullReferenceException: Object reference not set to an instance of an object
+[Ref F8FF2929] Duplicate stacktrace, see ref for original
+Could not do PostLoadInit on RimWorld.Pawn_TrainingTracker: System.NullReferenceException: Object reference not set to an instance of an object
+[Ref F8FF2929] Duplicate stacktrace, see ref for original
+Could not do PostLoadInit on RimWorld.Pawn_TrainingTracker: System.NullReferenceException: Object reference not set to an instance of an object
+[Ref F8FF2929] Duplicate stacktrace, see ref for original
+Could not do PostLoadInit on RimWorld.Pawn_TrainingTracker: System.NullReferenceException: Object reference not set to an instance of an object
+[Ref F8FF2929] Duplicate stacktrace, see ref for original
+Could not do PostLoadInit on RimWorld.Pawn_TrainingTracker: System.NullReferenceException: Object reference not set to an instance of an object
+[Ref F8FF2929] Duplicate stacktrace, see ref for original
+Could not do PostLoadInit on RimWorld.Pawn_TrainingTracker: System.NullReferenceException: Object reference not set to an instance of an object
+[Ref F8FF2929] Duplicate stacktrace, see ref for original
+[Big and Small]: Found 7 AlienRace.ThingDef_AlienRace ThingDefs.
+These are either from HAR races or B&S races automatically converted for compatibility.
 checking editor settings...
 bodysizes genes are active
 [AVP Xenomorphs] Xenomorph hive faction already exists.
-Unloading 0 Unused Serialized files (Serialized files now loaded: 9)
-Unloading 1 unused Assets to reduce memory usage. Loaded Objects now: 45141.
-Total: 338.773700 ms (FindLiveObjects: 2.291200 ms CreateObjectMapping: 3.130200 ms MarkObjects: 333.255800 ms  DeleteObjects: 0.096000 ms)
+Unloading 1 Unused Serialized files (Serialized files now loaded: 10)
+Unloading 1 unused Assets to reduce memory usage. Loaded Objects now: 46778.
+Total: 422.051200 ms (FindLiveObjects: 2.388200 ms CreateObjectMapping: 3.126700 ms MarkObjects: 416.431900 ms  DeleteObjects: 0.103700 ms)
 
-# Real Faction Guest - Preparing Player Faction Races Weights Capture
-# Real Faction Guest - Race [Human] ; Weight [87.50 %] ; Factions [OutlanderCivil, OutlanderRough, TribeCivil, TribeRough, TribeSavage, Pirate, Empire, TribeCannibal, NudistTribe, CannibalPirate, TribeRoughNeanderthal, PirateYttakin, TribeSavageImpid, OutlanderRoughPig, PirateWaster, TradersGuild, SynthCivil]
-<color=#FF6D0080>[RFG Warning]</color><color=#00FFFFFF>Trying to find pawn race's potential factions, but none. This means the race has special generation method.</color>
-# Real Faction Guest - Race [Android_Walter] ; Weight [12.50 %] ; Factions [None]
-Wrote screenshot C:\Users\clint\AppData\LocalLow\Ludeon Studios\RimWorld by Ludeon Studios\RimSaves\Previews\USCSS Colony 2145.dat of size 136766
-AM.Events.AudioEvent must be instantiated using the ScriptableObject.CreateInstance method instead of new AudioEvent.
-AM.Events.CamShakeEvent must be instantiated using the ScriptableObject.CreateInstance method instead of new CamShakeEvent.
-AM.Events.ClashAudioEvent must be instantiated using the ScriptableObject.CreateInstance method instead of new ClashAudioEvent.
-AM.Events.DamageEffectEvent must be instantiated using the ScriptableObject.CreateInstance method instead of new DamageEffectEvent.
-AM.Events.DuelEvent must be instantiated using the ScriptableObject.CreateInstance method instead of new DuelEvent.
-AM.Events.GoreSplashEvent must be instantiated using the ScriptableObject.CreateInstance method instead of new GoreSplashEvent.
-AM.Events.KillPawnEvent must be instantiated using the ScriptableObject.CreateInstance method instead of new KillPawnEvent.
-AM.Events.MoteEvent must be instantiated using the ScriptableObject.CreateInstance method instead of new MoteEvent.
-AM.Events.PuntPawnEvent must be instantiated using the ScriptableObject.CreateInstance method instead of new PuntPawnEvent.
-AM.Events.TextMoteEvent must be instantiated using the ScriptableObject.CreateInstance method instead of new TextMoteEvent.
-AM.Events.DamageEffectEvent must be instantiated using the ScriptableObject.CreateInstance method instead of new DamageEffectEvent.
-AM.Events.DamageEffectEvent must be instantiated using the ScriptableObject.CreateInstance method instead of new DamageEffectEvent.
-AM.Events.GoreSplashEvent must be instantiated using the ScriptableObject.CreateInstance method instead of new GoreSplashEvent.
-AM.Events.KillPawnEvent must be instantiated using the ScriptableObject.CreateInstance method instead of new KillPawnEvent.
-AM.Events.KillPawnEvent must be instantiated using the ScriptableObject.CreateInstance method instead of new KillPawnEvent.
-<color=#66ffb5>[MeleeAnim]</color> Failed to find any hit for 15.30 dmg that would not kill, down or amputate part on Fingerspike44337. Will keep trying for the remaining 14.70 dmg.
-<color=#66ffb5>[MeleeAnim]</color> Failed to find any hit for 14.70 dmg that would not kill, down or amputate part on Fingerspike44337. Will keep trying for the remaining 0.00 dmg.
-<color=#66ffb5>[MeleeAnim]</color> Dealt 0.00 pts of dmg as part of injury to Fingerspike44337 (aimed to deal 30.00).
-Wrote screenshot C:\Users\clint\AppData\LocalLow\Ludeon Studios\RimWorld by Ludeon Studios\RimSaves\Previews\Autosave-1.dat of size 84485
-Wrote screenshot C:\Users\clint\AppData\LocalLow\Ludeon Studios\RimWorld by Ludeon Studios\RimSaves\Previews\Autosave-2.dat of size 81692
-Exception in UIRootUpdate: System.ArgumentNullException: Value cannot be null.
-Parameter name: key
-[Ref B9E4F9EB]
- [0x00006] in <51fded79cd284d4d911c5949aff4cb21>:0 
-  at System.Collections.Generic.Dictionary`2[TKey,TValue].FindEntry (TKey key) [0x00008] in <51fded79cd284d4d911c5949aff4cb21>:0 
-  at System.Collections.Generic.Dictionary`2[TKey,TValue].TryGetValue (TKey key, TValue& value) [0x00000] in <51fded79cd284d4d911c5949aff4cb21>:0 
-  at Verse.ModContentHolder`1[T].Get (System.String path) [0x00000] in <61e4173561894da49d210260257b5097>:0 
-  at Verse.ContentFinder`1[T].Get (System.String itemPath, System.Boolean reportFailure) [0x00066] in <61e4173561894da49d210260257b5097>:0 
-  at Verse.Graphic_Single.Init (Verse.GraphicRequest req) [0x00048] in <61e4173561894da49d210260257b5097>:0 
-  at Verse.GraphicDatabase.GetInner[T] (Verse.GraphicRequest req) [0x000a5] in <61e4173561894da49d210260257b5097>:0 
-  at Verse.GraphicDatabase.Get[T] (System.String path, UnityEngine.Shader shader, UnityEngine.Vector2 drawSize, UnityEngine.Color color, System.Int32 renderQueue) [0x0001d] in <61e4173561894da49d210260257b5097>:0 
-  at Replace_Stuff.OverMineable.ShowGhostOverFog.GetRenderHigh (System.String path, UnityEngine.Shader shader, UnityEngine.Vector2 drawSize, UnityEngine.Color color) [0x00000] in <328a960ccd7e402da507c97704111424>:0 
-  at Verse.GhostUtility.GhostGraphicFor (Verse.Graphic baseGraphic, Verse.ThingDef thingDef, UnityEngine.Color ghostCol, Verse.ThingDef stuff) [0x0008b] in <61e4173561894da49d210260257b5097>:0 
-    - TRANSPILER Uuugggg.rimworld.Replace_Stuff.main: IEnumerable`1 Replace_Stuff.OverMineable.ShowGhostOverFog:Transpiler(IEnumerable`1 instructions)
-    - TRANSPILER rimworld.jecrell.doorsexpanded: IEnumerable`1 DoorsExpanded.HarmonyPatches:DoorExpandedGhostGraphicForTranspiler(IEnumerable`1 instructions)
-  at Verse.GhostDrawer.DrawGhostThing (Verse.IntVec3 center, Verse.Rot4 rot, Verse.ThingDef thingDef, Verse.Graphic baseGraphic, UnityEngine.Color ghostCol, Verse.AltitudeLayer drawAltitude, Verse.Thing thing, System.Boolean drawPlaceWorkers, Verse.ThingDef stuff) [0x0001c] in <61e4173561894da49d210260257b5097>:0 
-    - TRANSPILER rimworld.jecrell.doorsexpanded: IEnumerable`1 DoorsExpanded.HarmonyPatches:DoorExpandedDrawGhostThingTranspiler(IEnumerable`1 instructions)
-  at RimWorld.Designator_Install.DrawGhost (UnityEngine.Color ghostCol) [0x000a5] in <61e4173561894da49d210260257b5097>:0 
-  at RimWorld.Designator_Place.SelectedUpdate () [0x0007f] in <61e4173561894da49d210260257b5097>:0 
-  at RimWorld.Designator_Install.SelectedUpdate () [0x00000] in <61e4173561894da49d210260257b5097>:0 
-    - POSTFIX Kikohi.PipeSystem: Void PipeSystem.Designator_Install_Patch:Postfix(Designator_Install __instance)
-  at Verse.DesignatorManager.DesignatorManagerUpdate () [0x00013] in <61e4173561894da49d210260257b5097>:0 
-  at RimWorld.MapInterface.MapInterfaceUpdate () [0x00025] in <61e4173561894da49d210260257b5097>:0 
-  at RimWorld.UIRoot_Play.UIRootUpdate () [0x00015] in <61e4173561894da49d210260257b5097>:0 
-Exception in UIRootUpdate: System.ArgumentNullException: Value cannot be null.
-Parameter name: key
-[Ref B9E4F9EB] Duplicate stacktrace, see ref for original
-Exception in UIRootUpdate: System.ArgumentNullException: Value cannot be null.
-Parameter name: key
-[Ref B9E4F9EB] Duplicate stacktrace, see ref for original
-Exception in UIRootUpdate: System.ArgumentNullException: Value cannot be null.
-Parameter name: key
-[Ref B9E4F9EB] Duplicate stacktrace, see ref for original
-Exception in UIRootUpdate: System.ArgumentNullException: Value cannot be null.
-Parameter name: key
-[Ref B9E4F9EB] Duplicate stacktrace, see ref for original
-Exception in UIRootUpdate: System.ArgumentNullException: Value cannot be null.
-Parameter name: key
-[Ref B9E4F9EB] Duplicate stacktrace, see ref for original
-Exception in UIRootUpdate: System.ArgumentNullException: Value cannot be null.
-Parameter name: key
-[Ref B9E4F9EB] Duplicate stacktrace, see ref for original
-Exception in UIRootUpdate: System.ArgumentNullException: Value cannot be null.
-Parameter name: key
-[Ref B9E4F9EB] Duplicate stacktrace, see ref for original
-Exception in UIRootUpdate: System.ArgumentNullException: Value cannot be null.
-Parameter name: key
-[Ref B9E4F9EB] Duplicate stacktrace, see ref for original
-Exception in UIRootUpdate: System.ArgumentNullException: Value cannot be null.
-Parameter name: key
-[Ref B9E4F9EB] Duplicate stacktrace, see ref for original
-Exception in UIRootUpdate: System.ArgumentNullException: Value cannot be null.
-Parameter name: key
-[Ref B9E4F9EB] Duplicate stacktrace, see ref for original
-Exception in UIRootUpdate: System.ArgumentNullException: Value cannot be null.
-Parameter name: key
-[Ref B9E4F9EB] Duplicate stacktrace, see ref for original
-Exception in UIRootUpdate: System.ArgumentNullException: Value cannot be null.
-Parameter name: key
-[Ref B9E4F9EB] Duplicate stacktrace, see ref for original
-Exception in UIRootUpdate: System.ArgumentNullException: Value cannot be null.
-Parameter name: key
-[Ref B9E4F9EB] Duplicate stacktrace, see ref for original
-Exception in UIRootUpdate: System.ArgumentNullException: Value cannot be null.
-Parameter name: key
-[Ref B9E4F9EB] Duplicate stacktrace, see ref for original
-Exception in UIRootUpdate: System.ArgumentNullException: Value cannot be null.
-Parameter name: key
-[Ref B9E4F9EB] Duplicate stacktrace, see ref for original
-Exception in UIRootUpdate: System.ArgumentNullException: Value cannot be null.
-Parameter name: key
-[Ref B9E4F9EB] Duplicate stacktrace, see ref for original
-Exception in UIRootUpdate: System.ArgumentNullException: Value cannot be null.
-Parameter name: key
-[Ref B9E4F9EB] Duplicate stacktrace, see ref for original
-Exception in UIRootUpdate: System.ArgumentNullException: Value cannot be null.
-Parameter name: key
-[Ref B9E4F9EB] Duplicate stacktrace, see ref for original
-Exception in UIRootUpdate: System.ArgumentNullException: Value cannot be null.
-Parameter name: key
-[Ref B9E4F9EB] Duplicate stacktrace, see ref for original
-Exception in UIRootUpdate: System.ArgumentNullException: Value cannot be null.
-Parameter name: key
-[Ref B9E4F9EB] Duplicate stacktrace, see ref for original
-Exception in UIRootUpdate: System.ArgumentNullException: Value cannot be null.
-Parameter name: key
-[Ref B9E4F9EB] Duplicate stacktrace, see ref for original
-Exception in UIRootUpdate: System.ArgumentNullException: Value cannot be null.
-Parameter name: key
-[Ref B9E4F9EB] Duplicate stacktrace, see ref for original
-Exception in UIRootUpdate: System.ArgumentNullException: Value cannot be null.
-Parameter name: key
-[Ref B9E4F9EB] Duplicate stacktrace, see ref for original
-Exception in UIRootUpdate: System.ArgumentNullException: Value cannot be null.
-Parameter name: key
-[Ref B9E4F9EB] Duplicate stacktrace, see ref for original
-Exception in UIRootUpdate: System.ArgumentNullException: Value cannot be null.
-Parameter name: key
-[Ref B9E4F9EB] Duplicate stacktrace, see ref for original
-Exception in UIRootUpdate: System.ArgumentNullException: Value cannot be null.
-Parameter name: key
-[Ref B9E4F9EB] Duplicate stacktrace, see ref for original
-Exception in UIRootUpdate: System.ArgumentNullException: Value cannot be null.
-Parameter name: key
-[Ref B9E4F9EB] Duplicate stacktrace, see ref for original
-Exception in UIRootUpdate: System.ArgumentNullException: Value cannot be null.
-Parameter name: key
-[Ref B9E4F9EB] Duplicate stacktrace, see ref for original
-Exception in UIRootUpdate: System.ArgumentNullException: Value cannot be null.
-Parameter name: key
-[Ref B9E4F9EB] Duplicate stacktrace, see ref for original
-Exception in UIRootUpdate: System.ArgumentNullException: Value cannot be null.
-Parameter name: key
-[Ref B9E4F9EB] Duplicate stacktrace, see ref for original
-Exception in UIRootUpdate: System.ArgumentNullException: Value cannot be null.
-Parameter name: key
-[Ref B9E4F9EB] Duplicate stacktrace, see ref for original
-Exception in UIRootUpdate: System.ArgumentNullException: Value cannot be null.
-Parameter name: key
-[Ref B9E4F9EB] Duplicate stacktrace, see ref for original
-Exception in UIRootUpdate: System.ArgumentNullException: Value cannot be null.
-Parameter name: key
-[Ref B9E4F9EB] Duplicate stacktrace, see ref for original
-Exception in UIRootUpdate: System.ArgumentNullException: Value cannot be null.
-Parameter name: key
-[Ref B9E4F9EB] Duplicate stacktrace, see ref for original
-Exception in UIRootUpdate: System.ArgumentNullException: Value cannot be null.
-Parameter name: key
-[Ref B9E4F9EB] Duplicate stacktrace, see ref for original
-Exception in UIRootUpdate: System.ArgumentNullException: Value cannot be null.
-Parameter name: key
-[Ref B9E4F9EB] Duplicate stacktrace, see ref for original
-Exception in UIRootUpdate: System.ArgumentNullException: Value cannot be null.
-Parameter name: key
-[Ref B9E4F9EB] Duplicate stacktrace, see ref for original
-Exception in UIRootUpdate: System.ArgumentNullException: Value cannot be null.
-Parameter name: key
-[Ref B9E4F9EB] Duplicate stacktrace, see ref for original
-Exception in UIRootUpdate: System.ArgumentNullException: Value cannot be null.
-Parameter name: key
-[Ref B9E4F9EB] Duplicate stacktrace, see ref for original
-Exception in UIRootUpdate: System.ArgumentNullException: Value cannot be null.
-Parameter name: key
-[Ref B9E4F9EB] Duplicate stacktrace, see ref for original
-Exception in UIRootUpdate: System.ArgumentNullException: Value cannot be null.
-Parameter name: key
-[Ref B9E4F9EB] Duplicate stacktrace, see ref for original
-Exception in UIRootUpdate: System.ArgumentNullException: Value cannot be null.
-Parameter name: key
-[Ref B9E4F9EB] Duplicate stacktrace, see ref for original
-Exception in UIRootUpdate: System.ArgumentNullException: Value cannot be null.
-Parameter name: key
-[Ref B9E4F9EB] Duplicate stacktrace, see ref for original
-Exception in UIRootUpdate: System.ArgumentNullException: Value cannot be null.
-Parameter name: key
-[Ref B9E4F9EB] Duplicate stacktrace, see ref for original
-Exception in UIRootUpdate: System.ArgumentNullException: Value cannot be null.
-Parameter name: key
-[Ref B9E4F9EB] Duplicate stacktrace, see ref for original
-Exception in UIRootUpdate: System.ArgumentNullException: Value cannot be null.
-Parameter name: key
-[Ref B9E4F9EB] Duplicate stacktrace, see ref for original
-Exception in UIRootUpdate: System.ArgumentNullException: Value cannot be null.
-Parameter name: key
-[Ref B9E4F9EB] Duplicate stacktrace, see ref for original
-Exception in UIRootUpdate: System.ArgumentNullException: Value cannot be null.
-Parameter name: key
-[Ref B9E4F9EB] Duplicate stacktrace, see ref for original
-Exception in UIRootUpdate: System.ArgumentNullException: Value cannot be null.
-Parameter name: key
-[Ref B9E4F9EB] Duplicate stacktrace, see ref for original
-Exception in UIRootUpdate: System.ArgumentNullException: Value cannot be null.
-Parameter name: key
-[Ref B9E4F9EB] Duplicate stacktrace, see ref for original
-Exception in UIRootUpdate: System.ArgumentNullException: Value cannot be null.
-Parameter name: key
-[Ref B9E4F9EB] Duplicate stacktrace, see ref for original
-Exception in UIRootUpdate: System.ArgumentNullException: Value cannot be null.
-Parameter name: key
-[Ref B9E4F9EB] Duplicate stacktrace, see ref for original
-Exception in UIRootUpdate: System.ArgumentNullException: Value cannot be null.
-Parameter name: key
-[Ref B9E4F9EB] Duplicate stacktrace, see ref for original
-Exception in UIRootUpdate: System.ArgumentNullException: Value cannot be null.
-Parameter name: key
-[Ref B9E4F9EB] Duplicate stacktrace, see ref for original
-Exception in UIRootUpdate: System.ArgumentNullException: Value cannot be null.
-Parameter name: key
-[Ref B9E4F9EB] Duplicate stacktrace, see ref for original
-Exception in UIRootUpdate: System.ArgumentNullException: Value cannot be null.
-Parameter name: key
-[Ref B9E4F9EB] Duplicate stacktrace, see ref for original
-Exception in UIRootUpdate: System.ArgumentNullException: Value cannot be null.
-Parameter name: key
-[Ref B9E4F9EB] Duplicate stacktrace, see ref for original
-Exception in UIRootUpdate: System.ArgumentNullException: Value cannot be null.
-Parameter name: key
-[Ref B9E4F9EB] Duplicate stacktrace, see ref for original
-Exception in UIRootUpdate: System.ArgumentNullException: Value cannot be null.
-Parameter name: key
-[Ref B9E4F9EB] Duplicate stacktrace, see ref for original
-Exception in UIRootUpdate: System.ArgumentNullException: Value cannot be null.
-Parameter name: key
-[Ref B9E4F9EB] Duplicate stacktrace, see ref for original
-Exception in UIRootUpdate: System.ArgumentNullException: Value cannot be null.
-Parameter name: key
-[Ref B9E4F9EB] Duplicate stacktrace, see ref for original
-Exception in UIRootUpdate: System.ArgumentNullException: Value cannot be null.
-Parameter name: key
-[Ref B9E4F9EB] Duplicate stacktrace, see ref for original
-Exception in UIRootUpdate: System.ArgumentNullException: Value cannot be null.
-Parameter name: key
-[Ref B9E4F9EB] Duplicate stacktrace, see ref for original
-Exception in UIRootUpdate: System.ArgumentNullException: Value cannot be null.
-Parameter name: key
-[Ref B9E4F9EB] Duplicate stacktrace, see ref for original
-Exception in UIRootUpdate: System.ArgumentNullException: Value cannot be null.
-Parameter name: key
-[Ref B9E4F9EB] Duplicate stacktrace, see ref for original
-Exception in UIRootUpdate: System.ArgumentNullException: Value cannot be null.
-Parameter name: key
-[Ref B9E4F9EB] Duplicate stacktrace, see ref for original
-Exception in UIRootUpdate: System.ArgumentNullException: Value cannot be null.
-Parameter name: key
-[Ref B9E4F9EB] Duplicate stacktrace, see ref for original
-Exception in UIRootUpdate: System.ArgumentNullException: Value cannot be null.
-Parameter name: key
-[Ref B9E4F9EB] Duplicate stacktrace, see ref for original
-Exception in UIRootUpdate: System.ArgumentNullException: Value cannot be null.
-Parameter name: key
-[Ref B9E4F9EB] Duplicate stacktrace, see ref for original
-Exception in UIRootUpdate: System.ArgumentNullException: Value cannot be null.
-Parameter name: key
-[Ref B9E4F9EB] Duplicate stacktrace, see ref for original
-Exception in UIRootUpdate: System.ArgumentNullException: Value cannot be null.
-Parameter name: key
-[Ref B9E4F9EB] Duplicate stacktrace, see ref for original
-Exception in UIRootUpdate: System.ArgumentNullException: Value cannot be null.
-Parameter name: key
-[Ref B9E4F9EB] Duplicate stacktrace, see ref for original
-Exception in UIRootUpdate: System.ArgumentNullException: Value cannot be null.
-Parameter name: key
-[Ref B9E4F9EB] Duplicate stacktrace, see ref for original
-Exception in UIRootUpdate: System.ArgumentNullException: Value cannot be null.
-Parameter name: key
-[Ref B9E4F9EB] Duplicate stacktrace, see ref for original
-Exception in UIRootUpdate: System.ArgumentNullException: Value cannot be null.
-Parameter name: key
-[Ref B9E4F9EB] Duplicate stacktrace, see ref for original
-Exception in UIRootUpdate: System.ArgumentNullException: Value cannot be null.
-Parameter name: key
-[Ref B9E4F9EB] Duplicate stacktrace, see ref for original
-Exception in UIRootUpdate: System.ArgumentNullException: Value cannot be null.
-Parameter name: key
-[Ref B9E4F9EB] Duplicate stacktrace, see ref for original
-Exception in UIRootUpdate: System.ArgumentNullException: Value cannot be null.
-Parameter name: key
-[Ref B9E4F9EB] Duplicate stacktrace, see ref for original
-Exception in UIRootUpdate: System.ArgumentNullException: Value cannot be null.
-Parameter name: key
-[Ref B9E4F9EB] Duplicate stacktrace, see ref for original
-Exception in UIRootUpdate: System.ArgumentNullException: Value cannot be null.
-Parameter name: key
-[Ref B9E4F9EB] Duplicate stacktrace, see ref for original
-Exception in UIRootUpdate: System.ArgumentNullException: Value cannot be null.
-Parameter name: key
-[Ref B9E4F9EB] Duplicate stacktrace, see ref for original
-Exception in UIRootUpdate: System.ArgumentNullException: Value cannot be null.
-Parameter name: key
-[Ref B9E4F9EB] Duplicate stacktrace, see ref for original
-Exception in UIRootUpdate: System.ArgumentNullException: Value cannot be null.
-Parameter name: key
-[Ref B9E4F9EB] Duplicate stacktrace, see ref for original
-Exception in UIRootUpdate: System.ArgumentNullException: Value cannot be null.
-Parameter name: key
-[Ref B9E4F9EB] Duplicate stacktrace, see ref for original
-Exception in UIRootUpdate: System.ArgumentNullException: Value cannot be null.
-Parameter name: key
-[Ref B9E4F9EB] Duplicate stacktrace, see ref for original
-Exception in UIRootUpdate: System.ArgumentNullException: Value cannot be null.
-Parameter name: key
-[Ref B9E4F9EB] Duplicate stacktrace, see ref for original
-Exception in UIRootUpdate: System.ArgumentNullException: Value cannot be null.
-Parameter name: key
-[Ref B9E4F9EB] Duplicate stacktrace, see ref for original
-Exception in UIRootUpdate: System.ArgumentNullException: Value cannot be null.
-Parameter name: key
-[Ref B9E4F9EB] Duplicate stacktrace, see ref for original
-Exception in UIRootUpdate: System.ArgumentNullException: Value cannot be null.
-Parameter name: key
-[Ref B9E4F9EB] Duplicate stacktrace, see ref for original
-Exception in UIRootUpdate: System.ArgumentNullException: Value cannot be null.
-Parameter name: key
-[Ref B9E4F9EB] Duplicate stacktrace, see ref for original
-Exception in UIRootUpdate: System.ArgumentNullException: Value cannot be null.
-Parameter name: key
-[Ref B9E4F9EB] Duplicate stacktrace, see ref for original
-Exception in UIRootUpdate: System.ArgumentNullException: Value cannot be null.
-Parameter name: key
-[Ref B9E4F9EB] Duplicate stacktrace, see ref for original
-Exception in UIRootUpdate: System.ArgumentNullException: Value cannot be null.
-Parameter name: key
-[Ref B9E4F9EB] Duplicate stacktrace, see ref for original
-Exception in UIRootUpdate: System.ArgumentNullException: Value cannot be null.
-Parameter name: key
-[Ref B9E4F9EB] Duplicate stacktrace, see ref for original
-Exception in UIRootUpdate: System.ArgumentNullException: Value cannot be null.
-Parameter name: key
-[Ref B9E4F9EB] Duplicate stacktrace, see ref for original
-Exception in UIRootUpdate: System.ArgumentNullException: Value cannot be null.
-Parameter name: key
-[Ref B9E4F9EB] Duplicate stacktrace, see ref for original
-Exception in UIRootUpdate: System.ArgumentNullException: Value cannot be null.
-Parameter name: key
-[Ref B9E4F9EB] Duplicate stacktrace, see ref for original
-Exception in UIRootUpdate: System.ArgumentNullException: Value cannot be null.
-Parameter name: key
-[Ref B9E4F9EB] Duplicate stacktrace, see ref for original
-Exception in UIRootUpdate: System.ArgumentNullException: Value cannot be null.
-Parameter name: key
-[Ref B9E4F9EB] Duplicate stacktrace, see ref for original
-Wrote screenshot C:\Users\clint\AppData\LocalLow\Ludeon Studios\RimWorld by Ludeon Studios\RimSaves\Previews\Autosave-3.dat of size 66431
-Wrote screenshot C:\Users\clint\AppData\LocalLow\Ludeon Studios\RimWorld by Ludeon Studios\RimSaves\Previews\Autosave-4.dat of size 67073
-RandomElementByWeight with totalWeight=0 - use TryRandomElementByWeight.
-RandomElementByWeight with totalWeight=0 - use TryRandomElementByWeight.
-RandomElementByWeight with totalWeight=0 - use TryRandomElementByWeight.
-RandomElementByWeight with totalWeight=0 - use TryRandomElementByWeight.
-RandomElementByWeight with totalWeight=0 - use TryRandomElementByWeight.
-RandomElementByWeight with totalWeight=0 - use TryRandomElementByWeight.
-RandomElementByWeight with totalWeight=0 - use TryRandomElementByWeight.
-RandomElementByWeight with totalWeight=0 - use TryRandomElementByWeight.
-RandomElementByWeight with totalWeight=0 - use TryRandomElementByWeight.
-RandomElementByWeight with totalWeight=0 - use TryRandomElementByWeight.
-Wrote screenshot C:\Users\clint\AppData\LocalLow\Ludeon Studios\RimWorld by Ludeon Studios\RimSaves\Previews\Autosave-5.dat of size 146298
-RRY_Xenomorph_FaceHugger49579 issued IdleError wait job. The behavior tree should never get here.
-queen can reach eggsite
-[AVP Xenomorphs] [Detach] Detaching facehugger from Sardone (impregnation complete) (tick 316960)
-[AVP Xenomorphs] [Detach] Detaching facehugger from Meduna (impregnation complete) (tick 317505)
-[AVP Xenomorphs] [Detach] Detaching facehugger from Whistler (impregnation complete) (tick 317912)
-queen can reach eggsite
-Exception in UIRootUpdate: System.ArgumentNullException: Value cannot be null.
-Parameter name: key
-[Ref B9E4F9EB] Duplicate stacktrace, see ref for original
-Exception in UIRootUpdate: System.ArgumentNullException: Value cannot be null.
-Parameter name: key
-[Ref B9E4F9EB] Duplicate stacktrace, see ref for original
-Exception in UIRootUpdate: System.ArgumentNullException: Value cannot be null.
-Parameter name: key
-[Ref B9E4F9EB] Duplicate stacktrace, see ref for original
-Exception in UIRootUpdate: System.ArgumentNullException: Value cannot be null.
-Parameter name: key
-[Ref B9E4F9EB] Duplicate stacktrace, see ref for original
-Exception in UIRootUpdate: System.ArgumentNullException: Value cannot be null.
-Parameter name: key
-[Ref B9E4F9EB] Duplicate stacktrace, see ref for original
-Exception in UIRootUpdate: System.ArgumentNullException: Value cannot be null.
-Parameter name: key
-[Ref B9E4F9EB] Duplicate stacktrace, see ref for original
-Exception in UIRootUpdate: System.ArgumentNullException: Value cannot be null.
-Parameter name: key
-[Ref B9E4F9EB] Duplicate stacktrace, see ref for original
-Exception in UIRootUpdate: System.ArgumentNullException: Value cannot be null.
-Parameter name: key
-[Ref B9E4F9EB] Duplicate stacktrace, see ref for original
-Exception in UIRootUpdate: System.ArgumentNullException: Value cannot be null.
-Parameter name: key
-[Ref B9E4F9EB] Duplicate stacktrace, see ref for original
-Exception in UIRootUpdate: System.ArgumentNullException: Value cannot be null.
-Parameter name: key
-[Ref B9E4F9EB] Duplicate stacktrace, see ref for original
-Exception in UIRootUpdate: System.ArgumentNullException: Value cannot be null.
-Parameter name: key
-[Ref B9E4F9EB] Duplicate stacktrace, see ref for original
-Exception in UIRootUpdate: System.ArgumentNullException: Value cannot be null.
-Parameter name: key
-[Ref B9E4F9EB] Duplicate stacktrace, see ref for original
-Exception in UIRootUpdate: System.ArgumentNullException: Value cannot be null.
-Parameter name: key
-[Ref B9E4F9EB] Duplicate stacktrace, see ref for original
-Exception in UIRootUpdate: System.ArgumentNullException: Value cannot be null.
-Parameter name: key
-[Ref B9E4F9EB] Duplicate stacktrace, see ref for original
-Exception in UIRootUpdate: System.ArgumentNullException: Value cannot be null.
-Parameter name: key
-[Ref B9E4F9EB] Duplicate stacktrace, see ref for original
-Exception in UIRootUpdate: System.ArgumentNullException: Value cannot be null.
-Parameter name: key
-[Ref B9E4F9EB] Duplicate stacktrace, see ref for original
-Exception in UIRootUpdate: System.ArgumentNullException: Value cannot be null.
-Parameter name: key
-[Ref B9E4F9EB] Duplicate stacktrace, see ref for original
-Exception in UIRootUpdate: System.ArgumentNullException: Value cannot be null.
-Parameter name: key
-[Ref B9E4F9EB] Duplicate stacktrace, see ref for original
-Exception in UIRootUpdate: System.ArgumentNullException: Value cannot be null.
-Parameter name: key
-[Ref B9E4F9EB] Duplicate stacktrace, see ref for original
-Exception in UIRootUpdate: System.ArgumentNullException: Value cannot be null.
-Parameter name: key
-[Ref B9E4F9EB] Duplicate stacktrace, see ref for original
-Exception in UIRootUpdate: System.ArgumentNullException: Value cannot be null.
-Parameter name: key
-[Ref B9E4F9EB] Duplicate stacktrace, see ref for original
-Exception in UIRootUpdate: System.ArgumentNullException: Value cannot be null.
-Parameter name: key
-[Ref B9E4F9EB] Duplicate stacktrace, see ref for original
-Exception in UIRootUpdate: System.ArgumentNullException: Value cannot be null.
-Parameter name: key
-[Ref B9E4F9EB] Duplicate stacktrace, see ref for original
-Exception in UIRootUpdate: System.ArgumentNullException: Value cannot be null.
-Parameter name: key
-[Ref B9E4F9EB] Duplicate stacktrace, see ref for original
-Exception in UIRootUpdate: System.ArgumentNullException: Value cannot be null.
-Parameter name: key
-[Ref B9E4F9EB] Duplicate stacktrace, see ref for original
-Exception in UIRootUpdate: System.ArgumentNullException: Value cannot be null.
-Parameter name: key
-[Ref B9E4F9EB] Duplicate stacktrace, see ref for original
-Exception in UIRootUpdate: System.ArgumentNullException: Value cannot be null.
-Parameter name: key
-[Ref B9E4F9EB] Duplicate stacktrace, see ref for original
-Exception in UIRootUpdate: System.ArgumentNullException: Value cannot be null.
-Parameter name: key
-[Ref B9E4F9EB] Duplicate stacktrace, see ref for original
-Exception in UIRootUpdate: System.ArgumentNullException: Value cannot be null.
-Parameter name: key
-[Ref B9E4F9EB] Duplicate stacktrace, see ref for original
-Exception in UIRootUpdate: System.ArgumentNullException: Value cannot be null.
-Parameter name: key
-[Ref B9E4F9EB] Duplicate stacktrace, see ref for original
-Exception in UIRootUpdate: System.ArgumentNullException: Value cannot be null.
-Parameter name: key
-[Ref B9E4F9EB] Duplicate stacktrace, see ref for original
-Exception in UIRootUpdate: System.ArgumentNullException: Value cannot be null.
-Parameter name: key
-[Ref B9E4F9EB] Duplicate stacktrace, see ref for original
-Exception in UIRootUpdate: System.ArgumentNullException: Value cannot be null.
-Parameter name: key
-[Ref B9E4F9EB] Duplicate stacktrace, see ref for original
-Exception in UIRootUpdate: System.ArgumentNullException: Value cannot be null.
-Parameter name: key
-[Ref B9E4F9EB] Duplicate stacktrace, see ref for original
-Exception in UIRootUpdate: System.ArgumentNullException: Value cannot be null.
-Parameter name: key
-[Ref B9E4F9EB] Duplicate stacktrace, see ref for original
-Exception in UIRootUpdate: System.ArgumentNullException: Value cannot be null.
-Parameter name: key
-[Ref B9E4F9EB] Duplicate stacktrace, see ref for original
-Exception in UIRootUpdate: System.ArgumentNullException: Value cannot be null.
-Parameter name: key
-[Ref B9E4F9EB] Duplicate stacktrace, see ref for original
-Exception in UIRootUpdate: System.ArgumentNullException: Value cannot be null.
-Parameter name: key
-[Ref B9E4F9EB] Duplicate stacktrace, see ref for original
-Exception in UIRootUpdate: System.ArgumentNullException: Value cannot be null.
-Parameter name: key
-[Ref B9E4F9EB] Duplicate stacktrace, see ref for original
-Exception in UIRootUpdate: System.ArgumentNullException: Value cannot be null.
-Parameter name: key
-[Ref B9E4F9EB] Duplicate stacktrace, see ref for original
-Exception in UIRootUpdate: System.ArgumentNullException: Value cannot be null.
-Parameter name: key
-[Ref B9E4F9EB] Duplicate stacktrace, see ref for original
-Exception in UIRootUpdate: System.ArgumentNullException: Value cannot be null.
-Parameter name: key
-[Ref B9E4F9EB] Duplicate stacktrace, see ref for original
-Exception in UIRootUpdate: System.ArgumentNullException: Value cannot be null.
-Parameter name: key
-[Ref B9E4F9EB] Duplicate stacktrace, see ref for original
-Exception in UIRootUpdate: System.ArgumentNullException: Value cannot be null.
-Parameter name: key
-[Ref B9E4F9EB] Duplicate stacktrace, see ref for original
-Exception in UIRootUpdate: System.ArgumentNullException: Value cannot be null.
-Parameter name: key
-[Ref B9E4F9EB] Duplicate stacktrace, see ref for original
-Exception in UIRootUpdate: System.ArgumentNullException: Value cannot be null.
-Parameter name: key
-[Ref B9E4F9EB] Duplicate stacktrace, see ref for original
-Exception in UIRootUpdate: System.ArgumentNullException: Value cannot be null.
-Parameter name: key
-[Ref B9E4F9EB] Duplicate stacktrace, see ref for original
-Exception in UIRootUpdate: System.ArgumentNullException: Value cannot be null.
-Parameter name: key
-[Ref B9E4F9EB] Duplicate stacktrace, see ref for original
-Exception in UIRootUpdate: System.ArgumentNullException: Value cannot be null.
-Parameter name: key
-[Ref B9E4F9EB] Duplicate stacktrace, see ref for original
-Exception in UIRootUpdate: System.ArgumentNullException: Value cannot be null.
-Parameter name: key
-[Ref B9E4F9EB] Duplicate stacktrace, see ref for original
-Exception in UIRootUpdate: System.ArgumentNullException: Value cannot be null.
-Parameter name: key
-[Ref B9E4F9EB] Duplicate stacktrace, see ref for original
-Exception in UIRootUpdate: System.ArgumentNullException: Value cannot be null.
-Parameter name: key
-[Ref B9E4F9EB] Duplicate stacktrace, see ref for original
-Exception in UIRootUpdate: System.ArgumentNullException: Value cannot be null.
-Parameter name: key
-[Ref B9E4F9EB] Duplicate stacktrace, see ref for original
-Exception in UIRootUpdate: System.ArgumentNullException: Value cannot be null.
-Parameter name: key
-[Ref B9E4F9EB] Duplicate stacktrace, see ref for original
-Exception in UIRootUpdate: System.ArgumentNullException: Value cannot be null.
-Parameter name: key
-[Ref B9E4F9EB] Duplicate stacktrace, see ref for original
-Exception in UIRootUpdate: System.ArgumentNullException: Value cannot be null.
-Parameter name: key
-[Ref B9E4F9EB] Duplicate stacktrace, see ref for original
-Exception in UIRootUpdate: System.ArgumentNullException: Value cannot be null.
-Parameter name: key
-[Ref B9E4F9EB] Duplicate stacktrace, see ref for original
-Exception in UIRootUpdate: System.ArgumentNullException: Value cannot be null.
-Parameter name: key
-[Ref B9E4F9EB] Duplicate stacktrace, see ref for original
-Exception in UIRootUpdate: System.ArgumentNullException: Value cannot be null.
-Parameter name: key
-[Ref B9E4F9EB] Duplicate stacktrace, see ref for original
-Exception in UIRootUpdate: System.ArgumentNullException: Value cannot be null.
-Parameter name: key
-[Ref B9E4F9EB] Duplicate stacktrace, see ref for original
-Exception in UIRootUpdate: System.ArgumentNullException: Value cannot be null.
-Parameter name: key
-[Ref B9E4F9EB] Duplicate stacktrace, see ref for original
-Exception in UIRootUpdate: System.ArgumentNullException: Value cannot be null.
-Parameter name: key
-[Ref B9E4F9EB] Duplicate stacktrace, see ref for original
-Exception in UIRootUpdate: System.ArgumentNullException: Value cannot be null.
-Parameter name: key
-[Ref B9E4F9EB] Duplicate stacktrace, see ref for original
-Exception in UIRootUpdate: System.ArgumentNullException: Value cannot be null.
-Parameter name: key
-[Ref B9E4F9EB] Duplicate stacktrace, see ref for original
-Exception in UIRootUpdate: System.ArgumentNullException: Value cannot be null.
-Parameter name: key
-[Ref B9E4F9EB] Duplicate stacktrace, see ref for original
-Exception in UIRootUpdate: System.ArgumentNullException: Value cannot be null.
-Parameter name: key
-[Ref B9E4F9EB] Duplicate stacktrace, see ref for original
-Exception in UIRootUpdate: System.ArgumentNullException: Value cannot be null.
-Parameter name: key
-[Ref B9E4F9EB] Duplicate stacktrace, see ref for original
-Exception in UIRootUpdate: System.ArgumentNullException: Value cannot be null.
-Parameter name: key
-[Ref B9E4F9EB] Duplicate stacktrace, see ref for original
-Exception in UIRootUpdate: System.ArgumentNullException: Value cannot be null.
-Parameter name: key
-[Ref B9E4F9EB] Duplicate stacktrace, see ref for original
-Exception in UIRootUpdate: System.ArgumentNullException: Value cannot be null.
-Parameter name: key
-[Ref B9E4F9EB] Duplicate stacktrace, see ref for original
-Exception in UIRootUpdate: System.ArgumentNullException: Value cannot be null.
-Parameter name: key
-[Ref B9E4F9EB] Duplicate stacktrace, see ref for original
-Exception in UIRootUpdate: System.ArgumentNullException: Value cannot be null.
-Parameter name: key
-[Ref B9E4F9EB] Duplicate stacktrace, see ref for original
-Exception in UIRootUpdate: System.ArgumentNullException: Value cannot be null.
-Parameter name: key
-[Ref B9E4F9EB] Duplicate stacktrace, see ref for original
-Exception in UIRootUpdate: System.ArgumentNullException: Value cannot be null.
-Parameter name: key
-[Ref B9E4F9EB] Duplicate stacktrace, see ref for original
-Exception in UIRootUpdate: System.ArgumentNullException: Value cannot be null.
-Parameter name: key
-[Ref B9E4F9EB] Duplicate stacktrace, see ref for original
-Exception in UIRootUpdate: System.ArgumentNullException: Value cannot be null.
-Parameter name: key
-[Ref B9E4F9EB] Duplicate stacktrace, see ref for original
-Exception in UIRootUpdate: System.ArgumentNullException: Value cannot be null.
-Parameter name: key
-[Ref B9E4F9EB] Duplicate stacktrace, see ref for original
-Exception in UIRootUpdate: System.ArgumentNullException: Value cannot be null.
-Parameter name: key
-[Ref B9E4F9EB] Duplicate stacktrace, see ref for original
-Exception in UIRootUpdate: System.ArgumentNullException: Value cannot be null.
-Parameter name: key
-[Ref B9E4F9EB] Duplicate stacktrace, see ref for original
-Exception in UIRootUpdate: System.ArgumentNullException: Value cannot be null.
-Parameter name: key
-[Ref B9E4F9EB] Duplicate stacktrace, see ref for original
-Exception in UIRootUpdate: System.ArgumentNullException: Value cannot be null.
-Parameter name: key
-[Ref B9E4F9EB] Duplicate stacktrace, see ref for original
-Exception in UIRootUpdate: System.ArgumentNullException: Value cannot be null.
-Parameter name: key
-[Ref B9E4F9EB] Duplicate stacktrace, see ref for original
-Exception in UIRootUpdate: System.ArgumentNullException: Value cannot be null.
-Parameter name: key
-[Ref B9E4F9EB] Duplicate stacktrace, see ref for original
-Exception in UIRootUpdate: System.ArgumentNullException: Value cannot be null.
-Parameter name: key
-[Ref B9E4F9EB] Duplicate stacktrace, see ref for original
-Exception in UIRootUpdate: System.ArgumentNullException: Value cannot be null.
-Parameter name: key
-[Ref B9E4F9EB] Duplicate stacktrace, see ref for original
-Exception in UIRootUpdate: System.ArgumentNullException: Value cannot be null.
-Parameter name: key
-[Ref B9E4F9EB] Duplicate stacktrace, see ref for original
-Exception in UIRootUpdate: System.ArgumentNullException: Value cannot be null.
-Parameter name: key
-[Ref B9E4F9EB] Duplicate stacktrace, see ref for original
-Exception in UIRootUpdate: System.ArgumentNullException: Value cannot be null.
-Parameter name: key
-[Ref B9E4F9EB] Duplicate stacktrace, see ref for original
-Exception in UIRootUpdate: System.ArgumentNullException: Value cannot be null.
-Parameter name: key
-[Ref B9E4F9EB] Duplicate stacktrace, see ref for original
-Exception in UIRootUpdate: System.ArgumentNullException: Value cannot be null.
-Parameter name: key
-[Ref B9E4F9EB] Duplicate stacktrace, see ref for original
-Exception in UIRootUpdate: System.ArgumentNullException: Value cannot be null.
-Parameter name: key
-[Ref B9E4F9EB] Duplicate stacktrace, see ref for original
-Exception in UIRootUpdate: System.ArgumentNullException: Value cannot be null.
-Parameter name: key
-[Ref B9E4F9EB] Duplicate stacktrace, see ref for original
-Exception in UIRootUpdate: System.ArgumentNullException: Value cannot be null.
-Parameter name: key
-[Ref B9E4F9EB] Duplicate stacktrace, see ref for original
-Exception in UIRootUpdate: System.ArgumentNullException: Value cannot be null.
-Parameter name: key
-[Ref B9E4F9EB] Duplicate stacktrace, see ref for original
-Exception in UIRootUpdate: System.ArgumentNullException: Value cannot be null.
-Parameter name: key
-[Ref B9E4F9EB] Duplicate stacktrace, see ref for original
-Exception in UIRootUpdate: System.ArgumentNullException: Value cannot be null.
-Parameter name: key
-[Ref B9E4F9EB] Duplicate stacktrace, see ref for original
-Exception in UIRootUpdate: System.ArgumentNullException: Value cannot be null.
-Parameter name: key
-[Ref B9E4F9EB] Duplicate stacktrace, see ref for original
-Exception in UIRootUpdate: System.ArgumentNullException: Value cannot be null.
-Parameter name: key
-[Ref B9E4F9EB] Duplicate stacktrace, see ref for original
-Exception in UIRootUpdate: System.ArgumentNullException: Value cannot be null.
-Parameter name: key
-[Ref B9E4F9EB] Duplicate stacktrace, see ref for original
-queen can reach eggsite
-[AVP Xenomorphs] [Spawn] Chestburster spawned: Warrior faction=a Xenomorph hive (tick 344160)
-[AVP Xenomorphs] [Spawn] Chestburster spawned: Drone faction=a Xenomorph hive (tick 344705)
-[AVP Xenomorphs] [Spawn] Chestburster spawned: Warrior faction=a Xenomorph hive (tick 345112)
-queen can reach eggsite
-Wrote screenshot C:\Users\clint\AppData\LocalLow\Ludeon Studios\RimWorld by Ludeon Studios\RimSaves\Previews\Autosave-1.dat of size 83633
-[AVP Xenomorphs] [Detach] Detaching facehugger from Hiltz (impregnation complete) (tick 403734)
-Wrote screenshot C:\Users\clint\AppData\LocalLow\Ludeon Studios\RimWorld by Ludeon Studios\RimSaves\Previews\USCSS face hug.dat of size 90154
+Wrote screenshot C:\Users\clint\AppData\LocalLow\Ludeon Studios\RimWorld by Ludeon Studios\RimSaves\Previews\USCSS.dat of size 142274
