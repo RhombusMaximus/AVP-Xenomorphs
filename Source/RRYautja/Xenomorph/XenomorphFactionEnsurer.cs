@@ -61,6 +61,19 @@ namespace RRYautja
             // Create the faction using RimWorld's faction manager
             Faction faction = FactionGenerator.NewGeneratedFaction(new FactionGeneratorParms(xenoDef));
             Find.FactionManager.Add(faction);
+
+            // Initialize relations with all existing factions (fixes "null relation" warnings)
+            foreach (var other in Find.FactionManager.AllFactions)
+            {
+                if (other == faction) continue;
+                if (faction.RelationWith(other, false) == null)
+                {
+                    // Create initial relation, then set hostile (Xenomorphs are permanent enemies)
+                    faction.TryMakeInitialRelationsWith(other);
+                    faction.SetRelationDirect(other, FactionRelationKind.Hostile, false, null, null);
+                }
+            }
+
             AvPDebug.LogOnce("FactionCreated", "Created Xenomorph hive faction (was missing).");
         }
     }
