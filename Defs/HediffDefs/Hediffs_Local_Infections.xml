@@ -102,9 +102,9 @@
         <parentTagDef>Head</parentTagDef>
         <shaderTypeDef>CutoutComplex</shaderTypeDef>
         <drawData>
+          <scale>0.7</scale>
           <defaultData>
             <offset>(0, 0.03, -0.3)</offset>
-            <scale>0.7</scale>
             <layer>55</layer>
             <flip>True</flip>
           </defaultData>
