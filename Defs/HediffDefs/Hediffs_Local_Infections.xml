@@ -97,7 +97,7 @@
     </comps>
     <renderNodeProperties>
       <li>
-        <workerClass>PawnRenderNodeWorker_Hediff</workerClass>
+        <workerClass>RRYautja.PawnRenderNodeWorker_FacehuggerMask</workerClass>
         <texPath>Things/Pawn/Xenomorph/Xenomorph_FaceHugger_Mask</texPath>
         <parentTagDef>Head</parentTagDef>
         <shaderTypeDef>CutoutComplex</shaderTypeDef>
