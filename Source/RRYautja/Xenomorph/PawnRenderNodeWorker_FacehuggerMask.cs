@@ -22,7 +22,7 @@ namespace RRYautja
                     royalGraphic = GraphicDatabase.Get<Graphic_Multi>(
                         "Things/Pawn/Xenomorph/Xenomorph_FaceHuggerRoyal_Mask",
                         ShaderDatabase.CutoutComplex,
-                        Vector2.one,
+                        new Vector2(1.15f, 1.15f),
                         Color.white);
                 }
                 return royalGraphic;
