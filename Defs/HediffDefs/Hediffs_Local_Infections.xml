@@ -95,6 +95,21 @@
 		-->
 		</li>
     </comps>
+    <renderNodeProperties>
+      <li>
+        <workerClass>PawnRenderNodeWorker_Hediff</workerClass>
+        <texPath>Things/Pawn/Xenomorph/Xenomorph_FaceHugger_Mask</texPath>
+        <parentTagDef>Head</parentTagDef>
+        <shaderTypeDef>CutoutComplex</shaderTypeDef>
+        <drawData>
+          <defaultData>
+            <offset>(0, 0.1, 0)</offset>
+            <scale>0.7</scale>
+            <layer>62</layer>
+          </defaultData>
+        </drawData>
+      </li>
+    </renderNodeProperties>
   </HediffDef>
 
  
