@@ -244,6 +244,17 @@ namespace RimWorld
                 }
             }
 
+            // Nothing left to mine — go back to the tunnel briefly
+            // This staggers think cycles and reduces the lag spike when all drones finish mining at once
+            HiveLike tunnel = JobGiver_EnterHiveTunnel.FindMyTunnel(pawn);
+            if (tunnel != null && tunnel.HitPoints > 0 && !tunnel.spawnedPawns.Contains(pawn))
+            {
+                if (pawn.CanReach(tunnel, PathEndMode.Touch, Danger.Deadly))
+                {
+                    return new Job(XenomorphDefOf.RRY_Job_Xenomorph_EnterHiveTunnel, tunnel);
+                }
+            }
+
             return null;
         }
 
