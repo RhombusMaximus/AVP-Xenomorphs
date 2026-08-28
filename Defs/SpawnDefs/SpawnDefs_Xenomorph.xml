@@ -69,7 +69,10 @@
     <label>Small Animal Host Spawn</label>
     <priority>50</priority>
     <hostHumanlike>false</hostHumanlike>
-    <hostBodySizeRange>(0, 0.9)</hostBodySizeRange>
+    <hostBodySizeRange>
+      <min>0</min>
+      <max>0.9</max>
+    </hostBodySizeRange>
     <spawnKinds>
       <li>RRY_Xenomorph_Runner</li>
     </spawnKinds>
@@ -84,7 +87,10 @@
     <label>Large Animal Host Spawn</label>
     <priority>60</priority>
     <hostHumanlike>false</hostHumanlike>
-    <hostBodySizeRange>(0.9, 999)</hostBodySizeRange>
+    <hostBodySizeRange>
+      <min>0.9</min>
+      <max>999</max>
+    </hostBodySizeRange>
     <onlyIfNoQueen>true</onlyIfNoQueen>
     <spawnKinds>
       <li>RRY_Xenomorph_Queen</li>
