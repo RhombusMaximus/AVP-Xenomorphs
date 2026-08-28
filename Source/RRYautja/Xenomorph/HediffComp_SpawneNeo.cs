@@ -209,16 +209,23 @@ namespace RRYautja
 
         public Pawn NeomorphSpawnRequest()
         {
-            bool selected = Find.Selector.SingleSelectedThing == parent.pawn && Prefs.DevMode;
-            Gender gender = Gender.None;
             PawnKindDef pawnKindDef = XenomorphDefOf.RRY_Xenomorph_Neomorph;
-            if (Prefs.DevMode)
-            {
-             //    Log.Message(string.Format("spawning: {0}", pawnKindDef.label));
-                parent.pawn.resultingXenomorph();
-            }
-            PawnGenerationRequest request = new PawnGenerationRequest(pawnKindDef, Find.FactionManager.FirstFactionOfDef(pawnKindDef.defaultFactionDef), PawnGenerationContext.NonPlayer, -1, true, true, false, false, true, 20f, false, fixedGender: gender);
+            Gender gender = Gender.None;
+            Faction xenoFaction = Find.FactionManager?.FirstFactionOfDef(pawnKindDef.defaultFactionDef);
+            PawnGenerationRequest request = new PawnGenerationRequest(pawnKindDef, xenoFaction,
+                PawnGenerationContext.NonPlayer, -1, true, true, false, false, true, 20f, false, fixedGender: gender);
             Pawn pawn = PawnGenerator.GeneratePawn(request);
+
+            // Store host race info on Comp_Xenomorph (same pattern as Xenomorph spawner)
+            Comp_Xenomorph _Xenomorph = pawn.TryGetComp<Comp_Xenomorph>();
+            if (_Xenomorph != null)
+            {
+                _Xenomorph.host = base.parent.pawn.kindDef;
+                _Xenomorph.HostDef = base.parent.pawn.def;
+            }
+
+            AvPDebug.Log("Spawn", $"Neomorph chestburster spawned from {base.parent.pawn.LabelShort}");
+
             return pawn;
         }
 
