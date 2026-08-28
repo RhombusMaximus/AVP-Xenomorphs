@@ -253,6 +253,33 @@ namespace RimWorld
                 {
                     return new Job(XenomorphDefOf.RRY_Job_Xenomorph_EnterHiveTunnel, tunnel);
                 }
+                // Can't reach tunnel — try to dig to it
+                // Find the first mineable blocker between the pawn and the tunnel
+                PawnPath path = pawn.Map.pathFinder.FindPathNow(pawn.Position, tunnel.Position,
+                    TraverseParms.For(pawn, Danger.Deadly, TraverseMode.PassAllDestroyableThings), null, PathEndMode.Touch);
+                if (path.Found)
+                {
+                    IntVec3 cellBeforeBlocker = pawn.Position;
+                    List<IntVec3> nodes = path.NodesReversed;
+                    for (int i = nodes.Count - 1; i >= 0; i--)
+                    {
+                        IntVec3 cell = nodes[i];
+                        Building edifice = cell.GetEdifice(pawn.Map);
+                        if (edifice != null && edifice.def.passability == Traversability.Impassable
+                            && edifice.def != XenomorphDefOf.RRY_Xenomorph_Hive_Wall
+                            && edifice.def != ThingDefOf.CollapsedRocks)
+                        {
+                            Job digJob = DigUtility.PassBlockerJob(pawn, edifice, cellBeforeBlocker, true, true);
+                            if (digJob != null)
+                            {
+                                path.Dispose();
+                                return digJob;
+                            }
+                        }
+                        cellBeforeBlocker = cell;
+                    }
+                }
+                path?.Dispose();
             }
 
             return null;
