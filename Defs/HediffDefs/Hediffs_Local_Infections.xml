@@ -103,7 +103,7 @@
         <shaderTypeDef>CutoutComplex</shaderTypeDef>
         <drawData>
           <defaultData>
-            <offset>(0, 0.03, -0.15)</offset>
+            <offset>(0, 0.03, -0.3)</offset>
             <scale>0.7</scale>
             <layer>55</layer>
             <flip>True</flip>
