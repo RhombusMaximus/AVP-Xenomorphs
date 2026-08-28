@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+
+  <!-- Royal facehugger → always Queen (highest priority) -->
+  <RRYautja.XenomorphSpawnDef>
+    <defName>RRY_Spawn_RoyalQueen</defName>
+    <label>Royal Queen Spawn</label>
+    <priority>10</priority>
+    <requiresRoyal>true</requiresRoyal>
+    <spawnKinds>
+      <li>RRY_Xenomorph_Queen</li>
+    </spawnKinds>
+    <spawnWeights>
+      <li>100</li>
+    </spawnWeights>
+  </RRYautja.XenomorphSpawnDef>
+
+  <!-- Predalien impregnation → Runner or Drone -->
+  <RRYautja.XenomorphSpawnDef>
+    <defName>RRY_Spawn_Predalien</defName>
+    <label>Predalien Spawn</label>
+    <priority>20</priority>
+    <requiresPredalien>true</requiresPredalien>
+    <spawnKinds>
+      <li>RRY_Xenomorph_Runner</li>
+      <li>RRY_Xenomorph_Drone</li>
+    </spawnKinds>
+    <spawnWeights>
+      <li>50</li>
+      <li>50</li>
+    </spawnWeights>
+  </RRYautja.XenomorphSpawnDef>
+
+  <!-- Thrumbo host → Thrumbomorph -->
+  <RRYautja.XenomorphSpawnDef>
+    <defName>RRY_Spawn_Thrumbomorph</defName>
+    <label>Thrumbomorph Spawn</label>
+    <priority>30</priority>
+    <hostRaceDefNames>
+      <li>Thrumbo</li>
+    </hostRaceDefNames>
+    <spawnKinds>
+      <li>RRY_Xenomorph_Thrumbomorph</li>
+    </spawnKinds>
+    <spawnWeights>
+      <li>100</li>
+    </spawnWeights>
+  </RRYautja.XenomorphSpawnDef>
+
+  <!-- Humanlike host → 50/50 Drone/Warrior -->
+  <RRYautja.XenomorphSpawnDef>
+    <defName>RRY_Spawn_Humanlike</defName>
+    <label>Humanlike Host Spawn</label>
+    <priority>40</priority>
+    <hostHumanlike>true</hostHumanlike>
+    <spawnKinds>
+      <li>RRY_Xenomorph_Drone</li>
+      <li>RRY_Xenomorph_Warrior</li>
+    </spawnKinds>
+    <spawnWeights>
+      <li>50</li>
+      <li>50</li>
+    </spawnWeights>
+  </RRYautja.XenomorphSpawnDef>
+
+  <!-- Small animal (BodySize < 0.9) → Runner -->
+  <RRYautja.XenomorphSpawnDef>
+    <defName>RRY_Spawn_SmallAnimal</defName>
+    <label>Small Animal Host Spawn</label>
+    <priority>50</priority>
+    <hostHumanlike>false</hostHumanlike>
+    <hostBodySizeRange>(0, 0.9)</hostBodySizeRange>
+    <spawnKinds>
+      <li>RRY_Xenomorph_Runner</li>
+    </spawnKinds>
+    <spawnWeights>
+      <li>100</li>
+    </spawnWeights>
+  </RRYautja.XenomorphSpawnDef>
+
+  <!-- Large animal → weighted selection (Queen/Warrior/Drone/Runner) -->
+  <RRYautja.XenomorphSpawnDef>
+    <defName>RRY_Spawn_LargeAnimal</defName>
+    <label>Large Animal Host Spawn</label>
+    <priority>60</priority>
+    <hostHumanlike>false</hostHumanlike>
+    <hostBodySizeRange>(0.9, 999)</hostBodySizeRange>
+    <onlyIfNoQueen>true</onlyIfNoQueen>
+    <spawnKinds>
+      <li>RRY_Xenomorph_Queen</li>
+      <li>RRY_Xenomorph_Warrior</li>
+      <li>RRY_Xenomorph_Drone</li>
+      <li>RRY_Xenomorph_Runner</li>
+    </spawnKinds>
+    <spawnWeights>
+      <li>5</li>
+      <li>35</li>
+      <li>50</li>
+      <li>100</li>
+    </spawnWeights>
+  </RRYautja.XenomorphSpawnDef>
+
+  <!-- Fallback: any host → Drone -->
+  <RRYautja.XenomorphSpawnDef>
+    <defName>RRY_Spawn_Fallback</defName>
+    <label>Fallback Spawn</label>
+    <priority>999</priority>
+    <spawnKinds>
+      <li>RRY_Xenomorph_Drone</li>
+    </spawnKinds>
+    <spawnWeights>
+      <li>100</li>
+    </spawnWeights>
+  </RRYautja.XenomorphSpawnDef>
+
+</Defs>

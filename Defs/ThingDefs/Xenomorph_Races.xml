@@ -651,7 +651,14 @@
     <combatPower>62.5</combatPower>
     <alternateGraphicChance>1.0</alternateGraphicChance>
     <alternateGraphics>
+      <!-- Tan/light-headed Drone (default) -->
       <li><texPath>Things/Pawn/Xenomorph/Xenomorph_Drone_New_Light</texPath></li>
+      <!-- Dark Drone -->
+      <li><texPath>Things/Pawn/Xenomorph/Xenomorph_Drone_New_Dark</texPath></li>
+      <!-- Gold Drone -->
+      <li><texPath>Things/Pawn/Xenomorph/Xenomorph_Drone_New_Gold</texPath></li>
+      <!-- Red Drone -->
+      <li><texPath>Things/Pawn/Xenomorph/Xenomorph_Drone_New_Red</texPath></li>
     </alternateGraphics>
     <lifeStages>
       <li>

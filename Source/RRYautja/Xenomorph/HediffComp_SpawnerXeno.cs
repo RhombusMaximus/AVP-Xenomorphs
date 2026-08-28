@@ -186,128 +186,47 @@ namespace RRYautja
 
         public Pawn XenomorphSpawnRequest()
         {
-            Gender gender;
-            bool QueenPresent = false;
-            bool selected = Find.Selector.SingleSelectedThing == parent.pawn && Prefs.DevMode;
-            List<PawnKindDef> pawnKindDefs = Props.pawnKindDefs;
-            List<float> pawnKindWeights = Props.pawnKindWeights;
-            PawnKindDef pawnKindDef = pawnKindDefs[pawnKindDefs.Count - 1];
-            int ind = 0;
-            foreach (var p in MyMap.mapPawns.AllPawnsSpawned)
+            // Check for queen on map
+            bool queenPresent = MyMap?.mapPawns.AllPawnsSpawned.Any(p => p.kindDef == XenomorphDefOf.RRY_Xenomorph_Queen) ?? false;
+
+            // Find the first matching spawn def (sorted by priority)
+            PawnKindDef pawnKindDef = null;
+            foreach (var def in DefDatabase<XenomorphSpawnDef>.AllDefs.OrderBy(d => d.priority))
             {
-                if (p.kindDef == XenomorphDefOf.RRY_Xenomorph_Queen)
+                if (def.Matches(Pawn, RoyaleEmbryo, predalienImpregnation, queenPresent))
                 {
-                    QueenPresent = true;
-                    break;
-                }
-            }
-            if (RoyaleEmbryo)
-            {
-                pawnKindDef = XenomorphDefOf.RRY_Xenomorph_Queen;
-            }
-            else
-            {
-                if (Pawn.RaceProps.Humanlike)
-                {
-                    pawnKindDef = Rand.Chance(0.5f) ? XenomorphDefOf.RRY_Xenomorph_Drone : XenomorphDefOf.RRY_Xenomorph_Warrior;
-                }
-                else if (Pawn.kindDef.race == ThingDefOf.Thrumbo && SettingsHelper.latest.AllowThrumbomorphs)
-                {
-                    pawnKindDef = XenomorphDefOf.RRY_Xenomorph_Thrumbomorph;
-                }
-                else if (!Pawn.RaceProps.Humanlike&&Pawn.BodySize<0.9f)
-                {
-                    pawnKindDef = XenomorphDefOf.RRY_Xenomorph_Runner;
-                }
-                else
-                {
-                    while (pawnKindDef == null)
+                    pawnKindDef = def.PickKind();
+                    if (pawnKindDef != null)
                     {
-                        foreach (var PKDef in pawnKindDefs)
-                        {
-                            float hostSize = base.parent.pawn.BodySize;
-                            bool hostHumanlike = base.parent.pawn.RaceProps.Humanlike;
-                            float spawnRoll = ((Rand.Range(1, 100)) * hostSize);
-
-                            if (PKDef == XenomorphDefOf.RRY_Xenomorph_Queen)
-                            {
-                                if ((QueenPresent || predalienImpregnation || RoyalPresent))
-                                {
-                                    spawnRoll = 0;
-                                }
-                                else
-                                {
-                                    spawnRoll *= 2;
-                                }
-                            }
-                            else if (predalienImpregnation)
-                            {
-                                spawnRoll = 0;
-                                if (PKDef == XenomorphDefOf.RRY_Xenomorph_Runner)
-                                {
-                                    spawnRoll *= 2;
-                                }
-                                else if (PKDef == XenomorphDefOf.RRY_Xenomorph_Drone)
-                                {
-                                    spawnRoll *= 2;
-                                }
-                            }
-                            else if (hostHumanlike)
-                            {
-                                if (PKDef == XenomorphDefOf.RRY_Xenomorph_Runner)
-                                {
-                                    spawnRoll = 0;
-                                }
-                                if (PKDef == XenomorphDefOf.RRY_Xenomorph_Warrior)
-                                {
-                                    spawnRoll *= 2;
-                                }
-                                else if (PKDef == XenomorphDefOf.RRY_Xenomorph_Drone)
-                                {
-                                    spawnRoll *= 2;
-                                }
-                            }
-                            if (spawnRoll > (100 - pawnKindWeights[ind]))
-                            {
-                                pawnKindDef = PKDef;
-                                break;
-                            }
-                            ind++;
-                        }
-
+                        AvPDebug.Log("Spawn", $"{Pawn.LabelShort} -> {pawnKindDef.LabelCap} via {def.defName} (host: {Pawn.def.label}, bodySize: {Pawn.BodySize})");
+                        break;
                     }
                 }
             }
-            
-            if (pawnKindDef == XenomorphDefOf.RRY_Xenomorph_Queen)
+
+            // Fallback
+            if (pawnKindDef == null)
             {
-                gender = Gender.Female;
+                pawnKindDef = XenomorphDefOf.RRY_Xenomorph_Drone;
+                AvPDebug.Warning($"No matching XenomorphSpawnDef for {Pawn.LabelShort}, falling back to Drone");
             }
-            else
-            {
-                gender = Gender.None;
-            }
-            if (Prefs.DevMode)
-            {
-             //    Log.Message(string.Format("spawning: {0}", pawnKindDef.label));
-                parent.pawn.resultingXenomorph();
-            }
-            bool BeViolent = pawnKindDef == XenomorphDefOf.RRY_Xenomorph_Thrumbomorph ? true : true;
-            PawnGenerationRequest request = new PawnGenerationRequest(pawnKindDef, Find.FactionManager.FirstFactionOfDef(pawnKindDef.defaultFactionDef), PawnGenerationContext.NonPlayer, -1, true, true, false, false, true, 20f, false, fixedGender: gender);
+
+            // Generate the pawn
+            Gender gender = pawnKindDef == XenomorphDefOf.RRY_Xenomorph_Queen ? Gender.Female : Gender.None;
+            Faction xenoFaction = Find.FactionManager?.FirstFactionOfDef(pawnKindDef.defaultFactionDef);
+            PawnGenerationRequest request = new PawnGenerationRequest(pawnKindDef, xenoFaction,
+                PawnGenerationContext.NonPlayer, -1, true, true, false, false, true, 20f, false, fixedGender: gender);
 
             Pawn pawn = PawnGenerator.GeneratePawn(request);
-            XenomorphPawn XP = pawn as XenomorphPawn;
-            if (XP!=null)
+
+            // Store host race info on Comp_Xenomorph (replaces old XenomorphPawn.HostRace)
+            Comp_Xenomorph _Xenomorph = pawn.TryGetComp<Comp_Xenomorph>();
+            if (_Xenomorph != null)
             {
-                XP.HostRace = Pawn.def;
+                _Xenomorph.host = Pawn.kindDef;
+                _Xenomorph.HostDef = Pawn.def;
             }
-            /*
-            // XP.Drawer.renderer.graphics.nakedGraphic.colorTwo = HostBloodColour; // 1.6: PawnGraphicSet removed
-            pawn.Notify_ColorChanged();
-            */
-            // XP.Drawer.renderer.graphics.nakedGraphic.colorTwo = HostBloodColour; // 1.6: PawnGraphicSet removed
-            // pawn.Notify_ColorChanged(); // 1.6: removed
-            // pawn.ageTracker.CurKindLifeStage.bodyGraphicData.colorTwo = HostBloodColour; // Don't modify shared bodyGraphicData
+
             return pawn;
         }
 
