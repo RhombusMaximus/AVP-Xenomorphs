@@ -1074,7 +1074,7 @@
         <bodyGraphicData>
           <texPath>Things/Pawn/Xenomorph/Xenomorph_Runner</texPath>
           <graphicClass>Graphic_Multi</graphicClass>
-          <drawSize>1.00</drawSize>
+          <drawSize>0.75</drawSize>
           <shadowData>
             <volume>(0.4, 0.8, 0.4)</volume>
           </shadowData>
@@ -1084,7 +1084,7 @@
         <bodyGraphicData>
           <texPath>Things/Pawn/Xenomorph/Xenomorph_Runner</texPath>
           <graphicClass>Graphic_Multi</graphicClass>
-          <drawSize>1.15</drawSize>
+          <drawSize>0.86</drawSize>
           <shadowData>
             <volume>(0.4, 0.8, 0.4)</volume>
           </shadowData>
@@ -1094,7 +1094,7 @@
         <bodyGraphicData>
           <texPath>Things/Pawn/Xenomorph/Xenomorph_Runner</texPath>
           <graphicClass>Graphic_Multi</graphicClass>
-          <drawSize>1.9</drawSize>
+          <drawSize>1.43</drawSize>
           <shadowData>
             <volume>(0.4, 0.8, 0.4)</volume>
           </shadowData>
