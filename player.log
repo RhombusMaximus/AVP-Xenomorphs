@@ -11,7 +11,7 @@ Direct3D:
     VRAM:     8042 MB
     Driver:   32.0.16.1088
 Begin MonoManager ReloadAssembly
-- Loaded All Assemblies, in  0.156 seconds
+- Loaded All Assemblies, in  0.161 seconds
 - Finished resetting the current domain, in  0.001 seconds
 <RI> Initializing input.
 
@@ -20,21 +20,21 @@ Begin MonoManager ReloadAssembly
 <RI> Initialized touch support.
 
 [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
-UnloadTime: 0.583900 ms
+UnloadTime: 0.596100 ms
 Command line arguments: -disable-compute-shaders
 RimWorld 1.6.4871 rev591
 Mod Realistic Humansounds HAR Patch dependency (Mlie.RealisticHumanSounds) needs to have <downloadUrl> and/or <steamWorkshopUrl> specified.
-Fallback handler could not load library D:/SteamLibrary/steamapps/common/RimWorld/RimWorldWin64_Data/MonoBleedingEdge/data-00000187ECF7D9E0.dll
-Fallback handler could not load library D:/SteamLibrary/steamapps/common/RimWorld/RimWorldWin64_Data/MonoBleedingEdge/data-00000187ED27A2D0.dll
+Fallback handler could not load library D:/SteamLibrary/steamapps/common/RimWorld/RimWorldWin64_Data/MonoBleedingEdge/data-000002263AC34370.dll
+Fallback handler could not load library D:/SteamLibrary/steamapps/common/RimWorld/RimWorldWin64_Data/MonoBleedingEdge/data-000002266F798400.dll
 [Loading Progress] Loading Progress initialized! Enjoy the rest of your loading experience!
 [HugsLib] version 12.0.0
 [HugsLib] early-initializing AllowTool
-Fallback handler could not load library D:/SteamLibrary/steamapps/common/RimWorld/RimWorldWin64_Data/MonoBleedingEdge/data-00000187EF87B450.dll
+Fallback handler could not load library D:/SteamLibrary/steamapps/common/RimWorld/RimWorldWin64_Data/MonoBleedingEdge/data-000002267215F030.dll
 DubsMintMenus v1.3.1086
 [Analyzer] Loaded version 1.6.0 rev 1
 [Analyzer] ResearchTree
 FPSStabilizer v1.1 loaded, patcher message: Patched successfully, fps set to 60
-Fallback handler could not load library D:/SteamLibrary/steamapps/common/RimWorld/RimWorldWin64_Data/MonoBleedingEdge/data-00000187F3A552A0.dll
+Fallback handler could not load library D:/SteamLibrary/steamapps/common/RimWorld/RimWorldWin64_Data/MonoBleedingEdge/data-00000226765D3DA0.dll
 <color=#66ffb5>[MeleeAnim]</color> Hello, world!
 Build date: 4/13/2026 8:02 AM
 Loaded assemblies (9):
@@ -106,7 +106,7 @@ NamesGalore: Current Lang English
 (Research Tab Colors) Transpiler injected.
 Unloading 5 Unused Serialized files (Serialized files now loaded: 7)
 Unloading 661 unused Assets to reduce memory usage. Loaded Objects now: 37945.
-Total: 329.093500 ms (FindLiveObjects: 1.904100 ms CreateObjectMapping: 2.326800 ms MarkObjects: 323.933300 ms  DeleteObjects: 0.928800 ms)
+Total: 315.980000 ms (FindLiveObjects: 1.913900 ms CreateObjectMapping: 1.036500 ms MarkObjects: 312.132600 ms  DeleteObjects: 0.896900 ms)
 
 MVCF successfully applied 41 patches
 [com.ogliss.rimworld.mod.rryatuja.minepatch] Patches on methods annotated as Obsolete were detected by HugsLib: RimWorld.Mineable.TrySpawnYield
@@ -302,27 +302,27 @@ Transpilers:
 Postfixes:
   [PeteTimesSix.SimpleSidearms] TryCastShot
 Unloading 2 Unused Serialized files (Serialized files now loaded: 9)
-<color=#66ffb5>[MeleeAnim]</color> PreCached all retexture info in 61.3ms
+<color=#66ffb5>[MeleeAnim]</color> PreCached all retexture info in 57.3ms
 <color=#66ffb5>[MeleeAnim]</color> Loaded tweak data for 42 weapons.
 <color=#66ffb5>[MeleeAnim]</color> ludeon.rimworld.odyssey 'Odyssey' has 2 missing weapon tweak data.
 <color=#66ffb5>[MeleeAnim]</color> ogliss.avpxenomorphs 'AVP Xenomorphs' has 3 missing weapon tweak data.
 <color=#66ffb5>[MeleeAnim]</color> redmattis.betterprerequisites 'Big and Small - Framework' has 1 missing weapon tweak data.
 <color=#66ffb5>[MeleeAnim]</color> tarojun.morishep.onioftherim 'Oni of the Rim' has 6 missing weapon tweak data.
 <color=#66ffb5>[MeleeAnim]</color> Skipping reporting of missing mod/weapons because user opted out or the feature is disabled by the developer.
-<color=#66ffb5>[MeleeAnim]</color> Patched 3 classes that directly inherit from Verb_MeleeAttack in 61.4 ms to detect hits:
+<color=#66ffb5>[MeleeAnim]</color> Patched 3 classes that directly inherit from Verb_MeleeAttack in 64.6 ms to detect hits:
 RimWorld.Verb_MeleeApplyHediff from Assembly-CSharp
 RimWorld.Verb_MeleeAttackDamage from Assembly-CSharp
 RRYautja.Verb_MeleeAttackKnockback from RRYautja
 <color=#66ffb5>[MeleeAnim]</color> Found 0 items of clothing that cover hands, took 0.76 ms:
 Unloading 55 unused Assets to reduce memory usage. Loaded Objects now: 38108.
-Total: 311.366600 ms (FindLiveObjects: 1.789300 ms CreateObjectMapping: 1.261100 ms MarkObjects: 308.185600 ms  DeleteObjects: 0.129800 ms)
+Total: 312.658600 ms (FindLiveObjects: 1.824300 ms CreateObjectMapping: 2.238800 ms MarkObjects: 308.460400 ms  DeleteObjects: 0.134900 ms)
 
 Unloading 0 Unused Serialized files (Serialized files now loaded: 9)
 Loading asset bundle MuzzleFlash.shaders-windows
 Loaded shader Unlit/AnimatedAdditiveInstanced
 [Muzzle Flash] Shader loaded from MuzzleFlash: Unlit/AnimatedAdditiveInstanced
 Unloading 0 unused Assets to reduce memory usage. Loaded Objects now: 38110.
-Total: 324.188500 ms (FindLiveObjects: 1.855100 ms CreateObjectMapping: 2.233000 ms MarkObjects: 320.016800 ms  DeleteObjects: 0.083300 ms)
+Total: 309.964700 ms (FindLiveObjects: 2.003500 ms CreateObjectMapping: 2.302600 ms MarkObjects: 305.593900 ms  DeleteObjects: 0.064400 ms)
 
 Unloading 0 Unused Serialized files (Serialized files now loaded: 10)
 [Loading Progress] Why is ResearchPal.Profiler.Start from ResearchPal 1.6 - Temp calling DeepProfiler.Start (and by extension our patch) with null?! Stop it.
@@ -333,11 +333,11 @@ Unloading 0 Unused Serialized files (Serialized files now loaded: 10)
 [Loading Progress] Why is ResearchPal.Profiler.Start from ResearchPal 1.6 - Temp calling DeepProfiler.Start (and by extension our patch) with null?! Stop it.
 ResearchPal :: Research layout initialized
 Unloading 0 unused Assets to reduce memory usage. Loaded Objects now: 38110.
-Total: 312.864900 ms (FindLiveObjects: 1.887300 ms CreateObjectMapping: 2.308000 ms MarkObjects: 308.602300 ms  DeleteObjects: 0.066700 ms)
+Total: 349.328100 ms (FindLiveObjects: 1.898500 ms CreateObjectMapping: 1.161500 ms MarkObjects: 346.194900 ms  DeleteObjects: 0.073000 ms)
 
 Unloading 0 Unused Serialized files (Serialized files now loaded: 10)
 Unloading 0 unused Assets to reduce memory usage. Loaded Objects now: 38110.
-Total: 324.079700 ms (FindLiveObjects: 2.399500 ms CreateObjectMapping: 2.442200 ms MarkObjects: 319.168400 ms  DeleteObjects: 0.068900 ms)
+Total: 310.016600 ms (FindLiveObjects: 2.365900 ms CreateObjectMapping: 1.966500 ms MarkObjects: 305.608600 ms  DeleteObjects: 0.075200 ms)
 
 [HugsLib] initializing TerraformRimworld
 CE is trying to create default parameter lists ...
@@ -353,13 +353,18 @@ no modifications for genes
 FoldingTent modification loaded
 no modifications for lifestages
 ...done
-Unloading 3 Unused Serialized files (Serialized files now loaded: 10)
-[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
-UnloadTime: 0.781000 ms
-Unloading 2 unused Assets to reduce memory usage. Loaded Objects now: 38402.
-Total: 334.239100 ms (FindLiveObjects: 1.800700 ms CreateObjectMapping: 1.166000 ms MarkObjects: 331.204000 ms  DeleteObjects: 0.068000 ms)
+[Big and Small]: Found 7 AlienRace.ThingDef_AlienRace ThingDefs.
+These are either from HAR races or B&S races automatically converted for compatibility.
+Unloading 2 Unused Serialized files (Serialized files now loaded: 10)
+Unloading 0 unused Assets to reduce memory usage. Loaded Objects now: 40205.
+Total: 367.961100 ms (FindLiveObjects: 1.981800 ms CreateObjectMapping: 2.269800 ms MarkObjects: 363.649200 ms  DeleteObjects: 0.060000 ms)
 
-Loading game from file USCSS with mods:
+Unloading 3 Unused Serialized files (Serialized files now loaded: 10)
+UnloadTime: 0.861300 ms
+Unloading 5 unused Assets to reduce memory usage. Loaded Objects now: 40749.
+Total: 364.951500 ms (FindLiveObjects: 1.938900 ms CreateObjectMapping: 2.288800 ms MarkObjects: 360.620300 ms  DeleteObjects: 0.103400 ms)
+
+Initializing new game with mods:
   - brrainz.harmony
   - ilyvion.LoadingProgress
   - Ludeon.RimWorld
@@ -460,65 +465,11 @@ Loading game from file USCSS with mods:
   - Garwel.StartingTechLevel
   - void.terraformrimworld
   - Arylice.Rimworld.AutomaticHunting
-Could not resolve reference to object with loadID Thing_Human40235 of type Verse.Pawn. Was it compressed away, destroyed, had no ID number, or not saved/loaded right? curParent=RimWorld.RelationshipRecord curPathRelToParent=/references
-Could not resolve reference to object with loadID Thing_Human40266 of type Verse.Pawn. Was it compressed away, destroyed, had no ID number, or not saved/loaded right? curParent=RimWorld.RelationshipRecord curPathRelToParent=/references
-Could not resolve reference to object with loadID Thing_Human40266 of type Verse.Pawn. Was it compressed away, destroyed, had no ID number, or not saved/loaded right? curParent=RimWorld.RelationshipRecord curPathRelToParent=/references
-Could not resolve reference to object with loadID Thing_Human59826 of type Verse.Pawn. Was it compressed away, destroyed, had no ID number, or not saved/loaded right? curParent=RimWorld.RelationshipRecord curPathRelToParent=/references
-Could not resolve reference to object with loadID Thing_Human59826 of type Verse.Pawn. Was it compressed away, destroyed, had no ID number, or not saved/loaded right? curParent=RimWorld.RelationshipRecord curPathRelToParent=/references
-Could not resolve reference to object with loadID Lord_10 of type Verse.AI.Group.Lord. Was it compressed away, destroyed, had no ID number, or not saved/loaded right? curParent=VEF.Storyteller.RaidGroup curPathRelToParent=/lords
-Could not resolve reference to object with loadID Faction_25 of type RimWorld.Faction. Was it compressed away, destroyed, had no ID number, or not saved/loaded right? curParent=VEF.Storyteller.RaidGroup curPathRelToParent=
-Could not resolve reference to object with loadID Thing_Human59871 of type Verse.Pawn. Was it compressed away, destroyed, had no ID number, or not saved/loaded right? curParent=RimWorld.DirectPawnRelation curPathRelToParent=
-Could not resolve reference to object with loadID Thing_Human59865 of type Verse.Pawn. Was it compressed away, destroyed, had no ID number, or not saved/loaded right? curParent=RimWorld.DirectPawnRelation curPathRelToParent=
-Could not resolve reference to object with loadID Thing_Human40208 of type Verse.Pawn. Was it compressed away, destroyed, had no ID number, or not saved/loaded right? curParent=RimWorld.DirectPawnRelation curPathRelToParent=
-Could not resolve reference to object with loadID Thing_Human59826 of type Verse.Pawn. Was it compressed away, destroyed, had no ID number, or not saved/loaded right? curParent=RimWorld.DirectPawnRelation curPathRelToParent=
-Pawn Noskosteos has relation "ExLover" with null pawn after loading. This means that we forgot to serialize pawns somewhere (e.g. pawns from passing trade ships).
-Pawn Damiane has relation "Parent" with null pawn after loading. This means that we forgot to serialize pawns somewhere (e.g. pawns from passing trade ships).
-Pawn Gratian has relation "Parent" with null pawn after loading. This means that we forgot to serialize pawns somewhere (e.g. pawns from passing trade ships).
-Pawn Theophas has relation "Spouse" with null pawn after loading. This means that we forgot to serialize pawns somewhere (e.g. pawns from passing trade ships).
-Could not do PostLoadInit on RimWorld.Pawn_TrainingTracker: System.NullReferenceException: Object reference not set to an instance of an object
-[Ref F8FF2929]
-  at RimWorld.Pawn_TrainingTracker.CanAssignToTrain (RimWorld.TrainableDef td, Verse.ThingDef pawnDef, System.Boolean& visible, Verse.Pawn pawn) [0x0018d] in <61e4173561894da49d210260257b5097>:0 
-  at RimWorld.Pawn_TrainingTracker.CanAssignToTrain (RimWorld.TrainableDef td, System.Boolean& visible) [0x00000] in <61e4173561894da49d210260257b5097>:0 
-  at RimWorld.Pawn_TrainingTracker.CanAssignToTrain (RimWorld.TrainableDef td) [0x00000] in <61e4173561894da49d210260257b5097>:0 
-  at Verse.BackCompatibility.PawnTrainingTrackerPostLoadInit (RimWorld.Pawn_TrainingTracker tracker, Verse.DefMap`2[RimWorld.TrainableDef,System.Boolean]& wantedTrainables, Verse.DefMap`2[RimWorld.TrainableDef,System.Int32]& steps, Verse.DefMap`2[RimWorld.TrainableDef,System.Boolean]& learned) [0x00082] in <61e4173561894da49d210260257b5097>:0 
-  at RimWorld.Pawn_TrainingTracker.ExposeData () [0x0006a] in <61e4173561894da49d210260257b5097>:0 
-  at Verse.PostLoadIniter.DoAllPostLoadInits () [0x00032] in <61e4173561894da49d210260257b5097>:0 
-Could not do PostLoadInit on RimWorld.Pawn_TrainingTracker: System.NullReferenceException: Object reference not set to an instance of an object
-[Ref F8FF2929] Duplicate stacktrace, see ref for original
-Could not do PostLoadInit on RimWorld.Pawn_TrainingTracker: System.NullReferenceException: Object reference not set to an instance of an object
-[Ref F8FF2929] Duplicate stacktrace, see ref for original
-Could not do PostLoadInit on RimWorld.Pawn_TrainingTracker: System.NullReferenceException: Object reference not set to an instance of an object
-[Ref F8FF2929] Duplicate stacktrace, see ref for original
-Could not do PostLoadInit on RimWorld.Pawn_TrainingTracker: System.NullReferenceException: Object reference not set to an instance of an object
-[Ref F8FF2929] Duplicate stacktrace, see ref for original
-Could not do PostLoadInit on RimWorld.Pawn_TrainingTracker: System.NullReferenceException: Object reference not set to an instance of an object
-[Ref F8FF2929] Duplicate stacktrace, see ref for original
-<color=#66ffb5>[MeleeAnim]</color> Loaded 0 animation renderers on map Map-0-PlayerHome
-Could not do PostLoadInit on RimWorld.Pawn_TrainingTracker: System.NullReferenceException: Object reference not set to an instance of an object
-[Ref F8FF2929] Duplicate stacktrace, see ref for original
-Could not do PostLoadInit on RimWorld.Pawn_TrainingTracker: System.NullReferenceException: Object reference not set to an instance of an object
-[Ref F8FF2929] Duplicate stacktrace, see ref for original
-Could not do PostLoadInit on RimWorld.Pawn_TrainingTracker: System.NullReferenceException: Object reference not set to an instance of an object
-[Ref F8FF2929] Duplicate stacktrace, see ref for original
-Could not do PostLoadInit on RimWorld.Pawn_TrainingTracker: System.NullReferenceException: Object reference not set to an instance of an object
-[Ref F8FF2929] Duplicate stacktrace, see ref for original
-Could not do PostLoadInit on RimWorld.Pawn_TrainingTracker: System.NullReferenceException: Object reference not set to an instance of an object
-[Ref F8FF2929] Duplicate stacktrace, see ref for original
-Could not do PostLoadInit on RimWorld.Pawn_TrainingTracker: System.NullReferenceException: Object reference not set to an instance of an object
-[Ref F8FF2929] Duplicate stacktrace, see ref for original
-Could not do PostLoadInit on RimWorld.Pawn_TrainingTracker: System.NullReferenceException: Object reference not set to an instance of an object
-[Ref F8FF2929] Duplicate stacktrace, see ref for original
-Could not do PostLoadInit on RimWorld.Pawn_TrainingTracker: System.NullReferenceException: Object reference not set to an instance of an object
-[Ref F8FF2929] Duplicate stacktrace, see ref for original
-Could not do PostLoadInit on RimWorld.Pawn_TrainingTracker: System.NullReferenceException: Object reference not set to an instance of an object
-[Ref F8FF2929] Duplicate stacktrace, see ref for original
-[Big and Small]: Found 7 AlienRace.ThingDef_AlienRace ThingDefs.
-These are either from HAR races or B&S races automatically converted for compatibility.
+[AVP Xenomorphs] Created Xenomorph faction during pawn generation (was missing).
 checking editor settings...
 bodysizes genes are active
 [AVP Xenomorphs] Xenomorph hive faction already exists.
-Unloading 1 Unused Serialized files (Serialized files now loaded: 10)
-Unloading 1 unused Assets to reduce memory usage. Loaded Objects now: 46778.
-Total: 422.051200 ms (FindLiveObjects: 2.388200 ms CreateObjectMapping: 3.126700 ms MarkObjects: 416.431900 ms  DeleteObjects: 0.103700 ms)
+Unloading 0 Unused Serialized files (Serialized files now loaded: 10)
+Unloading 1 unused Assets to reduce memory usage. Loaded Objects now: 49422.
+Total: 415.967600 ms (FindLiveObjects: 2.517500 ms CreateObjectMapping: 3.137700 ms MarkObjects: 410.193000 ms  DeleteObjects: 0.119000 ms)
 
-Wrote screenshot C:\Users\clint\AppData\LocalLow\Ludeon Studios\RimWorld by Ludeon Studios\RimSaves\Previews\USCSS.dat of size 142274
