@@ -102,12 +102,18 @@
         <parentTagDef>Head</parentTagDef>
         <shaderTypeDef>CutoutComplex</shaderTypeDef>
         <drawData>
-          <scale>0.7</scale>
+          <scale>0.85</scale>
           <defaultData>
             <offset>(0, 0.03, -0.3)</offset>
             <layer>55</layer>
             <flip>True</flip>
           </defaultData>
+          <dataEast>
+            <flip>False</flip>
+          </dataEast>
+          <dataWest>
+            <flip>False</flip>
+          </dataWest>
         </drawData>
       </li>
     </renderNodeProperties>
