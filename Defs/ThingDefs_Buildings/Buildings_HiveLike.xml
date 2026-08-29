@@ -347,7 +347,7 @@
       <Cleanliness>-5</Cleanliness>
     </statBases>
     <graphicData>
-      <texPath>Things/Filth/Slime</texPath>
+      <texPath>Things/Filth/XenomorphSlime</texPath>
       <color>(130, 142, 120, 170)</color>
     </graphicData>
     <filth>
@@ -365,7 +365,7 @@
       <Cleanliness>-5</Cleanliness>
     </statBases>
     <graphicData>
-      <texPath>Things/Filth/Slime</texPath>
+      <texPath>Things/Filth/XenomorphSlime</texPath>
       <color>(130, 142, 120, 170)</color>
     </graphicData>
     <filth>
