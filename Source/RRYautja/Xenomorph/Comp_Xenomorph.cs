@@ -1228,5 +1228,31 @@ namespace RRYautja
         {
             return null;
         }
+
+        public override string CompInspectStringExtra()
+        {
+            if (this.parent is Pawn p)
+            {
+                if (p.CurJobDef != null)
+                {
+                    string jobLabel = p.CurJobDef.LabelCap;
+                    // Show target if the pawn has one
+                    if (p.jobs?.curJob != null && p.jobs.curJob.targetA.IsValid && p.jobs.curJob.targetA.HasThing)
+                    {
+                        var target = p.jobs.curJob.targetA.Thing;
+                        if (target is Pawn targetPawn)
+                            jobLabel += " " + targetPawn.LabelShort;
+                        else if (target != null)
+                            jobLabel += " " + target.LabelShort;
+                    }
+                    return jobLabel;
+                }
+                // No job — show state
+                if (p.Downed) return "Downed";
+                if (p.health?.hediffSet?.HasHediff(XenomorphDefOf.RRY_FaceHuggerInfection) ?? false) return "Facehugged";
+                return null;
+            }
+            return null;
+        }
     }
 }
