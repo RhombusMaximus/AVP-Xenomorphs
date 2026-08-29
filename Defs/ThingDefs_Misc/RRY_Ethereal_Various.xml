@@ -7,6 +7,10 @@
     <thingClass>RRYautja.TunnelSpawner</thingClass>
     <tickerType>Normal</tickerType>
     <drawerType>RealtimeOnly</drawerType>
+    <graphicData>
+      <texPath>DummyTexture</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+    </graphicData>
     <alwaysFlee>true</alwaysFlee>
   </ThingDef>
   

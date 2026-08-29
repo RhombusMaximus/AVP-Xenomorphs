@@ -284,6 +284,10 @@
 		-->
     <tickerType>Normal</tickerType>
     <drawerType>RealtimeOnly</drawerType>
+    <graphicData>
+      <texPath>DummyTexture</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+    </graphicData>
     <alwaysFlee>true</alwaysFlee>
   </ThingDef>
   
@@ -301,6 +305,10 @@
 		-->
     <tickerType>Normal</tickerType>
     <drawerType>RealtimeOnly</drawerType>
+    <graphicData>
+      <texPath>DummyTexture</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+    </graphicData>
     <alwaysFlee>true</alwaysFlee>
   </ThingDef>
   
