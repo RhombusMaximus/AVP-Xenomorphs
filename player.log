@@ -11,7 +11,7 @@ Direct3D:
     VRAM:     8042 MB
     Driver:   32.0.16.1088
 Begin MonoManager ReloadAssembly
-- Loaded All Assemblies, in  0.149 seconds
+- Loaded All Assemblies, in  4.242 seconds
 - Finished resetting the current domain, in  0.001 seconds
 <RI> Initializing input.
 
@@ -20,21 +20,21 @@ Begin MonoManager ReloadAssembly
 <RI> Initialized touch support.
 
 [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
-UnloadTime: 0.585600 ms
+UnloadTime: 0.649100 ms
 Command line arguments: -disable-compute-shaders
 RimWorld 1.6.4871 rev591
 Mod Realistic Humansounds HAR Patch dependency (Mlie.RealisticHumanSounds) needs to have <downloadUrl> and/or <steamWorkshopUrl> specified.
-Fallback handler could not load library D:/SteamLibrary/steamapps/common/RimWorld/RimWorldWin64_Data/MonoBleedingEdge/data-0000022C6ADEC280.dll
-Fallback handler could not load library D:/SteamLibrary/steamapps/common/RimWorld/RimWorldWin64_Data/MonoBleedingEdge/data-0000022DE19A51A0.dll
+Fallback handler could not load library D:/SteamLibrary/steamapps/common/RimWorld/RimWorldWin64_Data/MonoBleedingEdge/data-000002087CF080A0.dll
+Fallback handler could not load library D:/SteamLibrary/steamapps/common/RimWorld/RimWorldWin64_Data/MonoBleedingEdge/data-000002087D2B0180.dll
 [Loading Progress] Loading Progress initialized! Enjoy the rest of your loading experience!
 [HugsLib] version 12.0.0
 [HugsLib] early-initializing AllowTool
-Fallback handler could not load library D:/SteamLibrary/steamapps/common/RimWorld/RimWorldWin64_Data/MonoBleedingEdge/data-0000022DE4895010.dll
+Fallback handler could not load library D:/SteamLibrary/steamapps/common/RimWorld/RimWorldWin64_Data/MonoBleedingEdge/data-00000206E06D0020.dll
 DubsMintMenus v1.3.1086
 [Analyzer] Loaded version 1.6.0 rev 1
 [Analyzer] ResearchTree
 FPSStabilizer v1.1 loaded, patcher message: Patched successfully, fps set to 60
-Fallback handler could not load library D:/SteamLibrary/steamapps/common/RimWorld/RimWorldWin64_Data/MonoBleedingEdge/data-0000022DE8CAA390.dll
+Fallback handler could not load library D:/SteamLibrary/steamapps/common/RimWorld/RimWorldWin64_Data/MonoBleedingEdge/data-00000206E3C7AD60.dll
 <color=#66ffb5>[MeleeAnim]</color> Hello, world!
 Build date: 4/13/2026 8:02 AM
 Loaded assemblies (9):
@@ -106,7 +106,7 @@ NamesGalore: Current Lang English
 (Research Tab Colors) Transpiler injected.
 Unloading 5 Unused Serialized files (Serialized files now loaded: 7)
 Unloading 661 unused Assets to reduce memory usage. Loaded Objects now: 37945.
-Total: 334.464200 ms (FindLiveObjects: 1.905700 ms CreateObjectMapping: 2.385700 ms MarkObjects: 329.270200 ms  DeleteObjects: 0.902200 ms)
+Total: 323.052000 ms (FindLiveObjects: 1.844500 ms CreateObjectMapping: 1.133600 ms MarkObjects: 319.167500 ms  DeleteObjects: 0.906200 ms)
 
 MVCF successfully applied 41 patches
 [com.ogliss.rimworld.mod.rryatuja.minepatch] Patches on methods annotated as Obsolete were detected by HugsLib: RimWorld.Mineable.TrySpawnYield
@@ -302,27 +302,27 @@ Transpilers:
 Postfixes:
   [PeteTimesSix.SimpleSidearms] TryCastShot
 Unloading 2 Unused Serialized files (Serialized files now loaded: 9)
-<color=#66ffb5>[MeleeAnim]</color> PreCached all retexture info in 53.2ms
+<color=#66ffb5>[MeleeAnim]</color> PreCached all retexture info in 51.9ms
 <color=#66ffb5>[MeleeAnim]</color> Loaded tweak data for 42 weapons.
 <color=#66ffb5>[MeleeAnim]</color> ludeon.rimworld.odyssey 'Odyssey' has 2 missing weapon tweak data.
 <color=#66ffb5>[MeleeAnim]</color> ogliss.avpxenomorphs 'AVP Xenomorphs' has 3 missing weapon tweak data.
 <color=#66ffb5>[MeleeAnim]</color> redmattis.betterprerequisites 'Big and Small - Framework' has 1 missing weapon tweak data.
 <color=#66ffb5>[MeleeAnim]</color> tarojun.morishep.onioftherim 'Oni of the Rim' has 6 missing weapon tweak data.
 <color=#66ffb5>[MeleeAnim]</color> Skipping reporting of missing mod/weapons because user opted out or the feature is disabled by the developer.
-<color=#66ffb5>[MeleeAnim]</color> Patched 3 classes that directly inherit from Verb_MeleeAttack in 63.7 ms to detect hits:
+<color=#66ffb5>[MeleeAnim]</color> Patched 3 classes that directly inherit from Verb_MeleeAttack in 91.1 ms to detect hits:
 RimWorld.Verb_MeleeApplyHediff from Assembly-CSharp
 RimWorld.Verb_MeleeAttackDamage from Assembly-CSharp
 RRYautja.Verb_MeleeAttackKnockback from RRYautja
-<color=#66ffb5>[MeleeAnim]</color> Found 0 items of clothing that cover hands, took 0.71 ms:
+<color=#66ffb5>[MeleeAnim]</color> Found 0 items of clothing that cover hands, took 0.74 ms:
 Unloading 55 unused Assets to reduce memory usage. Loaded Objects now: 38108.
-Total: 312.797700 ms (FindLiveObjects: 1.877200 ms CreateObjectMapping: 1.267000 ms MarkObjects: 309.508200 ms  DeleteObjects: 0.145100 ms)
+Total: 330.933000 ms (FindLiveObjects: 1.845100 ms CreateObjectMapping: 2.231600 ms MarkObjects: 326.722100 ms  DeleteObjects: 0.133900 ms)
 
 Unloading 0 Unused Serialized files (Serialized files now loaded: 9)
 Loading asset bundle MuzzleFlash.shaders-windows
 Loaded shader Unlit/AnimatedAdditiveInstanced
 [Muzzle Flash] Shader loaded from MuzzleFlash: Unlit/AnimatedAdditiveInstanced
 Unloading 0 unused Assets to reduce memory usage. Loaded Objects now: 38110.
-Total: 308.990300 ms (FindLiveObjects: 1.824600 ms CreateObjectMapping: 1.018800 ms MarkObjects: 306.070100 ms  DeleteObjects: 0.076500 ms)
+Total: 302.561700 ms (FindLiveObjects: 1.969600 ms CreateObjectMapping: 2.202900 ms MarkObjects: 298.326800 ms  DeleteObjects: 0.061900 ms)
 
 Unloading 0 Unused Serialized files (Serialized files now loaded: 10)
 [Loading Progress] Why is ResearchPal.Profiler.Start from ResearchPal 1.6 - Temp calling DeepProfiler.Start (and by extension our patch) with null?! Stop it.
@@ -333,11 +333,11 @@ Unloading 0 Unused Serialized files (Serialized files now loaded: 10)
 [Loading Progress] Why is ResearchPal.Profiler.Start from ResearchPal 1.6 - Temp calling DeepProfiler.Start (and by extension our patch) with null?! Stop it.
 ResearchPal :: Research layout initialized
 Unloading 0 unused Assets to reduce memory usage. Loaded Objects now: 38110.
-Total: 339.303900 ms (FindLiveObjects: 1.951200 ms CreateObjectMapping: 1.220300 ms MarkObjects: 336.078200 ms  DeleteObjects: 0.053700 ms)
+Total: 307.355600 ms (FindLiveObjects: 1.877900 ms CreateObjectMapping: 1.163700 ms MarkObjects: 304.248800 ms  DeleteObjects: 0.064600 ms)
 
 Unloading 0 Unused Serialized files (Serialized files now loaded: 10)
 Unloading 0 unused Assets to reduce memory usage. Loaded Objects now: 38110.
-Total: 304.019800 ms (FindLiveObjects: 2.428400 ms CreateObjectMapping: 1.216700 ms MarkObjects: 300.305200 ms  DeleteObjects: 0.068700 ms)
+Total: 312.194200 ms (FindLiveObjects: 2.495000 ms CreateObjectMapping: 1.791700 ms MarkObjects: 307.829300 ms  DeleteObjects: 0.077900 ms)
 
 [HugsLib] initializing TerraformRimworld
 CE is trying to create default parameter lists ...
@@ -357,7 +357,7 @@ no modifications for lifestages
 These are either from HAR races or B&S races automatically converted for compatibility.
 Unloading 2 Unused Serialized files (Serialized files now loaded: 10)
 Unloading 0 unused Assets to reduce memory usage. Loaded Objects now: 39916.
-Total: 368.290200 ms (FindLiveObjects: 1.973000 ms CreateObjectMapping: 1.216600 ms MarkObjects: 365.033700 ms  DeleteObjects: 0.066500 ms)
+Total: 340.362500 ms (FindLiveObjects: 1.888800 ms CreateObjectMapping: 1.216900 ms MarkObjects: 337.189100 ms  DeleteObjects: 0.067300 ms)
 
 A hidden ritual precept was missing, adding: Throne speech
 A hidden ritual precept was missing, adding: Anima tree linking
@@ -370,9 +370,9 @@ A hidden ritual precept was missing, adding: Bestow honor
 A hidden ritual precept was missing, adding: Bestow title
 A hidden ritual precept was missing, adding: Royal address
 Unloading 3 Unused Serialized files (Serialized files now loaded: 10)
-UnloadTime: 0.598700 ms
-Unloading 4 unused Assets to reduce memory usage. Loaded Objects now: 40438.
-Total: 370.047600 ms (FindLiveObjects: 1.875400 ms CreateObjectMapping: 1.242400 ms MarkObjects: 366.831500 ms  DeleteObjects: 0.097900 ms)
+UnloadTime: 0.587600 ms
+Unloading 3 unused Assets to reduce memory usage. Loaded Objects now: 40450.
+Total: 374.213100 ms (FindLiveObjects: 1.874000 ms CreateObjectMapping: 1.107900 ms MarkObjects: 371.106900 ms  DeleteObjects: 0.123900 ms)
 
 Initializing new game with mods:
   - brrainz.harmony
@@ -475,646 +475,11 @@ Initializing new game with mods:
   - Garwel.StartingTechLevel
   - void.terraformrimworld
   - Arylice.Rimworld.AutomaticHunting
-[Simple FX: Shinies] Tried to remove a shiny area from unknown map: 0
-[Simple FX: Shinies] Tried to remove a shiny area from unknown map: 0
-[Simple FX: Shinies] Tried to remove a shiny area from unknown map: 0
-[Simple FX: Shinies] Tried to remove a shiny area from unknown map: 0
-[Simple FX: Shinies] Tried to remove a shiny area from unknown map: 0
 [AVP Xenomorphs] Created Xenomorph faction during pawn generation (was missing).
 checking editor settings...
 bodysizes genes are active
 [AVP Xenomorphs] Xenomorph hive faction already exists.
 Unloading 0 Unused Serialized files (Serialized files now loaded: 10)
-Unloading 1 unused Assets to reduce memory usage. Loaded Objects now: 48567.
-Total: 430.348500 ms (FindLiveObjects: 2.412400 ms CreateObjectMapping: 3.128600 ms MarkObjects: 424.697800 ms  DeleteObjects: 0.109200 ms)
+Unloading 1 unused Assets to reduce memory usage. Loaded Objects now: 48641.
+Total: 390.524900 ms (FindLiveObjects: 2.566600 ms CreateObjectMapping: 1.878100 ms MarkObjects: 385.940800 ms  DeleteObjects: 0.139100 ms)
 
-Attempted to draw Porcupine54600 without a resolved render tree.
-Exception in UIRootUpdate: System.ArgumentNullException: Value cannot be null.
-Parameter name: key
-[Ref B9E4F9EB]
- [0x00006] in <51fded79cd284d4d911c5949aff4cb21>:0 
-  at System.Collections.Generic.Dictionary`2[TKey,TValue].FindEntry (TKey key) [0x00008] in <51fded79cd284d4d911c5949aff4cb21>:0 
-  at System.Collections.Generic.Dictionary`2[TKey,TValue].TryGetValue (TKey key, TValue& value) [0x00000] in <51fded79cd284d4d911c5949aff4cb21>:0 
-  at Verse.ModContentHolder`1[T].Get (System.String path) [0x00000] in <61e4173561894da49d210260257b5097>:0 
-  at Verse.ContentFinder`1[T].Get (System.String itemPath, System.Boolean reportFailure) [0x00066] in <61e4173561894da49d210260257b5097>:0 
-  at Verse.Graphic_Single.Init (Verse.GraphicRequest req) [0x00048] in <61e4173561894da49d210260257b5097>:0 
-  at Verse.GraphicDatabase.GetInner[T] (Verse.GraphicRequest req) [0x000a5] in <61e4173561894da49d210260257b5097>:0 
-  at Verse.GraphicDatabase.Get[T] (System.String path, UnityEngine.Shader shader, UnityEngine.Vector2 drawSize, UnityEngine.Color color, System.Int32 renderQueue) [0x0001d] in <61e4173561894da49d210260257b5097>:0 
-  at Replace_Stuff.OverMineable.ShowGhostOverFog.GetRenderHigh (System.String path, UnityEngine.Shader shader, UnityEngine.Vector2 drawSize, UnityEngine.Color color) [0x00000] in <328a960ccd7e402da507c97704111424>:0 
-  at Verse.GhostUtility.GhostGraphicFor (Verse.Graphic baseGraphic, Verse.ThingDef thingDef, UnityEngine.Color ghostCol, Verse.ThingDef stuff) [0x0008b] in <61e4173561894da49d210260257b5097>:0 
-    - TRANSPILER Uuugggg.rimworld.Replace_Stuff.main: IEnumerable`1 Replace_Stuff.OverMineable.ShowGhostOverFog:Transpiler(IEnumerable`1 instructions)
-    - TRANSPILER rimworld.jecrell.doorsexpanded: IEnumerable`1 DoorsExpanded.HarmonyPatches:DoorExpandedGhostGraphicForTranspiler(IEnumerable`1 instructions)
-  at Verse.GhostDrawer.DrawGhostThing (Verse.IntVec3 center, Verse.Rot4 rot, Verse.ThingDef thingDef, Verse.Graphic baseGraphic, UnityEngine.Color ghostCol, Verse.AltitudeLayer drawAltitude, Verse.Thing thing, System.Boolean drawPlaceWorkers, Verse.ThingDef stuff) [0x0001c] in <61e4173561894da49d210260257b5097>:0 
-    - TRANSPILER rimworld.jecrell.doorsexpanded: IEnumerable`1 DoorsExpanded.HarmonyPatches:DoorExpandedDrawGhostThingTranspiler(IEnumerable`1 instructions)
-  at RimWorld.Designator_Install.DrawGhost (UnityEngine.Color ghostCol) [0x000a5] in <61e4173561894da49d210260257b5097>:0 
-  at RimWorld.Designator_Place.SelectedUpdate () [0x0007f] in <61e4173561894da49d210260257b5097>:0 
-  at RimWorld.Designator_Install.SelectedUpdate () [0x00000] in <61e4173561894da49d210260257b5097>:0 
-    - POSTFIX Kikohi.PipeSystem: Void PipeSystem.Designator_Install_Patch:Postfix(Designator_Install __instance)
-  at Verse.DesignatorManager.DesignatorManagerUpdate () [0x00013] in <61e4173561894da49d210260257b5097>:0 
-  at RimWorld.MapInterface.MapInterfaceUpdate () [0x00025] in <61e4173561894da49d210260257b5097>:0 
-  at RimWorld.UIRoot_Play.UIRootUpdate () [0x00015] in <61e4173561894da49d210260257b5097>:0 
-Exception in UIRootUpdate: System.ArgumentNullException: Value cannot be null.
-Parameter name: key
-[Ref B9E4F9EB] Duplicate stacktrace, see ref for original
-Exception in UIRootUpdate: System.ArgumentNullException: Value cannot be null.
-Parameter name: key
-[Ref B9E4F9EB] Duplicate stacktrace, see ref for original
-Exception in UIRootUpdate: System.ArgumentNullException: Value cannot be null.
-Parameter name: key
-[Ref B9E4F9EB] Duplicate stacktrace, see ref for original
-Exception in UIRootUpdate: System.ArgumentNullException: Value cannot be null.
-Parameter name: key
-[Ref B9E4F9EB] Duplicate stacktrace, see ref for original
-Exception in UIRootUpdate: System.ArgumentNullException: Value cannot be null.
-Parameter name: key
-[Ref B9E4F9EB] Duplicate stacktrace, see ref for original
-Exception in UIRootUpdate: System.ArgumentNullException: Value cannot be null.
-Parameter name: key
-[Ref B9E4F9EB] Duplicate stacktrace, see ref for original
-Exception in UIRootUpdate: System.ArgumentNullException: Value cannot be null.
-Parameter name: key
-[Ref B9E4F9EB] Duplicate stacktrace, see ref for original
-Exception in UIRootUpdate: System.ArgumentNullException: Value cannot be null.
-Parameter name: key
-[Ref B9E4F9EB] Duplicate stacktrace, see ref for original
-Exception in UIRootUpdate: System.ArgumentNullException: Value cannot be null.
-Parameter name: key
-[Ref B9E4F9EB] Duplicate stacktrace, see ref for original
-Exception in UIRootUpdate: System.ArgumentNullException: Value cannot be null.
-Parameter name: key
-[Ref B9E4F9EB] Duplicate stacktrace, see ref for original
-Exception in UIRootUpdate: System.ArgumentNullException: Value cannot be null.
-Parameter name: key
-[Ref B9E4F9EB] Duplicate stacktrace, see ref for original
-Exception in UIRootUpdate: System.ArgumentNullException: Value cannot be null.
-Parameter name: key
-[Ref B9E4F9EB] Duplicate stacktrace, see ref for original
-Exception in UIRootUpdate: System.ArgumentNullException: Value cannot be null.
-Parameter name: key
-[Ref B9E4F9EB] Duplicate stacktrace, see ref for original
-Exception in UIRootUpdate: System.ArgumentNullException: Value cannot be null.
-Parameter name: key
-[Ref B9E4F9EB] Duplicate stacktrace, see ref for original
-Exception in UIRootUpdate: System.ArgumentNullException: Value cannot be null.
-Parameter name: key
-[Ref B9E4F9EB] Duplicate stacktrace, see ref for original
-Exception in UIRootUpdate: System.ArgumentNullException: Value cannot be null.
-Parameter name: key
-[Ref B9E4F9EB] Duplicate stacktrace, see ref for original
-Exception in UIRootUpdate: System.ArgumentNullException: Value cannot be null.
-Parameter name: key
-[Ref B9E4F9EB] Duplicate stacktrace, see ref for original
-Exception in UIRootUpdate: System.ArgumentNullException: Value cannot be null.
-Parameter name: key
-[Ref B9E4F9EB] Duplicate stacktrace, see ref for original
-Exception in UIRootUpdate: System.ArgumentNullException: Value cannot be null.
-Parameter name: key
-[Ref B9E4F9EB] Duplicate stacktrace, see ref for original
-Exception in UIRootUpdate: System.ArgumentNullException: Value cannot be null.
-Parameter name: key
-[Ref B9E4F9EB] Duplicate stacktrace, see ref for original
-Exception in UIRootUpdate: System.ArgumentNullException: Value cannot be null.
-Parameter name: key
-[Ref B9E4F9EB] Duplicate stacktrace, see ref for original
-Exception in UIRootUpdate: System.ArgumentNullException: Value cannot be null.
-Parameter name: key
-[Ref B9E4F9EB] Duplicate stacktrace, see ref for original
-Exception in UIRootUpdate: System.ArgumentNullException: Value cannot be null.
-Parameter name: key
-[Ref B9E4F9EB] Duplicate stacktrace, see ref for original
-Exception in UIRootUpdate: System.ArgumentNullException: Value cannot be null.
-Parameter name: key
-[Ref B9E4F9EB] Duplicate stacktrace, see ref for original
-Exception in UIRootUpdate: System.ArgumentNullException: Value cannot be null.
-Parameter name: key
-[Ref B9E4F9EB] Duplicate stacktrace, see ref for original
-Exception in UIRootUpdate: System.ArgumentNullException: Value cannot be null.
-Parameter name: key
-[Ref B9E4F9EB] Duplicate stacktrace, see ref for original
-Exception in UIRootUpdate: System.ArgumentNullException: Value cannot be null.
-Parameter name: key
-[Ref B9E4F9EB] Duplicate stacktrace, see ref for original
-Exception in UIRootUpdate: System.ArgumentNullException: Value cannot be null.
-Parameter name: key
-[Ref B9E4F9EB] Duplicate stacktrace, see ref for original
-Exception in UIRootUpdate: System.ArgumentNullException: Value cannot be null.
-Parameter name: key
-[Ref B9E4F9EB] Duplicate stacktrace, see ref for original
-Exception in UIRootUpdate: System.ArgumentNullException: Value cannot be null.
-Parameter name: key
-[Ref B9E4F9EB] Duplicate stacktrace, see ref for original
-Exception in UIRootUpdate: System.ArgumentNullException: Value cannot be null.
-Parameter name: key
-[Ref B9E4F9EB] Duplicate stacktrace, see ref for original
-Exception in UIRootUpdate: System.ArgumentNullException: Value cannot be null.
-Parameter name: key
-[Ref B9E4F9EB] Duplicate stacktrace, see ref for original
-Exception in UIRootUpdate: System.ArgumentNullException: Value cannot be null.
-Parameter name: key
-[Ref B9E4F9EB] Duplicate stacktrace, see ref for original
-Exception in UIRootUpdate: System.ArgumentNullException: Value cannot be null.
-Parameter name: key
-[Ref B9E4F9EB] Duplicate stacktrace, see ref for original
-Exception in UIRootUpdate: System.ArgumentNullException: Value cannot be null.
-Parameter name: key
-[Ref B9E4F9EB] Duplicate stacktrace, see ref for original
-Exception in UIRootUpdate: System.ArgumentNullException: Value cannot be null.
-Parameter name: key
-[Ref B9E4F9EB] Duplicate stacktrace, see ref for original
-Exception in UIRootUpdate: System.ArgumentNullException: Value cannot be null.
-Parameter name: key
-[Ref B9E4F9EB] Duplicate stacktrace, see ref for original
-Exception in UIRootUpdate: System.ArgumentNullException: Value cannot be null.
-Parameter name: key
-[Ref B9E4F9EB] Duplicate stacktrace, see ref for original
-Exception in UIRootUpdate: System.ArgumentNullException: Value cannot be null.
-Parameter name: key
-[Ref B9E4F9EB] Duplicate stacktrace, see ref for original
-Exception in UIRootUpdate: System.ArgumentNullException: Value cannot be null.
-Parameter name: key
-[Ref B9E4F9EB] Duplicate stacktrace, see ref for original
-Exception in UIRootUpdate: System.ArgumentNullException: Value cannot be null.
-Parameter name: key
-[Ref B9E4F9EB] Duplicate stacktrace, see ref for original
-Exception in UIRootUpdate: System.ArgumentNullException: Value cannot be null.
-Parameter name: key
-[Ref B9E4F9EB] Duplicate stacktrace, see ref for original
-Exception in UIRootUpdate: System.ArgumentNullException: Value cannot be null.
-Parameter name: key
-[Ref B9E4F9EB] Duplicate stacktrace, see ref for original
-Exception in UIRootUpdate: System.ArgumentNullException: Value cannot be null.
-Parameter name: key
-[Ref B9E4F9EB] Duplicate stacktrace, see ref for original
-Exception in UIRootUpdate: System.ArgumentNullException: Value cannot be null.
-Parameter name: key
-[Ref B9E4F9EB] Duplicate stacktrace, see ref for original
-Exception in UIRootUpdate: System.ArgumentNullException: Value cannot be null.
-Parameter name: key
-[Ref B9E4F9EB] Duplicate stacktrace, see ref for original
-Exception in UIRootUpdate: System.ArgumentNullException: Value cannot be null.
-Parameter name: key
-[Ref B9E4F9EB] Duplicate stacktrace, see ref for original
-Exception in UIRootUpdate: System.ArgumentNullException: Value cannot be null.
-Parameter name: key
-[Ref B9E4F9EB] Duplicate stacktrace, see ref for original
-Exception in UIRootUpdate: System.ArgumentNullException: Value cannot be null.
-Parameter name: key
-[Ref B9E4F9EB] Duplicate stacktrace, see ref for original
-Exception in UIRootUpdate: System.ArgumentNullException: Value cannot be null.
-Parameter name: key
-[Ref B9E4F9EB] Duplicate stacktrace, see ref for original
-Exception in UIRootUpdate: System.ArgumentNullException: Value cannot be null.
-Parameter name: key
-[Ref B9E4F9EB] Duplicate stacktrace, see ref for original
-Exception in UIRootUpdate: System.ArgumentNullException: Value cannot be null.
-Parameter name: key
-[Ref B9E4F9EB] Duplicate stacktrace, see ref for original
-Exception in UIRootUpdate: System.ArgumentNullException: Value cannot be null.
-Parameter name: key
-[Ref B9E4F9EB] Duplicate stacktrace, see ref for original
-Exception in UIRootUpdate: System.ArgumentNullException: Value cannot be null.
-Parameter name: key
-[Ref B9E4F9EB] Duplicate stacktrace, see ref for original
-Exception in UIRootUpdate: System.ArgumentNullException: Value cannot be null.
-Parameter name: key
-[Ref B9E4F9EB] Duplicate stacktrace, see ref for original
-Exception in UIRootUpdate: System.ArgumentNullException: Value cannot be null.
-Parameter name: key
-[Ref B9E4F9EB] Duplicate stacktrace, see ref for original
-Exception in UIRootUpdate: System.ArgumentNullException: Value cannot be null.
-Parameter name: key
-[Ref B9E4F9EB] Duplicate stacktrace, see ref for original
-Exception in UIRootUpdate: System.ArgumentNullException: Value cannot be null.
-Parameter name: key
-[Ref B9E4F9EB] Duplicate stacktrace, see ref for original
-Exception in UIRootUpdate: System.ArgumentNullException: Value cannot be null.
-Parameter name: key
-[Ref B9E4F9EB] Duplicate stacktrace, see ref for original
-Exception in UIRootUpdate: System.ArgumentNullException: Value cannot be null.
-Parameter name: key
-[Ref B9E4F9EB] Duplicate stacktrace, see ref for original
-Exception in UIRootUpdate: System.ArgumentNullException: Value cannot be null.
-Parameter name: key
-[Ref B9E4F9EB] Duplicate stacktrace, see ref for original
-Exception in UIRootUpdate: System.ArgumentNullException: Value cannot be null.
-Parameter name: key
-[Ref B9E4F9EB] Duplicate stacktrace, see ref for original
-Exception in UIRootUpdate: System.ArgumentNullException: Value cannot be null.
-Parameter name: key
-[Ref B9E4F9EB] Duplicate stacktrace, see ref for original
-Exception in UIRootUpdate: System.ArgumentNullException: Value cannot be null.
-Parameter name: key
-[Ref B9E4F9EB] Duplicate stacktrace, see ref for original
-Exception in UIRootUpdate: System.ArgumentNullException: Value cannot be null.
-Parameter name: key
-[Ref B9E4F9EB] Duplicate stacktrace, see ref for original
-Exception in UIRootUpdate: System.ArgumentNullException: Value cannot be null.
-Parameter name: key
-[Ref B9E4F9EB] Duplicate stacktrace, see ref for original
-Exception in UIRootUpdate: System.ArgumentNullException: Value cannot be null.
-Parameter name: key
-[Ref B9E4F9EB] Duplicate stacktrace, see ref for original
-Exception in UIRootUpdate: System.ArgumentNullException: Value cannot be null.
-Parameter name: key
-[Ref B9E4F9EB] Duplicate stacktrace, see ref for original
-Exception in UIRootUpdate: System.ArgumentNullException: Value cannot be null.
-Parameter name: key
-[Ref B9E4F9EB] Duplicate stacktrace, see ref for original
-Exception in UIRootUpdate: System.ArgumentNullException: Value cannot be null.
-Parameter name: key
-[Ref B9E4F9EB] Duplicate stacktrace, see ref for original
-Exception in UIRootUpdate: System.ArgumentNullException: Value cannot be null.
-Parameter name: key
-[Ref B9E4F9EB] Duplicate stacktrace, see ref for original
-Exception in UIRootUpdate: System.ArgumentNullException: Value cannot be null.
-Parameter name: key
-[Ref B9E4F9EB] Duplicate stacktrace, see ref for original
-Exception in UIRootUpdate: System.ArgumentNullException: Value cannot be null.
-Parameter name: key
-[Ref B9E4F9EB] Duplicate stacktrace, see ref for original
-Exception in UIRootUpdate: System.ArgumentNullException: Value cannot be null.
-Parameter name: key
-[Ref B9E4F9EB] Duplicate stacktrace, see ref for original
-Exception in UIRootUpdate: System.ArgumentNullException: Value cannot be null.
-Parameter name: key
-[Ref B9E4F9EB] Duplicate stacktrace, see ref for original
-Exception in UIRootUpdate: System.ArgumentNullException: Value cannot be null.
-Parameter name: key
-[Ref B9E4F9EB] Duplicate stacktrace, see ref for original
-Exception in UIRootUpdate: System.ArgumentNullException: Value cannot be null.
-Parameter name: key
-[Ref B9E4F9EB] Duplicate stacktrace, see ref for original
-Exception in UIRootUpdate: System.ArgumentNullException: Value cannot be null.
-Parameter name: key
-[Ref B9E4F9EB] Duplicate stacktrace, see ref for original
-Exception in UIRootUpdate: System.ArgumentNullException: Value cannot be null.
-Parameter name: key
-[Ref B9E4F9EB] Duplicate stacktrace, see ref for original
-Exception in UIRootUpdate: System.ArgumentNullException: Value cannot be null.
-Parameter name: key
-[Ref B9E4F9EB] Duplicate stacktrace, see ref for original
-Exception in UIRootUpdate: System.ArgumentNullException: Value cannot be null.
-Parameter name: key
-[Ref B9E4F9EB] Duplicate stacktrace, see ref for original
-Exception in UIRootUpdate: System.ArgumentNullException: Value cannot be null.
-Parameter name: key
-[Ref B9E4F9EB] Duplicate stacktrace, see ref for original
-Exception in UIRootUpdate: System.ArgumentNullException: Value cannot be null.
-Parameter name: key
-[Ref B9E4F9EB] Duplicate stacktrace, see ref for original
-Exception in UIRootUpdate: System.ArgumentNullException: Value cannot be null.
-Parameter name: key
-[Ref B9E4F9EB] Duplicate stacktrace, see ref for original
-Exception in UIRootUpdate: System.ArgumentNullException: Value cannot be null.
-Parameter name: key
-[Ref B9E4F9EB] Duplicate stacktrace, see ref for original
-Exception in UIRootUpdate: System.ArgumentNullException: Value cannot be null.
-Parameter name: key
-[Ref B9E4F9EB] Duplicate stacktrace, see ref for original
-Exception in UIRootUpdate: System.ArgumentNullException: Value cannot be null.
-Parameter name: key
-[Ref B9E4F9EB] Duplicate stacktrace, see ref for original
-Exception in UIRootUpdate: System.ArgumentNullException: Value cannot be null.
-Parameter name: key
-[Ref B9E4F9EB] Duplicate stacktrace, see ref for original
-Exception in UIRootUpdate: System.ArgumentNullException: Value cannot be null.
-Parameter name: key
-[Ref B9E4F9EB] Duplicate stacktrace, see ref for original
-Exception in UIRootUpdate: System.ArgumentNullException: Value cannot be null.
-Parameter name: key
-[Ref B9E4F9EB] Duplicate stacktrace, see ref for original
-Exception in UIRootUpdate: System.ArgumentNullException: Value cannot be null.
-Parameter name: key
-[Ref B9E4F9EB] Duplicate stacktrace, see ref for original
-Exception in UIRootUpdate: System.ArgumentNullException: Value cannot be null.
-Parameter name: key
-[Ref B9E4F9EB] Duplicate stacktrace, see ref for original
-Exception in UIRootUpdate: System.ArgumentNullException: Value cannot be null.
-Parameter name: key
-[Ref B9E4F9EB] Duplicate stacktrace, see ref for original
-Exception in UIRootUpdate: System.ArgumentNullException: Value cannot be null.
-Parameter name: key
-[Ref B9E4F9EB] Duplicate stacktrace, see ref for original
-Exception in UIRootUpdate: System.ArgumentNullException: Value cannot be null.
-Parameter name: key
-[Ref B9E4F9EB] Duplicate stacktrace, see ref for original
-Exception in UIRootUpdate: System.ArgumentNullException: Value cannot be null.
-Parameter name: key
-[Ref B9E4F9EB] Duplicate stacktrace, see ref for original
-Exception in UIRootUpdate: System.ArgumentNullException: Value cannot be null.
-Parameter name: key
-[Ref B9E4F9EB] Duplicate stacktrace, see ref for original
-Exception in UIRootUpdate: System.ArgumentNullException: Value cannot be null.
-Parameter name: key
-[Ref B9E4F9EB] Duplicate stacktrace, see ref for original
-Exception in UIRootUpdate: System.ArgumentNullException: Value cannot be null.
-Parameter name: key
-[Ref B9E4F9EB] Duplicate stacktrace, see ref for original
-Attempted to draw Rat54596 without a resolved render tree.
-Wrote screenshot C:\Users\clint\AppData\LocalLow\Ludeon Studios\RimWorld by Ludeon Studios\RimSaves\Previews\Autosave-1.dat of size 180406
-Wrote screenshot C:\Users\clint\AppData\LocalLow\Ludeon Studios\RimWorld by Ludeon Studios\RimSaves\Previews\Autosave-2.dat of size 167177
-Exception ticking GeothermalGenerator56701. Suppressing further errors. Exception: System.NullReferenceException: Object reference not set to an instance of an object
-[Ref D8196CD5]
-  at RimWorld.CompPowerPlantSteam.CompTick () [0x0001a] in <61e4173561894da49d210260257b5097>:0 
-  at Verse.ThingWithComps.Tick () [0x00025] in <61e4173561894da49d210260257b5097>:0 
-  at Verse.Thing.DoTick () [0x0007b] in <61e4173561894da49d210260257b5097>:0 
-  at Verse.TickList.Tick () [0x00139] in <61e4173561894da49d210260257b5097>:0 
-Cannot drop RRY_Xenomorph_Queen54581 without a dropLoc and with an owner whose map is null.
-Wrote screenshot C:\Users\clint\AppData\LocalLow\Ludeon Studios\RimWorld by Ludeon Studios\RimSaves\Previews\Autosave-3.dat of size 138349
-Exception in UIRootUpdate: System.ArgumentNullException: Value cannot be null.
-Parameter name: key
-[Ref B9E4F9EB] Duplicate stacktrace, see ref for original
-Exception in UIRootUpdate: System.ArgumentNullException: Value cannot be null.
-Parameter name: key
-[Ref B9E4F9EB] Duplicate stacktrace, see ref for original
-Exception in UIRootUpdate: System.ArgumentNullException: Value cannot be null.
-Parameter name: key
-[Ref B9E4F9EB] Duplicate stacktrace, see ref for original
-Exception in UIRootUpdate: System.ArgumentNullException: Value cannot be null.
-Parameter name: key
-[Ref B9E4F9EB] Duplicate stacktrace, see ref for original
-Exception in UIRootUpdate: System.ArgumentNullException: Value cannot be null.
-Parameter name: key
-[Ref B9E4F9EB] Duplicate stacktrace, see ref for original
-Exception in UIRootUpdate: System.ArgumentNullException: Value cannot be null.
-Parameter name: key
-[Ref B9E4F9EB] Duplicate stacktrace, see ref for original
-Exception in UIRootUpdate: System.ArgumentNullException: Value cannot be null.
-Parameter name: key
-[Ref B9E4F9EB] Duplicate stacktrace, see ref for original
-Exception in UIRootUpdate: System.ArgumentNullException: Value cannot be null.
-Parameter name: key
-[Ref B9E4F9EB] Duplicate stacktrace, see ref for original
-Exception in UIRootUpdate: System.ArgumentNullException: Value cannot be null.
-Parameter name: key
-[Ref B9E4F9EB] Duplicate stacktrace, see ref for original
-Exception in UIRootUpdate: System.ArgumentNullException: Value cannot be null.
-Parameter name: key
-[Ref B9E4F9EB] Duplicate stacktrace, see ref for original
-Exception in UIRootUpdate: System.ArgumentNullException: Value cannot be null.
-Parameter name: key
-[Ref B9E4F9EB] Duplicate stacktrace, see ref for original
-Exception in UIRootUpdate: System.ArgumentNullException: Value cannot be null.
-Parameter name: key
-[Ref B9E4F9EB] Duplicate stacktrace, see ref for original
-Exception in UIRootUpdate: System.ArgumentNullException: Value cannot be null.
-Parameter name: key
-[Ref B9E4F9EB] Duplicate stacktrace, see ref for original
-Exception in UIRootUpdate: System.ArgumentNullException: Value cannot be null.
-Parameter name: key
-[Ref B9E4F9EB] Duplicate stacktrace, see ref for original
-Exception in UIRootUpdate: System.ArgumentNullException: Value cannot be null.
-Parameter name: key
-[Ref B9E4F9EB] Duplicate stacktrace, see ref for original
-Exception in UIRootUpdate: System.ArgumentNullException: Value cannot be null.
-Parameter name: key
-[Ref B9E4F9EB] Duplicate stacktrace, see ref for original
-Exception in UIRootUpdate: System.ArgumentNullException: Value cannot be null.
-Parameter name: key
-[Ref B9E4F9EB] Duplicate stacktrace, see ref for original
-Exception in UIRootUpdate: System.ArgumentNullException: Value cannot be null.
-Parameter name: key
-[Ref B9E4F9EB] Duplicate stacktrace, see ref for original
-Exception in UIRootUpdate: System.ArgumentNullException: Value cannot be null.
-Parameter name: key
-[Ref B9E4F9EB] Duplicate stacktrace, see ref for original
-Exception in UIRootUpdate: System.ArgumentNullException: Value cannot be null.
-Parameter name: key
-[Ref B9E4F9EB] Duplicate stacktrace, see ref for original
-Exception in UIRootUpdate: System.ArgumentNullException: Value cannot be null.
-Parameter name: key
-[Ref B9E4F9EB] Duplicate stacktrace, see ref for original
-Exception in UIRootUpdate: System.ArgumentNullException: Value cannot be null.
-Parameter name: key
-[Ref B9E4F9EB] Duplicate stacktrace, see ref for original
-Exception in UIRootUpdate: System.ArgumentNullException: Value cannot be null.
-Parameter name: key
-[Ref B9E4F9EB] Duplicate stacktrace, see ref for original
-Exception in UIRootUpdate: System.ArgumentNullException: Value cannot be null.
-Parameter name: key
-[Ref B9E4F9EB] Duplicate stacktrace, see ref for original
-Exception in UIRootUpdate: System.ArgumentNullException: Value cannot be null.
-Parameter name: key
-[Ref B9E4F9EB] Duplicate stacktrace, see ref for original
-Exception in UIRootUpdate: System.ArgumentNullException: Value cannot be null.
-Parameter name: key
-[Ref B9E4F9EB] Duplicate stacktrace, see ref for original
-Exception in UIRootUpdate: System.ArgumentNullException: Value cannot be null.
-Parameter name: key
-[Ref B9E4F9EB] Duplicate stacktrace, see ref for original
-Exception in UIRootUpdate: System.ArgumentNullException: Value cannot be null.
-Parameter name: key
-[Ref B9E4F9EB] Duplicate stacktrace, see ref for original
-Exception in UIRootUpdate: System.ArgumentNullException: Value cannot be null.
-Parameter name: key
-[Ref B9E4F9EB] Duplicate stacktrace, see ref for original
-Exception in UIRootUpdate: System.ArgumentNullException: Value cannot be null.
-Parameter name: key
-[Ref B9E4F9EB] Duplicate stacktrace, see ref for original
-Exception in UIRootUpdate: System.ArgumentNullException: Value cannot be null.
-Parameter name: key
-[Ref B9E4F9EB] Duplicate stacktrace, see ref for original
-Exception in UIRootUpdate: System.ArgumentNullException: Value cannot be null.
-Parameter name: key
-[Ref B9E4F9EB] Duplicate stacktrace, see ref for original
-Exception in UIRootUpdate: System.ArgumentNullException: Value cannot be null.
-Parameter name: key
-[Ref B9E4F9EB] Duplicate stacktrace, see ref for original
-Exception in UIRootUpdate: System.ArgumentNullException: Value cannot be null.
-Parameter name: key
-[Ref B9E4F9EB] Duplicate stacktrace, see ref for original
-Exception in UIRootUpdate: System.ArgumentNullException: Value cannot be null.
-Parameter name: key
-[Ref B9E4F9EB] Duplicate stacktrace, see ref for original
-Exception in UIRootUpdate: System.ArgumentNullException: Value cannot be null.
-Parameter name: key
-[Ref B9E4F9EB] Duplicate stacktrace, see ref for original
-Exception in UIRootUpdate: System.ArgumentNullException: Value cannot be null.
-Parameter name: key
-[Ref B9E4F9EB] Duplicate stacktrace, see ref for original
-Exception in UIRootUpdate: System.ArgumentNullException: Value cannot be null.
-Parameter name: key
-[Ref B9E4F9EB] Duplicate stacktrace, see ref for original
-Exception in UIRootUpdate: System.ArgumentNullException: Value cannot be null.
-Parameter name: key
-[Ref B9E4F9EB] Duplicate stacktrace, see ref for original
-Exception in UIRootUpdate: System.ArgumentNullException: Value cannot be null.
-Parameter name: key
-[Ref B9E4F9EB] Duplicate stacktrace, see ref for original
-Exception in UIRootUpdate: System.ArgumentNullException: Value cannot be null.
-Parameter name: key
-[Ref B9E4F9EB] Duplicate stacktrace, see ref for original
-Exception in UIRootUpdate: System.ArgumentNullException: Value cannot be null.
-Parameter name: key
-[Ref B9E4F9EB] Duplicate stacktrace, see ref for original
-Exception in UIRootUpdate: System.ArgumentNullException: Value cannot be null.
-Parameter name: key
-[Ref B9E4F9EB] Duplicate stacktrace, see ref for original
-Exception in UIRootUpdate: System.ArgumentNullException: Value cannot be null.
-Parameter name: key
-[Ref B9E4F9EB] Duplicate stacktrace, see ref for original
-Exception in UIRootUpdate: System.ArgumentNullException: Value cannot be null.
-Parameter name: key
-[Ref B9E4F9EB] Duplicate stacktrace, see ref for original
-Exception in UIRootUpdate: System.ArgumentNullException: Value cannot be null.
-Parameter name: key
-[Ref B9E4F9EB] Duplicate stacktrace, see ref for original
-Exception in UIRootUpdate: System.ArgumentNullException: Value cannot be null.
-Parameter name: key
-[Ref B9E4F9EB] Duplicate stacktrace, see ref for original
-Exception in UIRootUpdate: System.ArgumentNullException: Value cannot be null.
-Parameter name: key
-[Ref B9E4F9EB] Duplicate stacktrace, see ref for original
-Exception in UIRootUpdate: System.ArgumentNullException: Value cannot be null.
-Parameter name: key
-[Ref B9E4F9EB] Duplicate stacktrace, see ref for original
-Exception in UIRootUpdate: System.ArgumentNullException: Value cannot be null.
-Parameter name: key
-[Ref B9E4F9EB] Duplicate stacktrace, see ref for original
-Exception in UIRootUpdate: System.ArgumentNullException: Value cannot be null.
-Parameter name: key
-[Ref B9E4F9EB] Duplicate stacktrace, see ref for original
-Exception in UIRootUpdate: System.ArgumentNullException: Value cannot be null.
-Parameter name: key
-[Ref B9E4F9EB] Duplicate stacktrace, see ref for original
-Exception in UIRootUpdate: System.ArgumentNullException: Value cannot be null.
-Parameter name: key
-[Ref B9E4F9EB] Duplicate stacktrace, see ref for original
-Exception in UIRootUpdate: System.ArgumentNullException: Value cannot be null.
-Parameter name: key
-[Ref B9E4F9EB] Duplicate stacktrace, see ref for original
-Exception in UIRootUpdate: System.ArgumentNullException: Value cannot be null.
-Parameter name: key
-[Ref B9E4F9EB] Duplicate stacktrace, see ref for original
-Exception in UIRootUpdate: System.ArgumentNullException: Value cannot be null.
-Parameter name: key
-[Ref B9E4F9EB] Duplicate stacktrace, see ref for original
-Exception in UIRootUpdate: System.ArgumentNullException: Value cannot be null.
-Parameter name: key
-[Ref B9E4F9EB] Duplicate stacktrace, see ref for original
-Exception in UIRootUpdate: System.ArgumentNullException: Value cannot be null.
-Parameter name: key
-[Ref B9E4F9EB] Duplicate stacktrace, see ref for original
-Exception in UIRootUpdate: System.ArgumentNullException: Value cannot be null.
-Parameter name: key
-[Ref B9E4F9EB] Duplicate stacktrace, see ref for original
-Exception in UIRootUpdate: System.ArgumentNullException: Value cannot be null.
-Parameter name: key
-[Ref B9E4F9EB] Duplicate stacktrace, see ref for original
-Exception in UIRootUpdate: System.ArgumentNullException: Value cannot be null.
-Parameter name: key
-[Ref B9E4F9EB] Duplicate stacktrace, see ref for original
-Exception in UIRootUpdate: System.ArgumentNullException: Value cannot be null.
-Parameter name: key
-[Ref B9E4F9EB] Duplicate stacktrace, see ref for original
-Exception in UIRootUpdate: System.ArgumentNullException: Value cannot be null.
-Parameter name: key
-[Ref B9E4F9EB] Duplicate stacktrace, see ref for original
-Exception in UIRootUpdate: System.ArgumentNullException: Value cannot be null.
-Parameter name: key
-[Ref B9E4F9EB] Duplicate stacktrace, see ref for original
-Exception in UIRootUpdate: System.ArgumentNullException: Value cannot be null.
-Parameter name: key
-[Ref B9E4F9EB] Duplicate stacktrace, see ref for original
-Exception in UIRootUpdate: System.ArgumentNullException: Value cannot be null.
-Parameter name: key
-[Ref B9E4F9EB] Duplicate stacktrace, see ref for original
-Exception in UIRootUpdate: System.ArgumentNullException: Value cannot be null.
-Parameter name: key
-[Ref B9E4F9EB] Duplicate stacktrace, see ref for original
-Exception in UIRootUpdate: System.ArgumentNullException: Value cannot be null.
-Parameter name: key
-[Ref B9E4F9EB] Duplicate stacktrace, see ref for original
-Exception in UIRootUpdate: System.ArgumentNullException: Value cannot be null.
-Parameter name: key
-[Ref B9E4F9EB] Duplicate stacktrace, see ref for original
-Exception in UIRootUpdate: System.ArgumentNullException: Value cannot be null.
-Parameter name: key
-[Ref B9E4F9EB] Duplicate stacktrace, see ref for original
-Exception in UIRootUpdate: System.ArgumentNullException: Value cannot be null.
-Parameter name: key
-[Ref B9E4F9EB] Duplicate stacktrace, see ref for original
-Exception in UIRootUpdate: System.ArgumentNullException: Value cannot be null.
-Parameter name: key
-[Ref B9E4F9EB] Duplicate stacktrace, see ref for original
-Exception in UIRootUpdate: System.ArgumentNullException: Value cannot be null.
-Parameter name: key
-[Ref B9E4F9EB] Duplicate stacktrace, see ref for original
-Exception in UIRootUpdate: System.ArgumentNullException: Value cannot be null.
-Parameter name: key
-[Ref B9E4F9EB] Duplicate stacktrace, see ref for original
-Exception in UIRootUpdate: System.ArgumentNullException: Value cannot be null.
-Parameter name: key
-[Ref B9E4F9EB] Duplicate stacktrace, see ref for original
-Exception in UIRootUpdate: System.ArgumentNullException: Value cannot be null.
-Parameter name: key
-[Ref B9E4F9EB] Duplicate stacktrace, see ref for original
-Exception in UIRootUpdate: System.ArgumentNullException: Value cannot be null.
-Parameter name: key
-[Ref B9E4F9EB] Duplicate stacktrace, see ref for original
-Exception in UIRootUpdate: System.ArgumentNullException: Value cannot be null.
-Parameter name: key
-[Ref B9E4F9EB] Duplicate stacktrace, see ref for original
-Exception in UIRootUpdate: System.ArgumentNullException: Value cannot be null.
-Parameter name: key
-[Ref B9E4F9EB] Duplicate stacktrace, see ref for original
-Exception in UIRootUpdate: System.ArgumentNullException: Value cannot be null.
-Parameter name: key
-[Ref B9E4F9EB] Duplicate stacktrace, see ref for original
-Exception in UIRootUpdate: System.ArgumentNullException: Value cannot be null.
-Parameter name: key
-[Ref B9E4F9EB] Duplicate stacktrace, see ref for original
-Exception in UIRootUpdate: System.ArgumentNullException: Value cannot be null.
-Parameter name: key
-[Ref B9E4F9EB] Duplicate stacktrace, see ref for original
-Exception in UIRootUpdate: System.ArgumentNullException: Value cannot be null.
-Parameter name: key
-[Ref B9E4F9EB] Duplicate stacktrace, see ref for original
-Exception in UIRootUpdate: System.ArgumentNullException: Value cannot be null.
-Parameter name: key
-[Ref B9E4F9EB] Duplicate stacktrace, see ref for original
-Exception in UIRootUpdate: System.ArgumentNullException: Value cannot be null.
-Parameter name: key
-[Ref B9E4F9EB] Duplicate stacktrace, see ref for original
-Exception in UIRootUpdate: System.ArgumentNullException: Value cannot be null.
-Parameter name: key
-[Ref B9E4F9EB] Duplicate stacktrace, see ref for original
-Exception in UIRootUpdate: System.ArgumentNullException: Value cannot be null.
-Parameter name: key
-[Ref B9E4F9EB] Duplicate stacktrace, see ref for original
-Exception in UIRootUpdate: System.ArgumentNullException: Value cannot be null.
-Parameter name: key
-[Ref B9E4F9EB] Duplicate stacktrace, see ref for original
-Exception in UIRootUpdate: System.ArgumentNullException: Value cannot be null.
-Parameter name: key
-[Ref B9E4F9EB] Duplicate stacktrace, see ref for original
-Exception in UIRootUpdate: System.ArgumentNullException: Value cannot be null.
-Parameter name: key
-[Ref B9E4F9EB] Duplicate stacktrace, see ref for original
-Exception in UIRootUpdate: System.ArgumentNullException: Value cannot be null.
-Parameter name: key
-[Ref B9E4F9EB] Duplicate stacktrace, see ref for original
-Exception in UIRootUpdate: System.ArgumentNullException: Value cannot be null.
-Parameter name: key
-[Ref B9E4F9EB] Duplicate stacktrace, see ref for original
-Exception in UIRootUpdate: System.ArgumentNullException: Value cannot be null.
-Parameter name: key
-[Ref B9E4F9EB] Duplicate stacktrace, see ref for original
-Exception in UIRootUpdate: System.ArgumentNullException: Value cannot be null.
-Parameter name: key
-[Ref B9E4F9EB] Duplicate stacktrace, see ref for original
-Exception in UIRootUpdate: System.ArgumentNullException: Value cannot be null.
-Parameter name: key
-[Ref B9E4F9EB] Duplicate stacktrace, see ref for original
-Exception in UIRootUpdate: System.ArgumentNullException: Value cannot be null.
-Parameter name: key
-[Ref B9E4F9EB] Duplicate stacktrace, see ref for original
-Exception in UIRootUpdate: System.ArgumentNullException: Value cannot be null.
-Parameter name: key
-[Ref B9E4F9EB] Duplicate stacktrace, see ref for original
-Exception in UIRootUpdate: System.ArgumentNullException: Value cannot be null.
-Parameter name: key
-[Ref B9E4F9EB] Duplicate stacktrace, see ref for original
-Exception in UIRootUpdate: System.ArgumentNullException: Value cannot be null.
-Parameter name: key
-[Ref B9E4F9EB] Duplicate stacktrace, see ref for original
