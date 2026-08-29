@@ -23,6 +23,11 @@ namespace RRYautja
                 if (method != null)
                 {
                     harmony.Patch(method, prefix: new HarmonyMethod(typeof(WaitAutoAttackPatch), nameof(CheckForAutoAttackPrefix)));
+                    Log.Message("[AVP Xenomorphs] Patched JobDriver_Wait.CheckForAutoAttack");
+                }
+                else
+                {
+                    Log.Warning("[AVP Xenomorphs] Could not find JobDriver_Wait.CheckForAutoAttack method!");
                 }
             }
             catch (Exception e)
@@ -33,10 +38,15 @@ namespace RRYautja
 
         public static bool CheckForAutoAttackPrefix(JobDriver_Wait __instance)
         {
-            // Skip auto-attack check if the pawn has no map
+            // Skip auto-attack check if the pawn has no map (prevents NRE)
             var pawn = __instance?.pawn;
             if (pawn == null || pawn.Map == null)
             {
+                // Despawn facehuggers and other Xenomorphs with null map — they're in a broken state
+                if (pawn != null && pawn.Spawned && pawn.Map == null)
+                {
+                    pawn.DeSpawn();
+                }
                 return false; // Skip original method
             }
             return true; // Run original
