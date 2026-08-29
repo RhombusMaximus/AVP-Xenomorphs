@@ -1,11 +1,10 @@
-Could not load Texture2D at 'Ui/FacehuggerInfectionOverlay' in any active mod or in base resources.
+Could not execute post-long-event action. Exception: System.NullReferenceException: Object reference not set to an instance of an object
+[Ref D931580]
+  at AlienRace.ThingDef_AlienRace.<ResolveReferences>b__1_1 () [0x00037] in C:\Program Files (x86)\Steam\steamapps\common\RimWorld\Mods\AlienRaces\Source\AlienRace\AlienRace\ThingDef_AlienRace.cs:282 
+  at ilyvion.LoadingProgress.LongEventHandler_ExecuteToExecuteWhenFinished_Patches+<ExecuteToExecuteWhenFinished>d__3.MoveNext () [0x00590] in /home/runner/work/loading-progress/loading-progress/Source/ilyvion.LoadingProgress/LongEventHandler_ExecuteToExecuteWhenFinished_Patches.cs:263 
 UnityEngine.StackTraceUtility:ExtractStackTrace ()
 (wrapper dynamic-method) MonoMod.Utils.DynamicMethodDefinition:Verse.Log.Error_Patch2 (string)
-Verse.ContentFinder`1<UnityEngine.Texture2D>:Get (string,bool)
-Verse.MaterialPool:MatFrom (string,UnityEngine.Shader)
-RRYautja.HediffComp_DrawImplant:.cctor ()
-System.Runtime.CompilerServices.RuntimeHelpers:RunClassConstructor (System.RuntimeTypeHandle)
-ilyvion.LoadingProgress.StaticConstructorOnStartupUtilityReplacement/<CallAll>d__2:MoveNext () (at /home/runner/work/loading-progress/loading-progress/Source/ilyvion.LoadingProgress/StaticConstructorOnStartupUtilityReplacement.cs:42)
+ilyvion.LoadingProgress.LongEventHandler_ExecuteToExecuteWhenFinished_Patches/<ExecuteToExecuteWhenFinished>d__3:MoveNext () (at /home/runner/work/loading-progress/loading-progress/Source/ilyvion.LoadingProgress/LongEventHandler_ExecuteToExecuteWhenFinished_Patches.cs:281)
 Verse.LongEventHandler:UpdateCurrentEnumeratorEvent ()
 Verse.LongEventHandler:LongEventsUpdate (bool&)
 (wrapper dynamic-method) MonoMod.Utils.DynamicMethodDefinition:Verse.Root.Update_Patch1 (Verse.Root)
