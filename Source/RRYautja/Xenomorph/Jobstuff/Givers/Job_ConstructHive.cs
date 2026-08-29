@@ -82,6 +82,8 @@ namespace RimWorld
             {
                 foreach (var structure in HiveStructure.HiveStruct(HiveCenter).Where(x => x.GetThingList(map).Any(z => !z.def.defName.Contains("RRY_Xenomorph_Hive")) && x.DistanceTo(HiveCenter) <= MiningRange && pawn.CanReserveAndReach(x, PathEndMode.OnCell, Danger.Deadly, layer: ReservationLayerDefOf.Floor) && x.GetFirstBuilding(map) == null))
                 {
+                    // Don't build a wall that would trap the drone — check path to hive center after wall
+                    if (WouldTrapPawn(pawn, structure, HiveCenter, map)) continue;
                     return new Job(XenomorphDefOf.RRY_Job_Xenomorph_Construct_Hive_Wall, structure)
                     {
                         ignoreDesignations = false
@@ -89,6 +91,8 @@ namespace RimWorld
                 }
                 foreach (var structure in HiveStructure.HiveWallGen(HiveCenter, MiningRange).Where(x => x.GetThingList(map).Any(z => !z.def.defName.Contains("RRY_Xenomorph_Hive")) && x.DistanceTo(HiveCenter) <= MiningRange + 2 && pawn.CanReserveAndReach(x, PathEndMode.OnCell, Danger.Deadly, layer: ReservationLayerDefOf.Floor) && x.GetFirstBuilding(map) == null))
                 {
+                    // Don't build a wall that would trap the drone
+                    if (WouldTrapPawn(pawn, structure, HiveCenter, map)) continue;
                     return new Job(XenomorphDefOf.RRY_Job_Xenomorph_Construct_Hive_Wall, structure)
                     {
                         ignoreDesignations = false
@@ -112,6 +116,36 @@ namespace RimWorld
                 }
             }
             return null;
+        }
+
+        /// <summary>
+        /// Checks if building a wall at the given cell would trap the pawn
+        /// (cut off its path to the hive center or map edge).
+        /// Temporarily marks the cell as blocked, checks reachability, then restores.
+        /// </summary>
+        private bool WouldTrapPawn(Pawn pawn, IntVec3 wallCell, IntVec3 hiveCenter, Map map)
+        {
+            // If the pawn is standing on the wall cell, it would definitely be trapped
+            if (pawn.Position == wallCell) return true;
+
+            // Quick check: if the cell is already impassable, building a wall changes nothing
+            if (wallCell.Filled(map)) return false;
+
+            // Temporarily simulate the wall by checking if pawn can still reach hive center
+            // without going through that cell. We use a fake edifice check:
+            // If all 4 adjacent cells of the pawn (or the wall cell) are walls/filled, the pawn is trapped.
+            int blockedAdjacents = 0;
+            foreach (var dir in GenAdj.CardinalDirections)
+            {
+                IntVec3 adj = wallCell + dir;
+                if (!adj.InBounds(map)) { blockedAdjacents++; continue; }
+                if (adj.Filled(map) || adj.GetEdifice(map)?.def == XenomorphDefOf.RRY_Xenomorph_Hive_Wall)
+                    blockedAdjacents++;
+            }
+            // If 3+ sides are blocked, building a wall here would create a dead-end
+            if (blockedAdjacents >= 3) return true;
+
+            return false;
         }
 
     }

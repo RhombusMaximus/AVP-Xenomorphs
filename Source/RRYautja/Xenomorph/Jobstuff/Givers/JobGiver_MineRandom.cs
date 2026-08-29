@@ -231,18 +231,39 @@ namespace RimWorld
                 {
                     Building edifice = c.GetEdifice(pawn.Map);
                     if (edifice != null && edifice.def.size == IntVec2.One && edifice.def != ThingDefOf.CollapsedRocks && edifice.def != XenomorphDefOf.RRY_Xenomorph_Hive_Wall && pawn.CanReserveAndReach(edifice, PathEndMode.ClosestTouch, Danger.Deadly, 1, 1) && XenomorphUtil.DistanceBetween(edifice.Position, HiveCenter) <= MiningRange)
-                    {
-                        bool xenobuilding = edifice.GetType() != typeof(Building_XenoEgg) && edifice.GetType() != typeof(Building_XenomorphCocoon) && edifice.GetType() != typeof(HiveLike);
-                        if (xenobuilding)
                         {
-                            return new Job(JobDefOf.Mine, edifice)
+                            bool xenobuilding = edifice.GetType() != typeof(Building_XenoEgg) && edifice.GetType() != typeof(Building_XenomorphCocoon) && edifice.GetType() != typeof(HiveLike);
+                            if (xenobuilding)
                             {
-                                ignoreDesignations = true
-                            };
+                                return new Job(JobDefOf.Mine, edifice)
+                                {
+                                    ignoreDesignations = true
+                                };
+                            }
                         }
                     }
                 }
-            }
+
+                // If the drone can't reach the map edge, it might be stuck inside hive walls.
+                // Allow mining through hive walls to escape.
+                if (!pawn.CanReachMapEdge())
+                {
+                    for (int i = 0; i < GenRadial.NumCellsInRadius(3); i++)
+                    {
+                        IntVec3 c = pawn.Position + GenRadial.RadialPattern[i];
+                        if (c.InBounds(pawn.Map))
+                        {
+                            Building edifice = c.GetEdifice(pawn.Map);
+                            if (edifice != null && edifice.def == XenomorphDefOf.RRY_Xenomorph_Hive_Wall && pawn.CanReserveAndReach(edifice, PathEndMode.Touch, Danger.Deadly, 1, 1))
+                            {
+                                return new Job(JobDefOf.Mine, edifice)
+                                {
+                                    ignoreDesignations = true
+                                };
+                            }
+                        }
+                    }
+                }
 
             // Nothing left to mine — go back to the tunnel briefly
             // This staggers think cycles and reduces the lag spike when all drones finish mining at once
