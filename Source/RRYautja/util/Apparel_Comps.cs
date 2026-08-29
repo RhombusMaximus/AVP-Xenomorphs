@@ -283,7 +283,7 @@ namespace RRYautja
                     action = Detonate,
                     defaultLabel = "WearableExplosives_Detonate_Label".Translate(),
                     defaultDesc = "WearableExplosives_Detonate_Desc".Translate(),
-                    icon = ContentFinder<Texture2D>.Get("Ui/Commands/CommandButton_BOOM", true),
+                    icon = ContentFinder<Texture2D>.Get("UI/Commands/CommandButton_BOOM", true),
                     activateSound = SoundDef.Named("Click"),
                     groupKey = num + 1
                 };
@@ -294,7 +294,7 @@ namespace RRYautja
                         action = StopFuse,
                         defaultLabel = "WearableExplosives_Timer_Stop_Label".Translate(),
                         defaultDesc = "WearableExplosives_Timer_Desc".Translate(),
-                        icon = ContentFinder<Texture2D>.Get("Ui/Commands/CommandButton_BOOM", true),
+                        icon = ContentFinder<Texture2D>.Get("UI/Commands/CommandButton_BOOM", true),
                         activateSound = SoundDef.Named("Click"),
                         groupKey = num + 2
                     };
@@ -306,7 +306,7 @@ namespace RRYautja
                         action = StartFuse,
                         defaultLabel = "WearableExplosives_Timer_Start_Label".Translate(),
                         defaultDesc = "WearableExplosives_Timer_Desc".Translate(),
-                        icon = ContentFinder<Texture2D>.Get("Ui/Commands/CommandButton_BOOM", true),
+                        icon = ContentFinder<Texture2D>.Get("UI/Commands/CommandButton_BOOM", true),
                         activateSound = SoundDef.Named("Click"),
                         groupKey = num + 2
                     };

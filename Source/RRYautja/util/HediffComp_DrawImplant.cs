@@ -81,7 +81,7 @@ namespace RRYautja
             }
 
         }
-        private static readonly Material BubbleMat = MaterialPool.MatFrom("Ui/FacehuggerInfectionOverlay", ShaderDatabase.Transparent);
+        private static readonly Material BubbleMat = MaterialPool.MatFrom("UI/FacehuggerInfectionOverlay", ShaderDatabase.Transparent);
 
     }
 
