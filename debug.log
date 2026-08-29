@@ -1,647 +1,3 @@
-Command line arguments: -disable-compute-shaders
-UnityEngine.StackTraceUtility:ExtractStackTrace ()
-Verse.Log:Message (string)
-Verse.Root:CheckGlobalInit ()
-Verse.Root:Start ()
-Verse.Root_Entry:Start ()
-
-RimWorld 1.6.4871 rev591
-UnityEngine.StackTraceUtility:ExtractStackTrace ()
-Verse.Log:Message (string)
-RimWorld.VersionControl:LogVersionNumber ()
-Verse.Root:CheckGlobalInit ()
-Verse.Root:Start ()
-Verse.Root_Entry:Start ()
-
---- Main thread ---
- 982.745ms StaticConstructorOnStartupUtility.CallAll()
-
-
-Hotspot analysis
-----------------------------------------
-1x StaticConstructorOnStartupUtility.CallAll() -> 982.745 ms (total (w/children): 982.745 ms)
-
-UnityEngine.StackTraceUtility:ExtractStackTrace ()
-Verse.Log:Message (string)
-Verse.ThreadLocalDeepProfiler:Output (Verse.ThreadLocalDeepProfiler/Watcher)
-Verse.ThreadLocalDeepProfiler:End ()
-Verse.DeepProfiler:End ()
-Verse.StaticConstructorOnStartupUtility:CallAll ()
-Verse.LongEventHandler:UpdateCurrentSynchronousEvent (bool&)
-Verse.LongEventHandler:LongEventsUpdate (bool&)
-Verse.Root:Update ()
-Verse.Root_Entry:Update ()
-
-Mod Realistic Humansounds HAR Patch dependency (Mlie.RealisticHumanSounds) needs to have <downloadUrl> and/or <steamWorkshopUrl> specified.
-UnityEngine.StackTraceUtility:ExtractStackTrace ()
-Verse.Log:Warning (string)
-Verse.ModMetaData/ModMetaDataInternal:ValidateDependencies (bool)
-Verse.ModMetaData:Init ()
-Verse.ModMetaData:.ctor (Verse.Steam.WorkshopItem)
-Verse.ModLister:RebuildModList ()
-Verse.ModLister:.cctor ()
-Verse.ModsConfig:.cctor ()
-Verse.LoadedModManager:InitializeMods ()
-Verse.LoadedModManager:LoadAllActiveMods (bool)
-Verse.PlayDataLoader:DoPlayLoad ()
-Verse.PlayDataLoader:LoadAllPlayData (bool)
-Verse.Root/<>c:<Start>b__10_1 ()
-Verse.LongEventHandler:RunEventFromAnotherThread (System.Action)
-Verse.LongEventHandler/<>c:<UpdateCurrentAsynchronousEvent>b__28_0 ()
-System.Threading.ThreadHelper:ThreadStart_Context (object)
-System.Threading.ExecutionContext:RunInternal (System.Threading.ExecutionContext,System.Threading.ContextCallback,object,bool)
-System.Threading.ExecutionContext:Run (System.Threading.ExecutionContext,System.Threading.ContextCallback,object,bool)
-System.Threading.ExecutionContext:Run (System.Threading.ExecutionContext,System.Threading.ContextCallback,object)
-System.Threading.ThreadHelper:ThreadStart ()
-
-Rebuilding mods list
-Adding official mods from content folder:
-  Adding Ludeon.RimWorld.Anomaly(D:\SteamLibrary\steamapps\common\RimWorld\Data\Anomaly)
-  Adding Ludeon.RimWorld.Biotech(D:\SteamLibrary\steamapps\common\RimWorld\Data\Biotech)
-  Adding Ludeon.RimWorld(D:\SteamLibrary\steamapps\common\RimWorld\Data\Core)
-  Adding Ludeon.RimWorld.Ideology(D:\SteamLibrary\steamapps\common\RimWorld\Data\Ideology)
-  Adding Ludeon.RimWorld.Odyssey(D:\SteamLibrary\steamapps\common\RimWorld\Data\Odyssey)
-  Adding Ludeon.RimWorld.Royalty(D:\SteamLibrary\steamapps\common\RimWorld\Data\Royalty)
-Adding mods from mods folder:
-  Adding Ogliss.AVPXenomorphs(D:\SteamLibrary\steamapps\common\RimWorld\Mods\AVP-Xenomorphs)
-Adding mods from Steam:
-  Adding MemeGoddess.RunAndGun(D:\SteamLibrary\steamapps\workshop\content\294100\3562365100)
-  Adding notfood.MendAndRecycle(D:\SteamLibrary\steamapps\workshop\content\294100\735241897)
-  Adding MemeGoddess.GiddyUp(D:\SteamLibrary\steamapps\workshop\content\294100\3674332861)
-  Adding Teiwaz.GTGTraderCore(D:\SteamLibrary\steamapps\workshop\content\294100\3682209120)
-  Adding NozoMe.MapModeFramework(D:\SteamLibrary\steamapps\workshop\content\294100\3296654393)
-  Adding Mlie.MoreFactionInteraction(D:\SteamLibrary\steamapps\workshop\content\294100\2379076640)
-  Adding ponpeco.PFSF(D:\SteamLibrary\steamapps\workshop\content\294100\3610234567)
-  Adding darjeeling.BattleCloak(D:\SteamLibrary\steamapps\workshop\content\294100\3598135811)
-  Adding costel.layeredapparel(D:\SteamLibrary\steamapps\workshop\content\294100\3632480044)
-  Adding quartz.floorstoragetanks(D:\SteamLibrary\steamapps\workshop\content\294100\3625783623)
-  Adding Salvador143.ShuttleDock(D:\SteamLibrary\steamapps\workshop\content\294100\3648642429)
-  Adding jaeger972.factionterritories(D:\SteamLibrary\steamapps\workshop\content\294100\3626725895)
-  Adding Van.DACrypts(D:\SteamLibrary\steamapps\workshop\content\294100\2963826335)
-  Adding EBSG.Framework(D:\SteamLibrary\steamapps\workshop\content\294100\3112549163)
-  Adding VanillaExpanded.Temperature(D:\SteamLibrary\steamapps\workshop\content\294100\3202046258)
-  Adding Dizzy.BIRDUP.AllInOne(D:\SteamLibrary\steamapps\workshop\content\294100\3529627105)
-  Adding tradingpost.programmerlily.com(D:\SteamLibrary\steamapps\workshop\content\294100\3507108484)
-  Adding GRimTerra.TerrainRetexturemod(D:\SteamLibrary\steamapps\workshop\content\294100\3543925559)
-  Adding sjaandi.realtiltmod(D:\SteamLibrary\steamapps\workshop\content\294100\3520836521)
-  Adding More.Buildable.Grav.Engine.Sizes(D:\SteamLibrary\steamapps\workshop\content\294100\3535995357)
-  Adding tyrannidae.birdupplus(D:\SteamLibrary\steamapps\workshop\content\294100\3529981601)
-  Adding sd.fa.vteadjustments(D:\SteamLibrary\steamapps\workshop\content\294100\3532050275)
-  Adding XanderNirpows.ResearchPalForked16(D:\SteamLibrary\steamapps\workshop\content\294100\3549325465)
-  Adding m0ek.BadHygienePatches(D:\SteamLibrary\steamapps\workshop\content\294100\3531411950)
-  Adding Abrolo.Grimstone.Beasts(D:\SteamLibrary\steamapps\workshop\content\294100\3535302121)
-  Adding Cerule.CleaningAreaRelaunched(D:\SteamLibrary\steamapps\workshop\content\294100\3586697885)
-  Adding sneezingseal.sealsbackstorycollection(D:\SteamLibrary\steamapps\workshop\content\294100\3521987415)
-  Adding Koth.ISiD(D:\SteamLibrary\steamapps\workshop\content\294100\3551839891)
-  Adding Amro.PsychicAnchorMod(D:\SteamLibrary\steamapps\workshop\content\294100\3523197969)
-  Adding EchoTideFish.CryptoBionicsForked(D:\SteamLibrary\steamapps\workshop\content\294100\3587732096)
-  Adding Okagrim.duskwood(D:\SteamLibrary\steamapps\workshop\content\294100\3560499511)
-  Adding Natangry.MakeItUnique(D:\SteamLibrary\steamapps\workshop\content\294100\3550576656)
-  Adding Ellenot.VaelkorrCreatures(D:\SteamLibrary\steamapps\workshop\content\294100\3568419088)
-  Adding falconne.AFF(D:\SteamLibrary\steamapps\workshop\content\294100\3532871145)
-  Adding jecrell.jecstools(D:\SteamLibrary\steamapps\workshop\content\294100\3524247750)
-  Adding dev.soeur.imageopt(D:\SteamLibrary\steamapps\workshop\content\294100\3543873568)
-  Adding Chougou.ChougouMechs.core(D:\SteamLibrary\steamapps\workshop\content\294100\3531074246)
-  Adding Endy.Airtightgarage(D:\SteamLibrary\steamapps\workshop\content\294100\3534740420)
-  Adding SuperPox.GravshipBiofuelRefineryAddOn(D:\SteamLibrary\steamapps\workshop\content\294100\3556056267)
-  Adding tefnut.gravship.water.systems(D:\SteamLibrary\steamapps\workshop\content\294100\3587768178)
-  Adding ilyvion.LoadingProgress(D:\SteamLibrary\steamapps\workshop\content\294100\3535481557)
-  Adding Dragoon103.LARVA(D:\SteamLibrary\steamapps\workshop\content\294100\3529162764)
-  Adding CatLover366.BootsAndGloves(D:\SteamLibrary\steamapps\workshop\content\294100\3552813398)
-  Adding mjcg.AutoAbility(D:\SteamLibrary\steamapps\workshop\content\294100\3578731212)
-  Adding rabiosus.ExtinguisherDrone(D:\SteamLibrary\steamapps\workshop\content\294100\3555852714)
-  Adding MemeGoddess.TDPack(D:\SteamLibrary\steamapps\workshop\content\294100\3525414162)
-  Adding Arcjc007.ShieldGenerator(D:\SteamLibrary\steamapps\workshop\content\294100\3591079938)
-  Adding com.daffodilistic.rimworld.autoharvestwildplants(D:\SteamLibrary\steamapps\workshop\content\294100\3527754597)
-  Adding dev.soeur.ScenarioEditorUIOverhaul(D:\SteamLibrary\steamapps\workshop\content\294100\3547456746)
-  Adding SlimeSenpai.AutoVents(D:\SteamLibrary\steamapps\workshop\content\294100\2223332301)
-  Adding Arylice.Rimworld.AutomaticHunting(D:\SteamLibrary\steamapps\workshop\content\294100\3340648302)
-  Adding laredson.harvestandhaul(D:\SteamLibrary\steamapps\workshop\content\294100\3563060965)
-  Adding RedMattis.BetterGeneInheritance(D:\SteamLibrary\steamapps\workshop\content\294100\3046776238)
-  Adding zal.musicmanager(D:\SteamLibrary\steamapps\workshop\content\294100\3220120457)
-  Adding AndrewRaphaelLukasik.AllowDeadAnimals(D:\SteamLibrary\steamapps\workshop\content\294100\2403873031)
-  Adding kenzej.multihunter(D:\SteamLibrary\steamapps\workshop\content\294100\3560890077)
-  Adding aRandomKiwi.HuntForMe(D:\SteamLibrary\steamapps\workshop\content\294100\1593245720)
-  Adding Mlie.PredatorHuntAlert(D:\SteamLibrary\steamapps\workshop\content\294100\3274792989)
-  Adding zmysk.The.Fire.Rises.In.Rim.Music.Channel.In.Chaos.World(D:\SteamLibrary\steamapps\workshop\content\294100\3479100430)
-  Adding zal.covetheus(D:\SteamLibrary\steamapps\workshop\content\294100\2668329684)
-  Adding V.Rooboid.Faun(D:\SteamLibrary\steamapps\workshop\content\294100\3547220635)
-  Adding tug.Satyr(D:\SteamLibrary\steamapps\workshop\content\294100\3548322381)
-  Adding LiterallyFree.ColonistReturnBuff(D:\SteamLibrary\steamapps\workshop\content\294100\3552336221)
-  Adding toxicyui.impactfulskills.modsupport(D:\SteamLibrary\steamapps\workshop\content\294100\3554124215)
-  Adding Mlie.Callouts(D:\SteamLibrary\steamapps\workshop\content\294100\3552812111)
-  Adding Aoba.CargoContainer.Waste(D:\SteamLibrary\steamapps\workshop\content\294100\2888532939)
-  Adding Aoba.CargoContainer(D:\SteamLibrary\steamapps\workshop\content\294100\2725808118)
-  Adding Orion.CashRegister(D:\SteamLibrary\steamapps\workshop\content\294100\3509487668)
-  Adding Fuu.BloodAnimations(D:\SteamLibrary\steamapps\workshop\content\294100\3228047321)
-  Adding RH2.BCDs.First.Aid(D:\SteamLibrary\steamapps\workshop\content\294100\2563152474)
-  Adding Orion.Hospitality(D:\SteamLibrary\steamapps\workshop\content\294100\3509486825)
-  Adding sbz.GravshipStorage(D:\SteamLibrary\steamapps\workshop\content\294100\3537905298)
-  Adding RedMattis.BiggerGravship(D:\SteamLibrary\steamapps\workshop\content\294100\3522759531)
-  Adding lucio.TrueVisualMisses(D:\SteamLibrary\steamapps\workshop\content\294100\3545029440)
-  Adding ICC.TOV.BT(D:\SteamLibrary\steamapps\workshop\content\294100\3545135569)
-  Adding Febvre.TheOrientalMusicPack.ContinuedVersion(D:\SteamLibrary\steamapps\workshop\content\294100\3545215481)
-  Adding dhl.seedfish(D:\SteamLibrary\steamapps\workshop\content\294100\3549336894)
-  Adding kathanon.ShowAllMaterials(D:\SteamLibrary\steamapps\workshop\content\294100\3548862444)
-  Adding LazyFridayStudio.GenesExpandedHeads(D:\SteamLibrary\steamapps\workshop\content\294100\3549061328)
-  Adding NoFlag.AutoMortarsForked(D:\SteamLibrary\steamapps\workshop\content\294100\3547478297)
-  Adding Xale86.TacticalChargeWeapons(D:\SteamLibrary\steamapps\workshop\content\294100\3547573485)
-  Adding Mlie.AreaUnlocker(D:\SteamLibrary\steamapps\workshop\content\294100\3550817577)
-  Adding Mlie.EnemySelfPreservation(D:\SteamLibrary\steamapps\workshop\content\294100\3547114006)
-  Adding LazyFridayStudio.GenesExpandedHorns(D:\SteamLibrary\steamapps\workshop\content\294100\3547798297)
-  Adding Kopp.WeaponPolicy(D:\SteamLibrary\steamapps\workshop\content\294100\3548647836)
-  Adding amadejj5000.vveshuttlerecipetweaks(D:\SteamLibrary\steamapps\workshop\content\294100\3548950295)
-  Adding tug.Minotaur(D:\SteamLibrary\steamapps\workshop\content\294100\3548423129)
-  Adding Mlie.LogAfterDefError(D:\SteamLibrary\steamapps\workshop\content\294100\3550944748)
-  Adding lf.mod.SlimpleHiveMind(D:\SteamLibrary\steamapps\workshop\content\294100\3547837397)
-  Adding tug.SatyrFaun.Expanded(D:\SteamLibrary\steamapps\workshop\content\294100\3548973881)
-  Adding Mlie.PawnNameVariety(D:\SteamLibrary\steamapps\workshop\content\294100\3548290568)
-  Adding futurplanet.industrialconcretefloorpatch(D:\SteamLibrary\steamapps\workshop\content\294100\3174792333)
-  Adding als.gravtech(D:\SteamLibrary\steamapps\workshop\content\294100\3545374124)
-  Adding Memegoddess.TDSBugFixes(D:\SteamLibrary\steamapps\workshop\content\294100\3529433984)
-  Adding jecrell.doorsexpanded(D:\SteamLibrary\steamapps\workshop\content\294100\3532342422)
-  Adding Kattalisk.GravEngineGivesPower(D:\SteamLibrary\steamapps\workshop\content\294100\3523792786)
-  Adding Owlchemist.PowerTab.forked.RunningBugs(D:\SteamLibrary\steamapps\workshop\content\294100\3528086894)
-  Adding duz.almosttherefork(D:\SteamLibrary\steamapps\workshop\content\294100\3515165298)
-  Adding Memegoddess.TDFindLib(D:\SteamLibrary\steamapps\workshop\content\294100\3529443295)
-  Adding Chaotic.BarelyBetterSpots(D:\SteamLibrary\steamapps\workshop\content\294100\3466316759)
-  Adding tro.vwe.overhaul(D:\SteamLibrary\steamapps\workshop\content\294100\3457785624)
-  Adding azrazalea.dbh.springwater.patch(D:\SteamLibrary\steamapps\workshop\content\294100\3531641684)
-  Adding Memegoddess.BuildFromInventory(D:\SteamLibrary\steamapps\workshop\content\294100\3534185281)
-  Adding Kilo.CapVacHelm(D:\SteamLibrary\steamapps\workshop\content\294100\3528780638)
-  Adding Ushanka.GlittertechExpansion(D:\SteamLibrary\steamapps\workshop\content\294100\3522676478)
-  Adding FrozenSnowFox.BetterExplorationLoot(D:\SteamLibrary\steamapps\workshop\content\294100\3526957922)
-  Adding moja.salvagerubble(D:\SteamLibrary\steamapps\workshop\content\294100\3529058623)
-  Adding Farxmai2.VanillaDeconstructableVehicles(D:\SteamLibrary\steamapps\workshop\content\294100\3108171008)
-  Adding wyr3d.worthlessjunkadjusted(D:\SteamLibrary\steamapps\workshop\content\294100\3497961373)
-  Adding VanillaExpanded.VTEXE.FacialAnims(D:\SteamLibrary\steamapps\workshop\content\294100\2816938779)
-  Adding Memegoddess.ReplaceStuff(D:\SteamLibrary\steamapps\workshop\content\294100\3526354009)
-  Adding jkluch.HaulToStack(D:\SteamLibrary\steamapps\workshop\content\294100\949498803)
-  Adding tarojun.morishep.onioftherim(D:\SteamLibrary\steamapps\workshop\content\294100\2891432261)
-  Adding LingLuo.Cockroach(D:\SteamLibrary\steamapps\workshop\content\294100\3196253802)
-  Adding Mlie.RimofMadnessArachnophobia(D:\SteamLibrary\steamapps\workshop\content\294100\2242359252)
-  Adding naft.rimmercenaries(D:\SteamLibrary\steamapps\workshop\content\294100\3487010360)
-  Adding cgf1.songsfortherim(D:\SteamLibrary\steamapps\workshop\content\294100\3409452841)
-  Adding rimsenal.Murica(D:\SteamLibrary\steamapps\workshop\content\294100\2824711444)
-  Adding tinygrox.Mod.RWQoLTweaks(D:\SteamLibrary\steamapps\workshop\content\294100\3521875853)
-  Adding Neronix17.Retexture.RimsenalRimhair(D:\SteamLibrary\steamapps\workshop\content\294100\2747368450)
-  Adding void.terraformrimworld(D:\SteamLibrary\steamapps\workshop\content\294100\1874652867)
-  Adding komunre.BetterExp.PassiveResearch(D:\SteamLibrary\steamapps\workshop\content\294100\2843607858)
-  Adding Shashlichnik.DeepAndDeeper(D:\SteamLibrary\steamapps\workshop\content\294100\3509420021)
-  Adding BB.VAE.Gloves.And.Boots(D:\SteamLibrary\steamapps\workshop\content\294100\3528330887)
-  Adding Bishaojiu.DeepAndDeeperCavernTexture(D:\SteamLibrary\steamapps\workshop\content\294100\3526471369)
-  Adding bean.xeno.gnolls(D:\SteamLibrary\steamapps\workshop\content\294100\3526912716)
-  Adding mrwireman.Noconduit(D:\SteamLibrary\steamapps\workshop\content\294100\3526067333)
-  Adding smallmine.HeavyShuttle(D:\SteamLibrary\steamapps\workshop\content\294100\3528001139)
-  Adding Arkymn.SlowerPawnTickRate(D:\SteamLibrary\steamapps\workshop\content\294100\3524116050)
-  Adding Memegoddess.SmartMedicine(D:\SteamLibrary\steamapps\workshop\content\294100\3526251680)
-  Adding mingtuwuxiang.SpaceBaseDecorative(D:\SteamLibrary\steamapps\workshop\content\294100\3523916780)
-  Adding ASF.DeepStorage(D:\SteamLibrary\steamapps\workshop\content\294100\3373064575)
-  Adding VanillaExpanded.VGeneticsE(D:\SteamLibrary\steamapps\workshop\content\294100\2801160906)
-  Adding zal.levelthis(D:\SteamLibrary\steamapps\workshop\content\294100\3263017689)
-  Adding mrwireman.powercell.01(D:\SteamLibrary\steamapps\workshop\content\294100\3524003581)
-  Adding Chaotic.RVInterior(D:\SteamLibrary\steamapps\workshop\content\294100\3184281714)
-  Adding UnlimitedHugs.HugsLib(D:\SteamLibrary\steamapps\workshop\content\294100\818773962)
-  Adding vanillaquestsexpanded.deadlife(D:\SteamLibrary\steamapps\workshop\content\294100\3497226454)
-  Adding vanillaquestsexpanded.generator(D:\SteamLibrary\steamapps\workshop\content\294100\3411401573)
-  Adding Aelanna.ResearchTabColors(D:\SteamLibrary\steamapps\workshop\content\294100\3108740804)
-  Adding fluffy.researchtree(D:\SteamLibrary\steamapps\workshop\content\294100\3460408210)
-  Adding VanillaExpanded.VWEBF(D:\SteamLibrary\steamapps\workshop\content\294100\3287469135)
-  Adding Adamas.Storefront(D:\SteamLibrary\steamapps\workshop\content\294100\2952321484)
-  Adding Mlie.RelevantStatsInDescription(D:\SteamLibrary\steamapps\workshop\content\294100\2692669482)
-  Adding balistafreak.StopDropAndRoll(D:\SteamLibrary\steamapps\workshop\content\294100\2362707956)
-  Adding automatic.traderships(D:\SteamLibrary\steamapps\workshop\content\294100\2046222331)
-  Adding Dubwise.DubsApparelTweaks(D:\SteamLibrary\steamapps\workshop\content\294100\2296697286)
-  Adding rimsenal.storyteller(D:\SteamLibrary\steamapps\workshop\content\294100\725952322)
-  Adding sarg.alphagenes(D:\SteamLibrary\steamapps\workshop\content\294100\2891845502)
-  Adding adaptive.storage.framework(D:\SteamLibrary\steamapps\workshop\content\294100\3033901359)
-  Adding Dubwise.DubsPaintShop(D:\SteamLibrary\steamapps\workshop\content\294100\1579516669)
-  Adding fed1sPlay.PawnTargetFix(D:\SteamLibrary\steamapps\workshop\content\294100\2014789938)
-  Adding automatic.gunplay(D:\SteamLibrary\steamapps\workshop\content\294100\2034896549)
-  Adding VanillaExpanded.VPersonaWeaponsE(D:\SteamLibrary\steamapps\workshop\content\294100\2826922787)
-  Adding vanillaexpanded.backgrounds(D:\SteamLibrary\steamapps\workshop\content\294100\2775017012)
-  Adding falconne.BWM(D:\SteamLibrary\steamapps\workshop\content\294100\935982361)
-  Adding Taveron.IncreasedStack(D:\SteamLibrary\steamapps\workshop\content\294100\798158924)
-  Adding avilmask.CommonSense(D:\SteamLibrary\steamapps\workshop\content\294100\1561769193)
-  Adding VanillaExpanded.VARME(D:\SteamLibrary\steamapps\workshop\content\294100\1814988282)
-  Adding VanillaExpanded.VFEFarming(D:\SteamLibrary\steamapps\workshop\content\294100\1957158779)
-  Adding Erin.FluffyFauna(D:\SteamLibrary\steamapps\workshop\content\294100\3521909777)
-  Adding ASP.HalituisAmaricanous(D:\SteamLibrary\steamapps\workshop\content\294100\3522312454)
-  Adding Defi.AutoCutBlight(D:\SteamLibrary\steamapps\workshop\content\294100\3520167264)
-  Adding vin.warehouse.storage(D:\SteamLibrary\steamapps\workshop\content\294100\3519963835)
-  Adding UnlimitedHugs.AllowTool(D:\SteamLibrary\steamapps\workshop\content\294100\761421485)
-  Adding DawnsGlow.qualcolor(D:\SteamLibrary\steamapps\workshop\content\294100\3513846773)
-  Adding Mlie.JustIgnoreMePassing(D:\SteamLibrary\steamapps\workshop\content\294100\3503627342)
-  Adding Mlie.RealisticHumanSounds(D:\SteamLibrary\steamapps\workshop\content\294100\3497264525)
-  Adding erdelf.HumanoidAlienRaces(D:\SteamLibrary\steamapps\workshop\content\294100\839005762)
-  Adding sihv.rombones(D:\SteamLibrary\steamapps\workshop\content\294100\1180573408)
-  Adding Dubwise.DubsPerformanceAnalyzer.steam(D:\SteamLibrary\steamapps\workshop\content\294100\2038874626)
-  Adding Oblitus.AnimalsLogic(D:\SteamLibrary\steamapps\workshop\content\294100\1098354593)
-  Adding OskarPotocki.VanillaFactionsExpanded.SettlersModule(D:\SteamLibrary\steamapps\workshop\content\294100\2052918119)
-  Adding VanillaExpanded.VFEArt(D:\SteamLibrary\steamapps\workshop\content\294100\1968134023)
-  Adding Teiwaz.OOT(D:\SteamLibrary\steamapps\workshop\content\294100\3522859265)
-  Adding Propickelz.TinkerBench(D:\SteamLibrary\steamapps\workshop\content\294100\3522976063)
-  Adding Aelanna.TransparentSubstructure(D:\SteamLibrary\steamapps\workshop\content\294100\3522762741)
-  Adding MrKociak.BiotechTunnelersAreDeepDrills(D:\SteamLibrary\steamapps\workshop\content\294100\3521193199)
-  Adding Darknote.BunkBeds(D:\SteamLibrary\steamapps\workshop\content\294100\2961752749)
-  Adding Doug.NoJobAuthors(D:\SteamLibrary\steamapps\workshop\content\294100\2009825774)
-  Adding Woolyung.DoTheRitualsYourselves(D:\SteamLibrary\steamapps\workshop\content\294100\3511385838)
-  Adding moistestWhale.stuffOnTablesForked(D:\SteamLibrary\steamapps\workshop\content\294100\3289533061)
-  Adding Fluffy.WorkTab(D:\SteamLibrary\steamapps\workshop\content\294100\3453549086)
-  Adding dracoix.doormat.r12a(D:\SteamLibrary\steamapps\workshop\content\294100\1505423207)
-  Adding SR.ModRimworld.FactionalWarContinued(D:\SteamLibrary\steamapps\workshop\content\294100\3423264477)
-  Adding Linnun.AutoCastSpecialistCommands(D:\SteamLibrary\steamapps\workshop\content\294100\3459647882)
-  Adding nawjak.pawnsondisplay(D:\SteamLibrary\steamapps\workshop\content\294100\3446605621)
-  Adding Linnun.KeepConverting(D:\SteamLibrary\steamapps\workshop\content\294100\3461478214)
-  Adding AOBA.Framework(D:\SteamLibrary\steamapps\workshop\content\294100\3498575851)
-  Adding GonDragon.TechTree(D:\SteamLibrary\steamapps\workshop\content\294100\3328259983)
-  Adding kathanon.FloatSubMenu(D:\SteamLibrary\steamapps\workshop\content\294100\2864015430)
-  Adding sd.fa.reelsadjustments(D:\SteamLibrary\steamapps\workshop\content\294100\3429452043)
-  Adding NuanKi.LocalFlight(D:\SteamLibrary\steamapps\workshop\content\294100\3482176791)
-  Adding Milkman.BiotechCosmeticGenesMM(D:\SteamLibrary\steamapps\workshop\content\294100\2985847757)
-  Adding buyue.SimpleTextureTweaks(D:\SteamLibrary\steamapps\workshop\content\294100\3245917504)
-  Adding Thumb.GoreMod(D:\SteamLibrary\steamapps\workshop\content\294100\2957877186)
-  Adding TBO.Visored(D:\SteamLibrary\steamapps\workshop\content\294100\3070137089)
-  Adding Zaire82.HDHeadAttatchmentsForFacialAnimation(D:\SteamLibrary\steamapps\workshop\content\294100\2917322097)
-  Adding telardo.BetterGeneGraphicsFramework(D:\SteamLibrary\steamapps\workshop\content\294100\2880940958)
-  Adding vanillaexpanded.skills(D:\SteamLibrary\steamapps\workshop\content\294100\3400246558)
-  Adding JintuziLamian.Gene.XenoCosmetic(D:\SteamLibrary\steamapps\workshop\content\294100\2880942803)
-  Adding Owlchemist.SimpleFX.Smoke2(D:\SteamLibrary\steamapps\workshop\content\294100\3261314247)
-  Adding Aelanna.FistNerf(D:\SteamLibrary\steamapps\workshop\content\294100\2845980214)
-  Adding 400.ImpassableHChestUdeepHWater(D:\SteamLibrary\steamapps\workshop\content\294100\1674624795)
-  Adding Aoba.Tent(D:\SteamLibrary\steamapps\workshop\content\294100\2407128339)
-  Adding aRandomKiwi.RimSaves(D:\SteamLibrary\steamapps\workshop\content\294100\1713367505)
-  Adding automatic.rimlaser(D:\SteamLibrary\steamapps\workshop\content\294100\1465459039)
-  Adding Arkymn.AgingVisuals(D:\SteamLibrary\steamapps\workshop\content\294100\2807132773)
-  Adding avilmask.SelfDyeing(D:\SteamLibrary\steamapps\workshop\content\294100\2562859859)
-  Adding avius.locks(D:\SteamLibrary\steamapps\workshop\content\294100\1157085076)
-  Adding Bichang.MoreSculpture(D:\SteamLibrary\steamapps\workshop\content\294100\1612316880)
-  Adding bodlosh.WeaponStats(D:\SteamLibrary\steamapps\workshop\content\294100\974066449)
-  Adding brrainz.harmony(D:\SteamLibrary\steamapps\workshop\content\294100\2009463077)
-  Adding brrainz.cameraplus(D:\SteamLibrary\steamapps\workshop\content\294100\867467808)
-  Adding Cain.Mineshaft(D:\SteamLibrary\steamapps\workshop\content\294100\2503894706)
-  Adding CaesarV6.DamageIndicators(D:\SteamLibrary\steamapps\workshop\content\294100\2016331497)
-  Adding CaretCake.Resources.MoreComponentsandSteelMoreVanilla(D:\SteamLibrary\steamapps\workshop\content\294100\2873665800)
-  Adding co.uk.epicguru.whatsthatmod(D:\SteamLibrary\steamapps\workshop\content\294100\2258431182)
-  Adding CarnySenpai.TraitRarityColors(D:\SteamLibrary\steamapps\workshop\content\294100\1751884355)
-  Adding com.yayo.yayoAni.continued(D:\SteamLibrary\steamapps\workshop\content\294100\2877292196)
-  Adding com.bymarcin.ArchitectIcons(D:\SteamLibrary\steamapps\workshop\content\294100\1195427067)
-  Adding CrashM.ColorCodedMoodBar.11(D:\SteamLibrary\steamapps\workshop\content\294100\2006605356)
-  Adding cucumpear.azrael.varietycoats(D:\SteamLibrary\steamapps\workshop\content\294100\1511926373)
-  Adding Daria40K.BigLittleModPatch(D:\SteamLibrary\steamapps\workshop\content\294100\2710382569)
-  Adding denev.SmartTurretCovering(D:\SteamLibrary\steamapps\workshop\content\294100\2636621800)
-  Adding dhultgren.smarterconstruction(D:\SteamLibrary\steamapps\workshop\content\294100\2202185773)
-  Adding Dubwise.DubsBadHygiene(D:\SteamLibrary\steamapps\workshop\content\294100\836308268)
-  Adding Dubwise.DubsMintMenus(D:\SteamLibrary\steamapps\workshop\content\294100\1446523594)
-  Adding dubwise.dubsmintminimap(D:\SteamLibrary\steamapps\workshop\content\294100\1662119905)
-  Adding Dubwise.DubsBreakMod(D:\SteamLibrary\steamapps\workshop\content\294100\1722398508)
-  Adding Dubwise.Rimatomics(D:\SteamLibrary\steamapps\workshop\content\294100\1127530465)
-  Adding Dubwise.DubsRimkit(D:\SteamLibrary\steamapps\workshop\content\294100\832333531)
-  Adding erdelf.MinifyEverything(D:\SteamLibrary\steamapps\workshop\content\294100\872762753)
-  Adding Erin.Hairredux(D:\SteamLibrary\steamapps\workshop\content\294100\2361911135)
-  Adding FrozenSnowFox.ComplexJobs(D:\SteamLibrary\steamapps\workshop\content\294100\2069684319)
-  Adding FrozenSnowFox.FilthVanishesWithRainAndTime(D:\SteamLibrary\steamapps\workshop\content\294100\1508341791)
-  Adding Garwel.StartingTechLevel(D:\SteamLibrary\steamapps\workshop\content\294100\2877955245)
-  Adding GT.Sam.TilledSoil(D:\SteamLibrary\steamapps\workshop\content\294100\725747149)
-  Adding Hol.Words(D:\SteamLibrary\steamapps\workshop\content\294100\2180384246)
-  Adding imranfish.xmlextensions(D:\SteamLibrary\steamapps\workshop\content\294100\2574315206)
-  Adding Inglix.ApparelTaintedOnCorpseRot(D:\SteamLibrary\steamapps\workshop\content\294100\2413156320)
-  Adding Jaxe.RimHUD(D:\SteamLibrary\steamapps\workshop\content\294100\1508850027)
-  Adding Jiopaba.Fences(D:\SteamLibrary\steamapps\workshop\content\294100\2546954423)
-  Adding kahdeg.Killfeed(D:\SteamLibrary\steamapps\workshop\content\294100\1362098265)
-  Adding keepmortarsready.1trickPwnyta(D:\SteamLibrary\steamapps\workshop\content\294100\2548084138)
-  Adding khamenman.armorracks(D:\SteamLibrary\steamapps\workshop\content\294100\1875828205)
-  Adding Krafs.LevelUp(D:\SteamLibrary\steamapps\workshop\content\294100\1701592470)
-  Adding Madeline.ModMismatchFormatter(D:\SteamLibrary\steamapps\workshop\content\294100\1872244972)
-  Adding m00nl1ght.MapPreview(D:\SteamLibrary\steamapps\workshop\content\294100\2800857642)
-  Adding marvinkosh.sometimesraidsgowrong(D:\SteamLibrary\steamapps\workshop\content\294100\1551336515)
-  Adding Mlie.AutopsyTable(D:\SteamLibrary\steamapps\workshop\content\294100\2102410542)
-  Adding Mlie.DifferentEggSizes(D:\SteamLibrary\steamapps\workshop\content\294100\2625721813)
-  Adding Mlie.VariousSpaceShipChunk(D:\SteamLibrary\steamapps\workshop\content\294100\2014616487)
-  Adding nephlite.orbitaltradecolumn(D:\SteamLibrary\steamapps\workshop\content\294100\2013476665)
-  Adding Nals.FacialAnimation(D:\SteamLibrary\steamapps\workshop\content\294100\1635901197)
-  Adding neronix17.shieldgenerators(D:\SteamLibrary\steamapps\workshop\content\294100\2540563802)
-  Adding Neronix17.Retexture.VanillaHair(D:\SteamLibrary\steamapps\workshop\content\294100\2748834409)
-  Adding Neronix17.Retexture.VanillaBeards(D:\SteamLibrary\steamapps\workshop\content\294100\2777098392)
-  Adding neronix17.toolbox(D:\SteamLibrary\steamapps\workshop\content\294100\1660622094)
-  Adding OskarPotocki.VanillaFactionsExpanded.Core(D:\SteamLibrary\steamapps\workshop\content\294100\2023507013)
-  Adding PackMulesExtended.Standard(D:\SteamLibrary\steamapps\workshop\content\294100\1501052499)
-  Adding PeteTimesSix.SimpleSidearms(D:\SteamLibrary\steamapps\workshop\content\294100\927155256)
-  Adding plaxen.MalangBodies(D:\SteamLibrary\steamapps\workshop\content\294100\2838181007)
-  Adding PeteTimesSix.CompactHediffs(D:\SteamLibrary\steamapps\workshop\content\294100\2031734067)
-  Adding ratys.rtsolarflareshield(D:\SteamLibrary\steamapps\workshop\content\294100\728315620)
-  Adding rimsenal.EVP(D:\SteamLibrary\steamapps\workshop\content\294100\849231601)
-  Adding rimsenal.federation(D:\SteamLibrary\steamapps\workshop\content\294100\736172213)
-  Adding rimsenal.core(D:\SteamLibrary\steamapps\workshop\content\294100\725947920)
-  Adding rimsenal.hair(D:\SteamLibrary\steamapps\workshop\content\294100\725949967)
-  Adding rimsenal.Sophian(D:\SteamLibrary\steamapps\workshop\content\294100\2655926624)
-  Adding rimsenal.security(D:\SteamLibrary\steamapps\workshop\content\294100\736139206)
-  Adding rimsenal.Techist(D:\SteamLibrary\steamapps\workshop\content\294100\2661828028)
-  Adding Romyashi.ExtractAnyPlant(D:\SteamLibrary\steamapps\workshop\content\294100\2833838214)
-  Adding Sarg.AlphaMemes(D:\SteamLibrary\steamapps\workshop\content\294100\2661356814)
-  Adding sakama.StorytellerHair(D:\SteamLibrary\steamapps\workshop\content\294100\1274576130)
-  Adding sarg.smartspeed(D:\SteamLibrary\steamapps\workshop\content\294100\1504723424)
-  Adding sarg.rimbees(D:\SteamLibrary\steamapps\workshop\content\294100\1558161673)
-  Adding sdknm2.QualityOfBuilding(D:\SteamLibrary\steamapps\workshop\content\294100\2101676323)
-  Adding Sierra.RT.GeneralTraits(D:\SteamLibrary\steamapps\workshop\content\294100\2206957172)
-  Adding sirrandoo.rda(D:\SteamLibrary\steamapps\workshop\content\294100\1905421159)
-  Adding sirrandoo.msf(D:\SteamLibrary\steamapps\workshop\content\294100\1906174567)
-  Adding Spino.Megafauna(D:\SteamLibrary\steamapps\workshop\content\294100\1055485938)
-  Adding sumghai.Medpod(D:\SteamLibrary\steamapps\workshop\content\294100\2153065191)
-  Adding telardo.DragSelect(D:\SteamLibrary\steamapps\workshop\content\294100\2599942235)
-  Adding telardo.RomanceOnTheRim(D:\SteamLibrary\steamapps\workshop\content\294100\2654432921)
-  Adding tidal.morevanilla.textures(D:\SteamLibrary\steamapps\workshop\content\294100\2707120862)
-  Adding Tory.Icons.Historical(D:\SteamLibrary\steamapps\workshop\content\294100\2552398418)
-  Adding Turnovus.Biotech.IntegratedGenes(D:\SteamLibrary\steamapps\workshop\content\294100\2884115974)
-  Adding VanillaExpanded.Ideo.IconsandSymbols(D:\SteamLibrary\steamapps\workshop\content\294100\2552609458)
-  Adding VanillaExpanded.Ideo.RelicsAndArtifacts(D:\SteamLibrary\steamapps\workshop\content\294100\2564895018)
-  Adding VanillaExpanded.VAEAccessories(D:\SteamLibrary\steamapps\workshop\content\294100\2521176396)
-  Adding VanillaExpanded.VAERoy(D:\SteamLibrary\steamapps\workshop\content\294100\2858079457)
-  Adding VanillaExpanded.VAEEndAndExt(D:\SteamLibrary\steamapps\workshop\content\294100\2366589898)
-  Adding VanillaExpanded.VanillaBackstoriesExpanded(D:\SteamLibrary\steamapps\workshop\content\294100\2861806869)
-  Adding VanillaExpanded.VanillaAnimalsExpanded(D:\SteamLibrary\steamapps\workshop\content\294100\2871933948)
-  Adding VanillaExpanded.VanillaTraitsExpanded(D:\SteamLibrary\steamapps\workshop\content\294100\2296404655)
-  Adding VanillaExpanded.VAPPE(D:\SteamLibrary\steamapps\workshop\content\294100\1814987817)
-  Adding VanillaExpanded.VanillaSocialInteractionsExpanded(D:\SteamLibrary\steamapps\workshop\content\294100\2439736083)
-  Adding VanillaExpanded.VCEF(D:\SteamLibrary\steamapps\workshop\content\294100\1914064942)
-  Adding VanillaExpanded.VBrewE(D:\SteamLibrary\steamapps\workshop\content\294100\2186560858)
-  Adding VanillaExpanded.VBooksE(D:\SteamLibrary\steamapps\workshop\content\294100\2193152410)
-  Adding VanillaExpanded.VCEFAddon(D:\SteamLibrary\steamapps\workshop\content\294100\2468543398)
-  Adding VanillaExpanded.VCookE(D:\SteamLibrary\steamapps\workshop\content\294100\2134308519)
-  Adding VanillaExpanded.VFEProduction(D:\SteamLibrary\steamapps\workshop\content\294100\1880253632)
-  Adding VanillaExpanded.VFEPower(D:\SteamLibrary\steamapps\workshop\content\294100\2062943477)
-  Adding VanillaExpanded.VFECore(D:\SteamLibrary\steamapps\workshop\content\294100\1718190143)
-  Adding VanillaExpanded.VFEMedical(D:\SteamLibrary\steamapps\workshop\content\294100\1718191613)
-  Adding VanillaExpanded.VFESpacer(D:\SteamLibrary\steamapps\workshop\content\294100\2028381079)
-  Adding VanillaExpanded.VIEHAR(D:\SteamLibrary\steamapps\workshop\content\294100\2567387768)
-  Adding VanillaExpanded.VHE(D:\SteamLibrary\steamapps\workshop\content\294100\1888705256)
-  Adding VanillaExpanded.VMemesE(D:\SteamLibrary\steamapps\workshop\content\294100\2636329500)
-  Adding VanillaExpanded.VPlantsE(D:\SteamLibrary\steamapps\workshop\content\294100\2134308522)
-  Adding VanillaExpanded.VPlantsEMore(D:\SteamLibrary\steamapps\workshop\content\294100\2748889667)
-  Adding VanillaExpanded.VTEXE(D:\SteamLibrary\steamapps\workshop\content\294100\2016436324)
-  Adding VanillaExpanded.VPlantsESucculents(D:\SteamLibrary\steamapps\workshop\content\294100\2198652536)
-  Adding VanillaExpanded.VTEXVariations(D:\SteamLibrary\steamapps\workshop\content\294100\2493234474)
-  Adding VanillaExpanded.VWEG(D:\SteamLibrary\steamapps\workshop\content\294100\2194472657)
-  Adding VanillaExpanded.VWE(D:\SteamLibrary\steamapps\workshop\content\294100\1814383360)
-  Adding VanillaExpanded.VWEC(D:\SteamLibrary\steamapps\workshop\content\294100\2375692535)
-  Adding Verniy709.RealisticHumanSounds.HARPatch(D:\SteamLibrary\steamapps\workshop\content\294100\2505010072)
-  Adding VanillaExpanded.VWENL(D:\SteamLibrary\steamapps\workshop\content\294100\2454918354)
-  Adding void.charactereditor(D:\SteamLibrary\steamapps\workshop\content\294100\1874644848)
-  Adding Wemd.RealisticDarknessLight(D:\SteamLibrary\steamapps\workshop\content\294100\1555355332)
-  Adding weilbyte.snapout(D:\SteamLibrary\steamapps\workshop\content\294100\1319782555)
-  Adding XeoNovaDan.VisiblePants(D:\SteamLibrary\steamapps\workshop\content\294100\2264108215)
-  Adding zal.hyena(D:\SteamLibrary\steamapps\workshop\content\294100\2778544400)
-  Adding ocarina.prisonerjumpsuits(D:\SteamLibrary\steamapps\workshop\content\294100\3402467889)
-  Adding Samael.NPCMechsAndAnimals(D:\SteamLibrary\steamapps\workshop\content\294100\3407831843)
-  Adding Mlie.UseThisInstead(D:\SteamLibrary\steamapps\workshop\content\294100\3396308787)
-  Adding MF.BSApparel(D:\SteamLibrary\steamapps\workshop\content\294100\3444262741)
-  Adding killerbot.gtekdevilstrandsynthesis(D:\SteamLibrary\steamapps\workshop\content\294100\3382783628)
-  Adding VehiclesWrecksExpanded.Revisited(D:\SteamLibrary\steamapps\workshop\content\294100\3348827283)
-  Adding rtxyd.RealFactionGuest(D:\SteamLibrary\steamapps\workshop\content\294100\3302093855)
-  Adding sleepy068.morepsycasts(D:\SteamLibrary\steamapps\workshop\content\294100\2884678003)
-  Adding vera.bug(D:\SteamLibrary\steamapps\workshop\content\294100\2896673577)
-  Adding GonDragon.TTPF(D:\SteamLibrary\steamapps\workshop\content\294100\3328259637)
-  Adding Mlie.BioReactor(D:\SteamLibrary\steamapps\workshop\content\294100\3307031939)
-  Adding zal.majesticfoilageframework(D:\SteamLibrary\steamapps\workshop\content\294100\3358954913)
-  Adding zal.majesticcmt(D:\SteamLibrary\steamapps\workshop\content\294100\3358963770)
-  Adding zal.majesticcomigopack(D:\SteamLibrary\steamapps\workshop\content\294100\3358962831)
-  Adding Mlie.SmarterVisitors(D:\SteamLibrary\steamapps\workshop\content\294100\3012491521)
-  Adding Turnovus.Biotech.IntegratedXenotypes(D:\SteamLibrary\steamapps\workshop\content\294100\2888056643)
-  Adding azravos.factioncustomizer(D:\SteamLibrary\steamapps\workshop\content\294100\3336572602)
-  Adding Krit.KillaCranTime(D:\SteamLibrary\steamapps\workshop\content\294100\2891843965)
-  Adding SR.ModRimworld.RaidExtension(D:\SteamLibrary\steamapps\workshop\content\294100\3340459422)
-  Adding gy.urav(D:\SteamLibrary\steamapps\workshop\content\294100\3346656077)
-  Adding Explorern11.VehiclesWrecksExpanded(D:\SteamLibrary\steamapps\workshop\content\294100\3299034372)
-  Adding VitaKaninen.ShelfPatch(D:\SteamLibrary\steamapps\workshop\content\294100\3297737876)
-  Adding Haecriver.SimplyMoreColors(D:\SteamLibrary\steamapps\workshop\content\294100\3318926229)
-  Adding NuanKi.ControlledRituals(D:\SteamLibrary\steamapps\workshop\content\294100\3328826971)
-  Adding OskarPotocki.VanillaVehiclesExpandedUpgrades(D:\SteamLibrary\steamapps\workshop\content\294100\3302208420)
-  Adding bolphen.avatar(D:\SteamLibrary\steamapps\workshop\content\294100\3111373293)
-  Adding LazyFridayStudio.GenesExpandedHair(D:\SteamLibrary\steamapps\workshop\content\294100\3221946756)
-  Adding Wara.toomanymods(D:\SteamLibrary\steamapps\workshop\content\294100\3250762483)
-  Adding matvey24.FPSStabilizer(D:\SteamLibrary\steamapps\workshop\content\294100\3318922522)
-  Adding VanillaExpanded.BaseGeneration(D:\SteamLibrary\steamapps\workshop\content\294100\3209927822)
-  Adding RedMattis.MoreXenos(D:\SteamLibrary\steamapps\workshop\content\294100\3218636337)
-  Adding Owlchemist.FridgeUtilities(D:\SteamLibrary\steamapps\workshop\content\294100\3219883811)
-  Adding kongkim.VanillaPackedDirt(D:\SteamLibrary\steamapps\workshop\content\294100\3222337520)
-  Adding lts.I(D:\SteamLibrary\steamapps\workshop\content\294100\3223443793)
-  Adding Sea.ConsistentGeneInheritanceContinued(D:\SteamLibrary\steamapps\workshop\content\294100\3225695697)
-  Adding MemeGoddess.SearchAndDestroy(D:\SteamLibrary\steamapps\workshop\content\294100\3232242247)
-  Adding GrillMaster.integratedcreepjoiners(D:\SteamLibrary\steamapps\workshop\content\294100\3233429182)
-  Adding Atlas.SimpleFX.Vapor.Revaporized(D:\SteamLibrary\steamapps\workshop\content\294100\3238776309)
-  Adding BriannBanned.BriannsMissileFramework(D:\SteamLibrary\steamapps\workshop\content\294100\3242612428)
-  Adding BriannBanned.BriannsMissiles(D:\SteamLibrary\steamapps\workshop\content\294100\3242612561)
-  Adding BP.ShowBuildableMaterialCount(D:\SteamLibrary\steamapps\workshop\content\294100\3245101540)
-  Adding UNAGI.apparel.B.Zibunyou(D:\SteamLibrary\steamapps\workshop\content\294100\3245977854)
-  Adding Keepercraft.RimKeeperAnimals(D:\SteamLibrary\steamapps\workshop\content\294100\3259367736)
-  Adding Owlchemist.SimpleFX.Splashes(D:\SteamLibrary\steamapps\workshop\content\294100\3261109179)
-  Adding nephlite.advexplosions(D:\SteamLibrary\steamapps\workshop\content\294100\2572683272)
-  Adding zal.namesgalore(D:\SteamLibrary\steamapps\workshop\content\294100\3263018536)
-  Adding zal.simplefxshinies(D:\SteamLibrary\steamapps\workshop\content\294100\3266722212)
-  Adding kirby.morereligiousorigins(D:\SteamLibrary\steamapps\workshop\content\294100\2620745910)
-  Adding VexedTrees980.RimRobots(D:\SteamLibrary\steamapps\workshop\content\294100\2743171832)
-  Adding Meltup.BeautifulOutdoors(D:\SteamLibrary\steamapps\workshop\content\294100\2011794898)
-  Adding Mlie.RunAndHide(D:\SteamLibrary\steamapps\workshop\content\294100\2022480344)
-  Adding Aoba.Fortress.Industrial.Concrete(D:\SteamLibrary\steamapps\workshop\content\294100\2888037450)
-  Adding Nera.SpawnThoseGenes(D:\SteamLibrary\steamapps\workshop\content\294100\2898044088)
-  Adding vanillaracesexpanded.customicons(D:\SteamLibrary\steamapps\workshop\content\294100\2917311689)
-  Adding IssacZhuang.MuzzleFlash(D:\SteamLibrary\steamapps\workshop\content\294100\2917732219)
-  Adding RedMattis.BigSmall.Core(D:\SteamLibrary\steamapps\workshop\content\294100\2920751126)
-  Adding RedMattis.BetterPrerequisites(D:\SteamLibrary\steamapps\workshop\content\294100\2925432336)
-  Adding OskarPotocki.VFE.Empire(D:\SteamLibrary\steamapps\workshop\content\294100\2938820380)
-  Adding Adamas.HospitalityCasino(D:\SteamLibrary\steamapps\workshop\content\294100\2939292644)
-  Adding co.uk.epicguru.meleeanimation(D:\SteamLibrary\steamapps\workshop\content\294100\2944488802)
-  Adding VanillaExpanded.VAEWaste(D:\SteamLibrary\steamapps\workshop\content\294100\2962126499)
-  Adding ND.RTPJ(D:\SteamLibrary\steamapps\workshop\content\294100\2962208832)
-  Adding TheVillain.Animalfoodsextended(D:\SteamLibrary\steamapps\workshop\content\294100\2971675296)
-  Adding zal.eyeprosthetics(D:\SteamLibrary\steamapps\workshop\content\294100\2973777411)
-  Adding vanillaracesexpanded.highmate(D:\SteamLibrary\steamapps\workshop\content\294100\2995385834)
-  Adding VanillaExpanded.VPlantsEMushrooms(D:\SteamLibrary\steamapps\workshop\content\294100\3006389281)
-  Adding Aoba.Motorization.Engine(D:\SteamLibrary\steamapps\workshop\content\294100\3009527756)
-  Adding OskarPotocki.VanillaVehiclesExpanded(D:\SteamLibrary\steamapps\workshop\content\294100\3014906877)
-  Adding SmashPhil.VehicleFramework(D:\SteamLibrary\steamapps\workshop\content\294100\3014915404)
-  Adding zeracronius.dynamictradeinterface(D:\SteamLibrary\steamapps\workshop\content\294100\3020706506)
-  Adding OskarPotocki.VFE.Deserters(D:\SteamLibrary\steamapps\workshop\content\294100\3025493377)
-  Adding OskarPotocki.VanillaVehiclesExpandedTier3(D:\SteamLibrary\steamapps\workshop\content\294100\3047892432)
-  Adding Reel.FacialAnims(D:\SteamLibrary\steamapps\workshop\content\294100\3118315633)
-  Adding XMB.AncientMiningIndustry.MO(D:\SteamLibrary\steamapps\workshop\content\294100\3141472661)
-  Adding mosi.MoreMiniHorns(D:\SteamLibrary\steamapps\workshop\content\294100\3151668881)
-  Adding zal.artifactsexpanded(D:\SteamLibrary\steamapps\workshop\content\294100\3162042049)
-  Adding Haplo.Miscellaneous.Robots(D:\SteamLibrary\steamapps\workshop\content\294100\724602224)
-  Adding vanillaracesexpanded.pigskin(D:\SteamLibrary\steamapps\workshop\content\294100\3164798809)
-  Adding TheEverythingPackLegoBoi.Ideo.IconsandSymbols(D:\SteamLibrary\steamapps\workshop\content\294100\3177767220)
-  Adding tk421storm.Ragdoll(D:\SteamLibrary\steamapps\workshop\content\294100\3179116177)
-  Adding VanillaExpanded.Ideo.SophianStyle(D:\SteamLibrary\steamapps\workshop\content\294100\3194606539)
-  Adding lts.CC(D:\SteamLibrary\steamapps\workshop\content\294100\3194949159)
-  Adding Pumpkinlass.PantsRetexture(D:\SteamLibrary\steamapps\workshop\content\294100\3772689105)
-  Adding alenDio.dawnofanewday(D:\SteamLibrary\steamapps\workshop\content\294100\3771580900)
-Deactivating not-installed mods:
-UnityEngine.StackTraceUtility:ExtractStackTrace ()
-Verse.Log:Message (string)
-Verse.ModLister:RebuildModList ()
-Verse.ModLister:.cctor ()
-Verse.ModsConfig:.cctor ()
-Verse.LoadedModManager:InitializeMods ()
-Verse.LoadedModManager:LoadAllActiveMods (bool)
-Verse.PlayDataLoader:DoPlayLoad ()
-Verse.PlayDataLoader:LoadAllPlayData (bool)
-Verse.Root/<>c:<Start>b__10_1 ()
-Verse.LongEventHandler:RunEventFromAnotherThread (System.Action)
-Verse.LongEventHandler/<>c:<UpdateCurrentAsynchronousEvent>b__28_0 ()
-System.Threading.ThreadHelper:ThreadStart_Context (object)
-System.Threading.ExecutionContext:RunInternal (System.Threading.ExecutionContext,System.Threading.ContextCallback,object,bool)
-System.Threading.ExecutionContext:Run (System.Threading.ExecutionContext,System.Threading.ContextCallback,object,bool)
-System.Threading.ExecutionContext:Run (System.Threading.ExecutionContext,System.Threading.ContextCallback,object)
-System.Threading.ThreadHelper:ThreadStart ()
-
-[Loading Progress] Loading Progress initialized! Enjoy the rest of your loading experience!
-UnityEngine.StackTraceUtility:ExtractStackTrace ()
-Verse.Log:Message (string)
-ilyvion.LoadingProgress.LoadingProgressMod:Message (string) (at /home/runner/work/loading-progress/loading-progress/Source/ilyvion.LoadingProgress/LoadingProgressMod.cs:37)
-ilyvion.LoadingProgress.LoadingProgressMod:.ctor (Verse.ModContentPack) (at /home/runner/work/loading-progress/loading-progress/Source/ilyvion.LoadingProgress/LoadingProgressMod.cs:27)
-System.Reflection.RuntimeConstructorInfo:InternalInvoke (object,object[],bool)
-System.Reflection.RuntimeConstructorInfo:DoInvoke (object,System.Reflection.BindingFlags,System.Reflection.Binder,object[],System.Globalization.CultureInfo)
-System.Reflection.RuntimeConstructorInfo:Invoke (System.Reflection.BindingFlags,System.Reflection.Binder,object[],System.Globalization.CultureInfo)
-System.RuntimeType:CreateInstanceImpl (System.Reflection.BindingFlags,System.Reflection.Binder,object[],System.Globalization.CultureInfo,object[],System.Threading.StackCrawlMark&)
-System.Activator:CreateInstance (System.Type,System.Reflection.BindingFlags,System.Reflection.Binder,object[],System.Globalization.CultureInfo,object[])
-System.Activator:CreateInstance (System.Type,object[])
-Verse.LoadedModManager:CreateModClasses ()
-Verse.LoadedModManager:LoadAllActiveMods (bool)
-Verse.PlayDataLoader:DoPlayLoad ()
-Verse.PlayDataLoader:LoadAllPlayData (bool)
-Verse.Root/<>c:<Start>b__10_1 ()
-Verse.LongEventHandler:RunEventFromAnotherThread (System.Action)
-Verse.LongEventHandler/<>c:<UpdateCurrentAsynchronousEvent>b__28_0 ()
-System.Threading.ThreadHelper:ThreadStart_Context (object)
-System.Threading.ExecutionContext:RunInternal (System.Threading.ExecutionContext,System.Threading.ContextCallback,object,bool)
-System.Threading.ExecutionContext:Run (System.Threading.ExecutionContext,System.Threading.ContextCallback,object,bool)
-System.Threading.ExecutionContext:Run (System.Threading.ExecutionContext,System.Threading.ContextCallback,object)
-System.Threading.ThreadHelper:ThreadStart ()
-
-[HugsLib] version 12.0.0
-UnityEngine.StackTraceUtility:ExtractStackTrace ()
-Verse.Log:Message (string)
-HugsLib.Utils.ModLogger:Message (string,object[])
-HugsLib.HugsLibController:InitializeController ()
-HugsLib.HugsLibController:EarlyInitialize (Verse.ModContentPack)
-HugsLib.Core.HugsLibMod:.ctor (Verse.ModContentPack)
-System.Reflection.RuntimeConstructorInfo:InternalInvoke (object,object[],bool)
-System.Reflection.RuntimeConstructorInfo:DoInvoke (object,System.Reflection.BindingFlags,System.Reflection.Binder,object[],System.Globalization.CultureInfo)
-System.Reflection.RuntimeConstructorInfo:Invoke (System.Reflection.BindingFlags,System.Reflection.Binder,object[],System.Globalization.CultureInfo)
-System.RuntimeType:CreateInstanceImpl (System.Reflection.BindingFlags,System.Reflection.Binder,object[],System.Globalization.CultureInfo,object[],System.Threading.StackCrawlMark&)
-System.Activator:CreateInstance (System.Type,System.Reflection.BindingFlags,System.Reflection.Binder,object[],System.Globalization.CultureInfo,object[])
-System.Activator:CreateInstance (System.Type,object[])
-Verse.LoadedModManager:CreateModClasses ()
-Verse.LoadedModManager:LoadAllActiveMods (bool)
-Verse.PlayDataLoader:DoPlayLoad ()
-Verse.PlayDataLoader:LoadAllPlayData (bool)
-Verse.Root/<>c:<Start>b__10_1 ()
-Verse.LongEventHandler:RunEventFromAnotherThread (System.Action)
-Verse.LongEventHandler/<>c:<UpdateCurrentAsynchronousEvent>b__28_0 ()
-System.Threading.ThreadHelper:ThreadStart_Context (object)
-System.Threading.ExecutionContext:RunInternal (System.Threading.ExecutionContext,System.Threading.ContextCallback,object,bool)
-System.Threading.ExecutionContext:Run (System.Threading.ExecutionContext,System.Threading.ContextCallback,object,bool)
-System.Threading.ExecutionContext:Run (System.Threading.ExecutionContext,System.Threading.ContextCallback,object)
-System.Threading.ThreadHelper:ThreadStart ()
-
-[HugsLib] early-initializing AllowTool
-UnityEngine.StackTraceUtility:ExtractStackTrace ()
-Verse.Log:Message (string)
-HugsLib.Utils.ModLogger:Message (string,object[])
-HugsLib.HugsLibController:EnumerateChildMods (bool)
-HugsLib.HugsLibController:EarlyInitializeChildMods ()
-HugsLib.HugsLibController:InitializeController ()
-HugsLib.HugsLibController:EarlyInitialize (Verse.ModContentPack)
-HugsLib.Core.HugsLibMod:.ctor (Verse.ModContentPack)
-System.Reflection.RuntimeConstructorInfo:InternalInvoke (object,object[],bool)
-System.Reflection.RuntimeConstructorInfo:DoInvoke (object,System.Reflection.BindingFlags,System.Reflection.Binder,object[],System.Globalization.CultureInfo)
-System.Reflection.RuntimeConstructorInfo:Invoke (System.Reflection.BindingFlags,System.Reflection.Binder,object[],System.Globalization.CultureInfo)
-System.RuntimeType:CreateInstanceImpl (System.Reflection.BindingFlags,System.Reflection.Binder,object[],System.Globalization.CultureInfo,object[],System.Threading.StackCrawlMark&)
-System.Activator:CreateInstance (System.Type,System.Reflection.BindingFlags,System.Reflection.Binder,object[],System.Globalization.CultureInfo,object[])
-System.Activator:CreateInstance (System.Type,object[])
-Verse.LoadedModManager:CreateModClasses ()
-Verse.LoadedModManager:LoadAllActiveMods (bool)
-Verse.PlayDataLoader:DoPlayLoad ()
-Verse.PlayDataLoader:LoadAllPlayData (bool)
-Verse.Root/<>c:<Start>b__10_1 ()
-Verse.LongEventHandler:RunEventFromAnotherThread (System.Action)
-Verse.LongEventHandler/<>c:<UpdateCurrentAsynchronousEvent>b__28_0 ()
-System.Threading.ThreadHelper:ThreadStart_Context (object)
-System.Threading.ExecutionContext:RunInternal (System.Threading.ExecutionContext,System.Threading.ContextCallback,object,bool)
-System.Threading.ExecutionContext:Run (System.Threading.ExecutionContext,System.Threading.ContextCallback,object,bool)
-System.Threading.ExecutionContext:Run (System.Threading.ExecutionContext,System.Threading.ContextCallback,object)
-System.Threading.ThreadHelper:ThreadStart ()
-
-Alien Vs Predator: successfully completed 38 harmony patches.
-UnityEngine.StackTraceUtility:ExtractStackTrace ()
-Verse.Log:Message (string)
-RRYautja.settings.AvPMod:.ctor (Verse.ModContentPack)
-System.Reflection.RuntimeConstructorInfo:InternalInvoke (object,object[],bool)
-System.Reflection.RuntimeConstructorInfo:DoInvoke (object,System.Reflection.BindingFlags,System.Reflection.Binder,object[],System.Globalization.CultureInfo)
-System.Reflection.RuntimeConstructorInfo:Invoke (System.Reflection.BindingFlags,System.Reflection.Binder,object[],System.Globalization.CultureInfo)
-System.RuntimeType:CreateInstanceImpl (System.Reflection.BindingFlags,System.Reflection.Binder,object[],System.Globalization.CultureInfo,object[],System.Threading.StackCrawlMark&)
-System.Activator:CreateInstance (System.Type,System.Reflection.BindingFlags,System.Reflection.Binder,object[],System.Globalization.CultureInfo,object[])
-System.Activator:CreateInstance (System.Type,object[])
-Verse.LoadedModManager:CreateModClasses ()
-Verse.LoadedModManager:LoadAllActiveMods (bool)
-Verse.PlayDataLoader:DoPlayLoad ()
-Verse.PlayDataLoader:LoadAllPlayData (bool)
-Verse.Root/<>c:<Start>b__10_1 ()
-Verse.LongEventHandler:RunEventFromAnotherThread (System.Action)
-Verse.LongEventHandler/<>c:<UpdateCurrentAsynchronousEvent>b__28_0 ()
-System.Threading.ThreadHelper:ThreadStart_Context (object)
-System.Threading.ExecutionContext:RunInternal (System.Threading.ExecutionContext,System.Threading.ContextCallback,object,bool)
-System.Threading.ExecutionContext:Run (System.Threading.ExecutionContext,System.Threading.ContextCallback,object,bool)
-System.Threading.ExecutionContext:Run (System.Threading.ExecutionContext,System.Threading.ContextCallback,object)
-System.Threading.ThreadHelper:ThreadStart ()
-
-DubsMintMenus v1.3.1086
-UnityEngine.StackTraceUtility:ExtractStackTrace ()
-Verse.Log:Message (string)
-DubsMintMenus.DubsMintMenusMod:.ctor (Verse.ModContentPack)
-System.Reflection.RuntimeConstructorInfo:InternalInvoke (object,object[],bool)
-System.Reflection.RuntimeConstructorInfo:DoInvoke (object,System.Reflection.BindingFlags,System.Reflection.Binder,object[],System.Globalization.CultureInfo)
-System.Reflection.RuntimeConstructorInfo:Invoke (System.Reflection.BindingFlags,System.Reflection.Binder,object[],System.Globalization.CultureInfo)
-System.RuntimeType:CreateInstanceImpl (System.Reflection.BindingFlags,System.Reflection.Binder,object[],System.Globalization.CultureInfo,object[],System.Threading.StackCrawlMark&)
-System.Activator:CreateInstance (System.Type,System.Reflection.BindingFlags,System.Reflection.Binder,object[],System.Globalization.CultureInfo,object[])
-System.Activator:CreateInstance (System.Type,object[])
-Verse.LoadedModManager:CreateModClasses ()
-Verse.LoadedModManager:LoadAllActiveMods (bool)
-Verse.PlayDataLoader:DoPlayLoad ()
-Verse.PlayDataLoader:LoadAllPlayData (bool)
-Verse.Root/<>c:<Start>b__10_1 ()
-Verse.LongEventHandler:RunEventFromAnotherThread (System.Action)
-Verse.LongEventHandler/<>c:<UpdateCurrentAsynchronousEvent>b__28_0 ()
-System.Threading.ThreadHelper:ThreadStart_Context (object)
-System.Threading.ExecutionContext:RunInternal (System.Threading.ExecutionContext,System.Threading.ContextCallback,object,bool)
-System.Threading.ExecutionContext:Run (System.Threading.ExecutionContext,System.Threading.ContextCallback,object,bool)
-System.Threading.ExecutionContext:Run (System.Threading.ExecutionContext,System.Threading.ContextCallback,object)
-System.Threading.ThreadHelper:ThreadStart ()
-
-[Analyzer] Loaded version 1.6.0 rev 1
-UnityEngine.StackTraceUtility:ExtractStackTrace ()
-Verse.Log:Message (string)
-Analyzer.Profiling.ThreadSafeLogger:Message (string) (at C:/Program Files (x86)/Steam/steamapps/common/RimWorld/Mods/Dubs-Performance-Analyzer/Source/Profiling/Utility/ThreadSafeLogger.cs:52)
-Analyzer.Modbase:.ctor (Verse.ModContentPack) (at C:/Program Files (x86)/Steam/steamapps/common/RimWorld/Mods/Dubs-Performance-Analyzer/Source/Modbase.cs:38)
-System.Reflection.RuntimeConstructorInfo:InternalInvoke (object,object[],bool)
-System.Reflection.RuntimeConstructorInfo:DoInvoke (object,System.Reflection.BindingFlags,System.Reflection.Binder,object[],System.Globalization.CultureInfo)
-System.Reflection.RuntimeConstructorInfo:Invoke (System.Reflection.BindingFlags,System.Reflection.Binder,object[],System.Globalization.CultureInfo)
-System.RuntimeType:CreateInstanceImpl (System.Reflection.BindingFlags,System.Reflection.Binder,object[],System.Globalization.CultureInfo,object[],System.Threading.StackCrawlMark&)
-System.Activator:CreateInstance (System.Type,System.Reflection.BindingFlags,System.Reflection.Binder,object[],System.Globalization.CultureInfo,object[])
-System.Activator:CreateInstance (System.Type,object[])
-Verse.LoadedModManager:CreateModClasses ()
-Verse.LoadedModManager:LoadAllActiveMods (bool)
-Verse.PlayDataLoader:DoPlayLoad ()
-Verse.PlayDataLoader:LoadAllPlayData (bool)
-Verse.Root/<>c:<Start>b__10_1 ()
-Verse.LongEventHandler:RunEventFromAnotherThread (System.Action)
-Verse.LongEventHandler/<>c:<UpdateCurrentAsynchronousEvent>b__28_0 ()
-System.Threading.ThreadHelper:ThreadStart_Context (object)
-System.Threading.ExecutionContext:RunInternal (System.Threading.ExecutionContext,System.Threading.ContextCallback,object,bool)
-System.Threading.ExecutionContext:Run (System.Threading.ExecutionContext,System.Threading.ContextCallback,object,bool)
-System.Threading.ExecutionContext:Run (System.Threading.ExecutionContext,System.Threading.ContextCallback,object)
-System.Threading.ThreadHelper:ThreadStart ()
-
 [Analyzer] ResearchTree
 UnityEngine.StackTraceUtility:ExtractStackTrace ()
 Verse.Log:Message (string)
@@ -33799,3 +33155,682 @@ CharacterEditor.CEditor:OnMainMenuOnGUI ()
 (wrapper dynamic-method) MonoMod.Utils.DynamicMethodDefinition:Verse.UIRoot_Entry.DoMainMenu_Patch1 (Verse.UIRoot_Entry)
 (wrapper dynamic-method) MonoMod.Utils.DynamicMethodDefinition:Verse.UIRoot_Entry.UIRootOnGUI_Patch1 (Verse.UIRoot_Entry)
 (wrapper dynamic-method) MonoMod.Utils.DynamicMethodDefinition:Verse.Root.OnGUI_Patch2 (Verse.Root)
+
+[HugsLib] Quickstarter generating map with scenario: Crashlanded
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+Verse.Log:Message (string)
+HugsLib.Utils.ModLogger:Message (string,object[])
+HugsLib.Quickstart.QuickstartController:InitiateMapGeneration ()
+Verse.ListableOption:DrawOption (UnityEngine.Vector2,single)
+(wrapper dynamic-method) MonoMod.Utils.DynamicMethodDefinition:Verse.OptionListingUtility.DrawOptionListing_Patch1 (UnityEngine.Rect,System.Collections.Generic.List`1<Verse.ListableOption>)
+(wrapper dynamic-method) MonoMod.Utils.DynamicMethodDefinition:RimWorld.MainMenuDrawer.DoMainMenuControls_Patch2 (UnityEngine.Rect,bool)
+(wrapper dynamic-method) MonoMod.Utils.DynamicMethodDefinition:RimWorld.MainMenuDrawer.MainMenuOnGUI_Patch2 ()
+(wrapper dynamic-method) MonoMod.Utils.DynamicMethodDefinition:Verse.UIRoot_Entry.DoMainMenu_Patch1 (Verse.UIRoot_Entry)
+(wrapper dynamic-method) MonoMod.Utils.DynamicMethodDefinition:Verse.UIRoot_Entry.UIRootOnGUI_Patch1 (Verse.UIRoot_Entry)
+(wrapper dynamic-method) MonoMod.Utils.DynamicMethodDefinition:Verse.Root.OnGUI_Patch2 (Verse.Root)
+
+[Big and Small]: Found 7 AlienRace.ThingDef_AlienRace ThingDefs.
+These are either from HAR races or B&S races automatically converted for compatibility.
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+Verse.Log:Message (string)
+BigAndSmall.HARCompat:TrySetupHARThingsIfHARIsActive () (at C:/Games/Steam/steamapps/common/RimWorld/Mods/1 BigSmall_Framework/1.6/Base/Source/BigSmallFramework/ModPatches/MiscCompatibility/HumanoidAlienRaces.cs:36)
+BigAndSmall.HARCompat:TryGetHarBodiesForThingdef (Verse.ThingDef) (at C:/Games/Steam/steamapps/common/RimWorld/Mods/1 BigSmall_Framework/1.6/Base/Source/BigSmallFramework/ModPatches/MiscCompatibility/HumanoidAlienRaces.cs:56)
+BigAndSmall.GenderMethods:TryBodyGenderBodyUpdate (RimWorld.BodyTypeDef,Verse.Gender,BigAndSmall.BSCache,RimWorld.BodyTypeDef&) (at C:/Games/Steam/steamapps/common/RimWorld/Mods/1 BigSmall_Framework/1.6/Base/Source/BigSmallFramework/Gender and Reproduction/GenderMethods.cs:136)
+BigAndSmall.HarmonyPatches:PawnGenerator_GetBodyTypeFor (Verse.Pawn,RimWorld.BodyTypeDef&) (at C:/Games/Steam/steamapps/common/RimWorld/Mods/1 BigSmall_Framework/1.6/Base/Source/BigSmallFramework/Rendering & Graphics/Patches/GenderBody.cs:40)
+(wrapper dynamic-method) MonoMod.Utils.DynamicMethodDefinition:Verse.PawnGenerator.GetBodyTypeFor_Patch2 (Verse.Pawn)
+(wrapper dynamic-method) MonoMod.Utils.DynamicMethodDefinition:Verse.PawnGenerator.GenerateBodyType_Patch2 (Verse.Pawn,Verse.PawnGenerationRequest)
+(wrapper dynamic-method) MonoMod.Utils.DynamicMethodDefinition:Verse.PawnGenerator.TryGenerateNewPawnInternal_Patch2 (Verse.PawnGenerationRequest&,string&,bool,bool)
+(wrapper dynamic-method) MonoMod.Utils.DynamicMethodDefinition:Verse.PawnGenerator.GenerateNewPawnInternal_Patch2 (Verse.PawnGenerationRequest&)
+Verse.PawnGenerator:GenerateOrRedressPawnInternal (Verse.PawnGenerationRequest)
+(wrapper dynamic-method) MonoMod.Utils.DynamicMethodDefinition:Verse.PawnGenerator.GeneratePawn_Patch7 (Verse.PawnGenerationRequest)
+RimWorld.Faction:TryGenerateNewLeader ()
+(wrapper dynamic-method) MonoMod.Utils.DynamicMethodDefinition:RimWorld.FactionGenerator.NewGeneratedFaction_Patch1 (RimWorld.Planet.PlanetLayer,RimWorld.FactionGeneratorParms)
+RimWorld.FactionGenerator:CreateFactionAndAddToManager (RimWorld.Planet.PlanetLayer,RimWorld.FactionDef)
+RimWorld.FactionGenerator:AddFactionToManager (RimWorld.Planet.PlanetLayer,RimWorld.FactionDef)
+RimWorld.FactionGenerator:InitializeFactions (RimWorld.Planet.PlanetLayer,System.Collections.Generic.List`1<RimWorld.FactionDef>)
+RimWorld.FactionGenerator:GenerateFactionsIntoWorldLayer (RimWorld.Planet.PlanetLayer,System.Collections.Generic.List`1<RimWorld.FactionDef>)
+RimWorld.Planet.WorldGenStep_Factions:GenerateFresh (string,RimWorld.Planet.PlanetLayer)
+RimWorld.Planet.WorldGenerator:GeneratePlanetLayer (RimWorld.Planet.PlanetLayer,string,int)
+RimWorld.Planet.WorldGenerator:GenerateWorld (single,string,RimWorld.Planet.OverallRainfall,RimWorld.Planet.OverallTemperature,RimWorld.Planet.OverallPopulation,RimWorld.Planet.LandmarkDensity,System.Collections.Generic.List`1<RimWorld.FactionDef>,single)
+HugsLib.Quickstart.QuickstartController:ApplyQuickstartConfiguration ()
+HugsLib.Quickstart.QuickstartController/<>c:<InitiateMapGeneration>b__7_0 ()
+Verse.LongEventHandler:RunEventFromAnotherThread (System.Action)
+Verse.LongEventHandler/<>c:<UpdateCurrentAsynchronousEvent>b__28_0 ()
+System.Threading.ThreadHelper:ThreadStart_Context (object)
+System.Threading.ExecutionContext:RunInternal (System.Threading.ExecutionContext,System.Threading.ContextCallback,object,bool)
+System.Threading.ExecutionContext:Run (System.Threading.ExecutionContext,System.Threading.ContextCallback,object,bool)
+System.Threading.ExecutionContext:Run (System.Threading.ExecutionContext,System.Threading.ContextCallback,object)
+System.Threading.ThreadHelper:ThreadStart ()
+
+Error while killing Usel during phase 5: System.NullReferenceException: Object reference not set to an instance of an object
+[Ref CAFFB881]
+  at GiddyUp.StorageUtility.GetExtendedPawnData (Verse.Pawn pawn) [0x00000] in /home/runner/work/GiddyUp2/GiddyUp2/mod/Source/Core/Storage/StorageUtility.cs:8 
+  at GiddyUp.Harmony.Patch_SetDead.Postfix (Verse.Pawn_HealthTracker __instance) [0x00007] in /home/runner/work/GiddyUp2/GiddyUp2/mod/Source/Core/Harmony/Pawn_HealthTracker.cs:35 
+  at Verse.Pawn_HealthTracker.SetDead () [0x00038] in <61e4173561894da49d210260257b5097>:0 
+    - POSTFIX VFEEmpire.Mod: Void VFEEmpire.HarmonyPatches.Patch_StateChange:Postfix(PawnHealthState ___healthState, Pawn ___pawn)
+    - POSTFIX GiddyUp: Void GiddyUp.Harmony.Patch_SetDead:Postfix(Pawn_HealthTracker __instance)
+  at Verse.Pawn.Kill (System.Nullable`1[T] dinfo, Verse.Hediff exactCulprit) [0x0026b] in <61e4173561894da49d210260257b5097>:0 
+    - TRANSPILER com.sirrandoo.rda: IEnumerable`1 SirRandoo.RDA.Patches.PawnKillPatch:Transpiler(IEnumerable`1 instructions)
+    - PREFIX OskarPotocki.VEF: Void VEF.Storyteller.VanillaExpandedFramework_Pawn_Kill_Patch:Prefix(Pawn __instance, Nullable`1 dinfo, Hediff exactCulprit)
+    - PREFIX OskarPotocki.VEF: Boolean VEF.Apparels.VanillaExpandedFramework_Pawn_Kill_Patch:Prefix(Pawn __instance, List`1& __state)
+    - PREFIX SmashPhil.VehicleFramework: Void Vehicles.Patch_Misc:MoveOnDeath(Pawn __instance)
+    - PREFIX RedMattis.BetterPrerequisites: Void BigAndSmall.NotifyEvents:PawnKillPrefix(Pawn __instance)
+    - PREFIX com.sirrandoo.rda: Void SirRandoo.RDA.Patches.PawnKillPatch:Prefix(Pawn __instance)
+    - PREFIX vanillafactionsexpanded.settlers: Void VFE_Settlers.Utilities.Harmony+PawnKill_Patch:PreFix(Pawn __instance)
+    - PREFIX VanillaApparelExpanded.Accessories: Boolean VAE_Accessories.HarmonyPatches:BeltsOnDeath(Nullable`1 dinfo, Hediff exactCulprit, Pawn __instance)
+    - POSTFIX UnlimitedHugs.AllowTool: Void AllowTool.Patches.Pawn_Kill_Patch:UnforbidDraftedHuntBody(Pawn __instance, Nullable`1 dinfo)
+    - POSTFIX OskarPotocki.VEF: Void VEF.Pawns.VanillaExpandedFramework_Pawn_Kill:Postfix(Pawn __instance)
+    - POSTFIX OskarPotocki.VEF: Void VEF.Apparels.VanillaExpandedFramework_Pawn_Kill_Patch:Postfix(Pawn __instance, List`1 __state)
+    - POSTFIX VFEEmpire.Mod: Void VFEEmpire.HarmonyPatches.ColonistTitleCache+OnPawn:Postfix(Pawn __instance)
+    - POSTFIX vanillaexpanded.factions.deserters: Void VFED.HarmonyPatches.MiscPatches:ExplodePackOnDeath(Pawn __instance)
+    - POSTFIX RedMattis.BetterPrerequisites: Void BigAndSmall.OnKillPatch:OnKillPostfix(Pawn __instance, Nullable`1 dinfo, Hediff exactCulprit)
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+(wrapper dynamic-method) MonoMod.Utils.DynamicMethodDefinition:Verse.Log.Error_Patch2 (string)
+(wrapper dynamic-method) MonoMod.Utils.DynamicMethodDefinition:Verse.Pawn.Kill_Patch12 (Verse.Pawn,System.Nullable`1<Verse.DamageInfo>,Verse.Hediff)
+(wrapper dynamic-method) MonoMod.Utils.DynamicMethodDefinition:Verse.Pawn_HealthTracker.CheckForStateChange_Patch2 (Verse.Pawn_HealthTracker,System.Nullable`1<Verse.DamageInfo>,Verse.Hediff)
+(wrapper dynamic-method) MonoMod.Utils.DynamicMethodDefinition:Verse.Pawn_HealthTracker.Notify_HediffChanged_Patch1 (Verse.Pawn_HealthTracker,Verse.Hediff)
+Verse.Hediff:set_Severity (single)
+Verse.HediffGiver_Birthday:SimulateSeverityChange (Verse.Pawn,Verse.Hediff,single,bool)
+Verse.HediffGiver_Birthday:TryApplyAndSimulateSeverityChange (Verse.Pawn,single,bool)
+(wrapper dynamic-method) MonoMod.Utils.DynamicMethodDefinition:RimWorld.AgeInjuryUtility.GenerateRandomOldAgeInjuries_Patch1 (Verse.Pawn,bool)
+(wrapper dynamic-method) MonoMod.Utils.DynamicMethodDefinition:Verse.PawnGenerator.GenerateInitialHediffs_Patch2 (Verse.Pawn,Verse.PawnGenerationRequest)
+(wrapper dynamic-method) MonoMod.Utils.DynamicMethodDefinition:Verse.PawnGenerator.TryGenerateNewPawnInternal_Patch2 (Verse.PawnGenerationRequest&,string&,bool,bool)
+(wrapper dynamic-method) MonoMod.Utils.DynamicMethodDefinition:Verse.PawnGenerator.GenerateNewPawnInternal_Patch2 (Verse.PawnGenerationRequest&)
+Verse.PawnGenerator:GenerateOrRedressPawnInternal (Verse.PawnGenerationRequest)
+(wrapper dynamic-method) MonoMod.Utils.DynamicMethodDefinition:Verse.PawnGenerator.GeneratePawn_Patch7 (Verse.PawnGenerationRequest)
+VFEEmpire.WorldComponent_Hierarchy:MakePawnFor (RimWorld.RoyalTitleDef)
+VFEEmpire.WorldComponent_Hierarchy:InitializeTitles ()
+VFEEmpire.WorldComponent_Hierarchy:FinalizeInit (bool)
+RimWorld.Planet.WorldComponentUtility:FinalizeInit (RimWorld.Planet.World,bool)
+(wrapper dynamic-method) MonoMod.Utils.DynamicMethodDefinition:RimWorld.Planet.World.FinalizeInit_Patch6 (RimWorld.Planet.World,bool)
+RimWorld.Planet.WorldGenerator:GenerateWorld (single,string,RimWorld.Planet.OverallRainfall,RimWorld.Planet.OverallTemperature,RimWorld.Planet.OverallPopulation,RimWorld.Planet.LandmarkDensity,System.Collections.Generic.List`1<RimWorld.FactionDef>,single)
+HugsLib.Quickstart.QuickstartController:ApplyQuickstartConfiguration ()
+HugsLib.Quickstart.QuickstartController/<>c:<InitiateMapGeneration>b__7_0 ()
+Verse.LongEventHandler:RunEventFromAnotherThread (System.Action)
+Verse.LongEventHandler/<>c:<UpdateCurrentAsynchronousEvent>b__28_0 ()
+System.Threading.ThreadHelper:ThreadStart_Context (object)
+System.Threading.ExecutionContext:RunInternal (System.Threading.ExecutionContext,System.Threading.ContextCallback,object,bool)
+System.Threading.ExecutionContext:Run (System.Threading.ExecutionContext,System.Threading.ContextCallback,object,bool)
+System.Threading.ExecutionContext:Run (System.Threading.ExecutionContext,System.Threading.ContextCallback,object)
+System.Threading.ThreadHelper:ThreadStart ()
+
+Initializing new game with mods:
+  - brrainz.harmony
+  - ilyvion.LoadingProgress
+  - Ludeon.RimWorld
+  - Ludeon.RimWorld.Royalty
+  - Ludeon.RimWorld.Ideology
+  - Ludeon.RimWorld.Biotech
+  - Ludeon.RimWorld.Anomaly
+  - Ludeon.RimWorld.Odyssey
+  - RedMattis.BetterPrerequisites
+  - UnlimitedHugs.HugsLib
+  - Ogliss.AVPXenomorphs
+  - AndrewRaphaelLukasik.AllowDeadAnimals
+  - UnlimitedHugs.AllowTool
+  - adaptive.storage.framework
+  - OskarPotocki.VanillaFactionsExpanded.Core
+  - OskarPotocki.VFE.Empire
+  - VanillaExpanded.VTEXE
+  - cucumpear.azrael.varietycoats
+  - Inglix.ApparelTaintedOnCorpseRot
+  - com.bymarcin.ArchitectIcons
+  - Chaotic.BarelyBetterSpots
+  - falconne.BWM
+  - imranfish.xmlextensions
+  - erdelf.HumanoidAlienRaces
+  - RedMattis.BigSmall.Core
+  - RedMattis.MoreXenos
+  - RedMattis.BiggerGravship
+  - Mlie.BioReactor
+  - Darknote.BunkBeds
+  - brrainz.cameraplus
+  - Aoba.Tent
+  - void.charactereditor
+  - Cerule.CleaningAreaRelaunched
+  - zal.covetheus
+  - CaesarV6.DamageIndicators
+  - alenDio.dawnofanewday
+  - Woolyung.DoTheRitualsYourselves
+  - telardo.DragSelect
+  - Dubwise.DubsMintMenus
+  - dubwise.dubsmintminimap
+  - Dubwise.DubsPerformanceAnalyzer.steam
+  - zeracronius.dynamictradeinterface
+  - Mlie.EnemySelfPreservation
+  - Erin.FluffyFauna
+  - Erin.Hairredux
+  - Romyashi.ExtractAnyPlant
+  - matvey24.FPSStabilizer
+  - azravos.factioncustomizer
+  - Aelanna.FistNerf
+  - quartz.floorstoragetanks
+  - MemeGoddess.GiddyUp
+  - GonDragon.TTPF
+  - VanillaExpanded.VAPPE
+  - VanillaExpanded.VARME
+  - VanillaExpanded.VBooksE
+  - VanillaExpanded.VBrewE
+  - VanillaExpanded.VCookE
+  - OskarPotocki.VFE.Deserters
+  - VanillaExpanded.VFEArt
+  - VanillaExpanded.VFEFarming
+  - VanillaExpanded.VFEPower
+  - VanillaExpanded.VFEProduction
+  - VanillaExpanded.VFECore
+  - VanillaExpanded.VFESpacer
+  - VanillaExpanded.VPlantsE
+  - VanillaExpanded.VPlantsEMore
+  - VanillaExpanded.VPlantsESucculents
+  - VanillaExpanded.VWE
+  - VanillaExpanded.VWEC
+  - VanillaExpanded.VWENL
+  - GonDragon.TechTree
+  - Kattalisk.GravEngineGivesPower
+  - automatic.gunplay
+  - jkluch.HaulToStack
+  - aRandomKiwi.HuntForMe
+  - VanillaExpanded.VanillaAnimalsExpanded
+  - zal.hyena
+  - dev.soeur.imageopt
+  - toxicyui.impactfulskills.modsupport
+  - 400.ImpassableHChestUdeepHWater
+  - Dragoon103.LARVA
+  - Taveron.IncreasedStack
+  - Aoba.Fortress.Industrial.Concrete
+  - futurplanet.industrialconcretefloorpatch
+  - Koth.ISiD
+  - Linnun.KeepConverting
+  - keepmortarsready.1trickPwnyta
+  - ASF.DeepStorage
+  - jecrell.doorsexpanded
+  - Haplo.Miscellaneous.Robots
+  - avius.locks
+  - Mlie.LogAfterDefError
+  - zal.majesticfoilageframework
+  - zal.majesticcomigopack
+  - plaxen.MalangBodies
+  - m00nl1ght.MapPreview
+  - Samael.NPCMechsAndAnimals
+  - sumghai.Medpod
+  - Spino.Megafauna
+  - co.uk.epicguru.meleeanimation
+  - notfood.MendAndRecycle
+  - Cain.Mineshaft
+  - erdelf.MinifyEverything
+  - Hol.Words
+  - mosi.MoreMiniHorns
+  - kirby.morereligiousorigins
+  - Jiopaba.Fences
+  - IssacZhuang.MuzzleFlash
+  - zal.namesgalore
+  - VitaKaninen.ShelfPatch
+  - Doug.NoJobAuthors
+  - mrwireman.Noconduit
+  - tarojun.morishep.onioftherim
+  - vera.bug
+  - PackMulesExtended.Standard
+  - komunre.BetterExp.PassiveResearch
+  - Mlie.PawnNameVariety
+  - Arkymn.SlowerPawnTickRate
+  - Mlie.PredatorHuntAlert
+  - DawnsGlow.qualcolor
+  - sdknm2.QualityOfBuilding
+  - ratys.rtsolarflareshield
+  - Mlie.RealisticHumanSounds
+  - Verniy709.RealisticHumanSounds.HARPatch
+  - Mlie.RelevantStatsInDescription
+  - sirrandoo.rda
+  - Memegoddess.ReplaceStuff
+  - Aelanna.ResearchTabColors
+  - fluffy.researchtree
+  - VexedTrees980.RimRobots
+  - Keepercraft.RimKeeperAnimals
+  - aRandomKiwi.RimSaves
+  - Sierra.RT.GeneralTraits
+  - rimsenal.EVP
+  - rimsenal.core
+  - rimsenal.security
+  - rimsenal.federation
+  - rimsenal.hair
+  - Neronix17.Retexture.RimsenalRimhair
+  - Mlie.RunAndHide
+  - MemeGoddess.RunAndGun
+  - dev.soeur.ScenarioEditorUIOverhaul
+  - avilmask.SelfDyeing
+  - Arcjc007.ShieldGenerator
+  - neronix17.toolbox
+  - neronix17.shieldgenerators
+  - kathanon.ShowAllMaterials
+  - BP.ShowBuildableMaterialCount
+  - zal.simplefxshinies
+  - automatic.traderships
+  - OskarPotocki.VanillaFactionsExpanded.SettlersModule
+  - Owlchemist.SimpleFX.Smoke2
+  - Owlchemist.SimpleFX.Splashes
+  - Atlas.SimpleFX.Vapor.Revaporized
+  - Owlchemist.FridgeUtilities
+  - PeteTimesSix.SimpleSidearms
+  - Haecriver.SimplyMoreColors
+  - Memegoddess.SmartMedicine
+  - sarg.smartspeed
+  - dhultgren.smarterconstruction
+  - Garwel.StartingTechLevel
+  - balistafreak.StopDropAndRoll
+  - void.terraformrimworld
+  - GT.Sam.TilledSoil
+  - sjaandi.realtiltmod
+  - CarnySenpai.TraitRarityColors
+  - Aelanna.TransparentSubstructure
+  - UNAGI.apparel.B.Zibunyou
+  - gy.urav
+  - Mlie.UseThisInstead
+  - VanillaExpanded.VMemesE
+  - SmashPhil.VehicleFramework
+  - OskarPotocki.VanillaVehiclesExpanded
+  - OskarPotocki.VanillaVehiclesExpandedTier3
+  - Farxmai2.VanillaDeconstructableVehicles
+  - VanillaExpanded.VAEEndAndExt
+  - VanillaExpanded.VAERoy
+  - VanillaExpanded.VAEWaste
+  - VanillaExpanded.VAEAccessories
+  - Neronix17.Retexture.VanillaBeards
+  - VanillaExpanded.VFEMedical
+  - VanillaExpanded.VHE
+  - Neronix17.Retexture.VanillaHair
+  - VanillaExpanded.VIEHAR
+  - VanillaExpanded.Ideo.IconsandSymbols
+  - VanillaExpanded.Ideo.RelicsAndArtifacts
+  - VanillaExpanded.Ideo.SophianStyle
+  - VanillaExpanded.VPlantsEMushrooms
+  - vanillaracesexpanded.customicons
+  - vanillaracesexpanded.highmate
+  - vanillaracesexpanded.pigskin
+  - vanillaexpanded.skills
+  - VanillaExpanded.VTEXVariations
+  - OskarPotocki.VanillaVehiclesExpandedUpgrades
+  - VanillaExpanded.VWEBF
+  - VanillaExpanded.VWEG
+  - tro.vwe.overhaul
+  - Explorern11.VehiclesWrecksExpanded
+  - VehiclesWrecksExpanded.Revisited
+  - co.uk.epicguru.whatsthatmod
+  - Arylice.Rimworld.AutomaticHunting
+  - tradingpost.programmerlily.com
+  - RH2.BCDs.First.Aid
+  - XeoNovaDan.VisiblePants
+  - sbz.GravshipStorage
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+Verse.Log:Message (string)
+(wrapper dynamic-method) MonoMod.Utils.DynamicMethodDefinition:Verse.Game.InitNewGame_Patch2 (Verse.Game)
+Verse.Root_Play/<>c:<Start>b__1_2 ()
+Verse.LongEventHandler:RunEventFromAnotherThread (System.Action)
+Verse.LongEventHandler/<>c:<UpdateCurrentAsynchronousEvent>b__28_0 ()
+System.Threading.ThreadHelper:ThreadStart_Context (object)
+System.Threading.ExecutionContext:RunInternal (System.Threading.ExecutionContext,System.Threading.ContextCallback,object,bool)
+System.Threading.ExecutionContext:Run (System.Threading.ExecutionContext,System.Threading.ContextCallback,object,bool)
+System.Threading.ExecutionContext:Run (System.Threading.ExecutionContext,System.Threading.ContextCallback,object)
+System.Threading.ThreadHelper:ThreadStart ()
+
+StandingLamp, SunLamp, WallLamp, FloodLight, TubeTelevision, FlatscreenTelevision, MegascreenTelevision, OrbitalTradeBeacon, CommsConsole, MoisturePump, GroundPenetratingScanner, LongRangeMineralScanner, MultiAnalyzer, VitalsMonitor, PowerConduit, HiddenConduit, WaterproofConduit, PowerSwitch, WoodFiredGenerator, ChemfuelPoweredGenerator, WindTurbine, Battery, SolarGenerator, GeothermalGenerator, WatermillGenerator, ElectricTailoringBench, ElectricSmithy, TableMachining, ElectricStove, ElectricSmelter, BiofuelRefinery, FabricationBench, HiTechResearchBench, ElectricCrematorium, HydroponicsBasin, DeepDrill, NutrientPasteDispenser, Turret_MiniTurret, Turret_Autocannon, Turret_Sniper, Turret_FoamTurret, Turret_RocketswarmLauncher, Ship_Beam, Ship_CryptosleepCasket, Ship_ComputerCore, Ship_Reactor, Ship_Engine, Ship_SensorCluster, PsychicEmanator, VanometricPowerCell, InfiniteChemreactor, Autodoor, Heater, Cooler, UnstablePowerCell, ShipLandingBeacon, SleepAccelerator, BiosculpterPod, NeuralSupercharger, LightBall, Loudspeaker, Autobong, DeathrestCasket, Hemopump, HemogenAmplifier, GlucosoidPump, PsychofluidPump, DeathrestAccelerator, BandNode, ToxifierGenerator, GeneAssembler, GeneBank, GeneExtractor, GrowthVat, PollutionPump, WastepackAtomizer, GeneProcessor, MechBooster, MechGestator, LargeMechGestator, SubcoreEncoder, SubcoreSoftscanner, SubcoreRipscanner, BasicRecharger, StandardRecharger, SecurityDoor, ElectricInhibitor, ProximityDetector, AtmosphericHeater, FrenzyInducer, SleepSuppressor, BioferriteGenerator, Electroharvester, BioferriteShaper, SerumCentrifuge, BioferriteHarvester, GravEngine, GravcorePowerCell, PilotSubpersonaCore, GravshipShieldGenerator, AncientGravReactor, AncientTerraformer, LifeSupportUnit, OrbitalScanner, OxygenPump, KCSG_PowerConduit, VFEE_Candelabra, BioReactor, BioReactorCircleLarge, BioReactorCircleEX, BioReactorBig, BioReactorEx, VBE_TypewritersTable, VBE_SodaFountain, VCE_ElectricPot, VCE_DeepFrier, VCE_CanningMachine, VFED_Turret_Kontarion, VFED_Turret_Palintone, VFED_Turret_Onager, VFED_SurveillancePillar, VFED_ImperialMegaHighShield, HologramBase, VFE_Ecosystem, VFE_Hydroponics_Tilable, VFE_Ecosystem_Tilable, VFE_Sprinkler, VFE_AdvancedWindTurbine, VFE_AdvancedSolarGenerator, VFE_AdvancedWatermillGenerator, VPE_AdvancedGeothermalGenerator, VFE_LargeBattery, VFE_SmallBattery, VFE_AdvancedBattery, VFE_LargeAdvancedBattery, VPE_NuclearGenerator, VFE_PortableWoodFiredGenerator, VFE_PortableChemfuelPoweredGenerator, VFE_IndustrialWoodFiredGenerator, VFE_IndustrialChemfuelPoweredGenerator, VFE_TidalGenerator, VFE_SmallVanometricPowerCell, VFE_LargeVanometricPowerCell, VPE_ArchotechViolenceGenerator, VFE_TableMachiningLarge, VFE_TableSmithyLarge, VFE_TableStoveLarge, VFE_TableTailorLarge, VFE_ComponentFabricationBench, VFE_TableButcherElectric, VFE_TableDrugLabElectric, VFE_TableStonecutterElectric, Radio_Industrial, Radio_Spacer, Joy_Arcade, Joy_InudstrialComputer, Joy_ModernComputer, VFE_DeskLamp, VFE_FloorLamp, Light_Streetlamp, VFE_RoyalLamp, Table_IlluminatedEndTable, Table_IlluminatedDresser, VFES_Table_IlluminatedWardrobe, UltrascreenTV, VFES_WallMountedTelevision, VFES_TelevisionSpeaker, Shelf_RepairRack, VFES_AirPurifier, Table_interactive_1x1c, Table_interactive_2x2c, VCE_VegMilkExtractor, PH_AutodoorDouble, PH_AutodoorTriple, PH_DoorBlastSingle, PH_DoorBlastDoor, PH_DoorThickBlastDoor, PH_DoorButton, PH_DoorLever, PH_DoorRemoteSingle, PH_DoorRemoteDouble, PH_DoorRemoteTriple, AIRobot_RechargeStation_Hauler, AIRobot_RechargeStation_Cleaner, MedPodLux, MedPodStandard, MedPodAnimal, MedPodAnimalMedium, MedPodAnimalBig, TableMending, GravshipHull, VacBarrier, WallSwitch, OotR_Turret_YokaiNarcoticDartTurret, Building_RTMagneticShield, Cooler_Over, Cooler_Over2W, MechCreationCasket, IndustrialChargePylon, GDTable, YPTable, JITable, TETable, Turret_ShardSentry, Turret_WaveEmitter, PortableReactor, Turret_SuvTurret, Turret_SupTurret, Turret_MC, RocketTurret, Turret_EMPLobber, Turret_FireLobber, Turret_Incinerator, Turret_Graser, Turret_Rotarygun, Turret_MiniSlugger, Turret_MiniShooter, FedTable, Turret_FedHarvester, Turret_PB, ShieldGenerator, ShieldGen_Shield_Durex, ShieldGen_Shield_Trojan, Windmill, owl_refrigerator, owl_doublerefrigerator, VVE_GarageBench, VVE_GarageAutoDoor, VVE_GarageAutoDoorOpened, VVE_GarageAutoDoorLarge, VVE_GarageAutoDoorLargeOpened, Facility_VitalsCentre, VPE_Building_Zapcap, BS_AndroidFuelRefinery, BS_AndroidChargingStation, TectonicEmiter, WeatherEmiter
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+Verse.Log:Message (string)
+VanillaMemesExpanded.StaticCollections:.cctor ()
+VanillaMemesExpanded.MapComponent_ObeliskTracker:FinalizeInit ()
+Verse.MapComponentUtility:FinalizeInit (Verse.Map)
+(wrapper dynamic-method) MonoMod.Utils.DynamicMethodDefinition:Verse.Map.FinalizeInit_Patch6 (Verse.Map)
+(wrapper dynamic-method) MonoMod.Utils.DynamicMethodDefinition:Verse.MapGenerator.GenerateMap_Patch2 (Verse.IntVec3,RimWorld.Planet.MapParent,Verse.MapGeneratorDef,System.Collections.Generic.IEnumerable`1<Verse.GenStepWithParams>,System.Action`1<Verse.Map>,bool,bool)
+(wrapper dynamic-method) MonoMod.Utils.DynamicMethodDefinition:Verse.Game.InitNewGame_Patch2 (Verse.Game)
+Verse.Root_Play/<>c:<Start>b__1_2 ()
+Verse.LongEventHandler:RunEventFromAnotherThread (System.Action)
+Verse.LongEventHandler/<>c:<UpdateCurrentAsynchronousEvent>b__28_0 ()
+System.Threading.ThreadHelper:ThreadStart_Context (object)
+System.Threading.ExecutionContext:RunInternal (System.Threading.ExecutionContext,System.Threading.ContextCallback,object,bool)
+System.Threading.ExecutionContext:Run (System.Threading.ExecutionContext,System.Threading.ContextCallback,object,bool)
+System.Threading.ExecutionContext:Run (System.Threading.ExecutionContext,System.Threading.ContextCallback,object)
+System.Threading.ThreadHelper:ThreadStart ()
+
+checking editor settings...
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+Verse.Log:Message (string)
+CharacterEditor.CEditor/ModData:OnSettingsChanged (bool,bool)
+CharacterEditor.CEditor:OnSettingsChanged (bool,bool)
+CharacterEditor.CEditor:OnMapLoaded ()
+(wrapper dynamic-method) MonoMod.Utils.DynamicMethodDefinition:Verse.Map.FinalizeInit_Patch6 (Verse.Map)
+(wrapper dynamic-method) MonoMod.Utils.DynamicMethodDefinition:Verse.MapGenerator.GenerateMap_Patch2 (Verse.IntVec3,RimWorld.Planet.MapParent,Verse.MapGeneratorDef,System.Collections.Generic.IEnumerable`1<Verse.GenStepWithParams>,System.Action`1<Verse.Map>,bool,bool)
+(wrapper dynamic-method) MonoMod.Utils.DynamicMethodDefinition:Verse.Game.InitNewGame_Patch2 (Verse.Game)
+Verse.Root_Play/<>c:<Start>b__1_2 ()
+Verse.LongEventHandler:RunEventFromAnotherThread (System.Action)
+Verse.LongEventHandler/<>c:<UpdateCurrentAsynchronousEvent>b__28_0 ()
+System.Threading.ThreadHelper:ThreadStart_Context (object)
+System.Threading.ExecutionContext:RunInternal (System.Threading.ExecutionContext,System.Threading.ContextCallback,object,bool)
+System.Threading.ExecutionContext:Run (System.Threading.ExecutionContext,System.Threading.ContextCallback,object,bool)
+System.Threading.ExecutionContext:Run (System.Threading.ExecutionContext,System.Threading.ContextCallback,object)
+System.Threading.ThreadHelper:ThreadStart ()
+
+bodysizes genes are active
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+Verse.Log:Message (string)
+CharacterEditor.GeneTool:EnDisableBodySizeGenes ()
+CharacterEditor.CEditor/ModData:OnSettingsChanged (bool,bool)
+CharacterEditor.CEditor:OnSettingsChanged (bool,bool)
+CharacterEditor.CEditor:OnMapLoaded ()
+(wrapper dynamic-method) MonoMod.Utils.DynamicMethodDefinition:Verse.Map.FinalizeInit_Patch6 (Verse.Map)
+(wrapper dynamic-method) MonoMod.Utils.DynamicMethodDefinition:Verse.MapGenerator.GenerateMap_Patch2 (Verse.IntVec3,RimWorld.Planet.MapParent,Verse.MapGeneratorDef,System.Collections.Generic.IEnumerable`1<Verse.GenStepWithParams>,System.Action`1<Verse.Map>,bool,bool)
+(wrapper dynamic-method) MonoMod.Utils.DynamicMethodDefinition:Verse.Game.InitNewGame_Patch2 (Verse.Game)
+Verse.Root_Play/<>c:<Start>b__1_2 ()
+Verse.LongEventHandler:RunEventFromAnotherThread (System.Action)
+Verse.LongEventHandler/<>c:<UpdateCurrentAsynchronousEvent>b__28_0 ()
+System.Threading.ThreadHelper:ThreadStart_Context (object)
+System.Threading.ExecutionContext:RunInternal (System.Threading.ExecutionContext,System.Threading.ContextCallback,object,bool)
+System.Threading.ExecutionContext:Run (System.Threading.ExecutionContext,System.Threading.ContextCallback,object,bool)
+System.Threading.ExecutionContext:Run (System.Threading.ExecutionContext,System.Threading.ContextCallback,object)
+System.Threading.ThreadHelper:ThreadStart ()
+
+[Simple FX: Splashes] Splash grid build with 895 cells.
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+Verse.Log:Message (string)
+SimpleFxSplashes.SplashesUtility:RebuildCache (Verse.Map) (at O:/SteamLibrary/steamapps/common/RimWorld/Mods/owls-SimpleFX Splashes/Source/SplashesUtility.cs:116)
+SimpleFxSplashes.Patch_Map_FinalizeInit:Postfix (Verse.Map) (at O:/SteamLibrary/steamapps/common/RimWorld/Mods/owls-SimpleFX Splashes/Source/Patches.cs:15)
+(wrapper dynamic-method) MonoMod.Utils.DynamicMethodDefinition:Verse.Map.FinalizeInit_Patch6 (Verse.Map)
+(wrapper dynamic-method) MonoMod.Utils.DynamicMethodDefinition:Verse.MapGenerator.GenerateMap_Patch2 (Verse.IntVec3,RimWorld.Planet.MapParent,Verse.MapGeneratorDef,System.Collections.Generic.IEnumerable`1<Verse.GenStepWithParams>,System.Action`1<Verse.Map>,bool,bool)
+(wrapper dynamic-method) MonoMod.Utils.DynamicMethodDefinition:Verse.Game.InitNewGame_Patch2 (Verse.Game)
+Verse.Root_Play/<>c:<Start>b__1_2 ()
+Verse.LongEventHandler:RunEventFromAnotherThread (System.Action)
+Verse.LongEventHandler/<>c:<UpdateCurrentAsynchronousEvent>b__28_0 ()
+System.Threading.ThreadHelper:ThreadStart_Context (object)
+System.Threading.ExecutionContext:RunInternal (System.Threading.ExecutionContext,System.Threading.ContextCallback,object,bool)
+System.Threading.ExecutionContext:Run (System.Threading.ExecutionContext,System.Threading.ContextCallback,object,bool)
+System.Threading.ExecutionContext:Run (System.Threading.ExecutionContext,System.Threading.ContextCallback,object)
+System.Threading.ThreadHelper:ThreadStart ()
+
+--- Thread 893 ---
+ 9907.509ms (self: 9.720 ms) InitNewGeneratedMap
+ - 9322.879ms (94%) (self: 7.854 ms) Generate contents into map
+ - - 6105.978ms (65%) (self: 6105.978 ms) GenStep - Plants
+ - - 1270.514ms (14%) (self: 1270.514 ms) GenStep - RockChunks
+ - - 281.292ms (3%) (self: 281.292 ms) GenStep - Terrain
+ - - 270.093ms (2.9%) (self: 270.093 ms) GenStep - ScatterShrines
+ - - 199.501ms (2.1%) (self: 199.501 ms) GenStep - ScatterRuinsSimple
+ - - 180.450ms (1.9%) (self: 180.450 ms) GenStep - MutatorPostTerrain
+ - - 158.317ms (1.7%) (self: 158.317 ms) GenStep - AncientJunkClusters
+ - - 146.582ms (1.6%) (self: 146.582 ms) GenStep - RocksFromGrid
+ - - 129.502ms (1.4%) (self: 129.502 ms) GenStep - ElevationFertility
+ - - 96.238ms (1%) (self: 23.560 ms) GenStep - FindPlayerStartSpot
+ - - - 72.678ms (76%) (self: 72.678 ms) RebuildAllRegions
+ - - 81.822ms (0.88%) (self: 81.822 ms) GenStep - Animals
+ - - 72.859ms (0.78%) (self: 72.859 ms) GenStep - VoidMonolith
+ - - 60.797ms (0.65%) (self: 0.590 ms) GenStep - Fog
+ - - - 60.207ms (99%) (self: 60.207 ms) GenerateInitialFogGrid
+ - - 59.102ms (0.63%) (self: 59.102 ms) GenStep - AncientLandingPad
+ - - 31.651ms (0.34%) (self: 31.651 ms) GenStep - ScenParts
+ - - 23.428ms (0.25%) (self: 23.428 ms) GenStep - MechanoidRemains
+ - - 21.827ms (0.23%) (self: 21.827 ms) GenStep - AncientUtilityBuilding
+ - - 20.333ms (0.22%) (self: 20.333 ms) GenStep - RRY_Xenomorph_CaveHives
+ - - 18.302ms (0.2%) (self: 18.302 ms) GenStep - CaveHives
+ - - 17.702ms (0.19%) (self: 17.702 ms) GenStep - SteamGeysers
+ - - 16.679ms (0.18%) (self: 16.679 ms) GenStep - AncientExostriderRemains
+ - - 13.668ms (0.15%) (self: 13.668 ms) GenStep - MutatorFinal
+ - - 10.224ms (0.11%) (self: 10.224 ms) GenStep - AncientFences
+ - - 7.208ms (0.08%) (self: 7.208 ms) GenStep - AnimaTrees
+ - - 5.225ms (0.06%) (self: 5.225 ms) GenStep - ScatterRoadDebris
+ - - 3.908ms (0.04%) (self: 3.908 ms) GenStep - AncientPipelineSection
+ - - 3.645ms (0.04%) (self: 3.645 ms) GenStep - Pollution
+ - - 2.254ms (0.02%) (self: 2.254 ms) GenStep - Roads
+ - - 1.843ms (0.02%) (self: 1.843 ms) GenStep - AncientMechs
+ - - 0.861ms (0.01%) (self: 0.861 ms) GenStep - KCSG_GenerateBiomeStructures
+ - - 0.825ms (0.01%) (self: 0.825 ms) GenStep - PoluxTrees
+ - - 0.790ms (0.01%) (self: 0.790 ms) GenStep - Snow
+ - - 0.488ms (0.01%) (self: 0.488 ms) GenStep - MutatorPostElevationFertility
+ - - 0.351ms (0%) (self: 0.351 ms) GenStep - ScatterCaveDebris
+ - - 0.279ms (0%) (self: 0.279 ms) GenStep - MutatorCriticalStructures
+ - - 0.243ms (0%) (self: 0.243 ms) GenStep - MutatorNonCriticalStructures
+ - - 0.229ms (0%) (self: 0.229 ms) GenStep - AncientTurret
+ - - 0.016ms (0%) (self: 0.016 ms) GenStep - AncientPollutionJunk
+ - 499.076ms (5%) (self: 53.461 ms) Finalize map init
+ - - 402.901ms (81%) (self: 402.901 ms) Finalize geometry
+ - - 25.628ms (5.1%) (self: 25.628 ms) wealthWatcher.ForceRecount()
+ - - 13.584ms (2.7%) (self: 13.584 ms) Thing.PostMapInit()
+ - - 3.185ms (0.64%) (self: 3.185 ms) listerFilthInHomeArea.RebuildAll()
+ - - 0.317ms (0.06%) (self: 0.317 ms) resourceCounter.UpdateResourceCounts()
+ - 73.387ms (0.74%) (self: 73.387 ms) Set up map
+ - 1.382ms (0.01%) (self: 1.382 ms) Map generator post init
+ - 1.065ms (0.01%) (self: 1.065 ms) MapComponent.MapGenerated()
+
+
+Hotspot analysis
+----------------------------------------
+1x GenStep - Plants -> 6105.978 ms (total (w/children): 6105.978 ms)
+1x GenStep - RockChunks -> 1270.514 ms (total (w/children): 1270.514 ms)
+1x Finalize geometry -> 402.901 ms (total (w/children): 402.901 ms)
+1x GenStep - Terrain -> 281.292 ms (total (w/children): 281.292 ms)
+1x GenStep - ScatterShrines -> 270.093 ms (total (w/children): 270.093 ms)
+1x GenStep - ScatterRuinsSimple -> 199.501 ms (total (w/children): 199.501 ms)
+1x GenStep - MutatorPostTerrain -> 180.450 ms (total (w/children): 180.450 ms)
+1x GenStep - AncientJunkClusters -> 158.317 ms (total (w/children): 158.317 ms)
+1x GenStep - RocksFromGrid -> 146.582 ms (total (w/children): 146.582 ms)
+1x GenStep - ElevationFertility -> 129.502 ms (total (w/children): 129.502 ms)
+1x GenStep - Animals -> 81.822 ms (total (w/children): 81.822 ms)
+1x Set up map -> 73.387 ms (total (w/children): 73.387 ms)
+1x GenStep - VoidMonolith -> 72.859 ms (total (w/children): 72.859 ms)
+1x RebuildAllRegions -> 72.678 ms (total (w/children): 72.678 ms)
+1x GenerateInitialFogGrid -> 60.207 ms (total (w/children): 60.207 ms)
+1x GenStep - AncientLandingPad -> 59.102 ms (total (w/children): 59.102 ms)
+1x Finalize map init -> 53.461 ms (total (w/children): 499.076 ms)
+1x GenStep - ScenParts -> 31.651 ms (total (w/children): 31.651 ms)
+1x wealthWatcher.ForceRecount() -> 25.628 ms (total (w/children): 25.628 ms)
+1x GenStep - FindPlayerStartSpot -> 23.560 ms (total (w/children): 96.238 ms)
+1x GenStep - MechanoidRemains -> 23.428 ms (total (w/children): 23.428 ms)
+1x GenStep - AncientUtilityBuilding -> 21.827 ms (total (w/children): 21.827 ms)
+1x GenStep - RRY_Xenomorph_CaveHives -> 20.333 ms (total (w/children): 20.333 ms)
+1x GenStep - CaveHives -> 18.302 ms (total (w/children): 18.302 ms)
+1x GenStep - SteamGeysers -> 17.702 ms (total (w/children): 17.702 ms)
+1x GenStep - AncientExostriderRemains -> 16.679 ms (total (w/children): 16.679 ms)
+1x GenStep - MutatorFinal -> 13.668 ms (total (w/children): 13.668 ms)
+1x Thing.PostMapInit() -> 13.584 ms (total (w/children): 13.584 ms)
+1x GenStep - AncientFences -> 10.224 ms (total (w/children): 10.224 ms)
+1x InitNewGeneratedMap -> 9.720 ms (total (w/children): 9907.509 ms)
+1x Generate contents into map -> 7.854 ms (total (w/children): 9322.879 ms)
+1x GenStep - AnimaTrees -> 7.208 ms (total (w/children): 7.208 ms)
+1x GenStep - ScatterRoadDebris -> 5.225 ms (total (w/children): 5.225 ms)
+1x GenStep - AncientPipelineSection -> 3.908 ms (total (w/children): 3.908 ms)
+1x GenStep - Pollution -> 3.645 ms (total (w/children): 3.645 ms)
+1x listerFilthInHomeArea.RebuildAll() -> 3.185 ms (total (w/children): 3.185 ms)
+1x GenStep - Roads -> 2.254 ms (total (w/children): 2.254 ms)
+1x GenStep - AncientMechs -> 1.843 ms (total (w/children): 1.843 ms)
+1x Map generator post init -> 1.382 ms (total (w/children): 1.382 ms)
+1x MapComponent.MapGenerated() -> 1.065 ms (total (w/children): 1.065 ms)
+1x GenStep - KCSG_GenerateBiomeStructures -> 0.861 ms (total (w/children): 0.861 ms)
+1x GenStep - PoluxTrees -> 0.825 ms (total (w/children): 0.825 ms)
+1x GenStep - Snow -> 0.790 ms (total (w/children): 0.790 ms)
+1x GenStep - Fog -> 0.590 ms (total (w/children): 60.797 ms)
+1x GenStep - MutatorPostElevationFertility -> 0.488 ms (total (w/children): 0.488 ms)
+1x GenStep - ScatterCaveDebris -> 0.351 ms (total (w/children): 0.351 ms)
+1x resourceCounter.UpdateResourceCounts() -> 0.317 ms (total (w/children): 0.317 ms)
+1x GenStep - MutatorCriticalStructures -> 0.279 ms (total (w/children): 0.279 ms)
+1x GenStep - MutatorNonCriticalStructures -> 0.243 ms (total (w/children): 0.243 ms)
+1x GenStep - AncientTurret -> 0.229 ms (total (w/children): 0.229 ms)
+1x GenStep - AncientPollutionJunk -> 0.016 ms (total (w/children): 0.016 ms)
+
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+Verse.Log:Message (string)
+Verse.ThreadLocalDeepProfiler:Output (Verse.ThreadLocalDeepProfiler/Watcher)
+Verse.ThreadLocalDeepProfiler:End ()
+Verse.DeepProfiler:End ()
+(wrapper dynamic-method) MonoMod.Utils.DynamicMethodDefinition:Verse.MapGenerator.GenerateMap_Patch2 (Verse.IntVec3,RimWorld.Planet.MapParent,Verse.MapGeneratorDef,System.Collections.Generic.IEnumerable`1<Verse.GenStepWithParams>,System.Action`1<Verse.Map>,bool,bool)
+(wrapper dynamic-method) MonoMod.Utils.DynamicMethodDefinition:Verse.Game.InitNewGame_Patch2 (Verse.Game)
+Verse.Root_Play/<>c:<Start>b__1_2 ()
+Verse.LongEventHandler:RunEventFromAnotherThread (System.Action)
+Verse.LongEventHandler/<>c:<UpdateCurrentAsynchronousEvent>b__28_0 ()
+System.Threading.ThreadHelper:ThreadStart_Context (object)
+System.Threading.ExecutionContext:RunInternal (System.Threading.ExecutionContext,System.Threading.ContextCallback,object,bool)
+System.Threading.ExecutionContext:Run (System.Threading.ExecutionContext,System.Threading.ContextCallback,object,bool)
+System.Threading.ExecutionContext:Run (System.Threading.ExecutionContext,System.Threading.ContextCallback,object)
+System.Threading.ThreadHelper:ThreadStart ()
+
+--- Thread 893 ---
+ 0.005ms ResolveAllCrossReferences()
+
+
+Hotspot analysis
+----------------------------------------
+1x ResolveAllCrossReferences() -> 0.005 ms (total (w/children): 0.005 ms)
+
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+Verse.Log:Message (string)
+Verse.ThreadLocalDeepProfiler:Output (Verse.ThreadLocalDeepProfiler/Watcher)
+Verse.ThreadLocalDeepProfiler:End ()
+Verse.DeepProfiler:End ()
+Verse.ScribeLoader:FinalizeLoading ()
+Verse.LoadedModManager:ReadModSettings<DubsMintMenus.Settings> (string,string)
+Verse.Mod:GetSettings<DubsMintMenus.Settings> ()
+DubsMintMenus.DubsMintMenusMod:get_Settings ()
+DubsMintMenus.HarmonyPatches/Patch_FinishProject:Prefix (bool&)
+(wrapper dynamic-method) MonoMod.Utils.DynamicMethodDefinition:RimWorld.ResearchManager.FinishProject_Patch3 (RimWorld.ResearchManager,Verse.ResearchProjectDef,bool,Verse.Pawn,bool)
+ResearchUtility:ApplyPlayerStartingResearch ()
+(wrapper dynamic-method) MonoMod.Utils.DynamicMethodDefinition:Verse.Game.InitNewGame_Patch2 (Verse.Game)
+Verse.Root_Play/<>c:<Start>b__1_2 ()
+Verse.LongEventHandler:RunEventFromAnotherThread (System.Action)
+Verse.LongEventHandler/<>c:<UpdateCurrentAsynchronousEvent>b__28_0 ()
+System.Threading.ThreadHelper:ThreadStart_Context (object)
+System.Threading.ExecutionContext:RunInternal (System.Threading.ExecutionContext,System.Threading.ContextCallback,object,bool)
+System.Threading.ExecutionContext:Run (System.Threading.ExecutionContext,System.Threading.ContextCallback,object,bool)
+System.Threading.ExecutionContext:Run (System.Threading.ExecutionContext,System.Threading.ContextCallback,object)
+System.Threading.ThreadHelper:ThreadStart ()
+
+--- Thread 893 ---
+ 0.004ms DoAllPostLoadInits()
+
+
+Hotspot analysis
+----------------------------------------
+1x DoAllPostLoadInits() -> 0.004 ms (total (w/children): 0.004 ms)
+
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+Verse.Log:Message (string)
+Verse.ThreadLocalDeepProfiler:Output (Verse.ThreadLocalDeepProfiler/Watcher)
+Verse.ThreadLocalDeepProfiler:End ()
+Verse.DeepProfiler:End ()
+Verse.ScribeLoader:FinalizeLoading ()
+Verse.LoadedModManager:ReadModSettings<DubsMintMenus.Settings> (string,string)
+Verse.Mod:GetSettings<DubsMintMenus.Settings> ()
+DubsMintMenus.DubsMintMenusMod:get_Settings ()
+DubsMintMenus.HarmonyPatches/Patch_FinishProject:Prefix (bool&)
+(wrapper dynamic-method) MonoMod.Utils.DynamicMethodDefinition:RimWorld.ResearchManager.FinishProject_Patch3 (RimWorld.ResearchManager,Verse.ResearchProjectDef,bool,Verse.Pawn,bool)
+ResearchUtility:ApplyPlayerStartingResearch ()
+(wrapper dynamic-method) MonoMod.Utils.DynamicMethodDefinition:Verse.Game.InitNewGame_Patch2 (Verse.Game)
+Verse.Root_Play/<>c:<Start>b__1_2 ()
+Verse.LongEventHandler:RunEventFromAnotherThread (System.Action)
+Verse.LongEventHandler/<>c:<UpdateCurrentAsynchronousEvent>b__28_0 ()
+System.Threading.ThreadHelper:ThreadStart_Context (object)
+System.Threading.ExecutionContext:RunInternal (System.Threading.ExecutionContext,System.Threading.ContextCallback,object,bool)
+System.Threading.ExecutionContext:Run (System.Threading.ExecutionContext,System.Threading.ContextCallback,object,bool)
+System.Threading.ExecutionContext:Run (System.Threading.ExecutionContext,System.Threading.ContextCallback,object)
+System.Threading.ThreadHelper:ThreadStart ()
+
+[AVP Xenomorphs] Xenomorph hive faction already exists.
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+Verse.Log:Message (string)
+RRYautja.AvPDebug:LogOnce (string,string)
+RRYautja.XenomorphFactionEnsurer:EnsureFactionPostfix ()
+(wrapper dynamic-method) MonoMod.Utils.DynamicMethodDefinition:Verse.Game.InitNewGame_Patch2 (Verse.Game)
+Verse.Root_Play/<>c:<Start>b__1_2 ()
+Verse.LongEventHandler:RunEventFromAnotherThread (System.Action)
+Verse.LongEventHandler/<>c:<UpdateCurrentAsynchronousEvent>b__28_0 ()
+System.Threading.ThreadHelper:ThreadStart_Context (object)
+System.Threading.ExecutionContext:RunInternal (System.Threading.ExecutionContext,System.Threading.ContextCallback,object,bool)
+System.Threading.ExecutionContext:Run (System.Threading.ExecutionContext,System.Threading.ContextCallback,object,bool)
+System.Threading.ExecutionContext:Run (System.Threading.ExecutionContext,System.Threading.ContextCallback,object)
+System.Threading.ThreadHelper:ThreadStart ()
+
+checking editor settings...
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+Verse.Log:Message (string)
+CharacterEditor.CEditor/ModData:OnSettingsChanged (bool,bool)
+CharacterEditor.CEditor:OnSettingsChanged (bool,bool)
+CharacterEditor.CEditor:OnMainMenuInit ()
+(wrapper dynamic-method) MonoMod.Utils.DynamicMethodDefinition:RimWorld.MainMenuDrawer.Init_Patch4 ()
+(wrapper dynamic-method) MonoMod.Utils.DynamicMethodDefinition:Verse.UIRoot_Entry.Init_Patch3 (Verse.UIRoot_Entry)
+Verse.Root:<Start>b__10_0 ()
+Verse.Root:Start ()
+Verse.Root_Entry:Start ()
+
+bodysizes genes are active
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+Verse.Log:Message (string)
+CharacterEditor.GeneTool:EnDisableBodySizeGenes ()
+CharacterEditor.CEditor/ModData:OnSettingsChanged (bool,bool)
+CharacterEditor.CEditor:OnSettingsChanged (bool,bool)
+CharacterEditor.CEditor:OnMainMenuInit ()
+(wrapper dynamic-method) MonoMod.Utils.DynamicMethodDefinition:RimWorld.MainMenuDrawer.Init_Patch4 ()
+(wrapper dynamic-method) MonoMod.Utils.DynamicMethodDefinition:Verse.UIRoot_Entry.Init_Patch3 (Verse.UIRoot_Entry)
+Verse.Root:<Start>b__10_0 ()
+Verse.Root:Start ()
+Verse.Root_Entry:Start ()
+
+CharacterEditor v1.6.3 ...done
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+Verse.Log:Message (string)
+CharacterEditor.CEditor:OnMainMenuInit ()
+(wrapper dynamic-method) MonoMod.Utils.DynamicMethodDefinition:RimWorld.MainMenuDrawer.Init_Patch4 ()
+(wrapper dynamic-method) MonoMod.Utils.DynamicMethodDefinition:Verse.UIRoot_Entry.Init_Patch3 (Verse.UIRoot_Entry)
+Verse.Root:<Start>b__10_0 ()
+Verse.Root:Start ()
+Verse.Root_Entry:Start ()
+
+[StartingTechLevel] Scenario_GetFirstConfigPage
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+Verse.Log:Message (string)
+StartingTechLevel.LogUtility:Log (string,StartingTechLevel.LogLevel)
+StartingTechLevel.StartingTechLevel:Scenario_GetFirstConfigPage (RimWorld.Page&)
+(wrapper dynamic-method) MonoMod.Utils.DynamicMethodDefinition:RimWorld.Scenario.GetFirstConfigPage_Patch1 (RimWorld.Scenario)
+RimWorld.Page_SelectScenario:BeginScenarioConfiguration (RimWorld.Scenario,RimWorld.Page)
+RimWorld.Page_SelectScenario:CanDoNext ()
+RimWorld.Page:DoBottomButtons (UnityEngine.Rect,string,string,System.Action,bool,bool)
+RimWorld.Page_SelectScenario:DoWindowContents (UnityEngine.Rect)
+Verse.Window:InnerWindowOnGUI (int)
+UnityEngine.GUI:CallWindowDelegate (UnityEngine.GUI/WindowFunction,int,int,UnityEngine.GUISkin,int,single,single,UnityEngine.GUIStyle)
+
+[StartingTechLevel] Select Tech Level page added.
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+Verse.Log:Message (string)
+StartingTechLevel.LogUtility:Log (string,StartingTechLevel.LogLevel)
+StartingTechLevel.StartingTechLevel:Scenario_GetFirstConfigPage (RimWorld.Page&)
+(wrapper dynamic-method) MonoMod.Utils.DynamicMethodDefinition:RimWorld.Scenario.GetFirstConfigPage_Patch1 (RimWorld.Scenario)
+RimWorld.Page_SelectScenario:BeginScenarioConfiguration (RimWorld.Scenario,RimWorld.Page)
+RimWorld.Page_SelectScenario:CanDoNext ()
+RimWorld.Page:DoBottomButtons (UnityEngine.Rect,string,string,System.Action,bool,bool)
+RimWorld.Page_SelectScenario:DoWindowContents (UnityEngine.Rect)
+Verse.Window:InnerWindowOnGUI (int)
+UnityEngine.GUI:CallWindowDelegate (UnityEngine.GUI/WindowFunction,int,int,UnityEngine.GUISkin,int,single,single,UnityEngine.GUIStyle)
+
+RandomElementByWeight with totalWeight=0 - use TryRandomElementByWeight.
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+(wrapper dynamic-method) MonoMod.Utils.DynamicMethodDefinition:Verse.Log.Error_Patch2 (string)
+Verse.GenCollection:RandomElementByWeight<Verse.ThingDef> (System.Collections.Generic.IEnumerable`1<Verse.ThingDef>,System.Func`2<Verse.ThingDef, single>)
+RimWorld.Precept_Relic:GenerateStuffFor (Verse.ThingDef,RimWorld.Ideo)
+RimWorld.Precept_Relic:SetRandomStuff ()
+RimWorld.Precept_Relic:Notify_ThingDefSet ()
+RimWorld.Precept_ThingDef:Init (RimWorld.Ideo,RimWorld.FactionDef)
+RimWorld.IdeoFoundation/<>c__DisplayClass38_0:<InitPrecepts>g__AddAndInitPrecepts|0 ()
+RimWorld.IdeoFoundation:InitPrecepts (RimWorld.IdeoGenerationParms,System.Collections.Generic.List`1<RimWorld.Precept>)
+RimWorld.IdeoFoundation:RandomizePrecepts (bool,RimWorld.IdeoGenerationParms)
+RimWorld.IdeoFoundation_Deity:Init (RimWorld.IdeoGenerationParms)
+RimWorld.IdeoGenerator:GenerateIdeo (RimWorld.IdeoGenerationParms)
+RimWorld.FactionIdeosTracker:ChooseOrGenerateIdeo (RimWorld.IdeoGenerationParms)
+(wrapper dynamic-method) MonoMod.Utils.DynamicMethodDefinition:RimWorld.FactionGenerator.NewGeneratedFaction_Patch1 (RimWorld.Planet.PlanetLayer,RimWorld.FactionGeneratorParms)
+RimWorld.FactionGenerator:CreateFactionAndAddToManager (RimWorld.Planet.PlanetLayer,RimWorld.FactionDef)
+RimWorld.FactionGenerator:AddFactionToManager (RimWorld.Planet.PlanetLayer,RimWorld.FactionDef)
+RimWorld.FactionGenerator:InitializeFactions (RimWorld.Planet.PlanetLayer,System.Collections.Generic.List`1<RimWorld.FactionDef>)
+RimWorld.FactionGenerator:GenerateFactionsIntoWorldLayer (RimWorld.Planet.PlanetLayer,System.Collections.Generic.List`1<RimWorld.FactionDef>)
+RimWorld.Planet.WorldGenStep_Factions:GenerateFresh (string,RimWorld.Planet.PlanetLayer)
+RimWorld.Planet.WorldGenerator:GeneratePlanetLayer (RimWorld.Planet.PlanetLayer,string,int)
+RimWorld.Planet.WorldGenerator:GenerateWorld (single,string,RimWorld.Planet.OverallRainfall,RimWorld.Planet.OverallTemperature,RimWorld.Planet.OverallPopulation,RimWorld.Planet.LandmarkDensity,System.Collections.Generic.List`1<RimWorld.FactionDef>,single)
+RimWorld.Page_CreateWorldParams:<CanDoNext>b__20_0 ()
+Verse.LongEventHandler:RunEventFromAnotherThread (System.Action)
+Verse.LongEventHandler/<>c:<UpdateCurrentAsynchronousEvent>b__28_0 ()
+System.Threading.ThreadHelper:ThreadStart_Context (object)
+System.Threading.ExecutionContext:RunInternal (System.Threading.ExecutionContext,System.Threading.ContextCallback,object,bool)
+System.Threading.ExecutionContext:Run (System.Threading.ExecutionContext,System.Threading.ContextCallback,object,bool)
+System.Threading.ExecutionContext:Run (System.Threading.ExecutionContext,System.Threading.ContextCallback,object)
+System.Threading.ThreadHelper:ThreadStart ()
