@@ -220,33 +220,37 @@ namespace RimWorld
             {
                 MiningRange = 5;
             }
-            if (!pawn.CanReachMapEdge())
+            bool canReachMapEdge = pawn.CanReachMapEdge();
+            if (!canReachMapEdge)
             {
                 MiningRange = 10;
             }
             for (int i = 0; i < GenRadial.NumCellsInRadius(MiningRange); i++)
             {
                 IntVec3 c = HiveCenter + GenRadial.RadialPattern[i];
-                if (!HiveStructure.HiveStruct(HiveCenter).Contains(c) && !HiveStructure.HiveWalls(HiveCenter).Contains(c) && pawn.CanReach(c,PathEndMode.ClosestTouch, Danger.Deadly))
+                if (HiveStructure.HiveStruct(HiveCenter).Contains(c) || HiveStructure.HiveWalls(HiveCenter).Contains(c))
+                    continue;
+                Building edifice = c.GetEdifice(pawn.Map);
+                if (edifice == null || edifice.def.size != IntVec2.One || edifice.def == ThingDefOf.CollapsedRocks || edifice.def == XenomorphDefOf.RRY_Xenomorph_Hive_Wall)
+                    continue;
+                if (XenomorphUtil.DistanceBetween(edifice.Position, HiveCenter) > MiningRange)
+                    continue;
+                // Only do expensive pathfinding on valid candidates
+                if (!pawn.CanReserveAndReach(edifice, PathEndMode.ClosestTouch, Danger.Deadly, 1, 1))
+                    continue;
+                bool xenobuilding = edifice.GetType() != typeof(Building_XenoEgg) && edifice.GetType() != typeof(Building_XenomorphCocoon) && edifice.GetType() != typeof(HiveLike);
+                if (xenobuilding)
                 {
-                    Building edifice = c.GetEdifice(pawn.Map);
-                    if (edifice != null && edifice.def.size == IntVec2.One && edifice.def != ThingDefOf.CollapsedRocks && edifice.def != XenomorphDefOf.RRY_Xenomorph_Hive_Wall && pawn.CanReserveAndReach(edifice, PathEndMode.ClosestTouch, Danger.Deadly, 1, 1) && XenomorphUtil.DistanceBetween(edifice.Position, HiveCenter) <= MiningRange)
-                        {
-                            bool xenobuilding = edifice.GetType() != typeof(Building_XenoEgg) && edifice.GetType() != typeof(Building_XenomorphCocoon) && edifice.GetType() != typeof(HiveLike);
-                            if (xenobuilding)
-                            {
-                                return new Job(JobDefOf.Mine, edifice)
-                                {
-                                    ignoreDesignations = true
-                                };
-                            }
-                        }
-                    }
+                    return new Job(JobDefOf.Mine, edifice)
+                    {
+                        ignoreDesignations = true
+                    };
+                }
                 }
 
                 // If the drone can't reach the map edge, it might be stuck inside hive walls.
-                // Allow mining through hive walls to escape.
-                if (!pawn.CanReachMapEdge())
+                // Allow mining through hive walls to escape. Reuse cached result (no second pathfind).
+                if (!canReachMapEdge)
                 {
                     for (int i = 0; i < GenRadial.NumCellsInRadius(3); i++)
                     {
