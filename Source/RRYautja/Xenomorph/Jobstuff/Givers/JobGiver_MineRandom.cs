@@ -105,7 +105,7 @@ namespace RimWorld
                     {
 
                         Building edifice = c.GetEdifice(pawn.Map);
-                        if (edifice != null && (edifice.def.passability == Traversability.Impassable || edifice.def.IsDoor) && edifice.def.size == IntVec2.One && edifice.def != ThingDefOf.CollapsedRocks && edifice.def != XenomorphDefOf.RRY_Xenomorph_Hive_Wall && pawn.CanReserve(edifice, 1, -1, null, false) && XenomorphUtil.DistanceBetween(edifice.Position, pawn.mindState.duty.focus.Cell) <= MiningRange)
+                        if (edifice != null && edifice.def.mineable && (edifice.def.passability == Traversability.Impassable || edifice.def.IsDoor) && edifice.def.size == IntVec2.One && edifice.def != ThingDefOf.CollapsedRocks && edifice.def != XenomorphDefOf.RRY_Xenomorph_Hive_Wall && pawn.CanReserve(edifice, 1, -1, null, false) && XenomorphUtil.DistanceBetween(edifice.Position, pawn.mindState.duty.focus.Cell) <= MiningRange)
                         {
                             if (!pillarLoc.Contains(edifice.Position))
                             {
@@ -232,6 +232,9 @@ namespace RimWorld
                     continue;
                 Building edifice = c.GetEdifice(pawn.Map);
                 if (edifice == null || edifice.def.size != IntVec2.One || edifice.def == ThingDefOf.CollapsedRocks || edifice.def == XenomorphDefOf.RRY_Xenomorph_Hive_Wall)
+                    continue;
+                // Only mine natural rock/mountains, not player-built structures
+                if (!edifice.def.mineable)
                     continue;
                 if (XenomorphUtil.DistanceBetween(edifice.Position, HiveCenter) > MiningRange)
                     continue;
