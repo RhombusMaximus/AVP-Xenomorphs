@@ -11,7 +11,7 @@ Direct3D:
     VRAM:     8042 MB
     Driver:   32.0.16.1088
 Begin MonoManager ReloadAssembly
-- Loaded All Assemblies, in  0.156 seconds
+- Loaded All Assemblies, in  4.140 seconds
 - Finished resetting the current domain, in  0.001 seconds
 <RI> Initializing input.
 
@@ -20,24 +20,24 @@ Begin MonoManager ReloadAssembly
 <RI> Initialized touch support.
 
 [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
-UnloadTime: 0.629300 ms
+UnloadTime: 1.145000 ms
 Command line arguments: -disable-compute-shaders
 RimWorld 1.6.4871 rev591
 Mod Realistic Humansounds HAR Patch dependency (Mlie.RealisticHumanSounds) needs to have <downloadUrl> and/or <steamWorkshopUrl> specified.
-Fallback handler could not load library D:/SteamLibrary/steamapps/common/RimWorld/RimWorldWin64_Data/MonoBleedingEdge/data-000001B53E813450.dll
-Fallback handler could not load library D:/SteamLibrary/steamapps/common/RimWorld/RimWorldWin64_Data/MonoBleedingEdge/data-000001B5705F3830.dll
+Fallback handler could not load library D:/SteamLibrary/steamapps/common/RimWorld/RimWorldWin64_Data/MonoBleedingEdge/data-0000020EE4583670.dll
+Fallback handler could not load library D:/SteamLibrary/steamapps/common/RimWorld/RimWorldWin64_Data/MonoBleedingEdge/data-0000020EE463C130.dll
 [Loading Progress] Loading Progress initialized! Enjoy the rest of your loading experience!
 [HugsLib] version 12.0.0
 [HugsLib] early-initializing AllowTool
-Fallback handler could not load library D:/SteamLibrary/steamapps/common/RimWorld/RimWorldWin64_Data/MonoBleedingEdge/data-000001B572E27010.dll
+Fallback handler could not load library D:/SteamLibrary/steamapps/common/RimWorld/RimWorldWin64_Data/MonoBleedingEdge/data-0000020EE5978010.dll
 DubsMintMenus v1.3.1086
 [Analyzer] Loaded version 1.6.0 rev 1
 [Analyzer] ResearchTree
 FPSStabilizer v1.1 loaded, patcher message: Patched successfully, fps set to 60
-Fallback handler could not load library D:/SteamLibrary/steamapps/common/RimWorld/RimWorldWin64_Data/MonoBleedingEdge/data-000001B5770C2010.dll
+Fallback handler could not load library D:/SteamLibrary/steamapps/common/RimWorld/RimWorldWin64_Data/MonoBleedingEdge/data-0000020EEAC83010.dll
 <color=#66ffb5>[MeleeAnim]</color> Hello, world!
 Build date: 4/13/2026 8:02 AM
-Loaded assemblies (9):
+Loaded assemblies (10):
 0BetterFloatMenu, Version=16.0.0.0, Culture=neutral, PublicKeyToken=null,
 0ColourPicker, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null,
 AMRetextureSupport, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null,
@@ -46,17 +46,23 @@ ModRequestAPI, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null,
 ModRequestAPI.Models, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null,
 Unity.Newtonsoft.Json, Version=7.0.0.0, Culture=neutral, PublicKeyToken=null,
 zAnimationMod, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null,
-AM.AlienRacesPatch, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null
-<color=#66ffb5>[MeleeAnim]</color> Scanning 100 mods for animation data...
+AM.AlienRacesPatch, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null,
+AM.VehiclesPatch, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null
+<color=#66ffb5>[MeleeAnim]</color> Scanning 137 mods for animation data...
 <color=#66ffb5>[MeleeAnim]</color> Found 1 mod folders with animation data, total 69 loadable files.
 <color=#66ffb5>[MeleeAnim]</color> <color=#ffa8fc>[Alien Races Patch]</color> Loaded alien races patch!
+<color=#66ffb5>[MeleeAnim]</color> <color=#ffa8fc>[Vehicle Framework Patch]</color> Loaded vehicle framework patch!
 RimSaves NX rev27
 [SafePatcher]The xPath: "Defs/ThingDef[defName="Gun_NestMMG"]" not found
 [SafePatcher]The xPath: "Defs/ThingDef[defName="Gun_NestMissile"]" not found
+[SafePatcher]The xPath: "Defs/ThingDef[defName="VWE_Gun_Flintlock"]" not found
+[SafePatcher]The xPath: "Defs/ThingDef[defName="VWE_Gun_Musket"]" not found
+Could not resolve cross-reference: No Verse.SoundDef named CastPsychicAffect found to give to RimWorld.AbilityDef RRY_Leap (using undefined sound instead)
 [Big & Small] Patched 44 PawnRenderNodeProperties to use PawnRenderingProps_Lite for recolorable graphics.
 Remember that you can always disable this again in the mod options.
 Tried to load duplicate UnityEngine.Texture2D with path: FilesystemFile [D:\SteamLibrary\steamapps\common\RimWorld\Mods\AVP-Xenomorphs\Textures\Things\Addons\Blood_Marks\Xenomorph_Kills\Mark_Thrumbomorphkill_south.psd], Length 28603 and internal path: Things/Addons/Blood_Marks/Xenomorph_Kills/Mark_Thrumbomorphkill_south
 Texture TribalA has dimensions of 64 x 64, but its mask has 128 x 128. This is not supported, texture will be excluded from atlas
+Could not load Texture2D at 'UI/Icons/Icon_Xenomorph' in any active mod or in base resources.
 Could not execute post-long-event action. Exception: System.NullReferenceException: Object reference not set to an instance of an object
 [Ref 282A3C73]
   at Verse.ThingDef.<PostLoad>b__398_0 () [0x00046] in <61e4173561894da49d210260257b5097>:0 
@@ -71,11 +77,11 @@ Translation data for language English has 4 errors. Generate translation report 
 [AVP Xenomorphs] [AVP Xenomorphs] Patched Mineable.TrySpawnYield
 [AVP Xenomorphs] Patched JobDriver_Wait.CheckForAutoAttack
 Xenomorph Host System Loaded
-294 Possible Hosts out of 570 Races detected: Race Setting init
+454 Possible Hosts out of 798 Races detected: Race Setting init
 Alien race successfully completed 286 patches (50 pre, 88 post, 148 trans) with harmony.
 [CleaningAreaRelaunched] Loaded
 Damage Indicators initialized.
-KCSG has Created 7615 symbolDefs for vanilla and DLCs
+KCSG has Created 7617 symbolDefs for vanilla and DLCs
 Locks: Doors expanded found
 Locks: SoS2 not found 
 Locks version: 3.1.2 loaded.
@@ -105,11 +111,14 @@ NamesGalore: Current Lang English
 [RelevantStatsInDescription]: Skipping dps-calculation of Incinerator turret as it has no default projectile defined
 [RelevantStatsInDescription]: Skipping dps-calculation of Graser turret as it has no default projectile defined
 (Research Tab Colors) Transpiler injected.
-Unloading 5 Unused Serialized files (Serialized files now loaded: 7)
-Unloading 661 unused Assets to reduce memory usage. Loaded Objects now: 37945.
-Total: 364.242100 ms (FindLiveObjects: 1.864400 ms CreateObjectMapping: 2.336400 ms MarkObjects: 359.120800 ms  DeleteObjects: 0.920300 ms)
+[SmashPhil.VehicleFramework] Applying compatibility patch for CaesarV6.DamageIndicators. Active: Yes
+[SmashPhil.VehicleFramework] Applying compatibility patch for ludeon.rimworld.odyssey. Active: Yes
+[VehicleFramework] version 1.6.2144
+Unloading 5 Unused Serialized files (Serialized files now loaded: 9)
+Unloading 1101 unused Assets to reduce memory usage. Loaded Objects now: 48494.
+Total: 387.588500 ms (FindLiveObjects: 2.537000 ms CreateObjectMapping: 1.758500 ms MarkObjects: 381.857900 ms  DeleteObjects: 1.434700 ms)
 
-MVCF successfully applied 41 patches
+MVCF successfully applied 55 patches
 [com.ogliss.rimworld.mod.rryatuja.minepatch] Patches on methods annotated as Obsolete were detected by HugsLib: RimWorld.Mineable.TrySpawnYield
 CharacterEditor v1.6.3 initializing...
 updating labels for english...
@@ -121,7 +130,7 @@ CharacterEditor v1.6.3 ...done
 CameraPlus: Found mod at D:\SteamLibrary\steamapps\workshop\content\294100\867467808
 Shader 'Camera+/Bordered': fallback shader 'Diffuse' not found
 Textures were not found for one or more extended graphics for Mechanent: RobotRace/Stump_Mechanent/SynthNeck
-<color=#66ffb5>[MeleeAnim]</color> Potential patch conflicts (15):
+<color=#66ffb5>[MeleeAnim]</color> Potential patch conflicts (17):
 <color=#66ffb5>[MeleeAnim]</color> 
 System.Void Verse.PawnRenderer::RenderPawnAt(UnityEngine.Vector3 drawLoc, System.Nullable`1<Verse.Rot4> rotOverride, System.Boolean neverAimWeapon)
 Prefixes:
@@ -138,6 +147,7 @@ Prefixes:
   [OskarPotocki.VEF] Prefix
   [OskarPotocki.VEF] DrawEquipmentAimingPrefix
   [co.uk.epicguru.meleeanimation] Prefix
+  [OskarPotocki.VEF] DrawDuplicate
 Transpilers:
 Postfixes:
   [Vodka.MuzzleFlash] Postfix
@@ -145,6 +155,7 @@ Postfixes:
 Verse.PreRenderResults Verse.PawnRenderer::ParallelGetPreRenderResults(UnityEngine.Vector3 drawLoc, System.Nullable`1<Verse.Rot4> rotOverride, System.Boolean neverAimWeapon, System.Boolean disableCache)
 Prefixes:
   [OskarPotocki.VEF] Prefix
+  [SmashPhil.VehicleFramework] DisableCachingPawnOverlays
   [RedMattis.BetterPrerequisites] Prefix
   [GiddyUp] Prefix
 Transpilers:
@@ -197,6 +208,7 @@ Prefixes:
   [OskarPotocki.VEF] Prefix
   [OskarPotocki.VEF] DrawEquipmentAimingPrefix
   [co.uk.epicguru.meleeanimation] Prefix
+  [OskarPotocki.VEF] DrawDuplicate
 Transpilers:
 Postfixes:
   [Vodka.MuzzleFlash] Postfix
@@ -204,6 +216,7 @@ Postfixes:
 Verse.PreRenderResults Verse.PawnRenderer::ParallelGetPreRenderResults(UnityEngine.Vector3 drawLoc, System.Nullable`1<Verse.Rot4> rotOverride, System.Boolean neverAimWeapon, System.Boolean disableCache)
 Prefixes:
   [OskarPotocki.VEF] Prefix
+  [SmashPhil.VehicleFramework] DisableCachingPawnOverlays
   [RedMattis.BetterPrerequisites] Prefix
   [GiddyUp] Prefix
 Transpilers:
@@ -302,30 +315,34 @@ Prefixes:
 Transpilers:
 Postfixes:
   [PeteTimesSix.SimpleSidearms] TryCastShot
-Unloading 2 Unused Serialized files (Serialized files now loaded: 9)
-<color=#66ffb5>[MeleeAnim]</color> PreCached all retexture info in 56.5ms
-<color=#66ffb5>[MeleeAnim]</color> Loaded tweak data for 42 weapons.
+Unloading 2 Unused Serialized files (Serialized files now loaded: 11)
+<color=#66ffb5>[MeleeAnim]</color> PreCached all retexture info in 157.7ms
+<color=#66ffb5>[MeleeAnim]</color> Loaded tweak data for 58 weapons.
 <color=#66ffb5>[MeleeAnim]</color> ludeon.rimworld.odyssey 'Odyssey' has 2 missing weapon tweak data.
 <color=#66ffb5>[MeleeAnim]</color> ogliss.avpxenomorphs 'AVP Xenomorphs' has 3 missing weapon tweak data.
 <color=#66ffb5>[MeleeAnim]</color> redmattis.betterprerequisites 'Big and Small - Framework' has 1 missing weapon tweak data.
 <color=#66ffb5>[MeleeAnim]</color> tarojun.morishep.onioftherim 'Oni of the Rim' has 6 missing weapon tweak data.
 <color=#66ffb5>[MeleeAnim]</color> Skipping reporting of missing mod/weapons because user opted out or the feature is disabled by the developer.
-<color=#66ffb5>[MeleeAnim]</color> Patched 3 classes that directly inherit from Verb_MeleeAttack in 61.6 ms to detect hits:
+<color=#66ffb5>[MeleeAnim]</color> Patched 3 classes that directly inherit from Verb_MeleeAttack in 66.4 ms to detect hits:
 RimWorld.Verb_MeleeApplyHediff from Assembly-CSharp
 RimWorld.Verb_MeleeAttackDamage from Assembly-CSharp
 RRYautja.Verb_MeleeAttackKnockback from RRYautja
-<color=#66ffb5>[MeleeAnim]</color> Found 0 items of clothing that cover hands, took 0.78 ms:
-Unloading 55 unused Assets to reduce memory usage. Loaded Objects now: 38108.
-Total: 305.179400 ms (FindLiveObjects: 1.777300 ms CreateObjectMapping: 1.072100 ms MarkObjects: 302.191600 ms  DeleteObjects: 0.138100 ms)
+<color=#66ffb5>[MeleeAnim]</color> Found 4 items of clothing that cover hands, took 0.87 ms:
+VAE_Handwear_Gloves (Gloves),
+VAE_Handwear_PlateGloves (Plate gloves),
+VAE_Handwear_MarineGloves (Marine gloves),
+VAE_Apparel_Shield_Riot (Riot shield)
+Unloading 195 unused Assets to reduce memory usage. Loaded Objects now: 48663.
+Total: 364.864400 ms (FindLiveObjects: 2.443500 ms CreateObjectMapping: 3.051000 ms MarkObjects: 359.094200 ms  DeleteObjects: 0.275400 ms)
 
-Unloading 0 Unused Serialized files (Serialized files now loaded: 9)
+Unloading 0 Unused Serialized files (Serialized files now loaded: 11)
 Loading asset bundle MuzzleFlash.shaders-windows
 Loaded shader Unlit/AnimatedAdditiveInstanced
 [Muzzle Flash] Shader loaded from MuzzleFlash: Unlit/AnimatedAdditiveInstanced
-Unloading 0 unused Assets to reduce memory usage. Loaded Objects now: 38110.
-Total: 310.531800 ms (FindLiveObjects: 1.779100 ms CreateObjectMapping: 2.288100 ms MarkObjects: 306.395500 ms  DeleteObjects: 0.068600 ms)
+Unloading 0 unused Assets to reduce memory usage. Loaded Objects now: 48665.
+Total: 384.053100 ms (FindLiveObjects: 3.106700 ms CreateObjectMapping: 3.727000 ms MarkObjects: 377.137100 ms  DeleteObjects: 0.082000 ms)
 
-Unloading 0 Unused Serialized files (Serialized files now loaded: 10)
+Unloading 0 Unused Serialized files (Serialized files now loaded: 12)
 [Loading Progress] Why is ResearchPal.Profiler.Start from ResearchPal 1.6 - Temp calling DeepProfiler.Start (and by extension our patch) with null?! Stop it.
 [Loading Progress] Why is ResearchPal.Profiler.Start from ResearchPal 1.6 - Temp calling DeepProfiler.Start (and by extension our patch) with null?! Stop it.
 [Loading Progress] Why is ResearchPal.Profiler.Start from ResearchPal 1.6 - Temp calling DeepProfiler.Start (and by extension our patch) with null?! Stop it.
@@ -333,19 +350,19 @@ Unloading 0 Unused Serialized files (Serialized files now loaded: 10)
 [Loading Progress] Why is ResearchPal.Profiler.Start from ResearchPal 1.6 - Temp calling DeepProfiler.Start (and by extension our patch) with null?! Stop it.
 [Loading Progress] Why is ResearchPal.Profiler.Start from ResearchPal 1.6 - Temp calling DeepProfiler.Start (and by extension our patch) with null?! Stop it.
 ResearchPal :: Research layout initialized
-Unloading 0 unused Assets to reduce memory usage. Loaded Objects now: 38110.
-Total: 319.674600 ms (FindLiveObjects: 1.855400 ms CreateObjectMapping: 2.332700 ms MarkObjects: 315.417300 ms  DeleteObjects: 0.068900 ms)
+Unloading 0 unused Assets to reduce memory usage. Loaded Objects now: 48665.
+Total: 380.065500 ms (FindLiveObjects: 2.470300 ms CreateObjectMapping: 3.113400 ms MarkObjects: 374.398500 ms  DeleteObjects: 0.082800 ms)
 
-Unloading 0 Unused Serialized files (Serialized files now loaded: 10)
-Unloading 0 unused Assets to reduce memory usage. Loaded Objects now: 38110.
-Total: 310.870600 ms (FindLiveObjects: 2.405000 ms CreateObjectMapping: 2.512700 ms MarkObjects: 305.882700 ms  DeleteObjects: 0.069700 ms)
-
+Unloading 0 Unused Serialized files (Serialized files now loaded: 12)
 [HugsLib] initializing TerraformRimworld
+Unloading 0 unused Assets to reduce memory usage. Loaded Objects now: 48665.
+Total: 366.226100 ms (FindLiveObjects: 3.152700 ms CreateObjectMapping: 3.277100 ms MarkObjects: 359.703800 ms  DeleteObjects: 0.092100 ms)
+
 CE is trying to create default parameter lists ...
 creating default parameter list for genes...
-630 default entities for genes created
+668 default entities for genes created
 creating default parameter list for objects...
-2697 default entities for objects created
+3632 default entities for objects created
 creating default parameter list for turrets...
 44 default entities for turrets created
 ...lists created
@@ -356,9 +373,14 @@ no modifications for lifestages
 ...done
 [Big and Small]: Found 7 AlienRace.ThingDef_AlienRace ThingDefs.
 These are either from HAR races or B&S races automatically converted for compatibility.
-Unloading 2 Unused Serialized files (Serialized files now loaded: 10)
-Unloading 0 unused Assets to reduce memory usage. Loaded Objects now: 39918.
-Total: 346.474500 ms (FindLiveObjects: 2.027700 ms CreateObjectMapping: 1.151500 ms MarkObjects: 343.228100 ms  DeleteObjects: 0.066900 ms)
+RandomElementByWeight with totalWeight=0 - use TryRandomElementByWeight.
+Unloading 2 Unused Serialized files (Serialized files now loaded: 12)
+Unloading 1 unused Assets to reduce memory usage. Loaded Objects now: 50648.
+Total: 430.483200 ms (FindLiveObjects: 3.252500 ms CreateObjectMapping: 3.108800 ms MarkObjects: 424.022800 ms  DeleteObjects: 0.098900 ms)
+
+Unloading 2 Unused Serialized files (Serialized files now loaded: 12)
+Unloading 165 unused Assets to reduce memory usage. Loaded Objects now: 50664.
+Total: 448.323100 ms (FindLiveObjects: 2.924800 ms CreateObjectMapping: 3.522700 ms MarkObjects: 441.586000 ms  DeleteObjects: 0.289400 ms)
 
 A hidden ritual precept was missing, adding: Throne speech
 A hidden ritual precept was missing, adding: Anima tree linking
@@ -370,10 +392,10 @@ A hidden ritual precept was missing, adding: Public execution
 A hidden ritual precept was missing, adding: Bestow honor
 A hidden ritual precept was missing, adding: Bestow title
 A hidden ritual precept was missing, adding: Royal address
-Unloading 3 Unused Serialized files (Serialized files now loaded: 10)
-UnloadTime: 0.562600 ms
-Unloading 3 unused Assets to reduce memory usage. Loaded Objects now: 40430.
-Total: 380.598400 ms (FindLiveObjects: 1.905000 ms CreateObjectMapping: 1.211900 ms MarkObjects: 377.384300 ms  DeleteObjects: 0.096900 ms)
+Unloading 3 Unused Serialized files (Serialized files now loaded: 12)
+UnloadTime: 1.240100 ms
+Unloading 4 unused Assets to reduce memory usage. Loaded Objects now: 51174.
+Total: 426.330800 ms (FindLiveObjects: 2.503100 ms CreateObjectMapping: 1.910200 ms MarkObjects: 421.671300 ms  DeleteObjects: 0.245700 ms)
 
 Initializing new game with mods:
   - brrainz.harmony
@@ -411,11 +433,29 @@ Initializing new game with mods:
   - GonDragon.TTPF
   - adaptive.storage.framework
   - OskarPotocki.VanillaFactionsExpanded.Core
+  - VanillaExpanded.VAPPE
+  - VanillaExpanded.VARME
+  - VanillaExpanded.VBooksE
+  - VanillaExpanded.VBrewE
+  - VanillaExpanded.VCookE
   - OskarPotocki.VFE.Empire
   - OskarPotocki.VFE.Deserters
+  - VanillaExpanded.VFEArt
+  - VanillaExpanded.VFEFarming
+  - VanillaExpanded.VFEPower
+  - VanillaExpanded.VFEProduction
+  - VanillaExpanded.VFECore
+  - VanillaExpanded.VFESpacer
+  - VanillaExpanded.VPlantsE
+  - VanillaExpanded.VPlantsEMore
+  - VanillaExpanded.VPlantsESucculents
+  - VanillaExpanded.VWE
+  - VanillaExpanded.VWEC
+  - VanillaExpanded.VWENL
   - GonDragon.TechTree
   - jkluch.HaulToStack
   - aRandomKiwi.HuntForMe
+  - VanillaExpanded.VanillaAnimalsExpanded
   - zal.hyena
   - Taveron.IncreasedStack
   - Aoba.Fortress.Industrial.Concrete
@@ -475,58 +515,168 @@ Initializing new game with mods:
   - dhultgren.smarterconstruction
   - Garwel.StartingTechLevel
   - void.terraformrimworld
+  - VanillaExpanded.VAEEndAndExt
+  - VanillaExpanded.VAERoy
+  - VanillaExpanded.VAEWaste
+  - VanillaExpanded.VAEAccessories
+  - VanillaExpanded.VFEMedical
+  - VanillaExpanded.VHE
+  - VanillaExpanded.VPlantsEMushrooms
+  - vanillaracesexpanded.customicons
+  - vanillaracesexpanded.highmate
+  - vanillaracesexpanded.pigskin
+  - SmashPhil.VehicleFramework
+  - OskarPotocki.VanillaVehiclesExpanded
+  - OskarPotocki.VanillaVehiclesExpandedUpgrades
+  - VanillaExpanded.VWEBF
+  - VanillaExpanded.VWEG
+  - tro.vwe.overhaul
+  - OskarPotocki.VanillaVehiclesExpandedTier3
+  - Explorern11.VehiclesWrecksExpanded
+  - VehiclesWrecksExpanded.Revisited
   - Arylice.Rimworld.AutomaticHunting
 [AVP Xenomorphs] Created Xenomorph faction during pawn generation (was missing).
 checking editor settings...
 bodysizes genes are active
 [AVP Xenomorphs] Xenomorph hive faction already exists.
-Unloading 0 Unused Serialized files (Serialized files now loaded: 10)
-Unloading 1 unused Assets to reduce memory usage. Loaded Objects now: 48640.
-Total: 391.493000 ms (FindLiveObjects: 2.425000 ms CreateObjectMapping: 1.801600 ms MarkObjects: 387.161100 ms  DeleteObjects: 0.105100 ms)
+Unloading 0 Unused Serialized files (Serialized files now loaded: 12)
+Unloading 1 unused Assets to reduce memory usage. Loaded Objects now: 59391.
+Total: 505.966400 ms (FindLiveObjects: 3.116500 ms CreateObjectMapping: 2.896600 ms MarkObjects: 499.822700 ms  DeleteObjects: 0.130300 ms)
 
-Wrote screenshot C:\Users\clint\AppData\LocalLow\Ludeon Studios\RimWorld by Ludeon Studios\RimSaves\Previews\Autosave-4.dat of size 135169
-Invalid count: 0, setting to 1. Job was HaulToContainer (Job_32867) A = Thing_FT_BlocksConcrete54594 B = Thing_Blueprint_PavedTile53389 C = Thing_Blueprint_PavedTile53389 Giver = ThinkNode_QueuedJob [workGiverDef: ConstructDeliverResourcesToBlueprints]
-Wrote screenshot C:\Users\clint\AppData\LocalLow\Ludeon Studios\RimWorld by Ludeon Studios\RimSaves\Previews\Autosave-5.dat of size 143729
-Wrote screenshot C:\Users\clint\AppData\LocalLow\Ludeon Studios\RimWorld by Ludeon Studios\RimSaves\Previews\Autosave-1.dat of size 182897
-Exception ticking GeothermalGenerator56362. Suppressing further errors. Exception: System.NullReferenceException: Object reference not set to an instance of an object
-[Ref D8196CD5]
-  at RimWorld.CompPowerPlantSteam.CompTick () [0x0001a] in <61e4173561894da49d210260257b5097>:0 
-  at Verse.ThingWithComps.Tick () [0x00025] in <61e4173561894da49d210260257b5097>:0 
-  at Verse.Thing.DoTick () [0x0007b] in <61e4173561894da49d210260257b5097>:0 
+Could not reserve Thing_Door39558 (layer: null) for Girolamo for job HaulToContainer (Job_8905) A = Thing_Steel55037 B = Thing_Frame_Wall55044 C = Thing_Frame_Wall55044 Giver = JobGiver_Work [workGiverDef: ConstructDeliverResourcesToBlueprints] (now doing job HaulToContainer (Job_8905) A = Thing_Steel55037 B = Thing_Frame_Wall55044 C = Thing_Frame_Wall55044 Giver = JobGiver_Work [workGiverDef: ConstructDeliverResourcesToBlueprints](curToil=8)) for maxPawns 5 and stackCount 1.
+Existing reservers:
+   [0] Graham (job: Deconstruct (Job_8262) A = Thing_Door39558 Giver = JobGiver_Work [workGiverDef: Deconstruct], toil: 0, maxPawns: 1, stackCount: -1)
+Wrote screenshot C:\Users\clint\AppData\LocalLow\Ludeon Studios\RimWorld by Ludeon Studios\RimSaves\Previews\Autosave-2.dat of size 178452
+Exception ticking Quail54502 (at (19, 0, 109)). Suppressing further errors. Exception: System.NullReferenceException: Object reference not set to an instance of an object
+[Ref 1AD2B587]
+  at RimWorld.Pawn_FlightTracker.Notify_JobStarted (Verse.AI.Job job) [0x00009] in <61e4173561894da49d210260257b5097>:0 
+  at Verse.AI.Pawn_JobTracker.StartJob (Verse.AI.Job newJob, Verse.AI.JobCondition lastJobEndCondition, Verse.AI.ThinkNode jobGiver, System.Boolean resumeCurJobAfterwards, System.Boolean cancelBusyStances, Verse.ThinkTreeDef thinkTree, System.Nullable`1[T] tag, System.Boolean fromQueue, System.Boolean canReturnCurJobToPool, System.Nullable`1[T] keepCarryingThingOverride, System.Boolean continueSleeping, System.Boolean addToJobsThisTick, System.Boolean preToilReservationsCanFail) [0x00669] in <61e4173561894da49d210260257b5097>:0 
+    - PREFIX GiddyUp: Boolean GiddyUp.Harmony.Patch_StartJob:Prefix(Pawn_JobTracker __instance)
+    - PREFIX vexedtrees.RimRobots: Boolean VexedThings.HarmonyPatches.StartJob_HarmonyPatch:Prefix(Job newJob, Pawn ___pawn)
+  at Verse.AI.Pawn_JobTracker.TryFindAndStartJob () [0x000bd] in <61e4173561894da49d210260257b5097>:0 
+  at Verse.AI.Pawn_JobTracker.EndCurrentJob (Verse.AI.JobCondition condition, System.Boolean startNewJob, System.Boolean canReturnToPool) [0x001f7] in <61e4173561894da49d210260257b5097>:0 
+  at Verse.AI.Pawn_JobTracker.JobTrackerTickInterval (System.Int32 delta) [0x001c4] in <61e4173561894da49d210260257b5097>:0 
+  at Verse.Pawn.TickInterval (System.Int32 delta) [0x00050] in <61e4173561894da49d210260257b5097>:0 
+  at Verse.Thing.DoTick () [0x000eb] in <61e4173561894da49d210260257b5097>:0 
   at Verse.TickList.Tick () [0x00139] in <61e4173561894da49d210260257b5097>:0 
-Player wealth is 30679.71. Required (random) wealth to trigger Woman in blue is 42208.
-Fingerspike58441 on unwalkable cell (55, 0, 10). Teleporting to (55, 0, 9)
-Fingerspike58414 on unwalkable cell (59, 0, 8). Teleporting to (58, 0, 8)
-AM.Events.AudioEvent must be instantiated using the ScriptableObject.CreateInstance method instead of new AudioEvent.
-AM.Events.CamShakeEvent must be instantiated using the ScriptableObject.CreateInstance method instead of new CamShakeEvent.
-AM.Events.ClashAudioEvent must be instantiated using the ScriptableObject.CreateInstance method instead of new ClashAudioEvent.
-AM.Events.DamageEffectEvent must be instantiated using the ScriptableObject.CreateInstance method instead of new DamageEffectEvent.
-AM.Events.DuelEvent must be instantiated using the ScriptableObject.CreateInstance method instead of new DuelEvent.
-AM.Events.GoreSplashEvent must be instantiated using the ScriptableObject.CreateInstance method instead of new GoreSplashEvent.
-AM.Events.KillPawnEvent must be instantiated using the ScriptableObject.CreateInstance method instead of new KillPawnEvent.
-AM.Events.MoteEvent must be instantiated using the ScriptableObject.CreateInstance method instead of new MoteEvent.
-AM.Events.PuntPawnEvent must be instantiated using the ScriptableObject.CreateInstance method instead of new PuntPawnEvent.
-AM.Events.TextMoteEvent must be instantiated using the ScriptableObject.CreateInstance method instead of new TextMoteEvent.
-AM.Events.TextMoteEvent must be instantiated using the ScriptableObject.CreateInstance method instead of new TextMoteEvent.
-AM.Events.MoteEvent must be instantiated using the ScriptableObject.CreateInstance method instead of new MoteEvent.
-AM.Events.DamageEffectEvent must be instantiated using the ScriptableObject.CreateInstance method instead of new DamageEffectEvent.
-AM.Events.KillPawnEvent must be instantiated using the ScriptableObject.CreateInstance method instead of new KillPawnEvent.
-<color=#66ffb5>[MeleeAnim]</color> Failed to find random verb for weapon 'Beer58725' on pawn Trispike58335. May be a result of an optimization mod or bug.
-The possible verbs are RimWorld.Verb_MeleeAttackDamage(human/Thing_Human58716_0_Smash), RimWorld.Verb_MeleeAttackDamage(human/Thing_Human58716_1_Smash), RimWorld.Verb_MeleeAttackDamage(human/Thing_Human58716_2_Bite), RimWorld.Verb_MeleeAttackDamage(human/Thing_Human58716_3_Smash), RimWorld.Verb_MeleeAttackDamage(revolver/CompEquippable_Gun_Revolver58724_0_Smash), RimWorld.Verb_MeleeAttackDamage(revolver/CompEquippable_Gun_Revolver58724_1_Smash), RimWorld.Verb_MeleeAttackDamage(revolver/CompEquippable_Gun_Revolver58724_1_Poke)
-Wrote screenshot C:\Users\clint\AppData\LocalLow\Ludeon Studios\RimWorld by Ludeon Studios\RimSaves\Previews\Autosave-2.dat of size 162211
-Attempted to draw Sparrow52800 without a resolved render tree.
-Attempted to draw Sparrow52799 without a resolved render tree.
-Attempted to draw Sparrow52801 without a resolved render tree.
-Attempted to draw Rat54223 without a resolved render tree.
-Wrote screenshot C:\Users\clint\AppData\LocalLow\Ludeon Studios\RimWorld by Ludeon Studios\RimSaves\Previews\Autosave-3.dat of size 134660
-Attempted to draw Squirrel52788 without a resolved render tree.
-Cannot drop RRY_Xenomorph_Queen52727 without a dropLoc and with an owner whose map is null.
-Trying to save reference to a discarded thing Quail52783 with saveDestroyedThings=true. This means that it's not deep-saved anywhere and is no longer managed by anything in the code, so saving its reference will always fail. , label=otherPawn
-Trying to save reference to a discarded thing Quail52783 with saveDestroyedThings=true. This means that it's not deep-saved anywhere and is no longer managed by anything in the code, so saving its reference will always fail. , label=otherPawn
-Trying to save reference to a discarded thing Quail52783 with saveDestroyedThings=true. This means that it's not deep-saved anywhere and is no longer managed by anything in the code, so saving its reference will always fail. , label=otherPawn
-Trying to save reference to a discarded thing Quail52783 with saveDestroyedThings=true. This means that it's not deep-saved anywhere and is no longer managed by anything in the code, so saving its reference will always fail. , label=otherPawn
-Wrote screenshot C:\Users\clint\AppData\LocalLow\Ludeon Studios\RimWorld by Ludeon Studios\RimSaves\Previews\Autosave-4.dat of size 111140
-Error while determining if Personae_62898 should have Need Chemical_Alcohol: System.NullReferenceException: Object reference not set to an instance of an object
+Wrote screenshot C:\Users\clint\AppData\LocalLow\Ludeon Studios\RimWorld by Ludeon Studios\RimSaves\Previews\Autosave-3.dat of size 208434
+Exception in JobDriver fixed tick for pawn Quail54502 driver=JobDriver_LayDown (toilIndex=1) driver.job=(LayDown (Job_76411) A = (19, 0, 109))
+System.NullReferenceException: Object reference not set to an instance of an object
+[Ref 263E4160]
+  at RimWorld.Pawn_FlightTracker.Notify_JobStarted (Verse.AI.Job job) [0x00009] in <61e4173561894da49d210260257b5097>:0 
+  at Verse.AI.Pawn_JobTracker.StartJob (Verse.AI.Job newJob, Verse.AI.JobCondition lastJobEndCondition, Verse.AI.ThinkNode jobGiver, System.Boolean resumeCurJobAfterwards, System.Boolean cancelBusyStances, Verse.ThinkTreeDef thinkTree, System.Nullable`1[T] tag, System.Boolean fromQueue, System.Boolean canReturnCurJobToPool, System.Nullable`1[T] keepCarryingThingOverride, System.Boolean continueSleeping, System.Boolean addToJobsThisTick, System.Boolean preToilReservationsCanFail) [0x00669] in <61e4173561894da49d210260257b5097>:0 
+    - PREFIX GiddyUp: Boolean GiddyUp.Harmony.Patch_StartJob:Prefix(Pawn_JobTracker __instance)
+    - PREFIX vexedtrees.RimRobots: Boolean VexedThings.HarmonyPatches.StartJob_HarmonyPatch:Prefix(Job newJob, Pawn ___pawn)
+  at Verse.AI.Pawn_JobTracker.CheckForJobOverride (System.Single minPriority, System.Boolean ignoreQueue) [0x00090] in <61e4173561894da49d210260257b5097>:0 
+    - TRANSPILER SmashPhil.VehicleFramework: IEnumerable`1 Vehicles.Patch_JobSystem:NoOverrideDamageTakenTranspiler(IEnumerable`1 instructions, ILGenerator ilg)
+  at RimWorld.Toils_LayDown+<>c__DisplayClass6_0.<LayDown>b__1 () [0x000cc] in <61e4173561894da49d210260257b5097>:0 
+  at Verse.AI.JobDriver.DriverTick () [0x00170] in <61e4173561894da49d210260257b5097>:0 
+Wrote screenshot C:\Users\clint\AppData\LocalLow\Ludeon Studios\RimWorld by Ludeon Studios\RimSaves\Previews\Autosave-4.dat of size 125784
+Exception in CheckCurrentToilEndOrFail for pawn Quail54502 driver=JobDriver_Ingest (toilIndex=4) driver.job=( (Job_-1))
+System.NullReferenceException: Object reference not set to an instance of an object
+[Ref C82B2B10]
+  at RimWorld.Pawn_FlightTracker.Notify_JobStarted (Verse.AI.Job job) [0x00009] in <61e4173561894da49d210260257b5097>:0 
+  at Verse.AI.Pawn_JobTracker.StartJob (Verse.AI.Job newJob, Verse.AI.JobCondition lastJobEndCondition, Verse.AI.ThinkNode jobGiver, System.Boolean resumeCurJobAfterwards, System.Boolean cancelBusyStances, Verse.ThinkTreeDef thinkTree, System.Nullable`1[T] tag, System.Boolean fromQueue, System.Boolean canReturnCurJobToPool, System.Nullable`1[T] keepCarryingThingOverride, System.Boolean continueSleeping, System.Boolean addToJobsThisTick, System.Boolean preToilReservationsCanFail) [0x00669] in <61e4173561894da49d210260257b5097>:0 
+    - PREFIX GiddyUp: Boolean GiddyUp.Harmony.Patch_StartJob:Prefix(Pawn_JobTracker __instance)
+    - PREFIX vexedtrees.RimRobots: Boolean VexedThings.HarmonyPatches.StartJob_HarmonyPatch:Prefix(Job newJob, Pawn ___pawn)
+  at Verse.AI.Pawn_JobTracker.TryFindAndStartJob () [0x000bd] in <61e4173561894da49d210260257b5097>:0 
+  at Verse.AI.Pawn_JobTracker.EndCurrentJob (Verse.AI.JobCondition condition, System.Boolean startNewJob, System.Boolean canReturnToPool) [0x001f7] in <61e4173561894da49d210260257b5097>:0 
+  at Verse.AI.JobDriver.EndJobWith (Verse.AI.JobCondition condition) [0x00028] in <61e4173561894da49d210260257b5097>:0 
+  at Verse.AI.JobDriver.CheckCurrentToilEndOrFail () [0x0009a] in <61e4173561894da49d210260257b5097>:0 
+Exception in JobDriver fixed tick for pawn Quail54502 driver=JobDriver_LayDown (toilIndex=1) driver.job=(LayDown (Job_83379) A = (20, 0, 108))
+System.NullReferenceException: Object reference not set to an instance of an object
+[Ref 263E4160] Duplicate stacktrace, see ref for original
+Wrote screenshot C:\Users\clint\AppData\LocalLow\Ludeon Studios\RimWorld by Ludeon Studios\RimSaves\Previews\Autosave-5.dat of size 148234
+Exception ticking Sparrow60199 (at (116, 0, 191)). Suppressing further errors. Exception: System.NullReferenceException: Object reference not set to an instance of an object
+[Ref 1AD2B587] Duplicate stacktrace, see ref for original
+Wrote screenshot C:\Users\clint\AppData\LocalLow\Ludeon Studios\RimWorld by Ludeon Studios\RimSaves\Previews\Autosave-1.dat of size 124861
+Adderly threw exception in WorkGiver HaulUrgently: System.NullReferenceException: Object reference not set to an instance of an object
+[Ref 5DC17AA3]
+  at Verse.GridsUtility.Fogged (Verse.Thing t) [0x00006] in <61e4173561894da49d210260257b5097>:0 
+  at Verse.AI.HaulAIUtility.PawnCanAutomaticallyHaulFast_NewTemp (Verse.Pawn p, Verse.Thing t, System.Boolean forced, System.Boolean checkReachability) [0x00000] in <61e4173561894da49d210260257b5097>:0 
+  at Verse.AI.HaulAIUtility.PawnCanAutomaticallyHaulFast (Verse.Pawn p, Verse.Thing t, System.Boolean forced) [0x00000] in <61e4173561894da49d210260257b5097>:0 
+  at AllowTool.WorkGiver_HaulUrgently+<PotentialWorkThingsGlobal>d__3.MoveNext () [0x00052] in <8a098910d6a84b188090b9d6c096e9ee>:0 
+  at Verse.GenClosest.ClosestThing_Global (Verse.IntVec3 center, System.Collections.IEnumerable searchSet, System.Single maxDistance, System.Predicate`1[T] validator, System.Func`2[T,TResult] priorityGetter, System.Boolean lookInHaulSources) [0x0013c] in <61e4173561894da49d210260257b5097>:0 
+  at Verse.GenClosest.ClosestThingReachable (Verse.IntVec3 root, Verse.Map map, Verse.ThingRequest thingReq, Verse.AI.PathEndMode peMode, Verse.TraverseParms traverseParams, System.Single maxDistance, System.Predicate`1[T] validator, System.Collections.Generic.IEnumerable`1[T] customGlobalSearchSet, System.Int32 searchRegionsMin, System.Int32 searchRegionsMax, System.Boolean forceAllowGlobalSearch, Verse.RegionType traversableRegionTypes, System.Boolean ignoreEntirelyForbiddenRegions, System.Boolean lookInHaulSources) [0x00147] in <61e4173561894da49d210260257b5097>:0 
+  at RimWorld.JobGiver_Work.TryIssueJobPackage (Verse.Pawn pawn, Verse.AI.JobIssueParams jobParams) [0x00678] in <61e4173561894da49d210260257b5097>:0 
+    - TRANSPILER SmarterConstruction: List`1 SmarterConstruction.Patches.PatchMakeFinishFramesPrioritized:Transpiler(IEnumerable`1 instructions, ILGenerator generator)
+Exception in CheckCurrentToilEndOrFail for pawn Quail54502 driver=JobDriver_Ingest (toilIndex=4) driver.job=( (Job_-1))
+System.NullReferenceException: Object reference not set to an instance of an object
+[Ref C82B2B10] Duplicate stacktrace, see ref for original
+Biemer threw exception in WorkGiver HaulUrgently: System.NullReferenceException: Object reference not set to an instance of an object
+[Ref 5DC17AA3] Duplicate stacktrace, see ref for original
+Adderly threw exception in WorkGiver HaulUrgently: System.NullReferenceException: Object reference not set to an instance of an object
+[Ref 5DC17AA3] Duplicate stacktrace, see ref for original
+RRY_Xenomorph_FaceHugger61822 issued IdleError wait job. The behavior tree should never get here.
+[AVP Xenomorphs] [Detach] Detaching facehugger from Adderly (impregnation complete) (tick 353487)
+[AVP Xenomorphs] [Detach] Detaching facehugger from Biemer (impregnation complete) (tick 356278)
+Wrote screenshot C:\Users\clint\AppData\LocalLow\Ludeon Studios\RimWorld by Ludeon Studios\RimSaves\Previews\Autosave-2.dat of size 134992
+[AVP Xenomorphs] [Spawn] Adderly -> Warrior via RRY_Spawn_Humanlike (host: human, bodySize: 1) (tick 380687)
+Error in LordToil.UpdateAllDuties(): System.NullReferenceException: Object reference not set to an instance of an object
+[Ref 81DDDE4C]
+  at RimWorld.LordToil_DefendHiveLikeAggressively.UpdateAllDuties () [0x00092] in <03bd1197aeae48e29b01c7a2d46e8f2e>:0 
+  at Verse.AI.Group.Lord.GotoToil (Verse.AI.Group.LordToil newLordToil) [0x0017f] in <61e4173561894da49d210260257b5097>:0 
+    - POSTFIX VFEEmpire.Mod: Void VFEEmpire.HarmonyPatches.Patch_Lords:GotoToil_Postfix(Lord __instance, LordToil newLordToil)
+[AVP Xenomorphs] [Spawn] Biemer -> Warrior via RRY_Spawn_Humanlike (host: human, bodySize: 1.15) (tick 383478)
+Wrote screenshot C:\Users\clint\AppData\LocalLow\Ludeon Studios\RimWorld by Ludeon Studios\RimSaves\Previews\Autosave-3.dat of size 221244
+Wrote screenshot C:\Users\clint\AppData\LocalLow\Ludeon Studios\RimWorld by Ludeon Studios\RimSaves\Previews\Autosave-4.dat of size 232177
+Wrote screenshot C:\Users\clint\AppData\LocalLow\Ludeon Studios\RimWorld by Ludeon Studios\RimSaves\Previews\Autosave-5.dat of size 232833
+Could not generate a pawn after 70 tries. Last error: Generated pawn doesn't meet scenario requirements. Ignoring scenario requirements.
+Could not generate a pawn after 70 tries. Last error: Generated pawn doesn't meet scenario requirements. Ignoring scenario requirements.
+Trying to save reference to a discarded thing Adderly with saveDestroyedThings=true. This means that it's not deep-saved anywhere and is no longer managed by anything in the code, so saving its reference will always fail. , label=pawn
+Trying to save reference to a discarded thing Adderly with saveDestroyedThings=true. This means that it's not deep-saved anywhere and is no longer managed by anything in the code, so saving its reference will always fail. , label=pawn
+Trying to save reference to a discarded thing Adderly with saveDestroyedThings=true. This means that it's not deep-saved anywhere and is no longer managed by anything in the code, so saving its reference will always fail. , label=targetA
+Wrote screenshot C:\Users\clint\AppData\LocalLow\Ludeon Studios\RimWorld by Ludeon Studios\RimSaves\Previews\Autosave-1.dat of size 126792
+Trying to save reference to a discarded thing Adderly with saveDestroyedThings=true. This means that it's not deep-saved anywhere and is no longer managed by anything in the code, so saving its reference will always fail. , label=pawn
+Trying to save reference to a discarded thing Adderly with saveDestroyedThings=true. This means that it's not deep-saved anywhere and is no longer managed by anything in the code, so saving its reference will always fail. , label=pawn
+Trying to save reference to a discarded thing Adderly with saveDestroyedThings=true. This means that it's not deep-saved anywhere and is no longer managed by anything in the code, so saving its reference will always fail. , label=targetA
+Wrote screenshot C:\Users\clint\AppData\LocalLow\Ludeon Studios\RimWorld by Ludeon Studios\RimSaves\Previews\Autosave-2.dat of size 190339
+Trying to save reference to a discarded thing Adderly with saveDestroyedThings=true. This means that it's not deep-saved anywhere and is no longer managed by anything in the code, so saving its reference will always fail. , label=pawn
+Trying to save reference to a discarded thing Adderly with saveDestroyedThings=true. This means that it's not deep-saved anywhere and is no longer managed by anything in the code, so saving its reference will always fail. , label=pawn
+Trying to save reference to a discarded thing Adderly with saveDestroyedThings=true. This means that it's not deep-saved anywhere and is no longer managed by anything in the code, so saving its reference will always fail. , label=targetA
+Wrote screenshot C:\Users\clint\AppData\LocalLow\Ludeon Studios\RimWorld by Ludeon Studios\RimSaves\Previews\Autosave-3.dat of size 235658
+Trying to save reference to a discarded thing Adderly with saveDestroyedThings=true. This means that it's not deep-saved anywhere and is no longer managed by anything in the code, so saving its reference will always fail. , label=pawn
+Trying to save reference to a discarded thing Adderly with saveDestroyedThings=true. This means that it's not deep-saved anywhere and is no longer managed by anything in the code, so saving its reference will always fail. , label=pawn
+Trying to save reference to a discarded thing Adderly with saveDestroyedThings=true. This means that it's not deep-saved anywhere and is no longer managed by anything in the code, so saving its reference will always fail. , label=targetA
+Wrote screenshot C:\Users\clint\AppData\LocalLow\Ludeon Studios\RimWorld by Ludeon Studios\RimSaves\Previews\Autosave-4.dat of size 201285
+Attempted to draw AEXP_Boombat68801 without a resolved render tree.
+Trying to save reference to a discarded thing Adderly with saveDestroyedThings=true. This means that it's not deep-saved anywhere and is no longer managed by anything in the code, so saving its reference will always fail. , label=pawn
+Trying to save reference to a discarded thing Adderly with saveDestroyedThings=true. This means that it's not deep-saved anywhere and is no longer managed by anything in the code, so saving its reference will always fail. , label=pawn
+Trying to save reference to a discarded thing Adderly with saveDestroyedThings=true. This means that it's not deep-saved anywhere and is no longer managed by anything in the code, so saving its reference will always fail. , label=targetA
+Wrote screenshot C:\Users\clint\AppData\LocalLow\Ludeon Studios\RimWorld by Ludeon Studios\RimSaves\Previews\Autosave-5.dat of size 138392
+Exception ticking Bullet_Minigun73094. Suppressing further errors. Exception: System.NullReferenceException: Object reference not set to an instance of an object
+[Ref 3ED13AD5]
+  at aRandomKiwi.HFM.Pawn_MindState_Patch+Pawn_MindState_StartManhunterBecauseOfPawnAction.Replacement (Verse.Pawn instigator, System.String letterTextKey, System.Boolean causedByDamage, Verse.Pawn ___pawn) [0x00008] in <cf2dd7b9c624461fb0dbcb020375986b>:0 
+  at Verse.AI.Pawn_MindState.StartManhunterBecauseOfPawnAction (Verse.Pawn instigator, System.String letterTextKey, System.Boolean causedByDamage) [0x0001b] in <61e4173561894da49d210260257b5097>:0 
+    - PREFIX rimworld.randomKiwi.hfm: Boolean aRandomKiwi.HFM.Pawn_MindState_Patch+Pawn_MindState_StartManhunterBecauseOfPawnAction:Replacement(Pawn instigator, String letterTextKey, Boolean causedByDamage, Pawn ___pawn)
+  at Verse.AI.Pawn_MindState.Notify_DamageTaken (Verse.DamageInfo dinfo) [0x0018f] in <61e4173561894da49d210260257b5097>:0 
+  at Verse.Pawn.PostApplyDamage (Verse.DamageInfo dinfo, System.Single totalDamageDealt) [0x00080] in <61e4173561894da49d210260257b5097>:0 
+  at Verse.Thing.TakeDamage (Verse.DamageInfo dinfo) [0x0032e] in <61e4173561894da49d210260257b5097>:0 
+    - PREFIX OskarPotocki.VEF: Void VEF.AnimalBehaviours.Patch_TakeDamage:Prefix(Thing __instance, DamageInfo dinfo)
+    - PREFIX RedMattis.BetterPrerequisites: Void BigAndSmall.TakeDamagePatch:Prefix(Thing __instance, DamageInfo& dinfo)
+    - POSTFIX OskarPotocki.VEF: Void VEF.Weapons.VanillaExpandedFramework_Thing_TakeDamage_Patch:Postfix(Thing __instance, DamageInfo dinfo)
+    - POSTFIX com.CaesarV6.DamageMotes.Patch: Void DamageMotes.DamageMotes_Patch:Postfix(DamageInfo dinfo, Thing __instance, DamageResult __result)
+  at RimWorld.Bullet.Impact (Verse.Thing hitThing, System.Boolean blockedByShield) [0x000d2] in <61e4173561894da49d210260257b5097>:0 
+  at Verse.Projectile.ImpactSomething () [0x001a8] in <61e4173561894da49d210260257b5097>:0 
+    - TRANSPILER OskarPotocki.VEF: IEnumerable`1 VEF.Pawns.VanillaExpandedFramework_Projectile_ImpactSomething_Patch:Transpiler(IEnumerable`1 codeInstructions, ILGenerator ilg)
+    - TRANSPILER OskarPotocki.VEF: IEnumerable`1 VEF.Weapons.VanillaExpandedFramework_Projectile_SetTrueOrigin_Patch:Transpiler(IEnumerable`1 codeInstructions, MethodBase baseMethod)
+    - TRANSPILER SmashPhil.VehicleFramework: IEnumerable`1 Vehicles.Patch_Combat:VehicleProjectileChanceToHit(IEnumerable`1 instructions)
+    - POSTFIX OskarPotocki.VEF: Void VEF.Weapons.TeslaProjectile+ProjectilePatches:Postfix()
+  at Verse.Projectile.TickInterval (System.Int32 delta) [0x000b8] in <61e4173561894da49d210260257b5097>:0 
+  at Verse.Thing.DoTick () [0x000eb] in <61e4173561894da49d210260257b5097>:0 
+  at Verse.TickList.Tick () [0x00139] in <61e4173561894da49d210260257b5097>:0 
+Exception ticking Bullet_Minigun73125. Suppressing further errors. Exception: System.NullReferenceException: Object reference not set to an instance of an object
+[Ref 3ED13AD5] Duplicate stacktrace, see ref for original
+Exception ticking Bullet_Minigun73128. Suppressing further errors. Exception: System.NullReferenceException: Object reference not set to an instance of an object
+[Ref 3ED13AD5] Duplicate stacktrace, see ref for original
+Trying to save reference to a discarded thing Adderly with saveDestroyedThings=true. This means that it's not deep-saved anywhere and is no longer managed by anything in the code, so saving its reference will always fail. , label=pawn
+Trying to save reference to a discarded thing Adderly with saveDestroyedThings=true. This means that it's not deep-saved anywhere and is no longer managed by anything in the code, so saving its reference will always fail. , label=pawn
+Trying to save reference to a discarded thing Adderly with saveDestroyedThings=true. This means that it's not deep-saved anywhere and is no longer managed by anything in the code, so saving its reference will always fail. , label=targetA
+Wrote screenshot C:\Users\clint\AppData\LocalLow\Ludeon Studios\RimWorld by Ludeon Studios\RimSaves\Previews\Autosave-1.dat of size 191691
+Trying to save reference to a discarded thing Adderly with saveDestroyedThings=true. This means that it's not deep-saved anywhere and is no longer managed by anything in the code, so saving its reference will always fail. , label=pawn
+Trying to save reference to a discarded thing Adderly with saveDestroyedThings=true. This means that it's not deep-saved anywhere and is no longer managed by anything in the code, so saving its reference will always fail. , label=pawn
+Wrote screenshot C:\Users\clint\AppData\LocalLow\Ludeon Studios\RimWorld by Ludeon Studios\RimSaves\Previews\Autosave-2.dat of size 151987
+Error while determining if Personae_77497 should have Need Chemical_Alcohol: System.NullReferenceException: Object reference not set to an instance of an object
 [Ref 70197477]
   at RimWorld.LifeStageWorker_HumanlikeAdult.Notify_LifeStageStarted (Verse.Pawn pawn, RimWorld.LifeStageDef previousLifeStage) [0x00050] in <61e4173561894da49d210260257b5097>:0 
     - TRANSPILER rimworld.erdelf.alien_race.main: IEnumerable`1 AlienRace.HarmonyPatches:AdultLifeStageStartedTranspiler(IEnumerable`1 instructions)
@@ -546,38 +696,312 @@ Error while determining if Personae_62898 should have Need Chemical_Alcohol: Sys
     - PREFIX RedMattis.BetterPrerequisites: Void BigAndSmall.AddOrRemoveNeedsAsAppropriate_Patch:Prefix()
     - POSTFIX OskarPotocki.VEF: Void VEF.AestheticScaling.VanillaExpandedFramework_Pawn_NeedsTracker_AddOrRemoveNeedsAsAppropriate_Patch:Postfix()
     - POSTFIX RedMattis.BetterPrerequisites: Void BigAndSmall.AddOrRemoveNeedsAsAppropriate_Patch:Postfix()
-Error while determining if Mechanent62927 should have Need Chemical_Alcohol: System.NullReferenceException: Object reference not set to an instance of an object
-[Ref 70197477] Duplicate stacktrace, see ref for original
-Error while determining if Mechanent62932 should have Need Chemical_Alcohol: System.NullReferenceException: Object reference not set to an instance of an object
-[Ref 70197477] Duplicate stacktrace, see ref for original
-Error while determining if Mechanent62937 should have Need Chemical_Alcohol: System.NullReferenceException: Object reference not set to an instance of an object
-[Ref 70197477] Duplicate stacktrace, see ref for original
-Error while determining if Mechanent62943 should have Need Chemical_Alcohol: System.NullReferenceException: Object reference not set to an instance of an object
-[Ref 70197477] Duplicate stacktrace, see ref for original
-Error while determining if Mechanent62946 should have Need Chemical_Alcohol: System.NullReferenceException: Object reference not set to an instance of an object
-[Ref 70197477] Duplicate stacktrace, see ref for original
-Error while determining if Mechanent62953 should have Need Chemical_Alcohol: System.NullReferenceException: Object reference not set to an instance of an object
-[Ref 70197477] Duplicate stacktrace, see ref for original
-Error while determining if Mechanent62958 should have Need Chemical_Alcohol: System.NullReferenceException: Object reference not set to an instance of an object
-[Ref 70197477] Duplicate stacktrace, see ref for original
-RRY_Xenomorph_FaceHugger62990 issued IdleError wait job. The behavior tree should never get here.
-Cannot drop RRY_Xenomorph_Queen52727 without a dropLoc and with an owner whose map is null.
-Cannot drop RRY_Xenomorph_Queen52727 without a dropLoc and with an owner whose map is null.
-[AVP Xenomorphs] [Detach] Detaching facehugger from thrumbo (impregnation complete) (tick 383069)
-[AVP Xenomorphs] [Detach] Detaching facehugger from Skulkill (impregnation complete) (tick 399781)
-[AVP Xenomorphs] [Detach] Detaching facehugger from thrumbo (impregnation complete) (tick 401531)
-[AVP Xenomorphs] [Spawn] thrumbo -> Thrumbomorph via RRY_Spawn_Thrumbomorph (host: thrumbo, bodySize: 4) (tick 410269)
-Trying to save reference to a discarded thing Quail52783 with saveDestroyedThings=true. This means that it's not deep-saved anywhere and is no longer managed by anything in the code, so saving its reference will always fail. , label=otherPawn
-Trying to save reference to a discarded thing Quail52783 with saveDestroyedThings=true. This means that it's not deep-saved anywhere and is no longer managed by anything in the code, so saving its reference will always fail. , label=otherPawn
-Trying to save reference to a discarded thing Quail52783 with saveDestroyedThings=true. This means that it's not deep-saved anywhere and is no longer managed by anything in the code, so saving its reference will always fail. , label=otherPawn
-Trying to save reference to a discarded thing Quail52783 with saveDestroyedThings=true. This means that it's not deep-saved anywhere and is no longer managed by anything in the code, so saving its reference will always fail. , label=otherPawn
-Trying to save reference to a discarded thing Sparrow52800 with saveDestroyedThings=true. This means that it's not deep-saved anywhere and is no longer managed by anything in the code, so saving its reference will always fail. , label=otherPawn
-Trying to save reference to a discarded thing Sparrow52799 with saveDestroyedThings=true. This means that it's not deep-saved anywhere and is no longer managed by anything in the code, so saving its reference will always fail. , label=otherPawn
-Trying to save reference to a discarded thing Sparrow52800 with saveDestroyedThings=true. This means that it's not deep-saved anywhere and is no longer managed by anything in the code, so saving its reference will always fail. , label=otherPawn
-Trying to save reference to a discarded thing Sparrow52799 with saveDestroyedThings=true. This means that it's not deep-saved anywhere and is no longer managed by anything in the code, so saving its reference will always fail. , label=otherPawn
+Trying to save reference to a discarded thing Adderly with saveDestroyedThings=true. This means that it's not deep-saved anywhere and is no longer managed by anything in the code, so saving its reference will always fail. , label=pawn
+Trying to save reference to a discarded thing Adderly with saveDestroyedThings=true. This means that it's not deep-saved anywhere and is no longer managed by anything in the code, so saving its reference will always fail. , label=pawn
+Wrote screenshot C:\Users\clint\AppData\LocalLow\Ludeon Studios\RimWorld by Ludeon Studios\RimSaves\Previews\Autosave-3.dat of size 222966
+Bison54448 on unwalkable cell (171, 0, 148). Teleporting to (171, 0, 147)
+Trying to save reference to a discarded thing Adderly with saveDestroyedThings=true. This means that it's not deep-saved anywhere and is no longer managed by anything in the code, so saving its reference will always fail. , label=pawn
+Trying to save reference to a discarded thing Adderly with saveDestroyedThings=true. This means that it's not deep-saved anywhere and is no longer managed by anything in the code, so saving its reference will always fail. , label=pawn
+Wrote screenshot C:\Users\clint\AppData\LocalLow\Ludeon Studios\RimWorld by Ludeon Studios\RimSaves\Previews\USCSS 2160.dat of size 137178
+Exception ticking Bullet_Minigun78636. Suppressing further errors. Exception: System.NullReferenceException: Object reference not set to an instance of an object
+[Ref 3ED13AD5] Duplicate stacktrace, see ref for original
+Exception ticking Bullet_Minigun78637. Suppressing further errors. Exception: System.NullReferenceException: Object reference not set to an instance of an object
+[Ref 3ED13AD5] Duplicate stacktrace, see ref for original
+Trying to save reference to a discarded thing Adderly with saveDestroyedThings=true. This means that it's not deep-saved anywhere and is no longer managed by anything in the code, so saving its reference will always fail. , label=pawn
+Trying to save reference to a discarded thing Adderly with saveDestroyedThings=true. This means that it's not deep-saved anywhere and is no longer managed by anything in the code, so saving its reference will always fail. , label=pawn
+Wrote screenshot C:\Users\clint\AppData\LocalLow\Ludeon Studios\RimWorld by Ludeon Studios\RimSaves\Previews\Autosave-4.dat of size 151316
+Attempted to draw Boomrat75641 without a resolved render tree.
+Attempted to draw Seal75933 without a resolved render tree.
+Attempted to draw Seal75934 without a resolved render tree.
+Attempted to draw Seal71879 without a resolved render tree.
+Attempted to draw Seal75931 without a resolved render tree.
+Attempted to draw Rat78510 without a resolved render tree.
+AM.Events.AudioEvent must be instantiated using the ScriptableObject.CreateInstance method instead of new AudioEvent.
+AM.Events.CamShakeEvent must be instantiated using the ScriptableObject.CreateInstance method instead of new CamShakeEvent.
+AM.Events.ClashAudioEvent must be instantiated using the ScriptableObject.CreateInstance method instead of new ClashAudioEvent.
+AM.Events.DamageEffectEvent must be instantiated using the ScriptableObject.CreateInstance method instead of new DamageEffectEvent.
+AM.Events.DuelEvent must be instantiated using the ScriptableObject.CreateInstance method instead of new DuelEvent.
+AM.Events.GoreSplashEvent must be instantiated using the ScriptableObject.CreateInstance method instead of new GoreSplashEvent.
+AM.Events.KillPawnEvent must be instantiated using the ScriptableObject.CreateInstance method instead of new KillPawnEvent.
+AM.Events.MoteEvent must be instantiated using the ScriptableObject.CreateInstance method instead of new MoteEvent.
+AM.Events.PuntPawnEvent must be instantiated using the ScriptableObject.CreateInstance method instead of new PuntPawnEvent.
+AM.Events.TextMoteEvent must be instantiated using the ScriptableObject.CreateInstance method instead of new TextMoteEvent.
+AM.Events.MoteEvent must be instantiated using the ScriptableObject.CreateInstance method instead of new MoteEvent.
+Trying to save reference to a discarded thing Adderly with saveDestroyedThings=true. This means that it's not deep-saved anywhere and is no longer managed by anything in the code, so saving its reference will always fail. , label=pawn
+Trying to save reference to a discarded thing Adderly with saveDestroyedThings=true. This means that it's not deep-saved anywhere and is no longer managed by anything in the code, so saving its reference will always fail. , label=pawn
+Wrote screenshot C:\Users\clint\AppData\LocalLow\Ludeon Studios\RimWorld by Ludeon Studios\RimSaves\Previews\Autosave-5.dat of size 178060
+Cannot drop RRY_Xenomorph_Queen54382 without a dropLoc and with an owner whose map is null.
+Trying to save reference to a discarded thing Adderly with saveDestroyedThings=true. This means that it's not deep-saved anywhere and is no longer managed by anything in the code, so saving its reference will always fail. , label=pawn
+Trying to save reference to a discarded thing Adderly with saveDestroyedThings=true. This means that it's not deep-saved anywhere and is no longer managed by anything in the code, so saving its reference will always fail. , label=pawn
+Wrote screenshot C:\Users\clint\AppData\LocalLow\Ludeon Studios\RimWorld by Ludeon Studios\RimSaves\Previews\Autosave-1.dat of size 160769
+null texture passed to GUI.DrawTexture
+null texture passed to GUI.DrawTexture
+null texture passed to GUI.DrawTexture
+null texture passed to GUI.DrawTexture
+null texture passed to GUI.DrawTexture
+null texture passed to GUI.DrawTexture
+null texture passed to GUI.DrawTexture
+null texture passed to GUI.DrawTexture
+null texture passed to GUI.DrawTexture
+null texture passed to GUI.DrawTexture
+null texture passed to GUI.DrawTexture
+null texture passed to GUI.DrawTexture
+null texture passed to GUI.DrawTexture
+null texture passed to GUI.DrawTexture
+null texture passed to GUI.DrawTexture
+null texture passed to GUI.DrawTexture
+null texture passed to GUI.DrawTexture
+null texture passed to GUI.DrawTexture
+null texture passed to GUI.DrawTexture
+null texture passed to GUI.DrawTexture
+null texture passed to GUI.DrawTexture
+null texture passed to GUI.DrawTexture
+null texture passed to GUI.DrawTexture
+null texture passed to GUI.DrawTexture
+null texture passed to GUI.DrawTexture
+null texture passed to GUI.DrawTexture
+null texture passed to GUI.DrawTexture
+null texture passed to GUI.DrawTexture
+null texture passed to GUI.DrawTexture
+null texture passed to GUI.DrawTexture
+null texture passed to GUI.DrawTexture
+null texture passed to GUI.DrawTexture
+null texture passed to GUI.DrawTexture
+null texture passed to GUI.DrawTexture
+null texture passed to GUI.DrawTexture
+null texture passed to GUI.DrawTexture
+null texture passed to GUI.DrawTexture
+null texture passed to GUI.DrawTexture
+null texture passed to GUI.DrawTexture
+null texture passed to GUI.DrawTexture
+null texture passed to GUI.DrawTexture
+null texture passed to GUI.DrawTexture
+null texture passed to GUI.DrawTexture
+null texture passed to GUI.DrawTexture
+null texture passed to GUI.DrawTexture
+null texture passed to GUI.DrawTexture
+null texture passed to GUI.DrawTexture
+null texture passed to GUI.DrawTexture
+null texture passed to GUI.DrawTexture
+null texture passed to GUI.DrawTexture
+null texture passed to GUI.DrawTexture
+null texture passed to GUI.DrawTexture
+null texture passed to GUI.DrawTexture
+null texture passed to GUI.DrawTexture
+null texture passed to GUI.DrawTexture
+null texture passed to GUI.DrawTexture
+null texture passed to GUI.DrawTexture
+null texture passed to GUI.DrawTexture
+null texture passed to GUI.DrawTexture
+null texture passed to GUI.DrawTexture
+null texture passed to GUI.DrawTexture
+null texture passed to GUI.DrawTexture
+null texture passed to GUI.DrawTexture
+null texture passed to GUI.DrawTexture
+null texture passed to GUI.DrawTexture
+null texture passed to GUI.DrawTexture
+null texture passed to GUI.DrawTexture
+null texture passed to GUI.DrawTexture
+null texture passed to GUI.DrawTexture
+null texture passed to GUI.DrawTexture
+null texture passed to GUI.DrawTexture
+null texture passed to GUI.DrawTexture
+null texture passed to GUI.DrawTexture
+null texture passed to GUI.DrawTexture
+null texture passed to GUI.DrawTexture
+null texture passed to GUI.DrawTexture
+null texture passed to GUI.DrawTexture
+null texture passed to GUI.DrawTexture
+null texture passed to GUI.DrawTexture
+null texture passed to GUI.DrawTexture
+null texture passed to GUI.DrawTexture
+null texture passed to GUI.DrawTexture
+null texture passed to GUI.DrawTexture
+null texture passed to GUI.DrawTexture
+null texture passed to GUI.DrawTexture
+null texture passed to GUI.DrawTexture
+null texture passed to GUI.DrawTexture
+null texture passed to GUI.DrawTexture
+null texture passed to GUI.DrawTexture
+null texture passed to GUI.DrawTexture
+null texture passed to GUI.DrawTexture
+null texture passed to GUI.DrawTexture
+null texture passed to GUI.DrawTexture
+null texture passed to GUI.DrawTexture
+null texture passed to GUI.DrawTexture
+null texture passed to GUI.DrawTexture
+null texture passed to GUI.DrawTexture
+null texture passed to GUI.DrawTexture
+null texture passed to GUI.DrawTexture
+null texture passed to GUI.DrawTexture
+null texture passed to GUI.DrawTexture
+null texture passed to GUI.DrawTexture
+null texture passed to GUI.DrawTexture
+null texture passed to GUI.DrawTexture
+null texture passed to GUI.DrawTexture
+null texture passed to GUI.DrawTexture
+null texture passed to GUI.DrawTexture
+null texture passed to GUI.DrawTexture
+null texture passed to GUI.DrawTexture
+null texture passed to GUI.DrawTexture
+null texture passed to GUI.DrawTexture
+null texture passed to GUI.DrawTexture
+null texture passed to GUI.DrawTexture
+null texture passed to GUI.DrawTexture
+null texture passed to GUI.DrawTexture
+null texture passed to GUI.DrawTexture
+null texture passed to GUI.DrawTexture
+null texture passed to GUI.DrawTexture
+null texture passed to GUI.DrawTexture
+null texture passed to GUI.DrawTexture
+null texture passed to GUI.DrawTexture
+null texture passed to GUI.DrawTexture
+null texture passed to GUI.DrawTexture
+null texture passed to GUI.DrawTexture
+null texture passed to GUI.DrawTexture
+null texture passed to GUI.DrawTexture
+null texture passed to GUI.DrawTexture
+null texture passed to GUI.DrawTexture
+null texture passed to GUI.DrawTexture
+null texture passed to GUI.DrawTexture
+null texture passed to GUI.DrawTexture
+null texture passed to GUI.DrawTexture
+null texture passed to GUI.DrawTexture
+null texture passed to GUI.DrawTexture
+null texture passed to GUI.DrawTexture
+null texture passed to GUI.DrawTexture
+null texture passed to GUI.DrawTexture
+null texture passed to GUI.DrawTexture
+null texture passed to GUI.DrawTexture
+null texture passed to GUI.DrawTexture
+null texture passed to GUI.DrawTexture
+null texture passed to GUI.DrawTexture
+null texture passed to GUI.DrawTexture
+null texture passed to GUI.DrawTexture
+null texture passed to GUI.DrawTexture
+null texture passed to GUI.DrawTexture
+null texture passed to GUI.DrawTexture
+null texture passed to GUI.DrawTexture
+null texture passed to GUI.DrawTexture
+null texture passed to GUI.DrawTexture
+null texture passed to GUI.DrawTexture
+null texture passed to GUI.DrawTexture
+null texture passed to GUI.DrawTexture
+null texture passed to GUI.DrawTexture
+null texture passed to GUI.DrawTexture
+null texture passed to GUI.DrawTexture
+null texture passed to GUI.DrawTexture
+null texture passed to GUI.DrawTexture
+null texture passed to GUI.DrawTexture
+null texture passed to GUI.DrawTexture
+null texture passed to GUI.DrawTexture
+null texture passed to GUI.DrawTexture
+null texture passed to GUI.DrawTexture
+null texture passed to GUI.DrawTexture
+null texture passed to GUI.DrawTexture
+null texture passed to GUI.DrawTexture
+null texture passed to GUI.DrawTexture
+null texture passed to GUI.DrawTexture
+null texture passed to GUI.DrawTexture
+null texture passed to GUI.DrawTexture
+null texture passed to GUI.DrawTexture
+null texture passed to GUI.DrawTexture
+null texture passed to GUI.DrawTexture
+null texture passed to GUI.DrawTexture
+null texture passed to GUI.DrawTexture
+null texture passed to GUI.DrawTexture
+null texture passed to GUI.DrawTexture
+null texture passed to GUI.DrawTexture
+null texture passed to GUI.DrawTexture
+null texture passed to GUI.DrawTexture
+null texture passed to GUI.DrawTexture
+null texture passed to GUI.DrawTexture
+null texture passed to GUI.DrawTexture
+null texture passed to GUI.DrawTexture
+null texture passed to GUI.DrawTexture
+null texture passed to GUI.DrawTexture
+null texture passed to GUI.DrawTexture
+null texture passed to GUI.DrawTexture
+null texture passed to GUI.DrawTexture
+null texture passed to GUI.DrawTexture
+null texture passed to GUI.DrawTexture
+null texture passed to GUI.DrawTexture
+null texture passed to GUI.DrawTexture
+null texture passed to GUI.DrawTexture
+null texture passed to GUI.DrawTexture
+null texture passed to GUI.DrawTexture
+null texture passed to GUI.DrawTexture
+null texture passed to GUI.DrawTexture
+null texture passed to GUI.DrawTexture
+null texture passed to GUI.DrawTexture
+null texture passed to GUI.DrawTexture
+null texture passed to GUI.DrawTexture
+null texture passed to GUI.DrawTexture
+null texture passed to GUI.DrawTexture
+null texture passed to GUI.DrawTexture
+null texture passed to GUI.DrawTexture
+null texture passed to GUI.DrawTexture
+null texture passed to GUI.DrawTexture
+null texture passed to GUI.DrawTexture
+null texture passed to GUI.DrawTexture
+null texture passed to GUI.DrawTexture
+null texture passed to GUI.DrawTexture
+[AVP Xenomorphs] [Detach] Detaching facehugger from Hoggum (impregnation complete) (tick 1221705)
+[AVP Xenomorphs] [Detach] Detaching facehugger from yak (impregnation complete) (tick 1222298)
+[AVP Xenomorphs] [Detach] Detaching facehugger from Pioik (impregnation complete) (tick 1222721)
+[AVP Xenomorphs] [Detach] Detaching facehugger from Wiogg (impregnation complete) (tick 1223910)
+[AVP Xenomorphs] [Spawn] Hoggum -> Warrior via RRY_Spawn_Humanlike (host: human, bodySize: 0.8) (tick 1248905)
+[AVP Xenomorphs] [Spawn] yak -> Runner via RRY_Spawn_LargeAnimal (host: yak, bodySize: 2.1) (tick 1249498)
+[AVP Xenomorphs] [Spawn] Pioik -> Warrior via RRY_Spawn_Humanlike (host: human, bodySize: 1) (tick 1249921)
+[AVP Xenomorphs] [Spawn] Wiogg -> Warrior via RRY_Spawn_Humanlike (host: human, bodySize: 1) (tick 1251110)
+Trying to save reference to a discarded thing Adderly with saveDestroyedThings=true. This means that it's not deep-saved anywhere and is no longer managed by anything in the code, so saving its reference will always fail. , label=pawn
+Trying to save reference to a discarded thing Adderly with saveDestroyedThings=true. This means that it's not deep-saved anywhere and is no longer managed by anything in the code, so saving its reference will always fail. , label=pawn
 Cannot use LookDeep to save non-IExposable non-null HostDef of type Verse.ThingDef
-Wrote screenshot C:\Users\clint\AppData\LocalLow\Ludeon Studios\RimWorld by Ludeon Studios\RimSaves\Previews\Autosave-5.dat of size 130850
-[AVP Xenomorphs] [Spawn] Skulkill -> Drone via RRY_Spawn_Humanlike (host: human, bodySize: 0.8) (tick 426981)
-[AVP Xenomorphs] [Spawn] thrumbo -> Thrumbomorph via RRY_Spawn_Thrumbomorph (host: thrumbo, bodySize: 4) (tick 428731)
-Tried to spawn Dead Pawn RRY_Xenomorph_Queen52727. Replacing with corpse.
-[AVP Xenomorphs] Queen Queen died - hive at (66, 0, 10) stops spawning
+Cannot use LookDeep to save non-IExposable non-null HostDef of type Verse.ThingDef
+Cannot use LookDeep to save non-IExposable non-null HostDef of type Verse.ThingDef
+Cannot use LookDeep to save non-IExposable non-null HostDef of type Verse.ThingDef
+Wrote screenshot C:\Users\clint\AppData\LocalLow\Ludeon Studios\RimWorld by Ludeon Studios\RimSaves\Previews\Autosave-2.dat of size 190910
+Tried to use variable "pointsOriginal" in a math expression but it doesn't exist.
+Trying to save reference to a discarded thing Adderly with saveDestroyedThings=true. This means that it's not deep-saved anywhere and is no longer managed by anything in the code, so saving its reference will always fail. , label=pawn
+Trying to save reference to a discarded thing Adderly with saveDestroyedThings=true. This means that it's not deep-saved anywhere and is no longer managed by anything in the code, so saving its reference will always fail. , label=pawn
+Cannot use LookDeep to save non-IExposable non-null HostDef of type Verse.ThingDef
+Cannot use LookDeep to save non-IExposable non-null HostDef of type Verse.ThingDef
+Cannot use LookDeep to save non-IExposable non-null HostDef of type Verse.ThingDef
+Cannot use LookDeep to save non-IExposable non-null HostDef of type Verse.ThingDef
+Wrote screenshot C:\Users\clint\AppData\LocalLow\Ludeon Studios\RimWorld by Ludeon Studios\RimSaves\Previews\Autosave-3.dat of size 171509
+Trying to save reference to a discarded thing Adderly with saveDestroyedThings=true. This means that it's not deep-saved anywhere and is no longer managed by anything in the code, so saving its reference will always fail. , label=pawn
+Trying to save reference to a discarded thing Adderly with saveDestroyedThings=true. This means that it's not deep-saved anywhere and is no longer managed by anything in the code, so saving its reference will always fail. , label=pawn
+Cannot use LookDeep to save non-IExposable non-null HostDef of type Verse.ThingDef
+Cannot use LookDeep to save non-IExposable non-null HostDef of type Verse.ThingDef
+Cannot use LookDeep to save non-IExposable non-null HostDef of type Verse.ThingDef
+Cannot use LookDeep to save non-IExposable non-null HostDef of type Verse.ThingDef
+Wrote screenshot C:\Users\clint\AppData\LocalLow\Ludeon Studios\RimWorld by Ludeon Studios\RimSaves\Previews\Autosave-4.dat of size 149339
+Geyser spray sustainer still playing after 1000 ticks. Force-ending.
+Trying to save reference to a discarded thing Adderly with saveDestroyedThings=true. This means that it's not deep-saved anywhere and is no longer managed by anything in the code, so saving its reference will always fail. , label=pawn
+Trying to save reference to a discarded thing Adderly with saveDestroyedThings=true. This means that it's not deep-saved anywhere and is no longer managed by anything in the code, so saving its reference will always fail. , label=pawn
+Cannot use LookDeep to save non-IExposable non-null HostDef of type Verse.ThingDef
+Cannot use LookDeep to save non-IExposable non-null HostDef of type Verse.ThingDef
+Cannot use LookDeep to save non-IExposable non-null HostDef of type Verse.ThingDef
+Cannot use LookDeep to save non-IExposable non-null HostDef of type Verse.ThingDef
+Wrote screenshot C:\Users\clint\AppData\LocalLow\Ludeon Studios\RimWorld by Ludeon Studios\RimSaves\Previews\Autosave-5.dat of size 184828
+Daponte threw exception in WorkGiver HaulUrgently: System.NullReferenceException: Object reference not set to an instance of an object
+[Ref 16A8B8B7]
+  at Verse.GridsUtility.Fogged (Verse.Thing t) [0x00006] in <61e4173561894da49d210260257b5097>:0 
+  at Verse.AI.HaulAIUtility.PawnCanAutomaticallyHaulFast_NewTemp (Verse.Pawn p, Verse.Thing t, System.Boolean forced, System.Boolean checkReachability) [0x00000] in <61e4173561894da49d210260257b5097>:0 
+  at Verse.AI.HaulAIUtility.PawnCanAutomaticallyHaulFast (Verse.Pawn p, Verse.Thing t, System.Boolean forced) [0x00000] in <61e4173561894da49d210260257b5097>:0 
+  at AllowTool.WorkGiver_HaulUrgently+<PotentialWorkThingsGlobal>d__3.MoveNext () [0x00052] in <8a098910d6a84b188090b9d6c096e9ee>:0 
+  at System.Linq.Enumerable.Any[TSource] (System.Collections.Generic.IEnumerable`1[T] source) [0x00015] in <1f993cbf88314b1baa1e10ca917bdc64>:0 
+  at Verse.GenCollection.EnumerableNullOrEmpty[T] (System.Collections.Generic.IEnumerable`1[T] enumerable) [0x00019] in <61e4173561894da49d210260257b5097>:0 
+  at Verse.GenClosest.EarlyOutSearch (Verse.IntVec3 start, Verse.Map map, Verse.ThingRequest thingReq, System.Collections.Generic.IEnumerable`1[T] customGlobalSearchSet, System.Predicate`1[T] validator) [0x00079] in <61e4173561894da49d210260257b5097>:0 
+  at Verse.GenClosest.ClosestThingReachable (Verse.IntVec3 root, Verse.Map map, Verse.ThingRequest thingReq, Verse.AI.PathEndMode peMode, Verse.TraverseParms traverseParams, System.Single maxDistance, System.Predicate`1[T] validator, System.Collections.Generic.IEnumerable`1[T] customGlobalSearchSet, System.Int32 searchRegionsMin, System.Int32 searchRegionsMax, System.Boolean forceAllowGlobalSearch, Verse.RegionType traversableRegionTypes, System.Boolean ignoreEntirelyForbiddenRegions, System.Boolean lookInHaulSources) [0x0008c] in <61e4173561894da49d210260257b5097>:0 
+  at RimWorld.JobGiver_Work.TryIssueJobPackage (Verse.Pawn pawn, Verse.AI.JobIssueParams jobParams) [0x00678] in <61e4173561894da49d210260257b5097>:0 
+    - TRANSPILER SmarterConstruction: List`1 SmarterConstruction.Patches.PatchMakeFinishFramesPrioritized:Transpiler(IEnumerable`1 instructions, ILGenerator generator)
+Graham threw exception in WorkGiver HaulUrgently: System.NullReferenceException: Object reference not set to an instance of an object
+[Ref 16A8B8B7] Duplicate stacktrace, see ref for original
+Trying to save reference to a discarded thing Adderly with saveDestroyedThings=true. This means that it's not deep-saved anywhere and is no longer managed by anything in the code, so saving its reference will always fail. , label=pawn
+Trying to save reference to a discarded thing Adderly with saveDestroyedThings=true. This means that it's not deep-saved anywhere and is no longer managed by anything in the code, so saving its reference will always fail. , label=pawn
+Cannot use LookDeep to save non-IExposable non-null HostDef of type Verse.ThingDef
+Cannot use LookDeep to save non-IExposable non-null HostDef of type Verse.ThingDef
+Cannot use LookDeep to save non-IExposable non-null HostDef of type Verse.ThingDef
+Cannot use LookDeep to save non-IExposable non-null HostDef of type Verse.ThingDef
+Wrote screenshot C:\Users\clint\AppData\LocalLow\Ludeon Studios\RimWorld by Ludeon Studios\RimSaves\Previews\Autosave-1.dat of size 200576
