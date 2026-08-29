@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+
+  <!-- Leap flyer — the PawnFlyer def that launches the pawn through the air -->
+  <ThingDef ParentName="EtherealThingBase">
+    <defName>RRY_LeapFlyer</defName>
+    <label>leap</label>
+    <thingClass>PawnFlyer</thingClass>
+    <tickerType>Normal</tickerType>
+    <drawerType>RealtimeOnly</drawerType>
+    <graphicData>
+      <texPath>DummyTexture</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+    </graphicData>
+  </ThingDef>
+
+  <!-- Leap ability -->
+  <AbilityDef>
+    <defName>RRY_Leap</defName>
+    <label>Leap</label>
+    <description>Leap toward a target, closing distance rapidly.</description>
+    <iconPath>UI/Icons/Icon_Xenomorph</iconPath>
+    <warmupSound>CastPsychicAffect</warmupSound>
+    <verbProperties>
+      <verbClass>Verb_CastAbility</verbClass>
+      <range>8</range>
+      <warmupTime>0.3</warmupTime>
+      <targetParams>
+        <canTargetLocations>true</canTargetLocations>
+        <canTargetPawns>true</canTargetPawns>
+        <canTargetBuildings>false</canTargetBuildings>
+      </targetParams>
+    </verbProperties>
+    <comps>
+      <li Class="RRYautja.CompProperties_AbilityLeap">
+        <minDistance>2</minDistance>
+        <maxDistance>8</maxDistance>
+      </li>
+    </comps>
+    <aiCanUse>true</aiCanUse>
+    <ai_IsOffensive>true</ai_IsOffensive>
+    <cooldownTicksRange>
+      <min>300</min>
+      <max>600</max>
+    </cooldownTicksRange>
+    <displayGizmoWhileUndrafted>false</displayGizmoWhileUndrafted>
+    <stunTargetWhileCasting>false</stunTargetWhileCasting>
+    <showWhenDrafted>false</showWhenDrafted>
+    <showOnCharacterCard>false</showOnCharacterCard>
+  </AbilityDef>
+
+  <!-- Hidden hediff that grants the leap ability to facehuggers and runners -->
+  <HediffDef ParentName="DiseaseBase">
+    <defName>RRY_LeapAbility</defName>
+    <label>leap</label>
+    <description>Allows the pawn to leap at targets.</description>
+    <initialSeverity>1</initialSeverity>
+    <stages>
+      <li>
+        <becomeVisible>false</becomeVisible>
+      </li>
+    </stages>
+    <comps>
+      <li Class="Verse.HediffCompProperties_GiveAbility">
+        <abilityDefs>
+          <li>RRY_Leap</li>
+        </abilityDefs>
+      </li>
+    </comps>
+  </HediffDef>
+
+</Defs>

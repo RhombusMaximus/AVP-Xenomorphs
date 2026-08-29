@@ -38,4 +38,15 @@
 
   <!-- Synth hediff giver sets removed -->
 
+  <!-- Leap ability giver set for facehuggers and runners -->
+  <HediffGiverSetDef>
+    <defName>RRY_Xenomorph_Leap</defName>
+    <hediffGivers>
+      <li Class="RRYautja.HediffGiver_StartWithHediff">
+        <hediff>RRY_LeapAbility</hediff>
+        <chance>100</chance>
+      </li>
+    </hediffGivers>
+  </HediffGiverSetDef>
+
 </Defs>
