@@ -98,7 +98,7 @@
       </li>
     </pawnGroupMakers>
     <settlementTexturePath>World/WorldObjects/TribalSettlement</settlementTexturePath>
-    <factionIconPath>Ui/Icons/Icon_Xenomorph</factionIconPath>
+    <factionIconPath>UI/Icons/Icon_Xenomorph</factionIconPath>
     <settlementGenerationWeight>1</settlementGenerationWeight>
     <allowedArrivalTemperatureRange>
       <min>-100</min>
