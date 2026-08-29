@@ -32,7 +32,12 @@ namespace RRYautja
             bool flag3 = Tunnel.Map.mapPawns.AllPawnsSpawned.Any(x => x.isPotentialHost() && pawn.TryGetComp<Comp_Xenomorph>().IsAcceptablePreyFor(pawn, x, true));
             bool flag4 = _HiveGrid.HiveGuardlist.Contains(pawn) || (Tunnel.hiveMaintainer!=null && Tunnel.hiveMaintainer.CurStage != MaintainableStage.Healthy && (_HiveGrid.HiveWorkerlist.Contains(pawn) || _HiveGrid.HiveWorkerlist.NullOrEmpty()));
 
-            if (flag3 || flag4 || Tunnel == null || (Tunnel != null && Tunnel.spawnedPawns.Contains(pawn) && (Tunnel.Position.Roofed(Tunnel.Map) || flag1)) || !pawn.CanReach(Tunnel, PathEndMode.Touch, Danger.Deadly, false, false, TraverseMode.ByPawn))
+            // If pawn is already inside the tunnel, don't re-enter (prevents in-out loop)
+            if (Tunnel.spawnedPawns.Contains(pawn))
+            {
+                return null;
+            }
+            if (flag3 || flag4 || Tunnel == null || !pawn.CanReach(Tunnel, PathEndMode.Touch, Danger.Deadly, false, false, TraverseMode.ByPawn))
             {
                 return null;
             }
@@ -51,13 +56,13 @@ namespace RRYautja
                 if (XenomorphUtil.HivelikesPresent(pawn.Map))
                 {
                     HiveLike hive = (HiveLike)XenomorphUtil.ClosestReachableHivelike(pawn);
-                    if (!hive.hasQueen)
+                    if (hive != null && !hive.hasQueen)
                     {
                         if (hive.Lord!=null && hive.Lord!=pawn.GetLord())
                         {
                             pawn.SwitchToLord(hive.Lord);
                         }
-                        return (HiveLike)XenomorphUtil.ClosestReachableHivelike(pawn);
+                        return hive;
                     }
                 }
             }
