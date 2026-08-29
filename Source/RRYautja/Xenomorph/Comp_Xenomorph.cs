@@ -58,7 +58,7 @@ namespace RRYautja
             Scribe_Defs.Look<PawnKindDef>(ref this.host, "hostRef");
             Scribe_Values.Look<bool>(ref this.hidden, "hidden");
             Scribe_Values.Look<bool>(ref this.Hidden, "Hidden");
-            Scribe_Deep.Look<ThingDef>(ref this.HostDef, "HostDef");
+            Scribe_Defs.Look(ref this.HostDef, "HostDef");
         }
 
         public IntVec3 HiveLoc

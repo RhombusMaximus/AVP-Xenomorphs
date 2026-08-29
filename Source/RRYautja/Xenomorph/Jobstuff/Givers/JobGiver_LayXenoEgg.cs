@@ -49,7 +49,7 @@ namespace RimWorld
                             }
                         }
                     }
-                    Log.Message("queen can reach eggsite");
+                    // Log removed — was spamming every think cycle
                     Predicate<IntVec3> validator = delegate (IntVec3 y)
                     {
                         bool adjacent = c.AdjacentTo8WayOrInside(y);
@@ -63,6 +63,12 @@ namespace RimWorld
 
                     bool b = RCellFinder.TryFindRandomCellNearWith(c, validator, pawn.Map, out IntVec3 lc, 6, 12);
 
+                    // If no valid egg-laying spot found, don't return a job (prevents in-out loop)
+                    if (!b || !lc.IsValid || !lc.InBounds(pawn.Map))
+                    {
+                        return null;
+                    }
+
                     List<Thing> egglist = pawn.Map.listerThings.ThingsOfDef(XenomorphDefOf.RRY_EggXenomorphFertilized).FindAll(x => lc.InHorDistOf(x.Position, 9));
                     bool eggflag = egglist.CountAllowNull() < 40;
                     if (pawn.GetLord() == null)
@@ -75,7 +81,7 @@ namespace RimWorld
                 }
                 else
                 {
-                    Log.Warning("queen couldnt reach eggsite");
+                    // queen couldn't reach primary eggsite — try fallback
                 }
                 if (XenomorphKidnapUtility.TryFindGoodHiveLoc(pawn, out c))
                 {
