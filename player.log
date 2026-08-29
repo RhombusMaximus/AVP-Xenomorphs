@@ -11,7 +11,7 @@ Direct3D:
     VRAM:     8042 MB
     Driver:   32.0.16.1088
 Begin MonoManager ReloadAssembly
-- Loaded All Assemblies, in  4.267 seconds
+- Loaded All Assemblies, in  0.201 seconds
 - Finished resetting the current domain, in  0.001 seconds
 <RI> Initializing input.
 
@@ -20,21 +20,21 @@ Begin MonoManager ReloadAssembly
 <RI> Initialized touch support.
 
 [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
-UnloadTime: 0.718500 ms
+UnloadTime: 0.689800 ms
 Command line arguments: -disable-compute-shaders
 RimWorld 1.6.4871 rev591
 Mod Realistic Humansounds HAR Patch dependency (Mlie.RealisticHumanSounds) needs to have <downloadUrl> and/or <steamWorkshopUrl> specified.
-Fallback handler could not load library D:/SteamLibrary/steamapps/common/RimWorld/RimWorldWin64_Data/MonoBleedingEdge/data-000002333FB232F0.dll
-Fallback handler could not load library D:/SteamLibrary/steamapps/common/RimWorld/RimWorldWin64_Data/MonoBleedingEdge/data-000002337527B0A0.dll
+Fallback handler could not load library D:/SteamLibrary/steamapps/common/RimWorld/RimWorldWin64_Data/MonoBleedingEdge/data-000002F1678AF030.dll
+Fallback handler could not load library D:/SteamLibrary/steamapps/common/RimWorld/RimWorldWin64_Data/MonoBleedingEdge/data-000002F16921E8C0.dll
 [Loading Progress] Loading Progress initialized! Enjoy the rest of your loading experience!
 [HugsLib] version 12.0.0
 [HugsLib] early-initializing AllowTool
-Fallback handler could not load library D:/SteamLibrary/steamapps/common/RimWorld/RimWorldWin64_Data/MonoBleedingEdge/data-000002336AD236E0.dll
+Fallback handler could not load library D:/SteamLibrary/steamapps/common/RimWorld/RimWorldWin64_Data/MonoBleedingEdge/data-000002F16A6A3030.dll
 DubsMintMenus v1.3.1086
 [Analyzer] Loaded version 1.6.0 rev 1
 [Analyzer] ResearchTree
 FPSStabilizer v1.1 loaded, patcher message: Patched successfully, fps set to 60
-Fallback handler could not load library D:/SteamLibrary/steamapps/common/RimWorld/RimWorldWin64_Data/MonoBleedingEdge/data-000002337B990670.dll
+Fallback handler could not load library D:/SteamLibrary/steamapps/common/RimWorld/RimWorldWin64_Data/MonoBleedingEdge/data-000002F16E7FC120.dll
 <color=#66ffb5>[MeleeAnim]</color> Hello, world!
 Build date: 4/13/2026 8:02 AM
 Loaded assemblies (10):
@@ -63,12 +63,17 @@ Remember that you can always disable this again in the mod options.
 Tried to load duplicate UnityEngine.Texture2D with path: FilesystemFile [D:\SteamLibrary\steamapps\common\RimWorld\Mods\AVP-Xenomorphs\Textures\Things\Addons\Blood_Marks\Xenomorph_Kills\Mark_Thrumbomorphkill_south.psd], Length 28603 and internal path: Things/Addons/Blood_Marks/Xenomorph_Kills/Mark_Thrumbomorphkill_south
 Texture TribalA has dimensions of 64 x 64, but its mask has 128 x 128. This is not supported, texture will be excluded from atlas
 Could not load Texture2D at 'UI/Icons/Icon_Xenomorph' in any active mod or in base resources.
+Collection cannot init: No textures found at path Things/Filth/Slime
+Collection cannot init: No textures found at path Things/Filth/Slime
+Collection cannot init: No textures found at path Things/Filth/Slime
 Could not execute post-long-event action. Exception: System.NullReferenceException: Object reference not set to an instance of an object
 [Ref 282A3C73]
   at Verse.ThingDef.<PostLoad>b__398_0 () [0x00046] in <61e4173561894da49d210260257b5097>:0 
   at ilyvion.LoadingProgress.LongEventHandler_ExecuteToExecuteWhenFinished_Patches+<ExecuteToExecuteWhenFinished>d__3.MoveNext () [0x00590] in /home/runner/work/loading-progress/loading-progress/Source/ilyvion.LoadingProgress/LongEventHandler_ExecuteToExecuteWhenFinished_Patches.cs:263 
 Could not execute post-long-event action. Exception: System.NullReferenceException: Object reference not set to an instance of an object
 [Ref 282A3C73] Duplicate stacktrace, see ref for original
+Collection cannot init: No textures found at path Things/Filth/Slime
+Collection cannot init: No textures found at path Things/Filth/Slime
 Could not execute post-long-event action. Exception: System.NullReferenceException: Object reference not set to an instance of an object
 [Ref D931580]
   at AlienRace.ThingDef_AlienRace.<ResolveReferences>b__1_1 () [0x00037] in C:\Program Files (x86)\Steam\steamapps\common\RimWorld\Mods\AlienRaces\Source\AlienRace\AlienRace\ThingDef_AlienRace.cs:282 
@@ -115,8 +120,8 @@ NamesGalore: Current Lang English
 [SmashPhil.VehicleFramework] Applying compatibility patch for ludeon.rimworld.odyssey. Active: Yes
 [VehicleFramework] version 1.6.2144
 Unloading 5 Unused Serialized files (Serialized files now loaded: 9)
-Unloading 1101 unused Assets to reduce memory usage. Loaded Objects now: 48494.
-Total: 406.838300 ms (FindLiveObjects: 2.873200 ms CreateObjectMapping: 3.054800 ms MarkObjects: 399.424300 ms  DeleteObjects: 1.485700 ms)
+Unloading 1101 unused Assets to reduce memory usage. Loaded Objects now: 48492.
+Total: 391.052000 ms (FindLiveObjects: 3.093700 ms CreateObjectMapping: 2.465700 ms MarkObjects: 383.877900 ms  DeleteObjects: 1.614400 ms)
 
 MVCF successfully applied 55 patches
 [com.ogliss.rimworld.mod.rryatuja.minepatch] Patches on methods annotated as Obsolete were detected by HugsLib: RimWorld.Mineable.TrySpawnYield
@@ -316,31 +321,31 @@ Transpilers:
 Postfixes:
   [PeteTimesSix.SimpleSidearms] TryCastShot
 Unloading 2 Unused Serialized files (Serialized files now loaded: 11)
-<color=#66ffb5>[MeleeAnim]</color> PreCached all retexture info in 160.9ms
+<color=#66ffb5>[MeleeAnim]</color> PreCached all retexture info in 152.4ms
 <color=#66ffb5>[MeleeAnim]</color> Loaded tweak data for 58 weapons.
 <color=#66ffb5>[MeleeAnim]</color> ludeon.rimworld.odyssey 'Odyssey' has 2 missing weapon tweak data.
 <color=#66ffb5>[MeleeAnim]</color> ogliss.avpxenomorphs 'AVP Xenomorphs' has 3 missing weapon tweak data.
 <color=#66ffb5>[MeleeAnim]</color> redmattis.betterprerequisites 'Big and Small - Framework' has 1 missing weapon tweak data.
 <color=#66ffb5>[MeleeAnim]</color> tarojun.morishep.onioftherim 'Oni of the Rim' has 6 missing weapon tweak data.
 <color=#66ffb5>[MeleeAnim]</color> Skipping reporting of missing mod/weapons because user opted out or the feature is disabled by the developer.
-<color=#66ffb5>[MeleeAnim]</color> Patched 3 classes that directly inherit from Verb_MeleeAttack in 70.7 ms to detect hits:
+<color=#66ffb5>[MeleeAnim]</color> Patched 3 classes that directly inherit from Verb_MeleeAttack in 70.0 ms to detect hits:
 RimWorld.Verb_MeleeApplyHediff from Assembly-CSharp
 RimWorld.Verb_MeleeAttackDamage from Assembly-CSharp
 RRYautja.Verb_MeleeAttackKnockback from RRYautja
-<color=#66ffb5>[MeleeAnim]</color> Found 4 items of clothing that cover hands, took 0.93 ms:
+<color=#66ffb5>[MeleeAnim]</color> Found 4 items of clothing that cover hands, took 0.97 ms:
 VAE_Handwear_Gloves (Gloves),
 VAE_Handwear_PlateGloves (Plate gloves),
 VAE_Handwear_MarineGloves (Marine gloves),
 VAE_Apparel_Shield_Riot (Riot shield)
-Unloading 195 unused Assets to reduce memory usage. Loaded Objects now: 48663.
-Total: 361.858400 ms (FindLiveObjects: 2.622200 ms CreateObjectMapping: 2.144700 ms MarkObjects: 356.794000 ms  DeleteObjects: 0.297100 ms)
+Unloading 195 unused Assets to reduce memory usage. Loaded Objects now: 48661.
+Total: 370.722400 ms (FindLiveObjects: 2.455500 ms CreateObjectMapping: 3.160000 ms MarkObjects: 364.816400 ms  DeleteObjects: 0.290200 ms)
 
 Unloading 0 Unused Serialized files (Serialized files now loaded: 11)
 Loading asset bundle MuzzleFlash.shaders-windows
 Loaded shader Unlit/AnimatedAdditiveInstanced
 [Muzzle Flash] Shader loaded from MuzzleFlash: Unlit/AnimatedAdditiveInstanced
-Unloading 0 unused Assets to reduce memory usage. Loaded Objects now: 48665.
-Total: 369.714000 ms (FindLiveObjects: 2.387400 ms CreateObjectMapping: 3.119500 ms MarkObjects: 364.133800 ms  DeleteObjects: 0.073000 ms)
+Unloading 0 unused Assets to reduce memory usage. Loaded Objects now: 48663.
+Total: 380.679600 ms (FindLiveObjects: 2.530000 ms CreateObjectMapping: 3.188700 ms MarkObjects: 374.876200 ms  DeleteObjects: 0.084400 ms)
 
 Unloading 0 Unused Serialized files (Serialized files now loaded: 12)
 [Loading Progress] Why is ResearchPal.Profiler.Start from ResearchPal 1.6 - Temp calling DeepProfiler.Start (and by extension our patch) with null?! Stop it.
@@ -350,14 +355,14 @@ Unloading 0 Unused Serialized files (Serialized files now loaded: 12)
 [Loading Progress] Why is ResearchPal.Profiler.Start from ResearchPal 1.6 - Temp calling DeepProfiler.Start (and by extension our patch) with null?! Stop it.
 [Loading Progress] Why is ResearchPal.Profiler.Start from ResearchPal 1.6 - Temp calling DeepProfiler.Start (and by extension our patch) with null?! Stop it.
 ResearchPal :: Research layout initialized
-Unloading 0 unused Assets to reduce memory usage. Loaded Objects now: 48665.
-Total: 363.678400 ms (FindLiveObjects: 2.489000 ms CreateObjectMapping: 3.092300 ms MarkObjects: 358.013700 ms  DeleteObjects: 0.082900 ms)
+Unloading 0 unused Assets to reduce memory usage. Loaded Objects now: 48663.
+Total: 394.311400 ms (FindLiveObjects: 2.523000 ms CreateObjectMapping: 3.151500 ms MarkObjects: 388.560700 ms  DeleteObjects: 0.075800 ms)
 
 Unloading 0 Unused Serialized files (Serialized files now loaded: 12)
-[HugsLib] initializing TerraformRimworld
-Unloading 0 unused Assets to reduce memory usage. Loaded Objects now: 48665.
-Total: 378.027300 ms (FindLiveObjects: 3.122600 ms CreateObjectMapping: 3.228100 ms MarkObjects: 371.588000 ms  DeleteObjects: 0.088400 ms)
+Unloading 0 unused Assets to reduce memory usage. Loaded Objects now: 48663.
+Total: 373.142100 ms (FindLiveObjects: 3.274700 ms CreateObjectMapping: 3.125400 ms MarkObjects: 366.627800 ms  DeleteObjects: 0.113800 ms)
 
+[HugsLib] initializing TerraformRimworld
 CE is trying to create default parameter lists ...
 creating default parameter list for genes...
 668 default entities for genes created
@@ -375,13 +380,13 @@ no modifications for lifestages
 These are either from HAR races or B&S races automatically converted for compatibility.
 RandomElementByWeight with totalWeight=0 - use TryRandomElementByWeight.
 Unloading 2 Unused Serialized files (Serialized files now loaded: 12)
-Unloading 1 unused Assets to reduce memory usage. Loaded Objects now: 50648.
-Total: 452.909000 ms (FindLiveObjects: 2.463400 ms CreateObjectMapping: 3.132100 ms MarkObjects: 447.213300 ms  DeleteObjects: 0.099800 ms)
+Unloading 1 unused Assets to reduce memory usage. Loaded Objects now: 50646.
+Total: 425.608100 ms (FindLiveObjects: 3.230500 ms CreateObjectMapping: 3.245800 ms MarkObjects: 419.021500 ms  DeleteObjects: 0.109800 ms)
 
 Unloading 3 Unused Serialized files (Serialized files now loaded: 12)
-UnloadTime: 1.520900 ms
-Unloading 3 unused Assets to reduce memory usage. Loaded Objects now: 51175.
-Total: 432.616700 ms (FindLiveObjects: 2.551400 ms CreateObjectMapping: 1.959500 ms MarkObjects: 427.997400 ms  DeleteObjects: 0.108200 ms)
+UnloadTime: 0.934200 ms
+Unloading 4 unused Assets to reduce memory usage. Loaded Objects now: 51157.
+Total: 426.793400 ms (FindLiveObjects: 3.351900 ms CreateObjectMapping: 2.800200 ms MarkObjects: 420.522200 ms  DeleteObjects: 0.118800 ms)
 
 Initializing new game with mods:
   - brrainz.harmony
@@ -522,399 +527,97 @@ Initializing new game with mods:
   - VehiclesWrecksExpanded.Revisited
   - Arylice.Rimworld.AutomaticHunting
 [AVP Xenomorphs] Created Xenomorph faction during pawn generation (was missing).
+[Big and Small] G_SnekSixArm Swapped to an AlienRace with an AlienComp. This is somewhat untested.
 checking editor settings...
 bodysizes genes are active
 [AVP Xenomorphs] Xenomorph hive faction already exists.
 Unloading 0 Unused Serialized files (Serialized files now loaded: 12)
-Unloading 1 unused Assets to reduce memory usage. Loaded Objects now: 59259.
-Total: 517.933000 ms (FindLiveObjects: 2.956700 ms CreateObjectMapping: 2.740600 ms MarkObjects: 512.113600 ms  DeleteObjects: 0.121700 ms)
+Unloading 1 unused Assets to reduce memory usage. Loaded Objects now: 59241.
+Total: 444.960200 ms (FindLiveObjects: 3.105800 ms CreateObjectMapping: 3.956700 ms MarkObjects: 437.609500 ms  DeleteObjects: 0.287500 ms)
 
-Could not generate a pawn after 70 tries. Last error: Generated pawn doesn't meet scenario requirements. Ignoring scenario requirements.
-Wrote screenshot C:\Users\clint\AppData\LocalLow\Ludeon Studios\RimWorld by Ludeon Studios\RimSaves\Previews\Autosave-1.dat of size 166452
-Attempted to draw Quail51929 without a resolved render tree.
-Wrote screenshot C:\Users\clint\AppData\LocalLow\Ludeon Studios\RimWorld by Ludeon Studios\RimSaves\Previews\Autosave-2.dat of size 133090
-Could not reserve Thing_DoubleBed55799 (layer: null) for Earl for job HaulToContainer (Job_87516) A = Thing_DoubleBed55799 B = Thing_Blueprint_Install_DoubleBed55936 Giver = JobGiver_Work [workGiverDef: ConstructDeliverResourcesToBlueprints] (now doing job HaulToContainer (Job_87516) A = Thing_DoubleBed55799 B = Thing_Blueprint_Install_DoubleBed55936 Giver = JobGiver_Work [workGiverDef: ConstructDeliverResourcesToBlueprints](curToil=-1)) for maxPawns 1 and stackCount -1.
-Existing reservers:
-   [0] Teiko (job: HaulToCell (Job_85912) A = Thing_FT_BlocksConcrete55882 B = (215, 0, 186), toil: 9, maxPawns: 2, stackCount: 0)
-TryMakePreToilReservations() returned false for a non-queued job right after StartJob(). This should have been checked before. pawn = Earl, curJob = HaulToContainer (Job_87516) A = Thing_DoubleBed55799 B = Thing_Blueprint_Install_DoubleBed55936 Giver = JobGiver_Work [workGiverDef: ConstructDeliverResourcesToBlueprints]
-Could not reserve Thing_DoubleBed55799 (layer: null) for Earl for job HaulToContainer (Job_87982) A = Thing_DoubleBed55799 B = Thing_Blueprint_Install_DoubleBed55936 Giver = JobGiver_Work [workGiverDef: ConstructDeliverResourcesToBlueprints] (now doing job HaulToContainer (Job_87982) A = Thing_DoubleBed55799 B = Thing_Blueprint_Install_DoubleBed55936 Giver = JobGiver_Work [workGiverDef: ConstructDeliverResourcesToBlueprints](curToil=-1)) for maxPawns 1 and stackCount -1.
-Existing reservers:
-   [0] Teiko (job: LayDown (Job_85911) A = Thing_DoubleBed55799 Giver = ThinkNode_QueuedJob [workGiverDef: null], toil: 2, maxPawns: 2, stackCount: 0)
-TryMakePreToilReservations() returned false for a non-queued job right after StartJob(). This should have been checked before. pawn = Earl, curJob = HaulToContainer (Job_87982) A = Thing_DoubleBed55799 B = Thing_Blueprint_Install_DoubleBed55936 Giver = JobGiver_Work [workGiverDef: ConstructDeliverResourcesToBlueprints]
-Could not reserve Thing_DoubleBed55799 (layer: null) for Earl for job HaulToContainer (Job_88179) A = Thing_DoubleBed55799 B = Thing_Blueprint_Install_DoubleBed55936 Giver = JobGiver_Work [workGiverDef: ConstructDeliverResourcesToBlueprints] (now doing job HaulToContainer (Job_88179) A = Thing_DoubleBed55799 B = Thing_Blueprint_Install_DoubleBed55936 Giver = JobGiver_Work [workGiverDef: ConstructDeliverResourcesToBlueprints](curToil=-1)) for maxPawns 1 and stackCount -1.
-Existing reservers:
-   [0] Teiko (job: LayDown (Job_85911) A = Thing_DoubleBed55799 Giver = ThinkNode_QueuedJob [workGiverDef: null], toil: 2, maxPawns: 2, stackCount: 0)
-TryMakePreToilReservations() returned false for a non-queued job right after StartJob(). This should have been checked before. pawn = Earl, curJob = HaulToContainer (Job_88179) A = Thing_DoubleBed55799 B = Thing_Blueprint_Install_DoubleBed55936 Giver = JobGiver_Work [workGiverDef: ConstructDeliverResourcesToBlueprints]
-Could not reserve Thing_DoubleBed55799 (layer: null) for Earl for job HaulToContainer (Job_88231) A = Thing_DoubleBed55799 B = Thing_Blueprint_Install_DoubleBed55936 Giver = JobGiver_Work [workGiverDef: ConstructDeliverResourcesToBlueprints] (now doing job HaulToContainer (Job_88231) A = Thing_DoubleBed55799 B = Thing_Blueprint_Install_DoubleBed55936 Giver = JobGiver_Work [workGiverDef: ConstructDeliverResourcesToBlueprints](curToil=-1)) for maxPawns 1 and stackCount -1.
-Existing reservers:
-   [0] Teiko (job: LayDown (Job_85911) A = Thing_DoubleBed55799 Giver = ThinkNode_QueuedJob [workGiverDef: null], toil: 2, maxPawns: 2, stackCount: 0)
-TryMakePreToilReservations() returned false for a non-queued job right after StartJob(). This should have been checked before. pawn = Earl, curJob = HaulToContainer (Job_88231) A = Thing_DoubleBed55799 B = Thing_Blueprint_Install_DoubleBed55936 Giver = JobGiver_Work [workGiverDef: ConstructDeliverResourcesToBlueprints]
-Could not reserve Thing_DoubleBed55799 (layer: null) for Ozuna for job HaulToContainer (Job_89720) A = Thing_DoubleBed55799 B = Thing_Blueprint_Install_DoubleBed55936 Giver = JobGiver_Work [workGiverDef: ConstructDeliverResourcesToBlueprints] (now doing job HaulToContainer (Job_89720) A = Thing_DoubleBed55799 B = Thing_Blueprint_Install_DoubleBed55936 Giver = JobGiver_Work [workGiverDef: ConstructDeliverResourcesToBlueprints](curToil=-1)) for maxPawns 1 and stackCount -1.
-Existing reservers:
-   [0] Teiko (job: LayDown (Job_85911) A = Thing_DoubleBed55799 Giver = ThinkNode_QueuedJob [workGiverDef: null], toil: 2, maxPawns: 2, stackCount: 0)
-TryMakePreToilReservations() returned false for a non-queued job right after StartJob(). This should have been checked before. pawn = Ozuna, curJob = HaulToContainer (Job_89720) A = Thing_DoubleBed55799 B = Thing_Blueprint_Install_DoubleBed55936 Giver = JobGiver_Work [workGiverDef: ConstructDeliverResourcesToBlueprints]
-Could not reserve Thing_DoubleBed55799 (layer: null) for Ozuna for job HaulToContainer (Job_89768) A = Thing_DoubleBed55799 B = Thing_Blueprint_Install_DoubleBed55936 Giver = JobGiver_Work [workGiverDef: ConstructDeliverResourcesToBlueprints] (now doing job HaulToContainer (Job_89768) A = Thing_DoubleBed55799 B = Thing_Blueprint_Install_DoubleBed55936 Giver = JobGiver_Work [workGiverDef: ConstructDeliverResourcesToBlueprints](curToil=-1)) for maxPawns 1 and stackCount -1.
-Existing reservers:
-   [0] Teiko (job: LayDown (Job_85911) A = Thing_DoubleBed55799 Giver = ThinkNode_QueuedJob [workGiverDef: null], toil: 2, maxPawns: 2, stackCount: 0)
-TryMakePreToilReservations() returned false for a non-queued job right after StartJob(). This should have been checked before. pawn = Ozuna, curJob = HaulToContainer (Job_89768) A = Thing_DoubleBed55799 B = Thing_Blueprint_Install_DoubleBed55936 Giver = JobGiver_Work [workGiverDef: ConstructDeliverResourcesToBlueprints]
-Could not reserve Thing_DoubleBed55799 (layer: null) for Dampeer for job HaulToContainer (Job_89773) A = Thing_DoubleBed55799 B = Thing_Blueprint_Install_DoubleBed55936 Giver = JobGiver_Work [workGiverDef: ConstructDeliverResourcesToBlueprints] (now doing job HaulToContainer (Job_89773) A = Thing_DoubleBed55799 B = Thing_Blueprint_Install_DoubleBed55936 Giver = JobGiver_Work [workGiverDef: ConstructDeliverResourcesToBlueprints](curToil=-1)) for maxPawns 1 and stackCount -1.
-Existing reservers:
-   [0] Teiko (job: LayDown (Job_85911) A = Thing_DoubleBed55799 Giver = ThinkNode_QueuedJob [workGiverDef: null], toil: 2, maxPawns: 2, stackCount: 0)
-TryMakePreToilReservations() returned false for a non-queued job right after StartJob(). This should have been checked before. pawn = Dampeer, curJob = HaulToContainer (Job_89773) A = Thing_DoubleBed55799 B = Thing_Blueprint_Install_DoubleBed55936 Giver = JobGiver_Work [workGiverDef: ConstructDeliverResourcesToBlueprints]
-Could not reserve Thing_DoubleBed55799 (layer: null) for Ozuna for job HaulToContainer (Job_89829) A = Thing_DoubleBed55799 B = Thing_Blueprint_Install_DoubleBed55936 Giver = JobGiver_Work [workGiverDef: ConstructDeliverResourcesToBlueprints] (now doing job HaulToContainer (Job_89829) A = Thing_DoubleBed55799 B = Thing_Blueprint_Install_DoubleBed55936 Giver = JobGiver_Work [workGiverDef: ConstructDeliverResourcesToBlueprints](curToil=-1)) for maxPawns 1 and stackCount -1.
-Existing reservers:
-   [0] Teiko (job: LayDown (Job_85911) A = Thing_DoubleBed55799 Giver = ThinkNode_QueuedJob [workGiverDef: null], toil: 2, maxPawns: 2, stackCount: 0)
-TryMakePreToilReservations() returned false for a non-queued job right after StartJob(). This should have been checked before. pawn = Ozuna, curJob = HaulToContainer (Job_89829) A = Thing_DoubleBed55799 B = Thing_Blueprint_Install_DoubleBed55936 Giver = JobGiver_Work [workGiverDef: ConstructDeliverResourcesToBlueprints]
-Could not reserve Thing_DoubleBed55799 (layer: null) for Ozuna for job HaulToContainer (Job_89887) A = Thing_DoubleBed55799 B = Thing_Blueprint_Install_DoubleBed55936 Giver = JobGiver_Work [workGiverDef: ConstructDeliverResourcesToBlueprints] (now doing job HaulToContainer (Job_89887) A = Thing_DoubleBed55799 B = Thing_Blueprint_Install_DoubleBed55936 Giver = JobGiver_Work [workGiverDef: ConstructDeliverResourcesToBlueprints](curToil=-1)) for maxPawns 1 and stackCount -1.
-Existing reservers:
-   [0] Teiko (job: LayDown (Job_85911) A = Thing_DoubleBed55799 Giver = ThinkNode_QueuedJob [workGiverDef: null], toil: 2, maxPawns: 2, stackCount: 0)
-TryMakePreToilReservations() returned false for a non-queued job right after StartJob(). This should have been checked before. pawn = Ozuna, curJob = HaulToContainer (Job_89887) A = Thing_DoubleBed55799 B = Thing_Blueprint_Install_DoubleBed55936 Giver = JobGiver_Work [workGiverDef: ConstructDeliverResourcesToBlueprints]
-Could not reserve Thing_DoubleBed55799 (layer: null) for Earl for job HaulToContainer (Job_89899) A = Thing_DoubleBed55799 B = Thing_Blueprint_Install_DoubleBed55936 Giver = JobGiver_Work [workGiverDef: ConstructDeliverResourcesToBlueprints] (now doing job HaulToContainer (Job_89899) A = Thing_DoubleBed55799 B = Thing_Blueprint_Install_DoubleBed55936 Giver = JobGiver_Work [workGiverDef: ConstructDeliverResourcesToBlueprints](curToil=-1)) for maxPawns 1 and stackCount -1.
-Existing reservers:
-   [0] Teiko (job: LayDown (Job_85911) A = Thing_DoubleBed55799 Giver = ThinkNode_QueuedJob [workGiverDef: null], toil: 2, maxPawns: 2, stackCount: 0)
-TryMakePreToilReservations() returned false for a non-queued job right after StartJob(). This should have been checked before. pawn = Earl, curJob = HaulToContainer (Job_89899) A = Thing_DoubleBed55799 B = Thing_Blueprint_Install_DoubleBed55936 Giver = JobGiver_Work [workGiverDef: ConstructDeliverResourcesToBlueprints]
-Could not reserve Thing_DoubleBed55799 (layer: null) for Ozuna for job HaulToContainer (Job_89960) A = Thing_DoubleBed55799 B = Thing_Blueprint_Install_DoubleBed55936 Giver = JobGiver_Work [workGiverDef: ConstructDeliverResourcesToBlueprints] (now doing job HaulToContainer (Job_89960) A = Thing_DoubleBed55799 B = Thing_Blueprint_Install_DoubleBed55936 Giver = JobGiver_Work [workGiverDef: ConstructDeliverResourcesToBlueprints](curToil=-1)) for maxPawns 1 and stackCount -1.
-Existing reservers:
-   [0] Teiko (job: LayDown (Job_85911) A = Thing_DoubleBed55799 Giver = ThinkNode_QueuedJob [workGiverDef: null], toil: 2, maxPawns: 2, stackCount: 0)
-TryMakePreToilReservations() returned false for a non-queued job right after StartJob(). This should have been checked before. pawn = Ozuna, curJob = HaulToContainer (Job_89960) A = Thing_DoubleBed55799 B = Thing_Blueprint_Install_DoubleBed55936 Giver = JobGiver_Work [workGiverDef: ConstructDeliverResourcesToBlueprints]
-Could not reserve Thing_DoubleBed55799 (layer: null) for Earl for job HaulToContainer (Job_89966) A = Thing_DoubleBed55799 B = Thing_Blueprint_Install_DoubleBed55936 Giver = JobGiver_Work [workGiverDef: ConstructDeliverResourcesToBlueprints] (now doing job HaulToContainer (Job_89966) A = Thing_DoubleBed55799 B = Thing_Blueprint_Install_DoubleBed55936 Giver = JobGiver_Work [workGiverDef: ConstructDeliverResourcesToBlueprints](curToil=-1)) for maxPawns 1 and stackCount -1.
-Existing reservers:
-   [0] Teiko (job: LayDown (Job_85911) A = Thing_DoubleBed55799 Giver = ThinkNode_QueuedJob [workGiverDef: null], toil: 2, maxPawns: 2, stackCount: 0)
-TryMakePreToilReservations() returned false for a non-queued job right after StartJob(). This should have been checked before. pawn = Earl, curJob = HaulToContainer (Job_89966) A = Thing_DoubleBed55799 B = Thing_Blueprint_Install_DoubleBed55936 Giver = JobGiver_Work [workGiverDef: ConstructDeliverResourcesToBlueprints]
-Could not reserve Thing_DoubleBed55799 (layer: null) for Glasses for job HaulToContainer (Job_89983) A = Thing_DoubleBed55799 B = Thing_Blueprint_Install_DoubleBed55936 Giver = JobGiver_Work [workGiverDef: ConstructDeliverResourcesToBlueprints] (now doing job HaulToContainer (Job_89983) A = Thing_DoubleBed55799 B = Thing_Blueprint_Install_DoubleBed55936 Giver = JobGiver_Work [workGiverDef: ConstructDeliverResourcesToBlueprints](curToil=-1)) for maxPawns 1 and stackCount -1.
-Existing reservers:
-   [0] Teiko (job: LayDown (Job_85911) A = Thing_DoubleBed55799 Giver = ThinkNode_QueuedJob [workGiverDef: null], toil: 2, maxPawns: 2, stackCount: 0)
-TryMakePreToilReservations() returned false for a non-queued job right after StartJob(). This should have been checked before. pawn = Glasses, curJob = HaulToContainer (Job_89983) A = Thing_DoubleBed55799 B = Thing_Blueprint_Install_DoubleBed55936 Giver = JobGiver_Work [workGiverDef: ConstructDeliverResourcesToBlueprints]
-Could not reserve Thing_DoubleBed55799 (layer: null) for Glasses for job HaulToContainer (Job_90026) A = Thing_DoubleBed55799 B = Thing_Blueprint_Install_DoubleBed55936 Giver = JobGiver_Work [workGiverDef: ConstructDeliverResourcesToBlueprints] (now doing job HaulToContainer (Job_90026) A = Thing_DoubleBed55799 B = Thing_Blueprint_Install_DoubleBed55936 Giver = JobGiver_Work [workGiverDef: ConstructDeliverResourcesToBlueprints](curToil=-1)) for maxPawns 1 and stackCount -1.
-Existing reservers:
-   [0] Teiko (job: LayDown (Job_85911) A = Thing_DoubleBed55799 Giver = ThinkNode_QueuedJob [workGiverDef: null], toil: 2, maxPawns: 2, stackCount: 0)
-TryMakePreToilReservations() returned false for a non-queued job right after StartJob(). This should have been checked before. pawn = Glasses, curJob = HaulToContainer (Job_90026) A = Thing_DoubleBed55799 B = Thing_Blueprint_Install_DoubleBed55936 Giver = JobGiver_Work [workGiverDef: ConstructDeliverResourcesToBlueprints]
-Could not reserve Thing_DoubleBed55799 (layer: null) for Earl for job HaulToContainer (Job_90037) A = Thing_DoubleBed55799 B = Thing_Blueprint_Install_DoubleBed55936 Giver = JobGiver_Work [workGiverDef: ConstructDeliverResourcesToBlueprints] (now doing job HaulToContainer (Job_90037) A = Thing_DoubleBed55799 B = Thing_Blueprint_Install_DoubleBed55936 Giver = JobGiver_Work [workGiverDef: ConstructDeliverResourcesToBlueprints](curToil=-1)) for maxPawns 1 and stackCount -1.
-Existing reservers:
-   [0] Teiko (job: LayDown (Job_85911) A = Thing_DoubleBed55799 Giver = ThinkNode_QueuedJob [workGiverDef: null], toil: 2, maxPawns: 2, stackCount: 0)
-TryMakePreToilReservations() returned false for a non-queued job right after StartJob(). This should have been checked before. pawn = Earl, curJob = HaulToContainer (Job_90037) A = Thing_DoubleBed55799 B = Thing_Blueprint_Install_DoubleBed55936 Giver = JobGiver_Work [workGiverDef: ConstructDeliverResourcesToBlueprints]
-Could not reserve Thing_DoubleBed55799 (layer: null) for Glasses for job HaulToContainer (Job_90094) A = Thing_DoubleBed55799 B = Thing_Blueprint_Install_DoubleBed55936 Giver = JobGiver_Work [workGiverDef: ConstructDeliverResourcesToBlueprints] (now doing job HaulToContainer (Job_90094) A = Thing_DoubleBed55799 B = Thing_Blueprint_Install_DoubleBed55936 Giver = JobGiver_Work [workGiverDef: ConstructDeliverResourcesToBlueprints](curToil=-1)) for maxPawns 1 and stackCount -1.
-Existing reservers:
-   [0] Teiko (job: LayDown (Job_85911) A = Thing_DoubleBed55799 Giver = ThinkNode_QueuedJob [workGiverDef: null], toil: 2, maxPawns: 2, stackCount: 0)
-TryMakePreToilReservations() returned false for a non-queued job right after StartJob(). This should have been checked before. pawn = Glasses, curJob = HaulToContainer (Job_90094) A = Thing_DoubleBed55799 B = Thing_Blueprint_Install_DoubleBed55936 Giver = JobGiver_Work [workGiverDef: ConstructDeliverResourcesToBlueprints]
-Wrote screenshot C:\Users\clint\AppData\LocalLow\Ludeon Studios\RimWorld by Ludeon Studios\RimSaves\Previews\Autosave-3.dat of size 112212
-Wrote screenshot C:\Users\clint\AppData\LocalLow\Ludeon Studios\RimWorld by Ludeon Studios\RimSaves\Previews\USCSS Colony50.dat of size 55735
-Wrote screenshot C:\Users\clint\AppData\LocalLow\Ludeon Studios\RimWorld by Ludeon Studios\RimSaves\Previews\Autosave-4.dat of size 142841
-Wrote screenshot C:\Users\clint\AppData\LocalLow\Ludeon Studios\RimWorld by Ludeon Studios\RimSaves\Previews\USCSS.dat of size 77544
-Exception thrown from thread=674.
-System.Threading.ThreadAbortException: Thread was being aborted.
-[Ref 54CF78B3]
-(wrapper managed-to-native) System.Threading.Monitor.Monitor_wait(object,int)
-  at System.Threading.Monitor.ObjWait (System.Boolean exitContext, System.Int32 millisecondsTimeout, System.Object obj) [0x0002f] in <51fded79cd284d4d911c5949aff4cb21>:0 
-  at System.Threading.Monitor.Wait (System.Object obj, System.Int32 millisecondsTimeout, System.Boolean exitContext) [0x0000e] in <51fded79cd284d4d911c5949aff4cb21>:0 
-  at System.Threading.Monitor.Wait (System.Object obj, System.Int32 millisecondsTimeout) [0x00000] in <51fded79cd284d4d911c5949aff4cb21>:0 
-  at System.Threading.ManualResetEventSlim.Wait (System.Int32 millisecondsTimeout, System.Threading.CancellationToken cancellationToken) [0x00100] in <51fded79cd284d4d911c5949aff4cb21>:0 
-  at System.Threading.ManualResetEventSlim.Wait () [0x00000] in <51fded79cd284d4d911c5949aff4cb21>:0 
-  at SmashTools.Performance.DedicatedThread.Execute () [0x0000c] in C:\Program Files (x86)\Steam\steamapps\common\RimWorld\Mods\Vehicle-Framework\SmashTools\SmashTools\SmashTools\Performance\Multithreading\DedicatedThread.cs:168 
-Memory Statistics:
-[ALLOC_TEMP_TLS] TLS Allocator
-  StackAllocators : 
-    [ALLOC_TEMP_MAIN]
-      Peak usage frame count: [0-1.0 KB]: 7214 frames, [1.0 KB-2.0 KB]: 40 frames, [2.0 KB-4.0 KB]: 96564 frames, [4.0 KB-8.0 KB]: 5507 frames, [8.0 KB-16.0 KB]: 564 frames, [16.0 KB-32.0 KB]: 282 frames, [32.0 KB-64.0 KB]: 91 frames, [64.0 KB-128.0 KB]: 232 frames, [128.0 KB-256.0 KB]: 9 frames, [256.0 KB-0.5 MB]: 21 frames, [0.5 MB-1.0 MB]: 4 frames, [1.0 MB-2.0 MB]: 16 frames, [2.0 MB-4.0 MB]: 9 frames, [4.0 MB-8.0 MB]: 22 frames
-      Initial Block Size 4.0 MB
-      Current Block Size 7.3 MB
-      Peak Allocated Bytes 7.3 MB
-      Overflow Count 38
-    [ALLOC_TEMP_Loading.AsyncRead]
-      Initial Block Size 64.0 KB
-      Current Block Size 120.0 KB
-      Peak Allocated Bytes 117.2 KB
-      Overflow Count 0
-    [ALLOC_TEMP_Loading.PreloadManager]
-      Initial Block Size 256.0 KB
-      Current Block Size 256.0 KB
-      Peak Allocated Bytes 3.8 KB
-      Overflow Count 8
-    [ALLOC_TEMP_Background Job.Worker 8]
-      Initial Block Size 32.0 KB
-      Current Block Size 32.0 KB
-      Peak Allocated Bytes 54 B
-      Overflow Count 0
-    [ALLOC_TEMP_Job.Worker 6]
-      Initial Block Size 256.0 KB
-      Current Block Size 256.0 KB
-      Peak Allocated Bytes 160 B
-      Overflow Count 0
-    [ALLOC_TEMP_Job.Worker 0]
-      Initial Block Size 256.0 KB
-      Current Block Size 256.0 KB
-      Peak Allocated Bytes 160 B
-      Overflow Count 0
-    [ALLOC_TEMP_Background Job.Worker 10]
-      Initial Block Size 32.0 KB
-      Current Block Size 32.0 KB
-      Peak Allocated Bytes 54 B
-      Overflow Count 0
-    [ALLOC_TEMP_Background Job.Worker 9]
-      Initial Block Size 32.0 KB
-      Current Block Size 32.0 KB
-      Peak Allocated Bytes 54 B
-      Overflow Count 0
-    [ALLOC_TEMP_Job.Worker 5]
-      Initial Block Size 256.0 KB
-      Current Block Size 256.0 KB
-      Peak Allocated Bytes 176 B
-      Overflow Count 0
-    [ALLOC_TEMP_Background Job.Worker 14]
-      Initial Block Size 32.0 KB
-      Current Block Size 32.0 KB
-      Peak Allocated Bytes 54 B
-      Overflow Count 0
-    [ALLOC_TEMP_Background Job.Worker 6]
-      Initial Block Size 32.0 KB
-      Current Block Size 32.0 KB
-      Peak Allocated Bytes 54 B
-      Overflow Count 0
-    [ALLOC_TEMP_Job.Worker 4]
-      Initial Block Size 256.0 KB
-      Current Block Size 256.0 KB
-      Peak Allocated Bytes 144 B
-      Overflow Count 0
-    [ALLOC_TEMP_ReadCacheIndex]
-      Initial Block Size 64.0 KB
-      Current Block Size 64.0 KB
-      Peak Allocated Bytes 0.6 KB
-      Overflow Count 0
-    [ALLOC_TEMP_Job.Worker 3]
-      Initial Block Size 256.0 KB
-      Current Block Size 256.0 KB
-      Peak Allocated Bytes 160 B
-      Overflow Count 0
-    [ALLOC_TEMP_Background Job.Worker 12]
-      Initial Block Size 32.0 KB
-      Current Block Size 32.0 KB
-      Peak Allocated Bytes 54 B
-      Overflow Count 0
-    [ALLOC_TEMP_EnlightenWorker] x 6
-      Initial Block Size 64.0 KB
-      Current Block Size 64.0 KB
-      Peak Allocated Bytes 54 B
-      Overflow Count 0
-    [ALLOC_TEMP_Background Job.Worker 15]
-      Initial Block Size 32.0 KB
-      Current Block Size 32.0 KB
-      Peak Allocated Bytes 54 B
-      Overflow Count 0
-    [ALLOC_TEMP_Background Job.Worker 1]
-      Initial Block Size 32.0 KB
-      Current Block Size 32.0 KB
-      Peak Allocated Bytes 54 B
-      Overflow Count 0
-    [ALLOC_TEMP_Background Job.Worker 2]
-      Initial Block Size 32.0 KB
-      Current Block Size 32.0 KB
-      Peak Allocated Bytes 54 B
-      Overflow Count 0
-    [ALLOC_TEMP_Background Job.Worker 7]
-      Initial Block Size 32.0 KB
-      Current Block Size 32.0 KB
-      Peak Allocated Bytes 54 B
-      Overflow Count 0
-    [ALLOC_TEMP_UnityGfxDeviceWorker]
-      Initial Block Size 256.0 KB
-      Current Block Size 256.0 KB
-      Peak Allocated Bytes 10.3 KB
-      Overflow Count 0
-    [ALLOC_TEMP_AssetGarbageCollectorHelper] x 11
-      Initial Block Size 64.0 KB
-      Current Block Size 64.0 KB
-      Peak Allocated Bytes 138 B
-      Overflow Count 0
-    [ALLOC_TEMP_Background Job.Worker 5]
-      Initial Block Size 32.0 KB
-      Current Block Size 32.0 KB
-      Peak Allocated Bytes 54 B
-      Overflow Count 0
-    [ALLOC_TEMP_Job.Worker 9]
-      Initial Block Size 256.0 KB
-      Current Block Size 256.0 KB
-      Peak Allocated Bytes 160 B
-      Overflow Count 0
-    [ALLOC_TEMP_Background Job.Worker 13]
-      Initial Block Size 32.0 KB
-      Current Block Size 32.0 KB
-      Peak Allocated Bytes 54 B
-      Overflow Count 0
-    [ALLOC_TEMP_Job.Worker 8]
-      Initial Block Size 256.0 KB
-      Current Block Size 256.0 KB
-      Peak Allocated Bytes 144 B
-      Overflow Count 0
-    [ALLOC_TEMP_Job.Worker 7]
-      Initial Block Size 256.0 KB
-      Current Block Size 256.0 KB
-      Peak Allocated Bytes 160 B
-      Overflow Count 0
-    [ALLOC_TEMP_Job.Worker 1]
-      Initial Block Size 256.0 KB
-      Current Block Size 256.0 KB
-      Peak Allocated Bytes 507 B
-      Overflow Count 0
-    [ALLOC_TEMP_Job.Worker 2]
-      Initial Block Size 256.0 KB
-      Current Block Size 256.0 KB
-      Peak Allocated Bytes 288 B
-      Overflow Count 0
-    [ALLOC_TEMP_Background Job.Worker 3]
-      Initial Block Size 32.0 KB
-      Current Block Size 32.0 KB
-      Peak Allocated Bytes 54 B
-      Overflow Count 0
-    [ALLOC_TEMP_Background Job.Worker 11]
-      Initial Block Size 32.0 KB
-      Current Block Size 32.0 KB
-      Peak Allocated Bytes 54 B
-      Overflow Count 0
-    [ALLOC_TEMP_Job.Worker 10]
-      Initial Block Size 256.0 KB
-      Current Block Size 256.0 KB
-      Peak Allocated Bytes 160 B
-      Overflow Count 0
-    [ALLOC_TEMP_Background Job.Worker 0]
-      Initial Block Size 32.0 KB
-      Current Block Size 32.0 KB
-      Peak Allocated Bytes 54 B
-      Overflow Count 0
-    [ALLOC_TEMP_Background Job.Worker 4]
-      Initial Block Size 32.0 KB
-      Current Block Size 32.0 KB
-      Peak Allocated Bytes 54 B
-      Overflow Count 0
-    [ALLOC_TEMP_BatchDeleteObjects]
-      Initial Block Size 64.0 KB
-      Current Block Size 64.0 KB
-      Peak Allocated Bytes 54 B
-      Overflow Count 0
-[ALLOC_DEFAULT] Dual Thread Allocator
-  Peak main deferred allocation count 48234
-    [ALLOC_BUCKET]
-      Large Block size 4.0 MB
-      Used Block count 1
-      Peak Allocated bytes 4.0 MB
-      Failed Allocations. Bucket layout:
-        16B: 5 Subsections = 5120 buckets. Failed count: 733277
-        32B: 34 Subsections = 17408 buckets. Failed count: 1165442
-        48B: 49 Subsections = 16725 buckets. Failed count: 567257
-        64B: 40 Subsections = 10240 buckets. Failed count: 163692
-        80B: 85 Subsections = 17408 buckets. Failed count: 1112808
-        96B: 27 Subsections = 4608 buckets. Failed count: 53028
-        112B: 10 Subsections = 1462 buckets. Failed count: 92835
-        128B: 6 Subsections = 768 buckets. Failed count: 84962
-    [ALLOC_DEFAULT_MAIN]
-      Peak usage frame count: [16.0 MB-32.0 MB]: 3162 frames, [32.0 MB-64.0 MB]: 28 frames, [64.0 MB-128.0 MB]: 35 frames, [128.0 MB-256.0 MB]: 81 frames, [256.0 MB-0.50 GB]: 107269 frames
-      Requested Block Size 16.0 MB
-      Peak Block count 27
-      Peak Allocated memory 476.0 MB
-      Peak Large allocation bytes 159.2 MB
-    [ALLOC_DEFAULT_THREAD]
-      Peak usage frame count: [8.0 MB-16.0 MB]: 5633 frames, [16.0 MB-32.0 MB]: 2 frames, [32.0 MB-64.0 MB]: 14 frames, [64.0 MB-128.0 MB]: 3352 frames, [128.0 MB-256.0 MB]: 101574 frames
-      Requested Block Size 16.0 MB
-      Peak Block count 7
-      Peak Allocated memory 138.3 MB
-      Peak Large allocation bytes 33.8 MB
-[ALLOC_TEMP_JOB_1_FRAME]
-  Initial Block Size 2.0 MB
-  Used Block Count 0
-  Overflow Count (too large) 0
-  Overflow Count (full) 0
-[ALLOC_TEMP_JOB_2_FRAMES]
-  Initial Block Size 2.0 MB
-  Used Block Count 0
-  Overflow Count (too large) 0
-  Overflow Count (full) 0
-[ALLOC_TEMP_JOB_4_FRAMES (JobTemp)]
-  Initial Block Size 2.0 MB
-  Used Block Count 1
-  Overflow Count (too large) 26
-  Overflow Count (full) 0
-[ALLOC_TEMP_JOB_ASYNC (Background)]
-  Initial Block Size 1.0 MB
-  Used Block Count 1
-  Overflow Count (too large) 0
-  Overflow Count (full) 0
-[ALLOC_GFX] Dual Thread Allocator
-  Peak main deferred allocation count 1670
-    [ALLOC_BUCKET]
-      Large Block size 4.0 MB
-      Used Block count 1
-      Peak Allocated bytes 4.0 MB
-      Failed Allocations. Bucket layout:
-        16B: 5 Subsections = 5120 buckets. Failed count: 733277
-        32B: 34 Subsections = 17408 buckets. Failed count: 1165442
-        48B: 49 Subsections = 16725 buckets. Failed count: 567257
-        64B: 40 Subsections = 10240 buckets. Failed count: 163692
-        80B: 85 Subsections = 17408 buckets. Failed count: 1112808
-        96B: 27 Subsections = 4608 buckets. Failed count: 53028
-        112B: 10 Subsections = 1462 buckets. Failed count: 92835
-        128B: 6 Subsections = 768 buckets. Failed count: 84962
-    [ALLOC_GFX_MAIN]
-      Peak usage frame count: [64.0 KB-128.0 KB]: 1 frames, [2.0 MB-4.0 MB]: 3273 frames, [4.0 MB-8.0 MB]: 19 frames, [8.0 MB-16.0 MB]: 2271 frames, [16.0 MB-32.0 MB]: 997 frames, [32.0 MB-64.0 MB]: 1 frames, [64.0 MB-128.0 MB]: 2420 frames, [128.0 MB-256.0 MB]: 101574 frames, [256.0 MB-0.50 GB]: 18 frames, [1.00 GB-2.00 GB]: 1 frames
-      Requested Block Size 16.0 MB
-      Peak Block count 39
-      Peak Allocated memory 1.04 GB
-      Peak Large allocation bytes 0.75 GB
-    [ALLOC_GFX_THREAD]
-      Peak usage frame count: [0-1.0 KB]: 3324 frames, [1.0 KB-2.0 KB]: 461 frames, [2.0 KB-4.0 KB]: 1307 frames, [4.0 KB-8.0 KB]: 503 frames, [8.0 KB-16.0 KB]: 987 frames, [16.0 KB-32.0 KB]: 1969 frames, [32.0 KB-64.0 KB]: 452 frames, [64.0 KB-128.0 KB]: 220 frames, [128.0 KB-256.0 KB]: 317 frames, [256.0 KB-0.5 MB]: 101035 frames
-      Requested Block Size 16.0 MB
-      Peak Block count 1
-      Peak Allocated memory 330.2 KB
-      Peak Large allocation bytes 0 B
-[ALLOC_CACHEOBJECTS] Dual Thread Allocator
-  Peak main deferred allocation count 269
-    [ALLOC_BUCKET]
-      Large Block size 4.0 MB
-      Used Block count 1
-      Peak Allocated bytes 4.0 MB
-      Failed Allocations. Bucket layout:
-        16B: 5 Subsections = 5120 buckets. Failed count: 733277
-        32B: 34 Subsections = 17408 buckets. Failed count: 1165442
-        48B: 49 Subsections = 16725 buckets. Failed count: 567257
-        64B: 40 Subsections = 10240 buckets. Failed count: 163692
-        80B: 85 Subsections = 17408 buckets. Failed count: 1112808
-        96B: 27 Subsections = 4608 buckets. Failed count: 53028
-        112B: 10 Subsections = 1462 buckets. Failed count: 92835
-        128B: 6 Subsections = 768 buckets. Failed count: 84962
-    [ALLOC_CACHEOBJECTS_MAIN]
-      Peak usage frame count: [4.0 MB-8.0 MB]: 1 frames, [8.0 MB-16.0 MB]: 3273 frames, [16.0 MB-32.0 MB]: 107301 frames
-      Requested Block Size 4.0 MB
-      Peak Block count 6
-      Peak Allocated memory 19.7 MB
-      Peak Large allocation bytes 0 B
-    [ALLOC_CACHEOBJECTS_THREAD]
-      Peak usage frame count: [4.0 KB-8.0 KB]: 3251 frames, [32.0 KB-64.0 KB]: 1 frames, [64.0 KB-128.0 KB]: 31 frames, [128.0 KB-256.0 KB]: 107245 frames, [256.0 KB-0.5 MB]: 25 frames, [0.5 MB-1.0 MB]: 22 frames
-      Requested Block Size 4.0 MB
-      Peak Block count 1
-      Peak Allocated memory 0.6 MB
-      Peak Large allocation bytes 0 B
-[ALLOC_TYPETREE] Dual Thread Allocator
-  Peak main deferred allocation count 0
-    [ALLOC_BUCKET]
-      Large Block size 4.0 MB
-      Used Block count 1
-      Peak Allocated bytes 4.0 MB
-      Failed Allocations. Bucket layout:
-        16B: 5 Subsections = 5120 buckets. Failed count: 733277
-        32B: 34 Subsections = 17408 buckets. Failed count: 1165442
-        48B: 49 Subsections = 16725 buckets. Failed count: 567257
-        64B: 40 Subsections = 10240 buckets. Failed count: 163692
-        80B: 85 Subsections = 17408 buckets. Failed count: 1112808
-        96B: 27 Subsections = 4608 buckets. Failed count: 53028
-        112B: 10 Subsections = 1462 buckets. Failed count: 92835
-        128B: 6 Subsections = 768 buckets. Failed count: 84962
-    [ALLOC_TYPETREE_MAIN]
-      Peak usage frame count: [4.0 KB-8.0 KB]: 1 frames, [8.0 KB-16.0 KB]: 3160 frames, [16.0 KB-32.0 KB]: 1 frames, [32.0 KB-64.0 KB]: 1 frames, [128.0 KB-256.0 KB]: 123 frames, [256.0 KB-0.5 MB]: 70 frames, [0.5 MB-1.0 MB]: 107219 frames
-      Requested Block Size 2.0 MB
-      Peak Block count 1
-      Peak Allocated memory 0.6 MB
-      Peak Large allocation bytes 0 B
-    [ALLOC_TYPETREE_THREAD]
-      Peak usage frame count: [0-1.0 KB]: 110575 frames
-      Requested Block Size 2.0 MB
-      Peak Block count 0
-      Peak Allocated memory 0 B
-      Peak Large allocation bytes 0 B
+Ari threw exception in WorkGiver HaulUrgently: System.NullReferenceException: Object reference not set to an instance of an object
+[Ref 16A8B8B7]
+  at Verse.GridsUtility.Fogged (Verse.Thing t) [0x00006] in <61e4173561894da49d210260257b5097>:0 
+  at Verse.AI.HaulAIUtility.PawnCanAutomaticallyHaulFast_NewTemp (Verse.Pawn p, Verse.Thing t, System.Boolean forced, System.Boolean checkReachability) [0x00000] in <61e4173561894da49d210260257b5097>:0 
+  at Verse.AI.HaulAIUtility.PawnCanAutomaticallyHaulFast (Verse.Pawn p, Verse.Thing t, System.Boolean forced) [0x00000] in <61e4173561894da49d210260257b5097>:0 
+  at AllowTool.WorkGiver_HaulUrgently+<PotentialWorkThingsGlobal>d__3.MoveNext () [0x00052] in <8a098910d6a84b188090b9d6c096e9ee>:0 
+  at System.Linq.Enumerable.Any[TSource] (System.Collections.Generic.IEnumerable`1[T] source) [0x00015] in <1f993cbf88314b1baa1e10ca917bdc64>:0 
+  at Verse.GenCollection.EnumerableNullOrEmpty[T] (System.Collections.Generic.IEnumerable`1[T] enumerable) [0x00019] in <61e4173561894da49d210260257b5097>:0 
+  at Verse.GenClosest.EarlyOutSearch (Verse.IntVec3 start, Verse.Map map, Verse.ThingRequest thingReq, System.Collections.Generic.IEnumerable`1[T] customGlobalSearchSet, System.Predicate`1[T] validator) [0x00079] in <61e4173561894da49d210260257b5097>:0 
+  at Verse.GenClosest.ClosestThingReachable (Verse.IntVec3 root, Verse.Map map, Verse.ThingRequest thingReq, Verse.AI.PathEndMode peMode, Verse.TraverseParms traverseParams, System.Single maxDistance, System.Predicate`1[T] validator, System.Collections.Generic.IEnumerable`1[T] customGlobalSearchSet, System.Int32 searchRegionsMin, System.Int32 searchRegionsMax, System.Boolean forceAllowGlobalSearch, Verse.RegionType traversableRegionTypes, System.Boolean ignoreEntirelyForbiddenRegions, System.Boolean lookInHaulSources) [0x0008c] in <61e4173561894da49d210260257b5097>:0 
+  at RimWorld.JobGiver_Work.TryIssueJobPackage (Verse.Pawn pawn, Verse.AI.JobIssueParams jobParams) [0x00678] in <61e4173561894da49d210260257b5097>:0 
+    - TRANSPILER SmarterConstruction: List`1 SmarterConstruction.Patches.PatchMakeFinishFramesPrioritized:Transpiler(IEnumerable`1 instructions, ILGenerator generator)
+Wrote screenshot C:\Users\clint\AppData\LocalLow\Ludeon Studios\RimWorld by Ludeon Studios\RimSaves\Previews\Autosave-5.dat of size 126155
+Wrote screenshot C:\Users\clint\AppData\LocalLow\Ludeon Studios\RimWorld by Ludeon Studios\RimSaves\Previews\Autosave-1.dat of size 211967
+Wrote screenshot C:\Users\clint\AppData\LocalLow\Ludeon Studios\RimWorld by Ludeon Studios\RimSaves\Previews\USCSS Colony51.dat of size 200528
+Attempted to draw Sparrow52522 without a resolved render tree.
+Attempted to draw Sparrow52523 without a resolved render tree.
+Attempted to draw Sparrow52520 without a resolved render tree.
+Attempted to draw Sparrow52524 without a resolved render tree.
+Attempted to draw Sparrow52521 without a resolved render tree.
+Wrote screenshot C:\Users\clint\AppData\LocalLow\Ludeon Studios\RimWorld by Ludeon Studios\RimSaves\Previews\Autosave-2.dat of size 217760
+Invalid count: 0, setting to 1. Job was HaulToContainer (Job_81271) A = Thing_WoodLog56989 B = Thing_Blueprint_T_Soil56876 C = Thing_Blueprint_T_Soil56876 Giver = ThinkNode_QueuedJob [workGiverDef: ConstructDeliverResourcesToBlueprints]
+Wrote screenshot C:\Users\clint\AppData\LocalLow\Ludeon Studios\RimWorld by Ludeon Studios\RimSaves\Previews\Autosave-3.dat of size 184871
+Wrote screenshot C:\Users\clint\AppData\LocalLow\Ludeon Studios\RimWorld by Ludeon Studios\RimSaves\Previews\Autosave-4.dat of size 101850
+David threw exception in WorkGiver HaulUrgently: System.NullReferenceException: Object reference not set to an instance of an object
+[Ref 5DC17AA3]
+  at Verse.GridsUtility.Fogged (Verse.Thing t) [0x00006] in <61e4173561894da49d210260257b5097>:0 
+  at Verse.AI.HaulAIUtility.PawnCanAutomaticallyHaulFast_NewTemp (Verse.Pawn p, Verse.Thing t, System.Boolean forced, System.Boolean checkReachability) [0x00000] in <61e4173561894da49d210260257b5097>:0 
+  at Verse.AI.HaulAIUtility.PawnCanAutomaticallyHaulFast (Verse.Pawn p, Verse.Thing t, System.Boolean forced) [0x00000] in <61e4173561894da49d210260257b5097>:0 
+  at AllowTool.WorkGiver_HaulUrgently+<PotentialWorkThingsGlobal>d__3.MoveNext () [0x00052] in <8a098910d6a84b188090b9d6c096e9ee>:0 
+  at Verse.GenClosest.ClosestThing_Global (Verse.IntVec3 center, System.Collections.IEnumerable searchSet, System.Single maxDistance, System.Predicate`1[T] validator, System.Func`2[T,TResult] priorityGetter, System.Boolean lookInHaulSources) [0x0013c] in <61e4173561894da49d210260257b5097>:0 
+  at Verse.GenClosest.ClosestThingReachable (Verse.IntVec3 root, Verse.Map map, Verse.ThingRequest thingReq, Verse.AI.PathEndMode peMode, Verse.TraverseParms traverseParams, System.Single maxDistance, System.Predicate`1[T] validator, System.Collections.Generic.IEnumerable`1[T] customGlobalSearchSet, System.Int32 searchRegionsMin, System.Int32 searchRegionsMax, System.Boolean forceAllowGlobalSearch, Verse.RegionType traversableRegionTypes, System.Boolean ignoreEntirelyForbiddenRegions, System.Boolean lookInHaulSources) [0x00147] in <61e4173561894da49d210260257b5097>:0 
+  at RimWorld.JobGiver_Work.TryIssueJobPackage (Verse.Pawn pawn, Verse.AI.JobIssueParams jobParams) [0x00678] in <61e4173561894da49d210260257b5097>:0 
+    - TRANSPILER SmarterConstruction: List`1 SmarterConstruction.Patches.PatchMakeFinishFramesPrioritized:Transpiler(IEnumerable`1 instructions, ILGenerator generator)
+Wujcik threw exception in WorkGiver HaulUrgently: System.NullReferenceException: Object reference not set to an instance of an object
+[Ref 16A8B8B7] Duplicate stacktrace, see ref for original
+GetInspectString exception on EggSparrowFertilized56765:
+System.NullReferenceException: Object reference not set to an instance of an object
+[Ref F7B85CB7]
+  at Verse.GridsUtility.GetThingList (Verse.IntVec3 c, Verse.Map map) [0x00000] in <61e4173561894da49d210260257b5097>:0 
+  at Verse.GridsUtility.GetFirstPawn (Verse.IntVec3 c, Verse.Map map) [0x00000] in <61e4173561894da49d210260257b5097>:0 
+  at Keepercraft.RimKeeperAnimals.Extensions.LogicsExtension.FinalDeteriorationRate_Egg (RimWorld.SteadyEnvironmentEffects contect, System.Single& value, Verse.Thing thing, System.Collections.Generic.List`1[T] reasons) [0x00027] in K:\Programing\RimKeeper\RimKeeperAnimals\Source\RimKeeperAnimals\Extensions\LogicExtension.cs:20 
+  at Keepercraft.RimKeeperAnimals.Patches.FinalDeteriorationRate_SteadyEnvironmentEffects_Path.Prefix (RimWorld.SteadyEnvironmentEffects __instance, System.Single& __result, Verse.Thing t, System.Collections.Generic.List`1[T] reasons) [0x00001] in K:\Programing\RimKeeper\RimKeeperAnimals\Source\RimKeeperAnimals\Patches\SteadyEnvironmentEffectsPatch.cs:24 
+  at RimWorld.SteadyEnvironmentEffects.FinalDeteriorationRate (Verse.Thing t, System.Collections.Generic.List`1[T] reasons) [0x0001c] in <61e4173561894da49d210260257b5097>:0 
+    - PREFIX Keepercraft.RimKeeperAnimals: Boolean Keepercraft.RimKeeperAnimals.Patches.FinalDeteriorationRate_SteadyEnvironmentEffects_Path:Prefix(SteadyEnvironmentEffects __instance, Single& __result, Thing t, List`1 reasons)
+  at Verse.Thing.GetInspectStringLowPriority () [0x0000c] in <61e4173561894da49d210260257b5097>:0 
+  at RimWorld.InspectPaneFiller.DrawInspectStringFor (Verse.ISelectable sel, UnityEngine.Rect rect) [0x00011] in <61e4173561894da49d210260257b5097>:0 
+RRY_Xenomorph_FaceHugger60943 issued IdleError wait job. The behavior tree should never get here.
+[AVP Xenomorphs] [Detach] Detaching facehugger from Otelia (impregnation complete) (tick 358176)
+Wrote screenshot C:\Users\clint\AppData\LocalLow\Ludeon Studios\RimWorld by Ludeon Studios\RimSaves\Previews\Autosave-5.dat of size 159122
+[AVP Xenomorphs] [Spawn] Otelia -> Drone via RRY_Spawn_Humanlike (host: human, bodySize: 1) (tick 385376)
+Cannot use LookDeep to save non-IExposable non-null HostDef of type Verse.ThingDef
+Wrote screenshot C:\Users\clint\AppData\LocalLow\Ludeon Studios\RimWorld by Ludeon Studios\RimSaves\Previews\Autosave-1.dat of size 184084
+Attempted to draw Hare52519 without a resolved render tree.
+Exception in RimWorld.ThinkNode_ConditionalNotPawnKind TryIssueJobPackage: System.NullReferenceException: Object reference not set to an instance of an object
+[Ref 3E897036]
+  at Verse.AI.AttackTargetFinder.BestAttackTarget (Verse.AI.IAttackTargetSearcher searcher, Verse.AI.TargetScanFlags flags, System.Predicate`1[T] validator, System.Single minDist, System.Single maxDist, Verse.IntVec3 locus, System.Single maxTravelRadiusFromLocus, System.Boolean canBashDoors, System.Boolean canTakeTargetsCloserThanEffectiveMinRange, System.Boolean canBashFences, System.Boolean onlyRanged) [0x001f4] in <61e4173561894da49d210260257b5097>:0 
+    - PREFIX OskarPotocki.VEF: Void VEF.Weapons.VanillaExpandedFramework_AttackTargetFinder_BestAttackTarget_Patch:Prefix(IAttackTargetSearcher searcher, Single& maxDist)
+    - PREFIX com.ogliss.rimworld.mod.rryatuja.nobuildingattack: Void RRYautja.XenoNoBuildingAttackPatch:BestAttackTargetPrefix(IAttackTargetSearcher searcher, Predicate`1& validator)
+  at MVCF.Utilities.TargetFinder.BestAttackTarget (Verse.AI.IAttackTargetSearcher searcher, Verse.Verb& verbUsed, Verse.AI.TargetScanFlags flags, System.Predicate`1[T] validator, System.Single minDist, System.Single maxDist, Verse.IntVec3 locus, System.Single maxTravelRadiusFromLocus, System.Boolean canBashDoors, System.Boolean canTakeTargetsCloserThanEffectiveMinRange, System.Boolean canBashFences, System.Boolean onlyRanged, System.Boolean setCurrent, System.Boolean canMove) [0x00116] in <2b928374dc4c48e6814f6ad3d8c8c24a>:0 
+  at RimWorld.JobGiver_AIFightEnemy.FindAttackTarget (Verse.Pawn pawn) [0x00091] in <61e4173561894da49d210260257b5097>:0 
+    - TRANSPILER legodude17.mvcf: IEnumerable`1 MVCF.PatchSets.PatchSet_TargetFinder:AttackTargetTranspiler(IEnumerable`1 instructions)
+  at RimWorld.JobGiver_AIFightEnemy.FindAttackTargetIfPossible (Verse.Pawn pawn) [0x00015] in <61e4173561894da49d210260257b5097>:0 
+  at RimWorld.JobGiver_AIFightEnemy.UpdateEnemyTarget (Verse.Pawn pawn) [0x0001d] in <61e4173561894da49d210260257b5097>:0 
+  at RimWorld.JobGiver_AIFightEnemy.TryGiveJob (Verse.Pawn pawn) [0x00049] in <61e4173561894da49d210260257b5097>:0 
+  at Verse.AI.ThinkNode_JobGiver.TryIssueJobPackage (Verse.Pawn pawn, Verse.AI.JobIssueParams jobParams) [0x00000] in <61e4173561894da49d210260257b5097>:0 
+  at Verse.AI.ThinkNode_Priority.TryIssueJobPackage (Verse.Pawn pawn, Verse.AI.JobIssueParams jobParams) [0x00022] in <61e4173561894da49d210260257b5097>:0 
+Exception in Verse.AI.ThinkNode_Priority TryIssueJobPackage: System.NullReferenceException: Object reference not set to an instance of an object
+[Ref 3E897036] Duplicate stacktrace, see ref for original
+Exception in Verse.AI.ThinkNode_Priority TryIssueJobPackage: System.NullReferenceException: Object reference not set to an instance of an object
+[Ref DF213BAC]
+  at RimWorld.ThinkNode_ConditionalSkyDarker.Satisfied (Verse.Pawn pawn) [0x00006] in <eb0d7c14747b43b8b518bfeb0ca02f26>:0 
+  at Verse.AI.ThinkNode_Conditional.TryIssueJobPackage (Verse.Pawn pawn, Verse.AI.JobIssueParams jobParams) [0x00000] in <61e4173561894da49d210260257b5097>:0 
+  at Verse.AI.ThinkNode_Priority.TryIssueJobPackage (Verse.Pawn pawn, Verse.AI.JobIssueParams jobParams) [0x00022] in <61e4173561894da49d210260257b5097>:0 
+Exception in Verse.AI.ThinkNode_Priority TryIssueJobPackage: System.NullReferenceException: Object reference not set to an instance of an object
+[Ref 1B9840B8]
+  at RimWorld.ThinkNode_ConditionalSkyBrighter.Satisfied (Verse.Pawn pawn) [0x00006] in <eb0d7c14747b43b8b518bfeb0ca02f26>:0 
+  at Verse.AI.ThinkNode_Conditional.TryIssueJobPackage (Verse.Pawn pawn, Verse.AI.JobIssueParams jobParams) [0x00000] in <61e4173561894da49d210260257b5097>:0 
+  at Verse.AI.ThinkNode_Priority.TryIssueJobPackage (Verse.Pawn pawn, Verse.AI.JobIssueParams jobParams) [0x00022] in <61e4173561894da49d210260257b5097>:0 
+queen can reach eggsite
+Cannot use LookDeep to save non-IExposable non-null HostDef of type Verse.ThingDef
+Wrote screenshot C:\Users\clint\AppData\LocalLow\Ludeon Studios\RimWorld by Ludeon Studios\RimSaves\Previews\Autosave-2.dat of size 145635
+Cannot use LookDeep to save non-IExposable non-null HostDef of type Verse.ThingDef
+Wrote screenshot C:\Users\clint\AppData\LocalLow\Ludeon Studios\RimWorld by Ludeon Studios\RimSaves\Previews\Autosave-3.dat of size 218210
+Cannot use LookDeep to save non-IExposable non-null HostDef of type Verse.ThingDef
+Wrote screenshot C:\Users\clint\AppData\LocalLow\Ludeon Studios\RimWorld by Ludeon Studios\RimSaves\Previews\USCSS.dat of size 45432
