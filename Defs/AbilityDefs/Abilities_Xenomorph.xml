@@ -20,7 +20,6 @@
     <label>Leap</label>
     <description>Leap toward a target, closing distance rapidly.</description>
     <iconPath>UI/Icons/Icon_Xenomorph</iconPath>
-    <warmupSound>CastPsychicAffect</warmupSound>
     <verbProperties>
       <verbClass>Verb_CastAbility</verbClass>
       <range>8</range>

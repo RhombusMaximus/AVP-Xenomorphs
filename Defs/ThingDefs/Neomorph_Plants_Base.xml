@@ -97,6 +97,7 @@
     <label>spore gas</label>
     <graphicData>
       <texPath>Things/Gas/Puff</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
       <drawSize>1</drawSize>
       <color>(0.1,0.1,0.1,0.3)</color>
     </graphicData>
@@ -162,6 +163,7 @@
     <label>strange gas</label>
     <graphicData>
       <texPath>Things/Gas/Puff</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
       <drawSize>2.5</drawSize>
       <color>(0.1,0.1,0.1,0.2)</color>
     </graphicData>
