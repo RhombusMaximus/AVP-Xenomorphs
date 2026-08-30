@@ -9,6 +9,20 @@ namespace RimWorld
     public class IncidentWorker_RaidEnemy_FactionSpecific : IncidentWorker_RaidEnemy
     {
         public IncidentDef_FactionSpecific Def => (IncidentDef_FactionSpecific)this.def;
+
+        // Xenomorph raids only happen at night (sky glow < 0.3)
+        protected override bool CanFireNowSub(IncidentParms parms)
+        {
+            if (parms.target is Map map)
+            {
+                if (map.skyManager.CurSkyGlow > 0.3f)
+                {
+                    return false; // Too bright — daytime
+                }
+            }
+            return base.CanFireNowSub(parms);
+        }
+
         // Token: 0x06000ECD RID: 3789 RVA: 0x0006EC50 File Offset: 0x0006D050
         protected override bool TryResolveRaidFaction(IncidentParms parms)
         {
