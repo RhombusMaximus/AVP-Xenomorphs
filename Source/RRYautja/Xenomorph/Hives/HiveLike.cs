@@ -401,11 +401,19 @@ namespace RimWorld
                 {
                     if (this.innerContainer != null)
                     {
-                        if ((this.innerContainer.Count == 1 && !this.innerContainer.Any(x => x.def == XenomorphRacesDefOf.RRY_Xenomorph_Queen)) || this.innerContainer.Count > 1)
+                        // Only eject pawns at night if there are hosts nearby to hunt
+                        // Don't eject if recently entered (prevents in-out loop when hive is roofed)
+                        if (Find.TickManager.TicksGame % 2500 == 0 && // Only check every ~42 seconds
+                            ((this.innerContainer.Count == 1 && !this.innerContainer.Any(x => x.def == XenomorphRacesDefOf.RRY_Xenomorph_Queen)) || this.innerContainer.Count > 1))
                         {
-                            this.innerContainer.TryDropAll(this.Position, this.Map, ThingPlaceMode.Near, null, null);
+                            // Only eject if there are potential hosts nearby
+                            Thing host = GenClosest.ClosestThingReachable(this.Position, this.Map, ThingRequest.ForGroup(ThingRequestGroup.Pawn), Verse.AI.PathEndMode.ClosestTouch, TraverseParms.For(TraverseMode.ByPawn, Danger.Deadly), 30f, (x => x.isPotentialHost()));
+                            if (host != null && !host.DestroyedOrNull())
+                            {
+                                this.innerContainer.TryDropAll(this.Position, this.Map, ThingPlaceMode.Near, null, null);
+                            }
                         }
-                        
+
                     }
                 }
                 if (!this.innerContainer.NullOrEmpty())
