@@ -293,7 +293,7 @@ System.Threading.ExecutionContext:Run (System.Threading.ExecutionContext,System.
 System.Threading.ExecutionContext:Run (System.Threading.ExecutionContext,System.Threading.ContextCallback,object)
 System.Threading.ThreadHelper:ThreadStart ()
 
-<color=#66ffb5>[MeleeAnim]</color> Scanning 205 mods for animation data...
+<color=#66ffb5>[MeleeAnim]</color> Scanning 204 mods for animation data...
 UnityEngine.StackTraceUtility:ExtractStackTrace ()
 Verse.Log:Message (string)
 AM.Core:Log (string)
@@ -485,204 +485,6 @@ System.Threading.ExecutionContext:Run (System.Threading.ExecutionContext,System.
 System.Threading.ExecutionContext:Run (System.Threading.ExecutionContext,System.Threading.ContextCallback,object)
 System.Threading.ThreadHelper:ThreadStart ()
 
-[SafePatcher]The xPath: "Defs/ThingDef[defName="Gun_SmartRifle"]" not found
-UnityEngine.StackTraceUtility:ExtractStackTrace ()
-Verse.Log:Warning (string)
-SafePatcher.PatchOperationSetModExtension:ApplyWorker (System.Xml.XmlDocument) (at c:/Program Files (x86)/Steam/steamapps/common/RimWorld/Mods/Rimworld-Mod-Muzzle_Flash/Source/1.6/XmlPatch/PatchOperationSetModExtension.cs:26)
-(wrapper dynamic-method) MonoMod.Utils.DynamicMethodDefinition:Verse.PatchOperation.Apply_Patch1 (Verse.PatchOperation,System.Xml.XmlDocument)
-(wrapper dynamic-method) MonoMod.Utils.DynamicMethodDefinition:Verse.PatchOperationSequence.ApplyWorker_Patch1 (Verse.PatchOperationSequence,System.Xml.XmlDocument)
-(wrapper dynamic-method) MonoMod.Utils.DynamicMethodDefinition:Verse.PatchOperation.Apply_Patch1 (Verse.PatchOperation,System.Xml.XmlDocument)
-(wrapper dynamic-method) MonoMod.Utils.DynamicMethodDefinition:Verse.PatchOperationFindMod.ApplyWorker_Patch1 (Verse.PatchOperationFindMod,System.Xml.XmlDocument)
-(wrapper dynamic-method) MonoMod.Utils.DynamicMethodDefinition:Verse.PatchOperation.Apply_Patch1 (Verse.PatchOperation,System.Xml.XmlDocument)
-(wrapper dynamic-method) MonoMod.Utils.DynamicMethodDefinition:Verse.LoadedModManager.ApplyPatches_Patch2 (System.Xml.XmlDocument,System.Collections.Generic.Dictionary`2<System.Xml.XmlNode, Verse.LoadableXmlAsset>)
-Verse.LoadedModManager:LoadAllActiveMods (bool)
-Verse.PlayDataLoader:DoPlayLoad ()
-Verse.PlayDataLoader:LoadAllPlayData (bool)
-Verse.Root/<>c:<Start>b__10_1 ()
-Verse.LongEventHandler:RunEventFromAnotherThread (System.Action)
-Verse.LongEventHandler/<>c:<UpdateCurrentAsynchronousEvent>b__28_0 ()
-System.Threading.ThreadHelper:ThreadStart_Context (object)
-System.Threading.ExecutionContext:RunInternal (System.Threading.ExecutionContext,System.Threading.ContextCallback,object,bool)
-System.Threading.ExecutionContext:Run (System.Threading.ExecutionContext,System.Threading.ContextCallback,object,bool)
-System.Threading.ExecutionContext:Run (System.Threading.ExecutionContext,System.Threading.ContextCallback,object)
-System.Threading.ThreadHelper:ThreadStart ()
-
-[SafePatcher]The xPath: "Defs/ThingDef[defName="Gun_SmartPistol"]" not found
-UnityEngine.StackTraceUtility:ExtractStackTrace ()
-Verse.Log:Warning (string)
-SafePatcher.PatchOperationSetModExtension:ApplyWorker (System.Xml.XmlDocument) (at c:/Program Files (x86)/Steam/steamapps/common/RimWorld/Mods/Rimworld-Mod-Muzzle_Flash/Source/1.6/XmlPatch/PatchOperationSetModExtension.cs:26)
-(wrapper dynamic-method) MonoMod.Utils.DynamicMethodDefinition:Verse.PatchOperation.Apply_Patch1 (Verse.PatchOperation,System.Xml.XmlDocument)
-(wrapper dynamic-method) MonoMod.Utils.DynamicMethodDefinition:Verse.PatchOperationSequence.ApplyWorker_Patch1 (Verse.PatchOperationSequence,System.Xml.XmlDocument)
-(wrapper dynamic-method) MonoMod.Utils.DynamicMethodDefinition:Verse.PatchOperation.Apply_Patch1 (Verse.PatchOperation,System.Xml.XmlDocument)
-(wrapper dynamic-method) MonoMod.Utils.DynamicMethodDefinition:Verse.PatchOperationFindMod.ApplyWorker_Patch1 (Verse.PatchOperationFindMod,System.Xml.XmlDocument)
-(wrapper dynamic-method) MonoMod.Utils.DynamicMethodDefinition:Verse.PatchOperation.Apply_Patch1 (Verse.PatchOperation,System.Xml.XmlDocument)
-(wrapper dynamic-method) MonoMod.Utils.DynamicMethodDefinition:Verse.LoadedModManager.ApplyPatches_Patch2 (System.Xml.XmlDocument,System.Collections.Generic.Dictionary`2<System.Xml.XmlNode, Verse.LoadableXmlAsset>)
-Verse.LoadedModManager:LoadAllActiveMods (bool)
-Verse.PlayDataLoader:DoPlayLoad ()
-Verse.PlayDataLoader:LoadAllPlayData (bool)
-Verse.Root/<>c:<Start>b__10_1 ()
-Verse.LongEventHandler:RunEventFromAnotherThread (System.Action)
-Verse.LongEventHandler/<>c:<UpdateCurrentAsynchronousEvent>b__28_0 ()
-System.Threading.ThreadHelper:ThreadStart_Context (object)
-System.Threading.ExecutionContext:RunInternal (System.Threading.ExecutionContext,System.Threading.ContextCallback,object,bool)
-System.Threading.ExecutionContext:Run (System.Threading.ExecutionContext,System.Threading.ContextCallback,object,bool)
-System.Threading.ExecutionContext:Run (System.Threading.ExecutionContext,System.Threading.ContextCallback,object)
-System.Threading.ThreadHelper:ThreadStart ()
-
-[SafePatcher]The xPath: "Defs/ThingDef[defName="Gun_SMG"]" not found
-UnityEngine.StackTraceUtility:ExtractStackTrace ()
-Verse.Log:Warning (string)
-SafePatcher.PatchOperationSetModExtension:ApplyWorker (System.Xml.XmlDocument) (at c:/Program Files (x86)/Steam/steamapps/common/RimWorld/Mods/Rimworld-Mod-Muzzle_Flash/Source/1.6/XmlPatch/PatchOperationSetModExtension.cs:26)
-(wrapper dynamic-method) MonoMod.Utils.DynamicMethodDefinition:Verse.PatchOperation.Apply_Patch1 (Verse.PatchOperation,System.Xml.XmlDocument)
-(wrapper dynamic-method) MonoMod.Utils.DynamicMethodDefinition:Verse.PatchOperationSequence.ApplyWorker_Patch1 (Verse.PatchOperationSequence,System.Xml.XmlDocument)
-(wrapper dynamic-method) MonoMod.Utils.DynamicMethodDefinition:Verse.PatchOperation.Apply_Patch1 (Verse.PatchOperation,System.Xml.XmlDocument)
-(wrapper dynamic-method) MonoMod.Utils.DynamicMethodDefinition:Verse.PatchOperationFindMod.ApplyWorker_Patch1 (Verse.PatchOperationFindMod,System.Xml.XmlDocument)
-(wrapper dynamic-method) MonoMod.Utils.DynamicMethodDefinition:Verse.PatchOperation.Apply_Patch1 (Verse.PatchOperation,System.Xml.XmlDocument)
-(wrapper dynamic-method) MonoMod.Utils.DynamicMethodDefinition:Verse.LoadedModManager.ApplyPatches_Patch2 (System.Xml.XmlDocument,System.Collections.Generic.Dictionary`2<System.Xml.XmlNode, Verse.LoadableXmlAsset>)
-Verse.LoadedModManager:LoadAllActiveMods (bool)
-Verse.PlayDataLoader:DoPlayLoad ()
-Verse.PlayDataLoader:LoadAllPlayData (bool)
-Verse.Root/<>c:<Start>b__10_1 ()
-Verse.LongEventHandler:RunEventFromAnotherThread (System.Action)
-Verse.LongEventHandler/<>c:<UpdateCurrentAsynchronousEvent>b__28_0 ()
-System.Threading.ThreadHelper:ThreadStart_Context (object)
-System.Threading.ExecutionContext:RunInternal (System.Threading.ExecutionContext,System.Threading.ContextCallback,object,bool)
-System.Threading.ExecutionContext:Run (System.Threading.ExecutionContext,System.Threading.ContextCallback,object,bool)
-System.Threading.ExecutionContext:Run (System.Threading.ExecutionContext,System.Threading.ContextCallback,object)
-System.Threading.ThreadHelper:ThreadStart ()
-
-[SafePatcher]The xPath: "Defs/ThingDef[defName="SmartMG"]" not found
-UnityEngine.StackTraceUtility:ExtractStackTrace ()
-Verse.Log:Warning (string)
-SafePatcher.PatchOperationSetModExtension:ApplyWorker (System.Xml.XmlDocument) (at c:/Program Files (x86)/Steam/steamapps/common/RimWorld/Mods/Rimworld-Mod-Muzzle_Flash/Source/1.6/XmlPatch/PatchOperationSetModExtension.cs:26)
-(wrapper dynamic-method) MonoMod.Utils.DynamicMethodDefinition:Verse.PatchOperation.Apply_Patch1 (Verse.PatchOperation,System.Xml.XmlDocument)
-(wrapper dynamic-method) MonoMod.Utils.DynamicMethodDefinition:Verse.PatchOperationSequence.ApplyWorker_Patch1 (Verse.PatchOperationSequence,System.Xml.XmlDocument)
-(wrapper dynamic-method) MonoMod.Utils.DynamicMethodDefinition:Verse.PatchOperation.Apply_Patch1 (Verse.PatchOperation,System.Xml.XmlDocument)
-(wrapper dynamic-method) MonoMod.Utils.DynamicMethodDefinition:Verse.PatchOperationFindMod.ApplyWorker_Patch1 (Verse.PatchOperationFindMod,System.Xml.XmlDocument)
-(wrapper dynamic-method) MonoMod.Utils.DynamicMethodDefinition:Verse.PatchOperation.Apply_Patch1 (Verse.PatchOperation,System.Xml.XmlDocument)
-(wrapper dynamic-method) MonoMod.Utils.DynamicMethodDefinition:Verse.LoadedModManager.ApplyPatches_Patch2 (System.Xml.XmlDocument,System.Collections.Generic.Dictionary`2<System.Xml.XmlNode, Verse.LoadableXmlAsset>)
-Verse.LoadedModManager:LoadAllActiveMods (bool)
-Verse.PlayDataLoader:DoPlayLoad ()
-Verse.PlayDataLoader:LoadAllPlayData (bool)
-Verse.Root/<>c:<Start>b__10_1 ()
-Verse.LongEventHandler:RunEventFromAnotherThread (System.Action)
-Verse.LongEventHandler/<>c:<UpdateCurrentAsynchronousEvent>b__28_0 ()
-System.Threading.ThreadHelper:ThreadStart_Context (object)
-System.Threading.ExecutionContext:RunInternal (System.Threading.ExecutionContext,System.Threading.ContextCallback,object,bool)
-System.Threading.ExecutionContext:Run (System.Threading.ExecutionContext,System.Threading.ContextCallback,object,bool)
-System.Threading.ExecutionContext:Run (System.Threading.ExecutionContext,System.Threading.ContextCallback,object)
-System.Threading.ThreadHelper:ThreadStart ()
-
-[SafePatcher]The xPath: "Defs/ThingDef[defName="Gun_SmartSniperRifle"]" not found
-UnityEngine.StackTraceUtility:ExtractStackTrace ()
-Verse.Log:Warning (string)
-SafePatcher.PatchOperationSetModExtension:ApplyWorker (System.Xml.XmlDocument) (at c:/Program Files (x86)/Steam/steamapps/common/RimWorld/Mods/Rimworld-Mod-Muzzle_Flash/Source/1.6/XmlPatch/PatchOperationSetModExtension.cs:26)
-(wrapper dynamic-method) MonoMod.Utils.DynamicMethodDefinition:Verse.PatchOperation.Apply_Patch1 (Verse.PatchOperation,System.Xml.XmlDocument)
-(wrapper dynamic-method) MonoMod.Utils.DynamicMethodDefinition:Verse.PatchOperationSequence.ApplyWorker_Patch1 (Verse.PatchOperationSequence,System.Xml.XmlDocument)
-(wrapper dynamic-method) MonoMod.Utils.DynamicMethodDefinition:Verse.PatchOperation.Apply_Patch1 (Verse.PatchOperation,System.Xml.XmlDocument)
-(wrapper dynamic-method) MonoMod.Utils.DynamicMethodDefinition:Verse.PatchOperationFindMod.ApplyWorker_Patch1 (Verse.PatchOperationFindMod,System.Xml.XmlDocument)
-(wrapper dynamic-method) MonoMod.Utils.DynamicMethodDefinition:Verse.PatchOperation.Apply_Patch1 (Verse.PatchOperation,System.Xml.XmlDocument)
-(wrapper dynamic-method) MonoMod.Utils.DynamicMethodDefinition:Verse.LoadedModManager.ApplyPatches_Patch2 (System.Xml.XmlDocument,System.Collections.Generic.Dictionary`2<System.Xml.XmlNode, Verse.LoadableXmlAsset>)
-Verse.LoadedModManager:LoadAllActiveMods (bool)
-Verse.PlayDataLoader:DoPlayLoad ()
-Verse.PlayDataLoader:LoadAllPlayData (bool)
-Verse.Root/<>c:<Start>b__10_1 ()
-Verse.LongEventHandler:RunEventFromAnotherThread (System.Action)
-Verse.LongEventHandler/<>c:<UpdateCurrentAsynchronousEvent>b__28_0 ()
-System.Threading.ThreadHelper:ThreadStart_Context (object)
-System.Threading.ExecutionContext:RunInternal (System.Threading.ExecutionContext,System.Threading.ContextCallback,object,bool)
-System.Threading.ExecutionContext:Run (System.Threading.ExecutionContext,System.Threading.ContextCallback,object,bool)
-System.Threading.ExecutionContext:Run (System.Threading.ExecutionContext,System.Threading.ContextCallback,object)
-System.Threading.ThreadHelper:ThreadStart ()
-
-[SafePatcher]The xPath: "Defs/ThingDef[defName="Gun_NestMMG"]" not found
-UnityEngine.StackTraceUtility:ExtractStackTrace ()
-Verse.Log:Warning (string)
-SafePatcher.PatchOperationSetModExtension:ApplyWorker (System.Xml.XmlDocument) (at c:/Program Files (x86)/Steam/steamapps/common/RimWorld/Mods/Rimworld-Mod-Muzzle_Flash/Source/1.6/XmlPatch/PatchOperationSetModExtension.cs:26)
-(wrapper dynamic-method) MonoMod.Utils.DynamicMethodDefinition:Verse.PatchOperation.Apply_Patch1 (Verse.PatchOperation,System.Xml.XmlDocument)
-(wrapper dynamic-method) MonoMod.Utils.DynamicMethodDefinition:Verse.PatchOperationSequence.ApplyWorker_Patch1 (Verse.PatchOperationSequence,System.Xml.XmlDocument)
-(wrapper dynamic-method) MonoMod.Utils.DynamicMethodDefinition:Verse.PatchOperation.Apply_Patch1 (Verse.PatchOperation,System.Xml.XmlDocument)
-(wrapper dynamic-method) MonoMod.Utils.DynamicMethodDefinition:Verse.PatchOperationFindMod.ApplyWorker_Patch1 (Verse.PatchOperationFindMod,System.Xml.XmlDocument)
-(wrapper dynamic-method) MonoMod.Utils.DynamicMethodDefinition:Verse.PatchOperation.Apply_Patch1 (Verse.PatchOperation,System.Xml.XmlDocument)
-(wrapper dynamic-method) MonoMod.Utils.DynamicMethodDefinition:Verse.LoadedModManager.ApplyPatches_Patch2 (System.Xml.XmlDocument,System.Collections.Generic.Dictionary`2<System.Xml.XmlNode, Verse.LoadableXmlAsset>)
-Verse.LoadedModManager:LoadAllActiveMods (bool)
-Verse.PlayDataLoader:DoPlayLoad ()
-Verse.PlayDataLoader:LoadAllPlayData (bool)
-Verse.Root/<>c:<Start>b__10_1 ()
-Verse.LongEventHandler:RunEventFromAnotherThread (System.Action)
-Verse.LongEventHandler/<>c:<UpdateCurrentAsynchronousEvent>b__28_0 ()
-System.Threading.ThreadHelper:ThreadStart_Context (object)
-System.Threading.ExecutionContext:RunInternal (System.Threading.ExecutionContext,System.Threading.ContextCallback,object,bool)
-System.Threading.ExecutionContext:Run (System.Threading.ExecutionContext,System.Threading.ContextCallback,object,bool)
-System.Threading.ExecutionContext:Run (System.Threading.ExecutionContext,System.Threading.ContextCallback,object)
-System.Threading.ThreadHelper:ThreadStart ()
-
-[SafePatcher]The xPath: "Defs/ThingDef[defName="Gun_NestMissile"]" not found
-UnityEngine.StackTraceUtility:ExtractStackTrace ()
-Verse.Log:Warning (string)
-SafePatcher.PatchOperationSetModExtension:ApplyWorker (System.Xml.XmlDocument) (at c:/Program Files (x86)/Steam/steamapps/common/RimWorld/Mods/Rimworld-Mod-Muzzle_Flash/Source/1.6/XmlPatch/PatchOperationSetModExtension.cs:26)
-(wrapper dynamic-method) MonoMod.Utils.DynamicMethodDefinition:Verse.PatchOperation.Apply_Patch1 (Verse.PatchOperation,System.Xml.XmlDocument)
-(wrapper dynamic-method) MonoMod.Utils.DynamicMethodDefinition:Verse.PatchOperationSequence.ApplyWorker_Patch1 (Verse.PatchOperationSequence,System.Xml.XmlDocument)
-(wrapper dynamic-method) MonoMod.Utils.DynamicMethodDefinition:Verse.PatchOperation.Apply_Patch1 (Verse.PatchOperation,System.Xml.XmlDocument)
-(wrapper dynamic-method) MonoMod.Utils.DynamicMethodDefinition:Verse.PatchOperationFindMod.ApplyWorker_Patch1 (Verse.PatchOperationFindMod,System.Xml.XmlDocument)
-(wrapper dynamic-method) MonoMod.Utils.DynamicMethodDefinition:Verse.PatchOperation.Apply_Patch1 (Verse.PatchOperation,System.Xml.XmlDocument)
-(wrapper dynamic-method) MonoMod.Utils.DynamicMethodDefinition:Verse.LoadedModManager.ApplyPatches_Patch2 (System.Xml.XmlDocument,System.Collections.Generic.Dictionary`2<System.Xml.XmlNode, Verse.LoadableXmlAsset>)
-Verse.LoadedModManager:LoadAllActiveMods (bool)
-Verse.PlayDataLoader:DoPlayLoad ()
-Verse.PlayDataLoader:LoadAllPlayData (bool)
-Verse.Root/<>c:<Start>b__10_1 ()
-Verse.LongEventHandler:RunEventFromAnotherThread (System.Action)
-Verse.LongEventHandler/<>c:<UpdateCurrentAsynchronousEvent>b__28_0 ()
-System.Threading.ThreadHelper:ThreadStart_Context (object)
-System.Threading.ExecutionContext:RunInternal (System.Threading.ExecutionContext,System.Threading.ContextCallback,object,bool)
-System.Threading.ExecutionContext:Run (System.Threading.ExecutionContext,System.Threading.ContextCallback,object,bool)
-System.Threading.ExecutionContext:Run (System.Threading.ExecutionContext,System.Threading.ContextCallback,object)
-System.Threading.ThreadHelper:ThreadStart ()
-
-[SafePatcher]The xPath: "Defs/ThingDef[defName="VWE_Gun_Flintlock"]" not found
-UnityEngine.StackTraceUtility:ExtractStackTrace ()
-Verse.Log:Warning (string)
-SafePatcher.PatchOperationSetModExtension:ApplyWorker (System.Xml.XmlDocument) (at c:/Program Files (x86)/Steam/steamapps/common/RimWorld/Mods/Rimworld-Mod-Muzzle_Flash/Source/1.6/XmlPatch/PatchOperationSetModExtension.cs:26)
-(wrapper dynamic-method) MonoMod.Utils.DynamicMethodDefinition:Verse.PatchOperation.Apply_Patch1 (Verse.PatchOperation,System.Xml.XmlDocument)
-(wrapper dynamic-method) MonoMod.Utils.DynamicMethodDefinition:Verse.PatchOperationSequence.ApplyWorker_Patch1 (Verse.PatchOperationSequence,System.Xml.XmlDocument)
-(wrapper dynamic-method) MonoMod.Utils.DynamicMethodDefinition:Verse.PatchOperation.Apply_Patch1 (Verse.PatchOperation,System.Xml.XmlDocument)
-(wrapper dynamic-method) MonoMod.Utils.DynamicMethodDefinition:Verse.PatchOperationFindMod.ApplyWorker_Patch1 (Verse.PatchOperationFindMod,System.Xml.XmlDocument)
-(wrapper dynamic-method) MonoMod.Utils.DynamicMethodDefinition:Verse.PatchOperation.Apply_Patch1 (Verse.PatchOperation,System.Xml.XmlDocument)
-(wrapper dynamic-method) MonoMod.Utils.DynamicMethodDefinition:Verse.LoadedModManager.ApplyPatches_Patch2 (System.Xml.XmlDocument,System.Collections.Generic.Dictionary`2<System.Xml.XmlNode, Verse.LoadableXmlAsset>)
-Verse.LoadedModManager:LoadAllActiveMods (bool)
-Verse.PlayDataLoader:DoPlayLoad ()
-Verse.PlayDataLoader:LoadAllPlayData (bool)
-Verse.Root/<>c:<Start>b__10_1 ()
-Verse.LongEventHandler:RunEventFromAnotherThread (System.Action)
-Verse.LongEventHandler/<>c:<UpdateCurrentAsynchronousEvent>b__28_0 ()
-System.Threading.ThreadHelper:ThreadStart_Context (object)
-System.Threading.ExecutionContext:RunInternal (System.Threading.ExecutionContext,System.Threading.ContextCallback,object,bool)
-System.Threading.ExecutionContext:Run (System.Threading.ExecutionContext,System.Threading.ContextCallback,object,bool)
-System.Threading.ExecutionContext:Run (System.Threading.ExecutionContext,System.Threading.ContextCallback,object)
-System.Threading.ThreadHelper:ThreadStart ()
-
-[SafePatcher]The xPath: "Defs/ThingDef[defName="VWE_Gun_Musket"]" not found
-UnityEngine.StackTraceUtility:ExtractStackTrace ()
-Verse.Log:Warning (string)
-SafePatcher.PatchOperationSetModExtension:ApplyWorker (System.Xml.XmlDocument) (at c:/Program Files (x86)/Steam/steamapps/common/RimWorld/Mods/Rimworld-Mod-Muzzle_Flash/Source/1.6/XmlPatch/PatchOperationSetModExtension.cs:26)
-(wrapper dynamic-method) MonoMod.Utils.DynamicMethodDefinition:Verse.PatchOperation.Apply_Patch1 (Verse.PatchOperation,System.Xml.XmlDocument)
-(wrapper dynamic-method) MonoMod.Utils.DynamicMethodDefinition:Verse.PatchOperationSequence.ApplyWorker_Patch1 (Verse.PatchOperationSequence,System.Xml.XmlDocument)
-(wrapper dynamic-method) MonoMod.Utils.DynamicMethodDefinition:Verse.PatchOperation.Apply_Patch1 (Verse.PatchOperation,System.Xml.XmlDocument)
-(wrapper dynamic-method) MonoMod.Utils.DynamicMethodDefinition:Verse.PatchOperationFindMod.ApplyWorker_Patch1 (Verse.PatchOperationFindMod,System.Xml.XmlDocument)
-(wrapper dynamic-method) MonoMod.Utils.DynamicMethodDefinition:Verse.PatchOperation.Apply_Patch1 (Verse.PatchOperation,System.Xml.XmlDocument)
-(wrapper dynamic-method) MonoMod.Utils.DynamicMethodDefinition:Verse.LoadedModManager.ApplyPatches_Patch2 (System.Xml.XmlDocument,System.Collections.Generic.Dictionary`2<System.Xml.XmlNode, Verse.LoadableXmlAsset>)
-Verse.LoadedModManager:LoadAllActiveMods (bool)
-Verse.PlayDataLoader:DoPlayLoad ()
-Verse.PlayDataLoader:LoadAllPlayData (bool)
-Verse.Root/<>c:<Start>b__10_1 ()
-Verse.LongEventHandler:RunEventFromAnotherThread (System.Action)
-Verse.LongEventHandler/<>c:<UpdateCurrentAsynchronousEvent>b__28_0 ()
-System.Threading.ThreadHelper:ThreadStart_Context (object)
-System.Threading.ExecutionContext:RunInternal (System.Threading.ExecutionContext,System.Threading.ContextCallback,object,bool)
-System.Threading.ExecutionContext:Run (System.Threading.ExecutionContext,System.Threading.ContextCallback,object,bool)
-System.Threading.ExecutionContext:Run (System.Threading.ExecutionContext,System.Threading.ContextCallback,object)
-System.Threading.ThreadHelper:ThreadStart ()
-
 [Big & Small] Patched 44 PawnRenderNodeProperties to use PawnRenderingProps_Lite for recolorable graphics.
 Remember that you can always disable this again in the mod options.
 UnityEngine.StackTraceUtility:ExtractStackTrace ()
@@ -783,6 +585,50 @@ Verse.LongEventHandler:LongEventsUpdate (bool&)
 (wrapper dynamic-method) MonoMod.Utils.DynamicMethodDefinition:Verse.Root.Update_Patch1 (Verse.Root)
 Verse.Root_Entry:Update ()
 
+[XML Extensions] Initialized 4 SettingsMenuDef(s) and found 207 unused key(s) from 5 mod(s)
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+Verse.Log:Message (string)
+XmlExtensions.XmlExtensions:.cctor ()
+System.Runtime.CompilerServices.RuntimeHelpers:RunClassConstructor (System.RuntimeTypeHandle)
+ilyvion.LoadingProgress.StaticConstructorOnStartupUtilityReplacement/<CallAll>d__2:MoveNext () (at /home/runner/work/loading-progress/loading-progress/Source/ilyvion.LoadingProgress/StaticConstructorOnStartupUtilityReplacement.cs:42)
+Verse.LongEventHandler:UpdateCurrentEnumeratorEvent ()
+Verse.LongEventHandler:LongEventsUpdate (bool&)
+(wrapper dynamic-method) MonoMod.Utils.DynamicMethodDefinition:Verse.Root.Update_Patch1 (Verse.Root)
+Verse.Root_Entry:Update ()
+
+[XML Extensions] 4028 total patch operations run in 10308ms, 0 failed
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+Verse.Log:Message (string)
+XmlExtensions.XmlExtensions:.cctor ()
+System.Runtime.CompilerServices.RuntimeHelpers:RunClassConstructor (System.RuntimeTypeHandle)
+ilyvion.LoadingProgress.StaticConstructorOnStartupUtilityReplacement/<CallAll>d__2:MoveNext () (at /home/runner/work/loading-progress/loading-progress/Source/ilyvion.LoadingProgress/StaticConstructorOnStartupUtilityReplacement.cs:42)
+Verse.LongEventHandler:UpdateCurrentEnumeratorEvent ()
+Verse.LongEventHandler:LongEventsUpdate (bool&)
+(wrapper dynamic-method) MonoMod.Utils.DynamicMethodDefinition:Verse.Root.Update_Patch1 (Verse.Root)
+Verse.Root_Entry:Update ()
+
+[XML Extensions] Emitted 4 mod class(es)
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+Verse.Log:Message (string)
+XmlExtensions.XmlExtensions:.cctor ()
+System.Runtime.CompilerServices.RuntimeHelpers:RunClassConstructor (System.RuntimeTypeHandle)
+ilyvion.LoadingProgress.StaticConstructorOnStartupUtilityReplacement/<CallAll>d__2:MoveNext () (at /home/runner/work/loading-progress/loading-progress/Source/ilyvion.LoadingProgress/StaticConstructorOnStartupUtilityReplacement.cs:42)
+Verse.LongEventHandler:UpdateCurrentEnumeratorEvent ()
+Verse.LongEventHandler:LongEventsUpdate (bool&)
+(wrapper dynamic-method) MonoMod.Utils.DynamicMethodDefinition:Verse.Root.Update_Patch1 (Verse.Root)
+Verse.Root_Entry:Update ()
+
+Alien race successfully completed 286 patches (50 pre, 88 post, 148 trans) with harmony.
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+Verse.Log:Message (string)
+AlienRace.HarmonyPatches:.cctor () (at C:/Program Files (x86)/Steam/steamapps/common/RimWorld/Mods/AlienRaces/Source/AlienRace/AlienRace/HarmonyPatches.cs:407)
+System.Runtime.CompilerServices.RuntimeHelpers:RunClassConstructor (System.RuntimeTypeHandle)
+ilyvion.LoadingProgress.StaticConstructorOnStartupUtilityReplacement/<CallAll>d__2:MoveNext () (at /home/runner/work/loading-progress/loading-progress/Source/ilyvion.LoadingProgress/StaticConstructorOnStartupUtilityReplacement.cs:42)
+Verse.LongEventHandler:UpdateCurrentEnumeratorEvent ()
+Verse.LongEventHandler:LongEventsUpdate (bool&)
+(wrapper dynamic-method) MonoMod.Utils.DynamicMethodDefinition:Verse.Root.Update_Patch1 (Verse.Root)
+Verse.Root_Entry:Update ()
+
 [AVP Xenomorphs] [AVP Xenomorphs] Patched Mineable.TrySpawnYield
 UnityEngine.StackTraceUtility:ExtractStackTrace ()
 Verse.Log:Message (string)
@@ -823,50 +669,6 @@ UnityEngine.StackTraceUtility:ExtractStackTrace ()
 Verse.Log:Message (string)
 KCSG.StartupActions:CreateSymbols ()
 KCSG.StartupActions:.cctor ()
-System.Runtime.CompilerServices.RuntimeHelpers:RunClassConstructor (System.RuntimeTypeHandle)
-ilyvion.LoadingProgress.StaticConstructorOnStartupUtilityReplacement/<CallAll>d__2:MoveNext () (at /home/runner/work/loading-progress/loading-progress/Source/ilyvion.LoadingProgress/StaticConstructorOnStartupUtilityReplacement.cs:42)
-Verse.LongEventHandler:UpdateCurrentEnumeratorEvent ()
-Verse.LongEventHandler:LongEventsUpdate (bool&)
-(wrapper dynamic-method) MonoMod.Utils.DynamicMethodDefinition:Verse.Root.Update_Patch1 (Verse.Root)
-Verse.Root_Entry:Update ()
-
-[XML Extensions] Initialized 4 SettingsMenuDef(s) and found 207 unused key(s) from 5 mod(s)
-UnityEngine.StackTraceUtility:ExtractStackTrace ()
-Verse.Log:Message (string)
-XmlExtensions.XmlExtensions:.cctor ()
-System.Runtime.CompilerServices.RuntimeHelpers:RunClassConstructor (System.RuntimeTypeHandle)
-ilyvion.LoadingProgress.StaticConstructorOnStartupUtilityReplacement/<CallAll>d__2:MoveNext () (at /home/runner/work/loading-progress/loading-progress/Source/ilyvion.LoadingProgress/StaticConstructorOnStartupUtilityReplacement.cs:42)
-Verse.LongEventHandler:UpdateCurrentEnumeratorEvent ()
-Verse.LongEventHandler:LongEventsUpdate (bool&)
-(wrapper dynamic-method) MonoMod.Utils.DynamicMethodDefinition:Verse.Root.Update_Patch1 (Verse.Root)
-Verse.Root_Entry:Update ()
-
-[XML Extensions] 4158 total patch operations run in 11277ms, 0 failed
-UnityEngine.StackTraceUtility:ExtractStackTrace ()
-Verse.Log:Message (string)
-XmlExtensions.XmlExtensions:.cctor ()
-System.Runtime.CompilerServices.RuntimeHelpers:RunClassConstructor (System.RuntimeTypeHandle)
-ilyvion.LoadingProgress.StaticConstructorOnStartupUtilityReplacement/<CallAll>d__2:MoveNext () (at /home/runner/work/loading-progress/loading-progress/Source/ilyvion.LoadingProgress/StaticConstructorOnStartupUtilityReplacement.cs:42)
-Verse.LongEventHandler:UpdateCurrentEnumeratorEvent ()
-Verse.LongEventHandler:LongEventsUpdate (bool&)
-(wrapper dynamic-method) MonoMod.Utils.DynamicMethodDefinition:Verse.Root.Update_Patch1 (Verse.Root)
-Verse.Root_Entry:Update ()
-
-[XML Extensions] Emitted 4 mod class(es)
-UnityEngine.StackTraceUtility:ExtractStackTrace ()
-Verse.Log:Message (string)
-XmlExtensions.XmlExtensions:.cctor ()
-System.Runtime.CompilerServices.RuntimeHelpers:RunClassConstructor (System.RuntimeTypeHandle)
-ilyvion.LoadingProgress.StaticConstructorOnStartupUtilityReplacement/<CallAll>d__2:MoveNext () (at /home/runner/work/loading-progress/loading-progress/Source/ilyvion.LoadingProgress/StaticConstructorOnStartupUtilityReplacement.cs:42)
-Verse.LongEventHandler:UpdateCurrentEnumeratorEvent ()
-Verse.LongEventHandler:LongEventsUpdate (bool&)
-(wrapper dynamic-method) MonoMod.Utils.DynamicMethodDefinition:Verse.Root.Update_Patch1 (Verse.Root)
-Verse.Root_Entry:Update ()
-
-Alien race successfully completed 286 patches (50 pre, 88 post, 148 trans) with harmony.
-UnityEngine.StackTraceUtility:ExtractStackTrace ()
-Verse.Log:Message (string)
-AlienRace.HarmonyPatches:.cctor () (at C:/Program Files (x86)/Steam/steamapps/common/RimWorld/Mods/AlienRaces/Source/AlienRace/AlienRace/HarmonyPatches.cs:407)
 System.Runtime.CompilerServices.RuntimeHelpers:RunClassConstructor (System.RuntimeTypeHandle)
 ilyvion.LoadingProgress.StaticConstructorOnStartupUtilityReplacement/<CallAll>d__2:MoveNext () (at /home/runner/work/loading-progress/loading-progress/Source/ilyvion.LoadingProgress/StaticConstructorOnStartupUtilityReplacement.cs:42)
 Verse.LongEventHandler:UpdateCurrentEnumeratorEvent ()
@@ -1462,7 +1264,7 @@ AlienRace.ExtendedGraphics.DefaultGraphicsLoader:LoadAllGraphics (string,AlienRa
 UnityEngine.BeforeRenderHelper:Invoke ()
 UnityEngine.Application:InvokeOnBeforeRender ()
 
-<color=#66ffb5>[MeleeAnim]</color> Potential patch conflicts (19):
+<color=#66ffb5>[MeleeAnim]</color> Potential patch conflicts (18):
 UnityEngine.StackTraceUtility:ExtractStackTrace ()
 Verse.Log:Warning (string)
 AM.Core:Warn (string)
@@ -1489,7 +1291,6 @@ Prefixes:
   [com.github.automatic1111.gunplay] Prefix
 Transpilers:
 Postfixes:
-  [Vodka.MuzzleFlash] Postfix
 
 Verse.PreRenderResults Verse.PawnRenderer::ParallelGetPreRenderResults(UnityEngine.Vector3 drawLoc, System.Nullable`1<Verse.Rot4> rotOverride, System.Boolean neverAimWeapon, System.Boolean disableCache)
 Prefixes:
@@ -1581,7 +1382,6 @@ Prefixes:
   [com.github.automatic1111.gunplay] Prefix
 Transpilers:
 Postfixes:
-  [Vodka.MuzzleFlash] Postfix
 
 Verse.PreRenderResults Verse.PawnRenderer::ParallelGetPreRenderResults(UnityEngine.Vector3 drawLoc, System.Nullable`1<Verse.Rot4> rotOverride, System.Boolean neverAimWeapon, System.Boolean disableCache)
 Prefixes:
@@ -1709,7 +1509,7 @@ System.Threading.ExecutionContext:Run (System.Threading.ExecutionContext,System.
 System.Threading.ExecutionContext:Run (System.Threading.ExecutionContext,System.Threading.ContextCallback,object)
 System.Threading.ThreadHelper:ThreadStart ()
 
-<color=#66ffb5>[MeleeAnim]</color> PreCached all retexture info in 285.1ms
+<color=#66ffb5>[MeleeAnim]</color> PreCached all retexture info in 270.1ms
 UnityEngine.StackTraceUtility:ExtractStackTrace ()
 Verse.Log:Message (string)
 AM.Core:Log (string)
@@ -1786,7 +1586,7 @@ Verse.LongEventHandler:LongEventsUpdate (bool&)
 (wrapper dynamic-method) MonoMod.Utils.DynamicMethodDefinition:Verse.Root.Update_Patch1 (Verse.Root)
 Verse.Root_Entry:Update ()
 
-<color=#66ffb5>[MeleeAnim]</color> Patched 3 classes that directly inherit from Verb_MeleeAttack in 77.2 ms to detect hits:
+<color=#66ffb5>[MeleeAnim]</color> Patched 3 classes that directly inherit from Verb_MeleeAttack in 80.2 ms to detect hits:
 RimWorld.Verb_MeleeApplyHediff from Assembly-CSharp
 RimWorld.Verb_MeleeAttackDamage from Assembly-CSharp
 RRYautja.Verb_MeleeAttackKnockback from RRYautja
@@ -1801,7 +1601,7 @@ Verse.LongEventHandler:LongEventsUpdate (bool&)
 (wrapper dynamic-method) MonoMod.Utils.DynamicMethodDefinition:Verse.Root.Update_Patch1 (Verse.Root)
 Verse.Root_Entry:Update ()
 
-<color=#66ffb5>[MeleeAnim]</color> Found 4 items of clothing that cover hands, took 1.11 ms:
+<color=#66ffb5>[MeleeAnim]</color> Found 4 items of clothing that cover hands, took 1.00 ms:
 VAE_Handwear_Gloves (Gloves),
 VAE_Handwear_PlateGloves (Plate gloves),
 VAE_Handwear_MarineGloves (Marine gloves),
@@ -1816,37 +1616,7 @@ Verse.LongEventHandler:LongEventsUpdate (bool&)
 (wrapper dynamic-method) MonoMod.Utils.DynamicMethodDefinition:Verse.Root.Update_Patch1 (Verse.Root)
 Verse.Root_Entry:Update ()
 
-Loading asset bundle MuzzleFlash.shaders-windows
-UnityEngine.StackTraceUtility:ExtractStackTrace ()
-Verse.Log:Message (string)
-MuzzleFlash.AssetsManager:Initialize () (at c:/Program Files (x86)/Steam/steamapps/common/RimWorld/Mods/Rimworld-Mod-Muzzle_Flash/Source/1.6/AnimatedEffect/AssetsManager.cs:42)
-MuzzleFlash.MuzzleFlashMod/<>c:<.ctor>b__0_0 () (at c:/Program Files (x86)/Steam/steamapps/common/RimWorld/Mods/Rimworld-Mod-Muzzle_Flash/Source/1.6/Core/MuzzleFlashMod.cs:22)
-Verse.LongEventHandler:UpdateCurrentSynchronousEvent (bool&)
-Verse.LongEventHandler:LongEventsUpdate (bool&)
-(wrapper dynamic-method) MonoMod.Utils.DynamicMethodDefinition:Verse.Root.Update_Patch1 (Verse.Root)
-Verse.Root_Entry:Update ()
-
-Loaded shader Unlit/AnimatedAdditiveInstanced
-UnityEngine.StackTraceUtility:ExtractStackTrace ()
-Verse.Log:Message (string)
-MuzzleFlash.AssetsManager:LoadAssetBundle (UnityEngine.AssetBundle) (at c:/Program Files (x86)/Steam/steamapps/common/RimWorld/Mods/Rimworld-Mod-Muzzle_Flash/Source/1.6/AnimatedEffect/AssetsManager.cs:56)
-MuzzleFlash.AssetsManager:Initialize () (at c:/Program Files (x86)/Steam/steamapps/common/RimWorld/Mods/Rimworld-Mod-Muzzle_Flash/Source/1.6/AnimatedEffect/AssetsManager.cs:45)
-MuzzleFlash.MuzzleFlashMod/<>c:<.ctor>b__0_0 () (at c:/Program Files (x86)/Steam/steamapps/common/RimWorld/Mods/Rimworld-Mod-Muzzle_Flash/Source/1.6/Core/MuzzleFlashMod.cs:22)
-Verse.LongEventHandler:UpdateCurrentSynchronousEvent (bool&)
-Verse.LongEventHandler:LongEventsUpdate (bool&)
-(wrapper dynamic-method) MonoMod.Utils.DynamicMethodDefinition:Verse.Root.Update_Patch1 (Verse.Root)
-Verse.Root_Entry:Update ()
-
-[Muzzle Flash] Shader loaded from MuzzleFlash: Unlit/AnimatedAdditiveInstanced
-UnityEngine.StackTraceUtility:ExtractStackTrace ()
-Verse.Log:Message (string)
-MuzzleFlash.MuzzleFlashMod/<>c:<.ctor>b__0_0 () (at c:/Program Files (x86)/Steam/steamapps/common/RimWorld/Mods/Rimworld-Mod-Muzzle_Flash/Source/1.6/Core/MuzzleFlashMod.cs:26)
-Verse.LongEventHandler:UpdateCurrentSynchronousEvent (bool&)
-Verse.LongEventHandler:LongEventsUpdate (bool&)
-(wrapper dynamic-method) MonoMod.Utils.DynamicMethodDefinition:Verse.Root.Update_Patch1 (Verse.Root)
-Verse.Root_Entry:Update ()
-
-  --> [What's That Mod] Took 0.27 seconds to scan all patches. <--
+  --> [What's That Mod] Took 0.26 seconds to scan all patches. <--
 UnityEngine.StackTraceUtility:ExtractStackTrace ()
 Verse.Log:Message (string)
 WhatsThatMod.ModCore:DefWriter (bool,System.Collections.Generic.HashSet`1<string>,string,string)
@@ -1868,7 +1638,7 @@ Verse.LongEventHandler:LongEventsUpdate (bool&)
 (wrapper dynamic-method) MonoMod.Utils.DynamicMethodDefinition:Verse.Root.Update_Patch1 (Verse.Root)
 Verse.Root_Entry:Update ()
 
-What's That Mod took 292 milliseconds to generate all def descriptions.
+What's That Mod took 281 milliseconds to generate all def descriptions.
 UnityEngine.StackTraceUtility:ExtractStackTrace ()
 Verse.Log:Message (string)
 WhatsThatMod.ModCore:Run ()
