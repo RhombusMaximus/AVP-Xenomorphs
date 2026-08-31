@@ -1,0 +1,14 @@
+{
+  "TextureModID": "Ogliss.AVPXenomorphs",
+  "ItemDefName": "RRY_Xenomorph_TailSpike",
+  "ItemType": "ThingDef",
+  "ItemTypeNamespace": "Verse",
+  "OffX": 0.2,
+  "OffY": 0.0,
+  "Rotation": 15.0,
+  "ScaleX": 1.0,
+  "ScaleY": 1.0,
+  "BladeStart": 0.1,
+  "BladeEnd": 0.7,
+  "MeleeWeaponType": 16
+}

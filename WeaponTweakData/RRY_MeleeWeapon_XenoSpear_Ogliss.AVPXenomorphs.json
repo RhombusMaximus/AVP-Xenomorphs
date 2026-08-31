@@ -1,0 +1,14 @@
+{
+  "TextureModID": "Ogliss.AVPXenomorphs",
+  "ItemDefName": "RRY_MeleeWeapon_XenoSpear",
+  "ItemType": "ThingDef",
+  "ItemTypeNamespace": "Verse",
+  "OffX": 0.3,
+  "OffY": 0.05,
+  "Rotation": 25.0,
+  "ScaleX": 1.75,
+  "ScaleY": 1.75,
+  "BladeStart": 0.3,
+  "BladeEnd": 1.2,
+  "MeleeWeaponType": 4
+}

@@ -1,0 +1,12 @@
+{
+  "TextureModID": "Ogliss.AVPXenomorphs",
+  "ItemDefName": "RRY_Gun_DroneAcidSpit",
+  "ItemType": "ThingDef",
+  "ItemTypeNamespace": "Verse",
+  "OffX": 0.3,
+  "OffY": 0.1,
+  "Rotation": 0.0,
+  "ScaleX": 1.0,
+  "ScaleY": 1.0,
+  "MeleeWeaponType": 0
+}
