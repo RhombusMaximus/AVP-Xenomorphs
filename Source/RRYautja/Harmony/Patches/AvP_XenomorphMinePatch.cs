@@ -21,11 +21,14 @@ namespace RRYautja
                 var harmony = new Harmony("com.ogliss.rimworld.mod.rryatuja.minepatch");
 
                 // TrySpawnYield is void in 1.6, two overloads
+                // Patch only the non-obsolete 3-parameter version: TrySpawnYield(Map, bool, Pawn)
                 var methods = typeof(Mineable).GetMethods(BindingFlags.Public | BindingFlags.NonPublic | BindingFlags.Instance | BindingFlags.DeclaredOnly);
                 foreach (var m in methods)
                 {
                     if (m.Name == "TrySpawnYield")
                     {
+                        // Skip obsolete methods (the 4-param version with yieldChance)
+                        if (m.GetParameters().Length == 4) continue;
                         harmony.Patch(m, prefix: new HarmonyMethod(typeof(AvP_XenomorphMinePatch), nameof(TrySpawnYieldPrefix)));
                         AvPDebug.LogOnce("Patch", "[AVP Xenomorphs] Patched Mineable.TrySpawnYield");
                     }
