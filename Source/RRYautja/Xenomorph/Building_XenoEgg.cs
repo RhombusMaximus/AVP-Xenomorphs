@@ -327,6 +327,7 @@ namespace RRYautja
                 {
                     if (canHatch && shouldHatch)
                     {
+                        AvPDebug.Log("Egg", $"Egg {thingIDNumber} hatching for {pawn.LabelShort} (faction={pawn.Faction?.Name ?? "null"}, bodySize={pawn.BodySize})");
                         float thingdist = MyPos.DistanceTo(pawn.Position);
                         float thingsize = pawn.BodySize;
                         float thingstealth = targetThing.GetStatValue(StatDefOf.HuntingStealth);
@@ -465,21 +466,17 @@ namespace RRYautja
                     Host = GenClosest.ClosestThingReachable(MyPos, MyMap, ThingRequest.ForGroup(ThingRequestGroup.Pawn), PathEndMode.OnCell, TraverseParms.For(TraverseMode.NoPassClosedDoors, Danger.Deadly, false), hatchRange, x => x.isPotentialHost() && hosts.Contains(x), null, 0, -1, false, RegionType.Set_Passable, false) as Pawn;
                     if (Host == null)
                     {
-                    //    Log.Message("no reachable hosts on map");
-                    }
-                    else
-                    {
-                     //   MyMap.HiveGrid().eggHosts.Add(Host);
+                        AvPDebug.Log("Egg", $"Egg {thingIDNumber}: hosts found ({hosts.Count}) but none reachable");
                     }
                 }
                 else
                 {
-                //    Log.Message("no unreserved hosts on map");
+                    AvPDebug.Log("Egg", $"Egg {thingIDNumber}: hosts found but all reserved by other eggs");
                 }
             }
             else
             {
-            //    Log.Message("no hosts on map");
+                AvPDebug.Log("Egg", $"Egg {thingIDNumber}: no potential hosts within {hatchRange} tiles");
             }
             return !Host.DestroyedOrNull();
         }
