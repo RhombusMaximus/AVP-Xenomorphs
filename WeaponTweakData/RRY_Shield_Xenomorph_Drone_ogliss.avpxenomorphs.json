@@ -1,0 +1,12 @@
+{
+  "TextureModID": "ogliss.avpxenomorphs",
+  "ItemDefName": "RRY_Shield_Xenomorph_Drone",
+  "ItemType": "ThingDef",
+  "ItemTypeNamespace": "Verse",
+  "OffX": 0.15,
+  "OffY": 0.1,
+  "Rotation": 0.0,
+  "ScaleX": 1.0,
+  "ScaleY": 1.0,
+  "MeleeWeaponType": 9
+}
