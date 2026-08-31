@@ -1,5 +1,5 @@
 {
-  "TextureModID": "Ogliss.AVPXenomorphs",
+  "TextureModID": "ogliss.avpxenomorphs",
   "ItemDefName": "RRY_Xenomorph_TailSpike",
   "ItemType": "ThingDef",
   "ItemTypeNamespace": "Verse",

@@ -1,5 +1,5 @@
 {
-  "TextureModID": "Ogliss.AVPXenomorphs",
+  "TextureModID": "ogliss.avpxenomorphs",
   "ItemDefName": "RRY_MeleeWeapon_XenoSpear",
   "ItemType": "ThingDef",
   "ItemTypeNamespace": "Verse",

@@ -1,5 +1,5 @@
 {
-  "TextureModID": "Ogliss.AVPXenomorphs",
+  "TextureModID": "ogliss.avpxenomorphs",
   "ItemDefName": "RRY_Gun_DroneAcidSpit",
   "ItemType": "ThingDef",
   "ItemTypeNamespace": "Verse",
