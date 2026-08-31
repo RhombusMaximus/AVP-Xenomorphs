@@ -52,8 +52,6 @@
         <muzzleFlashScale>0</muzzleFlashScale>
       </li>
     </verbs>
-    <tools>
-    </tools>
   </ThingDef>
 
 </Defs>
