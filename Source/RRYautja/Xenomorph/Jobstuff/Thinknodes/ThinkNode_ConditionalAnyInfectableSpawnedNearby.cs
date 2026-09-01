@@ -23,12 +23,12 @@ namespace RimWorld
         // Token: 0x060009B3 RID: 2483 RVA: 0x0004DFD8 File Offset: 0x0004C3D8
         protected override bool Satisfied(Pawn pawn)
         {
+            if (pawn == null || pawn.Map == null) return false;
             if (pawn.Spawned && pawn.isXenomorph())
             {
                 List<Pawn> list = pawn.Map.mapPawns.AllPawns.Where(x => !x.Downed && x.isPotentialHost() && pawn.CanReach(x, PathEndMode.Touch, Danger.Deadly, false, false, TraverseMode.NoPassClosedDoors)).ToList();
                 if (!list.NullOrEmpty())
                 {
-                    if (pawn.jobs.debugLog) pawn.jobs.DebugLogEvent(string.Format("List is {0} long",list.Count));
                     flagSpawned = list.Any<Pawn>(x => x.Spawned);
                     flagLOS = (this.NeedsLOS && list.Any<Pawn>(x => pawn.CanSee(x))) || (!this.NeedsLOS);
                     flagPawnRange = list.Any<Pawn>(x => XenomorphUtil.DistanceBetween(pawn.Position, x.Position) <= this.RangePawn);
@@ -40,12 +40,7 @@ namespace RimWorld
                     flagRange = flagPawnRange || flagHiveRange;
                     result = (flagSpawned && flagLOS && flagRange);
                 }
-                else
-                {
-                    if (pawn.jobs.debugLog) pawn.jobs.DebugLogEvent(string.Format("List is null or empty"));
-                }
             }
-            if (pawn.jobs.debugLog) pawn.jobs.DebugLogEvent(string.Format("{0} Result: {1}, flagSpawned: {2}, flagLOS: {3}, flagPawnRange: {4}, flagHiveRange: {5}, flagRange: {6}", this, result, flagSpawned, flagLOS, flagPawnRange, flagHiveRange, flagRange));
             return result;
         }
 

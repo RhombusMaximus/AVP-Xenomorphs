@@ -26,6 +26,7 @@ namespace RimWorld
         // Token: 0x060009B3 RID: 2483 RVA: 0x0004DFD8 File Offset: 0x0004C3D8
         protected override bool Satisfied(Pawn pawn)
         {
+            if (pawn == null || pawn.Map == null) return false;
             bool result;
             if (pawn.Spawned && XenomorphUtil.IsXenomorph(pawn) && pawn.Map.mapPawns.AllPawns.Any((Pawn x) => x.Downed && x.isPotentialHost() && pawn.CanReach(x, PathEndMode.InteractionCell, Danger.Deadly, false, false, TraverseMode.NoPassClosedDoors)))
             {
@@ -36,7 +37,6 @@ namespace RimWorld
             {
                 result = false;
             }
-            if (pawn.jobs.debugLog) pawn.jobs.DebugLogEvent(string.Format("{0} Result: {1}", this, result));
             return result;
         }
 
