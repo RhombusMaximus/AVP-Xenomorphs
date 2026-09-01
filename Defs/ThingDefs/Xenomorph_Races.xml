@@ -60,7 +60,7 @@
       <hasGenders>false</hasGenders>
       <foodType>Corpse,CarnivoreAnimalStrict</foodType>
       <leatherDef>RRY_Leather_Xenomorph</leatherDef>
-      <trainableIntelligence>None</trainableIntelligence>
+      <trainability>None</trainability>
       <lifeExpectancy>2500</lifeExpectancy>
       <hediffGiverSets>
         <li>RRY_Xenomorph_Standard</li>
