@@ -1991,3 +1991,708 @@ Verse.TickList:Tick ()
 (wrapper dynamic-method) MonoMod.Utils.DynamicMethodDefinition:Verse.TickManager.TickManagerUpdate_Patch1 (Verse.TickManager)
 (wrapper dynamic-method) MonoMod.Utils.DynamicMethodDefinition:Verse.Game.UpdatePlay_Patch1 (Verse.Game)
 Verse.Root_Play:Update ()
+
+checking editor settings...
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+Verse.Log:Message (string)
+CharacterEditor.CEditor/ModData:OnSettingsChanged (bool,bool)
+CharacterEditor.CEditor:OnSettingsChanged (bool,bool)
+CharacterEditor.CEditor:OnMainMenuInit ()
+(wrapper dynamic-method) MonoMod.Utils.DynamicMethodDefinition:RimWorld.MainMenuDrawer.Init_Patch4 ()
+(wrapper dynamic-method) MonoMod.Utils.DynamicMethodDefinition:Verse.UIRoot_Entry.Init_Patch3 (Verse.UIRoot_Entry)
+Verse.Root:<Start>b__10_0 ()
+Verse.Root:Start ()
+Verse.Root_Entry:Start ()
+
+bodysizes genes are active
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+Verse.Log:Message (string)
+CharacterEditor.GeneTool:EnDisableBodySizeGenes ()
+CharacterEditor.CEditor/ModData:OnSettingsChanged (bool,bool)
+CharacterEditor.CEditor:OnSettingsChanged (bool,bool)
+CharacterEditor.CEditor:OnMainMenuInit ()
+(wrapper dynamic-method) MonoMod.Utils.DynamicMethodDefinition:RimWorld.MainMenuDrawer.Init_Patch4 ()
+(wrapper dynamic-method) MonoMod.Utils.DynamicMethodDefinition:Verse.UIRoot_Entry.Init_Patch3 (Verse.UIRoot_Entry)
+Verse.Root:<Start>b__10_0 ()
+Verse.Root:Start ()
+Verse.Root_Entry:Start ()
+
+CharacterEditor v1.6.3 ...done
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+Verse.Log:Message (string)
+CharacterEditor.CEditor:OnMainMenuInit ()
+(wrapper dynamic-method) MonoMod.Utils.DynamicMethodDefinition:RimWorld.MainMenuDrawer.Init_Patch4 ()
+(wrapper dynamic-method) MonoMod.Utils.DynamicMethodDefinition:Verse.UIRoot_Entry.Init_Patch3 (Verse.UIRoot_Entry)
+Verse.Root:<Start>b__10_0 ()
+Verse.Root:Start ()
+Verse.Root_Entry:Start ()
+
+[StartingTechLevel] Scenario_GetFirstConfigPage
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+Verse.Log:Message (string)
+StartingTechLevel.LogUtility:Log (string,StartingTechLevel.LogLevel)
+StartingTechLevel.StartingTechLevel:Scenario_GetFirstConfigPage (RimWorld.Page&)
+(wrapper dynamic-method) MonoMod.Utils.DynamicMethodDefinition:RimWorld.Scenario.GetFirstConfigPage_Patch1 (RimWorld.Scenario)
+RimWorld.Page_SelectScenario:BeginScenarioConfiguration (RimWorld.Scenario,RimWorld.Page)
+RimWorld.Page_SelectScenario:CanDoNext ()
+RimWorld.Page:DoBottomButtons (UnityEngine.Rect,string,string,System.Action,bool,bool)
+RimWorld.Page_SelectScenario:DoWindowContents (UnityEngine.Rect)
+Verse.Window:InnerWindowOnGUI (int)
+UnityEngine.GUI:CallWindowDelegate (UnityEngine.GUI/WindowFunction,int,int,UnityEngine.GUISkin,int,single,single,UnityEngine.GUIStyle)
+
+[StartingTechLevel] Select Tech Level page added.
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+Verse.Log:Message (string)
+StartingTechLevel.LogUtility:Log (string,StartingTechLevel.LogLevel)
+StartingTechLevel.StartingTechLevel:Scenario_GetFirstConfigPage (RimWorld.Page&)
+(wrapper dynamic-method) MonoMod.Utils.DynamicMethodDefinition:RimWorld.Scenario.GetFirstConfigPage_Patch1 (RimWorld.Scenario)
+RimWorld.Page_SelectScenario:BeginScenarioConfiguration (RimWorld.Scenario,RimWorld.Page)
+RimWorld.Page_SelectScenario:CanDoNext ()
+RimWorld.Page:DoBottomButtons (UnityEngine.Rect,string,string,System.Action,bool,bool)
+RimWorld.Page_SelectScenario:DoWindowContents (UnityEngine.Rect)
+Verse.Window:InnerWindowOnGUI (int)
+UnityEngine.GUI:CallWindowDelegate (UnityEngine.GUI/WindowFunction,int,int,UnityEngine.GUISkin,int,single,single,UnityEngine.GUIStyle)
+
+[StartingTechLevel] Setting tech level Industrial.
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+Verse.Log:Message (string)
+StartingTechLevel.LogUtility:Log (string,StartingTechLevel.LogLevel)
+StartingTechLevel.Page_SelectTechLevel:DoNext ()
+RimWorld.Page:DoBottomButtons (UnityEngine.Rect,string,string,System.Action,bool,bool)
+StartingTechLevel.Page_SelectTechLevel:DoWindowContents (UnityEngine.Rect)
+Verse.Window:InnerWindowOnGUI (int)
+UnityEngine.GUI:CallWindowDelegate (UnityEngine.GUI/WindowFunction,int,int,UnityEngine.GUISkin,int,single,single,UnityEngine.GUIStyle)
+
+[StartingTechLevel] Finished 44 old research projects.
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+Verse.Log:Message (string)
+StartingTechLevel.LogUtility:Log (string,StartingTechLevel.LogLevel)
+StartingTechLevel.Page_SelectTechLevel:DoNext ()
+RimWorld.Page:DoBottomButtons (UnityEngine.Rect,string,string,System.Action,bool,bool)
+StartingTechLevel.Page_SelectTechLevel:DoWindowContents (UnityEngine.Rect)
+Verse.Window:InnerWindowOnGUI (int)
+UnityEngine.GUI:CallWindowDelegate (UnityEngine.GUI/WindowFunction,int,int,UnityEngine.GUISkin,int,single,single,UnityEngine.GUIStyle)
+
+Initializing new game with mods:
+  - brrainz.harmony
+  - ilyvion.LoadingProgress
+  - Ludeon.RimWorld
+  - Ludeon.RimWorld.Royalty
+  - Ludeon.RimWorld.Ideology
+  - Ludeon.RimWorld.Biotech
+  - Ludeon.RimWorld.Anomaly
+  - Ludeon.RimWorld.Odyssey
+  - RedMattis.BetterPrerequisites
+  - UnlimitedHugs.HugsLib
+  - Ogliss.AVPXenomorphs
+  - AndrewRaphaelLukasik.AllowDeadAnimals
+  - UnlimitedHugs.AllowTool
+  - adaptive.storage.framework
+  - OskarPotocki.VanillaFactionsExpanded.Core
+  - OskarPotocki.VFE.Empire
+  - VanillaExpanded.VTEXE
+  - cucumpear.azrael.varietycoats
+  - Inglix.ApparelTaintedOnCorpseRot
+  - com.bymarcin.ArchitectIcons
+  - Chaotic.BarelyBetterSpots
+  - falconne.BWM
+  - RedMattis.BigSmall.Core
+  - RedMattis.MoreXenos
+  - RedMattis.BiggerGravship
+  - Mlie.BioReactor
+  - Darknote.BunkBeds
+  - brrainz.cameraplus
+  - Aoba.Tent
+  - void.charactereditor
+  - Cerule.CleaningAreaRelaunched
+  - zal.covetheus.nohar
+  - CaesarV6.DamageIndicators
+  - alenDio.dawnofanewday
+  - Woolyung.DoTheRitualsYourselves
+  - telardo.DragSelect
+  - Dubwise.DubsMintMenus
+  - dubwise.dubsmintminimap
+  - Dubwise.DubsPerformanceAnalyzer.steam
+  - zeracronius.dynamictradeinterface
+  - Mlie.EnemySelfPreservation
+  - Erin.FluffyFauna
+  - Erin.Hairredux
+  - Romyashi.ExtractAnyPlant
+  - matvey24.FPSStabilizer
+  - azravos.factioncustomizer
+  - imranfish.xmlextensions
+  - quartz.floorstoragetanks
+  - MemeGoddess.GiddyUp
+  - GonDragon.TTPF
+  - VanillaExpanded.VAPPE
+  - VanillaExpanded.VARME
+  - VanillaExpanded.VBooksE
+  - VanillaExpanded.VBrewE
+  - VanillaExpanded.VCookE
+  - OskarPotocki.VFE.Deserters
+  - VanillaExpanded.VFEArt
+  - VanillaExpanded.VFEFarming
+  - VanillaExpanded.VFEPower
+  - VanillaExpanded.VFEProduction
+  - VanillaExpanded.VFECore
+  - VanillaExpanded.VFESpacer
+  - VanillaExpanded.VPlantsE
+  - VanillaExpanded.VPlantsEMore
+  - VanillaExpanded.VPlantsESucculents
+  - VanillaExpanded.VWE
+  - VanillaExpanded.VWEC
+  - VanillaExpanded.VWENL
+  - GonDragon.TechTree
+  - Kattalisk.GravEngineGivesPower
+  - automatic.gunplay
+  - jkluch.HaulToStack
+  - aRandomKiwi.HuntForMe
+  - VanillaExpanded.VanillaAnimalsExpanded
+  - zal.hyena
+  - dev.soeur.imageopt
+  - toxicyui.impactfulskills.modsupport
+  - 400.ImpassableHChestUdeepHWater
+  - Dragoon103.LARVA
+  - Taveron.IncreasedStack
+  - Aoba.Fortress.Industrial.Concrete
+  - futurplanet.industrialconcretefloorpatch
+  - Koth.ISiD
+  - Linnun.KeepConverting
+  - keepmortarsready.1trickPwnyta
+  - ASF.DeepStorage
+  - jecrell.doorsexpanded
+  - Haplo.Miscellaneous.Robots
+  - avius.locks
+  - Mlie.LogAfterDefError
+  - zal.majesticfoilageframework
+  - zal.majesticcomigopack
+  - plaxen.MalangBodies
+  - m00nl1ght.MapPreview
+  - Samael.NPCMechsAndAnimals
+  - sumghai.Medpod
+  - Spino.Megafauna
+  - co.uk.epicguru.meleeanimation
+  - notfood.MendAndRecycle
+  - Cain.Mineshaft
+  - erdelf.MinifyEverything
+  - Hol.Words
+  - mosi.MoreMiniHorns
+  - kirby.morereligiousorigins
+  - Jiopaba.Fences
+  - zal.namesgalore
+  - VitaKaninen.ShelfPatch
+  - Doug.NoJobAuthors
+  - mrwireman.Noconduit
+  - vera.bug
+  - PackMulesExtended.Standard
+  - komunre.BetterExp.PassiveResearch
+  - Mlie.PawnNameVariety
+  - Arkymn.SlowerPawnTickRate
+  - Mlie.PredatorHuntAlert
+  - DawnsGlow.qualcolor
+  - sdknm2.QualityOfBuilding
+  - ratys.rtsolarflareshield
+  - Mlie.RealisticHumanSounds
+  - Verniy709.RealisticHumanSounds.HARPatch
+  - Mlie.RelevantStatsInDescription
+  - sirrandoo.rda
+  - Memegoddess.ReplaceStuff
+  - Aelanna.ResearchTabColors
+  - fluffy.researchtree
+  - Keepercraft.RimKeeperAnimals
+  - aRandomKiwi.RimSaves
+  - Sierra.RT.GeneralTraits
+  - rimsenal.EVP
+  - rimsenal.core
+  - rimsenal.security
+  - rimsenal.federation
+  - rimsenal.hair
+  - Neronix17.Retexture.RimsenalRimhair
+  - Mlie.RunAndHide
+  - MemeGoddess.RunAndGun
+  - dev.soeur.ScenarioEditorUIOverhaul
+  - avilmask.SelfDyeing
+  - Arcjc007.ShieldGenerator
+  - kathanon.ShowAllMaterials
+  - BP.ShowBuildableMaterialCount
+  - zal.simplefxshinies
+  - automatic.traderships
+  - OskarPotocki.VanillaFactionsExpanded.SettlersModule
+  - Owlchemist.SimpleFX.Smoke2
+  - Owlchemist.SimpleFX.Splashes
+  - Atlas.SimpleFX.Vapor.Revaporized
+  - Owlchemist.FridgeUtilities
+  - PeteTimesSix.SimpleSidearms
+  - Haecriver.SimplyMoreColors
+  - Memegoddess.SmartMedicine
+  - sarg.smartspeed
+  - dhultgren.smarterconstruction
+  - Garwel.StartingTechLevel
+  - balistafreak.StopDropAndRoll
+  - void.terraformrimworld
+  - GT.Sam.TilledSoil
+  - sjaandi.realtiltmod
+  - CarnySenpai.TraitRarityColors
+  - Aelanna.TransparentSubstructure
+  - UNAGI.apparel.B.Zibunyou
+  - gy.urav
+  - Mlie.UseThisInstead
+  - VanillaExpanded.VMemesE
+  - SmashPhil.VehicleFramework
+  - OskarPotocki.VanillaVehiclesExpanded
+  - OskarPotocki.VanillaVehiclesExpandedTier3
+  - Farxmai2.VanillaDeconstructableVehicles
+  - VanillaExpanded.VAEEndAndExt
+  - VanillaExpanded.VAERoy
+  - VanillaExpanded.VAEWaste
+  - VanillaExpanded.VAEAccessories
+  - Neronix17.Retexture.VanillaBeards
+  - VanillaExpanded.VFEMedical
+  - VanillaExpanded.VHE
+  - Neronix17.Retexture.VanillaHair
+  - VanillaExpanded.VIEHAR
+  - VanillaExpanded.Ideo.IconsandSymbols
+  - VanillaExpanded.Ideo.RelicsAndArtifacts
+  - VanillaExpanded.Ideo.SophianStyle
+  - VanillaExpanded.VPlantsEMushrooms
+  - vanillaracesexpanded.customicons
+  - vanillaracesexpanded.highmate
+  - vanillaracesexpanded.pigskin
+  - vanillaexpanded.skills
+  - VanillaExpanded.VTEXVariations
+  - OskarPotocki.VanillaVehiclesExpandedUpgrades
+  - VanillaExpanded.VWEBF
+  - VanillaExpanded.VWEG
+  - tro.vwe.overhaul
+  - Explorern11.VehiclesWrecksExpanded
+  - VehiclesWrecksExpanded.Revisited
+  - co.uk.epicguru.whatsthatmod
+  - Arylice.Rimworld.AutomaticHunting
+  - tradingpost.programmerlily.com
+  - RH2.BCDs.First.Aid
+  - XeoNovaDan.VisiblePants
+  - sbz.GravshipStorage
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+Verse.Log:Message (string)
+(wrapper dynamic-method) MonoMod.Utils.DynamicMethodDefinition:Verse.Game.InitNewGame_Patch2 (Verse.Game)
+Verse.Root_Play/<>c:<Start>b__1_2 ()
+Verse.LongEventHandler:RunEventFromAnotherThread (System.Action)
+Verse.LongEventHandler/<>c:<UpdateCurrentAsynchronousEvent>b__28_0 ()
+System.Threading.ThreadHelper:ThreadStart_Context (object)
+System.Threading.ExecutionContext:RunInternal (System.Threading.ExecutionContext,System.Threading.ContextCallback,object,bool)
+System.Threading.ExecutionContext:Run (System.Threading.ExecutionContext,System.Threading.ContextCallback,object,bool)
+System.Threading.ExecutionContext:Run (System.Threading.ExecutionContext,System.Threading.ContextCallback,object)
+System.Threading.ThreadHelper:ThreadStart ()
+
+[AVP Xenomorphs] Created Xenomorph faction during pawn generation (was missing).
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+Verse.Log:Message (string)
+RRYautja.XenomorphFactionAssigner:GetXenoFaction ()
+RRYautja.XenomorphFactionAssigner:GeneratePawnPostfix (Verse.Pawn&)
+(wrapper dynamic-method) MonoMod.Utils.DynamicMethodDefinition:Verse.PawnGenerator.GeneratePawn_Patch5 (Verse.PawnGenerationRequest)
+RimWorld.HiveLike:SpawnSetup (Verse.Map,bool)
+(wrapper dynamic-method) MonoMod.Utils.DynamicMethodDefinition:Verse.GenSpawn.Spawn_Patch3 (Verse.Thing,Verse.IntVec3,Verse.Map,Verse.Rot4,Verse.WipeMode,bool,bool)
+Verse.GenSpawn:Spawn (Verse.Thing,Verse.IntVec3,Verse.Map,Verse.WipeMode)
+RimWorld.GenStep_XenomorphCaveHives:TrySpawnHive (Verse.Map)
+RimWorld.GenStep_XenomorphCaveHives:Generate (Verse.Map,Verse.GenStepParams)
+Verse.MapGenerator:GenerateContentsIntoMap (System.Collections.Generic.IEnumerable`1<Verse.GenStepWithParams>,Verse.Map,int,bool)
+(wrapper dynamic-method) MonoMod.Utils.DynamicMethodDefinition:Verse.MapGenerator.GenerateMap_Patch2 (Verse.IntVec3,RimWorld.Planet.MapParent,Verse.MapGeneratorDef,System.Collections.Generic.IEnumerable`1<Verse.GenStepWithParams>,System.Action`1<Verse.Map>,bool,bool)
+(wrapper dynamic-method) MonoMod.Utils.DynamicMethodDefinition:Verse.Game.InitNewGame_Patch2 (Verse.Game)
+Verse.Root_Play/<>c:<Start>b__1_2 ()
+Verse.LongEventHandler:RunEventFromAnotherThread (System.Action)
+Verse.LongEventHandler/<>c:<UpdateCurrentAsynchronousEvent>b__28_0 ()
+System.Threading.ThreadHelper:ThreadStart_Context (object)
+System.Threading.ExecutionContext:RunInternal (System.Threading.ExecutionContext,System.Threading.ContextCallback,object,bool)
+System.Threading.ExecutionContext:Run (System.Threading.ExecutionContext,System.Threading.ContextCallback,object,bool)
+System.Threading.ExecutionContext:Run (System.Threading.ExecutionContext,System.Threading.ContextCallback,object)
+System.Threading.ThreadHelper:ThreadStart ()
+
+checking editor settings...
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+Verse.Log:Message (string)
+CharacterEditor.CEditor/ModData:OnSettingsChanged (bool,bool)
+CharacterEditor.CEditor:OnSettingsChanged (bool,bool)
+CharacterEditor.CEditor:OnMapLoaded ()
+(wrapper dynamic-method) MonoMod.Utils.DynamicMethodDefinition:Verse.Map.FinalizeInit_Patch6 (Verse.Map)
+(wrapper dynamic-method) MonoMod.Utils.DynamicMethodDefinition:Verse.MapGenerator.GenerateMap_Patch2 (Verse.IntVec3,RimWorld.Planet.MapParent,Verse.MapGeneratorDef,System.Collections.Generic.IEnumerable`1<Verse.GenStepWithParams>,System.Action`1<Verse.Map>,bool,bool)
+(wrapper dynamic-method) MonoMod.Utils.DynamicMethodDefinition:Verse.Game.InitNewGame_Patch2 (Verse.Game)
+Verse.Root_Play/<>c:<Start>b__1_2 ()
+Verse.LongEventHandler:RunEventFromAnotherThread (System.Action)
+Verse.LongEventHandler/<>c:<UpdateCurrentAsynchronousEvent>b__28_0 ()
+System.Threading.ThreadHelper:ThreadStart_Context (object)
+System.Threading.ExecutionContext:RunInternal (System.Threading.ExecutionContext,System.Threading.ContextCallback,object,bool)
+System.Threading.ExecutionContext:Run (System.Threading.ExecutionContext,System.Threading.ContextCallback,object,bool)
+System.Threading.ExecutionContext:Run (System.Threading.ExecutionContext,System.Threading.ContextCallback,object)
+System.Threading.ThreadHelper:ThreadStart ()
+
+bodysizes genes are active
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+Verse.Log:Message (string)
+CharacterEditor.GeneTool:EnDisableBodySizeGenes ()
+CharacterEditor.CEditor/ModData:OnSettingsChanged (bool,bool)
+CharacterEditor.CEditor:OnSettingsChanged (bool,bool)
+CharacterEditor.CEditor:OnMapLoaded ()
+(wrapper dynamic-method) MonoMod.Utils.DynamicMethodDefinition:Verse.Map.FinalizeInit_Patch6 (Verse.Map)
+(wrapper dynamic-method) MonoMod.Utils.DynamicMethodDefinition:Verse.MapGenerator.GenerateMap_Patch2 (Verse.IntVec3,RimWorld.Planet.MapParent,Verse.MapGeneratorDef,System.Collections.Generic.IEnumerable`1<Verse.GenStepWithParams>,System.Action`1<Verse.Map>,bool,bool)
+(wrapper dynamic-method) MonoMod.Utils.DynamicMethodDefinition:Verse.Game.InitNewGame_Patch2 (Verse.Game)
+Verse.Root_Play/<>c:<Start>b__1_2 ()
+Verse.LongEventHandler:RunEventFromAnotherThread (System.Action)
+Verse.LongEventHandler/<>c:<UpdateCurrentAsynchronousEvent>b__28_0 ()
+System.Threading.ThreadHelper:ThreadStart_Context (object)
+System.Threading.ExecutionContext:RunInternal (System.Threading.ExecutionContext,System.Threading.ContextCallback,object,bool)
+System.Threading.ExecutionContext:Run (System.Threading.ExecutionContext,System.Threading.ContextCallback,object,bool)
+System.Threading.ExecutionContext:Run (System.Threading.ExecutionContext,System.Threading.ContextCallback,object)
+System.Threading.ThreadHelper:ThreadStart ()
+
+[Simple FX: Splashes] Splash grid build with 478 cells.
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+Verse.Log:Message (string)
+SimpleFxSplashes.SplashesUtility:RebuildCache (Verse.Map) (at O:/SteamLibrary/steamapps/common/RimWorld/Mods/owls-SimpleFX Splashes/Source/SplashesUtility.cs:116)
+SimpleFxSplashes.Patch_Map_FinalizeInit:Postfix (Verse.Map) (at O:/SteamLibrary/steamapps/common/RimWorld/Mods/owls-SimpleFX Splashes/Source/Patches.cs:15)
+(wrapper dynamic-method) MonoMod.Utils.DynamicMethodDefinition:Verse.Map.FinalizeInit_Patch6 (Verse.Map)
+(wrapper dynamic-method) MonoMod.Utils.DynamicMethodDefinition:Verse.MapGenerator.GenerateMap_Patch2 (Verse.IntVec3,RimWorld.Planet.MapParent,Verse.MapGeneratorDef,System.Collections.Generic.IEnumerable`1<Verse.GenStepWithParams>,System.Action`1<Verse.Map>,bool,bool)
+(wrapper dynamic-method) MonoMod.Utils.DynamicMethodDefinition:Verse.Game.InitNewGame_Patch2 (Verse.Game)
+Verse.Root_Play/<>c:<Start>b__1_2 ()
+Verse.LongEventHandler:RunEventFromAnotherThread (System.Action)
+Verse.LongEventHandler/<>c:<UpdateCurrentAsynchronousEvent>b__28_0 ()
+System.Threading.ThreadHelper:ThreadStart_Context (object)
+System.Threading.ExecutionContext:RunInternal (System.Threading.ExecutionContext,System.Threading.ContextCallback,object,bool)
+System.Threading.ExecutionContext:Run (System.Threading.ExecutionContext,System.Threading.ContextCallback,object,bool)
+System.Threading.ExecutionContext:Run (System.Threading.ExecutionContext,System.Threading.ContextCallback,object)
+System.Threading.ThreadHelper:ThreadStart ()
+
+ArchitectIcons :: Orders=>Orders
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+Verse.Log:Message (string)
+ArchitectIcons.Logger:Debug (string)
+ArchitectIcons.ArchitectIconsMod:DefNameFromLabel (string)
+ArchitectIcons.ArchitectIconsMod:DoArchitectButton (UnityEngine.Rect,string,single,single,Verse.SoundDef,UnityEngine.Vector2,System.Nullable`1<UnityEngine.Color>,bool)
+(wrapper dynamic-method) MonoMod.Utils.DynamicMethodDefinition:RimWorld.MainTabWindow_Architect.DoCategoryButton_Patch1 (RimWorld.MainTabWindow_Architect,RimWorld.ArchitectCategoryTab,single,single,single,RimWorld.ArchitectCategoryTab,bool)
+RimWorld.MainTabWindow_Architect:DoCategoryRow (RimWorld.ArchitectCategoryTab,RimWorld.ArchitectCategoryTab,single,single,RimWorld.ArchitectCategoryTab)
+RimWorld.MainTabWindow_Architect:DoWindowContents (UnityEngine.Rect)
+Verse.Window:InnerWindowOnGUI (int)
+UnityEngine.GUI:CallWindowDelegate (UnityEngine.GUI/WindowFunction,int,int,UnityEngine.GUISkin,int,single,single,UnityEngine.GUIStyle)
+
+ArchitectIcons :: Zone=>Zone
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+Verse.Log:Message (string)
+ArchitectIcons.Logger:Debug (string)
+ArchitectIcons.ArchitectIconsMod:DefNameFromLabel (string)
+ArchitectIcons.ArchitectIconsMod:DoArchitectButton (UnityEngine.Rect,string,single,single,Verse.SoundDef,UnityEngine.Vector2,System.Nullable`1<UnityEngine.Color>,bool)
+(wrapper dynamic-method) MonoMod.Utils.DynamicMethodDefinition:RimWorld.MainTabWindow_Architect.DoCategoryButton_Patch1 (RimWorld.MainTabWindow_Architect,RimWorld.ArchitectCategoryTab,single,single,single,RimWorld.ArchitectCategoryTab,bool)
+RimWorld.MainTabWindow_Architect:DoCategoryRow (RimWorld.ArchitectCategoryTab,RimWorld.ArchitectCategoryTab,single,single,RimWorld.ArchitectCategoryTab)
+RimWorld.MainTabWindow_Architect:DoWindowContents (UnityEngine.Rect)
+Verse.Window:InnerWindowOnGUI (int)
+UnityEngine.GUI:CallWindowDelegate (UnityEngine.GUI/WindowFunction,int,int,UnityEngine.GUISkin,int,single,single,UnityEngine.GUIStyle)
+
+ArchitectIcons :: Structure=>Structure
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+Verse.Log:Message (string)
+ArchitectIcons.Logger:Debug (string)
+ArchitectIcons.ArchitectIconsMod:DefNameFromLabel (string)
+ArchitectIcons.ArchitectIconsMod:DoArchitectButton (UnityEngine.Rect,string,single,single,Verse.SoundDef,UnityEngine.Vector2,System.Nullable`1<UnityEngine.Color>,bool)
+(wrapper dynamic-method) MonoMod.Utils.DynamicMethodDefinition:RimWorld.MainTabWindow_Architect.DoCategoryButton_Patch1 (RimWorld.MainTabWindow_Architect,RimWorld.ArchitectCategoryTab,single,single,single,RimWorld.ArchitectCategoryTab,bool)
+RimWorld.MainTabWindow_Architect:DoCategoryRow (RimWorld.ArchitectCategoryTab,RimWorld.ArchitectCategoryTab,single,single,RimWorld.ArchitectCategoryTab)
+RimWorld.MainTabWindow_Architect:DoWindowContents (UnityEngine.Rect)
+Verse.Window:InnerWindowOnGUI (int)
+UnityEngine.GUI:CallWindowDelegate (UnityEngine.GUI/WindowFunction,int,int,UnityEngine.GUISkin,int,single,single,UnityEngine.GUIStyle)
+
+ArchitectIcons :: Production=>Production
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+Verse.Log:Message (string)
+ArchitectIcons.Logger:Debug (string)
+ArchitectIcons.ArchitectIconsMod:DefNameFromLabel (string)
+ArchitectIcons.ArchitectIconsMod:DoArchitectButton (UnityEngine.Rect,string,single,single,Verse.SoundDef,UnityEngine.Vector2,System.Nullable`1<UnityEngine.Color>,bool)
+(wrapper dynamic-method) MonoMod.Utils.DynamicMethodDefinition:RimWorld.MainTabWindow_Architect.DoCategoryButton_Patch1 (RimWorld.MainTabWindow_Architect,RimWorld.ArchitectCategoryTab,single,single,single,RimWorld.ArchitectCategoryTab,bool)
+RimWorld.MainTabWindow_Architect:DoCategoryRow (RimWorld.ArchitectCategoryTab,RimWorld.ArchitectCategoryTab,single,single,RimWorld.ArchitectCategoryTab)
+RimWorld.MainTabWindow_Architect:DoWindowContents (UnityEngine.Rect)
+Verse.Window:InnerWindowOnGUI (int)
+UnityEngine.GUI:CallWindowDelegate (UnityEngine.GUI/WindowFunction,int,int,UnityEngine.GUISkin,int,single,single,UnityEngine.GUIStyle)
+
+ArchitectIcons :: ASFstorage=>Storage
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+Verse.Log:Message (string)
+ArchitectIcons.Logger:Debug (string)
+ArchitectIcons.ArchitectIconsMod:DefNameFromLabel (string)
+ArchitectIcons.ArchitectIconsMod:DoArchitectButton (UnityEngine.Rect,string,single,single,Verse.SoundDef,UnityEngine.Vector2,System.Nullable`1<UnityEngine.Color>,bool)
+(wrapper dynamic-method) MonoMod.Utils.DynamicMethodDefinition:RimWorld.MainTabWindow_Architect.DoCategoryButton_Patch1 (RimWorld.MainTabWindow_Architect,RimWorld.ArchitectCategoryTab,single,single,single,RimWorld.ArchitectCategoryTab,bool)
+RimWorld.MainTabWindow_Architect:DoCategoryRow (RimWorld.ArchitectCategoryTab,RimWorld.ArchitectCategoryTab,single,single,RimWorld.ArchitectCategoryTab)
+RimWorld.MainTabWindow_Architect:DoWindowContents (UnityEngine.Rect)
+Verse.Window:InnerWindowOnGUI (int)
+UnityEngine.GUI:CallWindowDelegate (UnityEngine.GUI/WindowFunction,int,int,UnityEngine.GUISkin,int,single,single,UnityEngine.GUIStyle)
+
+ArchitectIcons :: Furniture=>Furniture
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+Verse.Log:Message (string)
+ArchitectIcons.Logger:Debug (string)
+ArchitectIcons.ArchitectIconsMod:DefNameFromLabel (string)
+ArchitectIcons.ArchitectIconsMod:DoArchitectButton (UnityEngine.Rect,string,single,single,Verse.SoundDef,UnityEngine.Vector2,System.Nullable`1<UnityEngine.Color>,bool)
+(wrapper dynamic-method) MonoMod.Utils.DynamicMethodDefinition:RimWorld.MainTabWindow_Architect.DoCategoryButton_Patch1 (RimWorld.MainTabWindow_Architect,RimWorld.ArchitectCategoryTab,single,single,single,RimWorld.ArchitectCategoryTab,bool)
+RimWorld.MainTabWindow_Architect:DoCategoryRow (RimWorld.ArchitectCategoryTab,RimWorld.ArchitectCategoryTab,single,single,RimWorld.ArchitectCategoryTab)
+RimWorld.MainTabWindow_Architect:DoWindowContents (UnityEngine.Rect)
+Verse.Window:InnerWindowOnGUI (int)
+UnityEngine.GUI:CallWindowDelegate (UnityEngine.GUI/WindowFunction,int,int,UnityEngine.GUISkin,int,single,single,UnityEngine.GUIStyle)
+
+ArchitectIcons :: Power=>Power
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+Verse.Log:Message (string)
+ArchitectIcons.Logger:Debug (string)
+ArchitectIcons.ArchitectIconsMod:DefNameFromLabel (string)
+ArchitectIcons.ArchitectIconsMod:DoArchitectButton (UnityEngine.Rect,string,single,single,Verse.SoundDef,UnityEngine.Vector2,System.Nullable`1<UnityEngine.Color>,bool)
+(wrapper dynamic-method) MonoMod.Utils.DynamicMethodDefinition:RimWorld.MainTabWindow_Architect.DoCategoryButton_Patch1 (RimWorld.MainTabWindow_Architect,RimWorld.ArchitectCategoryTab,single,single,single,RimWorld.ArchitectCategoryTab,bool)
+RimWorld.MainTabWindow_Architect:DoCategoryRow (RimWorld.ArchitectCategoryTab,RimWorld.ArchitectCategoryTab,single,single,RimWorld.ArchitectCategoryTab)
+RimWorld.MainTabWindow_Architect:DoWindowContents (UnityEngine.Rect)
+Verse.Window:InnerWindowOnGUI (int)
+UnityEngine.GUI:CallWindowDelegate (UnityEngine.GUI/WindowFunction,int,int,UnityEngine.GUISkin,int,single,single,UnityEngine.GUIStyle)
+
+ArchitectIcons :: Security=>Security
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+Verse.Log:Message (string)
+ArchitectIcons.Logger:Debug (string)
+ArchitectIcons.ArchitectIconsMod:DefNameFromLabel (string)
+ArchitectIcons.ArchitectIconsMod:DoArchitectButton (UnityEngine.Rect,string,single,single,Verse.SoundDef,UnityEngine.Vector2,System.Nullable`1<UnityEngine.Color>,bool)
+(wrapper dynamic-method) MonoMod.Utils.DynamicMethodDefinition:RimWorld.MainTabWindow_Architect.DoCategoryButton_Patch1 (RimWorld.MainTabWindow_Architect,RimWorld.ArchitectCategoryTab,single,single,single,RimWorld.ArchitectCategoryTab,bool)
+RimWorld.MainTabWindow_Architect:DoCategoryRow (RimWorld.ArchitectCategoryTab,RimWorld.ArchitectCategoryTab,single,single,RimWorld.ArchitectCategoryTab)
+RimWorld.MainTabWindow_Architect:DoWindowContents (UnityEngine.Rect)
+Verse.Window:InnerWindowOnGUI (int)
+UnityEngine.GUI:CallWindowDelegate (UnityEngine.GUI/WindowFunction,int,int,UnityEngine.GUISkin,int,single,single,UnityEngine.GUIStyle)
+
+ArchitectIcons :: Misc=>Misc
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+Verse.Log:Message (string)
+ArchitectIcons.Logger:Debug (string)
+ArchitectIcons.ArchitectIconsMod:DefNameFromLabel (string)
+ArchitectIcons.ArchitectIconsMod:DoArchitectButton (UnityEngine.Rect,string,single,single,Verse.SoundDef,UnityEngine.Vector2,System.Nullable`1<UnityEngine.Color>,bool)
+(wrapper dynamic-method) MonoMod.Utils.DynamicMethodDefinition:RimWorld.MainTabWindow_Architect.DoCategoryButton_Patch1 (RimWorld.MainTabWindow_Architect,RimWorld.ArchitectCategoryTab,single,single,single,RimWorld.ArchitectCategoryTab,bool)
+RimWorld.MainTabWindow_Architect:DoCategoryRow (RimWorld.ArchitectCategoryTab,RimWorld.ArchitectCategoryTab,single,single,RimWorld.ArchitectCategoryTab)
+RimWorld.MainTabWindow_Architect:DoWindowContents (UnityEngine.Rect)
+Verse.Window:InnerWindowOnGUI (int)
+UnityEngine.GUI:CallWindowDelegate (UnityEngine.GUI/WindowFunction,int,int,UnityEngine.GUISkin,int,single,single,UnityEngine.GUIStyle)
+
+ArchitectIcons :: Terraform=>Terraform
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+Verse.Log:Message (string)
+ArchitectIcons.Logger:Debug (string)
+ArchitectIcons.ArchitectIconsMod:DefNameFromLabel (string)
+ArchitectIcons.ArchitectIconsMod:DoArchitectButton (UnityEngine.Rect,string,single,single,Verse.SoundDef,UnityEngine.Vector2,System.Nullable`1<UnityEngine.Color>,bool)
+(wrapper dynamic-method) MonoMod.Utils.DynamicMethodDefinition:RimWorld.MainTabWindow_Architect.DoCategoryButton_Patch1 (RimWorld.MainTabWindow_Architect,RimWorld.ArchitectCategoryTab,single,single,single,RimWorld.ArchitectCategoryTab,bool)
+RimWorld.MainTabWindow_Architect:DoCategoryRow (RimWorld.ArchitectCategoryTab,RimWorld.ArchitectCategoryTab,single,single,RimWorld.ArchitectCategoryTab)
+RimWorld.MainTabWindow_Architect:DoWindowContents (UnityEngine.Rect)
+Verse.Window:InnerWindowOnGUI (int)
+UnityEngine.GUI:CallWindowDelegate (UnityEngine.GUI/WindowFunction,int,int,UnityEngine.GUISkin,int,single,single,UnityEngine.GUIStyle)
+
+ArchitectIcons :: Floors=>Floors
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+Verse.Log:Message (string)
+ArchitectIcons.Logger:Debug (string)
+ArchitectIcons.ArchitectIconsMod:DefNameFromLabel (string)
+ArchitectIcons.ArchitectIconsMod:DoArchitectButton (UnityEngine.Rect,string,single,single,Verse.SoundDef,UnityEngine.Vector2,System.Nullable`1<UnityEngine.Color>,bool)
+(wrapper dynamic-method) MonoMod.Utils.DynamicMethodDefinition:RimWorld.MainTabWindow_Architect.DoCategoryButton_Patch1 (RimWorld.MainTabWindow_Architect,RimWorld.ArchitectCategoryTab,single,single,single,RimWorld.ArchitectCategoryTab,bool)
+RimWorld.MainTabWindow_Architect:DoCategoryRow (RimWorld.ArchitectCategoryTab,RimWorld.ArchitectCategoryTab,single,single,RimWorld.ArchitectCategoryTab)
+RimWorld.MainTabWindow_Architect:DoWindowContents (UnityEngine.Rect)
+Verse.Window:InnerWindowOnGUI (int)
+UnityEngine.GUI:CallWindowDelegate (UnityEngine.GUI/WindowFunction,int,int,UnityEngine.GUISkin,int,single,single,UnityEngine.GUIStyle)
+
+ArchitectIcons :: Joy=>Recreation
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+Verse.Log:Message (string)
+ArchitectIcons.Logger:Debug (string)
+ArchitectIcons.ArchitectIconsMod:DefNameFromLabel (string)
+ArchitectIcons.ArchitectIconsMod:DoArchitectButton (UnityEngine.Rect,string,single,single,Verse.SoundDef,UnityEngine.Vector2,System.Nullable`1<UnityEngine.Color>,bool)
+(wrapper dynamic-method) MonoMod.Utils.DynamicMethodDefinition:RimWorld.MainTabWindow_Architect.DoCategoryButton_Patch1 (RimWorld.MainTabWindow_Architect,RimWorld.ArchitectCategoryTab,single,single,single,RimWorld.ArchitectCategoryTab,bool)
+RimWorld.MainTabWindow_Architect:DoCategoryRow (RimWorld.ArchitectCategoryTab,RimWorld.ArchitectCategoryTab,single,single,RimWorld.ArchitectCategoryTab)
+RimWorld.MainTabWindow_Architect:DoWindowContents (UnityEngine.Rect)
+Verse.Window:InnerWindowOnGUI (int)
+UnityEngine.GUI:CallWindowDelegate (UnityEngine.GUI/WindowFunction,int,int,UnityEngine.GUISkin,int,single,single,UnityEngine.GUIStyle)
+
+ArchitectIcons :: Ship=>Ship
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+Verse.Log:Message (string)
+ArchitectIcons.Logger:Debug (string)
+ArchitectIcons.ArchitectIconsMod:DefNameFromLabel (string)
+ArchitectIcons.ArchitectIconsMod:DoArchitectButton (UnityEngine.Rect,string,single,single,Verse.SoundDef,UnityEngine.Vector2,System.Nullable`1<UnityEngine.Color>,bool)
+(wrapper dynamic-method) MonoMod.Utils.DynamicMethodDefinition:RimWorld.MainTabWindow_Architect.DoCategoryButton_Patch1 (RimWorld.MainTabWindow_Architect,RimWorld.ArchitectCategoryTab,single,single,single,RimWorld.ArchitectCategoryTab,bool)
+RimWorld.MainTabWindow_Architect:DoCategoryRow (RimWorld.ArchitectCategoryTab,RimWorld.ArchitectCategoryTab,single,single,RimWorld.ArchitectCategoryTab)
+RimWorld.MainTabWindow_Architect:DoWindowContents (UnityEngine.Rect)
+Verse.Window:InnerWindowOnGUI (int)
+UnityEngine.GUI:CallWindowDelegate (UnityEngine.GUI/WindowFunction,int,int,UnityEngine.GUISkin,int,single,single,UnityEngine.GUIStyle)
+
+ArchitectIcons :: Temperature=>Temperature
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+Verse.Log:Message (string)
+ArchitectIcons.Logger:Debug (string)
+ArchitectIcons.ArchitectIconsMod:DefNameFromLabel (string)
+ArchitectIcons.ArchitectIconsMod:DoArchitectButton (UnityEngine.Rect,string,single,single,Verse.SoundDef,UnityEngine.Vector2,System.Nullable`1<UnityEngine.Color>,bool)
+(wrapper dynamic-method) MonoMod.Utils.DynamicMethodDefinition:RimWorld.MainTabWindow_Architect.DoCategoryButton_Patch1 (RimWorld.MainTabWindow_Architect,RimWorld.ArchitectCategoryTab,single,single,single,RimWorld.ArchitectCategoryTab,bool)
+RimWorld.MainTabWindow_Architect:DoCategoryRow (RimWorld.ArchitectCategoryTab,RimWorld.ArchitectCategoryTab,single,single,RimWorld.ArchitectCategoryTab)
+RimWorld.MainTabWindow_Architect:DoWindowContents (UnityEngine.Rect)
+Verse.Window:InnerWindowOnGUI (int)
+UnityEngine.GUI:CallWindowDelegate (UnityEngine.GUI/WindowFunction,int,int,UnityEngine.GUISkin,int,single,single,UnityEngine.GUIStyle)
+
+ArchitectIcons :: VF_Vehicles=>Vehicles
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+Verse.Log:Message (string)
+ArchitectIcons.Logger:Debug (string)
+ArchitectIcons.ArchitectIconsMod:DefNameFromLabel (string)
+ArchitectIcons.ArchitectIconsMod:DoArchitectButton (UnityEngine.Rect,string,single,single,Verse.SoundDef,UnityEngine.Vector2,System.Nullable`1<UnityEngine.Color>,bool)
+(wrapper dynamic-method) MonoMod.Utils.DynamicMethodDefinition:RimWorld.MainTabWindow_Architect.DoCategoryButton_Patch1 (RimWorld.MainTabWindow_Architect,RimWorld.ArchitectCategoryTab,single,single,single,RimWorld.ArchitectCategoryTab,bool)
+RimWorld.MainTabWindow_Architect:DoCategoryRow (RimWorld.ArchitectCategoryTab,RimWorld.ArchitectCategoryTab,single,single,RimWorld.ArchitectCategoryTab)
+RimWorld.MainTabWindow_Architect:DoWindowContents (UnityEngine.Rect)
+Verse.Window:InnerWindowOnGUI (int)
+UnityEngine.GUI:CallWindowDelegate (UnityEngine.GUI/WindowFunction,int,int,UnityEngine.GUISkin,int,single,single,UnityEngine.GUIStyle)
+
+ArchitectIcons :: Ideology=>Ideology
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+Verse.Log:Message (string)
+ArchitectIcons.Logger:Debug (string)
+ArchitectIcons.ArchitectIconsMod:DefNameFromLabel (string)
+ArchitectIcons.ArchitectIconsMod:DoArchitectButton (UnityEngine.Rect,string,single,single,Verse.SoundDef,UnityEngine.Vector2,System.Nullable`1<UnityEngine.Color>,bool)
+(wrapper dynamic-method) MonoMod.Utils.DynamicMethodDefinition:RimWorld.MainTabWindow_Architect.DoCategoryButton_Patch1 (RimWorld.MainTabWindow_Architect,RimWorld.ArchitectCategoryTab,single,single,single,RimWorld.ArchitectCategoryTab,bool)
+RimWorld.MainTabWindow_Architect:DoCategoryRow (RimWorld.ArchitectCategoryTab,RimWorld.ArchitectCategoryTab,single,single,RimWorld.ArchitectCategoryTab)
+RimWorld.MainTabWindow_Architect:DoWindowContents (UnityEngine.Rect)
+Verse.Window:InnerWindowOnGUI (int)
+UnityEngine.GUI:CallWindowDelegate (UnityEngine.GUI/WindowFunction,int,int,UnityEngine.GUISkin,int,single,single,UnityEngine.GUIStyle)
+
+ArchitectIcons :: Anomaly=>Anomaly
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+Verse.Log:Message (string)
+ArchitectIcons.Logger:Debug (string)
+ArchitectIcons.ArchitectIconsMod:DefNameFromLabel (string)
+ArchitectIcons.ArchitectIconsMod:DoArchitectButton (UnityEngine.Rect,string,single,single,Verse.SoundDef,UnityEngine.Vector2,System.Nullable`1<UnityEngine.Color>,bool)
+(wrapper dynamic-method) MonoMod.Utils.DynamicMethodDefinition:RimWorld.MainTabWindow_Architect.DoCategoryButton_Patch1 (RimWorld.MainTabWindow_Architect,RimWorld.ArchitectCategoryTab,single,single,single,RimWorld.ArchitectCategoryTab,bool)
+RimWorld.MainTabWindow_Architect:DoCategoryRow (RimWorld.ArchitectCategoryTab,RimWorld.ArchitectCategoryTab,single,single,RimWorld.ArchitectCategoryTab)
+RimWorld.MainTabWindow_Architect:DoWindowContents (UnityEngine.Rect)
+Verse.Window:InnerWindowOnGUI (int)
+UnityEngine.GUI:CallWindowDelegate (UnityEngine.GUI/WindowFunction,int,int,UnityEngine.GUISkin,int,single,single,UnityEngine.GUIStyle)
+
+ArchitectIcons :: Biotech=>Biotech
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+Verse.Log:Message (string)
+ArchitectIcons.Logger:Debug (string)
+ArchitectIcons.ArchitectIconsMod:DefNameFromLabel (string)
+ArchitectIcons.ArchitectIconsMod:DoArchitectButton (UnityEngine.Rect,string,single,single,Verse.SoundDef,UnityEngine.Vector2,System.Nullable`1<UnityEngine.Color>,bool)
+(wrapper dynamic-method) MonoMod.Utils.DynamicMethodDefinition:RimWorld.MainTabWindow_Architect.DoCategoryButton_Patch1 (RimWorld.MainTabWindow_Architect,RimWorld.ArchitectCategoryTab,single,single,single,RimWorld.ArchitectCategoryTab,bool)
+RimWorld.MainTabWindow_Architect:DoCategoryRow (RimWorld.ArchitectCategoryTab,RimWorld.ArchitectCategoryTab,single,single,RimWorld.ArchitectCategoryTab)
+RimWorld.MainTabWindow_Architect:DoWindowContents (UnityEngine.Rect)
+Verse.Window:InnerWindowOnGUI (int)
+UnityEngine.GUI:CallWindowDelegate (UnityEngine.GUI/WindowFunction,int,int,UnityEngine.GUISkin,int,single,single,UnityEngine.GUIStyle)
+
+ArchitectIcons :: Odyssey=>Odyssey
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+Verse.Log:Message (string)
+ArchitectIcons.Logger:Debug (string)
+ArchitectIcons.ArchitectIconsMod:DefNameFromLabel (string)
+ArchitectIcons.ArchitectIconsMod:DoArchitectButton (UnityEngine.Rect,string,single,single,Verse.SoundDef,UnityEngine.Vector2,System.Nullable`1<UnityEngine.Color>,bool)
+(wrapper dynamic-method) MonoMod.Utils.DynamicMethodDefinition:RimWorld.MainTabWindow_Architect.DoCategoryButton_Patch1 (RimWorld.MainTabWindow_Architect,RimWorld.ArchitectCategoryTab,single,single,single,RimWorld.ArchitectCategoryTab,bool)
+RimWorld.MainTabWindow_Architect:DoCategoryRow (RimWorld.ArchitectCategoryTab,RimWorld.ArchitectCategoryTab,single,single,RimWorld.ArchitectCategoryTab)
+RimWorld.MainTabWindow_Architect:DoWindowContents (UnityEngine.Rect)
+Verse.Window:InnerWindowOnGUI (int)
+UnityEngine.GUI:CallWindowDelegate (UnityEngine.GUI/WindowFunction,int,int,UnityEngine.GUISkin,int,single,single,UnityEngine.GUIStyle)
+
+Attempted to draw Porcupine45824 without a resolved render tree.
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+(wrapper dynamic-method) MonoMod.Utils.DynamicMethodDefinition:Verse.Log.Error_Patch2 (string)
+Verse.Log:ErrorOnce (string,int)
+Verse.PawnRenderTree:Draw (Verse.PawnDrawParms)
+Verse.PawnRenderer:RenderPawnInternal (Verse.PawnDrawParms)
+(wrapper dynamic-method) MonoMod.Utils.DynamicMethodDefinition:Verse.PawnRenderer.RenderPawnAt_Patch3 (Verse.PawnRenderer,UnityEngine.Vector3,System.Nullable`1<Verse.Rot4>,bool)
+(wrapper dynamic-method) MonoMod.Utils.DynamicMethodDefinition:Verse.PawnRenderer.DynamicDrawPhaseAt_Patch1 (Verse.PawnRenderer,Verse.DrawPhase,UnityEngine.Vector3,System.Nullable`1<Verse.Rot4>,bool)
+Verse.Pawn:DynamicDrawPhaseAt (Verse.DrawPhase,UnityEngine.Vector3,bool)
+Verse.Corpse:DynamicDrawPhaseAt (Verse.DrawPhase,UnityEngine.Vector3,bool)
+Verse.Thing:DrawNowAt (UnityEngine.Vector3,bool)
+Verse.PawnRenderUtility:DrawCarriedThing (Verse.Pawn,UnityEngine.Vector3,Verse.Thing)
+Verse.PawnRenderNodeWorker_Carried:PostDraw (Verse.PawnRenderNode,Verse.PawnDrawParms,UnityEngine.Mesh,UnityEngine.Matrix4x4)
+Verse.PawnRenderTree:Draw (Verse.PawnDrawParms)
+Verse.PawnRenderer:RenderPawnInternal (Verse.PawnDrawParms)
+(wrapper dynamic-method) MonoMod.Utils.DynamicMethodDefinition:Verse.PawnRenderer.RenderPawnAt_Patch3 (Verse.PawnRenderer,UnityEngine.Vector3,System.Nullable`1<Verse.Rot4>,bool)
+(wrapper dynamic-method) MonoMod.Utils.DynamicMethodDefinition:Verse.PawnRenderer.DynamicDrawPhaseAt_Patch1 (Verse.PawnRenderer,Verse.DrawPhase,UnityEngine.Vector3,System.Nullable`1<Verse.Rot4>,bool)
+Verse.Pawn:DynamicDrawPhaseAt (Verse.DrawPhase,UnityEngine.Vector3,bool)
+Verse.Thing:DynamicDrawPhase (Verse.DrawPhase)
+(wrapper dynamic-method) MonoMod.Utils.DynamicMethodDefinition:Verse.DynamicDrawManager.DrawDynamicThings_Patch1 (Verse.DynamicDrawManager)
+Verse.Map:MapUpdate ()
+(wrapper dynamic-method) MonoMod.Utils.DynamicMethodDefinition:Verse.Game.UpdatePlay_Patch1 (Verse.Game)
+Verse.Root_Play:Update ()
+
+Exception in RimWorld.ThinkNode_Conditional_OverHealth TryIssueJobPackage: System.NullReferenceException: Object reference not set to an instance of an object
+[Ref 3BF6FC4]
+  at Verse.GenGrid.CanBeSeenOver (Verse.IntVec3 c, Verse.Map map) [0x00000] in <61e4173561894da49d210260257b5097>:0 
+  at Verse.ShootLeanUtility.LeanShootingSourcesFromTo (Verse.IntVec3 shooterLoc, Verse.IntVec3 targetPos, Verse.Map map, System.Collections.Generic.List`1[T] listToFill) [0x00075] in <61e4173561894da49d210260257b5097>:0 
+  at Verse.ShootLeanUtility.CalcShootableCellsOf (System.Collections.Generic.List`1[T] outCells, Verse.Thing target, Verse.IntVec3 shooterPos) [0x0001b] in <61e4173561894da49d210260257b5097>:0 
+  at Verse.AI.AttackTargetFinder.CanSee (Verse.Thing seer, Verse.Thing target, System.Func`2[T,TResult] validator) [0x0000c] in <61e4173561894da49d210260257b5097>:0 
+  at RimWorld.JobGiver_XenomorphHosthunter+<>c__DisplayClass12_0.<FindPawnTarget>b__3 (Verse.Pawn x) [0x00015] in <1b76bd5d58b14b4eabe9e2742af9a330>:0 
+  at System.Linq.Enumerable+WhereListIterator`1[TSource].ToList () [0x00017] in <1f993cbf88314b1baa1e10ca917bdc64>:0 
+  at System.Linq.Enumerable.ToList[TSource] (System.Collections.Generic.IEnumerable`1[T] source) [0x0001f] in <1f993cbf88314b1baa1e10ca917bdc64>:0 
+  at RimWorld.JobGiver_XenomorphHosthunter.FindPawnTarget (Verse.Pawn pawn) [0x0016c] in <1b76bd5d58b14b4eabe9e2742af9a330>:0 
+  at RimWorld.JobGiver_XenomorphHosthunter.TryGiveJob (Verse.Pawn pawn) [0x001a7] in <1b76bd5d58b14b4eabe9e2742af9a330>:0 
+  at Verse.AI.ThinkNode_JobGiver.TryIssueJobPackage (Verse.Pawn pawn, Verse.AI.JobIssueParams jobParams) [0x00000] in <61e4173561894da49d210260257b5097>:0 
+  at Verse.AI.ThinkNode_Priority.TryIssueJobPackage (Verse.Pawn pawn, Verse.AI.JobIssueParams jobParams) [0x00022] in <61e4173561894da49d210260257b5097>:0 
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+(wrapper dynamic-method) MonoMod.Utils.DynamicMethodDefinition:Verse.Log.Error_Patch2 (string)
+Verse.AI.ThinkNode_Priority:TryIssueJobPackage (Verse.Pawn,Verse.AI.JobIssueParams)
+Verse.AI.ThinkNode_Conditional:TryIssueJobPackage (Verse.Pawn,Verse.AI.JobIssueParams)
+Verse.AI.ThinkNode_Priority:TryIssueJobPackage (Verse.Pawn,Verse.AI.JobIssueParams)
+Verse.AI.ThinkNode_Conditional:TryIssueJobPackage (Verse.Pawn,Verse.AI.JobIssueParams)
+Verse.AI.ThinkNode_Priority:TryIssueJobPackage (Verse.Pawn,Verse.AI.JobIssueParams)
+Verse.AI.ThinkNode_Conditional:TryIssueJobPackage (Verse.Pawn,Verse.AI.JobIssueParams)
+Verse.AI.ThinkNode_Priority:TryIssueJobPackage (Verse.Pawn,Verse.AI.JobIssueParams)
+RimWorld.ThinkNode_Duty:TryIssueJobPackage (Verse.Pawn,Verse.AI.JobIssueParams)
+Verse.AI.ThinkNode_Priority:TryIssueJobPackage (Verse.Pawn,Verse.AI.JobIssueParams)
+Verse.AI.ThinkNode_Conditional:TryIssueJobPackage (Verse.Pawn,Verse.AI.JobIssueParams)
+Verse.AI.ThinkNode_Priority:TryIssueJobPackage (Verse.Pawn,Verse.AI.JobIssueParams)
+Verse.AI.ThinkNode_Tagger:TryIssueJobPackage (Verse.Pawn,Verse.AI.JobIssueParams)
+Verse.AI.ThinkNode_Subtree:TryIssueJobPackage (Verse.Pawn,Verse.AI.JobIssueParams)
+Verse.AI.ThinkNode_Priority:TryIssueJobPackage (Verse.Pawn,Verse.AI.JobIssueParams)
+Verse.AI.ThinkNode_Conditional:TryIssueJobPackage (Verse.Pawn,Verse.AI.JobIssueParams)
+Verse.AI.ThinkNode_Priority:TryIssueJobPackage (Verse.Pawn,Verse.AI.JobIssueParams)
+Verse.AI.ThinkNode_Conditional:TryIssueJobPackage (Verse.Pawn,Verse.AI.JobIssueParams)
+Verse.AI.ThinkNode_Priority:TryIssueJobPackage (Verse.Pawn,Verse.AI.JobIssueParams)
+(wrapper dynamic-method) MonoMod.Utils.DynamicMethodDefinition:Verse.AI.Pawn_JobTracker.DetermineNextJob_Patch1 (Verse.AI.Pawn_JobTracker,Verse.ThinkTreeDef&,bool)
+(wrapper dynamic-method) MonoMod.Utils.DynamicMethodDefinition:Glue:AbiFixup<Verse.AI.ThinkResult Verse.AI.Pawn_JobTracker:DetermineNextJob(Verse.ThinkTreeDef&, System.Boolean),Verse.AI.ThinkResult Verse.AI.Pawn_JobTracker.DetermineNextJob_Patch1(Verse.AI.Pawn_JobTracker, Verse.ThinkTreeDef&, System.Boolean)> (Verse.AI.Pawn_JobTracker,Verse.AI.ThinkResult&,Verse.ThinkTreeDef&,bool)
+Verse.AI.Pawn_JobTracker:TryFindAndStartJob ()
+Verse.AI.Pawn_JobTracker:EndCurrentJob (Verse.AI.JobCondition,bool,bool)
+Verse.AI.JobDriver:EndJobWith (Verse.AI.JobCondition)
+Verse.AI.JobDriver:CheckCurrentToilEndOrFail ()
+Verse.AI.JobDriver:DriverTick ()
+Verse.AI.Pawn_JobTracker:JobTrackerTick ()
+Verse.Pawn:Tick ()
+Verse.Thing:DoTick ()
+Verse.TickList:Tick ()
+(wrapper dynamic-method) MonoMod.Utils.DynamicMethodDefinition:Verse.TickManager.DoSingleTick_Patch2 (Verse.TickManager)
+(wrapper dynamic-method) MonoMod.Utils.DynamicMethodDefinition:Verse.TickManager.TickManagerUpdate_Patch1 (Verse.TickManager)
+(wrapper dynamic-method) MonoMod.Utils.DynamicMethodDefinition:Verse.Game.UpdatePlay_Patch1 (Verse.Game)
+Verse.Root_Play:Update ()
+
+Exception in RimWorld.ThinkNode_Conditional_OverHealth TryIssueJobPackage: System.NullReferenceException: Object reference not set to an instance of an object
+[Ref 3BF6FC4] Duplicate stacktrace, see ref for original
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+(wrapper dynamic-method) MonoMod.Utils.DynamicMethodDefinition:Verse.Log.Error_Patch2 (string)
+Verse.AI.ThinkNode_Priority:TryIssueJobPackage (Verse.Pawn,Verse.AI.JobIssueParams)
+Verse.AI.ThinkNode_Conditional:TryIssueJobPackage (Verse.Pawn,Verse.AI.JobIssueParams)
+Verse.AI.ThinkNode_Priority:TryIssueJobPackage (Verse.Pawn,Verse.AI.JobIssueParams)
+Verse.AI.ThinkNode_Conditional:TryIssueJobPackage (Verse.Pawn,Verse.AI.JobIssueParams)
+Verse.AI.ThinkNode_Priority:TryIssueJobPackage (Verse.Pawn,Verse.AI.JobIssueParams)
+Verse.AI.ThinkNode_Conditional:TryIssueJobPackage (Verse.Pawn,Verse.AI.JobIssueParams)
+Verse.AI.ThinkNode_Priority:TryIssueJobPackage (Verse.Pawn,Verse.AI.JobIssueParams)
+RimWorld.ThinkNode_Duty:TryIssueJobPackage (Verse.Pawn,Verse.AI.JobIssueParams)
+Verse.AI.ThinkNode_Priority:TryIssueJobPackage (Verse.Pawn,Verse.AI.JobIssueParams)
+Verse.AI.ThinkNode_Conditional:TryIssueJobPackage (Verse.Pawn,Verse.AI.JobIssueParams)
+Verse.AI.ThinkNode_Priority:TryIssueJobPackage (Verse.Pawn,Verse.AI.JobIssueParams)
+Verse.AI.ThinkNode_Tagger:TryIssueJobPackage (Verse.Pawn,Verse.AI.JobIssueParams)
+Verse.AI.ThinkNode_Subtree:TryIssueJobPackage (Verse.Pawn,Verse.AI.JobIssueParams)
+Verse.AI.ThinkNode_Priority:TryIssueJobPackage (Verse.Pawn,Verse.AI.JobIssueParams)
+Verse.AI.ThinkNode_Conditional:TryIssueJobPackage (Verse.Pawn,Verse.AI.JobIssueParams)
+Verse.AI.ThinkNode_Priority:TryIssueJobPackage (Verse.Pawn,Verse.AI.JobIssueParams)
+Verse.AI.ThinkNode_Conditional:TryIssueJobPackage (Verse.Pawn,Verse.AI.JobIssueParams)
+Verse.AI.ThinkNode_Priority:TryIssueJobPackage (Verse.Pawn,Verse.AI.JobIssueParams)
+(wrapper dynamic-method) MonoMod.Utils.DynamicMethodDefinition:Verse.AI.Pawn_JobTracker.DetermineNextJob_Patch1 (Verse.AI.Pawn_JobTracker,Verse.ThinkTreeDef&,bool)
+(wrapper dynamic-method) MonoMod.Utils.DynamicMethodDefinition:Glue:AbiFixup<Verse.AI.ThinkResult Verse.AI.Pawn_JobTracker:DetermineNextJob(Verse.ThinkTreeDef&, System.Boolean),Verse.AI.ThinkResult Verse.AI.Pawn_JobTracker.DetermineNextJob_Patch1(Verse.AI.Pawn_JobTracker, Verse.ThinkTreeDef&, System.Boolean)> (Verse.AI.Pawn_JobTracker,Verse.AI.ThinkResult&,Verse.ThinkTreeDef&,bool)
+Verse.AI.Pawn_JobTracker:TryFindAndStartJob ()
+Verse.AI.Pawn_JobTracker:EndCurrentJob (Verse.AI.JobCondition,bool,bool)
+Verse.AI.Pawn_JobTracker:JobTrackerTickInterval (int)
+Verse.Pawn:TickInterval (int)
+Verse.Thing:DoTick ()
+Verse.TickList:Tick ()
+(wrapper dynamic-method) MonoMod.Utils.DynamicMethodDefinition:Verse.TickManager.DoSingleTick_Patch2 (Verse.TickManager)
+(wrapper dynamic-method) MonoMod.Utils.DynamicMethodDefinition:Verse.TickManager.TickManagerUpdate_Patch1 (Verse.TickManager)
+(wrapper dynamic-method) MonoMod.Utils.DynamicMethodDefinition:Verse.Game.UpdatePlay_Patch1 (Verse.Game)
+Verse.Root_Play:Update ()
