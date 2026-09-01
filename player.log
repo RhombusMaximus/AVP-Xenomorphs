@@ -11,7 +11,7 @@ Direct3D:
     VRAM:     8042 MB
     Driver:   32.0.16.1088
 Begin MonoManager ReloadAssembly
-- Loaded All Assemblies, in  0.201 seconds
+- Loaded All Assemblies, in  0.196 seconds
 - Finished resetting the current domain, in  0.001 seconds
 <RI> Initializing input.
 
@@ -20,23 +20,24 @@ Begin MonoManager ReloadAssembly
 <RI> Initialized touch support.
 
 [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
-UnloadTime: 0.632200 ms
+UnloadTime: 0.684300 ms
 Command line arguments: -disable-compute-shaders
 RimWorld 1.6.4871 rev591
 Mod Realistic Humansounds HAR Patch dependency (Mlie.RealisticHumanSounds) needs to have <downloadUrl> and/or <steamWorkshopUrl> specified.
-Fallback handler could not load library D:/SteamLibrary/steamapps/common/RimWorld/RimWorldWin64_Data/MonoBleedingEdge/data-00000292CAE0B010.dll
-Fallback handler could not load library D:/SteamLibrary/steamapps/common/RimWorld/RimWorldWin64_Data/MonoBleedingEdge/data-0000029103145090.dll
+Fallback handler could not load library D:/SteamLibrary/steamapps/common/RimWorld/RimWorldWin64_Data/MonoBleedingEdge/data-0000029074426020.dll
+Fallback handler could not load library D:/SteamLibrary/steamapps/common/RimWorld/RimWorldWin64_Data/MonoBleedingEdge/data-0000029074531080.dll
 [Loading Progress] Loading Progress initialized! Enjoy the rest of your loading experience!
 [HugsLib] version 12.0.0
 [HugsLib] early-initializing AllowTool
-Fallback handler could not load library D:/SteamLibrary/steamapps/common/RimWorld/RimWorldWin64_Data/MonoBleedingEdge/data-000002910830A8F0.dll
+Alien Vs Predator: successfully completed 38 harmony patches.
+Fallback handler could not load library D:/SteamLibrary/steamapps/common/RimWorld/RimWorldWin64_Data/MonoBleedingEdge/data-0000029078CC9010.dll
 DubsMintMenus v1.3.1086
 [Analyzer] Loaded version 1.6.0 rev 1
 [Analyzer] ResearchTree
 FPSStabilizer v1.1 loaded, patcher message: Patched successfully, fps set to 60
 FactionCustomizer is successfully initialized!
 [ImageOpt] Successfully loaded Rust library into process memory. ver: 0.1.13
-Fallback handler could not load library D:/SteamLibrary/steamapps/common/RimWorld/RimWorldWin64_Data/MonoBleedingEdge/data-0000029108746010.dll
+Fallback handler could not load library D:/SteamLibrary/steamapps/common/RimWorld/RimWorldWin64_Data/MonoBleedingEdge/data-000002907ABE3250.dll
 <color=#66ffb5>[MeleeAnim]</color> Hello, world!
 Build date: 7/31/2026 6:45 PM
 Loaded assemblies (9):
@@ -56,6 +57,8 @@ RimSaves NX rev27
 Loaded What's That Mod.
 [Big & Small] Patched 44 PawnRenderNodeProperties to use PawnRenderingProps_Lite for recolorable graphics.
 Remember that you can always disable this again in the mod options.
+Config error in VBE_Writing: same research view coords and tab as terrainRehab: 2, 0(Main)
+Config error in terrainRehab: same research view coords and tab as VBE_Writing: 2, 0(Main)
 Translation data for language English has 4 errors. Generate translation report for more info.
 [AVP Xenomorphs] [AVP Xenomorphs] Patched Mineable.TrySpawnYield
 [AVP Xenomorphs] Patched JobDriver_Wait.CheckForAutoAttack
@@ -65,7 +68,7 @@ KCSG has Created 7635 symbolDefs for vanilla and DLCs
 [CleaningAreaRelaunched] Loaded
 Damage Indicators initialized.
 [XML Extensions] Initialized 3 SettingsMenuDef(s) and found 210 unused key(s) from 6 mod(s)
-[XML Extensions] 3838 total patch operations run in 9271ms, 0 failed
+[XML Extensions] 3838 total patch operations run in 9309ms, 0 failed
 [XML Extensions] Emitted 3 mod class(es)
 [Keep Mortars Ready] Loaded.
 Locks: Doors expanded found
@@ -97,13 +100,107 @@ NamesGalore: Current Lang English
 [RelevantStatsInDescription]: Skipping dps-calculation of Incinerator turret as it has no default projectile defined
 [RelevantStatsInDescription]: Skipping dps-calculation of Graser turret as it has no default projectile defined
 (Research Tab Colors) Transpiler injected.
+[Simple FX: Splashes] The following terrains have been defined as being hard:
+ - rough-hewn vacstone
+ - rough vacstone
+ - rough-hewn marble
+ - rough marble
+ - rough-hewn slate
+ - rough slate
+ - rough-hewn limestone
+ - rough limestone
+ - rough-hewn granite
+ - rough granite
+ - rough-hewn sandstone
+ - rough sandstone
+ - shintao fine marble tile
+ - shintao fine slate tile
+ - shintao fine limestone tile
+ - shintao fine granite tile
+ - shintao fine sandstone tile
+ - corporate fine marble tile
+ - corporate fine slate tile
+ - corporate fine limestone tile
+ - corporate fine granite tile
+ - corporate fine sandstone tile
+ - transparent heavy bridge
+ - transparent substructure
+ - fine sky tile
+ - sky tile
+ - fine transparent tile
+ - concrete tile
+ - concrete flagstone
+ - Fine Concrete Tile
+ - Concrete tile
+ - concrete path
+ - ancient heavy bridge
+ - heavy bridge
+ - gravship substructure
+ - vacstone flagstone
+ - vacstone tile
+ - bioferrite plate
+ - hex tile
+ - totemic vacstone tile
+ - totemic marble tile
+ - totemic slate tile
+ - totemic limestone tile
+ - totemic granite tile
+ - totemic sandstone tile
+ - spikecore plates
+ - vacstone spikecore tile
+ - marble spikecore tile
+ - slate spikecore tile
+ - limestone spikecore tile
+ - granite spikecore tile
+ - sandstone spikecore tile
+ - morbid vacstone tile
+ - morbid marble tile
+ - morbid slate tile
+ - morbid limestone tile
+ - morbid granite tile
+ - morbid sandstone tile
+ - fine vacstone tile
+ - fine marble tile
+ - fine slate tile
+ - fine limestone tile
+ - fine granite tile
+ - fine sandstone tile
+ - broken asphalt
+ - marble flagstone
+ - slate flagstone
+ - limestone flagstone
+ - granite flagstone
+ - sandstone flagstone
+ - marble tile
+ - slate tile
+ - limestone tile
+ - granite tile
+ - sandstone tile
+ - sterile tile
+ - gold tile
+ - silver tile
+ - steel tile
+ - paved tile
+ - concrete
 [SmashPhil.VehicleFramework] Applying compatibility patch for CaesarV6.DamageIndicators. Active: Yes
 [SmashPhil.VehicleFramework] Applying compatibility patch for ludeon.rimworld.odyssey. Active: Yes
-[VehicleFramework] version 1.6.2144
 [UseThisInstead]: Found 0 replacements
+[VehicleFramework] version 1.6.2144
+Type MarkerCache probably needs a StaticConstructorOnStartup attribute, because it has a field outlineGeneratorMaterial of type Material. All assets must be loaded in the main thread.
+Type PawnRenderNodeWorker_FacehuggerMask probably needs a StaticConstructorOnStartup attribute, because it has a field royalGraphic of type Graphic. All assets must be loaded in the main thread.
+Type Building_XenomorphCocoon probably needs a StaticConstructorOnStartup attribute, because it has a field invisibleGraphic of type Graphic. All assets must be loaded in the main thread.
+Type AnimRenderer probably needs a StaticConstructorOnStartup attribute, because it has a field DefaultCutout of type Material. All assets must be loaded in the main thread.
+Type VideoPlayerUtil probably needs a StaticConstructorOnStartup attribute, because it has a field go of type GameObject. All assets must be loaded in the main thread.
+Type BGRenderer probably needs a StaticConstructorOnStartup attribute, because it has a field layers of type Texture2D[]. All assets must be loaded in the main thread.
+Type Dialog_AnimationDebugger probably needs a StaticConstructorOnStartup attribute, because it has a field mpb of type MaterialPropertyBlock. All assets must be loaded in the main thread.
+Type Building_DuelSpot probably needs a StaticConstructorOnStartup attribute, because it has a field invisible of type Graphic. All assets must be loaded in the main thread.
+Type GrabUtility probably needs a StaticConstructorOnStartup attribute, because it has a field mpb of type MaterialPropertyBlock. All assets must be loaded in the main thread.
+Type GrappleFlyer probably needs a StaticConstructorOnStartup attribute, because it has a field mpb of type MaterialPropertyBlock. All assets must be loaded in the main thread.
+Type Dialog_ShieldColorPicker probably needs a StaticConstructorOnStartup attribute, because it has a field checkerTex of type Texture2D. All assets must be loaded in the main thread.
+Type ShieldDrawer probably needs a StaticConstructorOnStartup attribute, because it has a field borderMaterial of type Material. All assets must be loaded in the main thread.
 Unloading 5 Unused Serialized files (Serialized files now loaded: 10)
 Unloading 1368 unused Assets to reduce memory usage. Loaded Objects now: 56352.
-Total: 499.068900 ms (FindLiveObjects: 4.874000 ms CreateObjectMapping: 2.898500 ms MarkObjects: 488.848600 ms  DeleteObjects: 2.447300 ms)
+Total: 458.447700 ms (FindLiveObjects: 6.951800 ms CreateObjectMapping: 4.257300 ms MarkObjects: 444.428400 ms  DeleteObjects: 2.809500 ms)
 
 MVCF successfully applied 55 patches
 [ShieldGenerator] Custom parameters applied.
@@ -289,20 +386,20 @@ Prefixes:
 Transpilers:
 Postfixes:
   [PeteTimesSix.SimpleSidearms] TryCastShot
-<color=#66ffb5>[MeleeAnim]</color> PreCached all retexture info in 224.1ms
+<color=#66ffb5>[MeleeAnim]</color> PreCached all retexture info in 191.7ms
 <color=#66ffb5>[MeleeAnim]</color> Loaded tweak data for 66 weapons.
-<color=#66ffb5>[MeleeAnim]</color> Patched 3 classes that directly inherit from Verb_MeleeAttack in 87.2 ms to detect hits:
+<color=#66ffb5>[MeleeAnim]</color> Patched 3 classes that directly inherit from Verb_MeleeAttack in 75.0 ms to detect hits:
 RimWorld.Verb_MeleeApplyHediff from Assembly-CSharp
 RimWorld.Verb_MeleeAttackDamage from Assembly-CSharp
 RRYautja.Verb_MeleeAttackKnockback from RRYautja
-<color=#66ffb5>[MeleeAnim]</color> Found 4 items of clothing that cover hands, took 1.03 ms:
+<color=#66ffb5>[MeleeAnim]</color> Found 4 items of clothing that cover hands, took 1.01 ms:
 VAE_Handwear_Gloves (Gloves),
 VAE_Handwear_PlateGloves (Plate gloves),
 VAE_Handwear_MarineGloves (Marine gloves),
 VAE_Apparel_Shield_Riot (Riot shield)
-  --> [What's That Mod] Took 0.25 seconds to scan all patches. <--
+  --> [What's That Mod] Took 0.24 seconds to scan all patches. <--
 What's That Mod: Wrote to 7226 mod descriptions, 10 patched defs resolved.
-What's That Mod took 275 milliseconds to generate all def descriptions.
+What's That Mod took 259 milliseconds to generate all def descriptions.
 [HugsLib] initializing TerraformRimworld
 CE is trying to create default parameter lists ...
 creating default parameter list for genes...
@@ -318,13 +415,20 @@ Gun_ThundercatRifle modification loaded
 FoldingTent modification loaded
 no modifications for lifestages
 ...done
-Unloading 4 Unused Serialized files (Serialized files now loaded: 12)
-[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
-UnloadTime: 0.912000 ms
-Unloading 148 unused Assets to reduce memory usage. Loaded Objects now: 57041.
-Total: 478.368700 ms (FindLiveObjects: 2.747500 ms CreateObjectMapping: 2.773200 ms MarkObjects: 472.540900 ms  DeleteObjects: 0.306800 ms)
+[StartingTechLevel] Scenario_GetFirstConfigPage
+[StartingTechLevel] Select Tech Level page added.
+Unloading 3 Unused Serialized files (Serialized files now loaded: 12)
+Unloading 146 unused Assets to reduce memory usage. Loaded Objects now: 59918.
+Total: 498.496900 ms (FindLiveObjects: 3.194300 ms CreateObjectMapping: 2.453900 ms MarkObjects: 492.583500 ms  DeleteObjects: 0.264800 ms)
 
-Loading game from file USCSS Colony56 with mods:
+[StartingTechLevel] Setting tech level Industrial.
+[StartingTechLevel] Finished 44 old research projects.
+Unloading 3 Unused Serialized files (Serialized files now loaded: 12)
+UnloadTime: 0.929100 ms
+Unloading 2 unused Assets to reduce memory usage. Loaded Objects now: 60311.
+Total: 489.202200 ms (FindLiveObjects: 3.148600 ms CreateObjectMapping: 3.622000 ms MarkObjects: 482.320900 ms  DeleteObjects: 0.110100 ms)
+
+Initializing new game with mods:
   - brrainz.harmony
   - ilyvion.LoadingProgress
   - Ludeon.RimWorld
@@ -523,34 +627,37 @@ Loading game from file USCSS Colony56 with mods:
   - RH2.BCDs.First.Aid
   - XeoNovaDan.VisiblePants
   - sbz.GravshipStorage
-Could not resolve reference to object with loadID Thing_Human37090 of type Verse.Pawn. Was it compressed away, destroyed, had no ID number, or not saved/loaded right? curParent=RimWorld.DirectPawnRelation curPathRelToParent=
-Pawn Calnos has relation "Lover" with null pawn after loading. This means that we forgot to serialize pawns somewhere (e.g. pawns from passing trade ships).
-Could not do PostLoadInit on RimWorld.Pawn_TrainingTracker: System.NullReferenceException: Object reference not set to an instance of an object
-[Ref F8FF2929]
-  at RimWorld.Pawn_TrainingTracker.CanAssignToTrain (RimWorld.TrainableDef td, Verse.ThingDef pawnDef, System.Boolean& visible, Verse.Pawn pawn) [0x0018d] in <61e4173561894da49d210260257b5097>:0 
-  at RimWorld.Pawn_TrainingTracker.CanAssignToTrain (RimWorld.TrainableDef td, System.Boolean& visible) [0x00000] in <61e4173561894da49d210260257b5097>:0 
-  at RimWorld.Pawn_TrainingTracker.CanAssignToTrain (RimWorld.TrainableDef td) [0x00000] in <61e4173561894da49d210260257b5097>:0 
-  at Verse.BackCompatibility.PawnTrainingTrackerPostLoadInit (RimWorld.Pawn_TrainingTracker tracker, Verse.DefMap`2[RimWorld.TrainableDef,System.Boolean]& wantedTrainables, Verse.DefMap`2[RimWorld.TrainableDef,System.Int32]& steps, Verse.DefMap`2[RimWorld.TrainableDef,System.Boolean]& learned) [0x00082] in <61e4173561894da49d210260257b5097>:0 
-  at RimWorld.Pawn_TrainingTracker.ExposeData () [0x0006a] in <61e4173561894da49d210260257b5097>:0 
-  at Verse.PostLoadIniter.DoAllPostLoadInits () [0x00032] in <61e4173561894da49d210260257b5097>:0 
-<color=#66ffb5>[MeleeAnim]</color> Loaded 0 animation renderers on map Map-0-PlayerHome
-Could not do PostLoadInit on RimWorld.Pawn_TrainingTracker: System.NullReferenceException: Object reference not set to an instance of an object
-[Ref F8FF2929] Duplicate stacktrace, see ref for original
-Could not do PostLoadInit on RimWorld.Pawn_TrainingTracker: System.NullReferenceException: Object reference not set to an instance of an object
-[Ref F8FF2929] Duplicate stacktrace, see ref for original
-Could not do PostLoadInit on RimWorld.Pawn_TrainingTracker: System.NullReferenceException: Object reference not set to an instance of an object
-[Ref F8FF2929] Duplicate stacktrace, see ref for original
-Could not do PostLoadInit on RimWorld.Pawn_TrainingTracker: System.NullReferenceException: Object reference not set to an instance of an object
-[Ref F8FF2929] Duplicate stacktrace, see ref for original
-Could not do PostLoadInit on RimWorld.Pawn_TrainingTracker: System.NullReferenceException: Object reference not set to an instance of an object
-[Ref F8FF2929] Duplicate stacktrace, see ref for original
+[AVP Xenomorphs] Created Xenomorph faction during pawn generation (was missing).
 StandingLamp, SunLamp, WallLamp, FloodLight, TubeTelevision, FlatscreenTelevision, MegascreenTelevision, OrbitalTradeBeacon, CommsConsole, MoisturePump, GroundPenetratingScanner, LongRangeMineralScanner, MultiAnalyzer, VitalsMonitor, PowerConduit, HiddenConduit, WaterproofConduit, PowerSwitch, WoodFiredGenerator, ChemfuelPoweredGenerator, WindTurbine, Battery, SolarGenerator, GeothermalGenerator, WatermillGenerator, ElectricTailoringBench, ElectricSmithy, TableMachining, ElectricStove, ElectricSmelter, BiofuelRefinery, FabricationBench, HiTechResearchBench, ElectricCrematorium, HydroponicsBasin, DeepDrill, NutrientPasteDispenser, Turret_MiniTurret, Turret_Autocannon, Turret_Sniper, Turret_FoamTurret, Turret_RocketswarmLauncher, Ship_Beam, Ship_CryptosleepCasket, Ship_ComputerCore, Ship_Reactor, Ship_Engine, Ship_SensorCluster, PsychicEmanator, VanometricPowerCell, InfiniteChemreactor, Autodoor, Heater, Cooler, UnstablePowerCell, ShipLandingBeacon, SleepAccelerator, BiosculpterPod, NeuralSupercharger, LightBall, Loudspeaker, Autobong, DeathrestCasket, Hemopump, HemogenAmplifier, GlucosoidPump, PsychofluidPump, DeathrestAccelerator, BandNode, ToxifierGenerator, GeneAssembler, GeneBank, GeneExtractor, GrowthVat, PollutionPump, WastepackAtomizer, GeneProcessor, MechBooster, MechGestator, LargeMechGestator, SubcoreEncoder, SubcoreSoftscanner, SubcoreRipscanner, BasicRecharger, StandardRecharger, SecurityDoor, ElectricInhibitor, ProximityDetector, AtmosphericHeater, FrenzyInducer, SleepSuppressor, BioferriteGenerator, Electroharvester, BioferriteShaper, SerumCentrifuge, BioferriteHarvester, GravEngine, GravcorePowerCell, PilotSubpersonaCore, GravshipShieldGenerator, AncientGravReactor, AncientTerraformer, LifeSupportUnit, OrbitalScanner, OxygenPump, KCSG_PowerConduit, VFEE_Candelabra, BioReactor, BioReactorCircleLarge, BioReactorCircleEX, BioReactorBig, BioReactorEx, VBE_TypewritersTable, VBE_SodaFountain, VCE_ElectricPot, VCE_DeepFrier, VCE_CanningMachine, VFED_Turret_Kontarion, VFED_Turret_Palintone, VFED_Turret_Onager, VFED_SurveillancePillar, VFED_ImperialMegaHighShield, HologramBase, VFE_Ecosystem, VFE_Hydroponics_Tilable, VFE_Ecosystem_Tilable, VFE_Sprinkler, VFE_AdvancedWindTurbine, VFE_AdvancedSolarGenerator, VFE_AdvancedWatermillGenerator, VPE_AdvancedGeothermalGenerator, VFE_LargeBattery, VFE_SmallBattery, VFE_AdvancedBattery, VFE_LargeAdvancedBattery, VPE_NuclearGenerator, VFE_PortableWoodFiredGenerator, VFE_PortableChemfuelPoweredGenerator, VFE_IndustrialWoodFiredGenerator, VFE_IndustrialChemfuelPoweredGenerator, VFE_TidalGenerator, VFE_SmallVanometricPowerCell, VFE_LargeVanometricPowerCell, VPE_ArchotechViolenceGenerator, VFE_TableMachiningLarge, VFE_TableSmithyLarge, VFE_TableStoveLarge, VFE_TableTailorLarge, VFE_ComponentFabricationBench, VFE_TableButcherElectric, VFE_TableDrugLabElectric, VFE_TableStonecutterElectric, Radio_Industrial, Radio_Spacer, Joy_Arcade, Joy_InudstrialComputer, Joy_ModernComputer, VFE_DeskLamp, VFE_FloorLamp, Light_Streetlamp, VFE_RoyalLamp, Table_IlluminatedEndTable, Table_IlluminatedDresser, VFES_Table_IlluminatedWardrobe, UltrascreenTV, VFES_WallMountedTelevision, VFES_TelevisionSpeaker, Shelf_RepairRack, VFES_AirPurifier, Table_interactive_1x1c, Table_interactive_2x2c, VCE_VegMilkExtractor, PH_AutodoorDouble, PH_AutodoorTriple, PH_DoorBlastSingle, PH_DoorBlastDoor, PH_DoorThickBlastDoor, PH_DoorButton, PH_DoorLever, PH_DoorRemoteSingle, PH_DoorRemoteDouble, PH_DoorRemoteTriple, AIRobot_RechargeStation_Hauler, AIRobot_RechargeStation_Cleaner, MedPodLux, MedPodStandard, MedPodAnimal, MedPodAnimalMedium, MedPodAnimalBig, TableMending, GravshipHull, VacBarrier, WallSwitch, Building_RTMagneticShield, Cooler_Over, Cooler_Over2W, GDTable, YPTable, JITable, TETable, Turret_ShardSentry, Turret_WaveEmitter, PortableReactor, Turret_SuvTurret, Turret_SupTurret, Turret_MC, RocketTurret, Turret_EMPLobber, Turret_FireLobber, Turret_Incinerator, Turret_Graser, Turret_Rotarygun, Turret_MiniSlugger, Turret_MiniShooter, FedTable, Turret_FedHarvester, Turret_PB, ShieldGenerator, Windmill, owl_refrigerator, owl_doublerefrigerator, VVE_GarageBench, VVE_GarageAutoDoor, VVE_GarageAutoDoorOpened, VVE_GarageAutoDoorLarge, VVE_GarageAutoDoorLargeOpened, Facility_VitalsCentre, VPE_Building_Zapcap, BS_AndroidFuelRefinery, BS_AndroidChargingStation, TectonicEmiter, WeatherEmiter
 checking editor settings...
 bodysizes genes are active
+[Simple FX: Splashes] Splash grid build with 1131 cells.
 [AVP Xenomorphs] Xenomorph hive faction already exists.
-Unloading 1 Unused Serialized files (Serialized files now loaded: 12)
-Unloading 1 unused Assets to reduce memory usage. Loaded Objects now: 65818.
-Total: 501.640000 ms (FindLiveObjects: 3.280800 ms CreateObjectMapping: 4.397200 ms MarkObjects: 493.819000 ms  DeleteObjects: 0.142300 ms)
+Unloading 0 Unused Serialized files (Serialized files now loaded: 12)
+Unloading 1 unused Assets to reduce memory usage. Loaded Objects now: 67393.
+Total: 584.815000 ms (FindLiveObjects: 3.652600 ms CreateObjectMapping: 4.223700 ms MarkObjects: 576.801700 ms  DeleteObjects: 0.136600 ms)
 
-Life stage def HumanlikeChild not found while searching for min age of Amoah
-Wrote screenshot C:\Users\clint\AppData\LocalLow\Ludeon Studios\RimWorld by Ludeon Studios\RimSaves\Previews\USCSS Colony56.dat of size 126061
+ArchitectIcons :: Orders=>Orders
+ArchitectIcons :: Zone=>Zone
+ArchitectIcons :: Structure=>Structure
+ArchitectIcons :: Production=>Production
+ArchitectIcons :: ASFstorage=>Storage
+ArchitectIcons :: Furniture=>Furniture
+ArchitectIcons :: Power=>Power
+ArchitectIcons :: Security=>Security
+ArchitectIcons :: Misc=>Misc
+ArchitectIcons :: Terraform=>Terraform
+ArchitectIcons :: Floors=>Floors
+ArchitectIcons :: Joy=>Recreation
+ArchitectIcons :: Ship=>Ship
+ArchitectIcons :: Temperature=>Temperature
+ArchitectIcons :: VF_Vehicles=>Vehicles
+ArchitectIcons :: Ideology=>Ideology
+ArchitectIcons :: Anomaly=>Anomaly
+ArchitectIcons :: Biotech=>Biotech
+ArchitectIcons :: Odyssey=>Odyssey
+Wrote screenshot C:\Users\clint\AppData\LocalLow\Ludeon Studios\RimWorld by Ludeon Studios\RimSaves\Previews\Autosave-5.dat of size 176387
+Wrote screenshot C:\Users\clint\AppData\LocalLow\Ludeon Studios\RimWorld by Ludeon Studios\RimSaves\Previews\Autosave-1.dat of size 173699
+Wrote screenshot C:\Users\clint\AppData\LocalLow\Ludeon Studios\RimWorld by Ludeon Studios\RimSaves\Previews\Autosave-2.dat of size 147109
+Cannot drop RRY_Xenomorph_Queen35927 without a dropLoc and with an owner whose map is null.
+Cannot drop RRY_Xenomorph_Queen35927 without a dropLoc and with an owner whose map is null.
