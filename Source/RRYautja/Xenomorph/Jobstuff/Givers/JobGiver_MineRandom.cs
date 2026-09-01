@@ -87,7 +87,8 @@ namespace RimWorld
                     Building edifice = hivec.GetEdifice(pawn.Map);
                     return new Job(JobDefOf.Mine, edifice)
                     {
-                        ignoreDesignations = true
+                        ignoreDesignations = true,
+                        expiryInterval = 500
                     };
                 }
                 if (!hivec.Filled(pawn.Map) && pawn.CanReach(hivec, PathEndMode.OnCell, Danger.Deadly))
@@ -246,7 +247,8 @@ namespace RimWorld
                 {
                     return new Job(JobDefOf.Mine, edifice)
                     {
-                        ignoreDesignations = true
+                        ignoreDesignations = true,
+                        expiryInterval = 500
                     };
                 }
                 }

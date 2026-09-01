@@ -14,10 +14,23 @@ namespace RimWorld
         protected override Job TryGiveJob(Pawn pawn)
         {
             if (pawn == null || pawn.Map == null) return null;
-            if (pawn.ageTracker.CurLifeStageIndex == pawn.def.race.lifeStageAges.Count-1)
+
+            // Fully-grown Xenomorphs flee when health is low (self-preservation)
+            bool fullyGrown = pawn.ageTracker.CurLifeStageIndex == pawn.def.race.lifeStageAges.Count - 1;
+            if (fullyGrown)
             {
-                return null;
+                // Only flee if health is below 30%
+                if (pawn.health?.summaryHealth?.SummaryHealthPercent > 0.3f)
+                {
+                    return null;
+                }
+                // Health is low — fall through to flee logic below
             }
+            else
+            {
+                // Young Xenomorphs always flee
+            }
+
             if (pawn.playerSettings != null && pawn.playerSettings.UsesConfigurableHostilityResponse)
             {
                 return null;
