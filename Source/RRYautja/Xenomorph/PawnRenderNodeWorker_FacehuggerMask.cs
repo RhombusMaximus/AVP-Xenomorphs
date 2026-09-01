@@ -12,13 +12,15 @@ namespace RRYautja
     public class PawnRenderNodeWorker_FacehuggerMask : PawnRenderNodeWorker_Hediff
     {
         private static Graphic royalGraphic;
+        private static bool royalGraphicInit;
 
         private static Graphic RoyalGraphic
         {
             get
             {
-                if (royalGraphic == null)
+                if (!royalGraphicInit)
                 {
+                    royalGraphicInit = true;
                     royalGraphic = GraphicDatabase.Get<Graphic_Multi>(
                         "Things/Pawn/Xenomorph/Xenomorph_FaceHuggerRoyal_Mask",
                         ShaderDatabase.CutoutComplex,

@@ -30,6 +30,7 @@ namespace RimWorld
         }
 
         private static Graphic invisibleGraphic;
+        private static bool invisibleGraphicInit;
 
         public override Graphic Graphic
         {
@@ -44,8 +45,9 @@ namespace RimWorld
                     }
                 }
                 // Use a cached transparent texture instead of Graphic_Invisible (which NREs in atlas)
-                if (invisibleGraphic == null)
+                if (!invisibleGraphicInit)
                 {
+                    invisibleGraphicInit = true;
                     invisibleGraphic = GraphicDatabase.Get<Graphic_Single>("DummyTexture", ShaderDatabase.Cutout);
                 }
                 return invisibleGraphic;
