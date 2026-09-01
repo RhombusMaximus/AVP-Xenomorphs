@@ -1,15 +1,15 @@
 <?xml version="1.0" encoding="utf-8" ?>
 <LanguageData>
   <!-- Mod Settings -->
-  <RRY_AllowXenomorphFaction>Enable Xenomorphs:\n1this Should enable all Xenomorph related incidents and events</RRY_AllowXenomorphFaction>
+  <RRY_AllowXenomorphFaction>Enable Xenomorphs:\nThis should enable all Xenomorph related incidents and events</RRY_AllowXenomorphFaction>
   <RRY_AllowHiddenInfections>Allow Hidden Impregnations:\nDisable this to stop pawns spawning impregnated</RRY_AllowHiddenInfections>
-  <RRY_AllowPredalienImpregnations>Allow Predalien Impregnations: Disable this to Predaliens from being able to impregnate female pawns</RRY_AllowPredalienImpregnations>
+  <RRY_AllowPredalienImpregnations>Allow Predalien Impregnations:\nDisable this to stop Predaliens from being able to impregnate female pawns</RRY_AllowPredalienImpregnations>
   <RRY_FacehuggerRemovalDeathChance>Facehugger Removal Death Chance:\n{0}% of patient death on fail</RRY_FacehuggerRemovalDeathChance>
   <RRY_EmbryoRemovalDeathChance>Embryo Removal Death Chance:\n{0}% of patient death on fail</RRY_EmbryoRemovalDeathChance>
   <RRY_AllowXenoCocoonMetamorph>Allow Cocooned pawns to be converted to Eggs if there are no Queens present</RRY_AllowXenoCocoonMetamorph>
   <RRY_AllowXenoEggMetamorph>Allows Ovimorph mutation</RRY_AllowXenoEggMetamorph>
   <RRY_AllowNonHumanlikeHosts>Allows Xenomorph Impregnations of Non-Humanlikes</RRY_AllowNonHumanlikeHosts>
-  <RRY_HostKinds>Suitable Hosts: {1}/{0} enabled</RRY_HostKinds>
+  <RRY_HostKinds>Suitable Hosts: {0}/{1} enabled</RRY_HostKinds>
   <RRY_NonHostKinds>Unsuitable Hosts: {0}</RRY_NonHostKinds>
   <!-- Non Canonical Xeno Spawning Options -->
   <RRY_XenomorphSpawningOptions>Spawning options for Noncanonical Xenoforms</RRY_XenomorphSpawningOptions>
