@@ -204,7 +204,7 @@ namespace RRYautja.ExtensionMethods
                 FailReason = "Xenomorph Faction Member";
                 return false;
             }
-            if (p.BodySize < 0.65f && !p.RaceProps.Humanlike)
+            if (p.BodySize < 0.5f && !p.RaceProps.Humanlike)
             {
                 FailReason = "NonhumanlikeTooSmall";
                 return false;
@@ -295,7 +295,7 @@ namespace RRYautja.ExtensionMethods
             if (thingDef.race.FleshType.defName.Contains("TM_StoneFlesh")) { FailReason = NonBio; return false; }
             if (thingDef.race.FleshType.defName.Contains("Chaos") && thingDef.race.FleshType.defName.Contains("Deamon")) { FailReason = NonBio; return false; }
             if (thingDef.race.FleshType.defName.Contains("Construct") && thingDef.race.FleshType.defName.Contains("Flesh")) { FailReason = NonBio; return false; }
-            if (thingDef.race.baseBodySize < 0.65f && !thingDef.race.Humanlike) { FailReason = string.Format("Too Small", thingDef); return false; }
+            if (thingDef.race.baseBodySize < 0.5f && !thingDef.race.Humanlike) { FailReason = string.Format("Too Small", thingDef); return false; }
 
 
             return true;
@@ -341,7 +341,7 @@ namespace RRYautja.ExtensionMethods
                 failReason = "Xenomorph Faction Member";
                 return false;
             }
-            if (p.BodySize < 0.65f && !p.RaceProps.Humanlike)
+            if (p.BodySize < 0.5f && !p.RaceProps.Humanlike)
             {
                 failReason = "NonhumanlikeTooSmall";
                 return false;
