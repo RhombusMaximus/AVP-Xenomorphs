@@ -197,7 +197,8 @@ namespace RimWorld
             }
             // Filter pawns WITHOUT CanReach (expensive pathfinding) — do that later only on candidates
             List<Pawn> candidates = pawn.Map.mapPawns.AllPawns.Where((Pawn x) =>
-                x != null && x.health != null && x.health.hediffSet != null
+                x != null && x.Map != null && x.Spawned
+                && x.health != null && x.health.hediffSet != null
                 && !x.health.hediffSet.HasHediff(XenomorphDefOf.RRY_Hediff_Cocooned)
                 && (!x.Downed || !x.Awake())
                 && x.isPotentialHost()
