@@ -757,6 +757,7 @@ namespace RimWorld
 
         public virtual void EjectContents()
         {
+            if (base.Map == null) return;
             if (this.innerContainer.Any(x => x.def != XenomorphRacesDefOf.RRY_Xenomorph_Queen && x.xenomorph().HiveLoc == this.Position))
             {
                 List<Thing> contents = this.innerContainer.Where(x => x.def != XenomorphRacesDefOf.RRY_Xenomorph_Queen && x.xenomorph().HiveLoc == this.Position).ToList();
@@ -771,6 +772,7 @@ namespace RimWorld
 
         public virtual void EjectQueens()
         {
+            if (base.Map == null) return;
             if (this.def == XenomorphDefOf.RRY_Xenomorph_Hive || (this.def == XenomorphDefOf.RRY_Xenomorph_Hive_Child && this.parentHiveLike.DestroyedOrNull()))
             {
                 if (this.innerContainer.Any(x => x.def == XenomorphRacesDefOf.RRY_Xenomorph_Queen && x.xenomorph().HiveLoc == this.Position))
