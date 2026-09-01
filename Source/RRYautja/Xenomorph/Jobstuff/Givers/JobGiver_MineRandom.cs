@@ -88,7 +88,7 @@ namespace RimWorld
                     return new Job(JobDefOf.Mine, edifice)
                     {
                         ignoreDesignations = true,
-                        expiryInterval = 500
+                        expiryInterval = 3000
                     };
                 }
                 if (!hivec.Filled(pawn.Map) && pawn.CanReach(hivec, PathEndMode.OnCell, Danger.Deadly))
@@ -248,7 +248,7 @@ namespace RimWorld
                     return new Job(JobDefOf.Mine, edifice)
                     {
                         ignoreDesignations = true,
-                        expiryInterval = 500
+                        expiryInterval = 3000
                     };
                 }
                 }
