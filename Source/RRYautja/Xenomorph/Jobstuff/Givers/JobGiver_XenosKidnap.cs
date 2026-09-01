@@ -133,13 +133,12 @@ namespace RimWorld
                 }
                 else
                 {
-                    Log.Error("No suitable hive location found");
-                    //   if (Find.Selector.SelectedObjects.Contains(pawn)) Log.Message(string.Format("{0} something went wrong", this));
+                    // No suitable hive location found
                 }
             }
             else
             {
-            //    Log.Error("No suitable Victim found");
+                // No suitable Victim found
             }
             return null;
         }
