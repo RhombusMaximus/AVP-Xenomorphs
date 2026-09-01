@@ -11,7 +11,7 @@ Direct3D:
     VRAM:     8042 MB
     Driver:   32.0.16.1088
 Begin MonoManager ReloadAssembly
-- Loaded All Assemblies, in  0.192 seconds
+- Loaded All Assemblies, in  0.195 seconds
 - Finished resetting the current domain, in  0.001 seconds
 <RI> Initializing input.
 
@@ -20,23 +20,23 @@ Begin MonoManager ReloadAssembly
 <RI> Initialized touch support.
 
 [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
-UnloadTime: 0.704700 ms
+UnloadTime: 0.582200 ms
 Command line arguments: -disable-compute-shaders
 RimWorld 1.6.4871 rev591
 Mod Realistic Humansounds HAR Patch dependency (Mlie.RealisticHumanSounds) needs to have <downloadUrl> and/or <steamWorkshopUrl> specified.
-Fallback handler could not load library D:/SteamLibrary/steamapps/common/RimWorld/RimWorldWin64_Data/MonoBleedingEdge/data-0000020AEEE48010.dll
-Fallback handler could not load library D:/SteamLibrary/steamapps/common/RimWorld/RimWorldWin64_Data/MonoBleedingEdge/data-0000020C64549AF0.dll
+Fallback handler could not load library D:/SteamLibrary/steamapps/common/RimWorld/RimWorldWin64_Data/MonoBleedingEdge/data-000002C46C46A840.dll
+Fallback handler could not load library D:/SteamLibrary/steamapps/common/RimWorld/RimWorldWin64_Data/MonoBleedingEdge/data-000002C46C5F6410.dll
 [Loading Progress] Loading Progress initialized! Enjoy the rest of your loading experience!
 [HugsLib] version 12.0.0
 [HugsLib] early-initializing AllowTool
-Fallback handler could not load library D:/SteamLibrary/steamapps/common/RimWorld/RimWorldWin64_Data/MonoBleedingEdge/data-0000020C69E8D010.dll
+Fallback handler could not load library D:/SteamLibrary/steamapps/common/RimWorld/RimWorldWin64_Data/MonoBleedingEdge/data-000002C4716FD060.dll
 DubsMintMenus v1.3.1086
 [Analyzer] Loaded version 1.6.0 rev 1
 [Analyzer] ResearchTree
 FPSStabilizer v1.1 loaded, patcher message: Patched successfully, fps set to 60
 FactionCustomizer is successfully initialized!
 [ImageOpt] Successfully loaded Rust library into process memory. ver: 0.1.13
-Fallback handler could not load library D:/SteamLibrary/steamapps/common/RimWorld/RimWorldWin64_Data/MonoBleedingEdge/data-0000020C6A310AF0.dll
+Fallback handler could not load library D:/SteamLibrary/steamapps/common/RimWorld/RimWorldWin64_Data/MonoBleedingEdge/data-000002C471B84DA0.dll
 <color=#66ffb5>[MeleeAnim]</color> Hello, world!
 Build date: 7/31/2026 6:45 PM
 Loaded assemblies (9):
@@ -49,7 +49,7 @@ ModRequestAPI.Models, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null,
 Unity.Newtonsoft.Json, Version=7.0.0.0, Culture=neutral, PublicKeyToken=null,
 zAnimationMod, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null,
 AM.VehiclesPatch, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null
-<color=#66ffb5>[MeleeAnim]</color> Scanning 199 mods for animation data...
+<color=#66ffb5>[MeleeAnim]</color> Scanning 198 mods for animation data...
 <color=#66ffb5>[MeleeAnim]</color> Found 1 mod folders with animation data, total 69 loadable files.
 <color=#66ffb5>[MeleeAnim]</color> <color=#ffa8fc>[Vehicle Framework Patch]</color> Loaded vehicle framework patch!
 RimSaves NX rev27
@@ -60,12 +60,12 @@ Translation data for language English has 4 errors. Generate translation report 
 [AVP Xenomorphs] [AVP Xenomorphs] Patched Mineable.TrySpawnYield
 [AVP Xenomorphs] Patched JobDriver_Wait.CheckForAutoAttack
 Xenomorph Host System Loaded
-466 Possible Hosts out of 816 Races detected: Race Setting init
+486 Possible Hosts out of 816 Races detected: Race Setting init
 KCSG has Created 7635 symbolDefs for vanilla and DLCs
 [CleaningAreaRelaunched] Loaded
 Damage Indicators initialized.
 [XML Extensions] Initialized 3 SettingsMenuDef(s) and found 210 unused key(s) from 6 mod(s)
-[XML Extensions] 3841 total patch operations run in 9354ms, 0 failed
+[XML Extensions] 3838 total patch operations run in 9525ms, 0 failed
 [XML Extensions] Emitted 3 mod class(es)
 [Keep Mortars Ready] Loaded.
 Locks: Doors expanded found
@@ -102,8 +102,8 @@ NamesGalore: Current Lang English
 [VehicleFramework] version 1.6.2144
 [UseThisInstead]: Found 0 replacements
 Unloading 5 Unused Serialized files (Serialized files now loaded: 10)
-Unloading 1368 unused Assets to reduce memory usage. Loaded Objects now: 56358.
-Total: 482.251100 ms (FindLiveObjects: 7.571600 ms CreateObjectMapping: 7.546400 ms MarkObjects: 463.728400 ms  DeleteObjects: 3.404300 ms)
+Unloading 1368 unused Assets to reduce memory usage. Loaded Objects now: 56352.
+Total: 451.295900 ms (FindLiveObjects: 4.497300 ms CreateObjectMapping: 8.856800 ms MarkObjects: 435.869900 ms  DeleteObjects: 2.071400 ms)
 
 MVCF successfully applied 55 patches
 [ShieldGenerator] Custom parameters applied.
@@ -289,20 +289,20 @@ Prefixes:
 Transpilers:
 Postfixes:
   [PeteTimesSix.SimpleSidearms] TryCastShot
-<color=#66ffb5>[MeleeAnim]</color> PreCached all retexture info in 184.5ms
+<color=#66ffb5>[MeleeAnim]</color> PreCached all retexture info in 184.0ms
 <color=#66ffb5>[MeleeAnim]</color> Loaded tweak data for 66 weapons.
-<color=#66ffb5>[MeleeAnim]</color> Patched 3 classes that directly inherit from Verb_MeleeAttack in 72.7 ms to detect hits:
+<color=#66ffb5>[MeleeAnim]</color> Patched 3 classes that directly inherit from Verb_MeleeAttack in 76.4 ms to detect hits:
 RimWorld.Verb_MeleeApplyHediff from Assembly-CSharp
 RimWorld.Verb_MeleeAttackDamage from Assembly-CSharp
 RRYautja.Verb_MeleeAttackKnockback from RRYautja
-<color=#66ffb5>[MeleeAnim]</color> Found 4 items of clothing that cover hands, took 0.96 ms:
+<color=#66ffb5>[MeleeAnim]</color> Found 4 items of clothing that cover hands, took 0.95 ms:
 VAE_Handwear_Gloves (Gloves),
 VAE_Handwear_PlateGloves (Plate gloves),
 VAE_Handwear_MarineGloves (Marine gloves),
 VAE_Apparel_Shield_Riot (Riot shield)
-  --> [What's That Mod] Took 0.28 seconds to scan all patches. <--
+  --> [What's That Mod] Took 0.26 seconds to scan all patches. <--
 What's That Mod: Wrote to 7226 mod descriptions, 10 patched defs resolved.
-What's That Mod took 299 milliseconds to generate all def descriptions.
+What's That Mod took 276 milliseconds to generate all def descriptions.
 [HugsLib] initializing TerraformRimworld
 CE is trying to create default parameter lists ...
 creating default parameter list for genes...
@@ -318,14 +318,15 @@ Gun_ThundercatRifle modification loaded
 FoldingTent modification loaded
 no modifications for lifestages
 ...done
+RandomElementByWeight with totalWeight=0 - use TryRandomElementByWeight.
 Unloading 3 Unused Serialized files (Serialized files now loaded: 12)
-Unloading 146 unused Assets to reduce memory usage. Loaded Objects now: 59542.
-Total: 508.970600 ms (FindLiveObjects: 3.076400 ms CreateObjectMapping: 3.608100 ms MarkObjects: 502.017200 ms  DeleteObjects: 0.268600 ms)
+Unloading 146 unused Assets to reduce memory usage. Loaded Objects now: 59423.
+Total: 521.374900 ms (FindLiveObjects: 3.012800 ms CreateObjectMapping: 3.607000 ms MarkObjects: 514.506900 ms  DeleteObjects: 0.247900 ms)
 
 Unloading 3 Unused Serialized files (Serialized files now loaded: 12)
-UnloadTime: 0.671600 ms
-Unloading 2 unused Assets to reduce memory usage. Loaded Objects now: 59928.
-Total: 526.891800 ms (FindLiveObjects: 3.148800 ms CreateObjectMapping: 2.193600 ms MarkObjects: 521.437900 ms  DeleteObjects: 0.111100 ms)
+UnloadTime: 0.975000 ms
+Unloading 4 unused Assets to reduce memory usage. Loaded Objects now: 59831.
+Total: 498.509800 ms (FindLiveObjects: 3.103900 ms CreateObjectMapping: 3.561600 ms MarkObjects: 491.702700 ms  DeleteObjects: 0.141000 ms)
 
 Initializing new game with mods:
   - brrainz.harmony
@@ -374,7 +375,6 @@ Initializing new game with mods:
   - Romyashi.ExtractAnyPlant
   - matvey24.FPSStabilizer
   - azravos.factioncustomizer
-  - Aelanna.FistNerf
   - imranfish.xmlextensions
   - quartz.floorstoragetanks
   - MemeGoddess.GiddyUp
@@ -527,14 +527,18 @@ Initializing new game with mods:
   - RH2.BCDs.First.Aid
   - XeoNovaDan.VisiblePants
   - sbz.GravshipStorage
+[Simple FX: Shinies] Tried to remove a shiny area from unknown map: 0
+[Simple FX: Shinies] Tried to remove a shiny area from unknown map: 0
+[Simple FX: Shinies] Tried to remove a shiny area from unknown map: 0
+[Simple FX: Shinies] Tried to remove a shiny area from unknown map: 0
 [AVP Xenomorphs] Created Xenomorph faction during pawn generation (was missing).
 StandingLamp, SunLamp, WallLamp, FloodLight, TubeTelevision, FlatscreenTelevision, MegascreenTelevision, OrbitalTradeBeacon, CommsConsole, MoisturePump, GroundPenetratingScanner, LongRangeMineralScanner, MultiAnalyzer, VitalsMonitor, PowerConduit, HiddenConduit, WaterproofConduit, PowerSwitch, WoodFiredGenerator, ChemfuelPoweredGenerator, WindTurbine, Battery, SolarGenerator, GeothermalGenerator, WatermillGenerator, ElectricTailoringBench, ElectricSmithy, TableMachining, ElectricStove, ElectricSmelter, BiofuelRefinery, FabricationBench, HiTechResearchBench, ElectricCrematorium, HydroponicsBasin, DeepDrill, NutrientPasteDispenser, Turret_MiniTurret, Turret_Autocannon, Turret_Sniper, Turret_FoamTurret, Turret_RocketswarmLauncher, Ship_Beam, Ship_CryptosleepCasket, Ship_ComputerCore, Ship_Reactor, Ship_Engine, Ship_SensorCluster, PsychicEmanator, VanometricPowerCell, InfiniteChemreactor, Autodoor, Heater, Cooler, UnstablePowerCell, ShipLandingBeacon, SleepAccelerator, BiosculpterPod, NeuralSupercharger, LightBall, Loudspeaker, Autobong, DeathrestCasket, Hemopump, HemogenAmplifier, GlucosoidPump, PsychofluidPump, DeathrestAccelerator, BandNode, ToxifierGenerator, GeneAssembler, GeneBank, GeneExtractor, GrowthVat, PollutionPump, WastepackAtomizer, GeneProcessor, MechBooster, MechGestator, LargeMechGestator, SubcoreEncoder, SubcoreSoftscanner, SubcoreRipscanner, BasicRecharger, StandardRecharger, SecurityDoor, ElectricInhibitor, ProximityDetector, AtmosphericHeater, FrenzyInducer, SleepSuppressor, BioferriteGenerator, Electroharvester, BioferriteShaper, SerumCentrifuge, BioferriteHarvester, GravEngine, GravcorePowerCell, PilotSubpersonaCore, GravshipShieldGenerator, AncientGravReactor, AncientTerraformer, LifeSupportUnit, OrbitalScanner, OxygenPump, KCSG_PowerConduit, VFEE_Candelabra, BioReactor, BioReactorCircleLarge, BioReactorCircleEX, BioReactorBig, BioReactorEx, VBE_TypewritersTable, VBE_SodaFountain, VCE_ElectricPot, VCE_DeepFrier, VCE_CanningMachine, VFED_Turret_Kontarion, VFED_Turret_Palintone, VFED_Turret_Onager, VFED_SurveillancePillar, VFED_ImperialMegaHighShield, HologramBase, VFE_Ecosystem, VFE_Hydroponics_Tilable, VFE_Ecosystem_Tilable, VFE_Sprinkler, VFE_AdvancedWindTurbine, VFE_AdvancedSolarGenerator, VFE_AdvancedWatermillGenerator, VPE_AdvancedGeothermalGenerator, VFE_LargeBattery, VFE_SmallBattery, VFE_AdvancedBattery, VFE_LargeAdvancedBattery, VPE_NuclearGenerator, VFE_PortableWoodFiredGenerator, VFE_PortableChemfuelPoweredGenerator, VFE_IndustrialWoodFiredGenerator, VFE_IndustrialChemfuelPoweredGenerator, VFE_TidalGenerator, VFE_SmallVanometricPowerCell, VFE_LargeVanometricPowerCell, VPE_ArchotechViolenceGenerator, VFE_TableMachiningLarge, VFE_TableSmithyLarge, VFE_TableStoveLarge, VFE_TableTailorLarge, VFE_ComponentFabricationBench, VFE_TableButcherElectric, VFE_TableDrugLabElectric, VFE_TableStonecutterElectric, Radio_Industrial, Radio_Spacer, Joy_Arcade, Joy_InudstrialComputer, Joy_ModernComputer, VFE_DeskLamp, VFE_FloorLamp, Light_Streetlamp, VFE_RoyalLamp, Table_IlluminatedEndTable, Table_IlluminatedDresser, VFES_Table_IlluminatedWardrobe, UltrascreenTV, VFES_WallMountedTelevision, VFES_TelevisionSpeaker, Shelf_RepairRack, VFES_AirPurifier, Table_interactive_1x1c, Table_interactive_2x2c, VCE_VegMilkExtractor, PH_AutodoorDouble, PH_AutodoorTriple, PH_DoorBlastSingle, PH_DoorBlastDoor, PH_DoorThickBlastDoor, PH_DoorButton, PH_DoorLever, PH_DoorRemoteSingle, PH_DoorRemoteDouble, PH_DoorRemoteTriple, AIRobot_RechargeStation_Hauler, AIRobot_RechargeStation_Cleaner, MedPodLux, MedPodStandard, MedPodAnimal, MedPodAnimalMedium, MedPodAnimalBig, TableMending, GravshipHull, VacBarrier, WallSwitch, Building_RTMagneticShield, Cooler_Over, Cooler_Over2W, GDTable, YPTable, JITable, TETable, Turret_ShardSentry, Turret_WaveEmitter, PortableReactor, Turret_SuvTurret, Turret_SupTurret, Turret_MC, RocketTurret, Turret_EMPLobber, Turret_FireLobber, Turret_Incinerator, Turret_Graser, Turret_Rotarygun, Turret_MiniSlugger, Turret_MiniShooter, FedTable, Turret_FedHarvester, Turret_PB, ShieldGenerator, Windmill, owl_refrigerator, owl_doublerefrigerator, VVE_GarageBench, VVE_GarageAutoDoor, VVE_GarageAutoDoorOpened, VVE_GarageAutoDoorLarge, VVE_GarageAutoDoorLargeOpened, Facility_VitalsCentre, VPE_Building_Zapcap, BS_AndroidFuelRefinery, BS_AndroidChargingStation, TectonicEmiter, WeatherEmiter
 checking editor settings...
 bodysizes genes are active
 [AVP Xenomorphs] Xenomorph hive faction already exists.
 Unloading 0 Unused Serialized files (Serialized files now loaded: 12)
-Unloading 1 unused Assets to reduce memory usage. Loaded Objects now: 68628.
-Total: 562.607600 ms (FindLiveObjects: 4.116100 ms CreateObjectMapping: 3.381200 ms MarkObjects: 554.961900 ms  DeleteObjects: 0.147800 ms)
+Unloading 1 unused Assets to reduce memory usage. Loaded Objects now: 67320.
+Total: 542.311200 ms (FindLiveObjects: 3.544200 ms CreateObjectMapping: 4.395900 ms MarkObjects: 534.201800 ms  DeleteObjects: 0.168800 ms)
 
 ArchitectIcons :: Orders=>Orders
 ArchitectIcons :: Zone=>Zone
@@ -555,43 +559,501 @@ ArchitectIcons :: Ideology=>Ideology
 ArchitectIcons :: Anomaly=>Anomaly
 ArchitectIcons :: Biotech=>Biotech
 ArchitectIcons :: Odyssey=>Odyssey
-[AVP Xenomorphs] [Egg] Egg 66213: no potential hosts within 7 tiles (tick 26750)
-[AVP Xenomorphs] [Egg] Egg 66213: no potential hosts within 7 tiles (tick 27000)
-[AVP Xenomorphs] [Egg] Egg 66213: no potential hosts within 7 tiles (tick 27250)
-[AVP Xenomorphs] [Egg] Egg 66213: no potential hosts within 7 tiles (tick 27500)
-[AVP Xenomorphs] [Egg] Egg 66213: no potential hosts within 7 tiles (tick 27750)
-[AVP Xenomorphs] [Egg] Egg 66213: no potential hosts within 7 tiles (tick 28000)
-[AVP Xenomorphs] [Egg] Egg 66213: no potential hosts within 7 tiles (tick 28250)
-[AVP Xenomorphs] [Egg] Egg 66213: no potential hosts within 7 tiles (tick 28500)
-[AVP Xenomorphs] [Egg] Egg 66213: no potential hosts within 7 tiles (tick 28750)
-[AVP Xenomorphs] [Egg] Egg 66213: no potential hosts within 7 tiles (tick 29000)
-[AVP Xenomorphs] [Egg] Egg 66213: no potential hosts within 7 tiles (tick 29250)
-[AVP Xenomorphs] [Egg] Egg 66213: no potential hosts within 7 tiles (tick 29500)
-[AVP Xenomorphs] [Egg] Egg 66213: no potential hosts within 7 tiles (tick 29750)
-[AVP Xenomorphs] [Egg] Egg 66213: no potential hosts within 7 tiles (tick 30000)
-[AVP Xenomorphs] [Egg] Egg 66213: no potential hosts within 7 tiles (tick 30250)
-[AVP Xenomorphs] [Egg] Egg 66213: no potential hosts within 7 tiles (tick 30500)
-[AVP Xenomorphs] [Egg] Egg 66213: no potential hosts within 7 tiles (tick 30750)
-[AVP Xenomorphs] [Egg] Egg 66213: no potential hosts within 7 tiles (tick 31000)
-[AVP Xenomorphs] [Egg] Egg 66213: no potential hosts within 7 tiles (tick 31250)
-[AVP Xenomorphs] [Egg] Egg 66213: no potential hosts within 7 tiles (tick 31500)
-[AVP Xenomorphs] [Egg] Egg 66213: no potential hosts within 7 tiles (tick 31750)
-[AVP Xenomorphs] [Egg] Egg 66213: no potential hosts within 7 tiles (tick 32000)
-[AVP Xenomorphs] [Egg] Egg 66213: no potential hosts within 7 tiles (tick 32250)
-[AVP Xenomorphs] [Egg] Egg 66213: no potential hosts within 7 tiles (tick 32500)
-[AVP Xenomorphs] [Egg] Egg 66213: no potential hosts within 7 tiles (tick 32750)
-[AVP Xenomorphs] [Egg] Egg 66213: no potential hosts within 7 tiles (tick 33000)
-[AVP Xenomorphs] [Egg] Egg 66213: no potential hosts within 7 tiles (tick 33250)
-[AVP Xenomorphs] [Egg] Egg 66213: no potential hosts within 7 tiles (tick 33500)
-[AVP Xenomorphs] [Egg] Egg 66213: no potential hosts within 7 tiles (tick 33750)
-[AVP Xenomorphs] [Egg] Egg 66213: no potential hosts within 7 tiles (tick 34000)
-[AVP Xenomorphs] [Egg] Egg 65991: no potential hosts within 7 tiles (tick 34250)
-[AVP Xenomorphs] [Egg] Egg 65991: no potential hosts within 7 tiles (tick 34500)
-[AVP Xenomorphs] [Egg] Egg 65991: no potential hosts within 7 tiles (tick 34750)
-[AVP Xenomorphs] [Egg] Egg 65991: no potential hosts within 7 tiles (tick 35000)
-[AVP Xenomorphs] [Egg] Egg 65991: no potential hosts within 7 tiles (tick 35250)
-[AVP Xenomorphs] [Egg] Egg 65991: no potential hosts within 7 tiles (tick 35500)
-[AVP Xenomorphs] [Egg] Egg 65991: no potential hosts within 7 tiles (tick 35750)
-[AVP Xenomorphs] [Egg] Egg 65991: no potential hosts within 7 tiles (tick 36000)
-[AVP Xenomorphs] [Egg] Egg 65991: no potential hosts within 7 tiles (tick 36250)
-Wrote screenshot C:\Users\clint\AppData\LocalLow\Ludeon Studios\RimWorld by Ludeon Studios\RimSaves\Previews\USCSS Colony52.dat of size 119903
+Wrote screenshot C:\Users\clint\AppData\LocalLow\Ludeon Studios\RimWorld by Ludeon Studios\RimSaves\Previews\Autosave-5.dat of size 121886
+Wrote screenshot C:\Users\clint\AppData\LocalLow\Ludeon Studios\RimWorld by Ludeon Studios\RimSaves\Previews\USCSS Colony54.dat of size 157371
+Wrote screenshot C:\Users\clint\AppData\LocalLow\Ludeon Studios\RimWorld by Ludeon Studios\RimSaves\Previews\USCSS Colony55.dat of size 131614
+Wrote screenshot C:\Users\clint\AppData\LocalLow\Ludeon Studios\RimWorld by Ludeon Studios\RimSaves\Previews\Autosave-1.dat of size 132569
+Wrote screenshot C:\Users\clint\AppData\LocalLow\Ludeon Studios\RimWorld by Ludeon Studios\RimSaves\Previews\Autosave-2.dat of size 144031
+Exception in RimWorld.ThinkNode_ConditionalAnyDownedInfectableSpawnedNearby TryIssueJobPackage: System.NullReferenceException: Object reference not set to an instance of an object
+[Ref 77E1603A]
+  at RimWorld.JobGiver_XenosKidnap.TryGiveJob (Verse.Pawn pawn) [0x001f2] in <bf7ab07822764bf4a5870e53b50ddbd7>:0 
+  at Verse.AI.ThinkNode_JobGiver.TryIssueJobPackage (Verse.Pawn pawn, Verse.AI.JobIssueParams jobParams) [0x00000] in <61e4173561894da49d210260257b5097>:0 
+  at Verse.AI.ThinkNode_Priority.TryIssueJobPackage (Verse.Pawn pawn, Verse.AI.JobIssueParams jobParams) [0x00022] in <61e4173561894da49d210260257b5097>:0 
+Exception in RimWorld.ThinkNode_ConditionalAnyDownedInfectableSpawnedNearby TryIssueJobPackage: System.NullReferenceException: Object reference not set to an instance of an object
+[Ref 77E1603A] Duplicate stacktrace, see ref for original
+Exception in RimWorld.ThinkNode_ConditionalAnyDownedInfectableSpawnedNearby TryIssueJobPackage: System.NullReferenceException: Object reference not set to an instance of an object
+[Ref 77E1603A] Duplicate stacktrace, see ref for original
+Exception in RimWorld.ThinkNode_ConditionalAnyDownedInfectableSpawnedNearby TryIssueJobPackage: System.NullReferenceException: Object reference not set to an instance of an object
+[Ref 77E1603A] Duplicate stacktrace, see ref for original
+Exception in RimWorld.ThinkNode_ConditionalAnyDownedInfectableSpawnedNearby TryIssueJobPackage: System.NullReferenceException: Object reference not set to an instance of an object
+[Ref 77E1603A] Duplicate stacktrace, see ref for original
+Exception in RimWorld.ThinkNode_ConditionalAnyDownedInfectableSpawnedNearby TryIssueJobPackage: System.NullReferenceException: Object reference not set to an instance of an object
+[Ref 77E1603A] Duplicate stacktrace, see ref for original
+Exception in RimWorld.ThinkNode_ConditionalAnyDownedInfectableSpawnedNearby TryIssueJobPackage: System.NullReferenceException: Object reference not set to an instance of an object
+[Ref 77E1603A] Duplicate stacktrace, see ref for original
+Exception in RimWorld.ThinkNode_ConditionalAnyDownedInfectableSpawnedNearby TryIssueJobPackage: System.NullReferenceException: Object reference not set to an instance of an object
+[Ref 77E1603A] Duplicate stacktrace, see ref for original
+Exception in RimWorld.ThinkNode_ConditionalAnyDownedInfectableSpawnedNearby TryIssueJobPackage: System.NullReferenceException: Object reference not set to an instance of an object
+[Ref 77E1603A] Duplicate stacktrace, see ref for original
+Exception in RimWorld.ThinkNode_ConditionalAnyDownedInfectableSpawnedNearby TryIssueJobPackage: System.NullReferenceException: Object reference not set to an instance of an object
+[Ref 77E1603A] Duplicate stacktrace, see ref for original
+null texture passed to GUI.DrawTexture
+null texture passed to GUI.DrawTexture
+null texture passed to GUI.DrawTexture
+null texture passed to GUI.DrawTexture
+null texture passed to GUI.DrawTexture
+null texture passed to GUI.DrawTexture
+null texture passed to GUI.DrawTexture
+null texture passed to GUI.DrawTexture
+null texture passed to GUI.DrawTexture
+null texture passed to GUI.DrawTexture
+null texture passed to GUI.DrawTexture
+null texture passed to GUI.DrawTexture
+null texture passed to GUI.DrawTexture
+null texture passed to GUI.DrawTexture
+null texture passed to GUI.DrawTexture
+null texture passed to GUI.DrawTexture
+null texture passed to GUI.DrawTexture
+null texture passed to GUI.DrawTexture
+null texture passed to GUI.DrawTexture
+null texture passed to GUI.DrawTexture
+null texture passed to GUI.DrawTexture
+null texture passed to GUI.DrawTexture
+null texture passed to GUI.DrawTexture
+null texture passed to GUI.DrawTexture
+null texture passed to GUI.DrawTexture
+null texture passed to GUI.DrawTexture
+null texture passed to GUI.DrawTexture
+null texture passed to GUI.DrawTexture
+null texture passed to GUI.DrawTexture
+null texture passed to GUI.DrawTexture
+null texture passed to GUI.DrawTexture
+null texture passed to GUI.DrawTexture
+null texture passed to GUI.DrawTexture
+null texture passed to GUI.DrawTexture
+null texture passed to GUI.DrawTexture
+null texture passed to GUI.DrawTexture
+null texture passed to GUI.DrawTexture
+null texture passed to GUI.DrawTexture
+null texture passed to GUI.DrawTexture
+null texture passed to GUI.DrawTexture
+null texture passed to GUI.DrawTexture
+null texture passed to GUI.DrawTexture
+null texture passed to GUI.DrawTexture
+null texture passed to GUI.DrawTexture
+null texture passed to GUI.DrawTexture
+null texture passed to GUI.DrawTexture
+null texture passed to GUI.DrawTexture
+null texture passed to GUI.DrawTexture
+null texture passed to GUI.DrawTexture
+null texture passed to GUI.DrawTexture
+null texture passed to GUI.DrawTexture
+null texture passed to GUI.DrawTexture
+null texture passed to GUI.DrawTexture
+null texture passed to GUI.DrawTexture
+null texture passed to GUI.DrawTexture
+null texture passed to GUI.DrawTexture
+null texture passed to GUI.DrawTexture
+null texture passed to GUI.DrawTexture
+null texture passed to GUI.DrawTexture
+null texture passed to GUI.DrawTexture
+null texture passed to GUI.DrawTexture
+null texture passed to GUI.DrawTexture
+null texture passed to GUI.DrawTexture
+null texture passed to GUI.DrawTexture
+null texture passed to GUI.DrawTexture
+null texture passed to GUI.DrawTexture
+null texture passed to GUI.DrawTexture
+null texture passed to GUI.DrawTexture
+null texture passed to GUI.DrawTexture
+null texture passed to GUI.DrawTexture
+null texture passed to GUI.DrawTexture
+null texture passed to GUI.DrawTexture
+null texture passed to GUI.DrawTexture
+null texture passed to GUI.DrawTexture
+null texture passed to GUI.DrawTexture
+null texture passed to GUI.DrawTexture
+null texture passed to GUI.DrawTexture
+null texture passed to GUI.DrawTexture
+null texture passed to GUI.DrawTexture
+null texture passed to GUI.DrawTexture
+null texture passed to GUI.DrawTexture
+null texture passed to GUI.DrawTexture
+null texture passed to GUI.DrawTexture
+null texture passed to GUI.DrawTexture
+null texture passed to GUI.DrawTexture
+null texture passed to GUI.DrawTexture
+null texture passed to GUI.DrawTexture
+null texture passed to GUI.DrawTexture
+null texture passed to GUI.DrawTexture
+null texture passed to GUI.DrawTexture
+null texture passed to GUI.DrawTexture
+null texture passed to GUI.DrawTexture
+null texture passed to GUI.DrawTexture
+null texture passed to GUI.DrawTexture
+null texture passed to GUI.DrawTexture
+null texture passed to GUI.DrawTexture
+null texture passed to GUI.DrawTexture
+null texture passed to GUI.DrawTexture
+null texture passed to GUI.DrawTexture
+null texture passed to GUI.DrawTexture
+null texture passed to GUI.DrawTexture
+null texture passed to GUI.DrawTexture
+null texture passed to GUI.DrawTexture
+null texture passed to GUI.DrawTexture
+null texture passed to GUI.DrawTexture
+null texture passed to GUI.DrawTexture
+null texture passed to GUI.DrawTexture
+null texture passed to GUI.DrawTexture
+null texture passed to GUI.DrawTexture
+null texture passed to GUI.DrawTexture
+null texture passed to GUI.DrawTexture
+null texture passed to GUI.DrawTexture
+null texture passed to GUI.DrawTexture
+null texture passed to GUI.DrawTexture
+null texture passed to GUI.DrawTexture
+null texture passed to GUI.DrawTexture
+null texture passed to GUI.DrawTexture
+null texture passed to GUI.DrawTexture
+null texture passed to GUI.DrawTexture
+null texture passed to GUI.DrawTexture
+Exception in RimWorld.ThinkNode_ConditionalAnyDownedInfectableSpawnedNearby TryIssueJobPackage: System.NullReferenceException: Object reference not set to an instance of an object
+[Ref 77E1603A] Duplicate stacktrace, see ref for original
+Exception in RimWorld.ThinkNode_ConditionalAnyDownedInfectableSpawnedNearby TryIssueJobPackage: System.NullReferenceException: Object reference not set to an instance of an object
+[Ref 77E1603A] Duplicate stacktrace, see ref for original
+Exception in RimWorld.ThinkNode_ConditionalAnyDownedInfectableSpawnedNearby TryIssueJobPackage: System.NullReferenceException: Object reference not set to an instance of an object
+[Ref 77E1603A] Duplicate stacktrace, see ref for original
+Exception in RimWorld.ThinkNode_ConditionalAnyDownedInfectableSpawnedNearby TryIssueJobPackage: System.NullReferenceException: Object reference not set to an instance of an object
+[Ref 77E1603A] Duplicate stacktrace, see ref for original
+Exception in RimWorld.ThinkNode_ConditionalAnyDownedInfectableSpawnedNearby TryIssueJobPackage: System.NullReferenceException: Object reference not set to an instance of an object
+[Ref 77E1603A] Duplicate stacktrace, see ref for original
+Exception in RimWorld.ThinkNode_ConditionalAnyDownedInfectableSpawnedNearby TryIssueJobPackage: System.NullReferenceException: Object reference not set to an instance of an object
+[Ref 77E1603A] Duplicate stacktrace, see ref for original
+Exception in RimWorld.ThinkNode_ConditionalAnyDownedInfectableSpawnedNearby TryIssueJobPackage: System.NullReferenceException: Object reference not set to an instance of an object
+[Ref 77E1603A] Duplicate stacktrace, see ref for original
+Exception in RimWorld.ThinkNode_ConditionalAnyDownedInfectableSpawnedNearby TryIssueJobPackage: System.NullReferenceException: Object reference not set to an instance of an object
+[Ref 77E1603A] Duplicate stacktrace, see ref for original
+Exception in RimWorld.ThinkNode_ConditionalAnyDownedInfectableSpawnedNearby TryIssueJobPackage: System.NullReferenceException: Object reference not set to an instance of an object
+[Ref 77E1603A] Duplicate stacktrace, see ref for original
+Exception in RimWorld.ThinkNode_ConditionalAnyDownedInfectableSpawnedNearby TryIssueJobPackage: System.NullReferenceException: Object reference not set to an instance of an object
+[Ref 77E1603A] Duplicate stacktrace, see ref for original
+Exception in RimWorld.ThinkNode_ConditionalAnyDownedInfectableSpawnedNearby TryIssueJobPackage: System.NullReferenceException: Object reference not set to an instance of an object
+[Ref 77E1603A] Duplicate stacktrace, see ref for original
+Exception in RimWorld.ThinkNode_ConditionalAnyDownedInfectableSpawnedNearby TryIssueJobPackage: System.NullReferenceException: Object reference not set to an instance of an object
+[Ref 77E1603A] Duplicate stacktrace, see ref for original
+Exception in RimWorld.ThinkNode_ConditionalAnyDownedInfectableSpawnedNearby TryIssueJobPackage: System.NullReferenceException: Object reference not set to an instance of an object
+[Ref 77E1603A] Duplicate stacktrace, see ref for original
+Exception in RimWorld.ThinkNode_ConditionalAnyDownedInfectableSpawnedNearby TryIssueJobPackage: System.NullReferenceException: Object reference not set to an instance of an object
+[Ref 77E1603A] Duplicate stacktrace, see ref for original
+Exception in RimWorld.ThinkNode_ConditionalAnyDownedInfectableSpawnedNearby TryIssueJobPackage: System.NullReferenceException: Object reference not set to an instance of an object
+[Ref 77E1603A] Duplicate stacktrace, see ref for original
+Exception in RimWorld.ThinkNode_ConditionalAnyDownedInfectableSpawnedNearby TryIssueJobPackage: System.NullReferenceException: Object reference not set to an instance of an object
+[Ref 77E1603A] Duplicate stacktrace, see ref for original
+Exception in RimWorld.ThinkNode_ConditionalAnyDownedInfectableSpawnedNearby TryIssueJobPackage: System.NullReferenceException: Object reference not set to an instance of an object
+[Ref 77E1603A] Duplicate stacktrace, see ref for original
+Exception in RimWorld.ThinkNode_ConditionalAnyDownedInfectableSpawnedNearby TryIssueJobPackage: System.NullReferenceException: Object reference not set to an instance of an object
+[Ref 77E1603A] Duplicate stacktrace, see ref for original
+Exception in RimWorld.ThinkNode_ConditionalAnyDownedInfectableSpawnedNearby TryIssueJobPackage: System.NullReferenceException: Object reference not set to an instance of an object
+[Ref 77E1603A] Duplicate stacktrace, see ref for original
+Exception in RimWorld.ThinkNode_ConditionalAnyDownedInfectableSpawnedNearby TryIssueJobPackage: System.NullReferenceException: Object reference not set to an instance of an object
+[Ref 77E1603A] Duplicate stacktrace, see ref for original
+Exception in RimWorld.ThinkNode_ConditionalAnyDownedInfectableSpawnedNearby TryIssueJobPackage: System.NullReferenceException: Object reference not set to an instance of an object
+[Ref 77E1603A] Duplicate stacktrace, see ref for original
+Exception in RimWorld.ThinkNode_ConditionalAnyDownedInfectableSpawnedNearby TryIssueJobPackage: System.NullReferenceException: Object reference not set to an instance of an object
+[Ref 77E1603A] Duplicate stacktrace, see ref for original
+Exception in RimWorld.ThinkNode_ConditionalAnyDownedInfectableSpawnedNearby TryIssueJobPackage: System.NullReferenceException: Object reference not set to an instance of an object
+[Ref 77E1603A] Duplicate stacktrace, see ref for original
+Exception in RimWorld.ThinkNode_ConditionalAnyDownedInfectableSpawnedNearby TryIssueJobPackage: System.NullReferenceException: Object reference not set to an instance of an object
+[Ref 77E1603A] Duplicate stacktrace, see ref for original
+Tried to spawn Dead Pawn RRY_Xenomorph_Drone53937. Replacing with corpse.
+Tried to spawn Dead Pawn RRY_Xenomorph_Drone53937. Replacing with corpse.
+Tried to add pawn RRY_Xenomorph_Drone53937 to lord with lord jobVerse.AI.Group.LordJob_DefendPoint but this pawn is already a member of lord with lord jobVerse.AI.Group.LordJob_DefendPoint. Pawns can't be members of more than one lord at the same time.
+Wrote screenshot C:\Users\clint\AppData\LocalLow\Ludeon Studios\RimWorld by Ludeon Studios\RimSaves\Previews\Autosave-3.dat of size 144127
+Wrote screenshot C:\Users\clint\AppData\LocalLow\Ludeon Studios\RimWorld by Ludeon Studios\RimSaves\Previews\Autosave-4.dat of size 152606
+Exception in RimWorld.ThinkNode_ConditionalAnyDownedInfectableSpawnedNearby TryIssueJobPackage: System.NullReferenceException: Object reference not set to an instance of an object
+[Ref 77E1603A] Duplicate stacktrace, see ref for original
+Exception in RimWorld.ThinkNode_ConditionalAnyDownedInfectableSpawnedNearby TryIssueJobPackage: System.NullReferenceException: Object reference not set to an instance of an object
+[Ref 77E1603A] Duplicate stacktrace, see ref for original
+Exception in RimWorld.ThinkNode_ConditionalAnyDownedInfectableSpawnedNearby TryIssueJobPackage: System.NullReferenceException: Object reference not set to an instance of an object
+[Ref 77E1603A] Duplicate stacktrace, see ref for original
+Exception in RimWorld.ThinkNode_ConditionalAnyDownedInfectableSpawnedNearby TryIssueJobPackage: System.NullReferenceException: Object reference not set to an instance of an object
+[Ref 77E1603A] Duplicate stacktrace, see ref for original
+Exception in RimWorld.ThinkNode_ConditionalAnyDownedInfectableSpawnedNearby TryIssueJobPackage: System.NullReferenceException: Object reference not set to an instance of an object
+[Ref 77E1603A] Duplicate stacktrace, see ref for original
+Exception in RimWorld.ThinkNode_ConditionalAnyDownedInfectableSpawnedNearby TryIssueJobPackage: System.NullReferenceException: Object reference not set to an instance of an object
+[Ref 77E1603A] Duplicate stacktrace, see ref for original
+Exception in RimWorld.ThinkNode_ConditionalAnyDownedInfectableSpawnedNearby TryIssueJobPackage: System.NullReferenceException: Object reference not set to an instance of an object
+[Ref 77E1603A] Duplicate stacktrace, see ref for original
+Exception in RimWorld.ThinkNode_ConditionalAnyDownedInfectableSpawnedNearby TryIssueJobPackage: System.NullReferenceException: Object reference not set to an instance of an object
+[Ref 77E1603A] Duplicate stacktrace, see ref for original
+Exception in RimWorld.ThinkNode_ConditionalAnyDownedInfectableSpawnedNearby TryIssueJobPackage: System.NullReferenceException: Object reference not set to an instance of an object
+[Ref 77E1603A] Duplicate stacktrace, see ref for original
+Exception in RimWorld.ThinkNode_ConditionalAnyDownedInfectableSpawnedNearby TryIssueJobPackage: System.NullReferenceException: Object reference not set to an instance of an object
+[Ref 77E1603A] Duplicate stacktrace, see ref for original
+Exception in RimWorld.ThinkNode_ConditionalAnyDownedInfectableSpawnedNearby TryIssueJobPackage: System.NullReferenceException: Object reference not set to an instance of an object
+[Ref 77E1603A] Duplicate stacktrace, see ref for original
+Exception in RimWorld.ThinkNode_ConditionalAnyDownedInfectableSpawnedNearby TryIssueJobPackage: System.NullReferenceException: Object reference not set to an instance of an object
+[Ref 77E1603A] Duplicate stacktrace, see ref for original
+Exception in RimWorld.ThinkNode_ConditionalAnyDownedInfectableSpawnedNearby TryIssueJobPackage: System.NullReferenceException: Object reference not set to an instance of an object
+[Ref 77E1603A] Duplicate stacktrace, see ref for original
+Exception in RimWorld.ThinkNode_ConditionalAnyDownedInfectableSpawnedNearby TryIssueJobPackage: System.NullReferenceException: Object reference not set to an instance of an object
+[Ref 77E1603A] Duplicate stacktrace, see ref for original
+Exception in RimWorld.ThinkNode_ConditionalAnyDownedInfectableSpawnedNearby TryIssueJobPackage: System.NullReferenceException: Object reference not set to an instance of an object
+[Ref 77E1603A] Duplicate stacktrace, see ref for original
+Exception in RimWorld.ThinkNode_ConditionalAnyDownedInfectableSpawnedNearby TryIssueJobPackage: System.NullReferenceException: Object reference not set to an instance of an object
+[Ref 77E1603A] Duplicate stacktrace, see ref for original
+Exception in RimWorld.ThinkNode_ConditionalAnyDownedInfectableSpawnedNearby TryIssueJobPackage: System.NullReferenceException: Object reference not set to an instance of an object
+[Ref 77E1603A] Duplicate stacktrace, see ref for original
+Exception in RimWorld.ThinkNode_ConditionalAnyDownedInfectableSpawnedNearby TryIssueJobPackage: System.NullReferenceException: Object reference not set to an instance of an object
+[Ref 77E1603A] Duplicate stacktrace, see ref for original
+Exception in RimWorld.ThinkNode_ConditionalAnyDownedInfectableSpawnedNearby TryIssueJobPackage: System.NullReferenceException: Object reference not set to an instance of an object
+[Ref 77E1603A] Duplicate stacktrace, see ref for original
+Exception in RimWorld.ThinkNode_ConditionalAnyDownedInfectableSpawnedNearby TryIssueJobPackage: System.NullReferenceException: Object reference not set to an instance of an object
+[Ref 77E1603A] Duplicate stacktrace, see ref for original
+Exception in RimWorld.ThinkNode_ConditionalAnyDownedInfectableSpawnedNearby TryIssueJobPackage: System.NullReferenceException: Object reference not set to an instance of an object
+[Ref 77E1603A] Duplicate stacktrace, see ref for original
+Exception in RimWorld.ThinkNode_ConditionalAnyDownedInfectableSpawnedNearby TryIssueJobPackage: System.NullReferenceException: Object reference not set to an instance of an object
+[Ref 77E1603A] Duplicate stacktrace, see ref for original
+Exception in RimWorld.ThinkNode_ConditionalAnyDownedInfectableSpawnedNearby TryIssueJobPackage: System.NullReferenceException: Object reference not set to an instance of an object
+[Ref 77E1603A] Duplicate stacktrace, see ref for original
+Exception in RimWorld.ThinkNode_ConditionalAnyDownedInfectableSpawnedNearby TryIssueJobPackage: System.NullReferenceException: Object reference not set to an instance of an object
+[Ref 77E1603A] Duplicate stacktrace, see ref for original
+Exception in RimWorld.ThinkNode_ConditionalAnyDownedInfectableSpawnedNearby TryIssueJobPackage: System.NullReferenceException: Object reference not set to an instance of an object
+[Ref 77E1603A] Duplicate stacktrace, see ref for original
+Exception in RimWorld.ThinkNode_ConditionalAnyDownedInfectableSpawnedNearby TryIssueJobPackage: System.NullReferenceException: Object reference not set to an instance of an object
+[Ref 77E1603A] Duplicate stacktrace, see ref for original
+Exception in RimWorld.ThinkNode_ConditionalAnyDownedInfectableSpawnedNearby TryIssueJobPackage: System.NullReferenceException: Object reference not set to an instance of an object
+[Ref 77E1603A] Duplicate stacktrace, see ref for original
+Exception in RimWorld.ThinkNode_ConditionalAnyDownedInfectableSpawnedNearby TryIssueJobPackage: System.NullReferenceException: Object reference not set to an instance of an object
+[Ref 77E1603A] Duplicate stacktrace, see ref for original
+Exception in RimWorld.ThinkNode_ConditionalAnyDownedInfectableSpawnedNearby TryIssueJobPackage: System.NullReferenceException: Object reference not set to an instance of an object
+[Ref 77E1603A] Duplicate stacktrace, see ref for original
+Exception in RimWorld.ThinkNode_ConditionalAnyDownedInfectableSpawnedNearby TryIssueJobPackage: System.NullReferenceException: Object reference not set to an instance of an object
+[Ref 77E1603A] Duplicate stacktrace, see ref for original
+Exception in RimWorld.ThinkNode_ConditionalAnyDownedInfectableSpawnedNearby TryIssueJobPackage: System.NullReferenceException: Object reference not set to an instance of an object
+[Ref 77E1603A] Duplicate stacktrace, see ref for original
+Exception in RimWorld.ThinkNode_ConditionalAnyDownedInfectableSpawnedNearby TryIssueJobPackage: System.NullReferenceException: Object reference not set to an instance of an object
+[Ref 77E1603A] Duplicate stacktrace, see ref for original
+Exception in RimWorld.ThinkNode_ConditionalAnyDownedInfectableSpawnedNearby TryIssueJobPackage: System.NullReferenceException: Object reference not set to an instance of an object
+[Ref 77E1603A] Duplicate stacktrace, see ref for original
+Exception in RimWorld.ThinkNode_ConditionalAnyDownedInfectableSpawnedNearby TryIssueJobPackage: System.NullReferenceException: Object reference not set to an instance of an object
+[Ref 77E1603A] Duplicate stacktrace, see ref for original
+Exception in RimWorld.ThinkNode_ConditionalAnyDownedInfectableSpawnedNearby TryIssueJobPackage: System.NullReferenceException: Object reference not set to an instance of an object
+[Ref 77E1603A] Duplicate stacktrace, see ref for original
+Exception in RimWorld.ThinkNode_ConditionalAnyDownedInfectableSpawnedNearby TryIssueJobPackage: System.NullReferenceException: Object reference not set to an instance of an object
+[Ref 77E1603A] Duplicate stacktrace, see ref for original
+Exception in RimWorld.ThinkNode_ConditionalAnyDownedInfectableSpawnedNearby TryIssueJobPackage: System.NullReferenceException: Object reference not set to an instance of an object
+[Ref 77E1603A] Duplicate stacktrace, see ref for original
+Exception in RimWorld.ThinkNode_ConditionalAnyDownedInfectableSpawnedNearby TryIssueJobPackage: System.NullReferenceException: Object reference not set to an instance of an object
+[Ref 77E1603A] Duplicate stacktrace, see ref for original
+Exception in RimWorld.ThinkNode_ConditionalAnyDownedInfectableSpawnedNearby TryIssueJobPackage: System.NullReferenceException: Object reference not set to an instance of an object
+[Ref 77E1603A] Duplicate stacktrace, see ref for original
+Exception in RimWorld.ThinkNode_ConditionalAnyDownedInfectableSpawnedNearby TryIssueJobPackage: System.NullReferenceException: Object reference not set to an instance of an object
+[Ref 77E1603A] Duplicate stacktrace, see ref for original
+Exception in RimWorld.ThinkNode_ConditionalAnyDownedInfectableSpawnedNearby TryIssueJobPackage: System.NullReferenceException: Object reference not set to an instance of an object
+[Ref 77E1603A] Duplicate stacktrace, see ref for original
+Exception in RimWorld.ThinkNode_ConditionalAnyDownedInfectableSpawnedNearby TryIssueJobPackage: System.NullReferenceException: Object reference not set to an instance of an object
+[Ref 77E1603A] Duplicate stacktrace, see ref for original
+AM.Events.AudioEvent must be instantiated using the ScriptableObject.CreateInstance method instead of new AudioEvent.
+AM.Events.CamShakeEvent must be instantiated using the ScriptableObject.CreateInstance method instead of new CamShakeEvent.
+AM.Events.ClashAudioEvent must be instantiated using the ScriptableObject.CreateInstance method instead of new ClashAudioEvent.
+AM.Events.DamageEffectEvent must be instantiated using the ScriptableObject.CreateInstance method instead of new DamageEffectEvent.
+AM.Events.DuelEvent must be instantiated using the ScriptableObject.CreateInstance method instead of new DuelEvent.
+AM.Events.GoreSplashEvent must be instantiated using the ScriptableObject.CreateInstance method instead of new GoreSplashEvent.
+AM.Events.KillPawnEvent must be instantiated using the ScriptableObject.CreateInstance method instead of new KillPawnEvent.
+AM.Events.MoteEvent must be instantiated using the ScriptableObject.CreateInstance method instead of new MoteEvent.
+AM.Events.PuntPawnEvent must be instantiated using the ScriptableObject.CreateInstance method instead of new PuntPawnEvent.
+AM.Events.TextMoteEvent must be instantiated using the ScriptableObject.CreateInstance method instead of new TextMoteEvent.
+AM.Events.DamageEffectEvent must be instantiated using the ScriptableObject.CreateInstance method instead of new DamageEffectEvent.
+AM.Events.KillPawnEvent must be instantiated using the ScriptableObject.CreateInstance method instead of new KillPawnEvent.
+<color=#66ffb5>[MeleeAnim]</color> Failed to find any hit for 7.50 dmg that would not kill, down or amputate part on RRY_Xenomorph_Drone53943. Will keep trying for the remaining 7.50 dmg.
+<color=#66ffb5>[MeleeAnim]</color> Failed to find any hit for 7.50 dmg that would not kill, down or amputate part on RRY_Xenomorph_Drone53943. Will keep trying for the remaining 0.00 dmg.
+<color=#66ffb5>[MeleeAnim]</color> Dealt 15.00 pts of dmg as part of injury to RRY_Xenomorph_Drone53943 (aimed to deal 30.00).
+Exception in RimWorld.ThinkNode_ConditionalAnyDownedInfectableSpawnedNearby TryIssueJobPackage: System.NullReferenceException: Object reference not set to an instance of an object
+[Ref 77E1603A] Duplicate stacktrace, see ref for original
+Exception in RimWorld.ThinkNode_ConditionalAnyDownedInfectableSpawnedNearby TryIssueJobPackage: System.NullReferenceException: Object reference not set to an instance of an object
+[Ref 77E1603A] Duplicate stacktrace, see ref for original
+Exception in RimWorld.ThinkNode_ConditionalAnyDownedInfectableSpawnedNearby TryIssueJobPackage: System.NullReferenceException: Object reference not set to an instance of an object
+[Ref 77E1603A] Duplicate stacktrace, see ref for original
+Exception in RimWorld.ThinkNode_ConditionalAnyDownedInfectableSpawnedNearby TryIssueJobPackage: System.NullReferenceException: Object reference not set to an instance of an object
+[Ref 77E1603A] Duplicate stacktrace, see ref for original
+Exception in RimWorld.ThinkNode_ConditionalAnyDownedInfectableSpawnedNearby TryIssueJobPackage: System.NullReferenceException: Object reference not set to an instance of an object
+[Ref 77E1603A] Duplicate stacktrace, see ref for original
+Exception in RimWorld.ThinkNode_ConditionalAnyDownedInfectableSpawnedNearby TryIssueJobPackage: System.NullReferenceException: Object reference not set to an instance of an object
+[Ref 77E1603A] Duplicate stacktrace, see ref for original
+Exception in RimWorld.ThinkNode_ConditionalAnyDownedInfectableSpawnedNearby TryIssueJobPackage: System.NullReferenceException: Object reference not set to an instance of an object
+[Ref 77E1603A] Duplicate stacktrace, see ref for original
+Exception in RimWorld.ThinkNode_ConditionalAnyDownedInfectableSpawnedNearby TryIssueJobPackage: System.NullReferenceException: Object reference not set to an instance of an object
+[Ref 77E1603A] Duplicate stacktrace, see ref for original
+Exception in RimWorld.ThinkNode_ConditionalAnyDownedInfectableSpawnedNearby TryIssueJobPackage: System.NullReferenceException: Object reference not set to an instance of an object
+[Ref 77E1603A] Duplicate stacktrace, see ref for original
+Exception in RimWorld.ThinkNode_ConditionalAnyDownedInfectableSpawnedNearby TryIssueJobPackage: System.NullReferenceException: Object reference not set to an instance of an object
+[Ref 77E1603A] Duplicate stacktrace, see ref for original
+Exception in RimWorld.ThinkNode_ConditionalAnyDownedInfectableSpawnedNearby TryIssueJobPackage: System.NullReferenceException: Object reference not set to an instance of an object
+[Ref 77E1603A] Duplicate stacktrace, see ref for original
+Exception in RimWorld.ThinkNode_ConditionalAnyDownedInfectableSpawnedNearby TryIssueJobPackage: System.NullReferenceException: Object reference not set to an instance of an object
+[Ref 77E1603A] Duplicate stacktrace, see ref for original
+Exception in RimWorld.ThinkNode_ConditionalAnyDownedInfectableSpawnedNearby TryIssueJobPackage: System.NullReferenceException: Object reference not set to an instance of an object
+[Ref 77E1603A] Duplicate stacktrace, see ref for original
+Exception in RimWorld.ThinkNode_ConditionalAnyDownedInfectableSpawnedNearby TryIssueJobPackage: System.NullReferenceException: Object reference not set to an instance of an object
+[Ref 77E1603A] Duplicate stacktrace, see ref for original
+Exception in RimWorld.ThinkNode_ConditionalAnyDownedInfectableSpawnedNearby TryIssueJobPackage: System.NullReferenceException: Object reference not set to an instance of an object
+[Ref 77E1603A] Duplicate stacktrace, see ref for original
+Exception in RimWorld.ThinkNode_ConditionalAnyDownedInfectableSpawnedNearby TryIssueJobPackage: System.NullReferenceException: Object reference not set to an instance of an object
+[Ref 77E1603A] Duplicate stacktrace, see ref for original
+Exception in RimWorld.ThinkNode_ConditionalAnyDownedInfectableSpawnedNearby TryIssueJobPackage: System.NullReferenceException: Object reference not set to an instance of an object
+[Ref 77E1603A] Duplicate stacktrace, see ref for original
+Exception in RimWorld.ThinkNode_ConditionalAnyDownedInfectableSpawnedNearby TryIssueJobPackage: System.NullReferenceException: Object reference not set to an instance of an object
+[Ref 77E1603A] Duplicate stacktrace, see ref for original
+Exception in RimWorld.ThinkNode_ConditionalAnyDownedInfectableSpawnedNearby TryIssueJobPackage: System.NullReferenceException: Object reference not set to an instance of an object
+[Ref 77E1603A] Duplicate stacktrace, see ref for original
+Exception in RimWorld.ThinkNode_ConditionalAnyDownedInfectableSpawnedNearby TryIssueJobPackage: System.NullReferenceException: Object reference not set to an instance of an object
+[Ref 77E1603A] Duplicate stacktrace, see ref for original
+Exception in RimWorld.ThinkNode_ConditionalAnyDownedInfectableSpawnedNearby TryIssueJobPackage: System.NullReferenceException: Object reference not set to an instance of an object
+[Ref 77E1603A] Duplicate stacktrace, see ref for original
+Exception in RimWorld.ThinkNode_ConditionalAnyDownedInfectableSpawnedNearby TryIssueJobPackage: System.NullReferenceException: Object reference not set to an instance of an object
+[Ref 77E1603A] Duplicate stacktrace, see ref for original
+Exception in RimWorld.ThinkNode_ConditionalAnyDownedInfectableSpawnedNearby TryIssueJobPackage: System.NullReferenceException: Object reference not set to an instance of an object
+[Ref 77E1603A] Duplicate stacktrace, see ref for original
+Exception in RimWorld.ThinkNode_ConditionalAnyDownedInfectableSpawnedNearby TryIssueJobPackage: System.NullReferenceException: Object reference not set to an instance of an object
+[Ref 77E1603A] Duplicate stacktrace, see ref for original
+Exception in RimWorld.ThinkNode_ConditionalAnyDownedInfectableSpawnedNearby TryIssueJobPackage: System.NullReferenceException: Object reference not set to an instance of an object
+[Ref 77E1603A] Duplicate stacktrace, see ref for original
+Exception in RimWorld.ThinkNode_ConditionalAnyDownedInfectableSpawnedNearby TryIssueJobPackage: System.NullReferenceException: Object reference not set to an instance of an object
+[Ref 77E1603A] Duplicate stacktrace, see ref for original
+Exception in RimWorld.ThinkNode_ConditionalAnyDownedInfectableSpawnedNearby TryIssueJobPackage: System.NullReferenceException: Object reference not set to an instance of an object
+[Ref 77E1603A] Duplicate stacktrace, see ref for original
+Exception in RimWorld.ThinkNode_ConditionalAnyDownedInfectableSpawnedNearby TryIssueJobPackage: System.NullReferenceException: Object reference not set to an instance of an object
+[Ref 77E1603A] Duplicate stacktrace, see ref for original
+Exception in RimWorld.ThinkNode_ConditionalAnyDownedInfectableSpawnedNearby TryIssueJobPackage: System.NullReferenceException: Object reference not set to an instance of an object
+[Ref 77E1603A] Duplicate stacktrace, see ref for original
+Exception in RimWorld.ThinkNode_ConditionalAnyDownedInfectableSpawnedNearby TryIssueJobPackage: System.NullReferenceException: Object reference not set to an instance of an object
+[Ref 77E1603A] Duplicate stacktrace, see ref for original
+Exception in RimWorld.ThinkNode_ConditionalAnyDownedInfectableSpawnedNearby TryIssueJobPackage: System.NullReferenceException: Object reference not set to an instance of an object
+[Ref 77E1603A] Duplicate stacktrace, see ref for original
+Exception in RimWorld.ThinkNode_ConditionalAnyDownedInfectableSpawnedNearby TryIssueJobPackage: System.NullReferenceException: Object reference not set to an instance of an object
+[Ref 77E1603A] Duplicate stacktrace, see ref for original
+Exception in RimWorld.ThinkNode_ConditionalAnyDownedInfectableSpawnedNearby TryIssueJobPackage: System.NullReferenceException: Object reference not set to an instance of an object
+[Ref 77E1603A] Duplicate stacktrace, see ref for original
+Exception in RimWorld.ThinkNode_ConditionalAnyDownedInfectableSpawnedNearby TryIssueJobPackage: System.NullReferenceException: Object reference not set to an instance of an object
+[Ref 77E1603A] Duplicate stacktrace, see ref for original
+Exception in RimWorld.ThinkNode_ConditionalAnyDownedInfectableSpawnedNearby TryIssueJobPackage: System.NullReferenceException: Object reference not set to an instance of an object
+[Ref 77E1603A] Duplicate stacktrace, see ref for original
+Exception in RimWorld.ThinkNode_ConditionalAnyDownedInfectableSpawnedNearby TryIssueJobPackage: System.NullReferenceException: Object reference not set to an instance of an object
+[Ref 77E1603A] Duplicate stacktrace, see ref for original
+Exception in RimWorld.ThinkNode_ConditionalAnyDownedInfectableSpawnedNearby TryIssueJobPackage: System.NullReferenceException: Object reference not set to an instance of an object
+[Ref 77E1603A] Duplicate stacktrace, see ref for original
+Exception in RimWorld.ThinkNode_ConditionalAnyDownedInfectableSpawnedNearby TryIssueJobPackage: System.NullReferenceException: Object reference not set to an instance of an object
+[Ref 77E1603A] Duplicate stacktrace, see ref for original
+Exception in RimWorld.ThinkNode_ConditionalAnyDownedInfectableSpawnedNearby TryIssueJobPackage: System.NullReferenceException: Object reference not set to an instance of an object
+[Ref 77E1603A] Duplicate stacktrace, see ref for original
+Exception in RimWorld.ThinkNode_ConditionalAnyDownedInfectableSpawnedNearby TryIssueJobPackage: System.NullReferenceException: Object reference not set to an instance of an object
+[Ref 77E1603A] Duplicate stacktrace, see ref for original
+Exception in RimWorld.ThinkNode_ConditionalAnyDownedInfectableSpawnedNearby TryIssueJobPackage: System.NullReferenceException: Object reference not set to an instance of an object
+[Ref 77E1603A] Duplicate stacktrace, see ref for original
+Exception in RimWorld.ThinkNode_ConditionalAnyDownedInfectableSpawnedNearby TryIssueJobPackage: System.NullReferenceException: Object reference not set to an instance of an object
+[Ref 77E1603A] Duplicate stacktrace, see ref for original
+Exception in RimWorld.ThinkNode_ConditionalAnyDownedInfectableSpawnedNearby TryIssueJobPackage: System.NullReferenceException: Object reference not set to an instance of an object
+[Ref 77E1603A] Duplicate stacktrace, see ref for original
+Exception in RimWorld.ThinkNode_ConditionalAnyDownedInfectableSpawnedNearby TryIssueJobPackage: System.NullReferenceException: Object reference not set to an instance of an object
+[Ref 77E1603A] Duplicate stacktrace, see ref for original
+Exception in RimWorld.ThinkNode_ConditionalAnyDownedInfectableSpawnedNearby TryIssueJobPackage: System.NullReferenceException: Object reference not set to an instance of an object
+[Ref 77E1603A] Duplicate stacktrace, see ref for original
+Exception in RimWorld.ThinkNode_ConditionalAnyDownedInfectableSpawnedNearby TryIssueJobPackage: System.NullReferenceException: Object reference not set to an instance of an object
+[Ref 77E1603A] Duplicate stacktrace, see ref for original
+Exception in RimWorld.ThinkNode_ConditionalAnyDownedInfectableSpawnedNearby TryIssueJobPackage: System.NullReferenceException: Object reference not set to an instance of an object
+[Ref 77E1603A] Duplicate stacktrace, see ref for original
+Exception in RimWorld.ThinkNode_ConditionalAnyDownedInfectableSpawnedNearby TryIssueJobPackage: System.NullReferenceException: Object reference not set to an instance of an object
+[Ref 77E1603A] Duplicate stacktrace, see ref for original
+Exception in RimWorld.ThinkNode_ConditionalAnyDownedInfectableSpawnedNearby TryIssueJobPackage: System.NullReferenceException: Object reference not set to an instance of an object
+[Ref 77E1603A] Duplicate stacktrace, see ref for original
+Exception in RimWorld.ThinkNode_ConditionalAnyDownedInfectableSpawnedNearby TryIssueJobPackage: System.NullReferenceException: Object reference not set to an instance of an object
+[Ref 77E1603A] Duplicate stacktrace, see ref for original
+Exception in RimWorld.ThinkNode_ConditionalAnyDownedInfectableSpawnedNearby TryIssueJobPackage: System.NullReferenceException: Object reference not set to an instance of an object
+[Ref 77E1603A] Duplicate stacktrace, see ref for original
+Exception in RimWorld.ThinkNode_ConditionalAnyDownedInfectableSpawnedNearby TryIssueJobPackage: System.NullReferenceException: Object reference not set to an instance of an object
+[Ref 77E1603A] Duplicate stacktrace, see ref for original
+Exception in RimWorld.ThinkNode_ConditionalAnyDownedInfectableSpawnedNearby TryIssueJobPackage: System.NullReferenceException: Object reference not set to an instance of an object
+[Ref 77E1603A] Duplicate stacktrace, see ref for original
+Exception in RimWorld.ThinkNode_ConditionalAnyDownedInfectableSpawnedNearby TryIssueJobPackage: System.NullReferenceException: Object reference not set to an instance of an object
+[Ref 77E1603A] Duplicate stacktrace, see ref for original
+Exception in RimWorld.ThinkNode_ConditionalAnyDownedInfectableSpawnedNearby TryIssueJobPackage: System.NullReferenceException: Object reference not set to an instance of an object
+[Ref 77E1603A] Duplicate stacktrace, see ref for original
+Exception in RimWorld.ThinkNode_ConditionalAnyDownedInfectableSpawnedNearby TryIssueJobPackage: System.NullReferenceException: Object reference not set to an instance of an object
+[Ref 77E1603A] Duplicate stacktrace, see ref for original
+Exception in RimWorld.ThinkNode_ConditionalAnyDownedInfectableSpawnedNearby TryIssueJobPackage: System.NullReferenceException: Object reference not set to an instance of an object
+[Ref 77E1603A] Duplicate stacktrace, see ref for original
+Exception in RimWorld.ThinkNode_ConditionalAnyDownedInfectableSpawnedNearby TryIssueJobPackage: System.NullReferenceException: Object reference not set to an instance of an object
+[Ref 77E1603A] Duplicate stacktrace, see ref for original
+Exception in RimWorld.ThinkNode_ConditionalAnyDownedInfectableSpawnedNearby TryIssueJobPackage: System.NullReferenceException: Object reference not set to an instance of an object
+[Ref 77E1603A] Duplicate stacktrace, see ref for original
+Exception in RimWorld.ThinkNode_ConditionalAnyDownedInfectableSpawnedNearby TryIssueJobPackage: System.NullReferenceException: Object reference not set to an instance of an object
+[Ref 77E1603A] Duplicate stacktrace, see ref for original
+Exception in RimWorld.ThinkNode_ConditionalAnyDownedInfectableSpawnedNearby TryIssueJobPackage: System.NullReferenceException: Object reference not set to an instance of an object
+[Ref 77E1603A] Duplicate stacktrace, see ref for original
+Exception in RimWorld.ThinkNode_ConditionalAnyDownedInfectableSpawnedNearby TryIssueJobPackage: System.NullReferenceException: Object reference not set to an instance of an object
+[Ref 77E1603A] Duplicate stacktrace, see ref for original
+Exception in RimWorld.ThinkNode_ConditionalAnyDownedInfectableSpawnedNearby TryIssueJobPackage: System.NullReferenceException: Object reference not set to an instance of an object
+[Ref 77E1603A] Duplicate stacktrace, see ref for original
+Exception in RimWorld.ThinkNode_ConditionalAnyDownedInfectableSpawnedNearby TryIssueJobPackage: System.NullReferenceException: Object reference not set to an instance of an object
+[Ref 77E1603A] Duplicate stacktrace, see ref for original
+Exception in RimWorld.ThinkNode_ConditionalAnyDownedInfectableSpawnedNearby TryIssueJobPackage: System.NullReferenceException: Object reference not set to an instance of an object
+[Ref 77E1603A] Duplicate stacktrace, see ref for original
+Exception in RimWorld.ThinkNode_ConditionalAnyDownedInfectableSpawnedNearby TryIssueJobPackage: System.NullReferenceException: Object reference not set to an instance of an object
+[Ref 77E1603A] Duplicate stacktrace, see ref for original
+Exception in RimWorld.ThinkNode_ConditionalAnyDownedInfectableSpawnedNearby TryIssueJobPackage: System.NullReferenceException: Object reference not set to an instance of an object
+[Ref 77E1603A] Duplicate stacktrace, see ref for original
+Exception in RimWorld.ThinkNode_ConditionalAnyDownedInfectableSpawnedNearby TryIssueJobPackage: System.NullReferenceException: Object reference not set to an instance of an object
+[Ref 77E1603A] Duplicate stacktrace, see ref for original
+Exception in RimWorld.ThinkNode_ConditionalAnyDownedInfectableSpawnedNearby TryIssueJobPackage: System.NullReferenceException: Object reference not set to an instance of an object
+[Ref 77E1603A] Duplicate stacktrace, see ref for original
+Exception in RimWorld.ThinkNode_ConditionalAnyDownedInfectableSpawnedNearby TryIssueJobPackage: System.NullReferenceException: Object reference not set to an instance of an object
+[Ref 77E1603A] Duplicate stacktrace, see ref for original
+Exception in RimWorld.ThinkNode_ConditionalAnyDownedInfectableSpawnedNearby TryIssueJobPackage: System.NullReferenceException: Object reference not set to an instance of an object
+[Ref 77E1603A] Duplicate stacktrace, see ref for original
+Exception in RimWorld.ThinkNode_ConditionalAnyDownedInfectableSpawnedNearby TryIssueJobPackage: System.NullReferenceException: Object reference not set to an instance of an object
+[Ref 77E1603A] Duplicate stacktrace, see ref for original
+Exception in RimWorld.ThinkNode_ConditionalAnyDownedInfectableSpawnedNearby TryIssueJobPackage: System.NullReferenceException: Object reference not set to an instance of an object
+[Ref 77E1603A] Duplicate stacktrace, see ref for original
+Exception in RimWorld.ThinkNode_ConditionalAnyDownedInfectableSpawnedNearby TryIssueJobPackage: System.NullReferenceException: Object reference not set to an instance of an object
+[Ref 77E1603A] Duplicate stacktrace, see ref for original
+Exception in RimWorld.ThinkNode_ConditionalAnyDownedInfectableSpawnedNearby TryIssueJobPackage: System.NullReferenceException: Object reference not set to an instance of an object
+[Ref 77E1603A] Duplicate stacktrace, see ref for original
+Exception in RimWorld.ThinkNode_ConditionalAnyDownedInfectableSpawnedNearby TryIssueJobPackage: System.NullReferenceException: Object reference not set to an instance of an object
+[Ref 77E1603A] Duplicate stacktrace, see ref for original
+Exception in RimWorld.ThinkNode_ConditionalAnyDownedInfectableSpawnedNearby TryIssueJobPackage: System.NullReferenceException: Object reference not set to an instance of an object
+[Ref 77E1603A] Duplicate stacktrace, see ref for original
+Exception in RimWorld.ThinkNode_ConditionalAnyDownedInfectableSpawnedNearby TryIssueJobPackage: System.NullReferenceException: Object reference not set to an instance of an object
+[Ref 77E1603A] Duplicate stacktrace, see ref for original
+Exception in RimWorld.ThinkNode_ConditionalAnyDownedInfectableSpawnedNearby TryIssueJobPackage: System.NullReferenceException: Object reference not set to an instance of an object
+[Ref 77E1603A] Duplicate stacktrace, see ref for original
+Exception in RimWorld.ThinkNode_ConditionalAnyDownedInfectableSpawnedNearby TryIssueJobPackage: System.NullReferenceException: Object reference not set to an instance of an object
+[Ref 77E1603A] Duplicate stacktrace, see ref for original
+Exception in RimWorld.ThinkNode_ConditionalAnyDownedInfectableSpawnedNearby TryIssueJobPackage: System.NullReferenceException: Object reference not set to an instance of an object
+[Ref 77E1603A] Duplicate stacktrace, see ref for original
+Exception in RimWorld.ThinkNode_ConditionalAnyDownedInfectableSpawnedNearby TryIssueJobPackage: System.NullReferenceException: Object reference not set to an instance of an object
+[Ref 77E1603A] Duplicate stacktrace, see ref for original
+Exception in RimWorld.ThinkNode_ConditionalAnyDownedInfectableSpawnedNearby TryIssueJobPackage: System.NullReferenceException: Object reference not set to an instance of an object
+[Ref 77E1603A] Duplicate stacktrace, see ref for original
+Exception in RimWorld.ThinkNode_ConditionalAnyDownedInfectableSpawnedNearby TryIssueJobPackage: System.NullReferenceException: Object reference not set to an instance of an object
+[Ref 77E1603A] Duplicate stacktrace, see ref for original
+Exception in RimWorld.ThinkNode_ConditionalAnyDownedInfectableSpawnedNearby TryIssueJobPackage: System.NullReferenceException: Object reference not set to an instance of an object
+[Ref 77E1603A] Duplicate stacktrace, see ref for original
+Exception in RimWorld.ThinkNode_ConditionalAnyDownedInfectableSpawnedNearby TryIssueJobPackage: System.NullReferenceException: Object reference not set to an instance of an object
+[Ref 77E1603A] Duplicate stacktrace, see ref for original
+Exception in RimWorld.ThinkNode_ConditionalAnyDownedInfectableSpawnedNearby TryIssueJobPackage: System.NullReferenceException: Object reference not set to an instance of an object
+[Ref 77E1603A] Duplicate stacktrace, see ref for original
+Exception in RimWorld.ThinkNode_ConditionalAnyDownedInfectableSpawnedNearby TryIssueJobPackage: System.NullReferenceException: Object reference not set to an instance of an object
+[Ref 77E1603A] Duplicate stacktrace, see ref for original
+Exception in RimWorld.ThinkNode_ConditionalAnyDownedInfectableSpawnedNearby TryIssueJobPackage: System.NullReferenceException: Object reference not set to an instance of an object
+[Ref 77E1603A] Duplicate stacktrace, see ref for original
+Exception in RimWorld.ThinkNode_ConditionalAnyDownedInfectableSpawnedNearby TryIssueJobPackage: System.NullReferenceException: Object reference not set to an instance of an object
+[Ref 77E1603A] Duplicate stacktrace, see ref for original
+Exception in RimWorld.ThinkNode_ConditionalAnyDownedInfectableSpawnedNearby TryIssueJobPackage: System.NullReferenceException: Object reference not set to an instance of an object
+[Ref 77E1603A] Duplicate stacktrace, see ref for original
+Exception in RimWorld.ThinkNode_ConditionalAnyDownedInfectableSpawnedNearby TryIssueJobPackage: System.NullReferenceException: Object reference not set to an instance of an object
+[Ref 77E1603A] Duplicate stacktrace, see ref for original
+Exception in RimWorld.ThinkNode_ConditionalAnyDownedInfectableSpawnedNearby TryIssueJobPackage: System.NullReferenceException: Object reference not set to an instance of an object
+[Ref 77E1603A] Duplicate stacktrace, see ref for original
+Exception in RimWorld.ThinkNode_ConditionalAnyDownedInfectableSpawnedNearby TryIssueJobPackage: System.NullReferenceException: Object reference not set to an instance of an object
+[Ref 77E1603A] Duplicate stacktrace, see ref for original
+Exception in RimWorld.ThinkNode_ConditionalAnyDownedInfectableSpawnedNearby TryIssueJobPackage: System.NullReferenceException: Object reference not set to an instance of an object
+[Ref 77E1603A] Duplicate stacktrace, see ref for original
+Exception in RimWorld.ThinkNode_ConditionalAnyDownedInfectableSpawnedNearby TryIssueJobPackage: System.NullReferenceException: Object reference not set to an instance of an object
+[Ref 77E1603A] Duplicate stacktrace, see ref for original
+Exception in RimWorld.ThinkNode_ConditionalAnyDownedInfectableSpawnedNearby TryIssueJobPackage: System.NullReferenceException: Object reference not set to an instance of an object
+[Ref 77E1603A] Duplicate stacktrace, see ref for original
+Exception in RimWorld.ThinkNode_ConditionalAnyDownedInfectableSpawnedNearby TryIssueJobPackage: System.NullReferenceException: Object reference not set to an instance of an object
+[Ref 77E1603A] Duplicate stacktrace, see ref for original
+Exception in RimWorld.ThinkNode_ConditionalAnyDownedInfectableSpawnedNearby TryIssueJobPackage: System.NullReferenceException: Object reference not set to an instance of an object
+[Ref 77E1603A] Duplicate stacktrace, see ref for original
