@@ -1,23 +1,1636 @@
-Failed to find any textures at Things/Pawn/Humanlike/Apparel/LB_Covetheus/Backpack/CovetheusBackpack while constructing Multi(initPath=Things/Pawn/Humanlike/Apparel/LB_Covetheus/Backpack/CovetheusBackpack, color=RGBA(0.682, 0.859, 0.894, 1.000), colorTwo=RGBA(1.000, 1.000, 1.000, 1.000))
+Command line arguments: -disable-compute-shaders
 UnityEngine.StackTraceUtility:ExtractStackTrace ()
-(wrapper dynamic-method) MonoMod.Utils.DynamicMethodDefinition:Verse.Log.Error_Patch1 (string)
-Verse.Graphic_Multi:Init (Verse.GraphicRequest)
-Verse.GraphicDatabase:GetInner<Verse.Graphic_Multi> (Verse.GraphicRequest)
-Verse.GraphicDatabase:Get<Verse.Graphic_Multi> (string,UnityEngine.Shader,UnityEngine.Vector2,UnityEngine.Color,UnityEngine.Color)
-AlienRace.ApparelGraphics.ApparelGraphicUtility:GetGraphic (string,UnityEngine.Shader,UnityEngine.Vector2,UnityEngine.Color,RimWorld.Apparel,RimWorld.BodyTypeDef) (at C:/Program Files (x86)/Steam/steamapps/common/RimWorld/Mods/AlienRaces/Source/AlienRace/AlienRace/ApparelGraphics/ApparelGraphicUtility.cs:15)
-(wrapper dynamic-method) MonoMod.Utils.DynamicMethodDefinition:RimWorld.ApparelGraphicRecordGetter.TryGetGraphicApparel_Patch3 (RimWorld.Apparel,RimWorld.BodyTypeDef,bool,RimWorld.ApparelGraphicRecord&)
-Verse.DynamicPawnRenderNodeSetup_Apparel/<ProcessApparel>d__5:MoveNext ()
-CombatExtended.HarmonyCE.Harmony_RenderNodeSetup_ProcessApparel/<Postfix>d__0:MoveNext ()
-Verse.DynamicPawnRenderNodeSetup_Apparel/<GetDynamicNodes>d__3:MoveNext ()
-Verse.PawnRenderTree:SetupDynamicNodes ()
-(wrapper dynamic-method) MonoMod.Utils.DynamicMethodDefinition:Verse.PawnRenderTree.TrySetupGraphIfNeeded_Patch1 (Verse.PawnRenderTree)
-(wrapper dynamic-method) MonoMod.Utils.DynamicMethodDefinition:Verse.PawnRenderTree.EnsureInitialized_Patch1 (Verse.PawnRenderTree,Verse.PawnRenderFlags)
-Verse.PawnRenderer:RenderCache (Verse.Rot4,single,UnityEngine.Vector3,bool,bool,bool,bool,System.Collections.Generic.IReadOnlyDictionary`2<RimWorld.Apparel, UnityEngine.Color>,System.Nullable`1<UnityEngine.Color>,bool)
-RimWorld.PawnCacheRenderer:OnPostRender ()
-(wrapper dynamic-method) MonoMod.Utils.DynamicMethodDefinition:RimWorld.PawnCacheRenderer.RenderPawn_Patch1 (RimWorld.PawnCacheRenderer,Verse.Pawn,UnityEngine.RenderTexture,UnityEngine.Vector3,single,single,Verse.Rot4,bool,bool,bool,bool,UnityEngine.Vector3,System.Collections.Generic.IReadOnlyDictionary`2<RimWorld.Apparel, UnityEngine.Color>,System.Nullable`1<UnityEngine.Color>,bool)
-RimWorld.PortraitsCache/PortraitParams:RenderPortrait (Verse.Pawn,UnityEngine.RenderTexture)
-RimWorld.PortraitsCache:Get (Verse.Pawn,UnityEngine.Vector2,Verse.Rot4,UnityEngine.Vector3,single,bool,bool,bool,bool,System.Collections.Generic.IReadOnlyDictionary`2<RimWorld.Apparel, UnityEngine.Color>,System.Nullable`1<UnityEngine.Color>,bool,System.Nullable`1<Verse.PawnHealthState>)
-RimWorld.Page_ConfigureStartingPawns:DrawPawnList (UnityEngine.Rect)
-(wrapper dynamic-method) MonoMod.Utils.DynamicMethodDefinition:RimWorld.Page_ConfigureStartingPawns.DoWindowContents_Patch1 (RimWorld.Page_ConfigureStartingPawns,UnityEngine.Rect)
-Verse.Window:InnerWindowOnGUI (int)
-UnityEngine.GUI:CallWindowDelegate (UnityEngine.GUI/WindowFunction,int,int,UnityEngine.GUISkin,int,single,single,UnityEngine.GUIStyle)
+Verse.Log:Message (string)
+Verse.Root:CheckGlobalInit ()
+Verse.Root:Start ()
+Verse.Root_Entry:Start ()
+
+RimWorld 1.6.4871 rev591
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+Verse.Log:Message (string)
+RimWorld.VersionControl:LogVersionNumber ()
+Verse.Root:CheckGlobalInit ()
+Verse.Root:Start ()
+Verse.Root_Entry:Start ()
+
+Tried loading mod with the same packageId multiple times: Orion.Hospitality. Ignoring the duplicates.
+D:\SteamLibrary\steamapps\workshop\content\294100\3509486825
+D:\SteamLibrary\steamapps\workshop\content\294100\753498552
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+Verse.Log:Error (string)
+Verse.ModLister:TryAddMod (Verse.ModMetaData)
+Verse.ModLister:RebuildModList ()
+Verse.ModLister:.cctor ()
+Verse.ModsConfig:.cctor ()
+Verse.LoadedModManager:InitializeMods ()
+Verse.LoadedModManager:LoadAllActiveMods (bool)
+Verse.PlayDataLoader:DoPlayLoad ()
+Verse.PlayDataLoader:LoadAllPlayData (bool)
+Verse.Root/<>c:<Start>b__10_1 ()
+Verse.LongEventHandler:RunEventFromAnotherThread (System.Action)
+Verse.LongEventHandler/<>c:<UpdateCurrentAsynchronousEvent>b__28_0 ()
+System.Threading.ThreadHelper:ThreadStart_Context (object)
+System.Threading.ExecutionContext:RunInternal (System.Threading.ExecutionContext,System.Threading.ContextCallback,object,bool)
+System.Threading.ExecutionContext:Run (System.Threading.ExecutionContext,System.Threading.ContextCallback,object,bool)
+System.Threading.ExecutionContext:Run (System.Threading.ExecutionContext,System.Threading.ContextCallback,object)
+System.Threading.ThreadHelper:ThreadStart ()
+
+[Loading Progress] Loading Progress v0.14.0 initialized! Enjoy the rest of your loading experience!
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+Verse.Log:Message (string)
+ilyvion.LoadingProgress.LoadingProgressMod:Message (string) (at /home/runner/work/loading-progress/loading-progress/Source/ilyvion.LoadingProgress/LoadingProgressMod.cs:39)
+ilyvion.LoadingProgress.LoadingProgressMod:.ctor (Verse.ModContentPack) (at /home/runner/work/loading-progress/loading-progress/Source/ilyvion.LoadingProgress/LoadingProgressMod.cs:27)
+System.Reflection.RuntimeConstructorInfo:InternalInvoke (object,object[],bool)
+System.Reflection.RuntimeConstructorInfo:DoInvoke (object,System.Reflection.BindingFlags,System.Reflection.Binder,object[],System.Globalization.CultureInfo)
+System.Reflection.RuntimeConstructorInfo:Invoke (System.Reflection.BindingFlags,System.Reflection.Binder,object[],System.Globalization.CultureInfo)
+System.RuntimeType:CreateInstanceImpl (System.Reflection.BindingFlags,System.Reflection.Binder,object[],System.Globalization.CultureInfo,object[],System.Threading.StackCrawlMark&)
+System.Activator:CreateInstance (System.Type,System.Reflection.BindingFlags,System.Reflection.Binder,object[],System.Globalization.CultureInfo,object[])
+System.Activator:CreateInstance (System.Type,object[])
+Verse.LoadedModManager:CreateModClasses ()
+Verse.LoadedModManager:LoadAllActiveMods (bool)
+Verse.PlayDataLoader:DoPlayLoad ()
+Verse.PlayDataLoader:LoadAllPlayData (bool)
+Verse.Root/<>c:<Start>b__10_1 ()
+Verse.LongEventHandler:RunEventFromAnotherThread (System.Action)
+Verse.LongEventHandler/<>c:<UpdateCurrentAsynchronousEvent>b__28_0 ()
+System.Threading.ThreadHelper:ThreadStart_Context (object)
+System.Threading.ExecutionContext:RunInternal (System.Threading.ExecutionContext,System.Threading.ContextCallback,object,bool)
+System.Threading.ExecutionContext:Run (System.Threading.ExecutionContext,System.Threading.ContextCallback,object,bool)
+System.Threading.ExecutionContext:Run (System.Threading.ExecutionContext,System.Threading.ContextCallback,object)
+System.Threading.ThreadHelper:ThreadStart ()
+
+[HugsLib] version 12.0.0
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+Verse.Log:Message (string)
+HugsLib.Utils.ModLogger:Message (string,object[])
+HugsLib.HugsLibController:InitializeController ()
+HugsLib.HugsLibController:EarlyInitialize (Verse.ModContentPack)
+HugsLib.Core.HugsLibMod:.ctor (Verse.ModContentPack)
+System.Reflection.RuntimeConstructorInfo:InternalInvoke (object,object[],bool)
+System.Reflection.RuntimeConstructorInfo:DoInvoke (object,System.Reflection.BindingFlags,System.Reflection.Binder,object[],System.Globalization.CultureInfo)
+System.Reflection.RuntimeConstructorInfo:Invoke (System.Reflection.BindingFlags,System.Reflection.Binder,object[],System.Globalization.CultureInfo)
+System.RuntimeType:CreateInstanceImpl (System.Reflection.BindingFlags,System.Reflection.Binder,object[],System.Globalization.CultureInfo,object[],System.Threading.StackCrawlMark&)
+System.Activator:CreateInstance (System.Type,System.Reflection.BindingFlags,System.Reflection.Binder,object[],System.Globalization.CultureInfo,object[])
+System.Activator:CreateInstance (System.Type,object[])
+Verse.LoadedModManager:CreateModClasses ()
+Verse.LoadedModManager:LoadAllActiveMods (bool)
+Verse.PlayDataLoader:DoPlayLoad ()
+Verse.PlayDataLoader:LoadAllPlayData (bool)
+Verse.Root/<>c:<Start>b__10_1 ()
+Verse.LongEventHandler:RunEventFromAnotherThread (System.Action)
+Verse.LongEventHandler/<>c:<UpdateCurrentAsynchronousEvent>b__28_0 ()
+System.Threading.ThreadHelper:ThreadStart_Context (object)
+System.Threading.ExecutionContext:RunInternal (System.Threading.ExecutionContext,System.Threading.ContextCallback,object,bool)
+System.Threading.ExecutionContext:Run (System.Threading.ExecutionContext,System.Threading.ContextCallback,object,bool)
+System.Threading.ExecutionContext:Run (System.Threading.ExecutionContext,System.Threading.ContextCallback,object)
+System.Threading.ThreadHelper:ThreadStart ()
+
+[HugsLib] early-initializing AllowTool
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+Verse.Log:Message (string)
+HugsLib.Utils.ModLogger:Message (string,object[])
+HugsLib.HugsLibController:EnumerateChildMods (bool)
+HugsLib.HugsLibController:EarlyInitializeChildMods ()
+HugsLib.HugsLibController:InitializeController ()
+HugsLib.HugsLibController:EarlyInitialize (Verse.ModContentPack)
+HugsLib.Core.HugsLibMod:.ctor (Verse.ModContentPack)
+System.Reflection.RuntimeConstructorInfo:InternalInvoke (object,object[],bool)
+System.Reflection.RuntimeConstructorInfo:DoInvoke (object,System.Reflection.BindingFlags,System.Reflection.Binder,object[],System.Globalization.CultureInfo)
+System.Reflection.RuntimeConstructorInfo:Invoke (System.Reflection.BindingFlags,System.Reflection.Binder,object[],System.Globalization.CultureInfo)
+System.RuntimeType:CreateInstanceImpl (System.Reflection.BindingFlags,System.Reflection.Binder,object[],System.Globalization.CultureInfo,object[],System.Threading.StackCrawlMark&)
+System.Activator:CreateInstance (System.Type,System.Reflection.BindingFlags,System.Reflection.Binder,object[],System.Globalization.CultureInfo,object[])
+System.Activator:CreateInstance (System.Type,object[])
+Verse.LoadedModManager:CreateModClasses ()
+Verse.LoadedModManager:LoadAllActiveMods (bool)
+Verse.PlayDataLoader:DoPlayLoad ()
+Verse.PlayDataLoader:LoadAllPlayData (bool)
+Verse.Root/<>c:<Start>b__10_1 ()
+Verse.LongEventHandler:RunEventFromAnotherThread (System.Action)
+Verse.LongEventHandler/<>c:<UpdateCurrentAsynchronousEvent>b__28_0 ()
+System.Threading.ThreadHelper:ThreadStart_Context (object)
+System.Threading.ExecutionContext:RunInternal (System.Threading.ExecutionContext,System.Threading.ContextCallback,object,bool)
+System.Threading.ExecutionContext:Run (System.Threading.ExecutionContext,System.Threading.ContextCallback,object,bool)
+System.Threading.ExecutionContext:Run (System.Threading.ExecutionContext,System.Threading.ContextCallback,object)
+System.Threading.ThreadHelper:ThreadStart ()
+
+[1.6]Graphics Setter - Loaded
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+Verse.Log:Message (string)
+GraphicSetter.GraphicSetter:.ctor (Verse.ModContentPack) (at C:/Program Files (x86)/Steam/steamapps/common/RimWorld/Mods/GraphicsSetter/Source/GraphicSetter/GraphicSetter/GraphicSetter.cs:16)
+System.Reflection.RuntimeConstructorInfo:InternalInvoke (object,object[],bool)
+System.Reflection.RuntimeConstructorInfo:DoInvoke (object,System.Reflection.BindingFlags,System.Reflection.Binder,object[],System.Globalization.CultureInfo)
+System.Reflection.RuntimeConstructorInfo:Invoke (System.Reflection.BindingFlags,System.Reflection.Binder,object[],System.Globalization.CultureInfo)
+System.RuntimeType:CreateInstanceImpl (System.Reflection.BindingFlags,System.Reflection.Binder,object[],System.Globalization.CultureInfo,object[],System.Threading.StackCrawlMark&)
+System.Activator:CreateInstance (System.Type,System.Reflection.BindingFlags,System.Reflection.Binder,object[],System.Globalization.CultureInfo,object[])
+System.Activator:CreateInstance (System.Type,object[])
+Verse.LoadedModManager:CreateModClasses ()
+Verse.LoadedModManager:LoadAllActiveMods (bool)
+Verse.PlayDataLoader:DoPlayLoad ()
+Verse.PlayDataLoader:LoadAllPlayData (bool)
+Verse.Root/<>c:<Start>b__10_1 ()
+Verse.LongEventHandler:RunEventFromAnotherThread (System.Action)
+Verse.LongEventHandler/<>c:<UpdateCurrentAsynchronousEvent>b__28_0 ()
+System.Threading.ThreadHelper:ThreadStart_Context (object)
+System.Threading.ExecutionContext:RunInternal (System.Threading.ExecutionContext,System.Threading.ContextCallback,object,bool)
+System.Threading.ExecutionContext:Run (System.Threading.ExecutionContext,System.Threading.ContextCallback,object,bool)
+System.Threading.ExecutionContext:Run (System.Threading.ExecutionContext,System.Threading.ContextCallback,object)
+System.Threading.ThreadHelper:ThreadStart ()
+
+<color=#66ffb5>[MeleeAnim]</color> Hello, world!
+Build date: 7/31/2026 6:45 PM
+Loaded assemblies (10):
+0BetterFloatMenu, Version=16.0.0.0, Culture=neutral, PublicKeyToken=null,
+0ColourPicker, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null,
+AMRetextureSupport, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null,
+Meta.Numerics, Version=3.1.0.0, Culture=neutral, PublicKeyToken=67d25c65a6631347,
+ModRequestAPI, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null,
+ModRequestAPI.Models, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null,
+Unity.Newtonsoft.Json, Version=7.0.0.0, Culture=neutral, PublicKeyToken=null,
+zAnimationMod, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null,
+AM.FacialAnimationPatch, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null,
+AM.VehiclesPatch, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+Verse.Log:Message (string)
+AM.Core:Log (string)
+AM.Core:.ctor (Verse.ModContentPack)
+System.Reflection.RuntimeConstructorInfo:InternalInvoke (object,object[],bool)
+System.Reflection.RuntimeConstructorInfo:DoInvoke (object,System.Reflection.BindingFlags,System.Reflection.Binder,object[],System.Globalization.CultureInfo)
+System.Reflection.RuntimeConstructorInfo:Invoke (System.Reflection.BindingFlags,System.Reflection.Binder,object[],System.Globalization.CultureInfo)
+System.RuntimeType:CreateInstanceImpl (System.Reflection.BindingFlags,System.Reflection.Binder,object[],System.Globalization.CultureInfo,object[],System.Threading.StackCrawlMark&)
+System.Activator:CreateInstance (System.Type,System.Reflection.BindingFlags,System.Reflection.Binder,object[],System.Globalization.CultureInfo,object[])
+System.Activator:CreateInstance (System.Type,object[])
+Verse.LoadedModManager:CreateModClasses ()
+Verse.LoadedModManager:LoadAllActiveMods (bool)
+Verse.PlayDataLoader:DoPlayLoad ()
+Verse.PlayDataLoader:LoadAllPlayData (bool)
+Verse.Root/<>c:<Start>b__10_1 ()
+Verse.LongEventHandler:RunEventFromAnotherThread (System.Action)
+Verse.LongEventHandler/<>c:<UpdateCurrentAsynchronousEvent>b__28_0 ()
+System.Threading.ThreadHelper:ThreadStart_Context (object)
+System.Threading.ExecutionContext:RunInternal (System.Threading.ExecutionContext,System.Threading.ContextCallback,object,bool)
+System.Threading.ExecutionContext:Run (System.Threading.ExecutionContext,System.Threading.ContextCallback,object,bool)
+System.Threading.ExecutionContext:Run (System.Threading.ExecutionContext,System.Threading.ContextCallback,object)
+System.Threading.ThreadHelper:ThreadStart ()
+
+<color=#66ffb5>[MeleeAnim]</color> Scanning 196 mods for animation data...
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+Verse.Log:Message (string)
+AM.Core:Log (string)
+AM.Data.AnimDataSourceManager:ScanForDataFiles ()
+AM.Core:.ctor (Verse.ModContentPack)
+System.Reflection.RuntimeConstructorInfo:InternalInvoke (object,object[],bool)
+System.Reflection.RuntimeConstructorInfo:DoInvoke (object,System.Reflection.BindingFlags,System.Reflection.Binder,object[],System.Globalization.CultureInfo)
+System.Reflection.RuntimeConstructorInfo:Invoke (System.Reflection.BindingFlags,System.Reflection.Binder,object[],System.Globalization.CultureInfo)
+System.RuntimeType:CreateInstanceImpl (System.Reflection.BindingFlags,System.Reflection.Binder,object[],System.Globalization.CultureInfo,object[],System.Threading.StackCrawlMark&)
+System.Activator:CreateInstance (System.Type,System.Reflection.BindingFlags,System.Reflection.Binder,object[],System.Globalization.CultureInfo,object[])
+System.Activator:CreateInstance (System.Type,object[])
+Verse.LoadedModManager:CreateModClasses ()
+Verse.LoadedModManager:LoadAllActiveMods (bool)
+Verse.PlayDataLoader:DoPlayLoad ()
+Verse.PlayDataLoader:LoadAllPlayData (bool)
+Verse.Root/<>c:<Start>b__10_1 ()
+Verse.LongEventHandler:RunEventFromAnotherThread (System.Action)
+Verse.LongEventHandler/<>c:<UpdateCurrentAsynchronousEvent>b__28_0 ()
+System.Threading.ThreadHelper:ThreadStart_Context (object)
+System.Threading.ExecutionContext:RunInternal (System.Threading.ExecutionContext,System.Threading.ContextCallback,object,bool)
+System.Threading.ExecutionContext:Run (System.Threading.ExecutionContext,System.Threading.ContextCallback,object,bool)
+System.Threading.ExecutionContext:Run (System.Threading.ExecutionContext,System.Threading.ContextCallback,object)
+System.Threading.ThreadHelper:ThreadStart ()
+
+<color=#66ffb5>[MeleeAnim]</color> Found 1 mod folders with animation data, total 69 loadable files.
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+Verse.Log:Message (string)
+AM.Core:Log (string)
+AM.Data.AnimDataSourceManager:ScanForDataFiles ()
+AM.Core:.ctor (Verse.ModContentPack)
+System.Reflection.RuntimeConstructorInfo:InternalInvoke (object,object[],bool)
+System.Reflection.RuntimeConstructorInfo:DoInvoke (object,System.Reflection.BindingFlags,System.Reflection.Binder,object[],System.Globalization.CultureInfo)
+System.Reflection.RuntimeConstructorInfo:Invoke (System.Reflection.BindingFlags,System.Reflection.Binder,object[],System.Globalization.CultureInfo)
+System.RuntimeType:CreateInstanceImpl (System.Reflection.BindingFlags,System.Reflection.Binder,object[],System.Globalization.CultureInfo,object[],System.Threading.StackCrawlMark&)
+System.Activator:CreateInstance (System.Type,System.Reflection.BindingFlags,System.Reflection.Binder,object[],System.Globalization.CultureInfo,object[])
+System.Activator:CreateInstance (System.Type,object[])
+Verse.LoadedModManager:CreateModClasses ()
+Verse.LoadedModManager:LoadAllActiveMods (bool)
+Verse.PlayDataLoader:DoPlayLoad ()
+Verse.PlayDataLoader:LoadAllPlayData (bool)
+Verse.Root/<>c:<Start>b__10_1 ()
+Verse.LongEventHandler:RunEventFromAnotherThread (System.Action)
+Verse.LongEventHandler/<>c:<UpdateCurrentAsynchronousEvent>b__28_0 ()
+System.Threading.ThreadHelper:ThreadStart_Context (object)
+System.Threading.ExecutionContext:RunInternal (System.Threading.ExecutionContext,System.Threading.ContextCallback,object,bool)
+System.Threading.ExecutionContext:Run (System.Threading.ExecutionContext,System.Threading.ContextCallback,object,bool)
+System.Threading.ExecutionContext:Run (System.Threading.ExecutionContext,System.Threading.ContextCallback,object)
+System.Threading.ThreadHelper:ThreadStart ()
+
+<color=#66ffb5>[MeleeAnim]</color> [<color=#63e0ff>Facial Animation Patch</color>] Successfully loaded Facial Animation patch.
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+Verse.Log:Message (string)
+AM.Core:Log (string)
+AM.FacialAnimationPatch.PatchCore:Log (string)
+AM.FacialAnimationPatch.PatchCore:.ctor (Verse.ModContentPack)
+System.Reflection.RuntimeConstructorInfo:InternalInvoke (object,object[],bool)
+System.Reflection.RuntimeConstructorInfo:DoInvoke (object,System.Reflection.BindingFlags,System.Reflection.Binder,object[],System.Globalization.CultureInfo)
+System.Reflection.RuntimeConstructorInfo:Invoke (System.Reflection.BindingFlags,System.Reflection.Binder,object[],System.Globalization.CultureInfo)
+System.RuntimeType:CreateInstanceImpl (System.Reflection.BindingFlags,System.Reflection.Binder,object[],System.Globalization.CultureInfo,object[],System.Threading.StackCrawlMark&)
+System.Activator:CreateInstance (System.Type,System.Reflection.BindingFlags,System.Reflection.Binder,object[],System.Globalization.CultureInfo,object[])
+System.Activator:CreateInstance (System.Type,object[])
+Verse.LoadedModManager:CreateModClasses ()
+Verse.LoadedModManager:LoadAllActiveMods (bool)
+Verse.PlayDataLoader:DoPlayLoad ()
+Verse.PlayDataLoader:LoadAllPlayData (bool)
+Verse.Root/<>c:<Start>b__10_1 ()
+Verse.LongEventHandler:RunEventFromAnotherThread (System.Action)
+Verse.LongEventHandler/<>c:<UpdateCurrentAsynchronousEvent>b__28_0 ()
+System.Threading.ThreadHelper:ThreadStart_Context (object)
+System.Threading.ExecutionContext:RunInternal (System.Threading.ExecutionContext,System.Threading.ContextCallback,object,bool)
+System.Threading.ExecutionContext:Run (System.Threading.ExecutionContext,System.Threading.ContextCallback,object,bool)
+System.Threading.ExecutionContext:Run (System.Threading.ExecutionContext,System.Threading.ContextCallback,object)
+System.Threading.ThreadHelper:ThreadStart ()
+
+<color=#66ffb5>[MeleeAnim]</color> <color=#ffa8fc>[Vehicle Framework Patch]</color> Loaded vehicle framework patch!
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+Verse.Log:Message (string)
+AM.Core:Log (string)
+AM.VehiclesPatch.PatchCore:Log (string)
+AM.VehiclesPatch.PatchCore:.ctor (Verse.ModContentPack)
+System.Reflection.RuntimeConstructorInfo:InternalInvoke (object,object[],bool)
+System.Reflection.RuntimeConstructorInfo:DoInvoke (object,System.Reflection.BindingFlags,System.Reflection.Binder,object[],System.Globalization.CultureInfo)
+System.Reflection.RuntimeConstructorInfo:Invoke (System.Reflection.BindingFlags,System.Reflection.Binder,object[],System.Globalization.CultureInfo)
+System.RuntimeType:CreateInstanceImpl (System.Reflection.BindingFlags,System.Reflection.Binder,object[],System.Globalization.CultureInfo,object[],System.Threading.StackCrawlMark&)
+System.Activator:CreateInstance (System.Type,System.Reflection.BindingFlags,System.Reflection.Binder,object[],System.Globalization.CultureInfo,object[])
+System.Activator:CreateInstance (System.Type,object[])
+Verse.LoadedModManager:CreateModClasses ()
+Verse.LoadedModManager:LoadAllActiveMods (bool)
+Verse.PlayDataLoader:DoPlayLoad ()
+Verse.PlayDataLoader:LoadAllPlayData (bool)
+Verse.Root/<>c:<Start>b__10_1 ()
+Verse.LongEventHandler:RunEventFromAnotherThread (System.Action)
+Verse.LongEventHandler/<>c:<UpdateCurrentAsynchronousEvent>b__28_0 ()
+System.Threading.ThreadHelper:ThreadStart_Context (object)
+System.Threading.ExecutionContext:RunInternal (System.Threading.ExecutionContext,System.Threading.ContextCallback,object,bool)
+System.Threading.ExecutionContext:Run (System.Threading.ExecutionContext,System.Threading.ContextCallback,object,bool)
+System.Threading.ExecutionContext:Run (System.Threading.ExecutionContext,System.Threading.ContextCallback,object)
+System.Threading.ThreadHelper:ThreadStart ()
+
+RimSaves NX rev27
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+Verse.Log:Message (string)
+aRandomKiwi.ARS.RimSaves:.ctor (Verse.ModContentPack)
+System.Reflection.RuntimeConstructorInfo:InternalInvoke (object,object[],bool)
+System.Reflection.RuntimeConstructorInfo:DoInvoke (object,System.Reflection.BindingFlags,System.Reflection.Binder,object[],System.Globalization.CultureInfo)
+System.Reflection.RuntimeConstructorInfo:Invoke (System.Reflection.BindingFlags,System.Reflection.Binder,object[],System.Globalization.CultureInfo)
+System.RuntimeType:CreateInstanceImpl (System.Reflection.BindingFlags,System.Reflection.Binder,object[],System.Globalization.CultureInfo,object[],System.Threading.StackCrawlMark&)
+System.Activator:CreateInstance (System.Type,System.Reflection.BindingFlags,System.Reflection.Binder,object[],System.Globalization.CultureInfo,object[])
+System.Activator:CreateInstance (System.Type,object[])
+Verse.LoadedModManager:CreateModClasses ()
+Verse.LoadedModManager:LoadAllActiveMods (bool)
+Verse.PlayDataLoader:DoPlayLoad ()
+Verse.PlayDataLoader:LoadAllPlayData (bool)
+Verse.Root/<>c:<Start>b__10_1 ()
+Verse.LongEventHandler:RunEventFromAnotherThread (System.Action)
+Verse.LongEventHandler/<>c:<UpdateCurrentAsynchronousEvent>b__28_0 ()
+System.Threading.ThreadHelper:ThreadStart_Context (object)
+System.Threading.ExecutionContext:RunInternal (System.Threading.ExecutionContext,System.Threading.ContextCallback,object,bool)
+System.Threading.ExecutionContext:Run (System.Threading.ExecutionContext,System.Threading.ContextCallback,object,bool)
+System.Threading.ExecutionContext:Run (System.Threading.ExecutionContext,System.Threading.ContextCallback,object)
+System.Threading.ThreadHelper:ThreadStart ()
+
+Loaded What's That Mod.
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+Verse.Log:Message (string)
+WhatsThatMod.ModCore:.ctor (Verse.ModContentPack)
+System.Reflection.RuntimeConstructorInfo:InternalInvoke (object,object[],bool)
+System.Reflection.RuntimeConstructorInfo:DoInvoke (object,System.Reflection.BindingFlags,System.Reflection.Binder,object[],System.Globalization.CultureInfo)
+System.Reflection.RuntimeConstructorInfo:Invoke (System.Reflection.BindingFlags,System.Reflection.Binder,object[],System.Globalization.CultureInfo)
+System.RuntimeType:CreateInstanceImpl (System.Reflection.BindingFlags,System.Reflection.Binder,object[],System.Globalization.CultureInfo,object[],System.Threading.StackCrawlMark&)
+System.Activator:CreateInstance (System.Type,System.Reflection.BindingFlags,System.Reflection.Binder,object[],System.Globalization.CultureInfo,object[])
+System.Activator:CreateInstance (System.Type,object[])
+Verse.LoadedModManager:CreateModClasses ()
+Verse.LoadedModManager:LoadAllActiveMods (bool)
+Verse.PlayDataLoader:DoPlayLoad ()
+Verse.PlayDataLoader:LoadAllPlayData (bool)
+Verse.Root/<>c:<Start>b__10_1 ()
+Verse.LongEventHandler:RunEventFromAnotherThread (System.Action)
+Verse.LongEventHandler/<>c:<UpdateCurrentAsynchronousEvent>b__28_0 ()
+System.Threading.ThreadHelper:ThreadStart_Context (object)
+System.Threading.ExecutionContext:RunInternal (System.Threading.ExecutionContext,System.Threading.ContextCallback,object,bool)
+System.Threading.ExecutionContext:Run (System.Threading.ExecutionContext,System.Threading.ContextCallback,object,bool)
+System.Threading.ExecutionContext:Run (System.Threading.ExecutionContext,System.Threading.ContextCallback,object)
+System.Threading.ThreadHelper:ThreadStart ()
+
+[YART] Patched!
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+Verse.Log:Message (string)
+YART.YARTMod:.ctor (Verse.ModContentPack)
+System.Reflection.RuntimeConstructorInfo:InternalInvoke (object,object[],bool)
+System.Reflection.RuntimeConstructorInfo:DoInvoke (object,System.Reflection.BindingFlags,System.Reflection.Binder,object[],System.Globalization.CultureInfo)
+System.Reflection.RuntimeConstructorInfo:Invoke (System.Reflection.BindingFlags,System.Reflection.Binder,object[],System.Globalization.CultureInfo)
+System.RuntimeType:CreateInstanceImpl (System.Reflection.BindingFlags,System.Reflection.Binder,object[],System.Globalization.CultureInfo,object[],System.Threading.StackCrawlMark&)
+System.Activator:CreateInstance (System.Type,System.Reflection.BindingFlags,System.Reflection.Binder,object[],System.Globalization.CultureInfo,object[])
+System.Activator:CreateInstance (System.Type,object[])
+Verse.LoadedModManager:CreateModClasses ()
+Verse.LoadedModManager:LoadAllActiveMods (bool)
+Verse.PlayDataLoader:DoPlayLoad ()
+Verse.PlayDataLoader:LoadAllPlayData (bool)
+Verse.Root/<>c:<Start>b__10_1 ()
+Verse.LongEventHandler:RunEventFromAnotherThread (System.Action)
+Verse.LongEventHandler/<>c:<UpdateCurrentAsynchronousEvent>b__28_0 ()
+System.Threading.ThreadHelper:ThreadStart_Context (object)
+System.Threading.ExecutionContext:RunInternal (System.Threading.ExecutionContext,System.Threading.ContextCallback,object,bool)
+System.Threading.ExecutionContext:Run (System.Threading.ExecutionContext,System.Threading.ContextCallback,object,bool)
+System.Threading.ExecutionContext:Run (System.Threading.ExecutionContext,System.Threading.ContextCallback,object)
+System.Threading.ThreadHelper:ThreadStart ()
+
+Translation data for language English has 5 errors. Generate translation report for more info.
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+Verse.Log:Warning (string)
+Verse.LoadedLanguage:InjectIntoData_AfterImpliedDefs ()
+Verse.PlayDataLoader/<>c:<DoPlayLoad>b__4_3 ()
+ilyvion.LoadingProgress.LongEventHandler_ExecuteToExecuteWhenFinished_Patches/<ExecuteToExecuteWhenFinished>d__3:MoveNext () (at /home/runner/work/loading-progress/loading-progress/Source/ilyvion.LoadingProgress/LongEventHandler_ExecuteToExecuteWhenFinished_Patches.cs:284)
+(wrapper dynamic-method) MonoMod.Utils.DynamicMethodDefinition:Verse.LongEventHandler.UpdateCurrentEnumeratorEvent_Patch1 ()
+Verse.LongEventHandler:LongEventsUpdate (bool&)
+(wrapper dynamic-method) MonoMod.Utils.DynamicMethodDefinition:Verse.Root.Update_Patch1 (Verse.Root)
+Verse.Root_Entry:Update ()
+
+[AVP Xenomorphs] [AVP Xenomorphs] Patched Mineable.TrySpawnYield
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+Verse.Log:Message (string)
+RRYautja.AvPDebug:LogOnce (string,string)
+RRYautja.AvP_XenomorphMinePatch:.cctor ()
+System.Runtime.CompilerServices.RuntimeHelpers:RunClassConstructor (System.RuntimeTypeHandle)
+ilyvion.LoadingProgress.StaticConstructorOnStartupUtilityReplacement/<CallAllAndRest>d__2:MoveNext () (at /home/runner/work/loading-progress/loading-progress/Source/ilyvion.LoadingProgress/StaticConstructorOnStartupUtilityReplacement.cs:53)
+(wrapper dynamic-method) MonoMod.Utils.DynamicMethodDefinition:Verse.LongEventHandler.UpdateCurrentEnumeratorEvent_Patch1 ()
+Verse.LongEventHandler:LongEventsUpdate (bool&)
+(wrapper dynamic-method) MonoMod.Utils.DynamicMethodDefinition:Verse.Root.Update_Patch1 (Verse.Root)
+Verse.Root_Entry:Update ()
+
+[AVP Xenomorphs] Patched JobDriver_Wait.CheckForAutoAttack
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+Verse.Log:Message (string)
+RRYautja.WaitAutoAttackPatch:.cctor ()
+System.Runtime.CompilerServices.RuntimeHelpers:RunClassConstructor (System.RuntimeTypeHandle)
+ilyvion.LoadingProgress.StaticConstructorOnStartupUtilityReplacement/<CallAllAndRest>d__2:MoveNext () (at /home/runner/work/loading-progress/loading-progress/Source/ilyvion.LoadingProgress/StaticConstructorOnStartupUtilityReplacement.cs:53)
+(wrapper dynamic-method) MonoMod.Utils.DynamicMethodDefinition:Verse.LongEventHandler.UpdateCurrentEnumeratorEvent_Patch1 ()
+Verse.LongEventHandler:LongEventsUpdate (bool&)
+(wrapper dynamic-method) MonoMod.Utils.DynamicMethodDefinition:Verse.Root.Update_Patch1 (Verse.Root)
+Verse.Root_Entry:Update ()
+
+Xenomorph Host System Loaded
+157 Possible Hosts out of 607 Races detected: Race Setting init
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+Verse.Log:Message (string)
+RRYautja.Xenomorph.XenomorphHostSystem:.cctor ()
+System.Runtime.CompilerServices.RuntimeHelpers:RunClassConstructor (System.RuntimeTypeHandle)
+ilyvion.LoadingProgress.StaticConstructorOnStartupUtilityReplacement/<CallAllAndRest>d__2:MoveNext () (at /home/runner/work/loading-progress/loading-progress/Source/ilyvion.LoadingProgress/StaticConstructorOnStartupUtilityReplacement.cs:53)
+(wrapper dynamic-method) MonoMod.Utils.DynamicMethodDefinition:Verse.LongEventHandler.UpdateCurrentEnumeratorEvent_Patch1 ()
+Verse.LongEventHandler:LongEventsUpdate (bool&)
+(wrapper dynamic-method) MonoMod.Utils.DynamicMethodDefinition:Verse.Root.Update_Patch1 (Verse.Root)
+Verse.Root_Entry:Update ()
+
+KCSG has Created 8830 symbolDefs for vanilla and DLCs
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+Verse.Log:Message (string)
+KCSG.StartupActions:CreateSymbols ()
+KCSG.StartupActions:.cctor ()
+System.Runtime.CompilerServices.RuntimeHelpers:RunClassConstructor (System.RuntimeTypeHandle)
+ilyvion.LoadingProgress.StaticConstructorOnStartupUtilityReplacement/<CallAllAndRest>d__2:MoveNext () (at /home/runner/work/loading-progress/loading-progress/Source/ilyvion.LoadingProgress/StaticConstructorOnStartupUtilityReplacement.cs:53)
+(wrapper dynamic-method) MonoMod.Utils.DynamicMethodDefinition:Verse.LongEventHandler.UpdateCurrentEnumeratorEvent_Patch1 ()
+Verse.LongEventHandler:LongEventsUpdate (bool&)
+(wrapper dynamic-method) MonoMod.Utils.DynamicMethodDefinition:Verse.Root.Update_Patch1 (Verse.Root)
+Verse.Root_Entry:Update ()
+
+[CMColorCodedMoodBar] CMColorCodedMoodBar 1.6.4871.1 initialized
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+Verse.Log:Message (string)
+ColoredMoodBar13.Main:LogMessage (string,ColoredMoodBar13.MessageType)
+ColoredMoodBar13.Main:.cctor ()
+System.Runtime.CompilerServices.RuntimeHelpers:RunClassConstructor (System.RuntimeTypeHandle)
+ilyvion.LoadingProgress.StaticConstructorOnStartupUtilityReplacement/<CallAllAndRest>d__2:MoveNext () (at /home/runner/work/loading-progress/loading-progress/Source/ilyvion.LoadingProgress/StaticConstructorOnStartupUtilityReplacement.cs:53)
+(wrapper dynamic-method) MonoMod.Utils.DynamicMethodDefinition:Verse.LongEventHandler.UpdateCurrentEnumeratorEvent_Patch1 ()
+Verse.LongEventHandler:LongEventsUpdate (bool&)
+(wrapper dynamic-method) MonoMod.Utils.DynamicMethodDefinition:Verse.Root.Update_Patch1 (Verse.Root)
+Verse.Root_Entry:Update ()
+
+[CleaningAreaRelaunched] Loaded
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+Verse.Log:Message (string)
+CleaningAreaRelaunched.CleaningAreaRelaunched_Loader:.cctor ()
+System.Runtime.CompilerServices.RuntimeHelpers:RunClassConstructor (System.RuntimeTypeHandle)
+ilyvion.LoadingProgress.StaticConstructorOnStartupUtilityReplacement/<CallAllAndRest>d__2:MoveNext () (at /home/runner/work/loading-progress/loading-progress/Source/ilyvion.LoadingProgress/StaticConstructorOnStartupUtilityReplacement.cs:53)
+(wrapper dynamic-method) MonoMod.Utils.DynamicMethodDefinition:Verse.LongEventHandler.UpdateCurrentEnumeratorEvent_Patch1 ()
+Verse.LongEventHandler:LongEventsUpdate (bool&)
+(wrapper dynamic-method) MonoMod.Utils.DynamicMethodDefinition:Verse.Root.Update_Patch1 (Verse.Root)
+Verse.Root_Entry:Update ()
+
+Damage Indicators initialized.
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+Verse.Log:Message (string)
+DamageMotes.DamageMotes_Patch:.cctor ()
+System.Runtime.CompilerServices.RuntimeHelpers:RunClassConstructor (System.RuntimeTypeHandle)
+ilyvion.LoadingProgress.StaticConstructorOnStartupUtilityReplacement/<CallAllAndRest>d__2:MoveNext () (at /home/runner/work/loading-progress/loading-progress/Source/ilyvion.LoadingProgress/StaticConstructorOnStartupUtilityReplacement.cs:53)
+(wrapper dynamic-method) MonoMod.Utils.DynamicMethodDefinition:Verse.LongEventHandler.UpdateCurrentEnumeratorEvent_Patch1 ()
+Verse.LongEventHandler:LongEventsUpdate (bool&)
+(wrapper dynamic-method) MonoMod.Utils.DynamicMethodDefinition:Verse.Root.Update_Patch1 (Verse.Root)
+Verse.Root_Entry:Update ()
+
+[XML Extensions] Initialized 2 SettingsMenuDef(s) and found 279 unused key(s) from 6 mod(s)
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+Verse.Log:Message (string)
+XmlExtensions.XmlExtensions:.cctor ()
+System.Runtime.CompilerServices.RuntimeHelpers:RunClassConstructor (System.RuntimeTypeHandle)
+ilyvion.LoadingProgress.StaticConstructorOnStartupUtilityReplacement/<CallAllAndRest>d__2:MoveNext () (at /home/runner/work/loading-progress/loading-progress/Source/ilyvion.LoadingProgress/StaticConstructorOnStartupUtilityReplacement.cs:53)
+(wrapper dynamic-method) MonoMod.Utils.DynamicMethodDefinition:Verse.LongEventHandler.UpdateCurrentEnumeratorEvent_Patch1 ()
+Verse.LongEventHandler:LongEventsUpdate (bool&)
+(wrapper dynamic-method) MonoMod.Utils.DynamicMethodDefinition:Verse.Root.Update_Patch1 (Verse.Root)
+Verse.Root_Entry:Update ()
+
+[XML Extensions] 2966 total patch operations run in 11219ms, 0 failed
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+Verse.Log:Message (string)
+XmlExtensions.XmlExtensions:.cctor ()
+System.Runtime.CompilerServices.RuntimeHelpers:RunClassConstructor (System.RuntimeTypeHandle)
+ilyvion.LoadingProgress.StaticConstructorOnStartupUtilityReplacement/<CallAllAndRest>d__2:MoveNext () (at /home/runner/work/loading-progress/loading-progress/Source/ilyvion.LoadingProgress/StaticConstructorOnStartupUtilityReplacement.cs:53)
+(wrapper dynamic-method) MonoMod.Utils.DynamicMethodDefinition:Verse.LongEventHandler.UpdateCurrentEnumeratorEvent_Patch1 ()
+Verse.LongEventHandler:LongEventsUpdate (bool&)
+(wrapper dynamic-method) MonoMod.Utils.DynamicMethodDefinition:Verse.Root.Update_Patch1 (Verse.Root)
+Verse.Root_Entry:Update ()
+
+[XML Extensions] Emitted 2 mod class(es)
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+Verse.Log:Message (string)
+XmlExtensions.XmlExtensions:.cctor ()
+System.Runtime.CompilerServices.RuntimeHelpers:RunClassConstructor (System.RuntimeTypeHandle)
+ilyvion.LoadingProgress.StaticConstructorOnStartupUtilityReplacement/<CallAllAndRest>d__2:MoveNext () (at /home/runner/work/loading-progress/loading-progress/Source/ilyvion.LoadingProgress/StaticConstructorOnStartupUtilityReplacement.cs:53)
+(wrapper dynamic-method) MonoMod.Utils.DynamicMethodDefinition:Verse.LongEventHandler.UpdateCurrentEnumeratorEvent_Patch1 ()
+Verse.LongEventHandler:LongEventsUpdate (bool&)
+(wrapper dynamic-method) MonoMod.Utils.DynamicMethodDefinition:Verse.Root.Update_Patch1 (Verse.Root)
+Verse.Root_Entry:Update ()
+
+Locks: Doors expanded found
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+Verse.Log:Message (string)
+Locks.CompatibilityPatches.DoorsExpanded:Init ()
+Locks.Initialization:.cctor ()
+System.Runtime.CompilerServices.RuntimeHelpers:RunClassConstructor (System.RuntimeTypeHandle)
+ilyvion.LoadingProgress.StaticConstructorOnStartupUtilityReplacement/<CallAllAndRest>d__2:MoveNext () (at /home/runner/work/loading-progress/loading-progress/Source/ilyvion.LoadingProgress/StaticConstructorOnStartupUtilityReplacement.cs:53)
+(wrapper dynamic-method) MonoMod.Utils.DynamicMethodDefinition:Verse.LongEventHandler.UpdateCurrentEnumeratorEvent_Patch1 ()
+Verse.LongEventHandler:LongEventsUpdate (bool&)
+(wrapper dynamic-method) MonoMod.Utils.DynamicMethodDefinition:Verse.Root.Update_Patch1 (Verse.Root)
+Verse.Root_Entry:Update ()
+
+Locks: SoS2 not found 
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+Verse.Log:Message (string)
+Locks.CompatibilityPatches.SoS2:Init ()
+Locks.Initialization:.cctor ()
+System.Runtime.CompilerServices.RuntimeHelpers:RunClassConstructor (System.RuntimeTypeHandle)
+ilyvion.LoadingProgress.StaticConstructorOnStartupUtilityReplacement/<CallAllAndRest>d__2:MoveNext () (at /home/runner/work/loading-progress/loading-progress/Source/ilyvion.LoadingProgress/StaticConstructorOnStartupUtilityReplacement.cs:53)
+(wrapper dynamic-method) MonoMod.Utils.DynamicMethodDefinition:Verse.LongEventHandler.UpdateCurrentEnumeratorEvent_Patch1 ()
+Verse.LongEventHandler:LongEventsUpdate (bool&)
+(wrapper dynamic-method) MonoMod.Utils.DynamicMethodDefinition:Verse.Root.Update_Patch1 (Verse.Root)
+Verse.Root_Entry:Update ()
+
+Locks version: 3.1.2 loaded.
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+Verse.Log:Message (string)
+Locks.Initialization:.cctor ()
+System.Runtime.CompilerServices.RuntimeHelpers:RunClassConstructor (System.RuntimeTypeHandle)
+ilyvion.LoadingProgress.StaticConstructorOnStartupUtilityReplacement/<CallAllAndRest>d__2:MoveNext () (at /home/runner/work/loading-progress/loading-progress/Source/ilyvion.LoadingProgress/StaticConstructorOnStartupUtilityReplacement.cs:53)
+(wrapper dynamic-method) MonoMod.Utils.DynamicMethodDefinition:Verse.LongEventHandler.UpdateCurrentEnumeratorEvent_Patch1 ()
+Verse.LongEventHandler:LongEventsUpdate (bool&)
+(wrapper dynamic-method) MonoMod.Utils.DynamicMethodDefinition:Verse.Root.Update_Patch1 (Verse.Root)
+Verse.Root_Entry:Update ()
+
+[TrueTerrainColors v1.12.26] Loaded cached true colors for 765 terrain defs from file.
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+Verse.Log:Message (string)
+LunarFramework.Logging.IngameLogContext:Log (LunarFramework.Logging.LogContext/LogLevel,string,System.Exception)
+LunarFramework.Logging.LogContext:Log (string,System.Exception)
+MapPreview.TrueTerrainColors:.cctor ()
+System.Runtime.CompilerServices.RuntimeHelpers:RunClassConstructor (System.RuntimeTypeHandle)
+ilyvion.LoadingProgress.StaticConstructorOnStartupUtilityReplacement/<CallAllAndRest>d__2:MoveNext () (at /home/runner/work/loading-progress/loading-progress/Source/ilyvion.LoadingProgress/StaticConstructorOnStartupUtilityReplacement.cs:53)
+(wrapper dynamic-method) MonoMod.Utils.DynamicMethodDefinition:Verse.LongEventHandler.UpdateCurrentEnumeratorEvent_Patch1 ()
+Verse.LongEventHandler:LongEventsUpdate (bool&)
+(wrapper dynamic-method) MonoMod.Utils.DynamicMethodDefinition:Verse.Root.Update_Patch1 (Verse.Root)
+Verse.Root_Entry:Update ()
+
+Mines 2.0 -> RecipeDef named MinesAutomated_RecipeDef_MineableSteel added to the mine.
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+Verse.Log:Message (string)
+MinesAutomated.CreateRecipeDefs:Generate ()
+MinesAutomated.MineRecipes:EnsureBaseRecipesGenerated ()
+MinesAutomated.CreateRecipeDefs:.cctor ()
+System.Runtime.CompilerServices.RuntimeHelpers:RunClassConstructor (System.RuntimeTypeHandle)
+ilyvion.LoadingProgress.StaticConstructorOnStartupUtilityReplacement/<CallAllAndRest>d__2:MoveNext () (at /home/runner/work/loading-progress/loading-progress/Source/ilyvion.LoadingProgress/StaticConstructorOnStartupUtilityReplacement.cs:53)
+(wrapper dynamic-method) MonoMod.Utils.DynamicMethodDefinition:Verse.LongEventHandler.UpdateCurrentEnumeratorEvent_Patch1 ()
+Verse.LongEventHandler:LongEventsUpdate (bool&)
+(wrapper dynamic-method) MonoMod.Utils.DynamicMethodDefinition:Verse.Root.Update_Patch1 (Verse.Root)
+Verse.Root_Entry:Update ()
+
+Mines 2.0 -> RecipeDef named MinesAutomated_RecipeDef_MineableComponentsIndustrial added to the mine.
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+Verse.Log:Message (string)
+MinesAutomated.CreateRecipeDefs:Generate ()
+MinesAutomated.MineRecipes:EnsureBaseRecipesGenerated ()
+MinesAutomated.CreateRecipeDefs:.cctor ()
+System.Runtime.CompilerServices.RuntimeHelpers:RunClassConstructor (System.RuntimeTypeHandle)
+ilyvion.LoadingProgress.StaticConstructorOnStartupUtilityReplacement/<CallAllAndRest>d__2:MoveNext () (at /home/runner/work/loading-progress/loading-progress/Source/ilyvion.LoadingProgress/StaticConstructorOnStartupUtilityReplacement.cs:53)
+(wrapper dynamic-method) MonoMod.Utils.DynamicMethodDefinition:Verse.LongEventHandler.UpdateCurrentEnumeratorEvent_Patch1 ()
+Verse.LongEventHandler:LongEventsUpdate (bool&)
+(wrapper dynamic-method) MonoMod.Utils.DynamicMethodDefinition:Verse.Root.Update_Patch1 (Verse.Root)
+Verse.Root_Entry:Update ()
+
+Mines 2.0 -> RecipeDef named MinesAutomated_RecipeDef_MineableUranium added to the mine.
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+Verse.Log:Message (string)
+MinesAutomated.CreateRecipeDefs:Generate ()
+MinesAutomated.MineRecipes:EnsureBaseRecipesGenerated ()
+MinesAutomated.CreateRecipeDefs:.cctor ()
+System.Runtime.CompilerServices.RuntimeHelpers:RunClassConstructor (System.RuntimeTypeHandle)
+ilyvion.LoadingProgress.StaticConstructorOnStartupUtilityReplacement/<CallAllAndRest>d__2:MoveNext () (at /home/runner/work/loading-progress/loading-progress/Source/ilyvion.LoadingProgress/StaticConstructorOnStartupUtilityReplacement.cs:53)
+(wrapper dynamic-method) MonoMod.Utils.DynamicMethodDefinition:Verse.LongEventHandler.UpdateCurrentEnumeratorEvent_Patch1 ()
+Verse.LongEventHandler:LongEventsUpdate (bool&)
+(wrapper dynamic-method) MonoMod.Utils.DynamicMethodDefinition:Verse.Root.Update_Patch1 (Verse.Root)
+Verse.Root_Entry:Update ()
+
+Mines 2.0 -> RecipeDef named MinesAutomated_RecipeDef_MineableSilver added to the mine.
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+Verse.Log:Message (string)
+MinesAutomated.CreateRecipeDefs:Generate ()
+MinesAutomated.MineRecipes:EnsureBaseRecipesGenerated ()
+MinesAutomated.CreateRecipeDefs:.cctor ()
+System.Runtime.CompilerServices.RuntimeHelpers:RunClassConstructor (System.RuntimeTypeHandle)
+ilyvion.LoadingProgress.StaticConstructorOnStartupUtilityReplacement/<CallAllAndRest>d__2:MoveNext () (at /home/runner/work/loading-progress/loading-progress/Source/ilyvion.LoadingProgress/StaticConstructorOnStartupUtilityReplacement.cs:53)
+(wrapper dynamic-method) MonoMod.Utils.DynamicMethodDefinition:Verse.LongEventHandler.UpdateCurrentEnumeratorEvent_Patch1 ()
+Verse.LongEventHandler:LongEventsUpdate (bool&)
+(wrapper dynamic-method) MonoMod.Utils.DynamicMethodDefinition:Verse.Root.Update_Patch1 (Verse.Root)
+Verse.Root_Entry:Update ()
+
+Mines 2.0 -> RecipeDef named MinesAutomated_RecipeDef_MineableGold added to the mine.
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+Verse.Log:Message (string)
+MinesAutomated.CreateRecipeDefs:Generate ()
+MinesAutomated.MineRecipes:EnsureBaseRecipesGenerated ()
+MinesAutomated.CreateRecipeDefs:.cctor ()
+System.Runtime.CompilerServices.RuntimeHelpers:RunClassConstructor (System.RuntimeTypeHandle)
+ilyvion.LoadingProgress.StaticConstructorOnStartupUtilityReplacement/<CallAllAndRest>d__2:MoveNext () (at /home/runner/work/loading-progress/loading-progress/Source/ilyvion.LoadingProgress/StaticConstructorOnStartupUtilityReplacement.cs:53)
+(wrapper dynamic-method) MonoMod.Utils.DynamicMethodDefinition:Verse.LongEventHandler.UpdateCurrentEnumeratorEvent_Patch1 ()
+Verse.LongEventHandler:LongEventsUpdate (bool&)
+(wrapper dynamic-method) MonoMod.Utils.DynamicMethodDefinition:Verse.Root.Update_Patch1 (Verse.Root)
+Verse.Root_Entry:Update ()
+
+Mines 2.0 -> RecipeDef named MinesAutomated_RecipeDef_MineableJade added to the mine.
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+Verse.Log:Message (string)
+MinesAutomated.CreateRecipeDefs:Generate ()
+MinesAutomated.MineRecipes:EnsureBaseRecipesGenerated ()
+MinesAutomated.CreateRecipeDefs:.cctor ()
+System.Runtime.CompilerServices.RuntimeHelpers:RunClassConstructor (System.RuntimeTypeHandle)
+ilyvion.LoadingProgress.StaticConstructorOnStartupUtilityReplacement/<CallAllAndRest>d__2:MoveNext () (at /home/runner/work/loading-progress/loading-progress/Source/ilyvion.LoadingProgress/StaticConstructorOnStartupUtilityReplacement.cs:53)
+(wrapper dynamic-method) MonoMod.Utils.DynamicMethodDefinition:Verse.LongEventHandler.UpdateCurrentEnumeratorEvent_Patch1 ()
+Verse.LongEventHandler:LongEventsUpdate (bool&)
+(wrapper dynamic-method) MonoMod.Utils.DynamicMethodDefinition:Verse.Root.Update_Patch1 (Verse.Root)
+Verse.Root_Entry:Update ()
+
+Mines 2.0 -> RecipeDef named MinesAutomated_RecipeDef_MineablePlasteel added to the mine.
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+Verse.Log:Message (string)
+MinesAutomated.CreateRecipeDefs:Generate ()
+MinesAutomated.MineRecipes:EnsureBaseRecipesGenerated ()
+MinesAutomated.CreateRecipeDefs:.cctor ()
+System.Runtime.CompilerServices.RuntimeHelpers:RunClassConstructor (System.RuntimeTypeHandle)
+ilyvion.LoadingProgress.StaticConstructorOnStartupUtilityReplacement/<CallAllAndRest>d__2:MoveNext () (at /home/runner/work/loading-progress/loading-progress/Source/ilyvion.LoadingProgress/StaticConstructorOnStartupUtilityReplacement.cs:53)
+(wrapper dynamic-method) MonoMod.Utils.DynamicMethodDefinition:Verse.LongEventHandler.UpdateCurrentEnumeratorEvent_Patch1 ()
+Verse.LongEventHandler:LongEventsUpdate (bool&)
+(wrapper dynamic-method) MonoMod.Utils.DynamicMethodDefinition:Verse.Root.Update_Patch1 (Verse.Root)
+Verse.Root_Entry:Update ()
+
+Mines 2.0 -> RecipeDef named MinesAutomated_RecipeDef_MineableObsidian added to the mine.
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+Verse.Log:Message (string)
+MinesAutomated.CreateRecipeDefs:Generate ()
+MinesAutomated.MineRecipes:EnsureBaseRecipesGenerated ()
+MinesAutomated.CreateRecipeDefs:.cctor ()
+System.Runtime.CompilerServices.RuntimeHelpers:RunClassConstructor (System.RuntimeTypeHandle)
+ilyvion.LoadingProgress.StaticConstructorOnStartupUtilityReplacement/<CallAllAndRest>d__2:MoveNext () (at /home/runner/work/loading-progress/loading-progress/Source/ilyvion.LoadingProgress/StaticConstructorOnStartupUtilityReplacement.cs:53)
+(wrapper dynamic-method) MonoMod.Utils.DynamicMethodDefinition:Verse.LongEventHandler.UpdateCurrentEnumeratorEvent_Patch1 ()
+Verse.LongEventHandler:LongEventsUpdate (bool&)
+(wrapper dynamic-method) MonoMod.Utils.DynamicMethodDefinition:Verse.Root.Update_Patch1 (Verse.Root)
+Verse.Root_Entry:Update ()
+
+Mines 2.0 -> RecipeDef named MinesAutomated_RecipeDef_VPE_EltexOre added to the mine.
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+Verse.Log:Message (string)
+MinesAutomated.CreateRecipeDefs:Generate ()
+MinesAutomated.MineRecipes:EnsureBaseRecipesGenerated ()
+MinesAutomated.CreateRecipeDefs:.cctor ()
+System.Runtime.CompilerServices.RuntimeHelpers:RunClassConstructor (System.RuntimeTypeHandle)
+ilyvion.LoadingProgress.StaticConstructorOnStartupUtilityReplacement/<CallAllAndRest>d__2:MoveNext () (at /home/runner/work/loading-progress/loading-progress/Source/ilyvion.LoadingProgress/StaticConstructorOnStartupUtilityReplacement.cs:53)
+(wrapper dynamic-method) MonoMod.Utils.DynamicMethodDefinition:Verse.LongEventHandler.UpdateCurrentEnumeratorEvent_Patch1 ()
+Verse.LongEventHandler:LongEventsUpdate (bool&)
+(wrapper dynamic-method) MonoMod.Utils.DynamicMethodDefinition:Verse.Root.Update_Patch1 (Verse.Root)
+Verse.Root_Entry:Update ()
+
+Mines 2.0 -> RecipeDef named MinesAutomated_RecipeDef_Sandstone added to the mine.
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+Verse.Log:Message (string)
+MinesAutomated.CreateRecipeDefs:Generate ()
+MinesAutomated.MineRecipes:EnsureBaseRecipesGenerated ()
+MinesAutomated.CreateRecipeDefs:.cctor ()
+System.Runtime.CompilerServices.RuntimeHelpers:RunClassConstructor (System.RuntimeTypeHandle)
+ilyvion.LoadingProgress.StaticConstructorOnStartupUtilityReplacement/<CallAllAndRest>d__2:MoveNext () (at /home/runner/work/loading-progress/loading-progress/Source/ilyvion.LoadingProgress/StaticConstructorOnStartupUtilityReplacement.cs:53)
+(wrapper dynamic-method) MonoMod.Utils.DynamicMethodDefinition:Verse.LongEventHandler.UpdateCurrentEnumeratorEvent_Patch1 ()
+Verse.LongEventHandler:LongEventsUpdate (bool&)
+(wrapper dynamic-method) MonoMod.Utils.DynamicMethodDefinition:Verse.Root.Update_Patch1 (Verse.Root)
+Verse.Root_Entry:Update ()
+
+Mines 2.0 -> RecipeDef named MinesAutomated_RecipeDef_Marble added to the mine.
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+Verse.Log:Message (string)
+MinesAutomated.CreateRecipeDefs:Generate ()
+MinesAutomated.MineRecipes:EnsureBaseRecipesGenerated ()
+MinesAutomated.CreateRecipeDefs:.cctor ()
+System.Runtime.CompilerServices.RuntimeHelpers:RunClassConstructor (System.RuntimeTypeHandle)
+ilyvion.LoadingProgress.StaticConstructorOnStartupUtilityReplacement/<CallAllAndRest>d__2:MoveNext () (at /home/runner/work/loading-progress/loading-progress/Source/ilyvion.LoadingProgress/StaticConstructorOnStartupUtilityReplacement.cs:53)
+(wrapper dynamic-method) MonoMod.Utils.DynamicMethodDefinition:Verse.LongEventHandler.UpdateCurrentEnumeratorEvent_Patch1 ()
+Verse.LongEventHandler:LongEventsUpdate (bool&)
+(wrapper dynamic-method) MonoMod.Utils.DynamicMethodDefinition:Verse.Root.Update_Patch1 (Verse.Root)
+Verse.Root_Entry:Update ()
+
+Mines 2.0 -> RecipeDef named MinesAutomated_RecipeDef_Slate added to the mine.
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+Verse.Log:Message (string)
+MinesAutomated.CreateRecipeDefs:Generate ()
+MinesAutomated.MineRecipes:EnsureBaseRecipesGenerated ()
+MinesAutomated.CreateRecipeDefs:.cctor ()
+System.Runtime.CompilerServices.RuntimeHelpers:RunClassConstructor (System.RuntimeTypeHandle)
+ilyvion.LoadingProgress.StaticConstructorOnStartupUtilityReplacement/<CallAllAndRest>d__2:MoveNext () (at /home/runner/work/loading-progress/loading-progress/Source/ilyvion.LoadingProgress/StaticConstructorOnStartupUtilityReplacement.cs:53)
+(wrapper dynamic-method) MonoMod.Utils.DynamicMethodDefinition:Verse.LongEventHandler.UpdateCurrentEnumeratorEvent_Patch1 ()
+Verse.LongEventHandler:LongEventsUpdate (bool&)
+(wrapper dynamic-method) MonoMod.Utils.DynamicMethodDefinition:Verse.Root.Update_Patch1 (Verse.Root)
+Verse.Root_Entry:Update ()
+
+Mines 2.0 -> RecipeDef named MinesAutomated_RecipeDef_Vacstone added to the mine.
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+Verse.Log:Message (string)
+MinesAutomated.CreateRecipeDefs:Generate ()
+MinesAutomated.MineRecipes:EnsureBaseRecipesGenerated ()
+MinesAutomated.CreateRecipeDefs:.cctor ()
+System.Runtime.CompilerServices.RuntimeHelpers:RunClassConstructor (System.RuntimeTypeHandle)
+ilyvion.LoadingProgress.StaticConstructorOnStartupUtilityReplacement/<CallAllAndRest>d__2:MoveNext () (at /home/runner/work/loading-progress/loading-progress/Source/ilyvion.LoadingProgress/StaticConstructorOnStartupUtilityReplacement.cs:53)
+(wrapper dynamic-method) MonoMod.Utils.DynamicMethodDefinition:Verse.LongEventHandler.UpdateCurrentEnumeratorEvent_Patch1 ()
+Verse.LongEventHandler:LongEventsUpdate (bool&)
+(wrapper dynamic-method) MonoMod.Utils.DynamicMethodDefinition:Verse.Root.Update_Patch1 (Verse.Root)
+Verse.Root_Entry:Update ()
+
+Mines 2.0 -> RecipeDef named MinesAutomated_RecipeDef_Limestone added to the mine.
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+Verse.Log:Message (string)
+MinesAutomated.CreateRecipeDefs:Generate ()
+MinesAutomated.MineRecipes:EnsureBaseRecipesGenerated ()
+MinesAutomated.CreateRecipeDefs:.cctor ()
+System.Runtime.CompilerServices.RuntimeHelpers:RunClassConstructor (System.RuntimeTypeHandle)
+ilyvion.LoadingProgress.StaticConstructorOnStartupUtilityReplacement/<CallAllAndRest>d__2:MoveNext () (at /home/runner/work/loading-progress/loading-progress/Source/ilyvion.LoadingProgress/StaticConstructorOnStartupUtilityReplacement.cs:53)
+(wrapper dynamic-method) MonoMod.Utils.DynamicMethodDefinition:Verse.LongEventHandler.UpdateCurrentEnumeratorEvent_Patch1 ()
+Verse.LongEventHandler:LongEventsUpdate (bool&)
+(wrapper dynamic-method) MonoMod.Utils.DynamicMethodDefinition:Verse.Root.Update_Patch1 (Verse.Root)
+Verse.Root_Entry:Update ()
+
+Mines 2.0 -> RecipeDef named MinesAutomated_RecipeDef_Granite added to the mine.
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+Verse.Log:Message (string)
+MinesAutomated.CreateRecipeDefs:Generate ()
+MinesAutomated.MineRecipes:EnsureBaseRecipesGenerated ()
+MinesAutomated.CreateRecipeDefs:.cctor ()
+System.Runtime.CompilerServices.RuntimeHelpers:RunClassConstructor (System.RuntimeTypeHandle)
+ilyvion.LoadingProgress.StaticConstructorOnStartupUtilityReplacement/<CallAllAndRest>d__2:MoveNext () (at /home/runner/work/loading-progress/loading-progress/Source/ilyvion.LoadingProgress/StaticConstructorOnStartupUtilityReplacement.cs:53)
+(wrapper dynamic-method) MonoMod.Utils.DynamicMethodDefinition:Verse.LongEventHandler.UpdateCurrentEnumeratorEvent_Patch1 ()
+Verse.LongEventHandler:LongEventsUpdate (bool&)
+(wrapper dynamic-method) MonoMod.Utils.DynamicMethodDefinition:Verse.Root.Update_Patch1 (Verse.Root)
+Verse.Root_Entry:Update ()
+
+NamesGalore: Injecting Names
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+Verse.Log:Message (string)
+NamesGalore.NameInjector:.cctor ()
+System.Runtime.CompilerServices.RuntimeHelpers:RunClassConstructor (System.RuntimeTypeHandle)
+ilyvion.LoadingProgress.StaticConstructorOnStartupUtilityReplacement/<CallAllAndRest>d__2:MoveNext () (at /home/runner/work/loading-progress/loading-progress/Source/ilyvion.LoadingProgress/StaticConstructorOnStartupUtilityReplacement.cs:53)
+(wrapper dynamic-method) MonoMod.Utils.DynamicMethodDefinition:Verse.LongEventHandler.UpdateCurrentEnumeratorEvent_Patch1 ()
+Verse.LongEventHandler:LongEventsUpdate (bool&)
+(wrapper dynamic-method) MonoMod.Utils.DynamicMethodDefinition:Verse.Root.Update_Patch1 (Verse.Root)
+Verse.Root_Entry:Update ()
+
+Chinese
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+Verse.Log:Message (string)
+NamesGalore.NameInjector:.cctor ()
+System.Runtime.CompilerServices.RuntimeHelpers:RunClassConstructor (System.RuntimeTypeHandle)
+ilyvion.LoadingProgress.StaticConstructorOnStartupUtilityReplacement/<CallAllAndRest>d__2:MoveNext () (at /home/runner/work/loading-progress/loading-progress/Source/ilyvion.LoadingProgress/StaticConstructorOnStartupUtilityReplacement.cs:53)
+(wrapper dynamic-method) MonoMod.Utils.DynamicMethodDefinition:Verse.LongEventHandler.UpdateCurrentEnumeratorEvent_Patch1 ()
+Verse.LongEventHandler:LongEventsUpdate (bool&)
+(wrapper dynamic-method) MonoMod.Utils.DynamicMethodDefinition:Verse.Root.Update_Patch1 (Verse.Root)
+Verse.Root_Entry:Update ()
+
+NamesGalore: Current Lang English
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+Verse.Log:Message (string)
+NamesGalore.NameInjector:.cctor ()
+System.Runtime.CompilerServices.RuntimeHelpers:RunClassConstructor (System.RuntimeTypeHandle)
+ilyvion.LoadingProgress.StaticConstructorOnStartupUtilityReplacement/<CallAllAndRest>d__2:MoveNext () (at /home/runner/work/loading-progress/loading-progress/Source/ilyvion.LoadingProgress/StaticConstructorOnStartupUtilityReplacement.cs:53)
+(wrapper dynamic-method) MonoMod.Utils.DynamicMethodDefinition:Verse.LongEventHandler.UpdateCurrentEnumeratorEvent_Patch1 ()
+Verse.LongEventHandler:LongEventsUpdate (bool&)
+(wrapper dynamic-method) MonoMod.Utils.DynamicMethodDefinition:Verse.Root.Update_Patch1 (Verse.Root)
+Verse.Root_Entry:Update ()
+
+PickUpAndHaul v1.1.2¼ welcomes you to RimWorld with pointless logspam.
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+Verse.Log:Message (string)
+PickUpAndHaul.HarmonyPatches:.cctor ()
+System.Runtime.CompilerServices.RuntimeHelpers:RunClassConstructor (System.RuntimeTypeHandle)
+ilyvion.LoadingProgress.StaticConstructorOnStartupUtilityReplacement/<CallAllAndRest>d__2:MoveNext () (at /home/runner/work/loading-progress/loading-progress/Source/ilyvion.LoadingProgress/StaticConstructorOnStartupUtilityReplacement.cs:53)
+(wrapper dynamic-method) MonoMod.Utils.DynamicMethodDefinition:Verse.LongEventHandler.UpdateCurrentEnumeratorEvent_Patch1 ()
+Verse.LongEventHandler:LongEventsUpdate (bool&)
+(wrapper dynamic-method) MonoMod.Utils.DynamicMethodDefinition:Verse.Root.Update_Patch1 (Verse.Root)
+Verse.Root_Entry:Update ()
+
+[Quality Of Building] patching
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+Verse.Log:Message (string)
+QualityOfBuilding.QualityOfBuildingMain:.cctor ()
+System.Runtime.CompilerServices.RuntimeHelpers:RunClassConstructor (System.RuntimeTypeHandle)
+ilyvion.LoadingProgress.StaticConstructorOnStartupUtilityReplacement/<CallAllAndRest>d__2:MoveNext () (at /home/runner/work/loading-progress/loading-progress/Source/ilyvion.LoadingProgress/StaticConstructorOnStartupUtilityReplacement.cs:53)
+(wrapper dynamic-method) MonoMod.Utils.DynamicMethodDefinition:Verse.LongEventHandler.UpdateCurrentEnumeratorEvent_Patch1 ()
+Verse.LongEventHandler:LongEventsUpdate (bool&)
+(wrapper dynamic-method) MonoMod.Utils.DynamicMethodDefinition:Verse.Root.Update_Patch1 (Verse.Root)
+Verse.Root_Entry:Update ()
+
+[RelevantStatsInDescription]: Skipping dps-calculation of Mortar as it has no default projectile defined
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+Verse.Log:Message (string)
+RelevantStatsInDescription.RelevantStatsInDescription:.cctor ()
+System.Runtime.CompilerServices.RuntimeHelpers:RunClassConstructor (System.RuntimeTypeHandle)
+ilyvion.LoadingProgress.StaticConstructorOnStartupUtilityReplacement/<CallAllAndRest>d__2:MoveNext () (at /home/runner/work/loading-progress/loading-progress/Source/ilyvion.LoadingProgress/StaticConstructorOnStartupUtilityReplacement.cs:53)
+(wrapper dynamic-method) MonoMod.Utils.DynamicMethodDefinition:Verse.LongEventHandler.UpdateCurrentEnumeratorEvent_Patch1 ()
+Verse.LongEventHandler:LongEventsUpdate (bool&)
+(wrapper dynamic-method) MonoMod.Utils.DynamicMethodDefinition:Verse.Root.Update_Patch1 (Verse.Root)
+Verse.Root_Entry:Update ()
+
+[RelevantStatsInDescription]: Skipping dps-calculation of Foam turret as its projectile does not cause damage to health
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+Verse.Log:Message (string)
+RelevantStatsInDescription.RelevantStatsInDescription:.cctor ()
+System.Runtime.CompilerServices.RuntimeHelpers:RunClassConstructor (System.RuntimeTypeHandle)
+ilyvion.LoadingProgress.StaticConstructorOnStartupUtilityReplacement/<CallAllAndRest>d__2:MoveNext () (at /home/runner/work/loading-progress/loading-progress/Source/ilyvion.LoadingProgress/StaticConstructorOnStartupUtilityReplacement.cs:53)
+(wrapper dynamic-method) MonoMod.Utils.DynamicMethodDefinition:Verse.LongEventHandler.UpdateCurrentEnumeratorEvent_Patch1 ()
+Verse.LongEventHandler:LongEventsUpdate (bool&)
+(wrapper dynamic-method) MonoMod.Utils.DynamicMethodDefinition:Verse.Root.Update_Patch1 (Verse.Root)
+Verse.Root_Entry:Update ()
+
+[RelevantStatsInDescription]: Skipping dps-calculation of Cannon as it has no default projectile defined
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+Verse.Log:Message (string)
+RelevantStatsInDescription.RelevantStatsInDescription:.cctor ()
+System.Runtime.CompilerServices.RuntimeHelpers:RunClassConstructor (System.RuntimeTypeHandle)
+ilyvion.LoadingProgress.StaticConstructorOnStartupUtilityReplacement/<CallAllAndRest>d__2:MoveNext () (at /home/runner/work/loading-progress/loading-progress/Source/ilyvion.LoadingProgress/StaticConstructorOnStartupUtilityReplacement.cs:53)
+(wrapper dynamic-method) MonoMod.Utils.DynamicMethodDefinition:Verse.LongEventHandler.UpdateCurrentEnumeratorEvent_Patch1 ()
+Verse.LongEventHandler:LongEventsUpdate (bool&)
+(wrapper dynamic-method) MonoMod.Utils.DynamicMethodDefinition:Verse.Root.Update_Patch1 (Verse.Root)
+Verse.Root_Entry:Update ()
+
+[RelevantStatsInDescription]: Skipping dps-calculation of EMP lobber turret as its projectile does not cause damage to health
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+Verse.Log:Message (string)
+RelevantStatsInDescription.RelevantStatsInDescription:.cctor ()
+System.Runtime.CompilerServices.RuntimeHelpers:RunClassConstructor (System.RuntimeTypeHandle)
+ilyvion.LoadingProgress.StaticConstructorOnStartupUtilityReplacement/<CallAllAndRest>d__2:MoveNext () (at /home/runner/work/loading-progress/loading-progress/Source/ilyvion.LoadingProgress/StaticConstructorOnStartupUtilityReplacement.cs:53)
+(wrapper dynamic-method) MonoMod.Utils.DynamicMethodDefinition:Verse.LongEventHandler.UpdateCurrentEnumeratorEvent_Patch1 ()
+Verse.LongEventHandler:LongEventsUpdate (bool&)
+(wrapper dynamic-method) MonoMod.Utils.DynamicMethodDefinition:Verse.Root.Update_Patch1 (Verse.Root)
+Verse.Root_Entry:Update ()
+
+[RelevantStatsInDescription]: Skipping dps-calculation of Incinerator turret as it has no default projectile defined
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+Verse.Log:Message (string)
+RelevantStatsInDescription.RelevantStatsInDescription:.cctor ()
+System.Runtime.CompilerServices.RuntimeHelpers:RunClassConstructor (System.RuntimeTypeHandle)
+ilyvion.LoadingProgress.StaticConstructorOnStartupUtilityReplacement/<CallAllAndRest>d__2:MoveNext () (at /home/runner/work/loading-progress/loading-progress/Source/ilyvion.LoadingProgress/StaticConstructorOnStartupUtilityReplacement.cs:53)
+(wrapper dynamic-method) MonoMod.Utils.DynamicMethodDefinition:Verse.LongEventHandler.UpdateCurrentEnumeratorEvent_Patch1 ()
+Verse.LongEventHandler:LongEventsUpdate (bool&)
+(wrapper dynamic-method) MonoMod.Utils.DynamicMethodDefinition:Verse.Root.Update_Patch1 (Verse.Root)
+Verse.Root_Entry:Update ()
+
+[RelevantStatsInDescription]: Skipping dps-calculation of Graser turret as it has no default projectile defined
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+Verse.Log:Message (string)
+RelevantStatsInDescription.RelevantStatsInDescription:.cctor ()
+System.Runtime.CompilerServices.RuntimeHelpers:RunClassConstructor (System.RuntimeTypeHandle)
+ilyvion.LoadingProgress.StaticConstructorOnStartupUtilityReplacement/<CallAllAndRest>d__2:MoveNext () (at /home/runner/work/loading-progress/loading-progress/Source/ilyvion.LoadingProgress/StaticConstructorOnStartupUtilityReplacement.cs:53)
+(wrapper dynamic-method) MonoMod.Utils.DynamicMethodDefinition:Verse.LongEventHandler.UpdateCurrentEnumeratorEvent_Patch1 ()
+Verse.LongEventHandler:LongEventsUpdate (bool&)
+(wrapper dynamic-method) MonoMod.Utils.DynamicMethodDefinition:Verse.Root.Update_Patch1 (Verse.Root)
+Verse.Root_Entry:Update ()
+
+[RelevantStatsInDescription]: Skipping dps-calculation of Field gun as it has no default projectile defined
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+Verse.Log:Message (string)
+RelevantStatsInDescription.RelevantStatsInDescription:.cctor ()
+System.Runtime.CompilerServices.RuntimeHelpers:RunClassConstructor (System.RuntimeTypeHandle)
+ilyvion.LoadingProgress.StaticConstructorOnStartupUtilityReplacement/<CallAllAndRest>d__2:MoveNext () (at /home/runner/work/loading-progress/loading-progress/Source/ilyvion.LoadingProgress/StaticConstructorOnStartupUtilityReplacement.cs:53)
+(wrapper dynamic-method) MonoMod.Utils.DynamicMethodDefinition:Verse.LongEventHandler.UpdateCurrentEnumeratorEvent_Patch1 ()
+Verse.LongEventHandler:LongEventsUpdate (bool&)
+(wrapper dynamic-method) MonoMod.Utils.DynamicMethodDefinition:Verse.Root.Update_Patch1 (Verse.Root)
+Verse.Root_Entry:Update ()
+
+[RelevantStatsInDescription]: Skipping dps-calculation of Graser cannon complex as it has no default projectile defined
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+Verse.Log:Message (string)
+RelevantStatsInDescription.RelevantStatsInDescription:.cctor ()
+System.Runtime.CompilerServices.RuntimeHelpers:RunClassConstructor (System.RuntimeTypeHandle)
+ilyvion.LoadingProgress.StaticConstructorOnStartupUtilityReplacement/<CallAllAndRest>d__2:MoveNext () (at /home/runner/work/loading-progress/loading-progress/Source/ilyvion.LoadingProgress/StaticConstructorOnStartupUtilityReplacement.cs:53)
+(wrapper dynamic-method) MonoMod.Utils.DynamicMethodDefinition:Verse.LongEventHandler.UpdateCurrentEnumeratorEvent_Patch1 ()
+Verse.LongEventHandler:LongEventsUpdate (bool&)
+(wrapper dynamic-method) MonoMod.Utils.DynamicMethodDefinition:Verse.Root.Update_Patch1 (Verse.Root)
+Verse.Root_Entry:Update ()
+
+[RelevantStatsInDescription]: Skipping dps-calculation of Heavy incinerator complex as it has no default projectile defined
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+Verse.Log:Message (string)
+RelevantStatsInDescription.RelevantStatsInDescription:.cctor ()
+System.Runtime.CompilerServices.RuntimeHelpers:RunClassConstructor (System.RuntimeTypeHandle)
+ilyvion.LoadingProgress.StaticConstructorOnStartupUtilityReplacement/<CallAllAndRest>d__2:MoveNext () (at /home/runner/work/loading-progress/loading-progress/Source/ilyvion.LoadingProgress/StaticConstructorOnStartupUtilityReplacement.cs:53)
+(wrapper dynamic-method) MonoMod.Utils.DynamicMethodDefinition:Verse.LongEventHandler.UpdateCurrentEnumeratorEvent_Patch1 ()
+Verse.LongEventHandler:LongEventsUpdate (bool&)
+(wrapper dynamic-method) MonoMod.Utils.DynamicMethodDefinition:Verse.Root.Update_Patch1 (Verse.Root)
+Verse.Root_Entry:Update ()
+
+[RelevantStatsInDescription]: Skipping dps-calculation of Anti-air turret as it has no default projectile defined
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+Verse.Log:Message (string)
+RelevantStatsInDescription.RelevantStatsInDescription:.cctor ()
+System.Runtime.CompilerServices.RuntimeHelpers:RunClassConstructor (System.RuntimeTypeHandle)
+ilyvion.LoadingProgress.StaticConstructorOnStartupUtilityReplacement/<CallAllAndRest>d__2:MoveNext () (at /home/runner/work/loading-progress/loading-progress/Source/ilyvion.LoadingProgress/StaticConstructorOnStartupUtilityReplacement.cs:53)
+(wrapper dynamic-method) MonoMod.Utils.DynamicMethodDefinition:Verse.LongEventHandler.UpdateCurrentEnumeratorEvent_Patch1 ()
+Verse.LongEventHandler:LongEventsUpdate (bool&)
+(wrapper dynamic-method) MonoMod.Utils.DynamicMethodDefinition:Verse.Root.Update_Patch1 (Verse.Root)
+Verse.Root_Entry:Update ()
+
+[RelevantStatsInDescription]: Skipping dps-calculation of Artillery as it has no default projectile defined
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+Verse.Log:Message (string)
+RelevantStatsInDescription.RelevantStatsInDescription:.cctor ()
+System.Runtime.CompilerServices.RuntimeHelpers:RunClassConstructor (System.RuntimeTypeHandle)
+ilyvion.LoadingProgress.StaticConstructorOnStartupUtilityReplacement/<CallAllAndRest>d__2:MoveNext () (at /home/runner/work/loading-progress/loading-progress/Source/ilyvion.LoadingProgress/StaticConstructorOnStartupUtilityReplacement.cs:53)
+(wrapper dynamic-method) MonoMod.Utils.DynamicMethodDefinition:Verse.LongEventHandler.UpdateCurrentEnumeratorEvent_Patch1 ()
+Verse.LongEventHandler:LongEventsUpdate (bool&)
+(wrapper dynamic-method) MonoMod.Utils.DynamicMethodDefinition:Verse.Root.Update_Patch1 (Verse.Root)
+Verse.Root_Entry:Update ()
+
+[RelevantStatsInDescription]: Skipping dps-calculation of Searchlight as it has no default projectile defined
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+Verse.Log:Message (string)
+RelevantStatsInDescription.RelevantStatsInDescription:.cctor ()
+System.Runtime.CompilerServices.RuntimeHelpers:RunClassConstructor (System.RuntimeTypeHandle)
+ilyvion.LoadingProgress.StaticConstructorOnStartupUtilityReplacement/<CallAllAndRest>d__2:MoveNext () (at /home/runner/work/loading-progress/loading-progress/Source/ilyvion.LoadingProgress/StaticConstructorOnStartupUtilityReplacement.cs:53)
+(wrapper dynamic-method) MonoMod.Utils.DynamicMethodDefinition:Verse.LongEventHandler.UpdateCurrentEnumeratorEvent_Patch1 ()
+Verse.LongEventHandler:LongEventsUpdate (bool&)
+(wrapper dynamic-method) MonoMod.Utils.DynamicMethodDefinition:Verse.Root.Update_Patch1 (Verse.Root)
+Verse.Root_Entry:Update ()
+
+[RelevantStatsInDescription]: Skipping dps-calculation of Tesla blaster as its projectile does not cause damage to health
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+Verse.Log:Message (string)
+RelevantStatsInDescription.RelevantStatsInDescription:.cctor ()
+System.Runtime.CompilerServices.RuntimeHelpers:RunClassConstructor (System.RuntimeTypeHandle)
+ilyvion.LoadingProgress.StaticConstructorOnStartupUtilityReplacement/<CallAllAndRest>d__2:MoveNext () (at /home/runner/work/loading-progress/loading-progress/Source/ilyvion.LoadingProgress/StaticConstructorOnStartupUtilityReplacement.cs:53)
+(wrapper dynamic-method) MonoMod.Utils.DynamicMethodDefinition:Verse.LongEventHandler.UpdateCurrentEnumeratorEvent_Patch1 ()
+Verse.LongEventHandler:LongEventsUpdate (bool&)
+(wrapper dynamic-method) MonoMod.Utils.DynamicMethodDefinition:Verse.Root.Update_Patch1 (Verse.Root)
+Verse.Root_Entry:Update ()
+
+(Research Tab Colors) Transpiler injected.
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+Verse.Log:Message (string)
+ResearchTabColors.HarmonyPatches:MTWResearchListProjects_Transpiler (System.Collections.Generic.IEnumerable`1<HarmonyLib.CodeInstruction>)
+System.Reflection.RuntimeMethodInfo:Invoke (object,System.Reflection.BindingFlags,System.Reflection.Binder,object[],System.Globalization.CultureInfo)
+System.Reflection.MethodBase:Invoke (object,object[])
+HarmonyLib.CodeTranspiler/<>c__DisplayClass11_0:<GetResult>b__0 (System.Reflection.MethodInfo)
+System.Collections.Generic.List`1<System.Reflection.MethodInfo>:ForEach (System.Action`1<System.Reflection.MethodInfo>)
+HarmonyLib.CodeTranspiler:GetResult (System.Reflection.Emit.ILGenerator,System.Reflection.MethodBase)
+HarmonyLib.MethodBodyReader:FinalizeILCodes (System.Collections.Generic.List`1<System.Reflection.MethodInfo>,bool,bool&,bool&,System.Collections.Generic.List`1<System.Reflection.Emit.Label>)
+HarmonyLib.MethodCopier:Finalize (bool,bool&,bool&,System.Collections.Generic.List`1<System.Reflection.Emit.Label>)
+HarmonyLib.MethodCreator:CreateReplacement ()
+HarmonyLib.PatchFunctions:UpdateWrapper (System.Reflection.MethodBase,HarmonyLib.PatchInfo)
+HarmonyLib.PatchProcessor:Patch ()
+HarmonyLib.Harmony:Patch (System.Reflection.MethodBase,HarmonyLib.HarmonyMethod,HarmonyLib.HarmonyMethod,HarmonyLib.HarmonyMethod,HarmonyLib.HarmonyMethod)
+ResearchTabColors.HarmonyPatches:.cctor ()
+System.Runtime.CompilerServices.RuntimeHelpers:RunClassConstructor (System.RuntimeTypeHandle)
+ilyvion.LoadingProgress.StaticConstructorOnStartupUtilityReplacement/<CallAllAndRest>d__2:MoveNext () (at /home/runner/work/loading-progress/loading-progress/Source/ilyvion.LoadingProgress/StaticConstructorOnStartupUtilityReplacement.cs:53)
+(wrapper dynamic-method) MonoMod.Utils.DynamicMethodDefinition:Verse.LongEventHandler.UpdateCurrentEnumeratorEvent_Patch1 ()
+Verse.LongEventHandler:LongEventsUpdate (bool&)
+(wrapper dynamic-method) MonoMod.Utils.DynamicMethodDefinition:Verse.Root.Update_Patch1 (Verse.Root)
+Verse.Root_Entry:Update ()
+
+[SmashPhil.VehicleFramework] Applying compatibility patch for CaesarV6.DamageIndicators. Active: Yes
+[SmashPhil.VehicleFramework] Applying compatibility patch for ludeon.rimworld.odyssey. Active: Yes
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+Verse.Log:Message (string)
+SmashTools.Patching.ConditionalPatches:DumpPatchReport () (at C:/Program Files (x86)/Steam/steamapps/common/RimWorld/Mods/Vehicle-Framework/SmashTools/SmashTools/SmashTools/Patching/Harmony/ConditionalPatches.cs:78)
+SmashTools.ProjectStartup:.cctor () (at C:/Program Files (x86)/Steam/steamapps/common/RimWorld/Mods/Vehicle-Framework/SmashTools/SmashTools/SmashTools/ProjectStartup.cs:38)
+System.Runtime.CompilerServices.RuntimeHelpers:RunClassConstructor (System.RuntimeTypeHandle)
+ilyvion.LoadingProgress.StaticConstructorOnStartupUtilityReplacement/<CallAllAndRest>d__2:MoveNext () (at /home/runner/work/loading-progress/loading-progress/Source/ilyvion.LoadingProgress/StaticConstructorOnStartupUtilityReplacement.cs:53)
+(wrapper dynamic-method) MonoMod.Utils.DynamicMethodDefinition:Verse.LongEventHandler.UpdateCurrentEnumeratorEvent_Patch1 ()
+Verse.LongEventHandler:LongEventsUpdate (bool&)
+(wrapper dynamic-method) MonoMod.Utils.DynamicMethodDefinition:Verse.Root.Update_Patch1 (Verse.Root)
+Verse.Root_Entry:Update ()
+
+[VehicleFramework] version 1.6.2144
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+Verse.Log:Message (string)
+Vehicles.VehicleHarmony:.cctor () (at C:/Program Files (x86)/Steam/steamapps/common/RimWorld/Mods/Vehicle-Framework/Source/Vehicles/Harmony/VehicleHarmony.cs:41)
+System.Runtime.CompilerServices.RuntimeHelpers:RunClassConstructor (System.RuntimeTypeHandle)
+ilyvion.LoadingProgress.StaticConstructorOnStartupUtilityReplacement/<CallAllAndRest>d__2:MoveNext () (at /home/runner/work/loading-progress/loading-progress/Source/ilyvion.LoadingProgress/StaticConstructorOnStartupUtilityReplacement.cs:53)
+(wrapper dynamic-method) MonoMod.Utils.DynamicMethodDefinition:Verse.LongEventHandler.UpdateCurrentEnumeratorEvent_Patch1 ()
+Verse.LongEventHandler:LongEventsUpdate (bool&)
+(wrapper dynamic-method) MonoMod.Utils.DynamicMethodDefinition:Verse.Root.Update_Patch1 (Verse.Root)
+Verse.Root_Entry:Update ()
+
+[UseThisInstead]: Found 2 replacements
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+Verse.Log:Message (string)
+UseThisInstead.UseThisInstead:logMessage (string,bool,bool)
+UseThisInstead.UseThisInstead:checkForReplacements ()
+UseThisInstead.UseThisInstead/<>c:<CheckForReplacements>b__26_0 ()
+System.Threading.ThreadHelper:ThreadStart_Context (object)
+System.Threading.ExecutionContext:RunInternal (System.Threading.ExecutionContext,System.Threading.ContextCallback,object,bool)
+System.Threading.ExecutionContext:Run (System.Threading.ExecutionContext,System.Threading.ContextCallback,object,bool)
+System.Threading.ExecutionContext:Run (System.Threading.ExecutionContext,System.Threading.ContextCallback,object)
+System.Threading.ThreadHelper:ThreadStart ()
+
+MVCF successfully applied 57 patches
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+Verse.Log:Message (string)
+MVCF.Patch:PrintSummary ()
+MVCF.MVCF/<>c:<CollectFeatureData>b__15_0 ()
+ilyvion.LoadingProgress.LongEventHandler_ExecuteToExecuteWhenFinished_Patches/<ExecuteToExecuteWhenFinished>d__3:MoveNext () (at /home/runner/work/loading-progress/loading-progress/Source/ilyvion.LoadingProgress/LongEventHandler_ExecuteToExecuteWhenFinished_Patches.cs:284)
+(wrapper dynamic-method) MonoMod.Utils.DynamicMethodDefinition:Verse.LongEventHandler.UpdateCurrentEnumeratorEvent_Patch1 ()
+Verse.LongEventHandler:LongEventsUpdate (bool&)
+(wrapper dynamic-method) MonoMod.Utils.DynamicMethodDefinition:Verse.Root.Update_Patch1 (Verse.Root)
+Verse.Root_Entry:Update ()
+
+[ShieldGenerator] Custom parameters applied.
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+Verse.Log:Message (string)
+RimworldShieldGenerator.RimworldShieldGenerator_Initializer:ApplySettings ()
+ilyvion.LoadingProgress.LongEventHandler_ExecuteToExecuteWhenFinished_Patches/<ExecuteToExecuteWhenFinished>d__3:MoveNext () (at /home/runner/work/loading-progress/loading-progress/Source/ilyvion.LoadingProgress/LongEventHandler_ExecuteToExecuteWhenFinished_Patches.cs:284)
+(wrapper dynamic-method) MonoMod.Utils.DynamicMethodDefinition:Verse.LongEventHandler.UpdateCurrentEnumeratorEvent_Patch1 ()
+Verse.LongEventHandler:LongEventsUpdate (bool&)
+(wrapper dynamic-method) MonoMod.Utils.DynamicMethodDefinition:Verse.Root.Update_Patch1 (Verse.Root)
+Verse.Root_Entry:Update ()
+
+CharacterEditor v1.6.3 initializing...
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+Verse.Log:Message (string)
+CharacterEditor.CEditor:.ctor ()
+CharacterEditor.CEditor:OnMainMenuInit ()
+(wrapper dynamic-method) MonoMod.Utils.DynamicMethodDefinition:RimWorld.MainMenuDrawer.Init_Patch4 ()
+(wrapper dynamic-method) MonoMod.Utils.DynamicMethodDefinition:Verse.UIRoot_Entry.Init_Patch3 (Verse.UIRoot_Entry)
+Verse.Root:<Start>b__10_0 ()
+Verse.LongEventHandler:UpdateCurrentSynchronousEvent (bool&)
+Verse.LongEventHandler:LongEventsUpdate (bool&)
+(wrapper dynamic-method) MonoMod.Utils.DynamicMethodDefinition:Verse.Root.Update_Patch1 (Verse.Root)
+Verse.Root_Entry:Update ()
+
+updating labels for english...
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+Verse.Log:Message (string)
+CharacterEditor.Label:UpdateLabels ()
+CharacterEditor.CEditor/ModOptions:ReInit ()
+CharacterEditor.CEditor/ModOptions:.ctor ()
+CharacterEditor.CEditor/ModData:CreateType (CharacterEditor.EType)
+CharacterEditor.CEditor/ModData:Get<CharacterEditor.CEditor/ModOptions> (CharacterEditor.EType)
+CharacterEditor.CEditor/ModData:.ctor ()
+CharacterEditor.CEditor:.ctor ()
+CharacterEditor.CEditor:OnMainMenuInit ()
+(wrapper dynamic-method) MonoMod.Utils.DynamicMethodDefinition:RimWorld.MainMenuDrawer.Init_Patch4 ()
+(wrapper dynamic-method) MonoMod.Utils.DynamicMethodDefinition:Verse.UIRoot_Entry.Init_Patch3 (Verse.UIRoot_Entry)
+Verse.Root:<Start>b__10_0 ()
+Verse.LongEventHandler:UpdateCurrentSynchronousEvent (bool&)
+Verse.LongEventHandler:LongEventsUpdate (bool&)
+(wrapper dynamic-method) MonoMod.Utils.DynamicMethodDefinition:Verse.Root.Update_Patch1 (Verse.Root)
+Verse.Root_Entry:Update ()
+
+loading pawn slot content from file...
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+Verse.Log:Message (string)
+CharacterEditor.CEditor/ModOptions:LoadSlots (string)
+CharacterEditor.CEditor/ModOptions:ReInit ()
+CharacterEditor.CEditor/ModOptions:.ctor ()
+CharacterEditor.CEditor/ModData:CreateType (CharacterEditor.EType)
+CharacterEditor.CEditor/ModData:Get<CharacterEditor.CEditor/ModOptions> (CharacterEditor.EType)
+CharacterEditor.CEditor/ModData:.ctor ()
+CharacterEditor.CEditor:.ctor ()
+CharacterEditor.CEditor:OnMainMenuInit ()
+(wrapper dynamic-method) MonoMod.Utils.DynamicMethodDefinition:RimWorld.MainMenuDrawer.Init_Patch4 ()
+(wrapper dynamic-method) MonoMod.Utils.DynamicMethodDefinition:Verse.UIRoot_Entry.Init_Patch3 (Verse.UIRoot_Entry)
+Verse.Root:<Start>b__10_0 ()
+Verse.LongEventHandler:UpdateCurrentSynchronousEvent (bool&)
+Verse.LongEventHandler:LongEventsUpdate (bool&)
+(wrapper dynamic-method) MonoMod.Utils.DynamicMethodDefinition:Verse.Root.Update_Patch1 (Verse.Root)
+Verse.Root_Entry:Update ()
+
+character editor instance created
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+Verse.Log:Message (string)
+CharacterEditor.CEditor:.ctor ()
+CharacterEditor.CEditor:OnMainMenuInit ()
+(wrapper dynamic-method) MonoMod.Utils.DynamicMethodDefinition:RimWorld.MainMenuDrawer.Init_Patch4 ()
+(wrapper dynamic-method) MonoMod.Utils.DynamicMethodDefinition:Verse.UIRoot_Entry.Init_Patch3 (Verse.UIRoot_Entry)
+Verse.Root:<Start>b__10_0 ()
+Verse.LongEventHandler:UpdateCurrentSynchronousEvent (bool&)
+Verse.LongEventHandler:LongEventsUpdate (bool&)
+(wrapper dynamic-method) MonoMod.Utils.DynamicMethodDefinition:Verse.Root.Update_Patch1 (Verse.Root)
+Verse.Root_Entry:Update ()
+
+checking editor settings...
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+Verse.Log:Message (string)
+CharacterEditor.CEditor/ModData:OnSettingsChanged (bool,bool)
+CharacterEditor.CEditor:OnSettingsChanged (bool,bool)
+CharacterEditor.CEditor:OnMainMenuInit ()
+(wrapper dynamic-method) MonoMod.Utils.DynamicMethodDefinition:RimWorld.MainMenuDrawer.Init_Patch4 ()
+(wrapper dynamic-method) MonoMod.Utils.DynamicMethodDefinition:Verse.UIRoot_Entry.Init_Patch3 (Verse.UIRoot_Entry)
+Verse.Root:<Start>b__10_0 ()
+Verse.LongEventHandler:UpdateCurrentSynchronousEvent (bool&)
+Verse.LongEventHandler:LongEventsUpdate (bool&)
+(wrapper dynamic-method) MonoMod.Utils.DynamicMethodDefinition:Verse.Root.Update_Patch1 (Verse.Root)
+Verse.Root_Entry:Update ()
+
+bodysizes genes are active
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+Verse.Log:Message (string)
+CharacterEditor.GeneTool:EnDisableBodySizeGenes ()
+CharacterEditor.CEditor/ModData:OnSettingsChanged (bool,bool)
+CharacterEditor.CEditor:OnSettingsChanged (bool,bool)
+CharacterEditor.CEditor:OnMainMenuInit ()
+(wrapper dynamic-method) MonoMod.Utils.DynamicMethodDefinition:RimWorld.MainMenuDrawer.Init_Patch4 ()
+(wrapper dynamic-method) MonoMod.Utils.DynamicMethodDefinition:Verse.UIRoot_Entry.Init_Patch3 (Verse.UIRoot_Entry)
+Verse.Root:<Start>b__10_0 ()
+Verse.LongEventHandler:UpdateCurrentSynchronousEvent (bool&)
+Verse.LongEventHandler:LongEventsUpdate (bool&)
+(wrapper dynamic-method) MonoMod.Utils.DynamicMethodDefinition:Verse.Root.Update_Patch1 (Verse.Root)
+Verse.Root_Entry:Update ()
+
+CharacterEditor v1.6.3 ...done
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+Verse.Log:Message (string)
+CharacterEditor.CEditor:OnMainMenuInit ()
+(wrapper dynamic-method) MonoMod.Utils.DynamicMethodDefinition:RimWorld.MainMenuDrawer.Init_Patch4 ()
+(wrapper dynamic-method) MonoMod.Utils.DynamicMethodDefinition:Verse.UIRoot_Entry.Init_Patch3 (Verse.UIRoot_Entry)
+Verse.Root:<Start>b__10_0 ()
+Verse.LongEventHandler:UpdateCurrentSynchronousEvent (bool&)
+Verse.LongEventHandler:LongEventsUpdate (bool&)
+(wrapper dynamic-method) MonoMod.Utils.DynamicMethodDefinition:Verse.Root.Update_Patch1 (Verse.Root)
+Verse.Root_Entry:Update ()
+
+CameraPlus: Found mod at D:\SteamLibrary\steamapps\workshop\content\294100\867467808
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+Verse.Log:Message (string)
+CameraPlus.Assets:LoadAssetBundle ()
+(wrapper dynamic-method) MonoMod.Utils.DynamicMethodDefinition:Verse.UIRoot_Entry.Init_Patch3 (Verse.UIRoot_Entry)
+Verse.Root:<Start>b__10_0 ()
+Verse.LongEventHandler:UpdateCurrentSynchronousEvent (bool&)
+Verse.LongEventHandler:LongEventsUpdate (bool&)
+(wrapper dynamic-method) MonoMod.Utils.DynamicMethodDefinition:Verse.Root.Update_Patch1 (Verse.Root)
+Verse.Root_Entry:Update ()
+
+[AllowTool] Applied compatibility patch for "Pick Up And Haul"
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+Verse.Log:Message (string)
+HugsLib.Utils.ModLogger:Message (string,object[])
+AllowTool.PickUpAndHaulCompatHandler:Apply ()
+Verse.LongEventHandler:UpdateCurrentSynchronousEvent (bool&)
+Verse.LongEventHandler:LongEventsUpdate (bool&)
+(wrapper dynamic-method) MonoMod.Utils.DynamicMethodDefinition:Verse.Root.Update_Patch1 (Verse.Root)
+Verse.Root_Entry:Update ()
+
+<color=#66ffb5>[MeleeAnim]</color> Potential patch conflicts (16):
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+Verse.Log:Warning (string)
+AM.Core:Warn (string)
+AM.Core:LogPotentialConflicts (HarmonyLib.Harmony)
+AM.Core/<>c:<.ctor>b__25_3 ()
+AM.Core:<AddLateLoadEvents>b__28_0 ()
+Verse.LongEventHandler:RunEventFromAnotherThread (System.Action)
+Verse.LongEventHandler/<>c:<UpdateCurrentAsynchronousEvent>b__28_0 ()
+System.Threading.ThreadHelper:ThreadStart_Context (object)
+System.Threading.ExecutionContext:RunInternal (System.Threading.ExecutionContext,System.Threading.ContextCallback,object,bool)
+System.Threading.ExecutionContext:Run (System.Threading.ExecutionContext,System.Threading.ContextCallback,object,bool)
+System.Threading.ExecutionContext:Run (System.Threading.ExecutionContext,System.Threading.ContextCallback,object)
+System.Threading.ThreadHelper:ThreadStart ()
+
+<color=#66ffb5>[MeleeAnim]</color> 
+static System.Void Verse.PawnRenderUtility::DrawEquipmentAiming(Verse.Thing eq, UnityEngine.Vector3 drawLoc, System.Single aimAngle)
+Prefixes:
+  [OskarPotocki.VEF] Prefix
+  [OskarPotocki.VEF] Prefix
+  [OskarPotocki.VEF] DrawEquipmentAimingPrefix
+  [co.uk.epicguru.meleeanimation] Prefix
+  [VFEPirates.Mod] Prefix
+  [OskarPotocki.VEF] DrawDuplicate
+Transpilers:
+Postfixes:
+
+Verse.PreRenderResults Verse.PawnRenderer::ParallelGetPreRenderResults(UnityEngine.Vector3 drawLoc, System.Nullable`1<Verse.Rot4> rotOverride, System.Boolean neverAimWeapon, System.Boolean disableCache)
+Prefixes:
+  [OskarPotocki.VEF] Prefix
+  [SmashPhil.VehicleFramework] DisableCachingPawnOverlays
+  [rimworld.Nals.FacialAnimation] PrefixParallelGetPreRenderResults
+  [GiddyUp] Prefix
+Transpilers:
+Postfixes:
+  [co.uk.epicguru.meleeanimation] Postfix
+
+System.Void Verse.PawnRenderer::RenderPawnAt(UnityEngine.Vector3 drawLoc, System.Nullable`1<Verse.Rot4> rotOverride, System.Boolean neverAimWeapon)
+Prefixes:
+  [net.pardeike.rimworld.mod.camera+] Prefix
+  [com.otters.rimworld.mod.Tents] Prefix
+  [VREAndroidsMod] Prefix
+  [co.uk.epicguru.meleeanimation] Prefix
+Transpilers:
+Postfixes:
+  [VREAndroidsMod] Postfix
+  [co.uk.epicguru.meleeanimation] Postfix
+
+static System.Void Verse.PawnGenerator::GenerateGearFor(Verse.Pawn pawn, Verse.PawnGenerationRequest request)
+Prefixes:
+Transpilers:
+Postfixes:
+  [co.uk.epicguru.meleeanimation] Postfix
+  [PeteTimesSix.SimpleSidearms] GenerateGearFor
+
+System.Void Verse.PawnRenderTree::ParallelPreDraw(Verse.PawnDrawParms parms)
+Prefixes:
+  [co.uk.epicguru.meleeanimation] Prefix
+Transpilers:
+Postfixes:
+  [co.uk.epicguru.meleeanimation] Postfix
+  [rimworld.Nals.FacialAnimation] PostfixParallelPreDraw
+
+virtual System.Boolean RimWorld.Verb_MeleeAttack::TryCastShot()
+Prefixes:
+  [co.uk.epicguru.meleeanimation] Prefix
+Transpilers:
+Postfixes:
+  [PeteTimesSix.SimpleSidearms] TryCastShot
+
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+Verse.Log:Warning (string)
+AM.Core:Warn (string)
+AM.Core:LogPotentialConflicts (HarmonyLib.Harmony)
+AM.Core/<>c:<.ctor>b__25_3 ()
+AM.Core:<AddLateLoadEvents>b__28_0 ()
+Verse.LongEventHandler:RunEventFromAnotherThread (System.Action)
+Verse.LongEventHandler/<>c:<UpdateCurrentAsynchronousEvent>b__28_0 ()
+System.Threading.ThreadHelper:ThreadStart_Context (object)
+System.Threading.ExecutionContext:RunInternal (System.Threading.ExecutionContext,System.Threading.ContextCallback,object,bool)
+System.Threading.ExecutionContext:Run (System.Threading.ExecutionContext,System.Threading.ContextCallback,object,bool)
+System.Threading.ExecutionContext:Run (System.Threading.ExecutionContext,System.Threading.ContextCallback,object)
+System.Threading.ThreadHelper:ThreadStart ()
+
+<color=#66ffb5>[MeleeAnim]</color> Full patch list:
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+Verse.Log:Message (string)
+AM.Core:Log (string)
+AM.Core:LogPotentialConflicts (HarmonyLib.Harmony)
+AM.Core/<>c:<.ctor>b__25_3 ()
+AM.Core:<AddLateLoadEvents>b__28_0 ()
+Verse.LongEventHandler:RunEventFromAnotherThread (System.Action)
+Verse.LongEventHandler/<>c:<UpdateCurrentAsynchronousEvent>b__28_0 ()
+System.Threading.ThreadHelper:ThreadStart_Context (object)
+System.Threading.ExecutionContext:RunInternal (System.Threading.ExecutionContext,System.Threading.ContextCallback,object,bool)
+System.Threading.ExecutionContext:Run (System.Threading.ExecutionContext,System.Threading.ContextCallback,object,bool)
+System.Threading.ExecutionContext:Run (System.Threading.ExecutionContext,System.Threading.ContextCallback,object)
+System.Threading.ThreadHelper:ThreadStart ()
+
+<color=#66ffb5>[MeleeAnim]</color> 
+static System.Void Verse.PawnRenderUtility::DrawEquipmentAiming(Verse.Thing eq, UnityEngine.Vector3 drawLoc, System.Single aimAngle)
+Prefixes:
+  [OskarPotocki.VEF] Prefix
+  [OskarPotocki.VEF] Prefix
+  [OskarPotocki.VEF] DrawEquipmentAimingPrefix
+  [co.uk.epicguru.meleeanimation] Prefix
+  [VFEPirates.Mod] Prefix
+  [OskarPotocki.VEF] DrawDuplicate
+Transpilers:
+Postfixes:
+
+Verse.PreRenderResults Verse.PawnRenderer::ParallelGetPreRenderResults(UnityEngine.Vector3 drawLoc, System.Nullable`1<Verse.Rot4> rotOverride, System.Boolean neverAimWeapon, System.Boolean disableCache)
+Prefixes:
+  [OskarPotocki.VEF] Prefix
+  [SmashPhil.VehicleFramework] DisableCachingPawnOverlays
+  [rimworld.Nals.FacialAnimation] PrefixParallelGetPreRenderResults
+  [GiddyUp] Prefix
+Transpilers:
+Postfixes:
+  [co.uk.epicguru.meleeanimation] Postfix
+
+System.Void Verse.PawnRenderer::RenderPawnAt(UnityEngine.Vector3 drawLoc, System.Nullable`1<Verse.Rot4> rotOverride, System.Boolean neverAimWeapon)
+Prefixes:
+  [net.pardeike.rimworld.mod.camera+] Prefix
+  [com.otters.rimworld.mod.Tents] Prefix
+  [VREAndroidsMod] Prefix
+  [co.uk.epicguru.meleeanimation] Prefix
+Transpilers:
+Postfixes:
+  [VREAndroidsMod] Postfix
+  [co.uk.epicguru.meleeanimation] Postfix
+
+System.Void RimWorld.Building_ProximityDetector::RunDetection()
+Prefixes:
+  [co.uk.epicguru.meleeanimation] Prefix
+Transpilers:
+Postfixes:
+  [co.uk.epicguru.meleeanimation] Postfix
+
+static System.Collections.Generic.List`1<Verse.FloatMenuOption> RimWorld.FloatMenuMakerMap::GetOptions(System.Collections.Generic.List`1<Verse.Pawn> selectedPawns, UnityEngine.Vector3 clickPos, RimWorld.FloatMenuContext& context)
+Prefixes:
+Transpilers:
+Postfixes:
+  [co.uk.epicguru.meleeanimation] Postfix
+
+System.Boolean Verse.HediffSet::get_HasHead()
+Prefixes:
+  [co.uk.epicguru.meleeanimation] Prefix
+Transpilers:
+Postfixes:
+
+static System.Boolean RimWorld.InvisibilityUtility::IsPsychologicallyInvisible(Verse.Pawn pawn)
+Prefixes:
+  [co.uk.epicguru.meleeanimation] Prefix
+Transpilers:
+Postfixes:
+
+static System.Void Verse.PawnGenerator::GenerateGearFor(Verse.Pawn pawn, Verse.PawnGenerationRequest request)
+Prefixes:
+Transpilers:
+Postfixes:
+  [co.uk.epicguru.meleeanimation] Postfix
+  [PeteTimesSix.SimpleSidearms] GenerateGearFor
+
+System.Void Verse.PawnRenderer::DrawShadowInternal(UnityEngine.Vector3 drawLoc)
+Prefixes:
+  [co.uk.epicguru.meleeanimation] Prefix
+Transpilers:
+Postfixes:
+
+System.Void Verse.PawnRenderer::ParallelPreRenderPawnAt(UnityEngine.Vector3 drawLoc, System.Nullable`1<Verse.Rot4> rotOverride, System.Boolean neverAimWeapon)
+Prefixes:
+  [co.uk.epicguru.meleeanimation] Prefix
+Transpilers:
+Postfixes:
+
+System.Void Verse.PawnRenderTree::ParallelPreDraw(Verse.PawnDrawParms parms)
+Prefixes:
+  [co.uk.epicguru.meleeanimation] Prefix
+Transpilers:
+Postfixes:
+  [co.uk.epicguru.meleeanimation] Postfix
+  [rimworld.Nals.FacialAnimation] PostfixParallelPreDraw
+
+static Verse.Pawn RimWorld.PawnUtility::PawnBlockingPathAt(Verse.IntVec3 c, Verse.Pawn forPawn, System.Boolean actAsIfHadCollideWithPawnsJob, System.Boolean collideOnlyWithStandingPawns, System.Boolean forPathFinder, System.Boolean useId)
+Prefixes:
+  [co.uk.epicguru.meleeanimation] Prefix
+  [co.uk.epicguru.meleeanimation] Prefix
+Transpilers:
+Postfixes:
+
+System.Void RimWorld.Pawn_ApparelTracker::Notify_ApparelChanged()
+Prefixes:
+  [co.uk.epicguru.meleeanimation] Prefix
+Transpilers:
+Postfixes:
+
+virtual System.Void Verse.Pawn::DrawGUIOverlay()
+Prefixes:
+  [co.uk.epicguru.meleeanimation] Prefix
+Transpilers:
+Postfixes:
+
+System.Void Verse.Pawn_DrawTracker::Notify_MeleeAttackOn(Verse.Thing Target)
+Prefixes:
+  [co.uk.epicguru.meleeanimation] Prefix
+Transpilers:
+Postfixes:
+
+Verse.BattleLogEntry_MeleeCombat RimWorld.Verb_MeleeAttack::CreateCombatLog(System.Func`2<Verse.ManeuverDef, Verse.RulePackDef> rulePackGetter, System.Boolean alwaysShow)
+Prefixes:
+  [co.uk.epicguru.meleeanimation] Prefix
+Transpilers:
+Postfixes:
+
+virtual System.Boolean RimWorld.Verb_MeleeAttack::TryCastShot()
+Prefixes:
+  [co.uk.epicguru.meleeanimation] Prefix
+Transpilers:
+Postfixes:
+  [PeteTimesSix.SimpleSidearms] TryCastShot
+
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+Verse.Log:Message (string)
+AM.Core:Log (string)
+AM.Core:LogPotentialConflicts (HarmonyLib.Harmony)
+AM.Core/<>c:<.ctor>b__25_3 ()
+AM.Core:<AddLateLoadEvents>b__28_0 ()
+Verse.LongEventHandler:RunEventFromAnotherThread (System.Action)
+Verse.LongEventHandler/<>c:<UpdateCurrentAsynchronousEvent>b__28_0 ()
+System.Threading.ThreadHelper:ThreadStart_Context (object)
+System.Threading.ExecutionContext:RunInternal (System.Threading.ExecutionContext,System.Threading.ContextCallback,object,bool)
+System.Threading.ExecutionContext:Run (System.Threading.ExecutionContext,System.Threading.ContextCallback,object,bool)
+System.Threading.ExecutionContext:Run (System.Threading.ExecutionContext,System.Threading.ContextCallback,object)
+System.Threading.ThreadHelper:ThreadStart ()
+
+<color=#66ffb5>[MeleeAnim]</color> PreCached all retexture info in 266.8ms
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+Verse.Log:Message (string)
+AM.Core:Log (string)
+AM.Core:PreCacheAllRetextures ()
+AM.Core:<AddLateLoadEvents>b__28_1 ()
+Verse.LongEventHandler:UpdateCurrentSynchronousEvent (bool&)
+Verse.LongEventHandler:LongEventsUpdate (bool&)
+(wrapper dynamic-method) MonoMod.Utils.DynamicMethodDefinition:Verse.Root.Update_Patch1 (Verse.Root)
+Verse.Root_Entry:Update ()
+
+<color=#66ffb5>[MeleeAnim]</color> Loaded tweak data for 62 weapons.
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+Verse.Log:Message (string)
+AM.Core:Log (string)
+AM.Core:LoadAllTweakData ()
+AM.Core:<AddLateLoadEvents>b__28_1 ()
+Verse.LongEventHandler:UpdateCurrentSynchronousEvent (bool&)
+Verse.LongEventHandler:LongEventsUpdate (bool&)
+(wrapper dynamic-method) MonoMod.Utils.DynamicMethodDefinition:Verse.Root.Update_Patch1 (Verse.Root)
+Verse.Root_Entry:Update ()
+
+<color=#66ffb5>[MeleeAnim]</color> Patched 3 classes that directly inherit from Verb_MeleeAttack in 77.2 ms to detect hits:
+RimWorld.Verb_MeleeApplyHediff from Assembly-CSharp
+RimWorld.Verb_MeleeAttackDamage from Assembly-CSharp
+RRYautja.Verb_MeleeAttackKnockback from RRYautja
+
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+Verse.Log:Message (string)
+AM.Core:Log (string)
+AM.Patches.Patch_Verb_MeleeAttack_ApplyMeleeDamageToTarget:PatchAll ()
+AM.Core:<AddLateLoadEvents>b__28_1 ()
+Verse.LongEventHandler:UpdateCurrentSynchronousEvent (bool&)
+Verse.LongEventHandler:LongEventsUpdate (bool&)
+(wrapper dynamic-method) MonoMod.Utils.DynamicMethodDefinition:Verse.Root.Update_Patch1 (Verse.Root)
+Verse.Root_Entry:Update ()
+
+<color=#66ffb5>[MeleeAnim]</color> Found 17 items of clothing that cover hands, took 1.16 ms:
+VAE_Handwear_Gloves (Gloves),
+VAE_Handwear_PlateGloves (Plate gloves),
+VAE_Handwear_MarineGloves (Marine gloves),
+VAE_Apparel_Shield_Riot (Riot shield),
+VFEP_WarcasketShoulders_Warcasket (Warcasket shoulders),
+VFEP_WarcasketShoulders_Marine (Marine warcasket shoulders),
+VFEP_WarcasketShoulders_Recon (Recon warcasket shoulders),
+VFEP_WarcasketShoulders_Cataphract (Cataphract warcasket shoulders),
+VFEP_WarcasketShoulders_Aerial (Aerial warcasket shoulders),
+VFEP_WarcasketShoulders_Barrage (Barrage warcasket shoulders),
+VFEP_WarcasketShoulders_Hazard (Hazard warcasket shoulders),
+VFEP_WarcasketShoulders_Shock (Shock warcasket shoulders),
+VFEP_WarcasketShoulders_Siegebreaker (Siegebreaker warcasket shoulders),
+VFEP_WarcasketShoulders_Guardian (Guardian warcasket shoulders),
+VFEP_WarcasketShoulders_Controller (Controller warcasket shoulders),
+VFEP_WarcasketShoulders_Sarcophagus (Sarcophagus warcasket shoulders),
+VFEP_WarcasketShoulders_Brute (Brute warcasket shoulders)
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+Verse.Log:Message (string)
+AM.Core:Log (string)
+AM.Hands.HandUtility:DoInitialLoading ()
+AM.Core:<AddLateLoadEvents>b__28_1 ()
+Verse.LongEventHandler:UpdateCurrentSynchronousEvent (bool&)
+Verse.LongEventHandler:LongEventsUpdate (bool&)
+(wrapper dynamic-method) MonoMod.Utils.DynamicMethodDefinition:Verse.Root.Update_Patch1 (Verse.Root)
+Verse.Root_Entry:Update ()
+
+  --> [What's That Mod] Took 0.18 seconds to scan all patches. <--
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+Verse.Log:Message (string)
+WhatsThatMod.ModCore:DefWriter (bool,System.Collections.Generic.HashSet`1<string>,string,string)
+WhatsThatMod.ModCore:WriteToDefs ()
+WhatsThatMod.ModCore:Run ()
+Verse.LongEventHandler:UpdateCurrentSynchronousEvent (bool&)
+Verse.LongEventHandler:LongEventsUpdate (bool&)
+(wrapper dynamic-method) MonoMod.Utils.DynamicMethodDefinition:Verse.Root.Update_Patch1 (Verse.Root)
+Verse.Root_Entry:Update ()
+
+What's That Mod: Wrote to 9520 mod descriptions, 17 patched defs resolved.
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+Verse.Log:Message (string)
+WhatsThatMod.ModCore:DefWriter (bool,System.Collections.Generic.HashSet`1<string>,string,string)
+WhatsThatMod.ModCore:WriteToDefs ()
+WhatsThatMod.ModCore:Run ()
+Verse.LongEventHandler:UpdateCurrentSynchronousEvent (bool&)
+Verse.LongEventHandler:LongEventsUpdate (bool&)
+(wrapper dynamic-method) MonoMod.Utils.DynamicMethodDefinition:Verse.Root.Update_Patch1 (Verse.Root)
+Verse.Root_Entry:Update ()
+
+What's That Mod took 198 milliseconds to generate all def descriptions.
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+Verse.Log:Message (string)
+WhatsThatMod.ModCore:Run ()
+Verse.LongEventHandler:UpdateCurrentSynchronousEvent (bool&)
+Verse.LongEventHandler:LongEventsUpdate (bool&)
+(wrapper dynamic-method) MonoMod.Utils.DynamicMethodDefinition:Verse.Root.Update_Patch1 (Verse.Root)
+Verse.Root_Entry:Update ()
+
+[HugsLib] initializing TerraformRimworld
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+Verse.Log:Message (string)
+HugsLib.Utils.ModLogger:Message (string,object[])
+HugsLib.HugsLibController:EnumerateChildMods (bool)
+HugsLib.HugsLibController:LoadReloadInitialize ()
+Verse.LongEventHandler:RunEventFromAnotherThread (System.Action)
+Verse.LongEventHandler/<>c:<UpdateCurrentAsynchronousEvent>b__28_0 ()
+System.Threading.ThreadHelper:ThreadStart_Context (object)
+System.Threading.ExecutionContext:RunInternal (System.Threading.ExecutionContext,System.Threading.ContextCallback,object,bool)
+System.Threading.ExecutionContext:Run (System.Threading.ExecutionContext,System.Threading.ContextCallback,object,bool)
+System.Threading.ExecutionContext:Run (System.Threading.ExecutionContext,System.Threading.ContextCallback,object)
+System.Threading.ThreadHelper:ThreadStart ()
+
+CE is trying to create default parameter lists ...
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+Verse.Log:Message (string)
+CharacterEditor.CEditor/ModOptions:CreateDefaultLists ()
+CharacterEditor.CEditor:OnMainMenuOnGUI ()
+(wrapper dynamic-method) MonoMod.Utils.DynamicMethodDefinition:RimWorld.MainMenuDrawer.MainMenuOnGUI_Patch1 ()
+(wrapper dynamic-method) MonoMod.Utils.DynamicMethodDefinition:Verse.UIRoot_Entry.DoMainMenu_Patch1 (Verse.UIRoot_Entry)
+Verse.UIRoot_Entry:UIRootOnGUI ()
+(wrapper dynamic-method) MonoMod.Utils.DynamicMethodDefinition:Verse.Root.OnGUI_Patch2 (Verse.Root)
+
+creating default parameter list for genes...
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+Verse.Log:Message (string)
+CharacterEditor.CEditor/ModData:CreateType (CharacterEditor.EType)
+CharacterEditor.CEditor/ModData:Get<System.Collections.Generic.Dictionary`2<string, CharacterEditor.PresetGene>> (CharacterEditor.EType)
+CharacterEditor.CEditor:Get<System.Collections.Generic.Dictionary`2<string, CharacterEditor.PresetGene>> (CharacterEditor.EType)
+CharacterEditor.CEditor/ModOptions:CreateDefaultLists ()
+CharacterEditor.CEditor:OnMainMenuOnGUI ()
+(wrapper dynamic-method) MonoMod.Utils.DynamicMethodDefinition:RimWorld.MainMenuDrawer.MainMenuOnGUI_Patch1 ()
+(wrapper dynamic-method) MonoMod.Utils.DynamicMethodDefinition:Verse.UIRoot_Entry.DoMainMenu_Patch1 (Verse.UIRoot_Entry)
+Verse.UIRoot_Entry:UIRootOnGUI ()
+(wrapper dynamic-method) MonoMod.Utils.DynamicMethodDefinition:Verse.Root.OnGUI_Patch2 (Verse.Root)
+
+729 default entities for genes created
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+Verse.Log:Message (string)
+CharacterEditor.Preset:CreateDefaults<CharacterEditor.PresetGene, Verse.GeneDef> (System.Collections.Generic.HashSet`1<Verse.GeneDef>,System.Func`2<Verse.GeneDef, string>,System.Func`2<Verse.GeneDef, CharacterEditor.PresetGene>,string)
+CharacterEditor.PresetGene:CreateDefaults ()
+CharacterEditor.CEditor/ModData:CreateType (CharacterEditor.EType)
+CharacterEditor.CEditor/ModData:Get<System.Collections.Generic.Dictionary`2<string, CharacterEditor.PresetGene>> (CharacterEditor.EType)
+CharacterEditor.CEditor:Get<System.Collections.Generic.Dictionary`2<string, CharacterEditor.PresetGene>> (CharacterEditor.EType)
+CharacterEditor.CEditor/ModOptions:CreateDefaultLists ()
+CharacterEditor.CEditor:OnMainMenuOnGUI ()
+(wrapper dynamic-method) MonoMod.Utils.DynamicMethodDefinition:RimWorld.MainMenuDrawer.MainMenuOnGUI_Patch1 ()
+(wrapper dynamic-method) MonoMod.Utils.DynamicMethodDefinition:Verse.UIRoot_Entry.DoMainMenu_Patch1 (Verse.UIRoot_Entry)
+Verse.UIRoot_Entry:UIRootOnGUI ()
+(wrapper dynamic-method) MonoMod.Utils.DynamicMethodDefinition:Verse.Root.OnGUI_Patch2 (Verse.Root)
+
+creating default parameter list for objects...
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+Verse.Log:Message (string)
+CharacterEditor.CEditor/ModData:CreateType (CharacterEditor.EType)
+CharacterEditor.CEditor/ModData:Get<System.Collections.Generic.Dictionary`2<string, CharacterEditor.PresetObject>> (CharacterEditor.EType)
+CharacterEditor.CEditor:Get<System.Collections.Generic.Dictionary`2<string, CharacterEditor.PresetObject>> (CharacterEditor.EType)
+CharacterEditor.CEditor/ModOptions:CreateDefaultLists ()
+CharacterEditor.CEditor:OnMainMenuOnGUI ()
+(wrapper dynamic-method) MonoMod.Utils.DynamicMethodDefinition:RimWorld.MainMenuDrawer.MainMenuOnGUI_Patch1 ()
+(wrapper dynamic-method) MonoMod.Utils.DynamicMethodDefinition:Verse.UIRoot_Entry.DoMainMenu_Patch1 (Verse.UIRoot_Entry)
+Verse.UIRoot_Entry:UIRootOnGUI ()
+(wrapper dynamic-method) MonoMod.Utils.DynamicMethodDefinition:Verse.Root.OnGUI_Patch2 (Verse.Root)
+
+5215 default entities for objects created
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+Verse.Log:Message (string)
+CharacterEditor.Preset:CreateDefaults<CharacterEditor.PresetObject, Verse.ThingDef> (System.Collections.Generic.HashSet`1<Verse.ThingDef>,System.Func`2<Verse.ThingDef, string>,System.Func`2<Verse.ThingDef, CharacterEditor.PresetObject>,string)
+CharacterEditor.PresetObject:CreateDefaultObjects ()
+CharacterEditor.CEditor/ModData:CreateType (CharacterEditor.EType)
+CharacterEditor.CEditor/ModData:Get<System.Collections.Generic.Dictionary`2<string, CharacterEditor.PresetObject>> (CharacterEditor.EType)
+CharacterEditor.CEditor:Get<System.Collections.Generic.Dictionary`2<string, CharacterEditor.PresetObject>> (CharacterEditor.EType)
+CharacterEditor.CEditor/ModOptions:CreateDefaultLists ()
+CharacterEditor.CEditor:OnMainMenuOnGUI ()
+(wrapper dynamic-method) MonoMod.Utils.DynamicMethodDefinition:RimWorld.MainMenuDrawer.MainMenuOnGUI_Patch1 ()
+(wrapper dynamic-method) MonoMod.Utils.DynamicMethodDefinition:Verse.UIRoot_Entry.DoMainMenu_Patch1 (Verse.UIRoot_Entry)
+Verse.UIRoot_Entry:UIRootOnGUI ()
+(wrapper dynamic-method) MonoMod.Utils.DynamicMethodDefinition:Verse.Root.OnGUI_Patch2 (Verse.Root)
+
+creating default parameter list for turrets...
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+Verse.Log:Message (string)
+CharacterEditor.CEditor/ModData:CreateType (CharacterEditor.EType)
+CharacterEditor.CEditor/ModData:Get<System.Collections.Generic.Dictionary`2<string, CharacterEditor.PresetObject>> (CharacterEditor.EType)
+CharacterEditor.CEditor:Get<System.Collections.Generic.Dictionary`2<string, CharacterEditor.PresetObject>> (CharacterEditor.EType)
+CharacterEditor.CEditor/ModOptions:CreateDefaultLists ()
+CharacterEditor.CEditor:OnMainMenuOnGUI ()
+(wrapper dynamic-method) MonoMod.Utils.DynamicMethodDefinition:RimWorld.MainMenuDrawer.MainMenuOnGUI_Patch1 ()
+(wrapper dynamic-method) MonoMod.Utils.DynamicMethodDefinition:Verse.UIRoot_Entry.DoMainMenu_Patch1 (Verse.UIRoot_Entry)
+Verse.UIRoot_Entry:UIRootOnGUI ()
+(wrapper dynamic-method) MonoMod.Utils.DynamicMethodDefinition:Verse.Root.OnGUI_Patch2 (Verse.Root)
+
+72 default entities for turrets created
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+Verse.Log:Message (string)
+CharacterEditor.Preset:CreateDefaults<CharacterEditor.PresetObject, Verse.ThingDef> (System.Collections.Generic.HashSet`1<Verse.ThingDef>,System.Func`2<Verse.ThingDef, string>,System.Func`2<Verse.ThingDef, CharacterEditor.PresetObject>,string)
+CharacterEditor.PresetObject:CreateDefaultTurrets ()
+CharacterEditor.CEditor/ModData:CreateType (CharacterEditor.EType)
+CharacterEditor.CEditor/ModData:Get<System.Collections.Generic.Dictionary`2<string, CharacterEditor.PresetObject>> (CharacterEditor.EType)
+CharacterEditor.CEditor:Get<System.Collections.Generic.Dictionary`2<string, CharacterEditor.PresetObject>> (CharacterEditor.EType)
+CharacterEditor.CEditor/ModOptions:CreateDefaultLists ()
+CharacterEditor.CEditor:OnMainMenuOnGUI ()
+(wrapper dynamic-method) MonoMod.Utils.DynamicMethodDefinition:RimWorld.MainMenuDrawer.MainMenuOnGUI_Patch1 ()
+(wrapper dynamic-method) MonoMod.Utils.DynamicMethodDefinition:Verse.UIRoot_Entry.DoMainMenu_Patch1 (Verse.UIRoot_Entry)
+Verse.UIRoot_Entry:UIRootOnGUI ()
+(wrapper dynamic-method) MonoMod.Utils.DynamicMethodDefinition:Verse.Root.OnGUI_Patch2 (Verse.Root)
+
+...lists created
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+Verse.Log:Message (string)
+CharacterEditor.CEditor/ModOptions:CreateDefaultLists ()
+CharacterEditor.CEditor:OnMainMenuOnGUI ()
+(wrapper dynamic-method) MonoMod.Utils.DynamicMethodDefinition:RimWorld.MainMenuDrawer.MainMenuOnGUI_Patch1 ()
+(wrapper dynamic-method) MonoMod.Utils.DynamicMethodDefinition:Verse.UIRoot_Entry.DoMainMenu_Patch1 (Verse.UIRoot_Entry)
+Verse.UIRoot_Entry:UIRootOnGUI ()
+(wrapper dynamic-method) MonoMod.Utils.DynamicMethodDefinition:Verse.Root.OnGUI_Patch2 (Verse.Root)
+
+CE is trying to apply modified parameters...
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+Verse.Log:Message (string)
+CharacterEditor.CEditor/ModOptions:UpdatingCustoms ()
+CharacterEditor.CEditor:OnMainMenuOnGUI ()
+(wrapper dynamic-method) MonoMod.Utils.DynamicMethodDefinition:RimWorld.MainMenuDrawer.MainMenuOnGUI_Patch1 ()
+(wrapper dynamic-method) MonoMod.Utils.DynamicMethodDefinition:Verse.UIRoot_Entry.DoMainMenu_Patch1 (Verse.UIRoot_Entry)
+Verse.UIRoot_Entry:UIRootOnGUI ()
+(wrapper dynamic-method) MonoMod.Utils.DynamicMethodDefinition:Verse.Root.OnGUI_Patch2 (Verse.Root)
+
+no modifications for genes
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+Verse.Log:Message (string)
+CharacterEditor.Preset:LoadAllModifications (string,System.Action`1<string>,string)
+CharacterEditor.PresetGene:LoadAllModifications (string)
+CharacterEditor.CEditor/ModOptions:UpdatingCustoms ()
+CharacterEditor.CEditor:OnMainMenuOnGUI ()
+(wrapper dynamic-method) MonoMod.Utils.DynamicMethodDefinition:RimWorld.MainMenuDrawer.MainMenuOnGUI_Patch1 ()
+(wrapper dynamic-method) MonoMod.Utils.DynamicMethodDefinition:Verse.UIRoot_Entry.DoMainMenu_Patch1 (Verse.UIRoot_Entry)
+Verse.UIRoot_Entry:UIRootOnGUI ()
+(wrapper dynamic-method) MonoMod.Utils.DynamicMethodDefinition:Verse.Root.OnGUI_Patch2 (Verse.Root)
+
+Gun_ThundercatRifle modification loaded
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+Verse.Log:Message (string)
+CharacterEditor.PresetObject:.ctor (string)
+CharacterEditor.PresetObject/<>c:<LoadAllModifications>b__25_0 (string)
+CharacterEditor.Preset:LoadAllModifications (string,System.Action`1<string>,string)
+CharacterEditor.PresetObject:LoadAllModifications (string)
+CharacterEditor.CEditor/ModOptions:UpdatingCustoms ()
+CharacterEditor.CEditor:OnMainMenuOnGUI ()
+(wrapper dynamic-method) MonoMod.Utils.DynamicMethodDefinition:RimWorld.MainMenuDrawer.MainMenuOnGUI_Patch1 ()
+(wrapper dynamic-method) MonoMod.Utils.DynamicMethodDefinition:Verse.UIRoot_Entry.DoMainMenu_Patch1 (Verse.UIRoot_Entry)
+Verse.UIRoot_Entry:UIRootOnGUI ()
+(wrapper dynamic-method) MonoMod.Utils.DynamicMethodDefinition:Verse.Root.OnGUI_Patch2 (Verse.Root)
+
+FoldingTent modification loaded
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+Verse.Log:Message (string)
+CharacterEditor.PresetObject:.ctor (string)
+CharacterEditor.PresetObject/<>c:<LoadAllModifications>b__25_0 (string)
+CharacterEditor.Preset:LoadAllModifications (string,System.Action`1<string>,string)
+CharacterEditor.PresetObject:LoadAllModifications (string)
+CharacterEditor.CEditor/ModOptions:UpdatingCustoms ()
+CharacterEditor.CEditor:OnMainMenuOnGUI ()
+(wrapper dynamic-method) MonoMod.Utils.DynamicMethodDefinition:RimWorld.MainMenuDrawer.MainMenuOnGUI_Patch1 ()
+(wrapper dynamic-method) MonoMod.Utils.DynamicMethodDefinition:Verse.UIRoot_Entry.DoMainMenu_Patch1 (Verse.UIRoot_Entry)
+Verse.UIRoot_Entry:UIRootOnGUI ()
+(wrapper dynamic-method) MonoMod.Utils.DynamicMethodDefinition:Verse.Root.OnGUI_Patch2 (Verse.Root)
+
+no modifications for lifestages
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+Verse.Log:Message (string)
+CharacterEditor.Preset:LoadAllModifications (string,System.Action`1<string>,string)
+CharacterEditor.PresetLifeStage:LoadAllModifications (string)
+CharacterEditor.CEditor/ModOptions:UpdatingCustoms ()
+CharacterEditor.CEditor:OnMainMenuOnGUI ()
+(wrapper dynamic-method) MonoMod.Utils.DynamicMethodDefinition:RimWorld.MainMenuDrawer.MainMenuOnGUI_Patch1 ()
+(wrapper dynamic-method) MonoMod.Utils.DynamicMethodDefinition:Verse.UIRoot_Entry.DoMainMenu_Patch1 (Verse.UIRoot_Entry)
+Verse.UIRoot_Entry:UIRootOnGUI ()
+(wrapper dynamic-method) MonoMod.Utils.DynamicMethodDefinition:Verse.Root.OnGUI_Patch2 (Verse.Root)
+
+...done
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+Verse.Log:Message (string)
+CharacterEditor.CEditor/ModOptions:UpdatingCustoms ()
+CharacterEditor.CEditor:OnMainMenuOnGUI ()
+(wrapper dynamic-method) MonoMod.Utils.DynamicMethodDefinition:RimWorld.MainMenuDrawer.MainMenuOnGUI_Patch1 ()
+(wrapper dynamic-method) MonoMod.Utils.DynamicMethodDefinition:Verse.UIRoot_Entry.DoMainMenu_Patch1 (Verse.UIRoot_Entry)
+Verse.UIRoot_Entry:UIRootOnGUI ()
+(wrapper dynamic-method) MonoMod.Utils.DynamicMethodDefinition:Verse.Root.OnGUI_Patch2 (Verse.Root)
