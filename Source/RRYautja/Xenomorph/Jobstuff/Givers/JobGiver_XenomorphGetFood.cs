@@ -1,4 +1,5 @@
-﻿using RRYautja.ExtensionMethods;
+using RRYautja;
+using RRYautja.ExtensionMethods;
 using System;
 using Verse;
 using Verse.AI;
@@ -45,13 +46,9 @@ namespace RimWorld
         protected override Job TryGiveJob(Pawn pawn)
         {
             if (pawn == null || pawn.Map == null) return null;
+            if (!JobGiverTickThrottle.ShouldRun(pawn)) return null;
             Need_Food food = pawn.needs.food;
-            LifeStageDef stage = pawn.ageTracker.CurLifeStage;
-            
-            if (stage == pawn.RaceProps.lifeStageAges[pawn.RaceProps.lifeStageAges.Count - 1].def)
-            {
-                return null;
-            }
+            if (food == null) return null;
             
             bool flag;
             if (pawn.AnimalOrWildMan())

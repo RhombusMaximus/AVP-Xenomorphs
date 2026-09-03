@@ -844,11 +844,9 @@ namespace RimWorld
             string text = base.GetInspectString();
             if (this.Map == null) return text;
 
-            // Count pawns inside (innerContainer) and outside (spawned) by type
-            var insideCounts = new Dictionary<string, int>();
-            var outsideCounts = new Dictionary<string, int>();
+            var counts = new Dictionary<string, int>();
 
-            // Inside: pawns in innerContainer (this hive + child hives)
+            // Inside: pawns in innerContainer
             if (this.innerContainer != null)
             {
                 foreach (Thing t in this.innerContainer)
@@ -856,8 +854,8 @@ namespace RimWorld
                     if (t is Pawn p)
                     {
                         string label = p.kindDef.label;
-                        if (!insideCounts.ContainsKey(label)) insideCounts[label] = 0;
-                        insideCounts[label]++;
+                        if (!counts.ContainsKey(label)) counts[label] = 0;
+                        counts[label]++;
                     }
                 }
             }
@@ -870,23 +868,16 @@ namespace RimWorld
                     if (p != null && p.Spawned && p.Map == this.Map)
                     {
                         string label = p.kindDef.label;
-                        if (!outsideCounts.ContainsKey(label)) outsideCounts[label] = 0;
-                        outsideCounts[label]++;
+                        if (!counts.ContainsKey(label)) counts[label] = 0;
+                        counts[label]++;
                     }
                 }
             }
 
-            int totalInside = insideCounts.Values.Sum();
-            int totalOutside = outsideCounts.Values.Sum();
-
-            if (totalInside > 0 || totalOutside > 0)
+            if (counts.Count > 0)
             {
-                text += "\nInside: " + totalInside;
-                foreach (var kv in insideCounts.OrderBy(x => x.Key))
-                    text += "\n  " + kv.Key + ": " + kv.Value;
-
-                text += "\nOutside: " + totalOutside;
-                foreach (var kv in outsideCounts.OrderBy(x => x.Key))
+                text += "\nXenomorphs: " + counts.Values.Sum();
+                foreach (var kv in counts.OrderBy(x => x.Key))
                     text += "\n  " + kv.Key + ": " + kv.Value;
             }
 

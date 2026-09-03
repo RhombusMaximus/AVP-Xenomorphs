@@ -200,6 +200,11 @@
           <onlyIfDamagingState>true</onlyIfDamagingState>
         </li>
 		
+		<!-- Get food (young Xenos are hungry, adults barely eat) -->
+		<li Class="JobGiver_Xenomorph_GetFood"> 
+		  <minCategory>UrgentlyHungry</minCategory>
+		</li>
+		
 		<li Class="JobGiver_XenosKidnap"> 
           <HuntingRange>12</HuntingRange>
           <allowHosts>true</allowHosts>

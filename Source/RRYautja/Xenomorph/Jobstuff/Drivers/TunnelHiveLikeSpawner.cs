@@ -350,7 +350,6 @@ namespace RimWorld
             
             string text = base.GetInspectString();
             
-            // Find all HiveLike buildings on this map
             var hives = this.Map.listerThings.ThingsOfDef(ThingDef.Named("RRY_Xenomorph_Hive"))
                 .Cast<HiveLike>()
                 .Concat(this.Map.listerThings.ThingsOfDef(ThingDef.Named("RRY_Xenomorph_Hive_Child")).Cast<HiveLike>())
@@ -358,51 +357,35 @@ namespace RimWorld
             
             if (hives.Count == 0) return text;
             
-            // Count pawns inside (innerContainer) and outside (spawned) by type
-            var insideCounts = new Dictionary<string, int>();
-            var outsideCounts = new Dictionary<string, int>();
+            var counts = new Dictionary<string, int>();
             
             foreach (var hive in hives)
             {
-                // Inside: pawns in innerContainer
                 if (hive.innerContainer != null)
-                {
                     foreach (Thing t in hive.innerContainer)
-                    {
                         if (t is Pawn p)
                         {
                             string label = p.kindDef.label;
-                            if (!insideCounts.ContainsKey(label)) insideCounts[label] = 0;
-                            insideCounts[label]++;
+                            if (!counts.ContainsKey(label)) counts[label] = 0;
+                            counts[label]++;
                         }
-                    }
-                }
                 
-                // Outside: spawnedPawns on the map
                 if (hive.spawnedPawns != null)
-                {
                     foreach (Pawn p in hive.spawnedPawns)
-                    {
                         if (p != null && p.Spawned && p.Map == this.Map)
                         {
                             string label = p.kindDef.label;
-                            if (!outsideCounts.ContainsKey(label)) outsideCounts[label] = 0;
-                            outsideCounts[label]++;
+                            if (!counts.ContainsKey(label)) counts[label] = 0;
+                            counts[label]++;
                         }
-                    }
-                }
             }
             
-            int totalInside = insideCounts.Values.Sum();
-            int totalOutside = outsideCounts.Values.Sum();
-            
-            text += "\nXenomorphs inside: " + totalInside;
-            foreach (var kv in insideCounts.OrderBy(x => x.Key))
-                text += "\n  " + kv.Key + ": " + kv.Value;
-            
-            text += "\nXenomorphs outside: " + totalOutside;
-            foreach (var kv in outsideCounts.OrderBy(x => x.Key))
-                text += "\n  " + kv.Key + ": " + kv.Value;
+            if (counts.Count > 0)
+            {
+                text += "\nXenomorphs: " + counts.Values.Sum();
+                foreach (var kv in counts.OrderBy(x => x.Key))
+                    text += "\n  " + kv.Key + ": " + kv.Value;
+            }
             
             return text;
         }

@@ -52,7 +52,7 @@
       <!--predator>true</predator-->
       <maxPreyBodySize>3.0</maxPreyBodySize>
       <baseBodySize>0.75</baseBodySize>
-      <baseHungerRate>0.0</baseHungerRate>
+      <baseHungerRate>0.003</baseHungerRate>
       <baseHealthScale>0.75</baseHealthScale>
       <fleshType>RRY_Xenomorph</fleshType>
       <bloodDef>RRY_FilthBloodXenomorph</bloodDef>	

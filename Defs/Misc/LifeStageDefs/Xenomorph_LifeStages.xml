@@ -7,13 +7,14 @@
     <visible>false</visible>
   </LifeStageDef>
 
+  <!-- Newborn chestburster: ravenous, needs food immediately -->
   <LifeStageDef>
     <defName>RRY_XenomorphChestBursterBaby</defName>
     <label>newborn</label>
     <bodySizeFactor>0.2</bodySizeFactor>
 		<foodMaxFactor>1.5</foodMaxFactor>
 		<healthScaleFactor>1</healthScaleFactor>
-    <hungerRateFactor>0.0</hungerRateFactor>
+    <hungerRateFactor>5.0</hungerRateFactor>
     <marketValueFactor>0.5</marketValueFactor>
     <meleeDamageFactor>0.5</meleeDamageFactor>
     <statFactors>
@@ -21,13 +22,14 @@
     </statFactors>
   </LifeStageDef>
 
+  <!-- Shedling: still very hungry, growing fast -->
   <LifeStageDef>
     <defName>RRY_XenomorphChestBursterBig</defName>
     <label>shedling</label>
     <bodySizeFactor>0.32</bodySizeFactor>
 		<foodMaxFactor>1.5</foodMaxFactor>
 		<healthScaleFactor>1</healthScaleFactor>
-    <hungerRateFactor>0.4</hungerRateFactor>
+    <hungerRateFactor>3.0</hungerRateFactor>
     <marketValueFactor>0.7</marketValueFactor>
     <meleeDamageFactor>0.6</meleeDamageFactor>
     <statFactors>
@@ -35,12 +37,13 @@
     </statFactors>
   </LifeStageDef>
 
+  <!-- Young: hungry but slowing down -->
   <LifeStageDef>
     <defName>RRY_XenomorphFormedBaby</defName>
     <label>young</label>
     <bodySizeFactor>0.5</bodySizeFactor>
     <healthScaleFactor>1</healthScaleFactor>
-    <hungerRateFactor>0.6</hungerRateFactor>
+    <hungerRateFactor>2.0</hungerRateFactor>
     <marketValueFactor>0.9</marketValueFactor>
     <meleeDamageFactor>0.7</meleeDamageFactor>
     <statFactors>
@@ -48,6 +51,7 @@
     </statFactors>
   </LifeStageDef>
 
+  <!-- Adolescent: slowing down -->
   <LifeStageDef>
     <defName>RRY_XenomorphFormedMid</defName>
     <label>adolecant</label>
@@ -55,18 +59,21 @@
     <reproductive>true</reproductive>
     <bodySizeFactor>0.85</bodySizeFactor>
     <healthScaleFactor>1</healthScaleFactor>
+    <hungerRateFactor>0.5</hungerRateFactor>
     <meleeDamageFactor>0.75</meleeDamageFactor>
     <statFactors>
       <MoveSpeed>0.95</MoveSpeed>
     </statFactors>
   </LifeStageDef>
   
+  <!-- Adult: extremely slow metabolism, months before starving -->
   <LifeStageDef>
     <defName>RRY_XenomorphFullyFormed</defName>
     <label>adult</label>
     <visible>false</visible>
     <reproductive>true</reproductive>
     <milkable>true</milkable>
+    <hungerRateFactor>0.1</hungerRateFactor>
   </LifeStageDef>
 
 </Defs>
