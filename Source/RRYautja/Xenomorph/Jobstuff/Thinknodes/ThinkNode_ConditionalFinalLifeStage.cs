@@ -48,7 +48,7 @@ namespace RimWorld
             // Don't hunt if currently in a melee attack job (attached to host)
             if (pawn.jobs?.curJob != null && pawn.jobs.curJob.def == JobDefOf.AttackMelee) return false;
             // Don't hunt if downed/stunned
-            if (pawn.Downed || pawn.stances?.FullBodyStunned == true) return false;
+            if (pawn.Downed || pawn.stances?.Stunned == true) return false;
             return true;
         }
     }
