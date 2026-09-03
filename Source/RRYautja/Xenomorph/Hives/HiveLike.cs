@@ -839,6 +839,60 @@ namespace RimWorld
             base.Destroy(mode);
         }
 
+        public override string GetInspectString()
+        {
+            string text = base.GetInspectString();
+            if (this.Map == null) return text;
+
+            // Count pawns inside (innerContainer) and outside (spawned) by type
+            var insideCounts = new Dictionary<string, int>();
+            var outsideCounts = new Dictionary<string, int>();
+
+            // Inside: pawns in innerContainer (this hive + child hives)
+            if (this.innerContainer != null)
+            {
+                foreach (Thing t in this.innerContainer)
+                {
+                    if (t is Pawn p)
+                    {
+                        string label = p.kindDef.label;
+                        if (!insideCounts.ContainsKey(label)) insideCounts[label] = 0;
+                        insideCounts[label]++;
+                    }
+                }
+            }
+
+            // Outside: spawnedPawns on the map
+            if (this.spawnedPawns != null)
+            {
+                foreach (Pawn p in this.spawnedPawns)
+                {
+                    if (p != null && p.Spawned && p.Map == this.Map)
+                    {
+                        string label = p.kindDef.label;
+                        if (!outsideCounts.ContainsKey(label)) outsideCounts[label] = 0;
+                        outsideCounts[label]++;
+                    }
+                }
+            }
+
+            int totalInside = insideCounts.Values.Sum();
+            int totalOutside = outsideCounts.Values.Sum();
+
+            if (totalInside > 0 || totalOutside > 0)
+            {
+                text += "\nInside: " + totalInside;
+                foreach (var kv in insideCounts.OrderBy(x => x.Key))
+                    text += "\n  " + kv.Key + ": " + kv.Value;
+
+                text += "\nOutside: " + totalOutside;
+                foreach (var kv in outsideCounts.OrderBy(x => x.Key))
+                    text += "\n  " + kv.Key + ": " + kv.Value;
+            }
+
+            return text;
+        }
+
         public override void PreApplyDamage(ref DamageInfo dinfo, out bool absorbed)
         {
             if (dinfo.Def==XenomorphDefOf.RRY_AcidBurn || dinfo.Def == XenomorphDefOf.RRY_AcidDamage)

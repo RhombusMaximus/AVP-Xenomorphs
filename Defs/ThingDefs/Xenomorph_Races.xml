@@ -653,7 +653,7 @@
     <label>Drone</label>
     <race>RRY_Xenomorph_Drone</race>
     <combatPower>62.5</combatPower>
-    <alternateGraphicChance>0.5</alternateGraphicChance>
+    <alternateGraphicChance>1.0</alternateGraphicChance>
     <alternateGraphics>
       <!-- Dark Drone -->
       <li><texPath>Things/Pawn/Xenomorph/Xenomorph_Drone_New_Dark</texPath></li>
@@ -858,7 +858,7 @@
     <race>RRY_Xenomorph_Warrior</race>
     <combatPower>80.0</combatPower>
 	<!--
-    <alternateGraphicChance>0.5</alternateGraphicChance>
+    <alternateGraphicChance>1.0</alternateGraphicChance>
     <alternateGraphics>
       <li><texPath>Things/Pawn/Xenomorph/Xenomorph_Warrior_New</texPath></li
       <li><texPath>Things/Pawn/Xenomorph/Xenomorph_Warrior_New_Red</texPath></li>
