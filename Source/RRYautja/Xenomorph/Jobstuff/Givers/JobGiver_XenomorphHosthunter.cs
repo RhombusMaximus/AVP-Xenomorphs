@@ -49,6 +49,7 @@ namespace RimWorld
         // Token: 0x060005B7 RID: 1463 RVA: 0x00037A28 File Offset: 0x00035E28
         protected override Job TryGiveJob(Pawn pawn)
         {
+            if (!JobGiverTickThrottle.ShouldRun(pawn)) return null;
             Job job = null;
             if (pawn == null || pawn.Map == null) return job;
             bool healthy = (pawn.health?.summaryHealth?.SummaryHealthPercent > 0.75f && pawn.health?.hediffSet?.BleedRateTotal < 0.15f);

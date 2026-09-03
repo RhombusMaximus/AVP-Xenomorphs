@@ -15,6 +15,7 @@ namespace RRYautja
         // Token: 0x060004C5 RID: 1221 RVA: 0x00030B6C File Offset: 0x0002EF6C
         protected override Job TryGiveJob(Pawn pawn)
         {
+            if (!JobGiverTickThrottle.ShouldRun(pawn)) return null;
             if (pawn == null || pawn.Map == null) return null;
             MapComponent_HiveGrid _HiveGrid = pawn.Map.GetComponent<MapComponent_HiveGrid>();
             HiveLike Tunnel = null;

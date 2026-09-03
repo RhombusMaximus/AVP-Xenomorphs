@@ -14,6 +14,7 @@ namespace RimWorld
         // Token: 0x06000424 RID: 1060 RVA: 0x0002CE84 File Offset: 0x0002B284
         protected override Job TryGiveJob(Pawn pawn)
         {
+            if (!JobGiverTickThrottle.ShouldRun(pawn)) return null;
             ThingDef namedA = XenomorphDefOf.RRY_Xenomorph_Cocoon_Humanoid;
             ThingDef namedB = XenomorphDefOf.RRY_Xenomorph_Cocoon_Animal;
             if (pawn.Map == null || pawn.Map != Find.CurrentMap)

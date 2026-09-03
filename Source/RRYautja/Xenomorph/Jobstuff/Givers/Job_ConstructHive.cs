@@ -26,6 +26,7 @@ namespace RimWorld
 
         protected override Job TryGiveJob(Pawn pawn)
         {
+            if (!JobGiverTickThrottle.ShouldRun(pawn)) return null;
             if (!pawn.isXenomorph(out Comp_Xenomorph _Xenomorph))
             {
                 return null;

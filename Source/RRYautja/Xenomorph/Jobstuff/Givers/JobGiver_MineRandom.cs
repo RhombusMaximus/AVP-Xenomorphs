@@ -24,6 +24,7 @@ namespace RimWorld
         // Token: 0x0600041E RID: 1054 RVA: 0x0002CA54 File Offset: 0x0002AE54
         protected override Job TryGiveJob(Pawn pawn)
         {
+            if (!JobGiverTickThrottle.ShouldRun(pawn)) return null;
             IntVec3 hivec = pawn.mindState.duty.focus.Cell;
             List<IntVec3> pillarLoc = new List<IntVec3>()
             {
@@ -160,6 +161,7 @@ namespace RimWorld
         // Token: 0x0600041E RID: 1054 RVA: 0x0002CA54 File Offset: 0x0002AE54
         protected override Job TryGiveJob(Pawn pawn)
         {
+            if (!JobGiverTickThrottle.ShouldRun(pawn)) return null;
             if (pawn.Map==null)
             {
             //    Log.Message("map == null");
@@ -333,6 +335,7 @@ namespace RimWorld
         // Token: 0x0600041E RID: 1054 RVA: 0x0002CA54 File Offset: 0x0002AE54
         protected override Job TryGiveJob(Pawn pawn)
         {
+            if (!JobGiverTickThrottle.ShouldRun(pawn)) return null;
             if (pawn.Map == null)
             {
                 return null;
@@ -411,6 +414,7 @@ namespace RimWorld
         // Token: 0x0600041E RID: 1054 RVA: 0x0002CA54 File Offset: 0x0002AE54
         protected override Job TryGiveJob(Pawn pawn)
         {
+            if (!JobGiverTickThrottle.ShouldRun(pawn)) return null;
             Region region = pawn.GetRegion(RegionType.Set_Passable);
             if (region == null)
             {

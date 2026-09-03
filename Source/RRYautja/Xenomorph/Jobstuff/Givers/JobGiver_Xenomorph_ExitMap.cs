@@ -1,6 +1,7 @@
 using System;
 using System.Linq;
 using RimWorld;
+using RRYautja;
 
 namespace Verse.AI
 {
@@ -25,6 +26,7 @@ namespace Verse.AI
 		// Token: 0x06003DA3 RID: 15779 RVA: 0x0016D63C File Offset: 0x0016B83C
 		protected override Job TryGiveJob(Pawn pawn)
 		{
+            if (!JobGiverTickThrottle.ShouldRun(pawn)) return null;
 		    if (pawn == null || pawn.Map == null) return null;
 			Room room = pawn.GetRoom(RegionType.Set_Passable);
 			if (room.PsychologicallyOutdoors && room.TouchesMapEdge)

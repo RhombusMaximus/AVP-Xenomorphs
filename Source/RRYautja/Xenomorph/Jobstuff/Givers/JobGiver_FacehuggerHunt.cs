@@ -22,6 +22,7 @@ namespace RimWorld
         // Token: 0x060005B7 RID: 1463 RVA: 0x00037A28 File Offset: 0x00035E28
         protected override Job TryGiveJob(Pawn pawn)
         {
+            if (!JobGiverTickThrottle.ShouldRun(pawn)) return null;
             if (pawn?.Map == null) return null;
             Comp_Facehugger _Facehugger = pawn.TryGetComp<Comp_Facehugger>();
             if (_Facehugger == null) return null;
