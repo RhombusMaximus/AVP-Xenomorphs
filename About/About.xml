@@ -1,29 +1,48 @@
 <?xml version="1.0" encoding="utf-8"?>
 <ModMetaData>
 	<name>AVP Xenomorphs</name>
-	<author>Ogliss, acide_bob, Rebelrot96, Deon</author>
+	<author>Ogliss, acide_bob, Rebelrot96, Deon, RhombusMaximus</author>
 	<supportedVersions>
 		<li>1.6</li>
 	</supportedVersions>
 	<packageId>Ogliss.AVPXenomorphs</packageId>
-	<description>Xenomorphs from the Alien film franchise.
+	<description>Xenomorphs from the Alien film franchise — a Xenomorphs-only mod for RimWorld 1.6. No Yautja, no USCM, no HAR required.
 
-	"Perfect organism. Its structural perfection is matched only by its hostility."
-	The Xenomorphs join RimWorld as a new threat to your colony. Experience the full life cycle of the Xenomorphs. Learn to fear their infestations. Be wary of those spaceship parts that fall down, you never know what they may contain.
+"Perfect organism. Its structural perfection is matched only by its hostility."
 
-	Full Xenomorph life cycle, facehuggers can impregnate pawns, the resulting xenomorph is mostly random.
+The Xenomorphs join RimWorld as a new threat to your colony. Experience the full life cycle. Learn to fear their infestations. Be wary of those spaceship parts that fall down — you never know what they may contain.
 
-	Pawns:
-	Queen, Drone(Spitter), Warrior, Runner, Facehugger, Chestburster, Predalien, Thrumbomorph, Neomorph
+Pawns:
+Queen, Drone (acid spitter), Warrior, Runner, Facehugger, Chestburster, Predalien (dormant), Thrumbomorph, Neomorph
 
-	Mechanics:
-	Acidic Blood: Xenomorph Blood is Highly Acidic and will damage everything in the same tile as it for a short period after being dropped by a LIVING xenomorph
-	Hidden Infections: Can be disabled Via Mod Options, if enabled, there is a small chance any pawn spawned will have a hidden impregnation.
+Life Cycle:
+Egg hatches when hosts walk nearby → Facehugger impregnates host → Chestburster emerges → Grows into adult Xenomorph. Spawn type depends on host: humans produce Drones/Warriors, animals produce Runners, Thrumbos produce Thrumbomorphs.
 
-	incidents:
-	They Mostly Come at Night: Xenomorph raids during the night are larger than normal
-	Neomorph Spores: Hint; Flamers maybe required
-	Crashed Ship part: Hint; Bring a strong squad
-	Xenomorph Infestation: Hint; Don't wait too long
-	</description>
+Hive System:
+Xenomorph tunnels spawn in caves. Drones mine, build resin walls, and expand the hive. Queen lays eggs. Hives activate when discovered. Inspect hive/tunnel to see Xenomorph count by type.
+
+Combat:
+Acidic blood damages attackers. Drones spit acid. Facehuggers and Runners can leap. EMP weapons stun them. Cold slows them down. Xenomorphs kidnap downed colonists during raids. Raids only happen at night. Xenomorphs avoid destroying colony buildings (except Power Cut events).
+
+Food:
+Young Xenomorphs are ravenous and hunt animals. Adults barely eat — months before starving.
+
+Features:
+- Facehugger mask visible on infected pawns
+- Dark and Gold Drone texture variants
+- Self-preservation: Xenomorphs flee when badly wounded
+- Hidden infections (toggleable)
+- Data-driven spawn system (XML-configurable)
+- Optimized for performance (tick throttled, range-limited)
+
+Incidents:
+Xenomorph Infestation, Crashed Ship Part, Night Raids, Neomorph Spores, Power Cut
+
+No mod dependencies required. Compatible with Melee Animation, Replace Stuff, and most race mods. Android/robot pawns excluded as hosts.
+
+Credits:
+Original AVP mod by Ogliss, acide_bob, Rebelrot96, Deon.
+1.6 port and Xenomorphs-only fork by RhombusMaximus.
+
+Based on: https://steamcommunity.com/sharedfiles/filedetails/?id=2034103876</description>
 </ModMetaData>
