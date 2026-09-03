@@ -45,6 +45,7 @@ namespace RRYautja
         {
             Pawn pawn = searcher as Pawn;
             if (pawn == null) return;
+            if (pawn.Map == null) return;
             if (!pawn.isXenomorph()) return;
 
             // Check if this pawn is in the Power Cut lord — if so, allow building attacks
