@@ -43,23 +43,37 @@ namespace RRYautja
         /// </summary>
         public static void BestAttackTargetPrefix(IAttackTargetSearcher searcher, ref Predicate<IAttackTarget> validator)
         {
-            Pawn pawn = searcher as Pawn;
-            if (pawn == null) return;
-            if (pawn.Map == null) return;
-            if (!pawn.isXenomorph()) return;
-
-            // Check if this pawn is in the Power Cut lord — if so, allow building attacks
-            Lord lord = pawn.GetLord();
-            if (lord?.LordJob is LordJob_AssaultColony_CutPower) return; // Power Cut event — allow buildings
-
-            // For normal Xenos, wrap the validator to exclude buildings
-            Predicate<IAttackTarget> original = validator;
-            validator = (IAttackTarget t) =>
+            try
             {
-                if (t is Thing thing && thing is Building) return false; // Skip buildings
-                if (original != null) return original(t);
-                return true;
-            };
+                Pawn pawn = searcher as Pawn;
+                if (pawn == null || pawn.Map == null || pawn.Destroyed) return;
+                if (!pawn.isXenomorph()) return;
+
+                // Check if this pawn is in the Power Cut lord — if so, allow building attacks
+                Lord lord = pawn.GetLord();
+                if (lord?.LordJob is LordJob_AssaultColony_CutPower) return; // Power Cut event — allow buildings
+
+                // For normal Xenos, wrap the validator to exclude buildings
+                Predicate<IAttackTarget> original = validator;
+                validator = (IAttackTarget t) =>
+                {
+                    try
+                    {
+                        if (t is Thing thing && thing is Building) return false; // Skip buildings
+                        if (t is Thing thing2 && thing2.Map == null) return false; // Skip null-map targets
+                        if (original != null) return original(t);
+                        return true;
+                    }
+                    catch
+                    {
+                        return false;
+                    }
+                };
+            }
+            catch
+            {
+                // If our patch fails, don't break BestAttackTarget
+            }
         }
     }
 }
