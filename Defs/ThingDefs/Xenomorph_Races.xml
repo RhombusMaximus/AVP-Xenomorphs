@@ -30,30 +30,30 @@
     <statBases>
       <Mass>70</Mass>
       <PainShockThreshold>0.9999</PainShockThreshold>
-      <MeleeDodgeChance>0.75</MeleeDodgeChance>
-      <MeleeHitChance>0.75</MeleeHitChance>
+      <MeleeDodgeChance>0.85</MeleeDodgeChance>
+      <MeleeHitChance>0.85</MeleeHitChance>
       <MiningSpeed>1.5</MiningSpeed>
       <ImmunityGainSpeed>2.25</ImmunityGainSpeed>
       <PsychicSensitivity>1</PsychicSensitivity>
-      <Flammability>0.5</Flammability>
+      <Flammability>0.3</Flammability>
       <ToxicResistance>0</ToxicResistance>
       <ComfyTemperatureMin>-20</ComfyTemperatureMin>
       <ComfyTemperatureMax>150</ComfyTemperatureMax>
       <MeatAmount>15</MeatAmount>
       <LeatherAmount>15</LeatherAmount>
-      <ArmorRating_Heat>0.375</ArmorRating_Heat>
+      <ArmorRating_Blunt>0.35</ArmorRating_Blunt>
+      <ArmorRating_Sharp>0.35</ArmorRating_Sharp>
+      <ArmorRating_Heat>0.5</ArmorRating_Heat>
     </statBases>
     <race>
       <renderTree>Animal</renderTree>
       <thinkTreeMain>RRY_Xenomorph_ThinkTree</thinkTreeMain>
       <thinkTreeConstant>XenomorphConstant</thinkTreeConstant>
-      <!-- <deathActionWorkerClass>RRYautja.DeathActionWorker_Xenomorph</deathActionWorkerClass> -->
       <herdAnimal>false</herdAnimal>
-      <!--predator>true</predator-->
       <maxPreyBodySize>3.0</maxPreyBodySize>
-      <baseBodySize>0.75</baseBodySize>
+      <baseBodySize>1.0</baseBodySize>
       <baseHungerRate>0.003</baseHungerRate>
-      <baseHealthScale>0.75</baseHealthScale>
+      <baseHealthScale>1.2</baseHealthScale>
       <fleshType>RRY_Xenomorph</fleshType>
       <bloodDef>RRY_FilthBloodXenomorph</bloodDef>	
       <needsRest>false</needsRest>
@@ -531,11 +531,11 @@
       <graphicClass>Graphic_Multi</graphicClass>
     </graphicData>
     <statBases>
-      <MoveSpeed>2.6</MoveSpeed>
-      <MeleeDodgeChance>0.875</MeleeDodgeChance>
-      <MeleeHitChance>0.625</MeleeHitChance>
-      <ArmorRating_Blunt>0.2</ArmorRating_Blunt>
-      <ArmorRating_Sharp>0.3</ArmorRating_Sharp>
+      <MoveSpeed>2.8</MoveSpeed>
+      <MeleeDodgeChance>0.9</MeleeDodgeChance>
+      <MeleeHitChance>0.7</MeleeHitChance>
+      <ArmorRating_Blunt>0.4</ArmorRating_Blunt>
+      <ArmorRating_Sharp>0.45</ArmorRating_Sharp>
       <MeatAmount>30</MeatAmount>
       <LeatherAmount>30</LeatherAmount>
 		<ShootingAccuracyPawn>1.5</ShootingAccuracyPawn>
@@ -547,8 +547,8 @@
           <li>Blunt</li>
           <li>Cut</li>
         </capacities>
-        <power>7.2</power>
-        <cooldownTime>4.0</cooldownTime>
+        <power>12</power>
+        <cooldownTime>3.0</cooldownTime>
         <linkedBodyPartsGroup>RRY_Xeno_LeftHand</linkedBodyPartsGroup>
         <surpriseAttack>
           <extraMeleeDamages>
@@ -565,8 +565,8 @@
           <li>Blunt</li>
           <li>Cut</li>
         </capacities>
-        <power>7.2</power>
-        <cooldownTime>4.0</cooldownTime>
+        <power>12</power>
+        <cooldownTime>3.0</cooldownTime>
         <linkedBodyPartsGroup>RRY_Xeno_RightHand</linkedBodyPartsGroup>
         <surpriseAttack>
           <extraMeleeDamages>
@@ -634,8 +634,8 @@
     <race>
       <body>RRY_Xenomorph_Biped</body>
 	  <useMeatFrom>RRY_Xenomorph_FaceHugger</useMeatFrom>
-      <baseHealthScale>0.36</baseHealthScale>
-      <baseBodySize>0.8</baseBodySize>
+      <baseHealthScale>0.8</baseHealthScale>
+      <baseBodySize>1.0</baseBodySize>
       <soundMeleeHitPawn>Pawn_Melee_Punch_HitPawn</soundMeleeHitPawn>
       <soundMeleeHitBuilding>Pawn_Melee_Punch_HitBuilding_Generic</soundMeleeHitBuilding>
       <soundMeleeMiss>Pawn_Melee_Punch_Miss</soundMeleeMiss>
@@ -652,7 +652,7 @@
     <defName>RRY_Xenomorph_Drone</defName>
     <label>Drone</label>
     <race>RRY_Xenomorph_Drone</race>
-    <combatPower>62.5</combatPower>
+    <combatPower>120.0</combatPower>
     <alternateGraphicChance>1.0</alternateGraphicChance>
     <alternateGraphics>
       <!-- Dark Drone -->
@@ -744,9 +744,9 @@
     <description>Warriors, also known as Soldiers, are the primary assault caste of the Xenomorph XX121 species and as such is almost certainly the most numerous caste of Xenomorph in existence. They are fast, reasonably tough, and savage combatants./n/nEven in death the Warrior is dangerous, as its pressurized bloodstream will cause it to burst apart, drenching nearby enemies in acid blood. Warriors are identified by their ridged heads, and stand around 7–8 feet tall on their hind legs. They are about 14–16 feet long, including their tail.</description>
     <statBases>
       <Mass>85</Mass>
-      <MoveSpeed>2.75</MoveSpeed>
-      <ArmorRating_Blunt>0.275</ArmorRating_Blunt>
-      <ArmorRating_Sharp>0.35</ArmorRating_Sharp>
+      <MoveSpeed>3.0</MoveSpeed>
+      <ArmorRating_Blunt>0.5</ArmorRating_Blunt>
+      <ArmorRating_Sharp>0.55</ArmorRating_Sharp>
       <MeatAmount>45</MeatAmount>
       <LeatherAmount>45</LeatherAmount>
     </statBases>
@@ -844,8 +844,8 @@
     <race>
       <body>RRY_Xenomorph_Biped</body>
 	  <useMeatFrom>RRY_Xenomorph_FaceHugger</useMeatFrom>
-      <baseHealthScale>0.86</baseHealthScale>
-      <baseBodySize>1.0</baseBodySize>
+      <baseHealthScale>1.5</baseHealthScale>
+      <baseBodySize>1.2</baseBodySize>
       <soundMeleeHitPawn>Pawn_Melee_Punch_HitPawn</soundMeleeHitPawn>
       <soundMeleeHitBuilding>Pawn_Melee_Punch_HitBuilding_Generic</soundMeleeHitBuilding>
       <soundMeleeMiss>Pawn_Melee_Punch_Miss</soundMeleeMiss>
@@ -856,7 +856,7 @@
     <defName>RRY_Xenomorph_Warrior</defName>
     <label>Warrior</label>
     <race>RRY_Xenomorph_Warrior</race>
-    <combatPower>80.0</combatPower>
+    <combatPower>160.0</combatPower>
 	<!--
     <alternateGraphicChance>1.0</alternateGraphicChance>
     <alternateGraphics>
@@ -942,9 +942,9 @@
     <description>Runners, also known as Dog Aliens or Ox Aliens, is an adult form of the species Xenomorph XX121 spawned from a quadrupedal host animal (such as a dog). Runners, as their name implies, are fast and agile, and can spit acid from their mouths./n/n Runners have variously been portrayed as being slightly larger and slightly smaller than typical human-spawned Aliens, differences that no doubt derive from the animal that hosted the creature. However, Runners average around 7 feet 5 inches tall when standing on their hind legs.</description>
     <statBases>
       <Mass>60</Mass>
-      <MoveSpeed>3.8</MoveSpeed>
-      <ArmorRating_Blunt>0.125</ArmorRating_Blunt>
-      <ArmorRating_Sharp>0.2</ArmorRating_Sharp>
+      <MoveSpeed>4.2</MoveSpeed>
+      <ArmorRating_Blunt>0.3</ArmorRating_Blunt>
+      <ArmorRating_Sharp>0.35</ArmorRating_Sharp>
       <MeatAmount>25</MeatAmount>
       <LeatherAmount>25</LeatherAmount>
     </statBases>
@@ -1042,8 +1042,8 @@
     <race>
       <body>RRY_Xenomorph_Quadruped</body>
 	  <useMeatFrom>RRY_Xenomorph_FaceHugger</useMeatFrom>
-      <baseBodySize>0.7</baseBodySize>
-      <baseHealthScale>0.66</baseHealthScale>
+      <baseBodySize>0.8</baseBodySize>
+      <baseHealthScale>0.9</baseHealthScale>
       <soundMeleeHitPawn>Pawn_Melee_Punch_HitPawn</soundMeleeHitPawn>
       <soundMeleeHitBuilding>Pawn_Melee_Punch_HitBuilding_Generic</soundMeleeHitBuilding>
       <soundMeleeMiss>Pawn_Melee_Punch_Miss</soundMeleeMiss>
@@ -1057,7 +1057,7 @@
     <defName>RRY_Xenomorph_Runner</defName>
     <label>Runner</label>
     <race>RRY_Xenomorph_Runner</race>
-    <combatPower>50.0</combatPower>
+    <combatPower>90.0</combatPower>
     <lifeStages>
       <li>
         <bodyGraphicData>
