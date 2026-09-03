@@ -38,14 +38,18 @@ namespace RimWorld
 
     public class ThinkNode_ConditionalFacehuggerFertile : ThinkNode_Conditional
     {
-        // Token: 0x06000956 RID: 2390 RVA: 0x0004D678 File Offset: 0x0004BA78
         protected override bool Satisfied(Pawn pawn)
         {
-            if (pawn == null) return false;
+            if (pawn == null || pawn.Map == null) return false;
             Comp_Facehugger _Facehugger = pawn.TryGetComp<Comp_Facehugger>();
             if (_Facehugger == null) return false;
-            return _Facehugger.Impregnations < _Facehugger.maxImpregnations;
+            // Don't hunt if already attached to a host (impregnating)
+            if (_Facehugger.Impregnations >= _Facehugger.maxImpregnations) return false;
+            // Don't hunt if currently in a melee attack job (attached to host)
+            if (pawn.jobs?.curJob != null && pawn.jobs.curJob.def == JobDefOf.AttackMelee) return false;
+            // Don't hunt if downed/stunned
+            if (pawn.Downed || pawn.stances?.FullBodyStunned == true) return false;
+            return true;
         }
-
     }
 }

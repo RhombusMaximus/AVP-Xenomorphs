@@ -263,7 +263,7 @@ namespace RimWorld
 
         private static List<Pawn> tmpPredatorCandidates = new List<Pawn>();
 
-        public bool forceScanWholeMap = true;
+        public bool forceScanWholeMap = false;
 
         // Token: 0x040002FD RID: 765
         private const float WaitChance = 0.75f;
