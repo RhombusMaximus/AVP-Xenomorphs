@@ -11,7 +11,7 @@ Direct3D:
     VRAM:     8042 MB
     Driver:   32.0.16.1088
 Begin MonoManager ReloadAssembly
-- Loaded All Assemblies, in  0.190 seconds
+- Loaded All Assemblies, in  0.195 seconds
 - Finished resetting the current domain, in  0.001 seconds
 <RI> Initializing input.
 
@@ -20,17 +20,17 @@ Begin MonoManager ReloadAssembly
 <RI> Initialized touch support.
 
 [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
-UnloadTime: 0.580600 ms
+UnloadTime: 0.637000 ms
 Command line arguments: -disable-compute-shaders
 RimWorld 1.6.4871 rev591
-Fallback handler could not load library D:/SteamLibrary/steamapps/common/RimWorld/RimWorldWin64_Data/MonoBleedingEdge/data-0000015B81DBF040.dll
-Fallback handler could not load library D:/SteamLibrary/steamapps/common/RimWorld/RimWorldWin64_Data/MonoBleedingEdge/data-0000015B81ECA3D0.dll
+Fallback handler could not load library D:/SteamLibrary/steamapps/common/RimWorld/RimWorldWin64_Data/MonoBleedingEdge/data-000001A6421159D0.dll
+Fallback handler could not load library D:/SteamLibrary/steamapps/common/RimWorld/RimWorldWin64_Data/MonoBleedingEdge/data-000001A697232520.dll
 [Loading Progress] Loading Progress v0.14.0 initialized! Enjoy the rest of your loading experience!
 [HugsLib] version 12.0.0
 [HugsLib] early-initializing AllowTool
-Fallback handler could not load library D:/SteamLibrary/steamapps/common/RimWorld/RimWorldWin64_Data/MonoBleedingEdge/data-0000015B84C05010.dll
+Fallback handler could not load library D:/SteamLibrary/steamapps/common/RimWorld/RimWorldWin64_Data/MonoBleedingEdge/data-000001A6997D0760.dll
 DubsMintMenus v1.3.1086
-Fallback handler could not load library D:/SteamLibrary/steamapps/common/RimWorld/RimWorldWin64_Data/MonoBleedingEdge/data-0000015B85063010.dll
+Fallback handler could not load library D:/SteamLibrary/steamapps/common/RimWorld/RimWorldWin64_Data/MonoBleedingEdge/data-000001A699C46010.dll
 RimSaves NX rev27
 [AVP Xenomorphs] Patched JobDriver_Wait.CheckForAutoAttack
 Xenomorph Host System Loaded
@@ -56,11 +56,11 @@ Mines 2.0 -> RecipeDef named MinesAutomated_RecipeDef_Granite added to the mine.
 [VehicleFramework] version 1.6.2144
 PickUpAndHaul v1.1.2¼ welcomes you to RimWorld with pointless logspam.
 [XML Extensions] Initialized 0 SettingsMenuDef(s) and found 0 unused key(s) from 0 mod(s)
-[XML Extensions] 504 total patch operations run in 923ms, 0 failed
+[XML Extensions] 504 total patch operations run in 961ms, 0 failed
 [XML Extensions] Emitted 0 mod class(es)
 Unloading 5 Unused Serialized files (Serialized files now loaded: 8)
-Unloading 661 unused Assets to reduce memory usage. Loaded Objects now: 36779.
-Total: 263.995600 ms (FindLiveObjects: 1.721600 ms CreateObjectMapping: 1.055400 ms MarkObjects: 260.243900 ms  DeleteObjects: 0.974400 ms)
+Unloading 661 unused Assets to reduce memory usage. Loaded Objects now: 36781.
+Total: 261.889000 ms (FindLiveObjects: 1.763600 ms CreateObjectMapping: 1.043500 ms MarkObjects: 257.547600 ms  DeleteObjects: 1.533900 ms)
 
 MVCF successfully applied 0 patches
 CharacterEditor v1.6.3 initializing...
@@ -85,16 +85,13 @@ CE is trying to apply modified parameters...
 no modifications for genes
 no modifications for lifestages
 ...done
-Unloading 3 Unused Serialized files (Serialized files now loaded: 9)
-Unloading 1 unused Assets to reduce memory usage. Loaded Objects now: 38749.
-Total: 271.852000 ms (FindLiveObjects: 1.882600 ms CreateObjectMapping: 1.061700 ms MarkObjects: 268.809400 ms  DeleteObjects: 0.097800 ms)
+Unloading 4 Unused Serialized files (Serialized files now loaded: 9)
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+UnloadTime: 0.810500 ms
+Unloading 3 unused Assets to reduce memory usage. Loaded Objects now: 36989.
+Total: 260.081200 ms (FindLiveObjects: 1.685300 ms CreateObjectMapping: 1.102700 ms MarkObjects: 257.211600 ms  DeleteObjects: 0.081200 ms)
 
-Unloading 3 Unused Serialized files (Serialized files now loaded: 9)
-UnloadTime: 0.584200 ms
-Unloading 3 unused Assets to reduce memory usage. Loaded Objects now: 40120.
-Total: 289.939700 ms (FindLiveObjects: 2.119400 ms CreateObjectMapping: 1.120600 ms MarkObjects: 286.603300 ms  DeleteObjects: 0.096000 ms)
-
-Initializing new game with mods:
+Loading game from file USCSS Colony65 with mods:
   - brrainz.harmony
   - ilyvion.LoadingProgress
   - Ludeon.RimWorld
@@ -134,6 +131,7 @@ Initializing new game with mods:
   - aRandomKiwi.RimSaves
   - Mlie.RunAndHide
   - MemeGoddess.RunAndGun
+  - sarg.smartspeed
   - dhultgren.smarterconstruction
   - GT.Sam.TilledSoil
   - VanillaExpanded.VFEMedical
@@ -151,13 +149,11 @@ Initializing new game with mods:
   - VanillaExpanded.VFESecurity
   - imranfish.xmlextensions
   - FrozenSnowFox.ComplexJobs
-[AVP Xenomorphs] Created Xenomorph faction during pawn generation (was missing).
 checking editor settings...
 bodysizes genes are active
-Unloading 0 Unused Serialized files (Serialized files now loaded: 9)
-Unloading 1 unused Assets to reduce memory usage. Loaded Objects now: 48215.
-Total: 322.942100 ms (FindLiveObjects: 2.561100 ms CreateObjectMapping: 2.318400 ms MarkObjects: 317.943900 ms  DeleteObjects: 0.118300 ms)
+Unloading 1 Unused Serialized files (Serialized files now loaded: 9)
+Unloading 1 unused Assets to reduce memory usage. Loaded Objects now: 45335.
+Total: 290.446400 ms (FindLiveObjects: 2.209000 ms CreateObjectMapping: 1.502300 ms MarkObjects: 286.645900 ms  DeleteObjects: 0.089000 ms)
 
-Life stage def HumanlikeChild not found while searching for min age of Goodwin
-Wrote screenshot C:\Users\clint\AppData\LocalLow\Ludeon Studios\RimWorld by Ludeon Studios\RimSaves\Previews\USCSS Colony61.dat of size 148097
-Wrote screenshot C:\Users\clint\AppData\LocalLow\Ludeon Studios\RimWorld by Ludeon Studios\RimSaves\Previews\Autosave-1.dat of size 55111
+Wrote screenshot C:\Users\clint\AppData\LocalLow\Ludeon Studios\RimWorld by Ludeon Studios\RimSaves\Previews\USCSS Colony65.dat of size 142929
+Wrote screenshot C:\Users\clint\AppData\LocalLow\Ludeon Studios\RimWorld by Ludeon Studios\RimSaves\Previews\Autosave-4.dat of size 129799
