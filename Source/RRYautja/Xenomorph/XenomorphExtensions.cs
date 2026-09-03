@@ -17,16 +17,23 @@ namespace RRYautja.ExtensionMethods
         {
             if (p.GetLord() != null && p.GetLord() is Lord l)
             {
-                if (l.ownedPawns.Count > 0)
+                // Properly remove from old lord
+                if (l.ownedPawns.Contains(p))
                 {
                     l.ownedPawns.Remove(p);
                 }
+                // Clear the pawn's lord reference
+                p.mindState.duty = null;
                 if (l.ownedPawns.Count == 0)
                 {
                     l.lordManager.RemoveLord(l);
                 }
             }
-            lord.AddPawn(p);
+            // Only add if not already in this lord
+            if (!lord.ownedPawns.Contains(p))
+            {
+                lord.AddPawn(p);
+            }
             return lord;
         }
 
