@@ -38,7 +38,7 @@ namespace RimWorld
         }
 
 
-        private float HuntingRange = 9999f;
+        private float HuntingRange = 20f;
 
         // Token: 0x060004D1 RID: 1233 RVA: 0x0003100C File Offset: 0x0002F40C
         protected override Job TryGiveJob(Pawn pawn)

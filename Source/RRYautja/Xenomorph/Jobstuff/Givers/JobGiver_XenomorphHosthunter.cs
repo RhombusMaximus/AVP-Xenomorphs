@@ -32,7 +32,7 @@ namespace RimWorld
         // Token: 0x04000300 RID: 768
         private int MaxMeleeChaseTicks = 900;
 
-        private float HuntingRange = 9999f;
+        private float HuntingRange = 40f;
 
         // Token: 0x040002FD RID: 765
         private const float WaitChance = 0.75f;
