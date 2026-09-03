@@ -204,6 +204,7 @@ namespace RRYautja.ExtensionMethods
                 FailReason = "Xenomorph Faction Member";
                 return false;
             }
+            // BodySize threshold: 0.5 minimum, scales up to 1.0 for full eligibility
             if (p.BodySize < 0.5f && !p.RaceProps.Humanlike)
             {
                 FailReason = "NonhumanlikeTooSmall";
