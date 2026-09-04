@@ -91,10 +91,10 @@ System.Threading.ExecutionContext:Run (System.Threading.ExecutionContext,System.
 System.Threading.ExecutionContext:Run (System.Threading.ExecutionContext,System.Threading.ContextCallback,object)
 System.Threading.ThreadHelper:ThreadStart ()
 
-Alien Vs Predator: successfully completed 38 harmony patches.
+DubsMintMenus v1.3.1086
 UnityEngine.StackTraceUtility:ExtractStackTrace ()
 Verse.Log:Message (string)
-RRYautja.settings.AvPMod:.ctor (Verse.ModContentPack)
+DubsMintMenus.DubsMintMenusMod:.ctor (Verse.ModContentPack)
 System.Reflection.RuntimeConstructorInfo:InternalInvoke (object,object[],bool)
 System.Reflection.RuntimeConstructorInfo:DoInvoke (object,System.Reflection.BindingFlags,System.Reflection.Binder,object[],System.Globalization.CultureInfo)
 System.Reflection.RuntimeConstructorInfo:Invoke (System.Reflection.BindingFlags,System.Reflection.Binder,object[],System.Globalization.CultureInfo)
@@ -114,10 +114,147 @@ System.Threading.ExecutionContext:Run (System.Threading.ExecutionContext,System.
 System.Threading.ExecutionContext:Run (System.Threading.ExecutionContext,System.Threading.ContextCallback,object)
 System.Threading.ThreadHelper:ThreadStart ()
 
-DubsMintMenus v1.3.1086
+<color=#66ffb5>[MeleeAnim]</color> Hello, world!
+Build date: 7/31/2026 6:45 PM
+Loaded assemblies (10):
+0BetterFloatMenu, Version=16.0.0.0, Culture=neutral, PublicKeyToken=null,
+0ColourPicker, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null,
+AMRetextureSupport, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null,
+Meta.Numerics, Version=3.1.0.0, Culture=neutral, PublicKeyToken=67d25c65a6631347,
+ModRequestAPI, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null,
+ModRequestAPI.Models, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null,
+Unity.Newtonsoft.Json, Version=7.0.0.0, Culture=neutral, PublicKeyToken=null,
+zAnimationMod, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null,
+AM.FacialAnimationPatch, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null,
+AM.VehiclesPatch, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null
 UnityEngine.StackTraceUtility:ExtractStackTrace ()
 Verse.Log:Message (string)
-DubsMintMenus.DubsMintMenusMod:.ctor (Verse.ModContentPack)
+AM.Core:Log (string)
+AM.Core:.ctor (Verse.ModContentPack)
+System.Reflection.RuntimeConstructorInfo:InternalInvoke (object,object[],bool)
+System.Reflection.RuntimeConstructorInfo:DoInvoke (object,System.Reflection.BindingFlags,System.Reflection.Binder,object[],System.Globalization.CultureInfo)
+System.Reflection.RuntimeConstructorInfo:Invoke (System.Reflection.BindingFlags,System.Reflection.Binder,object[],System.Globalization.CultureInfo)
+System.RuntimeType:CreateInstanceImpl (System.Reflection.BindingFlags,System.Reflection.Binder,object[],System.Globalization.CultureInfo,object[],System.Threading.StackCrawlMark&)
+System.Activator:CreateInstance (System.Type,System.Reflection.BindingFlags,System.Reflection.Binder,object[],System.Globalization.CultureInfo,object[])
+System.Activator:CreateInstance (System.Type,object[])
+Verse.LoadedModManager:CreateModClasses ()
+Verse.LoadedModManager:LoadAllActiveMods (bool)
+Verse.PlayDataLoader:DoPlayLoad ()
+Verse.PlayDataLoader:LoadAllPlayData (bool)
+Verse.Root/<>c:<Start>b__10_1 ()
+Verse.LongEventHandler:RunEventFromAnotherThread (System.Action)
+Verse.LongEventHandler/<>c:<UpdateCurrentAsynchronousEvent>b__28_0 ()
+System.Threading.ThreadHelper:ThreadStart_Context (object)
+System.Threading.ExecutionContext:RunInternal (System.Threading.ExecutionContext,System.Threading.ContextCallback,object,bool)
+System.Threading.ExecutionContext:Run (System.Threading.ExecutionContext,System.Threading.ContextCallback,object,bool)
+System.Threading.ExecutionContext:Run (System.Threading.ExecutionContext,System.Threading.ContextCallback,object)
+System.Threading.ThreadHelper:ThreadStart ()
+
+<color=#66ffb5>[MeleeAnim]</color> Scanning 191 mods for animation data...
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+Verse.Log:Message (string)
+AM.Core:Log (string)
+AM.Data.AnimDataSourceManager:ScanForDataFiles ()
+AM.Core:.ctor (Verse.ModContentPack)
+System.Reflection.RuntimeConstructorInfo:InternalInvoke (object,object[],bool)
+System.Reflection.RuntimeConstructorInfo:DoInvoke (object,System.Reflection.BindingFlags,System.Reflection.Binder,object[],System.Globalization.CultureInfo)
+System.Reflection.RuntimeConstructorInfo:Invoke (System.Reflection.BindingFlags,System.Reflection.Binder,object[],System.Globalization.CultureInfo)
+System.RuntimeType:CreateInstanceImpl (System.Reflection.BindingFlags,System.Reflection.Binder,object[],System.Globalization.CultureInfo,object[],System.Threading.StackCrawlMark&)
+System.Activator:CreateInstance (System.Type,System.Reflection.BindingFlags,System.Reflection.Binder,object[],System.Globalization.CultureInfo,object[])
+System.Activator:CreateInstance (System.Type,object[])
+Verse.LoadedModManager:CreateModClasses ()
+Verse.LoadedModManager:LoadAllActiveMods (bool)
+Verse.PlayDataLoader:DoPlayLoad ()
+Verse.PlayDataLoader:LoadAllPlayData (bool)
+Verse.Root/<>c:<Start>b__10_1 ()
+Verse.LongEventHandler:RunEventFromAnotherThread (System.Action)
+Verse.LongEventHandler/<>c:<UpdateCurrentAsynchronousEvent>b__28_0 ()
+System.Threading.ThreadHelper:ThreadStart_Context (object)
+System.Threading.ExecutionContext:RunInternal (System.Threading.ExecutionContext,System.Threading.ContextCallback,object,bool)
+System.Threading.ExecutionContext:Run (System.Threading.ExecutionContext,System.Threading.ContextCallback,object,bool)
+System.Threading.ExecutionContext:Run (System.Threading.ExecutionContext,System.Threading.ContextCallback,object)
+System.Threading.ThreadHelper:ThreadStart ()
+
+<color=#66ffb5>[MeleeAnim]</color> Found 1 mod folders with animation data, total 69 loadable files.
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+Verse.Log:Message (string)
+AM.Core:Log (string)
+AM.Data.AnimDataSourceManager:ScanForDataFiles ()
+AM.Core:.ctor (Verse.ModContentPack)
+System.Reflection.RuntimeConstructorInfo:InternalInvoke (object,object[],bool)
+System.Reflection.RuntimeConstructorInfo:DoInvoke (object,System.Reflection.BindingFlags,System.Reflection.Binder,object[],System.Globalization.CultureInfo)
+System.Reflection.RuntimeConstructorInfo:Invoke (System.Reflection.BindingFlags,System.Reflection.Binder,object[],System.Globalization.CultureInfo)
+System.RuntimeType:CreateInstanceImpl (System.Reflection.BindingFlags,System.Reflection.Binder,object[],System.Globalization.CultureInfo,object[],System.Threading.StackCrawlMark&)
+System.Activator:CreateInstance (System.Type,System.Reflection.BindingFlags,System.Reflection.Binder,object[],System.Globalization.CultureInfo,object[])
+System.Activator:CreateInstance (System.Type,object[])
+Verse.LoadedModManager:CreateModClasses ()
+Verse.LoadedModManager:LoadAllActiveMods (bool)
+Verse.PlayDataLoader:DoPlayLoad ()
+Verse.PlayDataLoader:LoadAllPlayData (bool)
+Verse.Root/<>c:<Start>b__10_1 ()
+Verse.LongEventHandler:RunEventFromAnotherThread (System.Action)
+Verse.LongEventHandler/<>c:<UpdateCurrentAsynchronousEvent>b__28_0 ()
+System.Threading.ThreadHelper:ThreadStart_Context (object)
+System.Threading.ExecutionContext:RunInternal (System.Threading.ExecutionContext,System.Threading.ContextCallback,object,bool)
+System.Threading.ExecutionContext:Run (System.Threading.ExecutionContext,System.Threading.ContextCallback,object,bool)
+System.Threading.ExecutionContext:Run (System.Threading.ExecutionContext,System.Threading.ContextCallback,object)
+System.Threading.ThreadHelper:ThreadStart ()
+
+<color=#66ffb5>[MeleeAnim]</color> [<color=#63e0ff>Facial Animation Patch</color>] Successfully loaded Facial Animation patch.
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+Verse.Log:Message (string)
+AM.Core:Log (string)
+AM.FacialAnimationPatch.PatchCore:Log (string)
+AM.FacialAnimationPatch.PatchCore:.ctor (Verse.ModContentPack)
+System.Reflection.RuntimeConstructorInfo:InternalInvoke (object,object[],bool)
+System.Reflection.RuntimeConstructorInfo:DoInvoke (object,System.Reflection.BindingFlags,System.Reflection.Binder,object[],System.Globalization.CultureInfo)
+System.Reflection.RuntimeConstructorInfo:Invoke (System.Reflection.BindingFlags,System.Reflection.Binder,object[],System.Globalization.CultureInfo)
+System.RuntimeType:CreateInstanceImpl (System.Reflection.BindingFlags,System.Reflection.Binder,object[],System.Globalization.CultureInfo,object[],System.Threading.StackCrawlMark&)
+System.Activator:CreateInstance (System.Type,System.Reflection.BindingFlags,System.Reflection.Binder,object[],System.Globalization.CultureInfo,object[])
+System.Activator:CreateInstance (System.Type,object[])
+Verse.LoadedModManager:CreateModClasses ()
+Verse.LoadedModManager:LoadAllActiveMods (bool)
+Verse.PlayDataLoader:DoPlayLoad ()
+Verse.PlayDataLoader:LoadAllPlayData (bool)
+Verse.Root/<>c:<Start>b__10_1 ()
+Verse.LongEventHandler:RunEventFromAnotherThread (System.Action)
+Verse.LongEventHandler/<>c:<UpdateCurrentAsynchronousEvent>b__28_0 ()
+System.Threading.ThreadHelper:ThreadStart_Context (object)
+System.Threading.ExecutionContext:RunInternal (System.Threading.ExecutionContext,System.Threading.ContextCallback,object,bool)
+System.Threading.ExecutionContext:Run (System.Threading.ExecutionContext,System.Threading.ContextCallback,object,bool)
+System.Threading.ExecutionContext:Run (System.Threading.ExecutionContext,System.Threading.ContextCallback,object)
+System.Threading.ThreadHelper:ThreadStart ()
+
+<color=#66ffb5>[MeleeAnim]</color> <color=#ffa8fc>[Vehicle Framework Patch]</color> Loaded vehicle framework patch!
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+Verse.Log:Message (string)
+AM.Core:Log (string)
+AM.VehiclesPatch.PatchCore:Log (string)
+AM.VehiclesPatch.PatchCore:.ctor (Verse.ModContentPack)
+System.Reflection.RuntimeConstructorInfo:InternalInvoke (object,object[],bool)
+System.Reflection.RuntimeConstructorInfo:DoInvoke (object,System.Reflection.BindingFlags,System.Reflection.Binder,object[],System.Globalization.CultureInfo)
+System.Reflection.RuntimeConstructorInfo:Invoke (System.Reflection.BindingFlags,System.Reflection.Binder,object[],System.Globalization.CultureInfo)
+System.RuntimeType:CreateInstanceImpl (System.Reflection.BindingFlags,System.Reflection.Binder,object[],System.Globalization.CultureInfo,object[],System.Threading.StackCrawlMark&)
+System.Activator:CreateInstance (System.Type,System.Reflection.BindingFlags,System.Reflection.Binder,object[],System.Globalization.CultureInfo,object[])
+System.Activator:CreateInstance (System.Type,object[])
+Verse.LoadedModManager:CreateModClasses ()
+Verse.LoadedModManager:LoadAllActiveMods (bool)
+Verse.PlayDataLoader:DoPlayLoad ()
+Verse.PlayDataLoader:LoadAllPlayData (bool)
+Verse.Root/<>c:<Start>b__10_1 ()
+Verse.LongEventHandler:RunEventFromAnotherThread (System.Action)
+Verse.LongEventHandler/<>c:<UpdateCurrentAsynchronousEvent>b__28_0 ()
+System.Threading.ThreadHelper:ThreadStart_Context (object)
+System.Threading.ExecutionContext:RunInternal (System.Threading.ExecutionContext,System.Threading.ContextCallback,object,bool)
+System.Threading.ExecutionContext:Run (System.Threading.ExecutionContext,System.Threading.ContextCallback,object,bool)
+System.Threading.ExecutionContext:Run (System.Threading.ExecutionContext,System.Threading.ContextCallback,object)
+System.Threading.ThreadHelper:ThreadStart ()
+
+[RimHUD v1.17.5] Initialized
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+Verse.Log:Message (string)
+RimHUD.Engine.Report:Log (string)
+RimHUD.Mod:.ctor (Verse.ModContentPack)
 System.Reflection.RuntimeConstructorInfo:InternalInvoke (object,object[],bool)
 System.Reflection.RuntimeConstructorInfo:DoInvoke (object,System.Reflection.BindingFlags,System.Reflection.Binder,object[],System.Globalization.CultureInfo)
 System.Reflection.RuntimeConstructorInfo:Invoke (System.Reflection.BindingFlags,System.Reflection.Binder,object[],System.Globalization.CultureInfo)
@@ -160,6 +297,52 @@ System.Threading.ExecutionContext:Run (System.Threading.ExecutionContext,System.
 System.Threading.ExecutionContext:Run (System.Threading.ExecutionContext,System.Threading.ContextCallback,object)
 System.Threading.ThreadHelper:ThreadStart ()
 
+Loaded What's That Mod.
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+Verse.Log:Message (string)
+WhatsThatMod.ModCore:.ctor (Verse.ModContentPack)
+System.Reflection.RuntimeConstructorInfo:InternalInvoke (object,object[],bool)
+System.Reflection.RuntimeConstructorInfo:DoInvoke (object,System.Reflection.BindingFlags,System.Reflection.Binder,object[],System.Globalization.CultureInfo)
+System.Reflection.RuntimeConstructorInfo:Invoke (System.Reflection.BindingFlags,System.Reflection.Binder,object[],System.Globalization.CultureInfo)
+System.RuntimeType:CreateInstanceImpl (System.Reflection.BindingFlags,System.Reflection.Binder,object[],System.Globalization.CultureInfo,object[],System.Threading.StackCrawlMark&)
+System.Activator:CreateInstance (System.Type,System.Reflection.BindingFlags,System.Reflection.Binder,object[],System.Globalization.CultureInfo,object[])
+System.Activator:CreateInstance (System.Type,object[])
+Verse.LoadedModManager:CreateModClasses ()
+Verse.LoadedModManager:LoadAllActiveMods (bool)
+Verse.PlayDataLoader:DoPlayLoad ()
+Verse.PlayDataLoader:LoadAllPlayData (bool)
+Verse.Root/<>c:<Start>b__10_1 ()
+Verse.LongEventHandler:RunEventFromAnotherThread (System.Action)
+Verse.LongEventHandler/<>c:<UpdateCurrentAsynchronousEvent>b__28_0 ()
+System.Threading.ThreadHelper:ThreadStart_Context (object)
+System.Threading.ExecutionContext:RunInternal (System.Threading.ExecutionContext,System.Threading.ContextCallback,object,bool)
+System.Threading.ExecutionContext:Run (System.Threading.ExecutionContext,System.Threading.ContextCallback,object,bool)
+System.Threading.ExecutionContext:Run (System.Threading.ExecutionContext,System.Threading.ContextCallback,object)
+System.Threading.ThreadHelper:ThreadStart ()
+
+[Yayo's Animation] - Giddy-up! detected
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+Verse.Log:Message (string)
+YayoAnimation.Core:.cctor ()
+System.Reflection.RuntimeConstructorInfo:InternalInvoke (object,object[],bool)
+System.Reflection.RuntimeConstructorInfo:DoInvoke (object,System.Reflection.BindingFlags,System.Reflection.Binder,object[],System.Globalization.CultureInfo)
+System.Reflection.RuntimeConstructorInfo:Invoke (System.Reflection.BindingFlags,System.Reflection.Binder,object[],System.Globalization.CultureInfo)
+System.RuntimeType:CreateInstanceImpl (System.Reflection.BindingFlags,System.Reflection.Binder,object[],System.Globalization.CultureInfo,object[],System.Threading.StackCrawlMark&)
+System.Activator:CreateInstance (System.Type,System.Reflection.BindingFlags,System.Reflection.Binder,object[],System.Globalization.CultureInfo,object[])
+System.Activator:CreateInstance (System.Type,object[])
+Verse.LoadedModManager:CreateModClasses ()
+Verse.LoadedModManager:LoadAllActiveMods (bool)
+Verse.PlayDataLoader:DoPlayLoad ()
+Verse.PlayDataLoader:LoadAllPlayData (bool)
+Verse.Root/<>c:<Start>b__10_1 ()
+Verse.LongEventHandler:RunEventFromAnotherThread (System.Action)
+Verse.LongEventHandler/<>c:<UpdateCurrentAsynchronousEvent>b__28_0 ()
+System.Threading.ThreadHelper:ThreadStart_Context (object)
+System.Threading.ExecutionContext:RunInternal (System.Threading.ExecutionContext,System.Threading.ContextCallback,object,bool)
+System.Threading.ExecutionContext:Run (System.Threading.ExecutionContext,System.Threading.ContextCallback,object,bool)
+System.Threading.ExecutionContext:Run (System.Threading.ExecutionContext,System.Threading.ContextCallback,object)
+System.Threading.ThreadHelper:ThreadStart ()
+
 [YART] Patched!
 UnityEngine.StackTraceUtility:ExtractStackTrace ()
 Verse.Log:Message (string)
@@ -183,13 +366,82 @@ System.Threading.ExecutionContext:Run (System.Threading.ExecutionContext,System.
 System.Threading.ExecutionContext:Run (System.Threading.ExecutionContext,System.Threading.ContextCallback,object)
 System.Threading.ThreadHelper:ThreadStart ()
 
-[AVP Xenomorphs] [AVP Xenomorphs] Patched Mineable.TrySpawnYield
+[HugsLib][warn] Quickstart aborted: Space key was pressed.
 UnityEngine.StackTraceUtility:ExtractStackTrace ()
-Verse.Log:Message (string)
-RRYautja.AvPDebug:LogOnce (string,string)
-RRYautja.AvP_XenomorphMinePatch:.cctor ()
-System.Runtime.CompilerServices.RuntimeHelpers:RunClassConstructor (System.RuntimeTypeHandle)
-ilyvion.LoadingProgress.StaticConstructorOnStartupUtilityReplacement/<CallAllAndRest>d__2:MoveNext () (at /home/runner/work/loading-progress/loading-progress/Source/ilyvion.LoadingProgress/StaticConstructorOnStartupUtilityReplacement.cs:53)
+Verse.Log:Warning (string)
+HugsLib.Utils.ModLogger:Warning (string,object[])
+HugsLib.Quickstart.QuickstartController:StatusBoxAbortRequestedHandler (bool)
+HugsLib.Quickstart.QuickstartStatusBox:HandleKeyPressEvents ()
+HugsLib.Quickstart.QuickstartStatusBox:OnGUI ()
+HugsLib.Quickstart.QuickstartController:OnGUIUnfiltered ()
+HugsLib.HugsLibController:OnGUIUnfiltered ()
+HugsLib.Patches.Root_OnGUI_Patch:OnGUIHookUnfiltered ()
+(wrapper dynamic-method) MonoMod.Utils.DynamicMethodDefinition:Verse.Root.OnGUI_Patch2 (Verse.Root)
+
+Could not resolve cross-reference to Verse.ThingCategoryDef named RRY_USCM_RangedWeapons (wanter=thingCategories)
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+(wrapper dynamic-method) MonoMod.Utils.DynamicMethodDefinition:Verse.Log.Error_Patch1 (string)
+Verse.DirectXmlCrossRefLoader:TryResolveDef<Verse.ThingCategoryDef> (string,Verse.FailMode,object)
+Verse.DirectXmlCrossRefLoader/WantedRefForList`1<Verse.ThingCategoryDef>:TryResolve (Verse.FailMode)
+(wrapper dynamic-method) MonoMod.Utils.DynamicMethodDefinition:Verse.DirectXmlCrossRefLoader+c__DisplayClass16_0.<ResolveAllWantedCrossReferences>b__0_Patch1 (Verse.DirectXmlCrossRefLoader/<>c__DisplayClass16_0,Verse.DirectXmlCrossRefLoader/WantedRef)
+Verse.GenThreading/<>c__DisplayClass7_1`1<Verse.DirectXmlCrossRefLoader/WantedRef>:<ParallelForEach>b__0 (object)
+System.Threading.QueueUserWorkItemCallback:WaitCallback_Context (object)
+System.Threading.ExecutionContext:RunInternal (System.Threading.ExecutionContext,System.Threading.ContextCallback,object,bool)
+System.Threading.ExecutionContext:Run (System.Threading.ExecutionContext,System.Threading.ContextCallback,object,bool)
+System.Threading.QueueUserWorkItemCallback:System.Threading.IThreadPoolWorkItem.ExecuteWorkItem ()
+System.Threading.ThreadPoolWorkQueue:Dispatch ()
+System.Threading._ThreadPoolWaitCallback:PerformWaitCallback ()
+
+Mod Integrated Genes did not load any content. Following load folders were used:
+  - D:\SteamLibrary\steamapps\workshop\content\294100\2884115974\1.6\Anomaly
+  - D:\SteamLibrary\steamapps\workshop\content\294100\2884115974\1.6\Ideology
+  - D:\SteamLibrary\steamapps\workshop\content\294100\2884115974\1.6\Royalty
+  - D:\SteamLibrary\steamapps\workshop\content\294100\2884115974\1.6\Common
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+(wrapper dynamic-method) MonoMod.Utils.DynamicMethodDefinition:Verse.Log.Error_Patch1 (string)
+Verse.LoadedModManager/<>c:<LoadModContent>b__13_1 ()
+ilyvion.LoadingProgress.LongEventHandler_ExecuteToExecuteWhenFinished_Patches/<ExecuteToExecuteWhenFinished>d__3:MoveNext () (at /home/runner/work/loading-progress/loading-progress/Source/ilyvion.LoadingProgress/LongEventHandler_ExecuteToExecuteWhenFinished_Patches.cs:284)
+(wrapper dynamic-method) MonoMod.Utils.DynamicMethodDefinition:Verse.LongEventHandler.UpdateCurrentEnumeratorEvent_Patch1 ()
+Verse.LongEventHandler:LongEventsUpdate (bool&)
+(wrapper dynamic-method) MonoMod.Utils.DynamicMethodDefinition:Verse.Root.Update_Patch1 (Verse.Root)
+Verse.Root_Entry:Update ()
+
+Mod Integrated Xenotypes did not load any content. Following load folders were used:
+  - D:\SteamLibrary\steamapps\workshop\content\294100\2888056643\1.6\VFEEmpire
+  - D:\SteamLibrary\steamapps\workshop\content\294100\2888056643\1.6\Anomaly
+  - D:\SteamLibrary\steamapps\workshop\content\294100\2888056643\1.6\Ideology
+  - D:\SteamLibrary\steamapps\workshop\content\294100\2888056643\1.6\Royalty
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+(wrapper dynamic-method) MonoMod.Utils.DynamicMethodDefinition:Verse.Log.Error_Patch1 (string)
+Verse.LoadedModManager/<>c:<LoadModContent>b__13_1 ()
+ilyvion.LoadingProgress.LongEventHandler_ExecuteToExecuteWhenFinished_Patches/<ExecuteToExecuteWhenFinished>d__3:MoveNext () (at /home/runner/work/loading-progress/loading-progress/Source/ilyvion.LoadingProgress/LongEventHandler_ExecuteToExecuteWhenFinished_Patches.cs:284)
+(wrapper dynamic-method) MonoMod.Utils.DynamicMethodDefinition:Verse.LongEventHandler.UpdateCurrentEnumeratorEvent_Patch1 ()
+Verse.LongEventHandler:LongEventsUpdate (bool&)
+(wrapper dynamic-method) MonoMod.Utils.DynamicMethodDefinition:Verse.Root.Update_Patch1 (Verse.Root)
+Verse.Root_Entry:Update ()
+
+Mod VVE - Deconstructable Vehicles Junk did not load any content. Following load folders were used:
+  - D:\SteamLibrary\steamapps\workshop\content\294100\3108171008\1.6\WrecksExpanded
+  - D:\SteamLibrary\steamapps\workshop\content\294100\3108171008\1.6\VGenesE
+  - D:\SteamLibrary\steamapps\workshop\content\294100\3108171008\1.6\VMemesE
+  - D:\SteamLibrary\steamapps\workshop\content\294100\3108171008\1.6\VVE_Tier3
+  - D:\SteamLibrary\steamapps\workshop\content\294100\3108171008\1.6\Biotech
+  - D:\SteamLibrary\steamapps\workshop\content\294100\3108171008\1.6\Core
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+(wrapper dynamic-method) MonoMod.Utils.DynamicMethodDefinition:Verse.Log.Error_Patch1 (string)
+Verse.LoadedModManager/<>c:<LoadModContent>b__13_1 ()
+ilyvion.LoadingProgress.LongEventHandler_ExecuteToExecuteWhenFinished_Patches/<ExecuteToExecuteWhenFinished>d__3:MoveNext () (at /home/runner/work/loading-progress/loading-progress/Source/ilyvion.LoadingProgress/LongEventHandler_ExecuteToExecuteWhenFinished_Patches.cs:284)
+(wrapper dynamic-method) MonoMod.Utils.DynamicMethodDefinition:Verse.LongEventHandler.UpdateCurrentEnumeratorEvent_Patch1 ()
+Verse.LongEventHandler:LongEventsUpdate (bool&)
+(wrapper dynamic-method) MonoMod.Utils.DynamicMethodDefinition:Verse.Root.Update_Patch1 (Verse.Root)
+Verse.Root_Entry:Update ()
+
+Translation data for language English has 6 errors. Generate translation report for more info.
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+Verse.Log:Warning (string)
+Verse.LoadedLanguage:InjectIntoData_AfterImpliedDefs ()
+Verse.PlayDataLoader/<>c:<DoPlayLoad>b__4_3 ()
+ilyvion.LoadingProgress.LongEventHandler_ExecuteToExecuteWhenFinished_Patches/<ExecuteToExecuteWhenFinished>d__3:MoveNext () (at /home/runner/work/loading-progress/loading-progress/Source/ilyvion.LoadingProgress/LongEventHandler_ExecuteToExecuteWhenFinished_Patches.cs:284)
 (wrapper dynamic-method) MonoMod.Utils.DynamicMethodDefinition:Verse.LongEventHandler.UpdateCurrentEnumeratorEvent_Patch1 ()
 Verse.LongEventHandler:LongEventsUpdate (bool&)
 (wrapper dynamic-method) MonoMod.Utils.DynamicMethodDefinition:Verse.Root.Update_Patch1 (Verse.Root)
@@ -207,10 +459,73 @@ Verse.LongEventHandler:LongEventsUpdate (bool&)
 Verse.Root_Entry:Update ()
 
 Xenomorph Host System Loaded
-270 Possible Hosts out of 403 Races detected: Race Setting init
+931 Possible Hosts out of 1236 Races detected: Race Setting init
 UnityEngine.StackTraceUtility:ExtractStackTrace ()
 Verse.Log:Message (string)
 RRYautja.Xenomorph.XenomorphHostSystem:.cctor ()
+System.Runtime.CompilerServices.RuntimeHelpers:RunClassConstructor (System.RuntimeTypeHandle)
+ilyvion.LoadingProgress.StaticConstructorOnStartupUtilityReplacement/<CallAllAndRest>d__2:MoveNext () (at /home/runner/work/loading-progress/loading-progress/Source/ilyvion.LoadingProgress/StaticConstructorOnStartupUtilityReplacement.cs:53)
+(wrapper dynamic-method) MonoMod.Utils.DynamicMethodDefinition:Verse.LongEventHandler.UpdateCurrentEnumeratorEvent_Patch1 ()
+Verse.LongEventHandler:LongEventsUpdate (bool&)
+(wrapper dynamic-method) MonoMod.Utils.DynamicMethodDefinition:Verse.Root.Update_Patch1 (Verse.Root)
+Verse.Root_Entry:Update ()
+
+KCSG has Created 7659 symbolDefs for vanilla and DLCs
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+Verse.Log:Message (string)
+KCSG.StartupActions:CreateSymbols ()
+KCSG.StartupActions:.cctor ()
+System.Runtime.CompilerServices.RuntimeHelpers:RunClassConstructor (System.RuntimeTypeHandle)
+ilyvion.LoadingProgress.StaticConstructorOnStartupUtilityReplacement/<CallAllAndRest>d__2:MoveNext () (at /home/runner/work/loading-progress/loading-progress/Source/ilyvion.LoadingProgress/StaticConstructorOnStartupUtilityReplacement.cs:53)
+(wrapper dynamic-method) MonoMod.Utils.DynamicMethodDefinition:Verse.LongEventHandler.UpdateCurrentEnumeratorEvent_Patch1 ()
+Verse.LongEventHandler:LongEventsUpdate (bool&)
+(wrapper dynamic-method) MonoMod.Utils.DynamicMethodDefinition:Verse.Root.Update_Patch1 (Verse.Root)
+Verse.Root_Entry:Update ()
+
+<color=#FF00FFFF>[AnimalFoodsExtended] Loading.</color>
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+Verse.Log:Message (string)
+AnimalFoodsExtended.Extensions:DebugMessage (object,System.Action`1<string>,System.Nullable`1<UnityEngine.Color>) (at D:/repos/RimWorld/Animal Foods Extended/Extensions.cs:16)
+AnimalFoodsExtended.Mod:OnStartup () (at D:/repos/RimWorld/Animal Foods Extended/Mod.cs:14)
+AnimalFoodsExtended.StartupHandler:.cctor () (at D:/repos/RimWorld/Animal Foods Extended/StartupHandler.cs:8)
+System.Runtime.CompilerServices.RuntimeHelpers:RunClassConstructor (System.RuntimeTypeHandle)
+ilyvion.LoadingProgress.StaticConstructorOnStartupUtilityReplacement/<CallAllAndRest>d__2:MoveNext () (at /home/runner/work/loading-progress/loading-progress/Source/ilyvion.LoadingProgress/StaticConstructorOnStartupUtilityReplacement.cs:53)
+(wrapper dynamic-method) MonoMod.Utils.DynamicMethodDefinition:Verse.LongEventHandler.UpdateCurrentEnumeratorEvent_Patch1 ()
+Verse.LongEventHandler:LongEventsUpdate (bool&)
+(wrapper dynamic-method) MonoMod.Utils.DynamicMethodDefinition:Verse.Root.Update_Patch1 (Verse.Root)
+Verse.Root_Entry:Update ()
+
+[AnimalFoodsExtended] Patching.
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+Verse.Log:Message (string)
+AnimalFoodsExtended.Extensions:DebugMessage (object,System.Action`1<string>,System.Nullable`1<UnityEngine.Color>) (at D:/repos/RimWorld/Animal Foods Extended/Extensions.cs:16)
+AnimalFoodsExtended.Mod:OnStartup () (at D:/repos/RimWorld/Animal Foods Extended/Mod.cs:17)
+AnimalFoodsExtended.StartupHandler:.cctor () (at D:/repos/RimWorld/Animal Foods Extended/StartupHandler.cs:8)
+System.Runtime.CompilerServices.RuntimeHelpers:RunClassConstructor (System.RuntimeTypeHandle)
+ilyvion.LoadingProgress.StaticConstructorOnStartupUtilityReplacement/<CallAllAndRest>d__2:MoveNext () (at /home/runner/work/loading-progress/loading-progress/Source/ilyvion.LoadingProgress/StaticConstructorOnStartupUtilityReplacement.cs:53)
+(wrapper dynamic-method) MonoMod.Utils.DynamicMethodDefinition:Verse.LongEventHandler.UpdateCurrentEnumeratorEvent_Patch1 ()
+Verse.LongEventHandler:LongEventsUpdate (bool&)
+(wrapper dynamic-method) MonoMod.Utils.DynamicMethodDefinition:Verse.Root.Update_Patch1 (Verse.Root)
+Verse.Root_Entry:Update ()
+
+[AnimalFoodsExtended] Loaded successfully.
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+Verse.Log:Message (string)
+AnimalFoodsExtended.Extensions:DebugMessage (object,System.Action`1<string>,System.Nullable`1<UnityEngine.Color>) (at D:/repos/RimWorld/Animal Foods Extended/Extensions.cs:16)
+AnimalFoodsExtended.Mod:OnStartup () (at D:/repos/RimWorld/Animal Foods Extended/Mod.cs:21)
+AnimalFoodsExtended.StartupHandler:.cctor () (at D:/repos/RimWorld/Animal Foods Extended/StartupHandler.cs:8)
+System.Runtime.CompilerServices.RuntimeHelpers:RunClassConstructor (System.RuntimeTypeHandle)
+ilyvion.LoadingProgress.StaticConstructorOnStartupUtilityReplacement/<CallAllAndRest>d__2:MoveNext () (at /home/runner/work/loading-progress/loading-progress/Source/ilyvion.LoadingProgress/StaticConstructorOnStartupUtilityReplacement.cs:53)
+(wrapper dynamic-method) MonoMod.Utils.DynamicMethodDefinition:Verse.LongEventHandler.UpdateCurrentEnumeratorEvent_Patch1 ()
+Verse.LongEventHandler:LongEventsUpdate (bool&)
+(wrapper dynamic-method) MonoMod.Utils.DynamicMethodDefinition:Verse.Root.Update_Patch1 (Verse.Root)
+Verse.Root_Entry:Update ()
+
+[CMColorCodedMoodBar] CMColorCodedMoodBar 1.6.4871.1 initialized
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+Verse.Log:Message (string)
+ColoredMoodBar13.Main:LogMessage (string,ColoredMoodBar13.MessageType)
+ColoredMoodBar13.Main:.cctor ()
 System.Runtime.CompilerServices.RuntimeHelpers:RunClassConstructor (System.RuntimeTypeHandle)
 ilyvion.LoadingProgress.StaticConstructorOnStartupUtilityReplacement/<CallAllAndRest>d__2:MoveNext () (at /home/runner/work/loading-progress/loading-progress/Source/ilyvion.LoadingProgress/StaticConstructorOnStartupUtilityReplacement.cs:53)
 (wrapper dynamic-method) MonoMod.Utils.DynamicMethodDefinition:Verse.LongEventHandler.UpdateCurrentEnumeratorEvent_Patch1 ()
@@ -229,7 +544,63 @@ Verse.LongEventHandler:LongEventsUpdate (bool&)
 (wrapper dynamic-method) MonoMod.Utils.DynamicMethodDefinition:Verse.Root.Update_Patch1 (Verse.Root)
 Verse.Root_Entry:Update ()
 
-[TrueTerrainColors v1.12.26] Loaded cached true colors for 416 terrain defs from file.
+[DifferentEggSizes]: Updated 176 egg-definitions
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+Verse.Log:Message (string)
+DifferentEggSizes.Main:UpdateEggDefinitions ()
+DifferentEggSizes.Main:.cctor ()
+System.Runtime.CompilerServices.RuntimeHelpers:RunClassConstructor (System.RuntimeTypeHandle)
+ilyvion.LoadingProgress.StaticConstructorOnStartupUtilityReplacement/<CallAllAndRest>d__2:MoveNext () (at /home/runner/work/loading-progress/loading-progress/Source/ilyvion.LoadingProgress/StaticConstructorOnStartupUtilityReplacement.cs:53)
+(wrapper dynamic-method) MonoMod.Utils.DynamicMethodDefinition:Verse.LongEventHandler.UpdateCurrentEnumeratorEvent_Patch1 ()
+Verse.LongEventHandler:LongEventsUpdate (bool&)
+(wrapper dynamic-method) MonoMod.Utils.DynamicMethodDefinition:Verse.Root.Update_Patch1 (Verse.Root)
+Verse.Root_Entry:Update ()
+
+[XML Extensions] Initialized 2 SettingsMenuDef(s) and found 0 unused key(s) from 0 mod(s)
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+Verse.Log:Message (string)
+XmlExtensions.XmlExtensions:.cctor ()
+System.Runtime.CompilerServices.RuntimeHelpers:RunClassConstructor (System.RuntimeTypeHandle)
+ilyvion.LoadingProgress.StaticConstructorOnStartupUtilityReplacement/<CallAllAndRest>d__2:MoveNext () (at /home/runner/work/loading-progress/loading-progress/Source/ilyvion.LoadingProgress/StaticConstructorOnStartupUtilityReplacement.cs:53)
+(wrapper dynamic-method) MonoMod.Utils.DynamicMethodDefinition:Verse.LongEventHandler.UpdateCurrentEnumeratorEvent_Patch1 ()
+Verse.LongEventHandler:LongEventsUpdate (bool&)
+(wrapper dynamic-method) MonoMod.Utils.DynamicMethodDefinition:Verse.Root.Update_Patch1 (Verse.Root)
+Verse.Root_Entry:Update ()
+
+[XML Extensions] 3009 total patch operations run in 8035ms, 0 failed
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+Verse.Log:Message (string)
+XmlExtensions.XmlExtensions:.cctor ()
+System.Runtime.CompilerServices.RuntimeHelpers:RunClassConstructor (System.RuntimeTypeHandle)
+ilyvion.LoadingProgress.StaticConstructorOnStartupUtilityReplacement/<CallAllAndRest>d__2:MoveNext () (at /home/runner/work/loading-progress/loading-progress/Source/ilyvion.LoadingProgress/StaticConstructorOnStartupUtilityReplacement.cs:53)
+(wrapper dynamic-method) MonoMod.Utils.DynamicMethodDefinition:Verse.LongEventHandler.UpdateCurrentEnumeratorEvent_Patch1 ()
+Verse.LongEventHandler:LongEventsUpdate (bool&)
+(wrapper dynamic-method) MonoMod.Utils.DynamicMethodDefinition:Verse.Root.Update_Patch1 (Verse.Root)
+Verse.Root_Entry:Update ()
+
+[XML Extensions] Emitted 2 mod class(es)
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+Verse.Log:Message (string)
+XmlExtensions.XmlExtensions:.cctor ()
+System.Runtime.CompilerServices.RuntimeHelpers:RunClassConstructor (System.RuntimeTypeHandle)
+ilyvion.LoadingProgress.StaticConstructorOnStartupUtilityReplacement/<CallAllAndRest>d__2:MoveNext () (at /home/runner/work/loading-progress/loading-progress/Source/ilyvion.LoadingProgress/StaticConstructorOnStartupUtilityReplacement.cs:53)
+(wrapper dynamic-method) MonoMod.Utils.DynamicMethodDefinition:Verse.LongEventHandler.UpdateCurrentEnumeratorEvent_Patch1 ()
+Verse.LongEventHandler:LongEventsUpdate (bool&)
+(wrapper dynamic-method) MonoMod.Utils.DynamicMethodDefinition:Verse.Root.Update_Patch1 (Verse.Root)
+Verse.Root_Entry:Update ()
+
+[Integrated Creep Joiners] No creep romance mods detected. Patching creep romance.
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+Verse.Log:Warning (string)
+IntegratedCreepJoiners.Patcher:.cctor ()
+System.Runtime.CompilerServices.RuntimeHelpers:RunClassConstructor (System.RuntimeTypeHandle)
+ilyvion.LoadingProgress.StaticConstructorOnStartupUtilityReplacement/<CallAllAndRest>d__2:MoveNext () (at /home/runner/work/loading-progress/loading-progress/Source/ilyvion.LoadingProgress/StaticConstructorOnStartupUtilityReplacement.cs:53)
+(wrapper dynamic-method) MonoMod.Utils.DynamicMethodDefinition:Verse.LongEventHandler.UpdateCurrentEnumeratorEvent_Patch1 ()
+Verse.LongEventHandler:LongEventsUpdate (bool&)
+(wrapper dynamic-method) MonoMod.Utils.DynamicMethodDefinition:Verse.Root.Update_Patch1 (Verse.Root)
+Verse.Root_Entry:Update ()
+
+[TrueTerrainColors v1.12.26] Loaded cached true colors for 502 terrain defs from file.
 UnityEngine.StackTraceUtility:ExtractStackTrace ()
 Verse.Log:Message (string)
 LunarFramework.Logging.IngameLogContext:Log (LunarFramework.Logging.LogContext/LogLevel,string,System.Exception)
@@ -346,6 +717,19 @@ Verse.LongEventHandler:LongEventsUpdate (bool&)
 (wrapper dynamic-method) MonoMod.Utils.DynamicMethodDefinition:Verse.Root.Update_Patch1 (Verse.Root)
 Verse.Root_Entry:Update ()
 
+Mines 2.0 -> RecipeDef named MinesAutomated_RecipeDef_AA_SkySteelClumps added to the mine.
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+Verse.Log:Message (string)
+MinesAutomated.CreateRecipeDefs:Generate ()
+MinesAutomated.MineRecipes:EnsureBaseRecipesGenerated ()
+MinesAutomated.CreateRecipeDefs:.cctor ()
+System.Runtime.CompilerServices.RuntimeHelpers:RunClassConstructor (System.RuntimeTypeHandle)
+ilyvion.LoadingProgress.StaticConstructorOnStartupUtilityReplacement/<CallAllAndRest>d__2:MoveNext () (at /home/runner/work/loading-progress/loading-progress/Source/ilyvion.LoadingProgress/StaticConstructorOnStartupUtilityReplacement.cs:53)
+(wrapper dynamic-method) MonoMod.Utils.DynamicMethodDefinition:Verse.LongEventHandler.UpdateCurrentEnumeratorEvent_Patch1 ()
+Verse.LongEventHandler:LongEventsUpdate (bool&)
+(wrapper dynamic-method) MonoMod.Utils.DynamicMethodDefinition:Verse.Root.Update_Patch1 (Verse.Root)
+Verse.Root_Entry:Update ()
+
 Mines 2.0 -> RecipeDef named MinesAutomated_RecipeDef_Sandstone added to the mine.
 UnityEngine.StackTraceUtility:ExtractStackTrace ()
 Verse.Log:Message (string)
@@ -424,6 +808,17 @@ Verse.LongEventHandler:LongEventsUpdate (bool&)
 (wrapper dynamic-method) MonoMod.Utils.DynamicMethodDefinition:Verse.Root.Update_Patch1 (Verse.Root)
 Verse.Root_Entry:Update ()
 
+[Quality Of Building] patching
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+Verse.Log:Message (string)
+QualityOfBuilding.QualityOfBuildingMain:.cctor ()
+System.Runtime.CompilerServices.RuntimeHelpers:RunClassConstructor (System.RuntimeTypeHandle)
+ilyvion.LoadingProgress.StaticConstructorOnStartupUtilityReplacement/<CallAllAndRest>d__2:MoveNext () (at /home/runner/work/loading-progress/loading-progress/Source/ilyvion.LoadingProgress/StaticConstructorOnStartupUtilityReplacement.cs:53)
+(wrapper dynamic-method) MonoMod.Utils.DynamicMethodDefinition:Verse.LongEventHandler.UpdateCurrentEnumeratorEvent_Patch1 ()
+Verse.LongEventHandler:LongEventsUpdate (bool&)
+(wrapper dynamic-method) MonoMod.Utils.DynamicMethodDefinition:Verse.Root.Update_Patch1 (Verse.Root)
+Verse.Root_Entry:Update ()
+
 (Research Tab Colors) Transpiler injected.
 UnityEngine.StackTraceUtility:ExtractStackTrace ()
 Verse.Log:Message (string)
@@ -447,7 +842,9 @@ Verse.LongEventHandler:LongEventsUpdate (bool&)
 (wrapper dynamic-method) MonoMod.Utils.DynamicMethodDefinition:Verse.Root.Update_Patch1 (Verse.Root)
 Verse.Root_Entry:Update ()
 
+[SmashPhil.SmashTools] Applying compatibility patch for Jaxe.RimHUD. Active: Yes
 [SmashPhil.VehicleFramework] Applying compatibility patch for CaesarV6.DamageIndicators. Active: Yes
+[SmashPhil.VehicleFramework] Applying compatibility patch for Jaxe.RimHUD. Active: Yes
 [SmashPhil.VehicleFramework] Applying compatibility patch for ludeon.rimworld.odyssey. Active: Yes
 UnityEngine.StackTraceUtility:ExtractStackTrace ()
 Verse.Log:Message (string)
@@ -482,10 +879,10 @@ Verse.LongEventHandler:LongEventsUpdate (bool&)
 (wrapper dynamic-method) MonoMod.Utils.DynamicMethodDefinition:Verse.Root.Update_Patch1 (Verse.Root)
 Verse.Root_Entry:Update ()
 
-[XML Extensions] Initialized 0 SettingsMenuDef(s) and found 0 unused key(s) from 0 mod(s)
+[GeneExpandedHair] harmony patch succeeded.
 UnityEngine.StackTraceUtility:ExtractStackTrace ()
 Verse.Log:Message (string)
-XmlExtensions.XmlExtensions:.cctor ()
+LFSGenesExpandedHair.HarmonyPatch:.cctor ()
 System.Runtime.CompilerServices.RuntimeHelpers:RunClassConstructor (System.RuntimeTypeHandle)
 ilyvion.LoadingProgress.StaticConstructorOnStartupUtilityReplacement/<CallAllAndRest>d__2:MoveNext () (at /home/runner/work/loading-progress/loading-progress/Source/ilyvion.LoadingProgress/StaticConstructorOnStartupUtilityReplacement.cs:53)
 (wrapper dynamic-method) MonoMod.Utils.DynamicMethodDefinition:Verse.LongEventHandler.UpdateCurrentEnumeratorEvent_Patch1 ()
@@ -493,149 +890,7 @@ Verse.LongEventHandler:LongEventsUpdate (bool&)
 (wrapper dynamic-method) MonoMod.Utils.DynamicMethodDefinition:Verse.Root.Update_Patch1 (Verse.Root)
 Verse.Root_Entry:Update ()
 
-[XML Extensions] 504 total patch operations run in 945ms, 0 failed
-UnityEngine.StackTraceUtility:ExtractStackTrace ()
-Verse.Log:Message (string)
-XmlExtensions.XmlExtensions:.cctor ()
-System.Runtime.CompilerServices.RuntimeHelpers:RunClassConstructor (System.RuntimeTypeHandle)
-ilyvion.LoadingProgress.StaticConstructorOnStartupUtilityReplacement/<CallAllAndRest>d__2:MoveNext () (at /home/runner/work/loading-progress/loading-progress/Source/ilyvion.LoadingProgress/StaticConstructorOnStartupUtilityReplacement.cs:53)
-(wrapper dynamic-method) MonoMod.Utils.DynamicMethodDefinition:Verse.LongEventHandler.UpdateCurrentEnumeratorEvent_Patch1 ()
-Verse.LongEventHandler:LongEventsUpdate (bool&)
-(wrapper dynamic-method) MonoMod.Utils.DynamicMethodDefinition:Verse.Root.Update_Patch1 (Verse.Root)
-Verse.Root_Entry:Update ()
-
-[XML Extensions] Emitted 0 mod class(es)
-UnityEngine.StackTraceUtility:ExtractStackTrace ()
-Verse.Log:Message (string)
-XmlExtensions.XmlExtensions:.cctor ()
-System.Runtime.CompilerServices.RuntimeHelpers:RunClassConstructor (System.RuntimeTypeHandle)
-ilyvion.LoadingProgress.StaticConstructorOnStartupUtilityReplacement/<CallAllAndRest>d__2:MoveNext () (at /home/runner/work/loading-progress/loading-progress/Source/ilyvion.LoadingProgress/StaticConstructorOnStartupUtilityReplacement.cs:53)
-(wrapper dynamic-method) MonoMod.Utils.DynamicMethodDefinition:Verse.LongEventHandler.UpdateCurrentEnumeratorEvent_Patch1 ()
-Verse.LongEventHandler:LongEventsUpdate (bool&)
-(wrapper dynamic-method) MonoMod.Utils.DynamicMethodDefinition:Verse.Root.Update_Patch1 (Verse.Root)
-Verse.Root_Entry:Update ()
-
-Type PawnRenderNodeWorker_FacehuggerMask probably needs a StaticConstructorOnStartup attribute, because it has a field royalGraphic of type Graphic. All assets must be loaded in the main thread.
-UnityEngine.StackTraceUtility:ExtractStackTrace ()
-Verse.Log:Warning (string)
-Verse.StaticConstructorOnStartupUtility/<>c__DisplayClass2_0:<ReportProbablyMissingAttributes>b__0 (System.Type)
-System.Threading.Tasks.Parallel/<>c__DisplayClass33_0`2<System.Type, object>:<ForEachWorker>b__0 (int)
-System.Threading.Tasks.Parallel/<>c__DisplayClass19_0`1<object>:<ForWorker>b__1 (System.Threading.Tasks.RangeWorker&,int,bool&)
-System.Threading.Tasks.TaskReplicator/Replica`1<System.Threading.Tasks.RangeWorker>:ExecuteAction (bool&)
-System.Threading.Tasks.TaskReplicator/Replica:Execute ()
-System.Threading.Tasks.TaskReplicator/Replica/<>c:<.ctor>b__4_0 (object)
-System.Threading.Tasks.Task:InnerInvoke ()
-System.Threading.Tasks.Task:Execute ()
-System.Threading.Tasks.Task:ExecutionContextCallback (object)
-System.Threading.ExecutionContext:RunInternal (System.Threading.ExecutionContext,System.Threading.ContextCallback,object,bool)
-System.Threading.ExecutionContext:Run (System.Threading.ExecutionContext,System.Threading.ContextCallback,object,bool)
-System.Threading.Tasks.Task:ExecuteWithThreadLocal (System.Threading.Tasks.Task&)
-System.Threading.Tasks.Task:ExecuteEntry (bool)
-System.Threading.Tasks.Task:System.Threading.IThreadPoolWorkItem.ExecuteWorkItem ()
-System.Threading.ThreadPoolWorkQueue:Dispatch ()
-System.Threading._ThreadPoolWaitCallback:PerformWaitCallback ()
-
-Type Building_XenomorphCocoon probably needs a StaticConstructorOnStartup attribute, because it has a field invisibleGraphic of type Graphic. All assets must be loaded in the main thread.
-UnityEngine.StackTraceUtility:ExtractStackTrace ()
-Verse.Log:Warning (string)
-Verse.StaticConstructorOnStartupUtility/<>c__DisplayClass2_0:<ReportProbablyMissingAttributes>b__0 (System.Type)
-System.Threading.Tasks.Parallel/<>c__DisplayClass33_0`2<System.Type, object>:<ForEachWorker>b__0 (int)
-System.Threading.Tasks.Parallel/<>c__DisplayClass19_0`1<object>:<ForWorker>b__1 (System.Threading.Tasks.RangeWorker&,int,bool&)
-System.Threading.Tasks.TaskReplicator/Replica`1<System.Threading.Tasks.RangeWorker>:ExecuteAction (bool&)
-System.Threading.Tasks.TaskReplicator/Replica:Execute ()
-System.Threading.Tasks.TaskReplicator/Replica/<>c:<.ctor>b__4_0 (object)
-System.Threading.Tasks.Task:InnerInvoke ()
-System.Threading.Tasks.Task:Execute ()
-System.Threading.Tasks.Task:ExecutionContextCallback (object)
-System.Threading.ExecutionContext:RunInternal (System.Threading.ExecutionContext,System.Threading.ContextCallback,object,bool)
-System.Threading.ExecutionContext:Run (System.Threading.ExecutionContext,System.Threading.ContextCallback,object,bool)
-System.Threading.Tasks.Task:ExecuteWithThreadLocal (System.Threading.Tasks.Task&)
-System.Threading.Tasks.Task:ExecuteEntry (bool)
-System.Threading.Tasks.Task:System.Threading.IThreadPoolWorkItem.ExecuteWorkItem ()
-System.Threading.ThreadPoolWorkQueue:Dispatch ()
-System.Threading._ThreadPoolWaitCallback:PerformWaitCallback ()
-
-Type MarkerCache probably needs a StaticConstructorOnStartup attribute, because it has a field outlineGeneratorMaterial of type Material. All assets must be loaded in the main thread.
-UnityEngine.StackTraceUtility:ExtractStackTrace ()
-Verse.Log:Warning (string)
-Verse.StaticConstructorOnStartupUtility/<>c__DisplayClass2_0:<ReportProbablyMissingAttributes>b__0 (System.Type)
-System.Threading.Tasks.Parallel/<>c__DisplayClass33_0`2<System.Type, object>:<ForEachWorker>b__0 (int)
-System.Threading.Tasks.Parallel/<>c__DisplayClass19_0`1<object>:<ForWorker>b__1 (System.Threading.Tasks.RangeWorker&,int,bool&)
-System.Threading.Tasks.TaskReplicator/Replica`1<System.Threading.Tasks.RangeWorker>:ExecuteAction (bool&)
-System.Threading.Tasks.TaskReplicator/Replica:Execute ()
-System.Threading.Tasks.TaskReplicator/Replica/<>c:<.ctor>b__4_0 (object)
-System.Threading.Tasks.Task:InnerInvoke ()
-System.Threading.Tasks.Task:Execute ()
-System.Threading.Tasks.Task:ExecutionContextCallback (object)
-System.Threading.ExecutionContext:RunInternal (System.Threading.ExecutionContext,System.Threading.ContextCallback,object,bool)
-System.Threading.ExecutionContext:Run (System.Threading.ExecutionContext,System.Threading.ContextCallback,object,bool)
-System.Threading.Tasks.Task:ExecuteWithThreadLocal (System.Threading.Tasks.Task&)
-System.Threading.Tasks.Task:ExecuteEntry (bool)
-System.Threading.Tasks.Task:System.Threading.IThreadPoolWorkItem.ExecuteWorkItem ()
-System.Threading.ThreadPoolWorkQueue:Dispatch ()
-System.Threading._ThreadPoolWaitCallback:PerformWaitCallback ()
-
-Type Dialog_YARTColorPicker probably needs a StaticConstructorOnStartup attribute, because it has a field hueTex of type Texture2D. All assets must be loaded in the main thread.
-UnityEngine.StackTraceUtility:ExtractStackTrace ()
-Verse.Log:Warning (string)
-Verse.StaticConstructorOnStartupUtility/<>c__DisplayClass2_0:<ReportProbablyMissingAttributes>b__0 (System.Type)
-System.Threading.Tasks.Parallel/<>c__DisplayClass33_0`2<System.Type, object>:<ForEachWorker>b__0 (int)
-System.Threading.Tasks.Parallel/<>c__DisplayClass19_0`1<object>:<ForWorker>b__1 (System.Threading.Tasks.RangeWorker&,int,bool&)
-System.Threading.Tasks.TaskReplicator/Replica`1<System.Threading.Tasks.RangeWorker>:ExecuteAction (bool&)
-System.Threading.Tasks.TaskReplicator/Replica:Execute ()
-System.Threading.Tasks.TaskReplicator/Replica/<>c:<.ctor>b__4_0 (object)
-System.Threading.Tasks.Task:InnerInvoke ()
-System.Threading.Tasks.Task:Execute ()
-System.Threading.Tasks.Task:ExecutionContextCallback (object)
-System.Threading.ExecutionContext:RunInternal (System.Threading.ExecutionContext,System.Threading.ContextCallback,object,bool)
-System.Threading.ExecutionContext:Run (System.Threading.ExecutionContext,System.Threading.ContextCallback,object,bool)
-System.Threading.Tasks.Task:ExecuteWithThreadLocal (System.Threading.Tasks.Task&)
-System.Threading.Tasks.Task:ExecuteEntry (bool)
-System.Threading.Tasks.Task:System.Threading.IThreadPoolWorkItem.ExecuteWorkItem ()
-System.Threading.ThreadPoolWorkQueue:Dispatch ()
-System.Threading._ThreadPoolWaitCallback:PerformWaitCallback ()
-
-Type GLLineBatcher probably needs a StaticConstructorOnStartup attribute, because it has a field lineMaterial of type Material. All assets must be loaded in the main thread.
-UnityEngine.StackTraceUtility:ExtractStackTrace ()
-Verse.Log:Warning (string)
-Verse.StaticConstructorOnStartupUtility/<>c__DisplayClass2_0:<ReportProbablyMissingAttributes>b__0 (System.Type)
-System.Threading.Tasks.Parallel/<>c__DisplayClass33_0`2<System.Type, object>:<ForEachWorker>b__0 (int)
-System.Threading.Tasks.Parallel/<>c__DisplayClass19_0`1<object>:<ForWorker>b__1 (System.Threading.Tasks.RangeWorker&,int,bool&)
-System.Threading.Tasks.TaskReplicator/Replica`1<System.Threading.Tasks.RangeWorker>:ExecuteAction (bool&)
-System.Threading.Tasks.TaskReplicator/Replica:Execute ()
-System.Threading.Tasks.TaskReplicator/Replica/<>c:<.ctor>b__4_0 (object)
-System.Threading.Tasks.Task:InnerInvoke ()
-System.Threading.Tasks.Task:Execute ()
-System.Threading.Tasks.Task:ExecutionContextCallback (object)
-System.Threading.ExecutionContext:RunInternal (System.Threading.ExecutionContext,System.Threading.ContextCallback,object,bool)
-System.Threading.ExecutionContext:Run (System.Threading.ExecutionContext,System.Threading.ContextCallback,object,bool)
-System.Threading.Tasks.Task:ExecuteWithThreadLocal (System.Threading.Tasks.Task&)
-System.Threading.Tasks.Task:ExecuteEntry (bool)
-System.Threading.Tasks.Task:System.Threading.IThreadPoolWorkItem.ExecuteWorkItem ()
-System.Threading.ThreadPoolWorkQueue:Dispatch ()
-System.Threading._ThreadPoolWaitCallback:PerformWaitCallback ()
-
-Type GLSolidQuadBatcher probably needs a StaticConstructorOnStartup attribute, because it has a field quadMaterial of type Material. All assets must be loaded in the main thread.
-UnityEngine.StackTraceUtility:ExtractStackTrace ()
-Verse.Log:Warning (string)
-Verse.StaticConstructorOnStartupUtility/<>c__DisplayClass2_0:<ReportProbablyMissingAttributes>b__0 (System.Type)
-System.Threading.Tasks.Parallel/<>c__DisplayClass33_0`2<System.Type, object>:<ForEachWorker>b__0 (int)
-System.Threading.Tasks.Parallel/<>c__DisplayClass19_0`1<object>:<ForWorker>b__1 (System.Threading.Tasks.RangeWorker&,int,bool&)
-System.Threading.Tasks.TaskReplicator/Replica`1<System.Threading.Tasks.RangeWorker>:ExecuteAction (bool&)
-System.Threading.Tasks.TaskReplicator/Replica:Execute ()
-System.Threading.Tasks.TaskReplicator/Replica/<>c:<.ctor>b__4_0 (object)
-System.Threading.Tasks.Task:InnerInvoke ()
-System.Threading.Tasks.Task:Execute ()
-System.Threading.Tasks.Task:ExecutionContextCallback (object)
-System.Threading.ExecutionContext:RunInternal (System.Threading.ExecutionContext,System.Threading.ContextCallback,object,bool)
-System.Threading.ExecutionContext:Run (System.Threading.ExecutionContext,System.Threading.ContextCallback,object,bool)
-System.Threading.Tasks.Task:ExecuteWithThreadLocal (System.Threading.Tasks.Task&)
-System.Threading.Tasks.Task:ExecuteEntry (bool)
-System.Threading.Tasks.Task:System.Threading.IThreadPoolWorkItem.ExecuteWorkItem ()
-System.Threading.ThreadPoolWorkQueue:Dispatch ()
-System.Threading._ThreadPoolWaitCallback:PerformWaitCallback ()
-
-MVCF successfully applied 0 patches
+MVCF successfully applied 57 patches
 UnityEngine.StackTraceUtility:ExtractStackTrace ()
 Verse.Log:Message (string)
 MVCF.Patch:PrintSummary ()
@@ -646,29 +901,12 @@ Verse.LongEventHandler:LongEventsUpdate (bool&)
 (wrapper dynamic-method) MonoMod.Utils.DynamicMethodDefinition:Verse.Root.Update_Patch1 (Verse.Root)
 Verse.Root_Entry:Update ()
 
-[YART] Building Research Graph...
-UnityEngine.StackTraceUtility:ExtractStackTrace ()
-Verse.Log:Message (string)
-YART.Data.ResearchGraph:Build ()
-YART.GraphBuildPipeline:BuildGraphAndLayout ()
-YART.GraphBuildPipeline/<>c:<.cctor>b__8_2 ()
-System.Threading.Tasks.Task:InnerInvoke ()
-System.Threading.Tasks.Task:Execute ()
-System.Threading.Tasks.Task:ExecutionContextCallback (object)
-System.Threading.ExecutionContext:RunInternal (System.Threading.ExecutionContext,System.Threading.ContextCallback,object,bool)
-System.Threading.ExecutionContext:Run (System.Threading.ExecutionContext,System.Threading.ContextCallback,object,bool)
-System.Threading.Tasks.Task:ExecuteWithThreadLocal (System.Threading.Tasks.Task&)
-System.Threading.Tasks.Task:ExecuteEntry (bool)
-System.Threading.Tasks.Task:System.Threading.IThreadPoolWorkItem.ExecuteWorkItem ()
-System.Threading.ThreadPoolWorkQueue:Dispatch ()
-System.Threading._ThreadPoolWaitCallback:PerformWaitCallback ()
-
 CharacterEditor v1.6.3 initializing...
 UnityEngine.StackTraceUtility:ExtractStackTrace ()
 Verse.Log:Message (string)
 CharacterEditor.CEditor:.ctor ()
 CharacterEditor.CEditor:OnMainMenuInit ()
-(wrapper dynamic-method) MonoMod.Utils.DynamicMethodDefinition:RimWorld.MainMenuDrawer.Init_Patch3 ()
+(wrapper dynamic-method) MonoMod.Utils.DynamicMethodDefinition:RimWorld.MainMenuDrawer.Init_Patch4 ()
 (wrapper dynamic-method) MonoMod.Utils.DynamicMethodDefinition:Verse.UIRoot_Entry.Init_Patch3 (Verse.UIRoot_Entry)
 Verse.Root:<Start>b__10_0 ()
 Verse.LongEventHandler:UpdateCurrentSynchronousEvent (bool&)
@@ -687,35 +925,13 @@ CharacterEditor.CEditor/ModData:Get<CharacterEditor.CEditor/ModOptions> (Charact
 CharacterEditor.CEditor/ModData:.ctor ()
 CharacterEditor.CEditor:.ctor ()
 CharacterEditor.CEditor:OnMainMenuInit ()
-(wrapper dynamic-method) MonoMod.Utils.DynamicMethodDefinition:RimWorld.MainMenuDrawer.Init_Patch3 ()
+(wrapper dynamic-method) MonoMod.Utils.DynamicMethodDefinition:RimWorld.MainMenuDrawer.Init_Patch4 ()
 (wrapper dynamic-method) MonoMod.Utils.DynamicMethodDefinition:Verse.UIRoot_Entry.Init_Patch3 (Verse.UIRoot_Entry)
 Verse.Root:<Start>b__10_0 ()
 Verse.LongEventHandler:UpdateCurrentSynchronousEvent (bool&)
 Verse.LongEventHandler:LongEventsUpdate (bool&)
 (wrapper dynamic-method) MonoMod.Utils.DynamicMethodDefinition:Verse.Root.Update_Patch1 (Verse.Root)
 Verse.Root_Entry:Update ()
-
-[YART] Channels: Knowledge_Basic, Knowledge_Advanced, Bench
-UnityEngine.StackTraceUtility:ExtractStackTrace ()
-Verse.Log:Message (string)
-YART.Data.ChannelRegistry:EnsureInit ()
-YART.Data.ChannelRegistry:Of (Verse.ResearchProjectDef)
-YART.Data.GraphKey:For (Verse.ResearchProjectDef)
-YART.Data.ResearchNode:Create (Verse.ResearchProjectDef)
-YART.Data.ResearchGraph:CreateNodes ()
-YART.Data.ResearchGraph:Build ()
-YART.GraphBuildPipeline:BuildGraphAndLayout ()
-YART.GraphBuildPipeline/<>c:<.cctor>b__8_2 ()
-System.Threading.Tasks.Task:InnerInvoke ()
-System.Threading.Tasks.Task:Execute ()
-System.Threading.Tasks.Task:ExecutionContextCallback (object)
-System.Threading.ExecutionContext:RunInternal (System.Threading.ExecutionContext,System.Threading.ContextCallback,object,bool)
-System.Threading.ExecutionContext:Run (System.Threading.ExecutionContext,System.Threading.ContextCallback,object,bool)
-System.Threading.Tasks.Task:ExecuteWithThreadLocal (System.Threading.Tasks.Task&)
-System.Threading.Tasks.Task:ExecuteEntry (bool)
-System.Threading.Tasks.Task:System.Threading.IThreadPoolWorkItem.ExecuteWorkItem ()
-System.Threading.ThreadPoolWorkQueue:Dispatch ()
-System.Threading._ThreadPoolWaitCallback:PerformWaitCallback ()
 
 loading pawn slot content from file...
 UnityEngine.StackTraceUtility:ExtractStackTrace ()
@@ -728,7 +944,7 @@ CharacterEditor.CEditor/ModData:Get<CharacterEditor.CEditor/ModOptions> (Charact
 CharacterEditor.CEditor/ModData:.ctor ()
 CharacterEditor.CEditor:.ctor ()
 CharacterEditor.CEditor:OnMainMenuInit ()
-(wrapper dynamic-method) MonoMod.Utils.DynamicMethodDefinition:RimWorld.MainMenuDrawer.Init_Patch3 ()
+(wrapper dynamic-method) MonoMod.Utils.DynamicMethodDefinition:RimWorld.MainMenuDrawer.Init_Patch4 ()
 (wrapper dynamic-method) MonoMod.Utils.DynamicMethodDefinition:Verse.UIRoot_Entry.Init_Patch3 (Verse.UIRoot_Entry)
 Verse.Root:<Start>b__10_0 ()
 Verse.LongEventHandler:UpdateCurrentSynchronousEvent (bool&)
@@ -736,29 +952,12 @@ Verse.LongEventHandler:LongEventsUpdate (bool&)
 (wrapper dynamic-method) MonoMod.Utils.DynamicMethodDefinition:Verse.Root.Update_Patch1 (Verse.Root)
 Verse.Root_Entry:Update ()
 
-[YART] Graph built. Total nodes: 203
-UnityEngine.StackTraceUtility:ExtractStackTrace ()
-Verse.Log:Message (string)
-YART.Data.ResearchGraph:Build ()
-YART.GraphBuildPipeline:BuildGraphAndLayout ()
-YART.GraphBuildPipeline/<>c:<.cctor>b__8_2 ()
-System.Threading.Tasks.Task:InnerInvoke ()
-System.Threading.Tasks.Task:Execute ()
-System.Threading.Tasks.Task:ExecutionContextCallback (object)
-System.Threading.ExecutionContext:RunInternal (System.Threading.ExecutionContext,System.Threading.ContextCallback,object,bool)
-System.Threading.ExecutionContext:Run (System.Threading.ExecutionContext,System.Threading.ContextCallback,object,bool)
-System.Threading.Tasks.Task:ExecuteWithThreadLocal (System.Threading.Tasks.Task&)
-System.Threading.Tasks.Task:ExecuteEntry (bool)
-System.Threading.Tasks.Task:System.Threading.IThreadPoolWorkItem.ExecuteWorkItem ()
-System.Threading.ThreadPoolWorkQueue:Dispatch ()
-System.Threading._ThreadPoolWaitCallback:PerformWaitCallback ()
-
 character editor instance created
 UnityEngine.StackTraceUtility:ExtractStackTrace ()
 Verse.Log:Message (string)
 CharacterEditor.CEditor:.ctor ()
 CharacterEditor.CEditor:OnMainMenuInit ()
-(wrapper dynamic-method) MonoMod.Utils.DynamicMethodDefinition:RimWorld.MainMenuDrawer.Init_Patch3 ()
+(wrapper dynamic-method) MonoMod.Utils.DynamicMethodDefinition:RimWorld.MainMenuDrawer.Init_Patch4 ()
 (wrapper dynamic-method) MonoMod.Utils.DynamicMethodDefinition:Verse.UIRoot_Entry.Init_Patch3 (Verse.UIRoot_Entry)
 Verse.Root:<Start>b__10_0 ()
 Verse.LongEventHandler:UpdateCurrentSynchronousEvent (bool&)
@@ -772,7 +971,7 @@ Verse.Log:Message (string)
 CharacterEditor.CEditor/ModData:OnSettingsChanged (bool,bool)
 CharacterEditor.CEditor:OnSettingsChanged (bool,bool)
 CharacterEditor.CEditor:OnMainMenuInit ()
-(wrapper dynamic-method) MonoMod.Utils.DynamicMethodDefinition:RimWorld.MainMenuDrawer.Init_Patch3 ()
+(wrapper dynamic-method) MonoMod.Utils.DynamicMethodDefinition:RimWorld.MainMenuDrawer.Init_Patch4 ()
 (wrapper dynamic-method) MonoMod.Utils.DynamicMethodDefinition:Verse.UIRoot_Entry.Init_Patch3 (Verse.UIRoot_Entry)
 Verse.Root:<Start>b__10_0 ()
 Verse.LongEventHandler:UpdateCurrentSynchronousEvent (bool&)
@@ -787,7 +986,7 @@ CharacterEditor.GeneTool:EnDisableBodySizeGenes ()
 CharacterEditor.CEditor/ModData:OnSettingsChanged (bool,bool)
 CharacterEditor.CEditor:OnSettingsChanged (bool,bool)
 CharacterEditor.CEditor:OnMainMenuInit ()
-(wrapper dynamic-method) MonoMod.Utils.DynamicMethodDefinition:RimWorld.MainMenuDrawer.Init_Patch3 ()
+(wrapper dynamic-method) MonoMod.Utils.DynamicMethodDefinition:RimWorld.MainMenuDrawer.Init_Patch4 ()
 (wrapper dynamic-method) MonoMod.Utils.DynamicMethodDefinition:Verse.UIRoot_Entry.Init_Patch3 (Verse.UIRoot_Entry)
 Verse.Root:<Start>b__10_0 ()
 Verse.LongEventHandler:UpdateCurrentSynchronousEvent (bool&)
@@ -799,7 +998,7 @@ CharacterEditor v1.6.3 ...done
 UnityEngine.StackTraceUtility:ExtractStackTrace ()
 Verse.Log:Message (string)
 CharacterEditor.CEditor:OnMainMenuInit ()
-(wrapper dynamic-method) MonoMod.Utils.DynamicMethodDefinition:RimWorld.MainMenuDrawer.Init_Patch3 ()
+(wrapper dynamic-method) MonoMod.Utils.DynamicMethodDefinition:RimWorld.MainMenuDrawer.Init_Patch4 ()
 (wrapper dynamic-method) MonoMod.Utils.DynamicMethodDefinition:Verse.UIRoot_Entry.Init_Patch3 (Verse.UIRoot_Entry)
 Verse.Root:<Start>b__10_0 ()
 Verse.LongEventHandler:UpdateCurrentSynchronousEvent (bool&)
@@ -828,25 +1027,380 @@ Verse.LongEventHandler:LongEventsUpdate (bool&)
 (wrapper dynamic-method) MonoMod.Utils.DynamicMethodDefinition:Verse.Root.Update_Patch1 (Verse.Root)
 Verse.Root_Entry:Update ()
 
-[YART] Preset 'All tabs' subgraph built: 163 nodes, 169 edges
+<color=#66ffb5>[MeleeAnim]</color> Potential patch conflicts (19):
 UnityEngine.StackTraceUtility:ExtractStackTrace ()
-Verse.Log:Message (string)
-YART.Data.ResearchGraph:BuildPreset (YART.Data.ResearchPreset,bool)
-YART.Data.ResearchGraph:GetOrBuildUnifiedBench (bool)
-YART.GraphBuildPipeline:ConstructMergedSubGraphs (YART.Data.ResearchGraph)
-YART.GraphBuildPipeline:RunLayoutAndSearch ()
-YART.GraphBuildPipeline:BuildGraphAndLayout ()
-YART.GraphBuildPipeline/<>c:<.cctor>b__8_2 ()
-System.Threading.Tasks.Task:InnerInvoke ()
-System.Threading.Tasks.Task:Execute ()
-System.Threading.Tasks.Task:ExecutionContextCallback (object)
+Verse.Log:Warning (string)
+AM.Core:Warn (string)
+AM.Core:LogPotentialConflicts (HarmonyLib.Harmony)
+AM.Core/<>c:<.ctor>b__25_3 ()
+AM.Core:<AddLateLoadEvents>b__28_0 ()
+Verse.LongEventHandler:RunEventFromAnotherThread (System.Action)
+Verse.LongEventHandler/<>c:<UpdateCurrentAsynchronousEvent>b__28_0 ()
+System.Threading.ThreadHelper:ThreadStart_Context (object)
 System.Threading.ExecutionContext:RunInternal (System.Threading.ExecutionContext,System.Threading.ContextCallback,object,bool)
 System.Threading.ExecutionContext:Run (System.Threading.ExecutionContext,System.Threading.ContextCallback,object,bool)
-System.Threading.Tasks.Task:ExecuteWithThreadLocal (System.Threading.Tasks.Task&)
-System.Threading.Tasks.Task:ExecuteEntry (bool)
-System.Threading.Tasks.Task:System.Threading.IThreadPoolWorkItem.ExecuteWorkItem ()
-System.Threading.ThreadPoolWorkQueue:Dispatch ()
-System.Threading._ThreadPoolWaitCallback:PerformWaitCallback ()
+System.Threading.ExecutionContext:Run (System.Threading.ExecutionContext,System.Threading.ContextCallback,object)
+System.Threading.ThreadHelper:ThreadStart ()
+
+<color=#66ffb5>[MeleeAnim]</color> 
+static System.Void Verse.PawnRenderUtility::DrawEquipmentAiming(Verse.Thing eq, UnityEngine.Vector3 drawLoc, System.Single aimAngle)
+Prefixes:
+  [OskarPotocki.VEF] Prefix
+  [OskarPotocki.VEF] Prefix
+  [OskarPotocki.VEF] DrawEquipmentAimingPrefix
+  [co.uk.epicguru.meleeanimation] Prefix
+  [VFEPirates.Mod] Prefix
+  [OskarPotocki.VEF] DrawDuplicate
+Transpilers:
+Postfixes:
+
+Verse.PreRenderResults Verse.PawnRenderer::ParallelGetPreRenderResults(UnityEngine.Vector3 drawLoc, System.Nullable`1<Verse.Rot4> rotOverride, System.Boolean neverAimWeapon, System.Boolean disableCache)
+Prefixes:
+  [OskarPotocki.VEF] Prefix
+  [com.yayo.yayoAni] Prefix
+  [SmashPhil.VehicleFramework] DisableCachingPawnOverlays
+  [rimworld.Nals.FacialAnimation] PrefixParallelGetPreRenderResults
+  [GiddyUp] Prefix
+Transpilers:
+  [com.yayo.yayoAni] Transpiler
+Postfixes:
+  [co.uk.epicguru.meleeanimation] Postfix
+
+System.Void Verse.PawnRenderer::RenderPawnAt(UnityEngine.Vector3 drawLoc, System.Nullable`1<Verse.Rot4> rotOverride, System.Boolean neverAimWeapon)
+Prefixes:
+  [net.pardeike.rimworld.mod.camera+] Prefix
+  [co.uk.epicguru.meleeanimation] Prefix
+  [VREAndroidsMod] Prefix
+Transpilers:
+Postfixes:
+  [co.uk.epicguru.meleeanimation] Postfix
+  [VREAndroidsMod] Postfix
+
+System.Void RimWorld.Building_ProximityDetector::RunDetection()
+Prefixes:
+  [co.uk.epicguru.meleeanimation] Prefix
+  [BlackGloves.Harmony] Prefix
+Transpilers:
+Postfixes:
+  [co.uk.epicguru.meleeanimation] Postfix
+
+static System.Boolean RimWorld.InvisibilityUtility::IsPsychologicallyInvisible(Verse.Pawn pawn)
+Prefixes:
+  [co.uk.epicguru.meleeanimation] Prefix
+  [BlackGloves.Harmony] Prefix
+Transpilers:
+Postfixes:
+
+static System.Void Verse.PawnGenerator::GenerateGearFor(Verse.Pawn pawn, Verse.PawnGenerationRequest request)
+Prefixes:
+Transpilers:
+Postfixes:
+  [co.uk.epicguru.meleeanimation] Postfix
+  [PeteTimesSix.SimpleSidearms] GenerateGearFor
+
+System.Void Verse.PawnRenderTree::ParallelPreDraw(Verse.PawnDrawParms parms)
+Prefixes:
+  [co.uk.epicguru.meleeanimation] Prefix
+Transpilers:
+Postfixes:
+  [co.uk.epicguru.meleeanimation] Postfix
+  [rimworld.Nals.FacialAnimation] PostfixParallelPreDraw
+
+virtual System.Boolean RimWorld.Verb_MeleeAttack::TryCastShot()
+Prefixes:
+  [co.uk.epicguru.meleeanimation] Prefix
+Transpilers:
+Postfixes:
+  [PeteTimesSix.SimpleSidearms] TryCastShot
+
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+Verse.Log:Warning (string)
+AM.Core:Warn (string)
+AM.Core:LogPotentialConflicts (HarmonyLib.Harmony)
+AM.Core/<>c:<.ctor>b__25_3 ()
+AM.Core:<AddLateLoadEvents>b__28_0 ()
+Verse.LongEventHandler:RunEventFromAnotherThread (System.Action)
+Verse.LongEventHandler/<>c:<UpdateCurrentAsynchronousEvent>b__28_0 ()
+System.Threading.ThreadHelper:ThreadStart_Context (object)
+System.Threading.ExecutionContext:RunInternal (System.Threading.ExecutionContext,System.Threading.ContextCallback,object,bool)
+System.Threading.ExecutionContext:Run (System.Threading.ExecutionContext,System.Threading.ContextCallback,object,bool)
+System.Threading.ExecutionContext:Run (System.Threading.ExecutionContext,System.Threading.ContextCallback,object)
+System.Threading.ThreadHelper:ThreadStart ()
+
+<color=#66ffb5>[MeleeAnim]</color> Full patch list:
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+Verse.Log:Message (string)
+AM.Core:Log (string)
+AM.Core:LogPotentialConflicts (HarmonyLib.Harmony)
+AM.Core/<>c:<.ctor>b__25_3 ()
+AM.Core:<AddLateLoadEvents>b__28_0 ()
+Verse.LongEventHandler:RunEventFromAnotherThread (System.Action)
+Verse.LongEventHandler/<>c:<UpdateCurrentAsynchronousEvent>b__28_0 ()
+System.Threading.ThreadHelper:ThreadStart_Context (object)
+System.Threading.ExecutionContext:RunInternal (System.Threading.ExecutionContext,System.Threading.ContextCallback,object,bool)
+System.Threading.ExecutionContext:Run (System.Threading.ExecutionContext,System.Threading.ContextCallback,object,bool)
+System.Threading.ExecutionContext:Run (System.Threading.ExecutionContext,System.Threading.ContextCallback,object)
+System.Threading.ThreadHelper:ThreadStart ()
+
+<color=#66ffb5>[MeleeAnim]</color> 
+static System.Void Verse.PawnRenderUtility::DrawEquipmentAiming(Verse.Thing eq, UnityEngine.Vector3 drawLoc, System.Single aimAngle)
+Prefixes:
+  [OskarPotocki.VEF] Prefix
+  [OskarPotocki.VEF] Prefix
+  [OskarPotocki.VEF] DrawEquipmentAimingPrefix
+  [co.uk.epicguru.meleeanimation] Prefix
+  [VFEPirates.Mod] Prefix
+  [OskarPotocki.VEF] DrawDuplicate
+Transpilers:
+Postfixes:
+
+Verse.PreRenderResults Verse.PawnRenderer::ParallelGetPreRenderResults(UnityEngine.Vector3 drawLoc, System.Nullable`1<Verse.Rot4> rotOverride, System.Boolean neverAimWeapon, System.Boolean disableCache)
+Prefixes:
+  [OskarPotocki.VEF] Prefix
+  [com.yayo.yayoAni] Prefix
+  [SmashPhil.VehicleFramework] DisableCachingPawnOverlays
+  [rimworld.Nals.FacialAnimation] PrefixParallelGetPreRenderResults
+  [GiddyUp] Prefix
+Transpilers:
+  [com.yayo.yayoAni] Transpiler
+Postfixes:
+  [co.uk.epicguru.meleeanimation] Postfix
+
+System.Void Verse.PawnRenderer::RenderPawnAt(UnityEngine.Vector3 drawLoc, System.Nullable`1<Verse.Rot4> rotOverride, System.Boolean neverAimWeapon)
+Prefixes:
+  [net.pardeike.rimworld.mod.camera+] Prefix
+  [co.uk.epicguru.meleeanimation] Prefix
+  [VREAndroidsMod] Prefix
+Transpilers:
+Postfixes:
+  [co.uk.epicguru.meleeanimation] Postfix
+  [VREAndroidsMod] Postfix
+
+System.Void RimWorld.Building_ProximityDetector::RunDetection()
+Prefixes:
+  [co.uk.epicguru.meleeanimation] Prefix
+  [BlackGloves.Harmony] Prefix
+Transpilers:
+Postfixes:
+  [co.uk.epicguru.meleeanimation] Postfix
+
+static System.Collections.Generic.List`1<Verse.FloatMenuOption> RimWorld.FloatMenuMakerMap::GetOptions(System.Collections.Generic.List`1<Verse.Pawn> selectedPawns, UnityEngine.Vector3 clickPos, RimWorld.FloatMenuContext& context)
+Prefixes:
+Transpilers:
+Postfixes:
+  [co.uk.epicguru.meleeanimation] Postfix
+
+System.Boolean Verse.HediffSet::get_HasHead()
+Prefixes:
+  [co.uk.epicguru.meleeanimation] Prefix
+Transpilers:
+Postfixes:
+
+static System.Boolean RimWorld.InvisibilityUtility::IsPsychologicallyInvisible(Verse.Pawn pawn)
+Prefixes:
+  [co.uk.epicguru.meleeanimation] Prefix
+  [BlackGloves.Harmony] Prefix
+Transpilers:
+Postfixes:
+
+static System.Void Verse.PawnGenerator::GenerateGearFor(Verse.Pawn pawn, Verse.PawnGenerationRequest request)
+Prefixes:
+Transpilers:
+Postfixes:
+  [co.uk.epicguru.meleeanimation] Postfix
+  [PeteTimesSix.SimpleSidearms] GenerateGearFor
+
+System.Void Verse.PawnRenderer::DrawShadowInternal(UnityEngine.Vector3 drawLoc)
+Prefixes:
+  [co.uk.epicguru.meleeanimation] Prefix
+Transpilers:
+Postfixes:
+
+System.Void Verse.PawnRenderer::ParallelPreRenderPawnAt(UnityEngine.Vector3 drawLoc, System.Nullable`1<Verse.Rot4> rotOverride, System.Boolean neverAimWeapon)
+Prefixes:
+  [co.uk.epicguru.meleeanimation] Prefix
+Transpilers:
+Postfixes:
+
+System.Void Verse.PawnRenderTree::ParallelPreDraw(Verse.PawnDrawParms parms)
+Prefixes:
+  [co.uk.epicguru.meleeanimation] Prefix
+Transpilers:
+Postfixes:
+  [co.uk.epicguru.meleeanimation] Postfix
+  [rimworld.Nals.FacialAnimation] PostfixParallelPreDraw
+
+static Verse.Pawn RimWorld.PawnUtility::PawnBlockingPathAt(Verse.IntVec3 c, Verse.Pawn forPawn, System.Boolean actAsIfHadCollideWithPawnsJob, System.Boolean collideOnlyWithStandingPawns, System.Boolean forPathFinder, System.Boolean useId)
+Prefixes:
+  [co.uk.epicguru.meleeanimation] Prefix
+  [co.uk.epicguru.meleeanimation] Prefix
+Transpilers:
+Postfixes:
+
+System.Void RimWorld.Pawn_ApparelTracker::Notify_ApparelChanged()
+Prefixes:
+  [co.uk.epicguru.meleeanimation] Prefix
+Transpilers:
+Postfixes:
+
+virtual System.Void Verse.Pawn::DrawGUIOverlay()
+Prefixes:
+  [co.uk.epicguru.meleeanimation] Prefix
+Transpilers:
+Postfixes:
+
+System.Void Verse.Pawn_DrawTracker::Notify_MeleeAttackOn(Verse.Thing Target)
+Prefixes:
+  [co.uk.epicguru.meleeanimation] Prefix
+Transpilers:
+Postfixes:
+
+Verse.BattleLogEntry_MeleeCombat RimWorld.Verb_MeleeAttack::CreateCombatLog(System.Func`2<Verse.ManeuverDef, Verse.RulePackDef> rulePackGetter, System.Boolean alwaysShow)
+Prefixes:
+  [co.uk.epicguru.meleeanimation] Prefix
+Transpilers:
+Postfixes:
+
+virtual System.Boolean RimWorld.Verb_MeleeAttack::TryCastShot()
+Prefixes:
+  [co.uk.epicguru.meleeanimation] Prefix
+Transpilers:
+Postfixes:
+  [PeteTimesSix.SimpleSidearms] TryCastShot
+
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+Verse.Log:Message (string)
+AM.Core:Log (string)
+AM.Core:LogPotentialConflicts (HarmonyLib.Harmony)
+AM.Core/<>c:<.ctor>b__25_3 ()
+AM.Core:<AddLateLoadEvents>b__28_0 ()
+Verse.LongEventHandler:RunEventFromAnotherThread (System.Action)
+Verse.LongEventHandler/<>c:<UpdateCurrentAsynchronousEvent>b__28_0 ()
+System.Threading.ThreadHelper:ThreadStart_Context (object)
+System.Threading.ExecutionContext:RunInternal (System.Threading.ExecutionContext,System.Threading.ContextCallback,object,bool)
+System.Threading.ExecutionContext:Run (System.Threading.ExecutionContext,System.Threading.ContextCallback,object,bool)
+System.Threading.ExecutionContext:Run (System.Threading.ExecutionContext,System.Threading.ContextCallback,object)
+System.Threading.ThreadHelper:ThreadStart ()
+
+<color=#66ffb5>[MeleeAnim]</color> PreCached all retexture info in 223.7ms
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+Verse.Log:Message (string)
+AM.Core:Log (string)
+AM.Core:PreCacheAllRetextures ()
+AM.Core:<AddLateLoadEvents>b__28_1 ()
+Verse.LongEventHandler:UpdateCurrentSynchronousEvent (bool&)
+Verse.LongEventHandler:LongEventsUpdate (bool&)
+(wrapper dynamic-method) MonoMod.Utils.DynamicMethodDefinition:Verse.Root.Update_Patch1 (Verse.Root)
+Verse.Root_Entry:Update ()
+
+<color=#66ffb5>[MeleeAnim]</color> Loaded tweak data for 63 weapons.
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+Verse.Log:Message (string)
+AM.Core:Log (string)
+AM.Core:LoadAllTweakData ()
+AM.Core:<AddLateLoadEvents>b__28_1 ()
+Verse.LongEventHandler:UpdateCurrentSynchronousEvent (bool&)
+Verse.LongEventHandler:LongEventsUpdate (bool&)
+(wrapper dynamic-method) MonoMod.Utils.DynamicMethodDefinition:Verse.Root.Update_Patch1 (Verse.Root)
+Verse.Root_Entry:Update ()
+
+<color=#66ffb5>[MeleeAnim]</color> ogliss.avpxenomorphs 'AVP Xenomorphs' has 1 missing weapon tweak data.
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+Verse.Log:Warning (string)
+AM.Core:Warn (string)
+AM.Core:LoadAllTweakData ()
+AM.Core:<AddLateLoadEvents>b__28_1 ()
+Verse.LongEventHandler:UpdateCurrentSynchronousEvent (bool&)
+Verse.LongEventHandler:LongEventsUpdate (bool&)
+(wrapper dynamic-method) MonoMod.Utils.DynamicMethodDefinition:Verse.Root.Update_Patch1 (Verse.Root)
+Verse.Root_Entry:Update ()
+
+<color=#66ffb5>[MeleeAnim]</color> Mod is running for the first time - log sending is disabled.
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+Verse.Log:Message (string)
+AM.Core:Log (string)
+AM.Core:LoadAllTweakData ()
+AM.Core:<AddLateLoadEvents>b__28_1 ()
+Verse.LongEventHandler:UpdateCurrentSynchronousEvent (bool&)
+Verse.LongEventHandler:LongEventsUpdate (bool&)
+(wrapper dynamic-method) MonoMod.Utils.DynamicMethodDefinition:Verse.Root.Update_Patch1 (Verse.Root)
+Verse.Root_Entry:Update ()
+
+<color=#66ffb5>[MeleeAnim]</color> Patched 3 classes that directly inherit from Verb_MeleeAttack in 78.2 ms to detect hits:
+RimWorld.Verb_MeleeApplyHediff from Assembly-CSharp
+RimWorld.Verb_MeleeAttackDamage from Assembly-CSharp
+RRYautja.Verb_MeleeAttackKnockback from RRYautja
+
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+Verse.Log:Message (string)
+AM.Core:Log (string)
+AM.Patches.Patch_Verb_MeleeAttack_ApplyMeleeDamageToTarget:PatchAll ()
+AM.Core:<AddLateLoadEvents>b__28_1 ()
+Verse.LongEventHandler:UpdateCurrentSynchronousEvent (bool&)
+Verse.LongEventHandler:LongEventsUpdate (bool&)
+(wrapper dynamic-method) MonoMod.Utils.DynamicMethodDefinition:Verse.Root.Update_Patch1 (Verse.Root)
+Verse.Root_Entry:Update ()
+
+<color=#66ffb5>[MeleeAnim]</color> Found 19 items of clothing that cover hands, took 1.06 ms:
+VAE_Handwear_Gloves (Gloves),
+VAE_Handwear_PlateGloves (Plate gloves),
+VAE_Handwear_MarineGloves (Marine gloves),
+VAE_Apparel_Shield_Riot (Riot shield),
+VFEP_WarcasketShoulders_Warcasket (Warcasket shoulders),
+VFEP_WarcasketShoulders_Marine (Marine warcasket shoulders),
+VFEP_WarcasketShoulders_Recon (Recon warcasket shoulders),
+VFEP_WarcasketShoulders_Cataphract (Cataphract warcasket shoulders),
+VFEP_WarcasketShoulders_Aerial (Aerial warcasket shoulders),
+VFEP_WarcasketShoulders_Barrage (Barrage warcasket shoulders),
+VFEP_WarcasketShoulders_Hazard (Hazard warcasket shoulders),
+VFEP_WarcasketShoulders_Shock (Shock warcasket shoulders),
+VFEP_WarcasketShoulders_Siegebreaker (Siegebreaker warcasket shoulders),
+VFEP_WarcasketShoulders_Guardian (Guardian warcasket shoulders),
+VFEP_WarcasketShoulders_Controller (Controller warcasket shoulders),
+VFEP_WarcasketShoulders_Sarcophagus (Sarcophagus warcasket shoulders),
+VFEP_WarcasketShoulders_Brute (Brute warcasket shoulders),
+Apparel_BlackSilence_Gloves (Black Gloves),
+Apparel_BlackSilence_Suit (Black Suits)
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+Verse.Log:Message (string)
+AM.Core:Log (string)
+AM.Hands.HandUtility:DoInitialLoading ()
+AM.Core:<AddLateLoadEvents>b__28_1 ()
+Verse.LongEventHandler:UpdateCurrentSynchronousEvent (bool&)
+Verse.LongEventHandler:LongEventsUpdate (bool&)
+(wrapper dynamic-method) MonoMod.Utils.DynamicMethodDefinition:Verse.Root.Update_Patch1 (Verse.Root)
+Verse.Root_Entry:Update ()
+
+  --> [What's That Mod] Took 0.27 seconds to scan all patches. <--
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+Verse.Log:Message (string)
+WhatsThatMod.ModCore:DefWriter (bool,System.Collections.Generic.HashSet`1<string>,string,string)
+WhatsThatMod.ModCore:WriteToDefs ()
+WhatsThatMod.ModCore:Run ()
+Verse.LongEventHandler:UpdateCurrentSynchronousEvent (bool&)
+Verse.LongEventHandler:LongEventsUpdate (bool&)
+(wrapper dynamic-method) MonoMod.Utils.DynamicMethodDefinition:Verse.Root.Update_Patch1 (Verse.Root)
+Verse.Root_Entry:Update ()
+
+What's That Mod: Wrote to 11038 mod descriptions, 73 patched defs resolved.
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+Verse.Log:Message (string)
+WhatsThatMod.ModCore:DefWriter (bool,System.Collections.Generic.HashSet`1<string>,string,string)
+WhatsThatMod.ModCore:WriteToDefs ()
+WhatsThatMod.ModCore:Run ()
+Verse.LongEventHandler:UpdateCurrentSynchronousEvent (bool&)
+Verse.LongEventHandler:LongEventsUpdate (bool&)
+(wrapper dynamic-method) MonoMod.Utils.DynamicMethodDefinition:Verse.Root.Update_Patch1 (Verse.Root)
+Verse.Root_Entry:Update ()
+
+What's That Mod took 291 milliseconds to generate all def descriptions.
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+Verse.Log:Message (string)
+WhatsThatMod.ModCore:Run ()
+Verse.LongEventHandler:UpdateCurrentSynchronousEvent (bool&)
+Verse.LongEventHandler:LongEventsUpdate (bool&)
+(wrapper dynamic-method) MonoMod.Utils.DynamicMethodDefinition:Verse.Root.Update_Patch1 (Verse.Root)
+Verse.Root_Entry:Update ()
 
 CE is trying to create default parameter lists ...
 UnityEngine.StackTraceUtility:ExtractStackTrace ()
@@ -871,55 +1425,7 @@ CharacterEditor.CEditor:OnMainMenuOnGUI ()
 Verse.UIRoot_Entry:UIRootOnGUI ()
 (wrapper dynamic-method) MonoMod.Utils.DynamicMethodDefinition:Verse.Root.OnGUI_Patch2 (Verse.Root)
 
-[YART] group order (centerdeg) top→bottom:
-   0: Heron_ResearchTab  (crossDeg=0)
-   1: VanillaExpanded  (crossDeg=16)
-   2: Main  (crossDeg=20)
-   3: Vehicles  (crossDeg=4)
-   4: RRY_RTab  (crossDeg=0)
-UnityEngine.StackTraceUtility:ExtractStackTrace ()
-Verse.Log:Message (string)
-YART.SugiyamaLayout:ComputeGroupOrder ()
-YART.SugiyamaLayout:ApplyGroupClustering (System.Collections.Generic.List`1<System.Collections.Generic.List`1<YART.Data.ResearchNode>>)
-YART.SugiyamaLayout:Calculate (YART.Data.ResearchSubGraph)
-YART.GraphBuildPipeline/<>c:<RunLayoutAndSearch>b__13_2 (YART.Data.ResearchSubGraph)
-System.Threading.Tasks.Parallel/<>c__DisplayClass33_0`2<YART.Data.ResearchSubGraph, object>:<ForEachWorker>b__0 (int)
-System.Threading.Tasks.Parallel/<>c__DisplayClass19_0`1<object>:<ForWorker>b__1 (System.Threading.Tasks.RangeWorker&,int,bool&)
-System.Threading.Tasks.TaskReplicator/Replica`1<System.Threading.Tasks.RangeWorker>:ExecuteAction (bool&)
-System.Threading.Tasks.TaskReplicator/Replica:Execute ()
-System.Threading.Tasks.TaskReplicator/Replica/<>c:<.ctor>b__4_0 (object)
-System.Threading.Tasks.Task:InnerInvoke ()
-System.Threading.Tasks.Task:Execute ()
-System.Threading.Tasks.Task:ExecutionContextCallback (object)
-System.Threading.ExecutionContext:RunInternal (System.Threading.ExecutionContext,System.Threading.ContextCallback,object,bool)
-System.Threading.ExecutionContext:Run (System.Threading.ExecutionContext,System.Threading.ContextCallback,object,bool)
-System.Threading.Tasks.Task:ExecuteWithThreadLocal (System.Threading.Tasks.Task&)
-System.Threading.Tasks.Task:ExecuteEntry (bool)
-System.Threading.Tasks.ThreadPoolTaskScheduler:TryExecuteTaskInline (System.Threading.Tasks.Task,bool)
-System.Threading.Tasks.TaskScheduler:TryRunInline (System.Threading.Tasks.Task,bool)
-System.Threading.Tasks.Task:InternalRunSynchronously (System.Threading.Tasks.TaskScheduler,bool)
-System.Threading.Tasks.Task:RunSynchronously (System.Threading.Tasks.TaskScheduler)
-System.Threading.Tasks.TaskReplicator/Replica:Start ()
-System.Threading.Tasks.TaskReplicator:Run<System.Threading.Tasks.RangeWorker> (System.Threading.Tasks.TaskReplicator/ReplicatableUserAction`1<System.Threading.Tasks.RangeWorker>,System.Threading.Tasks.ParallelOptions,bool)
-System.Threading.Tasks.Parallel:ForWorker<object> (int,int,System.Threading.Tasks.ParallelOptions,System.Action`1<int>,System.Action`2<int, System.Threading.Tasks.ParallelLoopState>,System.Func`4<int, System.Threading.Tasks.ParallelLoopState, object, object>,System.Func`1<object>,System.Action`1<object>)
-System.Threading.Tasks.Parallel:ForEachWorker<YART.Data.ResearchSubGraph, object> (System.Collections.Generic.IList`1<YART.Data.ResearchSubGraph>,System.Threading.Tasks.ParallelOptions,System.Action`1<YART.Data.ResearchSubGraph>,System.Action`2<YART.Data.ResearchSubGraph, System.Threading.Tasks.ParallelLoopState>,System.Action`3<YART.Data.ResearchSubGraph, System.Threading.Tasks.ParallelLoopState, long>,System.Func`4<YART.Data.ResearchSubGraph, System.Threading.Tasks.ParallelLoopState, object, object>,System.Func`5<YART.Data.ResearchSubGraph, System.Threading.Tasks.ParallelLoopState, long, object, object>,System.Func`1<object>,System.Action`1<object>)
-System.Threading.Tasks.Parallel:ForEachWorker<YART.Data.ResearchSubGraph, object> (System.Collections.Generic.IEnumerable`1<YART.Data.ResearchSubGraph>,System.Threading.Tasks.ParallelOptions,System.Action`1<YART.Data.ResearchSubGraph>,System.Action`2<YART.Data.ResearchSubGraph, System.Threading.Tasks.ParallelLoopState>,System.Action`3<YART.Data.ResearchSubGraph, System.Threading.Tasks.ParallelLoopState, long>,System.Func`4<YART.Data.ResearchSubGraph, System.Threading.Tasks.ParallelLoopState, object, object>,System.Func`5<YART.Data.ResearchSubGraph, System.Threading.Tasks.ParallelLoopState, long, object, object>,System.Func`1<object>,System.Action`1<object>)
-System.Threading.Tasks.Parallel:ForEach<YART.Data.ResearchSubGraph> (System.Collections.Generic.IEnumerable`1<YART.Data.ResearchSubGraph>,System.Action`1<YART.Data.ResearchSubGraph>)
-YART.GraphBuildPipeline:RunLayoutAndSearch ()
-YART.GraphBuildPipeline:BuildGraphAndLayout ()
-YART.GraphBuildPipeline/<>c:<.cctor>b__8_2 ()
-System.Threading.Tasks.Task:InnerInvoke ()
-System.Threading.Tasks.Task:Execute ()
-System.Threading.Tasks.Task:ExecutionContextCallback (object)
-System.Threading.ExecutionContext:RunInternal (System.Threading.ExecutionContext,System.Threading.ContextCallback,object,bool)
-System.Threading.ExecutionContext:Run (System.Threading.ExecutionContext,System.Threading.ContextCallback,object,bool)
-System.Threading.Tasks.Task:ExecuteWithThreadLocal (System.Threading.Tasks.Task&)
-System.Threading.Tasks.Task:ExecuteEntry (bool)
-System.Threading.Tasks.Task:System.Threading.IThreadPoolWorkItem.ExecuteWorkItem ()
-System.Threading.ThreadPoolWorkQueue:Dispatch ()
-System.Threading._ThreadPoolWaitCallback:PerformWaitCallback ()
-
-250 default entities for genes created
+1686 default entities for genes created
 UnityEngine.StackTraceUtility:ExtractStackTrace ()
 Verse.Log:Message (string)
 CharacterEditor.Preset:CreateDefaults<CharacterEditor.PresetGene, Verse.GeneDef> (System.Collections.Generic.HashSet`1<Verse.GeneDef>,System.Func`2<Verse.GeneDef, string>,System.Func`2<Verse.GeneDef, CharacterEditor.PresetGene>,string)
@@ -947,83 +1453,7 @@ CharacterEditor.CEditor:OnMainMenuOnGUI ()
 Verse.UIRoot_Entry:UIRootOnGUI ()
 (wrapper dynamic-method) MonoMod.Utils.DynamicMethodDefinition:Verse.Root.OnGUI_Patch2 (Verse.Root)
 
-[YART] group-order search: 85 → 85 (5 groups)
-UnityEngine.StackTraceUtility:ExtractStackTrace ()
-Verse.Log:Message (string)
-YART.SugiyamaLayout:RefineGroupOrderBySearch (System.Collections.Generic.List`1<System.Collections.Generic.List`1<YART.Data.ResearchNode>>)
-YART.SugiyamaLayout:ApplyGroupClustering (System.Collections.Generic.List`1<System.Collections.Generic.List`1<YART.Data.ResearchNode>>)
-YART.SugiyamaLayout:Calculate (YART.Data.ResearchSubGraph)
-YART.GraphBuildPipeline/<>c:<RunLayoutAndSearch>b__13_2 (YART.Data.ResearchSubGraph)
-System.Threading.Tasks.Parallel/<>c__DisplayClass33_0`2<YART.Data.ResearchSubGraph, object>:<ForEachWorker>b__0 (int)
-System.Threading.Tasks.Parallel/<>c__DisplayClass19_0`1<object>:<ForWorker>b__1 (System.Threading.Tasks.RangeWorker&,int,bool&)
-System.Threading.Tasks.TaskReplicator/Replica`1<System.Threading.Tasks.RangeWorker>:ExecuteAction (bool&)
-System.Threading.Tasks.TaskReplicator/Replica:Execute ()
-System.Threading.Tasks.TaskReplicator/Replica/<>c:<.ctor>b__4_0 (object)
-System.Threading.Tasks.Task:InnerInvoke ()
-System.Threading.Tasks.Task:Execute ()
-System.Threading.Tasks.Task:ExecutionContextCallback (object)
-System.Threading.ExecutionContext:RunInternal (System.Threading.ExecutionContext,System.Threading.ContextCallback,object,bool)
-System.Threading.ExecutionContext:Run (System.Threading.ExecutionContext,System.Threading.ContextCallback,object,bool)
-System.Threading.Tasks.Task:ExecuteWithThreadLocal (System.Threading.Tasks.Task&)
-System.Threading.Tasks.Task:ExecuteEntry (bool)
-System.Threading.Tasks.ThreadPoolTaskScheduler:TryExecuteTaskInline (System.Threading.Tasks.Task,bool)
-System.Threading.Tasks.TaskScheduler:TryRunInline (System.Threading.Tasks.Task,bool)
-System.Threading.Tasks.Task:InternalRunSynchronously (System.Threading.Tasks.TaskScheduler,bool)
-System.Threading.Tasks.Task:RunSynchronously (System.Threading.Tasks.TaskScheduler)
-System.Threading.Tasks.TaskReplicator/Replica:Start ()
-System.Threading.Tasks.TaskReplicator:Run<System.Threading.Tasks.RangeWorker> (System.Threading.Tasks.TaskReplicator/ReplicatableUserAction`1<System.Threading.Tasks.RangeWorker>,System.Threading.Tasks.ParallelOptions,bool)
-System.Threading.Tasks.Parallel:ForWorker<object> (int,int,System.Threading.Tasks.ParallelOptions,System.Action`1<int>,System.Action`2<int, System.Threading.Tasks.ParallelLoopState>,System.Func`4<int, System.Threading.Tasks.ParallelLoopState, object, object>,System.Func`1<object>,System.Action`1<object>)
-System.Threading.Tasks.Parallel:ForEachWorker<YART.Data.ResearchSubGraph, object> (System.Collections.Generic.IList`1<YART.Data.ResearchSubGraph>,System.Threading.Tasks.ParallelOptions,System.Action`1<YART.Data.ResearchSubGraph>,System.Action`2<YART.Data.ResearchSubGraph, System.Threading.Tasks.ParallelLoopState>,System.Action`3<YART.Data.ResearchSubGraph, System.Threading.Tasks.ParallelLoopState, long>,System.Func`4<YART.Data.ResearchSubGraph, System.Threading.Tasks.ParallelLoopState, object, object>,System.Func`5<YART.Data.ResearchSubGraph, System.Threading.Tasks.ParallelLoopState, long, object, object>,System.Func`1<object>,System.Action`1<object>)
-System.Threading.Tasks.Parallel:ForEachWorker<YART.Data.ResearchSubGraph, object> (System.Collections.Generic.IEnumerable`1<YART.Data.ResearchSubGraph>,System.Threading.Tasks.ParallelOptions,System.Action`1<YART.Data.ResearchSubGraph>,System.Action`2<YART.Data.ResearchSubGraph, System.Threading.Tasks.ParallelLoopState>,System.Action`3<YART.Data.ResearchSubGraph, System.Threading.Tasks.ParallelLoopState, long>,System.Func`4<YART.Data.ResearchSubGraph, System.Threading.Tasks.ParallelLoopState, object, object>,System.Func`5<YART.Data.ResearchSubGraph, System.Threading.Tasks.ParallelLoopState, long, object, object>,System.Func`1<object>,System.Action`1<object>)
-System.Threading.Tasks.Parallel:ForEach<YART.Data.ResearchSubGraph> (System.Collections.Generic.IEnumerable`1<YART.Data.ResearchSubGraph>,System.Action`1<YART.Data.ResearchSubGraph>)
-YART.GraphBuildPipeline:RunLayoutAndSearch ()
-YART.GraphBuildPipeline:BuildGraphAndLayout ()
-YART.GraphBuildPipeline/<>c:<.cctor>b__8_2 ()
-System.Threading.Tasks.Task:InnerInvoke ()
-System.Threading.Tasks.Task:Execute ()
-System.Threading.Tasks.Task:ExecutionContextCallback (object)
-System.Threading.ExecutionContext:RunInternal (System.Threading.ExecutionContext,System.Threading.ContextCallback,object,bool)
-System.Threading.ExecutionContext:Run (System.Threading.ExecutionContext,System.Threading.ContextCallback,object,bool)
-System.Threading.Tasks.Task:ExecuteWithThreadLocal (System.Threading.Tasks.Task&)
-System.Threading.Tasks.Task:ExecuteEntry (bool)
-System.Threading.Tasks.Task:System.Threading.IThreadPoolWorkItem.ExecuteWorkItem ()
-System.Threading.ThreadPoolWorkQueue:Dispatch ()
-System.Threading._ThreadPoolWaitCallback:PerformWaitCallback ()
-
-[YART] Search index built: 203 nodes, 296356 chars.
-UnityEngine.StackTraceUtility:ExtractStackTrace ()
-Verse.Log:Message (string)
-YART.Data.ResearchSearchEngine:Build (System.Collections.Generic.IEnumerable`1<YART.Data.ResearchNode>)
-YART.GraphBuildPipeline:RunLayoutAndSearch ()
-YART.GraphBuildPipeline:BuildGraphAndLayout ()
-YART.GraphBuildPipeline/<>c:<.cctor>b__8_2 ()
-System.Threading.Tasks.Task:InnerInvoke ()
-System.Threading.Tasks.Task:Execute ()
-System.Threading.Tasks.Task:ExecutionContextCallback (object)
-System.Threading.ExecutionContext:RunInternal (System.Threading.ExecutionContext,System.Threading.ContextCallback,object,bool)
-System.Threading.ExecutionContext:Run (System.Threading.ExecutionContext,System.Threading.ContextCallback,object,bool)
-System.Threading.Tasks.Task:ExecuteWithThreadLocal (System.Threading.Tasks.Task&)
-System.Threading.Tasks.Task:ExecuteEntry (bool)
-System.Threading.Tasks.Task:System.Threading.IThreadPoolWorkItem.ExecuteWorkItem ()
-System.Threading.ThreadPoolWorkQueue:Dispatch ()
-System.Threading._ThreadPoolWaitCallback:PerformWaitCallback ()
-
-[YART] Research graph built in background in 763 ms
-UnityEngine.StackTraceUtility:ExtractStackTrace ()
-Verse.Log:Message (string)
-YART.GraphBuildPipeline/<>c:<.cctor>b__8_2 ()
-System.Threading.Tasks.Task:InnerInvoke ()
-System.Threading.Tasks.Task:Execute ()
-System.Threading.Tasks.Task:ExecutionContextCallback (object)
-System.Threading.ExecutionContext:RunInternal (System.Threading.ExecutionContext,System.Threading.ContextCallback,object,bool)
-System.Threading.ExecutionContext:Run (System.Threading.ExecutionContext,System.Threading.ContextCallback,object,bool)
-System.Threading.Tasks.Task:ExecuteWithThreadLocal (System.Threading.Tasks.Task&)
-System.Threading.Tasks.Task:ExecuteEntry (bool)
-System.Threading.Tasks.Task:System.Threading.IThreadPoolWorkItem.ExecuteWorkItem ()
-System.Threading.ThreadPoolWorkQueue:Dispatch ()
-System.Threading._ThreadPoolWaitCallback:PerformWaitCallback ()
-
-2082 default entities for objects created
+4115 default entities for objects created
 UnityEngine.StackTraceUtility:ExtractStackTrace ()
 Verse.Log:Message (string)
 CharacterEditor.Preset:CreateDefaults<CharacterEditor.PresetObject, Verse.ThingDef> (System.Collections.Generic.HashSet`1<Verse.ThingDef>,System.Func`2<Verse.ThingDef, string>,System.Func`2<Verse.ThingDef, CharacterEditor.PresetObject>,string)
@@ -1051,7 +1481,7 @@ CharacterEditor.CEditor:OnMainMenuOnGUI ()
 Verse.UIRoot_Entry:UIRootOnGUI ()
 (wrapper dynamic-method) MonoMod.Utils.DynamicMethodDefinition:Verse.Root.OnGUI_Patch2 (Verse.Root)
 
-33 default entities for turrets created
+48 default entities for turrets created
 UnityEngine.StackTraceUtility:ExtractStackTrace ()
 Verse.Log:Message (string)
 CharacterEditor.Preset:CreateDefaults<CharacterEditor.PresetObject, Verse.ThingDef> (System.Collections.Generic.HashSet`1<Verse.ThingDef>,System.Func`2<Verse.ThingDef, string>,System.Func`2<Verse.ThingDef, CharacterEditor.PresetObject>,string)
@@ -1098,6 +1528,18 @@ CharacterEditor.CEditor:OnMainMenuOnGUI ()
 Verse.UIRoot_Entry:UIRootOnGUI ()
 (wrapper dynamic-method) MonoMod.Utils.DynamicMethodDefinition:Verse.Root.OnGUI_Patch2 (Verse.Root)
 
+no modifications for objects
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+Verse.Log:Message (string)
+CharacterEditor.Preset:LoadAllModifications (string,System.Action`1<string>,string)
+CharacterEditor.PresetObject:LoadAllModifications (string)
+CharacterEditor.CEditor/ModOptions:UpdatingCustoms ()
+CharacterEditor.CEditor:OnMainMenuOnGUI ()
+(wrapper dynamic-method) MonoMod.Utils.DynamicMethodDefinition:RimWorld.MainMenuDrawer.MainMenuOnGUI_Patch1 ()
+(wrapper dynamic-method) MonoMod.Utils.DynamicMethodDefinition:Verse.UIRoot_Entry.DoMainMenu_Patch1 (Verse.UIRoot_Entry)
+Verse.UIRoot_Entry:UIRootOnGUI ()
+(wrapper dynamic-method) MonoMod.Utils.DynamicMethodDefinition:Verse.Root.OnGUI_Patch2 (Verse.Root)
+
 no modifications for lifestages
 UnityEngine.StackTraceUtility:ExtractStackTrace ()
 Verse.Log:Message (string)
@@ -1119,1316 +1561,3 @@ CharacterEditor.CEditor:OnMainMenuOnGUI ()
 (wrapper dynamic-method) MonoMod.Utils.DynamicMethodDefinition:Verse.UIRoot_Entry.DoMainMenu_Patch1 (Verse.UIRoot_Entry)
 Verse.UIRoot_Entry:UIRootOnGUI ()
 (wrapper dynamic-method) MonoMod.Utils.DynamicMethodDefinition:Verse.Root.OnGUI_Patch2 (Verse.Root)
-
-Initializing new game with mods:
-  - brrainz.harmony
-  - ilyvion.LoadingProgress
-  - Ludeon.RimWorld
-  - Ludeon.RimWorld.Royalty
-  - Ludeon.RimWorld.Ideology
-  - Ludeon.RimWorld.Biotech
-  - Ludeon.RimWorld.Anomaly
-  - UnlimitedHugs.HugsLib
-  - Ogliss.AVPXenomorphs
-  - Nals.FacialAnimation
-  - Reel.FacialAnims
-  - sd.fa.reelsadjustments
-  - brrainz.cameraplus
-  - void.charactereditor
-  - IH.Clean.Textures
-  - avilmask.CommonSense
-  - zal.covetheus.nohar
-  - CaesarV6.DamageIndicators
-  - jecrell.doorsexpanded
-  - Dubwise.DubsMintMenus
-  - dubwise.dubsmintminimap
-  - MemeGoddess.GiddyUp
-  - jkluch.HaulToStack
-  - Taveron.IncreasedStack
-  - adaptive.storage.framework
-  - ASF.DeepStorage
-  - Ludeon.RimWorld.Odyssey
-  - m00nl1ght.MapPreview
-  - notfood.MendAndRecycle
-  - Cain.Mineshaft
-  - erdelf.MinifyEverything
-  - VitaKaninen.ShelfPatch
-  - Doug.NoJobAuthors
-  - komunre.BetterExp.PassiveResearch
-  - OskarPotocki.VanillaFactionsExpanded.Core
-  - ponpeco.PFSF
-  - Memegoddess.ReplaceStuff
-  - Aelanna.ResearchTabColors
-  - aRandomKiwi.RimSaves
-  - Mlie.RunAndHide
-  - MemeGoddess.RunAndGun
-  - sarg.smartspeed
-  - dhultgren.smarterconstruction
-  - GT.Sam.TilledSoil
-  - VanillaExpanded.VFEMedical
-  - VanillaExpanded.VFEProduction
-  - VanillaExpanded.VFECore
-  - VanillaExpanded.VFESpacer
-  - VanillaExpanded.VTEXE.FacialAnims
-  - SmashPhil.VehicleFramework
-  - OskarPotocki.VanillaVehiclesExpanded
-  - OskarPotocki.VanillaVehiclesExpandedTier3
-  - Explorern11.VehiclesWrecksExpanded
-  - VehiclesWrecksExpanded.Revisited
-  - seohyeon.yart
-  - UnlimitedHugs.AllowTool
-  - Mehni.PickUpAndHaul
-  - VanillaExpanded.VFESecurity
-  - imranfish.xmlextensions
-  - FrozenSnowFox.ComplexJobs
-UnityEngine.StackTraceUtility:ExtractStackTrace ()
-Verse.Log:Message (string)
-(wrapper dynamic-method) MonoMod.Utils.DynamicMethodDefinition:Verse.Game.InitNewGame_Patch2 (Verse.Game)
-Verse.Root_Play/<>c:<Start>b__1_2 ()
-Verse.LongEventHandler:RunEventFromAnotherThread (System.Action)
-Verse.LongEventHandler/<>c:<UpdateCurrentAsynchronousEvent>b__28_0 ()
-System.Threading.ThreadHelper:ThreadStart_Context (object)
-System.Threading.ExecutionContext:RunInternal (System.Threading.ExecutionContext,System.Threading.ContextCallback,object,bool)
-System.Threading.ExecutionContext:Run (System.Threading.ExecutionContext,System.Threading.ContextCallback,object,bool)
-System.Threading.ExecutionContext:Run (System.Threading.ExecutionContext,System.Threading.ContextCallback,object)
-System.Threading.ThreadHelper:ThreadStart ()
-
-[AVP Xenomorphs] Created Xenomorph faction during pawn generation (was missing).
-UnityEngine.StackTraceUtility:ExtractStackTrace ()
-Verse.Log:Message (string)
-RRYautja.XenomorphFactionAssigner:GetXenoFaction ()
-RRYautja.XenomorphFactionAssigner:GeneratePawnPostfix (Verse.Pawn&)
-(wrapper dynamic-method) MonoMod.Utils.DynamicMethodDefinition:Verse.PawnGenerator.GeneratePawn_Patch3 (Verse.PawnGenerationRequest)
-RimWorld.HiveLike:SpawnSetup (Verse.Map,bool)
-(wrapper dynamic-method) MonoMod.Utils.DynamicMethodDefinition:Verse.GenSpawn.Spawn_Patch3 (Verse.Thing,Verse.IntVec3,Verse.Map,Verse.Rot4,Verse.WipeMode,bool,bool)
-Verse.GenSpawn:Spawn (Verse.Thing,Verse.IntVec3,Verse.Map,Verse.WipeMode)
-RimWorld.GenStep_XenomorphCaveHives:TrySpawnHive (Verse.Map)
-RimWorld.GenStep_XenomorphCaveHives:Generate (Verse.Map,Verse.GenStepParams)
-Verse.MapGenerator:GenerateContentsIntoMap (System.Collections.Generic.IEnumerable`1<Verse.GenStepWithParams>,Verse.Map,int,bool)
-(wrapper dynamic-method) MonoMod.Utils.DynamicMethodDefinition:Verse.MapGenerator.GenerateMap_Patch2 (Verse.IntVec3,RimWorld.Planet.MapParent,Verse.MapGeneratorDef,System.Collections.Generic.IEnumerable`1<Verse.GenStepWithParams>,System.Action`1<Verse.Map>,bool,bool)
-(wrapper dynamic-method) MonoMod.Utils.DynamicMethodDefinition:Verse.Game.InitNewGame_Patch2 (Verse.Game)
-Verse.Root_Play/<>c:<Start>b__1_2 ()
-Verse.LongEventHandler:RunEventFromAnotherThread (System.Action)
-Verse.LongEventHandler/<>c:<UpdateCurrentAsynchronousEvent>b__28_0 ()
-System.Threading.ThreadHelper:ThreadStart_Context (object)
-System.Threading.ExecutionContext:RunInternal (System.Threading.ExecutionContext,System.Threading.ContextCallback,object,bool)
-System.Threading.ExecutionContext:Run (System.Threading.ExecutionContext,System.Threading.ContextCallback,object,bool)
-System.Threading.ExecutionContext:Run (System.Threading.ExecutionContext,System.Threading.ContextCallback,object)
-System.Threading.ThreadHelper:ThreadStart ()
-
-checking editor settings...
-UnityEngine.StackTraceUtility:ExtractStackTrace ()
-Verse.Log:Message (string)
-CharacterEditor.CEditor/ModData:OnSettingsChanged (bool,bool)
-CharacterEditor.CEditor:OnSettingsChanged (bool,bool)
-CharacterEditor.CEditor:OnMapLoaded ()
-(wrapper dynamic-method) MonoMod.Utils.DynamicMethodDefinition:Verse.Map.FinalizeInit_Patch4 (Verse.Map)
-(wrapper dynamic-method) MonoMod.Utils.DynamicMethodDefinition:Verse.MapGenerator.GenerateMap_Patch2 (Verse.IntVec3,RimWorld.Planet.MapParent,Verse.MapGeneratorDef,System.Collections.Generic.IEnumerable`1<Verse.GenStepWithParams>,System.Action`1<Verse.Map>,bool,bool)
-(wrapper dynamic-method) MonoMod.Utils.DynamicMethodDefinition:Verse.Game.InitNewGame_Patch2 (Verse.Game)
-Verse.Root_Play/<>c:<Start>b__1_2 ()
-Verse.LongEventHandler:RunEventFromAnotherThread (System.Action)
-Verse.LongEventHandler/<>c:<UpdateCurrentAsynchronousEvent>b__28_0 ()
-System.Threading.ThreadHelper:ThreadStart_Context (object)
-System.Threading.ExecutionContext:RunInternal (System.Threading.ExecutionContext,System.Threading.ContextCallback,object,bool)
-System.Threading.ExecutionContext:Run (System.Threading.ExecutionContext,System.Threading.ContextCallback,object,bool)
-System.Threading.ExecutionContext:Run (System.Threading.ExecutionContext,System.Threading.ContextCallback,object)
-System.Threading.ThreadHelper:ThreadStart ()
-
-bodysizes genes are active
-UnityEngine.StackTraceUtility:ExtractStackTrace ()
-Verse.Log:Message (string)
-CharacterEditor.GeneTool:EnDisableBodySizeGenes ()
-CharacterEditor.CEditor/ModData:OnSettingsChanged (bool,bool)
-CharacterEditor.CEditor:OnSettingsChanged (bool,bool)
-CharacterEditor.CEditor:OnMapLoaded ()
-(wrapper dynamic-method) MonoMod.Utils.DynamicMethodDefinition:Verse.Map.FinalizeInit_Patch4 (Verse.Map)
-(wrapper dynamic-method) MonoMod.Utils.DynamicMethodDefinition:Verse.MapGenerator.GenerateMap_Patch2 (Verse.IntVec3,RimWorld.Planet.MapParent,Verse.MapGeneratorDef,System.Collections.Generic.IEnumerable`1<Verse.GenStepWithParams>,System.Action`1<Verse.Map>,bool,bool)
-(wrapper dynamic-method) MonoMod.Utils.DynamicMethodDefinition:Verse.Game.InitNewGame_Patch2 (Verse.Game)
-Verse.Root_Play/<>c:<Start>b__1_2 ()
-Verse.LongEventHandler:RunEventFromAnotherThread (System.Action)
-Verse.LongEventHandler/<>c:<UpdateCurrentAsynchronousEvent>b__28_0 ()
-System.Threading.ThreadHelper:ThreadStart_Context (object)
-System.Threading.ExecutionContext:RunInternal (System.Threading.ExecutionContext,System.Threading.ContextCallback,object,bool)
-System.Threading.ExecutionContext:Run (System.Threading.ExecutionContext,System.Threading.ContextCallback,object,bool)
-System.Threading.ExecutionContext:Run (System.Threading.ExecutionContext,System.Threading.ContextCallback,object)
-System.Threading.ThreadHelper:ThreadStart ()
-
-[AVP Xenomorphs] Xenomorph hive faction already exists.
-UnityEngine.StackTraceUtility:ExtractStackTrace ()
-Verse.Log:Message (string)
-RRYautja.AvPDebug:LogOnce (string,string)
-RRYautja.XenomorphFactionEnsurer:EnsureFactionPostfix ()
-(wrapper dynamic-method) MonoMod.Utils.DynamicMethodDefinition:Verse.Game.InitNewGame_Patch2 (Verse.Game)
-Verse.Root_Play/<>c:<Start>b__1_2 ()
-Verse.LongEventHandler:RunEventFromAnotherThread (System.Action)
-Verse.LongEventHandler/<>c:<UpdateCurrentAsynchronousEvent>b__28_0 ()
-System.Threading.ThreadHelper:ThreadStart_Context (object)
-System.Threading.ExecutionContext:RunInternal (System.Threading.ExecutionContext,System.Threading.ContextCallback,object,bool)
-System.Threading.ExecutionContext:Run (System.Threading.ExecutionContext,System.Threading.ContextCallback,object,bool)
-System.Threading.ExecutionContext:Run (System.Threading.ExecutionContext,System.Threading.ContextCallback,object)
-System.Threading.ThreadHelper:ThreadStart ()
-
-RRY_Xenomorph_FaceHugger62308 issued IdleError wait job. The behavior tree should never get here.
-UnityEngine.StackTraceUtility:ExtractStackTrace ()
-(wrapper dynamic-method) MonoMod.Utils.DynamicMethodDefinition:Verse.Log.Error_Patch1 (string)
-Verse.Log:ErrorOnce (string,int)
-Verse.AI.JobGiver_IdleError:TryGiveJob (Verse.Pawn)
-Verse.AI.ThinkNode_JobGiver:TryIssueJobPackage (Verse.Pawn,Verse.AI.JobIssueParams)
-Verse.AI.ThinkNode_Priority:TryIssueJobPackage (Verse.Pawn,Verse.AI.JobIssueParams)
-(wrapper dynamic-method) MonoMod.Utils.DynamicMethodDefinition:Verse.AI.Pawn_JobTracker.DetermineNextJob_Patch1 (Verse.AI.Pawn_JobTracker,Verse.ThinkTreeDef&,bool)
-(wrapper dynamic-method) MonoMod.Utils.DynamicMethodDefinition:Glue:AbiFixup<Verse.AI.ThinkResult Verse.AI.Pawn_JobTracker:DetermineNextJob(Verse.ThinkTreeDef&, System.Boolean),Verse.AI.ThinkResult Verse.AI.Pawn_JobTracker.DetermineNextJob_Patch1(Verse.AI.Pawn_JobTracker, Verse.ThinkTreeDef&, System.Boolean)> (Verse.AI.Pawn_JobTracker,Verse.AI.ThinkResult&,Verse.ThinkTreeDef&,bool)
-Verse.AI.Pawn_JobTracker:TryFindAndStartJob ()
-Verse.AI.Pawn_JobTracker:JobTrackerTickInterval (int)
-Verse.Pawn:TickInterval (int)
-Verse.Thing:DoTick ()
-Verse.TickList:Tick ()
-(wrapper dynamic-method) MonoMod.Utils.DynamicMethodDefinition:Verse.TickManager.DoSingleTick_Patch1 (Verse.TickManager)
-Verse.TickManager:TickManagerUpdate ()
-(wrapper dynamic-method) MonoMod.Utils.DynamicMethodDefinition:Verse.Game.UpdatePlay_Patch1 (Verse.Game)
-Verse.Root_Play:Update ()
-
-[AVP Xenomorphs] [Detach] Detaching facehugger from Deadlift (impregnation complete) (tick 74787)
-UnityEngine.StackTraceUtility:ExtractStackTrace ()
-Verse.Log:Message (string)
-RRYautja.AvPDebug:Log (string,string)
-RRYautja.HediffComp_XenoFacehugger:CompPostTick (single&)
-Verse.HediffWithComps:PostTick ()
-Verse.Pawn_HealthTracker:HealthTick ()
-Verse.Pawn:Tick ()
-Verse.Thing:DoTick ()
-Verse.TickList:Tick ()
-(wrapper dynamic-method) MonoMod.Utils.DynamicMethodDefinition:Verse.TickManager.DoSingleTick_Patch1 (Verse.TickManager)
-Verse.TickManager:TickManagerUpdate ()
-(wrapper dynamic-method) MonoMod.Utils.DynamicMethodDefinition:Verse.Game.UpdatePlay_Patch1 (Verse.Game)
-Verse.Root_Play:Update ()
-
-[AVP Xenomorphs] [Detach] Detaching facehugger from wolverine (impregnation complete) (tick 75585)
-UnityEngine.StackTraceUtility:ExtractStackTrace ()
-Verse.Log:Message (string)
-RRYautja.AvPDebug:Log (string,string)
-RRYautja.HediffComp_XenoFacehugger:CompPostTick (single&)
-Verse.HediffWithComps:PostTick ()
-Verse.Pawn_HealthTracker:HealthTick ()
-Verse.Pawn:Tick ()
-Verse.Thing:DoTick ()
-Verse.TickList:Tick ()
-(wrapper dynamic-method) MonoMod.Utils.DynamicMethodDefinition:Verse.TickManager.DoSingleTick_Patch1 (Verse.TickManager)
-Verse.TickManager:TickManagerUpdate ()
-(wrapper dynamic-method) MonoMod.Utils.DynamicMethodDefinition:Verse.Game.UpdatePlay_Patch1 (Verse.Game)
-Verse.Root_Play:Update ()
-
-[AVP Xenomorphs] [Detach] Detaching facehugger from gazelle (impregnation complete) (tick 77295)
-UnityEngine.StackTraceUtility:ExtractStackTrace ()
-Verse.Log:Message (string)
-RRYautja.AvPDebug:Log (string,string)
-RRYautja.HediffComp_XenoFacehugger:CompPostTick (single&)
-Verse.HediffWithComps:PostTick ()
-Verse.Pawn_HealthTracker:HealthTick ()
-Verse.Pawn:Tick ()
-Verse.Thing:DoTick ()
-Verse.TickList:Tick ()
-(wrapper dynamic-method) MonoMod.Utils.DynamicMethodDefinition:Verse.TickManager.DoSingleTick_Patch1 (Verse.TickManager)
-Verse.TickManager:TickManagerUpdate ()
-(wrapper dynamic-method) MonoMod.Utils.DynamicMethodDefinition:Verse.Game.UpdatePlay_Patch1 (Verse.Game)
-Verse.Root_Play:Update ()
-
-[AVP Xenomorphs] [Detach] Detaching facehugger from gazelle (impregnation complete) (tick 79114)
-UnityEngine.StackTraceUtility:ExtractStackTrace ()
-Verse.Log:Message (string)
-RRYautja.AvPDebug:Log (string,string)
-RRYautja.HediffComp_XenoFacehugger:CompPostTick (single&)
-Verse.HediffWithComps:PostTick ()
-Verse.Pawn_HealthTracker:HealthTick ()
-Verse.Pawn:Tick ()
-Verse.Thing:DoTick ()
-Verse.TickList:Tick ()
-(wrapper dynamic-method) MonoMod.Utils.DynamicMethodDefinition:Verse.TickManager.DoSingleTick_Patch1 (Verse.TickManager)
-Verse.TickManager:TickManagerUpdate ()
-(wrapper dynamic-method) MonoMod.Utils.DynamicMethodDefinition:Verse.Game.UpdatePlay_Patch1 (Verse.Game)
-Verse.Root_Play:Update ()
-
-[AVP Xenomorphs] [Detach] Detaching facehugger from gazelle (impregnation complete) (tick 101032)
-UnityEngine.StackTraceUtility:ExtractStackTrace ()
-Verse.Log:Message (string)
-RRYautja.AvPDebug:Log (string,string)
-RRYautja.HediffComp_XenoFacehugger:CompPostTick (single&)
-Verse.HediffWithComps:PostTick ()
-Verse.Pawn_HealthTracker:HealthTick ()
-Verse.Pawn:Tick ()
-Verse.Thing:DoTick ()
-Verse.TickList:Tick ()
-(wrapper dynamic-method) MonoMod.Utils.DynamicMethodDefinition:Verse.TickManager.DoSingleTick_Patch1 (Verse.TickManager)
-Verse.TickManager:TickManagerUpdate ()
-(wrapper dynamic-method) MonoMod.Utils.DynamicMethodDefinition:Verse.Game.UpdatePlay_Patch1 (Verse.Game)
-Verse.Root_Play:Update ()
-
-[AVP Xenomorphs] [Spawn] Deadlift -> Drone via RRY_Spawn_Humanlike (host: human, bodySize: 1) (tick 101987)
-UnityEngine.StackTraceUtility:ExtractStackTrace ()
-Verse.Log:Message (string)
-RRYautja.AvPDebug:Log (string,string)
-RRYautja.HediffComp_XenoSpawner:XenomorphSpawnRequest ()
-RRYautja.HediffComp_XenoSpawner:Notify_PawnDied (System.Nullable`1<Verse.DamageInfo>,Verse.Hediff)
-Verse.HediffWithComps:Notify_PawnDied (System.Nullable`1<Verse.DamageInfo>,Verse.Hediff)
-RRYautja.XenoHediffWithComps:Notify_PawnDied (System.Nullable`1<Verse.DamageInfo>,Verse.Hediff)
-Verse.HediffSet:Notify_PawnDied (System.Nullable`1<Verse.DamageInfo>,Verse.Hediff)
-(wrapper dynamic-method) MonoMod.Utils.DynamicMethodDefinition:Verse.Pawn.Kill_Patch5 (Verse.Pawn,System.Nullable`1<Verse.DamageInfo>,Verse.Hediff)
-(wrapper dynamic-method) MonoMod.Utils.DynamicMethodDefinition:Verse.Pawn_HealthTracker.CheckForStateChange_Patch2 (Verse.Pawn_HealthTracker,System.Nullable`1<Verse.DamageInfo>,Verse.Hediff)
-Verse.Pawn_HealthTracker:Notify_HediffChanged (Verse.Hediff)
-Verse.Hediff:set_Severity (single)
-Verse.HediffWithComps:PostTick ()
-RRYautja.XenoHediffWithComps:PostTick ()
-Verse.Pawn_HealthTracker:HealthTick ()
-Verse.Pawn:Tick ()
-Verse.Thing:DoTick ()
-Verse.TickList:Tick ()
-(wrapper dynamic-method) MonoMod.Utils.DynamicMethodDefinition:Verse.TickManager.DoSingleTick_Patch1 (Verse.TickManager)
-Verse.TickManager:TickManagerUpdate ()
-(wrapper dynamic-method) MonoMod.Utils.DynamicMethodDefinition:Verse.Game.UpdatePlay_Patch1 (Verse.Game)
-Verse.Root_Play:Update ()
-
-[AVP Xenomorphs] [Spawn] wolverine -> Runner via RRY_Spawn_SmallAnimal (host: wolverine, bodySize: 0.7) (tick 102785)
-UnityEngine.StackTraceUtility:ExtractStackTrace ()
-Verse.Log:Message (string)
-RRYautja.AvPDebug:Log (string,string)
-RRYautja.HediffComp_XenoSpawner:XenomorphSpawnRequest ()
-RRYautja.HediffComp_XenoSpawner:Notify_PawnDied (System.Nullable`1<Verse.DamageInfo>,Verse.Hediff)
-Verse.HediffWithComps:Notify_PawnDied (System.Nullable`1<Verse.DamageInfo>,Verse.Hediff)
-RRYautja.XenoHediffWithComps:Notify_PawnDied (System.Nullable`1<Verse.DamageInfo>,Verse.Hediff)
-Verse.HediffSet:Notify_PawnDied (System.Nullable`1<Verse.DamageInfo>,Verse.Hediff)
-(wrapper dynamic-method) MonoMod.Utils.DynamicMethodDefinition:Verse.Pawn.Kill_Patch5 (Verse.Pawn,System.Nullable`1<Verse.DamageInfo>,Verse.Hediff)
-(wrapper dynamic-method) MonoMod.Utils.DynamicMethodDefinition:Verse.Pawn_HealthTracker.CheckForStateChange_Patch2 (Verse.Pawn_HealthTracker,System.Nullable`1<Verse.DamageInfo>,Verse.Hediff)
-Verse.Pawn_HealthTracker:Notify_HediffChanged (Verse.Hediff)
-Verse.Hediff:set_Severity (single)
-Verse.HediffWithComps:PostTick ()
-RRYautja.XenoHediffWithComps:PostTick ()
-Verse.Pawn_HealthTracker:HealthTick ()
-Verse.Pawn:Tick ()
-Verse.Thing:DoTick ()
-Verse.TickList:Tick ()
-(wrapper dynamic-method) MonoMod.Utils.DynamicMethodDefinition:Verse.TickManager.DoSingleTick_Patch1 (Verse.TickManager)
-Verse.TickManager:TickManagerUpdate ()
-(wrapper dynamic-method) MonoMod.Utils.DynamicMethodDefinition:Verse.Game.UpdatePlay_Patch1 (Verse.Game)
-Verse.Root_Play:Update ()
-
-[AVP Xenomorphs] [Spawn] gazelle -> Runner via RRY_Spawn_SmallAnimal (host: gazelle, bodySize: 0.7) (tick 104495)
-UnityEngine.StackTraceUtility:ExtractStackTrace ()
-Verse.Log:Message (string)
-RRYautja.AvPDebug:Log (string,string)
-RRYautja.HediffComp_XenoSpawner:XenomorphSpawnRequest ()
-RRYautja.HediffComp_XenoSpawner:Notify_PawnDied (System.Nullable`1<Verse.DamageInfo>,Verse.Hediff)
-Verse.HediffWithComps:Notify_PawnDied (System.Nullable`1<Verse.DamageInfo>,Verse.Hediff)
-RRYautja.XenoHediffWithComps:Notify_PawnDied (System.Nullable`1<Verse.DamageInfo>,Verse.Hediff)
-Verse.HediffSet:Notify_PawnDied (System.Nullable`1<Verse.DamageInfo>,Verse.Hediff)
-(wrapper dynamic-method) MonoMod.Utils.DynamicMethodDefinition:Verse.Pawn.Kill_Patch5 (Verse.Pawn,System.Nullable`1<Verse.DamageInfo>,Verse.Hediff)
-(wrapper dynamic-method) MonoMod.Utils.DynamicMethodDefinition:Verse.Pawn_HealthTracker.CheckForStateChange_Patch2 (Verse.Pawn_HealthTracker,System.Nullable`1<Verse.DamageInfo>,Verse.Hediff)
-Verse.Pawn_HealthTracker:Notify_HediffChanged (Verse.Hediff)
-Verse.Hediff:set_Severity (single)
-Verse.HediffWithComps:PostTick ()
-RRYautja.XenoHediffWithComps:PostTick ()
-Verse.Pawn_HealthTracker:HealthTick ()
-Verse.Pawn:Tick ()
-Verse.Thing:DoTick ()
-Verse.TickList:Tick ()
-(wrapper dynamic-method) MonoMod.Utils.DynamicMethodDefinition:Verse.TickManager.DoSingleTick_Patch1 (Verse.TickManager)
-Verse.TickManager:TickManagerUpdate ()
-(wrapper dynamic-method) MonoMod.Utils.DynamicMethodDefinition:Verse.Game.UpdatePlay_Patch1 (Verse.Game)
-Verse.Root_Play:Update ()
-
-[AVP Xenomorphs] [Spawn] gazelle -> Runner via RRY_Spawn_SmallAnimal (host: gazelle, bodySize: 0.7) (tick 106314)
-UnityEngine.StackTraceUtility:ExtractStackTrace ()
-Verse.Log:Message (string)
-RRYautja.AvPDebug:Log (string,string)
-RRYautja.HediffComp_XenoSpawner:XenomorphSpawnRequest ()
-RRYautja.HediffComp_XenoSpawner:Notify_PawnDied (System.Nullable`1<Verse.DamageInfo>,Verse.Hediff)
-Verse.HediffWithComps:Notify_PawnDied (System.Nullable`1<Verse.DamageInfo>,Verse.Hediff)
-RRYautja.XenoHediffWithComps:Notify_PawnDied (System.Nullable`1<Verse.DamageInfo>,Verse.Hediff)
-Verse.HediffSet:Notify_PawnDied (System.Nullable`1<Verse.DamageInfo>,Verse.Hediff)
-(wrapper dynamic-method) MonoMod.Utils.DynamicMethodDefinition:Verse.Pawn.Kill_Patch5 (Verse.Pawn,System.Nullable`1<Verse.DamageInfo>,Verse.Hediff)
-(wrapper dynamic-method) MonoMod.Utils.DynamicMethodDefinition:Verse.Pawn_HealthTracker.CheckForStateChange_Patch2 (Verse.Pawn_HealthTracker,System.Nullable`1<Verse.DamageInfo>,Verse.Hediff)
-Verse.Pawn_HealthTracker:Notify_HediffChanged (Verse.Hediff)
-Verse.Hediff:set_Severity (single)
-Verse.HediffWithComps:PostTick ()
-RRYautja.XenoHediffWithComps:PostTick ()
-Verse.Pawn_HealthTracker:HealthTick ()
-Verse.Pawn:Tick ()
-Verse.Thing:DoTick ()
-Verse.TickList:Tick ()
-(wrapper dynamic-method) MonoMod.Utils.DynamicMethodDefinition:Verse.TickManager.DoSingleTick_Patch1 (Verse.TickManager)
-Verse.TickManager:TickManagerUpdate ()
-(wrapper dynamic-method) MonoMod.Utils.DynamicMethodDefinition:Verse.Game.UpdatePlay_Patch1 (Verse.Game)
-Verse.Root_Play:Update ()
-
-[AVP Xenomorphs] [Spawn] gazelle -> Runner via RRY_Spawn_SmallAnimal (host: gazelle, bodySize: 0.7) (tick 128232)
-UnityEngine.StackTraceUtility:ExtractStackTrace ()
-Verse.Log:Message (string)
-RRYautja.AvPDebug:Log (string,string)
-RRYautja.HediffComp_XenoSpawner:XenomorphSpawnRequest ()
-RRYautja.HediffComp_XenoSpawner:Notify_PawnDied (System.Nullable`1<Verse.DamageInfo>,Verse.Hediff)
-Verse.HediffWithComps:Notify_PawnDied (System.Nullable`1<Verse.DamageInfo>,Verse.Hediff)
-RRYautja.XenoHediffWithComps:Notify_PawnDied (System.Nullable`1<Verse.DamageInfo>,Verse.Hediff)
-Verse.HediffSet:Notify_PawnDied (System.Nullable`1<Verse.DamageInfo>,Verse.Hediff)
-(wrapper dynamic-method) MonoMod.Utils.DynamicMethodDefinition:Verse.Pawn.Kill_Patch5 (Verse.Pawn,System.Nullable`1<Verse.DamageInfo>,Verse.Hediff)
-(wrapper dynamic-method) MonoMod.Utils.DynamicMethodDefinition:Verse.Pawn_HealthTracker.CheckForStateChange_Patch2 (Verse.Pawn_HealthTracker,System.Nullable`1<Verse.DamageInfo>,Verse.Hediff)
-Verse.Pawn_HealthTracker:Notify_HediffChanged (Verse.Hediff)
-Verse.Hediff:set_Severity (single)
-Verse.HediffWithComps:PostTick ()
-RRYautja.XenoHediffWithComps:PostTick ()
-Verse.Pawn_HealthTracker:HealthTick ()
-Verse.Pawn:Tick ()
-Verse.Thing:DoTick ()
-Verse.TickList:Tick ()
-(wrapper dynamic-method) MonoMod.Utils.DynamicMethodDefinition:Verse.TickManager.DoSingleTick_Patch1 (Verse.TickManager)
-Verse.TickManager:TickManagerUpdate ()
-(wrapper dynamic-method) MonoMod.Utils.DynamicMethodDefinition:Verse.Game.UpdatePlay_Patch1 (Verse.Game)
-Verse.Root_Play:Update ()
-
-Cannot drop RRY_Xenomorph_Drone62839 without a dropLoc and with an owner whose map is null.
-UnityEngine.StackTraceUtility:ExtractStackTrace ()
-(wrapper dynamic-method) MonoMod.Utils.DynamicMethodDefinition:Verse.Log.Error_Patch1 (string)
-Verse.ThingOwner:TryDrop (Verse.Thing,Verse.ThingPlaceMode,Verse.Thing&,System.Action`2<Verse.Thing, int>,System.Predicate`1<Verse.IntVec3>)
-RimWorld.HiveLike:Tick ()
-Verse.Thing:DoTick ()
-Verse.TickList:Tick ()
-(wrapper dynamic-method) MonoMod.Utils.DynamicMethodDefinition:Verse.TickManager.DoSingleTick_Patch1 (Verse.TickManager)
-Verse.TickManager:TickManagerUpdate ()
-(wrapper dynamic-method) MonoMod.Utils.DynamicMethodDefinition:Verse.Game.UpdatePlay_Patch1 (Verse.Game)
-Verse.Root_Play:Update ()
-
-Cannot drop RRY_Xenomorph_Queen61523 without a dropLoc and with an owner whose map is null.
-UnityEngine.StackTraceUtility:ExtractStackTrace ()
-(wrapper dynamic-method) MonoMod.Utils.DynamicMethodDefinition:Verse.Log.Error_Patch1 (string)
-Verse.ThingOwner:TryDrop (Verse.Thing,Verse.ThingPlaceMode,Verse.Thing&,System.Action`2<Verse.Thing, int>,System.Predicate`1<Verse.IntVec3>)
-RimWorld.HiveLike:Tick ()
-Verse.Thing:DoTick ()
-Verse.TickList:Tick ()
-(wrapper dynamic-method) MonoMod.Utils.DynamicMethodDefinition:Verse.TickManager.DoSingleTick_Patch1 (Verse.TickManager)
-Verse.TickManager:TickManagerUpdate ()
-(wrapper dynamic-method) MonoMod.Utils.DynamicMethodDefinition:Verse.Game.UpdatePlay_Patch1 (Verse.Game)
-Verse.Root_Play:Update ()
-
-Exception in RimWorld.ThinkNode_ConditionalNotPawnKind TryIssueJobPackage: System.NullReferenceException: Object reference not set to an instance of an object
-[Ref 8AF4C120]
-  at Verse.GenClosest.EarlyOutSearch (Verse.IntVec3 start, Verse.Map map, Verse.ThingRequest thingReq, System.Collections.Generic.IEnumerable`1[T] customGlobalSearchSet, System.Predicate`1[T] validator) [0x00015] in <61e4173561894da49d210260257b5097>:0 
-  at Verse.GenClosest.ClosestThingReachable (Verse.IntVec3 root, Verse.Map map, Verse.ThingRequest thingReq, Verse.AI.PathEndMode peMode, Verse.TraverseParms traverseParams, System.Single maxDistance, System.Predicate`1[T] validator, System.Collections.Generic.IEnumerable`1[T] customGlobalSearchSet, System.Int32 searchRegionsMin, System.Int32 searchRegionsMax, System.Boolean forceAllowGlobalSearch, Verse.RegionType traversableRegionTypes, System.Boolean ignoreEntirelyForbiddenRegions, System.Boolean lookInHaulSources) [0x0008c] in <61e4173561894da49d210260257b5097>:0 
-  at Verse.AI.AttackTargetFinder.BestAttackTarget (Verse.AI.IAttackTargetSearcher searcher, Verse.AI.TargetScanFlags flags, System.Predicate`1[T] validator, System.Single minDist, System.Single maxDist, Verse.IntVec3 locus, System.Single maxTravelRadiusFromLocus, System.Boolean canBashDoors, System.Boolean canTakeTargetsCloserThanEffectiveMinRange, System.Boolean canBashFences, System.Boolean onlyRanged) [0x004a7] in <61e4173561894da49d210260257b5097>:0 
-    - PREFIX OskarPotocki.VEF: Void VEF.Weapons.VanillaExpandedFramework_AttackTargetFinder_BestAttackTarget_Patch:Prefix(IAttackTargetSearcher searcher, Single& maxDist)
-    - PREFIX com.ogliss.rimworld.mod.rryatuja.nobuildingattack: Void RRYautja.XenoNoBuildingAttackPatch:BestAttackTargetPrefix(IAttackTargetSearcher searcher, Predicate`1& validator)
-  at RimWorld.JobGiver_AIFightEnemy.FindAttackTarget (Verse.Pawn pawn) [0x00088] in <61e4173561894da49d210260257b5097>:0 
-  at RimWorld.JobGiver_AIFightEnemy.FindAttackTargetIfPossible (Verse.Pawn pawn) [0x00015] in <61e4173561894da49d210260257b5097>:0 
-  at RimWorld.JobGiver_AIFightEnemy.UpdateEnemyTarget (Verse.Pawn pawn) [0x0001d] in <61e4173561894da49d210260257b5097>:0 
-  at RimWorld.JobGiver_AIFightEnemy.TryGiveJob (Verse.Pawn pawn) [0x00049] in <61e4173561894da49d210260257b5097>:0 
-  at Verse.AI.ThinkNode_JobGiver.TryIssueJobPackage (Verse.Pawn pawn, Verse.AI.JobIssueParams jobParams) [0x00000] in <61e4173561894da49d210260257b5097>:0 
-  at Verse.AI.ThinkNode_Priority.TryIssueJobPackage (Verse.Pawn pawn, Verse.AI.JobIssueParams jobParams) [0x00022] in <61e4173561894da49d210260257b5097>:0 
-UnityEngine.StackTraceUtility:ExtractStackTrace ()
-(wrapper dynamic-method) MonoMod.Utils.DynamicMethodDefinition:Verse.Log.Error_Patch1 (string)
-Verse.AI.ThinkNode_Priority:TryIssueJobPackage (Verse.Pawn,Verse.AI.JobIssueParams)
-Verse.AI.ThinkNode_Conditional:TryIssueJobPackage (Verse.Pawn,Verse.AI.JobIssueParams)
-Verse.AI.ThinkNode_Priority:TryIssueJobPackage (Verse.Pawn,Verse.AI.JobIssueParams)
-Verse.AI.ThinkNode_Conditional:TryIssueJobPackage (Verse.Pawn,Verse.AI.JobIssueParams)
-Verse.AI.ThinkNode_Priority:TryIssueJobPackage (Verse.Pawn,Verse.AI.JobIssueParams)
-(wrapper dynamic-method) MonoMod.Utils.DynamicMethodDefinition:Verse.AI.Pawn_JobTracker.DetermineNextJob_Patch1 (Verse.AI.Pawn_JobTracker,Verse.ThinkTreeDef&,bool)
-(wrapper dynamic-method) MonoMod.Utils.DynamicMethodDefinition:Glue:AbiFixup<Verse.AI.ThinkResult Verse.AI.Pawn_JobTracker:DetermineNextJob(Verse.ThinkTreeDef&, System.Boolean),Verse.AI.ThinkResult Verse.AI.Pawn_JobTracker.DetermineNextJob_Patch1(Verse.AI.Pawn_JobTracker, Verse.ThinkTreeDef&, System.Boolean)> (Verse.AI.Pawn_JobTracker,Verse.AI.ThinkResult&,Verse.ThinkTreeDef&,bool)
-Verse.AI.Pawn_JobTracker:TryFindAndStartJob ()
-Verse.AI.Pawn_JobTracker:JobTrackerTickInterval (int)
-Verse.Pawn:TickInterval (int)
-Verse.Thing:DoTick ()
-Verse.TickList:Tick ()
-(wrapper dynamic-method) MonoMod.Utils.DynamicMethodDefinition:Verse.TickManager.DoSingleTick_Patch1 (Verse.TickManager)
-Verse.TickManager:TickManagerUpdate ()
-(wrapper dynamic-method) MonoMod.Utils.DynamicMethodDefinition:Verse.Game.UpdatePlay_Patch1 (Verse.Game)
-Verse.Root_Play:Update ()
-
-Exception in Verse.AI.ThinkNode_Priority TryIssueJobPackage: System.NullReferenceException: Object reference not set to an instance of an object
-[Ref 8AF4C120] Duplicate stacktrace, see ref for original
-UnityEngine.StackTraceUtility:ExtractStackTrace ()
-(wrapper dynamic-method) MonoMod.Utils.DynamicMethodDefinition:Verse.Log.Error_Patch1 (string)
-Verse.AI.ThinkNode_Priority:TryIssueJobPackage (Verse.Pawn,Verse.AI.JobIssueParams)
-RimWorld.ThinkNode_Duty:TryIssueJobPackage (Verse.Pawn,Verse.AI.JobIssueParams)
-Verse.AI.ThinkNode_Priority:TryIssueJobPackage (Verse.Pawn,Verse.AI.JobIssueParams)
-Verse.AI.ThinkNode_Conditional:TryIssueJobPackage (Verse.Pawn,Verse.AI.JobIssueParams)
-Verse.AI.ThinkNode_Priority:TryIssueJobPackage (Verse.Pawn,Verse.AI.JobIssueParams)
-Verse.AI.ThinkNode_Tagger:TryIssueJobPackage (Verse.Pawn,Verse.AI.JobIssueParams)
-Verse.AI.ThinkNode_Subtree:TryIssueJobPackage (Verse.Pawn,Verse.AI.JobIssueParams)
-Verse.AI.ThinkNode_Priority:TryIssueJobPackage (Verse.Pawn,Verse.AI.JobIssueParams)
-Verse.AI.ThinkNode_Conditional:TryIssueJobPackage (Verse.Pawn,Verse.AI.JobIssueParams)
-Verse.AI.ThinkNode_Priority:TryIssueJobPackage (Verse.Pawn,Verse.AI.JobIssueParams)
-Verse.AI.ThinkNode_Conditional:TryIssueJobPackage (Verse.Pawn,Verse.AI.JobIssueParams)
-Verse.AI.ThinkNode_Priority:TryIssueJobPackage (Verse.Pawn,Verse.AI.JobIssueParams)
-(wrapper dynamic-method) MonoMod.Utils.DynamicMethodDefinition:Verse.AI.Pawn_JobTracker.DetermineNextJob_Patch1 (Verse.AI.Pawn_JobTracker,Verse.ThinkTreeDef&,bool)
-(wrapper dynamic-method) MonoMod.Utils.DynamicMethodDefinition:Glue:AbiFixup<Verse.AI.ThinkResult Verse.AI.Pawn_JobTracker:DetermineNextJob(Verse.ThinkTreeDef&, System.Boolean),Verse.AI.ThinkResult Verse.AI.Pawn_JobTracker.DetermineNextJob_Patch1(Verse.AI.Pawn_JobTracker, Verse.ThinkTreeDef&, System.Boolean)> (Verse.AI.Pawn_JobTracker,Verse.AI.ThinkResult&,Verse.ThinkTreeDef&,bool)
-Verse.AI.Pawn_JobTracker:TryFindAndStartJob ()
-Verse.AI.Pawn_JobTracker:JobTrackerTickInterval (int)
-Verse.Pawn:TickInterval (int)
-Verse.Thing:DoTick ()
-Verse.TickList:Tick ()
-(wrapper dynamic-method) MonoMod.Utils.DynamicMethodDefinition:Verse.TickManager.DoSingleTick_Patch1 (Verse.TickManager)
-Verse.TickManager:TickManagerUpdate ()
-(wrapper dynamic-method) MonoMod.Utils.DynamicMethodDefinition:Verse.Game.UpdatePlay_Patch1 (Verse.Game)
-Verse.Root_Play:Update ()
-
-Exception in Verse.AI.ThinkNode_PrioritySorter TryIssueJobPackage: System.NullReferenceException: Object reference not set to an instance of an object
-[Ref 5F3225D2]
-  at Verse.GenRadial+<RadialDistinctThingsAround>d__18.MoveNext () [0x00065] in <61e4173561894da49d210260257b5097>:0 
-  at RimWorld.FoodUtility.BestFoodSourceOnMap (Verse.Pawn getter, Verse.Pawn eater, System.Boolean desperate, Verse.ThingDef& foodDef, RimWorld.FoodPreferability maxPref, System.Boolean allowPlant, System.Boolean allowDrug, System.Boolean allowCorpse, System.Boolean allowDispenserFull, System.Boolean allowDispenserEmpty, System.Boolean allowForbidden, System.Boolean allowSociallyImproper, System.Boolean allowHarvest, System.Boolean forceScanWholeMap, System.Boolean ignoreReservations, System.Boolean calculateWantedStackCount, RimWorld.FoodPreferability minPrefOverride, System.Nullable`1[T] minNutrition, System.Boolean allowVenerated) [0x003d2] in <61e4173561894da49d210260257b5097>:0 
-  at RimWorld.FoodUtility.TryFindBestFoodSourceFor (Verse.Pawn getter, Verse.Pawn eater, System.Boolean desperate, Verse.Thing& foodSource, Verse.ThingDef& foodDef, System.Boolean canRefillDispenser, System.Boolean canUseInventory, System.Boolean canUsePackAnimalInventory, System.Boolean allowForbidden, System.Boolean allowCorpse, System.Boolean allowSociallyImproper, System.Boolean allowHarvest, System.Boolean forceScanWholeMap, System.Boolean ignoreReservations, System.Boolean calculateWantedStackCount, System.Boolean allowVenerated, RimWorld.FoodPreferability minPrefOverride) [0x00172] in <61e4173561894da49d210260257b5097>:0 
-  at RimWorld.JobGiver_GetFood.TryGiveJob (Verse.Pawn pawn) [0x000f2] in <61e4173561894da49d210260257b5097>:0 
-    - PREFIX OskarPotocki.VEF: Boolean VEF.AnimalBehaviours.VanillaExpandedFramework_JobGiver_GetFood_GetPriority_Patch:StopEatingThings(Pawn pawn)
-  at Verse.AI.ThinkNode_JobGiver.TryIssueJobPackage (Verse.Pawn pawn, Verse.AI.JobIssueParams jobParams) [0x00000] in <61e4173561894da49d210260257b5097>:0 
-  at Verse.AI.ThinkNode_PrioritySorter.TryIssueJobPackage (Verse.Pawn pawn, Verse.AI.JobIssueParams jobParams) [0x000f2] in <61e4173561894da49d210260257b5097>:0 
-UnityEngine.StackTraceUtility:ExtractStackTrace ()
-(wrapper dynamic-method) MonoMod.Utils.DynamicMethodDefinition:Verse.Log.Error_Patch1 (string)
-Verse.AI.ThinkNode_PrioritySorter:TryIssueJobPackage (Verse.Pawn,Verse.AI.JobIssueParams)
-Verse.AI.ThinkNode_Priority:TryIssueJobPackage (Verse.Pawn,Verse.AI.JobIssueParams)
-Verse.AI.ThinkNode_Tagger:TryIssueJobPackage (Verse.Pawn,Verse.AI.JobIssueParams)
-Verse.AI.ThinkNode_Priority:TryIssueJobPackage (Verse.Pawn,Verse.AI.JobIssueParams)
-RimWorld.ThinkNode_Duty:TryIssueJobPackage (Verse.Pawn,Verse.AI.JobIssueParams)
-Verse.AI.ThinkNode_Priority:TryIssueJobPackage (Verse.Pawn,Verse.AI.JobIssueParams)
-Verse.AI.ThinkNode_Conditional:TryIssueJobPackage (Verse.Pawn,Verse.AI.JobIssueParams)
-Verse.AI.ThinkNode_Priority:TryIssueJobPackage (Verse.Pawn,Verse.AI.JobIssueParams)
-Verse.AI.ThinkNode_Tagger:TryIssueJobPackage (Verse.Pawn,Verse.AI.JobIssueParams)
-Verse.AI.ThinkNode_Subtree:TryIssueJobPackage (Verse.Pawn,Verse.AI.JobIssueParams)
-Verse.AI.ThinkNode_Priority:TryIssueJobPackage (Verse.Pawn,Verse.AI.JobIssueParams)
-Verse.AI.ThinkNode_Conditional:TryIssueJobPackage (Verse.Pawn,Verse.AI.JobIssueParams)
-Verse.AI.ThinkNode_Priority:TryIssueJobPackage (Verse.Pawn,Verse.AI.JobIssueParams)
-Verse.AI.ThinkNode_Conditional:TryIssueJobPackage (Verse.Pawn,Verse.AI.JobIssueParams)
-Verse.AI.ThinkNode_Priority:TryIssueJobPackage (Verse.Pawn,Verse.AI.JobIssueParams)
-(wrapper dynamic-method) MonoMod.Utils.DynamicMethodDefinition:Verse.AI.Pawn_JobTracker.DetermineNextJob_Patch1 (Verse.AI.Pawn_JobTracker,Verse.ThinkTreeDef&,bool)
-(wrapper dynamic-method) MonoMod.Utils.DynamicMethodDefinition:Glue:AbiFixup<Verse.AI.ThinkResult Verse.AI.Pawn_JobTracker:DetermineNextJob(Verse.ThinkTreeDef&, System.Boolean),Verse.AI.ThinkResult Verse.AI.Pawn_JobTracker.DetermineNextJob_Patch1(Verse.AI.Pawn_JobTracker, Verse.ThinkTreeDef&, System.Boolean)> (Verse.AI.Pawn_JobTracker,Verse.AI.ThinkResult&,Verse.ThinkTreeDef&,bool)
-Verse.AI.Pawn_JobTracker:TryFindAndStartJob ()
-Verse.AI.Pawn_JobTracker:JobTrackerTickInterval (int)
-Verse.Pawn:TickInterval (int)
-Verse.Thing:DoTick ()
-Verse.TickList:Tick ()
-(wrapper dynamic-method) MonoMod.Utils.DynamicMethodDefinition:Verse.TickManager.DoSingleTick_Patch1 (Verse.TickManager)
-Verse.TickManager:TickManagerUpdate ()
-(wrapper dynamic-method) MonoMod.Utils.DynamicMethodDefinition:Verse.Game.UpdatePlay_Patch1 (Verse.Game)
-Verse.Root_Play:Update ()
-
-Exception in Verse.AI.ThinkNode_Priority TryIssueJobPackage: System.NullReferenceException: Object reference not set to an instance of an object
-[Ref BEA3D709]
-  at RimWorld.ThinkNode_ConditionalSkyDarker.Satisfied (Verse.Pawn pawn) [0x00006] in <913032fb93304c758b7addd90892f70b>:0 
-  at Verse.AI.ThinkNode_Conditional.TryIssueJobPackage (Verse.Pawn pawn, Verse.AI.JobIssueParams jobParams) [0x00000] in <61e4173561894da49d210260257b5097>:0 
-  at Verse.AI.ThinkNode_Priority.TryIssueJobPackage (Verse.Pawn pawn, Verse.AI.JobIssueParams jobParams) [0x00022] in <61e4173561894da49d210260257b5097>:0 
-UnityEngine.StackTraceUtility:ExtractStackTrace ()
-(wrapper dynamic-method) MonoMod.Utils.DynamicMethodDefinition:Verse.Log.Error_Patch1 (string)
-Verse.AI.ThinkNode_Priority:TryIssueJobPackage (Verse.Pawn,Verse.AI.JobIssueParams)
-RimWorld.ThinkNode_Duty:TryIssueJobPackage (Verse.Pawn,Verse.AI.JobIssueParams)
-Verse.AI.ThinkNode_Priority:TryIssueJobPackage (Verse.Pawn,Verse.AI.JobIssueParams)
-Verse.AI.ThinkNode_Conditional:TryIssueJobPackage (Verse.Pawn,Verse.AI.JobIssueParams)
-Verse.AI.ThinkNode_Priority:TryIssueJobPackage (Verse.Pawn,Verse.AI.JobIssueParams)
-Verse.AI.ThinkNode_Tagger:TryIssueJobPackage (Verse.Pawn,Verse.AI.JobIssueParams)
-Verse.AI.ThinkNode_Subtree:TryIssueJobPackage (Verse.Pawn,Verse.AI.JobIssueParams)
-Verse.AI.ThinkNode_Priority:TryIssueJobPackage (Verse.Pawn,Verse.AI.JobIssueParams)
-Verse.AI.ThinkNode_Conditional:TryIssueJobPackage (Verse.Pawn,Verse.AI.JobIssueParams)
-Verse.AI.ThinkNode_Priority:TryIssueJobPackage (Verse.Pawn,Verse.AI.JobIssueParams)
-Verse.AI.ThinkNode_Conditional:TryIssueJobPackage (Verse.Pawn,Verse.AI.JobIssueParams)
-Verse.AI.ThinkNode_Priority:TryIssueJobPackage (Verse.Pawn,Verse.AI.JobIssueParams)
-(wrapper dynamic-method) MonoMod.Utils.DynamicMethodDefinition:Verse.AI.Pawn_JobTracker.DetermineNextJob_Patch1 (Verse.AI.Pawn_JobTracker,Verse.ThinkTreeDef&,bool)
-(wrapper dynamic-method) MonoMod.Utils.DynamicMethodDefinition:Glue:AbiFixup<Verse.AI.ThinkResult Verse.AI.Pawn_JobTracker:DetermineNextJob(Verse.ThinkTreeDef&, System.Boolean),Verse.AI.ThinkResult Verse.AI.Pawn_JobTracker.DetermineNextJob_Patch1(Verse.AI.Pawn_JobTracker, Verse.ThinkTreeDef&, System.Boolean)> (Verse.AI.Pawn_JobTracker,Verse.AI.ThinkResult&,Verse.ThinkTreeDef&,bool)
-Verse.AI.Pawn_JobTracker:TryFindAndStartJob ()
-Verse.AI.Pawn_JobTracker:JobTrackerTickInterval (int)
-Verse.Pawn:TickInterval (int)
-Verse.Thing:DoTick ()
-Verse.TickList:Tick ()
-(wrapper dynamic-method) MonoMod.Utils.DynamicMethodDefinition:Verse.TickManager.DoSingleTick_Patch1 (Verse.TickManager)
-Verse.TickManager:TickManagerUpdate ()
-(wrapper dynamic-method) MonoMod.Utils.DynamicMethodDefinition:Verse.Game.UpdatePlay_Patch1 (Verse.Game)
-Verse.Root_Play:Update ()
-
-Exception in Verse.AI.ThinkNode_Priority TryIssueJobPackage: System.NullReferenceException: Object reference not set to an instance of an object
-[Ref DAE4B69D]
-  at RimWorld.ThinkNode_ConditionalSkyBrighter.Satisfied (Verse.Pawn pawn) [0x00006] in <913032fb93304c758b7addd90892f70b>:0 
-  at Verse.AI.ThinkNode_Conditional.TryIssueJobPackage (Verse.Pawn pawn, Verse.AI.JobIssueParams jobParams) [0x00000] in <61e4173561894da49d210260257b5097>:0 
-  at Verse.AI.ThinkNode_Priority.TryIssueJobPackage (Verse.Pawn pawn, Verse.AI.JobIssueParams jobParams) [0x00022] in <61e4173561894da49d210260257b5097>:0 
-UnityEngine.StackTraceUtility:ExtractStackTrace ()
-(wrapper dynamic-method) MonoMod.Utils.DynamicMethodDefinition:Verse.Log.Error_Patch1 (string)
-Verse.AI.ThinkNode_Priority:TryIssueJobPackage (Verse.Pawn,Verse.AI.JobIssueParams)
-RimWorld.ThinkNode_Duty:TryIssueJobPackage (Verse.Pawn,Verse.AI.JobIssueParams)
-Verse.AI.ThinkNode_Priority:TryIssueJobPackage (Verse.Pawn,Verse.AI.JobIssueParams)
-Verse.AI.ThinkNode_Conditional:TryIssueJobPackage (Verse.Pawn,Verse.AI.JobIssueParams)
-Verse.AI.ThinkNode_Priority:TryIssueJobPackage (Verse.Pawn,Verse.AI.JobIssueParams)
-Verse.AI.ThinkNode_Tagger:TryIssueJobPackage (Verse.Pawn,Verse.AI.JobIssueParams)
-Verse.AI.ThinkNode_Subtree:TryIssueJobPackage (Verse.Pawn,Verse.AI.JobIssueParams)
-Verse.AI.ThinkNode_Priority:TryIssueJobPackage (Verse.Pawn,Verse.AI.JobIssueParams)
-Verse.AI.ThinkNode_Conditional:TryIssueJobPackage (Verse.Pawn,Verse.AI.JobIssueParams)
-Verse.AI.ThinkNode_Priority:TryIssueJobPackage (Verse.Pawn,Verse.AI.JobIssueParams)
-Verse.AI.ThinkNode_Conditional:TryIssueJobPackage (Verse.Pawn,Verse.AI.JobIssueParams)
-Verse.AI.ThinkNode_Priority:TryIssueJobPackage (Verse.Pawn,Verse.AI.JobIssueParams)
-(wrapper dynamic-method) MonoMod.Utils.DynamicMethodDefinition:Verse.AI.Pawn_JobTracker.DetermineNextJob_Patch1 (Verse.AI.Pawn_JobTracker,Verse.ThinkTreeDef&,bool)
-(wrapper dynamic-method) MonoMod.Utils.DynamicMethodDefinition:Glue:AbiFixup<Verse.AI.ThinkResult Verse.AI.Pawn_JobTracker:DetermineNextJob(Verse.ThinkTreeDef&, System.Boolean),Verse.AI.ThinkResult Verse.AI.Pawn_JobTracker.DetermineNextJob_Patch1(Verse.AI.Pawn_JobTracker, Verse.ThinkTreeDef&, System.Boolean)> (Verse.AI.Pawn_JobTracker,Verse.AI.ThinkResult&,Verse.ThinkTreeDef&,bool)
-Verse.AI.Pawn_JobTracker:TryFindAndStartJob ()
-Verse.AI.Pawn_JobTracker:JobTrackerTickInterval (int)
-Verse.Pawn:TickInterval (int)
-Verse.Thing:DoTick ()
-Verse.TickList:Tick ()
-(wrapper dynamic-method) MonoMod.Utils.DynamicMethodDefinition:Verse.TickManager.DoSingleTick_Patch1 (Verse.TickManager)
-Verse.TickManager:TickManagerUpdate ()
-(wrapper dynamic-method) MonoMod.Utils.DynamicMethodDefinition:Verse.Game.UpdatePlay_Patch1 (Verse.Game)
-Verse.Root_Play:Update ()
-
-Cannot drop RRY_Xenomorph_Drone62839 without a dropLoc and with an owner whose map is null.
-UnityEngine.StackTraceUtility:ExtractStackTrace ()
-(wrapper dynamic-method) MonoMod.Utils.DynamicMethodDefinition:Verse.Log.Error_Patch1 (string)
-Verse.ThingOwner:TryDrop (Verse.Thing,Verse.ThingPlaceMode,Verse.Thing&,System.Action`2<Verse.Thing, int>,System.Predicate`1<Verse.IntVec3>)
-RimWorld.HiveLike:Tick ()
-Verse.Thing:DoTick ()
-Verse.TickList:Tick ()
-(wrapper dynamic-method) MonoMod.Utils.DynamicMethodDefinition:Verse.TickManager.DoSingleTick_Patch1 (Verse.TickManager)
-Verse.TickManager:TickManagerUpdate ()
-(wrapper dynamic-method) MonoMod.Utils.DynamicMethodDefinition:Verse.Game.UpdatePlay_Patch1 (Verse.Game)
-Verse.Root_Play:Update ()
-
-Cannot drop RRY_Xenomorph_Queen61523 without a dropLoc and with an owner whose map is null.
-UnityEngine.StackTraceUtility:ExtractStackTrace ()
-(wrapper dynamic-method) MonoMod.Utils.DynamicMethodDefinition:Verse.Log.Error_Patch1 (string)
-Verse.ThingOwner:TryDrop (Verse.Thing,Verse.ThingPlaceMode,Verse.Thing&,System.Action`2<Verse.Thing, int>,System.Predicate`1<Verse.IntVec3>)
-RimWorld.HiveLike:Tick ()
-Verse.Thing:DoTick ()
-Verse.TickList:Tick ()
-(wrapper dynamic-method) MonoMod.Utils.DynamicMethodDefinition:Verse.TickManager.DoSingleTick_Patch1 (Verse.TickManager)
-Verse.TickManager:TickManagerUpdate ()
-(wrapper dynamic-method) MonoMod.Utils.DynamicMethodDefinition:Verse.Game.UpdatePlay_Patch1 (Verse.Game)
-Verse.Root_Play:Update ()
-
-Cannot drop RRY_Xenomorph_Runner62901 without a dropLoc and with an owner whose map is null.
-UnityEngine.StackTraceUtility:ExtractStackTrace ()
-(wrapper dynamic-method) MonoMod.Utils.DynamicMethodDefinition:Verse.Log.Error_Patch1 (string)
-Verse.ThingOwner:TryDrop (Verse.Thing,Verse.ThingPlaceMode,Verse.Thing&,System.Action`2<Verse.Thing, int>,System.Predicate`1<Verse.IntVec3>)
-RimWorld.HiveLike:Tick ()
-Verse.Thing:DoTick ()
-Verse.TickList:Tick ()
-(wrapper dynamic-method) MonoMod.Utils.DynamicMethodDefinition:Verse.TickManager.DoSingleTick_Patch1 (Verse.TickManager)
-Verse.TickManager:TickManagerUpdate ()
-(wrapper dynamic-method) MonoMod.Utils.DynamicMethodDefinition:Verse.Game.UpdatePlay_Patch1 (Verse.Game)
-Verse.Root_Play:Update ()
-
-Cannot drop RRY_Xenomorph_Runner62878 without a dropLoc and with an owner whose map is null.
-UnityEngine.StackTraceUtility:ExtractStackTrace ()
-(wrapper dynamic-method) MonoMod.Utils.DynamicMethodDefinition:Verse.Log.Error_Patch1 (string)
-Verse.ThingOwner:TryDrop (Verse.Thing,Verse.ThingPlaceMode,Verse.Thing&,System.Action`2<Verse.Thing, int>,System.Predicate`1<Verse.IntVec3>)
-RimWorld.HiveLike:Tick ()
-Verse.Thing:DoTick ()
-Verse.TickList:Tick ()
-(wrapper dynamic-method) MonoMod.Utils.DynamicMethodDefinition:Verse.TickManager.DoSingleTick_Patch1 (Verse.TickManager)
-Verse.TickManager:TickManagerUpdate ()
-(wrapper dynamic-method) MonoMod.Utils.DynamicMethodDefinition:Verse.Game.UpdatePlay_Patch1 (Verse.Game)
-Verse.Root_Play:Update ()
-
-Cannot drop RRY_Xenomorph_Runner62854 without a dropLoc and with an owner whose map is null.
-UnityEngine.StackTraceUtility:ExtractStackTrace ()
-(wrapper dynamic-method) MonoMod.Utils.DynamicMethodDefinition:Verse.Log.Error_Patch1 (string)
-Verse.ThingOwner:TryDrop (Verse.Thing,Verse.ThingPlaceMode,Verse.Thing&,System.Action`2<Verse.Thing, int>,System.Predicate`1<Verse.IntVec3>)
-RimWorld.HiveLike:Tick ()
-Verse.Thing:DoTick ()
-Verse.TickList:Tick ()
-(wrapper dynamic-method) MonoMod.Utils.DynamicMethodDefinition:Verse.TickManager.DoSingleTick_Patch1 (Verse.TickManager)
-Verse.TickManager:TickManagerUpdate ()
-(wrapper dynamic-method) MonoMod.Utils.DynamicMethodDefinition:Verse.Game.UpdatePlay_Patch1 (Verse.Game)
-Verse.Root_Play:Update ()
-
-Cannot drop RRY_Xenomorph_Runner63066 without a dropLoc and with an owner whose map is null.
-UnityEngine.StackTraceUtility:ExtractStackTrace ()
-(wrapper dynamic-method) MonoMod.Utils.DynamicMethodDefinition:Verse.Log.Error_Patch1 (string)
-Verse.ThingOwner:TryDrop (Verse.Thing,Verse.ThingPlaceMode,Verse.Thing&,System.Action`2<Verse.Thing, int>,System.Predicate`1<Verse.IntVec3>)
-RimWorld.HiveLike:Tick ()
-Verse.Thing:DoTick ()
-Verse.TickList:Tick ()
-(wrapper dynamic-method) MonoMod.Utils.DynamicMethodDefinition:Verse.TickManager.DoSingleTick_Patch1 (Verse.TickManager)
-Verse.TickManager:TickManagerUpdate ()
-(wrapper dynamic-method) MonoMod.Utils.DynamicMethodDefinition:Verse.Game.UpdatePlay_Patch1 (Verse.Game)
-Verse.Root_Play:Update ()
-
-Cannot drop RRY_Xenomorph_Drone62839 without a dropLoc and with an owner whose map is null.
-UnityEngine.StackTraceUtility:ExtractStackTrace ()
-(wrapper dynamic-method) MonoMod.Utils.DynamicMethodDefinition:Verse.Log.Error_Patch1 (string)
-Verse.ThingOwner:TryDrop (Verse.Thing,Verse.ThingPlaceMode,Verse.Thing&,System.Action`2<Verse.Thing, int>,System.Predicate`1<Verse.IntVec3>)
-RimWorld.HiveLike:Tick ()
-Verse.Thing:DoTick ()
-Verse.TickList:Tick ()
-(wrapper dynamic-method) MonoMod.Utils.DynamicMethodDefinition:Verse.TickManager.DoSingleTick_Patch1 (Verse.TickManager)
-Verse.TickManager:TickManagerUpdate ()
-(wrapper dynamic-method) MonoMod.Utils.DynamicMethodDefinition:Verse.Game.UpdatePlay_Patch1 (Verse.Game)
-Verse.Root_Play:Update ()
-
-Cannot drop RRY_Xenomorph_Queen61523 without a dropLoc and with an owner whose map is null.
-UnityEngine.StackTraceUtility:ExtractStackTrace ()
-(wrapper dynamic-method) MonoMod.Utils.DynamicMethodDefinition:Verse.Log.Error_Patch1 (string)
-Verse.ThingOwner:TryDrop (Verse.Thing,Verse.ThingPlaceMode,Verse.Thing&,System.Action`2<Verse.Thing, int>,System.Predicate`1<Verse.IntVec3>)
-RimWorld.HiveLike:Tick ()
-Verse.Thing:DoTick ()
-Verse.TickList:Tick ()
-(wrapper dynamic-method) MonoMod.Utils.DynamicMethodDefinition:Verse.TickManager.DoSingleTick_Patch1 (Verse.TickManager)
-Verse.TickManager:TickManagerUpdate ()
-(wrapper dynamic-method) MonoMod.Utils.DynamicMethodDefinition:Verse.Game.UpdatePlay_Patch1 (Verse.Game)
-Verse.Root_Play:Update ()
-
-Cannot drop RRY_Xenomorph_Runner62901 without a dropLoc and with an owner whose map is null.
-UnityEngine.StackTraceUtility:ExtractStackTrace ()
-(wrapper dynamic-method) MonoMod.Utils.DynamicMethodDefinition:Verse.Log.Error_Patch1 (string)
-Verse.ThingOwner:TryDrop (Verse.Thing,Verse.ThingPlaceMode,Verse.Thing&,System.Action`2<Verse.Thing, int>,System.Predicate`1<Verse.IntVec3>)
-RimWorld.HiveLike:Tick ()
-Verse.Thing:DoTick ()
-Verse.TickList:Tick ()
-(wrapper dynamic-method) MonoMod.Utils.DynamicMethodDefinition:Verse.TickManager.DoSingleTick_Patch1 (Verse.TickManager)
-Verse.TickManager:TickManagerUpdate ()
-(wrapper dynamic-method) MonoMod.Utils.DynamicMethodDefinition:Verse.Game.UpdatePlay_Patch1 (Verse.Game)
-Verse.Root_Play:Update ()
-
-Cannot drop RRY_Xenomorph_Runner62878 without a dropLoc and with an owner whose map is null.
-UnityEngine.StackTraceUtility:ExtractStackTrace ()
-(wrapper dynamic-method) MonoMod.Utils.DynamicMethodDefinition:Verse.Log.Error_Patch1 (string)
-Verse.ThingOwner:TryDrop (Verse.Thing,Verse.ThingPlaceMode,Verse.Thing&,System.Action`2<Verse.Thing, int>,System.Predicate`1<Verse.IntVec3>)
-RimWorld.HiveLike:Tick ()
-Verse.Thing:DoTick ()
-Verse.TickList:Tick ()
-(wrapper dynamic-method) MonoMod.Utils.DynamicMethodDefinition:Verse.TickManager.DoSingleTick_Patch1 (Verse.TickManager)
-Verse.TickManager:TickManagerUpdate ()
-(wrapper dynamic-method) MonoMod.Utils.DynamicMethodDefinition:Verse.Game.UpdatePlay_Patch1 (Verse.Game)
-Verse.Root_Play:Update ()
-
-Cannot drop RRY_Xenomorph_Runner62854 without a dropLoc and with an owner whose map is null.
-UnityEngine.StackTraceUtility:ExtractStackTrace ()
-(wrapper dynamic-method) MonoMod.Utils.DynamicMethodDefinition:Verse.Log.Error_Patch1 (string)
-Verse.ThingOwner:TryDrop (Verse.Thing,Verse.ThingPlaceMode,Verse.Thing&,System.Action`2<Verse.Thing, int>,System.Predicate`1<Verse.IntVec3>)
-RimWorld.HiveLike:Tick ()
-Verse.Thing:DoTick ()
-Verse.TickList:Tick ()
-(wrapper dynamic-method) MonoMod.Utils.DynamicMethodDefinition:Verse.TickManager.DoSingleTick_Patch1 (Verse.TickManager)
-Verse.TickManager:TickManagerUpdate ()
-(wrapper dynamic-method) MonoMod.Utils.DynamicMethodDefinition:Verse.Game.UpdatePlay_Patch1 (Verse.Game)
-Verse.Root_Play:Update ()
-
-Cannot drop RRY_Xenomorph_Runner63066 without a dropLoc and with an owner whose map is null.
-UnityEngine.StackTraceUtility:ExtractStackTrace ()
-(wrapper dynamic-method) MonoMod.Utils.DynamicMethodDefinition:Verse.Log.Error_Patch1 (string)
-Verse.ThingOwner:TryDrop (Verse.Thing,Verse.ThingPlaceMode,Verse.Thing&,System.Action`2<Verse.Thing, int>,System.Predicate`1<Verse.IntVec3>)
-RimWorld.HiveLike:Tick ()
-Verse.Thing:DoTick ()
-Verse.TickList:Tick ()
-(wrapper dynamic-method) MonoMod.Utils.DynamicMethodDefinition:Verse.TickManager.DoSingleTick_Patch1 (Verse.TickManager)
-Verse.TickManager:TickManagerUpdate ()
-(wrapper dynamic-method) MonoMod.Utils.DynamicMethodDefinition:Verse.Game.UpdatePlay_Patch1 (Verse.Game)
-Verse.Root_Play:Update ()
-
-Cannot drop RRY_Xenomorph_Drone62839 without a dropLoc and with an owner whose map is null.
-UnityEngine.StackTraceUtility:ExtractStackTrace ()
-(wrapper dynamic-method) MonoMod.Utils.DynamicMethodDefinition:Verse.Log.Error_Patch1 (string)
-Verse.ThingOwner:TryDrop (Verse.Thing,Verse.ThingPlaceMode,Verse.Thing&,System.Action`2<Verse.Thing, int>,System.Predicate`1<Verse.IntVec3>)
-RimWorld.HiveLike:Tick ()
-Verse.Thing:DoTick ()
-Verse.TickList:Tick ()
-(wrapper dynamic-method) MonoMod.Utils.DynamicMethodDefinition:Verse.TickManager.DoSingleTick_Patch1 (Verse.TickManager)
-Verse.TickManager:TickManagerUpdate ()
-(wrapper dynamic-method) MonoMod.Utils.DynamicMethodDefinition:Verse.Game.UpdatePlay_Patch1 (Verse.Game)
-Verse.Root_Play:Update ()
-
-Cannot drop RRY_Xenomorph_Queen61523 without a dropLoc and with an owner whose map is null.
-UnityEngine.StackTraceUtility:ExtractStackTrace ()
-(wrapper dynamic-method) MonoMod.Utils.DynamicMethodDefinition:Verse.Log.Error_Patch1 (string)
-Verse.ThingOwner:TryDrop (Verse.Thing,Verse.ThingPlaceMode,Verse.Thing&,System.Action`2<Verse.Thing, int>,System.Predicate`1<Verse.IntVec3>)
-RimWorld.HiveLike:Tick ()
-Verse.Thing:DoTick ()
-Verse.TickList:Tick ()
-(wrapper dynamic-method) MonoMod.Utils.DynamicMethodDefinition:Verse.TickManager.DoSingleTick_Patch1 (Verse.TickManager)
-Verse.TickManager:TickManagerUpdate ()
-(wrapper dynamic-method) MonoMod.Utils.DynamicMethodDefinition:Verse.Game.UpdatePlay_Patch1 (Verse.Game)
-Verse.Root_Play:Update ()
-
-Cannot drop RRY_Xenomorph_Runner62901 without a dropLoc and with an owner whose map is null.
-UnityEngine.StackTraceUtility:ExtractStackTrace ()
-(wrapper dynamic-method) MonoMod.Utils.DynamicMethodDefinition:Verse.Log.Error_Patch1 (string)
-Verse.ThingOwner:TryDrop (Verse.Thing,Verse.ThingPlaceMode,Verse.Thing&,System.Action`2<Verse.Thing, int>,System.Predicate`1<Verse.IntVec3>)
-RimWorld.HiveLike:Tick ()
-Verse.Thing:DoTick ()
-Verse.TickList:Tick ()
-(wrapper dynamic-method) MonoMod.Utils.DynamicMethodDefinition:Verse.TickManager.DoSingleTick_Patch1 (Verse.TickManager)
-Verse.TickManager:TickManagerUpdate ()
-(wrapper dynamic-method) MonoMod.Utils.DynamicMethodDefinition:Verse.Game.UpdatePlay_Patch1 (Verse.Game)
-Verse.Root_Play:Update ()
-
-Cannot drop RRY_Xenomorph_Runner62878 without a dropLoc and with an owner whose map is null.
-UnityEngine.StackTraceUtility:ExtractStackTrace ()
-(wrapper dynamic-method) MonoMod.Utils.DynamicMethodDefinition:Verse.Log.Error_Patch1 (string)
-Verse.ThingOwner:TryDrop (Verse.Thing,Verse.ThingPlaceMode,Verse.Thing&,System.Action`2<Verse.Thing, int>,System.Predicate`1<Verse.IntVec3>)
-RimWorld.HiveLike:Tick ()
-Verse.Thing:DoTick ()
-Verse.TickList:Tick ()
-(wrapper dynamic-method) MonoMod.Utils.DynamicMethodDefinition:Verse.TickManager.DoSingleTick_Patch1 (Verse.TickManager)
-Verse.TickManager:TickManagerUpdate ()
-(wrapper dynamic-method) MonoMod.Utils.DynamicMethodDefinition:Verse.Game.UpdatePlay_Patch1 (Verse.Game)
-Verse.Root_Play:Update ()
-
-Cannot drop RRY_Xenomorph_Runner62854 without a dropLoc and with an owner whose map is null.
-UnityEngine.StackTraceUtility:ExtractStackTrace ()
-(wrapper dynamic-method) MonoMod.Utils.DynamicMethodDefinition:Verse.Log.Error_Patch1 (string)
-Verse.ThingOwner:TryDrop (Verse.Thing,Verse.ThingPlaceMode,Verse.Thing&,System.Action`2<Verse.Thing, int>,System.Predicate`1<Verse.IntVec3>)
-RimWorld.HiveLike:Tick ()
-Verse.Thing:DoTick ()
-Verse.TickList:Tick ()
-(wrapper dynamic-method) MonoMod.Utils.DynamicMethodDefinition:Verse.TickManager.DoSingleTick_Patch1 (Verse.TickManager)
-Verse.TickManager:TickManagerUpdate ()
-(wrapper dynamic-method) MonoMod.Utils.DynamicMethodDefinition:Verse.Game.UpdatePlay_Patch1 (Verse.Game)
-Verse.Root_Play:Update ()
-
-Cannot drop RRY_Xenomorph_Runner63066 without a dropLoc and with an owner whose map is null.
-UnityEngine.StackTraceUtility:ExtractStackTrace ()
-(wrapper dynamic-method) MonoMod.Utils.DynamicMethodDefinition:Verse.Log.Error_Patch1 (string)
-Verse.ThingOwner:TryDrop (Verse.Thing,Verse.ThingPlaceMode,Verse.Thing&,System.Action`2<Verse.Thing, int>,System.Predicate`1<Verse.IntVec3>)
-RimWorld.HiveLike:Tick ()
-Verse.Thing:DoTick ()
-Verse.TickList:Tick ()
-(wrapper dynamic-method) MonoMod.Utils.DynamicMethodDefinition:Verse.TickManager.DoSingleTick_Patch1 (Verse.TickManager)
-Verse.TickManager:TickManagerUpdate ()
-(wrapper dynamic-method) MonoMod.Utils.DynamicMethodDefinition:Verse.Game.UpdatePlay_Patch1 (Verse.Game)
-Verse.Root_Play:Update ()
-
-Exception in RimWorld.ThinkNode_ConditionalNotPawnKind TryIssueJobPackage: System.NullReferenceException: Object reference not set to an instance of an object
-[Ref CAEF6A98]
-  at Verse.AI.AttackTargetFinder.BestAttackTarget (Verse.AI.IAttackTargetSearcher searcher, Verse.AI.TargetScanFlags flags, System.Predicate`1[T] validator, System.Single minDist, System.Single maxDist, Verse.IntVec3 locus, System.Single maxTravelRadiusFromLocus, System.Boolean canBashDoors, System.Boolean canTakeTargetsCloserThanEffectiveMinRange, System.Boolean canBashFences, System.Boolean onlyRanged) [0x001f4] in <61e4173561894da49d210260257b5097>:0 
-    - PREFIX OskarPotocki.VEF: Void VEF.Weapons.VanillaExpandedFramework_AttackTargetFinder_BestAttackTarget_Patch:Prefix(IAttackTargetSearcher searcher, Single& maxDist)
-    - PREFIX com.ogliss.rimworld.mod.rryatuja.nobuildingattack: Void RRYautja.XenoNoBuildingAttackPatch:BestAttackTargetPrefix(IAttackTargetSearcher searcher, Predicate`1& validator)
-  at RimWorld.JobGiver_AIFightEnemy.FindAttackTarget (Verse.Pawn pawn) [0x00088] in <61e4173561894da49d210260257b5097>:0 
-  at RimWorld.JobGiver_AIFightEnemy.FindAttackTargetIfPossible (Verse.Pawn pawn) [0x00015] in <61e4173561894da49d210260257b5097>:0 
-  at RimWorld.JobGiver_AIFightEnemy.UpdateEnemyTarget (Verse.Pawn pawn) [0x0001d] in <61e4173561894da49d210260257b5097>:0 
-  at RimWorld.JobGiver_AIFightEnemy.TryGiveJob (Verse.Pawn pawn) [0x00049] in <61e4173561894da49d210260257b5097>:0 
-  at Verse.AI.ThinkNode_JobGiver.TryIssueJobPackage (Verse.Pawn pawn, Verse.AI.JobIssueParams jobParams) [0x00000] in <61e4173561894da49d210260257b5097>:0 
-  at Verse.AI.ThinkNode_Priority.TryIssueJobPackage (Verse.Pawn pawn, Verse.AI.JobIssueParams jobParams) [0x00022] in <61e4173561894da49d210260257b5097>:0 
-UnityEngine.StackTraceUtility:ExtractStackTrace ()
-(wrapper dynamic-method) MonoMod.Utils.DynamicMethodDefinition:Verse.Log.Error_Patch1 (string)
-Verse.AI.ThinkNode_Priority:TryIssueJobPackage (Verse.Pawn,Verse.AI.JobIssueParams)
-Verse.AI.ThinkNode_Conditional:TryIssueJobPackage (Verse.Pawn,Verse.AI.JobIssueParams)
-Verse.AI.ThinkNode_Priority:TryIssueJobPackage (Verse.Pawn,Verse.AI.JobIssueParams)
-Verse.AI.ThinkNode_Conditional:TryIssueJobPackage (Verse.Pawn,Verse.AI.JobIssueParams)
-Verse.AI.ThinkNode_Priority:TryIssueJobPackage (Verse.Pawn,Verse.AI.JobIssueParams)
-(wrapper dynamic-method) MonoMod.Utils.DynamicMethodDefinition:Verse.AI.Pawn_JobTracker.DetermineNextJob_Patch1 (Verse.AI.Pawn_JobTracker,Verse.ThinkTreeDef&,bool)
-(wrapper dynamic-method) MonoMod.Utils.DynamicMethodDefinition:Glue:AbiFixup<Verse.AI.ThinkResult Verse.AI.Pawn_JobTracker:DetermineNextJob(Verse.ThinkTreeDef&, System.Boolean),Verse.AI.ThinkResult Verse.AI.Pawn_JobTracker.DetermineNextJob_Patch1(Verse.AI.Pawn_JobTracker, Verse.ThinkTreeDef&, System.Boolean)> (Verse.AI.Pawn_JobTracker,Verse.AI.ThinkResult&,Verse.ThinkTreeDef&,bool)
-Verse.AI.Pawn_JobTracker:TryFindAndStartJob ()
-Verse.AI.Pawn_JobTracker:JobTrackerTickInterval (int)
-Verse.Pawn:TickInterval (int)
-Verse.Thing:DoTick ()
-Verse.TickList:Tick ()
-(wrapper dynamic-method) MonoMod.Utils.DynamicMethodDefinition:Verse.TickManager.DoSingleTick_Patch1 (Verse.TickManager)
-Verse.TickManager:TickManagerUpdate ()
-(wrapper dynamic-method) MonoMod.Utils.DynamicMethodDefinition:Verse.Game.UpdatePlay_Patch1 (Verse.Game)
-Verse.Root_Play:Update ()
-
-Exception in Verse.AI.ThinkNode_Priority TryIssueJobPackage: System.NullReferenceException: Object reference not set to an instance of an object
-[Ref CAEF6A98] Duplicate stacktrace, see ref for original
-UnityEngine.StackTraceUtility:ExtractStackTrace ()
-(wrapper dynamic-method) MonoMod.Utils.DynamicMethodDefinition:Verse.Log.Error_Patch1 (string)
-Verse.AI.ThinkNode_Priority:TryIssueJobPackage (Verse.Pawn,Verse.AI.JobIssueParams)
-RimWorld.ThinkNode_Duty:TryIssueJobPackage (Verse.Pawn,Verse.AI.JobIssueParams)
-Verse.AI.ThinkNode_Priority:TryIssueJobPackage (Verse.Pawn,Verse.AI.JobIssueParams)
-Verse.AI.ThinkNode_Conditional:TryIssueJobPackage (Verse.Pawn,Verse.AI.JobIssueParams)
-Verse.AI.ThinkNode_Priority:TryIssueJobPackage (Verse.Pawn,Verse.AI.JobIssueParams)
-Verse.AI.ThinkNode_Tagger:TryIssueJobPackage (Verse.Pawn,Verse.AI.JobIssueParams)
-Verse.AI.ThinkNode_Subtree:TryIssueJobPackage (Verse.Pawn,Verse.AI.JobIssueParams)
-Verse.AI.ThinkNode_Priority:TryIssueJobPackage (Verse.Pawn,Verse.AI.JobIssueParams)
-Verse.AI.ThinkNode_Conditional:TryIssueJobPackage (Verse.Pawn,Verse.AI.JobIssueParams)
-Verse.AI.ThinkNode_Priority:TryIssueJobPackage (Verse.Pawn,Verse.AI.JobIssueParams)
-Verse.AI.ThinkNode_Conditional:TryIssueJobPackage (Verse.Pawn,Verse.AI.JobIssueParams)
-Verse.AI.ThinkNode_Priority:TryIssueJobPackage (Verse.Pawn,Verse.AI.JobIssueParams)
-(wrapper dynamic-method) MonoMod.Utils.DynamicMethodDefinition:Verse.AI.Pawn_JobTracker.DetermineNextJob_Patch1 (Verse.AI.Pawn_JobTracker,Verse.ThinkTreeDef&,bool)
-(wrapper dynamic-method) MonoMod.Utils.DynamicMethodDefinition:Glue:AbiFixup<Verse.AI.ThinkResult Verse.AI.Pawn_JobTracker:DetermineNextJob(Verse.ThinkTreeDef&, System.Boolean),Verse.AI.ThinkResult Verse.AI.Pawn_JobTracker.DetermineNextJob_Patch1(Verse.AI.Pawn_JobTracker, Verse.ThinkTreeDef&, System.Boolean)> (Verse.AI.Pawn_JobTracker,Verse.AI.ThinkResult&,Verse.ThinkTreeDef&,bool)
-Verse.AI.Pawn_JobTracker:TryFindAndStartJob ()
-Verse.AI.Pawn_JobTracker:JobTrackerTickInterval (int)
-Verse.Pawn:TickInterval (int)
-Verse.Thing:DoTick ()
-Verse.TickList:Tick ()
-(wrapper dynamic-method) MonoMod.Utils.DynamicMethodDefinition:Verse.TickManager.DoSingleTick_Patch1 (Verse.TickManager)
-Verse.TickManager:TickManagerUpdate ()
-(wrapper dynamic-method) MonoMod.Utils.DynamicMethodDefinition:Verse.Game.UpdatePlay_Patch1 (Verse.Game)
-Verse.Root_Play:Update ()
-
-Exception in Verse.AI.ThinkNode_Priority TryIssueJobPackage: System.NullReferenceException: Object reference not set to an instance of an object
-[Ref BEA3D709] Duplicate stacktrace, see ref for original
-UnityEngine.StackTraceUtility:ExtractStackTrace ()
-(wrapper dynamic-method) MonoMod.Utils.DynamicMethodDefinition:Verse.Log.Error_Patch1 (string)
-Verse.AI.ThinkNode_Priority:TryIssueJobPackage (Verse.Pawn,Verse.AI.JobIssueParams)
-RimWorld.ThinkNode_Duty:TryIssueJobPackage (Verse.Pawn,Verse.AI.JobIssueParams)
-Verse.AI.ThinkNode_Priority:TryIssueJobPackage (Verse.Pawn,Verse.AI.JobIssueParams)
-Verse.AI.ThinkNode_Conditional:TryIssueJobPackage (Verse.Pawn,Verse.AI.JobIssueParams)
-Verse.AI.ThinkNode_Priority:TryIssueJobPackage (Verse.Pawn,Verse.AI.JobIssueParams)
-Verse.AI.ThinkNode_Tagger:TryIssueJobPackage (Verse.Pawn,Verse.AI.JobIssueParams)
-Verse.AI.ThinkNode_Subtree:TryIssueJobPackage (Verse.Pawn,Verse.AI.JobIssueParams)
-Verse.AI.ThinkNode_Priority:TryIssueJobPackage (Verse.Pawn,Verse.AI.JobIssueParams)
-Verse.AI.ThinkNode_Conditional:TryIssueJobPackage (Verse.Pawn,Verse.AI.JobIssueParams)
-Verse.AI.ThinkNode_Priority:TryIssueJobPackage (Verse.Pawn,Verse.AI.JobIssueParams)
-Verse.AI.ThinkNode_Conditional:TryIssueJobPackage (Verse.Pawn,Verse.AI.JobIssueParams)
-Verse.AI.ThinkNode_Priority:TryIssueJobPackage (Verse.Pawn,Verse.AI.JobIssueParams)
-(wrapper dynamic-method) MonoMod.Utils.DynamicMethodDefinition:Verse.AI.Pawn_JobTracker.DetermineNextJob_Patch1 (Verse.AI.Pawn_JobTracker,Verse.ThinkTreeDef&,bool)
-(wrapper dynamic-method) MonoMod.Utils.DynamicMethodDefinition:Glue:AbiFixup<Verse.AI.ThinkResult Verse.AI.Pawn_JobTracker:DetermineNextJob(Verse.ThinkTreeDef&, System.Boolean),Verse.AI.ThinkResult Verse.AI.Pawn_JobTracker.DetermineNextJob_Patch1(Verse.AI.Pawn_JobTracker, Verse.ThinkTreeDef&, System.Boolean)> (Verse.AI.Pawn_JobTracker,Verse.AI.ThinkResult&,Verse.ThinkTreeDef&,bool)
-Verse.AI.Pawn_JobTracker:TryFindAndStartJob ()
-Verse.AI.Pawn_JobTracker:JobTrackerTickInterval (int)
-Verse.Pawn:TickInterval (int)
-Verse.Thing:DoTick ()
-Verse.TickList:Tick ()
-(wrapper dynamic-method) MonoMod.Utils.DynamicMethodDefinition:Verse.TickManager.DoSingleTick_Patch1 (Verse.TickManager)
-Verse.TickManager:TickManagerUpdate ()
-(wrapper dynamic-method) MonoMod.Utils.DynamicMethodDefinition:Verse.Game.UpdatePlay_Patch1 (Verse.Game)
-Verse.Root_Play:Update ()
-
-Exception in Verse.AI.ThinkNode_Priority TryIssueJobPackage: System.NullReferenceException: Object reference not set to an instance of an object
-[Ref DAE4B69D] Duplicate stacktrace, see ref for original
-UnityEngine.StackTraceUtility:ExtractStackTrace ()
-(wrapper dynamic-method) MonoMod.Utils.DynamicMethodDefinition:Verse.Log.Error_Patch1 (string)
-Verse.AI.ThinkNode_Priority:TryIssueJobPackage (Verse.Pawn,Verse.AI.JobIssueParams)
-RimWorld.ThinkNode_Duty:TryIssueJobPackage (Verse.Pawn,Verse.AI.JobIssueParams)
-Verse.AI.ThinkNode_Priority:TryIssueJobPackage (Verse.Pawn,Verse.AI.JobIssueParams)
-Verse.AI.ThinkNode_Conditional:TryIssueJobPackage (Verse.Pawn,Verse.AI.JobIssueParams)
-Verse.AI.ThinkNode_Priority:TryIssueJobPackage (Verse.Pawn,Verse.AI.JobIssueParams)
-Verse.AI.ThinkNode_Tagger:TryIssueJobPackage (Verse.Pawn,Verse.AI.JobIssueParams)
-Verse.AI.ThinkNode_Subtree:TryIssueJobPackage (Verse.Pawn,Verse.AI.JobIssueParams)
-Verse.AI.ThinkNode_Priority:TryIssueJobPackage (Verse.Pawn,Verse.AI.JobIssueParams)
-Verse.AI.ThinkNode_Conditional:TryIssueJobPackage (Verse.Pawn,Verse.AI.JobIssueParams)
-Verse.AI.ThinkNode_Priority:TryIssueJobPackage (Verse.Pawn,Verse.AI.JobIssueParams)
-Verse.AI.ThinkNode_Conditional:TryIssueJobPackage (Verse.Pawn,Verse.AI.JobIssueParams)
-Verse.AI.ThinkNode_Priority:TryIssueJobPackage (Verse.Pawn,Verse.AI.JobIssueParams)
-(wrapper dynamic-method) MonoMod.Utils.DynamicMethodDefinition:Verse.AI.Pawn_JobTracker.DetermineNextJob_Patch1 (Verse.AI.Pawn_JobTracker,Verse.ThinkTreeDef&,bool)
-(wrapper dynamic-method) MonoMod.Utils.DynamicMethodDefinition:Glue:AbiFixup<Verse.AI.ThinkResult Verse.AI.Pawn_JobTracker:DetermineNextJob(Verse.ThinkTreeDef&, System.Boolean),Verse.AI.ThinkResult Verse.AI.Pawn_JobTracker.DetermineNextJob_Patch1(Verse.AI.Pawn_JobTracker, Verse.ThinkTreeDef&, System.Boolean)> (Verse.AI.Pawn_JobTracker,Verse.AI.ThinkResult&,Verse.ThinkTreeDef&,bool)
-Verse.AI.Pawn_JobTracker:TryFindAndStartJob ()
-Verse.AI.Pawn_JobTracker:JobTrackerTickInterval (int)
-Verse.Pawn:TickInterval (int)
-Verse.Thing:DoTick ()
-Verse.TickList:Tick ()
-(wrapper dynamic-method) MonoMod.Utils.DynamicMethodDefinition:Verse.TickManager.DoSingleTick_Patch1 (Verse.TickManager)
-Verse.TickManager:TickManagerUpdate ()
-(wrapper dynamic-method) MonoMod.Utils.DynamicMethodDefinition:Verse.Game.UpdatePlay_Patch1 (Verse.Game)
-Verse.Root_Play:Update ()
-
-Exception in RimWorld.ThinkNode_ConditionalNotPawnKind TryIssueJobPackage: System.NullReferenceException: Object reference not set to an instance of an object
-[Ref 8AF4C120] Duplicate stacktrace, see ref for original
-UnityEngine.StackTraceUtility:ExtractStackTrace ()
-(wrapper dynamic-method) MonoMod.Utils.DynamicMethodDefinition:Verse.Log.Error_Patch1 (string)
-Verse.AI.ThinkNode_Priority:TryIssueJobPackage (Verse.Pawn,Verse.AI.JobIssueParams)
-Verse.AI.ThinkNode_Conditional:TryIssueJobPackage (Verse.Pawn,Verse.AI.JobIssueParams)
-Verse.AI.ThinkNode_Priority:TryIssueJobPackage (Verse.Pawn,Verse.AI.JobIssueParams)
-Verse.AI.ThinkNode_Conditional:TryIssueJobPackage (Verse.Pawn,Verse.AI.JobIssueParams)
-Verse.AI.ThinkNode_Priority:TryIssueJobPackage (Verse.Pawn,Verse.AI.JobIssueParams)
-(wrapper dynamic-method) MonoMod.Utils.DynamicMethodDefinition:Verse.AI.Pawn_JobTracker.DetermineNextJob_Patch1 (Verse.AI.Pawn_JobTracker,Verse.ThinkTreeDef&,bool)
-(wrapper dynamic-method) MonoMod.Utils.DynamicMethodDefinition:Glue:AbiFixup<Verse.AI.ThinkResult Verse.AI.Pawn_JobTracker:DetermineNextJob(Verse.ThinkTreeDef&, System.Boolean),Verse.AI.ThinkResult Verse.AI.Pawn_JobTracker.DetermineNextJob_Patch1(Verse.AI.Pawn_JobTracker, Verse.ThinkTreeDef&, System.Boolean)> (Verse.AI.Pawn_JobTracker,Verse.AI.ThinkResult&,Verse.ThinkTreeDef&,bool)
-Verse.AI.Pawn_JobTracker:TryFindAndStartJob ()
-Verse.AI.Pawn_JobTracker:JobTrackerTickInterval (int)
-Verse.Pawn:TickInterval (int)
-Verse.Thing:DoTick ()
-Verse.TickList:Tick ()
-(wrapper dynamic-method) MonoMod.Utils.DynamicMethodDefinition:Verse.TickManager.DoSingleTick_Patch1 (Verse.TickManager)
-Verse.TickManager:TickManagerUpdate ()
-(wrapper dynamic-method) MonoMod.Utils.DynamicMethodDefinition:Verse.Game.UpdatePlay_Patch1 (Verse.Game)
-Verse.Root_Play:Update ()
-
-Exception in Verse.AI.ThinkNode_Priority TryIssueJobPackage: System.NullReferenceException: Object reference not set to an instance of an object
-[Ref 8AF4C120] Duplicate stacktrace, see ref for original
-UnityEngine.StackTraceUtility:ExtractStackTrace ()
-(wrapper dynamic-method) MonoMod.Utils.DynamicMethodDefinition:Verse.Log.Error_Patch1 (string)
-Verse.AI.ThinkNode_Priority:TryIssueJobPackage (Verse.Pawn,Verse.AI.JobIssueParams)
-RimWorld.ThinkNode_Duty:TryIssueJobPackage (Verse.Pawn,Verse.AI.JobIssueParams)
-Verse.AI.ThinkNode_Priority:TryIssueJobPackage (Verse.Pawn,Verse.AI.JobIssueParams)
-Verse.AI.ThinkNode_Conditional:TryIssueJobPackage (Verse.Pawn,Verse.AI.JobIssueParams)
-Verse.AI.ThinkNode_Priority:TryIssueJobPackage (Verse.Pawn,Verse.AI.JobIssueParams)
-Verse.AI.ThinkNode_Tagger:TryIssueJobPackage (Verse.Pawn,Verse.AI.JobIssueParams)
-Verse.AI.ThinkNode_Subtree:TryIssueJobPackage (Verse.Pawn,Verse.AI.JobIssueParams)
-Verse.AI.ThinkNode_Priority:TryIssueJobPackage (Verse.Pawn,Verse.AI.JobIssueParams)
-Verse.AI.ThinkNode_Conditional:TryIssueJobPackage (Verse.Pawn,Verse.AI.JobIssueParams)
-Verse.AI.ThinkNode_Priority:TryIssueJobPackage (Verse.Pawn,Verse.AI.JobIssueParams)
-Verse.AI.ThinkNode_Conditional:TryIssueJobPackage (Verse.Pawn,Verse.AI.JobIssueParams)
-Verse.AI.ThinkNode_Priority:TryIssueJobPackage (Verse.Pawn,Verse.AI.JobIssueParams)
-(wrapper dynamic-method) MonoMod.Utils.DynamicMethodDefinition:Verse.AI.Pawn_JobTracker.DetermineNextJob_Patch1 (Verse.AI.Pawn_JobTracker,Verse.ThinkTreeDef&,bool)
-(wrapper dynamic-method) MonoMod.Utils.DynamicMethodDefinition:Glue:AbiFixup<Verse.AI.ThinkResult Verse.AI.Pawn_JobTracker:DetermineNextJob(Verse.ThinkTreeDef&, System.Boolean),Verse.AI.ThinkResult Verse.AI.Pawn_JobTracker.DetermineNextJob_Patch1(Verse.AI.Pawn_JobTracker, Verse.ThinkTreeDef&, System.Boolean)> (Verse.AI.Pawn_JobTracker,Verse.AI.ThinkResult&,Verse.ThinkTreeDef&,bool)
-Verse.AI.Pawn_JobTracker:TryFindAndStartJob ()
-Verse.AI.Pawn_JobTracker:JobTrackerTickInterval (int)
-Verse.Pawn:TickInterval (int)
-Verse.Thing:DoTick ()
-Verse.TickList:Tick ()
-(wrapper dynamic-method) MonoMod.Utils.DynamicMethodDefinition:Verse.TickManager.DoSingleTick_Patch1 (Verse.TickManager)
-Verse.TickManager:TickManagerUpdate ()
-(wrapper dynamic-method) MonoMod.Utils.DynamicMethodDefinition:Verse.Game.UpdatePlay_Patch1 (Verse.Game)
-Verse.Root_Play:Update ()
-
-Exception in Verse.AI.ThinkNode_PrioritySorter TryIssueJobPackage: System.NullReferenceException: Object reference not set to an instance of an object
-[Ref 5F3225D2] Duplicate stacktrace, see ref for original
-UnityEngine.StackTraceUtility:ExtractStackTrace ()
-(wrapper dynamic-method) MonoMod.Utils.DynamicMethodDefinition:Verse.Log.Error_Patch1 (string)
-Verse.AI.ThinkNode_PrioritySorter:TryIssueJobPackage (Verse.Pawn,Verse.AI.JobIssueParams)
-Verse.AI.ThinkNode_Priority:TryIssueJobPackage (Verse.Pawn,Verse.AI.JobIssueParams)
-Verse.AI.ThinkNode_Tagger:TryIssueJobPackage (Verse.Pawn,Verse.AI.JobIssueParams)
-Verse.AI.ThinkNode_Priority:TryIssueJobPackage (Verse.Pawn,Verse.AI.JobIssueParams)
-RimWorld.ThinkNode_Duty:TryIssueJobPackage (Verse.Pawn,Verse.AI.JobIssueParams)
-Verse.AI.ThinkNode_Priority:TryIssueJobPackage (Verse.Pawn,Verse.AI.JobIssueParams)
-Verse.AI.ThinkNode_Conditional:TryIssueJobPackage (Verse.Pawn,Verse.AI.JobIssueParams)
-Verse.AI.ThinkNode_Priority:TryIssueJobPackage (Verse.Pawn,Verse.AI.JobIssueParams)
-Verse.AI.ThinkNode_Tagger:TryIssueJobPackage (Verse.Pawn,Verse.AI.JobIssueParams)
-Verse.AI.ThinkNode_Subtree:TryIssueJobPackage (Verse.Pawn,Verse.AI.JobIssueParams)
-Verse.AI.ThinkNode_Priority:TryIssueJobPackage (Verse.Pawn,Verse.AI.JobIssueParams)
-Verse.AI.ThinkNode_Conditional:TryIssueJobPackage (Verse.Pawn,Verse.AI.JobIssueParams)
-Verse.AI.ThinkNode_Priority:TryIssueJobPackage (Verse.Pawn,Verse.AI.JobIssueParams)
-Verse.AI.ThinkNode_Conditional:TryIssueJobPackage (Verse.Pawn,Verse.AI.JobIssueParams)
-Verse.AI.ThinkNode_Priority:TryIssueJobPackage (Verse.Pawn,Verse.AI.JobIssueParams)
-(wrapper dynamic-method) MonoMod.Utils.DynamicMethodDefinition:Verse.AI.Pawn_JobTracker.DetermineNextJob_Patch1 (Verse.AI.Pawn_JobTracker,Verse.ThinkTreeDef&,bool)
-(wrapper dynamic-method) MonoMod.Utils.DynamicMethodDefinition:Glue:AbiFixup<Verse.AI.ThinkResult Verse.AI.Pawn_JobTracker:DetermineNextJob(Verse.ThinkTreeDef&, System.Boolean),Verse.AI.ThinkResult Verse.AI.Pawn_JobTracker.DetermineNextJob_Patch1(Verse.AI.Pawn_JobTracker, Verse.ThinkTreeDef&, System.Boolean)> (Verse.AI.Pawn_JobTracker,Verse.AI.ThinkResult&,Verse.ThinkTreeDef&,bool)
-Verse.AI.Pawn_JobTracker:TryFindAndStartJob ()
-Verse.AI.Pawn_JobTracker:JobTrackerTickInterval (int)
-Verse.Pawn:TickInterval (int)
-Verse.Thing:DoTick ()
-Verse.TickList:Tick ()
-(wrapper dynamic-method) MonoMod.Utils.DynamicMethodDefinition:Verse.TickManager.DoSingleTick_Patch1 (Verse.TickManager)
-Verse.TickManager:TickManagerUpdate ()
-(wrapper dynamic-method) MonoMod.Utils.DynamicMethodDefinition:Verse.Game.UpdatePlay_Patch1 (Verse.Game)
-Verse.Root_Play:Update ()
-
-Exception in Verse.AI.ThinkNode_Priority TryIssueJobPackage: System.NullReferenceException: Object reference not set to an instance of an object
-[Ref BEA3D709] Duplicate stacktrace, see ref for original
-UnityEngine.StackTraceUtility:ExtractStackTrace ()
-(wrapper dynamic-method) MonoMod.Utils.DynamicMethodDefinition:Verse.Log.Error_Patch1 (string)
-Verse.AI.ThinkNode_Priority:TryIssueJobPackage (Verse.Pawn,Verse.AI.JobIssueParams)
-RimWorld.ThinkNode_Duty:TryIssueJobPackage (Verse.Pawn,Verse.AI.JobIssueParams)
-Verse.AI.ThinkNode_Priority:TryIssueJobPackage (Verse.Pawn,Verse.AI.JobIssueParams)
-Verse.AI.ThinkNode_Conditional:TryIssueJobPackage (Verse.Pawn,Verse.AI.JobIssueParams)
-Verse.AI.ThinkNode_Priority:TryIssueJobPackage (Verse.Pawn,Verse.AI.JobIssueParams)
-Verse.AI.ThinkNode_Tagger:TryIssueJobPackage (Verse.Pawn,Verse.AI.JobIssueParams)
-Verse.AI.ThinkNode_Subtree:TryIssueJobPackage (Verse.Pawn,Verse.AI.JobIssueParams)
-Verse.AI.ThinkNode_Priority:TryIssueJobPackage (Verse.Pawn,Verse.AI.JobIssueParams)
-Verse.AI.ThinkNode_Conditional:TryIssueJobPackage (Verse.Pawn,Verse.AI.JobIssueParams)
-Verse.AI.ThinkNode_Priority:TryIssueJobPackage (Verse.Pawn,Verse.AI.JobIssueParams)
-Verse.AI.ThinkNode_Conditional:TryIssueJobPackage (Verse.Pawn,Verse.AI.JobIssueParams)
-Verse.AI.ThinkNode_Priority:TryIssueJobPackage (Verse.Pawn,Verse.AI.JobIssueParams)
-(wrapper dynamic-method) MonoMod.Utils.DynamicMethodDefinition:Verse.AI.Pawn_JobTracker.DetermineNextJob_Patch1 (Verse.AI.Pawn_JobTracker,Verse.ThinkTreeDef&,bool)
-(wrapper dynamic-method) MonoMod.Utils.DynamicMethodDefinition:Glue:AbiFixup<Verse.AI.ThinkResult Verse.AI.Pawn_JobTracker:DetermineNextJob(Verse.ThinkTreeDef&, System.Boolean),Verse.AI.ThinkResult Verse.AI.Pawn_JobTracker.DetermineNextJob_Patch1(Verse.AI.Pawn_JobTracker, Verse.ThinkTreeDef&, System.Boolean)> (Verse.AI.Pawn_JobTracker,Verse.AI.ThinkResult&,Verse.ThinkTreeDef&,bool)
-Verse.AI.Pawn_JobTracker:TryFindAndStartJob ()
-Verse.AI.Pawn_JobTracker:JobTrackerTickInterval (int)
-Verse.Pawn:TickInterval (int)
-Verse.Thing:DoTick ()
-Verse.TickList:Tick ()
-(wrapper dynamic-method) MonoMod.Utils.DynamicMethodDefinition:Verse.TickManager.DoSingleTick_Patch1 (Verse.TickManager)
-Verse.TickManager:TickManagerUpdate ()
-(wrapper dynamic-method) MonoMod.Utils.DynamicMethodDefinition:Verse.Game.UpdatePlay_Patch1 (Verse.Game)
-Verse.Root_Play:Update ()
-
-Exception in Verse.AI.ThinkNode_Priority TryIssueJobPackage: System.NullReferenceException: Object reference not set to an instance of an object
-[Ref DAE4B69D] Duplicate stacktrace, see ref for original
-UnityEngine.StackTraceUtility:ExtractStackTrace ()
-(wrapper dynamic-method) MonoMod.Utils.DynamicMethodDefinition:Verse.Log.Error_Patch1 (string)
-Verse.AI.ThinkNode_Priority:TryIssueJobPackage (Verse.Pawn,Verse.AI.JobIssueParams)
-RimWorld.ThinkNode_Duty:TryIssueJobPackage (Verse.Pawn,Verse.AI.JobIssueParams)
-Verse.AI.ThinkNode_Priority:TryIssueJobPackage (Verse.Pawn,Verse.AI.JobIssueParams)
-Verse.AI.ThinkNode_Conditional:TryIssueJobPackage (Verse.Pawn,Verse.AI.JobIssueParams)
-Verse.AI.ThinkNode_Priority:TryIssueJobPackage (Verse.Pawn,Verse.AI.JobIssueParams)
-Verse.AI.ThinkNode_Tagger:TryIssueJobPackage (Verse.Pawn,Verse.AI.JobIssueParams)
-Verse.AI.ThinkNode_Subtree:TryIssueJobPackage (Verse.Pawn,Verse.AI.JobIssueParams)
-Verse.AI.ThinkNode_Priority:TryIssueJobPackage (Verse.Pawn,Verse.AI.JobIssueParams)
-Verse.AI.ThinkNode_Conditional:TryIssueJobPackage (Verse.Pawn,Verse.AI.JobIssueParams)
-Verse.AI.ThinkNode_Priority:TryIssueJobPackage (Verse.Pawn,Verse.AI.JobIssueParams)
-Verse.AI.ThinkNode_Conditional:TryIssueJobPackage (Verse.Pawn,Verse.AI.JobIssueParams)
-Verse.AI.ThinkNode_Priority:TryIssueJobPackage (Verse.Pawn,Verse.AI.JobIssueParams)
-(wrapper dynamic-method) MonoMod.Utils.DynamicMethodDefinition:Verse.AI.Pawn_JobTracker.DetermineNextJob_Patch1 (Verse.AI.Pawn_JobTracker,Verse.ThinkTreeDef&,bool)
-(wrapper dynamic-method) MonoMod.Utils.DynamicMethodDefinition:Glue:AbiFixup<Verse.AI.ThinkResult Verse.AI.Pawn_JobTracker:DetermineNextJob(Verse.ThinkTreeDef&, System.Boolean),Verse.AI.ThinkResult Verse.AI.Pawn_JobTracker.DetermineNextJob_Patch1(Verse.AI.Pawn_JobTracker, Verse.ThinkTreeDef&, System.Boolean)> (Verse.AI.Pawn_JobTracker,Verse.AI.ThinkResult&,Verse.ThinkTreeDef&,bool)
-Verse.AI.Pawn_JobTracker:TryFindAndStartJob ()
-Verse.AI.Pawn_JobTracker:JobTrackerTickInterval (int)
-Verse.Pawn:TickInterval (int)
-Verse.Thing:DoTick ()
-Verse.TickList:Tick ()
-(wrapper dynamic-method) MonoMod.Utils.DynamicMethodDefinition:Verse.TickManager.DoSingleTick_Patch1 (Verse.TickManager)
-Verse.TickManager:TickManagerUpdate ()
-(wrapper dynamic-method) MonoMod.Utils.DynamicMethodDefinition:Verse.Game.UpdatePlay_Patch1 (Verse.Game)
-Verse.Root_Play:Update ()
-
-Exception in RimWorld.ThinkNode_ConditionalNotPawnKind TryIssueJobPackage: System.NullReferenceException: Object reference not set to an instance of an object
-[Ref 8AF4C120] Duplicate stacktrace, see ref for original
-UnityEngine.StackTraceUtility:ExtractStackTrace ()
-(wrapper dynamic-method) MonoMod.Utils.DynamicMethodDefinition:Verse.Log.Error_Patch1 (string)
-Verse.AI.ThinkNode_Priority:TryIssueJobPackage (Verse.Pawn,Verse.AI.JobIssueParams)
-Verse.AI.ThinkNode_Conditional:TryIssueJobPackage (Verse.Pawn,Verse.AI.JobIssueParams)
-Verse.AI.ThinkNode_Priority:TryIssueJobPackage (Verse.Pawn,Verse.AI.JobIssueParams)
-Verse.AI.ThinkNode_Conditional:TryIssueJobPackage (Verse.Pawn,Verse.AI.JobIssueParams)
-Verse.AI.ThinkNode_Priority:TryIssueJobPackage (Verse.Pawn,Verse.AI.JobIssueParams)
-(wrapper dynamic-method) MonoMod.Utils.DynamicMethodDefinition:Verse.AI.Pawn_JobTracker.DetermineNextJob_Patch1 (Verse.AI.Pawn_JobTracker,Verse.ThinkTreeDef&,bool)
-(wrapper dynamic-method) MonoMod.Utils.DynamicMethodDefinition:Glue:AbiFixup<Verse.AI.ThinkResult Verse.AI.Pawn_JobTracker:DetermineNextJob(Verse.ThinkTreeDef&, System.Boolean),Verse.AI.ThinkResult Verse.AI.Pawn_JobTracker.DetermineNextJob_Patch1(Verse.AI.Pawn_JobTracker, Verse.ThinkTreeDef&, System.Boolean)> (Verse.AI.Pawn_JobTracker,Verse.AI.ThinkResult&,Verse.ThinkTreeDef&,bool)
-Verse.AI.Pawn_JobTracker:TryFindAndStartJob ()
-Verse.AI.Pawn_JobTracker:JobTrackerTickInterval (int)
-Verse.Pawn:TickInterval (int)
-Verse.Thing:DoTick ()
-Verse.TickList:Tick ()
-(wrapper dynamic-method) MonoMod.Utils.DynamicMethodDefinition:Verse.TickManager.DoSingleTick_Patch1 (Verse.TickManager)
-Verse.TickManager:TickManagerUpdate ()
-(wrapper dynamic-method) MonoMod.Utils.DynamicMethodDefinition:Verse.Game.UpdatePlay_Patch1 (Verse.Game)
-Verse.Root_Play:Update ()
-
-Exception in RimWorld.ThinkNode_ConditionalPawnKind TryIssueJobPackage: System.NullReferenceException: Object reference not set to an instance of an object
-[Ref 8AF4C120] Duplicate stacktrace, see ref for original
-UnityEngine.StackTraceUtility:ExtractStackTrace ()
-(wrapper dynamic-method) MonoMod.Utils.DynamicMethodDefinition:Verse.Log.Error_Patch1 (string)
-Verse.AI.ThinkNode_Priority:TryIssueJobPackage (Verse.Pawn,Verse.AI.JobIssueParams)
-Verse.AI.ThinkNode_Conditional:TryIssueJobPackage (Verse.Pawn,Verse.AI.JobIssueParams)
-Verse.AI.ThinkNode_Priority:TryIssueJobPackage (Verse.Pawn,Verse.AI.JobIssueParams)
-RimWorld.ThinkNode_Duty:TryIssueJobPackage (Verse.Pawn,Verse.AI.JobIssueParams)
-Verse.AI.ThinkNode_Priority:TryIssueJobPackage (Verse.Pawn,Verse.AI.JobIssueParams)
-Verse.AI.ThinkNode_Conditional:TryIssueJobPackage (Verse.Pawn,Verse.AI.JobIssueParams)
-Verse.AI.ThinkNode_Priority:TryIssueJobPackage (Verse.Pawn,Verse.AI.JobIssueParams)
-Verse.AI.ThinkNode_Tagger:TryIssueJobPackage (Verse.Pawn,Verse.AI.JobIssueParams)
-Verse.AI.ThinkNode_Subtree:TryIssueJobPackage (Verse.Pawn,Verse.AI.JobIssueParams)
-Verse.AI.ThinkNode_Priority:TryIssueJobPackage (Verse.Pawn,Verse.AI.JobIssueParams)
-Verse.AI.ThinkNode_Conditional:TryIssueJobPackage (Verse.Pawn,Verse.AI.JobIssueParams)
-Verse.AI.ThinkNode_Priority:TryIssueJobPackage (Verse.Pawn,Verse.AI.JobIssueParams)
-Verse.AI.ThinkNode_Conditional:TryIssueJobPackage (Verse.Pawn,Verse.AI.JobIssueParams)
-Verse.AI.ThinkNode_Priority:TryIssueJobPackage (Verse.Pawn,Verse.AI.JobIssueParams)
-(wrapper dynamic-method) MonoMod.Utils.DynamicMethodDefinition:Verse.AI.Pawn_JobTracker.DetermineNextJob_Patch1 (Verse.AI.Pawn_JobTracker,Verse.ThinkTreeDef&,bool)
-(wrapper dynamic-method) MonoMod.Utils.DynamicMethodDefinition:Glue:AbiFixup<Verse.AI.ThinkResult Verse.AI.Pawn_JobTracker:DetermineNextJob(Verse.ThinkTreeDef&, System.Boolean),Verse.AI.ThinkResult Verse.AI.Pawn_JobTracker.DetermineNextJob_Patch1(Verse.AI.Pawn_JobTracker, Verse.ThinkTreeDef&, System.Boolean)> (Verse.AI.Pawn_JobTracker,Verse.AI.ThinkResult&,Verse.ThinkTreeDef&,bool)
-Verse.AI.Pawn_JobTracker:TryFindAndStartJob ()
-Verse.AI.Pawn_JobTracker:JobTrackerTickInterval (int)
-Verse.Pawn:TickInterval (int)
-Verse.Thing:DoTick ()
-Verse.TickList:Tick ()
-(wrapper dynamic-method) MonoMod.Utils.DynamicMethodDefinition:Verse.TickManager.DoSingleTick_Patch1 (Verse.TickManager)
-Verse.TickManager:TickManagerUpdate ()
-(wrapper dynamic-method) MonoMod.Utils.DynamicMethodDefinition:Verse.Game.UpdatePlay_Patch1 (Verse.Game)
-Verse.Root_Play:Update ()
-
-Exception in RimWorld.ThinkNode_ConditionalPawnKind TryIssueJobPackage: System.NullReferenceException: Object reference not set to an instance of an object
-[Ref BEA3D709] Duplicate stacktrace, see ref for original
-UnityEngine.StackTraceUtility:ExtractStackTrace ()
-(wrapper dynamic-method) MonoMod.Utils.DynamicMethodDefinition:Verse.Log.Error_Patch1 (string)
-Verse.AI.ThinkNode_Priority:TryIssueJobPackage (Verse.Pawn,Verse.AI.JobIssueParams)
-Verse.AI.ThinkNode_Conditional:TryIssueJobPackage (Verse.Pawn,Verse.AI.JobIssueParams)
-Verse.AI.ThinkNode_Priority:TryIssueJobPackage (Verse.Pawn,Verse.AI.JobIssueParams)
-RimWorld.ThinkNode_Duty:TryIssueJobPackage (Verse.Pawn,Verse.AI.JobIssueParams)
-Verse.AI.ThinkNode_Priority:TryIssueJobPackage (Verse.Pawn,Verse.AI.JobIssueParams)
-Verse.AI.ThinkNode_Conditional:TryIssueJobPackage (Verse.Pawn,Verse.AI.JobIssueParams)
-Verse.AI.ThinkNode_Priority:TryIssueJobPackage (Verse.Pawn,Verse.AI.JobIssueParams)
-Verse.AI.ThinkNode_Tagger:TryIssueJobPackage (Verse.Pawn,Verse.AI.JobIssueParams)
-Verse.AI.ThinkNode_Subtree:TryIssueJobPackage (Verse.Pawn,Verse.AI.JobIssueParams)
-Verse.AI.ThinkNode_Priority:TryIssueJobPackage (Verse.Pawn,Verse.AI.JobIssueParams)
-Verse.AI.ThinkNode_Conditional:TryIssueJobPackage (Verse.Pawn,Verse.AI.JobIssueParams)
-Verse.AI.ThinkNode_Priority:TryIssueJobPackage (Verse.Pawn,Verse.AI.JobIssueParams)
-Verse.AI.ThinkNode_Conditional:TryIssueJobPackage (Verse.Pawn,Verse.AI.JobIssueParams)
-Verse.AI.ThinkNode_Priority:TryIssueJobPackage (Verse.Pawn,Verse.AI.JobIssueParams)
-(wrapper dynamic-method) MonoMod.Utils.DynamicMethodDefinition:Verse.AI.Pawn_JobTracker.DetermineNextJob_Patch1 (Verse.AI.Pawn_JobTracker,Verse.ThinkTreeDef&,bool)
-(wrapper dynamic-method) MonoMod.Utils.DynamicMethodDefinition:Glue:AbiFixup<Verse.AI.ThinkResult Verse.AI.Pawn_JobTracker:DetermineNextJob(Verse.ThinkTreeDef&, System.Boolean),Verse.AI.ThinkResult Verse.AI.Pawn_JobTracker.DetermineNextJob_Patch1(Verse.AI.Pawn_JobTracker, Verse.ThinkTreeDef&, System.Boolean)> (Verse.AI.Pawn_JobTracker,Verse.AI.ThinkResult&,Verse.ThinkTreeDef&,bool)
-Verse.AI.Pawn_JobTracker:TryFindAndStartJob ()
-Verse.AI.Pawn_JobTracker:JobTrackerTickInterval (int)
-Verse.Pawn:TickInterval (int)
-Verse.Thing:DoTick ()
-Verse.TickList:Tick ()
-(wrapper dynamic-method) MonoMod.Utils.DynamicMethodDefinition:Verse.TickManager.DoSingleTick_Patch1 (Verse.TickManager)
-Verse.TickManager:TickManagerUpdate ()
-(wrapper dynamic-method) MonoMod.Utils.DynamicMethodDefinition:Verse.Game.UpdatePlay_Patch1 (Verse.Game)
-Verse.Root_Play:Update ()
-
-Exception in Verse.AI.ThinkNode_Priority TryIssueJobPackage: System.NullReferenceException: Object reference not set to an instance of an object
-[Ref 8AF4C120] Duplicate stacktrace, see ref for original
-UnityEngine.StackTraceUtility:ExtractStackTrace ()
-(wrapper dynamic-method) MonoMod.Utils.DynamicMethodDefinition:Verse.Log.Error_Patch1 (string)
-Verse.AI.ThinkNode_Priority:TryIssueJobPackage (Verse.Pawn,Verse.AI.JobIssueParams)
-RimWorld.ThinkNode_Duty:TryIssueJobPackage (Verse.Pawn,Verse.AI.JobIssueParams)
-Verse.AI.ThinkNode_Priority:TryIssueJobPackage (Verse.Pawn,Verse.AI.JobIssueParams)
-Verse.AI.ThinkNode_Conditional:TryIssueJobPackage (Verse.Pawn,Verse.AI.JobIssueParams)
-Verse.AI.ThinkNode_Priority:TryIssueJobPackage (Verse.Pawn,Verse.AI.JobIssueParams)
-Verse.AI.ThinkNode_Tagger:TryIssueJobPackage (Verse.Pawn,Verse.AI.JobIssueParams)
-Verse.AI.ThinkNode_Subtree:TryIssueJobPackage (Verse.Pawn,Verse.AI.JobIssueParams)
-Verse.AI.ThinkNode_Priority:TryIssueJobPackage (Verse.Pawn,Verse.AI.JobIssueParams)
-Verse.AI.ThinkNode_Conditional:TryIssueJobPackage (Verse.Pawn,Verse.AI.JobIssueParams)
-Verse.AI.ThinkNode_Priority:TryIssueJobPackage (Verse.Pawn,Verse.AI.JobIssueParams)
-Verse.AI.ThinkNode_Conditional:TryIssueJobPackage (Verse.Pawn,Verse.AI.JobIssueParams)
-Verse.AI.ThinkNode_Priority:TryIssueJobPackage (Verse.Pawn,Verse.AI.JobIssueParams)
-(wrapper dynamic-method) MonoMod.Utils.DynamicMethodDefinition:Verse.AI.Pawn_JobTracker.DetermineNextJob_Patch1 (Verse.AI.Pawn_JobTracker,Verse.ThinkTreeDef&,bool)
-(wrapper dynamic-method) MonoMod.Utils.DynamicMethodDefinition:Glue:AbiFixup<Verse.AI.ThinkResult Verse.AI.Pawn_JobTracker:DetermineNextJob(Verse.ThinkTreeDef&, System.Boolean),Verse.AI.ThinkResult Verse.AI.Pawn_JobTracker.DetermineNextJob_Patch1(Verse.AI.Pawn_JobTracker, Verse.ThinkTreeDef&, System.Boolean)> (Verse.AI.Pawn_JobTracker,Verse.AI.ThinkResult&,Verse.ThinkTreeDef&,bool)
-Verse.AI.Pawn_JobTracker:TryFindAndStartJob ()
-Verse.AI.Pawn_JobTracker:JobTrackerTickInterval (int)
-Verse.Pawn:TickInterval (int)
-Verse.Thing:DoTick ()
-Verse.TickList:Tick ()
-(wrapper dynamic-method) MonoMod.Utils.DynamicMethodDefinition:Verse.TickManager.DoSingleTick_Patch1 (Verse.TickManager)
-Verse.TickManager:TickManagerUpdate ()
-(wrapper dynamic-method) MonoMod.Utils.DynamicMethodDefinition:Verse.Game.UpdatePlay_Patch1 (Verse.Game)
-Verse.Root_Play:Update ()
-
-Exception in Verse.AI.ThinkNode_Priority TryIssueJobPackage: System.NullReferenceException: Object reference not set to an instance of an object
-[Ref BEA3D709] Duplicate stacktrace, see ref for original
-UnityEngine.StackTraceUtility:ExtractStackTrace ()
-(wrapper dynamic-method) MonoMod.Utils.DynamicMethodDefinition:Verse.Log.Error_Patch1 (string)
-Verse.AI.ThinkNode_Priority:TryIssueJobPackage (Verse.Pawn,Verse.AI.JobIssueParams)
-RimWorld.ThinkNode_Duty:TryIssueJobPackage (Verse.Pawn,Verse.AI.JobIssueParams)
-Verse.AI.ThinkNode_Priority:TryIssueJobPackage (Verse.Pawn,Verse.AI.JobIssueParams)
-Verse.AI.ThinkNode_Conditional:TryIssueJobPackage (Verse.Pawn,Verse.AI.JobIssueParams)
-Verse.AI.ThinkNode_Priority:TryIssueJobPackage (Verse.Pawn,Verse.AI.JobIssueParams)
-Verse.AI.ThinkNode_Tagger:TryIssueJobPackage (Verse.Pawn,Verse.AI.JobIssueParams)
-Verse.AI.ThinkNode_Subtree:TryIssueJobPackage (Verse.Pawn,Verse.AI.JobIssueParams)
-Verse.AI.ThinkNode_Priority:TryIssueJobPackage (Verse.Pawn,Verse.AI.JobIssueParams)
-Verse.AI.ThinkNode_Conditional:TryIssueJobPackage (Verse.Pawn,Verse.AI.JobIssueParams)
-Verse.AI.ThinkNode_Priority:TryIssueJobPackage (Verse.Pawn,Verse.AI.JobIssueParams)
-Verse.AI.ThinkNode_Conditional:TryIssueJobPackage (Verse.Pawn,Verse.AI.JobIssueParams)
-Verse.AI.ThinkNode_Priority:TryIssueJobPackage (Verse.Pawn,Verse.AI.JobIssueParams)
-(wrapper dynamic-method) MonoMod.Utils.DynamicMethodDefinition:Verse.AI.Pawn_JobTracker.DetermineNextJob_Patch1 (Verse.AI.Pawn_JobTracker,Verse.ThinkTreeDef&,bool)
-(wrapper dynamic-method) MonoMod.Utils.DynamicMethodDefinition:Glue:AbiFixup<Verse.AI.ThinkResult Verse.AI.Pawn_JobTracker:DetermineNextJob(Verse.ThinkTreeDef&, System.Boolean),Verse.AI.ThinkResult Verse.AI.Pawn_JobTracker.DetermineNextJob_Patch1(Verse.AI.Pawn_JobTracker, Verse.ThinkTreeDef&, System.Boolean)> (Verse.AI.Pawn_JobTracker,Verse.AI.ThinkResult&,Verse.ThinkTreeDef&,bool)
-Verse.AI.Pawn_JobTracker:TryFindAndStartJob ()
-Verse.AI.Pawn_JobTracker:JobTrackerTickInterval (int)
-Verse.Pawn:TickInterval (int)
-Verse.Thing:DoTick ()
-Verse.TickList:Tick ()
-(wrapper dynamic-method) MonoMod.Utils.DynamicMethodDefinition:Verse.TickManager.DoSingleTick_Patch1 (Verse.TickManager)
-Verse.TickManager:TickManagerUpdate ()
-(wrapper dynamic-method) MonoMod.Utils.DynamicMethodDefinition:Verse.Game.UpdatePlay_Patch1 (Verse.Game)
-Verse.Root_Play:Update ()
-
-Exception in Verse.AI.ThinkNode_Priority TryIssueJobPackage: System.NullReferenceException: Object reference not set to an instance of an object
-[Ref DAE4B69D] Duplicate stacktrace, see ref for original
-UnityEngine.StackTraceUtility:ExtractStackTrace ()
-(wrapper dynamic-method) MonoMod.Utils.DynamicMethodDefinition:Verse.Log.Error_Patch1 (string)
-Verse.AI.ThinkNode_Priority:TryIssueJobPackage (Verse.Pawn,Verse.AI.JobIssueParams)
-RimWorld.ThinkNode_Duty:TryIssueJobPackage (Verse.Pawn,Verse.AI.JobIssueParams)
-Verse.AI.ThinkNode_Priority:TryIssueJobPackage (Verse.Pawn,Verse.AI.JobIssueParams)
-Verse.AI.ThinkNode_Conditional:TryIssueJobPackage (Verse.Pawn,Verse.AI.JobIssueParams)
-Verse.AI.ThinkNode_Priority:TryIssueJobPackage (Verse.Pawn,Verse.AI.JobIssueParams)
-Verse.AI.ThinkNode_Tagger:TryIssueJobPackage (Verse.Pawn,Verse.AI.JobIssueParams)
-Verse.AI.ThinkNode_Subtree:TryIssueJobPackage (Verse.Pawn,Verse.AI.JobIssueParams)
-Verse.AI.ThinkNode_Priority:TryIssueJobPackage (Verse.Pawn,Verse.AI.JobIssueParams)
-Verse.AI.ThinkNode_Conditional:TryIssueJobPackage (Verse.Pawn,Verse.AI.JobIssueParams)
-Verse.AI.ThinkNode_Priority:TryIssueJobPackage (Verse.Pawn,Verse.AI.JobIssueParams)
-Verse.AI.ThinkNode_Conditional:TryIssueJobPackage (Verse.Pawn,Verse.AI.JobIssueParams)
-Verse.AI.ThinkNode_Priority:TryIssueJobPackage (Verse.Pawn,Verse.AI.JobIssueParams)
-(wrapper dynamic-method) MonoMod.Utils.DynamicMethodDefinition:Verse.AI.Pawn_JobTracker.DetermineNextJob_Patch1 (Verse.AI.Pawn_JobTracker,Verse.ThinkTreeDef&,bool)
-(wrapper dynamic-method) MonoMod.Utils.DynamicMethodDefinition:Glue:AbiFixup<Verse.AI.ThinkResult Verse.AI.Pawn_JobTracker:DetermineNextJob(Verse.ThinkTreeDef&, System.Boolean),Verse.AI.ThinkResult Verse.AI.Pawn_JobTracker.DetermineNextJob_Patch1(Verse.AI.Pawn_JobTracker, Verse.ThinkTreeDef&, System.Boolean)> (Verse.AI.Pawn_JobTracker,Verse.AI.ThinkResult&,Verse.ThinkTreeDef&,bool)
-Verse.AI.Pawn_JobTracker:TryFindAndStartJob ()
-Verse.AI.Pawn_JobTracker:JobTrackerTickInterval (int)
-Verse.Pawn:TickInterval (int)
-Verse.Thing:DoTick ()
-Verse.TickList:Tick ()
-(wrapper dynamic-method) MonoMod.Utils.DynamicMethodDefinition:Verse.TickManager.DoSingleTick_Patch1 (Verse.TickManager)
-Verse.TickManager:TickManagerUpdate ()
-(wrapper dynamic-method) MonoMod.Utils.DynamicMethodDefinition:Verse.Game.UpdatePlay_Patch1 (Verse.Game)
-Verse.Root_Play:Update ()
-
-Exception in RimWorld.ThinkNode_ConditionalNotPawnKind TryIssueJobPackage: System.NullReferenceException: Object reference not set to an instance of an object
-[Ref 8AF4C120] Duplicate stacktrace, see ref for original
-UnityEngine.StackTraceUtility:ExtractStackTrace ()
-(wrapper dynamic-method) MonoMod.Utils.DynamicMethodDefinition:Verse.Log.Error_Patch1 (string)
-Verse.AI.ThinkNode_Priority:TryIssueJobPackage (Verse.Pawn,Verse.AI.JobIssueParams)
-Verse.AI.ThinkNode_Conditional:TryIssueJobPackage (Verse.Pawn,Verse.AI.JobIssueParams)
-Verse.AI.ThinkNode_Priority:TryIssueJobPackage (Verse.Pawn,Verse.AI.JobIssueParams)
-Verse.AI.ThinkNode_Conditional:TryIssueJobPackage (Verse.Pawn,Verse.AI.JobIssueParams)
-Verse.AI.ThinkNode_Priority:TryIssueJobPackage (Verse.Pawn,Verse.AI.JobIssueParams)
-(wrapper dynamic-method) MonoMod.Utils.DynamicMethodDefinition:Verse.AI.Pawn_JobTracker.DetermineNextJob_Patch1 (Verse.AI.Pawn_JobTracker,Verse.ThinkTreeDef&,bool)
-(wrapper dynamic-method) MonoMod.Utils.DynamicMethodDefinition:Glue:AbiFixup<Verse.AI.ThinkResult Verse.AI.Pawn_JobTracker:DetermineNextJob(Verse.ThinkTreeDef&, System.Boolean),Verse.AI.ThinkResult Verse.AI.Pawn_JobTracker.DetermineNextJob_Patch1(Verse.AI.Pawn_JobTracker, Verse.ThinkTreeDef&, System.Boolean)> (Verse.AI.Pawn_JobTracker,Verse.AI.ThinkResult&,Verse.ThinkTreeDef&,bool)
-Verse.AI.Pawn_JobTracker:TryFindAndStartJob ()
-Verse.AI.Pawn_JobTracker:JobTrackerTickInterval (int)
-Verse.Pawn:TickInterval (int)
-Verse.Thing:DoTick ()
-Verse.TickList:Tick ()
-(wrapper dynamic-method) MonoMod.Utils.DynamicMethodDefinition:Verse.TickManager.DoSingleTick_Patch1 (Verse.TickManager)
-Verse.TickManager:TickManagerUpdate ()
-(wrapper dynamic-method) MonoMod.Utils.DynamicMethodDefinition:Verse.Game.UpdatePlay_Patch1 (Verse.Game)
-Verse.Root_Play:Update ()
-
-Exception in Verse.AI.ThinkNode_Priority TryIssueJobPackage: System.NullReferenceException: Object reference not set to an instance of an object
-[Ref 8AF4C120] Duplicate stacktrace, see ref for original
-UnityEngine.StackTraceUtility:ExtractStackTrace ()
-(wrapper dynamic-method) MonoMod.Utils.DynamicMethodDefinition:Verse.Log.Error_Patch1 (string)
-Verse.AI.ThinkNode_Priority:TryIssueJobPackage (Verse.Pawn,Verse.AI.JobIssueParams)
-RimWorld.ThinkNode_Duty:TryIssueJobPackage (Verse.Pawn,Verse.AI.JobIssueParams)
-Verse.AI.ThinkNode_Priority:TryIssueJobPackage (Verse.Pawn,Verse.AI.JobIssueParams)
-Verse.AI.ThinkNode_Conditional:TryIssueJobPackage (Verse.Pawn,Verse.AI.JobIssueParams)
-Verse.AI.ThinkNode_Priority:TryIssueJobPackage (Verse.Pawn,Verse.AI.JobIssueParams)
-Verse.AI.ThinkNode_Tagger:TryIssueJobPackage (Verse.Pawn,Verse.AI.JobIssueParams)
-Verse.AI.ThinkNode_Subtree:TryIssueJobPackage (Verse.Pawn,Verse.AI.JobIssueParams)
-Verse.AI.ThinkNode_Priority:TryIssueJobPackage (Verse.Pawn,Verse.AI.JobIssueParams)
-Verse.AI.ThinkNode_Conditional:TryIssueJobPackage (Verse.Pawn,Verse.AI.JobIssueParams)
-Verse.AI.ThinkNode_Priority:TryIssueJobPackage (Verse.Pawn,Verse.AI.JobIssueParams)
-Verse.AI.ThinkNode_Conditional:TryIssueJobPackage (Verse.Pawn,Verse.AI.JobIssueParams)
-Verse.AI.ThinkNode_Priority:TryIssueJobPackage (Verse.Pawn,Verse.AI.JobIssueParams)
-(wrapper dynamic-method) MonoMod.Utils.DynamicMethodDefinition:Verse.AI.Pawn_JobTracker.DetermineNextJob_Patch1 (Verse.AI.Pawn_JobTracker,Verse.ThinkTreeDef&,bool)
-(wrapper dynamic-method) MonoMod.Utils.DynamicMethodDefinition:Glue:AbiFixup<Verse.AI.ThinkResult Verse.AI.Pawn_JobTracker:DetermineNextJob(Verse.ThinkTreeDef&, System.Boolean),Verse.AI.ThinkResult Verse.AI.Pawn_JobTracker.DetermineNextJob_Patch1(Verse.AI.Pawn_JobTracker, Verse.ThinkTreeDef&, System.Boolean)> (Verse.AI.Pawn_JobTracker,Verse.AI.ThinkResult&,Verse.ThinkTreeDef&,bool)
-Verse.AI.Pawn_JobTracker:TryFindAndStartJob ()
-Verse.AI.Pawn_JobTracker:JobTrackerTickInterval (int)
-Verse.Pawn:TickInterval (int)
-Verse.Thing:DoTick ()
-Verse.TickList:Tick ()
-(wrapper dynamic-method) MonoMod.Utils.DynamicMethodDefinition:Verse.TickManager.DoSingleTick_Patch1 (Verse.TickManager)
-Verse.TickManager:TickManagerUpdate ()
-(wrapper dynamic-method) MonoMod.Utils.DynamicMethodDefinition:Verse.Game.UpdatePlay_Patch1 (Verse.Game)
-Verse.Root_Play:Update ()
-
-Exception in Verse.AI.ThinkNode_PrioritySorter TryIssueJobPackage: System.NullReferenceException: Object reference not set to an instance of an object
-[Ref 5F3225D2] Duplicate stacktrace, see ref for original
-UnityEngine.StackTraceUtility:ExtractStackTrace ()
-(wrapper dynamic-method) MonoMod.Utils.DynamicMethodDefinition:Verse.Log.Error_Patch1 (string)
-Verse.AI.ThinkNode_PrioritySorter:TryIssueJobPackage (Verse.Pawn,Verse.AI.JobIssueParams)
-Verse.AI.ThinkNode_Priority:TryIssueJobPackage (Verse.Pawn,Verse.AI.JobIssueParams)
-Verse.AI.ThinkNode_Tagger:TryIssueJobPackage (Verse.Pawn,Verse.AI.JobIssueParams)
-Verse.AI.ThinkNode_Priority:TryIssueJobPackage (Verse.Pawn,Verse.AI.JobIssueParams)
-RimWorld.ThinkNode_Duty:TryIssueJobPackage (Verse.Pawn,Verse.AI.JobIssueParams)
-Verse.AI.ThinkNode_Priority:TryIssueJobPackage (Verse.Pawn,Verse.AI.JobIssueParams)
-Verse.AI.ThinkNode_Conditional:TryIssueJobPackage (Verse.Pawn,Verse.AI.JobIssueParams)
-Verse.AI.ThinkNode_Priority:TryIssueJobPackage (Verse.Pawn,Verse.AI.JobIssueParams)
-Verse.AI.ThinkNode_Tagger:TryIssueJobPackage (Verse.Pawn,Verse.AI.JobIssueParams)
-Verse.AI.ThinkNode_Subtree:TryIssueJobPackage (Verse.Pawn,Verse.AI.JobIssueParams)
-Verse.AI.ThinkNode_Priority:TryIssueJobPackage (Verse.Pawn,Verse.AI.JobIssueParams)
-Verse.AI.ThinkNode_Conditional:TryIssueJobPackage (Verse.Pawn,Verse.AI.JobIssueParams)
-Verse.AI.ThinkNode_Priority:TryIssueJobPackage (Verse.Pawn,Verse.AI.JobIssueParams)
-Verse.AI.ThinkNode_Conditional:TryIssueJobPackage (Verse.Pawn,Verse.AI.JobIssueParams)
-Verse.AI.ThinkNode_Priority:TryIssueJobPackage (Verse.Pawn,Verse.AI.JobIssueParams)
-(wrapper dynamic-method) MonoMod.Utils.DynamicMethodDefinition:Verse.AI.Pawn_JobTracker.DetermineNextJob_Patch1 (Verse.AI.Pawn_JobTracker,Verse.ThinkTreeDef&,bool)
-(wrapper dynamic-method) MonoMod.Utils.DynamicMethodDefinition:Glue:AbiFixup<Verse.AI.ThinkResult Verse.AI.Pawn_JobTracker:DetermineNextJob(Verse.ThinkTreeDef&, System.Boolean),Verse.AI.ThinkResult Verse.AI.Pawn_JobTracker.DetermineNextJob_Patch1(Verse.AI.Pawn_JobTracker, Verse.ThinkTreeDef&, System.Boolean)> (Verse.AI.Pawn_JobTracker,Verse.AI.ThinkResult&,Verse.ThinkTreeDef&,bool)
-Verse.AI.Pawn_JobTracker:TryFindAndStartJob ()
-Verse.AI.Pawn_JobTracker:JobTrackerTickInterval (int)
-Verse.Pawn:TickInterval (int)
-Verse.Thing:DoTick ()
-Verse.TickList:Tick ()
-(wrapper dynamic-method) MonoMod.Utils.DynamicMethodDefinition:Verse.TickManager.DoSingleTick_Patch1 (Verse.TickManager)
-Verse.TickManager:TickManagerUpdate ()
-(wrapper dynamic-method) MonoMod.Utils.DynamicMethodDefinition:Verse.Game.UpdatePlay_Patch1 (Verse.Game)
-Verse.Root_Play:Update ()
-
-Exception in Verse.AI.ThinkNode_Priority TryIssueJobPackage: System.NullReferenceException: Object reference not set to an instance of an object
-[Ref BEA3D709] Duplicate stacktrace, see ref for original
-UnityEngine.StackTraceUtility:ExtractStackTrace ()
-(wrapper dynamic-method) MonoMod.Utils.DynamicMethodDefinition:Verse.Log.Error_Patch1 (string)
-Verse.AI.ThinkNode_Priority:TryIssueJobPackage (Verse.Pawn,Verse.AI.JobIssueParams)
-RimWorld.ThinkNode_Duty:TryIssueJobPackage (Verse.Pawn,Verse.AI.JobIssueParams)
-Verse.AI.ThinkNode_Priority:TryIssueJobPackage (Verse.Pawn,Verse.AI.JobIssueParams)
-Verse.AI.ThinkNode_Conditional:TryIssueJobPackage (Verse.Pawn,Verse.AI.JobIssueParams)
-Verse.AI.ThinkNode_Priority:TryIssueJobPackage (Verse.Pawn,Verse.AI.JobIssueParams)
-Verse.AI.ThinkNode_Tagger:TryIssueJobPackage (Verse.Pawn,Verse.AI.JobIssueParams)
-Verse.AI.ThinkNode_Subtree:TryIssueJobPackage (Verse.Pawn,Verse.AI.JobIssueParams)
-Verse.AI.ThinkNode_Priority:TryIssueJobPackage (Verse.Pawn,Verse.AI.JobIssueParams)
-Verse.AI.ThinkNode_Conditional:TryIssueJobPackage (Verse.Pawn,Verse.AI.JobIssueParams)
-Verse.AI.ThinkNode_Priority:TryIssueJobPackage (Verse.Pawn,Verse.AI.JobIssueParams)
-Verse.AI.ThinkNode_Conditional:TryIssueJobPackage (Verse.Pawn,Verse.AI.JobIssueParams)
-Verse.AI.ThinkNode_Priority:TryIssueJobPackage (Verse.Pawn,Verse.AI.JobIssueParams)
-(wrapper dynamic-method) MonoMod.Utils.DynamicMethodDefinition:Verse.AI.Pawn_JobTracker.DetermineNextJob_Patch1 (Verse.AI.Pawn_JobTracker,Verse.ThinkTreeDef&,bool)
-(wrapper dynamic-method) MonoMod.Utils.DynamicMethodDefinition:Glue:AbiFixup<Verse.AI.ThinkResult Verse.AI.Pawn_JobTracker:DetermineNextJob(Verse.ThinkTreeDef&, System.Boolean),Verse.AI.ThinkResult Verse.AI.Pawn_JobTracker.DetermineNextJob_Patch1(Verse.AI.Pawn_JobTracker, Verse.ThinkTreeDef&, System.Boolean)> (Verse.AI.Pawn_JobTracker,Verse.AI.ThinkResult&,Verse.ThinkTreeDef&,bool)
-Verse.AI.Pawn_JobTracker:TryFindAndStartJob ()
-Verse.AI.Pawn_JobTracker:JobTrackerTickInterval (int)
-Verse.Pawn:TickInterval (int)
-Verse.Thing:DoTick ()
-Verse.TickList:Tick ()
-(wrapper dynamic-method) MonoMod.Utils.DynamicMethodDefinition:Verse.TickManager.DoSingleTick_Patch1 (Verse.TickManager)
-Verse.TickManager:TickManagerUpdate ()
-(wrapper dynamic-method) MonoMod.Utils.DynamicMethodDefinition:Verse.Game.UpdatePlay_Patch1 (Verse.Game)
-Verse.Root_Play:Update ()
-
-Exception in Verse.AI.ThinkNode_Priority TryIssueJobPackage: System.NullReferenceException: Object reference not set to an instance of an object
-[Ref DAE4B69D] Duplicate stacktrace, see ref for original
-UnityEngine.StackTraceUtility:ExtractStackTrace ()
-(wrapper dynamic-method) MonoMod.Utils.DynamicMethodDefinition:Verse.Log.Error_Patch1 (string)
-Verse.AI.ThinkNode_Priority:TryIssueJobPackage (Verse.Pawn,Verse.AI.JobIssueParams)
-RimWorld.ThinkNode_Duty:TryIssueJobPackage (Verse.Pawn,Verse.AI.JobIssueParams)
-Verse.AI.ThinkNode_Priority:TryIssueJobPackage (Verse.Pawn,Verse.AI.JobIssueParams)
-Verse.AI.ThinkNode_Conditional:TryIssueJobPackage (Verse.Pawn,Verse.AI.JobIssueParams)
-Verse.AI.ThinkNode_Priority:TryIssueJobPackage (Verse.Pawn,Verse.AI.JobIssueParams)
-Verse.AI.ThinkNode_Tagger:TryIssueJobPackage (Verse.Pawn,Verse.AI.JobIssueParams)
-Verse.AI.ThinkNode_Subtree:TryIssueJobPackage (Verse.Pawn,Verse.AI.JobIssueParams)
-Verse.AI.ThinkNode_Priority:TryIssueJobPackage (Verse.Pawn,Verse.AI.JobIssueParams)
-Verse.AI.ThinkNode_Conditional:TryIssueJobPackage (Verse.Pawn,Verse.AI.JobIssueParams)
-Verse.AI.ThinkNode_Priority:TryIssueJobPackage (Verse.Pawn,Verse.AI.JobIssueParams)
-Verse.AI.ThinkNode_Conditional:TryIssueJobPackage (Verse.Pawn,Verse.AI.JobIssueParams)
-Verse.AI.ThinkNode_Priority:TryIssueJobPackage (Verse.Pawn,Verse.AI.JobIssueParams)
-(wrapper dynamic-method) MonoMod.Utils.DynamicMethodDefinition:Verse.AI.Pawn_JobTracker.DetermineNextJob_Patch1 (Verse.AI.Pawn_JobTracker,Verse.ThinkTreeDef&,bool)
-(wrapper dynamic-method) MonoMod.Utils.DynamicMethodDefinition:Glue:AbiFixup<Verse.AI.ThinkResult Verse.AI.Pawn_JobTracker:DetermineNextJob(Verse.ThinkTreeDef&, System.Boolean),Verse.AI.ThinkResult Verse.AI.Pawn_JobTracker.DetermineNextJob_Patch1(Verse.AI.Pawn_JobTracker, Verse.ThinkTreeDef&, System.Boolean)> (Verse.AI.Pawn_JobTracker,Verse.AI.ThinkResult&,Verse.ThinkTreeDef&,bool)
-Verse.AI.Pawn_JobTracker:TryFindAndStartJob ()
-Verse.AI.Pawn_JobTracker:JobTrackerTickInterval (int)
-Verse.Pawn:TickInterval (int)
-Verse.Thing:DoTick ()
-Verse.TickList:Tick ()
-(wrapper dynamic-method) MonoMod.Utils.DynamicMethodDefinition:Verse.TickManager.DoSingleTick_Patch1 (Verse.TickManager)
-Verse.TickManager:TickManagerUpdate ()
-(wrapper dynamic-method) MonoMod.Utils.DynamicMethodDefinition:Verse.Game.UpdatePlay_Patch1 (Verse.Game)
-Verse.Root_Play:Update ()
