@@ -12,7 +12,9 @@ namespace RimWorld
         public override void UpdateAllDuties()
         {
             base.FilterOutUnspawnedHiveLikes();
+            if (this.lord?.ownedPawns == null || this.lord.ownedPawns.Count == 0) return;
             MapComponent_HiveGrid hive = Map.GetComponent<MapComponent_HiveGrid>();
+            if (hive == null) return;
             if (!hive.Hivelist.NullOrEmpty() && !hive.HiveLoclist.NullOrEmpty())
             {
 
@@ -30,30 +32,38 @@ namespace RimWorld
             }
             for (int i = 0; i < this.lord.ownedPawns.Count; i++)
             {
+                Pawn pawn = this.lord.ownedPawns[i];
+                if (pawn == null || pawn.Map == null) continue;
                 PawnDuty duty;
                 if (!hive.Hivelist.NullOrEmpty())
                 {
-                    HiveLike hiveFor = base.GetHiveLikeFor(this.lord.ownedPawns[i]);
-                    if (hiveFor.parentHiveLike != null)
+                    HiveLike hiveFor = base.GetHiveLikeFor(pawn);
+                    if (hiveFor != null)
                     {
-                        duty = new PawnDuty(XenomorphDefOf.RRY_Xenomorph_DefendHiveAggressively, hiveFor.parentHiveLike, this.distToHiveToAttack);
+                        if (hiveFor.parentHiveLike != null)
+                        {
+                            duty = new PawnDuty(XenomorphDefOf.RRY_Xenomorph_DefendHiveAggressively, hiveFor.parentHiveLike, this.distToHiveToAttack);
+                        }
+                        else
+                        {
+                            duty = new PawnDuty(XenomorphDefOf.RRY_Xenomorph_DefendHiveAggressively, hiveFor, this.distToHiveToAttack);
+                        }
                     }
                     else
                     {
-                        duty = new PawnDuty(XenomorphDefOf.RRY_Xenomorph_DefendHiveAggressively, hiveFor, this.distToHiveToAttack);
+                        duty = new PawnDuty(XenomorphDefOf.RRY_Xenomorph_AssaultColony_CutPower);
                     }
                 }
                 else if (!hive.HiveLoclist.NullOrEmpty())
                 {
                     IntVec3 hiveloc = hive.HiveLoclist.RandomElement();
-
                     duty = new PawnDuty(XenomorphDefOf.RRY_Xenomorph_DefendHiveAggressively, hiveloc, this.distToHiveToAttack);
                 }
                 else
                 {
                     duty = new PawnDuty(XenomorphDefOf.RRY_Xenomorph_AssaultColony_CutPower);
                 }
-                this.lord.ownedPawns[i].mindState.duty = duty;
+                pawn.mindState.duty = duty;
             }
         }
 

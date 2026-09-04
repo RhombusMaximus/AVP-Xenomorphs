@@ -204,8 +204,8 @@ namespace RRYautja.ExtensionMethods
                 FailReason = "Xenomorph Faction Member";
                 return false;
             }
-            // BodySize threshold: 0.5 minimum, scales up to 1.0 for full eligibility
-            if (p.BodySize < 0.5f && !p.RaceProps.Humanlike)
+            // BodySize threshold: 0.3 minimum (small animals like rabbits, squirrels excluded)
+            if (p.BodySize < 0.3f && !p.RaceProps.Humanlike)
             {
                 FailReason = "NonhumanlikeTooSmall";
                 return false;
@@ -296,7 +296,7 @@ namespace RRYautja.ExtensionMethods
             if (thingDef.race.FleshType.defName.Contains("TM_StoneFlesh")) { FailReason = NonBio; return false; }
             if (thingDef.race.FleshType.defName.Contains("Chaos") && thingDef.race.FleshType.defName.Contains("Deamon")) { FailReason = NonBio; return false; }
             if (thingDef.race.FleshType.defName.Contains("Construct") && thingDef.race.FleshType.defName.Contains("Flesh")) { FailReason = NonBio; return false; }
-            if (thingDef.race.baseBodySize < 0.5f && !thingDef.race.Humanlike) { FailReason = string.Format("Too Small", thingDef); return false; }
+            if (thingDef.race.baseBodySize < 0.3f && !thingDef.race.Humanlike) { FailReason = string.Format("Too Small", thingDef); return false; }
 
 
             return true;

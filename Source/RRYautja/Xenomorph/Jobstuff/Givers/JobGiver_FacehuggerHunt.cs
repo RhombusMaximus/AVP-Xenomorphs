@@ -222,7 +222,7 @@ namespace RimWorld
             {
                 return false;
             }
-            if (prey.BodySize < 0.5f)
+            if (prey.BodySize < 0.3f)
             {
                 return false;
             }

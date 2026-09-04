@@ -338,11 +338,10 @@ namespace RRYautja
                         }
 
                         // Hatch formula: distance makes it harder, bodySize makes it easier
-                        // bodySize scales from 0.5 (minimum, harder to trigger) to 1.0+ (full trigger chance)
-                        // Clamped so bodySize >= 1.0 gives full bonus
-                        float sizeFactor = Mathf.Clamp(thingsize, 0.5f, 1.0f);
-                        // Normalize 0.5->1.0 range to 0.0->1.0 scale (0.5 = no bonus, 1.0 = full bonus)
-                        float sizeBonus = (sizeFactor - 0.5f) * 2f; // 0.5->0, 0.75->0.5, 1.0->1.0
+                        // bodySize scales from 0.3 (minimum, harder to trigger) to 1.0+ (full trigger chance)
+                        float sizeFactor = Mathf.Clamp(thingsize, 0.3f, 1.0f);
+                        // Normalize 0.3->1.0 range to 0.0->1.0 scale
+                        float sizeBonus = (sizeFactor - 0.3f) / 0.7f; // 0.3->0, 0.65->0.5, 1.0->1.0
                         float hatchon = ((10 * thingdist) - (thingsize * 5) - (sizeBonus * 10));
                         lasthatchon = hatchon;
                         Rand.PushState();
