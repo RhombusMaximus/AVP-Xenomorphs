@@ -38,7 +38,7 @@
     </weaponTags>
     <thingCategories>
       <li>WeaponsRanged</li>
-	  <li>RRY_USCM_Weapons</li>
+	  <li>RRY_Weapons</li>
     </thingCategories>
     <comps>
       <li>
@@ -89,7 +89,7 @@
     </weaponTags>
 	<thingCategories>
 		<li>WeaponsRanged</li>
-		<li>RRY_USCM_RangedWeapons</li>
+		<li>RRY_RangedWeapons</li>
 	</thingCategories>
 	</ThingDef>
 	

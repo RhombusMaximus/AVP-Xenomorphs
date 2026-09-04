@@ -86,7 +86,7 @@
 		</equippedStatOffsets>
 		<tradeTags>
 			<li>RRY_RangedWeapons</li>
-			<li>RRY_USCM_RangedWeapons</li>
+			<li>RRY_RangedWeapons</li>
 		</tradeTags>
 		<costList>				
 			<Steel>30</Steel>
