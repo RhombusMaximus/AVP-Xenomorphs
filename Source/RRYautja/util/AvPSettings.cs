@@ -105,6 +105,21 @@ namespace RRYautja.settings
                     }
                 }
             }
+
+            // Set canOverlapZones=false on hive/tunnel buildings to prevent lag when placing zones over hive area
+            var zoneField = typeof(ThingDef).GetField("canOverlapZones", System.Reflection.BindingFlags.NonPublic | System.Reflection.BindingFlags.Instance);
+            if (zoneField != null)
+            {
+                foreach (var def in DefDatabase<ThingDef>.AllDefs)
+                {
+                    if (def.defName != null && (def.defName == "TunnelHiveLikeSpawner" || def.defName == "TunnelHiveLikeChildSpawner"
+                        || def.defName == "RRY_Xenomorph_Hive" || def.defName == "RRY_Xenomorph_Hive_Child"
+                        || def.defName == "RRY_Xenomorph_Hive_Wall" || def.defName == "RRY_Tunneler"))
+                    {
+                        try { zoneField.SetValue(def, false); } catch { }
+                    }
+                }
+            }
         }
 
         public override string SettingsCategory() => "Aliens Vs Predator";
