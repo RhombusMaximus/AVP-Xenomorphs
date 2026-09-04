@@ -222,7 +222,7 @@ namespace RimWorld
             {
                 return false;
             }
-            if (prey.BodySize < 0.3f)
+            if (prey.BodySize < 0.3f && !prey.RaceProps.Humanlike)
             {
                 return false;
             }

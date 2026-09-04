@@ -246,11 +246,15 @@ namespace RRYautja.ExtensionMethods
             }
             if (!setDefaults && settings.SettingsHelper.latest.RaceKeyPairs != null)
             {
-                if (settings.SettingsHelper.latest.RaceKeyPairs.ContainsKey(thingDef.defName))
+                if (settings.SettingsHelper.latest.RaceKeyPairs.TryGetValue(thingDef.defName, out bool allowed))
                 {
-                    FailReason = string.Format("Not Allowed");
-                    return settings.SettingsHelper.latest.RaceKeyPairs.GetValueOrDefault(thingDef.defName);
+                    if (!allowed)
+                    {
+                        FailReason = string.Format("Not Allowed (disabled in settings)");
+                        return false;
+                    }
                 }
+                // If race not in RaceKeyPairs, continue to normal validation
             }
             string NonBio = "Inorganic";
             if (thingDef.isXenomorph() || thingDef.isNeomorph())

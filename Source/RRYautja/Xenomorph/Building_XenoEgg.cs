@@ -338,8 +338,8 @@ namespace RRYautja
                         }
 
                         // Hatch formula: distance makes it harder, bodySize makes it easier
-                        // bodySize scales from 0.3 (minimum, harder to trigger) to 1.0+ (full trigger chance)
-                        float sizeFactor = Mathf.Clamp(thingsize, 0.3f, 1.0f);
+                        // Humanlike pawns always get full bonus regardless of bodySize
+                        float sizeFactor = pawn.RaceProps.Humanlike ? 1.0f : Mathf.Clamp(thingsize, 0.3f, 1.0f);
                         // Normalize 0.3->1.0 range to 0.0->1.0 scale
                         float sizeBonus = (sizeFactor - 0.3f) / 0.7f; // 0.3->0, 0.65->0.5, 1.0->1.0
                         float hatchon = ((10 * thingdist) - (thingsize * 5) - (sizeBonus * 10));
