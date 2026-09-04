@@ -839,8 +839,15 @@ namespace RimWorld
             base.Destroy(mode);
         }
 
+        private int lastInspectTick = -1;
+        private string cachedInspectString = null;
+
         public override string GetInspectString()
         {
+            // Cache for 250 ticks to prevent lag when hovering during zone placement
+            if (Find.TickManager.TicksGame == lastInspectTick && cachedInspectString != null)
+                return cachedInspectString;
+
             string text = base.GetInspectString();
             if (this.Map == null) return text;
 
@@ -881,6 +888,8 @@ namespace RimWorld
                     text += "\n  " + kv.Key + ": " + kv.Value;
             }
 
+            lastInspectTick = Find.TickManager.TicksGame;
+            cachedInspectString = text;
             return text;
         }
 
