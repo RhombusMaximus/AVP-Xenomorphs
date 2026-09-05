@@ -10,7 +10,7 @@
     </statBases>
     <graphicData>
       <texPath>Things/Filth/XenomorphBlood</texPath>
-      <graphicClass>Graphic_RandomRotated</graphicClass>
+      <graphicClass>Graphic_Single</graphicClass>
       <color>(250, 225, 0, 180)</color>
     </graphicData>
     <tickerType>Normal</tickerType>
@@ -31,7 +31,7 @@
     </statBases>
     <graphicData>
       <texPath>Things/Filth/XenomorphBlood</texPath>
-      <graphicClass>Graphic_RandomRotated</graphicClass>
+      <graphicClass>Graphic_Single</graphicClass>
       <color>(250, 225, 0, 180)</color>
     </graphicData>
     <filth>
@@ -52,7 +52,7 @@
     </statBases>
     <graphicData>
       <texPath>Things/Filth/XenomorphBlood</texPath>
-      <graphicClass>Graphic_RandomRotated</graphicClass>
+      <graphicClass>Graphic_Single</graphicClass>
       <color>(250, 225, 0, 180)</color>
     </graphicData>
     <filth>
