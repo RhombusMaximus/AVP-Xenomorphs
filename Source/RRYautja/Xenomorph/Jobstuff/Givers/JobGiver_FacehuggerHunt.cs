@@ -17,7 +17,7 @@ namespace RimWorld
             jobGiver_XenosKidnap.HuntingRange = this.HuntingRange;
             return jobGiver_XenosKidnap;
         }
-        private float HuntingRange = 10f;
+        private float HuntingRange = 20f;
 
         // Token: 0x060005B7 RID: 1463 RVA: 0x00037A28 File Offset: 0x00035E28
         protected override Job TryGiveJob(Pawn pawn)
