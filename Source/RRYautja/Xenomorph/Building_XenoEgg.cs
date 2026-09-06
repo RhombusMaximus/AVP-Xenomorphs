@@ -215,6 +215,8 @@ namespace RRYautja
         protected override void Tick()
         {
             base.Tick();
+            // Stop all egg logic when uninstalled/minified
+            if (!this.Spawned || this.Map == null) return;
             if (Find.TickManager.TicksGame % 60 == 0)
             {
                 if (this.Faction==null)
@@ -282,6 +284,8 @@ namespace RRYautja
         public override void TickRare()
         {
             base.TickRare();
+            // Stop all egg logic when uninstalled/minified
+            if (!this.Spawned || this.Map == null) return;
             if (settings.SettingsHelper.latest.AllowXenoEggMetamorph && this.NormalEgg)
             {
                 List<Thing> HEggs = new List<Thing>();
