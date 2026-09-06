@@ -51,14 +51,18 @@ namespace RRYautja
         /// when the cell contains a hive/tunnel building, so the cell is not
         /// designatable for a zone.
         /// </summary>
-        public static bool CanDesignateCellPrefix(IntVec3 loc, ref AcceptanceReport __result)
+        public static bool CanDesignateCellPrefix(ref AcceptanceReport __result, object[] __args)
         {
             try
             {
+                // __args[0] is the IntVec3 parameter (first arg of CanDesignateCell)
+                if (__args == null || __args.Length == 0) return true;
+                IntVec3 c = (IntVec3)__args[0];
+
                 Map map = Find.CurrentMap;
                 if (map == null) return true; // no map — let original handle it
 
-                Building building = loc.GetFirstBuilding(map);
+                Building building = c.GetFirstBuilding(map);
                 if (building == null || building.def == null) return true;
 
                 string defName = building.def.defName;
