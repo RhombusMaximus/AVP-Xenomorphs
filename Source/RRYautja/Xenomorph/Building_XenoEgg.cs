@@ -290,7 +290,7 @@ namespace RRYautja
                 bool heggs = EggsPresent(EggType.Hyperfertile, out HEggs);
                 bool peggs = EggsPresent(EggType.Praetorian, out PEggs);
                 flagHyper = XenomorphUtil.TotalSpawnedXenomorphPawnCount(MyMap) < 10 && (!heggs || HEggs.Count < 3);
-                flagPrae = false && (!peggs || PEggs.Count < 3);
+                flagPrae = QueenPresent && (!peggs || PEggs.Count < 3);
                 flagMutate = flagRoyal || flagHyper || flagPrae;
                 if (flagMutate && this.gestateProgress > 0.25f && this.Gestating(out string fr))
                 {

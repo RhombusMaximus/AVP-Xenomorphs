@@ -200,20 +200,20 @@ namespace RRYautja
                 {
                     AvPDebug.Log("Spawn", $"Praetorian spawn triggered for {Pawn.LabelShort} (count={praetorianCount}, Queen present)");
                     PawnKindDef praetorianKind = XenomorphDefOf.RRY_Xenomorph_Praetorian;
-                    Gender gender = Gender.None;
-                    Faction xenoFaction = Find.FactionManager?.FirstFactionOfDef(praetorianKind.defaultFactionDef);
-                    PawnGenerationRequest request = new PawnGenerationRequest(praetorianKind, xenoFaction,
-                        PawnGenerationContext.NonPlayer, -1, true, true, false, false, true, 20f, false, fixedGender: gender);
-                    Pawn pawn = PawnGenerator.GeneratePawn(request);
+                    Gender praeGender = Gender.None;
+                    Faction praeXenoFaction = Find.FactionManager?.FirstFactionOfDef(praetorianKind.defaultFactionDef);
+                    PawnGenerationRequest praeRequest = new PawnGenerationRequest(praetorianKind, praeXenoFaction,
+                        PawnGenerationContext.NonPlayer, -1, true, true, false, false, true, 20f, false, fixedGender: praeGender);
+                    Pawn praePawn = PawnGenerator.GeneratePawn(praeRequest);
 
-                    Comp_Xenomorph _Xenomorph = pawn.TryGetComp<Comp_Xenomorph>();
-                    if (_Xenomorph != null)
+                    Comp_Xenomorph praeXeno = praePawn.TryGetComp<Comp_Xenomorph>();
+                    if (praeXeno != null)
                     {
-                        _Xenomorph.host = Pawn.kindDef;
-                        _Xenomorph.HostDef = Pawn.def;
+                        praeXeno.host = Pawn.kindDef;
+                        praeXeno.HostDef = Pawn.def;
                     }
 
-                    return pawn;
+                    return praePawn;
                 }
             }
 
