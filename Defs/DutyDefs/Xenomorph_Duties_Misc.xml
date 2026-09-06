@@ -167,12 +167,36 @@
       <subNodes>
 	  
 		<li Class="ThinkNode_ConditionalXenomorphCannotReachHive">
-		  <subNodes>
-			<li Class="JobGiver_XenomorphForceGoToHive">
-				<forceCanDig>true</forceCanDig>
-			</li>
-		  </subNodes>
+		<subNodes>
+		<li Class="JobGiver_XenomorphForceGoToHive">
+		<forceCanDig>true</forceCanDig>
+		</li>
+		</subNodes>
 		</li>	
+		
+		<!-- Praetorian: guard the Queen and defend the hive.
+		No mining, no kidnap, no building, no egg laying.
+		The trailing wander ensures a job is always produced so the
+		Praetorian never falls through to the worker/drone nodes below. -->
+		<li Class="ThinkNode_ConditionalPawnKind">
+		<pawnKind>RRY_Xenomorph_Praetorian</pawnKind>
+		<subNodes>
+		<!-- Fight enemies threatening the hive (wide radius, do not chase far) -->
+		<li Class="JobGiver_HiveLikeDefense">
+		<needLOSToAcquireNonPawnTargets>true</needLOSToAcquireNonPawnTargets>
+		<targetAcquireRadius>45</targetAcquireRadius>
+		<chaseTarget>false</chaseTarget>
+		</li>
+		<!-- Eat only when starving, so guards don't abandon post to forage -->
+		<li Class="JobGiver_Xenomorph_GetFood">
+		<minCategory>UrgentlyHungry</minCategory>
+		</li>
+		<!-- Hold position near the hive/Queen when no threat is present -->
+		<li Class="JobGiver_WanderHiveLike">
+		<maxDanger>Deadly</maxDanger>
+		</li>
+		</subNodes>
+		</li>
 		
 		<li Class="JobGiver_MineOutHive"> 
 		</li>
