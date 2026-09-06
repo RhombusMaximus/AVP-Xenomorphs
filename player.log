@@ -11,7 +11,7 @@ Direct3D:
     VRAM:     8042 MB
     Driver:   32.0.16.1088
 Begin MonoManager ReloadAssembly
-- Loaded All Assemblies, in  3.209 seconds
+- Loaded All Assemblies, in  2.971 seconds
 - Finished resetting the current domain, in  0.001 seconds
 <RI> Initializing input.
 
@@ -20,22 +20,22 @@ Begin MonoManager ReloadAssembly
 <RI> Initialized touch support.
 
 [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
-UnloadTime: 0.713800 ms
+UnloadTime: 0.720600 ms
 Command line arguments: -disable-compute-shaders
 RimWorld 1.6.4871 rev591
-Fallback handler could not load library D:/SteamLibrary/steamapps/common/RimWorld/RimWorldWin64_Data/MonoBleedingEdge/data-00000288FB29DB20.dll
-Fallback handler could not load library D:/SteamLibrary/steamapps/common/RimWorld/RimWorldWin64_Data/MonoBleedingEdge/data-00000288FD46D130.dll
+Fallback handler could not load library D:/SteamLibrary/steamapps/common/RimWorld/RimWorldWin64_Data/MonoBleedingEdge/data-0000013B68EFB040.dll
+Fallback handler could not load library D:/SteamLibrary/steamapps/common/RimWorld/RimWorldWin64_Data/MonoBleedingEdge/data-0000013B691518A0.dll
 [Loading Progress] Loading Progress v0.14.0 initialized! Enjoy the rest of your loading experience!
 [HugsLib] version 12.0.0
 [HugsLib] early-initializing AllowTool
 Better Autocasting - Running Version 8.1.0.0 Release compiled for RimWorld version v1.6
 Better Autocasting - UnregisterPatch succeeded
-Fallback handler could not load library D:/SteamLibrary/steamapps/common/RimWorld/RimWorldWin64_Data/MonoBleedingEdge/data-000002876459EE40.dll
+Fallback handler could not load library D:/SteamLibrary/steamapps/common/RimWorld/RimWorldWin64_Data/MonoBleedingEdge/data-0000013B6E479F30.dll
 DubsMintMenus v1.3.1086
 FactionCustomizer is successfully initialized!
 [1.6]Graphics Setter - Loaded
 [ImageOpt] Successfully loaded Rust library into process memory. ver: 0.1.13
-Fallback handler could not load library D:/SteamLibrary/steamapps/common/RimWorld/RimWorldWin64_Data/MonoBleedingEdge/data-0000028764DD30C0.dll
+Fallback handler could not load library D:/SteamLibrary/steamapps/common/RimWorld/RimWorldWin64_Data/MonoBleedingEdge/data-0000013B708D0010.dll
 <color=#66ffb5>[MeleeAnim]</color> Hello, world!
 Build date: 7/31/2026 6:45 PM
 Loaded assemblies (10):
@@ -49,7 +49,7 @@ Unity.Newtonsoft.Json, Version=7.0.0.0, Culture=neutral, PublicKeyToken=null,
 zAnimationMod, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null,
 AM.FacialAnimationPatch, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null,
 AM.VehiclesPatch, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null
-<color=#66ffb5>[MeleeAnim]</color> Scanning 266 mods for animation data...
+<color=#66ffb5>[MeleeAnim]</color> Scanning 267 mods for animation data...
 <color=#66ffb5>[MeleeAnim]</color> Found 1 mod folders with animation data, total 69 loadable files.
 <color=#66ffb5>[MeleeAnim]</color> [<color=#63e0ff>Facial Animation Patch</color>] Successfully loaded Facial Animation patch.
 <color=#66ffb5>[MeleeAnim]</color> <color=#ffa8fc>[Vehicle Framework Patch]</color> Loaded vehicle framework patch!
@@ -84,7 +84,7 @@ KCSG has Created 7579 symbolDefs for vanilla and DLCs
 [CMColorCodedMoodBar] CMColorCodedMoodBar 1.6.4871.1 initialized
 [CleaningAreaRelaunched] Loaded
 [XML Extensions] Initialized 6 SettingsMenuDef(s) and found 0 unused key(s) from 0 mod(s)
-[XML Extensions] 6764 total patch operations run in 14798ms, 0 failed
+[XML Extensions] 6780 total patch operations run in 14448ms, 0 failed
 [XML Extensions] Emitted 6 mod class(es)
 Damage Indicators initialized.
 [DifferentEggSizes]: Updated 178 egg-definitions
@@ -130,11 +130,11 @@ NamesGalore: Current Lang English
 PickUpAndHaul v1.1.2¼ welcomes you to RimWorld with pointless logspam.
 [GeneExpandedHair] harmony patch succeeded.
 Unloading 5 Unused Serialized files (Serialized files now loaded: 14)
-Unloading 1850 unused Assets to reduce memory usage. Loaded Objects now: 67290.
-Total: 962.639300 ms (FindLiveObjects: 20.480900 ms CreateObjectMapping: 4.863100 ms MarkObjects: 933.804300 ms  DeleteObjects: 3.490500 ms)
+Unloading 1850 unused Assets to reduce memory usage. Loaded Objects now: 67393.
+Total: 908.325900 ms (FindLiveObjects: 15.065100 ms CreateObjectMapping: 3.481200 ms MarkObjects: 886.044200 ms  DeleteObjects: 3.734900 ms)
 
 MVCF successfully applied 58 patches
-[TMM] Auto capitalization fix: scanned=15066, changed=1261, time=32ms
+[TMM] Auto capitalization fix: scanned=15066, changed=1261, time=33ms
 CharacterEditor v1.6.3 initializing...
 updating labels for english...
 loading pawn slot content from file...
@@ -365,15 +365,15 @@ Transpilers:
 Postfixes:
   [PeteTimesSix.SimpleSidearms] TryCastShot
 Unloading 2 Unused Serialized files (Serialized files now loaded: 16)
-<color=#66ffb5>[MeleeAnim]</color> PreCached all retexture info in 378.4ms
+<color=#66ffb5>[MeleeAnim]</color> PreCached all retexture info in 407.1ms
 <color=#66ffb5>[MeleeAnim]</color> Loaded tweak data for 77 weapons.
 <color=#66ffb5>[MeleeAnim]</color> ogliss.avpxenomorphs 'AVP Xenomorphs' has 1 missing weapon tweak data.
 <color=#66ffb5>[MeleeAnim]</color> Skipping reporting of missing mod/weapons because user opted out or the feature is disabled by the developer.
-<color=#66ffb5>[MeleeAnim]</color> Patched 3 classes that directly inherit from Verb_MeleeAttack in 95.8 ms to detect hits:
+<color=#66ffb5>[MeleeAnim]</color> Patched 3 classes that directly inherit from Verb_MeleeAttack in 96.9 ms to detect hits:
 RimWorld.Verb_MeleeApplyHediff from Assembly-CSharp
 RimWorld.Verb_MeleeAttackDamage from Assembly-CSharp
 RRYautja.Verb_MeleeAttackKnockback from RRYautja
-<color=#66ffb5>[MeleeAnim]</color> Found 19 items of clothing that cover hands, took 1.29 ms:
+<color=#66ffb5>[MeleeAnim]</color> Found 19 items of clothing that cover hands, took 1.42 ms:
 VAE_Handwear_PlateGloves (Plate gloves),
 VAE_Handwear_MarineGloves (Marine gloves),
 VAE_Apparel_Shield_Riot (Riot shield),
@@ -393,24 +393,24 @@ VFEP_WarcasketShoulders_Brute (Brute warcasket shoulders),
 VAE_Handwear_Gloves (Gloves),
 Apparel_BlackSilence_Gloves (Black gloves),
 Apparel_BlackSilence_Suit (Black suits)
-Unloading 165 unused Assets to reduce memory usage. Loaded Objects now: 67467.
-Total: 756.641700 ms (FindLiveObjects: 3.371700 ms CreateObjectMapping: 4.366700 ms MarkObjects: 748.616400 ms  DeleteObjects: 0.286400 ms)
+Unloading 165 unused Assets to reduce memory usage. Loaded Objects now: 67570.
+Total: 768.098300 ms (FindLiveObjects: 3.327100 ms CreateObjectMapping: 4.821600 ms MarkObjects: 759.656900 ms  DeleteObjects: 0.292600 ms)
 
 Unloading 1 Unused Serialized files (Serialized files now loaded: 16)
-Unloading 0 unused Assets to reduce memory usage. Loaded Objects now: 67467.
-Total: 765.506100 ms (FindLiveObjects: 3.438800 ms CreateObjectMapping: 4.322500 ms MarkObjects: 757.624900 ms  DeleteObjects: 0.119400 ms)
+Unloading 0 unused Assets to reduce memory usage. Loaded Objects now: 67570.
+Total: 743.310700 ms (FindLiveObjects: 3.340300 ms CreateObjectMapping: 4.336500 ms MarkObjects: 735.517900 ms  DeleteObjects: 0.115700 ms)
 
 Unloading 0 Unused Serialized files (Serialized files now loaded: 16)
-  --> [What's That Mod] Took 2.49 seconds to scan all patches. <--
+  --> [What's That Mod] Took 2.56 seconds to scan all patches. <--
 What's That Mod: Wrote to 10904 mod descriptions, 81 patched defs resolved.
-What's That Mod took 2516 milliseconds to generate all def descriptions.
-Unloading 0 unused Assets to reduce memory usage. Loaded Objects now: 67467.
-Total: 759.887200 ms (FindLiveObjects: 3.344500 ms CreateObjectMapping: 2.891900 ms MarkObjects: 753.532800 ms  DeleteObjects: 0.117700 ms)
+What's That Mod took 2587 milliseconds to generate all def descriptions.
+Unloading 0 unused Assets to reduce memory usage. Loaded Objects now: 67570.
+Total: 754.298700 ms (FindLiveObjects: 3.336400 ms CreateObjectMapping: 2.683900 ms MarkObjects: 748.166500 ms  DeleteObjects: 0.111700 ms)
 
 Unloading 0 Unused Serialized files (Serialized files now loaded: 16)
 [HugsLib] initializing TerraformRimworld
-Unloading 0 unused Assets to reduce memory usage. Loaded Objects now: 67467.
-Total: 775.918300 ms (FindLiveObjects: 4.092200 ms CreateObjectMapping: 3.763400 ms MarkObjects: 767.950300 ms  DeleteObjects: 0.111900 ms)
+Unloading 0 unused Assets to reduce memory usage. Loaded Objects now: 67570.
+Total: 761.436700 ms (FindLiveObjects: 4.147400 ms CreateObjectMapping: 4.387700 ms MarkObjects: 752.789200 ms  DeleteObjects: 0.112000 ms)
 
 CE is trying to create default parameter lists ...
 creating default parameter list for genes...
@@ -425,104 +425,13 @@ no modifications for genes
 no modifications for objects
 no modifications for lifestages
 ...done
-[SpawnThoseGenes] No possible endogenes found in config for: XR_Gnoll
-[SpawnThoseGenes] No possible endogenes found in config for: VRE_Ekkimian
-[SpawnThoseGenes] No possible endogenes found in config for: VRE_Bruxa
-Unloading 2 Unused Serialized files (Serialized files now loaded: 16)
-Unloading 1 unused Assets to reduce memory usage. Loaded Objects now: 69466.
-Total: 856.256700 ms (FindLiveObjects: 3.599700 ms CreateObjectMapping: 3.166100 ms MarkObjects: 849.357700 ms  DeleteObjects: 0.132900 ms)
-
-Could not load reference to RimWorld.PreceptDef named AM_FuneralNoCorpse
-Could not load reference to RimWorld.RitualPatternDef named AM_FuneralNoCorpsePattern
-Could not find class AlphaMemes.RitualObligationTrigger_NoCorpse while resolving node li. Trying to use RimWorld.RitualObligationTrigger instead. Full node: <li Class="AlphaMemes.RitualObligationTrigger_NoCorpse"><mustBePlayerIdeo>True</mustBePlayerIdeo></li>
-SaveableFromNode exception: System.ArgumentException: Can't load abstract class RimWorld.RitualObligationTrigger
-[Ref 8FA4C5EC]
-  at Verse.ScribeExtractor.SaveableFromNode[T] (System.Xml.XmlNode subNode, System.Object[] ctorArgs) [0x00143] in <61e4173561894da49d210260257b5097>:0 
-Subnode:
-<li Class="AlphaMemes.RitualObligationTrigger_NoCorpse"><mustBePlayerIdeo>True</mustBePlayerIdeo></li>
-Could not load reference to RimWorld.PreceptDef named AM_SparringMatch
-Could not load reference to RimWorld.RitualPatternDef named AM_SparringMatchPattern
-Could not load reference to RimWorld.RitualBehaviorDef named AM_SparringMatchBehavior
-Could not find class AlphaMemes.RitualOutcomeEffectWorker_SparringMatch while resolving node outcomeEffect. Trying to use RimWorld.RitualOutcomeEffectWorker instead. Full node: <outcomeEffect Class="AlphaMemes.RitualOutcomeEffectWorker_SparringMatch"><def>AM_SparringMatchOutcome</def><compDatas><li Class="RitualOutcomeComp_DataThingPresence"><presentForTicks><keys /><values /></presentForTicks></li><li IsNull="True" /><li Class="RitualOutcomeComp_DataRoomStatCached" /><li IsNull="True" /></compDatas></outcomeEffect>
-SaveableFromNode exception: System.ArgumentException: Can't load abstract class RimWorld.RitualOutcomeEffectWorker
-[Ref 8FA4C5EC] Duplicate stacktrace, see ref for original
-Subnode:
-<outcomeEffect Class="AlphaMemes.RitualOutcomeEffectWorker_SparringMatch"><def>AM_SparringMatchOutcome</def><compDatas><li Class="RitualOutcomeComp_DataThingPresence"><presentForTicks><keys /><values /></presentForTicks></li><li IsNull="True" /><li Class="RitualOutcomeComp_DataRoomStatCached" /><li IsNull="True" /></compDatas></outcomeEffect>
-Could not load reference to RimWorld.PreceptDef named AM_NutrientPasteEating_Indifferent
-Could not load reference to RimWorld.AbilityDef named AM_ChangeStyle
-Could not load reference to Verse.ThingStyleDef named AM_Rustic_Gladius
-Could not load reference to Verse.ThingStyleDef named AM_Rustic_Sword
-Could not load reference to Verse.ThingStyleDef named AM_Rustic_AntiMaterialRifle
-Could not load reference to Verse.ThingStyleDef named AM_Rustic_AssaultRifle
-Could not load reference to Verse.ThingStyleDef named AM_Rustic_Autopistol
-Could not load reference to Verse.ThingStyleDef named AM_Rustic_Axe
-Could not load reference to Verse.ThingStyleDef named AM_Rustic_BattleRifle
-Could not load reference to Verse.ThingStyleDef named AM_Rustic_BoltActionRifle
-Could not load reference to Verse.ThingStyleDef named AM_Rustic_Pickaxe
-Could not load reference to Verse.ThingStyleDef named AM_Rustic_CarbineVWE
-Could not load reference to Verse.ThingStyleDef named AM_Rustic_ChainShotgun
-Could not load reference to Verse.ThingStyleDef named AM_Rustic_ChargeLMG
-Could not load reference to Verse.ThingStyleDef named AM_Rustic_ChargeLance
-Could not load reference to Verse.ThingStyleDef named AM_Rustic_ChargePistol
-Could not load reference to Verse.ThingStyleDef named AM_Rustic_ChargeRifle
-Could not load reference to Verse.ThingStyleDef named AM_Rustic_ChargeShotgun
-Could not load reference to Verse.ThingStyleDef named AM_Rustic_ChargeSMG
-Could not load reference to Verse.ThingStyleDef named AM_Rustic_ChargeSniperRifle
-Could not load reference to Verse.ThingStyleDef named AM_Rustic_Club
-Could not load reference to Verse.ThingStyleDef named AM_Rustic_CombatHandgun
-Could not load reference to Verse.ThingStyleDef named AM_Rustic_CompoundBow
-Could not load reference to Verse.ThingStyleDef named AM_Rustic_Crossbow
-Could not load reference to Verse.ThingStyleDef named AM_Morbid_EMPLauncher
-Could not load reference to Verse.ThingStyleDef named AM_Morbid_Flamebow
-Could not load reference to Verse.ThingStyleDef named AM_Rustic_Flamethrower
-Could not load reference to Verse.ThingStyleDef named AM_Rustic_GreatBow
-Could not load reference to Verse.ThingStyleDef named AM_Rustic_ChargeMinigun
-Could not load reference to Verse.ThingStyleDef named AM_Rustic_HandCannon
-Could not load reference to Verse.ThingStyleDef named AM_Rustic_HeavySMG
-Could not load reference to Verse.ThingStyleDef named AM_Rustic_HMG
-Could not load reference to Verse.ThingStyleDef named AM_Rustic_Ikwa
-Could not load reference to Verse.ThingStyleDef named AM_Morbid_FlameLauncher
-Could not load reference to Verse.ThingStyleDef named AM_Rustic_Knife
-Could not load reference to Verse.ThingStyleDef named AM_Rustic_LeverActionRifle
-Could not load reference to Verse.ThingStyleDef named AM_Rustic_LightSMG
-Could not load reference to Verse.ThingStyleDef named AM_Rustic_LMG
-Could not load reference to Verse.ThingStyleDef named AM_Rustic_LongBow
-Could not load reference to Verse.ThingStyleDef named AM_Rustic_Mace
-Could not load reference to Verse.ThingStyleDef named AM_Rustic_MachinePistol
-Could not load reference to Verse.ThingStyleDef named AM_Rustic_MarksmanRifle
-Could not load reference to Verse.ThingStyleDef named AM_Rustic_Minigun
-Could not load reference to Verse.ThingStyleDef named AM_Rustic_PumpShotgun
-Could not load reference to Verse.ThingStyleDef named AM_Rustic_RecurveBow
-Could not load reference to Verse.ThingStyleDef named AM_Rustic_Revolver
-Could not load reference to Verse.ThingStyleDef named AM_Rustic_SawedOffShotgun
-Could not load reference to Verse.ThingStyleDef named AM_Rustic_SemiAutomaticRifle
-Could not load reference to Verse.ThingStyleDef named AM_Rustic_ServiceRifle
-Could not load reference to Verse.ThingStyleDef named AM_Rustic_Bow
-Could not load reference to Verse.ThingStyleDef named AM_Rustic_SMG
-Could not load reference to Verse.ThingStyleDef named AM_Morbid_SmokeLauncher
-Could not load reference to Verse.ThingStyleDef named AM_Rustic_SniperRifle
-Could not load reference to Verse.ThingStyleDef named AM_Rustic_Spear
-Could not load reference to Verse.ThingStyleDef named AM_Morbid_ToxLauncher
-Could not load reference to Verse.ThingStyleDef named AM_Rustic_Hammer
-Some ideoligion precepts were null after loading.
-Some obligationTriggers were null.
-Could not do PostLoadInit on RimWorld.Precept_Ritual: System.NullReferenceException: Object reference not set to an instance of an object
-[Ref 1A85D8D]
-  at RimWorld.Precept_Ritual.ExposeData () [0x003a3] in <61e4173561894da49d210260257b5097>:0 
-  at Verse.PostLoadIniter.DoAllPostLoadInits () [0x00032] in <61e4173561894da49d210260257b5097>:0 
-Could not do PostLoadInit on RimWorld.Precept_Ritual: System.NullReferenceException: Object reference not set to an instance of an object
-[Ref 1A85D8D] Duplicate stacktrace, see ref for original
-Could not do PostLoadInit on RimWorld.IdeoRoleInstance: System.NullReferenceException: Object reference not set to an instance of an object
-[Ref 58865CDD]
-  at RimWorld.Ability.get_verb () [0x00000] in <61e4173561894da49d210260257b5097>:0 
-  at RimWorld.IdeoRoleInstance.ExposeData () [0x0004c] in <61e4173561894da49d210260257b5097>:0 
-  at Verse.PostLoadIniter.DoAllPostLoadInits () [0x00032] in <61e4173561894da49d210260257b5097>:0 
 Unloading 3 Unused Serialized files (Serialized files now loaded: 16)
-UnloadTime: 4.912600 ms
-Unloading 3 unused Assets to reduce memory usage. Loaded Objects now: 70842.
-Total: 879.023100 ms (FindLiveObjects: 3.567200 ms CreateObjectMapping: 3.165600 ms MarkObjects: 872.117800 ms  DeleteObjects: 0.171900 ms)
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+UnloadTime: 12.826300 ms
+Unloading 3 unused Assets to reduce memory usage. Loaded Objects now: 67957.
+Total: 845.285500 ms (FindLiveObjects: 3.357300 ms CreateObjectMapping: 2.951300 ms MarkObjects: 838.846700 ms  DeleteObjects: 0.129600 ms)
 
-Initializing new game with mods:
+Loading game from file USCSS Colony78 with mods:
   - brrainz.harmony
   - ilyvion.LoadingProgress
   - Ludeon.RimWorld
@@ -620,6 +529,7 @@ Initializing new game with mods:
   - Mlie.LogAfterDefError
   - zal.majesticfoilageframework
   - zal.majesticcomigopack
+  - zal.majesticcmt
   - plaxen.MalangBodies
   - m00nl1ght.MapPreview
   - Samael.NPCMechsAndAnimals
@@ -789,79 +699,96 @@ Initializing new game with mods:
   - SR.ModRimworld.RaidExtension
   - XeoNovaDan.VisiblePants
   - sbz.GravshipStorage
-[SpawnThoseGenes] No possible endogenes found in config for: VRE_Boarskin
-[AVP Xenomorphs] Created Xenomorph faction during pawn generation (was missing).
+Could not resolve reference to object with loadID Thing_Human56204 of type Verse.Pawn. Was it compressed away, destroyed, had no ID number, or not saved/loaded right? curParent=RimWorld.RelationshipRecord curPathRelToParent=/references
+Could not resolve reference to object with loadID Thing_Human56303 of type Verse.Pawn. Was it compressed away, destroyed, had no ID number, or not saved/loaded right? curParent=RimWorld.RelationshipRecord curPathRelToParent=/references
+Could not resolve reference to object with loadID Thing_Human56303 of type Verse.Pawn. Was it compressed away, destroyed, had no ID number, or not saved/loaded right? curParent=RimWorld.RelationshipRecord curPathRelToParent=/references
+Could not resolve reference to object with loadID Lord_6 of type Verse.AI.Group.Lord. Was it compressed away, destroyed, had no ID number, or not saved/loaded right? curParent=VEF.Storyteller.RaidGroup curPathRelToParent=/lords
+Could not resolve reference to object with loadID Faction_27 of type RimWorld.Faction. Was it compressed away, destroyed, had no ID number, or not saved/loaded right? curParent=VEF.Storyteller.RaidGroup curPathRelToParent=
+Could not resolve reference to object with loadID Thing_Human56254 of type Verse.Pawn. Was it compressed away, destroyed, had no ID number, or not saved/loaded right? curParent=VanillaTraitsExpanded.TraitsManager curPathRelToParent=/madSurgeonsWithLastHarvestedTick/keys
+Null key while loading dictionary of Verse.Pawn and System.Int32. label=madSurgeonsWithLastHarvestedTick
+Could not resolve reference to object with loadID Thing_Human469 of type Verse.Pawn. Was it compressed away, destroyed, had no ID number, or not saved/loaded right? curParent=VanillaTraitsExpanded.TraitsManager curPathRelToParent=/wanderLustersWithLastMapExitedTick/keys
+Null key while loading dictionary of Verse.Pawn and System.Int32. label=wanderLustersWithLastMapExitedTick
+Could not resolve reference to object with loadID Thing_Human56239 of type Verse.Pawn. Was it compressed away, destroyed, had no ID number, or not saved/loaded right? curParent=RimWorld.DirectPawnRelation curPathRelToParent=
+Could not resolve reference to object with loadID Thing_Human56259 of type Verse.Pawn. Was it compressed away, destroyed, had no ID number, or not saved/loaded right? curParent=RimWorld.DirectPawnRelation curPathRelToParent=
+Could not resolve reference to object with loadID Thing_Human56283 of type Verse.Pawn. Was it compressed away, destroyed, had no ID number, or not saved/loaded right? curParent=RimWorld.DirectPawnRelation curPathRelToParent=
+Could not resolve reference to object with loadID Thing_Human56204 of type Verse.Pawn. Was it compressed away, destroyed, had no ID number, or not saved/loaded right? curParent=RimWorld.DirectPawnRelation curPathRelToParent=
+Could not resolve reference to object with loadID Thing_Human56294 of type Verse.Pawn. Was it compressed away, destroyed, had no ID number, or not saved/loaded right? curParent=RimWorld.DirectPawnRelation curPathRelToParent=
+Could not resolve reference to object with loadID Thing_Human56198 of type Verse.Pawn. Was it compressed away, destroyed, had no ID number, or not saved/loaded right? curParent=RimWorld.DirectPawnRelation curPathRelToParent=
+Could not resolve reference to object with loadID Thing_Human56227 of type Verse.Pawn. Was it compressed away, destroyed, had no ID number, or not saved/loaded right? curParent=RimWorld.DirectPawnRelation curPathRelToParent=
+Could not resolve reference to object with loadID Thing_Human56248 of type Verse.Pawn. Was it compressed away, destroyed, had no ID number, or not saved/loaded right? curParent=RimWorld.DirectPawnRelation curPathRelToParent=
+Could not resolve reference to object with loadID Thing_Human56271 of type Verse.Pawn. Was it compressed away, destroyed, had no ID number, or not saved/loaded right? curParent=RimWorld.DirectPawnRelation curPathRelToParent=
+[RimMercenaries] Loaded save data: hasBeenInitialized=True, lastRefreshTick=0, mercenaries=17, tier1=10, tier2=5, tier3=2
+Pawn Tornike has relation "Parent" with null pawn after loading. This means that we forgot to serialize pawns somewhere (e.g. pawns from passing trade ships).
+Pawn Rousop has relation "Parent" with null pawn after loading. This means that we forgot to serialize pawns somewhere (e.g. pawns from passing trade ships).
+Pawn Phosgal has relation "ExLover" with null pawn after loading. This means that we forgot to serialize pawns somewhere (e.g. pawns from passing trade ships).
+Pawn Staurius has relation "ExSpouse" with null pawn after loading. This means that we forgot to serialize pawns somewhere (e.g. pawns from passing trade ships).
+Pawn Vlastos has relation "Parent" with null pawn after loading. This means that we forgot to serialize pawns somewhere (e.g. pawns from passing trade ships).
+Pawn Photias has relation "Parent" with null pawn after loading. This means that we forgot to serialize pawns somewhere (e.g. pawns from passing trade ships).
+Pawn Pegasios has relation "ExLover" with null pawn after loading. This means that we forgot to serialize pawns somewhere (e.g. pawns from passing trade ships).
+Pawn Kasberari has relation "Parent" with null pawn after loading. This means that we forgot to serialize pawns somewhere (e.g. pawns from passing trade ships).
+Pawn Ivo has relation "Parent" with null pawn after loading. This means that we forgot to serialize pawns somewhere (e.g. pawns from passing trade ships).
+Pawn Peacock69531 has relation "Parent" with null pawn after loading. This means that we forgot to serialize pawns somewhere (e.g. pawns from passing trade ships).
+<color=#66ffb5>[MeleeAnim]</color> Loaded 0 animation renderers on map Map-0-PlayerHome
 StandingLamp, SunLamp, WallLamp, FloodLight, TubeTelevision, FlatscreenTelevision, MegascreenTelevision, OrbitalTradeBeacon, CommsConsole, MoisturePump, GroundPenetratingScanner, LongRangeMineralScanner, MultiAnalyzer, VitalsMonitor, PowerConduit, HiddenConduit, WaterproofConduit, PowerSwitch, WoodFiredGenerator, ChemfuelPoweredGenerator, WindTurbine, Battery, SolarGenerator, GeothermalGenerator, WatermillGenerator, ElectricTailoringBench, ElectricSmithy, TableMachining, ElectricStove, ElectricSmelter, BiofuelRefinery, FabricationBench, HiTechResearchBench, ElectricCrematorium, HydroponicsBasin, DeepDrill, NutrientPasteDispenser, Turret_MiniTurret, Turret_Autocannon, Turret_Sniper, Turret_FoamTurret, Turret_RocketswarmLauncher, Ship_Beam, Ship_CryptosleepCasket, Ship_ComputerCore, Ship_Reactor, Ship_Engine, Ship_SensorCluster, PsychicEmanator, VanometricPowerCell, InfiniteChemreactor, Autodoor, Heater, Cooler, UnstablePowerCell, ShipLandingBeacon, SleepAccelerator, BiosculpterPod, NeuralSupercharger, LightBall, Loudspeaker, Autobong, DeathrestCasket, Hemopump, HemogenAmplifier, GlucosoidPump, PsychofluidPump, DeathrestAccelerator, BandNode, ToxifierGenerator, GeneAssembler, GeneBank, GeneExtractor, GrowthVat, PollutionPump, WastepackAtomizer, GeneProcessor, MechBooster, MechGestator, LargeMechGestator, SubcoreEncoder, SubcoreSoftscanner, SubcoreRipscanner, BasicRecharger, StandardRecharger, SecurityDoor, ElectricInhibitor, ProximityDetector, AtmosphericHeater, FrenzyInducer, SleepSuppressor, BioferriteGenerator, Electroharvester, BioferriteShaper, SerumCentrifuge, BioferriteHarvester, GravEngine, GravcorePowerCell, PilotSubpersonaCore, GravshipShieldGenerator, AncientGravReactor, AncientTerraformer, LifeSupportUnit, OrbitalScanner, OxygenPump, KCSG_PowerConduit, VVE_GarageBench, VVE_GarageAutoDoor, VVE_GarageAutoDoorOpened, VVE_GarageAutoDoorLarge, VVE_GarageAutoDoorLargeOpened, owl_refrigerator, owl_doublerefrigerator, BioReactor, BioReactorCircleLarge, BioReactorCircleEX, BioReactorBig, BioReactorEx, AA_BlueGelBattery, AA_HexaGelBattery, AA_HexagelCoreReactor, PH_AutodoorDouble, PH_AutodoorTriple, PH_DoorBlastSingle, PH_DoorBlastDoor, PH_DoorThickBlastDoor, PH_DoorButton, PH_DoorLever, PH_DoorRemoteSingle, PH_DoorRemoteDouble, PH_DoorRemoteTriple, VREA_AndroidStand, VREA_AndroidPartWorkbench, VREA_SubcorePolyanalyzer, VREA_AndroidCreationStation, VREA_AndroidBehavioristStation, VREA_NeutroCasket, GravshipBiofuelRefineryAddOn, MedPodLux, MedPodStandard, MedPodAnimal, MedPodAnimalMedium, MedPodAnimalBig, TableMending, GravshipHull, VacBarrier, WallSwitch, PFS_HoloGlassPanel, PFS_RoyalBed, PFS_TableMiniB, PFS_Table3x2a, PFS_CubeLight, PFS_TriLight, PFS_FloorlineLight, PFS_PokerTable, PFS_BilliardsTable, PFS_AutodoorB, PFS_AutodoorC, PFS_HoloGlassAutodoor, PFS_ColumnB, PFS_ColumnC, PFS_Heater, Building_RTMagneticShield, Cooler_Over, Cooler_Over2W, GDTable, YPTable, JITable, TETable, Turret_ShardSentry, Turret_WaveEmitter, PortableReactor, Turret_SuvTurret, Turret_SupTurret, Turret_MC, RocketTurret, Turret_EMPLobber, Turret_FireLobber, Turret_Incinerator, Turret_Graser, Turret_Rotarygun, Turret_MiniSlugger, Turret_MiniShooter, VCE_ElectricPot, VCE_DeepFrier, VCE_CanningMachine, Windmill, Radio_Industrial, Radio_Spacer, Joy_Arcade, Joy_InudstrialComputer, Joy_ModernComputer, VFE_DeskLamp, VFE_FloorLamp, Light_Streetlamp, VFE_RoyalLamp, VFE_TableMachiningLarge, VFE_TableSmithyLarge, VFE_TableStoveLarge, VFE_TableTailorLarge, VFE_ComponentFabricationBench, VFE_TableButcherElectric, VFE_TableDrugLabElectric, VFE_TableStonecutterElectric, VRE_PsychofluidWell, VRE_InvocationMatrix, VRE_HemodynamicAccelerator, VRE_HemogenSolidifier, VRE_SmallHemogenAmplifier, VRE_SmallHemopump, TM_Tinkerbench, TM_Biohacker, FedTable, Turret_FedHarvester, Turret_PB, VBE_SodaFountain, VFEE_Candelabra, VFED_Turret_Kontarion, VFED_Turret_Palintone, VFED_Turret_Onager, VFED_SurveillancePillar, VFED_ImperialMegaHighShield, VFEP_WarcasketFoundry, VFEP_ShipChunkBattery, VFEP_ShipChunkGauntletTurret, VFEP_ShipChunkReactor, Table_IlluminatedEndTable, Table_IlluminatedDresser, VFES_Table_IlluminatedWardrobe, UltrascreenTV, VFES_WallMountedTelevision, VFES_TelevisionSpeaker, Shelf_RepairRack, VFES_AirPurifier, Table_interactive_1x1c, Table_interactive_2x2c, GR_AncientCryofreezer, GR_AncientBioBattery, GR_GenePod, GR_ElectroWomb, GR_LargeElectroWomb, GR_TissueGrinder, GR_GeneticsTinkeringTable, GR_GeneticExtractionTable, GR_GeneRecombinator, GR_TissueGrowingVat, VBE_TypewritersTable, Facility_VitalsCentre, VTE_ACControlUnit, VTE_ACUnit, VTE_ACUnitWall, VTE_ACCompressor, VTE_LargeACCompressor, VTE_IndustrialHeater, VTE_IndustrialCooler, VTE_WallHeater, VTE_WallMountedHeater, VTE_WallMountedCooler, VTE_StandingCooler, VTE_SmallCeilingFan, VTE_LargeCeilingFan, AIRobot_RechargeStation_Hauler, AIRobot_RechargeStation_Cleaner, VFES_Turret_NonLethalTurret, VFES_Turret_AntiAir, VFES_Turret_Concealed, VFES_ConcealedBarrier, VFES_SmallRepulsor, VFES_LargeRepulsor, VFES_Turret_MilitaryTurret, VFES_Turret_ArmoredTurret, VFES_Turret_Searchlight, VFES_Turret_Flame, VFES_Turret_ShotgunTurret, VFES_Turret_AutocannonDouble, VFES_Turret_Minigun, VFES_Turret_ChargeTurret, VFES_Turret_ChargeRailgun, VFES_Turret_TeslaBlaster, PFS_DisplayPod, BS_AndroidFuelRefinery, BS_AndroidChargingStation, TectonicEmiter, WeatherEmiter
 checking editor settings...
 bodysizes genes are active
-[RimMercenaries] FinalizeInit called for save. HasBeenInitialized: False
-[RimMercenaries] Initializing mercenaries for this save...
-[RimMercenaries] Force initializing mercenary system for this save...
-[RimMercenaries] Generated 17 mercenaries for Baseliner - Tier counts: T1=10, T2=5, T3=2
-[RimMercenaries] Mercenary system initialized successfully for this save!
-Unloading 0 Unused Serialized files (Serialized files now loaded: 16)
-Unloading 1 unused Assets to reduce memory usage. Loaded Objects now: 78388.
-Total: 893.937900 ms (FindLiveObjects: 4.060500 ms CreateObjectMapping: 4.004300 ms MarkObjects: 885.704500 ms  DeleteObjects: 0.168300 ms)
+[RimMercenaries] FinalizeInit called for save. HasBeenInitialized: True
+[Yayo's Animation] GC : animation data count [0 -> 0]
+Unloading 1 Unused Serialized files (Serialized files now loaded: 16)
+Unloading 1 unused Assets to reduce memory usage. Loaded Objects now: 76277.
+Total: 871.465300 ms (FindLiveObjects: 4.211800 ms CreateObjectMapping: 4.008800 ms MarkObjects: 863.037800 ms  DeleteObjects: 0.206300 ms)
 
-[RimMercenaries] Generated 17 reserve mercenaries for xenotype Baseliner
+Exception in CheckCurrentToilEndOrFail for pawn Becky driver=JobDriver_Hunt (toilIndex=6) driver.job=(Hunt (Job_361958) A = Thing_AEXP_Mandrill66584 Giver = JobGiver_Work [workGiverDef: HunterHunt])
+System.NullReferenceException: Object reference not set to an instance of an object
+[Ref B634965C]
+  at ARY_AutomaticHunting.Patch_JobDriver_Hunt_MakeNewToils+<>c__DisplayClass1_0.<CustomToils>b__0 () [0x00040] in <a607d1c2a5c34c46a8af54e29c9fa29b>:0 
+  at Verse.AI.ToilFailConditions+<>c__DisplayClass1_0`1[T].<FailOn>b__0 () [0x00000] in <61e4173561894da49d210260257b5097>:0 
+  at Verse.AI.JobDriver.CheckCurrentToilEndOrFail () [0x00025] in <61e4173561894da49d210260257b5097>:0 
 Arachnophobia :: Spider Biome Settings Adjusted :: Current Factor: 1
-Getting next unique ID during saving This may cause bugs.
-Wrote screenshot C:\Users\clint\AppData\LocalLow\Ludeon Studios\RimWorld by Ludeon Studios\RimSaves\Previews\USCSS Colony77.dat of size 109171
-[Yayo's Animation] GC : animation data count [110 -> 101]
-Wrote screenshot C:\Users\clint\AppData\LocalLow\Ludeon Studios\RimWorld by Ludeon Studios\RimSaves\Previews\Autosave-1.dat of size 82019
-[Yayo's Animation] GC : animation data count [108 -> 95]
-Wrote screenshot C:\Users\clint\AppData\LocalLow\Ludeon Studios\RimWorld by Ludeon Studios\RimSaves\Previews\Autosave-2.dat of size 127455
-Douglas threw exception in WorkGiver HaulUrgently: System.NullReferenceException: Object reference not set to an instance of an object
-[Ref 16A8B8B7]
-  at Verse.GridsUtility.Fogged (Verse.Thing t) [0x00006] in <61e4173561894da49d210260257b5097>:0 
-  at Verse.AI.HaulAIUtility.PawnCanAutomaticallyHaulFast_NewTemp (Verse.Pawn p, Verse.Thing t, System.Boolean forced, System.Boolean checkReachability) [0x00000] in <61e4173561894da49d210260257b5097>:0 
-  at Verse.AI.HaulAIUtility.PawnCanAutomaticallyHaulFast (Verse.Pawn p, Verse.Thing t, System.Boolean forced) [0x00000] in <61e4173561894da49d210260257b5097>:0 
-  at AllowTool.WorkGiver_HaulUrgently+<PotentialWorkThingsGlobal>d__3.MoveNext () [0x00052] in <8a098910d6a84b188090b9d6c096e9ee>:0 
-  at System.Linq.Enumerable.Any[TSource] (System.Collections.Generic.IEnumerable`1[T] source) [0x00015] in <1f993cbf88314b1baa1e10ca917bdc64>:0 
-  at Verse.GenCollection.EnumerableNullOrEmpty[T] (System.Collections.Generic.IEnumerable`1[T] enumerable) [0x00019] in <61e4173561894da49d210260257b5097>:0 
-  at Verse.GenClosest.EarlyOutSearch (Verse.IntVec3 start, Verse.Map map, Verse.ThingRequest thingReq, System.Collections.Generic.IEnumerable`1[T] customGlobalSearchSet, System.Predicate`1[T] validator) [0x00079] in <61e4173561894da49d210260257b5097>:0 
-  at Verse.GenClosest.ClosestThingReachable (Verse.IntVec3 root, Verse.Map map, Verse.ThingRequest thingReq, Verse.AI.PathEndMode peMode, Verse.TraverseParms traverseParams, System.Single maxDistance, System.Predicate`1[T] validator, System.Collections.Generic.IEnumerable`1[T] customGlobalSearchSet, System.Int32 searchRegionsMin, System.Int32 searchRegionsMax, System.Boolean forceAllowGlobalSearch, Verse.RegionType traversableRegionTypes, System.Boolean ignoreEntirelyForbiddenRegions, System.Boolean lookInHaulSources) [0x0008c] in <61e4173561894da49d210260257b5097>:0 
-  at RimWorld.JobGiver_Work.TryIssueJobPackage (Verse.Pawn pawn, Verse.AI.JobIssueParams jobParams) [0x00678] in <61e4173561894da49d210260257b5097>:0 
-    - TRANSPILER SmarterConstruction: List`1 SmarterConstruction.Patches.PatchMakeFinishFramesPrioritized:Transpiler(IEnumerable`1 instructions, ILGenerator generator)
-[Yayo's Animation] GC : animation data count [109 -> 93]
-Wrote screenshot C:\Users\clint\AppData\LocalLow\Ludeon Studios\RimWorld by Ludeon Studios\RimSaves\Previews\Autosave-3.dat of size 56303
-[Yayo's Animation] GC : animation data count [98 -> 83]
-Wrote screenshot C:\Users\clint\AppData\LocalLow\Ludeon Studios\RimWorld by Ludeon Studios\RimSaves\Previews\Autosave-4.dat of size 76121
-[Yayo's Animation] GC : animation data count [84 -> 79]
-Wrote screenshot C:\Users\clint\AppData\LocalLow\Ludeon Studios\RimWorld by Ludeon Studios\RimSaves\Previews\Autosave-5.dat of size 105884
-[SpawnThoseGenes] No possible endogenes found in config for: XR_Gnoll
-[SpawnThoseGenes] No possible endogenes found in config for: XR_Gnoll
-RRY_Xenomorph_FaceHugger61611 issued IdleError wait job. The behavior tree should never get here.
-[Yayo's Animation] GC : animation data count [117 -> 83]
-Wrote screenshot C:\Users\clint\AppData\LocalLow\Ludeon Studios\RimWorld by Ludeon Studios\RimSaves\Previews\Autosave-1.dat of size 84059
-Could not reserve Thing_RawBerries59725(current stack count: 13) (layer: null) for Stepan for job HaulToInventory (Job_176804) B = (32, 0, 95) Giver = ThinkNode_QueuedJob [workGiverDef: null] (now doing job HaulToInventory (Job_176804) B = (32, 0, 95) Giver = ThinkNode_QueuedJob [workGiverDef: null](curToil=-1)) for maxPawns 1 and stackCount -1.
-Existing reservers:
-   [0] Justina (job: DoBill (Job_176899) A = Thing_ElectricStove62821 B = Thing_RawBerries59725 Giver = JobGiver_Work [workGiverDef: DoBillsCook], toil: 6, maxPawns: 1, stackCount: -1)
-Attempted to draw Tortoise59869 without a resolved render tree.
-[Yayo's Animation] GC : animation data count [92 -> 74]
-Wrote screenshot C:\Users\clint\AppData\LocalLow\Ludeon Studios\RimWorld by Ludeon Studios\RimSaves\Previews\Autosave-2.dat of size 90735
-Attempted to draw StoneCrab56007 without a resolved render tree.
-Attempted to draw Rat59894 without a resolved render tree.
-Attempted to draw Alpaca60063 without a resolved render tree.
-Attempted to draw Chinchilla55934 without a resolved render tree.
-[Yayo's Animation] GC : animation data count [106 -> 76]
-Wrote screenshot C:\Users\clint\AppData\LocalLow\Ludeon Studios\RimWorld by Ludeon Studios\RimSaves\Previews\Autosave-3.dat of size 94408
-[Yayo's Animation] GC : animation data count [114 -> 82]
-Wrote screenshot C:\Users\clint\AppData\LocalLow\Ludeon Studios\RimWorld by Ludeon Studios\RimSaves\Previews\Autosave-4.dat of size 101149
-Attempted to draw Peacock64170 without a resolved render tree.
-Attempted to draw Monkey63841 without a resolved render tree.
-Attempted to draw Capybara63589 without a resolved render tree.
-[Yayo's Animation] GC : animation data count [99 -> 71]
-Wrote screenshot C:\Users\clint\AppData\LocalLow\Ludeon Studios\RimWorld by Ludeon Studios\RimSaves\Previews\Autosave-5.dat of size 132218
-Attempted to draw StoneCrab55966 without a resolved render tree.
+Wrote screenshot C:\Users\clint\AppData\LocalLow\Ludeon Studios\RimWorld by Ludeon Studios\RimSaves\Previews\USCSS Colony78.dat of size 141191
+SetColor on Thing without CompColorable AM_LassoCloth113592
+[Yayo's Animation] GC : animation data count [72 -> 34]
+Wrote screenshot C:\Users\clint\AppData\LocalLow\Ludeon Studios\RimWorld by Ludeon Studios\RimSaves\Previews\Autosave-4.dat of size 91137
+[Yayo's Animation] GC : animation data count [110 -> 49]
+Failed to generate gravcore subquest, trying again in 6 hours
+Failed to generate gravcore subquest, trying again in 6 hours
+Failed to generate gravcore subquest, trying again in 6 hours
+Failed to generate gravcore subquest, trying again in 6 hours
+Failed to generate gravcore subquest, trying again in 6 hours
+Failed to generate gravcore subquest, trying again in 6 hours
+Failed to generate gravcore subquest, trying again in 6 hours
+Failed to generate gravcore subquest, trying again in 6 hours
+Failed to generate gravcore subquest, trying again in 6 hours
+Failed to generate gravcore subquest, trying again in 6 hours
+Failed to generate gravcore subquest, trying again in 6 hours
+Failed to generate gravcore subquest, trying again in 6 hours
+Failed to generate gravcore subquest, trying again in 6 hours
+Failed to generate gravcore subquest, trying again in 6 hours
+Failed to generate gravcore subquest, trying again in 6 hours
+Failed to generate gravcore subquest, trying again in 6 hours
+Failed to generate gravcore subquest, trying again in 6 hours
+Failed to generate gravcore subquest, trying again in 6 hours
+Failed to generate gravcore subquest, trying again in 6 hours
+Failed to generate gravcore subquest, trying again in 6 hours
+Failed to generate gravcore subquest, trying again in 6 hours
+Failed to generate gravcore subquest, trying again in 6 hours
+Failed to generate gravcore subquest, trying again in 6 hours
+Failed to generate gravcore subquest, trying again in 6 hours
+Failed to generate gravcore subquest, trying again in 6 hours
+Failed to generate gravcore subquest, trying again in 6 hours
+Failed to generate gravcore subquest, trying again in 6 hours
+Failed to generate gravcore subquest, trying again in 6 hours
+Failed to generate gravcore subquest, trying again in 6 hours
+Failed to generate gravcore subquest, trying again in 6 hours
+RRY_Xenomorph_FaceHugger72296 issued IdleError wait job. The behavior tree should never get here.
+Wrote screenshot C:\Users\clint\AppData\LocalLow\Ludeon Studios\RimWorld by Ludeon Studios\RimSaves\Previews\Autosave-5.dat of size 83440
+Attempted to draw AEXP_Mandrill113580 without a resolved render tree.
+[Yayo's Animation] GC : animation data count [139 -> 70]
+Attempted to draw AEXP_Mandrill55949 without a resolved render tree.
+Wrote screenshot C:\Users\clint\AppData\LocalLow\Ludeon Studios\RimWorld by Ludeon Studios\RimSaves\Previews\Autosave-1.dat of size 88466
 Tried to use variable "pointsOriginal" in a math expression but it doesn't exist.
-[Yayo's Animation] GC : animation data count [103 -> 76]
-Wrote screenshot C:\Users\clint\AppData\LocalLow\Ludeon Studios\RimWorld by Ludeon Studios\RimSaves\Previews\Autosave-1.dat of size 98427
-Attempted to draw Capybara55986 without a resolved render tree.
-Attempted to draw Capybara55991 without a resolved render tree.
-[Yayo's Animation] GC : animation data count [102 -> 76]
-Trying to save reference to a discarded thing Peacock55953 with saveDestroyedThings=true. This means that it's not deep-saved anywhere and is no longer managed by anything in the code, so saving its reference will always fail. , label=otherPawn
-Wrote screenshot C:\Users\clint\AppData\LocalLow\Ludeon Studios\RimWorld by Ludeon Studios\RimSaves\Previews\Autosave-2.dat of size 77702
+[Yayo's Animation] GC : animation data count [137 -> 79]
+Wrote screenshot C:\Users\clint\AppData\LocalLow\Ludeon Studios\RimWorld by Ludeon Studios\RimSaves\Previews\Autosave-2.dat of size 94849
 Exception in RimWorld.ThinkNode_ConditionalNotPawnKind TryIssueJobPackage: System.NullReferenceException: Object reference not set to an instance of an object
 [Ref 5FC929E0]
   at Verse.GenClosest.EarlyOutSearch (Verse.IntVec3 start, Verse.Map map, Verse.ThingRequest thingReq, System.Collections.Generic.IEnumerable`1[T] customGlobalSearchSet, System.Predicate`1[T] validator) [0x00015] in <61e4173561894da49d210260257b5097>:0 
@@ -882,6 +809,21 @@ Exception in RimWorld.ThinkNode_ConditionalNotPawnKind TryIssueJobPackage: Syste
   at Verse.AI.ThinkNode_Priority.TryIssueJobPackage (Verse.Pawn pawn, Verse.AI.JobIssueParams jobParams) [0x00022] in <61e4173561894da49d210260257b5097>:0 
 Exception in Verse.AI.ThinkNode_Priority TryIssueJobPackage: System.NullReferenceException: Object reference not set to an instance of an object
 [Ref 5FC929E0] Duplicate stacktrace, see ref for original
+Exception in Verse.AI.ThinkNode_Priority TryIssueJobPackage: System.NullReferenceException: Object reference not set to an instance of an object
+[Ref 8E48724B]
+  at RimWorld.ThinkNode_ConditionalSkyDarker.Satisfied (Verse.Pawn pawn) [0x00006] in <1149266283f34843882d1e66385e1b1b>:0 
+  at Verse.AI.ThinkNode_Conditional.TryIssueJobPackage (Verse.Pawn pawn, Verse.AI.JobIssueParams jobParams) [0x00000] in <61e4173561894da49d210260257b5097>:0 
+  at Verse.AI.ThinkNode_Priority.TryIssueJobPackage (Verse.Pawn pawn, Verse.AI.JobIssueParams jobParams) [0x00022] in <61e4173561894da49d210260257b5097>:0 
+Exception in Verse.AI.ThinkNode_Priority TryIssueJobPackage: System.NullReferenceException: Object reference not set to an instance of an object
+[Ref B180EB5F]
+  at RimWorld.ThinkNode_ConditionalSkyBrighter.Satisfied (Verse.Pawn pawn) [0x00006] in <1149266283f34843882d1e66385e1b1b>:0 
+  at Verse.AI.ThinkNode_Conditional.TryIssueJobPackage (Verse.Pawn pawn, Verse.AI.JobIssueParams jobParams) [0x00000] in <61e4173561894da49d210260257b5097>:0 
+  at Verse.AI.ThinkNode_Priority.TryIssueJobPackage (Verse.Pawn pawn, Verse.AI.JobIssueParams jobParams) [0x00022] in <61e4173561894da49d210260257b5097>:0 
+[SpawnThoseGenes] No possible endogenes found in config for: BS_Weaver
+Exception in RimWorld.ThinkNode_ConditionalNotPawnKind TryIssueJobPackage: System.NullReferenceException: Object reference not set to an instance of an object
+[Ref 5FC929E0] Duplicate stacktrace, see ref for original
+Exception in Verse.AI.ThinkNode_Priority TryIssueJobPackage: System.NullReferenceException: Object reference not set to an instance of an object
+[Ref 5FC929E0] Duplicate stacktrace, see ref for original
 Exception in Verse.AI.ThinkNode_PrioritySorter TryIssueJobPackage: System.NullReferenceException: Object reference not set to an instance of an object
 [Ref C72A7E8]
   at Verse.GenRadial+<RadialDistinctThingsAround>d__18.MoveNext () [0x00065] in <61e4173561894da49d210260257b5097>:0 
@@ -893,22 +835,896 @@ Exception in Verse.AI.ThinkNode_PrioritySorter TryIssueJobPackage: System.NullRe
   at Verse.AI.ThinkNode_JobGiver.TryIssueJobPackage (Verse.Pawn pawn, Verse.AI.JobIssueParams jobParams) [0x00000] in <61e4173561894da49d210260257b5097>:0 
   at Verse.AI.ThinkNode_PrioritySorter.TryIssueJobPackage (Verse.Pawn pawn, Verse.AI.JobIssueParams jobParams) [0x000f2] in <61e4173561894da49d210260257b5097>:0 
 Exception in Verse.AI.ThinkNode_Priority TryIssueJobPackage: System.NullReferenceException: Object reference not set to an instance of an object
-[Ref 8E48724B]
-  at RimWorld.ThinkNode_ConditionalSkyDarker.Satisfied (Verse.Pawn pawn) [0x00006] in <1149266283f34843882d1e66385e1b1b>:0 
-  at Verse.AI.ThinkNode_Conditional.TryIssueJobPackage (Verse.Pawn pawn, Verse.AI.JobIssueParams jobParams) [0x00000] in <61e4173561894da49d210260257b5097>:0 
+[Ref 8E48724B] Duplicate stacktrace, see ref for original
+Exception in Verse.AI.ThinkNode_Priority TryIssueJobPackage: System.NullReferenceException: Object reference not set to an instance of an object
+[Ref B180EB5F] Duplicate stacktrace, see ref for original
+[Yayo's Animation] GC : animation data count [116 -> 69]
+Wrote screenshot C:\Users\clint\AppData\LocalLow\Ludeon Studios\RimWorld by Ludeon Studios\RimSaves\Previews\Autosave-3.dat of size 112833
+[Yayo's Animation] GC : animation data count [112 -> 63]
+Wrote screenshot C:\Users\clint\AppData\LocalLow\Ludeon Studios\RimWorld by Ludeon Studios\RimSaves\Previews\Autosave-4.dat of size 88541
+[Yayo's Animation] GC : animation data count [107 -> 58]
+Wrote screenshot C:\Users\clint\AppData\LocalLow\Ludeon Studios\RimWorld by Ludeon Studios\RimSaves\Previews\Autosave-5.dat of size 81618
+Attempted to draw AEXP_Mandrill120159 without a resolved render tree.
+[Yayo's Animation] GC : animation data count [114 -> 61]
+Attempted to draw AA_Lockjaw116746 without a resolved render tree.
+Wrote screenshot C:\Users\clint\AppData\LocalLow\Ludeon Studios\RimWorld by Ludeon Studios\RimSaves\Previews\Autosave-1.dat of size 148831
+Attempted to draw AA_BedBug116791 without a resolved render tree.
+[Yayo's Animation] GC : animation data count [93 -> 57]
+Wrote screenshot C:\Users\clint\AppData\LocalLow\Ludeon Studios\RimWorld by Ludeon Studios\RimSaves\Previews\Autosave-2.dat of size 106232
+[Yayo's Animation] GC : animation data count [81 -> 53]
+Attempted to draw AEXP_Mandrill120161 without a resolved render tree.
+Wrote screenshot C:\Users\clint\AppData\LocalLow\Ludeon Studios\RimWorld by Ludeon Studios\RimSaves\Previews\Autosave-3.dat of size 83636
+Attempted to draw Cassowary55961 without a resolved render tree.
+[Yayo's Animation] GC : animation data count [70 -> 48]
+Cannot drop RRY_Xenomorph_Queen55913 without a dropLoc and with an owner whose map is null.
+Cannot drop RRY_Xenomorph_Drone62664 without a dropLoc and with an owner whose map is null.
+Cannot drop RRY_Xenomorph_Drone69403 without a dropLoc and with an owner whose map is null.
+Cannot drop RRY_Xenomorph_Drone70506 without a dropLoc and with an owner whose map is null.
+Cannot drop RRY_Xenomorph_Warrior73671 without a dropLoc and with an owner whose map is null.
+Cannot drop RRY_Xenomorph_Warrior118258 without a dropLoc and with an owner whose map is null.
+Cannot drop RRY_Xenomorph_Warrior119794 without a dropLoc and with an owner whose map is null.
+Cannot drop RRY_Xenomorph_Drone123204 without a dropLoc and with an owner whose map is null.
+Trying to save reference to a discarded thing Chicken59528 with saveDestroyedThings=true. This means that it's not deep-saved anywhere and is no longer managed by anything in the code, so saving its reference will always fail. , label=pawn
+Wrote screenshot C:\Users\clint\AppData\LocalLow\Ludeon Studios\RimWorld by Ludeon Studios\RimSaves\Previews\Autosave-4.dat of size 113284
+[Yayo's Animation] GC : animation data count [90 -> 47]
+Tried to spawn Dead Pawn Becky. Replacing with corpse.
+Cannot drop RRY_Xenomorph_Queen55913 without a dropLoc and with an owner whose map is null.
+Cannot drop RRY_Xenomorph_Drone62664 without a dropLoc and with an owner whose map is null.
+Cannot drop RRY_Xenomorph_Drone69403 without a dropLoc and with an owner whose map is null.
+Cannot drop RRY_Xenomorph_Drone70506 without a dropLoc and with an owner whose map is null.
+Cannot drop RRY_Xenomorph_Warrior73671 without a dropLoc and with an owner whose map is null.
+Cannot drop RRY_Xenomorph_Warrior118258 without a dropLoc and with an owner whose map is null.
+Cannot drop RRY_Xenomorph_Warrior119794 without a dropLoc and with an owner whose map is null.
+Cannot drop RRY_Xenomorph_Drone123204 without a dropLoc and with an owner whose map is null.
+Trying to save reference to a discarded thing Chicken59528 with saveDestroyedThings=true. This means that it's not deep-saved anywhere and is no longer managed by anything in the code, so saving its reference will always fail. , label=pawn
+Wrote screenshot C:\Users\clint\AppData\LocalLow\Ludeon Studios\RimWorld by Ludeon Studios\RimSaves\Previews\Autosave-5.dat of size 112905
+Exception in RimWorld.ThinkNode_ConditionalNotPawnKind TryIssueJobPackage: System.NullReferenceException: Object reference not set to an instance of an object
+[Ref 5FC929E0] Duplicate stacktrace, see ref for original
+Exception in Verse.AI.ThinkNode_Priority TryIssueJobPackage: System.NullReferenceException: Object reference not set to an instance of an object
+[Ref 5FC929E0] Duplicate stacktrace, see ref for original
+Exception in Verse.AI.ThinkNode_PrioritySorter TryIssueJobPackage: System.NullReferenceException: Object reference not set to an instance of an object
+[Ref C72A7E8] Duplicate stacktrace, see ref for original
+Exception in Verse.AI.ThinkNode_Priority TryIssueJobPackage: System.NullReferenceException: Object reference not set to an instance of an object
+[Ref 8E48724B] Duplicate stacktrace, see ref for original
+Exception in Verse.AI.ThinkNode_Priority TryIssueJobPackage: System.NullReferenceException: Object reference not set to an instance of an object
+[Ref B180EB5F] Duplicate stacktrace, see ref for original
+Exception in RimWorld.ThinkNode_ConditionalNotPawnKind TryIssueJobPackage: System.NullReferenceException: Object reference not set to an instance of an object
+[Ref 5FC929E0] Duplicate stacktrace, see ref for original
+Exception in RimWorld.ThinkNode_ConditionalPawnKind TryIssueJobPackage: System.NullReferenceException: Object reference not set to an instance of an object
+[Ref 5FC929E0] Duplicate stacktrace, see ref for original
+Exception in RimWorld.ThinkNode_ConditionalPawnKind TryIssueJobPackage: System.NullReferenceException: Object reference not set to an instance of an object
+[Ref 8E48724B] Duplicate stacktrace, see ref for original
+Exception in Verse.AI.ThinkNode_Priority TryIssueJobPackage: System.NullReferenceException: Object reference not set to an instance of an object
+[Ref 5FC929E0] Duplicate stacktrace, see ref for original
+Exception in Verse.AI.ThinkNode_Priority TryIssueJobPackage: System.NullReferenceException: Object reference not set to an instance of an object
+[Ref 8E48724B] Duplicate stacktrace, see ref for original
+Exception in Verse.AI.ThinkNode_Priority TryIssueJobPackage: System.NullReferenceException: Object reference not set to an instance of an object
+[Ref B180EB5F] Duplicate stacktrace, see ref for original
+Exception in JobDriver fixed tick for pawn Becky driver=JobDriver_LayDown (toilIndex=1) driver.job=(LayDown (Job_595988) A = (87, 0, 132) Giver = JobGiver_GetRest [workGiverDef: null])
+System.NullReferenceException: Object reference not set to an instance of an object
+[Ref 76E57819]
+  at RimWorld.Toils_LayDown.ApplyBedThoughts (Verse.Pawn actor, RimWorld.Building_Bed bed) [0x00217] in <61e4173561894da49d210260257b5097>:0 
+    - PREFIX OskarPotocki.VanillaPsycastsExpanded: Void VanillaPsycastsExpanded.Toils_LayDown_ApplyBedThoughts_Patch:Prefix(Pawn actor)
+    - POSTFIX com.otters.rimworld.mod.Tents: Void Tent.Patch_Toils_LayDown_ApplyBedThoughts:Postfix(Pawn actor)
+    - POSTFIX OskarPotocki.VanillaPsycastsExpanded: Void VanillaPsycastsExpanded.Toils_LayDown_ApplyBedThoughts_Patch:Postfix()
+  at RimWorld.Toils_LayDown.ApplyBedRelatedEffects (Verse.Pawn p, RimWorld.Building_Bed bed, System.Boolean asleep, System.Boolean gainRest, System.Int32 delta) [0x0016f] in <61e4173561894da49d210260257b5097>:0 
+  at RimWorld.Toils_LayDown+<>c__DisplayClass6_0.<LayDown>b__1 () [0x000a3] in <61e4173561894da49d210260257b5097>:0 
+  at Verse.AI.JobDriver.DriverTick () [0x00170] in <61e4173561894da49d210260257b5097>:0 
+Exception in JobDriver fixed tick for pawn Becky driver=JobDriver_LayDown (toilIndex=1) driver.job=(LayDown (Job_596637) A = (87, 0, 132) Giver = JobGiver_GetRest [workGiverDef: null])
+System.NullReferenceException: Object reference not set to an instance of an object
+[Ref 76E57819] Duplicate stacktrace, see ref for original
+Couldn't destroy corpses.
+[Ref 398920CE]
+ [0x00000] in <51fded79cd284d4d911c5949aff4cb21>:0 
+  at System.Collections.Generic.List`1+Enumerator[T].MoveNextRare () [0x00013] in <51fded79cd284d4d911c5949aff4cb21>:0 
+  at System.Collections.Generic.List`1+Enumerator[T].MoveNext () [0x0004a] in <51fded79cd284d4d911c5949aff4cb21>:0 
+  at System.Linq.Enumerable+WhereListIterator`1[TSource].MoveNext () [0x0004e] in <1f993cbf88314b1baa1e10ca917bdc64>:0 
+  at AIRobot.X2_AIRobot.Destroy (Verse.DestroyMode mode) [0x000e7] in D:\_Programmierung\_GitHub_Repositories\RimWorld-Miscellaneous_Source\Source\AIRobot\X2_AIRobot.cs:121 
+[Yayo's Animation] GC : animation data count [87 -> 46]
+Trying to save reference to a discarded thing Chicken59528 with saveDestroyedThings=true. This means that it's not deep-saved anywhere and is no longer managed by anything in the code, so saving its reference will always fail. , label=pawn
+Wrote screenshot C:\Users\clint\AppData\LocalLow\Ludeon Studios\RimWorld by Ludeon Studios\RimSaves\Previews\USCSS 2178.dat of size 106285
+AM.Events.AudioEvent must be instantiated using the ScriptableObject.CreateInstance method instead of new AudioEvent.
+AM.Events.CamShakeEvent must be instantiated using the ScriptableObject.CreateInstance method instead of new CamShakeEvent.
+AM.Events.ClashAudioEvent must be instantiated using the ScriptableObject.CreateInstance method instead of new ClashAudioEvent.
+AM.Events.DamageEffectEvent must be instantiated using the ScriptableObject.CreateInstance method instead of new DamageEffectEvent.
+AM.Events.DuelEvent must be instantiated using the ScriptableObject.CreateInstance method instead of new DuelEvent.
+AM.Events.GoreSplashEvent must be instantiated using the ScriptableObject.CreateInstance method instead of new GoreSplashEvent.
+AM.Events.KillPawnEvent must be instantiated using the ScriptableObject.CreateInstance method instead of new KillPawnEvent.
+AM.Events.MoteEvent must be instantiated using the ScriptableObject.CreateInstance method instead of new MoteEvent.
+AM.Events.PuntPawnEvent must be instantiated using the ScriptableObject.CreateInstance method instead of new PuntPawnEvent.
+AM.Events.TextMoteEvent must be instantiated using the ScriptableObject.CreateInstance method instead of new TextMoteEvent.
+AM.Events.DamageEffectEvent must be instantiated using the ScriptableObject.CreateInstance method instead of new DamageEffectEvent.
+AM.Events.GoreSplashEvent must be instantiated using the ScriptableObject.CreateInstance method instead of new GoreSplashEvent.
+AM.Events.KillPawnEvent must be instantiated using the ScriptableObject.CreateInstance method instead of new KillPawnEvent.
+<color=#66ffb5>[MeleeAnim]</color> Rendering exception when doing animation Execution: Upwards Slash
+System.NullReferenceException: Object reference not set to an instance of an object
+[Ref 96F88C31]
+  at VFEPirates.WarcasketUtility.IsWearingWarcasket (Verse.Pawn pawn) [0x00001] in <5879604162334bc4bc239f4a53ea504a>:0 
+  at VFEPirates.HarmonyPatches.PawnRenderNodeWorker_Apparel_Head_HeadgearVisible_Patch.Postfix (Verse.PawnDrawParms parms, System.Boolean& __result) [0x00001] in <5879604162334bc4bc239f4a53ea504a>:0 
+  at Verse.PawnRenderNodeWorker_Apparel_Head.HeadgearVisible (Verse.PawnDrawParms parms) [0x000ab] in <61e4173561894da49d210260257b5097>:0 
+    - TRANSPILER OskarPotocki.VEF: IEnumerable`1 VEF.Apparels.VanillaExpandedFramework_PawnRenderNodeWorker_Apparel_Head_HeadgearVisible_Patch:Transpiler(IEnumerable`1 codeInstructions, MethodBase baseMethod)
+    - TRANSPILER OskarPotocki.VanillaHairExpanded: IEnumerable`1 VanillaHairExpanded.Patch_PawnRenderer+RenderPawnInternal:Transpiler(IEnumerable`1 instructions, ILGenerator generator, MethodBase method)
+    - POSTFIX VFEPirates.Mod: Void VFEPirates.HarmonyPatches.PawnRenderNodeWorker_Apparel_Head_HeadgearVisible_Patch:Postfix(PawnDrawParms parms, Boolean& __result)
+    - POSTFIX com.VEHighmate: Void VanillaRacesExpandedHighmate.VanillaRacesExpandedHighmate_PawnRenderNodeWorker_Apparel_Head_HeadgearVisible_Patch:Postfix(PawnDrawParms parms, Boolean& __result)
+    - POSTFIX com.vanillamemesexpanded: Void VanillaMemesExpanded.VanillaMemesExpanded_PawnRenderNodeWorker_Apparel_Head_HeadgearVisible_Patch:Postfix(PawnDrawParms parms, Boolean& __result)
+  at Verse.PawnRenderTree.AdjustParms (Verse.PawnDrawParms& parms) [0x00093] in <61e4173561894da49d210260257b5097>:0 
+    - TRANSPILER costel.layeredapparel: IEnumerable`1 LayeredApparel.HarmonyPatches:Transpiler_ReplaceWornApparel(IEnumerable`1 instructions, MethodBase original)
+  at Verse.PawnRenderTree.ParallelPreDraw (Verse.PawnDrawParms parms) [0x0002a] in <61e4173561894da49d210260257b5097>:0 
+    - PREFIX co.uk.epicguru.meleeanimation: Void AM.Patches.Patch_PawnRenderTree_ParallelPreDraw:Prefix(PawnDrawParms parms, State& __state)
+    - POSTFIX co.uk.epicguru.meleeanimation: Void AM.Patches.Patch_PawnRenderTree_ParallelPreDraw:Postfix(State& __state)
+    - POSTFIX rimworld.Nals.FacialAnimation: Void FacialAnimation.HarmonyPatches:PostfixParallelPreDraw(PawnRenderTree __instance, Pawn& ___pawn, List`1& ___drawRequests, PawnDrawParms parms)
+  at AM.Patches.Patch_PawnRenderer_RenderPawnAt.Prefix (Verse.Pawn ___pawn, Verse.PawnRenderTree ___renderTree, Verse.PawnRenderer+PreRenderResults& ___results, System.Nullable`1[Verse.PawnRenderer+PreRenderResults]& __state) [0x000dd] in <4585bdfa83f24e6ba6972225b80e6802>:0 
+  at Verse.PawnRenderer.RenderPawnAt (UnityEngine.Vector3 drawLoc, System.Nullable`1[T] rotOverride, System.Boolean neverAimWeapon) [0x00027] in <61e4173561894da49d210260257b5097>:0 
+    - PREFIX net.pardeike.rimworld.mod.camera+: Boolean CameraPlus.DotTools+PawnRenderer_RenderPawnAt_Patch:Prefix(Pawn ___pawn)
+    - PREFIX co.uk.epicguru.meleeanimation: Boolean AM.Patches.Patch_PawnRenderer_RenderPawnAt:Prefix(Pawn ___pawn, PawnRenderTree ___renderTree, PreRenderResults& ___results, Nullable`1& __state)
+    - PREFIX VREAndroidsMod: Void VREAndroids.PawnRenderer_RenderPawnAt_Patch:Prefix(Pawn ___pawn)
+    - PREFIX com.otters.rimworld.mod.Tents: Boolean Tent.Patch_PawnRenderer_RenderPawnAt:Prefix(Pawn ___pawn)
+    - POSTFIX co.uk.epicguru.meleeanimation: Void AM.Patches.Patch_PawnRenderer_RenderPawnAt:Postfix(Nullable`1 __state, PreRenderResults& ___results)
+    - POSTFIX VREAndroidsMod: Void VREAndroids.PawnRenderer_RenderPawnAt_Patch:Postfix(Pawn ___pawn)
+  at AM.AnimRenderer.DrawPawns (System.Action`2[T1,T2] labelDraw) [0x0025c] in <4585bdfa83f24e6ba6972225b80e6802>:0 
+  at AM.AnimRenderer.Draw (System.Nullable`1[T] atTime, System.Single dt, System.Action`2[T1,T2] eventOutput, System.Boolean cullDraw, System.Action`2[T1,T2] labelDraw) [0x004b1] in <4585bdfa83f24e6ba6972225b80e6802>:0 
+  at AM.AnimRenderer.DrawSingle (AM.AnimRenderer renderer, System.Nullable`1[T] dt, System.Action`2[T1,T2] onEvent, Verse.CellRect viewBounds, System.Action`2[T1,T2] labelDraw) [0x00038] in <4585bdfa83f24e6ba6972225b80e6802>:0 
+<color=#66ffb5>[MeleeAnim]</color> Rendering exception when doing animation Execution: Upwards Slash
+System.NullReferenceException: Object reference not set to an instance of an object
+[Ref 96F88C31] Duplicate stacktrace, see ref for original
+<color=#66ffb5>[MeleeAnim]</color> Rendering exception when doing animation Execution: Upwards Slash
+System.NullReferenceException: Object reference not set to an instance of an object
+[Ref 96F88C31] Duplicate stacktrace, see ref for original
+<color=#66ffb5>[MeleeAnim]</color> Rendering exception when doing animation Execution: Upwards Slash
+System.NullReferenceException: Object reference not set to an instance of an object
+[Ref 96F88C31] Duplicate stacktrace, see ref for original
+<color=#66ffb5>[MeleeAnim]</color> Rendering exception when doing animation Execution: Upwards Slash
+System.NullReferenceException: Object reference not set to an instance of an object
+[Ref 96F88C31] Duplicate stacktrace, see ref for original
+<color=#66ffb5>[MeleeAnim]</color> Rendering exception when doing animation Execution: Upwards Slash
+System.NullReferenceException: Object reference not set to an instance of an object
+[Ref 96F88C31] Duplicate stacktrace, see ref for original
+<color=#66ffb5>[MeleeAnim]</color> Rendering exception when doing animation Execution: Upwards Slash
+System.NullReferenceException: Object reference not set to an instance of an object
+[Ref 96F88C31] Duplicate stacktrace, see ref for original
+<color=#66ffb5>[MeleeAnim]</color> Rendering exception when doing animation Execution: Upwards Slash
+System.NullReferenceException: Object reference not set to an instance of an object
+[Ref 96F88C31] Duplicate stacktrace, see ref for original
+<color=#66ffb5>[MeleeAnim]</color> Rendering exception when doing animation Execution: Upwards Slash
+System.NullReferenceException: Object reference not set to an instance of an object
+[Ref 96F88C31] Duplicate stacktrace, see ref for original
+<color=#66ffb5>[MeleeAnim]</color> Rendering exception when doing animation Execution: Upwards Slash
+System.NullReferenceException: Object reference not set to an instance of an object
+[Ref 96F88C31] Duplicate stacktrace, see ref for original
+<color=#66ffb5>[MeleeAnim]</color> Rendering exception when doing animation Execution: Upwards Slash
+System.NullReferenceException: Object reference not set to an instance of an object
+[Ref 96F88C31] Duplicate stacktrace, see ref for original
+<color=#66ffb5>[MeleeAnim]</color> Rendering exception when doing animation Execution: Upwards Slash
+System.NullReferenceException: Object reference not set to an instance of an object
+[Ref 96F88C31] Duplicate stacktrace, see ref for original
+<color=#66ffb5>[MeleeAnim]</color> Failed: failed to spawn flyer.
+Cannot drop RRY_Xenomorph_Warrior73671 without a dropLoc and with an owner whose map is null.
+Cannot drop RRY_Xenomorph_Drone62664 without a dropLoc and with an owner whose map is null.
+Cannot drop RRY_Xenomorph_Queen55913 without a dropLoc and with an owner whose map is null.
+Cannot drop RRY_Xenomorph_Drone69403 without a dropLoc and with an owner whose map is null.
+Cannot drop RRY_Xenomorph_Warrior119794 without a dropLoc and with an owner whose map is null.
+Exception in RimWorld.ThinkNode_ConditionalNotPawnKind TryIssueJobPackage: System.NullReferenceException: Object reference not set to an instance of an object
+[Ref 5FC929E0] Duplicate stacktrace, see ref for original
+Exception in RimWorld.ThinkNode_ConditionalPawnKind TryIssueJobPackage: System.NullReferenceException: Object reference not set to an instance of an object
+[Ref 5FC929E0] Duplicate stacktrace, see ref for original
+Exception in RimWorld.ThinkNode_ConditionalPawnKind TryIssueJobPackage: System.NullReferenceException: Object reference not set to an instance of an object
+[Ref 8E48724B] Duplicate stacktrace, see ref for original
+Exception in Verse.AI.ThinkNode_Priority TryIssueJobPackage: System.NullReferenceException: Object reference not set to an instance of an object
+[Ref 5FC929E0] Duplicate stacktrace, see ref for original
+Exception in Verse.AI.ThinkNode_Priority TryIssueJobPackage: System.NullReferenceException: Object reference not set to an instance of an object
+[Ref 8E48724B] Duplicate stacktrace, see ref for original
+Exception in Verse.AI.ThinkNode_Priority TryIssueJobPackage: System.NullReferenceException: Object reference not set to an instance of an object
+[Ref B180EB5F] Duplicate stacktrace, see ref for original
+Exception in RimWorld.ThinkNode_ConditionalNotPawnKind TryIssueJobPackage: System.NullReferenceException: Object reference not set to an instance of an object
+[Ref 5FC929E0] Duplicate stacktrace, see ref for original
+Exception in Verse.AI.ThinkNode_Priority TryIssueJobPackage: System.NullReferenceException: Object reference not set to an instance of an object
+[Ref 5FC929E0] Duplicate stacktrace, see ref for original
+Exception in Verse.AI.ThinkNode_Priority TryIssueJobPackage: System.NullReferenceException: Object reference not set to an instance of an object
+[Ref 8E48724B] Duplicate stacktrace, see ref for original
+Exception in Verse.AI.ThinkNode_Priority TryIssueJobPackage: System.NullReferenceException: Object reference not set to an instance of an object
+[Ref B180EB5F] Duplicate stacktrace, see ref for original
+Exception in RimWorld.ThinkNode_ConditionalNotPawnKind TryIssueJobPackage: System.NullReferenceException: Object reference not set to an instance of an object
+[Ref 5FC929E0] Duplicate stacktrace, see ref for original
+Exception in Verse.AI.ThinkNode_Priority TryIssueJobPackage: System.NullReferenceException: Object reference not set to an instance of an object
+[Ref 5FC929E0] Duplicate stacktrace, see ref for original
+Exception in Verse.AI.ThinkNode_PrioritySorter TryIssueJobPackage: System.NullReferenceException: Object reference not set to an instance of an object
+[Ref C72A7E8] Duplicate stacktrace, see ref for original
+Exception in Verse.AI.ThinkNode_Priority TryIssueJobPackage: System.NullReferenceException: Object reference not set to an instance of an object
+[Ref 8E48724B] Duplicate stacktrace, see ref for original
+Exception in Verse.AI.ThinkNode_Priority TryIssueJobPackage: System.NullReferenceException: Object reference not set to an instance of an object
+[Ref B180EB5F] Duplicate stacktrace, see ref for original
+Exception in RimWorld.ThinkNode_ConditionalNotPawnKind TryIssueJobPackage: System.NullReferenceException: Object reference not set to an instance of an object
+[Ref 5FC929E0] Duplicate stacktrace, see ref for original
+Exception in Verse.AI.ThinkNode_Priority TryIssueJobPackage: System.NullReferenceException: Object reference not set to an instance of an object
+[Ref 5FC929E0] Duplicate stacktrace, see ref for original
+Exception in Verse.AI.ThinkNode_PrioritySorter TryIssueJobPackage: System.NullReferenceException: Object reference not set to an instance of an object
+[Ref C72A7E8] Duplicate stacktrace, see ref for original
+Exception in Verse.AI.ThinkNode_Priority TryIssueJobPackage: System.NullReferenceException: Object reference not set to an instance of an object
+[Ref 8E48724B] Duplicate stacktrace, see ref for original
+Exception in Verse.AI.ThinkNode_Priority TryIssueJobPackage: System.NullReferenceException: Object reference not set to an instance of an object
+[Ref B180EB5F] Duplicate stacktrace, see ref for original
+Exception in RimWorld.ThinkNode_ConditionalNotPawnKind TryIssueJobPackage: System.NullReferenceException: Object reference not set to an instance of an object
+[Ref 5847B09]
+  at Verse.AI.AttackTargetFinder.BestAttackTarget (Verse.AI.IAttackTargetSearcher searcher, Verse.AI.TargetScanFlags flags, System.Predicate`1[T] validator, System.Single minDist, System.Single maxDist, Verse.IntVec3 locus, System.Single maxTravelRadiusFromLocus, System.Boolean canBashDoors, System.Boolean canTakeTargetsCloserThanEffectiveMinRange, System.Boolean canBashFences, System.Boolean onlyRanged) [0x00226] in <61e4173561894da49d210260257b5097>:0 
+    - PREFIX OskarPotocki.VEF: Void VEF.Weapons.VanillaExpandedFramework_AttackTargetFinder_BestAttackTarget_Patch:Prefix(IAttackTargetSearcher searcher, Single& maxDist)
+    - PREFIX falconne.AvoidFriendlyFire: Boolean AvoidFriendlyFire.AttackTargetFinder_BestAttackTarget_Patch:Prefix(IAttackTargetSearcher searcher, Predicate`1& validator)
+    - PREFIX com.ogliss.rimworld.mod.rryatuja.nobuildingattack: Void RRYautja.XenoNoBuildingAttackPatch:BestAttackTargetPrefix(IAttackTargetSearcher searcher, Predicate`1& validator)
+    - PREFIX OskarPotocki.VanillaPsycastsExpanded: Boolean VanillaPsycastsExpanded.Nightstalker.Decoy:BestAttackTarget_Prefix(IAttackTargetSearcher searcher, IAttackTarget& __result)
+  at MVCF.Utilities.TargetFinder.BestAttackTarget (Verse.AI.IAttackTargetSearcher searcher, Verse.Verb& verbUsed, Verse.AI.TargetScanFlags flags, System.Predicate`1[T] validator, System.Single minDist, System.Single maxDist, Verse.IntVec3 locus, System.Single maxTravelRadiusFromLocus, System.Boolean canBashDoors, System.Boolean canTakeTargetsCloserThanEffectiveMinRange, System.Boolean canBashFences, System.Boolean onlyRanged, System.Boolean setCurrent, System.Boolean canMove) [0x00116] in <2b928374dc4c48e6814f6ad3d8c8c24a>:0 
+  at RimWorld.JobGiver_AIFightEnemy.FindAttackTarget (Verse.Pawn pawn) [0x00091] in <61e4173561894da49d210260257b5097>:0 
+    - TRANSPILER legodude17.mvcf: IEnumerable`1 MVCF.PatchSets.PatchSet_TargetFinder:AttackTargetTranspiler(IEnumerable`1 instructions)
+  at RimWorld.JobGiver_AIFightEnemy.FindAttackTargetIfPossible (Verse.Pawn pawn) [0x00015] in <61e4173561894da49d210260257b5097>:0 
+  at RimWorld.JobGiver_AIFightEnemy.UpdateEnemyTarget (Verse.Pawn pawn) [0x00043] in <61e4173561894da49d210260257b5097>:0 
+    - PREFIX OskarPotocki.VanillaPsycastsExpanded: Void VanillaPsycastsExpanded.Nightstalker.Decoy:UpdateEnemyTarget_Prefix(Pawn pawn)
+  at RimWorld.JobGiver_AIFightEnemy.TryGiveJob (Verse.Pawn pawn) [0x00049] in <61e4173561894da49d210260257b5097>:0 
+  at Verse.AI.ThinkNode_JobGiver.TryIssueJobPackage (Verse.Pawn pawn, Verse.AI.JobIssueParams jobParams) [0x00000] in <61e4173561894da49d210260257b5097>:0 
   at Verse.AI.ThinkNode_Priority.TryIssueJobPackage (Verse.Pawn pawn, Verse.AI.JobIssueParams jobParams) [0x00022] in <61e4173561894da49d210260257b5097>:0 
 Exception in Verse.AI.ThinkNode_Priority TryIssueJobPackage: System.NullReferenceException: Object reference not set to an instance of an object
-[Ref B180EB5F]
-  at RimWorld.ThinkNode_ConditionalSkyBrighter.Satisfied (Verse.Pawn pawn) [0x00006] in <1149266283f34843882d1e66385e1b1b>:0 
-  at Verse.AI.ThinkNode_Conditional.TryIssueJobPackage (Verse.Pawn pawn, Verse.AI.JobIssueParams jobParams) [0x00000] in <61e4173561894da49d210260257b5097>:0 
+[Ref 5847B09] Duplicate stacktrace, see ref for original
+Exception in Verse.AI.ThinkNode_Priority TryIssueJobPackage: System.NullReferenceException: Object reference not set to an instance of an object
+[Ref 8E48724B] Duplicate stacktrace, see ref for original
+Exception in Verse.AI.ThinkNode_Priority TryIssueJobPackage: System.NullReferenceException: Object reference not set to an instance of an object
+[Ref B180EB5F] Duplicate stacktrace, see ref for original
+Trying to save reference to a discarded thing Chicken59528 with saveDestroyedThings=true. This means that it's not deep-saved anywhere and is no longer managed by anything in the code, so saving its reference will always fail. , label=pawn
+Wrote screenshot C:\Users\clint\AppData\LocalLow\Ludeon Studios\RimWorld by Ludeon Studios\RimSaves\Previews\Autosave-1.dat of size 108886
+Exception in RimWorld.ThinkNode_ConditionalNotPawnKind TryIssueJobPackage: System.NullReferenceException: Object reference not set to an instance of an object
+[Ref 5FC929E0] Duplicate stacktrace, see ref for original
+Exception in RimWorld.ThinkNode_ConditionalPawnKind TryIssueJobPackage: System.NullReferenceException: Object reference not set to an instance of an object
+[Ref 5FC929E0] Duplicate stacktrace, see ref for original
+Exception in RimWorld.ThinkNode_ConditionalPawnKind TryIssueJobPackage: System.NullReferenceException: Object reference not set to an instance of an object
+[Ref 8E48724B] Duplicate stacktrace, see ref for original
+Exception in Verse.AI.ThinkNode_Priority TryIssueJobPackage: System.NullReferenceException: Object reference not set to an instance of an object
+[Ref 5FC929E0] Duplicate stacktrace, see ref for original
+Exception in Verse.AI.ThinkNode_Priority TryIssueJobPackage: System.NullReferenceException: Object reference not set to an instance of an object
+[Ref 8E48724B] Duplicate stacktrace, see ref for original
+Exception in Verse.AI.ThinkNode_Priority TryIssueJobPackage: System.NullReferenceException: Object reference not set to an instance of an object
+[Ref B180EB5F] Duplicate stacktrace, see ref for original
+Exception in RimWorld.ThinkNode_ConditionalNotPawnKind TryIssueJobPackage: System.NullReferenceException: Object reference not set to an instance of an object
+[Ref 5FC929E0] Duplicate stacktrace, see ref for original
+Exception in Verse.AI.ThinkNode_Priority TryIssueJobPackage: System.NullReferenceException: Object reference not set to an instance of an object
+[Ref 5FC929E0] Duplicate stacktrace, see ref for original
+Exception in Verse.AI.ThinkNode_PrioritySorter TryIssueJobPackage: System.NullReferenceException: Object reference not set to an instance of an object
+[Ref C72A7E8] Duplicate stacktrace, see ref for original
+Exception in Verse.AI.ThinkNode_Priority TryIssueJobPackage: System.NullReferenceException: Object reference not set to an instance of an object
+[Ref 8E48724B] Duplicate stacktrace, see ref for original
+Exception in Verse.AI.ThinkNode_Priority TryIssueJobPackage: System.NullReferenceException: Object reference not set to an instance of an object
+[Ref B180EB5F] Duplicate stacktrace, see ref for original
+Exception in RimWorld.ThinkNode_ConditionalNotPawnKind TryIssueJobPackage: System.NullReferenceException: Object reference not set to an instance of an object
+[Ref 5FC929E0] Duplicate stacktrace, see ref for original
+Exception in Verse.AI.ThinkNode_Priority TryIssueJobPackage: System.NullReferenceException: Object reference not set to an instance of an object
+[Ref 5FC929E0] Duplicate stacktrace, see ref for original
+Exception in Verse.AI.ThinkNode_PrioritySorter TryIssueJobPackage: System.NullReferenceException: Object reference not set to an instance of an object
+[Ref C72A7E8] Duplicate stacktrace, see ref for original
+Exception in Verse.AI.ThinkNode_Priority TryIssueJobPackage: System.NullReferenceException: Object reference not set to an instance of an object
+[Ref 8E48724B] Duplicate stacktrace, see ref for original
+Exception in Verse.AI.ThinkNode_Priority TryIssueJobPackage: System.NullReferenceException: Object reference not set to an instance of an object
+[Ref B180EB5F] Duplicate stacktrace, see ref for original
+Exception in RimWorld.ThinkNode_ConditionalNotPawnKind TryIssueJobPackage: System.NullReferenceException: Object reference not set to an instance of an object
+[Ref 5FC929E0] Duplicate stacktrace, see ref for original
+Exception in Verse.AI.ThinkNode_Priority TryIssueJobPackage: System.NullReferenceException: Object reference not set to an instance of an object
+[Ref 5FC929E0] Duplicate stacktrace, see ref for original
+Exception in Verse.AI.ThinkNode_PrioritySorter TryIssueJobPackage: System.NullReferenceException: Object reference not set to an instance of an object
+[Ref C72A7E8] Duplicate stacktrace, see ref for original
+Exception in Verse.AI.ThinkNode_Priority TryIssueJobPackage: System.NullReferenceException: Object reference not set to an instance of an object
+[Ref 8E48724B] Duplicate stacktrace, see ref for original
+Exception in Verse.AI.ThinkNode_Priority TryIssueJobPackage: System.NullReferenceException: Object reference not set to an instance of an object
+[Ref B180EB5F] Duplicate stacktrace, see ref for original
+Exception in RimWorld.ThinkNode_ConditionalNotPawnKind TryIssueJobPackage: System.NullReferenceException: Object reference not set to an instance of an object
+[Ref 5FC929E0] Duplicate stacktrace, see ref for original
+Exception in Verse.AI.ThinkNode_Priority TryIssueJobPackage: System.NullReferenceException: Object reference not set to an instance of an object
+[Ref 5FC929E0] Duplicate stacktrace, see ref for original
+Exception in Verse.AI.ThinkNode_PrioritySorter TryIssueJobPackage: System.NullReferenceException: Object reference not set to an instance of an object
+[Ref C72A7E8] Duplicate stacktrace, see ref for original
+Exception in Verse.AI.ThinkNode_Priority TryIssueJobPackage: System.NullReferenceException: Object reference not set to an instance of an object
+[Ref 8E48724B] Duplicate stacktrace, see ref for original
+Exception in Verse.AI.ThinkNode_Priority TryIssueJobPackage: System.NullReferenceException: Object reference not set to an instance of an object
+[Ref B180EB5F] Duplicate stacktrace, see ref for original
+Exception in RimWorld.ThinkNode_ConditionalNotPawnKind TryIssueJobPackage: System.NullReferenceException: Object reference not set to an instance of an object
+[Ref 5FC929E0] Duplicate stacktrace, see ref for original
+Exception in Verse.AI.ThinkNode_Priority TryIssueJobPackage: System.NullReferenceException: Object reference not set to an instance of an object
+[Ref 5FC929E0] Duplicate stacktrace, see ref for original
+Exception in Verse.AI.ThinkNode_Priority TryIssueJobPackage: System.NullReferenceException: Object reference not set to an instance of an object
+[Ref 3DAF9377]
+  at RimWorld.JobGiver_AIGotoNearestHostile.TryGiveJob (Verse.Pawn pawn) [0x0000e] in <61e4173561894da49d210260257b5097>:0 
+  at Verse.AI.ThinkNode_JobGiver.TryIssueJobPackage (Verse.Pawn pawn, Verse.AI.JobIssueParams jobParams) [0x00000] in <61e4173561894da49d210260257b5097>:0 
   at Verse.AI.ThinkNode_Priority.TryIssueJobPackage (Verse.Pawn pawn, Verse.AI.JobIssueParams jobParams) [0x00022] in <61e4173561894da49d210260257b5097>:0 
-[Yayo's Animation] GC : animation data count [142 -> 97]
-Trying to save reference to a discarded thing Peacock55953 with saveDestroyedThings=true. This means that it's not deep-saved anywhere and is no longer managed by anything in the code, so saving its reference will always fail. , label=otherPawn
-Wrote screenshot C:\Users\clint\AppData\LocalLow\Ludeon Studios\RimWorld by Ludeon Studios\RimSaves\Previews\Autosave-3.dat of size 139036
-Attempted to draw HermitCrab70156 without a resolved render tree.
-Trying to save reference to a discarded thing Peacock55953 with saveDestroyedThings=true. This means that it's not deep-saved anywhere and is no longer managed by anything in the code, so saving its reference will always fail. , label=otherPawn
-Wrote screenshot C:\Users\clint\AppData\LocalLow\Ludeon Studios\RimWorld by Ludeon Studios\RimSaves\Previews\USCSS Colony78.dat of size 138242
-Exception thrown from thread=1251.
+Exception in RimWorld.ThinkNode_ConditionalNotPawnKind TryIssueJobPackage: System.NullReferenceException: Object reference not set to an instance of an object
+[Ref 5FC929E0] Duplicate stacktrace, see ref for original
+Exception in Verse.AI.ThinkNode_Priority TryIssueJobPackage: System.NullReferenceException: Object reference not set to an instance of an object
+[Ref 5FC929E0] Duplicate stacktrace, see ref for original
+Exception in Verse.AI.ThinkNode_Priority TryIssueJobPackage: System.NullReferenceException: Object reference not set to an instance of an object
+[Ref 3DAF9377] Duplicate stacktrace, see ref for original
+Exception in RimWorld.ThinkNode_ConditionalNotPawnKind TryIssueJobPackage: System.NullReferenceException: Object reference not set to an instance of an object
+[Ref 5FC929E0] Duplicate stacktrace, see ref for original
+Exception in RimWorld.ThinkNode_ConditionalPawnKind TryIssueJobPackage: System.NullReferenceException: Object reference not set to an instance of an object
+[Ref 5FC929E0] Duplicate stacktrace, see ref for original
+Exception in RimWorld.ThinkNode_ConditionalPawnKind TryIssueJobPackage: System.NullReferenceException: Object reference not set to an instance of an object
+[Ref 8E48724B] Duplicate stacktrace, see ref for original
+Exception in Verse.AI.ThinkNode_Priority TryIssueJobPackage: System.NullReferenceException: Object reference not set to an instance of an object
+[Ref 5FC929E0] Duplicate stacktrace, see ref for original
+Exception in Verse.AI.ThinkNode_Priority TryIssueJobPackage: System.NullReferenceException: Object reference not set to an instance of an object
+[Ref 8E48724B] Duplicate stacktrace, see ref for original
+Exception in Verse.AI.ThinkNode_Priority TryIssueJobPackage: System.NullReferenceException: Object reference not set to an instance of an object
+[Ref B180EB5F] Duplicate stacktrace, see ref for original
+Exception in RimWorld.ThinkNode_ConditionalNotPawnKind TryIssueJobPackage: System.NullReferenceException: Object reference not set to an instance of an object
+[Ref 5FC929E0] Duplicate stacktrace, see ref for original
+Exception in Verse.AI.ThinkNode_Priority TryIssueJobPackage: System.NullReferenceException: Object reference not set to an instance of an object
+[Ref 5FC929E0] Duplicate stacktrace, see ref for original
+Exception in Verse.AI.ThinkNode_PrioritySorter TryIssueJobPackage: System.NullReferenceException: Object reference not set to an instance of an object
+[Ref C72A7E8] Duplicate stacktrace, see ref for original
+Exception in Verse.AI.ThinkNode_Priority TryIssueJobPackage: System.NullReferenceException: Object reference not set to an instance of an object
+[Ref 8E48724B] Duplicate stacktrace, see ref for original
+Exception in Verse.AI.ThinkNode_Priority TryIssueJobPackage: System.NullReferenceException: Object reference not set to an instance of an object
+[Ref B180EB5F] Duplicate stacktrace, see ref for original
+Exception in RimWorld.ThinkNode_ConditionalNotPawnKind TryIssueJobPackage: System.NullReferenceException: Object reference not set to an instance of an object
+[Ref 5FC929E0] Duplicate stacktrace, see ref for original
+Exception in Verse.AI.ThinkNode_Priority TryIssueJobPackage: System.NullReferenceException: Object reference not set to an instance of an object
+[Ref 5FC929E0] Duplicate stacktrace, see ref for original
+Exception in Verse.AI.ThinkNode_Priority TryIssueJobPackage: System.NullReferenceException: Object reference not set to an instance of an object
+[Ref 8E48724B] Duplicate stacktrace, see ref for original
+Exception in Verse.AI.ThinkNode_Priority TryIssueJobPackage: System.NullReferenceException: Object reference not set to an instance of an object
+[Ref B180EB5F] Duplicate stacktrace, see ref for original
+Exception in JobDriver fixed tick for pawn Becky driver=JobDriver_LayDown (toilIndex=1) driver.job=(LayDown (Job_613011) A = (87, 0, 132) Giver = JobGiver_GetRest [workGiverDef: null])
+System.NullReferenceException: Object reference not set to an instance of an object
+[Ref 76E57819] Duplicate stacktrace, see ref for original
+Exception in JobDriver fixed tick for pawn Becky driver=JobDriver_LayDown (toilIndex=1) driver.job=(LayDown (Job_613100) A = (87, 0, 132) Giver = JobGiver_GetRest [workGiverDef: null])
+System.NullReferenceException: Object reference not set to an instance of an object
+[Ref 76E57819] Duplicate stacktrace, see ref for original
+[Yayo's Animation] GC : animation data count [86 -> 39]
+Exception in JobDriver fixed tick for pawn Becky driver=JobDriver_LayDown (toilIndex=1) driver.job=(LayDown (Job_613201) A = (87, 0, 132) Giver = JobGiver_GetRest [workGiverDef: null])
+System.NullReferenceException: Object reference not set to an instance of an object
+[Ref 76E57819] Duplicate stacktrace, see ref for original
+Exception in RimWorld.ThinkNode_ConditionalNotPawnKind TryIssueJobPackage: System.NullReferenceException: Object reference not set to an instance of an object
+[Ref 5FC929E0] Duplicate stacktrace, see ref for original
+Exception in Verse.AI.ThinkNode_Priority TryIssueJobPackage: System.NullReferenceException: Object reference not set to an instance of an object
+[Ref 5FC929E0] Duplicate stacktrace, see ref for original
+Exception in Verse.AI.ThinkNode_PrioritySorter TryIssueJobPackage: System.NullReferenceException: Object reference not set to an instance of an object
+[Ref C72A7E8] Duplicate stacktrace, see ref for original
+Exception in Verse.AI.ThinkNode_Priority TryIssueJobPackage: System.NullReferenceException: Object reference not set to an instance of an object
+[Ref 8E48724B] Duplicate stacktrace, see ref for original
+Exception in Verse.AI.ThinkNode_Priority TryIssueJobPackage: System.NullReferenceException: Object reference not set to an instance of an object
+[Ref B180EB5F] Duplicate stacktrace, see ref for original
+Exception in RimWorld.ThinkNode_ConditionalNotPawnKind TryIssueJobPackage: System.NullReferenceException: Object reference not set to an instance of an object
+[Ref 5FC929E0] Duplicate stacktrace, see ref for original
+Exception in Verse.AI.ThinkNode_Priority TryIssueJobPackage: System.NullReferenceException: Object reference not set to an instance of an object
+[Ref 5FC929E0] Duplicate stacktrace, see ref for original
+Exception in Verse.AI.ThinkNode_Priority TryIssueJobPackage: System.NullReferenceException: Object reference not set to an instance of an object
+[Ref 8E48724B] Duplicate stacktrace, see ref for original
+Exception in Verse.AI.ThinkNode_Priority TryIssueJobPackage: System.NullReferenceException: Object reference not set to an instance of an object
+[Ref B180EB5F] Duplicate stacktrace, see ref for original
+Exception in RimWorld.ThinkNode_ConditionalNotPawnKind TryIssueJobPackage: System.NullReferenceException: Object reference not set to an instance of an object
+[Ref 5FC929E0] Duplicate stacktrace, see ref for original
+Exception in Verse.AI.ThinkNode_Priority TryIssueJobPackage: System.NullReferenceException: Object reference not set to an instance of an object
+[Ref 5FC929E0] Duplicate stacktrace, see ref for original
+Exception in Verse.AI.ThinkNode_Priority TryIssueJobPackage: System.NullReferenceException: Object reference not set to an instance of an object
+[Ref 3DAF9377] Duplicate stacktrace, see ref for original
+Exception in RimWorld.ThinkNode_ConditionalNotPawnKind TryIssueJobPackage: System.NullReferenceException: Object reference not set to an instance of an object
+[Ref 5FC929E0] Duplicate stacktrace, see ref for original
+Exception in Verse.AI.ThinkNode_Priority TryIssueJobPackage: System.NullReferenceException: Object reference not set to an instance of an object
+[Ref 5FC929E0] Duplicate stacktrace, see ref for original
+Exception in Verse.AI.ThinkNode_Priority TryIssueJobPackage: System.NullReferenceException: Object reference not set to an instance of an object
+[Ref 3DAF9377] Duplicate stacktrace, see ref for original
+Exception in RimWorld.ThinkNode_ConditionalNotPawnKind TryIssueJobPackage: System.NullReferenceException: Object reference not set to an instance of an object
+[Ref 5FC929E0] Duplicate stacktrace, see ref for original
+Exception in Verse.AI.ThinkNode_Priority TryIssueJobPackage: System.NullReferenceException: Object reference not set to an instance of an object
+[Ref 5FC929E0] Duplicate stacktrace, see ref for original
+Exception in Verse.AI.ThinkNode_PrioritySorter TryIssueJobPackage: System.NullReferenceException: Object reference not set to an instance of an object
+[Ref C72A7E8] Duplicate stacktrace, see ref for original
+Exception in Verse.AI.ThinkNode_Priority TryIssueJobPackage: System.NullReferenceException: Object reference not set to an instance of an object
+[Ref 8E48724B] Duplicate stacktrace, see ref for original
+Exception in Verse.AI.ThinkNode_Priority TryIssueJobPackage: System.NullReferenceException: Object reference not set to an instance of an object
+[Ref B180EB5F] Duplicate stacktrace, see ref for original
+Exception in RimWorld.ThinkNode_ConditionalNotPawnKind TryIssueJobPackage: System.NullReferenceException: Object reference not set to an instance of an object
+[Ref 5FC929E0] Duplicate stacktrace, see ref for original
+Exception in Verse.AI.ThinkNode_Priority TryIssueJobPackage: System.NullReferenceException: Object reference not set to an instance of an object
+[Ref 5FC929E0] Duplicate stacktrace, see ref for original
+Exception in Verse.AI.ThinkNode_Priority TryIssueJobPackage: System.NullReferenceException: Object reference not set to an instance of an object
+[Ref 8E48724B] Duplicate stacktrace, see ref for original
+Exception in Verse.AI.ThinkNode_Priority TryIssueJobPackage: System.NullReferenceException: Object reference not set to an instance of an object
+[Ref B180EB5F] Duplicate stacktrace, see ref for original
+Exception in RimWorld.ThinkNode_ConditionalNotPawnKind TryIssueJobPackage: System.NullReferenceException: Object reference not set to an instance of an object
+[Ref 5FC929E0] Duplicate stacktrace, see ref for original
+Exception in Verse.AI.ThinkNode_Priority TryIssueJobPackage: System.NullReferenceException: Object reference not set to an instance of an object
+[Ref 5FC929E0] Duplicate stacktrace, see ref for original
+Exception in Verse.AI.ThinkNode_Priority TryIssueJobPackage: System.NullReferenceException: Object reference not set to an instance of an object
+[Ref 3DAF9377] Duplicate stacktrace, see ref for original
+Exception in RimWorld.ThinkNode_ConditionalNotPawnKind TryIssueJobPackage: System.NullReferenceException: Object reference not set to an instance of an object
+[Ref 5FC929E0] Duplicate stacktrace, see ref for original
+Exception in Verse.AI.ThinkNode_Priority TryIssueJobPackage: System.NullReferenceException: Object reference not set to an instance of an object
+[Ref 5FC929E0] Duplicate stacktrace, see ref for original
+Exception in Verse.AI.ThinkNode_Priority TryIssueJobPackage: System.NullReferenceException: Object reference not set to an instance of an object
+[Ref 3DAF9377] Duplicate stacktrace, see ref for original
+Exception in RimWorld.ThinkNode_ConditionalNotPawnKind TryIssueJobPackage: System.NullReferenceException: Object reference not set to an instance of an object
+[Ref 5FC929E0] Duplicate stacktrace, see ref for original
+Exception in Verse.AI.ThinkNode_Priority TryIssueJobPackage: System.NullReferenceException: Object reference not set to an instance of an object
+[Ref 5FC929E0] Duplicate stacktrace, see ref for original
+Exception in Verse.AI.ThinkNode_PrioritySorter TryIssueJobPackage: System.NullReferenceException: Object reference not set to an instance of an object
+[Ref C72A7E8] Duplicate stacktrace, see ref for original
+Exception in Verse.AI.ThinkNode_Priority TryIssueJobPackage: System.NullReferenceException: Object reference not set to an instance of an object
+[Ref 8E48724B] Duplicate stacktrace, see ref for original
+Exception in Verse.AI.ThinkNode_Priority TryIssueJobPackage: System.NullReferenceException: Object reference not set to an instance of an object
+[Ref B180EB5F] Duplicate stacktrace, see ref for original
+Exception in RimWorld.ThinkNode_ConditionalNotPawnKind TryIssueJobPackage: System.NullReferenceException: Object reference not set to an instance of an object
+[Ref 5FC929E0] Duplicate stacktrace, see ref for original
+Exception in Verse.AI.ThinkNode_Priority TryIssueJobPackage: System.NullReferenceException: Object reference not set to an instance of an object
+[Ref 5FC929E0] Duplicate stacktrace, see ref for original
+Exception in Verse.AI.ThinkNode_Priority TryIssueJobPackage: System.NullReferenceException: Object reference not set to an instance of an object
+[Ref 8E48724B] Duplicate stacktrace, see ref for original
+Exception in Verse.AI.ThinkNode_Priority TryIssueJobPackage: System.NullReferenceException: Object reference not set to an instance of an object
+[Ref B180EB5F] Duplicate stacktrace, see ref for original
+Exception in RimWorld.ThinkNode_ConditionalNotPawnKind TryIssueJobPackage: System.NullReferenceException: Object reference not set to an instance of an object
+[Ref 5FC929E0] Duplicate stacktrace, see ref for original
+Exception in Verse.AI.ThinkNode_Priority TryIssueJobPackage: System.NullReferenceException: Object reference not set to an instance of an object
+[Ref 5FC929E0] Duplicate stacktrace, see ref for original
+Exception in Verse.AI.ThinkNode_PrioritySorter TryIssueJobPackage: System.NullReferenceException: Object reference not set to an instance of an object
+[Ref C72A7E8] Duplicate stacktrace, see ref for original
+Exception in Verse.AI.ThinkNode_Priority TryIssueJobPackage: System.NullReferenceException: Object reference not set to an instance of an object
+[Ref 8E48724B] Duplicate stacktrace, see ref for original
+Exception in Verse.AI.ThinkNode_Priority TryIssueJobPackage: System.NullReferenceException: Object reference not set to an instance of an object
+[Ref B180EB5F] Duplicate stacktrace, see ref for original
+Exception in RimWorld.ThinkNode_ConditionalNotPawnKind TryIssueJobPackage: System.NullReferenceException: Object reference not set to an instance of an object
+[Ref 5FC929E0] Duplicate stacktrace, see ref for original
+Exception in Verse.AI.ThinkNode_Priority TryIssueJobPackage: System.NullReferenceException: Object reference not set to an instance of an object
+[Ref 5FC929E0] Duplicate stacktrace, see ref for original
+Exception in Verse.AI.ThinkNode_Priority TryIssueJobPackage: System.NullReferenceException: Object reference not set to an instance of an object
+[Ref 8E48724B] Duplicate stacktrace, see ref for original
+Exception in Verse.AI.ThinkNode_Priority TryIssueJobPackage: System.NullReferenceException: Object reference not set to an instance of an object
+[Ref B180EB5F] Duplicate stacktrace, see ref for original
+Cannot drop RRY_Xenomorph_Warrior73671 without a dropLoc and with an owner whose map is null.
+Cannot drop RRY_Xenomorph_Queen55913 without a dropLoc and with an owner whose map is null.
+Cannot drop RRY_Xenomorph_Drone62664 without a dropLoc and with an owner whose map is null.
+Cannot drop RRY_Xenomorph_Warrior119794 without a dropLoc and with an owner whose map is null.
+Trying to save reference to a discarded thing Chicken59528 with saveDestroyedThings=true. This means that it's not deep-saved anywhere and is no longer managed by anything in the code, so saving its reference will always fail. , label=pawn
+Trying to save reference to a discarded thing AA_PedigreedRaptor55957 with saveDestroyedThings=true. This means that it's not deep-saved anywhere and is no longer managed by anything in the code, so saving its reference will always fail. , label=pawn
+Wrote screenshot C:\Users\clint\AppData\LocalLow\Ludeon Studios\RimWorld by Ludeon Studios\RimSaves\Previews\Autosave-2.dat of size 90057
+[Yayo's Animation] GC : animation data count [115 -> 46]
+Exception in RimWorld.ThinkNode_ConditionalNotPawnKind TryIssueJobPackage: System.NullReferenceException: Object reference not set to an instance of an object
+[Ref 5FC929E0] Duplicate stacktrace, see ref for original
+Exception in Verse.AI.ThinkNode_Priority TryIssueJobPackage: System.NullReferenceException: Object reference not set to an instance of an object
+[Ref 5FC929E0] Duplicate stacktrace, see ref for original
+Exception in Verse.AI.ThinkNode_PrioritySorter TryIssueJobPackage: System.NullReferenceException: Object reference not set to an instance of an object
+[Ref C72A7E8] Duplicate stacktrace, see ref for original
+Exception in Verse.AI.ThinkNode_Priority TryIssueJobPackage: System.NullReferenceException: Object reference not set to an instance of an object
+[Ref 8E48724B] Duplicate stacktrace, see ref for original
+Exception in Verse.AI.ThinkNode_Priority TryIssueJobPackage: System.NullReferenceException: Object reference not set to an instance of an object
+[Ref B180EB5F] Duplicate stacktrace, see ref for original
+Exception in RimWorld.ThinkNode_ConditionalNotPawnKind TryIssueJobPackage: System.NullReferenceException: Object reference not set to an instance of an object
+[Ref 5FC929E0] Duplicate stacktrace, see ref for original
+Exception in Verse.AI.ThinkNode_Priority TryIssueJobPackage: System.NullReferenceException: Object reference not set to an instance of an object
+[Ref 5FC929E0] Duplicate stacktrace, see ref for original
+Exception in Verse.AI.ThinkNode_Priority TryIssueJobPackage: System.NullReferenceException: Object reference not set to an instance of an object
+[Ref 8E48724B] Duplicate stacktrace, see ref for original
+Exception in Verse.AI.ThinkNode_Priority TryIssueJobPackage: System.NullReferenceException: Object reference not set to an instance of an object
+[Ref B180EB5F] Duplicate stacktrace, see ref for original
+Exception in RimWorld.ThinkNode_ConditionalNotPawnKind TryIssueJobPackage: System.NullReferenceException: Object reference not set to an instance of an object
+[Ref 5FC929E0] Duplicate stacktrace, see ref for original
+Exception in Verse.AI.ThinkNode_Priority TryIssueJobPackage: System.NullReferenceException: Object reference not set to an instance of an object
+[Ref 5FC929E0] Duplicate stacktrace, see ref for original
+Exception in Verse.AI.ThinkNode_Priority TryIssueJobPackage: System.NullReferenceException: Object reference not set to an instance of an object
+[Ref 3DAF9377] Duplicate stacktrace, see ref for original
+Exception in RimWorld.ThinkNode_ConditionalNotPawnKind TryIssueJobPackage: System.NullReferenceException: Object reference not set to an instance of an object
+[Ref 5FC929E0] Duplicate stacktrace, see ref for original
+Exception in Verse.AI.ThinkNode_Priority TryIssueJobPackage: System.NullReferenceException: Object reference not set to an instance of an object
+[Ref 5FC929E0] Duplicate stacktrace, see ref for original
+Exception in Verse.AI.ThinkNode_Priority TryIssueJobPackage: System.NullReferenceException: Object reference not set to an instance of an object
+[Ref 3DAF9377] Duplicate stacktrace, see ref for original
+Exception in RimWorld.ThinkNode_ConditionalNotPawnKind TryIssueJobPackage: System.NullReferenceException: Object reference not set to an instance of an object
+[Ref 5FC929E0] Duplicate stacktrace, see ref for original
+Exception in Verse.AI.ThinkNode_Priority TryIssueJobPackage: System.NullReferenceException: Object reference not set to an instance of an object
+[Ref 5FC929E0] Duplicate stacktrace, see ref for original
+Exception in Verse.AI.ThinkNode_PrioritySorter TryIssueJobPackage: System.NullReferenceException: Object reference not set to an instance of an object
+[Ref C72A7E8] Duplicate stacktrace, see ref for original
+Exception in Verse.AI.ThinkNode_Priority TryIssueJobPackage: System.NullReferenceException: Object reference not set to an instance of an object
+[Ref 8E48724B] Duplicate stacktrace, see ref for original
+Exception in Verse.AI.ThinkNode_Priority TryIssueJobPackage: System.NullReferenceException: Object reference not set to an instance of an object
+[Ref B180EB5F] Duplicate stacktrace, see ref for original
+Exception in RimWorld.ThinkNode_ConditionalNotPawnKind TryIssueJobPackage: System.NullReferenceException: Object reference not set to an instance of an object
+[Ref 5FC929E0] Duplicate stacktrace, see ref for original
+Exception in Verse.AI.ThinkNode_Priority TryIssueJobPackage: System.NullReferenceException: Object reference not set to an instance of an object
+[Ref 5FC929E0] Duplicate stacktrace, see ref for original
+Exception in Verse.AI.ThinkNode_Priority TryIssueJobPackage: System.NullReferenceException: Object reference not set to an instance of an object
+[Ref 8E48724B] Duplicate stacktrace, see ref for original
+Exception in Verse.AI.ThinkNode_Priority TryIssueJobPackage: System.NullReferenceException: Object reference not set to an instance of an object
+[Ref B180EB5F] Duplicate stacktrace, see ref for original
+Exception in RimWorld.ThinkNode_ConditionalNotPawnKind TryIssueJobPackage: System.NullReferenceException: Object reference not set to an instance of an object
+[Ref 5FC929E0] Duplicate stacktrace, see ref for original
+Exception in Verse.AI.ThinkNode_Priority TryIssueJobPackage: System.NullReferenceException: Object reference not set to an instance of an object
+[Ref 5FC929E0] Duplicate stacktrace, see ref for original
+Exception in Verse.AI.ThinkNode_Priority TryIssueJobPackage: System.NullReferenceException: Object reference not set to an instance of an object
+[Ref 3DAF9377] Duplicate stacktrace, see ref for original
+RRY_Xenomorph_Drone62664 started 10 jobs in one tick. newJob=Wait (Job_632281) jobGiver=Verse.AI.JobGiver_IdleError jobList=
+Exception in RimWorld.ThinkNode_ConditionalNotPawnKind TryIssueJobPackage: System.NullReferenceException: Object reference not set to an instance of an object
+[Ref 5FC929E0] Duplicate stacktrace, see ref for original
+Exception in Verse.AI.ThinkNode_Priority TryIssueJobPackage: System.NullReferenceException: Object reference not set to an instance of an object
+[Ref 5FC929E0] Duplicate stacktrace, see ref for original
+Exception in Verse.AI.ThinkNode_Priority TryIssueJobPackage: System.NullReferenceException: Object reference not set to an instance of an object
+[Ref 3DAF9377] Duplicate stacktrace, see ref for original
+RRY_Xenomorph_Warrior119794 started 10 jobs in one tick. newJob=Wait (Job_632283) jobGiver=Verse.AI.JobGiver_IdleError jobList=
+Exception in RimWorld.ThinkNode_ConditionalNotPawnKind TryIssueJobPackage: System.NullReferenceException: Object reference not set to an instance of an object
+[Ref 5FC929E0] Duplicate stacktrace, see ref for original
+Exception in Verse.AI.ThinkNode_Priority TryIssueJobPackage: System.NullReferenceException: Object reference not set to an instance of an object
+[Ref 5FC929E0] Duplicate stacktrace, see ref for original
+Exception in Verse.AI.ThinkNode_PrioritySorter TryIssueJobPackage: System.NullReferenceException: Object reference not set to an instance of an object
+[Ref C72A7E8] Duplicate stacktrace, see ref for original
+Exception in Verse.AI.ThinkNode_Priority TryIssueJobPackage: System.NullReferenceException: Object reference not set to an instance of an object
+[Ref 8E48724B] Duplicate stacktrace, see ref for original
+Exception in Verse.AI.ThinkNode_Priority TryIssueJobPackage: System.NullReferenceException: Object reference not set to an instance of an object
+[Ref B180EB5F] Duplicate stacktrace, see ref for original
+Exception in RimWorld.ThinkNode_ConditionalNotPawnKind TryIssueJobPackage: System.NullReferenceException: Object reference not set to an instance of an object
+[Ref 5FC929E0] Duplicate stacktrace, see ref for original
+Exception in Verse.AI.ThinkNode_Priority TryIssueJobPackage: System.NullReferenceException: Object reference not set to an instance of an object
+[Ref 5FC929E0] Duplicate stacktrace, see ref for original
+Exception in Verse.AI.ThinkNode_Priority TryIssueJobPackage: System.NullReferenceException: Object reference not set to an instance of an object
+[Ref 8E48724B] Duplicate stacktrace, see ref for original
+Exception in Verse.AI.ThinkNode_Priority TryIssueJobPackage: System.NullReferenceException: Object reference not set to an instance of an object
+[Ref B180EB5F] Duplicate stacktrace, see ref for original
+Trying to save reference to a discarded thing Chicken59528 with saveDestroyedThings=true. This means that it's not deep-saved anywhere and is no longer managed by anything in the code, so saving its reference will always fail. , label=pawn
+Trying to save reference to a discarded thing AA_PedigreedRaptor55957 with saveDestroyedThings=true. This means that it's not deep-saved anywhere and is no longer managed by anything in the code, so saving its reference will always fail. , label=pawn
+Wrote screenshot C:\Users\clint\AppData\LocalLow\Ludeon Studios\RimWorld by Ludeon Studios\RimSaves\Previews\Autosave-3.dat of size 101105
+Exception in RimWorld.ThinkNode_ConditionalNotPawnKind TryIssueJobPackage: System.NullReferenceException: Object reference not set to an instance of an object
+[Ref 5FC929E0] Duplicate stacktrace, see ref for original
+Exception in Verse.AI.ThinkNode_Priority TryIssueJobPackage: System.NullReferenceException: Object reference not set to an instance of an object
+[Ref 5FC929E0] Duplicate stacktrace, see ref for original
+Exception in Verse.AI.ThinkNode_PrioritySorter TryIssueJobPackage: System.NullReferenceException: Object reference not set to an instance of an object
+[Ref C72A7E8] Duplicate stacktrace, see ref for original
+Exception in Verse.AI.ThinkNode_Priority TryIssueJobPackage: System.NullReferenceException: Object reference not set to an instance of an object
+[Ref 8E48724B] Duplicate stacktrace, see ref for original
+Exception in Verse.AI.ThinkNode_Priority TryIssueJobPackage: System.NullReferenceException: Object reference not set to an instance of an object
+[Ref B180EB5F] Duplicate stacktrace, see ref for original
+Exception in RimWorld.ThinkNode_ConditionalNotPawnKind TryIssueJobPackage: System.NullReferenceException: Object reference not set to an instance of an object
+[Ref 5FC929E0] Duplicate stacktrace, see ref for original
+Exception in Verse.AI.ThinkNode_Priority TryIssueJobPackage: System.NullReferenceException: Object reference not set to an instance of an object
+[Ref 5FC929E0] Duplicate stacktrace, see ref for original
+Exception in Verse.AI.ThinkNode_Priority TryIssueJobPackage: System.NullReferenceException: Object reference not set to an instance of an object
+[Ref 8E48724B] Duplicate stacktrace, see ref for original
+Exception in Verse.AI.ThinkNode_Priority TryIssueJobPackage: System.NullReferenceException: Object reference not set to an instance of an object
+[Ref B180EB5F] Duplicate stacktrace, see ref for original
+[Yayo's Animation] GC : animation data count [127 -> 58]
+Trying to save reference to a discarded thing Chicken59528 with saveDestroyedThings=true. This means that it's not deep-saved anywhere and is no longer managed by anything in the code, so saving its reference will always fail. , label=pawn
+Trying to save reference to a discarded thing AA_PedigreedRaptor55957 with saveDestroyedThings=true. This means that it's not deep-saved anywhere and is no longer managed by anything in the code, so saving its reference will always fail. , label=pawn
+Wrote screenshot C:\Users\clint\AppData\LocalLow\Ludeon Studios\RimWorld by Ludeon Studios\RimSaves\Previews\Autosave-4.dat of size 159308
+Exception in RimWorld.ThinkNode_ConditionalNotPawnKind TryIssueJobPackage: System.NullReferenceException: Object reference not set to an instance of an object
+[Ref 5FC929E0] Duplicate stacktrace, see ref for original
+Exception in Verse.AI.ThinkNode_Priority TryIssueJobPackage: System.NullReferenceException: Object reference not set to an instance of an object
+[Ref 5FC929E0] Duplicate stacktrace, see ref for original
+Exception in Verse.AI.ThinkNode_Priority TryIssueJobPackage: System.NullReferenceException: Object reference not set to an instance of an object
+[Ref 8E48724B] Duplicate stacktrace, see ref for original
+Exception in Verse.AI.ThinkNode_Priority TryIssueJobPackage: System.NullReferenceException: Object reference not set to an instance of an object
+[Ref B180EB5F] Duplicate stacktrace, see ref for original
+Exception in RimWorld.ThinkNode_ConditionalNotPawnKind TryIssueJobPackage: System.NullReferenceException: Object reference not set to an instance of an object
+[Ref 5FC929E0] Duplicate stacktrace, see ref for original
+Exception in Verse.AI.ThinkNode_Priority TryIssueJobPackage: System.NullReferenceException: Object reference not set to an instance of an object
+[Ref 5FC929E0] Duplicate stacktrace, see ref for original
+Exception in Verse.AI.ThinkNode_Priority TryIssueJobPackage: System.NullReferenceException: Object reference not set to an instance of an object
+[Ref 3DAF9377] Duplicate stacktrace, see ref for original
+Exception in RimWorld.ThinkNode_ConditionalNotPawnKind TryIssueJobPackage: System.NullReferenceException: Object reference not set to an instance of an object
+[Ref 5FC929E0] Duplicate stacktrace, see ref for original
+Exception in Verse.AI.ThinkNode_Priority TryIssueJobPackage: System.NullReferenceException: Object reference not set to an instance of an object
+[Ref 5FC929E0] Duplicate stacktrace, see ref for original
+Exception in Verse.AI.ThinkNode_Priority TryIssueJobPackage: System.NullReferenceException: Object reference not set to an instance of an object
+[Ref 3DAF9377] Duplicate stacktrace, see ref for original
+Exception in RimWorld.ThinkNode_ConditionalNotPawnKind TryIssueJobPackage: System.NullReferenceException: Object reference not set to an instance of an object
+[Ref 5FC929E0] Duplicate stacktrace, see ref for original
+Exception in Verse.AI.ThinkNode_Priority TryIssueJobPackage: System.NullReferenceException: Object reference not set to an instance of an object
+[Ref 5FC929E0] Duplicate stacktrace, see ref for original
+Exception in Verse.AI.ThinkNode_Priority TryIssueJobPackage: System.NullReferenceException: Object reference not set to an instance of an object
+[Ref 8E48724B] Duplicate stacktrace, see ref for original
+Exception in Verse.AI.ThinkNode_Priority TryIssueJobPackage: System.NullReferenceException: Object reference not set to an instance of an object
+[Ref B180EB5F] Duplicate stacktrace, see ref for original
+Exception in RimWorld.ThinkNode_ConditionalNotPawnKind TryIssueJobPackage: System.NullReferenceException: Object reference not set to an instance of an object
+[Ref 5FC929E0] Duplicate stacktrace, see ref for original
+Exception in Verse.AI.ThinkNode_Priority TryIssueJobPackage: System.NullReferenceException: Object reference not set to an instance of an object
+[Ref 5FC929E0] Duplicate stacktrace, see ref for original
+Exception in Verse.AI.ThinkNode_Priority TryIssueJobPackage: System.NullReferenceException: Object reference not set to an instance of an object
+[Ref 8E48724B] Duplicate stacktrace, see ref for original
+Exception in Verse.AI.ThinkNode_Priority TryIssueJobPackage: System.NullReferenceException: Object reference not set to an instance of an object
+[Ref B180EB5F] Duplicate stacktrace, see ref for original
+Exception in RimWorld.ThinkNode_ConditionalNotPawnKind TryIssueJobPackage: System.NullReferenceException: Object reference not set to an instance of an object
+[Ref 5FC929E0] Duplicate stacktrace, see ref for original
+Exception in Verse.AI.ThinkNode_Priority TryIssueJobPackage: System.NullReferenceException: Object reference not set to an instance of an object
+[Ref 5FC929E0] Duplicate stacktrace, see ref for original
+Exception in Verse.AI.ThinkNode_Priority TryIssueJobPackage: System.NullReferenceException: Object reference not set to an instance of an object
+[Ref 3DAF9377] Duplicate stacktrace, see ref for original
+[Yayo's Animation] GC : animation data count [130 -> 45]
+Trying to save reference to a discarded thing Chicken59528 with saveDestroyedThings=true. This means that it's not deep-saved anywhere and is no longer managed by anything in the code, so saving its reference will always fail. , label=pawn
+Trying to save reference to a discarded thing AA_PedigreedRaptor55957 with saveDestroyedThings=true. This means that it's not deep-saved anywhere and is no longer managed by anything in the code, so saving its reference will always fail. , label=pawn
+Wrote screenshot C:\Users\clint\AppData\LocalLow\Ludeon Studios\RimWorld by Ludeon Studios\RimSaves\Previews\USCSS.dat of size 134181
+Unloading 2 Unused Serialized files (Serialized files now loaded: 16)
+Unloading 4876 unused Assets to reduce memory usage. Loaded Objects now: 93851.
+Total: 902.141200 ms (FindLiveObjects: 22.467100 ms CreateObjectMapping: 7.039400 ms MarkObjects: 865.738100 ms  DeleteObjects: 6.896000 ms)
+
+Unloading 2 Unused Serialized files (Serialized files now loaded: 16)
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+UnloadTime: 0.806100 ms
+Unloading 13 unused Assets to reduce memory usage. Loaded Objects now: 93796.
+Total: 1004.753800 ms (FindLiveObjects: 4.676000 ms CreateObjectMapping: 5.702100 ms MarkObjects: 994.150300 ms  DeleteObjects: 0.225200 ms)
+
+Loading game from file USCSS with mods:
+  - brrainz.harmony
+  - ilyvion.LoadingProgress
+  - Ludeon.RimWorld
+  - Ludeon.RimWorld.Royalty
+  - Ludeon.RimWorld.Ideology
+  - Ludeon.RimWorld.Biotech
+  - Ludeon.RimWorld.Anomaly
+  - Ludeon.RimWorld.Odyssey
+  - RedMattis.BetterPrerequisites
+  - UnlimitedHugs.HugsLib
+  - telardo.BetterGeneGraphicsFramework
+  - JintuziLamian.Gene.XenoCosmetic
+  - Ogliss.AVPXenomorphs
+  - Nals.FacialAnimation
+  - Reel.FacialAnims
+  - sd.fa.reelsadjustments
+  - VanillaExpanded.VTEXE.FacialAnims
+  - sd.fa.vteadjustments
+  - LiterallyFree.ColonistReturnBuff
+  - adaptive.storage.framework
+  - OskarPotocki.VanillaFactionsExpanded.Core
+  - SmashPhil.VehicleFramework
+  - OskarPotocki.VanillaVehiclesExpanded
+  - Endy.Airtightgarage
+  - AndrewRaphaelLukasik.AllowDeadAnimals
+  - cucumpear.azrael.varietycoats
+  - Inglix.ApparelTaintedOnCorpseRot
+  - zal.artifactsexpanded
+  - Defi.AutoCutBlight
+  - Mlie.AutopsyTable
+  - falconne.AFF
+  - Chaotic.BarelyBetterSpots
+  - RedMattis.BetterGeneInheritance
+  - falconne.BWM
+  - Owlchemist.FridgeUtilities
+  - VanillaExpanded.VPsycastsE
+  - dev.tobot.vpe.betterautocast
+  - Daria40K.BigLittleModPatch
+  - RedMattis.BiggerGravship
+  - Mlie.BioReactor
+  - Milkman.BiotechCosmeticGenesMM
+  - Fuu.BloodAnimations
+  - Darknote.BunkBeds
+  - CrashM.ColorCodedMoodBar.11
+  - brrainz.cameraplus
+  - Aoba.CargoContainer.Waste
+  - void.charactereditor
+  - sarg.alphaanimals
+  - IH.Clean.Textures
+  - Cerule.CleaningAreaRelaunched
+  - avilmask.CommonSense
+  - Sea.ConsistentGeneInheritanceContinued
+  - imranfish.xmlextensions
+  - NuanKi.ControlledRituals
+  - zal.covetheus.nohar
+  - lts.CC
+  - CaesarV6.DamageIndicators
+  - killerbot.gtekdevilstrandsynthesis
+  - Mlie.DifferentEggSizes
+  - Woolyung.DoTheRitualsYourselves
+  - jecrell.doorsexpanded
+  - telardo.DragSelect
+  - Dubwise.DubsMintMenus
+  - dubwise.dubsmintminimap
+  - zeracronius.dynamictradeinterface
+  - Mlie.EnemySelfPreservation
+  - Erin.FluffyFauna
+  - Erin.Hairredux
+  - Romyashi.ExtractAnyPlant
+  - azravos.factioncustomizer
+  - Aelanna.FistNerf
+  - vanillaracesexpanded.android
+  - quartz.floorstoragetanks
+  - bean.xeno.gnolls
+  - Thumb.GoreMod
+  - Telefonmast.GraphicsSettings
+  - Kattalisk.GravEngineGivesPower
+  - SuperPox.GravshipBiofuelRefineryAddOn
+  - Kilo.CapVacHelm
+  - Zaire82.HDHeadAttatchmentsForFacialAnimation
+  - jkluch.HaulToStack
+  - Tory.Icons.Historical
+  - VanillaExpanded.VanillaAnimalsExpanded
+  - zal.hyena
+  - dev.soeur.imageopt
+  - toxicyui.impactfulskills.modsupport
+  - 400.ImpassableHChestUdeepHWater
+  - Dragoon103.LARVA
+  - Taveron.IncreasedStack
+  - Aoba.Fortress.Industrial.Concrete
+  - futurplanet.industrialconcretefloorpatch
+  - Koth.ISiD
+  - ASF.DeepStorage
+  - costel.layeredapparel
+  - Mlie.LogAfterDefError
+  - zal.majesticfoilageframework
+  - zal.majesticcomigopack
+  - zal.majesticcmt
+  - plaxen.MalangBodies
+  - m00nl1ght.MapPreview
+  - Samael.NPCMechsAndAnimals
+  - sumghai.Medpod
+  - co.uk.epicguru.meleeanimation
+  - notfood.MendAndRecycle
+  - Cain.Mineshaft
+  - erdelf.MinifyEverything
+  - Hol.Words
+  - mosi.MoreMiniHorns
+  - kirby.morereligiousorigins
+  - Bichang.MoreSculpture
+  - Jiopaba.Fences
+  - tidal.morevanilla.textures
+  - kenzej.multihunter
+  - zal.musicmanager
+  - zal.namesgalore
+  - VitaKaninen.ShelfPatch
+  - Doug.NoJobAuthors
+  - godlyannihilator.novanillamusic
+  - mrwireman.Noconduit
+  - vera.bug
+  - smallmine.HeavyShuttle
+  - PackMulesExtended.Standard
+  - komunre.BetterExp.PassiveResearch
+  - Mlie.PawnNameVariety
+  - ponpeco.PFSF
+  - Mlie.PredatorHuntAlert
+  - ocarina.prisonerjumpsuits
+  - DawnsGlow.qualcolor
+  - sdknm2.QualityOfBuilding
+  - ratys.rtsolarflareshield
+  - Mlie.RealisticHumanSounds
+  - Mlie.RelevantStatsInDescription
+  - sirrandoo.rda
+  - Memegoddess.ReplaceStuff
+  - Aelanna.ResearchTabColors
+  - LingLuo.Cockroach
+  - Mlie.RimofMadnessArachnophobia
+  - Keepercraft.RimKeeperAnimals
+  - naft.rimmercenaries
+  - aRandomKiwi.RimSaves
+  - Sierra.RT.GeneralTraits
+  - rimsenal.EVP
+  - rimsenal.core
+  - rimsenal.security
+  - rimsenal.hair
+  - Neronix17.Retexture.RimsenalRimhair
+  - Mlie.RunAndHide
+  - MemeGoddess.RunAndGun
+  - sneezingseal.sealsbackstorycollection
+  - MemeGoddess.SearchAndDestroy
+  - avilmask.SelfDyeing
+  - kathanon.ShowAllMaterials
+  - BP.ShowBuildableMaterialCount
+  - zal.simplefxshinies
+  - automatic.traderships
+  - VanillaExpanded.VCookE
+  - OskarPotocki.VanillaFactionsExpanded.SettlersModule
+  - VanillaExpanded.VFECore
+  - VanillaExpanded.VFEProduction
+  - Owlchemist.SimpleFX.Smoke2
+  - Owlchemist.SimpleFX.Splashes
+  - Atlas.SimpleFX.Vapor.Revaporized
+  - vanillaracesexpanded.highmate
+  - vanillaracesexpanded.pigskin
+  - vanillaracesexpanded.sanguophage
+  - buyue.SimpleTextureTweaks
+  - PeteTimesSix.SimpleSidearms
+  - Haecriver.SimplyMoreColors
+  - Memegoddess.SmartMedicine
+  - sarg.smartspeed
+  - dhultgren.smarterconstruction
+  - sirrandoo.msf
+  - marvinkosh.sometimesraidsgowrong
+  - cgf1.songsfortherim
+  - Garwel.StartingTechLevel
+  - balistafreak.StopDropAndRoll
+  - sakama.StorytellerHair
+  - moistestWhale.stuffOnTablesForked
+  - MemeGoddess.TDPack
+  - Memegoddess.TDSBugFixes
+  - Xale86.TacticalChargeWeapons
+  - void.terraformrimworld
+  - TheEverythingPackLegoBoi.Ideo.IconsandSymbols
+  - zmysk.The.Fire.Rises.In.Rim.Music.Channel.In.Chaos.World
+  - Febvre.TheOrientalMusicPack.ContinuedVersion
+  - GT.Sam.TilledSoil
+  - Propickelz.TinkerBench
+  - RedMattis.BigSmall.Core
+  - RedMattis.MoreXenos
+  - Aoba.Tent
+  - rimsenal.federation
+  - VanillaExpanded.VARME
+  - VanillaExpanded.VBrewE
+  - OskarPotocki.VFE.Empire
+  - OskarPotocki.VFE.Deserters
+  - VanillaExpanded.VWE
+  - OskarPotocki.VFE.Pirates
+  - OskarPotocki.VFE.Tribals
+  - VanillaExpanded.VFESpacer
+  - Spino.Megafauna
+  - VanillaExpanded.VGeneticsE
+  - VanillaExpanded.VBooksE
+  - VanillaExpanded.VMemesE
+  - VanillaExpanded.VanillaSocialInteractionsExpanded
+  - VanillaExpanded.VanillaTraitsExpanded
+  - VanillaExpanded.VWEG
+  - Wara.toomanymods
+  - CarnySenpai.TraitRarityColors
+  - UNAGI.apparel.B.Zibunyou
+  - VanillaExpanded.VAEEndAndExt
+  - VanillaExpanded.VAERoy
+  - VanillaExpanded.VAEWaste
+  - VanillaExpanded.VAPPE
+  - VanillaExpanded.VAEAccessories
+  - VanillaExpanded.VanillaBackstoriesExpanded
+  - VanillaExpanded.BaseGeneration
+  - Neronix17.Retexture.VanillaBeards
+  - VanillaExpanded.VEE
+  - VanillaExpanded.VFEMedical
+  - VanillaExpanded.VHE
+  - Neronix17.Retexture.VanillaHair
+  - VanillaExpanded.VIEHAR
+  - VanillaExpanded.Ideo.IconsandSymbols
+  - VanillaExpanded.Ideo.RelicsAndArtifacts
+  - VanillaExpanded.Ideo.SophianStyle
+  - vanillaexpanded.outposts
+  - vanillaracesexpanded.customicons
+  - Jaxe.RimHUD
+  - vanillaexpanded.skills
+  - VanillaExpanded.Temperature
+  - OskarPotocki.VanillaVehiclesExpandedUpgrades
+  - VanillaExpanded.VWEBF
+  - VanillaExpanded.VWEC
+  - VanillaExpanded.VWENL
+  - VanillaExpanded.VWEQ
+  - tro.vwe.overhaul
+  - kongkim.VanillaPackedDirt
+  - Mlie.VariousSpaceShipChunk
+  - NuanKi.LocalFlight
+  - OskarPotocki.VanillaVehiclesExpandedTier3
+  - Explorern11.VehiclesWrecksExpanded
+  - VehiclesWrecksExpanded.Revisited
+  - co.uk.epicguru.whatsthatmod
+  - MemeGoddess.GiddyUp
+  - automatic.gunplay
+  - com.yayo.yayoAni.continued
+  - seohyeon.yart
+  - Arylice.Rimworld.AutomaticHunting
+  - Nera.SpawnThoseGenes
+  - zal.eyeprosthetics
+  - UnlimitedHugs.AllowTool
+  - Haplo.Miscellaneous.Robots
+  - Mehni.PickUpAndHaul
+  - weilbyte.snapout
+  - VanillaExpanded.VFESecurity
+  - FrozenSnowFox.ComplexJobs
+  - FrozenSnowFox.FilthVanishesWithRainAndTime
+  - LazyFridayStudio.GenesExpandedHair
+  - LazyFridayStudio.GenesExpandedHeads
+  - LazyFridayStudio.GenesExpandedHorns
+  - MF.BSApparel
+  - tradingpost.programmerlily.com
+  - RH2.BCDs.First.Aid
+  - SR.ModRimworld.FactionalWarContinued
+  - SR.ModRimworld.RaidExtension
+  - XeoNovaDan.VisiblePants
+  - sbz.GravshipStorage
+Could not resolve reference to object with loadID Letter_74 of type RimWorld.ChoiceLetter_AcceptCreepJoiner. Was it compressed away, destroyed, had no ID number, or not saved/loaded right? curParent=QuestPart_CreepJoinerOutcomes (quest.id=5, index=0) curPathRelToParent=
+Could not resolve reference to object with loadID Thing_Human134594 of type Verse.Pawn. Was it compressed away, destroyed, had no ID number, or not saved/loaded right? curParent=RimWorld.RelationshipRecord curPathRelToParent=/references
+Could not resolve reference to object with loadID Thing_Human134594 of type Verse.Pawn. Was it compressed away, destroyed, had no ID number, or not saved/loaded right? curParent=RimWorld.RelationshipRecord curPathRelToParent=/references
+Could not resolve reference to object with loadID Lord_11 of type Verse.AI.Group.Lord. Was it compressed away, destroyed, had no ID number, or not saved/loaded right? curParent=VEF.Storyteller.RaidGroup curPathRelToParent=/lords
+Null key while loading dictionary of Verse.Pawn and System.Int32. label=colonist_booze_tracker
+[RimMercenaries] Loaded save data: hasBeenInitialized=True, lastRefreshTick=0, mercenaries=17, tier1=10, tier2=5, tier3=2
+<color=#66ffb5>[MeleeAnim]</color> Loaded 0 animation renderers on map Map-0-PlayerHome
+checking editor settings...
+bodysizes genes are active
+[RimMercenaries] FinalizeInit called for save. HasBeenInitialized: True
+[Yayo's Animation] GC : animation data count [121 -> 0]
+Unloading 0 Unused Serialized files (Serialized files now loaded: 16)
+Unloading 0 unused Assets to reduce memory usage. Loaded Objects now: 101450.
+Total: 986.633900 ms (FindLiveObjects: 4.989600 ms CreateObjectMapping: 5.242800 ms MarkObjects: 976.212800 ms  DeleteObjects: 0.188300 ms)
+
+Arachnophobia :: Spider Biome Settings Adjusted :: Current Factor: 1
+Wrote screenshot C:\Users\clint\AppData\LocalLow\Ludeon Studios\RimWorld by Ludeon Studios\RimSaves\Previews\USCSS.dat of size 134142
+Exception thrown from thread=1542.
 System.Threading.ThreadAbortException: Thread was being aborted.
 [Ref 54CF78B3]
 (wrapper managed-to-native) System.Threading.Monitor.Monitor_wait(object,int)
@@ -922,21 +1738,21 @@ Memory Statistics:
 [ALLOC_TEMP_TLS] TLS Allocator
   StackAllocators : 
     [ALLOC_TEMP_MAIN]
-      Peak usage frame count: [0-1.0 KB]: 8038 frames, [1.0 KB-2.0 KB]: 46 frames, [2.0 KB-4.0 KB]: 141010 frames, [4.0 KB-8.0 KB]: 10504 frames, [8.0 KB-16.0 KB]: 946 frames, [16.0 KB-32.0 KB]: 397 frames, [32.0 KB-64.0 KB]: 90 frames, [64.0 KB-128.0 KB]: 35 frames, [128.0 KB-256.0 KB]: 17 frames, [2.0 MB-4.0 MB]: 1 frames, [4.0 MB-8.0 MB]: 8 frames
+      Peak usage frame count: [0-1.0 KB]: 5365 frames, [1.0 KB-2.0 KB]: 52 frames, [2.0 KB-4.0 KB]: 215778 frames, [4.0 KB-8.0 KB]: 10541 frames, [8.0 KB-16.0 KB]: 1085 frames, [16.0 KB-32.0 KB]: 390 frames, [32.0 KB-64.0 KB]: 152 frames, [64.0 KB-128.0 KB]: 143 frames, [128.0 KB-256.0 KB]: 19 frames, [2.0 MB-4.0 MB]: 1 frames, [4.0 MB-8.0 MB]: 10 frames
       Initial Block Size 4.0 MB
       Current Block Size 8.0 MB
       Peak Allocated Bytes 8.0 MB
-      Overflow Count 7
+      Overflow Count 8
     [ALLOC_TEMP_Loading.AsyncRead]
       Initial Block Size 64.0 KB
-      Current Block Size 108.0 KB
-      Peak Allocated Bytes 104.3 KB
+      Current Block Size 120.0 KB
+      Peak Allocated Bytes 117.2 KB
       Overflow Count 0
     [ALLOC_TEMP_Loading.PreloadManager]
       Initial Block Size 256.0 KB
       Current Block Size 256.0 KB
       Peak Allocated Bytes 3.8 KB
-      Overflow Count 8
+      Overflow Count 12
     [ALLOC_TEMP_Background Job.Worker 8]
       Initial Block Size 32.0 KB
       Current Block Size 32.0 KB
@@ -1065,7 +1881,7 @@ Memory Statistics:
     [ALLOC_TEMP_Job.Worker 2]
       Initial Block Size 256.0 KB
       Current Block Size 256.0 KB
-      Peak Allocated Bytes 234 B
+      Peak Allocated Bytes 288 B
       Overflow Count 0
     [ALLOC_TEMP_Background Job.Worker 3]
       Initial Block Size 32.0 KB
@@ -1080,7 +1896,7 @@ Memory Statistics:
     [ALLOC_TEMP_Job.Worker 10]
       Initial Block Size 256.0 KB
       Current Block Size 256.0 KB
-      Peak Allocated Bytes 128 B
+      Peak Allocated Bytes 160 B
       Overflow Count 0
     [ALLOC_TEMP_Background Job.Worker 0]
       Initial Block Size 32.0 KB
@@ -1098,31 +1914,31 @@ Memory Statistics:
       Peak Allocated Bytes 54 B
       Overflow Count 0
 [ALLOC_DEFAULT] Dual Thread Allocator
-  Peak main deferred allocation count 49598
+  Peak main deferred allocation count 49741
     [ALLOC_BUCKET]
       Large Block size 4.0 MB
       Used Block count 1
       Peak Allocated bytes 4.0 MB
       Failed Allocations. Bucket layout:
-        16B: 5 Subsections = 5120 buckets. Failed count: 1499009
-        32B: 34 Subsections = 17408 buckets. Failed count: 2316269
-        48B: 49 Subsections = 16725 buckets. Failed count: 1060165
-        64B: 40 Subsections = 10240 buckets. Failed count: 328292
-        80B: 85 Subsections = 17408 buckets. Failed count: 4397519
-        96B: 27 Subsections = 4608 buckets. Failed count: 67763
-        112B: 10 Subsections = 1462 buckets. Failed count: 238326
-        128B: 6 Subsections = 768 buckets. Failed count: 131227
+        16B: 5 Subsections = 5120 buckets. Failed count: 2200965
+        32B: 34 Subsections = 17408 buckets. Failed count: 4860796
+        48B: 49 Subsections = 16725 buckets. Failed count: 1355675
+        64B: 40 Subsections = 10240 buckets. Failed count: 367365
+        80B: 85 Subsections = 17408 buckets. Failed count: 8419562
+        96B: 27 Subsections = 4608 buckets. Failed count: 76379
+        112B: 10 Subsections = 1462 buckets. Failed count: 276090
+        128B: 6 Subsections = 768 buckets. Failed count: 172219
     [ALLOC_DEFAULT_MAIN]
-      Peak usage frame count: [16.0 MB-32.0 MB]: 3974 frames, [32.0 MB-64.0 MB]: 81 frames, [64.0 MB-128.0 MB]: 104 frames, [128.0 MB-256.0 MB]: 848 frames, [256.0 MB-0.50 GB]: 1105 frames, [0.50 GB-1.00 GB]: 154980 frames
+      Peak usage frame count: [16.0 MB-32.0 MB]: 3487 frames, [32.0 MB-64.0 MB]: 81 frames, [64.0 MB-128.0 MB]: 104 frames, [128.0 MB-256.0 MB]: 856 frames, [256.0 MB-0.50 GB]: 1109 frames, [0.50 GB-1.00 GB]: 227899 frames
       Requested Block Size 16.0 MB
-      Peak Block count 48
-      Peak Allocated memory 0.73 GB
+      Peak Block count 47
+      Peak Allocated memory 0.72 GB
       Peak Large allocation bytes 147.3 MB
     [ALLOC_DEFAULT_THREAD]
-      Peak usage frame count: [8.0 MB-16.0 MB]: 8826 frames, [16.0 MB-32.0 MB]: 3 frames, [32.0 MB-64.0 MB]: 14 frames, [64.0 MB-128.0 MB]: 5921 frames, [128.0 MB-256.0 MB]: 146328 frames
+      Peak usage frame count: [8.0 MB-16.0 MB]: 8295 frames, [16.0 MB-32.0 MB]: 123 frames, [32.0 MB-64.0 MB]: 30 frames, [64.0 MB-128.0 MB]: 374 frames, [128.0 MB-256.0 MB]: 224714 frames
       Requested Block Size 16.0 MB
-      Peak Block count 9
-      Peak Allocated memory 162.3 MB
+      Peak Block count 8
+      Peak Allocated memory 147.7 MB
       Peak Large allocation bytes 33.8 MB
 [ALLOC_TEMP_JOB_1_FRAME]
   Initial Block Size 2.0 MB
@@ -1151,52 +1967,52 @@ Memory Statistics:
       Used Block count 1
       Peak Allocated bytes 4.0 MB
       Failed Allocations. Bucket layout:
-        16B: 5 Subsections = 5120 buckets. Failed count: 1499009
-        32B: 34 Subsections = 17408 buckets. Failed count: 2316269
-        48B: 49 Subsections = 16725 buckets. Failed count: 1060165
-        64B: 40 Subsections = 10240 buckets. Failed count: 328292
-        80B: 85 Subsections = 17408 buckets. Failed count: 4397519
-        96B: 27 Subsections = 4608 buckets. Failed count: 67763
-        112B: 10 Subsections = 1462 buckets. Failed count: 238326
-        128B: 6 Subsections = 768 buckets. Failed count: 131227
+        16B: 5 Subsections = 5120 buckets. Failed count: 2200965
+        32B: 34 Subsections = 17408 buckets. Failed count: 4860796
+        48B: 49 Subsections = 16725 buckets. Failed count: 1355675
+        64B: 40 Subsections = 10240 buckets. Failed count: 367365
+        80B: 85 Subsections = 17408 buckets. Failed count: 8419562
+        96B: 27 Subsections = 4608 buckets. Failed count: 76379
+        112B: 10 Subsections = 1462 buckets. Failed count: 276090
+        128B: 6 Subsections = 768 buckets. Failed count: 172219
     [ALLOC_GFX_MAIN]
-      Peak usage frame count: [128.0 KB-256.0 KB]: 1 frames, [2.0 MB-4.0 MB]: 4439 frames, [4.0 MB-8.0 MB]: 1726 frames, [16.0 MB-32.0 MB]: 3850 frames, [64.0 MB-128.0 MB]: 4740 frames, [128.0 MB-256.0 MB]: 142235 frames, [256.0 MB-0.50 GB]: 4094 frames, [0.50 GB-1.00 GB]: 6 frames, [1.00 GB-2.00 GB]: 1 frames
+      Peak usage frame count: [128.0 KB-256.0 KB]: 1 frames, [2.0 MB-4.0 MB]: 3957 frames, [4.0 MB-8.0 MB]: 1735 frames, [16.0 MB-32.0 MB]: 2478 frames, [32.0 MB-64.0 MB]: 641 frames, [64.0 MB-128.0 MB]: 75741 frames, [128.0 MB-256.0 MB]: 148975 frames, [256.0 MB-0.50 GB]: 1 frames, [0.50 GB-1.00 GB]: 6 frames, [1.00 GB-2.00 GB]: 1 frames
       Requested Block Size 16.0 MB
       Peak Block count 42
       Peak Allocated memory 1.97 GB
       Peak Large allocation bytes 1.34 GB
     [ALLOC_GFX_THREAD]
-      Peak usage frame count: [0-1.0 KB]: 3601 frames, [1.0 KB-2.0 KB]: 3234 frames, [2.0 KB-4.0 KB]: 1471 frames, [4.0 KB-8.0 KB]: 491 frames, [8.0 KB-16.0 KB]: 1117 frames, [16.0 KB-32.0 KB]: 3537 frames, [32.0 KB-64.0 KB]: 1316 frames, [64.0 KB-128.0 KB]: 783 frames, [128.0 KB-256.0 KB]: 11017 frames, [256.0 KB-0.5 MB]: 2891 frames, [0.5 MB-1.0 MB]: 4874 frames, [1.0 MB-2.0 MB]: 126760 frames
+      Peak usage frame count: [0-1.0 KB]: 2281 frames, [1.0 KB-2.0 KB]: 5620 frames, [2.0 KB-4.0 KB]: 7 frames, [4.0 KB-8.0 KB]: 17 frames, [8.0 KB-16.0 KB]: 133 frames, [16.0 KB-32.0 KB]: 476 frames, [64.0 KB-128.0 KB]: 16985 frames, [128.0 KB-256.0 KB]: 27384 frames, [256.0 KB-0.5 MB]: 90044 frames, [0.5 MB-1.0 MB]: 21067 frames, [1.0 MB-2.0 MB]: 69522 frames
       Requested Block Size 16.0 MB
       Peak Block count 1
-      Peak Allocated memory 1.5 MB
+      Peak Allocated memory 1.3 MB
       Peak Large allocation bytes 0 B
 [ALLOC_CACHEOBJECTS] Dual Thread Allocator
-  Peak main deferred allocation count 217
+  Peak main deferred allocation count 4172
     [ALLOC_BUCKET]
       Large Block size 4.0 MB
       Used Block count 1
       Peak Allocated bytes 4.0 MB
       Failed Allocations. Bucket layout:
-        16B: 5 Subsections = 5120 buckets. Failed count: 1499009
-        32B: 34 Subsections = 17408 buckets. Failed count: 2316269
-        48B: 49 Subsections = 16725 buckets. Failed count: 1060165
-        64B: 40 Subsections = 10240 buckets. Failed count: 328292
-        80B: 85 Subsections = 17408 buckets. Failed count: 4397519
-        96B: 27 Subsections = 4608 buckets. Failed count: 67763
-        112B: 10 Subsections = 1462 buckets. Failed count: 238326
-        128B: 6 Subsections = 768 buckets. Failed count: 131227
+        16B: 5 Subsections = 5120 buckets. Failed count: 2200965
+        32B: 34 Subsections = 17408 buckets. Failed count: 4860796
+        48B: 49 Subsections = 16725 buckets. Failed count: 1355675
+        64B: 40 Subsections = 10240 buckets. Failed count: 367365
+        80B: 85 Subsections = 17408 buckets. Failed count: 8419562
+        96B: 27 Subsections = 4608 buckets. Failed count: 76379
+        112B: 10 Subsections = 1462 buckets. Failed count: 276090
+        128B: 6 Subsections = 768 buckets. Failed count: 172219
     [ALLOC_CACHEOBJECTS_MAIN]
-      Peak usage frame count: [4.0 MB-8.0 MB]: 1 frames, [8.0 MB-16.0 MB]: 6047 frames, [16.0 MB-32.0 MB]: 155044 frames
+      Peak usage frame count: [4.0 MB-8.0 MB]: 1 frames, [8.0 MB-16.0 MB]: 5567 frames, [16.0 MB-32.0 MB]: 227968 frames
       Requested Block Size 4.0 MB
       Peak Block count 6
-      Peak Allocated memory 19.6 MB
+      Peak Allocated memory 21.2 MB
       Peak Large allocation bytes 0 B
     [ALLOC_CACHEOBJECTS_THREAD]
-      Peak usage frame count: [4.0 KB-8.0 KB]: 6009 frames, [32.0 KB-64.0 KB]: 1 frames, [64.0 KB-128.0 KB]: 15 frames, [256.0 KB-0.5 MB]: 8232 frames, [0.5 MB-1.0 MB]: 146835 frames
+      Peak usage frame count: [4.0 KB-8.0 KB]: 5530 frames, [32.0 KB-64.0 KB]: 1 frames, [64.0 KB-128.0 KB]: 16 frames, [256.0 KB-0.5 MB]: 227925 frames, [0.5 MB-1.0 MB]: 64 frames
       Requested Block Size 4.0 MB
       Peak Block count 1
-      Peak Allocated memory 0.8 MB
+      Peak Allocated memory 0.7 MB
       Peak Large allocation bytes 0 B
 [ALLOC_TYPETREE] Dual Thread Allocator
   Peak main deferred allocation count 0
@@ -1205,22 +2021,22 @@ Memory Statistics:
       Used Block count 1
       Peak Allocated bytes 4.0 MB
       Failed Allocations. Bucket layout:
-        16B: 5 Subsections = 5120 buckets. Failed count: 1499009
-        32B: 34 Subsections = 17408 buckets. Failed count: 2316269
-        48B: 49 Subsections = 16725 buckets. Failed count: 1060165
-        64B: 40 Subsections = 10240 buckets. Failed count: 328292
-        80B: 85 Subsections = 17408 buckets. Failed count: 4397519
-        96B: 27 Subsections = 4608 buckets. Failed count: 67763
-        112B: 10 Subsections = 1462 buckets. Failed count: 238326
-        128B: 6 Subsections = 768 buckets. Failed count: 131227
+        16B: 5 Subsections = 5120 buckets. Failed count: 2200965
+        32B: 34 Subsections = 17408 buckets. Failed count: 4860796
+        48B: 49 Subsections = 16725 buckets. Failed count: 1355675
+        64B: 40 Subsections = 10240 buckets. Failed count: 367365
+        80B: 85 Subsections = 17408 buckets. Failed count: 8419562
+        96B: 27 Subsections = 4608 buckets. Failed count: 76379
+        112B: 10 Subsections = 1462 buckets. Failed count: 276090
+        128B: 6 Subsections = 768 buckets. Failed count: 172219
     [ALLOC_TYPETREE_MAIN]
-      Peak usage frame count: [4.0 KB-8.0 KB]: 1 frames, [8.0 KB-16.0 KB]: 3908 frames, [16.0 KB-32.0 KB]: 24 frames, [32.0 KB-64.0 KB]: 16 frames, [128.0 KB-256.0 KB]: 1016 frames, [256.0 KB-0.5 MB]: 1093 frames, [0.5 MB-1.0 MB]: 155034 frames
+      Peak usage frame count: [4.0 KB-8.0 KB]: 1 frames, [8.0 KB-16.0 KB]: 3421 frames, [16.0 KB-32.0 KB]: 24 frames, [32.0 KB-64.0 KB]: 16 frames, [128.0 KB-256.0 KB]: 1024 frames, [256.0 KB-0.5 MB]: 1092 frames, [0.5 MB-1.0 MB]: 227958 frames
       Requested Block Size 2.0 MB
       Peak Block count 1
       Peak Allocated memory 0.7 MB
       Peak Large allocation bytes 0 B
     [ALLOC_TYPETREE_THREAD]
-      Peak usage frame count: [0-1.0 KB]: 161092 frames
+      Peak usage frame count: [0-1.0 KB]: 233536 frames
       Requested Block Size 2.0 MB
       Peak Block count 0
       Peak Allocated memory 0 B
