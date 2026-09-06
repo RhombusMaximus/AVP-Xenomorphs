@@ -76,4 +76,13 @@
     <hungerRateFactor>0.1</hungerRateFactor>
   </LifeStageDef>
 
+  <!-- Praetorian: royal guard, spawns fully grown, very slow metabolism -->
+  <LifeStageDef>
+    <defName>RRY_XenomorphPraetorian</defName>
+    <label>Praetorian</label>
+    <visible>false</visible>
+    <bodySizeFactor>1.0</bodySizeFactor>
+    <hungerRateFactor>0.1</hungerRateFactor>
+  </LifeStageDef>
+
 </Defs>

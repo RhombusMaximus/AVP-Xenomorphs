@@ -932,6 +932,166 @@
     </weaponTags>
   </PawnKindDef>
 
+  <!-- Praetorian - Royal Guard, 2x Warrior stats, pure melee tank -->
+  <ThingDef ParentName="BaseXenomorphWalker_Cannon">
+    <defName>RRY_Xenomorph_Praetorian</defName>
+    <label>Praetorian</label>
+    <description>Royal Guard of the Xenomorph hive. Praetorians are elite caste Xenomorphs that guard the Queen and the hive entrance. They are significantly larger and more armored than standard Warriors, with powerful claws and tail attacks.</description>
+    <graphicData>
+      <texPath>Things/Pawn/Xenomorph/Xenomorph_Drone</texPath>
+      <graphicClass>Graphic_Multi</graphicClass>
+    </graphicData>
+    <statBases>
+      <Mass>170</Mass>
+      <MoveSpeed>2.5</MoveSpeed>
+      <MeleeDodgeChance>0.7</MeleeDodgeChance>
+      <MeleeHitChance>0.9</MeleeHitChance>
+      <ArmorRating_Blunt>0.7</ArmorRating_Blunt>
+      <ArmorRating_Sharp>0.7</ArmorRating_Sharp>
+      <ArmorRating_Heat>0.6</ArmorRating_Heat>
+      <MeatAmount>90</MeatAmount>
+      <LeatherAmount>90</LeatherAmount>
+    </statBases>
+    <tools>
+      <li>
+        <label>left claw</label>
+        <capacities>
+          <li>Blunt</li>
+          <li>Cut</li>
+        </capacities>
+        <power>20</power>
+        <cooldownTime>3.0</cooldownTime>
+        <linkedBodyPartsGroup>RRY_Xeno_LeftHand</linkedBodyPartsGroup>
+        <surpriseAttack>
+          <extraMeleeDamages>
+            <li>
+              <def>Stun</def>
+              <amount>20</amount>
+            </li>
+          </extraMeleeDamages>
+        </surpriseAttack>
+      </li>
+      <li>
+        <label>right claw</label>
+        <capacities>
+          <li>Blunt</li>
+          <li>Cut</li>
+        </capacities>
+        <power>20</power>
+        <cooldownTime>3.0</cooldownTime>
+        <linkedBodyPartsGroup>RRY_Xeno_RightHand</linkedBodyPartsGroup>
+        <surpriseAttack>
+          <extraMeleeDamages>
+            <li>
+              <def>Stun</def>
+              <amount>20</amount>
+            </li>
+          </extraMeleeDamages>
+        </surpriseAttack>
+      </li>
+      <li>
+        <label>teeth</label>
+        <capacities>
+          <li>Bite</li>
+        </capacities>
+        <power>15</power>
+        <cooldownTime>4.0</cooldownTime>
+        <linkedBodyPartsGroup>Teeth</linkedBodyPartsGroup>
+        <chanceFactor>0.07</chanceFactor>
+      </li>
+      <li>
+        <label>inner teeth</label>
+        <capacities>
+          <li>Bite</li>
+        </capacities>
+        <power>25</power>
+        <cooldownTime>4.0</cooldownTime>
+        <linkedBodyPartsGroup>RRY_Xeno_InnerTeeth</linkedBodyPartsGroup>
+        <chanceFactor>0.07</chanceFactor>
+      </li>
+      <li>
+        <label>head</label>
+        <capacities>
+          <li>Blunt</li>
+        </capacities>
+        <power>11</power>
+        <cooldownTime>4.0</cooldownTime>
+        <linkedBodyPartsGroup>HeadAttackTool</linkedBodyPartsGroup>
+        <ensureLinkedBodyPartsGroupAlwaysUsable>true</ensureLinkedBodyPartsGroupAlwaysUsable>
+        <chanceFactor>0.2</chanceFactor>
+      </li>
+      <li>
+        <label>tail</label>
+        <capacities>
+          <li>Blunt</li>
+          <li>RRY_TailWhip</li>
+        </capacities>
+        <power>11</power>
+        <cooldownTime>4.0</cooldownTime>
+        <linkedBodyPartsGroup>RRY_Xeno_Tail_AttackTool</linkedBodyPartsGroup>
+        <chanceFactor>0.2</chanceFactor>
+      </li>
+      <li>
+        <label>tail spike</label>
+        <capacities>
+          <li>Stab</li>
+          <li>Cut</li>
+        </capacities>
+        <power>30</power>
+        <cooldownTime>4.0</cooldownTime>
+        <linkedBodyPartsGroup>RRY_Xeno_Tail_SpikeAttackTool</linkedBodyPartsGroup>
+        <chanceFactor>0.2</chanceFactor>
+      </li>
+    </tools>
+    <race>
+      <body>RRY_Xenomorph_Biped</body>
+      <useMeatFrom>RRY_Xenomorph_FaceHugger</useMeatFrom>
+      <baseHealthScale>3.0</baseHealthScale>
+      <baseBodySize>2.0</baseBodySize>
+      <baseHungerRate>0.003</baseHungerRate>
+      <trainability>None</trainability>
+      <renderTree>Animal</renderTree>
+      <lifeStageAges>
+        <li>
+          <def>RRY_XenomorphPraetorian</def>
+          <minAge>0</minAge>
+          <soundWounded>RRY_Pawn_Xenomorph_Normal_Wounded</soundWounded>
+          <soundDeath>RRY_Pawn_Xenomorph_Normal_Death</soundDeath>
+          <soundCall>RRY_Pawn_Xenomorph_Normal_Call</soundCall>
+        </li>
+      </lifeStageAges>
+      <soundMeleeHitPawn>Pawn_Melee_Punch_HitPawn</soundMeleeHitPawn>
+      <soundMeleeHitBuilding>Pawn_Melee_Punch_HitBuilding_Generic</soundMeleeHitBuilding>
+      <soundMeleeMiss>Pawn_Melee_Punch_Miss</soundMeleeMiss>
+    </race>
+  </ThingDef>
+
+  <PawnKindDef ParentName="RRY_BaseXenomorphKind">
+    <defName>RRY_Xenomorph_Praetorian</defName>
+    <label>Praetorian</label>
+    <race>RRY_Xenomorph_Praetorian</race>
+    <combatPower>320.0</combatPower>
+    <lifeStages>
+      <li>
+        <bodyGraphicData>
+          <texPath>Things/Pawn/Xenomorph/Xenomorph_Drone</texPath>
+          <graphicClass>Graphic_Multi</graphicClass>
+          <shaderType>CutoutComplex</shaderType>
+          <drawSize>2.5</drawSize>
+          <shadowData>
+            <volume>(0.4, 0.8, 0.4)</volume>
+          </shadowData>
+        </bodyGraphicData>
+      </li>
+    </lifeStages>
+    <weaponMoney>
+      <min>0</min>
+      <max>0</max>
+    </weaponMoney>
+    <weaponTags>
+    </weaponTags>
+  </PawnKindDef>
+
   <!-- Runner - Fast Melee -->
   <ThingDef ParentName="BaseXenomorphWalker_Cannon">
     <defName>RRY_Xenomorph_Runner</defName>

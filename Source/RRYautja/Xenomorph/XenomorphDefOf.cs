@@ -51,6 +51,7 @@ namespace RimWorld
         public static PawnKindDef RRY_Xenomorph_Drone;
         public static PawnKindDef RRY_Xenomorph_Runner;
         public static PawnKindDef RRY_Xenomorph_Predalien;
+        public static PawnKindDef RRY_Xenomorph_Praetorian;
         /*
         public static PawnKindDef RRY_Xenomorph_Preatorian;
         public static PawnKindDef RRY_Xenomorph_Boiler;
@@ -186,6 +187,7 @@ namespace RimWorld
         public static ThingDef RRY_Xenomorph_Drone;
         public static ThingDef RRY_Xenomorph_Runner;
         public static ThingDef RRY_Xenomorph_Predalien;
+        public static ThingDef RRY_Xenomorph_Praetorian;
         public static ThingDef RRY_Xenomorph_Thrumbomorph;
 
         // Neomorph ThingDefs Races
