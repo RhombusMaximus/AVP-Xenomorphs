@@ -70,9 +70,11 @@ namespace RRYautja
                 return;
             }
             base.Tick();
-            if (this.InnerThing.TryGetComp<CompXenoHatcher>() is CompXenoHatcher comp)
+            // Do not tick the hatcher while minified — the egg should not
+            // gestate/hatch while packed up as a minified thing.
+            // Only the auto-install timer (guarded by autoInstall) runs below.
+            if (this.autoInstall && this.InnerThing.TryGetComp<CompXenoHatcher>() is CompXenoHatcher comp)
             {
-                comp.CompTick();
                 if (this.MapHeld != null && this.Map == null)
                 {
                 //    Log.Message("MinifiedThing being carried.", false);
@@ -98,7 +100,6 @@ namespace RRYautja
                         }
                         ticksTillInstall = 1000;
                     }
-                //    
                 //    Log.Message("MinifiedThing on the ground.", false);
                 }
             }
@@ -169,5 +170,17 @@ namespace RRYautja
 
         // Token: 0x0400144E RID: 5198
         private Graphic crateFrontGraphic;
+
+        // When true (default), the minified egg auto-installs itself after a
+        // delay (original behaviour for hive-spawned eggs). When a player
+        // uninstalls the egg, this is set to false so it stays packed until
+        // the player chooses to reinstall it.
+        public bool autoInstall = true;
+
+        public override void ExposeData()
+        {
+            base.ExposeData();
+            Scribe_Values.Look(ref this.autoInstall, "autoInstall", true, false);
+        }
     }
 }
