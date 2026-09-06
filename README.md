@@ -26,7 +26,9 @@ The Xenomorphs join RimWorld as a new threat to your colony. Experience the full
 
 **Xenomorphs:**
 - **Queen** — The hive ruler. Lays eggs, commands the hive, devastating in combat
-- **Drone** — Worker caste. Mines, builds hive structures, spits acid, collects hosts. Dark and Gold texture variants
+- **Praetorian** — Royal Guard caste. 2x Warrior stats (combatPower 320, healthScale 3.0, armor 0.7). Guards the Queen and hive entrance. Spawns rarely (5%) from humanlike hosts when Queen present, max 2 per hive. Pure melee tank — no acid spit, no mining, no kidnapping
+- **Drone** — Worker caste. Mines, builds hive structures, collects hosts. Three texture variants: standard (smooth head), Dark (tougher melee, higher armor), and Gold/Spitter (ranged acid spit). Variants only apply to adults — chestbursters keep their own textures
+- **Spitter** — Ranged caste (Gold Drone variant). Spits acid at range, weaker in melee. Spawns from humanlike hosts at 20% rate alongside Drones and Warriors
 - **Warrior** — Soldier caste. Tough, fast, deadly in melee. Explodes in acid blood on death
 - **Runner** — Scout caste. Fast and agile, spawned from animal hosts. Can leap at targets
 - **Facehugger** — Impregnates hosts by attaching to their face. Visual mask shown on infected pawns. Royal facehuggers can produce Queens
@@ -47,12 +49,12 @@ The Xenomorphs join RimWorld as a new threat to your colony. Experience the full
 - Hatch probability scales with host bodySize (0.5 minimum, larger hosts trigger easier)
 - Facehuggers prioritize downed targets (5x score) and animals (3x score)
 - Spawn type is data-driven via XML (`XenomorphSpawnDef`):
-  - Humanlike hosts → 50% Drone / 50% Warrior
+  - Humanlike hosts → 50% Drone / 30% Warrior / 20% Spitter
   - Small animals (bodySize < 0.9) → Runner
   - Thrumbo hosts → Thrumbomorph
   - Royal facehugger → Queen
   - Large animals → weighted random (Drone/Warrior/Runner)
-  - Predalien impregnation → Runner/Drone (dormant, no Yautja hosts)
+  - Praetorian: 5% chance from humanlike hosts when Queen present, max 2 per map
 
 ### Hive System
 - Xenomorph tunnels spawn in caves and infestations
@@ -67,7 +69,7 @@ The Xenomorphs join RimWorld as a new threat to your colony. Experience the full
 
 ### Combat
 - **Acidic Blood** — Xenomorph blood damages everything in the same tile for a short period after being dropped by a LIVING Xenomorph
-- **Acid Spit** — Drones can spit acid at range
+- **Acid Spit** — Spitters (Gold Drone variant) spit acid at range. Standard and Dark Drones do not have acid spit
 - **Leap Ability** — Facehuggers and Runners can leap at targets (2-8 tile range, cooldown)
 - **EMP Stun** — Xenomorphs can be stunned by EMP weapons
 - **Cold Stasis** — Xenomorphs slow down in extreme cold (~-32F / Hypothermic Slowdown)
