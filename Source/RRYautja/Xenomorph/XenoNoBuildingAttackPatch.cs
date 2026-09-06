@@ -30,6 +30,27 @@ namespace RRYautja
                 {
                     harmony.Patch(method, prefix: new HarmonyMethod(typeof(XenoNoBuildingAttackPatch), nameof(BestAttackTargetPrefix)));
                 }
+
+                // Patch JobGiver_AITrashColonyClose.TryGiveJob to prevent Xenos from trashing nearby buildings
+                var trashCloseMethod = AccessTools.Method(typeof(JobGiver_AITrashColonyClose), "TryGiveJob");
+                if (trashCloseMethod != null)
+                {
+                    harmony.Patch(trashCloseMethod, prefix: new HarmonyMethod(typeof(XenoNoBuildingAttackPatch), nameof(TrashColonyClosePrefix)));
+                }
+
+                // Patch JobGiver_AITrashBuildingsDistant.TryGiveJob to prevent Xenos from trashing distant buildings
+                var trashDistantMethod = AccessTools.Method(typeof(JobGiver_AITrashBuildingsDistant), "TryGiveJob");
+                if (trashDistantMethod != null)
+                {
+                    harmony.Patch(trashDistantMethod, prefix: new HarmonyMethod(typeof(XenoNoBuildingAttackPatch), nameof(TrashDistantPrefix)));
+                }
+
+                // Patch JobGiver_AISapper.TryGiveJob to prevent Xenos from mining through walls (except CutPower raids)
+                var sapperMethod = AccessTools.Method(typeof(JobGiver_AISapper), "TryGiveJob");
+                if (sapperMethod != null)
+                {
+                    harmony.Patch(sapperMethod, prefix: new HarmonyMethod(typeof(XenoNoBuildingAttackPatch), nameof(SapperPrefix)));
+                }
             }
             catch (Exception e)
             {
@@ -73,6 +94,63 @@ namespace RRYautja
             catch
             {
                 // If our patch fails, don't break BestAttackTarget
+            }
+        }
+
+        /// <summary>
+        /// Prevents Xenomorphs from trashing nearby colony buildings via JobGiver_AITrashColonyClose.
+        /// Exception: Xenos in a CutPower raid lord are allowed to trash.
+        /// </summary>
+        public static bool TrashColonyClosePrefix(Pawn pawn, ref Job __result)
+        {
+            try
+            {
+                if (pawn == null || !pawn.isXenomorph()) return true; // let original run
+                if (pawn.GetLord()?.LordJob is LordJob_AssaultColony_CutPower) return true; // allow for CutPower raids
+                __result = null;
+                return false; // skip original method
+            }
+            catch
+            {
+                return true; // on error, let original run
+            }
+        }
+
+        /// <summary>
+        /// Prevents Xenomorphs from trashing distant colony buildings via JobGiver_AITrashBuildingsDistant.
+        /// Exception: Xenos in a CutPower raid lord are allowed to trash.
+        /// </summary>
+        public static bool TrashDistantPrefix(Pawn pawn, ref Job __result)
+        {
+            try
+            {
+                if (pawn == null || !pawn.isXenomorph()) return true; // let original run
+                if (pawn.GetLord()?.LordJob is LordJob_AssaultColony_CutPower) return true; // allow for CutPower raids
+                __result = null;
+                return false; // skip original method
+            }
+            catch
+            {
+                return true; // on error, let original run
+            }
+        }
+
+        /// <summary>
+        /// Prevents Xenomorphs from mining through walls via JobGiver_AISapper.
+        /// Exception: Xenos in a CutPower raid lord are allowed to sap.
+        /// </summary>
+        public static bool SapperPrefix(Pawn pawn, ref Job __result)
+        {
+            try
+            {
+                if (pawn == null || !pawn.isXenomorph()) return true; // let original run
+                if (pawn.GetLord()?.LordJob is LordJob_AssaultColony_CutPower) return true; // allow for CutPower raids
+                __result = null;
+                return false; // skip original method
+            }
+            catch
+            {
+                return true; // on error, let original run
             }
         }
     }
