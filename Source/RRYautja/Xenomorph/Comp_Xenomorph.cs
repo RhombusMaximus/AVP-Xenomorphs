@@ -40,6 +40,7 @@ namespace RRYautja
         public int HiveX = -1;
         public int HiveZ = -1;
         public int delay = -1;
+        public int droneTextureVariant = 0;
 
         public ThingDef HostDef = null;
 
@@ -59,6 +60,7 @@ namespace RRYautja
             Scribe_Values.Look<bool>(ref this.hidden, "hidden");
             Scribe_Values.Look<bool>(ref this.Hidden, "Hidden");
             Scribe_Defs.Look(ref this.HostDef, "HostDef");
+            Scribe_Values.Look<int>(ref this.droneTextureVariant, "droneTextureVariant", 0);
         }
 
         public IntVec3 HiveLoc
