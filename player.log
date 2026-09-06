@@ -11,7 +11,7 @@ Direct3D:
     VRAM:     8042 MB
     Driver:   32.0.16.1088
 Begin MonoManager ReloadAssembly
-- Loaded All Assemblies, in  3.014 seconds
+- Loaded All Assemblies, in  3.209 seconds
 - Finished resetting the current domain, in  0.001 seconds
 <RI> Initializing input.
 
@@ -20,22 +20,22 @@ Begin MonoManager ReloadAssembly
 <RI> Initialized touch support.
 
 [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
-UnloadTime: 0.610600 ms
+UnloadTime: 0.713800 ms
 Command line arguments: -disable-compute-shaders
 RimWorld 1.6.4871 rev591
-Fallback handler could not load library D:/SteamLibrary/steamapps/common/RimWorld/RimWorldWin64_Data/MonoBleedingEdge/data-00000221C594E040.dll
-Fallback handler could not load library D:/SteamLibrary/steamapps/common/RimWorld/RimWorldWin64_Data/MonoBleedingEdge/data-00000221F9D91740.dll
+Fallback handler could not load library D:/SteamLibrary/steamapps/common/RimWorld/RimWorldWin64_Data/MonoBleedingEdge/data-00000288FB29DB20.dll
+Fallback handler could not load library D:/SteamLibrary/steamapps/common/RimWorld/RimWorldWin64_Data/MonoBleedingEdge/data-00000288FD46D130.dll
 [Loading Progress] Loading Progress v0.14.0 initialized! Enjoy the rest of your loading experience!
 [HugsLib] version 12.0.0
 [HugsLib] early-initializing AllowTool
 Better Autocasting - Running Version 8.1.0.0 Release compiled for RimWorld version v1.6
 Better Autocasting - UnregisterPatch succeeded
-Fallback handler could not load library D:/SteamLibrary/steamapps/common/RimWorld/RimWorldWin64_Data/MonoBleedingEdge/data-000002211A6204F0.dll
+Fallback handler could not load library D:/SteamLibrary/steamapps/common/RimWorld/RimWorldWin64_Data/MonoBleedingEdge/data-000002876459EE40.dll
 DubsMintMenus v1.3.1086
 FactionCustomizer is successfully initialized!
 [1.6]Graphics Setter - Loaded
 [ImageOpt] Successfully loaded Rust library into process memory. ver: 0.1.13
-Fallback handler could not load library D:/SteamLibrary/steamapps/common/RimWorld/RimWorldWin64_Data/MonoBleedingEdge/data-0000022041882F20.dll
+Fallback handler could not load library D:/SteamLibrary/steamapps/common/RimWorld/RimWorldWin64_Data/MonoBleedingEdge/data-0000028764DD30C0.dll
 <color=#66ffb5>[MeleeAnim]</color> Hello, world!
 Build date: 7/31/2026 6:45 PM
 Loaded assemblies (10):
@@ -68,8 +68,9 @@ Start: call static System.String System.String::Concat(System.String str0, Syste
 End:ldloc.0 NULL
 Translation data for language English has 15 errors. Generate translation report for more info.
 [AVP Xenomorphs] Patched JobDriver_Wait.CheckForAutoAttack
+[AVP Xenomorphs] Patched Designator_ZoneAdd.CanDesignateCell to block hive/tunnel tiles
 Xenomorph Host System Loaded
-1216 Possible Hosts out of 1411 Races detected: Race Setting init
+1216 Possible Hosts out of 1413 Races detected: Race Setting init
 [CRB] Startup running
 [CRB] Harmony patched: ColonistReturnBuff
 [CRB] Settings applied to ThoughtDefs
@@ -83,7 +84,7 @@ KCSG has Created 7579 symbolDefs for vanilla and DLCs
 [CMColorCodedMoodBar] CMColorCodedMoodBar 1.6.4871.1 initialized
 [CleaningAreaRelaunched] Loaded
 [XML Extensions] Initialized 6 SettingsMenuDef(s) and found 0 unused key(s) from 0 mod(s)
-[XML Extensions] 6764 total patch operations run in 14372ms, 0 failed
+[XML Extensions] 6764 total patch operations run in 14798ms, 0 failed
 [XML Extensions] Emitted 6 mod class(es)
 Damage Indicators initialized.
 [DifferentEggSizes]: Updated 178 egg-definitions
@@ -129,11 +130,11 @@ NamesGalore: Current Lang English
 PickUpAndHaul v1.1.2¼ welcomes you to RimWorld with pointless logspam.
 [GeneExpandedHair] harmony patch succeeded.
 Unloading 5 Unused Serialized files (Serialized files now loaded: 14)
-Unloading 1844 unused Assets to reduce memory usage. Loaded Objects now: 67286.
-Total: 898.975300 ms (FindLiveObjects: 12.133900 ms CreateObjectMapping: 3.883000 ms MarkObjects: 879.282600 ms  DeleteObjects: 3.675600 ms)
+Unloading 1850 unused Assets to reduce memory usage. Loaded Objects now: 67290.
+Total: 962.639300 ms (FindLiveObjects: 20.480900 ms CreateObjectMapping: 4.863100 ms MarkObjects: 933.804300 ms  DeleteObjects: 3.490500 ms)
 
 MVCF successfully applied 58 patches
-[TMM] Auto capitalization fix: scanned=15062, changed=1257, time=32ms
+[TMM] Auto capitalization fix: scanned=15066, changed=1261, time=32ms
 CharacterEditor v1.6.3 initializing...
 updating labels for english...
 loading pawn slot content from file...
@@ -364,15 +365,15 @@ Transpilers:
 Postfixes:
   [PeteTimesSix.SimpleSidearms] TryCastShot
 Unloading 2 Unused Serialized files (Serialized files now loaded: 16)
-<color=#66ffb5>[MeleeAnim]</color> PreCached all retexture info in 387.7ms
+<color=#66ffb5>[MeleeAnim]</color> PreCached all retexture info in 378.4ms
 <color=#66ffb5>[MeleeAnim]</color> Loaded tweak data for 77 weapons.
 <color=#66ffb5>[MeleeAnim]</color> ogliss.avpxenomorphs 'AVP Xenomorphs' has 1 missing weapon tweak data.
 <color=#66ffb5>[MeleeAnim]</color> Skipping reporting of missing mod/weapons because user opted out or the feature is disabled by the developer.
-<color=#66ffb5>[MeleeAnim]</color> Patched 3 classes that directly inherit from Verb_MeleeAttack in 92.6 ms to detect hits:
+<color=#66ffb5>[MeleeAnim]</color> Patched 3 classes that directly inherit from Verb_MeleeAttack in 95.8 ms to detect hits:
 RimWorld.Verb_MeleeApplyHediff from Assembly-CSharp
 RimWorld.Verb_MeleeAttackDamage from Assembly-CSharp
 RRYautja.Verb_MeleeAttackKnockback from RRYautja
-<color=#66ffb5>[MeleeAnim]</color> Found 19 items of clothing that cover hands, took 1.30 ms:
+<color=#66ffb5>[MeleeAnim]</color> Found 19 items of clothing that cover hands, took 1.29 ms:
 VAE_Handwear_PlateGloves (Plate gloves),
 VAE_Handwear_MarineGloves (Marine gloves),
 VAE_Apparel_Shield_Riot (Riot shield),
@@ -392,30 +393,30 @@ VFEP_WarcasketShoulders_Brute (Brute warcasket shoulders),
 VAE_Handwear_Gloves (Gloves),
 Apparel_BlackSilence_Gloves (Black gloves),
 Apparel_BlackSilence_Suit (Black suits)
-Unloading 165 unused Assets to reduce memory usage. Loaded Objects now: 67463.
-Total: 780.834200 ms (FindLiveObjects: 3.303800 ms CreateObjectMapping: 3.729900 ms MarkObjects: 773.507200 ms  DeleteObjects: 0.292700 ms)
+Unloading 165 unused Assets to reduce memory usage. Loaded Objects now: 67467.
+Total: 756.641700 ms (FindLiveObjects: 3.371700 ms CreateObjectMapping: 4.366700 ms MarkObjects: 748.616400 ms  DeleteObjects: 0.286400 ms)
 
 Unloading 1 Unused Serialized files (Serialized files now loaded: 16)
-Unloading 0 unused Assets to reduce memory usage. Loaded Objects now: 67463.
-Total: 775.574700 ms (FindLiveObjects: 3.504700 ms CreateObjectMapping: 2.992400 ms MarkObjects: 768.959700 ms  DeleteObjects: 0.117300 ms)
+Unloading 0 unused Assets to reduce memory usage. Loaded Objects now: 67467.
+Total: 765.506100 ms (FindLiveObjects: 3.438800 ms CreateObjectMapping: 4.322500 ms MarkObjects: 757.624900 ms  DeleteObjects: 0.119400 ms)
 
 Unloading 0 Unused Serialized files (Serialized files now loaded: 16)
-  --> [What's That Mod] Took 2.48 seconds to scan all patches. <--
-What's That Mod: Wrote to 10902 mod descriptions, 81 patched defs resolved.
-What's That Mod took 2509 milliseconds to generate all def descriptions.
-Unloading 0 unused Assets to reduce memory usage. Loaded Objects now: 67463.
-Total: 800.504100 ms (FindLiveObjects: 3.399600 ms CreateObjectMapping: 2.338600 ms MarkObjects: 794.651700 ms  DeleteObjects: 0.113900 ms)
+  --> [What's That Mod] Took 2.49 seconds to scan all patches. <--
+What's That Mod: Wrote to 10904 mod descriptions, 81 patched defs resolved.
+What's That Mod took 2516 milliseconds to generate all def descriptions.
+Unloading 0 unused Assets to reduce memory usage. Loaded Objects now: 67467.
+Total: 759.887200 ms (FindLiveObjects: 3.344500 ms CreateObjectMapping: 2.891900 ms MarkObjects: 753.532800 ms  DeleteObjects: 0.117700 ms)
 
 Unloading 0 Unused Serialized files (Serialized files now loaded: 16)
 [HugsLib] initializing TerraformRimworld
-Unloading 0 unused Assets to reduce memory usage. Loaded Objects now: 67463.
-Total: 758.783200 ms (FindLiveObjects: 4.199000 ms CreateObjectMapping: 4.360700 ms MarkObjects: 750.112900 ms  DeleteObjects: 0.110400 ms)
+Unloading 0 unused Assets to reduce memory usage. Loaded Objects now: 67467.
+Total: 775.918300 ms (FindLiveObjects: 4.092200 ms CreateObjectMapping: 3.763400 ms MarkObjects: 767.950300 ms  DeleteObjects: 0.111900 ms)
 
 CE is trying to create default parameter lists ...
 creating default parameter list for genes...
 1309 default entities for genes created
 creating default parameter list for objects...
-4938 default entities for objects created
+4939 default entities for objects created
 creating default parameter list for turrets...
 72 default entities for turrets created
 ...lists created
@@ -424,13 +425,104 @@ no modifications for genes
 no modifications for objects
 no modifications for lifestages
 ...done
-Unloading 3 Unused Serialized files (Serialized files now loaded: 16)
-[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
-UnloadTime: 17.516900 ms
-Unloading 3 unused Assets to reduce memory usage. Loaded Objects now: 67849.
-Total: 810.795000 ms (FindLiveObjects: 3.474500 ms CreateObjectMapping: 3.991900 ms MarkObjects: 803.199400 ms  DeleteObjects: 0.128900 ms)
+[SpawnThoseGenes] No possible endogenes found in config for: XR_Gnoll
+[SpawnThoseGenes] No possible endogenes found in config for: VRE_Ekkimian
+[SpawnThoseGenes] No possible endogenes found in config for: VRE_Bruxa
+Unloading 2 Unused Serialized files (Serialized files now loaded: 16)
+Unloading 1 unused Assets to reduce memory usage. Loaded Objects now: 69466.
+Total: 856.256700 ms (FindLiveObjects: 3.599700 ms CreateObjectMapping: 3.166100 ms MarkObjects: 849.357700 ms  DeleteObjects: 0.132900 ms)
 
-Loading game from file USCSS with mods:
+Could not load reference to RimWorld.PreceptDef named AM_FuneralNoCorpse
+Could not load reference to RimWorld.RitualPatternDef named AM_FuneralNoCorpsePattern
+Could not find class AlphaMemes.RitualObligationTrigger_NoCorpse while resolving node li. Trying to use RimWorld.RitualObligationTrigger instead. Full node: <li Class="AlphaMemes.RitualObligationTrigger_NoCorpse"><mustBePlayerIdeo>True</mustBePlayerIdeo></li>
+SaveableFromNode exception: System.ArgumentException: Can't load abstract class RimWorld.RitualObligationTrigger
+[Ref 8FA4C5EC]
+  at Verse.ScribeExtractor.SaveableFromNode[T] (System.Xml.XmlNode subNode, System.Object[] ctorArgs) [0x00143] in <61e4173561894da49d210260257b5097>:0 
+Subnode:
+<li Class="AlphaMemes.RitualObligationTrigger_NoCorpse"><mustBePlayerIdeo>True</mustBePlayerIdeo></li>
+Could not load reference to RimWorld.PreceptDef named AM_SparringMatch
+Could not load reference to RimWorld.RitualPatternDef named AM_SparringMatchPattern
+Could not load reference to RimWorld.RitualBehaviorDef named AM_SparringMatchBehavior
+Could not find class AlphaMemes.RitualOutcomeEffectWorker_SparringMatch while resolving node outcomeEffect. Trying to use RimWorld.RitualOutcomeEffectWorker instead. Full node: <outcomeEffect Class="AlphaMemes.RitualOutcomeEffectWorker_SparringMatch"><def>AM_SparringMatchOutcome</def><compDatas><li Class="RitualOutcomeComp_DataThingPresence"><presentForTicks><keys /><values /></presentForTicks></li><li IsNull="True" /><li Class="RitualOutcomeComp_DataRoomStatCached" /><li IsNull="True" /></compDatas></outcomeEffect>
+SaveableFromNode exception: System.ArgumentException: Can't load abstract class RimWorld.RitualOutcomeEffectWorker
+[Ref 8FA4C5EC] Duplicate stacktrace, see ref for original
+Subnode:
+<outcomeEffect Class="AlphaMemes.RitualOutcomeEffectWorker_SparringMatch"><def>AM_SparringMatchOutcome</def><compDatas><li Class="RitualOutcomeComp_DataThingPresence"><presentForTicks><keys /><values /></presentForTicks></li><li IsNull="True" /><li Class="RitualOutcomeComp_DataRoomStatCached" /><li IsNull="True" /></compDatas></outcomeEffect>
+Could not load reference to RimWorld.PreceptDef named AM_NutrientPasteEating_Indifferent
+Could not load reference to RimWorld.AbilityDef named AM_ChangeStyle
+Could not load reference to Verse.ThingStyleDef named AM_Rustic_Gladius
+Could not load reference to Verse.ThingStyleDef named AM_Rustic_Sword
+Could not load reference to Verse.ThingStyleDef named AM_Rustic_AntiMaterialRifle
+Could not load reference to Verse.ThingStyleDef named AM_Rustic_AssaultRifle
+Could not load reference to Verse.ThingStyleDef named AM_Rustic_Autopistol
+Could not load reference to Verse.ThingStyleDef named AM_Rustic_Axe
+Could not load reference to Verse.ThingStyleDef named AM_Rustic_BattleRifle
+Could not load reference to Verse.ThingStyleDef named AM_Rustic_BoltActionRifle
+Could not load reference to Verse.ThingStyleDef named AM_Rustic_Pickaxe
+Could not load reference to Verse.ThingStyleDef named AM_Rustic_CarbineVWE
+Could not load reference to Verse.ThingStyleDef named AM_Rustic_ChainShotgun
+Could not load reference to Verse.ThingStyleDef named AM_Rustic_ChargeLMG
+Could not load reference to Verse.ThingStyleDef named AM_Rustic_ChargeLance
+Could not load reference to Verse.ThingStyleDef named AM_Rustic_ChargePistol
+Could not load reference to Verse.ThingStyleDef named AM_Rustic_ChargeRifle
+Could not load reference to Verse.ThingStyleDef named AM_Rustic_ChargeShotgun
+Could not load reference to Verse.ThingStyleDef named AM_Rustic_ChargeSMG
+Could not load reference to Verse.ThingStyleDef named AM_Rustic_ChargeSniperRifle
+Could not load reference to Verse.ThingStyleDef named AM_Rustic_Club
+Could not load reference to Verse.ThingStyleDef named AM_Rustic_CombatHandgun
+Could not load reference to Verse.ThingStyleDef named AM_Rustic_CompoundBow
+Could not load reference to Verse.ThingStyleDef named AM_Rustic_Crossbow
+Could not load reference to Verse.ThingStyleDef named AM_Morbid_EMPLauncher
+Could not load reference to Verse.ThingStyleDef named AM_Morbid_Flamebow
+Could not load reference to Verse.ThingStyleDef named AM_Rustic_Flamethrower
+Could not load reference to Verse.ThingStyleDef named AM_Rustic_GreatBow
+Could not load reference to Verse.ThingStyleDef named AM_Rustic_ChargeMinigun
+Could not load reference to Verse.ThingStyleDef named AM_Rustic_HandCannon
+Could not load reference to Verse.ThingStyleDef named AM_Rustic_HeavySMG
+Could not load reference to Verse.ThingStyleDef named AM_Rustic_HMG
+Could not load reference to Verse.ThingStyleDef named AM_Rustic_Ikwa
+Could not load reference to Verse.ThingStyleDef named AM_Morbid_FlameLauncher
+Could not load reference to Verse.ThingStyleDef named AM_Rustic_Knife
+Could not load reference to Verse.ThingStyleDef named AM_Rustic_LeverActionRifle
+Could not load reference to Verse.ThingStyleDef named AM_Rustic_LightSMG
+Could not load reference to Verse.ThingStyleDef named AM_Rustic_LMG
+Could not load reference to Verse.ThingStyleDef named AM_Rustic_LongBow
+Could not load reference to Verse.ThingStyleDef named AM_Rustic_Mace
+Could not load reference to Verse.ThingStyleDef named AM_Rustic_MachinePistol
+Could not load reference to Verse.ThingStyleDef named AM_Rustic_MarksmanRifle
+Could not load reference to Verse.ThingStyleDef named AM_Rustic_Minigun
+Could not load reference to Verse.ThingStyleDef named AM_Rustic_PumpShotgun
+Could not load reference to Verse.ThingStyleDef named AM_Rustic_RecurveBow
+Could not load reference to Verse.ThingStyleDef named AM_Rustic_Revolver
+Could not load reference to Verse.ThingStyleDef named AM_Rustic_SawedOffShotgun
+Could not load reference to Verse.ThingStyleDef named AM_Rustic_SemiAutomaticRifle
+Could not load reference to Verse.ThingStyleDef named AM_Rustic_ServiceRifle
+Could not load reference to Verse.ThingStyleDef named AM_Rustic_Bow
+Could not load reference to Verse.ThingStyleDef named AM_Rustic_SMG
+Could not load reference to Verse.ThingStyleDef named AM_Morbid_SmokeLauncher
+Could not load reference to Verse.ThingStyleDef named AM_Rustic_SniperRifle
+Could not load reference to Verse.ThingStyleDef named AM_Rustic_Spear
+Could not load reference to Verse.ThingStyleDef named AM_Morbid_ToxLauncher
+Could not load reference to Verse.ThingStyleDef named AM_Rustic_Hammer
+Some ideoligion precepts were null after loading.
+Some obligationTriggers were null.
+Could not do PostLoadInit on RimWorld.Precept_Ritual: System.NullReferenceException: Object reference not set to an instance of an object
+[Ref 1A85D8D]
+  at RimWorld.Precept_Ritual.ExposeData () [0x003a3] in <61e4173561894da49d210260257b5097>:0 
+  at Verse.PostLoadIniter.DoAllPostLoadInits () [0x00032] in <61e4173561894da49d210260257b5097>:0 
+Could not do PostLoadInit on RimWorld.Precept_Ritual: System.NullReferenceException: Object reference not set to an instance of an object
+[Ref 1A85D8D] Duplicate stacktrace, see ref for original
+Could not do PostLoadInit on RimWorld.IdeoRoleInstance: System.NullReferenceException: Object reference not set to an instance of an object
+[Ref 58865CDD]
+  at RimWorld.Ability.get_verb () [0x00000] in <61e4173561894da49d210260257b5097>:0 
+  at RimWorld.IdeoRoleInstance.ExposeData () [0x0004c] in <61e4173561894da49d210260257b5097>:0 
+  at Verse.PostLoadIniter.DoAllPostLoadInits () [0x00032] in <61e4173561894da49d210260257b5097>:0 
+Unloading 3 Unused Serialized files (Serialized files now loaded: 16)
+UnloadTime: 4.912600 ms
+Unloading 3 unused Assets to reduce memory usage. Loaded Objects now: 70842.
+Total: 879.023100 ms (FindLiveObjects: 3.567200 ms CreateObjectMapping: 3.165600 ms MarkObjects: 872.117800 ms  DeleteObjects: 0.171900 ms)
+
+Initializing new game with mods:
   - brrainz.harmony
   - ilyvion.LoadingProgress
   - Ludeon.RimWorld
@@ -697,297 +789,79 @@ Loading game from file USCSS with mods:
   - SR.ModRimworld.RaidExtension
   - XeoNovaDan.VisiblePants
   - sbz.GravshipStorage
-Exception registering Verse.Pawn Long Bear in loaded object directory with unique load ID Thing_Human200641: System.ArgumentException: An item with the same key has already been added. Key: Thing_Human200641
-[Ref 1FD4AB82]
- [0x00006] in <51fded79cd284d4d911c5949aff4cb21>:0 
-  at System.Collections.Generic.Dictionary`2[TKey,TValue].TryInsert (TKey key, TValue value, System.Collections.Generic.InsertionBehavior behavior) [0x0015a] in <51fded79cd284d4d911c5949aff4cb21>:0 
-  at System.Collections.Generic.Dictionary`2[TKey,TValue].Add (TKey key, TValue value) [0x00000] in <51fded79cd284d4d911c5949aff4cb21>:0 
-  at Verse.LoadedObjectDirectory.RegisterLoaded (Verse.ILoadReferenceable reffable) [0x000da] in <61e4173561894da49d210260257b5097>:0 
-Exception registering Verse.Pawn Long Bear in loaded object directory with unique thing ID 200641: System.ArgumentException: An item with the same key has already been added. Key: 200641
-[Ref FF0803AD]
- [0x00006] in <51fded79cd284d4d911c5949aff4cb21>:0 
-  at System.Collections.Generic.Dictionary`2[TKey,TValue].TryInsert (TKey key, TValue value, System.Collections.Generic.InsertionBehavior behavior) [0x000dd] in <51fded79cd284d4d911c5949aff4cb21>:0 
-  at System.Collections.Generic.Dictionary`2[TKey,TValue].Add (TKey key, TValue value) [0x00000] in <51fded79cd284d4d911c5949aff4cb21>:0 
-  at Verse.LoadedObjectDirectory.RegisterLoaded (Verse.ILoadReferenceable reffable) [0x0017e] in <61e4173561894da49d210260257b5097>:0 
-Exception registering RimWorld.Apparel VAE_Apparel_CasualTShirt200645 in loaded object directory with unique load ID Thing_VAE_Apparel_CasualTShirt200645: System.ArgumentException: An item with the same key has already been added. Key: Thing_VAE_Apparel_CasualTShirt200645
-[Ref 1FD4AB82] Duplicate stacktrace, see ref for original
-Exception registering RimWorld.Apparel VAE_Apparel_CasualTShirt200645 in loaded object directory with unique thing ID 200645: System.ArgumentException: An item with the same key has already been added. Key: 200645
-[Ref FF0803AD] Duplicate stacktrace, see ref for original
-Exception registering RimWorld.Apparel VAE_Apparel_Trousers200643 in loaded object directory with unique load ID Thing_VAE_Apparel_Trousers200643: System.ArgumentException: An item with the same key has already been added. Key: Thing_VAE_Apparel_Trousers200643
-[Ref 1FD4AB82] Duplicate stacktrace, see ref for original
-Exception registering RimWorld.Apparel VAE_Apparel_Trousers200643 in loaded object directory with unique thing ID 200643: System.ArgumentException: An item with the same key has already been added. Key: 200643
-[Ref FF0803AD] Duplicate stacktrace, see ref for original
-Exception registering RimWorld.Apparel VAE_Footwear_Shoes200644 in loaded object directory with unique load ID Thing_VAE_Footwear_Shoes200644: System.ArgumentException: An item with the same key has already been added. Key: Thing_VAE_Footwear_Shoes200644
-[Ref 1FD4AB82] Duplicate stacktrace, see ref for original
-Exception registering RimWorld.Apparel VAE_Footwear_Shoes200644 in loaded object directory with unique thing ID 200644: System.ArgumentException: An item with the same key has already been added. Key: 200644
-[Ref FF0803AD] Duplicate stacktrace, see ref for original
-Exception registering RimWorld.Apparel VAE_Handwear_Gloves200646 in loaded object directory with unique load ID Thing_VAE_Handwear_Gloves200646: System.ArgumentException: An item with the same key has already been added. Key: Thing_VAE_Handwear_Gloves200646
-[Ref 1FD4AB82] Duplicate stacktrace, see ref for original
-Exception registering RimWorld.Apparel VAE_Handwear_Gloves200646 in loaded object directory with unique thing ID 200646: System.ArgumentException: An item with the same key has already been added. Key: 200646
-[Ref FF0803AD] Duplicate stacktrace, see ref for original
-Exception registering RimWorld.Apparel VFES_Headgear_Sombrero200642 in loaded object directory with unique load ID Thing_VFES_Headgear_Sombrero200642: System.ArgumentException: An item with the same key has already been added. Key: Thing_VFES_Headgear_Sombrero200642
-[Ref 1FD4AB82] Duplicate stacktrace, see ref for original
-Exception registering RimWorld.Apparel VFES_Headgear_Sombrero200642 in loaded object directory with unique thing ID 200642: System.ArgumentException: An item with the same key has already been added. Key: 200642
-[Ref FF0803AD] Duplicate stacktrace, see ref for original
-Exception registering Verse.ThingWithComps Gun_BoltActionRifle200648 in loaded object directory with unique load ID Thing_Gun_BoltActionRifle200648: System.ArgumentException: An item with the same key has already been added. Key: Thing_Gun_BoltActionRifle200648
-[Ref 1FD4AB82] Duplicate stacktrace, see ref for original
-Exception registering Verse.ThingWithComps Gun_BoltActionRifle200648 in loaded object directory with unique thing ID 200648: System.ArgumentException: An item with the same key has already been added. Key: 200648
-[Ref FF0803AD] Duplicate stacktrace, see ref for original
-Exception registering Verse.Verb_Shoot Verse.Verb_Shoot(null) in loaded object directory with unique load ID Verb_CompEquippable_Gun_BoltActionRifle200648_0: System.ArgumentException: An item with the same key has already been added. Key: Verb_CompEquippable_Gun_BoltActionRifle200648_0
-[Ref 1FD4AB82] Duplicate stacktrace, see ref for original
-Exception registering MVCF.ManagedVerb MVCF.ManagedVerb in loaded object directory with unique load ID CompEquippable_Gun_BoltActionRifle200648_0_Managed: System.ArgumentException: An item with the same key has already been added. Key: CompEquippable_Gun_BoltActionRifle200648_0_Managed
-[Ref 1FD4AB82] Duplicate stacktrace, see ref for original
-Exception registering RimWorld.Verb_MeleeAttackDamage RimWorld.Verb_MeleeAttackDamage(null) in loaded object directory with unique load ID Verb_CompEquippable_Gun_BoltActionRifle200648_0_Smash: System.ArgumentException: An item with the same key has already been added. Key: Verb_CompEquippable_Gun_BoltActionRifle200648_0_Smash
-[Ref 1FD4AB82] Duplicate stacktrace, see ref for original
-Exception registering MVCF.ManagedVerb MVCF.ManagedVerb in loaded object directory with unique load ID CompEquippable_Gun_BoltActionRifle200648_0_Smash_Managed: System.ArgumentException: An item with the same key has already been added. Key: CompEquippable_Gun_BoltActionRifle200648_0_Smash_Managed
-[Ref 1FD4AB82] Duplicate stacktrace, see ref for original
-Exception registering RimWorld.Verb_MeleeAttackDamage RimWorld.Verb_MeleeAttackDamage(null) in loaded object directory with unique load ID Verb_CompEquippable_Gun_BoltActionRifle200648_1_Smash: System.ArgumentException: An item with the same key has already been added. Key: Verb_CompEquippable_Gun_BoltActionRifle200648_1_Smash
-[Ref 1FD4AB82] Duplicate stacktrace, see ref for original
-Exception registering MVCF.ManagedVerb MVCF.ManagedVerb in loaded object directory with unique load ID CompEquippable_Gun_BoltActionRifle200648_1_Smash_Managed: System.ArgumentException: An item with the same key has already been added. Key: CompEquippable_Gun_BoltActionRifle200648_1_Smash_Managed
-[Ref 1FD4AB82] Duplicate stacktrace, see ref for original
-Exception registering RimWorld.Verb_MeleeAttackDamage RimWorld.Verb_MeleeAttackDamage(null) in loaded object directory with unique load ID Verb_CompEquippable_Gun_BoltActionRifle200648_1_Poke: System.ArgumentException: An item with the same key has already been added. Key: Verb_CompEquippable_Gun_BoltActionRifle200648_1_Poke
-[Ref 1FD4AB82] Duplicate stacktrace, see ref for original
-Exception registering MVCF.ManagedVerb MVCF.ManagedVerb in loaded object directory with unique load ID CompEquippable_Gun_BoltActionRifle200648_1_Poke_Managed: System.ArgumentException: An item with the same key has already been added. Key: CompEquippable_Gun_BoltActionRifle200648_1_Poke_Managed
-[Ref 1FD4AB82] Duplicate stacktrace, see ref for original
-Exception registering Verse.HediffWithComps (Wanted ticksSinceCreation=570202) in loaded object directory with unique load ID Hediff_10571: System.ArgumentException: An item with the same key has already been added. Key: Hediff_10571
-[Ref 1FD4AB82] Duplicate stacktrace, see ref for original
-Exception registering Verse.ThingWithComps ElephantTusk200649 in loaded object directory with unique load ID Thing_ElephantTusk200649: System.ArgumentException: An item with the same key has already been added. Key: Thing_ElephantTusk200649
-[Ref 1FD4AB82] Duplicate stacktrace, see ref for original
-Exception registering Verse.ThingWithComps ElephantTusk200649 in loaded object directory with unique thing ID 200649: System.ArgumentException: An item with the same key has already been added. Key: 200649
-[Ref FF0803AD] Duplicate stacktrace, see ref for original
-Exception registering Verse.ThingWithComps Beer200650 in loaded object directory with unique load ID Thing_Beer200650: System.ArgumentException: An item with the same key has already been added. Key: Thing_Beer200650
-[Ref 1FD4AB82] Duplicate stacktrace, see ref for original
-Exception registering Verse.ThingWithComps Beer200650 in loaded object directory with unique thing ID 200650: System.ArgumentException: An item with the same key has already been added. Key: 200650
-[Ref FF0803AD] Duplicate stacktrace, see ref for original
-Exception registering Verse.Gene Verse.Gene in loaded object directory with unique load ID Gene_2176: System.ArgumentException: An item with the same key has already been added. Key: Gene_2176
-[Ref 1FD4AB82] Duplicate stacktrace, see ref for original
-Exception registering Verse.Gene Verse.Gene in loaded object directory with unique load ID Gene_2177: System.ArgumentException: An item with the same key has already been added. Key: Gene_2177
-[Ref 1FD4AB82] Duplicate stacktrace, see ref for original
-Exception registering Verse.Gene Verse.Gene in loaded object directory with unique load ID Gene_2178: System.ArgumentException: An item with the same key has already been added. Key: Gene_2178
-[Ref 1FD4AB82] Duplicate stacktrace, see ref for original
-Exception registering Verse.Gene Verse.Gene in loaded object directory with unique load ID Gene_2179: System.ArgumentException: An item with the same key has already been added. Key: Gene_2179
-[Ref 1FD4AB82] Duplicate stacktrace, see ref for original
-Exception registering Verse.Gene Verse.Gene in loaded object directory with unique load ID Gene_2180: System.ArgumentException: An item with the same key has already been added. Key: Gene_2180
-[Ref 1FD4AB82] Duplicate stacktrace, see ref for original
-Exception registering Verse.Gene Verse.Gene in loaded object directory with unique load ID Gene_2181: System.ArgumentException: An item with the same key has already been added. Key: Gene_2181
-[Ref 1FD4AB82] Duplicate stacktrace, see ref for original
-Exception registering Verse.Gene Verse.Gene in loaded object directory with unique load ID Gene_2182: System.ArgumentException: An item with the same key has already been added. Key: Gene_2182
-[Ref 1FD4AB82] Duplicate stacktrace, see ref for original
-Exception registering Verse.Gene Verse.Gene in loaded object directory with unique load ID Gene_2183: System.ArgumentException: An item with the same key has already been added. Key: Gene_2183
-[Ref 1FD4AB82] Duplicate stacktrace, see ref for original
-Exception registering Verse.Gene Verse.Gene in loaded object directory with unique load ID Gene_2184: System.ArgumentException: An item with the same key has already been added. Key: Gene_2184
-[Ref 1FD4AB82] Duplicate stacktrace, see ref for original
-Exception registering Verse.Gene Verse.Gene in loaded object directory with unique load ID Gene_2185: System.ArgumentException: An item with the same key has already been added. Key: Gene_2185
-[Ref 1FD4AB82] Duplicate stacktrace, see ref for original
-Exception registering Verse.Gene Verse.Gene in loaded object directory with unique load ID Gene_2186: System.ArgumentException: An item with the same key has already been added. Key: Gene_2186
-[Ref 1FD4AB82] Duplicate stacktrace, see ref for original
-Exception registering Verse.Gene Verse.Gene in loaded object directory with unique load ID Gene_2187: System.ArgumentException: An item with the same key has already been added. Key: Gene_2187
-[Ref 1FD4AB82] Duplicate stacktrace, see ref for original
-Could not resolve reference to object with loadID Thing_Human141075 of type Verse.Pawn. Was it compressed away, destroyed, had no ID number, or not saved/loaded right? curParent=RimWorld.RelationshipRecord curPathRelToParent=/references
-Could not resolve reference to object with loadID Thing_Human141174 of type Verse.Pawn. Was it compressed away, destroyed, had no ID number, or not saved/loaded right? curParent=RimWorld.RelationshipRecord curPathRelToParent=/references
-Could not resolve reference to object with loadID Thing_Human141174 of type Verse.Pawn. Was it compressed away, destroyed, had no ID number, or not saved/loaded right? curParent=RimWorld.RelationshipRecord curPathRelToParent=/references
-Could not resolve reference to object with loadID Lord_14 of type Verse.AI.Group.Lord. Was it compressed away, destroyed, had no ID number, or not saved/loaded right? curParent=VEF.Storyteller.RaidGroup curPathRelToParent=/lords
-Could not resolve reference to object with loadID Faction_31 of type RimWorld.Faction. Was it compressed away, destroyed, had no ID number, or not saved/loaded right? curParent=VEF.Storyteller.RaidGroup curPathRelToParent=
-Could not resolve reference to object with loadID Lord_33 of type Verse.AI.Group.Lord. Was it compressed away, destroyed, had no ID number, or not saved/loaded right? curParent=VEF.Storyteller.RaidGroup curPathRelToParent=/lords
-Null key while loading dictionary of Verse.Pawn and System.Int32. label=lastRoyalGossipTick
-Null key while loading dictionary of Verse.Pawn and System.Int32. label=lastRoyalGossipTick
-Null key while loading dictionary of Verse.Pawn and System.Int32. label=lastRoyalGossipTick
-Could not resolve reference to object with loadID Thing_Human195944 of type Verse.Pawn. Was it compressed away, destroyed, had no ID number, or not saved/loaded right? curParent=VanillaTraitsExpanded.TraitsManager curPathRelToParent=/cowards
-Could not resolve reference to object with loadID Thing_Human195955 of type Verse.Pawn. Was it compressed away, destroyed, had no ID number, or not saved/loaded right? curParent=VanillaTraitsExpanded.TraitsManager curPathRelToParent=/cowards
-Could not resolve reference to object with loadID Thing_Human141104 of type Verse.Pawn. Was it compressed away, destroyed, had no ID number, or not saved/loaded right? curParent=VanillaRacesExpandedHighmate.GameComponent_PawnListsSaver curPathRelToParent=/distressedTraitPawns_backup
-Could not resolve reference to object with loadID Faction_3 of type RimWorld.Faction. Was it compressed away, destroyed, had no ID number, or not saved/loaded right? curParent=(, kind=Hostile) curPathRelToParent=
-Could not resolve reference to object with loadID Faction_11 of type RimWorld.Faction. Was it compressed away, destroyed, had no ID number, or not saved/loaded right? curParent=(, kind=Hostile) curPathRelToParent=
-Could not resolve reference to object with loadID Faction_3 of type RimWorld.Faction. Was it compressed away, destroyed, had no ID number, or not saved/loaded right? curParent=(, kind=Hostile) curPathRelToParent=
-Could not resolve reference to object with loadID Faction_11 of type RimWorld.Faction. Was it compressed away, destroyed, had no ID number, or not saved/loaded right? curParent=(, kind=Hostile) curPathRelToParent=
-Could not resolve reference to object with loadID Faction_3 of type RimWorld.Faction. Was it compressed away, destroyed, had no ID number, or not saved/loaded right? curParent=(, kind=Neutral) curPathRelToParent=
-Could not resolve reference to object with loadID Faction_11 of type RimWorld.Faction. Was it compressed away, destroyed, had no ID number, or not saved/loaded right? curParent=(, kind=Hostile) curPathRelToParent=
-Could not resolve reference to object with loadID Faction_3 of type RimWorld.Faction. Was it compressed away, destroyed, had no ID number, or not saved/loaded right? curParent=(, kind=Hostile) curPathRelToParent=
-Could not resolve reference to object with loadID Faction_11 of type RimWorld.Faction. Was it compressed away, destroyed, had no ID number, or not saved/loaded right? curParent=(, kind=Hostile) curPathRelToParent=
-Could not resolve reference to object with loadID Faction_3 of type RimWorld.Faction. Was it compressed away, destroyed, had no ID number, or not saved/loaded right? curParent=(, kind=Neutral) curPathRelToParent=
-Could not resolve reference to object with loadID Faction_11 of type RimWorld.Faction. Was it compressed away, destroyed, had no ID number, or not saved/loaded right? curParent=(, kind=Hostile) curPathRelToParent=
-Could not resolve reference to object with loadID Faction_3 of type RimWorld.Faction. Was it compressed away, destroyed, had no ID number, or not saved/loaded right? curParent=(, kind=Hostile) curPathRelToParent=
-Could not resolve reference to object with loadID Faction_11 of type RimWorld.Faction. Was it compressed away, destroyed, had no ID number, or not saved/loaded right? curParent=(, kind=Hostile) curPathRelToParent=
-Could not resolve reference to object with loadID Faction_3 of type RimWorld.Faction. Was it compressed away, destroyed, had no ID number, or not saved/loaded right? curParent=(, kind=Hostile) curPathRelToParent=
-Could not resolve reference to object with loadID Faction_11 of type RimWorld.Faction. Was it compressed away, destroyed, had no ID number, or not saved/loaded right? curParent=(, kind=Hostile) curPathRelToParent=
-Could not resolve reference to object with loadID Faction_3 of type RimWorld.Faction. Was it compressed away, destroyed, had no ID number, or not saved/loaded right? curParent=(, kind=Neutral) curPathRelToParent=
-Could not resolve reference to object with loadID Faction_11 of type RimWorld.Faction. Was it compressed away, destroyed, had no ID number, or not saved/loaded right? curParent=(, kind=Hostile) curPathRelToParent=
-Could not resolve reference to object with loadID Faction_3 of type RimWorld.Faction. Was it compressed away, destroyed, had no ID number, or not saved/loaded right? curParent=(, kind=Hostile) curPathRelToParent=
-Could not resolve reference to object with loadID Faction_11 of type RimWorld.Faction. Was it compressed away, destroyed, had no ID number, or not saved/loaded right? curParent=(, kind=Hostile) curPathRelToParent=
-Could not resolve reference to object with loadID Faction_3 of type RimWorld.Faction. Was it compressed away, destroyed, had no ID number, or not saved/loaded right? curParent=(, kind=Hostile) curPathRelToParent=
-Could not resolve reference to object with loadID Faction_11 of type RimWorld.Faction. Was it compressed away, destroyed, had no ID number, or not saved/loaded right? curParent=(, kind=Hostile) curPathRelToParent=
-Could not resolve reference to object with loadID Faction_3 of type RimWorld.Faction. Was it compressed away, destroyed, had no ID number, or not saved/loaded right? curParent=(, kind=Hostile) curPathRelToParent=
-Could not resolve reference to object with loadID Faction_11 of type RimWorld.Faction. Was it compressed away, destroyed, had no ID number, or not saved/loaded right? curParent=(, kind=Hostile) curPathRelToParent=
-Could not resolve reference to object with loadID Faction_3 of type RimWorld.Faction. Was it compressed away, destroyed, had no ID number, or not saved/loaded right? curParent=(, kind=Neutral) curPathRelToParent=
-Could not resolve reference to object with loadID Faction_11 of type RimWorld.Faction. Was it compressed away, destroyed, had no ID number, or not saved/loaded right? curParent=(, kind=Hostile) curPathRelToParent=
-Could not resolve reference to object with loadID Faction_3 of type RimWorld.Faction. Was it compressed away, destroyed, had no ID number, or not saved/loaded right? curParent=(, kind=Hostile) curPathRelToParent=
-Could not resolve reference to object with loadID Faction_11 of type RimWorld.Faction. Was it compressed away, destroyed, had no ID number, or not saved/loaded right? curParent=(, kind=Hostile) curPathRelToParent=
-Could not resolve reference to object with loadID Faction_3 of type RimWorld.Faction. Was it compressed away, destroyed, had no ID number, or not saved/loaded right? curParent=(, kind=Hostile) curPathRelToParent=
-Could not resolve reference to object with loadID Faction_11 of type RimWorld.Faction. Was it compressed away, destroyed, had no ID number, or not saved/loaded right? curParent=(, kind=Hostile) curPathRelToParent=
-Could not resolve reference to object with loadID Faction_3 of type RimWorld.Faction. Was it compressed away, destroyed, had no ID number, or not saved/loaded right? curParent=(, kind=Hostile) curPathRelToParent=
-Could not resolve reference to object with loadID Faction_11 of type RimWorld.Faction. Was it compressed away, destroyed, had no ID number, or not saved/loaded right? curParent=(, kind=Hostile) curPathRelToParent=
-Could not resolve reference to object with loadID Faction_3 of type RimWorld.Faction. Was it compressed away, destroyed, had no ID number, or not saved/loaded right? curParent=(, kind=Hostile) curPathRelToParent=
-Could not resolve reference to object with loadID Faction_11 of type RimWorld.Faction. Was it compressed away, destroyed, had no ID number, or not saved/loaded right? curParent=(, kind=Hostile) curPathRelToParent=
-Could not resolve reference to object with loadID Faction_3 of type RimWorld.Faction. Was it compressed away, destroyed, had no ID number, or not saved/loaded right? curParent=(, kind=Hostile) curPathRelToParent=
-Could not resolve reference to object with loadID Faction_11 of type RimWorld.Faction. Was it compressed away, destroyed, had no ID number, or not saved/loaded right? curParent=(, kind=Hostile) curPathRelToParent=
-Could not resolve reference to object with loadID Faction_3 of type RimWorld.Faction. Was it compressed away, destroyed, had no ID number, or not saved/loaded right? curParent=(, kind=Neutral) curPathRelToParent=
-Could not resolve reference to object with loadID Faction_11 of type RimWorld.Faction. Was it compressed away, destroyed, had no ID number, or not saved/loaded right? curParent=(, kind=Hostile) curPathRelToParent=
-Could not resolve reference to object with loadID Faction_3 of type RimWorld.Faction. Was it compressed away, destroyed, had no ID number, or not saved/loaded right? curParent=(, kind=Hostile) curPathRelToParent=
-Could not resolve reference to object with loadID Faction_11 of type RimWorld.Faction. Was it compressed away, destroyed, had no ID number, or not saved/loaded right? curParent=(, kind=Hostile) curPathRelToParent=
-Could not resolve reference to object with loadID Faction_3 of type RimWorld.Faction. Was it compressed away, destroyed, had no ID number, or not saved/loaded right? curParent=(, kind=Hostile) curPathRelToParent=
-Could not resolve reference to object with loadID Faction_11 of type RimWorld.Faction. Was it compressed away, destroyed, had no ID number, or not saved/loaded right? curParent=(, kind=Hostile) curPathRelToParent=
-Could not resolve reference to object with loadID Faction_3 of type RimWorld.Faction. Was it compressed away, destroyed, had no ID number, or not saved/loaded right? curParent=(, kind=Hostile) curPathRelToParent=
-Could not resolve reference to object with loadID Faction_11 of type RimWorld.Faction. Was it compressed away, destroyed, had no ID number, or not saved/loaded right? curParent=(, kind=Hostile) curPathRelToParent=
-Could not resolve reference to object with loadID Faction_3 of type RimWorld.Faction. Was it compressed away, destroyed, had no ID number, or not saved/loaded right? curParent=(, kind=Hostile) curPathRelToParent=
-Could not resolve reference to object with loadID Faction_11 of type RimWorld.Faction. Was it compressed away, destroyed, had no ID number, or not saved/loaded right? curParent=(, kind=Hostile) curPathRelToParent=
-Could not resolve reference to object with loadID Faction_3 of type RimWorld.Faction. Was it compressed away, destroyed, had no ID number, or not saved/loaded right? curParent=(, kind=Neutral) curPathRelToParent=
-Could not resolve reference to object with loadID Faction_11 of type RimWorld.Faction. Was it compressed away, destroyed, had no ID number, or not saved/loaded right? curParent=(, kind=Hostile) curPathRelToParent=
-Could not resolve reference to object with loadID Faction_3 of type RimWorld.Faction. Was it compressed away, destroyed, had no ID number, or not saved/loaded right? curParent=(, kind=Hostile) curPathRelToParent=
-Could not resolve reference to object with loadID Faction_11 of type RimWorld.Faction. Was it compressed away, destroyed, had no ID number, or not saved/loaded right? curParent=(, kind=Hostile) curPathRelToParent=
-Could not resolve reference to object with loadID Faction_3 of type RimWorld.Faction. Was it compressed away, destroyed, had no ID number, or not saved/loaded right? curParent=(, kind=Neutral) curPathRelToParent=
-Could not resolve reference to object with loadID Faction_11 of type RimWorld.Faction. Was it compressed away, destroyed, had no ID number, or not saved/loaded right? curParent=(, kind=Hostile) curPathRelToParent=
-Could not resolve reference to object with loadID Faction_3 of type RimWorld.Faction. Was it compressed away, destroyed, had no ID number, or not saved/loaded right? curParent=(, kind=Hostile) curPathRelToParent=
-Could not resolve reference to object with loadID Faction_11 of type RimWorld.Faction. Was it compressed away, destroyed, had no ID number, or not saved/loaded right? curParent=(, kind=Hostile) curPathRelToParent=
-Could not resolve reference to object with loadID Thing_Human141166 of type Verse.Pawn. Was it compressed away, destroyed, had no ID number, or not saved/loaded right? curParent=RimWorld.DirectPawnRelation curPathRelToParent=
-Could not resolve reference to object with loadID Thing_Human141132 of type Verse.Pawn. Was it compressed away, destroyed, had no ID number, or not saved/loaded right? curParent=RimWorld.DirectPawnRelation curPathRelToParent=
-Could not resolve reference to object with loadID Thing_Human141112 of type Verse.Pawn. Was it compressed away, destroyed, had no ID number, or not saved/loaded right? curParent=RimWorld.DirectPawnRelation curPathRelToParent=
-Could not resolve reference to object with loadID Thing_Human141202 of type Verse.Pawn. Was it compressed away, destroyed, had no ID number, or not saved/loaded right? curParent=RimWorld.DirectPawnRelation curPathRelToParent=
-Could not resolve reference to object with loadID Thing_Human141127 of type Verse.Pawn. Was it compressed away, destroyed, had no ID number, or not saved/loaded right? curParent=RimWorld.DirectPawnRelation curPathRelToParent=
-Could not resolve reference to object with loadID Thing_Human141108 of type Verse.Pawn. Was it compressed away, destroyed, had no ID number, or not saved/loaded right? curParent=RimWorld.DirectPawnRelation curPathRelToParent=
-Could not resolve reference to object with loadID Thing_Human141127 of type Verse.Pawn. Was it compressed away, destroyed, had no ID number, or not saved/loaded right? curParent=RimWorld.DirectPawnRelation curPathRelToParent=
-Could not resolve reference to object with loadID Thing_Human141117 of type Verse.Pawn. Was it compressed away, destroyed, had no ID number, or not saved/loaded right? curParent=RimWorld.DirectPawnRelation curPathRelToParent=
-Could not resolve reference to object with loadID Thing_Human141197 of type Verse.Pawn. Was it compressed away, destroyed, had no ID number, or not saved/loaded right? curParent=RimWorld.DirectPawnRelation curPathRelToParent=
-Could not resolve reference to object with loadID Thing_Human141138 of type Verse.Pawn. Was it compressed away, destroyed, had no ID number, or not saved/loaded right? curParent=RimWorld.DirectPawnRelation curPathRelToParent=
-Could not resolve reference to object with loadID Thing_Human141174 of type Verse.Pawn. Was it compressed away, destroyed, had no ID number, or not saved/loaded right? curParent=RimWorld.DirectPawnRelation curPathRelToParent=
-Could not resolve reference to object with loadID Verb_CompEquippable_RRY_Gun_DroneAcidSpit168459_0 of type Verse.Verb. Was it compressed away, destroyed, had no ID number, or not saved/loaded right? curParent=Verse.Stance_Cooldown curPathRelToParent=
-Could not resolve reference to object with loadID Verb_CompEquippable_Gun_MiniShotgun152014_0 of type Verse.Verb. Was it compressed away, destroyed, had no ID number, or not saved/loaded right? curParent=Verse.Stance_Cooldown curPathRelToParent=
-Could not resolve reference to object with loadID Verb_CompEquippable_Gun_ChargeBlasterHeavy195926_0 of type Verse.Verb. Was it compressed away, destroyed, had no ID number, or not saved/loaded right? curParent=Verse.Stance_Cooldown curPathRelToParent=
-Could not resolve reference to object with loadID Faction_3 of type RimWorld.Faction. Was it compressed away, destroyed, had no ID number, or not saved/loaded right? curParent=Settlement Mintts (tile=66893,0) curPathRelToParent=
-Could not resolve reference to object with loadID Faction_11 of type RimWorld.Faction. Was it compressed away, destroyed, had no ID number, or not saved/loaded right? curParent=Settlement Stabber's Volcano (tile=139294,0) curPathRelToParent=
-Could not resolve reference to object with loadID Faction_3 of type RimWorld.Faction. Was it compressed away, destroyed, had no ID number, or not saved/loaded right? curParent=Settlement Holland (tile=81534,0) curPathRelToParent=
-Could not resolve reference to object with loadID Faction_11 of type RimWorld.Faction. Was it compressed away, destroyed, had no ID number, or not saved/loaded right? curParent=Settlement Mugger Geyser (tile=148343,0) curPathRelToParent=
-Could not resolve reference to object with loadID Faction_3 of type RimWorld.Faction. Was it compressed away, destroyed, had no ID number, or not saved/loaded right? curParent=Settlement Township-on-the-Cove (tile=72559,0) curPathRelToParent=
-Could not resolve reference to object with loadID Faction_3 of type RimWorld.Faction. Was it compressed away, destroyed, had no ID number, or not saved/loaded right? curParent=Settlement Arden (tile=152976,0) curPathRelToParent=
-Could not resolve reference to object with loadID Faction_3 of type RimWorld.Faction. Was it compressed away, destroyed, had no ID number, or not saved/loaded right? curParent=Settlement Monome (tile=93108,0) curPathRelToParent=
-Could not resolve reference to object with loadID Faction_11 of type RimWorld.Faction. Was it compressed away, destroyed, had no ID number, or not saved/loaded right? curParent=Settlement Trespasser's Dale (tile=270724,0) curPathRelToParent=
-Could not resolve reference to object with loadID Faction_3 of type RimWorld.Faction. Was it compressed away, destroyed, had no ID number, or not saved/loaded right? curParent=Settlement Boracho (tile=56008,0) curPathRelToParent=
-Could not resolve reference to object with loadID Faction_11 of type RimWorld.Faction. Was it compressed away, destroyed, had no ID number, or not saved/loaded right? curParent=Settlement Dark Meadow (tile=261510,0) curPathRelToParent=
-Could not resolve reference to object with loadID Faction_11 of type RimWorld.Faction. Was it compressed away, destroyed, had no ID number, or not saved/loaded right? curParent=Settlement Pain's Gorge (tile=102332,0) curPathRelToParent=
-Could not resolve reference to object with loadID Faction_11 of type RimWorld.Faction. Was it compressed away, destroyed, had no ID number, or not saved/loaded right? curParent=Settlement Bonde (tile=179520,0) curPathRelToParent=
-Could not resolve reference to object with loadID Faction_11 of type RimWorld.Faction. Was it compressed away, destroyed, had no ID number, or not saved/loaded right? curParent=Settlement Scimitar Hamlet (tile=182649,0) curPathRelToParent=
-Could not resolve reference to object with loadID Faction_11 of type RimWorld.Faction. Was it compressed away, destroyed, had no ID number, or not saved/loaded right? curParent=Settlement Cruelty's Parish (tile=203439,0) curPathRelToParent=
-Could not resolve reference to object with loadID Faction_3 of type RimWorld.Faction. Was it compressed away, destroyed, had no ID number, or not saved/loaded right? curParent=Settlement Ttspenfor (tile=129746,0) curPathRelToParent=
-Could not resolve reference to object with loadID Faction_3 of type RimWorld.Faction. Was it compressed away, destroyed, had no ID number, or not saved/loaded right? curParent=Settlement Edctfar (tile=124779,0) curPathRelToParent=
-Could not resolve reference to object with loadID Faction_3 of type RimWorld.Faction. Was it compressed away, destroyed, had no ID number, or not saved/loaded right? curParent=Settlement Ithen (tile=131938,0) curPathRelToParent=
-Could not resolve reference to object with loadID Faction_11 of type RimWorld.Faction. Was it compressed away, destroyed, had no ID number, or not saved/loaded right? curParent=Settlement Goblin's Township (tile=157730,0) curPathRelToParent=
-Could not resolve reference to object with loadID Faction_11 of type RimWorld.Faction. Was it compressed away, destroyed, had no ID number, or not saved/loaded right? curParent=Settlement Locust's Thicket (tile=90573,0) curPathRelToParent=
-Could not resolve reference to object with loadID Faction_3 of type RimWorld.Faction. Was it compressed away, destroyed, had no ID number, or not saved/loaded right? curParent=Settlement Langtry (tile=221980,0) curPathRelToParent=
-Could not resolve reference to object with loadID Faction_11 of type RimWorld.Faction. Was it compressed away, destroyed, had no ID number, or not saved/loaded right? curParent=Settlement Pig Crag (tile=221283,0) curPathRelToParent=
-Could not resolve reference to object with loadID Faction_3 of type RimWorld.Faction. Was it compressed away, destroyed, had no ID number, or not saved/loaded right? curParent=Settlement Shafter (tile=202516,0) curPathRelToParent=
-Could not resolve reference to object with loadID Faction_3 of type RimWorld.Faction. Was it compressed away, destroyed, had no ID number, or not saved/loaded right? curParent=Settlement Struggle Stone (tile=217764,0) curPathRelToParent=
-Could not resolve reference to object with loadID Faction_11 of type RimWorld.Faction. Was it compressed away, destroyed, had no ID number, or not saved/loaded right? curParent=Settlement Imp's Quarry (tile=185982,0) curPathRelToParent=
-Could not resolve reference to object with loadID Faction_11 of type RimWorld.Faction. Was it compressed away, destroyed, had no ID number, or not saved/loaded right? curParent=Settlement Cash Range (tile=175918,0) curPathRelToParent=
-Could not resolve reference to object with loadID Faction_11 of type RimWorld.Faction. Was it compressed away, destroyed, had no ID number, or not saved/loaded right? curParent=Settlement Bow's Sinkhole (tile=224772,0) curPathRelToParent=
-Could not resolve reference to object with loadID Faction_11 of type RimWorld.Faction. Was it compressed away, destroyed, had no ID number, or not saved/loaded right? curParent=Settlement Crisis's Meadow (tile=42548,0) curPathRelToParent=
-Could not resolve reference to object with loadID Faction_11 of type RimWorld.Faction. Was it compressed away, destroyed, had no ID number, or not saved/loaded right? curParent=Settlement Violence's Bush (tile=111547,0) curPathRelToParent=
-Could not resolve reference to object with loadID Faction_11 of type RimWorld.Faction. Was it compressed away, destroyed, had no ID number, or not saved/loaded right? curParent=Settlement Hunter's Formation (tile=291724,0) curPathRelToParent=
-Could not resolve reference to object with loadID Faction_11 of type RimWorld.Faction. Was it compressed away, destroyed, had no ID number, or not saved/loaded right? curParent=Settlement Fenas (tile=214678,0) curPathRelToParent=
-Null key while loading dictionary of Verse.Pawn and System.Int32. label=colonist_and_random_mood
-Could not resolve reference to object with loadID Faction_3 of type RimWorld.Faction. Was it compressed away, destroyed, had no ID number, or not saved/loaded right? curParent=Verse.PawnDestinationReservationManager curPathRelToParent=/reservedDestinations/keys
-Null key while loading dictionary of RimWorld.Faction and Verse.PawnDestinationReservationManager+PawnDestinationSet. label=reservedDestinations
-Could not resolve reference to object with loadID Faction_31 of type RimWorld.Faction. Was it compressed away, destroyed, had no ID number, or not saved/loaded right? curParent=Verse.AI.Group.Lord curPathRelToParent=
-Could not resolve reference to object with loadID Faction_31 of type RimWorld.Faction. Was it compressed away, destroyed, had no ID number, or not saved/loaded right? curParent=Verse.AI.Group.Lord curPathRelToParent=
-[RimMercenaries] Loaded save data: hasBeenInitialized=True, lastRefreshTick=434707, mercenaries=17, tier1=10, tier2=5, tier3=2
-Pawn Toze has relation "Parent" with null pawn after loading. This means that we forgot to serialize pawns somewhere (e.g. pawns from passing trade ships).
-Pawn Ammonathas has relation "Parent" with null pawn after loading. This means that we forgot to serialize pawns somewhere (e.g. pawns from passing trade ships).
-Pawn Arenik has relation "Spouse" with null pawn after loading. This means that we forgot to serialize pawns somewhere (e.g. pawns from passing trade ships).
-Pawn Elaeur has relation "Lover" with null pawn after loading. This means that we forgot to serialize pawns somewhere (e.g. pawns from passing trade ships).
-Pawn Mosoere has relation "ExSpouse" with null pawn after loading. This means that we forgot to serialize pawns somewhere (e.g. pawns from passing trade ships).
-Pawn Nuslosteos has relation "Parent" with null pawn after loading. This means that we forgot to serialize pawns somewhere (e.g. pawns from passing trade ships).
-Pawn Dosnosde has relation "Parent" with null pawn after loading. This means that we forgot to serialize pawns somewhere (e.g. pawns from passing trade ships).
-Pawn Daimos has relation "Parent" with null pawn after loading. This means that we forgot to serialize pawns somewhere (e.g. pawns from passing trade ships).
-Pawn Darcie has relation "Parent" with null pawn after loading. This means that we forgot to serialize pawns somewhere (e.g. pawns from passing trade ships).
-Pawn Mac has relation "Parent" with null pawn after loading. This means that we forgot to serialize pawns somewhere (e.g. pawns from passing trade ships).
-Pawn Nosro has relation "Lover" with null pawn after loading. This means that we forgot to serialize pawns somewhere (e.g. pawns from passing trade ships).
-Settlement 'Mintts' had null faction on load - destroying.
-Settlement 'Stabber's Volcano' had null faction on load - destroying.
-Settlement 'Holland' had null faction on load - destroying.
-Settlement 'Mugger Geyser' had null faction on load - destroying.
-Settlement 'Township-on-the-Cove' had null faction on load - destroying.
-Settlement 'Arden' had null faction on load - destroying.
-Settlement 'Monome' had null faction on load - destroying.
-Settlement 'Trespasser's Dale' had null faction on load - destroying.
-Settlement 'Boracho' had null faction on load - destroying.
-Settlement 'Dark Meadow' had null faction on load - destroying.
-Settlement 'Pain's Gorge' had null faction on load - destroying.
-Settlement 'Bonde' had null faction on load - destroying.
-Settlement 'Scimitar Hamlet' had null faction on load - destroying.
-Settlement 'Cruelty's Parish' had null faction on load - destroying.
-Settlement 'Ttspenfor' had null faction on load - destroying.
-Settlement 'Edctfar' had null faction on load - destroying.
-Settlement 'Ithen' had null faction on load - destroying.
-Settlement 'Goblin's Township' had null faction on load - destroying.
-Settlement 'Locust's Thicket' had null faction on load - destroying.
-Settlement 'Langtry' had null faction on load - destroying.
-Settlement 'Pig Crag' had null faction on load - destroying.
-Settlement 'Shafter' had null faction on load - destroying.
-Settlement 'Struggle Stone' had null faction on load - destroying.
-Settlement 'Imp's Quarry' had null faction on load - destroying.
-Settlement 'Cash Range' had null faction on load - destroying.
-Settlement 'Bow's Sinkhole' had null faction on load - destroying.
-Settlement 'Crisis's Meadow' had null faction on load - destroying.
-Settlement 'Violence's Bush' had null faction on load - destroying.
-Settlement 'Hunter's Formation' had null faction on load - destroying.
-Settlement 'Fenas' had null faction on load - destroying.
-<color=#66ffb5>[MeleeAnim]</color> Loaded 0 animation renderers on map Map-0-PlayerHome
+[SpawnThoseGenes] No possible endogenes found in config for: VRE_Boarskin
+[AVP Xenomorphs] Created Xenomorph faction during pawn generation (was missing).
 StandingLamp, SunLamp, WallLamp, FloodLight, TubeTelevision, FlatscreenTelevision, MegascreenTelevision, OrbitalTradeBeacon, CommsConsole, MoisturePump, GroundPenetratingScanner, LongRangeMineralScanner, MultiAnalyzer, VitalsMonitor, PowerConduit, HiddenConduit, WaterproofConduit, PowerSwitch, WoodFiredGenerator, ChemfuelPoweredGenerator, WindTurbine, Battery, SolarGenerator, GeothermalGenerator, WatermillGenerator, ElectricTailoringBench, ElectricSmithy, TableMachining, ElectricStove, ElectricSmelter, BiofuelRefinery, FabricationBench, HiTechResearchBench, ElectricCrematorium, HydroponicsBasin, DeepDrill, NutrientPasteDispenser, Turret_MiniTurret, Turret_Autocannon, Turret_Sniper, Turret_FoamTurret, Turret_RocketswarmLauncher, Ship_Beam, Ship_CryptosleepCasket, Ship_ComputerCore, Ship_Reactor, Ship_Engine, Ship_SensorCluster, PsychicEmanator, VanometricPowerCell, InfiniteChemreactor, Autodoor, Heater, Cooler, UnstablePowerCell, ShipLandingBeacon, SleepAccelerator, BiosculpterPod, NeuralSupercharger, LightBall, Loudspeaker, Autobong, DeathrestCasket, Hemopump, HemogenAmplifier, GlucosoidPump, PsychofluidPump, DeathrestAccelerator, BandNode, ToxifierGenerator, GeneAssembler, GeneBank, GeneExtractor, GrowthVat, PollutionPump, WastepackAtomizer, GeneProcessor, MechBooster, MechGestator, LargeMechGestator, SubcoreEncoder, SubcoreSoftscanner, SubcoreRipscanner, BasicRecharger, StandardRecharger, SecurityDoor, ElectricInhibitor, ProximityDetector, AtmosphericHeater, FrenzyInducer, SleepSuppressor, BioferriteGenerator, Electroharvester, BioferriteShaper, SerumCentrifuge, BioferriteHarvester, GravEngine, GravcorePowerCell, PilotSubpersonaCore, GravshipShieldGenerator, AncientGravReactor, AncientTerraformer, LifeSupportUnit, OrbitalScanner, OxygenPump, KCSG_PowerConduit, VVE_GarageBench, VVE_GarageAutoDoor, VVE_GarageAutoDoorOpened, VVE_GarageAutoDoorLarge, VVE_GarageAutoDoorLargeOpened, owl_refrigerator, owl_doublerefrigerator, BioReactor, BioReactorCircleLarge, BioReactorCircleEX, BioReactorBig, BioReactorEx, AA_BlueGelBattery, AA_HexaGelBattery, AA_HexagelCoreReactor, PH_AutodoorDouble, PH_AutodoorTriple, PH_DoorBlastSingle, PH_DoorBlastDoor, PH_DoorThickBlastDoor, PH_DoorButton, PH_DoorLever, PH_DoorRemoteSingle, PH_DoorRemoteDouble, PH_DoorRemoteTriple, VREA_AndroidStand, VREA_AndroidPartWorkbench, VREA_SubcorePolyanalyzer, VREA_AndroidCreationStation, VREA_AndroidBehavioristStation, VREA_NeutroCasket, GravshipBiofuelRefineryAddOn, MedPodLux, MedPodStandard, MedPodAnimal, MedPodAnimalMedium, MedPodAnimalBig, TableMending, GravshipHull, VacBarrier, WallSwitch, PFS_HoloGlassPanel, PFS_RoyalBed, PFS_TableMiniB, PFS_Table3x2a, PFS_CubeLight, PFS_TriLight, PFS_FloorlineLight, PFS_PokerTable, PFS_BilliardsTable, PFS_AutodoorB, PFS_AutodoorC, PFS_HoloGlassAutodoor, PFS_ColumnB, PFS_ColumnC, PFS_Heater, Building_RTMagneticShield, Cooler_Over, Cooler_Over2W, GDTable, YPTable, JITable, TETable, Turret_ShardSentry, Turret_WaveEmitter, PortableReactor, Turret_SuvTurret, Turret_SupTurret, Turret_MC, RocketTurret, Turret_EMPLobber, Turret_FireLobber, Turret_Incinerator, Turret_Graser, Turret_Rotarygun, Turret_MiniSlugger, Turret_MiniShooter, VCE_ElectricPot, VCE_DeepFrier, VCE_CanningMachine, Windmill, Radio_Industrial, Radio_Spacer, Joy_Arcade, Joy_InudstrialComputer, Joy_ModernComputer, VFE_DeskLamp, VFE_FloorLamp, Light_Streetlamp, VFE_RoyalLamp, VFE_TableMachiningLarge, VFE_TableSmithyLarge, VFE_TableStoveLarge, VFE_TableTailorLarge, VFE_ComponentFabricationBench, VFE_TableButcherElectric, VFE_TableDrugLabElectric, VFE_TableStonecutterElectric, VRE_PsychofluidWell, VRE_InvocationMatrix, VRE_HemodynamicAccelerator, VRE_HemogenSolidifier, VRE_SmallHemogenAmplifier, VRE_SmallHemopump, TM_Tinkerbench, TM_Biohacker, FedTable, Turret_FedHarvester, Turret_PB, VBE_SodaFountain, VFEE_Candelabra, VFED_Turret_Kontarion, VFED_Turret_Palintone, VFED_Turret_Onager, VFED_SurveillancePillar, VFED_ImperialMegaHighShield, VFEP_WarcasketFoundry, VFEP_ShipChunkBattery, VFEP_ShipChunkGauntletTurret, VFEP_ShipChunkReactor, Table_IlluminatedEndTable, Table_IlluminatedDresser, VFES_Table_IlluminatedWardrobe, UltrascreenTV, VFES_WallMountedTelevision, VFES_TelevisionSpeaker, Shelf_RepairRack, VFES_AirPurifier, Table_interactive_1x1c, Table_interactive_2x2c, GR_AncientCryofreezer, GR_AncientBioBattery, GR_GenePod, GR_ElectroWomb, GR_LargeElectroWomb, GR_TissueGrinder, GR_GeneticsTinkeringTable, GR_GeneticExtractionTable, GR_GeneRecombinator, GR_TissueGrowingVat, VBE_TypewritersTable, Facility_VitalsCentre, VTE_ACControlUnit, VTE_ACUnit, VTE_ACUnitWall, VTE_ACCompressor, VTE_LargeACCompressor, VTE_IndustrialHeater, VTE_IndustrialCooler, VTE_WallHeater, VTE_WallMountedHeater, VTE_WallMountedCooler, VTE_StandingCooler, VTE_SmallCeilingFan, VTE_LargeCeilingFan, AIRobot_RechargeStation_Hauler, AIRobot_RechargeStation_Cleaner, VFES_Turret_NonLethalTurret, VFES_Turret_AntiAir, VFES_Turret_Concealed, VFES_ConcealedBarrier, VFES_SmallRepulsor, VFES_LargeRepulsor, VFES_Turret_MilitaryTurret, VFES_Turret_ArmoredTurret, VFES_Turret_Searchlight, VFES_Turret_Flame, VFES_Turret_ShotgunTurret, VFES_Turret_AutocannonDouble, VFES_Turret_Minigun, VFES_Turret_ChargeTurret, VFES_Turret_ChargeRailgun, VFES_Turret_TeslaBlaster, PFS_DisplayPod, BS_AndroidFuelRefinery, BS_AndroidChargingStation, TectonicEmiter, WeatherEmiter
 checking editor settings...
 bodysizes genes are active
-[RimMercenaries] FinalizeInit called for save. HasBeenInitialized: True
-[Yayo's Animation] GC : animation data count [0 -> 0]
-Unloading 1 Unused Serialized files (Serialized files now loaded: 16)
-Unloading 1 unused Assets to reduce memory usage. Loaded Objects now: 75874.
-Total: 962.687300 ms (FindLiveObjects: 5.644000 ms CreateObjectMapping: 2.980600 ms MarkObjects: 953.881300 ms  DeleteObjects: 0.181200 ms)
+[RimMercenaries] FinalizeInit called for save. HasBeenInitialized: False
+[RimMercenaries] Initializing mercenaries for this save...
+[RimMercenaries] Force initializing mercenary system for this save...
+[RimMercenaries] Generated 17 mercenaries for Baseliner - Tier counts: T1=10, T2=5, T3=2
+[RimMercenaries] Mercenary system initialized successfully for this save!
+Unloading 0 Unused Serialized files (Serialized files now loaded: 16)
+Unloading 1 unused Assets to reduce memory usage. Loaded Objects now: 78388.
+Total: 893.937900 ms (FindLiveObjects: 4.060500 ms CreateObjectMapping: 4.004300 ms MarkObjects: 885.704500 ms  DeleteObjects: 0.168300 ms)
 
+[RimMercenaries] Generated 17 reserve mercenaries for xenotype Baseliner
 Arachnophobia :: Spider Biome Settings Adjusted :: Current Factor: 1
-Graphic_SplitWrapper: Target thing is dessicated.
-Material 'Custom/Cutout_Dessicated_Cougar_north' with Shader 'Custom/Cutout' doesn't have a texture property '_MaskTex'
-Material 'Custom/Cutout_Dessicated_Cougar_east' with Shader 'Custom/Cutout' doesn't have a texture property '_MaskTex'
-Material 'Custom/Cutout_Dessicated_Cougar_south' with Shader 'Custom/Cutout' doesn't have a texture property '_MaskTex'
-Material 'Custom/Cutout_Dessicated_Cougar_east' with Shader 'Custom/Cutout' doesn't have a texture property '_MaskTex'
-Wrote screenshot C:\Users\clint\AppData\LocalLow\Ludeon Studios\RimWorld by Ludeon Studios\RimSaves\Previews\USCSS.dat of size 163001
-Graphic_SplitWrapper: Target thing is dessicated.
-Material 'Custom/Cutout_Dessicated_Cougar_north' with Shader 'Custom/Cutout' doesn't have a texture property '_MaskTex'
-Material 'Custom/Cutout_Dessicated_Cougar_east' with Shader 'Custom/Cutout' doesn't have a texture property '_MaskTex'
-Material 'Custom/Cutout_Dessicated_Cougar_south' with Shader 'Custom/Cutout' doesn't have a texture property '_MaskTex'
-Material 'Custom/Cutout_Dessicated_Cougar_east' with Shader 'Custom/Cutout' doesn't have a texture property '_MaskTex'
-Unable to check reservations for 'Muffalo'
-Exception ticking Hutch (at (124, 0, 258)). Suppressing further errors. Exception: System.NullReferenceException: Object reference not set to an instance of an object
-[Ref 55657601]
-  at GiddyUp.MountUtility.CancelRopers (Verse.Pawn animal) [0x00006] in /home/runner/work/GiddyUp2/GiddyUp2/mod/Source/Core/MountUtility.cs:851 
-  at GiddyUp.MountUtility.GoMount (Verse.Pawn rider, Verse.Pawn animal, GiddyUp.MountUtility+GiveJobMethod giveJobMethod, System.Nullable`1[T] thinkResult, Verse.AI.Job currentJob) [0x00000] in /home/runner/work/GiddyUp2/GiddyUp2/mod/Source/Core/MountUtility.cs:77 
-  at GiddyUp.Harmony.Patch_DetermineNextJob.<Postfix>g__HandleVisitorsMounting|0_0 (Verse.AI.Pawn_JobTracker jobTracker, Verse.AI.ThinkResult& thinkResult, Verse.Pawn pawn) [0x001b9] in /home/runner/work/GiddyUp2/GiddyUp2/mod/Source/Core/Harmony/Pawn_JobTracker.cs:158 
-  at GiddyUp.Harmony.Patch_DetermineNextJob.Postfix (Verse.AI.Pawn_JobTracker __instance, Verse.AI.ThinkResult& __result) [0x0020c] in /home/runner/work/GiddyUp2/GiddyUp2/mod/Source/Core/Harmony/Pawn_JobTracker.cs:104 
-  at Verse.AI.Pawn_JobTracker.DetermineNextJob (Verse.ThinkTreeDef& thinkTree, System.Boolean ignoreQueue) [0x00112] in <61e4173561894da49d210260257b5097>:0 
-    - POSTFIX MemeGoddess.SearchAndDestroy: Void SearchAndDestroy.Harmony.Pawn_JobTracker_DetermineNextJob:Postfix(Pawn_JobTracker __instance, ThinkResult& __result)
-    - POSTFIX GiddyUp: Void GiddyUp.Harmony.Patch_DetermineNextJob:Postfix(Pawn_JobTracker __instance, ThinkResult& __result)
-(wrapper dynamic-method) MonoMod.Utils.DynamicMethodDefinition.Glue:AbiFixup<Verse.AI.ThinkResult Verse.AI.Pawn_JobTracker:DetermineNextJob(Verse.ThinkTreeDef&, System.Boolean),Verse.AI.ThinkResult Verse.AI.Pawn_JobTracker.DetermineNextJob_Patch2(Verse.AI.Pawn_JobTracker, Verse.ThinkTreeDef&, System.Boolean)>(Verse.AI.Pawn_JobTracker,Verse.AI.ThinkResult&,Verse.ThinkTreeDef&,bool)
-  at Verse.AI.Pawn_JobTracker.TryFindAndStartJob () [0x00082] in <61e4173561894da49d210260257b5097>:0 
-  at Verse.AI.Pawn_JobTracker.EndCurrentJob (Verse.AI.JobCondition condition, System.Boolean startNewJob, System.Boolean canReturnToPool) [0x00274] in <61e4173561894da49d210260257b5097>:0 
-    - PREFIX net.avilmask.rimworld.mod.CommonSense: Boolean CommonSense.OpportunisticTasks+Pawn_JobTracker_EndCurrentJob_CommonSensePatch:Prefix(Pawn_JobTracker_Crutch __instance, JobCondition condition)
-  at Verse.AI.Pawn_JobTracker.JobTrackerTickInterval (System.Int32 delta) [0x001c4] in <61e4173561894da49d210260257b5097>:0 
-  at Verse.Pawn.TickInterval (System.Int32 delta) [0x00050] in <61e4173561894da49d210260257b5097>:0 
-  at Verse.Thing.DoTick () [0x000eb] in <61e4173561894da49d210260257b5097>:0 
-  at Verse.TickList.Tick () [0x00139] in <61e4173561894da49d210260257b5097>:0 
-[Yayo's Animation] GC : animation data count [126 -> 82]
-Couldn't destroy corpses.
-[Ref 398920CE]
- [0x00000] in <51fded79cd284d4d911c5949aff4cb21>:0 
-  at System.Collections.Generic.List`1+Enumerator[T].MoveNextRare () [0x00013] in <51fded79cd284d4d911c5949aff4cb21>:0 
-  at System.Collections.Generic.List`1+Enumerator[T].MoveNext () [0x0004a] in <51fded79cd284d4d911c5949aff4cb21>:0 
-  at System.Linq.Enumerable+WhereListIterator`1[TSource].MoveNext () [0x0004e] in <1f993cbf88314b1baa1e10ca917bdc64>:0 
-  at AIRobot.X2_AIRobot.Destroy (Verse.DestroyMode mode) [0x000e7] in D:\_Programmierung\_GitHub_Repositories\RimWorld-Miscellaneous_Source\Source\AIRobot\X2_AIRobot.cs:121 
-Couldn't destroy corpses.
-[Ref 398920CE] Duplicate stacktrace, see ref for original
+Getting next unique ID during saving This may cause bugs.
+Wrote screenshot C:\Users\clint\AppData\LocalLow\Ludeon Studios\RimWorld by Ludeon Studios\RimSaves\Previews\USCSS Colony77.dat of size 109171
+[Yayo's Animation] GC : animation data count [110 -> 101]
+Wrote screenshot C:\Users\clint\AppData\LocalLow\Ludeon Studios\RimWorld by Ludeon Studios\RimSaves\Previews\Autosave-1.dat of size 82019
+[Yayo's Animation] GC : animation data count [108 -> 95]
+Wrote screenshot C:\Users\clint\AppData\LocalLow\Ludeon Studios\RimWorld by Ludeon Studios\RimSaves\Previews\Autosave-2.dat of size 127455
+Douglas threw exception in WorkGiver HaulUrgently: System.NullReferenceException: Object reference not set to an instance of an object
+[Ref 16A8B8B7]
+  at Verse.GridsUtility.Fogged (Verse.Thing t) [0x00006] in <61e4173561894da49d210260257b5097>:0 
+  at Verse.AI.HaulAIUtility.PawnCanAutomaticallyHaulFast_NewTemp (Verse.Pawn p, Verse.Thing t, System.Boolean forced, System.Boolean checkReachability) [0x00000] in <61e4173561894da49d210260257b5097>:0 
+  at Verse.AI.HaulAIUtility.PawnCanAutomaticallyHaulFast (Verse.Pawn p, Verse.Thing t, System.Boolean forced) [0x00000] in <61e4173561894da49d210260257b5097>:0 
+  at AllowTool.WorkGiver_HaulUrgently+<PotentialWorkThingsGlobal>d__3.MoveNext () [0x00052] in <8a098910d6a84b188090b9d6c096e9ee>:0 
+  at System.Linq.Enumerable.Any[TSource] (System.Collections.Generic.IEnumerable`1[T] source) [0x00015] in <1f993cbf88314b1baa1e10ca917bdc64>:0 
+  at Verse.GenCollection.EnumerableNullOrEmpty[T] (System.Collections.Generic.IEnumerable`1[T] enumerable) [0x00019] in <61e4173561894da49d210260257b5097>:0 
+  at Verse.GenClosest.EarlyOutSearch (Verse.IntVec3 start, Verse.Map map, Verse.ThingRequest thingReq, System.Collections.Generic.IEnumerable`1[T] customGlobalSearchSet, System.Predicate`1[T] validator) [0x00079] in <61e4173561894da49d210260257b5097>:0 
+  at Verse.GenClosest.ClosestThingReachable (Verse.IntVec3 root, Verse.Map map, Verse.ThingRequest thingReq, Verse.AI.PathEndMode peMode, Verse.TraverseParms traverseParams, System.Single maxDistance, System.Predicate`1[T] validator, System.Collections.Generic.IEnumerable`1[T] customGlobalSearchSet, System.Int32 searchRegionsMin, System.Int32 searchRegionsMax, System.Boolean forceAllowGlobalSearch, Verse.RegionType traversableRegionTypes, System.Boolean ignoreEntirelyForbiddenRegions, System.Boolean lookInHaulSources) [0x0008c] in <61e4173561894da49d210260257b5097>:0 
+  at RimWorld.JobGiver_Work.TryIssueJobPackage (Verse.Pawn pawn, Verse.AI.JobIssueParams jobParams) [0x00678] in <61e4173561894da49d210260257b5097>:0 
+    - TRANSPILER SmarterConstruction: List`1 SmarterConstruction.Patches.PatchMakeFinishFramesPrioritized:Transpiler(IEnumerable`1 instructions, ILGenerator generator)
+[Yayo's Animation] GC : animation data count [109 -> 93]
+Wrote screenshot C:\Users\clint\AppData\LocalLow\Ludeon Studios\RimWorld by Ludeon Studios\RimSaves\Previews\Autosave-3.dat of size 56303
+[Yayo's Animation] GC : animation data count [98 -> 83]
+Wrote screenshot C:\Users\clint\AppData\LocalLow\Ludeon Studios\RimWorld by Ludeon Studios\RimSaves\Previews\Autosave-4.dat of size 76121
+[Yayo's Animation] GC : animation data count [84 -> 79]
+Wrote screenshot C:\Users\clint\AppData\LocalLow\Ludeon Studios\RimWorld by Ludeon Studios\RimSaves\Previews\Autosave-5.dat of size 105884
+[SpawnThoseGenes] No possible endogenes found in config for: XR_Gnoll
+[SpawnThoseGenes] No possible endogenes found in config for: XR_Gnoll
+RRY_Xenomorph_FaceHugger61611 issued IdleError wait job. The behavior tree should never get here.
+[Yayo's Animation] GC : animation data count [117 -> 83]
+Wrote screenshot C:\Users\clint\AppData\LocalLow\Ludeon Studios\RimWorld by Ludeon Studios\RimSaves\Previews\Autosave-1.dat of size 84059
+Could not reserve Thing_RawBerries59725(current stack count: 13) (layer: null) for Stepan for job HaulToInventory (Job_176804) B = (32, 0, 95) Giver = ThinkNode_QueuedJob [workGiverDef: null] (now doing job HaulToInventory (Job_176804) B = (32, 0, 95) Giver = ThinkNode_QueuedJob [workGiverDef: null](curToil=-1)) for maxPawns 1 and stackCount -1.
+Existing reservers:
+   [0] Justina (job: DoBill (Job_176899) A = Thing_ElectricStove62821 B = Thing_RawBerries59725 Giver = JobGiver_Work [workGiverDef: DoBillsCook], toil: 6, maxPawns: 1, stackCount: -1)
+Attempted to draw Tortoise59869 without a resolved render tree.
+[Yayo's Animation] GC : animation data count [92 -> 74]
+Wrote screenshot C:\Users\clint\AppData\LocalLow\Ludeon Studios\RimWorld by Ludeon Studios\RimSaves\Previews\Autosave-2.dat of size 90735
+Attempted to draw StoneCrab56007 without a resolved render tree.
+Attempted to draw Rat59894 without a resolved render tree.
+Attempted to draw Alpaca60063 without a resolved render tree.
+Attempted to draw Chinchilla55934 without a resolved render tree.
+[Yayo's Animation] GC : animation data count [106 -> 76]
+Wrote screenshot C:\Users\clint\AppData\LocalLow\Ludeon Studios\RimWorld by Ludeon Studios\RimSaves\Previews\Autosave-3.dat of size 94408
+[Yayo's Animation] GC : animation data count [114 -> 82]
+Wrote screenshot C:\Users\clint\AppData\LocalLow\Ludeon Studios\RimWorld by Ludeon Studios\RimSaves\Previews\Autosave-4.dat of size 101149
+Attempted to draw Peacock64170 without a resolved render tree.
+Attempted to draw Monkey63841 without a resolved render tree.
+Attempted to draw Capybara63589 without a resolved render tree.
+[Yayo's Animation] GC : animation data count [99 -> 71]
+Wrote screenshot C:\Users\clint\AppData\LocalLow\Ludeon Studios\RimWorld by Ludeon Studios\RimSaves\Previews\Autosave-5.dat of size 132218
+Attempted to draw StoneCrab55966 without a resolved render tree.
+Tried to use variable "pointsOriginal" in a math expression but it doesn't exist.
+[Yayo's Animation] GC : animation data count [103 -> 76]
+Wrote screenshot C:\Users\clint\AppData\LocalLow\Ludeon Studios\RimWorld by Ludeon Studios\RimSaves\Previews\Autosave-1.dat of size 98427
+Attempted to draw Capybara55986 without a resolved render tree.
+Attempted to draw Capybara55991 without a resolved render tree.
+[Yayo's Animation] GC : animation data count [102 -> 76]
+Trying to save reference to a discarded thing Peacock55953 with saveDestroyedThings=true. This means that it's not deep-saved anywhere and is no longer managed by anything in the code, so saving its reference will always fail. , label=otherPawn
+Wrote screenshot C:\Users\clint\AppData\LocalLow\Ludeon Studios\RimWorld by Ludeon Studios\RimSaves\Previews\Autosave-2.dat of size 77702
 Exception in RimWorld.ThinkNode_ConditionalNotPawnKind TryIssueJobPackage: System.NullReferenceException: Object reference not set to an instance of an object
 [Ref 5FC929E0]
   at Verse.GenClosest.EarlyOutSearch (Verse.IntVec3 start, Verse.Map map, Verse.ThingRequest thingReq, System.Collections.Generic.IEnumerable`1[T] customGlobalSearchSet, System.Predicate`1[T] validator) [0x00015] in <61e4173561894da49d210260257b5097>:0 
@@ -1006,884 +880,348 @@ Exception in RimWorld.ThinkNode_ConditionalNotPawnKind TryIssueJobPackage: Syste
   at RimWorld.JobGiver_AIFightEnemy.TryGiveJob (Verse.Pawn pawn) [0x00049] in <61e4173561894da49d210260257b5097>:0 
   at Verse.AI.ThinkNode_JobGiver.TryIssueJobPackage (Verse.Pawn pawn, Verse.AI.JobIssueParams jobParams) [0x00000] in <61e4173561894da49d210260257b5097>:0 
   at Verse.AI.ThinkNode_Priority.TryIssueJobPackage (Verse.Pawn pawn, Verse.AI.JobIssueParams jobParams) [0x00022] in <61e4173561894da49d210260257b5097>:0 
-Exception in RimWorld.ThinkNode_ConditionalNotPawnKind TryIssueJobPackage: System.NullReferenceException: Object reference not set to an instance of an object
-[Ref C3B3D719]
-  at Verse.GenClosest.EarlyOutSearch (Verse.IntVec3 start, Verse.Map map, Verse.ThingRequest thingReq, System.Collections.Generic.IEnumerable`1[T] customGlobalSearchSet, System.Predicate`1[T] validator) [0x00015] in <61e4173561894da49d210260257b5097>:0 
-  at Verse.GenClosest.ClosestThingReachable (Verse.IntVec3 root, Verse.Map map, Verse.ThingRequest thingReq, Verse.AI.PathEndMode peMode, Verse.TraverseParms traverseParams, System.Single maxDistance, System.Predicate`1[T] validator, System.Collections.Generic.IEnumerable`1[T] customGlobalSearchSet, System.Int32 searchRegionsMin, System.Int32 searchRegionsMax, System.Boolean forceAllowGlobalSearch, Verse.RegionType traversableRegionTypes, System.Boolean ignoreEntirelyForbiddenRegions, System.Boolean lookInHaulSources) [0x0008c] in <61e4173561894da49d210260257b5097>:0 
-  at Verse.AI.XenomorphTargetFinder.BestAttackTarget (Verse.AI.IAttackTargetSearcher searcher, Verse.AI.TargetScanFlags flags, System.Predicate`1[T] validator, System.Single minDist, System.Single maxDist, Verse.IntVec3 locus, System.Single maxTravelRadiusFromLocus, System.Boolean canBash, System.Boolean canTakeTargetsCloserThanEffectiveMinRange) [0x0036e] in <4b428f24d2224af898d738d8228f0601>:0 
-  at RimWorld.JobGiver_XenomorphManhunter.FindPawnTarget (Verse.Pawn pawn) [0x00000] in <4b428f24d2224af898d738d8228f0601>:0 
-  at RimWorld.JobGiver_XenomorphManhunter.TryGiveJob (Verse.Pawn pawn) [0x0000d] in <4b428f24d2224af898d738d8228f0601>:0 
+Exception in Verse.AI.ThinkNode_Priority TryIssueJobPackage: System.NullReferenceException: Object reference not set to an instance of an object
+[Ref 5FC929E0] Duplicate stacktrace, see ref for original
+Exception in Verse.AI.ThinkNode_PrioritySorter TryIssueJobPackage: System.NullReferenceException: Object reference not set to an instance of an object
+[Ref C72A7E8]
+  at Verse.GenRadial+<RadialDistinctThingsAround>d__18.MoveNext () [0x00065] in <61e4173561894da49d210260257b5097>:0 
+  at RimWorld.FoodUtility.BestFoodSourceOnMap (Verse.Pawn getter, Verse.Pawn eater, System.Boolean desperate, Verse.ThingDef& foodDef, RimWorld.FoodPreferability maxPref, System.Boolean allowPlant, System.Boolean allowDrug, System.Boolean allowCorpse, System.Boolean allowDispenserFull, System.Boolean allowDispenserEmpty, System.Boolean allowForbidden, System.Boolean allowSociallyImproper, System.Boolean allowHarvest, System.Boolean forceScanWholeMap, System.Boolean ignoreReservations, System.Boolean calculateWantedStackCount, RimWorld.FoodPreferability minPrefOverride, System.Nullable`1[T] minNutrition, System.Boolean allowVenerated) [0x003d2] in <61e4173561894da49d210260257b5097>:0 
+  at RimWorld.FoodUtility.TryFindBestFoodSourceFor (Verse.Pawn getter, Verse.Pawn eater, System.Boolean desperate, Verse.Thing& foodSource, Verse.ThingDef& foodDef, System.Boolean canRefillDispenser, System.Boolean canUseInventory, System.Boolean canUsePackAnimalInventory, System.Boolean allowForbidden, System.Boolean allowCorpse, System.Boolean allowSociallyImproper, System.Boolean allowHarvest, System.Boolean forceScanWholeMap, System.Boolean ignoreReservations, System.Boolean calculateWantedStackCount, System.Boolean allowVenerated, RimWorld.FoodPreferability minPrefOverride) [0x00172] in <61e4173561894da49d210260257b5097>:0 
+  at RimWorld.JobGiver_GetFood.TryGiveJob (Verse.Pawn pawn) [0x000f2] in <61e4173561894da49d210260257b5097>:0 
+    - PREFIX OskarPotocki.VEF: Boolean VEF.AnimalBehaviours.VanillaExpandedFramework_JobGiver_GetFood_GetPriority_Patch:StopEatingThings(Pawn pawn)
+    - POSTFIX com.tammybee.predatorhuntalert: Void PredatorHuntAlert.JobGiver_GetFood_TryGiveJob:Postfix(Job __result, Pawn pawn)
   at Verse.AI.ThinkNode_JobGiver.TryIssueJobPackage (Verse.Pawn pawn, Verse.AI.JobIssueParams jobParams) [0x00000] in <61e4173561894da49d210260257b5097>:0 
-  at Verse.AI.ThinkNode_Priority.TryIssueJobPackage (Verse.Pawn pawn, Verse.AI.JobIssueParams jobParams) [0x00022] in <61e4173561894da49d210260257b5097>:0 
-Exception in RimWorld.ThinkNode_ConditionalNotPawnKind TryIssueJobPackage: System.NullReferenceException: Object reference not set to an instance of an object
-[Ref C3B3D719] Duplicate stacktrace, see ref for original
-RRY_Xenomorph_Warrior175659 issued IdleError wait job. The behavior tree should never get here.
-Wrote screenshot C:\Users\clint\AppData\LocalLow\Ludeon Studios\RimWorld by Ludeon Studios\RimSaves\Previews\Autosave-3.dat of size 188999
-[Yayo's Animation] GC : animation data count [116 -> 68]
-Unloading 2 Unused Serialized files (Serialized files now loaded: 16)
-Unloading 602 unused Assets to reduce memory usage. Loaded Objects now: 72774.
-Total: 862.535000 ms (FindLiveObjects: 4.926100 ms CreateObjectMapping: 4.035200 ms MarkObjects: 852.550100 ms  DeleteObjects: 1.022900 ms)
-
-Unloading 2 Unused Serialized files (Serialized files now loaded: 16)
-[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
-UnloadTime: 0.473600 ms
-Unloading 10 unused Assets to reduce memory usage. Loaded Objects now: 72730.
-Total: 1022.659500 ms (FindLiveObjects: 3.730400 ms CreateObjectMapping: 4.480800 ms MarkObjects: 1014.258400 ms  DeleteObjects: 0.189600 ms)
-
-Loading game from file Autosave-3 with mods:
-  - brrainz.harmony
-  - ilyvion.LoadingProgress
-  - Ludeon.RimWorld
-  - Ludeon.RimWorld.Royalty
-  - Ludeon.RimWorld.Ideology
-  - Ludeon.RimWorld.Biotech
-  - Ludeon.RimWorld.Anomaly
-  - Ludeon.RimWorld.Odyssey
-  - RedMattis.BetterPrerequisites
-  - UnlimitedHugs.HugsLib
-  - telardo.BetterGeneGraphicsFramework
-  - JintuziLamian.Gene.XenoCosmetic
-  - Ogliss.AVPXenomorphs
-  - Nals.FacialAnimation
-  - Reel.FacialAnims
-  - sd.fa.reelsadjustments
-  - VanillaExpanded.VTEXE.FacialAnims
-  - sd.fa.vteadjustments
-  - LiterallyFree.ColonistReturnBuff
-  - adaptive.storage.framework
-  - OskarPotocki.VanillaFactionsExpanded.Core
-  - SmashPhil.VehicleFramework
-  - OskarPotocki.VanillaVehiclesExpanded
-  - Endy.Airtightgarage
-  - AndrewRaphaelLukasik.AllowDeadAnimals
-  - cucumpear.azrael.varietycoats
-  - Inglix.ApparelTaintedOnCorpseRot
-  - zal.artifactsexpanded
-  - Defi.AutoCutBlight
-  - Mlie.AutopsyTable
-  - falconne.AFF
-  - Chaotic.BarelyBetterSpots
-  - RedMattis.BetterGeneInheritance
-  - falconne.BWM
-  - Owlchemist.FridgeUtilities
-  - VanillaExpanded.VPsycastsE
-  - dev.tobot.vpe.betterautocast
-  - Daria40K.BigLittleModPatch
-  - RedMattis.BiggerGravship
-  - Mlie.BioReactor
-  - Milkman.BiotechCosmeticGenesMM
-  - Fuu.BloodAnimations
-  - Darknote.BunkBeds
-  - CrashM.ColorCodedMoodBar.11
-  - brrainz.cameraplus
-  - Aoba.CargoContainer.Waste
-  - void.charactereditor
-  - sarg.alphaanimals
-  - IH.Clean.Textures
-  - Cerule.CleaningAreaRelaunched
-  - avilmask.CommonSense
-  - Sea.ConsistentGeneInheritanceContinued
-  - imranfish.xmlextensions
-  - NuanKi.ControlledRituals
-  - zal.covetheus.nohar
-  - lts.CC
-  - CaesarV6.DamageIndicators
-  - killerbot.gtekdevilstrandsynthesis
-  - Mlie.DifferentEggSizes
-  - Woolyung.DoTheRitualsYourselves
-  - jecrell.doorsexpanded
-  - telardo.DragSelect
-  - Dubwise.DubsMintMenus
-  - dubwise.dubsmintminimap
-  - zeracronius.dynamictradeinterface
-  - Mlie.EnemySelfPreservation
-  - Erin.FluffyFauna
-  - Erin.Hairredux
-  - Romyashi.ExtractAnyPlant
-  - azravos.factioncustomizer
-  - Aelanna.FistNerf
-  - vanillaracesexpanded.android
-  - quartz.floorstoragetanks
-  - bean.xeno.gnolls
-  - Thumb.GoreMod
-  - Telefonmast.GraphicsSettings
-  - Kattalisk.GravEngineGivesPower
-  - SuperPox.GravshipBiofuelRefineryAddOn
-  - Kilo.CapVacHelm
-  - Zaire82.HDHeadAttatchmentsForFacialAnimation
-  - jkluch.HaulToStack
-  - Tory.Icons.Historical
-  - VanillaExpanded.VanillaAnimalsExpanded
-  - zal.hyena
-  - dev.soeur.imageopt
-  - toxicyui.impactfulskills.modsupport
-  - 400.ImpassableHChestUdeepHWater
-  - Dragoon103.LARVA
-  - Taveron.IncreasedStack
-  - Aoba.Fortress.Industrial.Concrete
-  - futurplanet.industrialconcretefloorpatch
-  - Koth.ISiD
-  - ASF.DeepStorage
-  - costel.layeredapparel
-  - Mlie.LogAfterDefError
-  - zal.majesticfoilageframework
-  - zal.majesticcomigopack
-  - plaxen.MalangBodies
-  - m00nl1ght.MapPreview
-  - Samael.NPCMechsAndAnimals
-  - sumghai.Medpod
-  - co.uk.epicguru.meleeanimation
-  - notfood.MendAndRecycle
-  - Cain.Mineshaft
-  - erdelf.MinifyEverything
-  - Hol.Words
-  - mosi.MoreMiniHorns
-  - kirby.morereligiousorigins
-  - Bichang.MoreSculpture
-  - Jiopaba.Fences
-  - tidal.morevanilla.textures
-  - kenzej.multihunter
-  - zal.musicmanager
-  - zal.namesgalore
-  - VitaKaninen.ShelfPatch
-  - Doug.NoJobAuthors
-  - godlyannihilator.novanillamusic
-  - mrwireman.Noconduit
-  - vera.bug
-  - smallmine.HeavyShuttle
-  - PackMulesExtended.Standard
-  - komunre.BetterExp.PassiveResearch
-  - Mlie.PawnNameVariety
-  - ponpeco.PFSF
-  - Mlie.PredatorHuntAlert
-  - ocarina.prisonerjumpsuits
-  - DawnsGlow.qualcolor
-  - sdknm2.QualityOfBuilding
-  - ratys.rtsolarflareshield
-  - Mlie.RealisticHumanSounds
-  - Mlie.RelevantStatsInDescription
-  - sirrandoo.rda
-  - Memegoddess.ReplaceStuff
-  - Aelanna.ResearchTabColors
-  - LingLuo.Cockroach
-  - Mlie.RimofMadnessArachnophobia
-  - Keepercraft.RimKeeperAnimals
-  - naft.rimmercenaries
-  - aRandomKiwi.RimSaves
-  - Sierra.RT.GeneralTraits
-  - rimsenal.EVP
-  - rimsenal.core
-  - rimsenal.security
-  - rimsenal.hair
-  - Neronix17.Retexture.RimsenalRimhair
-  - Mlie.RunAndHide
-  - MemeGoddess.RunAndGun
-  - sneezingseal.sealsbackstorycollection
-  - MemeGoddess.SearchAndDestroy
-  - avilmask.SelfDyeing
-  - kathanon.ShowAllMaterials
-  - BP.ShowBuildableMaterialCount
-  - zal.simplefxshinies
-  - automatic.traderships
-  - VanillaExpanded.VCookE
-  - OskarPotocki.VanillaFactionsExpanded.SettlersModule
-  - VanillaExpanded.VFECore
-  - VanillaExpanded.VFEProduction
-  - Owlchemist.SimpleFX.Smoke2
-  - Owlchemist.SimpleFX.Splashes
-  - Atlas.SimpleFX.Vapor.Revaporized
-  - vanillaracesexpanded.highmate
-  - vanillaracesexpanded.pigskin
-  - vanillaracesexpanded.sanguophage
-  - buyue.SimpleTextureTweaks
-  - PeteTimesSix.SimpleSidearms
-  - Haecriver.SimplyMoreColors
-  - Memegoddess.SmartMedicine
-  - sarg.smartspeed
-  - dhultgren.smarterconstruction
-  - sirrandoo.msf
-  - marvinkosh.sometimesraidsgowrong
-  - cgf1.songsfortherim
-  - Garwel.StartingTechLevel
-  - balistafreak.StopDropAndRoll
-  - sakama.StorytellerHair
-  - moistestWhale.stuffOnTablesForked
-  - MemeGoddess.TDPack
-  - Memegoddess.TDSBugFixes
-  - Xale86.TacticalChargeWeapons
-  - void.terraformrimworld
-  - TheEverythingPackLegoBoi.Ideo.IconsandSymbols
-  - zmysk.The.Fire.Rises.In.Rim.Music.Channel.In.Chaos.World
-  - Febvre.TheOrientalMusicPack.ContinuedVersion
-  - GT.Sam.TilledSoil
-  - Propickelz.TinkerBench
-  - RedMattis.BigSmall.Core
-  - RedMattis.MoreXenos
-  - Aoba.Tent
-  - rimsenal.federation
-  - VanillaExpanded.VARME
-  - VanillaExpanded.VBrewE
-  - OskarPotocki.VFE.Empire
-  - OskarPotocki.VFE.Deserters
-  - VanillaExpanded.VWE
-  - OskarPotocki.VFE.Pirates
-  - OskarPotocki.VFE.Tribals
-  - VanillaExpanded.VFESpacer
-  - Spino.Megafauna
-  - VanillaExpanded.VGeneticsE
-  - VanillaExpanded.VBooksE
-  - VanillaExpanded.VMemesE
-  - VanillaExpanded.VanillaSocialInteractionsExpanded
-  - VanillaExpanded.VanillaTraitsExpanded
-  - VanillaExpanded.VWEG
-  - Wara.toomanymods
-  - CarnySenpai.TraitRarityColors
-  - UNAGI.apparel.B.Zibunyou
-  - VanillaExpanded.VAEEndAndExt
-  - VanillaExpanded.VAERoy
-  - VanillaExpanded.VAEWaste
-  - VanillaExpanded.VAPPE
-  - VanillaExpanded.VAEAccessories
-  - VanillaExpanded.VanillaBackstoriesExpanded
-  - VanillaExpanded.BaseGeneration
-  - Neronix17.Retexture.VanillaBeards
-  - VanillaExpanded.VEE
-  - VanillaExpanded.VFEMedical
-  - VanillaExpanded.VHE
-  - Neronix17.Retexture.VanillaHair
-  - VanillaExpanded.VIEHAR
-  - VanillaExpanded.Ideo.IconsandSymbols
-  - VanillaExpanded.Ideo.RelicsAndArtifacts
-  - VanillaExpanded.Ideo.SophianStyle
-  - vanillaexpanded.outposts
-  - vanillaracesexpanded.customicons
-  - Jaxe.RimHUD
-  - vanillaexpanded.skills
-  - VanillaExpanded.Temperature
-  - OskarPotocki.VanillaVehiclesExpandedUpgrades
-  - VanillaExpanded.VWEBF
-  - VanillaExpanded.VWEC
-  - VanillaExpanded.VWENL
-  - VanillaExpanded.VWEQ
-  - tro.vwe.overhaul
-  - kongkim.VanillaPackedDirt
-  - Mlie.VariousSpaceShipChunk
-  - NuanKi.LocalFlight
-  - OskarPotocki.VanillaVehiclesExpandedTier3
-  - Explorern11.VehiclesWrecksExpanded
-  - VehiclesWrecksExpanded.Revisited
-  - co.uk.epicguru.whatsthatmod
-  - MemeGoddess.GiddyUp
-  - automatic.gunplay
-  - com.yayo.yayoAni.continued
-  - seohyeon.yart
-  - Arylice.Rimworld.AutomaticHunting
-  - Nera.SpawnThoseGenes
-  - zal.eyeprosthetics
-  - UnlimitedHugs.AllowTool
-  - Haplo.Miscellaneous.Robots
-  - Mehni.PickUpAndHaul
-  - weilbyte.snapout
-  - VanillaExpanded.VFESecurity
-  - FrozenSnowFox.ComplexJobs
-  - FrozenSnowFox.FilthVanishesWithRainAndTime
-  - LazyFridayStudio.GenesExpandedHair
-  - LazyFridayStudio.GenesExpandedHeads
-  - LazyFridayStudio.GenesExpandedHorns
-  - MF.BSApparel
-  - tradingpost.programmerlily.com
-  - RH2.BCDs.First.Aid
-  - SR.ModRimworld.FactionalWarContinued
-  - SR.ModRimworld.RaidExtension
-  - XeoNovaDan.VisiblePants
-  - sbz.GravshipStorage
-Exception registering Verse.Pawn Long Bear in loaded object directory with unique load ID Thing_Human200641: System.ArgumentException: An item with the same key has already been added. Key: Thing_Human200641
-[Ref 1FD4AB82] Duplicate stacktrace, see ref for original
-Exception registering Verse.Pawn Long Bear in loaded object directory with unique thing ID 200641: System.ArgumentException: An item with the same key has already been added. Key: 200641
-[Ref FF0803AD] Duplicate stacktrace, see ref for original
-Exception registering RimWorld.Apparel VAE_Apparel_CasualTShirt200645 in loaded object directory with unique load ID Thing_VAE_Apparel_CasualTShirt200645: System.ArgumentException: An item with the same key has already been added. Key: Thing_VAE_Apparel_CasualTShirt200645
-[Ref 1FD4AB82] Duplicate stacktrace, see ref for original
-Exception registering RimWorld.Apparel VAE_Apparel_CasualTShirt200645 in loaded object directory with unique thing ID 200645: System.ArgumentException: An item with the same key has already been added. Key: 200645
-[Ref FF0803AD] Duplicate stacktrace, see ref for original
-Exception registering RimWorld.Apparel VAE_Apparel_Trousers200643 in loaded object directory with unique load ID Thing_VAE_Apparel_Trousers200643: System.ArgumentException: An item with the same key has already been added. Key: Thing_VAE_Apparel_Trousers200643
-[Ref 1FD4AB82] Duplicate stacktrace, see ref for original
-Exception registering RimWorld.Apparel VAE_Apparel_Trousers200643 in loaded object directory with unique thing ID 200643: System.ArgumentException: An item with the same key has already been added. Key: 200643
-[Ref FF0803AD] Duplicate stacktrace, see ref for original
-Exception registering RimWorld.Apparel VAE_Footwear_Shoes200644 in loaded object directory with unique load ID Thing_VAE_Footwear_Shoes200644: System.ArgumentException: An item with the same key has already been added. Key: Thing_VAE_Footwear_Shoes200644
-[Ref 1FD4AB82] Duplicate stacktrace, see ref for original
-Exception registering RimWorld.Apparel VAE_Footwear_Shoes200644 in loaded object directory with unique thing ID 200644: System.ArgumentException: An item with the same key has already been added. Key: 200644
-[Ref FF0803AD] Duplicate stacktrace, see ref for original
-Exception registering RimWorld.Apparel VAE_Handwear_Gloves200646 in loaded object directory with unique load ID Thing_VAE_Handwear_Gloves200646: System.ArgumentException: An item with the same key has already been added. Key: Thing_VAE_Handwear_Gloves200646
-[Ref 1FD4AB82] Duplicate stacktrace, see ref for original
-Exception registering RimWorld.Apparel VAE_Handwear_Gloves200646 in loaded object directory with unique thing ID 200646: System.ArgumentException: An item with the same key has already been added. Key: 200646
-[Ref FF0803AD] Duplicate stacktrace, see ref for original
-Exception registering RimWorld.Apparel VFES_Headgear_Sombrero200642 in loaded object directory with unique load ID Thing_VFES_Headgear_Sombrero200642: System.ArgumentException: An item with the same key has already been added. Key: Thing_VFES_Headgear_Sombrero200642
-[Ref 1FD4AB82] Duplicate stacktrace, see ref for original
-Exception registering RimWorld.Apparel VFES_Headgear_Sombrero200642 in loaded object directory with unique thing ID 200642: System.ArgumentException: An item with the same key has already been added. Key: 200642
-[Ref FF0803AD] Duplicate stacktrace, see ref for original
-Exception registering Verse.ThingWithComps Gun_BoltActionRifle200648 in loaded object directory with unique load ID Thing_Gun_BoltActionRifle200648: System.ArgumentException: An item with the same key has already been added. Key: Thing_Gun_BoltActionRifle200648
-[Ref 1FD4AB82] Duplicate stacktrace, see ref for original
-Exception registering Verse.ThingWithComps Gun_BoltActionRifle200648 in loaded object directory with unique thing ID 200648: System.ArgumentException: An item with the same key has already been added. Key: 200648
-[Ref FF0803AD] Duplicate stacktrace, see ref for original
-Exception registering Verse.Verb_Shoot Verse.Verb_Shoot(null) in loaded object directory with unique load ID Verb_CompEquippable_Gun_BoltActionRifle200648_0: System.ArgumentException: An item with the same key has already been added. Key: Verb_CompEquippable_Gun_BoltActionRifle200648_0
-[Ref 1FD4AB82] Duplicate stacktrace, see ref for original
-Exception registering MVCF.ManagedVerb MVCF.ManagedVerb in loaded object directory with unique load ID CompEquippable_Gun_BoltActionRifle200648_0_Managed: System.ArgumentException: An item with the same key has already been added. Key: CompEquippable_Gun_BoltActionRifle200648_0_Managed
-[Ref 1FD4AB82] Duplicate stacktrace, see ref for original
-Exception registering RimWorld.Verb_MeleeAttackDamage RimWorld.Verb_MeleeAttackDamage(null) in loaded object directory with unique load ID Verb_CompEquippable_Gun_BoltActionRifle200648_0_Smash: System.ArgumentException: An item with the same key has already been added. Key: Verb_CompEquippable_Gun_BoltActionRifle200648_0_Smash
-[Ref 1FD4AB82] Duplicate stacktrace, see ref for original
-Exception registering MVCF.ManagedVerb MVCF.ManagedVerb in loaded object directory with unique load ID CompEquippable_Gun_BoltActionRifle200648_0_Smash_Managed: System.ArgumentException: An item with the same key has already been added. Key: CompEquippable_Gun_BoltActionRifle200648_0_Smash_Managed
-[Ref 1FD4AB82] Duplicate stacktrace, see ref for original
-Exception registering RimWorld.Verb_MeleeAttackDamage RimWorld.Verb_MeleeAttackDamage(null) in loaded object directory with unique load ID Verb_CompEquippable_Gun_BoltActionRifle200648_1_Smash: System.ArgumentException: An item with the same key has already been added. Key: Verb_CompEquippable_Gun_BoltActionRifle200648_1_Smash
-[Ref 1FD4AB82] Duplicate stacktrace, see ref for original
-Exception registering MVCF.ManagedVerb MVCF.ManagedVerb in loaded object directory with unique load ID CompEquippable_Gun_BoltActionRifle200648_1_Smash_Managed: System.ArgumentException: An item with the same key has already been added. Key: CompEquippable_Gun_BoltActionRifle200648_1_Smash_Managed
-[Ref 1FD4AB82] Duplicate stacktrace, see ref for original
-Exception registering RimWorld.Verb_MeleeAttackDamage RimWorld.Verb_MeleeAttackDamage(null) in loaded object directory with unique load ID Verb_CompEquippable_Gun_BoltActionRifle200648_1_Poke: System.ArgumentException: An item with the same key has already been added. Key: Verb_CompEquippable_Gun_BoltActionRifle200648_1_Poke
-[Ref 1FD4AB82] Duplicate stacktrace, see ref for original
-Exception registering MVCF.ManagedVerb MVCF.ManagedVerb in loaded object directory with unique load ID CompEquippable_Gun_BoltActionRifle200648_1_Poke_Managed: System.ArgumentException: An item with the same key has already been added. Key: CompEquippable_Gun_BoltActionRifle200648_1_Poke_Managed
-[Ref 1FD4AB82] Duplicate stacktrace, see ref for original
-Exception registering Verse.HediffWithComps (Wanted ticksSinceCreation=630200) in loaded object directory with unique load ID Hediff_10571: System.ArgumentException: An item with the same key has already been added. Key: Hediff_10571
-[Ref 1FD4AB82] Duplicate stacktrace, see ref for original
-Exception registering Verse.ThingWithComps ElephantTusk200649 in loaded object directory with unique load ID Thing_ElephantTusk200649: System.ArgumentException: An item with the same key has already been added. Key: Thing_ElephantTusk200649
-[Ref 1FD4AB82] Duplicate stacktrace, see ref for original
-Exception registering Verse.ThingWithComps ElephantTusk200649 in loaded object directory with unique thing ID 200649: System.ArgumentException: An item with the same key has already been added. Key: 200649
-[Ref FF0803AD] Duplicate stacktrace, see ref for original
-Exception registering Verse.ThingWithComps Beer200650 in loaded object directory with unique load ID Thing_Beer200650: System.ArgumentException: An item with the same key has already been added. Key: Thing_Beer200650
-[Ref 1FD4AB82] Duplicate stacktrace, see ref for original
-Exception registering Verse.ThingWithComps Beer200650 in loaded object directory with unique thing ID 200650: System.ArgumentException: An item with the same key has already been added. Key: 200650
-[Ref FF0803AD] Duplicate stacktrace, see ref for original
-Exception registering Verse.Gene Verse.Gene in loaded object directory with unique load ID Gene_2176: System.ArgumentException: An item with the same key has already been added. Key: Gene_2176
-[Ref 1FD4AB82] Duplicate stacktrace, see ref for original
-Exception registering Verse.Gene Verse.Gene in loaded object directory with unique load ID Gene_2177: System.ArgumentException: An item with the same key has already been added. Key: Gene_2177
-[Ref 1FD4AB82] Duplicate stacktrace, see ref for original
-Exception registering Verse.Gene Verse.Gene in loaded object directory with unique load ID Gene_2178: System.ArgumentException: An item with the same key has already been added. Key: Gene_2178
-[Ref 1FD4AB82] Duplicate stacktrace, see ref for original
-Exception registering Verse.Gene Verse.Gene in loaded object directory with unique load ID Gene_2179: System.ArgumentException: An item with the same key has already been added. Key: Gene_2179
-[Ref 1FD4AB82] Duplicate stacktrace, see ref for original
-Exception registering Verse.Gene Verse.Gene in loaded object directory with unique load ID Gene_2180: System.ArgumentException: An item with the same key has already been added. Key: Gene_2180
-[Ref 1FD4AB82] Duplicate stacktrace, see ref for original
-Exception registering Verse.Gene Verse.Gene in loaded object directory with unique load ID Gene_2181: System.ArgumentException: An item with the same key has already been added. Key: Gene_2181
-[Ref 1FD4AB82] Duplicate stacktrace, see ref for original
-Exception registering Verse.Gene Verse.Gene in loaded object directory with unique load ID Gene_2182: System.ArgumentException: An item with the same key has already been added. Key: Gene_2182
-[Ref 1FD4AB82] Duplicate stacktrace, see ref for original
-Exception registering Verse.Gene Verse.Gene in loaded object directory with unique load ID Gene_2183: System.ArgumentException: An item with the same key has already been added. Key: Gene_2183
-[Ref 1FD4AB82] Duplicate stacktrace, see ref for original
-Exception registering Verse.Gene Verse.Gene in loaded object directory with unique load ID Gene_2184: System.ArgumentException: An item with the same key has already been added. Key: Gene_2184
-[Ref 1FD4AB82] Duplicate stacktrace, see ref for original
-Exception registering Verse.Gene Verse.Gene in loaded object directory with unique load ID Gene_2185: System.ArgumentException: An item with the same key has already been added. Key: Gene_2185
-[Ref 1FD4AB82] Duplicate stacktrace, see ref for original
-Exception registering Verse.Gene Verse.Gene in loaded object directory with unique load ID Gene_2186: System.ArgumentException: An item with the same key has already been added. Key: Gene_2186
-[Ref 1FD4AB82] Duplicate stacktrace, see ref for original
-Exception registering Verse.Gene Verse.Gene in loaded object directory with unique load ID Gene_2187: System.ArgumentException: An item with the same key has already been added. Key: Gene_2187
-[Ref 1FD4AB82] Duplicate stacktrace, see ref for original
-[RimMercenaries] Loaded save data: hasBeenInitialized=True, lastRefreshTick=434707, mercenaries=17, tier1=10, tier2=5, tier3=2
-<color=#66ffb5>[MeleeAnim]</color> Loaded 0 animation renderers on map Map-0-PlayerHome
-checking editor settings...
-bodysizes genes are active
-[RimMercenaries] FinalizeInit called for save. HasBeenInitialized: True
-[Yayo's Animation] GC : animation data count [95 -> 0]
-Unloading 0 Unused Serialized files (Serialized files now loaded: 16)
-Unloading 0 unused Assets to reduce memory usage. Loaded Objects now: 80370.
-Total: 971.959900 ms (FindLiveObjects: 4.618800 ms CreateObjectMapping: 3.861800 ms MarkObjects: 963.337900 ms  DeleteObjects: 0.141200 ms)
-
-Arachnophobia :: Spider Biome Settings Adjusted :: Current Factor: 1
-Graphic_SplitWrapper: Target thing is dessicated.
-Material 'Custom/Cutout_Dessicated_Cougar_north' with Shader 'Custom/Cutout' doesn't have a texture property '_MaskTex'
-Material 'Custom/Cutout_Dessicated_Cougar_east' with Shader 'Custom/Cutout' doesn't have a texture property '_MaskTex'
-Material 'Custom/Cutout_Dessicated_Cougar_south' with Shader 'Custom/Cutout' doesn't have a texture property '_MaskTex'
-Material 'Custom/Cutout_Dessicated_Cougar_east' with Shader 'Custom/Cutout' doesn't have a texture property '_MaskTex'
-Wrote screenshot C:\Users\clint\AppData\LocalLow\Ludeon Studios\RimWorld by Ludeon Studios\RimSaves\Previews\Autosave-3.dat of size 187550
-Graphic_SplitWrapper: Target thing is dessicated.
-Material 'Custom/Cutout_Dessicated_Cougar_north' with Shader 'Custom/Cutout' doesn't have a texture property '_MaskTex'
-Material 'Custom/Cutout_Dessicated_Cougar_east' with Shader 'Custom/Cutout' doesn't have a texture property '_MaskTex'
-Material 'Custom/Cutout_Dessicated_Cougar_south' with Shader 'Custom/Cutout' doesn't have a texture property '_MaskTex'
-Material 'Custom/Cutout_Dessicated_Cougar_east' with Shader 'Custom/Cutout' doesn't have a texture property '_MaskTex'
-Player wealth is 214697.1. Required (random) wealth to trigger Woman in blue is 82645.
-[SpawnThoseGenes] No possible endogenes found in config for: BS_FrostJotunInBlue
-Couldn't destroy corpses.
-[Ref 398920CE] Duplicate stacktrace, see ref for original
-Material 'Custom/Cutout_megafauna_aurochsMale_north' with Shader 'Custom/Cutout' doesn't have a texture property '_MaskTex'
-Material 'Custom/Cutout_megafauna_aurochsMale_east' with Shader 'Custom/Cutout' doesn't have a texture property '_MaskTex'
-Material 'Custom/Cutout_megafauna_aurochsMale_south' with Shader 'Custom/Cutout' doesn't have a texture property '_MaskTex'
-Material 'Custom/Cutout_megafauna_aurochsMale_east' with Shader 'Custom/Cutout' doesn't have a texture property '_MaskTex'
-Material 'Custom/Cutout_megafauna_aurochsMale_north' with Shader 'Custom/Cutout' doesn't have a texture property '_MaskTex'
-Material 'Custom/Cutout_megafauna_aurochsMale_east' with Shader 'Custom/Cutout' doesn't have a texture property '_MaskTex'
-Material 'Custom/Cutout_megafauna_aurochsMale_south' with Shader 'Custom/Cutout' doesn't have a texture property '_MaskTex'
-Material 'Custom/Cutout_megafauna_aurochsMale_east' with Shader 'Custom/Cutout' doesn't have a texture property '_MaskTex'
-AM.Events.AudioEvent must be instantiated using the ScriptableObject.CreateInstance method instead of new AudioEvent.
-AM.Events.CamShakeEvent must be instantiated using the ScriptableObject.CreateInstance method instead of new CamShakeEvent.
-AM.Events.ClashAudioEvent must be instantiated using the ScriptableObject.CreateInstance method instead of new ClashAudioEvent.
-AM.Events.DamageEffectEvent must be instantiated using the ScriptableObject.CreateInstance method instead of new DamageEffectEvent.
-AM.Events.DuelEvent must be instantiated using the ScriptableObject.CreateInstance method instead of new DuelEvent.
-AM.Events.GoreSplashEvent must be instantiated using the ScriptableObject.CreateInstance method instead of new GoreSplashEvent.
-AM.Events.KillPawnEvent must be instantiated using the ScriptableObject.CreateInstance method instead of new KillPawnEvent.
-AM.Events.MoteEvent must be instantiated using the ScriptableObject.CreateInstance method instead of new MoteEvent.
-AM.Events.PuntPawnEvent must be instantiated using the ScriptableObject.CreateInstance method instead of new PuntPawnEvent.
-AM.Events.TextMoteEvent must be instantiated using the ScriptableObject.CreateInstance method instead of new TextMoteEvent.
-AM.Events.DamageEffectEvent must be instantiated using the ScriptableObject.CreateInstance method instead of new DamageEffectEvent.
-AM.Events.GoreSplashEvent must be instantiated using the ScriptableObject.CreateInstance method instead of new GoreSplashEvent.
-AM.Events.KillPawnEvent must be instantiated using the ScriptableObject.CreateInstance method instead of new KillPawnEvent.
-<color=#66ffb5>[MeleeAnim]</color> Dealt 25.00 pts of dmg as part of injury to RRY_Xenomorph_Warrior175659 (aimed to deal 30.00).
-Tried to destroy already-destroyed thing HaulingBot 1
-Tried to spawn robot resources without an active map. Nothing spawned!
-Couldn't destroy corpses.
-[Ref A1AC87E]
-  at AIRobot.X2_AIRobot.Destroy (Verse.DestroyMode mode) [0x000ab] in D:\_Programmierung\_GitHub_Repositories\RimWorld-Miscellaneous_Source\Source\AIRobot\X2_AIRobot.cs:120 
-World pawn HaulingBot 1 has been discarded while still being a world pawn. This should never happen, because discard destroy mode means that the pawn is no longer managed by anything. Pawn should have been removed from the world first.
-Got AdjustedCostList for ElectricStove with stuff Steel but is not MadeFromStuff.
-Exception in RimWorld.ThinkNode_ConditionalNotPawnKind TryIssueJobPackage: System.NullReferenceException: Object reference not set to an instance of an object
-[Ref 5FC929E0] Duplicate stacktrace, see ref for original
-Exception in RimWorld.ThinkNode_ConditionalNotPawnKind TryIssueJobPackage: System.NullReferenceException: Object reference not set to an instance of an object
-[Ref C3B3D719] Duplicate stacktrace, see ref for original
-Exception in RimWorld.ThinkNode_ConditionalNotPawnKind TryIssueJobPackage: System.NullReferenceException: Object reference not set to an instance of an object
-[Ref C3B3D719] Duplicate stacktrace, see ref for original
-Exception in RimWorld.ThinkNode_ConditionalNotPawnKind TryIssueJobPackage: System.NullReferenceException: Object reference not set to an instance of an object
-[Ref 5FC929E0] Duplicate stacktrace, see ref for original
-Exception in Verse.AI.ThinkNode_Tagger TryIssueJobPackage: System.NullReferenceException: Object reference not set to an instance of an object
-[Ref 5FC929E0] Duplicate stacktrace, see ref for original
-Exception in RimWorld.ThinkNode_ConditionalNotPawnKind TryIssueJobPackage: System.NullReferenceException: Object reference not set to an instance of an object
-[Ref C3B3D719] Duplicate stacktrace, see ref for original
-Exception in Verse.AI.ThinkNode_Tagger TryIssueJobPackage: System.NullReferenceException: Object reference not set to an instance of an object
-[Ref 5FC929E0] Duplicate stacktrace, see ref for original
-Exception in RimWorld.ThinkNode_ConditionalNotPawnKind TryIssueJobPackage: System.NullReferenceException: Object reference not set to an instance of an object
-[Ref C3B3D719] Duplicate stacktrace, see ref for original
-Exception in RimWorld.ThinkNode_ConditionalNotPawnKind TryIssueJobPackage: System.NullReferenceException: Object reference not set to an instance of an object
-[Ref 5FC929E0] Duplicate stacktrace, see ref for original
-Exception in RimWorld.ThinkNode_ConditionalNotPawnKind TryIssueJobPackage: System.NullReferenceException: Object reference not set to an instance of an object
-[Ref C3B3D719] Duplicate stacktrace, see ref for original
-Exception in RimWorld.ThinkNode_ConditionalNotPawnKind TryIssueJobPackage: System.NullReferenceException: Object reference not set to an instance of an object
-[Ref C3B3D719] Duplicate stacktrace, see ref for original
-AM.Events.DamageEffectEvent must be instantiated using the ScriptableObject.CreateInstance method instead of new DamageEffectEvent.
-AM.Events.KillPawnEvent must be instantiated using the ScriptableObject.CreateInstance method instead of new KillPawnEvent.
-<color=#66ffb5>[MeleeAnim]</color> Dealt 21.00 pts of dmg as part of injury to RRY_Xenomorph_Warrior166167 (aimed to deal 30.00).
-<color=#66ffb5>[MeleeAnim]</color> Failed: failed to spawn flyer.
-Exception in RimWorld.ThinkNode_ConditionalNotPawnKind TryIssueJobPackage: System.NullReferenceException: Object reference not set to an instance of an object
-[Ref 5FC929E0] Duplicate stacktrace, see ref for original
+  at Verse.AI.ThinkNode_PrioritySorter.TryIssueJobPackage (Verse.Pawn pawn, Verse.AI.JobIssueParams jobParams) [0x000f2] in <61e4173561894da49d210260257b5097>:0 
 Exception in Verse.AI.ThinkNode_Priority TryIssueJobPackage: System.NullReferenceException: Object reference not set to an instance of an object
-[Ref 5FC929E0] Duplicate stacktrace, see ref for original
-Exception in Verse.AI.ThinkNode_Priority TryIssueJobPackage: System.NullReferenceException: Object reference not set to an instance of an object
-[Ref F60499D5]
-  at RimWorld.JobGiver_AITrashColonyClose.TryGiveJob (Verse.Pawn pawn) [0x0000f] in <61e4173561894da49d210260257b5097>:0 
-  at Verse.AI.ThinkNode_JobGiver.TryIssueJobPackage (Verse.Pawn pawn, Verse.AI.JobIssueParams jobParams) [0x00000] in <61e4173561894da49d210260257b5097>:0 
-  at Verse.AI.ThinkNode_Priority.TryIssueJobPackage (Verse.Pawn pawn, Verse.AI.JobIssueParams jobParams) [0x00022] in <61e4173561894da49d210260257b5097>:0 
-Exception in Verse.AI.ThinkNode_Priority TryIssueJobPackage: System.NullReferenceException: Object reference not set to an instance of an object
-[Ref FEDC6E7]
-  at RimWorld.JobGiver_AITrashBuildingsDistant.TryGiveJob (Verse.Pawn pawn) [0x00006] in <61e4173561894da49d210260257b5097>:0 
-  at Verse.AI.ThinkNode_JobGiver.TryIssueJobPackage (Verse.Pawn pawn, Verse.AI.JobIssueParams jobParams) [0x00000] in <61e4173561894da49d210260257b5097>:0 
-  at Verse.AI.ThinkNode_Priority.TryIssueJobPackage (Verse.Pawn pawn, Verse.AI.JobIssueParams jobParams) [0x00022] in <61e4173561894da49d210260257b5097>:0 
-Exception in Verse.AI.ThinkNode_Priority TryIssueJobPackage: System.NullReferenceException: Object reference not set to an instance of an object
-[Ref 3DAF9377]
-  at RimWorld.JobGiver_AIGotoNearestHostile.TryGiveJob (Verse.Pawn pawn) [0x0000e] in <61e4173561894da49d210260257b5097>:0 
-  at Verse.AI.ThinkNode_JobGiver.TryIssueJobPackage (Verse.Pawn pawn, Verse.AI.JobIssueParams jobParams) [0x00000] in <61e4173561894da49d210260257b5097>:0 
-  at Verse.AI.ThinkNode_Priority.TryIssueJobPackage (Verse.Pawn pawn, Verse.AI.JobIssueParams jobParams) [0x00022] in <61e4173561894da49d210260257b5097>:0 
-Exception in Verse.AI.ThinkNode_Priority TryIssueJobPackage: System.NullReferenceException: Object reference not set to an instance of an object
-[Ref FEDC6E7] Duplicate stacktrace, see ref for original
-Exception in Verse.AI.ThinkNode_Priority TryIssueJobPackage: System.NullReferenceException: Object reference not set to an instance of an object
-[Ref 3C153AA9]
-  at RimWorld.JobGiver_AISapper.TryGiveJob (Verse.Pawn pawn) [0x000be] in <61e4173561894da49d210260257b5097>:0 
-  at Verse.AI.ThinkNode_JobGiver.TryIssueJobPackage (Verse.Pawn pawn, Verse.AI.JobIssueParams jobParams) [0x00000] in <61e4173561894da49d210260257b5097>:0 
-  at Verse.AI.ThinkNode_Priority.TryIssueJobPackage (Verse.Pawn pawn, Verse.AI.JobIssueParams jobParams) [0x00022] in <61e4173561894da49d210260257b5097>:0 
-[Yayo's Animation] GC : animation data count [136 -> 93]
-Tried to use variable "pointsOriginal" in a math expression but it doesn't exist.
-Trying to save reference to a discarded thing AA_ColossalAerofleet152886 with saveDestroyedThings=true. This means that it's not deep-saved anywhere and is no longer managed by anything in the code, so saving its reference will always fail. , label=pawn
-Wrote screenshot C:\Users\clint\AppData\LocalLow\Ludeon Studios\RimWorld by Ludeon Studios\RimSaves\Previews\Autosave-4.dat of size 177001
-Trying to save reference to a discarded thing AA_ColossalAerofleet152886 with saveDestroyedThings=true. This means that it's not deep-saved anywhere and is no longer managed by anything in the code, so saving its reference will always fail. , label=pawn
-Wrote screenshot C:\Users\clint\AppData\LocalLow\Ludeon Studios\RimWorld by Ludeon Studios\RimSaves\Previews\USCSS 2177.dat of size 178077
-Unloading 1 Unused Serialized files (Serialized files now loaded: 16)
-Unloading 613 unused Assets to reduce memory usage. Loaded Objects now: 74720.
-Total: 899.386000 ms (FindLiveObjects: 5.212300 ms CreateObjectMapping: 3.283600 ms MarkObjects: 890.015200 ms  DeleteObjects: 0.874700 ms)
-
-Unloading 2 Unused Serialized files (Serialized files now loaded: 16)
-[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
-UnloadTime: 0.504900 ms
-Unloading 7 unused Assets to reduce memory usage. Loaded Objects now: 74683.
-Total: 1003.042200 ms (FindLiveObjects: 4.065500 ms CreateObjectMapping: 4.003400 ms MarkObjects: 994.789400 ms  DeleteObjects: 0.183500 ms)
-
-Loading game from file USCSS 2177 with mods:
-  - brrainz.harmony
-  - ilyvion.LoadingProgress
-  - Ludeon.RimWorld
-  - Ludeon.RimWorld.Royalty
-  - Ludeon.RimWorld.Ideology
-  - Ludeon.RimWorld.Biotech
-  - Ludeon.RimWorld.Anomaly
-  - Ludeon.RimWorld.Odyssey
-  - RedMattis.BetterPrerequisites
-  - UnlimitedHugs.HugsLib
-  - telardo.BetterGeneGraphicsFramework
-  - JintuziLamian.Gene.XenoCosmetic
-  - Ogliss.AVPXenomorphs
-  - Nals.FacialAnimation
-  - Reel.FacialAnims
-  - sd.fa.reelsadjustments
-  - VanillaExpanded.VTEXE.FacialAnims
-  - sd.fa.vteadjustments
-  - LiterallyFree.ColonistReturnBuff
-  - adaptive.storage.framework
-  - OskarPotocki.VanillaFactionsExpanded.Core
-  - SmashPhil.VehicleFramework
-  - OskarPotocki.VanillaVehiclesExpanded
-  - Endy.Airtightgarage
-  - AndrewRaphaelLukasik.AllowDeadAnimals
-  - cucumpear.azrael.varietycoats
-  - Inglix.ApparelTaintedOnCorpseRot
-  - zal.artifactsexpanded
-  - Defi.AutoCutBlight
-  - Mlie.AutopsyTable
-  - falconne.AFF
-  - Chaotic.BarelyBetterSpots
-  - RedMattis.BetterGeneInheritance
-  - falconne.BWM
-  - Owlchemist.FridgeUtilities
-  - VanillaExpanded.VPsycastsE
-  - dev.tobot.vpe.betterautocast
-  - Daria40K.BigLittleModPatch
-  - RedMattis.BiggerGravship
-  - Mlie.BioReactor
-  - Milkman.BiotechCosmeticGenesMM
-  - Fuu.BloodAnimations
-  - Darknote.BunkBeds
-  - CrashM.ColorCodedMoodBar.11
-  - brrainz.cameraplus
-  - Aoba.CargoContainer.Waste
-  - void.charactereditor
-  - sarg.alphaanimals
-  - IH.Clean.Textures
-  - Cerule.CleaningAreaRelaunched
-  - avilmask.CommonSense
-  - Sea.ConsistentGeneInheritanceContinued
-  - imranfish.xmlextensions
-  - NuanKi.ControlledRituals
-  - zal.covetheus.nohar
-  - lts.CC
-  - CaesarV6.DamageIndicators
-  - killerbot.gtekdevilstrandsynthesis
-  - Mlie.DifferentEggSizes
-  - Woolyung.DoTheRitualsYourselves
-  - jecrell.doorsexpanded
-  - telardo.DragSelect
-  - Dubwise.DubsMintMenus
-  - dubwise.dubsmintminimap
-  - zeracronius.dynamictradeinterface
-  - Mlie.EnemySelfPreservation
-  - Erin.FluffyFauna
-  - Erin.Hairredux
-  - Romyashi.ExtractAnyPlant
-  - azravos.factioncustomizer
-  - Aelanna.FistNerf
-  - vanillaracesexpanded.android
-  - quartz.floorstoragetanks
-  - bean.xeno.gnolls
-  - Thumb.GoreMod
-  - Telefonmast.GraphicsSettings
-  - Kattalisk.GravEngineGivesPower
-  - SuperPox.GravshipBiofuelRefineryAddOn
-  - Kilo.CapVacHelm
-  - Zaire82.HDHeadAttatchmentsForFacialAnimation
-  - jkluch.HaulToStack
-  - Tory.Icons.Historical
-  - VanillaExpanded.VanillaAnimalsExpanded
-  - zal.hyena
-  - dev.soeur.imageopt
-  - toxicyui.impactfulskills.modsupport
-  - 400.ImpassableHChestUdeepHWater
-  - Dragoon103.LARVA
-  - Taveron.IncreasedStack
-  - Aoba.Fortress.Industrial.Concrete
-  - futurplanet.industrialconcretefloorpatch
-  - Koth.ISiD
-  - ASF.DeepStorage
-  - costel.layeredapparel
-  - Mlie.LogAfterDefError
-  - zal.majesticfoilageframework
-  - zal.majesticcomigopack
-  - plaxen.MalangBodies
-  - m00nl1ght.MapPreview
-  - Samael.NPCMechsAndAnimals
-  - sumghai.Medpod
-  - co.uk.epicguru.meleeanimation
-  - notfood.MendAndRecycle
-  - Cain.Mineshaft
-  - erdelf.MinifyEverything
-  - Hol.Words
-  - mosi.MoreMiniHorns
-  - kirby.morereligiousorigins
-  - Bichang.MoreSculpture
-  - Jiopaba.Fences
-  - tidal.morevanilla.textures
-  - kenzej.multihunter
-  - zal.musicmanager
-  - zal.namesgalore
-  - VitaKaninen.ShelfPatch
-  - Doug.NoJobAuthors
-  - godlyannihilator.novanillamusic
-  - mrwireman.Noconduit
-  - vera.bug
-  - smallmine.HeavyShuttle
-  - PackMulesExtended.Standard
-  - komunre.BetterExp.PassiveResearch
-  - Mlie.PawnNameVariety
-  - ponpeco.PFSF
-  - Mlie.PredatorHuntAlert
-  - ocarina.prisonerjumpsuits
-  - DawnsGlow.qualcolor
-  - sdknm2.QualityOfBuilding
-  - ratys.rtsolarflareshield
-  - Mlie.RealisticHumanSounds
-  - Mlie.RelevantStatsInDescription
-  - sirrandoo.rda
-  - Memegoddess.ReplaceStuff
-  - Aelanna.ResearchTabColors
-  - LingLuo.Cockroach
-  - Mlie.RimofMadnessArachnophobia
-  - Keepercraft.RimKeeperAnimals
-  - naft.rimmercenaries
-  - aRandomKiwi.RimSaves
-  - Sierra.RT.GeneralTraits
-  - rimsenal.EVP
-  - rimsenal.core
-  - rimsenal.security
-  - rimsenal.hair
-  - Neronix17.Retexture.RimsenalRimhair
-  - Mlie.RunAndHide
-  - MemeGoddess.RunAndGun
-  - sneezingseal.sealsbackstorycollection
-  - MemeGoddess.SearchAndDestroy
-  - avilmask.SelfDyeing
-  - kathanon.ShowAllMaterials
-  - BP.ShowBuildableMaterialCount
-  - zal.simplefxshinies
-  - automatic.traderships
-  - VanillaExpanded.VCookE
-  - OskarPotocki.VanillaFactionsExpanded.SettlersModule
-  - VanillaExpanded.VFECore
-  - VanillaExpanded.VFEProduction
-  - Owlchemist.SimpleFX.Smoke2
-  - Owlchemist.SimpleFX.Splashes
-  - Atlas.SimpleFX.Vapor.Revaporized
-  - vanillaracesexpanded.highmate
-  - vanillaracesexpanded.pigskin
-  - vanillaracesexpanded.sanguophage
-  - buyue.SimpleTextureTweaks
-  - PeteTimesSix.SimpleSidearms
-  - Haecriver.SimplyMoreColors
-  - Memegoddess.SmartMedicine
-  - sarg.smartspeed
-  - dhultgren.smarterconstruction
-  - sirrandoo.msf
-  - marvinkosh.sometimesraidsgowrong
-  - cgf1.songsfortherim
-  - Garwel.StartingTechLevel
-  - balistafreak.StopDropAndRoll
-  - sakama.StorytellerHair
-  - moistestWhale.stuffOnTablesForked
-  - MemeGoddess.TDPack
-  - Memegoddess.TDSBugFixes
-  - Xale86.TacticalChargeWeapons
-  - void.terraformrimworld
-  - TheEverythingPackLegoBoi.Ideo.IconsandSymbols
-  - zmysk.The.Fire.Rises.In.Rim.Music.Channel.In.Chaos.World
-  - Febvre.TheOrientalMusicPack.ContinuedVersion
-  - GT.Sam.TilledSoil
-  - Propickelz.TinkerBench
-  - RedMattis.BigSmall.Core
-  - RedMattis.MoreXenos
-  - Aoba.Tent
-  - rimsenal.federation
-  - VanillaExpanded.VARME
-  - VanillaExpanded.VBrewE
-  - OskarPotocki.VFE.Empire
-  - OskarPotocki.VFE.Deserters
-  - VanillaExpanded.VWE
-  - OskarPotocki.VFE.Pirates
-  - OskarPotocki.VFE.Tribals
-  - VanillaExpanded.VFESpacer
-  - Spino.Megafauna
-  - VanillaExpanded.VGeneticsE
-  - VanillaExpanded.VBooksE
-  - VanillaExpanded.VMemesE
-  - VanillaExpanded.VanillaSocialInteractionsExpanded
-  - VanillaExpanded.VanillaTraitsExpanded
-  - VanillaExpanded.VWEG
-  - Wara.toomanymods
-  - CarnySenpai.TraitRarityColors
-  - UNAGI.apparel.B.Zibunyou
-  - VanillaExpanded.VAEEndAndExt
-  - VanillaExpanded.VAERoy
-  - VanillaExpanded.VAEWaste
-  - VanillaExpanded.VAPPE
-  - VanillaExpanded.VAEAccessories
-  - VanillaExpanded.VanillaBackstoriesExpanded
-  - VanillaExpanded.BaseGeneration
-  - Neronix17.Retexture.VanillaBeards
-  - VanillaExpanded.VEE
-  - VanillaExpanded.VFEMedical
-  - VanillaExpanded.VHE
-  - Neronix17.Retexture.VanillaHair
-  - VanillaExpanded.VIEHAR
-  - VanillaExpanded.Ideo.IconsandSymbols
-  - VanillaExpanded.Ideo.RelicsAndArtifacts
-  - VanillaExpanded.Ideo.SophianStyle
-  - vanillaexpanded.outposts
-  - vanillaracesexpanded.customicons
-  - Jaxe.RimHUD
-  - vanillaexpanded.skills
-  - VanillaExpanded.Temperature
-  - OskarPotocki.VanillaVehiclesExpandedUpgrades
-  - VanillaExpanded.VWEBF
-  - VanillaExpanded.VWEC
-  - VanillaExpanded.VWENL
-  - VanillaExpanded.VWEQ
-  - tro.vwe.overhaul
-  - kongkim.VanillaPackedDirt
-  - Mlie.VariousSpaceShipChunk
-  - NuanKi.LocalFlight
-  - OskarPotocki.VanillaVehiclesExpandedTier3
-  - Explorern11.VehiclesWrecksExpanded
-  - VehiclesWrecksExpanded.Revisited
-  - co.uk.epicguru.whatsthatmod
-  - MemeGoddess.GiddyUp
-  - automatic.gunplay
-  - com.yayo.yayoAni.continued
-  - seohyeon.yart
-  - Arylice.Rimworld.AutomaticHunting
-  - Nera.SpawnThoseGenes
-  - zal.eyeprosthetics
-  - UnlimitedHugs.AllowTool
-  - Haplo.Miscellaneous.Robots
-  - Mehni.PickUpAndHaul
-  - weilbyte.snapout
-  - VanillaExpanded.VFESecurity
-  - FrozenSnowFox.ComplexJobs
-  - FrozenSnowFox.FilthVanishesWithRainAndTime
-  - LazyFridayStudio.GenesExpandedHair
-  - LazyFridayStudio.GenesExpandedHeads
-  - LazyFridayStudio.GenesExpandedHorns
-  - MF.BSApparel
-  - tradingpost.programmerlily.com
-  - RH2.BCDs.First.Aid
-  - SR.ModRimworld.FactionalWarContinued
-  - SR.ModRimworld.RaidExtension
-  - XeoNovaDan.VisiblePants
-  - sbz.GravshipStorage
-Exception registering Verse.Pawn Long Bear in loaded object directory with unique load ID Thing_Human200641: System.ArgumentException: An item with the same key has already been added. Key: Thing_Human200641
-[Ref 1FD4AB82] Duplicate stacktrace, see ref for original
-Exception registering Verse.Pawn Long Bear in loaded object directory with unique thing ID 200641: System.ArgumentException: An item with the same key has already been added. Key: 200641
-[Ref FF0803AD] Duplicate stacktrace, see ref for original
-Exception registering RimWorld.Apparel VAE_Apparel_CasualTShirt200645 in loaded object directory with unique load ID Thing_VAE_Apparel_CasualTShirt200645: System.ArgumentException: An item with the same key has already been added. Key: Thing_VAE_Apparel_CasualTShirt200645
-[Ref 1FD4AB82] Duplicate stacktrace, see ref for original
-Exception registering RimWorld.Apparel VAE_Apparel_CasualTShirt200645 in loaded object directory with unique thing ID 200645: System.ArgumentException: An item with the same key has already been added. Key: 200645
-[Ref FF0803AD] Duplicate stacktrace, see ref for original
-Exception registering RimWorld.Apparel VAE_Apparel_Trousers200643 in loaded object directory with unique load ID Thing_VAE_Apparel_Trousers200643: System.ArgumentException: An item with the same key has already been added. Key: Thing_VAE_Apparel_Trousers200643
-[Ref 1FD4AB82] Duplicate stacktrace, see ref for original
-Exception registering RimWorld.Apparel VAE_Apparel_Trousers200643 in loaded object directory with unique thing ID 200643: System.ArgumentException: An item with the same key has already been added. Key: 200643
-[Ref FF0803AD] Duplicate stacktrace, see ref for original
-Exception registering RimWorld.Apparel VAE_Footwear_Shoes200644 in loaded object directory with unique load ID Thing_VAE_Footwear_Shoes200644: System.ArgumentException: An item with the same key has already been added. Key: Thing_VAE_Footwear_Shoes200644
-[Ref 1FD4AB82] Duplicate stacktrace, see ref for original
-Exception registering RimWorld.Apparel VAE_Footwear_Shoes200644 in loaded object directory with unique thing ID 200644: System.ArgumentException: An item with the same key has already been added. Key: 200644
-[Ref FF0803AD] Duplicate stacktrace, see ref for original
-Exception registering RimWorld.Apparel VAE_Handwear_Gloves200646 in loaded object directory with unique load ID Thing_VAE_Handwear_Gloves200646: System.ArgumentException: An item with the same key has already been added. Key: Thing_VAE_Handwear_Gloves200646
-[Ref 1FD4AB82] Duplicate stacktrace, see ref for original
-Exception registering RimWorld.Apparel VAE_Handwear_Gloves200646 in loaded object directory with unique thing ID 200646: System.ArgumentException: An item with the same key has already been added. Key: 200646
-[Ref FF0803AD] Duplicate stacktrace, see ref for original
-Exception registering RimWorld.Apparel VFES_Headgear_Sombrero200642 in loaded object directory with unique load ID Thing_VFES_Headgear_Sombrero200642: System.ArgumentException: An item with the same key has already been added. Key: Thing_VFES_Headgear_Sombrero200642
-[Ref 1FD4AB82] Duplicate stacktrace, see ref for original
-Exception registering RimWorld.Apparel VFES_Headgear_Sombrero200642 in loaded object directory with unique thing ID 200642: System.ArgumentException: An item with the same key has already been added. Key: 200642
-[Ref FF0803AD] Duplicate stacktrace, see ref for original
-Exception registering Verse.ThingWithComps Gun_BoltActionRifle200648 in loaded object directory with unique load ID Thing_Gun_BoltActionRifle200648: System.ArgumentException: An item with the same key has already been added. Key: Thing_Gun_BoltActionRifle200648
-[Ref 1FD4AB82] Duplicate stacktrace, see ref for original
-Exception registering Verse.ThingWithComps Gun_BoltActionRifle200648 in loaded object directory with unique thing ID 200648: System.ArgumentException: An item with the same key has already been added. Key: 200648
-[Ref FF0803AD] Duplicate stacktrace, see ref for original
-Exception registering Verse.Verb_Shoot Verse.Verb_Shoot(null) in loaded object directory with unique load ID Verb_CompEquippable_Gun_BoltActionRifle200648_0: System.ArgumentException: An item with the same key has already been added. Key: Verb_CompEquippable_Gun_BoltActionRifle200648_0
-[Ref 1FD4AB82] Duplicate stacktrace, see ref for original
-Exception registering MVCF.ManagedVerb MVCF.ManagedVerb in loaded object directory with unique load ID CompEquippable_Gun_BoltActionRifle200648_0_Managed: System.ArgumentException: An item with the same key has already been added. Key: CompEquippable_Gun_BoltActionRifle200648_0_Managed
-[Ref 1FD4AB82] Duplicate stacktrace, see ref for original
-Exception registering RimWorld.Verb_MeleeAttackDamage RimWorld.Verb_MeleeAttackDamage(null) in loaded object directory with unique load ID Verb_CompEquippable_Gun_BoltActionRifle200648_0_Smash: System.ArgumentException: An item with the same key has already been added. Key: Verb_CompEquippable_Gun_BoltActionRifle200648_0_Smash
-[Ref 1FD4AB82] Duplicate stacktrace, see ref for original
-Exception registering MVCF.ManagedVerb MVCF.ManagedVerb in loaded object directory with unique load ID CompEquippable_Gun_BoltActionRifle200648_0_Smash_Managed: System.ArgumentException: An item with the same key has already been added. Key: CompEquippable_Gun_BoltActionRifle200648_0_Smash_Managed
-[Ref 1FD4AB82] Duplicate stacktrace, see ref for original
-Exception registering RimWorld.Verb_MeleeAttackDamage RimWorld.Verb_MeleeAttackDamage(null) in loaded object directory with unique load ID Verb_CompEquippable_Gun_BoltActionRifle200648_1_Smash: System.ArgumentException: An item with the same key has already been added. Key: Verb_CompEquippable_Gun_BoltActionRifle200648_1_Smash
-[Ref 1FD4AB82] Duplicate stacktrace, see ref for original
-Exception registering MVCF.ManagedVerb MVCF.ManagedVerb in loaded object directory with unique load ID CompEquippable_Gun_BoltActionRifle200648_1_Smash_Managed: System.ArgumentException: An item with the same key has already been added. Key: CompEquippable_Gun_BoltActionRifle200648_1_Smash_Managed
-[Ref 1FD4AB82] Duplicate stacktrace, see ref for original
-Exception registering RimWorld.Verb_MeleeAttackDamage RimWorld.Verb_MeleeAttackDamage(null) in loaded object directory with unique load ID Verb_CompEquippable_Gun_BoltActionRifle200648_1_Poke: System.ArgumentException: An item with the same key has already been added. Key: Verb_CompEquippable_Gun_BoltActionRifle200648_1_Poke
-[Ref 1FD4AB82] Duplicate stacktrace, see ref for original
-Exception registering MVCF.ManagedVerb MVCF.ManagedVerb in loaded object directory with unique load ID CompEquippable_Gun_BoltActionRifle200648_1_Poke_Managed: System.ArgumentException: An item with the same key has already been added. Key: CompEquippable_Gun_BoltActionRifle200648_1_Poke_Managed
-[Ref 1FD4AB82] Duplicate stacktrace, see ref for original
-Exception registering Verse.HediffWithComps (Wanted ticksSinceCreation=705395) in loaded object directory with unique load ID Hediff_10571: System.ArgumentException: An item with the same key has already been added. Key: Hediff_10571
-[Ref 1FD4AB82] Duplicate stacktrace, see ref for original
-Exception registering Verse.ThingWithComps ElephantTusk200649 in loaded object directory with unique load ID Thing_ElephantTusk200649: System.ArgumentException: An item with the same key has already been added. Key: Thing_ElephantTusk200649
-[Ref 1FD4AB82] Duplicate stacktrace, see ref for original
-Exception registering Verse.ThingWithComps ElephantTusk200649 in loaded object directory with unique thing ID 200649: System.ArgumentException: An item with the same key has already been added. Key: 200649
-[Ref FF0803AD] Duplicate stacktrace, see ref for original
-Exception registering Verse.ThingWithComps Beer200650 in loaded object directory with unique load ID Thing_Beer200650: System.ArgumentException: An item with the same key has already been added. Key: Thing_Beer200650
-[Ref 1FD4AB82] Duplicate stacktrace, see ref for original
-Exception registering Verse.ThingWithComps Beer200650 in loaded object directory with unique thing ID 200650: System.ArgumentException: An item with the same key has already been added. Key: 200650
-[Ref FF0803AD] Duplicate stacktrace, see ref for original
-Exception registering Verse.Gene Verse.Gene in loaded object directory with unique load ID Gene_2176: System.ArgumentException: An item with the same key has already been added. Key: Gene_2176
-[Ref 1FD4AB82] Duplicate stacktrace, see ref for original
-Exception registering Verse.Gene Verse.Gene in loaded object directory with unique load ID Gene_2177: System.ArgumentException: An item with the same key has already been added. Key: Gene_2177
-[Ref 1FD4AB82] Duplicate stacktrace, see ref for original
-Exception registering Verse.Gene Verse.Gene in loaded object directory with unique load ID Gene_2178: System.ArgumentException: An item with the same key has already been added. Key: Gene_2178
-[Ref 1FD4AB82] Duplicate stacktrace, see ref for original
-Exception registering Verse.Gene Verse.Gene in loaded object directory with unique load ID Gene_2179: System.ArgumentException: An item with the same key has already been added. Key: Gene_2179
-[Ref 1FD4AB82] Duplicate stacktrace, see ref for original
-Exception registering Verse.Gene Verse.Gene in loaded object directory with unique load ID Gene_2180: System.ArgumentException: An item with the same key has already been added. Key: Gene_2180
-[Ref 1FD4AB82] Duplicate stacktrace, see ref for original
-Exception registering Verse.Gene Verse.Gene in loaded object directory with unique load ID Gene_2181: System.ArgumentException: An item with the same key has already been added. Key: Gene_2181
-[Ref 1FD4AB82] Duplicate stacktrace, see ref for original
-Exception registering Verse.Gene Verse.Gene in loaded object directory with unique load ID Gene_2182: System.ArgumentException: An item with the same key has already been added. Key: Gene_2182
-[Ref 1FD4AB82] Duplicate stacktrace, see ref for original
-Exception registering Verse.Gene Verse.Gene in loaded object directory with unique load ID Gene_2183: System.ArgumentException: An item with the same key has already been added. Key: Gene_2183
-[Ref 1FD4AB82] Duplicate stacktrace, see ref for original
-Exception registering Verse.Gene Verse.Gene in loaded object directory with unique load ID Gene_2184: System.ArgumentException: An item with the same key has already been added. Key: Gene_2184
-[Ref 1FD4AB82] Duplicate stacktrace, see ref for original
-Exception registering Verse.Gene Verse.Gene in loaded object directory with unique load ID Gene_2185: System.ArgumentException: An item with the same key has already been added. Key: Gene_2185
-[Ref 1FD4AB82] Duplicate stacktrace, see ref for original
-Exception registering Verse.Gene Verse.Gene in loaded object directory with unique load ID Gene_2186: System.ArgumentException: An item with the same key has already been added. Key: Gene_2186
-[Ref 1FD4AB82] Duplicate stacktrace, see ref for original
-Exception registering Verse.Gene Verse.Gene in loaded object directory with unique load ID Gene_2187: System.ArgumentException: An item with the same key has already been added. Key: Gene_2187
-[Ref 1FD4AB82] Duplicate stacktrace, see ref for original
-Null key while loading dictionary of Verse.ThingWithComps and Verse.Pawn. label=artCreator
-[RimMercenaries] Loaded save data: hasBeenInitialized=True, lastRefreshTick=434707, mercenaries=17, tier1=10, tier2=5, tier3=2
-<color=#66ffb5>[MeleeAnim]</color> Loaded 0 animation renderers on map Map-0-PlayerHome
-checking editor settings...
-bodysizes genes are active
-[RimMercenaries] FinalizeInit called for save. HasBeenInitialized: True
-[Yayo's Animation] GC : animation data count [129 -> 0]
-Unloading 0 Unused Serialized files (Serialized files now loaded: 16)
-Unloading 0 unused Assets to reduce memory usage. Loaded Objects now: 82123.
-Total: 1006.656800 ms (FindLiveObjects: 4.183000 ms CreateObjectMapping: 3.524000 ms MarkObjects: 998.810700 ms  DeleteObjects: 0.138900 ms)
-
-Arachnophobia :: Spider Biome Settings Adjusted :: Current Factor: 1
-Graphic_SplitWrapper: Target thing is dessicated.
-Material 'Custom/Cutout_Dessicated_Cougar_north' with Shader 'Custom/Cutout' doesn't have a texture property '_MaskTex'
-Material 'Custom/Cutout_Dessicated_Cougar_east' with Shader 'Custom/Cutout' doesn't have a texture property '_MaskTex'
-Material 'Custom/Cutout_Dessicated_Cougar_south' with Shader 'Custom/Cutout' doesn't have a texture property '_MaskTex'
-Material 'Custom/Cutout_Dessicated_Cougar_east' with Shader 'Custom/Cutout' doesn't have a texture property '_MaskTex'
-Wrote screenshot C:\Users\clint\AppData\LocalLow\Ludeon Studios\RimWorld by Ludeon Studios\RimSaves\Previews\USCSS 2177.dat of size 177504
-Graphic_SplitWrapper: Target thing is dessicated.
-Material 'Custom/Cutout_Dessicated_Cougar_north' with Shader 'Custom/Cutout' doesn't have a texture property '_MaskTex'
-Material 'Custom/Cutout_Dessicated_Cougar_east' with Shader 'Custom/Cutout' doesn't have a texture property '_MaskTex'
-Material 'Custom/Cutout_Dessicated_Cougar_south' with Shader 'Custom/Cutout' doesn't have a texture property '_MaskTex'
-Material 'Custom/Cutout_Dessicated_Cougar_east' with Shader 'Custom/Cutout' doesn't have a texture property '_MaskTex'
-[Yayo's Animation] GC : animation data count [106 -> 61]
-Wrote screenshot C:\Users\clint\AppData\LocalLow\Ludeon Studios\RimWorld by Ludeon Studios\RimSaves\Previews\Autosave-5.dat of size 162577
-Exception in RimWorld.ThinkNode_ConditionalNotPawnKind TryIssueJobPackage: System.NullReferenceException: Object reference not set to an instance of an object
-[Ref 5FC929E0] Duplicate stacktrace, see ref for original
-Exception in RimWorld.ThinkNode_ConditionalPawnKind TryIssueJobPackage: System.NullReferenceException: Object reference not set to an instance of an object
-[Ref 5FC929E0] Duplicate stacktrace, see ref for original
-Exception in RimWorld.ThinkNode_ConditionalPawnKind TryIssueJobPackage: System.NullReferenceException: Object reference not set to an instance of an object
-[Ref EB506F]
-  at RimWorld.ThinkNode_ConditionalSkyDarker.Satisfied (Verse.Pawn pawn) [0x00006] in <4b428f24d2224af898d738d8228f0601>:0 
+[Ref 8E48724B]
+  at RimWorld.ThinkNode_ConditionalSkyDarker.Satisfied (Verse.Pawn pawn) [0x00006] in <1149266283f34843882d1e66385e1b1b>:0 
   at Verse.AI.ThinkNode_Conditional.TryIssueJobPackage (Verse.Pawn pawn, Verse.AI.JobIssueParams jobParams) [0x00000] in <61e4173561894da49d210260257b5097>:0 
   at Verse.AI.ThinkNode_Priority.TryIssueJobPackage (Verse.Pawn pawn, Verse.AI.JobIssueParams jobParams) [0x00022] in <61e4173561894da49d210260257b5097>:0 
 Exception in Verse.AI.ThinkNode_Priority TryIssueJobPackage: System.NullReferenceException: Object reference not set to an instance of an object
-[Ref 5FC929E0] Duplicate stacktrace, see ref for original
-Exception in Verse.AI.ThinkNode_Priority TryIssueJobPackage: System.NullReferenceException: Object reference not set to an instance of an object
-[Ref EB506F] Duplicate stacktrace, see ref for original
-Exception in Verse.AI.ThinkNode_Priority TryIssueJobPackage: System.NullReferenceException: Object reference not set to an instance of an object
-[Ref A7BA2713]
-  at RimWorld.ThinkNode_ConditionalSkyBrighter.Satisfied (Verse.Pawn pawn) [0x00006] in <4b428f24d2224af898d738d8228f0601>:0 
+[Ref B180EB5F]
+  at RimWorld.ThinkNode_ConditionalSkyBrighter.Satisfied (Verse.Pawn pawn) [0x00006] in <1149266283f34843882d1e66385e1b1b>:0 
   at Verse.AI.ThinkNode_Conditional.TryIssueJobPackage (Verse.Pawn pawn, Verse.AI.JobIssueParams jobParams) [0x00000] in <61e4173561894da49d210260257b5097>:0 
   at Verse.AI.ThinkNode_Priority.TryIssueJobPackage (Verse.Pawn pawn, Verse.AI.JobIssueParams jobParams) [0x00022] in <61e4173561894da49d210260257b5097>:0 
-[Yayo's Animation] GC : animation data count [103 -> 55]
+[Yayo's Animation] GC : animation data count [142 -> 97]
+Trying to save reference to a discarded thing Peacock55953 with saveDestroyedThings=true. This means that it's not deep-saved anywhere and is no longer managed by anything in the code, so saving its reference will always fail. , label=otherPawn
+Wrote screenshot C:\Users\clint\AppData\LocalLow\Ludeon Studios\RimWorld by Ludeon Studios\RimSaves\Previews\Autosave-3.dat of size 139036
+Attempted to draw HermitCrab70156 without a resolved render tree.
+Trying to save reference to a discarded thing Peacock55953 with saveDestroyedThings=true. This means that it's not deep-saved anywhere and is no longer managed by anything in the code, so saving its reference will always fail. , label=otherPawn
+Wrote screenshot C:\Users\clint\AppData\LocalLow\Ludeon Studios\RimWorld by Ludeon Studios\RimSaves\Previews\USCSS Colony78.dat of size 138242
+Exception thrown from thread=1251.
+System.Threading.ThreadAbortException: Thread was being aborted.
+[Ref 54CF78B3]
+(wrapper managed-to-native) System.Threading.Monitor.Monitor_wait(object,int)
+  at System.Threading.Monitor.ObjWait (System.Boolean exitContext, System.Int32 millisecondsTimeout, System.Object obj) [0x0002f] in <51fded79cd284d4d911c5949aff4cb21>:0 
+  at System.Threading.Monitor.Wait (System.Object obj, System.Int32 millisecondsTimeout, System.Boolean exitContext) [0x0000e] in <51fded79cd284d4d911c5949aff4cb21>:0 
+  at System.Threading.Monitor.Wait (System.Object obj, System.Int32 millisecondsTimeout) [0x00000] in <51fded79cd284d4d911c5949aff4cb21>:0 
+  at System.Threading.ManualResetEventSlim.Wait (System.Int32 millisecondsTimeout, System.Threading.CancellationToken cancellationToken) [0x00100] in <51fded79cd284d4d911c5949aff4cb21>:0 
+  at System.Threading.ManualResetEventSlim.Wait () [0x00000] in <51fded79cd284d4d911c5949aff4cb21>:0 
+  at SmashTools.Performance.DedicatedThread.Execute () [0x0000c] in C:\Program Files (x86)\Steam\steamapps\common\RimWorld\Mods\Vehicle-Framework\SmashTools\SmashTools\SmashTools\Performance\Multithreading\DedicatedThread.cs:168 
+Memory Statistics:
+[ALLOC_TEMP_TLS] TLS Allocator
+  StackAllocators : 
+    [ALLOC_TEMP_MAIN]
+      Peak usage frame count: [0-1.0 KB]: 8038 frames, [1.0 KB-2.0 KB]: 46 frames, [2.0 KB-4.0 KB]: 141010 frames, [4.0 KB-8.0 KB]: 10504 frames, [8.0 KB-16.0 KB]: 946 frames, [16.0 KB-32.0 KB]: 397 frames, [32.0 KB-64.0 KB]: 90 frames, [64.0 KB-128.0 KB]: 35 frames, [128.0 KB-256.0 KB]: 17 frames, [2.0 MB-4.0 MB]: 1 frames, [4.0 MB-8.0 MB]: 8 frames
+      Initial Block Size 4.0 MB
+      Current Block Size 8.0 MB
+      Peak Allocated Bytes 8.0 MB
+      Overflow Count 7
+    [ALLOC_TEMP_Loading.AsyncRead]
+      Initial Block Size 64.0 KB
+      Current Block Size 108.0 KB
+      Peak Allocated Bytes 104.3 KB
+      Overflow Count 0
+    [ALLOC_TEMP_Loading.PreloadManager]
+      Initial Block Size 256.0 KB
+      Current Block Size 256.0 KB
+      Peak Allocated Bytes 3.8 KB
+      Overflow Count 8
+    [ALLOC_TEMP_Background Job.Worker 8]
+      Initial Block Size 32.0 KB
+      Current Block Size 32.0 KB
+      Peak Allocated Bytes 54 B
+      Overflow Count 0
+    [ALLOC_TEMP_Job.Worker 6]
+      Initial Block Size 256.0 KB
+      Current Block Size 256.0 KB
+      Peak Allocated Bytes 160 B
+      Overflow Count 0
+    [ALLOC_TEMP_Job.Worker 0]
+      Initial Block Size 256.0 KB
+      Current Block Size 256.0 KB
+      Peak Allocated Bytes 160 B
+      Overflow Count 0
+    [ALLOC_TEMP_Background Job.Worker 10]
+      Initial Block Size 32.0 KB
+      Current Block Size 32.0 KB
+      Peak Allocated Bytes 54 B
+      Overflow Count 0
+    [ALLOC_TEMP_Background Job.Worker 9]
+      Initial Block Size 32.0 KB
+      Current Block Size 32.0 KB
+      Peak Allocated Bytes 54 B
+      Overflow Count 0
+    [ALLOC_TEMP_Job.Worker 5]
+      Initial Block Size 256.0 KB
+      Current Block Size 256.0 KB
+      Peak Allocated Bytes 160 B
+      Overflow Count 0
+    [ALLOC_TEMP_Background Job.Worker 14]
+      Initial Block Size 32.0 KB
+      Current Block Size 32.0 KB
+      Peak Allocated Bytes 54 B
+      Overflow Count 0
+    [ALLOC_TEMP_Background Job.Worker 6]
+      Initial Block Size 32.0 KB
+      Current Block Size 32.0 KB
+      Peak Allocated Bytes 54 B
+      Overflow Count 0
+    [ALLOC_TEMP_Job.Worker 4]
+      Initial Block Size 256.0 KB
+      Current Block Size 256.0 KB
+      Peak Allocated Bytes 160 B
+      Overflow Count 0
+    [ALLOC_TEMP_ReadCacheIndex]
+      Initial Block Size 64.0 KB
+      Current Block Size 64.0 KB
+      Peak Allocated Bytes 0.6 KB
+      Overflow Count 0
+    [ALLOC_TEMP_Job.Worker 3]
+      Initial Block Size 256.0 KB
+      Current Block Size 256.0 KB
+      Peak Allocated Bytes 160 B
+      Overflow Count 0
+    [ALLOC_TEMP_Background Job.Worker 12]
+      Initial Block Size 32.0 KB
+      Current Block Size 32.0 KB
+      Peak Allocated Bytes 54 B
+      Overflow Count 0
+    [ALLOC_TEMP_EnlightenWorker] x 6
+      Initial Block Size 64.0 KB
+      Current Block Size 64.0 KB
+      Peak Allocated Bytes 54 B
+      Overflow Count 0
+    [ALLOC_TEMP_Background Job.Worker 15]
+      Initial Block Size 32.0 KB
+      Current Block Size 32.0 KB
+      Peak Allocated Bytes 54 B
+      Overflow Count 0
+    [ALLOC_TEMP_Background Job.Worker 1]
+      Initial Block Size 32.0 KB
+      Current Block Size 32.0 KB
+      Peak Allocated Bytes 54 B
+      Overflow Count 0
+    [ALLOC_TEMP_Background Job.Worker 2]
+      Initial Block Size 32.0 KB
+      Current Block Size 32.0 KB
+      Peak Allocated Bytes 54 B
+      Overflow Count 0
+    [ALLOC_TEMP_Background Job.Worker 7]
+      Initial Block Size 32.0 KB
+      Current Block Size 32.0 KB
+      Peak Allocated Bytes 54 B
+      Overflow Count 0
+    [ALLOC_TEMP_UnityGfxDeviceWorker]
+      Initial Block Size 256.0 KB
+      Current Block Size 256.0 KB
+      Peak Allocated Bytes 10.3 KB
+      Overflow Count 0
+    [ALLOC_TEMP_AssetGarbageCollectorHelper] x 11
+      Initial Block Size 64.0 KB
+      Current Block Size 64.0 KB
+      Peak Allocated Bytes 138 B
+      Overflow Count 0
+    [ALLOC_TEMP_Background Job.Worker 5]
+      Initial Block Size 32.0 KB
+      Current Block Size 32.0 KB
+      Peak Allocated Bytes 54 B
+      Overflow Count 0
+    [ALLOC_TEMP_Job.Worker 9]
+      Initial Block Size 256.0 KB
+      Current Block Size 256.0 KB
+      Peak Allocated Bytes 160 B
+      Overflow Count 0
+    [ALLOC_TEMP_Background Job.Worker 13]
+      Initial Block Size 32.0 KB
+      Current Block Size 32.0 KB
+      Peak Allocated Bytes 54 B
+      Overflow Count 0
+    [ALLOC_TEMP_Job.Worker 8]
+      Initial Block Size 256.0 KB
+      Current Block Size 256.0 KB
+      Peak Allocated Bytes 160 B
+      Overflow Count 0
+    [ALLOC_TEMP_Job.Worker 7]
+      Initial Block Size 256.0 KB
+      Current Block Size 256.0 KB
+      Peak Allocated Bytes 160 B
+      Overflow Count 0
+    [ALLOC_TEMP_Job.Worker 1]
+      Initial Block Size 256.0 KB
+      Current Block Size 256.0 KB
+      Peak Allocated Bytes 507 B
+      Overflow Count 0
+    [ALLOC_TEMP_Job.Worker 2]
+      Initial Block Size 256.0 KB
+      Current Block Size 256.0 KB
+      Peak Allocated Bytes 234 B
+      Overflow Count 0
+    [ALLOC_TEMP_Background Job.Worker 3]
+      Initial Block Size 32.0 KB
+      Current Block Size 32.0 KB
+      Peak Allocated Bytes 54 B
+      Overflow Count 0
+    [ALLOC_TEMP_Background Job.Worker 11]
+      Initial Block Size 32.0 KB
+      Current Block Size 32.0 KB
+      Peak Allocated Bytes 54 B
+      Overflow Count 0
+    [ALLOC_TEMP_Job.Worker 10]
+      Initial Block Size 256.0 KB
+      Current Block Size 256.0 KB
+      Peak Allocated Bytes 128 B
+      Overflow Count 0
+    [ALLOC_TEMP_Background Job.Worker 0]
+      Initial Block Size 32.0 KB
+      Current Block Size 32.0 KB
+      Peak Allocated Bytes 54 B
+      Overflow Count 0
+    [ALLOC_TEMP_Background Job.Worker 4]
+      Initial Block Size 32.0 KB
+      Current Block Size 32.0 KB
+      Peak Allocated Bytes 54 B
+      Overflow Count 0
+    [ALLOC_TEMP_BatchDeleteObjects]
+      Initial Block Size 64.0 KB
+      Current Block Size 64.0 KB
+      Peak Allocated Bytes 54 B
+      Overflow Count 0
+[ALLOC_DEFAULT] Dual Thread Allocator
+  Peak main deferred allocation count 49598
+    [ALLOC_BUCKET]
+      Large Block size 4.0 MB
+      Used Block count 1
+      Peak Allocated bytes 4.0 MB
+      Failed Allocations. Bucket layout:
+        16B: 5 Subsections = 5120 buckets. Failed count: 1499009
+        32B: 34 Subsections = 17408 buckets. Failed count: 2316269
+        48B: 49 Subsections = 16725 buckets. Failed count: 1060165
+        64B: 40 Subsections = 10240 buckets. Failed count: 328292
+        80B: 85 Subsections = 17408 buckets. Failed count: 4397519
+        96B: 27 Subsections = 4608 buckets. Failed count: 67763
+        112B: 10 Subsections = 1462 buckets. Failed count: 238326
+        128B: 6 Subsections = 768 buckets. Failed count: 131227
+    [ALLOC_DEFAULT_MAIN]
+      Peak usage frame count: [16.0 MB-32.0 MB]: 3974 frames, [32.0 MB-64.0 MB]: 81 frames, [64.0 MB-128.0 MB]: 104 frames, [128.0 MB-256.0 MB]: 848 frames, [256.0 MB-0.50 GB]: 1105 frames, [0.50 GB-1.00 GB]: 154980 frames
+      Requested Block Size 16.0 MB
+      Peak Block count 48
+      Peak Allocated memory 0.73 GB
+      Peak Large allocation bytes 147.3 MB
+    [ALLOC_DEFAULT_THREAD]
+      Peak usage frame count: [8.0 MB-16.0 MB]: 8826 frames, [16.0 MB-32.0 MB]: 3 frames, [32.0 MB-64.0 MB]: 14 frames, [64.0 MB-128.0 MB]: 5921 frames, [128.0 MB-256.0 MB]: 146328 frames
+      Requested Block Size 16.0 MB
+      Peak Block count 9
+      Peak Allocated memory 162.3 MB
+      Peak Large allocation bytes 33.8 MB
+[ALLOC_TEMP_JOB_1_FRAME]
+  Initial Block Size 2.0 MB
+  Used Block Count 0
+  Overflow Count (too large) 0
+  Overflow Count (full) 0
+[ALLOC_TEMP_JOB_2_FRAMES]
+  Initial Block Size 2.0 MB
+  Used Block Count 0
+  Overflow Count (too large) 0
+  Overflow Count (full) 0
+[ALLOC_TEMP_JOB_4_FRAMES (JobTemp)]
+  Initial Block Size 2.0 MB
+  Used Block Count 1
+  Overflow Count (too large) 2
+  Overflow Count (full) 0
+[ALLOC_TEMP_JOB_ASYNC (Background)]
+  Initial Block Size 1.0 MB
+  Used Block Count 1
+  Overflow Count (too large) 0
+  Overflow Count (full) 0
+[ALLOC_GFX] Dual Thread Allocator
+  Peak main deferred allocation count 3274
+    [ALLOC_BUCKET]
+      Large Block size 4.0 MB
+      Used Block count 1
+      Peak Allocated bytes 4.0 MB
+      Failed Allocations. Bucket layout:
+        16B: 5 Subsections = 5120 buckets. Failed count: 1499009
+        32B: 34 Subsections = 17408 buckets. Failed count: 2316269
+        48B: 49 Subsections = 16725 buckets. Failed count: 1060165
+        64B: 40 Subsections = 10240 buckets. Failed count: 328292
+        80B: 85 Subsections = 17408 buckets. Failed count: 4397519
+        96B: 27 Subsections = 4608 buckets. Failed count: 67763
+        112B: 10 Subsections = 1462 buckets. Failed count: 238326
+        128B: 6 Subsections = 768 buckets. Failed count: 131227
+    [ALLOC_GFX_MAIN]
+      Peak usage frame count: [128.0 KB-256.0 KB]: 1 frames, [2.0 MB-4.0 MB]: 4439 frames, [4.0 MB-8.0 MB]: 1726 frames, [16.0 MB-32.0 MB]: 3850 frames, [64.0 MB-128.0 MB]: 4740 frames, [128.0 MB-256.0 MB]: 142235 frames, [256.0 MB-0.50 GB]: 4094 frames, [0.50 GB-1.00 GB]: 6 frames, [1.00 GB-2.00 GB]: 1 frames
+      Requested Block Size 16.0 MB
+      Peak Block count 42
+      Peak Allocated memory 1.97 GB
+      Peak Large allocation bytes 1.34 GB
+    [ALLOC_GFX_THREAD]
+      Peak usage frame count: [0-1.0 KB]: 3601 frames, [1.0 KB-2.0 KB]: 3234 frames, [2.0 KB-4.0 KB]: 1471 frames, [4.0 KB-8.0 KB]: 491 frames, [8.0 KB-16.0 KB]: 1117 frames, [16.0 KB-32.0 KB]: 3537 frames, [32.0 KB-64.0 KB]: 1316 frames, [64.0 KB-128.0 KB]: 783 frames, [128.0 KB-256.0 KB]: 11017 frames, [256.0 KB-0.5 MB]: 2891 frames, [0.5 MB-1.0 MB]: 4874 frames, [1.0 MB-2.0 MB]: 126760 frames
+      Requested Block Size 16.0 MB
+      Peak Block count 1
+      Peak Allocated memory 1.5 MB
+      Peak Large allocation bytes 0 B
+[ALLOC_CACHEOBJECTS] Dual Thread Allocator
+  Peak main deferred allocation count 217
+    [ALLOC_BUCKET]
+      Large Block size 4.0 MB
+      Used Block count 1
+      Peak Allocated bytes 4.0 MB
+      Failed Allocations. Bucket layout:
+        16B: 5 Subsections = 5120 buckets. Failed count: 1499009
+        32B: 34 Subsections = 17408 buckets. Failed count: 2316269
+        48B: 49 Subsections = 16725 buckets. Failed count: 1060165
+        64B: 40 Subsections = 10240 buckets. Failed count: 328292
+        80B: 85 Subsections = 17408 buckets. Failed count: 4397519
+        96B: 27 Subsections = 4608 buckets. Failed count: 67763
+        112B: 10 Subsections = 1462 buckets. Failed count: 238326
+        128B: 6 Subsections = 768 buckets. Failed count: 131227
+    [ALLOC_CACHEOBJECTS_MAIN]
+      Peak usage frame count: [4.0 MB-8.0 MB]: 1 frames, [8.0 MB-16.0 MB]: 6047 frames, [16.0 MB-32.0 MB]: 155044 frames
+      Requested Block Size 4.0 MB
+      Peak Block count 6
+      Peak Allocated memory 19.6 MB
+      Peak Large allocation bytes 0 B
+    [ALLOC_CACHEOBJECTS_THREAD]
+      Peak usage frame count: [4.0 KB-8.0 KB]: 6009 frames, [32.0 KB-64.0 KB]: 1 frames, [64.0 KB-128.0 KB]: 15 frames, [256.0 KB-0.5 MB]: 8232 frames, [0.5 MB-1.0 MB]: 146835 frames
+      Requested Block Size 4.0 MB
+      Peak Block count 1
+      Peak Allocated memory 0.8 MB
+      Peak Large allocation bytes 0 B
+[ALLOC_TYPETREE] Dual Thread Allocator
+  Peak main deferred allocation count 0
+    [ALLOC_BUCKET]
+      Large Block size 4.0 MB
+      Used Block count 1
+      Peak Allocated bytes 4.0 MB
+      Failed Allocations. Bucket layout:
+        16B: 5 Subsections = 5120 buckets. Failed count: 1499009
+        32B: 34 Subsections = 17408 buckets. Failed count: 2316269
+        48B: 49 Subsections = 16725 buckets. Failed count: 1060165
+        64B: 40 Subsections = 10240 buckets. Failed count: 328292
+        80B: 85 Subsections = 17408 buckets. Failed count: 4397519
+        96B: 27 Subsections = 4608 buckets. Failed count: 67763
+        112B: 10 Subsections = 1462 buckets. Failed count: 238326
+        128B: 6 Subsections = 768 buckets. Failed count: 131227
+    [ALLOC_TYPETREE_MAIN]
+      Peak usage frame count: [4.0 KB-8.0 KB]: 1 frames, [8.0 KB-16.0 KB]: 3908 frames, [16.0 KB-32.0 KB]: 24 frames, [32.0 KB-64.0 KB]: 16 frames, [128.0 KB-256.0 KB]: 1016 frames, [256.0 KB-0.5 MB]: 1093 frames, [0.5 MB-1.0 MB]: 155034 frames
+      Requested Block Size 2.0 MB
+      Peak Block count 1
+      Peak Allocated memory 0.7 MB
+      Peak Large allocation bytes 0 B
+    [ALLOC_TYPETREE_THREAD]
+      Peak usage frame count: [0-1.0 KB]: 161092 frames
+      Requested Block Size 2.0 MB
+      Peak Block count 0
+      Peak Allocated memory 0 B
+      Peak Large allocation bytes 0 B
