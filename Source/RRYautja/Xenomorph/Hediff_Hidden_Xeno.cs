@@ -333,7 +333,7 @@ namespace RRYautja
                 {
                     faction = pawn.Faction,
                     spawnCenter = pawn.Position,
-                    raidStrategy = RaidStrategyDefOf.ImmediateAttack
+                    raidStrategy = XenomorphDefOf.RRY_XenomorphImmediateAttack
                 };
                 parms.raidStrategy.Worker.MakeLords(parms, thisPawn);
                 pawn.Map.avoidGrid.Regenerate();

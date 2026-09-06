@@ -72,6 +72,7 @@ namespace RimWorld
 
         // Xenomorph RaidStrategyDefs 
         public static RaidStrategyDef RRY_PowerCut;
+        public static RaidStrategyDef RRY_XenomorphImmediateAttack;
 
         // Xenomorph JobDefs 
         public static JobDef RRY_Job_Xenomorph_EnterHiveTunnel;

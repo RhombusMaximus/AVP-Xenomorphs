@@ -22,4 +22,22 @@
     <letterLabelEnemy>Raid</letterLabelEnemy>
     <arrivalTextEnemy>They are attacking immediately.</arrivalTextEnemy>
   </RaidStrategyDef>
+
+  <!--
+    Custom immediate-attack strategy for Xenomorph raids.
+    Uses RaidStrategyWorker_XenomorphImmediateAttack which creates a
+    LordJob_XenomorphAssaultColony with the kidnap-first RRY_Xenomorph_AssaultColony
+    duty (no building trash), instead of vanilla LordJob_AssaultColony.
+  -->
+  <RaidStrategyDef>
+    <defName>RRY_XenomorphImmediateAttack</defName>
+    <workerClass>RaidStrategyWorker_XenomorphImmediateAttack</workerClass>
+    <selectionWeightPerPointsCurve>
+      <points>
+        <li>(0,1)</li>
+      </points>
+    </selectionWeightPerPointsCurve>
+    <letterLabelEnemy>Raid</letterLabelEnemy>
+    <arrivalTextEnemy>They are attacking immediately.</arrivalTextEnemy>
+  </RaidStrategyDef>
 </Defs>

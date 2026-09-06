@@ -75,6 +75,16 @@ namespace RimWorld
         // Token: 0x06000ECF RID: 3791 RVA: 0x0006ED18 File Offset: 0x0006D118
         public override void ResolveRaidStrategy(IncidentParms parms, PawnGroupKindDef groupKind)
         {
+            // Force Xenomorph raids to use our custom RRY_XenomorphImmediateAttack strategy,
+            // which creates a LordJob_XenomorphAssaultColony with the kidnap-first
+            // RRY_Xenomorph_AssaultColony duty (no building trash) instead of vanilla
+            // LordJob_AssaultColony.
+            if (parms.faction != null && parms.faction.def == XenomorphDefOf.RRY_Xenomorph
+                && parms.raidStrategy != XenomorphDefOf.RRY_PowerCut)
+            {
+                parms.raidStrategy = XenomorphDefOf.RRY_XenomorphImmediateAttack;
+                return;
+            }
             if (Def.raidStrategyDefDef != null)
             {
                 parms.raidStrategy = Def.raidStrategyDefDef;

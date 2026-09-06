@@ -49,7 +49,7 @@ namespace RRYautja
                             }
                             if (extTunnels && Rand.ChanceSeeded(0.10f + (map.GetComponent<MapComponent_HiveGrid>().HiveChildlist.Count / 100f), AvPConstants.AvPSeed))
                             {
-                                parms.raidStrategy = RaidStrategyDefOf.ImmediateAttack;
+                                parms.raidStrategy = XenomorphDefOf.RRY_XenomorphImmediateAttack;
                                 parms.raidArrivalMode = XenomorphDefOf.RRY_RandomEnterFromTunnel;
                             }
                             else
