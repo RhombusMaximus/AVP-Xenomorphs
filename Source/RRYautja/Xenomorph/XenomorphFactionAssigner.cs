@@ -102,7 +102,7 @@ namespace RRYautja
                 if (comp != null && comp.droneTextureVariant == 0)
                 {
                     // 5 variants: 0 = base (Xenomorph_Drone), 1 = Dark, 2 = Gold, 3 = Light, 4 = Red
-                    comp.droneTextureVariant = Rand.RangeInclusive(0, 4);
+                    comp.droneTextureVariant = Rand.RangeInclusive(0, 2);
                     AvPDebug.Log("Spawn", $"Drone {__result.LabelShort} rolled texture variant {comp.droneTextureVariant}");
                 }
             }
