@@ -120,6 +120,25 @@ namespace RRYautja.settings
                     }
                 }
             }
+
+            // Set Minifiable=true on egg ThingDef (not XML-writable in 1.6, it's a get-only property)
+            // Minifiable is a property backed by a field — try setting via reflection
+            var minifiableField = typeof(ThingDef).GetField("minifiable", System.Reflection.BindingFlags.NonPublic | System.Reflection.BindingFlags.Instance);
+            if (minifiableField == null)
+            {
+                // Try property setter
+                var minifiableProp = typeof(ThingDef).GetProperty("Minifiable", System.Reflection.BindingFlags.Public | System.Reflection.BindingFlags.NonPublic | System.Reflection.BindingFlags.Instance);
+                if (minifiableProp != null && minifiableProp.CanWrite)
+                {
+                    var eggDef = DefDatabase<ThingDef>.GetNamed("RRY_EggXenomorphFertilized", false);
+                    if (eggDef != null) { try { minifiableProp.SetValue(eggDef, true); } catch { } }
+                }
+            }
+            else
+            {
+                var eggDef = DefDatabase<ThingDef>.GetNamed("RRY_EggXenomorphFertilized", false);
+                if (eggDef != null) { try { minifiableField.SetValue(eggDef, true); } catch { } }
+            }
         }
 
         public override string SettingsCategory() => "Aliens Vs Predator";

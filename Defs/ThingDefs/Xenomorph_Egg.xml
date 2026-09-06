@@ -7,7 +7,6 @@
     <description>A Xenomorph egg. The eggs laid by the queen are ellipsoidal, leathery objects between one-half and one meter (two and three feet) high with a four-lobed opening at the top. The eggs can remain in a stasis mode for years, possibly indefinitely, until nearby movement is detected. As a potential host approaches, the egg's lobes unfold like flower petals, and the parasitic facehugger extracts itself from the egg and attaches itself to the potential host. why anyone would allow one of these to hatch is a mystery.</description>
      <thingClass>RRYautja.Building_XenoEgg</thingClass>
     <drawerType>RealtimeOnly</drawerType>
-    <minifiable>true</minifiable>
     <minifiedDef>MinifiedXenoEgg</minifiedDef>
     <altitudeLayer>BuildingOnTop</altitudeLayer>
     <passability>PassThroughOnly</passability>
