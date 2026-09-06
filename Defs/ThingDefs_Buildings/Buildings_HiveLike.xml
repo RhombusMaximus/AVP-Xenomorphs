@@ -96,6 +96,7 @@
 		  <!-- <li>RRY_Xenomorph_Neomorph</li> -->
 		  <li>RRY_Xenomorph_Warrior</li>
 		  <li>RRY_Xenomorph_Drone</li>
+		  <li>RRY_Xenomorph_Spitter</li>
 		  <li>RRY_Xenomorph_Runner</li>
 		</PawnKinds>
     <graphicData>
@@ -194,6 +195,7 @@
 		  <!-- <li>RRY_Xenomorph_Neomorph</li> -->
 		  <li>RRY_Xenomorph_Warrior</li>
 		  <li>RRY_Xenomorph_Drone</li>
+		  <li>RRY_Xenomorph_Spitter</li>
 		  <li>RRY_Xenomorph_Runner</li>
 		</PawnKinds>
     <graphicData>

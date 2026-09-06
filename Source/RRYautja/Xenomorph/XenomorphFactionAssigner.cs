@@ -91,6 +91,21 @@ namespace RRYautja
             {
                 __result.SetFaction(xenoFaction);
             }
+
+            // Roll a random texture variant for Drones so each spawned Drone can
+            // display one of the available drone texture variants (base, Dark, Gold,
+            // Light, Red). The variant is read by the PawnRenderNode_Body patch.
+            // Only roll for Drones; Spitters use their own race graphic.
+            if (__result.kindDef == XenomorphDefOf.RRY_Xenomorph_Drone)
+            {
+                Comp_Xenomorph comp = __result.TryGetComp<Comp_Xenomorph>();
+                if (comp != null && comp.droneTextureVariant == 0)
+                {
+                    // 5 variants: 0 = base (Xenomorph_Drone), 1 = Dark, 2 = Gold, 3 = Light, 4 = Red
+                    comp.droneTextureVariant = Rand.RangeInclusive(0, 4);
+                    AvPDebug.Log("Spawn", $"Drone {__result.LabelShort} rolled texture variant {comp.droneTextureVariant}");
+                }
+            }
         }
     }
 }

@@ -43,13 +43,14 @@
           <RRY_Xenomorph_Queen>1</RRY_Xenomorph_Queen>
           <RRY_Xenomorph_Runner>150</RRY_Xenomorph_Runner>
           <RRY_Xenomorph_Drone>100</RRY_Xenomorph_Drone>
+          <RRY_Xenomorph_Spitter>40</RRY_Xenomorph_Spitter>
           <RRY_Xenomorph_Warrior>100</RRY_Xenomorph_Warrior>
         </options>
-				<disallowedStrategies>
-					<li>Siege</li>
-					<li>ImmediateAttackSappers</li>
-					<li>RRY_PowerCut</li>
-				</disallowedStrategies>
+			<disallowedStrategies>
+				<li>Siege</li>
+				<li>ImmediateAttackSappers</li>
+				<li>RRY_PowerCut</li>
+			</disallowedStrategies>
       </li>
       <li>
         <!-- No Queens-->
@@ -58,13 +59,14 @@
         <options>
           <RRY_Xenomorph_Runner>150</RRY_Xenomorph_Runner>
           <RRY_Xenomorph_Drone>100</RRY_Xenomorph_Drone>
+          <RRY_Xenomorph_Spitter>40</RRY_Xenomorph_Spitter>
           <RRY_Xenomorph_Warrior>100</RRY_Xenomorph_Warrior>
         </options>
-				<disallowedStrategies>
-					<li>Siege</li>
-					<li>ImmediateAttackSappers</li>
-					<li>RRY_PowerCut</li>
-				</disallowedStrategies>
+			<disallowedStrategies>
+				<li>Siege</li>
+				<li>ImmediateAttackSappers</li>
+				<li>RRY_PowerCut</li>
+			</disallowedStrategies>
       </li>
       <li>
         <!-- No Huggers-->
@@ -74,13 +76,14 @@
           <RRY_Xenomorph_Queen>1</RRY_Xenomorph_Queen>
           <RRY_Xenomorph_Runner>150</RRY_Xenomorph_Runner>
           <RRY_Xenomorph_Drone>100</RRY_Xenomorph_Drone>
+          <RRY_Xenomorph_Spitter>40</RRY_Xenomorph_Spitter>
           <RRY_Xenomorph_Warrior>100</RRY_Xenomorph_Warrior>
         </options>
-				<disallowedStrategies>
-					<li>Siege</li>
-					<li>ImmediateAttackSappers</li>
-					<li>RRY_PowerCut</li>
-				</disallowedStrategies>
+			<disallowedStrategies>
+				<li>Siege</li>
+				<li>ImmediateAttackSappers</li>
+				<li>RRY_PowerCut</li>
+			</disallowedStrategies>
       </li>
       <li>
         <!-- No Queens, Huggers-->
@@ -89,6 +92,7 @@
         <options>
           <RRY_Xenomorph_Runner>150</RRY_Xenomorph_Runner>
           <RRY_Xenomorph_Drone>100</RRY_Xenomorph_Drone>
+          <RRY_Xenomorph_Spitter>40</RRY_Xenomorph_Spitter>
           <RRY_Xenomorph_Warrior>100</RRY_Xenomorph_Warrior>
         </options>
 				<disallowedStrategies>

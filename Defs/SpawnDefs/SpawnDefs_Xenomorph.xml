@@ -47,7 +47,7 @@
     </spawnWeights>
   </RRYautja.XenomorphSpawnDef>
 
-  <!-- Humanlike host → 50/50 Drone/Warrior -->
+  <!-- Humanlike host → 50/30/20 Drone/Warrior/Spitter -->
   <RRYautja.XenomorphSpawnDef>
     <defName>RRY_Spawn_Humanlike</defName>
     <label>Humanlike Host Spawn</label>
@@ -56,10 +56,12 @@
     <spawnKinds>
       <li>RRY_Xenomorph_Drone</li>
       <li>RRY_Xenomorph_Warrior</li>
+      <li>RRY_Xenomorph_Spitter</li>
     </spawnKinds>
     <spawnWeights>
       <li>50</li>
-      <li>50</li>
+      <li>30</li>
+      <li>20</li>
     </spawnWeights>
   </RRYautja.XenomorphSpawnDef>
 

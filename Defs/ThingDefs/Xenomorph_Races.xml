@@ -716,15 +716,82 @@
         </bodyGraphicData>
       </li>
     </lifeStages>
-	<!--
+    <!-- Drones are the basic worker caste — no acid spit (that's the Spitter variant). -->
     <weaponMoney>
-      <min>9999</min>
-      <max>9999</max>
+      <min>0</min>
+      <max>0</max>
     </weaponMoney>
     <weaponTags>
-      <li>DroneAcidSpit</li>
+
     </weaponTags>
-	-->
+  </PawnKindDef>
+
+  <!-- Spitter - Drone variant that spits acid at range.
+       Uses the Drone race (same body, stats) but carries the DroneAcidSpit weapon. -->
+  <PawnKindDef ParentName="RRY_BaseXenomorphKind">
+    <defName>RRY_Xenomorph_Spitter</defName>
+    <label>Spitter</label>
+    <race>RRY_Xenomorph_Drone</race>
+    <combatPower>140.0</combatPower>
+    <lifeStages>
+      <li>
+        <bodyGraphicData>
+          <texPath>Things/Pawn/Xenomorph/ChestBursterBloody</texPath>
+          <graphicClass>Graphic_Multi</graphicClass>
+          <drawSize>0.5</drawSize>
+          <shadowData>
+            <volume><!--(0.6, 0.8, 0.6)-->(0.0, 0.0, 0.0)</volume>
+          </shadowData>
+          <color>(234,212,137)</color>
+          <colorTwo>(255,255,255)</colorTwo>
+          <shaderType>CutoutComplex</shaderType>
+        </bodyGraphicData>
+      </li>
+      <li>
+        <bodyGraphicData>
+          <texPath>Things/Pawn/Xenomorph/ChestBurster</texPath>
+          <graphicClass>Graphic_Multi</graphicClass>
+          <drawSize>0.75</drawSize>
+          <shadowData>
+            <volume><!--(0.6, 0.8, 0.6)-->(0.0, 0.0, 0.0)</volume>
+          </shadowData>
+          <color>(234,212,137)</color>
+        </bodyGraphicData>
+      </li>
+      <li>
+        <bodyGraphicData>
+          <texPath>Things/Pawn/Xenomorph/Xenomorph_Drone_New_Red</texPath>
+          <graphicClass>Graphic_Multi</graphicClass>
+          <shaderType>CutoutComplex</shaderType>
+          <drawSize>1.0</drawSize>
+          <shadowData>
+            <volume>(0.4, 0.8, 0.4)</volume>
+          </shadowData>
+        </bodyGraphicData>
+      </li>
+      <li>
+        <bodyGraphicData>
+          <texPath>Things/Pawn/Xenomorph/Xenomorph_Drone_New_Red</texPath>
+          <graphicClass>Graphic_Multi</graphicClass>
+          <shaderType>CutoutComplex</shaderType>
+          <drawSize>1.25</drawSize>
+          <shadowData>
+            <volume>(0.4, 0.8, 0.4)</volume>
+          </shadowData>
+        </bodyGraphicData>
+      </li>
+      <li>
+        <bodyGraphicData>
+          <texPath>Things/Pawn/Xenomorph/Xenomorph_Drone_New_Red</texPath>
+          <graphicClass>Graphic_Multi</graphicClass>
+          <shaderType>CutoutComplex</shaderType>
+          <drawSize>1.5</drawSize>
+          <shadowData>
+            <volume>(0.4, 0.8, 0.4)</volume>
+          </shadowData>
+        </bodyGraphicData>
+      </li>
+    </lifeStages>
     <weaponMoney>
       <min>9999</min>
       <max>9999</max>
@@ -733,7 +800,7 @@
       <li>DroneAcidSpit</li>
     </weaponTags>
   </PawnKindDef>
-  
+
   <!-- Warrior - Melee -->
   <ThingDef ParentName="BaseXenomorphWalker_Cannon">
     <defName>RRY_Xenomorph_Warrior</defName>

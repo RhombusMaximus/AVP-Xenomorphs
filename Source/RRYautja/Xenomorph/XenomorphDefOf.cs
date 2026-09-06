@@ -52,10 +52,10 @@ namespace RimWorld
         public static PawnKindDef RRY_Xenomorph_Runner;
         public static PawnKindDef RRY_Xenomorph_Predalien;
         public static PawnKindDef RRY_Xenomorph_Praetorian;
+        public static PawnKindDef RRY_Xenomorph_Spitter;
         /*
         public static PawnKindDef RRY_Xenomorph_Preatorian;
         public static PawnKindDef RRY_Xenomorph_Boiler;
-        public static PawnKindDef RRY_Xenomorph_Spitter;
         public static PawnKindDef RRY_Xenomorph_Crusher;
         public static PawnKindDef RRY_Xenomorph_King;
         */
