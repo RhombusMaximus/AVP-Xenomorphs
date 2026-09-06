@@ -189,6 +189,34 @@ namespace RRYautja
             // Check for queen on map
             bool queenPresent = MyMap?.mapPawns.AllPawnsSpawned.Any(p => p.kindDef == XenomorphDefOf.RRY_Xenomorph_Queen) ?? false;
 
+            // Praetorian spawn rule: when a Queen is present on the map and the host is
+            // humanlike, there is a 5% chance to spawn a Praetorian instead of the normal
+            // Drone/Warrior/Spitter — but only if fewer than 2 Praetorians already exist
+            // on the same map.
+            if (queenPresent && Pawn.RaceProps.Humanlike && MyMap != null)
+            {
+                int praetorianCount = MyMap.mapPawns.AllPawnsSpawned.Count(p => p.kindDef == XenomorphDefOf.RRY_Xenomorph_Praetorian);
+                if (praetorianCount < 2 && Rand.Chance(0.05f))
+                {
+                    AvPDebug.Log("Spawn", $"Praetorian spawn triggered for {Pawn.LabelShort} (count={praetorianCount}, Queen present)");
+                    PawnKindDef praetorianKind = XenomorphDefOf.RRY_Xenomorph_Praetorian;
+                    Gender gender = Gender.None;
+                    Faction xenoFaction = Find.FactionManager?.FirstFactionOfDef(praetorianKind.defaultFactionDef);
+                    PawnGenerationRequest request = new PawnGenerationRequest(praetorianKind, xenoFaction,
+                        PawnGenerationContext.NonPlayer, -1, true, true, false, false, true, 20f, false, fixedGender: gender);
+                    Pawn pawn = PawnGenerator.GeneratePawn(request);
+
+                    Comp_Xenomorph _Xenomorph = pawn.TryGetComp<Comp_Xenomorph>();
+                    if (_Xenomorph != null)
+                    {
+                        _Xenomorph.host = Pawn.kindDef;
+                        _Xenomorph.HostDef = Pawn.def;
+                    }
+
+                    return pawn;
+                }
+            }
+
             // Find the first matching spawn def (sorted by priority)
             PawnKindDef pawnKindDef = null;
             foreach (var def in DefDatabase<XenomorphSpawnDef>.AllDefs.OrderBy(d => d.priority))
