@@ -21,7 +21,7 @@ namespace RimWorld
         // Token: 0x06000326 RID: 806 RVA: 0x0001F2B8 File Offset: 0x0001D6B8
         protected override IEnumerable<Toil> MakeNewToils()
         {
-            this.FailOn(() => this.Takee == null || this.Takee.Dead || (!this.Takee.Downed && this.Takee.Awake()));
+            this.FailOn(() => this.Takee == null || this.Takee.Dead || (!this.Takee.Downed && this.Takee.Awake() && this.Takee.health.capacities.GetLevel(PawnCapacityDefOf.Consciousness) >= 0.2f));
             foreach (Toil t in base.MakeNewToils())
             {
                 yield return t;

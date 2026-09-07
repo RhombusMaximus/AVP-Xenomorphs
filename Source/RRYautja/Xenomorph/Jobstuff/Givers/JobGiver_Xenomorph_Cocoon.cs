@@ -63,7 +63,7 @@ namespace RimWorld
                     }
                 }
             }
-            if (XenomorphKidnapUtility.TryFindGoodKidnapVictim(pawn, Searchradius, out Pawn t, null, this.forceRoofed, true, MinRange) && !GenAI.InDangerousCombat(pawn))
+            if (XenomorphKidnapUtility.TryFindGoodKidnapVictim(pawn, Searchradius, out Pawn t, null, this.forceRoofed, true, MinRange, true) && !GenAI.InDangerousCombat(pawn))
             {
                 if (XenomorphKidnapUtility.TryFindGoodHiveLoc(pawn, out c, t, true, !this.forceRoofed, this.forceCanDig))
                 {

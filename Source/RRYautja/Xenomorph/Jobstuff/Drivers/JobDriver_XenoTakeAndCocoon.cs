@@ -43,6 +43,19 @@ namespace RimWorld
         protected override IEnumerable<Toil> MakeNewToils()
         {
             this.FailOnIncapable(PawnCapacityDefOf.Manipulation);
+            // Stun non-downed pawns (facehugged but not technically Downed) so they can be carried
+            yield return new Toil
+            {
+                initAction = delegate ()
+                {
+                    if (Takee != null && !Takee.Downed && !Takee.Dead)
+                    {
+                        // Force stun the pawn so StartCarryThing can pick them up
+                        Takee.stances?.stunner?.StunFor(60, Takee, false, false);
+                    }
+                },
+                defaultCompleteMode = ToilCompleteMode.Instant
+            };
             yield return Toils_Goto.GotoThing(TargetIndex.A, PathEndMode.InteractionCell);
             yield return Toils_Haul.StartCarryThing(TargetIndex.A, false, true, false);
             Toil carryToCell = Toils_Haul.CarryHauledThingToCell(TargetIndex.C);
