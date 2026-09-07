@@ -48,10 +48,11 @@ namespace RimWorld
             {
                 initAction = delegate ()
                 {
-                    if (Takee != null && !Takee.Downed && !Takee.Dead)
+                    if (Takee != null && !Takee.Downed && !Takee.Dead && Takee.Map != null)
                     {
-                        // Force stun the pawn so StartCarryThing can pick them up
-                        Takee.stances?.stunner?.StunFor(60, Takee, false, false);
+                        // Force the pawn into a downed state so StartCarryThing can pick them up
+                        // Facehugged pawns have consciousness 0.1 but aren't technically Downed
+                        Takee.health?.AddHediff(HediffMaker.MakeHediff(HediffDef.Named("Stun"), Takee));
                     }
                 },
                 defaultCompleteMode = ToilCompleteMode.Instant
