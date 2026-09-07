@@ -17,7 +17,7 @@ namespace RRYautja
         bool selected => Find.Selector.SelectedObjects.Contains(this) && Prefs.DevMode && DebugSettings.godMode;
         public bool QueenPresent => MyMap.mapPawns.AllPawnsSpawned.Any(x => x.kindDef == XenomorphDefOf.RRY_Xenomorph_Queen) || (XenomorphUtil.HivelikesPresent(MyMap) && ((XenomorphUtil.SpawnedHivelikes(MyMap)).Any<HiveLike>((HiveLike y) => y.hasQueen)));
         public float hatchRange => xenoHatcher?.Props.triggerRadius ?? 5f;
-        public float minGestationTemp => xenoHatcher?.Props.minGestationTemp ?? -30f;
+        public float minGestationTemp => xenoHatcher?.Props.minGestationTemp ?? -17.8f; // 0 degrees Fahrenheit
         public bool NormalEgg => this.eggType == EggType.Normal;
         public bool RoyaleEgg => this.eggType == EggType.Royal;
         public bool PraetorianEgg => this.eggType == EggType.Praetorian;
@@ -376,29 +376,43 @@ namespace RRYautja
         public override string GetInspectString()
         {
             string des = base.GetInspectString();
-            if (!this.Gestating(out string reason))
+            // Show hibernation / ready-to-hatch status
+            if (!this.Spawned || this.Map == null)
             {
-                des = "Xeno_Egg_Gestation_Progress".Translate() + ": " + GetDescription(eggStatus);
-                if (eggStatus != GestationState.Finished)
+                des = "Uninstalled";
+                return des;
+            }
+            if (this.AmbientTemperature < minGestationTemp)
+            {
+                des = "Hibernating (too cold)";
+                des += "\nMin hatch temp: " + minGestationTemp.ToStringTemperature() + " (0F)";
+                des += "\nCurrent temp: " + this.AmbientTemperature.ToStringTemperature();
+                return des;
+            }
+            if (readyToHatch)
+            {
+                des = "Ready to hatch";
+                if (HostsPresent())
                 {
-                    des += " " + this.gestateProgress.ToStringPercent();
+                    des += " — host nearby!";
                 }
-                if (EggMutating)
+                else
                 {
-                    des += "\n" + GetDescription(eggType) + " " + "Xeno_Egg_Mutation_Progress".Translate() + ": " + this.mutateProgress.ToStringPercent();
-                }
-                if (EggMutated)
-                {
-                    des += "\n" + GetDescription(eggState);
+                    des += " — waiting for host within " + hatchRange + " tiles";
                 }
             }
             else
             {
-                des = "Xeno_Egg_Gestation_Progress".Translate() + ": " + GetDescription(eggStatus) + " " + this.gestateProgress.ToStringPercent() + "\n" + GetDescription(eggType);
-                if (EggMutated)
-                {
-                    des += "\n" + GetDescription(eggState);
-                }
+                des = "Gestating";
+            }
+            des += "\n" + "Xeno_Egg_Gestation_Progress".Translate() + ": " + this.gestateProgress.ToStringPercent();
+            if (EggMutating)
+            {
+                des += "\n" + GetDescription(eggType) + " " + "Xeno_Egg_Mutation_Progress".Translate() + ": " + this.mutateProgress.ToStringPercent();
+            }
+            if (EggMutated)
+            {
+                des += "\n" + GetDescription(eggState);
             }
             if (selected)
             {
@@ -408,17 +422,16 @@ namespace RRYautja
                     {
                         if (eggType == EggType.Hyperfertile)
                         {
-                            des += " contains Facehugger X" + spawnCount;
+                            des += "\ncontains Facehugger X" + spawnCount;
                         }
                         if (RoyaleEgg)
                         {
-                            des += " contains Royal Facehugger";
+                            des += "\ncontains Royal Facehugger";
                         }
                     }
                     des += "\nTargeting: " + targetThing.LabelShortCap + ", Distance: " + MyPos.DistanceTo(targetThing.Position) + ", Max:" + hatchRange;
                     des += "\nCan Hatch: " + this.canHatch + ", Should Hatch: " + this.shouldHatch + ", Will Hatch: " + this.willHatch;
                     des += "\nlastspawnroll: " + this.lastspawnroll + " lasthatchon: " + this.lasthatchon;
-
                 }
             }
             return des;
