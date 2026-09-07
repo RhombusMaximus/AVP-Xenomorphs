@@ -244,7 +244,7 @@ namespace RimWorld
                 // Only do expensive pathfinding on valid candidates
                 if (!pawn.CanReserveAndReach(edifice, PathEndMode.ClosestTouch, Danger.Deadly, 1, 1))
                     continue;
-                bool xenobuilding = edifice.GetType() != typeof(Building_XenoEgg) && edifice.GetType() != typeof(Building_XenomorphCocoon) && edifice.GetType() != typeof(HiveLike);
+                bool xenobuilding = edifice.GetType() != typeof(Building_XenoEgg) && edifice.GetType() != typeof(Building_XenomorphCocoon) && edifice.GetType() != typeof(HiveLike) && edifice.def != XenomorphDefOf.RRY_Xenomorph_Hive_Wall;
                 if (xenobuilding)
                 {
                     return new Job(JobDefOf.Mine, edifice)
@@ -256,25 +256,8 @@ namespace RimWorld
                 }
 
                 // If the drone can't reach the map edge, it might be stuck inside hive walls.
-                // Allow mining through hive walls to escape. Reuse cached result (no second pathfind).
-                if (!canReachMapEdge)
-                {
-                    for (int i = 0; i < GenRadial.NumCellsInRadius(3); i++)
-                    {
-                        IntVec3 c = pawn.Position + GenRadial.RadialPattern[i];
-                        if (c.InBounds(pawn.Map))
-                        {
-                            Building edifice = c.GetEdifice(pawn.Map);
-                            if (edifice != null && edifice.def == XenomorphDefOf.RRY_Xenomorph_Hive_Wall && pawn.CanReserveAndReach(edifice, PathEndMode.Touch, Danger.Deadly, 1, 1))
-                            {
-                                return new Job(JobDefOf.Mine, edifice)
-                                {
-                                    ignoreDesignations = true
-                                };
-                            }
-                        }
-                    }
-                }
+                // Do NOT mine through resin walls — that causes build/teardown loops.
+                // The drone should use the tunnel entrance or dig through natural rock instead.
 
             // Nothing left to mine — go back to the tunnel briefly
             // This staggers think cycles and reduces the lag spike when all drones finish mining at once
