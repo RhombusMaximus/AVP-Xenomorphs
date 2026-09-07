@@ -188,16 +188,17 @@ namespace RRYautja.ExtensionMethods
             }
             if (p.isHost())
             {
-                FailReason = "Host";
-                if (p.isNeoHost())
-                {
-                    FailReason = "Neo " + FailReason;
-                }
                 if (p.isXenoHost() && !allowImpreg)
                 {
-                    FailReason = "Xeno " + FailReason;
+                    FailReason = "Xeno Host (already impregnated)";
+                    return false;
                 }
-                return false;
+                if (p.isNeoHost())
+                {
+                    FailReason = "Neo Host (already impregnated)";
+                    return false;
+                }
+                // If allowImpreg is true and it's a xeno host, fall through (don't reject)
             }
             if (XenomorphUtil.IsXenomorphFaction(p))
             {

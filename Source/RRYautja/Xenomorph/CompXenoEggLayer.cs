@@ -132,12 +132,10 @@ namespace RRYautja
             {
                 return null;
             }
-            Thing thing;
+            this.fertilizationCount = Mathf.Max(0, this.fertilizationCount - randomInRange);
 
-                thing = ThingMaker.MakeThing(this.Props.eggDef, null);
-                this.fertilizationCount = Mathf.Max(0, this.fertilizationCount - randomInRange);
-            
-            thing.stackCount = randomInRange;
+            // Create the first egg
+            Thing thing = ThingMaker.MakeThing(this.Props.eggDef, null);
             Building_XenoEgg compHatcher = thing as Building_XenoEgg;
             if (compHatcher != null)
             {
@@ -147,6 +145,28 @@ namespace RRYautja
                     compHatcher.hatcheeParent = pawn;
                 }
             }
+
+            // For additional eggs, spawn them at adjacent cells
+            if (randomInRange > 1 && this.parent is Pawn layer && parent.Map != null)
+            {
+                for (int i = 1; i < randomInRange; i++)
+                {
+                    Thing extraEgg = ThingMaker.MakeThing(this.Props.eggDef, null);
+                    Building_XenoEgg extraHatcher = extraEgg as Building_XenoEgg;
+                    if (extraHatcher != null)
+                    {
+                        extraHatcher.hatcheeFaction = this.parent.Faction;
+                        if (this.parent is Pawn p)
+                        {
+                            extraHatcher.hatcheeParent = p;
+                        }
+                    }
+                    // Try to place the extra egg nearby
+                    IntVec3 spawnLoc = CellFinder.RandomClosewalkCellNear(parent.Position, parent.Map, 2);
+                    GenSpawn.Spawn(extraEgg, spawnLoc, parent.Map, WipeMode.Vanish);
+                }
+            }
+
             return thing;
         }
 

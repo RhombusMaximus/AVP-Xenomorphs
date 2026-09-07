@@ -196,7 +196,7 @@ namespace RRYautja
             if (queenPresent && Pawn.RaceProps.Humanlike && MyMap != null)
             {
                 int praetorianCount = MyMap.mapPawns.AllPawnsSpawned.Count(p => p.kindDef == XenomorphDefOf.RRY_Xenomorph_Praetorian);
-                if (praetorianCount < 2 && Rand.Chance(0.05f))
+                if (praetorianCount < 2 && Rand.Chance(0.20f))
                 {
                     AvPDebug.Log("Spawn", $"Praetorian spawn triggered for {Pawn.LabelShort} (count={praetorianCount}, Queen present)");
                     PawnKindDef praetorianKind = XenomorphDefOf.RRY_Xenomorph_Praetorian;
