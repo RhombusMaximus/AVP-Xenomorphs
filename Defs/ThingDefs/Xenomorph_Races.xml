@@ -359,9 +359,9 @@
       </li>
       <li Class="RRYautja.CompProperties_XenoEggLayer">
         <eggDef>RRY_EggXenomorphFertilized</eggDef>
-        <eggCountMax>1</eggCountMax>
+        <eggCountMax>2</eggCountMax>
         <eggLayIntervalDays>0.1</eggLayIntervalDays>
-        <eggCountRange>1</eggCountRange>
+        <eggCountRange>1~2</eggCountRange>
       </li> 
     </comps>
 	<!--
