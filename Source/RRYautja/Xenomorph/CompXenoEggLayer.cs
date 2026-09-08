@@ -147,8 +147,11 @@ namespace RRYautja
             }
 
             // For additional eggs, spawn them at adjacent cells
-            if (randomInRange > 1 && this.parent is Pawn layer && parent.Map != null)
+            Map eggMap = this.parent.MapHeld ?? this.parent.Map;
+            if (randomInRange > 1 && eggMap != null)
             {
+                IntVec3 eggPos = this.parent.PositionHeld;
+                if (eggPos == IntVec3.Invalid) eggPos = this.parent.Position;
                 for (int i = 1; i < randomInRange; i++)
                 {
                     Thing extraEgg = ThingMaker.MakeThing(this.Props.eggDef, null);
@@ -162,8 +165,8 @@ namespace RRYautja
                         }
                     }
                     // Try to place the extra egg nearby
-                    IntVec3 spawnLoc = CellFinder.RandomClosewalkCellNear(parent.Position, parent.Map, 2);
-                    GenSpawn.Spawn(extraEgg, spawnLoc, parent.Map, WipeMode.Vanish);
+                    IntVec3 spawnLoc = CellFinder.RandomClosewalkCellNear(eggPos, eggMap, 2);
+                    GenSpawn.Spawn(extraEgg, spawnLoc, eggMap, WipeMode.Vanish);
                 }
             }
 

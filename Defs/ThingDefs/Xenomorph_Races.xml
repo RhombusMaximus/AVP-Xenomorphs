@@ -361,7 +361,7 @@
         <eggDef>RRY_EggXenomorphFertilized</eggDef>
         <eggCountMax>2</eggCountMax>
         <eggLayIntervalDays>0.1</eggLayIntervalDays>
-        <eggCountRange>1~2</eggCountRange>
+        <eggCountRange>2</eggCountRange>
       </li> 
     </comps>
 	<!--
