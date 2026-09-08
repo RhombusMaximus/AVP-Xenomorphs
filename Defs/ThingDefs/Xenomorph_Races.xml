@@ -1118,22 +1118,6 @@
       <baseHungerRate>0.003</baseHungerRate>
       <trainability>None</trainability>
       <renderTree>Animal</renderTree>
-      <lifeStageAges>
-        <li>
-          <def>RRY_XenomorphPraetorian</def>
-          <minAge>0</minAge>
-          <soundWounded>RRY_Pawn_Xenomorph_Normal_Wounded</soundWounded>
-          <soundDeath>RRY_Pawn_Xenomorph_Normal_Death</soundDeath>
-          <soundCall>RRY_Pawn_Xenomorph_Normal_Call</soundCall>
-        </li>
-        <li>
-          <def>RRY_XenomorphFullyFormed</def>
-          <minAge>0.01</minAge>
-          <soundWounded>RRY_Pawn_Xenomorph_Normal_Wounded</soundWounded>
-          <soundDeath>RRY_Pawn_Xenomorph_Normal_Death</soundDeath>
-          <soundCall>RRY_Pawn_Xenomorph_Normal_Call</soundCall>
-        </li>
-      </lifeStageAges>
       <soundMeleeHitPawn>Pawn_Melee_Punch_HitPawn</soundMeleeHitPawn>
       <soundMeleeHitBuilding>Pawn_Melee_Punch_HitBuilding_Generic</soundMeleeHitBuilding>
       <soundMeleeMiss>Pawn_Melee_Punch_Miss</soundMeleeMiss>
@@ -1148,10 +1132,40 @@
     <lifeStages>
       <li>
         <bodyGraphicData>
+          <texPath>Things/Pawn/Xenomorph/ChestBursterBloody</texPath>
+          <graphicClass>Graphic_Multi</graphicClass>
+          <drawSize>0.5</drawSize>
+          <color>(234,212,137)</color>
+          <colorTwo>(255,255,255)</colorTwo>
+          <shaderType>CutoutComplex</shaderType>
+        </bodyGraphicData>
+      </li>
+      <li>
+        <bodyGraphicData>
+          <texPath>Things/Pawn/Xenomorph/ChestBurster</texPath>
+          <graphicClass>Graphic_Multi</graphicClass>
+          <drawSize>0.75</drawSize>
+          <color>(234,212,137)</color>
+          <shaderType>CutoutComplex</shaderType>
+        </bodyGraphicData>
+      </li>
+      <li>
+        <bodyGraphicData>
           <texPath>Things/Pawn/Xenomorph/Xenomorph_Drone</texPath>
           <graphicClass>Graphic_Multi</graphicClass>
           <shaderType>CutoutComplex</shaderType>
-          <drawSize>2.5</drawSize>
+          <drawSize>1.5</drawSize>
+          <shadowData>
+            <volume>(0.4, 0.8, 0.4)</volume>
+          </shadowData>
+        </bodyGraphicData>
+      </li>
+      <li>
+        <bodyGraphicData>
+          <texPath>Things/Pawn/Xenomorph/Xenomorph_Drone</texPath>
+          <graphicClass>Graphic_Multi</graphicClass>
+          <shaderType>CutoutComplex</shaderType>
+          <drawSize>2.0</drawSize>
           <shadowData>
             <volume>(0.4, 0.8, 0.4)</volume>
           </shadowData>
