@@ -1126,6 +1126,13 @@
           <soundDeath>RRY_Pawn_Xenomorph_Normal_Death</soundDeath>
           <soundCall>RRY_Pawn_Xenomorph_Normal_Call</soundCall>
         </li>
+        <li>
+          <def>RRY_XenomorphFullyFormed</def>
+          <minAge>0.01</minAge>
+          <soundWounded>RRY_Pawn_Xenomorph_Normal_Wounded</soundWounded>
+          <soundDeath>RRY_Pawn_Xenomorph_Normal_Death</soundDeath>
+          <soundCall>RRY_Pawn_Xenomorph_Normal_Call</soundCall>
+        </li>
       </lifeStageAges>
       <soundMeleeHitPawn>Pawn_Melee_Punch_HitPawn</soundMeleeHitPawn>
       <soundMeleeHitBuilding>Pawn_Melee_Punch_HitBuilding_Generic</soundMeleeHitBuilding>
@@ -1139,6 +1146,17 @@
     <race>RRY_Xenomorph_Praetorian</race>
     <combatPower>320.0</combatPower>
     <lifeStages>
+      <li>
+        <bodyGraphicData>
+          <texPath>Things/Pawn/Xenomorph/Xenomorph_Drone</texPath>
+          <graphicClass>Graphic_Multi</graphicClass>
+          <shaderType>CutoutComplex</shaderType>
+          <drawSize>2.5</drawSize>
+          <shadowData>
+            <volume>(0.4, 0.8, 0.4)</volume>
+          </shadowData>
+        </bodyGraphicData>
+      </li>
       <li>
         <bodyGraphicData>
           <texPath>Things/Pawn/Xenomorph/Xenomorph_Drone</texPath>
