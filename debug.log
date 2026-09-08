@@ -2993,3 +2993,866 @@ CharacterEditor.CEditor:OnMainMenuOnGUI ()
 (wrapper dynamic-method) MonoMod.Utils.DynamicMethodDefinition:Verse.UIRoot_Entry.DoMainMenu_Patch1 (Verse.UIRoot_Entry)
 Verse.UIRoot_Entry:UIRootOnGUI ()
 (wrapper dynamic-method) MonoMod.Utils.DynamicMethodDefinition:Verse.Root.OnGUI_Patch2 (Verse.Root)
+
+Loading game from file USCSS Colony80 with mods:
+  - brrainz.harmony
+  - ilyvion.LoadingProgress
+  - Ludeon.RimWorld
+  - Ludeon.RimWorld.Royalty
+  - Ludeon.RimWorld.Ideology
+  - Ludeon.RimWorld.Biotech
+  - Ludeon.RimWorld.Anomaly
+  - Ludeon.RimWorld.Odyssey
+  - RedMattis.BetterPrerequisites
+  - UnlimitedHugs.HugsLib
+  - telardo.BetterGeneGraphicsFramework
+  - JintuziLamian.Gene.XenoCosmetic
+  - Ogliss.AVPXenomorphs
+  - Nals.FacialAnimation
+  - Reel.FacialAnims
+  - sd.fa.reelsadjustments
+  - VanillaExpanded.VTEXE.FacialAnims
+  - sd.fa.vteadjustments
+  - LiterallyFree.ColonistReturnBuff
+  - adaptive.storage.framework
+  - OskarPotocki.VanillaFactionsExpanded.Core
+  - SmashPhil.VehicleFramework
+  - OskarPotocki.VanillaVehiclesExpanded
+  - Endy.Airtightgarage
+  - AndrewRaphaelLukasik.AllowDeadAnimals
+  - cucumpear.azrael.varietycoats
+  - Inglix.ApparelTaintedOnCorpseRot
+  - zal.artifactsexpanded
+  - Defi.AutoCutBlight
+  - Mlie.AutopsyTable
+  - falconne.AFF
+  - Chaotic.BarelyBetterSpots
+  - RedMattis.BetterGeneInheritance
+  - falconne.BWM
+  - Owlchemist.FridgeUtilities
+  - VanillaExpanded.VPsycastsE
+  - dev.tobot.vpe.betterautocast
+  - Daria40K.BigLittleModPatch
+  - RedMattis.BiggerGravship
+  - Mlie.BioReactor
+  - Milkman.BiotechCosmeticGenesMM
+  - Fuu.BloodAnimations
+  - Darknote.BunkBeds
+  - CrashM.ColorCodedMoodBar.11
+  - brrainz.cameraplus
+  - Aoba.CargoContainer.Waste
+  - void.charactereditor
+  - sarg.alphaanimals
+  - IH.Clean.Textures
+  - Cerule.CleaningAreaRelaunched
+  - avilmask.CommonSense
+  - Sea.ConsistentGeneInheritanceContinued
+  - imranfish.xmlextensions
+  - NuanKi.ControlledRituals
+  - zal.covetheus.nohar
+  - lts.CC
+  - CaesarV6.DamageIndicators
+  - killerbot.gtekdevilstrandsynthesis
+  - Mlie.DifferentEggSizes
+  - Woolyung.DoTheRitualsYourselves
+  - telardo.DragSelect
+  - Dubwise.DubsMintMenus
+  - dubwise.dubsmintminimap
+  - zeracronius.dynamictradeinterface
+  - Mlie.EnemySelfPreservation
+  - Erin.FluffyFauna
+  - Erin.Hairredux
+  - Romyashi.ExtractAnyPlant
+  - azravos.factioncustomizer
+  - Aelanna.FistNerf
+  - vanillaracesexpanded.android
+  - quartz.floorstoragetanks
+  - bean.xeno.gnolls
+  - Thumb.GoreMod
+  - Telefonmast.GraphicsSettings
+  - Kattalisk.GravEngineGivesPower
+  - SuperPox.GravshipBiofuelRefineryAddOn
+  - Kilo.CapVacHelm
+  - Zaire82.HDHeadAttatchmentsForFacialAnimation
+  - jkluch.HaulToStack
+  - Tory.Icons.Historical
+  - VanillaExpanded.VanillaAnimalsExpanded
+  - zal.hyena
+  - dev.soeur.imageopt
+  - toxicyui.impactfulskills.modsupport
+  - 400.ImpassableHChestUdeepHWater
+  - Dragoon103.LARVA
+  - Taveron.IncreasedStack
+  - Aoba.Fortress.Industrial.Concrete
+  - futurplanet.industrialconcretefloorpatch
+  - Koth.ISiD
+  - ASF.DeepStorage
+  - costel.layeredapparel
+  - jecrell.doorsexpanded
+  - Haplo.Miscellaneous.Robots
+  - avius.locks
+  - Mlie.LogAfterDefError
+  - zal.majesticfoilageframework
+  - zal.majesticcomigopack
+  - zal.majesticcmt
+  - plaxen.MalangBodies
+  - m00nl1ght.MapPreview
+  - Samael.NPCMechsAndAnimals
+  - sumghai.Medpod
+  - co.uk.epicguru.meleeanimation
+  - notfood.MendAndRecycle
+  - Cain.Mineshaft
+  - erdelf.MinifyEverything
+  - Hol.Words
+  - mosi.MoreMiniHorns
+  - kirby.morereligiousorigins
+  - Bichang.MoreSculpture
+  - Jiopaba.Fences
+  - tidal.morevanilla.textures
+  - kenzej.multihunter
+  - zal.musicmanager
+  - zal.namesgalore
+  - VitaKaninen.ShelfPatch
+  - Doug.NoJobAuthors
+  - godlyannihilator.novanillamusic
+  - mrwireman.Noconduit
+  - vera.bug
+  - smallmine.HeavyShuttle
+  - PackMulesExtended.Standard
+  - komunre.BetterExp.PassiveResearch
+  - Mlie.PawnNameVariety
+  - ponpeco.PFSF
+  - Mlie.PredatorHuntAlert
+  - ocarina.prisonerjumpsuits
+  - DawnsGlow.qualcolor
+  - sdknm2.QualityOfBuilding
+  - ratys.rtsolarflareshield
+  - Mlie.RealisticHumanSounds
+  - Mlie.RelevantStatsInDescription
+  - sirrandoo.rda
+  - Memegoddess.ReplaceStuff
+  - Aelanna.ResearchTabColors
+  - LingLuo.Cockroach
+  - Mlie.RimofMadnessArachnophobia
+  - Keepercraft.RimKeeperAnimals
+  - naft.rimmercenaries
+  - aRandomKiwi.RimSaves
+  - Sierra.RT.GeneralTraits
+  - rimsenal.EVP
+  - rimsenal.core
+  - rimsenal.security
+  - rimsenal.hair
+  - Neronix17.Retexture.RimsenalRimhair
+  - Mlie.RunAndHide
+  - MemeGoddess.RunAndGun
+  - sneezingseal.sealsbackstorycollection
+  - MemeGoddess.SearchAndDestroy
+  - avilmask.SelfDyeing
+  - kathanon.ShowAllMaterials
+  - BP.ShowBuildableMaterialCount
+  - zal.simplefxshinies
+  - automatic.traderships
+  - VanillaExpanded.VCookE
+  - OskarPotocki.VanillaFactionsExpanded.SettlersModule
+  - VanillaExpanded.VFECore
+  - VanillaExpanded.VFEProduction
+  - Owlchemist.SimpleFX.Smoke2
+  - Owlchemist.SimpleFX.Splashes
+  - Atlas.SimpleFX.Vapor.Revaporized
+  - vanillaracesexpanded.highmate
+  - vanillaracesexpanded.pigskin
+  - vanillaracesexpanded.sanguophage
+  - buyue.SimpleTextureTweaks
+  - PeteTimesSix.SimpleSidearms
+  - Haecriver.SimplyMoreColors
+  - Memegoddess.SmartMedicine
+  - sarg.smartspeed
+  - dhultgren.smarterconstruction
+  - sirrandoo.msf
+  - marvinkosh.sometimesraidsgowrong
+  - cgf1.songsfortherim
+  - Garwel.StartingTechLevel
+  - balistafreak.StopDropAndRoll
+  - sakama.StorytellerHair
+  - moistestWhale.stuffOnTablesForked
+  - MemeGoddess.TDPack
+  - Memegoddess.TDSBugFixes
+  - Xale86.TacticalChargeWeapons
+  - void.terraformrimworld
+  - TheEverythingPackLegoBoi.Ideo.IconsandSymbols
+  - zmysk.The.Fire.Rises.In.Rim.Music.Channel.In.Chaos.World
+  - Febvre.TheOrientalMusicPack.ContinuedVersion
+  - GT.Sam.TilledSoil
+  - Propickelz.TinkerBench
+  - RedMattis.BigSmall.Core
+  - RedMattis.MoreXenos
+  - Aoba.Tent
+  - rimsenal.federation
+  - VanillaExpanded.VARME
+  - VanillaExpanded.VBrewE
+  - OskarPotocki.VFE.Empire
+  - OskarPotocki.VFE.Deserters
+  - VanillaExpanded.VWE
+  - OskarPotocki.VFE.Pirates
+  - OskarPotocki.VFE.Tribals
+  - VanillaExpanded.VFESpacer
+  - Spino.Megafauna
+  - VanillaExpanded.VGeneticsE
+  - VanillaExpanded.VBooksE
+  - VanillaExpanded.VMemesE
+  - VanillaExpanded.VanillaSocialInteractionsExpanded
+  - VanillaExpanded.VanillaTraitsExpanded
+  - VanillaExpanded.VWEG
+  - Wara.toomanymods
+  - CarnySenpai.TraitRarityColors
+  - UNAGI.apparel.B.Zibunyou
+  - Mlie.UseThisInstead
+  - VanillaExpanded.VAEEndAndExt
+  - VanillaExpanded.VAERoy
+  - VanillaExpanded.VAEWaste
+  - VanillaExpanded.VAPPE
+  - VanillaExpanded.VAEAccessories
+  - VanillaExpanded.VanillaBackstoriesExpanded
+  - VanillaExpanded.BaseGeneration
+  - Neronix17.Retexture.VanillaBeards
+  - VanillaExpanded.VEE
+  - VanillaExpanded.VFEMedical
+  - VanillaExpanded.VHE
+  - Neronix17.Retexture.VanillaHair
+  - VanillaExpanded.VIEHAR
+  - VanillaExpanded.Ideo.IconsandSymbols
+  - VanillaExpanded.Ideo.RelicsAndArtifacts
+  - VanillaExpanded.Ideo.SophianStyle
+  - vanillaexpanded.outposts
+  - vanillaracesexpanded.customicons
+  - Jaxe.RimHUD
+  - vanillaexpanded.skills
+  - VanillaExpanded.Temperature
+  - OskarPotocki.VanillaVehiclesExpandedUpgrades
+  - VanillaExpanded.VWEBF
+  - VanillaExpanded.VWEC
+  - VanillaExpanded.VWENL
+  - VanillaExpanded.VWEQ
+  - tro.vwe.overhaul
+  - kongkim.VanillaPackedDirt
+  - Mlie.VariousSpaceShipChunk
+  - NuanKi.LocalFlight
+  - OskarPotocki.VanillaVehiclesExpandedTier3
+  - Explorern11.VehiclesWrecksExpanded
+  - VehiclesWrecksExpanded.Revisited
+  - co.uk.epicguru.whatsthatmod
+  - MemeGoddess.GiddyUp
+  - automatic.gunplay
+  - com.yayo.yayoAni.continued
+  - seohyeon.yart
+  - Arylice.Rimworld.AutomaticHunting
+  - Nera.SpawnThoseGenes
+  - zal.eyeprosthetics
+  - UnlimitedHugs.AllowTool
+  - Mehni.PickUpAndHaul
+  - weilbyte.snapout
+  - VanillaExpanded.VFESecurity
+  - FrozenSnowFox.ComplexJobs
+  - FrozenSnowFox.FilthVanishesWithRainAndTime
+  - LazyFridayStudio.GenesExpandedHair
+  - LazyFridayStudio.GenesExpandedHeads
+  - LazyFridayStudio.GenesExpandedHorns
+  - MF.BSApparel
+  - tradingpost.programmerlily.com
+  - RH2.BCDs.First.Aid
+  - SR.ModRimworld.FactionalWarContinued
+  - SR.ModRimworld.RaidExtension
+  - XeoNovaDan.VisiblePants
+  - sbz.GravshipStorage
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+Verse.Log:Message (string)
+Verse.SavedGameLoaderNow:LoadGameFromSaveFileNow (string)
+Verse.Root_Play/<>c:<Start>b__1_1 ()
+Verse.LongEventHandler:RunEventFromAnotherThread (System.Action)
+Verse.LongEventHandler/<>c:<UpdateCurrentAsynchronousEvent>b__28_0 ()
+System.Threading.ThreadHelper:ThreadStart_Context (object)
+System.Threading.ExecutionContext:RunInternal (System.Threading.ExecutionContext,System.Threading.ContextCallback,object,bool)
+System.Threading.ExecutionContext:Run (System.Threading.ExecutionContext,System.Threading.ContextCallback,object,bool)
+System.Threading.ExecutionContext:Run (System.Threading.ExecutionContext,System.Threading.ContextCallback,object)
+System.Threading.ThreadHelper:ThreadStart ()
+
+Could not resolve reference to object with loadID Thing_Human53907 of type Verse.Pawn. Was it compressed away, destroyed, had no ID number, or not saved/loaded right? curParent=RimWorld.RelationshipRecord curPathRelToParent=/references
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+Verse.Log:Warning (string)
+Verse.LoadedObjectDirectory:ObjectWithLoadID<Verse.Pawn> (string)
+Verse.CrossRefHandler:TakeResolvedRefList<Verse.Pawn> (string,Verse.IExposable)
+Verse.CrossRefHandler:TakeResolvedRefList<Verse.Pawn> (string)
+Verse.Scribe_Collections:Look<Verse.Pawn> (System.Collections.Generic.List`1<Verse.Pawn>&,bool,string,Verse.LookMode,object[])
+Verse.Scribe_Collections:Look<Verse.Pawn> (System.Collections.Generic.HashSet`1<Verse.Pawn>&,bool,string,Verse.LookMode)
+RimWorld.RelationshipRecord:ExposeData ()
+Verse.CrossRefHandler:ResolveAllCrossReferences ()
+Verse.ScribeLoader:FinalizeLoading ()
+(wrapper dynamic-method) MonoMod.Utils.DynamicMethodDefinition:Verse.Game.LoadGame_Patch3 (Verse.Game)
+Verse.SavedGameLoaderNow:LoadGameFromSaveFileNow (string)
+Verse.Root_Play/<>c:<Start>b__1_1 ()
+Verse.LongEventHandler:RunEventFromAnotherThread (System.Action)
+Verse.LongEventHandler/<>c:<UpdateCurrentAsynchronousEvent>b__28_0 ()
+System.Threading.ThreadHelper:ThreadStart_Context (object)
+System.Threading.ExecutionContext:RunInternal (System.Threading.ExecutionContext,System.Threading.ContextCallback,object,bool)
+System.Threading.ExecutionContext:Run (System.Threading.ExecutionContext,System.Threading.ContextCallback,object,bool)
+System.Threading.ExecutionContext:Run (System.Threading.ExecutionContext,System.Threading.ContextCallback,object)
+System.Threading.ThreadHelper:ThreadStart ()
+
+Could not resolve reference to object with loadID Thing_Human53937 of type Verse.Pawn. Was it compressed away, destroyed, had no ID number, or not saved/loaded right? curParent=RimWorld.RelationshipRecord curPathRelToParent=/references
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+Verse.Log:Warning (string)
+Verse.LoadedObjectDirectory:ObjectWithLoadID<Verse.Pawn> (string)
+Verse.CrossRefHandler:TakeResolvedRefList<Verse.Pawn> (string,Verse.IExposable)
+Verse.CrossRefHandler:TakeResolvedRefList<Verse.Pawn> (string)
+Verse.Scribe_Collections:Look<Verse.Pawn> (System.Collections.Generic.List`1<Verse.Pawn>&,bool,string,Verse.LookMode,object[])
+Verse.Scribe_Collections:Look<Verse.Pawn> (System.Collections.Generic.HashSet`1<Verse.Pawn>&,bool,string,Verse.LookMode)
+RimWorld.RelationshipRecord:ExposeData ()
+Verse.CrossRefHandler:ResolveAllCrossReferences ()
+Verse.ScribeLoader:FinalizeLoading ()
+(wrapper dynamic-method) MonoMod.Utils.DynamicMethodDefinition:Verse.Game.LoadGame_Patch3 (Verse.Game)
+Verse.SavedGameLoaderNow:LoadGameFromSaveFileNow (string)
+Verse.Root_Play/<>c:<Start>b__1_1 ()
+Verse.LongEventHandler:RunEventFromAnotherThread (System.Action)
+Verse.LongEventHandler/<>c:<UpdateCurrentAsynchronousEvent>b__28_0 ()
+System.Threading.ThreadHelper:ThreadStart_Context (object)
+System.Threading.ExecutionContext:RunInternal (System.Threading.ExecutionContext,System.Threading.ContextCallback,object,bool)
+System.Threading.ExecutionContext:Run (System.Threading.ExecutionContext,System.Threading.ContextCallback,object,bool)
+System.Threading.ExecutionContext:Run (System.Threading.ExecutionContext,System.Threading.ContextCallback,object)
+System.Threading.ThreadHelper:ThreadStart ()
+
+Could not resolve reference to object with loadID Ideo_6 of type RimWorld.Ideo. Was it compressed away, destroyed, had no ID number, or not saved/loaded right? curParent=RimWorld.FactionIdeosTracker curPathRelToParent=
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+Verse.Log:Warning (string)
+Verse.LoadedObjectDirectory:ObjectWithLoadID<RimWorld.Ideo> (string)
+Verse.CrossRefHandler:TakeResolvedRef<RimWorld.Ideo> (string,Verse.IExposable)
+Verse.CrossRefHandler:TakeResolvedRef<RimWorld.Ideo> (string)
+Verse.Scribe_References:Look<RimWorld.Ideo> (RimWorld.Ideo&,string,bool)
+RimWorld.FactionIdeosTracker:ExposeData ()
+Verse.CrossRefHandler:ResolveAllCrossReferences ()
+Verse.ScribeLoader:FinalizeLoading ()
+(wrapper dynamic-method) MonoMod.Utils.DynamicMethodDefinition:Verse.Game.LoadGame_Patch3 (Verse.Game)
+Verse.SavedGameLoaderNow:LoadGameFromSaveFileNow (string)
+Verse.Root_Play/<>c:<Start>b__1_1 ()
+Verse.LongEventHandler:RunEventFromAnotherThread (System.Action)
+Verse.LongEventHandler/<>c:<UpdateCurrentAsynchronousEvent>b__28_0 ()
+System.Threading.ThreadHelper:ThreadStart_Context (object)
+System.Threading.ExecutionContext:RunInternal (System.Threading.ExecutionContext,System.Threading.ContextCallback,object,bool)
+System.Threading.ExecutionContext:Run (System.Threading.ExecutionContext,System.Threading.ContextCallback,object,bool)
+System.Threading.ExecutionContext:Run (System.Threading.ExecutionContext,System.Threading.ContextCallback,object)
+System.Threading.ThreadHelper:ThreadStart ()
+
+Could not resolve reference to object with loadID Thing_Human53907 of type Verse.Pawn. Was it compressed away, destroyed, had no ID number, or not saved/loaded right? curParent=RimWorld.DirectPawnRelation curPathRelToParent=
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+Verse.Log:Warning (string)
+Verse.LoadedObjectDirectory:ObjectWithLoadID<Verse.Pawn> (string)
+Verse.CrossRefHandler:TakeResolvedRef<Verse.Pawn> (string,Verse.IExposable)
+Verse.CrossRefHandler:TakeResolvedRef<Verse.Pawn> (string)
+Verse.Scribe_References:Look<Verse.Pawn> (Verse.Pawn&,string,bool)
+RimWorld.DirectPawnRelation:ExposeData ()
+Verse.CrossRefHandler:ResolveAllCrossReferences ()
+Verse.ScribeLoader:FinalizeLoading ()
+(wrapper dynamic-method) MonoMod.Utils.DynamicMethodDefinition:Verse.Game.LoadGame_Patch3 (Verse.Game)
+Verse.SavedGameLoaderNow:LoadGameFromSaveFileNow (string)
+Verse.Root_Play/<>c:<Start>b__1_1 ()
+Verse.LongEventHandler:RunEventFromAnotherThread (System.Action)
+Verse.LongEventHandler/<>c:<UpdateCurrentAsynchronousEvent>b__28_0 ()
+System.Threading.ThreadHelper:ThreadStart_Context (object)
+System.Threading.ExecutionContext:RunInternal (System.Threading.ExecutionContext,System.Threading.ContextCallback,object,bool)
+System.Threading.ExecutionContext:Run (System.Threading.ExecutionContext,System.Threading.ContextCallback,object,bool)
+System.Threading.ExecutionContext:Run (System.Threading.ExecutionContext,System.Threading.ContextCallback,object)
+System.Threading.ThreadHelper:ThreadStart ()
+
+Could not resolve reference to object with loadID Thing_Human53891 of type Verse.Pawn. Was it compressed away, destroyed, had no ID number, or not saved/loaded right? curParent=RimWorld.DirectPawnRelation curPathRelToParent=
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+Verse.Log:Warning (string)
+Verse.LoadedObjectDirectory:ObjectWithLoadID<Verse.Pawn> (string)
+Verse.CrossRefHandler:TakeResolvedRef<Verse.Pawn> (string,Verse.IExposable)
+Verse.CrossRefHandler:TakeResolvedRef<Verse.Pawn> (string)
+Verse.Scribe_References:Look<Verse.Pawn> (Verse.Pawn&,string,bool)
+RimWorld.DirectPawnRelation:ExposeData ()
+Verse.CrossRefHandler:ResolveAllCrossReferences ()
+Verse.ScribeLoader:FinalizeLoading ()
+(wrapper dynamic-method) MonoMod.Utils.DynamicMethodDefinition:Verse.Game.LoadGame_Patch3 (Verse.Game)
+Verse.SavedGameLoaderNow:LoadGameFromSaveFileNow (string)
+Verse.Root_Play/<>c:<Start>b__1_1 ()
+Verse.LongEventHandler:RunEventFromAnotherThread (System.Action)
+Verse.LongEventHandler/<>c:<UpdateCurrentAsynchronousEvent>b__28_0 ()
+System.Threading.ThreadHelper:ThreadStart_Context (object)
+System.Threading.ExecutionContext:RunInternal (System.Threading.ExecutionContext,System.Threading.ContextCallback,object,bool)
+System.Threading.ExecutionContext:Run (System.Threading.ExecutionContext,System.Threading.ContextCallback,object,bool)
+System.Threading.ExecutionContext:Run (System.Threading.ExecutionContext,System.Threading.ContextCallback,object)
+System.Threading.ThreadHelper:ThreadStart ()
+
+Could not resolve reference to object with loadID Thing_Human53894 of type Verse.Pawn. Was it compressed away, destroyed, had no ID number, or not saved/loaded right? curParent=RimWorld.DirectPawnRelation curPathRelToParent=
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+Verse.Log:Warning (string)
+Verse.LoadedObjectDirectory:ObjectWithLoadID<Verse.Pawn> (string)
+Verse.CrossRefHandler:TakeResolvedRef<Verse.Pawn> (string,Verse.IExposable)
+Verse.CrossRefHandler:TakeResolvedRef<Verse.Pawn> (string)
+Verse.Scribe_References:Look<Verse.Pawn> (Verse.Pawn&,string,bool)
+RimWorld.DirectPawnRelation:ExposeData ()
+Verse.CrossRefHandler:ResolveAllCrossReferences ()
+Verse.ScribeLoader:FinalizeLoading ()
+(wrapper dynamic-method) MonoMod.Utils.DynamicMethodDefinition:Verse.Game.LoadGame_Patch3 (Verse.Game)
+Verse.SavedGameLoaderNow:LoadGameFromSaveFileNow (string)
+Verse.Root_Play/<>c:<Start>b__1_1 ()
+Verse.LongEventHandler:RunEventFromAnotherThread (System.Action)
+Verse.LongEventHandler/<>c:<UpdateCurrentAsynchronousEvent>b__28_0 ()
+System.Threading.ThreadHelper:ThreadStart_Context (object)
+System.Threading.ExecutionContext:RunInternal (System.Threading.ExecutionContext,System.Threading.ContextCallback,object,bool)
+System.Threading.ExecutionContext:Run (System.Threading.ExecutionContext,System.Threading.ContextCallback,object,bool)
+System.Threading.ExecutionContext:Run (System.Threading.ExecutionContext,System.Threading.ContextCallback,object)
+System.Threading.ThreadHelper:ThreadStart ()
+
+Could not resolve reference to object with loadID Thing_Human53876 of type Verse.Pawn. Was it compressed away, destroyed, had no ID number, or not saved/loaded right? curParent=RimWorld.DirectPawnRelation curPathRelToParent=
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+Verse.Log:Warning (string)
+Verse.LoadedObjectDirectory:ObjectWithLoadID<Verse.Pawn> (string)
+Verse.CrossRefHandler:TakeResolvedRef<Verse.Pawn> (string,Verse.IExposable)
+Verse.CrossRefHandler:TakeResolvedRef<Verse.Pawn> (string)
+Verse.Scribe_References:Look<Verse.Pawn> (Verse.Pawn&,string,bool)
+RimWorld.DirectPawnRelation:ExposeData ()
+Verse.CrossRefHandler:ResolveAllCrossReferences ()
+Verse.ScribeLoader:FinalizeLoading ()
+(wrapper dynamic-method) MonoMod.Utils.DynamicMethodDefinition:Verse.Game.LoadGame_Patch3 (Verse.Game)
+Verse.SavedGameLoaderNow:LoadGameFromSaveFileNow (string)
+Verse.Root_Play/<>c:<Start>b__1_1 ()
+Verse.LongEventHandler:RunEventFromAnotherThread (System.Action)
+Verse.LongEventHandler/<>c:<UpdateCurrentAsynchronousEvent>b__28_0 ()
+System.Threading.ThreadHelper:ThreadStart_Context (object)
+System.Threading.ExecutionContext:RunInternal (System.Threading.ExecutionContext,System.Threading.ContextCallback,object,bool)
+System.Threading.ExecutionContext:Run (System.Threading.ExecutionContext,System.Threading.ContextCallback,object,bool)
+System.Threading.ExecutionContext:Run (System.Threading.ExecutionContext,System.Threading.ContextCallback,object)
+System.Threading.ThreadHelper:ThreadStart ()
+
+Could not resolve reference to object with loadID Thing_Human53898 of type Verse.Pawn. Was it compressed away, destroyed, had no ID number, or not saved/loaded right? curParent=RimWorld.DirectPawnRelation curPathRelToParent=
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+Verse.Log:Warning (string)
+Verse.LoadedObjectDirectory:ObjectWithLoadID<Verse.Pawn> (string)
+Verse.CrossRefHandler:TakeResolvedRef<Verse.Pawn> (string,Verse.IExposable)
+Verse.CrossRefHandler:TakeResolvedRef<Verse.Pawn> (string)
+Verse.Scribe_References:Look<Verse.Pawn> (Verse.Pawn&,string,bool)
+RimWorld.DirectPawnRelation:ExposeData ()
+Verse.CrossRefHandler:ResolveAllCrossReferences ()
+Verse.ScribeLoader:FinalizeLoading ()
+(wrapper dynamic-method) MonoMod.Utils.DynamicMethodDefinition:Verse.Game.LoadGame_Patch3 (Verse.Game)
+Verse.SavedGameLoaderNow:LoadGameFromSaveFileNow (string)
+Verse.Root_Play/<>c:<Start>b__1_1 ()
+Verse.LongEventHandler:RunEventFromAnotherThread (System.Action)
+Verse.LongEventHandler/<>c:<UpdateCurrentAsynchronousEvent>b__28_0 ()
+System.Threading.ThreadHelper:ThreadStart_Context (object)
+System.Threading.ExecutionContext:RunInternal (System.Threading.ExecutionContext,System.Threading.ContextCallback,object,bool)
+System.Threading.ExecutionContext:Run (System.Threading.ExecutionContext,System.Threading.ContextCallback,object,bool)
+System.Threading.ExecutionContext:Run (System.Threading.ExecutionContext,System.Threading.ContextCallback,object)
+System.Threading.ThreadHelper:ThreadStart ()
+
+Could not resolve reference to object with loadID Thing_Human53881 of type Verse.Pawn. Was it compressed away, destroyed, had no ID number, or not saved/loaded right? curParent=RimWorld.DirectPawnRelation curPathRelToParent=
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+Verse.Log:Warning (string)
+Verse.LoadedObjectDirectory:ObjectWithLoadID<Verse.Pawn> (string)
+Verse.CrossRefHandler:TakeResolvedRef<Verse.Pawn> (string,Verse.IExposable)
+Verse.CrossRefHandler:TakeResolvedRef<Verse.Pawn> (string)
+Verse.Scribe_References:Look<Verse.Pawn> (Verse.Pawn&,string,bool)
+RimWorld.DirectPawnRelation:ExposeData ()
+Verse.CrossRefHandler:ResolveAllCrossReferences ()
+Verse.ScribeLoader:FinalizeLoading ()
+(wrapper dynamic-method) MonoMod.Utils.DynamicMethodDefinition:Verse.Game.LoadGame_Patch3 (Verse.Game)
+Verse.SavedGameLoaderNow:LoadGameFromSaveFileNow (string)
+Verse.Root_Play/<>c:<Start>b__1_1 ()
+Verse.LongEventHandler:RunEventFromAnotherThread (System.Action)
+Verse.LongEventHandler/<>c:<UpdateCurrentAsynchronousEvent>b__28_0 ()
+System.Threading.ThreadHelper:ThreadStart_Context (object)
+System.Threading.ExecutionContext:RunInternal (System.Threading.ExecutionContext,System.Threading.ContextCallback,object,bool)
+System.Threading.ExecutionContext:Run (System.Threading.ExecutionContext,System.Threading.ContextCallback,object,bool)
+System.Threading.ExecutionContext:Run (System.Threading.ExecutionContext,System.Threading.ContextCallback,object)
+System.Threading.ThreadHelper:ThreadStart ()
+
+Could not resolve reference to object with loadID Thing_Human53982 of type Verse.Pawn. Was it compressed away, destroyed, had no ID number, or not saved/loaded right? curParent=RimWorld.DirectPawnRelation curPathRelToParent=
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+Verse.Log:Warning (string)
+Verse.LoadedObjectDirectory:ObjectWithLoadID<Verse.Pawn> (string)
+Verse.CrossRefHandler:TakeResolvedRef<Verse.Pawn> (string,Verse.IExposable)
+Verse.CrossRefHandler:TakeResolvedRef<Verse.Pawn> (string)
+Verse.Scribe_References:Look<Verse.Pawn> (Verse.Pawn&,string,bool)
+RimWorld.DirectPawnRelation:ExposeData ()
+Verse.CrossRefHandler:ResolveAllCrossReferences ()
+Verse.ScribeLoader:FinalizeLoading ()
+(wrapper dynamic-method) MonoMod.Utils.DynamicMethodDefinition:Verse.Game.LoadGame_Patch3 (Verse.Game)
+Verse.SavedGameLoaderNow:LoadGameFromSaveFileNow (string)
+Verse.Root_Play/<>c:<Start>b__1_1 ()
+Verse.LongEventHandler:RunEventFromAnotherThread (System.Action)
+Verse.LongEventHandler/<>c:<UpdateCurrentAsynchronousEvent>b__28_0 ()
+System.Threading.ThreadHelper:ThreadStart_Context (object)
+System.Threading.ExecutionContext:RunInternal (System.Threading.ExecutionContext,System.Threading.ContextCallback,object,bool)
+System.Threading.ExecutionContext:Run (System.Threading.ExecutionContext,System.Threading.ContextCallback,object,bool)
+System.Threading.ExecutionContext:Run (System.Threading.ExecutionContext,System.Threading.ContextCallback,object)
+System.Threading.ThreadHelper:ThreadStart ()
+
+Could not resolve reference to object with loadID Thing_Human53976 of type Verse.Pawn. Was it compressed away, destroyed, had no ID number, or not saved/loaded right? curParent=RimWorld.DirectPawnRelation curPathRelToParent=
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+Verse.Log:Warning (string)
+Verse.LoadedObjectDirectory:ObjectWithLoadID<Verse.Pawn> (string)
+Verse.CrossRefHandler:TakeResolvedRef<Verse.Pawn> (string,Verse.IExposable)
+Verse.CrossRefHandler:TakeResolvedRef<Verse.Pawn> (string)
+Verse.Scribe_References:Look<Verse.Pawn> (Verse.Pawn&,string,bool)
+RimWorld.DirectPawnRelation:ExposeData ()
+Verse.CrossRefHandler:ResolveAllCrossReferences ()
+Verse.ScribeLoader:FinalizeLoading ()
+(wrapper dynamic-method) MonoMod.Utils.DynamicMethodDefinition:Verse.Game.LoadGame_Patch3 (Verse.Game)
+Verse.SavedGameLoaderNow:LoadGameFromSaveFileNow (string)
+Verse.Root_Play/<>c:<Start>b__1_1 ()
+Verse.LongEventHandler:RunEventFromAnotherThread (System.Action)
+Verse.LongEventHandler/<>c:<UpdateCurrentAsynchronousEvent>b__28_0 ()
+System.Threading.ThreadHelper:ThreadStart_Context (object)
+System.Threading.ExecutionContext:RunInternal (System.Threading.ExecutionContext,System.Threading.ContextCallback,object,bool)
+System.Threading.ExecutionContext:Run (System.Threading.ExecutionContext,System.Threading.ContextCallback,object,bool)
+System.Threading.ExecutionContext:Run (System.Threading.ExecutionContext,System.Threading.ContextCallback,object)
+System.Threading.ThreadHelper:ThreadStart ()
+
+Could not resolve reference to object with loadID Thing_Human53891 of type Verse.Pawn. Was it compressed away, destroyed, had no ID number, or not saved/loaded right? curParent=RimWorld.DirectPawnRelation curPathRelToParent=
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+Verse.Log:Warning (string)
+Verse.LoadedObjectDirectory:ObjectWithLoadID<Verse.Pawn> (string)
+Verse.CrossRefHandler:TakeResolvedRef<Verse.Pawn> (string,Verse.IExposable)
+Verse.CrossRefHandler:TakeResolvedRef<Verse.Pawn> (string)
+Verse.Scribe_References:Look<Verse.Pawn> (Verse.Pawn&,string,bool)
+RimWorld.DirectPawnRelation:ExposeData ()
+Verse.CrossRefHandler:ResolveAllCrossReferences ()
+Verse.ScribeLoader:FinalizeLoading ()
+(wrapper dynamic-method) MonoMod.Utils.DynamicMethodDefinition:Verse.Game.LoadGame_Patch3 (Verse.Game)
+Verse.SavedGameLoaderNow:LoadGameFromSaveFileNow (string)
+Verse.Root_Play/<>c:<Start>b__1_1 ()
+Verse.LongEventHandler:RunEventFromAnotherThread (System.Action)
+Verse.LongEventHandler/<>c:<UpdateCurrentAsynchronousEvent>b__28_0 ()
+System.Threading.ThreadHelper:ThreadStart_Context (object)
+System.Threading.ExecutionContext:RunInternal (System.Threading.ExecutionContext,System.Threading.ContextCallback,object,bool)
+System.Threading.ExecutionContext:Run (System.Threading.ExecutionContext,System.Threading.ContextCallback,object,bool)
+System.Threading.ExecutionContext:Run (System.Threading.ExecutionContext,System.Threading.ContextCallback,object)
+System.Threading.ThreadHelper:ThreadStart ()
+
+[RimMercenaries] Loaded save data: hasBeenInitialized=True, lastRefreshTick=0, mercenaries=17, tier1=10, tier2=5, tier3=2
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+Verse.Log:Message (string)
+RimMercenaries.MercenaryGameComponent:ExposeData ()
+Verse.PostLoadIniter:DoAllPostLoadInits ()
+Verse.ScribeLoader:FinalizeLoading ()
+(wrapper dynamic-method) MonoMod.Utils.DynamicMethodDefinition:Verse.Game.LoadGame_Patch3 (Verse.Game)
+Verse.SavedGameLoaderNow:LoadGameFromSaveFileNow (string)
+Verse.Root_Play/<>c:<Start>b__1_1 ()
+Verse.LongEventHandler:RunEventFromAnotherThread (System.Action)
+Verse.LongEventHandler/<>c:<UpdateCurrentAsynchronousEvent>b__28_0 ()
+System.Threading.ThreadHelper:ThreadStart_Context (object)
+System.Threading.ExecutionContext:RunInternal (System.Threading.ExecutionContext,System.Threading.ContextCallback,object,bool)
+System.Threading.ExecutionContext:Run (System.Threading.ExecutionContext,System.Threading.ContextCallback,object,bool)
+System.Threading.ExecutionContext:Run (System.Threading.ExecutionContext,System.Threading.ContextCallback,object)
+System.Threading.ThreadHelper:ThreadStart ()
+
+Faction had no ideoligions after loading. Adding random one.
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+(wrapper dynamic-method) MonoMod.Utils.DynamicMethodDefinition:Verse.Log.Error_Patch1 (string)
+RimWorld.FactionIdeosTracker:ExposeData ()
+Verse.PostLoadIniter:DoAllPostLoadInits ()
+Verse.ScribeLoader:FinalizeLoading ()
+(wrapper dynamic-method) MonoMod.Utils.DynamicMethodDefinition:Verse.Game.LoadGame_Patch3 (Verse.Game)
+Verse.SavedGameLoaderNow:LoadGameFromSaveFileNow (string)
+Verse.Root_Play/<>c:<Start>b__1_1 ()
+Verse.LongEventHandler:RunEventFromAnotherThread (System.Action)
+Verse.LongEventHandler/<>c:<UpdateCurrentAsynchronousEvent>b__28_0 ()
+System.Threading.ThreadHelper:ThreadStart_Context (object)
+System.Threading.ExecutionContext:RunInternal (System.Threading.ExecutionContext,System.Threading.ContextCallback,object,bool)
+System.Threading.ExecutionContext:Run (System.Threading.ExecutionContext,System.Threading.ContextCallback,object,bool)
+System.Threading.ExecutionContext:Run (System.Threading.ExecutionContext,System.Threading.ContextCallback,object)
+System.Threading.ThreadHelper:ThreadStart ()
+
+Pawn Cesine has relation "ExLover" with null pawn after loading. This means that we forgot to serialize pawns somewhere (e.g. pawns from passing trade ships).
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+Verse.Log:Warning (string)
+(wrapper dynamic-method) MonoMod.Utils.DynamicMethodDefinition:RimWorld.Pawn_RelationsTracker.ExposeData_Patch1 (RimWorld.Pawn_RelationsTracker)
+Verse.PostLoadIniter:DoAllPostLoadInits ()
+Verse.ScribeLoader:FinalizeLoading ()
+(wrapper dynamic-method) MonoMod.Utils.DynamicMethodDefinition:Verse.Game.LoadGame_Patch3 (Verse.Game)
+Verse.SavedGameLoaderNow:LoadGameFromSaveFileNow (string)
+Verse.Root_Play/<>c:<Start>b__1_1 ()
+Verse.LongEventHandler:RunEventFromAnotherThread (System.Action)
+Verse.LongEventHandler/<>c:<UpdateCurrentAsynchronousEvent>b__28_0 ()
+System.Threading.ThreadHelper:ThreadStart_Context (object)
+System.Threading.ExecutionContext:RunInternal (System.Threading.ExecutionContext,System.Threading.ContextCallback,object,bool)
+System.Threading.ExecutionContext:Run (System.Threading.ExecutionContext,System.Threading.ContextCallback,object,bool)
+System.Threading.ExecutionContext:Run (System.Threading.ExecutionContext,System.Threading.ContextCallback,object)
+System.Threading.ThreadHelper:ThreadStart ()
+
+Pawn Vasilikos has relation "Parent" with null pawn after loading. This means that we forgot to serialize pawns somewhere (e.g. pawns from passing trade ships).
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+Verse.Log:Warning (string)
+(wrapper dynamic-method) MonoMod.Utils.DynamicMethodDefinition:RimWorld.Pawn_RelationsTracker.ExposeData_Patch1 (RimWorld.Pawn_RelationsTracker)
+Verse.PostLoadIniter:DoAllPostLoadInits ()
+Verse.ScribeLoader:FinalizeLoading ()
+(wrapper dynamic-method) MonoMod.Utils.DynamicMethodDefinition:Verse.Game.LoadGame_Patch3 (Verse.Game)
+Verse.SavedGameLoaderNow:LoadGameFromSaveFileNow (string)
+Verse.Root_Play/<>c:<Start>b__1_1 ()
+Verse.LongEventHandler:RunEventFromAnotherThread (System.Action)
+Verse.LongEventHandler/<>c:<UpdateCurrentAsynchronousEvent>b__28_0 ()
+System.Threading.ThreadHelper:ThreadStart_Context (object)
+System.Threading.ExecutionContext:RunInternal (System.Threading.ExecutionContext,System.Threading.ContextCallback,object,bool)
+System.Threading.ExecutionContext:Run (System.Threading.ExecutionContext,System.Threading.ContextCallback,object,bool)
+System.Threading.ExecutionContext:Run (System.Threading.ExecutionContext,System.Threading.ContextCallback,object)
+System.Threading.ThreadHelper:ThreadStart ()
+
+Pawn Elaiodora has relation "Parent" with null pawn after loading. This means that we forgot to serialize pawns somewhere (e.g. pawns from passing trade ships).
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+Verse.Log:Warning (string)
+(wrapper dynamic-method) MonoMod.Utils.DynamicMethodDefinition:RimWorld.Pawn_RelationsTracker.ExposeData_Patch1 (RimWorld.Pawn_RelationsTracker)
+Verse.PostLoadIniter:DoAllPostLoadInits ()
+Verse.ScribeLoader:FinalizeLoading ()
+(wrapper dynamic-method) MonoMod.Utils.DynamicMethodDefinition:Verse.Game.LoadGame_Patch3 (Verse.Game)
+Verse.SavedGameLoaderNow:LoadGameFromSaveFileNow (string)
+Verse.Root_Play/<>c:<Start>b__1_1 ()
+Verse.LongEventHandler:RunEventFromAnotherThread (System.Action)
+Verse.LongEventHandler/<>c:<UpdateCurrentAsynchronousEvent>b__28_0 ()
+System.Threading.ThreadHelper:ThreadStart_Context (object)
+System.Threading.ExecutionContext:RunInternal (System.Threading.ExecutionContext,System.Threading.ContextCallback,object,bool)
+System.Threading.ExecutionContext:Run (System.Threading.ExecutionContext,System.Threading.ContextCallback,object,bool)
+System.Threading.ExecutionContext:Run (System.Threading.ExecutionContext,System.Threading.ContextCallback,object)
+System.Threading.ThreadHelper:ThreadStart ()
+
+Pawn Lekapenos has relation "Parent" with null pawn after loading. This means that we forgot to serialize pawns somewhere (e.g. pawns from passing trade ships).
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+Verse.Log:Warning (string)
+(wrapper dynamic-method) MonoMod.Utils.DynamicMethodDefinition:RimWorld.Pawn_RelationsTracker.ExposeData_Patch1 (RimWorld.Pawn_RelationsTracker)
+Verse.PostLoadIniter:DoAllPostLoadInits ()
+Verse.ScribeLoader:FinalizeLoading ()
+(wrapper dynamic-method) MonoMod.Utils.DynamicMethodDefinition:Verse.Game.LoadGame_Patch3 (Verse.Game)
+Verse.SavedGameLoaderNow:LoadGameFromSaveFileNow (string)
+Verse.Root_Play/<>c:<Start>b__1_1 ()
+Verse.LongEventHandler:RunEventFromAnotherThread (System.Action)
+Verse.LongEventHandler/<>c:<UpdateCurrentAsynchronousEvent>b__28_0 ()
+System.Threading.ThreadHelper:ThreadStart_Context (object)
+System.Threading.ExecutionContext:RunInternal (System.Threading.ExecutionContext,System.Threading.ContextCallback,object,bool)
+System.Threading.ExecutionContext:Run (System.Threading.ExecutionContext,System.Threading.ContextCallback,object,bool)
+System.Threading.ExecutionContext:Run (System.Threading.ExecutionContext,System.Threading.ContextCallback,object)
+System.Threading.ThreadHelper:ThreadStart ()
+
+Pawn Proa has relation "Parent" with null pawn after loading. This means that we forgot to serialize pawns somewhere (e.g. pawns from passing trade ships).
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+Verse.Log:Warning (string)
+(wrapper dynamic-method) MonoMod.Utils.DynamicMethodDefinition:RimWorld.Pawn_RelationsTracker.ExposeData_Patch1 (RimWorld.Pawn_RelationsTracker)
+Verse.PostLoadIniter:DoAllPostLoadInits ()
+Verse.ScribeLoader:FinalizeLoading ()
+(wrapper dynamic-method) MonoMod.Utils.DynamicMethodDefinition:Verse.Game.LoadGame_Patch3 (Verse.Game)
+Verse.SavedGameLoaderNow:LoadGameFromSaveFileNow (string)
+Verse.Root_Play/<>c:<Start>b__1_1 ()
+Verse.LongEventHandler:RunEventFromAnotherThread (System.Action)
+Verse.LongEventHandler/<>c:<UpdateCurrentAsynchronousEvent>b__28_0 ()
+System.Threading.ThreadHelper:ThreadStart_Context (object)
+System.Threading.ExecutionContext:RunInternal (System.Threading.ExecutionContext,System.Threading.ContextCallback,object,bool)
+System.Threading.ExecutionContext:Run (System.Threading.ExecutionContext,System.Threading.ContextCallback,object,bool)
+System.Threading.ExecutionContext:Run (System.Threading.ExecutionContext,System.Threading.ContextCallback,object)
+System.Threading.ThreadHelper:ThreadStart ()
+
+Pawn Xera has relation "Parent" with null pawn after loading. This means that we forgot to serialize pawns somewhere (e.g. pawns from passing trade ships).
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+Verse.Log:Warning (string)
+(wrapper dynamic-method) MonoMod.Utils.DynamicMethodDefinition:RimWorld.Pawn_RelationsTracker.ExposeData_Patch1 (RimWorld.Pawn_RelationsTracker)
+Verse.PostLoadIniter:DoAllPostLoadInits ()
+Verse.ScribeLoader:FinalizeLoading ()
+(wrapper dynamic-method) MonoMod.Utils.DynamicMethodDefinition:Verse.Game.LoadGame_Patch3 (Verse.Game)
+Verse.SavedGameLoaderNow:LoadGameFromSaveFileNow (string)
+Verse.Root_Play/<>c:<Start>b__1_1 ()
+Verse.LongEventHandler:RunEventFromAnotherThread (System.Action)
+Verse.LongEventHandler/<>c:<UpdateCurrentAsynchronousEvent>b__28_0 ()
+System.Threading.ThreadHelper:ThreadStart_Context (object)
+System.Threading.ExecutionContext:RunInternal (System.Threading.ExecutionContext,System.Threading.ContextCallback,object,bool)
+System.Threading.ExecutionContext:Run (System.Threading.ExecutionContext,System.Threading.ContextCallback,object,bool)
+System.Threading.ExecutionContext:Run (System.Threading.ExecutionContext,System.Threading.ContextCallback,object)
+System.Threading.ThreadHelper:ThreadStart ()
+
+Pawn Galcusbas has relation "Parent" with null pawn after loading. This means that we forgot to serialize pawns somewhere (e.g. pawns from passing trade ships).
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+Verse.Log:Warning (string)
+(wrapper dynamic-method) MonoMod.Utils.DynamicMethodDefinition:RimWorld.Pawn_RelationsTracker.ExposeData_Patch1 (RimWorld.Pawn_RelationsTracker)
+Verse.PostLoadIniter:DoAllPostLoadInits ()
+Verse.ScribeLoader:FinalizeLoading ()
+(wrapper dynamic-method) MonoMod.Utils.DynamicMethodDefinition:Verse.Game.LoadGame_Patch3 (Verse.Game)
+Verse.SavedGameLoaderNow:LoadGameFromSaveFileNow (string)
+Verse.Root_Play/<>c:<Start>b__1_1 ()
+Verse.LongEventHandler:RunEventFromAnotherThread (System.Action)
+Verse.LongEventHandler/<>c:<UpdateCurrentAsynchronousEvent>b__28_0 ()
+System.Threading.ThreadHelper:ThreadStart_Context (object)
+System.Threading.ExecutionContext:RunInternal (System.Threading.ExecutionContext,System.Threading.ContextCallback,object,bool)
+System.Threading.ExecutionContext:Run (System.Threading.ExecutionContext,System.Threading.ContextCallback,object,bool)
+System.Threading.ExecutionContext:Run (System.Threading.ExecutionContext,System.Threading.ContextCallback,object)
+System.Threading.ThreadHelper:ThreadStart ()
+
+Pawn Paseka has relation "ExLover" with null pawn after loading. This means that we forgot to serialize pawns somewhere (e.g. pawns from passing trade ships).
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+Verse.Log:Warning (string)
+(wrapper dynamic-method) MonoMod.Utils.DynamicMethodDefinition:RimWorld.Pawn_RelationsTracker.ExposeData_Patch1 (RimWorld.Pawn_RelationsTracker)
+Verse.PostLoadIniter:DoAllPostLoadInits ()
+Verse.ScribeLoader:FinalizeLoading ()
+(wrapper dynamic-method) MonoMod.Utils.DynamicMethodDefinition:Verse.Game.LoadGame_Patch3 (Verse.Game)
+Verse.SavedGameLoaderNow:LoadGameFromSaveFileNow (string)
+Verse.Root_Play/<>c:<Start>b__1_1 ()
+Verse.LongEventHandler:RunEventFromAnotherThread (System.Action)
+Verse.LongEventHandler/<>c:<UpdateCurrentAsynchronousEvent>b__28_0 ()
+System.Threading.ThreadHelper:ThreadStart_Context (object)
+System.Threading.ExecutionContext:RunInternal (System.Threading.ExecutionContext,System.Threading.ContextCallback,object,bool)
+System.Threading.ExecutionContext:Run (System.Threading.ExecutionContext,System.Threading.ContextCallback,object,bool)
+System.Threading.ExecutionContext:Run (System.Threading.ExecutionContext,System.Threading.ContextCallback,object)
+System.Threading.ThreadHelper:ThreadStart ()
+
+Pawn Ingerina has relation "Spouse" with null pawn after loading. This means that we forgot to serialize pawns somewhere (e.g. pawns from passing trade ships).
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+Verse.Log:Warning (string)
+(wrapper dynamic-method) MonoMod.Utils.DynamicMethodDefinition:RimWorld.Pawn_RelationsTracker.ExposeData_Patch1 (RimWorld.Pawn_RelationsTracker)
+Verse.PostLoadIniter:DoAllPostLoadInits ()
+Verse.ScribeLoader:FinalizeLoading ()
+(wrapper dynamic-method) MonoMod.Utils.DynamicMethodDefinition:Verse.Game.LoadGame_Patch3 (Verse.Game)
+Verse.SavedGameLoaderNow:LoadGameFromSaveFileNow (string)
+Verse.Root_Play/<>c:<Start>b__1_1 ()
+Verse.LongEventHandler:RunEventFromAnotherThread (System.Action)
+Verse.LongEventHandler/<>c:<UpdateCurrentAsynchronousEvent>b__28_0 ()
+System.Threading.ThreadHelper:ThreadStart_Context (object)
+System.Threading.ExecutionContext:RunInternal (System.Threading.ExecutionContext,System.Threading.ContextCallback,object,bool)
+System.Threading.ExecutionContext:Run (System.Threading.ExecutionContext,System.Threading.ContextCallback,object,bool)
+System.Threading.ExecutionContext:Run (System.Threading.ExecutionContext,System.Threading.ContextCallback,object)
+System.Threading.ThreadHelper:ThreadStart ()
+
+<color=#66ffb5>[MeleeAnim]</color> Loaded 0 animation renderers on map Map-0-PlayerHome
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+Verse.Log:Message (string)
+AM.Core:Log (string)
+AM.AnimationManager:ExposeData ()
+Verse.PostLoadIniter:DoAllPostLoadInits ()
+Verse.ScribeLoader:FinalizeLoading ()
+(wrapper dynamic-method) MonoMod.Utils.DynamicMethodDefinition:Verse.Game.LoadGame_Patch3 (Verse.Game)
+Verse.SavedGameLoaderNow:LoadGameFromSaveFileNow (string)
+Verse.Root_Play/<>c:<Start>b__1_1 ()
+Verse.LongEventHandler:RunEventFromAnotherThread (System.Action)
+Verse.LongEventHandler/<>c:<UpdateCurrentAsynchronousEvent>b__28_0 ()
+System.Threading.ThreadHelper:ThreadStart_Context (object)
+System.Threading.ExecutionContext:RunInternal (System.Threading.ExecutionContext,System.Threading.ContextCallback,object,bool)
+System.Threading.ExecutionContext:Run (System.Threading.ExecutionContext,System.Threading.ContextCallback,object,bool)
+System.Threading.ExecutionContext:Run (System.Threading.ExecutionContext,System.Threading.ContextCallback,object)
+System.Threading.ThreadHelper:ThreadStart ()
+
+StandingLamp, SunLamp, WallLamp, FloodLight, TubeTelevision, FlatscreenTelevision, MegascreenTelevision, OrbitalTradeBeacon, CommsConsole, MoisturePump, GroundPenetratingScanner, LongRangeMineralScanner, MultiAnalyzer, VitalsMonitor, PowerConduit, HiddenConduit, WaterproofConduit, PowerSwitch, WoodFiredGenerator, ChemfuelPoweredGenerator, WindTurbine, Battery, SolarGenerator, GeothermalGenerator, WatermillGenerator, ElectricTailoringBench, ElectricSmithy, TableMachining, ElectricStove, ElectricSmelter, BiofuelRefinery, FabricationBench, HiTechResearchBench, ElectricCrematorium, HydroponicsBasin, DeepDrill, NutrientPasteDispenser, Turret_MiniTurret, Turret_Autocannon, Turret_Sniper, Turret_FoamTurret, Turret_RocketswarmLauncher, Ship_Beam, Ship_CryptosleepCasket, Ship_ComputerCore, Ship_Reactor, Ship_Engine, Ship_SensorCluster, PsychicEmanator, VanometricPowerCell, InfiniteChemreactor, Autodoor, Heater, Cooler, UnstablePowerCell, ShipLandingBeacon, SleepAccelerator, BiosculpterPod, NeuralSupercharger, LightBall, Loudspeaker, Autobong, DeathrestCasket, Hemopump, HemogenAmplifier, GlucosoidPump, PsychofluidPump, DeathrestAccelerator, BandNode, ToxifierGenerator, GeneAssembler, GeneBank, GeneExtractor, GrowthVat, PollutionPump, WastepackAtomizer, GeneProcessor, MechBooster, MechGestator, LargeMechGestator, SubcoreEncoder, SubcoreSoftscanner, SubcoreRipscanner, BasicRecharger, StandardRecharger, SecurityDoor, ElectricInhibitor, ProximityDetector, AtmosphericHeater, FrenzyInducer, SleepSuppressor, BioferriteGenerator, Electroharvester, BioferriteShaper, SerumCentrifuge, BioferriteHarvester, GravEngine, GravcorePowerCell, PilotSubpersonaCore, GravshipShieldGenerator, AncientGravReactor, AncientTerraformer, LifeSupportUnit, OrbitalScanner, OxygenPump, KCSG_PowerConduit, VVE_GarageBench, VVE_GarageAutoDoor, VVE_GarageAutoDoorOpened, VVE_GarageAutoDoorLarge, VVE_GarageAutoDoorLargeOpened, owl_refrigerator, owl_doublerefrigerator, BioReactor, BioReactorCircleLarge, BioReactorCircleEX, BioReactorBig, BioReactorEx, AA_BlueGelBattery, AA_HexaGelBattery, AA_HexagelCoreReactor, VREA_AndroidStand, VREA_AndroidPartWorkbench, VREA_SubcorePolyanalyzer, VREA_AndroidCreationStation, VREA_AndroidBehavioristStation, VREA_NeutroCasket, GravshipBiofuelRefineryAddOn, PH_AutodoorDouble, PH_AutodoorTriple, PH_DoorBlastSingle, PH_DoorBlastDoor, PH_DoorThickBlastDoor, PH_DoorButton, PH_DoorLever, PH_DoorRemoteSingle, PH_DoorRemoteDouble, PH_DoorRemoteTriple, AIRobot_RechargeStation_Hauler, AIRobot_RechargeStation_Cleaner, MedPodLux, MedPodStandard, MedPodAnimal, MedPodAnimalMedium, MedPodAnimalBig, TableMending, GravshipHull, VacBarrier, WallSwitch, PFS_HoloGlassPanel, PFS_RoyalBed, PFS_TableMiniB, PFS_Table3x2a, PFS_CubeLight, PFS_TriLight, PFS_FloorlineLight, PFS_PokerTable, PFS_BilliardsTable, PFS_AutodoorB, PFS_AutodoorC, PFS_HoloGlassAutodoor, PFS_ColumnB, PFS_ColumnC, PFS_Heater, Building_RTMagneticShield, Cooler_Over, Cooler_Over2W, GDTable, YPTable, JITable, TETable, Turret_ShardSentry, Turret_WaveEmitter, PortableReactor, Turret_SuvTurret, Turret_SupTurret, Turret_MC, RocketTurret, Turret_EMPLobber, Turret_FireLobber, Turret_Incinerator, Turret_Graser, Turret_Rotarygun, Turret_MiniSlugger, Turret_MiniShooter, VCE_ElectricPot, VCE_DeepFrier, VCE_CanningMachine, Windmill, Radio_Industrial, Radio_Spacer, Joy_Arcade, Joy_InudstrialComputer, Joy_ModernComputer, VFE_DeskLamp, VFE_FloorLamp, Light_Streetlamp, VFE_RoyalLamp, VFE_TableMachiningLarge, VFE_TableSmithyLarge, VFE_TableStoveLarge, VFE_TableTailorLarge, VFE_ComponentFabricationBench, VFE_TableButcherElectric, VFE_TableDrugLabElectric, VFE_TableStonecutterElectric, VRE_PsychofluidWell, VRE_InvocationMatrix, VRE_HemodynamicAccelerator, VRE_HemogenSolidifier, VRE_SmallHemogenAmplifier, VRE_SmallHemopump, TM_Tinkerbench, TM_Biohacker, FedTable, Turret_FedHarvester, Turret_PB, VBE_SodaFountain, VFEE_Candelabra, VFED_Turret_Kontarion, VFED_Turret_Palintone, VFED_Turret_Onager, VFED_SurveillancePillar, VFED_ImperialMegaHighShield, VFEP_WarcasketFoundry, VFEP_ShipChunkBattery, VFEP_ShipChunkGauntletTurret, VFEP_ShipChunkReactor, Table_IlluminatedEndTable, Table_IlluminatedDresser, VFES_Table_IlluminatedWardrobe, UltrascreenTV, VFES_WallMountedTelevision, VFES_TelevisionSpeaker, Shelf_RepairRack, VFES_AirPurifier, Table_interactive_1x1c, Table_interactive_2x2c, GR_AncientCryofreezer, GR_AncientBioBattery, GR_GenePod, GR_ElectroWomb, GR_LargeElectroWomb, GR_TissueGrinder, GR_GeneticsTinkeringTable, GR_GeneticExtractionTable, GR_GeneRecombinator, GR_TissueGrowingVat, VBE_TypewritersTable, Facility_VitalsCentre, VTE_ACControlUnit, VTE_ACUnit, VTE_ACUnitWall, VTE_ACCompressor, VTE_LargeACCompressor, VTE_IndustrialHeater, VTE_IndustrialCooler, VTE_WallHeater, VTE_WallMountedHeater, VTE_WallMountedCooler, VTE_StandingCooler, VTE_SmallCeilingFan, VTE_LargeCeilingFan, VFES_Turret_NonLethalTurret, VFES_Turret_AntiAir, VFES_Turret_Concealed, VFES_ConcealedBarrier, VFES_SmallRepulsor, VFES_LargeRepulsor, VFES_Turret_MilitaryTurret, VFES_Turret_ArmoredTurret, VFES_Turret_Searchlight, VFES_Turret_Flame, VFES_Turret_ShotgunTurret, VFES_Turret_AutocannonDouble, VFES_Turret_Minigun, VFES_Turret_ChargeTurret, VFES_Turret_ChargeRailgun, VFES_Turret_TeslaBlaster, PFS_DisplayPod, BS_AndroidFuelRefinery, BS_AndroidChargingStation, TectonicEmiter, WeatherEmiter
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+Verse.Log:Message (string)
+VanillaMemesExpanded.StaticCollections:.cctor ()
+VanillaMemesExpanded.MapComponent_ObeliskTracker:FinalizeInit ()
+Verse.MapComponentUtility:FinalizeInit (Verse.Map)
+(wrapper dynamic-method) MonoMod.Utils.DynamicMethodDefinition:Verse.Map.FinalizeInit_Patch6 (Verse.Map)
+(wrapper dynamic-method) MonoMod.Utils.DynamicMethodDefinition:Verse.Map.FinalizeLoading_Patch2 (Verse.Map)
+(wrapper dynamic-method) MonoMod.Utils.DynamicMethodDefinition:Verse.Game.LoadGame_Patch3 (Verse.Game)
+Verse.SavedGameLoaderNow:LoadGameFromSaveFileNow (string)
+Verse.Root_Play/<>c:<Start>b__1_1 ()
+Verse.LongEventHandler:RunEventFromAnotherThread (System.Action)
+Verse.LongEventHandler/<>c:<UpdateCurrentAsynchronousEvent>b__28_0 ()
+System.Threading.ThreadHelper:ThreadStart_Context (object)
+System.Threading.ExecutionContext:RunInternal (System.Threading.ExecutionContext,System.Threading.ContextCallback,object,bool)
+System.Threading.ExecutionContext:Run (System.Threading.ExecutionContext,System.Threading.ContextCallback,object,bool)
+System.Threading.ExecutionContext:Run (System.Threading.ExecutionContext,System.Threading.ContextCallback,object)
+System.Threading.ThreadHelper:ThreadStart ()
+
+checking editor settings...
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+Verse.Log:Message (string)
+CharacterEditor.CEditor/ModData:OnSettingsChanged (bool,bool)
+CharacterEditor.CEditor:OnSettingsChanged (bool,bool)
+CharacterEditor.CEditor:OnMapLoaded ()
+(wrapper dynamic-method) MonoMod.Utils.DynamicMethodDefinition:Verse.Map.FinalizeInit_Patch6 (Verse.Map)
+(wrapper dynamic-method) MonoMod.Utils.DynamicMethodDefinition:Verse.Map.FinalizeLoading_Patch2 (Verse.Map)
+(wrapper dynamic-method) MonoMod.Utils.DynamicMethodDefinition:Verse.Game.LoadGame_Patch3 (Verse.Game)
+Verse.SavedGameLoaderNow:LoadGameFromSaveFileNow (string)
+Verse.Root_Play/<>c:<Start>b__1_1 ()
+Verse.LongEventHandler:RunEventFromAnotherThread (System.Action)
+Verse.LongEventHandler/<>c:<UpdateCurrentAsynchronousEvent>b__28_0 ()
+System.Threading.ThreadHelper:ThreadStart_Context (object)
+System.Threading.ExecutionContext:RunInternal (System.Threading.ExecutionContext,System.Threading.ContextCallback,object,bool)
+System.Threading.ExecutionContext:Run (System.Threading.ExecutionContext,System.Threading.ContextCallback,object,bool)
+System.Threading.ExecutionContext:Run (System.Threading.ExecutionContext,System.Threading.ContextCallback,object)
+System.Threading.ThreadHelper:ThreadStart ()
+
+bodysizes genes are active
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+Verse.Log:Message (string)
+CharacterEditor.GeneTool:EnDisableBodySizeGenes ()
+CharacterEditor.CEditor/ModData:OnSettingsChanged (bool,bool)
+CharacterEditor.CEditor:OnSettingsChanged (bool,bool)
+CharacterEditor.CEditor:OnMapLoaded ()
+(wrapper dynamic-method) MonoMod.Utils.DynamicMethodDefinition:Verse.Map.FinalizeInit_Patch6 (Verse.Map)
+(wrapper dynamic-method) MonoMod.Utils.DynamicMethodDefinition:Verse.Map.FinalizeLoading_Patch2 (Verse.Map)
+(wrapper dynamic-method) MonoMod.Utils.DynamicMethodDefinition:Verse.Game.LoadGame_Patch3 (Verse.Game)
+Verse.SavedGameLoaderNow:LoadGameFromSaveFileNow (string)
+Verse.Root_Play/<>c:<Start>b__1_1 ()
+Verse.LongEventHandler:RunEventFromAnotherThread (System.Action)
+Verse.LongEventHandler/<>c:<UpdateCurrentAsynchronousEvent>b__28_0 ()
+System.Threading.ThreadHelper:ThreadStart_Context (object)
+System.Threading.ExecutionContext:RunInternal (System.Threading.ExecutionContext,System.Threading.ContextCallback,object,bool)
+System.Threading.ExecutionContext:Run (System.Threading.ExecutionContext,System.Threading.ContextCallback,object,bool)
+System.Threading.ExecutionContext:Run (System.Threading.ExecutionContext,System.Threading.ContextCallback,object)
+System.Threading.ThreadHelper:ThreadStart ()
+
+[Simple FX: Splashes] Splash grid build with 1047 cells.
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+Verse.Log:Message (string)
+SimpleFxSplashes.SplashesUtility:RebuildCache (Verse.Map) (at O:/SteamLibrary/steamapps/common/RimWorld/Mods/owls-SimpleFX Splashes/Source/SplashesUtility.cs:116)
+SimpleFxSplashes.Patch_Map_FinalizeInit:Postfix (Verse.Map) (at O:/SteamLibrary/steamapps/common/RimWorld/Mods/owls-SimpleFX Splashes/Source/Patches.cs:15)
+(wrapper dynamic-method) MonoMod.Utils.DynamicMethodDefinition:Verse.Map.FinalizeInit_Patch6 (Verse.Map)
+(wrapper dynamic-method) MonoMod.Utils.DynamicMethodDefinition:Verse.Map.FinalizeLoading_Patch2 (Verse.Map)
+(wrapper dynamic-method) MonoMod.Utils.DynamicMethodDefinition:Verse.Game.LoadGame_Patch3 (Verse.Game)
+Verse.SavedGameLoaderNow:LoadGameFromSaveFileNow (string)
+Verse.Root_Play/<>c:<Start>b__1_1 ()
+Verse.LongEventHandler:RunEventFromAnotherThread (System.Action)
+Verse.LongEventHandler/<>c:<UpdateCurrentAsynchronousEvent>b__28_0 ()
+System.Threading.ThreadHelper:ThreadStart_Context (object)
+System.Threading.ExecutionContext:RunInternal (System.Threading.ExecutionContext,System.Threading.ContextCallback,object,bool)
+System.Threading.ExecutionContext:Run (System.Threading.ExecutionContext,System.Threading.ContextCallback,object,bool)
+System.Threading.ExecutionContext:Run (System.Threading.ExecutionContext,System.Threading.ContextCallback,object)
+System.Threading.ThreadHelper:ThreadStart ()
+
+[RimMercenaries] FinalizeInit called for save. HasBeenInitialized: True
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+Verse.Log:Message (string)
+RimMercenaries.MercenaryGameComponent:FinalizeInit ()
+(wrapper dynamic-method) MonoMod.Utils.DynamicMethodDefinition:Verse.GameComponentUtility.FinalizeInit_Patch1 ()
+(wrapper dynamic-method) MonoMod.Utils.DynamicMethodDefinition:Verse.Game.FinalizeInit_Patch3 (Verse.Game)
+(wrapper dynamic-method) MonoMod.Utils.DynamicMethodDefinition:Verse.Game.LoadGame_Patch3 (Verse.Game)
+Verse.SavedGameLoaderNow:LoadGameFromSaveFileNow (string)
+Verse.Root_Play/<>c:<Start>b__1_1 ()
+Verse.LongEventHandler:RunEventFromAnotherThread (System.Action)
+Verse.LongEventHandler/<>c:<UpdateCurrentAsynchronousEvent>b__28_0 ()
+System.Threading.ThreadHelper:ThreadStart_Context (object)
+System.Threading.ExecutionContext:RunInternal (System.Threading.ExecutionContext,System.Threading.ContextCallback,object,bool)
+System.Threading.ExecutionContext:Run (System.Threading.ExecutionContext,System.Threading.ContextCallback,object,bool)
+System.Threading.ExecutionContext:Run (System.Threading.ExecutionContext,System.Threading.ContextCallback,object)
+System.Threading.ThreadHelper:ThreadStart ()
+
+[Yayo's Animation] GC : animation data count [0 -> 0]
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+Verse.Log:Message (string)
+YayoAnimation.Data.PawnDataUtility:Reset ()
+YayoAnimation.HarmonyPatches.GameComponentUtilityPatch/ResetOnStartedOrLoaded:Postfix ()
+(wrapper dynamic-method) MonoMod.Utils.DynamicMethodDefinition:Verse.GameComponentUtility.LoadedGame_Patch4 ()
+(wrapper dynamic-method) MonoMod.Utils.DynamicMethodDefinition:Verse.Game.LoadGame_Patch3 (Verse.Game)
+Verse.SavedGameLoaderNow:LoadGameFromSaveFileNow (string)
+Verse.Root_Play/<>c:<Start>b__1_1 ()
+Verse.LongEventHandler:RunEventFromAnotherThread (System.Action)
+Verse.LongEventHandler/<>c:<UpdateCurrentAsynchronousEvent>b__28_0 ()
+System.Threading.ThreadHelper:ThreadStart_Context (object)
+System.Threading.ExecutionContext:RunInternal (System.Threading.ExecutionContext,System.Threading.ContextCallback,object,bool)
+System.Threading.ExecutionContext:Run (System.Threading.ExecutionContext,System.Threading.ContextCallback,object,bool)
+System.Threading.ExecutionContext:Run (System.Threading.ExecutionContext,System.Threading.ContextCallback,object)
+System.Threading.ThreadHelper:ThreadStart ()
+
+Arachnophobia :: Spider Biome Settings Adjusted :: Current Factor: 1
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+Verse.Log:Message (string)
+Arachnophobia.WorldComponent_ModSettings:ResolveSpiderDefSettings ()
+Arachnophobia.WorldComponent_ModSettings:WorldComponentTick ()
+RimWorld.Planet.WorldComponentUtility:WorldComponentTick (RimWorld.Planet.World)
+RimWorld.Planet.World:WorldTick ()
+(wrapper dynamic-method) MonoMod.Utils.DynamicMethodDefinition:Verse.TickManager.DoSingleTick_Patch2 (Verse.TickManager)
+(wrapper dynamic-method) MonoMod.Utils.DynamicMethodDefinition:Verse.TickManager.TickManagerUpdate_Patch1 (Verse.TickManager)
+(wrapper dynamic-method) MonoMod.Utils.DynamicMethodDefinition:Verse.Game.UpdatePlay_Patch1 (Verse.Game)
+(wrapper dynamic-method) MonoMod.Utils.DynamicMethodDefinition:Verse.Root_Play.Update_Patch1 (Verse.Root_Play)
