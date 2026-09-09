@@ -29,6 +29,7 @@
     <soundImpactDefault>BulletImpact_Flesh</soundImpactDefault>
     <statBases>
       <Mass>70</Mass>
+      <CarryingCapacity>100</CarryingCapacity>
       <PainShockThreshold>0.9999</PainShockThreshold>
       <MeleeDodgeChance>0.85</MeleeDodgeChance>
       <MeleeHitChance>0.85</MeleeHitChance>

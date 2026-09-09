@@ -351,7 +351,7 @@
     <graphicData>
       <texPath>Things/Filth/XenomorphSlime</texPath>
       <graphicClass>Graphic_Single</graphicClass>
-      <color>(130, 142, 120, 170)</color>
+      <color>(255, 255, 255, 255)</color>
     </graphicData>
     <filth>
       <rainWashes>false</rainWashes>
@@ -370,7 +370,7 @@
     <graphicData>
       <texPath>Things/Filth/XenomorphSlime</texPath>
       <graphicClass>Graphic_Single</graphicClass>
-      <color>(130, 142, 120, 170)</color>
+      <color>(255, 255, 255, 255)</color>
     </graphicData>
     <filth>
       <rainWashes>false</rainWashes>
