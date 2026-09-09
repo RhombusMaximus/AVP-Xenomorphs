@@ -9,8 +9,8 @@
       <Cleanliness>-10</Cleanliness>
     </statBases>
     <graphicData>
-      <texPath>Blood/Filth_Blood</texPath>
-      <graphicClass>Graphic_Random</graphicClass>
+      <texPath>Things/Filth/XenomorphBlood</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
       <color>(180, 220, 80, 200)</color>
     </graphicData>
     <tickerType>Normal</tickerType>
@@ -30,8 +30,8 @@
       <Cleanliness>-10</Cleanliness>
     </statBases>
     <graphicData>
-      <texPath>Blood/Filth_Blood</texPath>
-      <graphicClass>Graphic_Random</graphicClass>
+      <texPath>Things/Filth/XenomorphBlood</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
       <color>(180, 220, 80, 200)</color>
     </graphicData>
     <filth>
@@ -51,8 +51,8 @@
       <Cleanliness>-10</Cleanliness>
     </statBases>
     <graphicData>
-      <texPath>Blood/Filth_Blood</texPath>
-      <graphicClass>Graphic_Random</graphicClass>
+      <texPath>Things/Filth/XenomorphBlood</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
       <color>(180, 220, 80, 200)</color>
     </graphicData>
     <filth>
