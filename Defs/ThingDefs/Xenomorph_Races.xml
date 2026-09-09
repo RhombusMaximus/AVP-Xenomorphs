@@ -55,7 +55,7 @@
       <baseHungerRate>0.003</baseHungerRate>
       <baseHealthScale>1.2</baseHealthScale>
       <fleshType>RRY_Xenomorph</fleshType>
-      <bloodDef>Filth_Blood</bloodDef>	
+      <bloodDef>RRY_FilthBloodXenomorph</bloodDef>	
       <needsRest>false</needsRest>
       <hasGenders>false</hasGenders>
       <foodType>Corpse,CarnivoreAnimalStrict</foodType>

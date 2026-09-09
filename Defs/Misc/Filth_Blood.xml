@@ -9,9 +9,7 @@
       <Cleanliness>-10</Cleanliness>
     </statBases>
     <graphicData>
-      <texPath>Things/Filth/XenomorphBlood</texPath>
-      <graphicClass>Graphic_Single</graphicClass>
-      <color>(255, 255, 255, 255)</color>
+      <color>(120, 200, 60, 200)</color>
     </graphicData>
     <tickerType>Normal</tickerType>
     <thingClass>RRYautja.Filth_AddAcidDamage</thingClass>
@@ -30,9 +28,7 @@
       <Cleanliness>-10</Cleanliness>
     </statBases>
     <graphicData>
-      <texPath>Things/Filth/XenomorphBlood</texPath>
-      <graphicClass>Graphic_Single</graphicClass>
-      <color>(255, 255, 255, 255)</color>
+      <color>(120, 200, 60, 200)</color>
     </graphicData>
     <filth>
       <rainWashes>true</rainWashes>
@@ -51,9 +47,7 @@
       <Cleanliness>-10</Cleanliness>
     </statBases>
     <graphicData>
-      <texPath>Things/Filth/XenomorphBlood</texPath>
-      <graphicClass>Graphic_Single</graphicClass>
-      <color>(255, 255, 255, 255)</color>
+      <color>(120, 200, 60, 200)</color>
     </graphicData>
     <filth>
       <rainWashes>true</rainWashes>
