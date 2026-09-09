@@ -11,7 +11,7 @@ Direct3D:
     VRAM:     8042 MB
     Driver:   32.0.16.1088
 Begin MonoManager ReloadAssembly
-- Loaded All Assemblies, in  3.000 seconds
+- Loaded All Assemblies, in  0.270 seconds
 - Finished resetting the current domain, in  0.001 seconds
 <RI> Initializing input.
 
@@ -20,22 +20,22 @@ Begin MonoManager ReloadAssembly
 <RI> Initialized touch support.
 
 [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
-UnloadTime: 0.637500 ms
+UnloadTime: 0.678700 ms
 Command line arguments: -disable-compute-shaders
 RimWorld 1.6.4871 rev591
-Fallback handler could not load library D:/SteamLibrary/steamapps/common/RimWorld/RimWorldWin64_Data/MonoBleedingEdge/data-00000236E77E0360.dll
-Fallback handler could not load library D:/SteamLibrary/steamapps/common/RimWorld/RimWorldWin64_Data/MonoBleedingEdge/data-00000236E7763220.dll
+Fallback handler could not load library D:/SteamLibrary/steamapps/common/RimWorld/RimWorldWin64_Data/MonoBleedingEdge/data-000001C1E89EEB30.dll
+Fallback handler could not load library D:/SteamLibrary/steamapps/common/RimWorld/RimWorldWin64_Data/MonoBleedingEdge/data-000001C1E8B93170.dll
 [Loading Progress] Loading Progress v0.14.0 initialized! Enjoy the rest of your loading experience!
 [HugsLib] version 12.0.0
 [HugsLib] early-initializing AllowTool
-Better Autocasting - Running Version 8.1.0.0 Release compiled for RimWorld version v1.6
+Better Autocasting - Running Version 8.1.1.0 Release compiled for RimWorld version v1.6
 Better Autocasting - UnregisterPatch succeeded
-Fallback handler could not load library D:/SteamLibrary/steamapps/common/RimWorld/RimWorldWin64_Data/MonoBleedingEdge/data-00000236EE85F040.dll
+Fallback handler could not load library D:/SteamLibrary/steamapps/common/RimWorld/RimWorldWin64_Data/MonoBleedingEdge/data-000001C1EFBE71D0.dll
 DubsMintMenus v1.3.1086
 FactionCustomizer is successfully initialized!
 [1.6]Graphics Setter - Loaded
 [ImageOpt] Successfully loaded Rust library into process memory. ver: 0.1.13
-Fallback handler could not load library D:/SteamLibrary/steamapps/common/RimWorld/RimWorldWin64_Data/MonoBleedingEdge/data-00000236EF01F0C0.dll
+Fallback handler could not load library D:/SteamLibrary/steamapps/common/RimWorld/RimWorldWin64_Data/MonoBleedingEdge/data-000001C1F03AB010.dll
 <color=#66ffb5>[MeleeAnim]</color> Hello, world!
 Build date: 7/31/2026 6:45 PM
 Loaded assemblies (10):
@@ -49,7 +49,7 @@ Unity.Newtonsoft.Json, Version=7.0.0.0, Culture=neutral, PublicKeyToken=null,
 zAnimationMod, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null,
 AM.FacialAnimationPatch, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null,
 AM.VehiclesPatch, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null
-<color=#66ffb5>[MeleeAnim]</color> Scanning 267 mods for animation data...
+<color=#66ffb5>[MeleeAnim]</color> Scanning 269 mods for animation data...
 <color=#66ffb5>[MeleeAnim]</color> Found 1 mod folders with animation data, total 69 loadable files.
 <color=#66ffb5>[MeleeAnim]</color> [<color=#63e0ff>Facial Animation Patch</color>] Successfully loaded Facial Animation patch.
 <color=#66ffb5>[MeleeAnim]</color> <color=#ffa8fc>[Vehicle Framework Patch]</color> Loaded vehicle framework patch!
@@ -66,6 +66,9 @@ Start: newobj System.Void System.Text.StringBuilder::.ctor()
 End:callvirt virtual System.String System.Object::ToString() [Label14]
 Start: call static System.String System.String::Concat(System.String str0, System.String str1) [Label15]
 End:ldloc.0 NULL
+Collection cannot init: No textures found at path Blood/Filth_Blood
+Collection cannot init: No textures found at path Blood/Filth_Blood
+Collection cannot init: No textures found at path Blood/Filth_Blood
 Translation data for language English has 15 errors. Generate translation report for more info.
 [AVP Xenomorphs] Patched JobDriver_Wait.CheckForAutoAttack
 [AVP Xenomorphs] Patched Designator_ZoneAdd.CanDesignateCell to block hive/tunnel tiles
@@ -84,11 +87,14 @@ KCSG has Created 7579 symbolDefs for vanilla and DLCs
 [CMColorCodedMoodBar] CMColorCodedMoodBar 1.6.4871.1 initialized
 [CleaningAreaRelaunched] Loaded
 [XML Extensions] Initialized 6 SettingsMenuDef(s) and found 0 unused key(s) from 0 mod(s)
-[XML Extensions] 6780 total patch operations run in 14396ms, 0 failed
+[XML Extensions] 6800 total patch operations run in 14294ms, 0 failed
 [XML Extensions] Emitted 6 mod class(es)
 Damage Indicators initialized.
 [DifferentEggSizes]: Updated 178 egg-definitions
 GUD: patches were successful
+Locks: Doors expanded found
+Locks: SoS2 not found 
+Locks version: 3.1.3 loaded.
 [TrueTerrainColors v1.12.26] Loaded cached true colors for 515 terrain defs from file.
 Mines 2.0 -> RecipeDef named MinesAutomated_RecipeDef_MineableSteel added to the mine.
 Mines 2.0 -> RecipeDef named MinesAutomated_RecipeDef_MineableComponentsIndustrial added to the mine.
@@ -127,14 +133,15 @@ NamesGalore: Current Lang English
 [RimMercenaries] MedievalOverhaul not detected - ScribeTable integration disabled
 [RimMercenaries] Skipping ScribeTable patch - MedievalOverhaul not loaded
 [RimMercenaries] Mod Initialized. Added Mercenary functionality to Comms Console.
+[UseThisInstead]: Found 0 replacements
 PickUpAndHaul v1.1.2¼ welcomes you to RimWorld with pointless logspam.
 [GeneExpandedHair] harmony patch succeeded.
 Unloading 5 Unused Serialized files (Serialized files now loaded: 14)
-Unloading 1850 unused Assets to reduce memory usage. Loaded Objects now: 67393.
-Total: 1006.385800 ms (FindLiveObjects: 12.804200 ms CreateObjectMapping: 5.058000 ms MarkObjects: 984.811000 ms  DeleteObjects: 3.712200 ms)
+Unloading 1854 unused Assets to reduce memory usage. Loaded Objects now: 67415.
+Total: 968.329800 ms (FindLiveObjects: 11.553000 ms CreateObjectMapping: 5.044900 ms MarkObjects: 948.076500 ms  DeleteObjects: 3.655000 ms)
 
 MVCF successfully applied 58 patches
-[TMM] Auto capitalization fix: scanned=15066, changed=1261, time=33ms
+[TMM] Auto capitalization fix: scanned=15066, changed=1261, time=34ms
 CharacterEditor v1.6.3 initializing...
 updating labels for english...
 loading pawn slot content from file...
@@ -365,15 +372,15 @@ Transpilers:
 Postfixes:
   [PeteTimesSix.SimpleSidearms] TryCastShot
 Unloading 2 Unused Serialized files (Serialized files now loaded: 16)
-<color=#66ffb5>[MeleeAnim]</color> PreCached all retexture info in 399.7ms
+<color=#66ffb5>[MeleeAnim]</color> PreCached all retexture info in 398.1ms
 <color=#66ffb5>[MeleeAnim]</color> Loaded tweak data for 77 weapons.
 <color=#66ffb5>[MeleeAnim]</color> ogliss.avpxenomorphs 'AVP Xenomorphs' has 1 missing weapon tweak data.
 <color=#66ffb5>[MeleeAnim]</color> Skipping reporting of missing mod/weapons because user opted out or the feature is disabled by the developer.
-<color=#66ffb5>[MeleeAnim]</color> Patched 3 classes that directly inherit from Verb_MeleeAttack in 92.4 ms to detect hits:
+<color=#66ffb5>[MeleeAnim]</color> Patched 3 classes that directly inherit from Verb_MeleeAttack in 97.9 ms to detect hits:
 RimWorld.Verb_MeleeApplyHediff from Assembly-CSharp
 RimWorld.Verb_MeleeAttackDamage from Assembly-CSharp
 RRYautja.Verb_MeleeAttackKnockback from RRYautja
-<color=#66ffb5>[MeleeAnim]</color> Found 19 items of clothing that cover hands, took 1.89 ms:
+<color=#66ffb5>[MeleeAnim]</color> Found 19 items of clothing that cover hands, took 1.48 ms:
 VAE_Handwear_PlateGloves (Plate gloves),
 VAE_Handwear_MarineGloves (Marine gloves),
 VAE_Apparel_Shield_Riot (Riot shield),
@@ -393,24 +400,24 @@ VFEP_WarcasketShoulders_Brute (Brute warcasket shoulders),
 VAE_Handwear_Gloves (Gloves),
 Apparel_BlackSilence_Gloves (Black gloves),
 Apparel_BlackSilence_Suit (Black suits)
-Unloading 165 unused Assets to reduce memory usage. Loaded Objects now: 67570.
-Total: 773.586700 ms (FindLiveObjects: 3.469300 ms CreateObjectMapping: 4.451100 ms MarkObjects: 765.365100 ms  DeleteObjects: 0.300700 ms)
+Unloading 165 unused Assets to reduce memory usage. Loaded Objects now: 67592.
+Total: 777.518500 ms (FindLiveObjects: 3.430300 ms CreateObjectMapping: 3.716500 ms MarkObjects: 770.070000 ms  DeleteObjects: 0.301200 ms)
 
 Unloading 1 Unused Serialized files (Serialized files now loaded: 16)
 [RimHUD v1.17.5] Integrated preset 'Compact' loaded
-Unloading 0 unused Assets to reduce memory usage. Loaded Objects now: 67570.
-Total: 746.601000 ms (FindLiveObjects: 3.378600 ms CreateObjectMapping: 4.234200 ms MarkObjects: 738.869900 ms  DeleteObjects: 0.117800 ms)
+Unloading 0 unused Assets to reduce memory usage. Loaded Objects now: 67592.
+Total: 752.037400 ms (FindLiveObjects: 3.532300 ms CreateObjectMapping: 3.210000 ms MarkObjects: 745.180000 ms  DeleteObjects: 0.114600 ms)
 
 Unloading 0 Unused Serialized files (Serialized files now loaded: 16)
-  --> [What's That Mod] Took 2.54 seconds to scan all patches. <--
+  --> [What's That Mod] Took 0.59 seconds to scan all patches. <--
 What's That Mod: Wrote to 10904 mod descriptions, 81 patched defs resolved.
-What's That Mod took 2566 milliseconds to generate all def descriptions.
-Unloading 0 unused Assets to reduce memory usage. Loaded Objects now: 67570.
-Total: 756.696200 ms (FindLiveObjects: 3.319300 ms CreateObjectMapping: 2.791100 ms MarkObjects: 750.471200 ms  DeleteObjects: 0.114100 ms)
+What's That Mod took 609 milliseconds to generate all def descriptions.
+Unloading 0 unused Assets to reduce memory usage. Loaded Objects now: 67592.
+Total: 768.659200 ms (FindLiveObjects: 3.502500 ms CreateObjectMapping: 2.720200 ms MarkObjects: 762.320500 ms  DeleteObjects: 0.115500 ms)
 
 Unloading 0 Unused Serialized files (Serialized files now loaded: 16)
-Unloading 0 unused Assets to reduce memory usage. Loaded Objects now: 67570.
-Total: 767.478200 ms (FindLiveObjects: 4.229300 ms CreateObjectMapping: 4.494200 ms MarkObjects: 758.640700 ms  DeleteObjects: 0.113600 ms)
+Unloading 0 unused Assets to reduce memory usage. Loaded Objects now: 67592.
+Total: 763.252700 ms (FindLiveObjects: 4.384700 ms CreateObjectMapping: 3.235700 ms MarkObjects: 755.521000 ms  DeleteObjects: 0.110800 ms)
 
 [HugsLib] initializing TerraformRimworld
 CE is trying to create default parameter lists ...
@@ -428,11 +435,11 @@ no modifications for lifestages
 ...done
 Unloading 3 Unused Serialized files (Serialized files now loaded: 16)
 [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
-UnloadTime: 25.002900 ms
-Unloading 3 unused Assets to reduce memory usage. Loaded Objects now: 67957.
-Total: 796.543700 ms (FindLiveObjects: 3.363400 ms CreateObjectMapping: 4.273000 ms MarkObjects: 788.773600 ms  DeleteObjects: 0.133300 ms)
+UnloadTime: 14.782800 ms
+Unloading 3 unused Assets to reduce memory usage. Loaded Objects now: 67981.
+Total: 861.265800 ms (FindLiveObjects: 3.774000 ms CreateObjectMapping: 4.264200 ms MarkObjects: 853.098600 ms  DeleteObjects: 0.128700 ms)
 
-Loading game from file USCSS Colony80 with mods:
+Loading game from file USCSS Colony82 with mods:
   - brrainz.harmony
   - ilyvion.LoadingProgress
   - Ludeon.RimWorld
@@ -493,7 +500,6 @@ Loading game from file USCSS Colony80 with mods:
   - killerbot.gtekdevilstrandsynthesis
   - Mlie.DifferentEggSizes
   - Woolyung.DoTheRitualsYourselves
-  - jecrell.doorsexpanded
   - telardo.DragSelect
   - Dubwise.DubsMintMenus
   - dubwise.dubsmintminimap
@@ -527,6 +533,9 @@ Loading game from file USCSS Colony80 with mods:
   - Koth.ISiD
   - ASF.DeepStorage
   - costel.layeredapparel
+  - jecrell.doorsexpanded
+  - Haplo.Miscellaneous.Robots
+  - avius.locks
   - Mlie.LogAfterDefError
   - zal.majesticfoilageframework
   - zal.majesticcomigopack
@@ -642,6 +651,7 @@ Loading game from file USCSS Colony80 with mods:
   - Wara.toomanymods
   - CarnySenpai.TraitRarityColors
   - UNAGI.apparel.B.Zibunyou
+  - Mlie.UseThisInstead
   - VanillaExpanded.VAEEndAndExt
   - VanillaExpanded.VAERoy
   - VanillaExpanded.VAEWaste
@@ -684,7 +694,6 @@ Loading game from file USCSS Colony80 with mods:
   - Nera.SpawnThoseGenes
   - zal.eyeprosthetics
   - UnlimitedHugs.AllowTool
-  - Haplo.Miscellaneous.Robots
   - Mehni.PickUpAndHaul
   - weilbyte.snapout
   - VanillaExpanded.VFESecurity
@@ -700,65 +709,59 @@ Loading game from file USCSS Colony80 with mods:
   - SR.ModRimworld.RaidExtension
   - XeoNovaDan.VisiblePants
   - sbz.GravshipStorage
-Could not resolve reference to object with loadID Thing_Human53907 of type Verse.Pawn. Was it compressed away, destroyed, had no ID number, or not saved/loaded right? curParent=RimWorld.RelationshipRecord curPathRelToParent=/references
-Could not resolve reference to object with loadID Thing_Human53937 of type Verse.Pawn. Was it compressed away, destroyed, had no ID number, or not saved/loaded right? curParent=RimWorld.RelationshipRecord curPathRelToParent=/references
-Could not resolve reference to object with loadID Thing_Human53937 of type Verse.Pawn. Was it compressed away, destroyed, had no ID number, or not saved/loaded right? curParent=RimWorld.RelationshipRecord curPathRelToParent=/references
-Could not resolve reference to object with loadID Ideo_6 of type RimWorld.Ideo. Was it compressed away, destroyed, had no ID number, or not saved/loaded right? curParent=RimWorld.FactionIdeosTracker curPathRelToParent=
-Could not resolve reference to object with loadID Thing_Human53907 of type Verse.Pawn. Was it compressed away, destroyed, had no ID number, or not saved/loaded right? curParent=RimWorld.DirectPawnRelation curPathRelToParent=
-Could not resolve reference to object with loadID Thing_Human53891 of type Verse.Pawn. Was it compressed away, destroyed, had no ID number, or not saved/loaded right? curParent=RimWorld.DirectPawnRelation curPathRelToParent=
-Could not resolve reference to object with loadID Thing_Human53894 of type Verse.Pawn. Was it compressed away, destroyed, had no ID number, or not saved/loaded right? curParent=RimWorld.DirectPawnRelation curPathRelToParent=
-Could not resolve reference to object with loadID Thing_Human53876 of type Verse.Pawn. Was it compressed away, destroyed, had no ID number, or not saved/loaded right? curParent=RimWorld.DirectPawnRelation curPathRelToParent=
-Could not resolve reference to object with loadID Thing_Human53898 of type Verse.Pawn. Was it compressed away, destroyed, had no ID number, or not saved/loaded right? curParent=RimWorld.DirectPawnRelation curPathRelToParent=
-Could not resolve reference to object with loadID Thing_Human53881 of type Verse.Pawn. Was it compressed away, destroyed, had no ID number, or not saved/loaded right? curParent=RimWorld.DirectPawnRelation curPathRelToParent=
-Could not resolve reference to object with loadID Thing_Human53982 of type Verse.Pawn. Was it compressed away, destroyed, had no ID number, or not saved/loaded right? curParent=RimWorld.DirectPawnRelation curPathRelToParent=
-Could not resolve reference to object with loadID Thing_Human53976 of type Verse.Pawn. Was it compressed away, destroyed, had no ID number, or not saved/loaded right? curParent=RimWorld.DirectPawnRelation curPathRelToParent=
-Could not resolve reference to object with loadID Thing_Human53891 of type Verse.Pawn. Was it compressed away, destroyed, had no ID number, or not saved/loaded right? curParent=RimWorld.DirectPawnRelation curPathRelToParent=
+Could not resolve reference to object with loadID Thing_Human55845 of type Verse.Pawn. Was it compressed away, destroyed, had no ID number, or not saved/loaded right? curParent=RimWorld.RelationshipRecord curPathRelToParent=/references
+Could not resolve reference to object with loadID Thing_Human55845 of type Verse.Pawn. Was it compressed away, destroyed, had no ID number, or not saved/loaded right? curParent=RimWorld.RelationshipRecord curPathRelToParent=/references
+Could not resolve reference to object with loadID Thing_Human55890 of type Verse.Pawn. Was it compressed away, destroyed, had no ID number, or not saved/loaded right? curParent=RimWorld.RelationshipRecord curPathRelToParent=/references
+Could not resolve reference to object with loadID Thing_Human55932 of type Verse.Pawn. Was it compressed away, destroyed, had no ID number, or not saved/loaded right? curParent=RimWorld.RelationshipRecord curPathRelToParent=/references
+Could not resolve reference to object with loadID Thing_Human55932 of type Verse.Pawn. Was it compressed away, destroyed, had no ID number, or not saved/loaded right? curParent=VanillaTraitsExpanded.TraitsManager curPathRelToParent=/madSurgeonsWithLastHarvestedTick/keys
+Null key while loading dictionary of Verse.Pawn and System.Int32. label=madSurgeonsWithLastHarvestedTick
+Could not resolve reference to object with loadID Thing_Human55811 of type Verse.Pawn. Was it compressed away, destroyed, had no ID number, or not saved/loaded right? curParent=VanillaTraitsExpanded.TraitsManager curPathRelToParent=/snobs
+Could not resolve reference to object with loadID Thing_Human55921 of type Verse.Pawn. Was it compressed away, destroyed, had no ID number, or not saved/loaded right? curParent=RimWorld.DirectPawnRelation curPathRelToParent=
+Could not resolve reference to object with loadID Thing_Human55932 of type Verse.Pawn. Was it compressed away, destroyed, had no ID number, or not saved/loaded right? curParent=RimWorld.DirectPawnRelation curPathRelToParent=
+Could not resolve reference to object with loadID Thing_Human55840 of type Verse.Pawn. Was it compressed away, destroyed, had no ID number, or not saved/loaded right? curParent=RimWorld.DirectPawnRelation curPathRelToParent=
+Could not resolve reference to object with loadID Thing_Human55879 of type Verse.Pawn. Was it compressed away, destroyed, had no ID number, or not saved/loaded right? curParent=RimWorld.DirectPawnRelation curPathRelToParent=
+Could not resolve reference to object with loadID Thing_Human55925 of type Verse.Pawn. Was it compressed away, destroyed, had no ID number, or not saved/loaded right? curParent=RimWorld.DirectPawnRelation curPathRelToParent=
+Could not resolve reference to object with loadID Thing_Human55869 of type Verse.Pawn. Was it compressed away, destroyed, had no ID number, or not saved/loaded right? curParent=RimWorld.DirectPawnRelation curPathRelToParent=
+Could not resolve reference to object with loadID Thing_Human55811 of type Verse.Pawn. Was it compressed away, destroyed, had no ID number, or not saved/loaded right? curParent=RimWorld.DirectPawnRelation curPathRelToParent=
 [RimMercenaries] Loaded save data: hasBeenInitialized=True, lastRefreshTick=0, mercenaries=17, tier1=10, tier2=5, tier3=2
-Faction had no ideoligions after loading. Adding random one.
-Pawn Cesine has relation "ExLover" with null pawn after loading. This means that we forgot to serialize pawns somewhere (e.g. pawns from passing trade ships).
-Pawn Vasilikos has relation "Parent" with null pawn after loading. This means that we forgot to serialize pawns somewhere (e.g. pawns from passing trade ships).
-Pawn Elaiodora has relation "Parent" with null pawn after loading. This means that we forgot to serialize pawns somewhere (e.g. pawns from passing trade ships).
-Pawn Lekapenos has relation "Parent" with null pawn after loading. This means that we forgot to serialize pawns somewhere (e.g. pawns from passing trade ships).
-Pawn Proa has relation "Parent" with null pawn after loading. This means that we forgot to serialize pawns somewhere (e.g. pawns from passing trade ships).
-Pawn Xera has relation "Parent" with null pawn after loading. This means that we forgot to serialize pawns somewhere (e.g. pawns from passing trade ships).
-Pawn Galcusbas has relation "Parent" with null pawn after loading. This means that we forgot to serialize pawns somewhere (e.g. pawns from passing trade ships).
-Pawn Paseka has relation "ExLover" with null pawn after loading. This means that we forgot to serialize pawns somewhere (e.g. pawns from passing trade ships).
-Pawn Ingerina has relation "Spouse" with null pawn after loading. This means that we forgot to serialize pawns somewhere (e.g. pawns from passing trade ships).
+Pawn Justin has relation "Parent" with null pawn after loading. This means that we forgot to serialize pawns somewhere (e.g. pawns from passing trade ships).
+Pawn Calpas has relation "Spouse" with null pawn after loading. This means that we forgot to serialize pawns somewhere (e.g. pawns from passing trade ships).
+Pawn Callincus has relation "Parent" with null pawn after loading. This means that we forgot to serialize pawns somewhere (e.g. pawns from passing trade ships).
+Pawn Smaragda has relation "Parent" with null pawn after loading. This means that we forgot to serialize pawns somewhere (e.g. pawns from passing trade ships).
+Pawn Philaros has relation "Lover" with null pawn after loading. This means that we forgot to serialize pawns somewhere (e.g. pawns from passing trade ships).
+Pawn Anasus has relation "Parent" with null pawn after loading. This means that we forgot to serialize pawns somewhere (e.g. pawns from passing trade ships).
+Pawn Rogerios has relation "ExLover" with null pawn after loading. This means that we forgot to serialize pawns somewhere (e.g. pawns from passing trade ships).
 <color=#66ffb5>[MeleeAnim]</color> Loaded 0 animation renderers on map Map-0-PlayerHome
-StandingLamp, SunLamp, WallLamp, FloodLight, TubeTelevision, FlatscreenTelevision, MegascreenTelevision, OrbitalTradeBeacon, CommsConsole, MoisturePump, GroundPenetratingScanner, LongRangeMineralScanner, MultiAnalyzer, VitalsMonitor, PowerConduit, HiddenConduit, WaterproofConduit, PowerSwitch, WoodFiredGenerator, ChemfuelPoweredGenerator, WindTurbine, Battery, SolarGenerator, GeothermalGenerator, WatermillGenerator, ElectricTailoringBench, ElectricSmithy, TableMachining, ElectricStove, ElectricSmelter, BiofuelRefinery, FabricationBench, HiTechResearchBench, ElectricCrematorium, HydroponicsBasin, DeepDrill, NutrientPasteDispenser, Turret_MiniTurret, Turret_Autocannon, Turret_Sniper, Turret_FoamTurret, Turret_RocketswarmLauncher, Ship_Beam, Ship_CryptosleepCasket, Ship_ComputerCore, Ship_Reactor, Ship_Engine, Ship_SensorCluster, PsychicEmanator, VanometricPowerCell, InfiniteChemreactor, Autodoor, Heater, Cooler, UnstablePowerCell, ShipLandingBeacon, SleepAccelerator, BiosculpterPod, NeuralSupercharger, LightBall, Loudspeaker, Autobong, DeathrestCasket, Hemopump, HemogenAmplifier, GlucosoidPump, PsychofluidPump, DeathrestAccelerator, BandNode, ToxifierGenerator, GeneAssembler, GeneBank, GeneExtractor, GrowthVat, PollutionPump, WastepackAtomizer, GeneProcessor, MechBooster, MechGestator, LargeMechGestator, SubcoreEncoder, SubcoreSoftscanner, SubcoreRipscanner, BasicRecharger, StandardRecharger, SecurityDoor, ElectricInhibitor, ProximityDetector, AtmosphericHeater, FrenzyInducer, SleepSuppressor, BioferriteGenerator, Electroharvester, BioferriteShaper, SerumCentrifuge, BioferriteHarvester, GravEngine, GravcorePowerCell, PilotSubpersonaCore, GravshipShieldGenerator, AncientGravReactor, AncientTerraformer, LifeSupportUnit, OrbitalScanner, OxygenPump, KCSG_PowerConduit, VVE_GarageBench, VVE_GarageAutoDoor, VVE_GarageAutoDoorOpened, VVE_GarageAutoDoorLarge, VVE_GarageAutoDoorLargeOpened, owl_refrigerator, owl_doublerefrigerator, BioReactor, BioReactorCircleLarge, BioReactorCircleEX, BioReactorBig, BioReactorEx, AA_BlueGelBattery, AA_HexaGelBattery, AA_HexagelCoreReactor, PH_AutodoorDouble, PH_AutodoorTriple, PH_DoorBlastSingle, PH_DoorBlastDoor, PH_DoorThickBlastDoor, PH_DoorButton, PH_DoorLever, PH_DoorRemoteSingle, PH_DoorRemoteDouble, PH_DoorRemoteTriple, VREA_AndroidStand, VREA_AndroidPartWorkbench, VREA_SubcorePolyanalyzer, VREA_AndroidCreationStation, VREA_AndroidBehavioristStation, VREA_NeutroCasket, GravshipBiofuelRefineryAddOn, MedPodLux, MedPodStandard, MedPodAnimal, MedPodAnimalMedium, MedPodAnimalBig, TableMending, GravshipHull, VacBarrier, WallSwitch, PFS_HoloGlassPanel, PFS_RoyalBed, PFS_TableMiniB, PFS_Table3x2a, PFS_CubeLight, PFS_TriLight, PFS_FloorlineLight, PFS_PokerTable, PFS_BilliardsTable, PFS_AutodoorB, PFS_AutodoorC, PFS_HoloGlassAutodoor, PFS_ColumnB, PFS_ColumnC, PFS_Heater, Building_RTMagneticShield, Cooler_Over, Cooler_Over2W, GDTable, YPTable, JITable, TETable, Turret_ShardSentry, Turret_WaveEmitter, PortableReactor, Turret_SuvTurret, Turret_SupTurret, Turret_MC, RocketTurret, Turret_EMPLobber, Turret_FireLobber, Turret_Incinerator, Turret_Graser, Turret_Rotarygun, Turret_MiniSlugger, Turret_MiniShooter, VCE_ElectricPot, VCE_DeepFrier, VCE_CanningMachine, Windmill, Radio_Industrial, Radio_Spacer, Joy_Arcade, Joy_InudstrialComputer, Joy_ModernComputer, VFE_DeskLamp, VFE_FloorLamp, Light_Streetlamp, VFE_RoyalLamp, VFE_TableMachiningLarge, VFE_TableSmithyLarge, VFE_TableStoveLarge, VFE_TableTailorLarge, VFE_ComponentFabricationBench, VFE_TableButcherElectric, VFE_TableDrugLabElectric, VFE_TableStonecutterElectric, VRE_PsychofluidWell, VRE_InvocationMatrix, VRE_HemodynamicAccelerator, VRE_HemogenSolidifier, VRE_SmallHemogenAmplifier, VRE_SmallHemopump, TM_Tinkerbench, TM_Biohacker, FedTable, Turret_FedHarvester, Turret_PB, VBE_SodaFountain, VFEE_Candelabra, VFED_Turret_Kontarion, VFED_Turret_Palintone, VFED_Turret_Onager, VFED_SurveillancePillar, VFED_ImperialMegaHighShield, VFEP_WarcasketFoundry, VFEP_ShipChunkBattery, VFEP_ShipChunkGauntletTurret, VFEP_ShipChunkReactor, Table_IlluminatedEndTable, Table_IlluminatedDresser, VFES_Table_IlluminatedWardrobe, UltrascreenTV, VFES_WallMountedTelevision, VFES_TelevisionSpeaker, Shelf_RepairRack, VFES_AirPurifier, Table_interactive_1x1c, Table_interactive_2x2c, GR_AncientCryofreezer, GR_AncientBioBattery, GR_GenePod, GR_ElectroWomb, GR_LargeElectroWomb, GR_TissueGrinder, GR_GeneticsTinkeringTable, GR_GeneticExtractionTable, GR_GeneRecombinator, GR_TissueGrowingVat, VBE_TypewritersTable, Facility_VitalsCentre, VTE_ACControlUnit, VTE_ACUnit, VTE_ACUnitWall, VTE_ACCompressor, VTE_LargeACCompressor, VTE_IndustrialHeater, VTE_IndustrialCooler, VTE_WallHeater, VTE_WallMountedHeater, VTE_WallMountedCooler, VTE_StandingCooler, VTE_SmallCeilingFan, VTE_LargeCeilingFan, AIRobot_RechargeStation_Hauler, AIRobot_RechargeStation_Cleaner, VFES_Turret_NonLethalTurret, VFES_Turret_AntiAir, VFES_Turret_Concealed, VFES_ConcealedBarrier, VFES_SmallRepulsor, VFES_LargeRepulsor, VFES_Turret_MilitaryTurret, VFES_Turret_ArmoredTurret, VFES_Turret_Searchlight, VFES_Turret_Flame, VFES_Turret_ShotgunTurret, VFES_Turret_AutocannonDouble, VFES_Turret_Minigun, VFES_Turret_ChargeTurret, VFES_Turret_ChargeRailgun, VFES_Turret_TeslaBlaster, PFS_DisplayPod, BS_AndroidFuelRefinery, BS_AndroidChargingStation, TectonicEmiter, WeatherEmiter
 checking editor settings...
 bodysizes genes are active
 [RimMercenaries] FinalizeInit called for save. HasBeenInitialized: True
 [Yayo's Animation] GC : animation data count [0 -> 0]
 Unloading 1 Unused Serialized files (Serialized files now loaded: 16)
-Unloading 1 unused Assets to reduce memory usage. Loaded Objects now: 76947.
-Total: 927.182000 ms (FindLiveObjects: 4.634200 ms CreateObjectMapping: 4.897000 ms MarkObjects: 917.480900 ms  DeleteObjects: 0.169600 ms)
+Unloading 1 unused Assets to reduce memory usage. Loaded Objects now: 76914.
+Total: 895.122800 ms (FindLiveObjects: 4.526800 ms CreateObjectMapping: 4.869500 ms MarkObjects: 885.566600 ms  DeleteObjects: 0.159500 ms)
 
+Life stage def HumanlikeChild not found while searching for min age of Lori
 Arachnophobia :: Spider Biome Settings Adjusted :: Current Factor: 1
-Wrote screenshot C:\Users\clint\AppData\LocalLow\Ludeon Studios\RimWorld by Ludeon Studios\RimSaves\Previews\USCSS Colony80.dat of size 67525
-RRY_Xenomorph_FaceHugger89912 issued IdleError wait job. The behavior tree should never get here.
-Unloading 2 Unused Serialized files (Serialized files now loaded: 16)
-Unloading 582 unused Assets to reduce memory usage. Loaded Objects now: 70687.
-Total: 902.310100 ms (FindLiveObjects: 4.184300 ms CreateObjectMapping: 4.478600 ms MarkObjects: 892.759400 ms  DeleteObjects: 0.887100 ms)
-
-Unloading 2 Unused Serialized files (Serialized files now loaded: 16)
-[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
-UnloadTime: 0.481600 ms
-checking editor settings...
-bodysizes genes are active
-CharacterEditor v1.6.3 ...done
-Unloading 8 unused Assets to reduce memory usage. Loaded Objects now: 70620.
-Total: 1062.673800 ms (FindLiveObjects: 3.713700 ms CreateObjectMapping: 3.916100 ms MarkObjects: 1054.865500 ms  DeleteObjects: 0.178000 ms)
-
+Wrote screenshot C:\Users\clint\AppData\LocalLow\Ludeon Studios\RimWorld by Ludeon Studios\RimSaves\Previews\USCSS Colony82.dat of size 106960
+Exception thrown from thread=1162.
+System.Threading.ThreadAbortException: Thread was being aborted.
+[Ref 54CF78B3]
+(wrapper managed-to-native) System.Threading.Monitor.Monitor_wait(object,int)
+  at System.Threading.Monitor.ObjWait (System.Boolean exitContext, System.Int32 millisecondsTimeout, System.Object obj) [0x0002f] in <51fded79cd284d4d911c5949aff4cb21>:0 
+  at System.Threading.Monitor.Wait (System.Object obj, System.Int32 millisecondsTimeout, System.Boolean exitContext) [0x0000e] in <51fded79cd284d4d911c5949aff4cb21>:0 
+  at System.Threading.Monitor.Wait (System.Object obj, System.Int32 millisecondsTimeout) [0x00000] in <51fded79cd284d4d911c5949aff4cb21>:0 
+  at System.Threading.ManualResetEventSlim.Wait (System.Int32 millisecondsTimeout, System.Threading.CancellationToken cancellationToken) [0x00100] in <51fded79cd284d4d911c5949aff4cb21>:0 
+  at System.Threading.ManualResetEventSlim.Wait () [0x00000] in <51fded79cd284d4d911c5949aff4cb21>:0 
+  at SmashTools.Performance.DedicatedThread.Execute () [0x0000c] in C:\Program Files (x86)\Steam\steamapps\common\RimWorld\Mods\Vehicle-Framework\SmashTools\SmashTools\SmashTools\Performance\Multithreading\DedicatedThread.cs:168 
 Memory Statistics:
 [ALLOC_TEMP_TLS] TLS Allocator
   StackAllocators : 
     [ALLOC_TEMP_MAIN]
-      Peak usage frame count: [0-1.0 KB]: 3747 frames, [1.0 KB-2.0 KB]: 48 frames, [2.0 KB-4.0 KB]: 13558 frames, [4.0 KB-8.0 KB]: 1611 frames, [8.0 KB-16.0 KB]: 193 frames, [16.0 KB-32.0 KB]: 17 frames, [32.0 KB-64.0 KB]: 4 frames, [64.0 KB-128.0 KB]: 19 frames, [128.0 KB-256.0 KB]: 6 frames, [2.0 MB-4.0 MB]: 1 frames, [4.0 MB-8.0 MB]: 9 frames
+      Peak usage frame count: [0-1.0 KB]: 8058 frames, [1.0 KB-2.0 KB]: 37 frames, [2.0 KB-4.0 KB]: 2979 frames, [4.0 KB-8.0 KB]: 1385 frames, [8.0 KB-16.0 KB]: 191 frames, [16.0 KB-32.0 KB]: 9 frames, [32.0 KB-64.0 KB]: 4 frames, [64.0 KB-128.0 KB]: 9 frames, [128.0 KB-256.0 KB]: 4 frames, [2.0 MB-4.0 MB]: 1 frames, [4.0 MB-8.0 MB]: 7 frames
       Initial Block Size 4.0 MB
       Current Block Size 8.0 MB
       Peak Allocated Bytes 8.0 MB
-      Overflow Count 7
+      Overflow Count 5
     [ALLOC_TEMP_Loading.AsyncRead]
       Initial Block Size 64.0 KB
       Current Block Size 108.0 KB
@@ -768,7 +771,7 @@ Memory Statistics:
       Initial Block Size 256.0 KB
       Current Block Size 256.0 KB
       Peak Allocated Bytes 3.8 KB
-      Overflow Count 12
+      Overflow Count 8
     [ALLOC_TEMP_Background Job.Worker 8]
       Initial Block Size 32.0 KB
       Current Block Size 32.0 KB
@@ -782,7 +785,7 @@ Memory Statistics:
     [ALLOC_TEMP_Job.Worker 0]
       Initial Block Size 256.0 KB
       Current Block Size 256.0 KB
-      Peak Allocated Bytes 160 B
+      Peak Allocated Bytes 144 B
       Overflow Count 0
     [ALLOC_TEMP_Background Job.Worker 10]
       Initial Block Size 32.0 KB
@@ -797,7 +800,7 @@ Memory Statistics:
     [ALLOC_TEMP_Job.Worker 5]
       Initial Block Size 256.0 KB
       Current Block Size 256.0 KB
-      Peak Allocated Bytes 202 B
+      Peak Allocated Bytes 160 B
       Overflow Count 0
     [ALLOC_TEMP_Background Job.Worker 14]
       Initial Block Size 32.0 KB
@@ -847,7 +850,7 @@ Memory Statistics:
     [ALLOC_TEMP_Background Job.Worker 2]
       Initial Block Size 32.0 KB
       Current Block Size 32.0 KB
-      Peak Allocated Bytes 54 B
+      Peak Allocated Bytes 0.9 KB
       Overflow Count 0
     [ALLOC_TEMP_Background Job.Worker 7]
       Initial Block Size 32.0 KB
@@ -882,12 +885,12 @@ Memory Statistics:
     [ALLOC_TEMP_Job.Worker 8]
       Initial Block Size 256.0 KB
       Current Block Size 256.0 KB
-      Peak Allocated Bytes 160 B
+      Peak Allocated Bytes 144 B
       Overflow Count 0
     [ALLOC_TEMP_Job.Worker 7]
       Initial Block Size 256.0 KB
       Current Block Size 256.0 KB
-      Peak Allocated Bytes 160 B
+      Peak Allocated Bytes 144 B
       Overflow Count 0
     [ALLOC_TEMP_Job.Worker 1]
       Initial Block Size 256.0 KB
@@ -897,7 +900,7 @@ Memory Statistics:
     [ALLOC_TEMP_Job.Worker 2]
       Initial Block Size 256.0 KB
       Current Block Size 256.0 KB
-      Peak Allocated Bytes 480 B
+      Peak Allocated Bytes 288 B
       Overflow Count 0
     [ALLOC_TEMP_Background Job.Worker 3]
       Initial Block Size 32.0 KB
@@ -930,31 +933,31 @@ Memory Statistics:
       Peak Allocated Bytes 54 B
       Overflow Count 0
 [ALLOC_DEFAULT] Dual Thread Allocator
-  Peak main deferred allocation count 49740
+  Peak main deferred allocation count 50364
     [ALLOC_BUCKET]
       Large Block size 4.0 MB
       Used Block count 1
       Peak Allocated bytes 4.0 MB
       Failed Allocations. Bucket layout:
-        16B: 5 Subsections = 5120 buckets. Failed count: 152357
-        32B: 34 Subsections = 17408 buckets. Failed count: 251517
-        48B: 49 Subsections = 16725 buckets. Failed count: 268334
-        64B: 40 Subsections = 10240 buckets. Failed count: 101744
-        80B: 85 Subsections = 17408 buckets. Failed count: 126574
-        96B: 27 Subsections = 4608 buckets. Failed count: 50736
-        112B: 10 Subsections = 1462 buckets. Failed count: 32205
-        128B: 6 Subsections = 768 buckets. Failed count: 20374
+        16B: 5 Subsections = 5120 buckets. Failed count: 129128
+        32B: 34 Subsections = 17408 buckets. Failed count: 146785
+        48B: 49 Subsections = 16725 buckets. Failed count: 261607
+        64B: 40 Subsections = 10240 buckets. Failed count: 99631
+        80B: 85 Subsections = 17408 buckets. Failed count: 92046
+        96B: 27 Subsections = 4608 buckets. Failed count: 51361
+        112B: 10 Subsections = 1462 buckets. Failed count: 30502
+        128B: 6 Subsections = 768 buckets. Failed count: 19514
     [ALLOC_DEFAULT_MAIN]
-      Peak usage frame count: [16.0 MB-32.0 MB]: 3689 frames, [32.0 MB-64.0 MB]: 81 frames, [64.0 MB-128.0 MB]: 104 frames, [128.0 MB-256.0 MB]: 856 frames, [256.0 MB-0.50 GB]: 1103 frames, [0.50 GB-1.00 GB]: 13380 frames
+      Peak usage frame count: [16.0 MB-32.0 MB]: 2778 frames, [32.0 MB-64.0 MB]: 81 frames, [64.0 MB-128.0 MB]: 104 frames, [128.0 MB-256.0 MB]: 872 frames, [256.0 MB-0.50 GB]: 1101 frames, [0.50 GB-1.00 GB]: 7748 frames
       Requested Block Size 16.0 MB
-      Peak Block count 41
+      Peak Block count 40
       Peak Allocated memory 0.71 GB
       Peak Large allocation bytes 147.3 MB
     [ALLOC_DEFAULT_THREAD]
-      Peak usage frame count: [8.0 MB-16.0 MB]: 6764 frames, [16.0 MB-32.0 MB]: 65 frames, [32.0 MB-64.0 MB]: 16 frames, [64.0 MB-128.0 MB]: 199 frames, [128.0 MB-256.0 MB]: 12169 frames
+      Peak usage frame count: [8.0 MB-16.0 MB]: 10886 frames, [16.0 MB-32.0 MB]: 2 frames, [32.0 MB-64.0 MB]: 16 frames, [64.0 MB-128.0 MB]: 209 frames, [128.0 MB-256.0 MB]: 1571 frames
       Requested Block Size 16.0 MB
       Peak Block count 7
-      Peak Allocated memory 131.4 MB
+      Peak Allocated memory 130.5 MB
       Peak Large allocation bytes 33.8 MB
 [ALLOC_TEMP_JOB_1_FRAME]
   Initial Block Size 2.0 MB
@@ -977,31 +980,31 @@ Memory Statistics:
   Overflow Count (too large) 0
   Overflow Count (full) 0
 [ALLOC_GFX] Dual Thread Allocator
-  Peak main deferred allocation count 3274
+  Peak main deferred allocation count 3282
     [ALLOC_BUCKET]
       Large Block size 4.0 MB
       Used Block count 1
       Peak Allocated bytes 4.0 MB
       Failed Allocations. Bucket layout:
-        16B: 5 Subsections = 5120 buckets. Failed count: 152357
-        32B: 34 Subsections = 17408 buckets. Failed count: 251517
-        48B: 49 Subsections = 16725 buckets. Failed count: 268334
-        64B: 40 Subsections = 10240 buckets. Failed count: 101744
-        80B: 85 Subsections = 17408 buckets. Failed count: 126574
-        96B: 27 Subsections = 4608 buckets. Failed count: 50736
-        112B: 10 Subsections = 1462 buckets. Failed count: 32205
-        128B: 6 Subsections = 768 buckets. Failed count: 20374
+        16B: 5 Subsections = 5120 buckets. Failed count: 129128
+        32B: 34 Subsections = 17408 buckets. Failed count: 146785
+        48B: 49 Subsections = 16725 buckets. Failed count: 261607
+        64B: 40 Subsections = 10240 buckets. Failed count: 99631
+        80B: 85 Subsections = 17408 buckets. Failed count: 92046
+        96B: 27 Subsections = 4608 buckets. Failed count: 51361
+        112B: 10 Subsections = 1462 buckets. Failed count: 30502
+        128B: 6 Subsections = 768 buckets. Failed count: 19514
     [ALLOC_GFX_MAIN]
-      Peak usage frame count: [128.0 KB-256.0 KB]: 1 frames, [2.0 MB-4.0 MB]: 4153 frames, [4.0 MB-8.0 MB]: 1736 frames, [16.0 MB-32.0 MB]: 809 frames, [32.0 MB-64.0 MB]: 336 frames, [64.0 MB-128.0 MB]: 12170 frames, [256.0 MB-0.50 GB]: 1 frames, [0.50 GB-1.00 GB]: 6 frames, [1.00 GB-2.00 GB]: 1 frames
+      Peak usage frame count: [128.0 KB-256.0 KB]: 1 frames, [2.0 MB-4.0 MB]: 3241 frames, [4.0 MB-8.0 MB]: 1751 frames, [16.0 MB-32.0 MB]: 5772 frames, [32.0 MB-64.0 MB]: 339 frames, [64.0 MB-128.0 MB]: 1572 frames, [256.0 MB-0.50 GB]: 1 frames, [0.50 GB-1.00 GB]: 6 frames, [1.00 GB-2.00 GB]: 1 frames
       Requested Block Size 16.0 MB
-      Peak Block count 42
+      Peak Block count 43
       Peak Allocated memory 1.97 GB
       Peak Large allocation bytes 1.34 GB
     [ALLOC_GFX_THREAD]
-      Peak usage frame count: [0-1.0 KB]: 3333 frames, [1.0 KB-2.0 KB]: 3210 frames, [2.0 KB-4.0 KB]: 6 frames, [4.0 KB-8.0 KB]: 17 frames, [8.0 KB-16.0 KB]: 88 frames, [16.0 KB-32.0 KB]: 391 frames, [32.0 KB-64.0 KB]: 11794 frames, [64.0 KB-128.0 KB]: 374 frames
+      Peak usage frame count: [0-1.0 KB]: 2595 frames, [1.0 KB-2.0 KB]: 8049 frames, [2.0 KB-4.0 KB]: 7 frames, [4.0 KB-8.0 KB]: 17 frames, [8.0 KB-16.0 KB]: 106 frames, [16.0 KB-32.0 KB]: 340 frames, [32.0 KB-64.0 KB]: 572 frames, [64.0 KB-128.0 KB]: 998 frames
       Requested Block Size 16.0 MB
       Peak Block count 1
-      Peak Allocated memory 75.3 KB
+      Peak Allocated memory 90.8 KB
       Peak Large allocation bytes 0 B
 [ALLOC_CACHEOBJECTS] Dual Thread Allocator
   Peak main deferred allocation count 217
@@ -1010,25 +1013,25 @@ Memory Statistics:
       Used Block count 1
       Peak Allocated bytes 4.0 MB
       Failed Allocations. Bucket layout:
-        16B: 5 Subsections = 5120 buckets. Failed count: 152357
-        32B: 34 Subsections = 17408 buckets. Failed count: 251517
-        48B: 49 Subsections = 16725 buckets. Failed count: 268334
-        64B: 40 Subsections = 10240 buckets. Failed count: 101744
-        80B: 85 Subsections = 17408 buckets. Failed count: 126574
-        96B: 27 Subsections = 4608 buckets. Failed count: 50736
-        112B: 10 Subsections = 1462 buckets. Failed count: 32205
-        128B: 6 Subsections = 768 buckets. Failed count: 20374
+        16B: 5 Subsections = 5120 buckets. Failed count: 129128
+        32B: 34 Subsections = 17408 buckets. Failed count: 146785
+        48B: 49 Subsections = 16725 buckets. Failed count: 261607
+        64B: 40 Subsections = 10240 buckets. Failed count: 99631
+        80B: 85 Subsections = 17408 buckets. Failed count: 92046
+        96B: 27 Subsections = 4608 buckets. Failed count: 51361
+        112B: 10 Subsections = 1462 buckets. Failed count: 30502
+        128B: 6 Subsections = 768 buckets. Failed count: 19514
     [ALLOC_CACHEOBJECTS_MAIN]
-      Peak usage frame count: [4.0 MB-8.0 MB]: 1 frames, [8.0 MB-16.0 MB]: 5771 frames, [16.0 MB-32.0 MB]: 13441 frames
+      Peak usage frame count: [4.0 MB-8.0 MB]: 1 frames, [8.0 MB-16.0 MB]: 4873 frames, [16.0 MB-32.0 MB]: 7810 frames
       Requested Block Size 4.0 MB
       Peak Block count 6
       Peak Allocated memory 19.5 MB
       Peak Large allocation bytes 0 B
     [ALLOC_CACHEOBJECTS_THREAD]
-      Peak usage frame count: [4.0 KB-8.0 KB]: 5732 frames, [32.0 KB-64.0 KB]: 1 frames, [64.0 KB-128.0 KB]: 14 frames, [128.0 KB-256.0 KB]: 1 frames, [256.0 KB-0.5 MB]: 13407 frames, [0.5 MB-1.0 MB]: 58 frames
+      Peak usage frame count: [4.0 KB-8.0 KB]: 4837 frames, [32.0 KB-64.0 KB]: 1 frames, [64.0 KB-128.0 KB]: 14 frames, [256.0 KB-0.5 MB]: 7775 frames, [0.5 MB-1.0 MB]: 57 frames
       Requested Block Size 4.0 MB
       Peak Block count 1
-      Peak Allocated memory 0.7 MB
+      Peak Allocated memory 0.8 MB
       Peak Large allocation bytes 0 B
 [ALLOC_TYPETREE] Dual Thread Allocator
   Peak main deferred allocation count 0
@@ -1037,22 +1040,22 @@ Memory Statistics:
       Used Block count 1
       Peak Allocated bytes 4.0 MB
       Failed Allocations. Bucket layout:
-        16B: 5 Subsections = 5120 buckets. Failed count: 152357
-        32B: 34 Subsections = 17408 buckets. Failed count: 251517
-        48B: 49 Subsections = 16725 buckets. Failed count: 268334
-        64B: 40 Subsections = 10240 buckets. Failed count: 101744
-        80B: 85 Subsections = 17408 buckets. Failed count: 126574
-        96B: 27 Subsections = 4608 buckets. Failed count: 50736
-        112B: 10 Subsections = 1462 buckets. Failed count: 32205
-        128B: 6 Subsections = 768 buckets. Failed count: 20374
+        16B: 5 Subsections = 5120 buckets. Failed count: 129128
+        32B: 34 Subsections = 17408 buckets. Failed count: 146785
+        48B: 49 Subsections = 16725 buckets. Failed count: 261607
+        64B: 40 Subsections = 10240 buckets. Failed count: 99631
+        80B: 85 Subsections = 17408 buckets. Failed count: 92046
+        96B: 27 Subsections = 4608 buckets. Failed count: 51361
+        112B: 10 Subsections = 1462 buckets. Failed count: 30502
+        128B: 6 Subsections = 768 buckets. Failed count: 19514
     [ALLOC_TYPETREE_MAIN]
-      Peak usage frame count: [4.0 KB-8.0 KB]: 1 frames, [8.0 KB-16.0 KB]: 3623 frames, [16.0 KB-32.0 KB]: 24 frames, [32.0 KB-64.0 KB]: 16 frames, [128.0 KB-256.0 KB]: 1024 frames, [256.0 KB-0.5 MB]: 1094 frames, [0.5 MB-1.0 MB]: 13431 frames
+      Peak usage frame count: [4.0 KB-8.0 KB]: 1 frames, [8.0 KB-16.0 KB]: 2712 frames, [16.0 KB-32.0 KB]: 24 frames, [32.0 KB-64.0 KB]: 16 frames, [128.0 KB-256.0 KB]: 1040 frames, [256.0 KB-0.5 MB]: 1091 frames, [0.5 MB-1.0 MB]: 7800 frames
       Requested Block Size 2.0 MB
       Peak Block count 1
       Peak Allocated memory 0.7 MB
       Peak Large allocation bytes 0 B
     [ALLOC_TYPETREE_THREAD]
-      Peak usage frame count: [0-1.0 KB]: 19213 frames
+      Peak usage frame count: [0-1.0 KB]: 12684 frames
       Requested Block Size 2.0 MB
       Peak Block count 0
       Peak Allocated memory 0 B
