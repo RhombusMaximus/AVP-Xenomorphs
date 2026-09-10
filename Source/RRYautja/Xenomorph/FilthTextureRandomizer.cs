@@ -75,15 +75,15 @@ namespace RRYautja
         /// swap the graphic to a random variant. We store the chosen graphic
         /// per-filth-instance using the thingIDNumber as a stable hash.
         /// </summary>
-        public static void DrawAtPrefix(Filth __instance, Vector3 drawLoc, bool flip)
+        public static bool DrawAtPrefix(Filth __instance, Vector3 drawLoc, bool flip)
         {
             try
             {
-                if (bloodGraphics == null || slimeGraphics == null) return;
-                if (bloodGraphics.Length == 0 && slimeGraphics.Length == 0) return;
+                if (bloodGraphics == null || slimeGraphics == null) return true;
+                if (bloodGraphics.Length == 0 && slimeGraphics.Length == 0) return true;
 
                 string defName = __instance.def?.defName;
-                if (defName == null) return;
+                if (defName == null) return true;
 
                 Graphic[] pool = null;
                 if (defName == "RRY_FilthBloodXenomorph" || defName == "RRY_FilthBloodXenomorph_Active" || defName == "RRY_FilthBloodNeomorph")
@@ -95,19 +95,21 @@ namespace RRYautja
                     pool = slimeGraphics;
                 }
 
-                if (pool == null || pool.Length == 0) return;
+                if (pool == null || pool.Length == 0) return true;
 
                 // Use thingIDNumber for stable per-instance selection
                 int index = Mathf.Abs(__instance.thingIDNumber) % pool.Length;
                 Graphic randomGraphic = pool[index];
                 
-                // Draw with our random graphic instead of the default
+                // Draw with our random graphic instead of the default, skip original
                 randomGraphic.Draw(drawLoc, Rot4.North, __instance);
+                return false; // skip original DrawAt
             }
             catch
             {
                 // Fall back to original draw
             }
+            return true;
         }
     }
 }
