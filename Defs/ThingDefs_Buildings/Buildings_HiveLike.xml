@@ -350,7 +350,7 @@
     </statBases>
     <graphicData>
       <texPath>Things/Filth/XenomorphSlime</texPath>
-      <graphicClass>Graphic_Single</graphicClass>
+      <graphicClass>Graphic_Random</graphicClass>
       <color>(200, 180, 40, 200)</color>
     </graphicData>
     <filth>
@@ -369,7 +369,7 @@
     </statBases>
     <graphicData>
       <texPath>Things/Filth/XenomorphSlime</texPath>
-      <graphicClass>Graphic_Single</graphicClass>
+      <graphicClass>Graphic_Random</graphicClass>
       <color>(200, 180, 40, 200)</color>
     </graphicData>
     <filth>
