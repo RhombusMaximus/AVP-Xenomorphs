@@ -23,10 +23,15 @@ namespace RRYautja
             try
             {
                 var harmony = new Harmony("com.ogliss.rimworld.mod.rryatuja.filthrandomizer");
-                var drawMethod = AccessTools.Method(typeof(Filth), "DrawAt");
-                if (drawMethod != null)
+                // Patch Filth.Graphic getter to return a random variant
+                var graphicProp = AccessTools.Property(typeof(Filth), "Graphic");
+                if (graphicProp != null && graphicProp.GetMethod != null)
                 {
-                    harmony.Patch(drawMethod, prefix: new HarmonyMethod(typeof(FilthTextureRandomizer), nameof(DrawAtPrefix)));
+                    harmony.Patch(graphicProp.GetMethod, postfix: new HarmonyMethod(typeof(FilthTextureRandomizer), nameof(GraphicFor_Postfix)));
+                }
+                else
+                {
+                    Log.Warning("[AVP Xenomorphs] Could not find Filth.Graphic property — filth randomizer not applied");
                 }
                 // Defer texture loading until after all mod content is loaded
                 LongEventHandler.ExecuteWhenFinished(() => InitGraphics());
@@ -75,41 +80,29 @@ namespace RRYautja
         /// swap the graphic to a random variant. We store the chosen graphic
         /// per-filth-instance using the thingIDNumber as a stable hash.
         /// </summary>
-        public static bool DrawAtPrefix(Filth __instance, Vector3 drawLoc, bool flip)
+        static void GraphicFor_Postfix(Filth __instance, ref Graphic __result)
         {
-            try
+            if (bloodGraphics == null || slimeGraphics == null) return;
+            if (bloodGraphics.Length == 0 && slimeGraphics.Length == 0) return;
+
+            string defName = __instance.def?.defName;
+            if (defName == null) return;
+
+            Graphic[] pool = null;
+            if (defName == "RRY_FilthBloodXenomorph" || defName == "RRY_FilthBloodXenomorph_Active" || defName == "RRY_FilthBloodNeomorph")
             {
-                if (bloodGraphics == null || slimeGraphics == null) return true;
-                if (bloodGraphics.Length == 0 && slimeGraphics.Length == 0) return true;
-
-                string defName = __instance.def?.defName;
-                if (defName == null) return true;
-
-                Graphic[] pool = null;
-                if (defName == "RRY_FilthBloodXenomorph" || defName == "RRY_FilthBloodXenomorph_Active" || defName == "RRY_FilthBloodNeomorph")
-                {
-                    pool = bloodGraphics;
-                }
-                else if (defName == "RRY_Filth_Slime" || defName == "RRY_Xenomorph_Hive_Slime")
-                {
-                    pool = slimeGraphics;
-                }
-
-                if (pool == null || pool.Length == 0) return true;
-
-                // Use thingIDNumber for stable per-instance selection
-                int index = Mathf.Abs(__instance.thingIDNumber) % pool.Length;
-                Graphic randomGraphic = pool[index];
-                
-                // Draw with our random graphic instead of the default, skip original
-                randomGraphic.Draw(drawLoc, Rot4.North, __instance);
-                return false; // skip original DrawAt
+                pool = bloodGraphics;
             }
-            catch
+            else if (defName == "RRY_Filth_Slime" || defName == "RRY_Xenomorph_Hive_Slime")
             {
-                // Fall back to original draw
+                pool = slimeGraphics;
             }
-            return true;
+
+            if (pool == null || pool.Length == 0) return;
+
+            // Use thingIDNumber for stable per-instance selection
+            int index = Mathf.Abs(__instance.thingIDNumber) % pool.Length;
+            __result = pool[index];
         }
     }
 }
