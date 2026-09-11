@@ -6,8 +6,7 @@ namespace RRYautja
 {
     /// <summary>
     /// Leap ability effect for Facehuggers and Runners.
-    /// Launches the pawn as a PawnFlyer toward the target cell, closing distance quickly.
-    /// Based on vanilla Finger Spike leap behavior.
+    /// Uses vanilla JumpUtility.DoJump to launch the pawn toward the target.
     /// </summary>
     public class CompAbilityEffect_Leap : CompAbilityEffect
     {
@@ -24,11 +23,14 @@ namespace RRYautja
             IntVec3 destCell = target.Cell;
             if (!destCell.IsValid || !destCell.InBounds(pawn.Map)) return;
 
-            // Use vanilla PawnFlyer to launch the pawn to the target cell
-            PawnFlyer flyer = PawnFlyer.MakeFlyer(ThingDef.Named("RRY_LeapFlyer"), pawn, destCell, null, null);
-            if (flyer != null)
+            try
             {
-                GenSpawn.Spawn(flyer, pawn.Position, pawn.Map, WipeMode.Vanish);
+                // Use vanilla JumpUtility.DoJump — the standard 1.6 way to make pawns leap
+                JumpUtility.DoJump(pawn, target, null, this.parent.verb.verbProps, this.parent, target, null);
+            }
+            catch (System.Exception e)
+            {
+                Log.Error($"[AVP Xenomorphs] Leap failed for {pawn.LabelShort}: {e.Message}");
             }
         }
 

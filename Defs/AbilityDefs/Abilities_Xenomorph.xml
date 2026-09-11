@@ -21,7 +21,7 @@
     <description>Leap toward a target, closing distance rapidly.</description>
     <iconPath>UI/Icons/Icon_Xenomorph</iconPath>
     <verbProperties>
-      <verbClass>Verb_CastAbility</verbClass>
+      <verbClass>Verb_CastAbilityJump</verbClass>
       <range>8</range>
       <warmupTime>0.3</warmupTime>
       <targetParams>
