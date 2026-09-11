@@ -17,7 +17,7 @@
 			<armorPenetrationBase>0.16</armorPenetrationBase>
 			<explosionRadius>0.50</explosionRadius>
 			<explosionChanceToStartFire>1.0</explosionChanceToStartFire>
-			<postExplosionSpawnThingDef>RRY_FilthBloodXenomorph</postExplosionSpawnThingDef>
+						<postExplosionSpawnThingDef>Filth_Blood</postExplosionSpawnThingDef>
 			<preExplosionSpawnChance>0.5</preExplosionSpawnChance>
 			<stoppingPower>0.75</stoppingPower>
 			<speed>30</speed>
