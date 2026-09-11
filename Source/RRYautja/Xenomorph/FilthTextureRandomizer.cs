@@ -23,13 +23,13 @@ namespace RRYautja
             try
             {
                 var harmony = new Harmony("com.ogliss.rimworld.mod.rryatuja.filthrandomizer");
-                // Patch Filth.DrawAt to use a random graphic
                 var drawMethod = AccessTools.Method(typeof(Filth), "DrawAt");
                 if (drawMethod != null)
                 {
                     harmony.Patch(drawMethod, prefix: new HarmonyMethod(typeof(FilthTextureRandomizer), nameof(DrawAtPrefix)));
                 }
-                InitGraphics();
+                // Defer texture loading until after all mod content is loaded
+                LongEventHandler.ExecuteWhenFinished(() => InitGraphics());
             }
             catch (System.Exception e)
             {
