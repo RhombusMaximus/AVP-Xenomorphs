@@ -95,14 +95,20 @@ namespace RRYautja.settings
 
             // Set stunFromEMP on all Xenomorph and Neomorph race defs (not XML-writable in 1.6)
             var stunField = typeof(ThingDef).GetField("stunFromEMP", System.Reflection.BindingFlags.Public | System.Reflection.BindingFlags.NonPublic | System.Reflection.BindingFlags.Instance);
-            if (stunField != null)
+            var stunProp = typeof(ThingDef).GetProperty("stunFromEMP", System.Reflection.BindingFlags.Public | System.Reflection.BindingFlags.NonPublic | System.Reflection.BindingFlags.Instance);
+            if (stunField != null || stunProp != null)
             {
                 foreach (var def in DefDatabase<ThingDef>.AllDefs)
                 {
                     if (def.defName != null && (def.defName.StartsWith("RRY_Xenomorph") || def.defName.StartsWith("RRY_Neomorph")))
                     {
-                        try { stunField.SetValue(def, true); } catch { }
+                        try { if (stunField != null) stunField.SetValue(def, true); } catch { }
+                        try { if (stunProp != null && stunProp.CanWrite) stunProp.SetValue(def, true); } catch { }
                     }
+                }
+                if (stunField == null && stunProp == null)
+                {
+                    Log.Warning("[AVP Xenomorphs] stunFromEMP field/property not found — EMP stun will not work");
                 }
             }
 

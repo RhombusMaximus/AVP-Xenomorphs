@@ -22,10 +22,19 @@ namespace RimWorld
             yield return Toils_General.WaitWith(TargetIndex.A, LayEgg, true);
             yield return Toils_General.Do(delegate
             {
-                Thing forbiddenIfOutsideHomeArea = GenSpawn.Spawn(this.pawn.GetComp<CompXenoEggLayer>().ProduceEgg(), this.pawn.Position, base.Map, WipeMode.Vanish);
-                if (forbiddenIfOutsideHomeArea.GetType() != typeof(Building_XenoEgg))
+                var eggLayer = this.pawn.GetComp<CompXenoEggLayer>();
+                if (eggLayer == null) return;
+                var eggs = eggLayer.ProduceEggs();
+                Map map = base.Map;
+                if (map == null) return;
+                foreach (var egg in eggs)
                 {
-                    forbiddenIfOutsideHomeArea.SetForbidden(true);
+                    IntVec3 spawnLoc = this.pawn.Position;
+                    if (eggs.Count > 1)
+                    {
+                        spawnLoc = CellFinder.RandomClosewalkCellNear(this.pawn.Position, map, 2);
+                    }
+                    GenSpawn.Spawn(egg, spawnLoc, map, WipeMode.Vanish);
                 }
             });
             yield break;

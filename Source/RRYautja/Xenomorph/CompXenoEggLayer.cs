@@ -1,5 +1,6 @@
 ﻿using RimWorld;
 using System;
+using System.Collections.Generic;
 using UnityEngine;
 using Verse;
 
@@ -120,57 +121,59 @@ namespace RRYautja
         }
 
         // Token: 0x06002896 RID: 10390 RVA: 0x00134DF4 File Offset: 0x001331F4
-        public virtual Thing ProduceEgg()
+        public virtual List<Thing> ProduceEggs()
         {
+            List<Thing> eggs = new List<Thing>();
             if (!this.Active)
             {
-            //    Log.Error("LayEgg while not Active: " + this.parent, false);
+                return eggs;
             }
             this.eggProgress = 0f;
-            int randomInRange = this.Props.eggCountRange.RandomInRange;
-            if (randomInRange == 0)
+            int count = this.Props.eggCountRange.RandomInRange;
+            if (count == 0)
             {
-                return null;
+                return eggs;
             }
-            this.fertilizationCount = Mathf.Max(0, this.fertilizationCount - randomInRange);
+            this.fertilizationCount = Mathf.Max(0, this.fertilizationCount - count);
 
-            // Create the first egg
-            Thing thing = ThingMaker.MakeThing(this.Props.eggDef, null);
-            Building_XenoEgg compHatcher = thing as Building_XenoEgg;
-            if (compHatcher != null)
-            {
-                compHatcher.hatcheeFaction = this.parent.Faction;
-                if (this.parent is Pawn pawn)
-                {
-                    compHatcher.hatcheeParent = pawn;
-                }
-            }
-
-            // For additional eggs, spawn them at adjacent cells
             Map eggMap = this.parent.MapHeld ?? this.parent.Map;
-            if (randomInRange > 1 && eggMap != null)
+            IntVec3 eggPos = this.parent.PositionHeld;
+            if (eggPos == IntVec3.Invalid) eggPos = this.parent.Position;
+
+            for (int i = 0; i < count; i++)
+            {
+                Thing egg = ThingMaker.MakeThing(this.Props.eggDef, null);
+                Building_XenoEgg hatcher = egg as Building_XenoEgg;
+                if (hatcher != null)
+                {
+                    hatcher.hatcheeFaction = this.parent.Faction;
+                    if (this.parent is Pawn pawn)
+                    {
+                        hatcher.hatcheeParent = pawn;
+                    }
+                }
+                eggs.Add(egg);
+            }
+            return eggs;
+        }
+
+        public virtual Thing ProduceEgg()
+        {
+            // Legacy method — returns first egg only
+            var eggs = ProduceEggs();
+            // Spawn extras at adjacent cells
+            Map eggMap = this.parent.MapHeld ?? this.parent.Map;
+            if (eggs.Count > 1 && eggMap != null)
             {
                 IntVec3 eggPos = this.parent.PositionHeld;
                 if (eggPos == IntVec3.Invalid) eggPos = this.parent.Position;
-                for (int i = 1; i < randomInRange; i++)
+                for (int i = 1; i < eggs.Count; i++)
                 {
-                    Thing extraEgg = ThingMaker.MakeThing(this.Props.eggDef, null);
-                    Building_XenoEgg extraHatcher = extraEgg as Building_XenoEgg;
-                    if (extraHatcher != null)
-                    {
-                        extraHatcher.hatcheeFaction = this.parent.Faction;
-                        if (this.parent is Pawn p)
-                        {
-                            extraHatcher.hatcheeParent = p;
-                        }
-                    }
-                    // Try to place the extra egg nearby
                     IntVec3 spawnLoc = CellFinder.RandomClosewalkCellNear(eggPos, eggMap, 2);
-                    GenSpawn.Spawn(extraEgg, spawnLoc, eggMap, WipeMode.Vanish);
+                    GenSpawn.Spawn(eggs[i], spawnLoc, eggMap, WipeMode.Vanish);
                 }
             }
-
-            return thing;
+            return eggs.Count > 0 ? eggs[0] : null;
         }
 
         // Token: 0x06002897 RID: 10391 RVA: 0x00134EE8 File Offset: 0x001332E8
