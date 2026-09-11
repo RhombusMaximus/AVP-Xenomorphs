@@ -24,11 +24,11 @@ namespace RRYautja
     static class AvP_DroneVariant_Patch
     {
         // Texture paths for each variant index.
-        // 0 = base (no override needed — the PawnKindDef already points at Xenomorph_Drone)
-        // 1..4 = New_Dark, New_Gold, New_Light, New_Red
+        // 0 = Dark (default drone texture), 1 = Dark (bigger), 2 = Gold/Spitter (bigger)
+        // Base Xenomorph_Drone texture is used by Praetorian and chestburster stages
         private static readonly string[] VariantPaths =
         {
-            null, // 0: base, no override
+            null, // 0: Dark variant — handled by PawnKindDef using Xenomorph_Drone_New_Dark
             "Things/Pawn/Xenomorph/Xenomorph_Drone_New_Dark",
             "Things/Pawn/Xenomorph/Xenomorph_Drone_New_Gold",
             "Things/Pawn/Xenomorph/Xenomorph_Drone_New_Light",
@@ -65,10 +65,12 @@ namespace RRYautja
             }
             if (variantGraphics[variant] == null)
             {
+                // Dark (1) and Gold/Spitter (2) are 50% bigger than standard drones
+                Vector2 drawSize = (variant == 1 || variant == 2) ? new Vector2(1.5f, 1.5f) : Vector2.one;
                 variantGraphics[variant] = (Graphic_Multi)GraphicDatabase.Get<Graphic_Multi>(
                     VariantPaths[variant],
                     ShaderDatabase.CutoutComplex,
-                    Vector2.one,
+                    drawSize,
                     Color.white);
             }
             return variantGraphics[variant];

@@ -685,7 +685,7 @@
       </li>
       <li>
         <bodyGraphicData>
-          <texPath>Things/Pawn/Xenomorph/Xenomorph_Drone</texPath>
+          <texPath>Things/Pawn/Xenomorph/Xenomorph_Drone_New_Dark</texPath>
           <graphicClass>Graphic_Multi</graphicClass>
           <shaderType>CutoutComplex</shaderType>
           <drawSize>1.0</drawSize>
@@ -696,7 +696,7 @@
       </li>
       <li>
         <bodyGraphicData>
-          <texPath>Things/Pawn/Xenomorph/Xenomorph_Drone</texPath>
+          <texPath>Things/Pawn/Xenomorph/Xenomorph_Drone_New_Dark</texPath>
           <graphicClass>Graphic_Multi</graphicClass>
           <shaderType>CutoutComplex</shaderType>
           <drawSize>1.25</drawSize>
@@ -707,7 +707,7 @@
       </li>
       <li>
         <bodyGraphicData>
-          <texPath>Things/Pawn/Xenomorph/Xenomorph_Drone</texPath>
+          <texPath>Things/Pawn/Xenomorph/Xenomorph_Drone_New_Dark</texPath>
           <graphicClass>Graphic_Multi</graphicClass>
           <shaderType>CutoutComplex</shaderType>
           <drawSize>1.5</drawSize>
@@ -764,29 +764,29 @@
           <texPath>Things/Pawn/Xenomorph/Xenomorph_Drone_New_Gold</texPath>
           <graphicClass>Graphic_Multi</graphicClass>
           <shaderType>CutoutComplex</shaderType>
-          <drawSize>1.0</drawSize>
-          <shadowData>
-            <volume>(0.4, 0.8, 0.4)</volume>
-          </shadowData>
-        </bodyGraphicData>
-      </li>
-      <li>
-        <bodyGraphicData>
-          <texPath>Things/Pawn/Xenomorph/Xenomorph_Drone_New_Gold</texPath>
-          <graphicClass>Graphic_Multi</graphicClass>
-          <shaderType>CutoutComplex</shaderType>
-          <drawSize>1.25</drawSize>
-          <shadowData>
-            <volume>(0.4, 0.8, 0.4)</volume>
-          </shadowData>
-        </bodyGraphicData>
-      </li>
-      <li>
-        <bodyGraphicData>
-          <texPath>Things/Pawn/Xenomorph/Xenomorph_Drone_New_Gold</texPath>
-          <graphicClass>Graphic_Multi</graphicClass>
-          <shaderType>CutoutComplex</shaderType>
           <drawSize>1.5</drawSize>
+          <shadowData>
+            <volume>(0.4, 0.8, 0.4)</volume>
+          </shadowData>
+        </bodyGraphicData>
+      </li>
+      <li>
+        <bodyGraphicData>
+          <texPath>Things/Pawn/Xenomorph/Xenomorph_Drone_New_Gold</texPath>
+          <graphicClass>Graphic_Multi</graphicClass>
+          <shaderType>CutoutComplex</shaderType>
+          <drawSize>1.875</drawSize>
+          <shadowData>
+            <volume>(0.4, 0.8, 0.4)</volume>
+          </shadowData>
+        </bodyGraphicData>
+      </li>
+      <li>
+        <bodyGraphicData>
+          <texPath>Things/Pawn/Xenomorph/Xenomorph_Drone_New_Gold</texPath>
+          <graphicClass>Graphic_Multi</graphicClass>
+          <shaderType>CutoutComplex</shaderType>
+          <drawSize>2.25</drawSize>
           <shadowData>
             <volume>(0.4, 0.8, 0.4)</volume>
           </shadowData>
