@@ -499,6 +499,10 @@ namespace RRYautja
                 for (int i = 0; i < spawncount; i++)
                 {
                     Pawn pawn = PawnGenerator.GeneratePawn(request);
+                    // Set royal flag on the facehugger's HediffComp if this is a royal egg
+                    // The RoyaleHugger property on Comp_Facehugger checks kindDef automatically,
+                    // but the hediff's HediffComp_XenoFacehugger needs the flag set explicitly
+                    // when the facehugger infects a host (done in the melee attack patch)
                     if (TrySpawnHatchedOrBornPawn(pawn))
                     {
                         if (pawn != null)

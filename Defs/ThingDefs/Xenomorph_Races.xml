@@ -203,11 +203,11 @@
     <label>Queen</label>
     <description>Queen Xenomorphs are significantly larger and stronger than the normal adults, being approximately 4.5 metres (15 ft) tall. Their body structure differs also, having two pairs of arms, one large and one small. The queen's head is larger than those of other adult Xenomorphs and is protected by a large, flat crest, like a crown, which varies from queen to queen. Unlike other Xenomorphs, the queen's external mouth is separately segmented from the rest of her head, allowing her to turn her mouth left and right almost to the point where it is facing perpendicular to the direction of the rest of her head./n/nEgg-laying Xenomorph queens possess an immense ovipositor attached to their lower torso, similar to a queen termite's. Unlike insect queens, there appears to be no need for an Xenomorph queen's eggs to be fertilized. When attached to her ovipositor, the queen is supported by a "biomechanical throne" that consists of a lattice of struts resembling massive insect legs.</description>
     <statBases>
-      <Mass>160</Mass>
+      <Mass>300</Mass>
       <MoveSpeed>2.875</MoveSpeed>
-      <ArmorRating_Blunt>0.55</ArmorRating_Blunt>
-      <ArmorRating_Sharp>0.55</ArmorRating_Sharp>
-      <ArmorRating_Heat>0.55</ArmorRating_Heat>
+      <ArmorRating_Blunt>0.8</ArmorRating_Blunt>
+      <ArmorRating_Sharp>0.8</ArmorRating_Sharp>
+      <ArmorRating_Heat>0.7</ArmorRating_Heat>
       <MeatAmount>115</MeatAmount>
       <LeatherAmount>90</LeatherAmount>
       <PsychicSensitivity>0.25</PsychicSensitivity>
@@ -219,8 +219,8 @@
           <li>Blunt</li>
           <li>Cut</li>
         </capacities>
-        <power>7.5</power>
-        <cooldownTime>4.0</cooldownTime>
+        <power>25</power>
+        <cooldownTime>3.0</cooldownTime>
         <linkedBodyPartsGroup>RRY_Xeno_LeftHand</linkedBodyPartsGroup>
         <surpriseAttack>
           <extraMeleeDamages>
@@ -237,8 +237,8 @@
           <li>Blunt</li>
           <li>Cut</li>
         </capacities>
-        <power>7.5</power>
-        <cooldownTime>4.0</cooldownTime>
+        <power>25</power>
+        <cooldownTime>3.0</cooldownTime>
         <linkedBodyPartsGroup>RRY_Xeno_RightHand</linkedBodyPartsGroup>
         <surpriseAttack>
           <extraMeleeDamages>
@@ -254,8 +254,8 @@
         <capacities>
           <li>Bite</li>
         </capacities>
-        <power>12.5</power>
-        <cooldownTime>4.0</cooldownTime>
+        <power>30</power>
+        <cooldownTime>3.0</cooldownTime>
         <linkedBodyPartsGroup>Teeth</linkedBodyPartsGroup>
         <chanceFactor>0.07</chanceFactor>
       </li>
@@ -264,8 +264,8 @@
         <capacities>
           <li>Bite</li>
         </capacities>
-        <power>15.0</power>
-        <cooldownTime>4.0</cooldownTime>
+        <power>35</power>
+        <cooldownTime>3.0</cooldownTime>
         <linkedBodyPartsGroup>Teeth</linkedBodyPartsGroup>
         <chanceFactor>0.07</chanceFactor>
       </li>
@@ -274,8 +274,8 @@
         <capacities>
           <li>Blunt</li>
         </capacities>
-        <power>7.5</power>
-        <cooldownTime>4.0</cooldownTime>
+        <power>25</power>
+        <cooldownTime>3.0</cooldownTime>
         <linkedBodyPartsGroup>HeadAttackTool</linkedBodyPartsGroup>
         <ensureLinkedBodyPartsGroupAlwaysUsable>true</ensureLinkedBodyPartsGroupAlwaysUsable>
         <chanceFactor>0.2</chanceFactor>
@@ -286,8 +286,8 @@
           <li>Blunt</li>
           <li>RRY_TailWhip</li>
         </capacities>
-        <power>5.0</power>
-        <cooldownTime>4.0</cooldownTime>
+        <power>15</power>
+        <cooldownTime>3.0</cooldownTime>
         <linkedBodyPartsGroup>RRY_Xeno_Tail_AttackTool</linkedBodyPartsGroup>
         <chanceFactor>0.2</chanceFactor>
       </li>
@@ -297,8 +297,8 @@
           <li>Stab</li>
           <li>Cut</li>
         </capacities>
-        <power>20.0</power>
-        <cooldownTime>5.0</cooldownTime>
+        <power>50</power>
+        <cooldownTime>3.0</cooldownTime>
         <linkedBodyPartsGroup>RRY_Xeno_Tail_SpikeAttackTool</linkedBodyPartsGroup>
         <chanceFactor>0.2</chanceFactor>
       </li>
@@ -307,8 +307,8 @@
       <intelligence>ToolUser</intelligence>
       <body>RRY_Xenomorph_Biped</body>
 	  <useMeatFrom>RRY_Xenomorph_FaceHugger</useMeatFrom>
-      <baseBodySize>1.5</baseBodySize>
-      <baseHealthScale>14.25</baseHealthScale>
+      <baseBodySize>3.0</baseBodySize>
+      <baseHealthScale>20.0</baseHealthScale>
       <lifeStageAges>
         <li>
           <def>RRY_XenomorphChestBursterBaby</def>

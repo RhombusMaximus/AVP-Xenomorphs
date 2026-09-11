@@ -298,8 +298,7 @@ namespace RRYautja
         public override void CompPostPostAdd(DamageInfo? dinfo)
         {
             base.CompPostPostAdd(dinfo);
-            // Facehugger mask apparel disabled for troubleshooting
-            // AddMaskApparel();
+            AddMaskApparel();
             if (!PlayerKnowledgeDatabase.IsComplete(XenomorphConceptDefOf.RRY_Concept_Facehuggers) && Pawn.Spawned && Pawn.IsColonist)
             {
                 LessonAutoActivator.TeachOpportunity(XenomorphConceptDefOf.RRY_Concept_Facehuggers, OpportunityType.Important);
@@ -308,8 +307,7 @@ namespace RRYautja
 
         public override void CompPostPostRemoved()
         {
-            // Facehugger mask apparel disabled for troubleshooting
-            // RemoveMaskApparel();
+            RemoveMaskApparel();
             Thing hostThing = Pawn;
             Pawn hostPawn = Pawn;
             Map spawnMap = !Pawn.Dead ? Pawn.Map : Pawn.MapHeld;

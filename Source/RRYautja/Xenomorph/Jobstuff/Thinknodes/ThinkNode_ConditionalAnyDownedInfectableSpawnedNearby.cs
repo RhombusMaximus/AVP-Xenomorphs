@@ -28,7 +28,7 @@ namespace RimWorld
         {
             if (pawn == null || pawn.Map == null) return false;
             bool result;
-            if (pawn.Spawned && XenomorphUtil.IsXenomorph(pawn) && pawn.Map.mapPawns.AllPawns.Any((Pawn x) => x.Downed && x.isPotentialHost() && pawn.CanReach(x, PathEndMode.InteractionCell, Danger.Deadly, false, false, TraverseMode.NoPassClosedDoors)))
+            if (pawn.Spawned && XenomorphUtil.IsXenomorph(pawn) && pawn.Map.mapPawns.AllPawns.Any((Pawn x) => x != null && x.Map != null && x.Spawned && x.Downed && x.isPotentialHost() && pawn.CanReach(x, PathEndMode.InteractionCell, Danger.Deadly, false, false, TraverseMode.NoPassClosedDoors)))
             {
                 List<Pawn> list = pawn.Map.mapPawns.AllPawns.Where((Pawn x) => x.Downed && x.isPotentialHost() && pawn.CanReach(x, PathEndMode.InteractionCell, Danger.Deadly, false, false, TraverseMode.NoPassClosedDoors)).ToList();
                 result = !list.NullOrEmpty() ? list.Any<Pawn>(x => x.Spawned) : false;
