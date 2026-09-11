@@ -1006,7 +1006,7 @@
     <label>Praetorian</label>
     <description>Royal Guard of the Xenomorph hive. Praetorians are elite caste Xenomorphs that guard the Queen and the hive entrance. They are significantly larger and more armored than standard Warriors, with powerful claws and tail attacks.</description>
     <graphicData>
-      <texPath>Things/Pawn/Xenomorph/Xenomorph_Drone</texPath>
+      <texPath>Things/Pawn/Xenomorph/Xenomorph_Praetorian</texPath>
       <graphicClass>Graphic_Multi</graphicClass>
     </graphicData>
     <statBases>
@@ -1152,7 +1152,7 @@
       </li>
       <li>
         <bodyGraphicData>
-          <texPath>Things/Pawn/Xenomorph/Xenomorph_Drone</texPath>
+          <texPath>Things/Pawn/Xenomorph/Xenomorph_Praetorian</texPath>
           <graphicClass>Graphic_Multi</graphicClass>
           <shaderType>CutoutComplex</shaderType>
           <drawSize>1.5</drawSize>
@@ -1163,7 +1163,7 @@
       </li>
       <li>
         <bodyGraphicData>
-          <texPath>Things/Pawn/Xenomorph/Xenomorph_Drone</texPath>
+          <texPath>Things/Pawn/Xenomorph/Xenomorph_Praetorian</texPath>
           <graphicClass>Graphic_Multi</graphicClass>
           <shaderType>CutoutComplex</shaderType>
           <drawSize>2.0</drawSize>
@@ -1174,7 +1174,7 @@
       </li>
       <li>
         <bodyGraphicData>
-          <texPath>Things/Pawn/Xenomorph/Xenomorph_Drone</texPath>
+          <texPath>Things/Pawn/Xenomorph/Xenomorph_Praetorian</texPath>
           <graphicClass>Graphic_Multi</graphicClass>
           <shaderType>CutoutComplex</shaderType>
           <drawSize>2.5</drawSize>
