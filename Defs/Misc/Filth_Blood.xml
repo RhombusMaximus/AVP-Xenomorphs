@@ -11,7 +11,7 @@
     <graphicData>
       <texPath>Things/Filth/XenomorphBlood</texPath>
       <graphicClass>Graphic_Single</graphicClass>
-      <color>(200, 180, 40, 200)</color>
+      <color>(180, 30, 30, 255)</color>
     </graphicData>
     <tickerType>Normal</tickerType>
     <thingClass>RRYautja.Filth_AddAcidDamage</thingClass>
