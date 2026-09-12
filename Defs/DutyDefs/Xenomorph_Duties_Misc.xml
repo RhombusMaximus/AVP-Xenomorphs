@@ -191,12 +191,16 @@
 		<li Class="JobGiver_Xenomorph_GetFood">
 		<minCategory>UrgentlyHungry</minCategory>
 		</li>
-		<!-- Hold position near the hive/Queen when no threat is present -->
-		<li Class="JobGiver_WanderHiveLike">
-		<maxDanger>Deadly</maxDanger>
-		</li>
-		</subNodes>
-		</li>
+				<!-- Hold position near the hive/Queen when no threat is present -->
+				<li Class="JobGiver_WanderHiveLike">
+				<maxDanger>Deadly</maxDanger>
+				</li>
+				<!-- Fallback: always produce a job so the Praetorian never hits IdleError -->
+				<li Class="JobGiver_WanderRandom">
+				<maxDanger>Deadly</maxDanger>
+				</li>
+				</subNodes>
+				</li>
 		
 		<li Class="JobGiver_MineOutHive"> 
 		</li>
