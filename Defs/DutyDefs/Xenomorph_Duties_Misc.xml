@@ -195,10 +195,10 @@
 				<li Class="JobGiver_WanderHiveLike">
 				<maxDanger>Deadly</maxDanger>
 				</li>
-				<!-- Fallback: always produce a job so the Praetorian never hits IdleError -->
-				<li Class="JobGiver_WanderRandom">
-				<maxDanger>Deadly</maxDanger>
-				</li>
+								<!-- Fallback: always produce a job so the Praetorian never hits IdleError -->
+								<li Class="JobGiver_WanderAnywhere">
+								<maxDanger>Deadly</maxDanger>
+								</li>
 				</subNodes>
 				</li>
 		
