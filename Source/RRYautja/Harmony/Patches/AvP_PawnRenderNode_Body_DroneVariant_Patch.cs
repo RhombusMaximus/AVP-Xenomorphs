@@ -65,8 +65,8 @@ namespace RRYautja
             }
             if (variantGraphics[variant] == null)
             {
-                // Dark (1) and Gold/Spitter (2) are 50% bigger than standard drones
-                Vector2 drawSize = (variant == 1 || variant == 2) ? new Vector2(1.5f, 1.5f) : Vector2.one;
+                // Size is controlled by PawnKindDef drawSize, not here
+                Vector2 drawSize = Vector2.one;
                 variantGraphics[variant] = (Graphic_Multi)GraphicDatabase.Get<Graphic_Multi>(
                     VariantPaths[variant],
                     ShaderDatabase.CutoutComplex,
