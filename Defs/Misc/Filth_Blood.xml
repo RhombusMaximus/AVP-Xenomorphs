@@ -1,26 +1,62 @@
 <?xml version="1.0" encoding="utf-8" ?>
 <Defs>
 
-  <!-- Active acidic blood: inherits vanilla Filth_Blood graphics (real vanilla
-       splatter art + Graphic_Random variation) but uses our acid-damage
-       thingClass so it hurts pawns/things that touch it. -->
-  <ThingDef Class="RRYautja.Filth_AddAcidDamageDef" ParentName="Filth_Blood">
+  <ThingDef Class="RRYautja.Filth_AddAcidDamageDef" ParentName="BaseFilth">
     <defName>RRY_FilthBloodXenomorph_Active</defName>
     <label>acidic blood</label>
+    <statBases>
+      <Beauty>-14</Beauty>
+      <Cleanliness>-10</Cleanliness>
+    </statBases>
+    <graphicData>
+      <texPath>Things/Filth/XenomorphBlood_a</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+    </graphicData>
     <tickerType>Normal</tickerType>
     <thingClass>RRYautja.Filth_AddAcidDamage</thingClass>
+    <filth>
+      <rainWashes>true</rainWashes>
+      <cleaningWorkToReduceThickness>90</cleaningWorkToReduceThickness>
+      <canFilthAttach>true</canFilthAttach>
+    </filth>
   </ThingDef>
 
-  <!-- Regular blood defs kept for save compatibility / DefOf references.
-       Now inherit vanilla blood graphics too. -->
-  <ThingDef ParentName="Filth_Blood">
+  <ThingDef ParentName="BaseFilth">
     <defName>RRY_FilthBloodXenomorph</defName>
     <label>blood</label>
+    <statBases>
+      <Beauty>-14</Beauty>
+      <Cleanliness>-10</Cleanliness>
+    </statBases>
+    <graphicData>
+      <texPath>Things/Filth/XenomorphBlood_a</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+    </graphicData>
+    <thingClass>RRYautja.Filth_XenomorphBlood</thingClass>
+    <filth>
+      <rainWashes>true</rainWashes>
+      <cleaningWorkToReduceThickness>90</cleaningWorkToReduceThickness>
+      <canFilthAttach>true</canFilthAttach>
+    </filth>
   </ThingDef>
 
-  <ThingDef ParentName="Filth_Blood">
+  <ThingDef ParentName="BaseFilth">
     <defName>RRY_FilthBloodNeomorph</defName>
     <label>blood</label>
+    <statBases>
+      <Beauty>-14</Beauty>
+      <Cleanliness>-10</Cleanliness>
+    </statBases>
+    <graphicData>
+      <texPath>Things/Filth/XenomorphBlood_a</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+    </graphicData>
+    <thingClass>RRYautja.Filth_XenomorphBlood</thingClass>
+    <filth>
+      <rainWashes>true</rainWashes>
+      <cleaningWorkToReduceThickness>90</cleaningWorkToReduceThickness>
+      <canFilthAttach>true</canFilthAttach>
+    </filth>
   </ThingDef>
 
 </Defs>

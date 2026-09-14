@@ -11,7 +11,9 @@ namespace RRYautja
 
     }
 
-    public class Filth_AddAcidDamage : Filth
+    // Extends Filth_XenomorphBlood: inherits the 16-variant Graphic override,
+    // keeps its own acid damage logic below.
+    public class Filth_AddAcidDamage : Filth_XenomorphBlood
     {
         public override void ExposeData()
         {

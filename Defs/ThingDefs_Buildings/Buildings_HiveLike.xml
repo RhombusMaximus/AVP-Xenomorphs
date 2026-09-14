@@ -351,10 +351,10 @@
       <Cleanliness>-5</Cleanliness>
     </statBases>
     <graphicData>
-      <texPath>Things/Filth/XenomorphSlime</texPath>
+      <texPath>Things/Filth/XenomorphSlime_a</texPath>
       <graphicClass>Graphic_Single</graphicClass>
-      <color>(255, 255, 255, 255)</color>
     </graphicData>
+    <thingClass>RRYautja.Filth_XenomorphSlime</thingClass>
     <filth>
       <rainWashes>false</rainWashes>
       <cleaningWorkToReduceThickness>70</cleaningWorkToReduceThickness>
@@ -370,10 +370,10 @@
       <Cleanliness>-5</Cleanliness>
     </statBases>
     <graphicData>
-      <texPath>Things/Filth/XenomorphSlime</texPath>
+      <texPath>Things/Filth/XenomorphSlime_a</texPath>
       <graphicClass>Graphic_Single</graphicClass>
-      <color>(255, 255, 255, 255)</color>
     </graphicData>
+    <thingClass>RRYautja.Filth_XenomorphSlime</thingClass>
     <filth>
       <rainWashes>false</rainWashes>
       <cleaningWorkToReduceThickness>10000</cleaningWorkToReduceThickness>
