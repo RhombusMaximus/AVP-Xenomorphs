@@ -191,18 +191,23 @@ namespace RimWorld
                 return null;
             }
             if (pawn.Map.skyManager == null) return null;
-            if (pawn.Map.skyManager.CurSkyGlow<0.5f)
+            bool night = pawn.Map.skyManager.CurSkyGlow < 0.5f;
+            if (night)
             {
                 HuntingRange = HuntingRange * 2;
                 requireLOS = false;
             }
             // Filter pawns WITHOUT CanReach (expensive pathfinding) — do that later only on candidates
+            // At night, hunt EVERYTHING alive (kill or impregnate all) — not just potential hosts
+            bool huntAll = night;
             List<Pawn> candidates = pawn.Map.mapPawns.AllPawns.Where((Pawn x) =>
                 x != null && x.Map != null && x.Spawned
                 && x.health != null && x.health.hediffSet != null
                 && !x.health.hediffSet.HasHediff(XenomorphDefOf.RRY_Hediff_Cocooned)
                 && (!x.Downed || !x.Awake())
-                && x.isPotentialHost()
+                && (huntAll || x.isPotentialHost())
+                && !x.isXenomorph()
+                && !x.RaceProps.IsMechanoid
                 && !pawn.health.hediffSet.HasHediff(XenomorphDefOf.RRY_Hediff_Anesthetic)
                 && (this.Gender == Gender.None || x.gender == this.Gender)).ToList();
             // Now do CanReach only on the filtered candidates (much fewer than all pawns)

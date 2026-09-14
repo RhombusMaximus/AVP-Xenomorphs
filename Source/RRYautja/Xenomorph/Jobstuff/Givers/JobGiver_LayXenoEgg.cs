@@ -17,7 +17,7 @@ namespace RimWorld
             if (!JobGiverTickThrottle.ShouldRun(pawn)) return null;
             ThingDef namedA = XenomorphDefOf.RRY_Xenomorph_Cocoon_Humanoid;
             ThingDef namedB = XenomorphDefOf.RRY_Xenomorph_Cocoon_Animal;
-            if (pawn.Map == null || pawn.Map != Find.CurrentMap)
+            if (pawn.Map == null || !pawn.Spawned)
             {
                 return null;
             }

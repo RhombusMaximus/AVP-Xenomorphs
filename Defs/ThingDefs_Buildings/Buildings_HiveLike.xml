@@ -189,17 +189,19 @@
 		<Faction>RRY_Xenomorph</Faction>
 		<TunnelDef>TunnelHiveLikeChildSpawner</TunnelDef>
 		<PawnKinds>
-		  <!-- <li>RRY_Xenomorph_FaceHugger</li> -->
-		  <!-- <li>RRY_Xenomorph_Queen</li> -->
-		  <!-- <li>RRY_Xenomorph_Predalien</li> -->
-		  <!-- <li>RRY_Xenomorph_Neomorph</li> -->
-		  <li>RRY_Xenomorph_Warrior</li>
-		  <li>RRY_Xenomorph_Drone</li>
-		  <li>RRY_Xenomorph_Spitter</li>
-		  <li>RRY_Xenomorph_Runner</li>
+		<!-- <li>RRY_Xenomorph_FaceHugger</li> -->
+		<!-- <li>RRY_Xenomorph_Queen</li> -->
+		<!-- <li>RRY_Xenomorph_Predalien</li> -->
+		<!-- <li>RRY_Xenomorph_Neomorph</li> -->
+		<li>RRY_Xenomorph_Warrior</li>
+		<li>RRY_Xenomorph_Drone</li>
+		<li>RRY_Xenomorph_Spitter</li>
+		<li>RRY_Xenomorph_Runner</li>
 		</PawnKinds>
-    <graphicData>
-      <texPath>Things/Special/TunnelExit</texPath>
+		<maxSpawnPointsPerHive>1200</maxSpawnPointsPerHive>
+		<initalSpawnPointsPerHive>500</initalSpawnPointsPerHive>
+		<graphicData>
+		  <texPath>Things/Special/TunnelExit</texPath>
       <graphicClass>Graphic_Single</graphicClass>
       <shaderType>CutoutComplex</shaderType>
       <drawSize>2.6</drawSize>
