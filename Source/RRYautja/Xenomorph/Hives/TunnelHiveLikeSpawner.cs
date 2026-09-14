@@ -336,7 +336,7 @@ namespace RimWorld
         private static float DustMoteSpawnMTB = 0.2f;
 
         // Token: 0x0400157C RID: 5500
-        private static float FilthSpawnMTB = 0.3f;
+        private static float FilthSpawnMTB = 1.2f;
 
         // Token: 0x0400157D RID: 5501
         private static float FilthSpawnRadius = 3f;

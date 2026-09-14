@@ -28,7 +28,13 @@ namespace RRYautja
             bool result;
             if (flag)
             {
-				AvP_Pawn_HealthTracker_DropBloodFilth_Xenoblood_Patch.TryMakeFilth(pawn.PositionHeld, pawn.MapHeld, XenomorphDefOf.RRY_FilthBloodXenomorph_Active, pawn.LabelIndefinite(), 1);
+                // Only spawn acid blood ~35% of the time (DropBloodFilth fires very
+                // often while bleeding — this reduces splatter spam while keeping
+                // acid puddles appearing under wounded xenos)
+                if (Rand.Chance(0.35f))
+                {
+                    AvP_Pawn_HealthTracker_DropBloodFilth_Xenoblood_Patch.TryMakeFilth(pawn.PositionHeld, pawn.MapHeld, XenomorphDefOf.RRY_FilthBloodXenomorph_Active, pawn.LabelIndefinite(), 1);
+                }
                 result = false;
             }
             else
@@ -51,10 +57,7 @@ namespace RRYautja
 		// Token: 0x06004C58 RID: 19544 RVA: 0x001987D8 File Offset: 0x001969D8
 		private static bool TryMakeFilth(IntVec3 c, Map map, ThingDef filthDef, IEnumerable<string> sources, bool shouldPropagate, FilthSourceFlags additionalFlags = FilthSourceFlags.None)
 		{
-			Filth filth = (Filth)(from t in c.GetThingList(map)
-								  where t.def == filthDef
-								  select t).FirstOrDefault<Thing>();
-			if (!c.Walkable(map) || (filth != null && !filth.CanBeThickened))
+			if (!c.Walkable(map) || !FilthMaker.CanMakeFilth(c, map, filthDef, additionalFlags))
 			{
 				if (shouldPropagate)
 				{
@@ -68,30 +71,19 @@ namespace RRYautja
 						}
 					}
 				}
-				if (filth != null)
-				{
-					filth.AddSources(sources);
-				}
 				return false;
 			}
-			if (filth != null)
+			// Spawn a NEW filth instance even if one already exists here —
+			// splatters overlap visually instead of merging into one blob.
+			// Each instance gets its own variant from the 16-texture pool.
+			Filth filth2 = (Filth)ThingMaker.MakeThing(filthDef, null);
+			filth2.AddSources(sources);
+			Filth_AddAcidDamage filth_ = filth2 as Filth_AddAcidDamage;
+			if (filth_ != null)
 			{
-				filth.ThickenFilth();
-				filth.AddSources(sources);
+				filth_.destroyTick = 600;
 			}
-			else
-			{
-				if (!FilthMaker.CanMakeFilth(c, map, filthDef, additionalFlags))
-				{
-					return false;
-				}
-				Filth filth2 = (Filth)ThingMaker.MakeThing(filthDef, null);
-				filth2.AddSources(sources);
-				Filth_AddAcidDamage filth_ = filth2 as Filth_AddAcidDamage;
-				filth_.destroyTick = 600; 
-				GenSpawn.Spawn(filth2, c, map, WipeMode.Vanish);
-			}
-		//	FilthMonitor.Notify_FilthSpawned();
+			GenSpawn.Spawn(filth2, c, map, WipeMode.Vanish);
 			return true;
 		}
 
