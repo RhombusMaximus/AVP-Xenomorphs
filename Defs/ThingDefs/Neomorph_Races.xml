@@ -54,7 +54,8 @@
       <thinkTreeMain>RRY_Neomorph_ThinkTree</thinkTreeMain>
       <thinkTreeConstant>NeomorphConstant</thinkTreeConstant>
       <fleshType>RRY_Neomorph</fleshType>
-      <bloodDef>Filth_Blood</bloodDef>	
+      <bloodDef>Filth_Blood</bloodDef>
+      <bloodSmearDef>RRY_FilthBloodNeomorph</bloodSmearDef>
       <leatherDef>RRY_Leather_Xenomorph</leatherDef>
       <needsRest>true</needsRest>
       <hasGenders>false</hasGenders>
