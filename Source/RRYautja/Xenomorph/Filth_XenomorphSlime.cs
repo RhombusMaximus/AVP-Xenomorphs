@@ -47,5 +47,19 @@ namespace RRYautja
                 return pool[Mathf.Abs(thingIDNumber) % pool.Length];
             }
         }
+
+        protected override void DrawAt(Vector3 drawLoc, bool flip)
+        {
+            // Random 90/180/270 rotation per instance (stable via thingIDNumber)
+            int rot = (Mathf.Abs(thingIDNumber) / 16) % 4;
+            if (rot == 0)
+            {
+                base.DrawAt(drawLoc, flip);
+                return;
+            }
+            Graphic g = Graphic;
+            Quaternion quat = Quaternion.Euler(0f, rot * 90f, 0f);
+            Graphics.DrawMesh(MeshPool.plane10, drawLoc, quat, g.MatSingle, 0);
+        }
     }
 }
