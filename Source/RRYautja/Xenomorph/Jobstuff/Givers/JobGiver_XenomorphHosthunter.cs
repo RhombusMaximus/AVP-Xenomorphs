@@ -195,8 +195,10 @@ namespace RimWorld
             if (night)
             {
                 HuntingRange = HuntingRange * 2;
-                requireLOS = false;
             }
+            // LOS not required — Xenos sense prey through terrain (they have no eyes);
+            // requiring line-of-sight made daytime hunting blind beyond the hive mouth.
+            requireLOS = false;
             // Filter pawns WITHOUT CanReach (expensive pathfinding) — do that later only on candidates
             // At night, hunt EVERYTHING alive (kill or impregnate all) — not just potential hosts
             bool huntAll = night;
@@ -226,7 +228,26 @@ namespace RimWorld
                 if (!list.NullOrEmpty())
                 {
                     if (pawn.jobs.debugLog) pawn.jobs.DebugLogEvent(string.Format("Xeno found {0} Acceptable Prey", list.Count));
-                    Pawn pawn2 = (Pawn)GenClosest.ClosestThingReachable(pawn.Position, pawn.Map, ThingRequest.ForGroup(ThingRequestGroup.Pawn), PathEndMode.ClosestTouch, TraverseParms.For(TraverseMode.NoPassClosedDoors, Danger.Deadly, false), HuntingRange, (x => x is Pawn p && list.Contains(p)));//(Pawn)AttackTargetFinder.BestAttackTarget(pawn, TargetScanFlags.NeedReachable, (Thing x) => x is Pawn p && XenomorphUtil.isInfectablePawn(p) && !p.Downed, 0f, 9999f, default(IntVec3), float.MaxValue, true, true);
+                    // ANIMAL-FIRST preference: valid animal hosts outrank humanlikes.
+                    // If any non-humanlike host is available, human pawns are only
+                    // considered as a fallback tier.
+                    List<Pawn> animalHosts = list.Where(x => !x.RaceProps.Humanlike && x.isPotentialHost()).ToList();
+                    List<Pawn> humanHosts = list.Where(x => x.RaceProps.Humanlike).ToList();
+                    List<Pawn> otherPrey = list.Where(x => !x.RaceProps.Humanlike && !x.isPotentialHost()).ToList();
+                    Pawn pawn2 = null;
+                    if (!animalHosts.NullOrEmpty())
+                    {
+                        // Closest animal host wins
+                        pawn2 = animalHosts.OrderBy(x => x.Position.DistanceTo(pawn.Position)).First();
+                    }
+                    else if (!humanHosts.NullOrEmpty())
+                    {
+                        pawn2 = humanHosts.OrderBy(x => x.Position.DistanceTo(pawn.Position)).First();
+                    }
+                    else if (!otherPrey.NullOrEmpty())
+                    {
+                        pawn2 = otherPrey.OrderBy(x => x.Position.DistanceTo(pawn.Position)).First();
+                    }
                     if (pawn2!=null)
                     {
                         pawnt = pawn2;

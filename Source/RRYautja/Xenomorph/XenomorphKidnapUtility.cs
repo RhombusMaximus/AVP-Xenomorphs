@@ -54,6 +54,23 @@ namespace RRYautja
                 return  cocoonFlag && pawnFlag && minFlag && kidnapper.CanReserve(pawn, 1, -1, null, false) && (disallowed == null || !disallowed.Contains(pawn));
             };
             victim = (Pawn)GenClosest.ClosestThingReachable(kidnapper.Position, kidnapper.Map, ThingRequest.ForGroup(ThingRequestGroup.Pawn), PathEndMode.OnCell, TraverseParms.For(TraverseMode.NoPassClosedDoors, Danger.Some, false), maxDist, validator, null, 0, -1, false, RegionType.Set_Passable, false);
+            // ANIMAL-FIRST: if the closest valid victim is a humanlike but valid
+            // animal hosts exist, prefer the closest animal instead. Colonists
+            // are the prize but animals are the easy meal — snatch wildlife first
+            // unless no valid animal host is available.
+            if (victim != null && victim.RaceProps.Humanlike)
+            {
+                Predicate<Thing> animalValidator = delegate (Thing t)
+                {
+                    Pawn p = t as Pawn;
+                    return validator(t) && !p.RaceProps.Humanlike;
+                };
+                Pawn animalVictim = (Pawn)GenClosest.ClosestThingReachable(kidnapper.Position, kidnapper.Map, ThingRequest.ForGroup(ThingRequestGroup.Pawn), PathEndMode.OnCell, TraverseParms.For(TraverseMode.NoPassClosedDoors, Danger.Some, false), maxDist, animalValidator, null, 0, -1, false, RegionType.Set_Passable, false);
+                if (animalVictim != null)
+                {
+                    victim = animalVictim;
+                }
+            }
             return victim != null;
         }
 

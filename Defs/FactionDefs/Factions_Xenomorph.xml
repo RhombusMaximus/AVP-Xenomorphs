@@ -17,6 +17,11 @@
     <earliestRaidDays>45</earliestRaidDays>
     <humanlikeFaction>false</humanlikeFaction>
     <hidden>false</hidden>
+    <displayInFactionSelection>true</displayInFactionSelection>
+    <maxConfigurableAtWorldCreation>1</maxConfigurableAtWorldCreation>
+    <startingCountAtWorldCreation>1</startingCountAtWorldCreation>
+    <configurationListOrderPriority>50</configurationListOrderPriority>
+    <listOrderPriority>50</listOrderPriority>
     <raidLootValueFromPointsCurve>
       <points>
         <li>(0,0)</li>
