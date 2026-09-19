@@ -48,18 +48,13 @@ namespace RRYautja
             }
         }
 
+        // Rotation disabled per user request — the 16 variants are themselves
+        // 22.5°-step rotations of the source art, so the added 90° steps
+        // made the floor look busy/repetitive. Re-enable by restoring the
+        // DrawAt override below.
         protected override void DrawAt(Vector3 drawLoc, bool flip)
         {
-            // Random 90/180/270 rotation per instance (stable via thingIDNumber)
-            int rot = (Mathf.Abs(thingIDNumber) / 16) % 4;
-            if (rot == 0)
-            {
-                base.DrawAt(drawLoc, flip);
-                return;
-            }
-            Graphic g = Graphic;
-            Quaternion quat = Quaternion.Euler(0f, rot * 90f, 0f);
-            Graphics.DrawMesh(MeshPool.plane10, drawLoc, quat, g.MatSingle, 0);
+            base.DrawAt(drawLoc, flip);
         }
     }
 }
