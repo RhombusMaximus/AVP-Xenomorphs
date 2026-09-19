@@ -44,8 +44,13 @@ namespace RRYautja
                 bool cocoonFlag = !pawn.health.hediffSet.HasHediff(XenomorphDefOf.RRY_Hediff_Cocooned) || allowCocooned;
 
                 // Allow kidnapping pawns even if they have a facehugger attached or are impregnated
-                // Also accept pawns incapacitated by low consciousness (facehugger paralysis) even if not technically Downed
-                bool pawnFlag = pawn.isPotentialHost(allowImpreg: allowHost) && (pawn.Downed || pawn.health.capacities.GetLevel(PawnCapacityDefOf.Consciousness) < 0.2f);
+                // Also accept pawns incapacitated by low consciousness (facehugger paralysis)
+                // and standing-but-immobile victims (e.g. legless, can't walk) —
+                // previously only Downed/<0.2 consciousness pawns were taken.
+                bool pawnFlag = pawn.isPotentialHost(allowImpreg: allowHost)
+                    && (pawn.Downed
+                        || pawn.health.capacities.GetLevel(PawnCapacityDefOf.Consciousness) < 0.2f
+                        || !pawn.health.capacities.CapableOf(PawnCapacityDefOf.Moving));
                 return  cocoonFlag && pawnFlag && minFlag && kidnapper.CanReserve(pawn, 1, -1, null, false) && (disallowed == null || !disallowed.Contains(pawn));
             };
             victim = (Pawn)GenClosest.ClosestThingReachable(kidnapper.Position, kidnapper.Map, ThingRequest.ForGroup(ThingRequestGroup.Pawn), PathEndMode.OnCell, TraverseParms.For(TraverseMode.NoPassClosedDoors, Danger.Some, false), maxDist, validator, null, 0, -1, false, RegionType.Set_Passable, false);

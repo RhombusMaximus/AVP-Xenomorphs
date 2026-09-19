@@ -229,7 +229,7 @@
 		</li>
 		
 		<li Class="JobGiver_XenosKidnap"> 
-          <HuntingRange>12</HuntingRange>
+          <HuntingRange>45</HuntingRange>
           <allowHosts>true</allowHosts>
         </li>
 		

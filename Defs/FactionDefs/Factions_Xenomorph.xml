@@ -16,7 +16,7 @@
 		</raidCommonalityFromPointsCurve>
     <earliestRaidDays>45</earliestRaidDays>
     <humanlikeFaction>false</humanlikeFaction>
-    <hidden>true</hidden>
+    <hidden>false</hidden>
     <raidLootValueFromPointsCurve>
       <points>
         <li>(0,0)</li>

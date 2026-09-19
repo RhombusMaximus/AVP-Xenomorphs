@@ -63,7 +63,7 @@ namespace RimWorld
                     }
                 }
             }
-            if (XenomorphKidnapUtility.TryFindGoodKidnapVictim(pawn, Searchradius, out Pawn t, null, this.forceRoofed, true, MinRange, true) && !GenAI.InDangerousCombat(pawn))
+            if (XenomorphKidnapUtility.TryFindGoodKidnapVictim(pawn, Searchradius, out Pawn t, null, this.forceRoofed, true, MinRange, true))
             {
                 if (XenomorphKidnapUtility.TryFindGoodHiveLoc(pawn, out c, t, true, !this.forceRoofed, this.forceCanDig))
                 {
@@ -75,7 +75,10 @@ namespace RimWorld
                         Predicate<IntVec3> validator = delegate (IntVec3 y)
                         {
                             bool roofed = (y.Roofed(pawn.Map) && this.forceRoofed) || !this.forceRoofed;
-                            bool adjacent = c.AdjacentTo8WayOrInside(y);
+                            // Adjacent-to-hive placement now allowed — cocoons against
+                            // hive walls are correct hive behavior; the egg-zone-clearing
+                            // job already prevents overcrowding.
+                            bool adjacent = false;
                             bool filled = y.Filled(pawn.Map);
                             bool edifice = y.GetEdifice(pawn.Map).DestroyedOrNull();
                             bool building = y.GetFirstBuilding(pawn.Map).DestroyedOrNull();
@@ -96,7 +99,7 @@ namespace RimWorld
                         {
                             pawn.mindState.duty = new PawnDuty(XenomorphDefOf.RRY_Xenomorph_DefendAndExpandHive, c, 40f);
                         }
-                        if (RCellFinder.TryFindRandomCellNearWith(c, validator, pawn.Map, out IntVec3 lc, 2, 6))
+                        if (RCellFinder.TryFindRandomCellNearWith(c, validator, pawn.Map, out IntVec3 lc, 1, 12))
                         {
                             return new Job(XenomorphDefOf.RRY_Job_Xenomorph_Kidnap)
                             {
