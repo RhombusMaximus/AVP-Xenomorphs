@@ -106,62 +106,20 @@ namespace RRYautja
             }
         }
 
-        private Apparel maskApparel;
+        // (maskApparel removed with the dead apparel mask system)
 
         private void AddMaskApparel()
         {
-            try
-            {
-                if (Pawn == null) return;
-                if (!Pawn.RaceProps.Humanlike) return; // Only humanlike pawns can wear apparel
-                if (Pawn.apparel == null) return;
-                // Don't add if already wearing one
-                if (Pawn.apparel.WornApparel.Any(a => a.def.defName == "RRY_FacehuggerMask" || a.def.defName == "RRY_RoyalFacehuggerMask")) return;
-
-                ThingDef maskDef = RoyaleHugger ? ThingDef.Named("RRY_RoyalFacehuggerMask") : ThingDef.Named("RRY_FacehuggerMask");
-                if (maskDef == null) return;
-
-                Apparel apparel = (Apparel)ThingMaker.MakeThing(maskDef, null);
-                // Add via the WornApparel list
-                Pawn.apparel.WornApparel.Add(apparel);
-                // Force the render tree to recache so the new apparel shows up
-                try { Pawn.Drawer.renderer.renderTree.SetDirty(); } catch { }
-                maskApparel = apparel;
-                AvPDebug.LogOnce("MaskAdd", "[AVP Xenomorphs] Added facehugger mask apparel to " + Pawn.LabelShort);
-            }
-            catch (System.Exception e)
-            {
-                AvPDebug.Error("Failed to add facehugger mask: " + e.Message);
-            }
+            // Mask rendering is handled by the hediff's native renderNodeProperties
+            // (PawnRenderNodeWorker_FacehuggerMask). The apparel approach below was a
+            // second system whose ThingDefs (RRY_FacehuggerMask/RRY_RoyalFacehuggerMask)
+            // never existed — ThingDef.Named logged "Failed to find" errors every attach.
+            // Removed to kill the error spam; rendering unchanged.
         }
 
         private void RemoveMaskApparel()
         {
-            try
-            {
-                if (Pawn == null) return;
-                // Try to get apparel list even if pawn is dead
-                if (Pawn.apparel == null || Pawn.apparel.WornApparel == null) return;
-                // Remove the mask apparel
-                var mask = Pawn.apparel.WornApparel.FirstOrDefault(a => a != null && a.def != null && (a.def.defName == "RRY_FacehuggerMask" || a.def.defName == "RRY_RoyalFacehuggerMask"));
-                if (mask != null)
-                {
-                    Pawn.apparel.Remove(mask);
-                    if (!mask.Destroyed)
-                    {
-                        mask.Destroy();
-                    }
-                    // Force render tree recache and notify apparel change
-                    try { Pawn.Drawer?.renderer?.renderTree?.SetDirty(); } catch { }
-                    try { Pawn.apparel?.Notify_ApparelChanged(); } catch { }
-                    maskApparel = null;
-                    AvPDebug.Log("MaskRemove", "[AVP Xenomorphs] Removed facehugger mask apparel from " + Pawn.LabelShort);
-                }
-            }
-            catch (System.Exception e)
-            {
-                AvPDebug.Error("Failed to remove facehugger mask: " + e.Message);
-            }
+            // No-op: mask rendering is native renderNodeProperties; apparel system removed.
         }
 
         public bool spawnLive

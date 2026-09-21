@@ -5,12 +5,16 @@
     <defName>RRY_XFacehuggerFullyFormed</defName>
     <label>fully-formed</label>
     <visible>false</visible>
+    <developmentalStage>Adult</developmentalStage>
   </LifeStageDef>
 
   <!-- Newborn chestburster: ravenous, needs food immediately -->
   <LifeStageDef>
     <defName>RRY_XenomorphChestBursterBaby</defName>
     <label>newborn</label>
+    <!-- 1.6: developmentalStage gates PawnGenerator age generation.
+         Without this, age-gen can't produce a valid age (300 retries error). -->
+    <developmentalStage>Newborn</developmentalStage>
     <bodySizeFactor>0.2</bodySizeFactor>
 		<foodMaxFactor>1.5</foodMaxFactor>
 		<healthScaleFactor>1</healthScaleFactor>
@@ -26,6 +30,7 @@
   <LifeStageDef>
     <defName>RRY_XenomorphChestBursterBig</defName>
     <label>shedling</label>
+    <developmentalStage>Newborn</developmentalStage>
     <bodySizeFactor>0.32</bodySizeFactor>
 		<foodMaxFactor>1.5</foodMaxFactor>
 		<healthScaleFactor>1</healthScaleFactor>
@@ -41,6 +46,7 @@
   <LifeStageDef>
     <defName>RRY_XenomorphFormedBaby</defName>
     <label>young</label>
+    <developmentalStage>Newborn</developmentalStage>
     <bodySizeFactor>0.5</bodySizeFactor>
     <healthScaleFactor>1</healthScaleFactor>
     <hungerRateFactor>2.0</hungerRateFactor>
@@ -57,6 +63,7 @@
     <label>adolecant</label>
     <adjective>teenage</adjective>
     <reproductive>true</reproductive>
+    <developmentalStage>Adult</developmentalStage>
     <bodySizeFactor>0.85</bodySizeFactor>
     <healthScaleFactor>1</healthScaleFactor>
     <hungerRateFactor>0.5</hungerRateFactor>
@@ -73,6 +80,7 @@
     <visible>false</visible>
     <reproductive>true</reproductive>
     <milkable>true</milkable>
+    <developmentalStage>Adult</developmentalStage>
     <hungerRateFactor>0.1</hungerRateFactor>
   </LifeStageDef>
 
@@ -81,6 +89,7 @@
     <defName>RRY_XenomorphPraetorian</defName>
     <label>Praetorian</label>
     <visible>false</visible>
+    <developmentalStage>Adult</developmentalStage>
     <bodySizeFactor>1.0</bodySizeFactor>
     <hungerRateFactor>0.1</hungerRateFactor>
   </LifeStageDef>

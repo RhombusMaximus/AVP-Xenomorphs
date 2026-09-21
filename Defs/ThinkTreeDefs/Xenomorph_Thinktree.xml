@@ -205,6 +205,11 @@
             <li Class="JobGiver_WanderAnywhere">
               <maxDanger>Deadly</maxDanger>
             </li>
+            <!-- Wander can fail to find a root (enclosed/flooded cells) —
+                 wait briefly instead of falling to IdleError -->
+            <li Class="JobGiver_Wait">
+              <ticks>60</ticks>
+            </li>
           </subNodes>
         </li>
 
