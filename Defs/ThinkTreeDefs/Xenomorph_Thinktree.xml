@@ -207,7 +207,7 @@
             </li>
             <!-- Wander can fail to find a root (enclosed/flooded cells) —
                  wait briefly instead of falling to IdleError -->
-            <li Class="JobGiver_Wait">
+            <li Class="RimWorld.JobGiver_XenomorphWait">
               <ticks>60</ticks>
             </li>
           </subNodes>
