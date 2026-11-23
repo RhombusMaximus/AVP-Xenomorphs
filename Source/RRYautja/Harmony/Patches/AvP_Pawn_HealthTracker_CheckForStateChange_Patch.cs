@@ -34,8 +34,17 @@ namespace RRYautja
                     {
 
 						FieldInfo fieldInfo = AccessTools.Field(typeof(Pawn_HealthTracker), "pawn");
+						// 1.6/1.7: methods are "MakeDowned(DamageInfo?, Hediff)" and "MakeUndowned(Hediff)".
+						// The original code looked up "MakeUnDowned" which does not exist, so the
+						// MethodBase came back null and the Invoke below threw NullReferenceException
+						// whenever a downed pawn hit by a xenomorph should have gotten back up.
 						MethodBase methodBase = AccessTools.Method(typeof(Pawn_HealthTracker), "MakeDowned", null, null);
-						MethodBase methodBase2 = AccessTools.Method(typeof(Pawn_HealthTracker), "MakeUnDowned", null, null);
+						MethodBase methodBase2 = AccessTools.Method(typeof(Pawn_HealthTracker), "MakeUndowned", null, null);
+						if (methodBase == null || methodBase2 == null)
+						{
+							Log.ErrorOnce("RRYautja: could not resolve Pawn_HealthTracker.MakeDowned/MakeUndowned via reflection — falling back to vanilla state change handling.", 74155231);
+							return true;
+						}
 						Traverse traverse = Traverse.Create(__instance);
 						Pawn pawn = (Pawn)fieldInfo.GetValue(__instance);
 						bool flag = pawn != null && dinfo != null && dinfo != null && hediff != null && !ThingUtility.DestroyedOrNull(pawn);
@@ -124,11 +133,12 @@ namespace RRYautja
 								else
 								{
 									bool flag10 = !traverse.Method("ShouldBeDowned", Array.Empty<object>()).GetValue<bool>();
-									if (flag10)
-									{
-										methodBase2.Invoke(__instance, null);
-										return false;
-									}
+										if (flag10)
+										{
+											// MakeUndowned takes exactly one Hediff argument in 1.6 and 1.7.
+											methodBase2.Invoke(__instance, new object[] { hediff });
+											return false;
+										}
 								}
 							}
 							result = false;

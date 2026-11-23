@@ -171,3 +171,9 @@ Implemented Xeno Fear, seeing xenomorphs will cause most pause a slight mood deb
 Now with Added Typos!
 Lots of other small changes and tweaks since the last version I've forgotten about.
 11/23/2026 - 1.7 (Waylith engine) support: net10.0 assemblies built against RimRef 1.7 + Harmony 3.0 in 1.7/ folder; net472 builds + bundled Harmony 2.4.2 moved to 1.6/ folder (RimWorld 1.7 ships its own Harmony 3; 1.6/ still self-contained)
+
+11/23/2026 (2) — player.log triage, 3 fixes:
+- CheckForStateChange prefix looked up "MakeUnDowned" (doesn't exist) instead of "MakeUndowned(Hediff)" — NRE whenever a downed pawn hit by a xenomorph should get back up (e.g. Trispike melee); also invoked with wrong arg count. Both fixed; null MethodBase now falls back to vanilla with a logged error.
+- HediffComp_XenoSpawner.Notify_PawnDied: host dying full-term with Hediff.Part == null (despawned host / severity jump skips the core-part fixup tick) crashed the chestburster burst at parent.Part.LabelShort. Part now falls back to race core part; BloodDef null-guarded for bloodless modded host races.
+- New patch: GoodwillSituationWorker_MemeCompatibility.Applies NREs on factions with no ideology (Xenomorph faction) — ~4,100 log hits per session once anything recalculates goodwill (trigger: CharacterEditor). Prefix now returns false for ideos-less factions.
+- csproj multi-targets net472 (1.6, RimRef 1.6.4871/Harmony 2.4.2) and net10.0 (1.7, RimRef 1.7.5014/Harmony 3) — both version folders now build from one source.

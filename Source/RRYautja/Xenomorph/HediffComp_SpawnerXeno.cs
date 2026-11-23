@@ -262,11 +262,17 @@ namespace RRYautja
         {
             get
             {
+                // BloodDef can be null for modded host races that define no blood;
+                // dereferencing it here NREs the whole chestburster burst.
+                if (Pawn.def.race.BloodDef == null || Pawn.def.race.BloodDef.graphic == null)
+                {
+                    return new Color(0.75f, 0.75f, 0.75f);
+                }
                 Color color = Pawn.def.race.BloodDef.graphic.color;
                 color.a = 1f;
                 return color;
             }
-        } 
+        }
 
         public override void Notify_PawnDied(DamageInfo? dinfo, Hediff culprit = null)
         {
@@ -280,6 +286,12 @@ namespace RRYautja
             }
             else
             {
+                // The CompPostTick that forces Part to the core part only runs while the pawn
+                // is spawned and at the pre-emerge stage; a host that dies full-term while
+                // despawned (casket, caravan) or after a severity jump still has Part == null,
+                // and parent.Part.LabelShort below NREs (crash: "Error while killing X during phase 6").
+                BodyPartRecord burstPart = this.parent.Part ?? this.Pawn.RaceProps.body.corePart;
+                ThingDef bloodDef = this.Pawn.RaceProps.BloodDef ?? ThingDefOf.Filth_Blood;
                 bursted = true;
                 if (spawnMap == null || spawnLoc == null)
                 {
@@ -337,7 +349,7 @@ namespace RRYautja
                         }
                         if (i % 10 == 0)
                         {
-                            FilthMaker.TryMakeFilth(spawnLoc + GenAdj.AdjacentCellsAndInside.RandomElement(), this.Pawn.MapHeld, this.Pawn.RaceProps.BloodDef, this.Pawn.LabelIndefinite(), 1);
+                            FilthMaker.TryMakeFilth(spawnLoc + GenAdj.AdjacentCellsAndInside.RandomElement(), this.Pawn.MapHeld, bloodDef, this.Pawn.LabelIndefinite(), 1);
                         }
                     }
                     ThingDef motedef = DefDatabase<ThingDef>.GetNamedSilentFail("Mote_BlastExtinguisher");
@@ -348,16 +360,16 @@ namespace RRYautja
                     // GenAdj.AdjacentCellsAndInside[i];
                     for (int i2 = 0; i2 < GenAdj.AdjacentCellsAndInside.Length; i2++)
                     {
-                        FilthMaker.TryMakeFilth(spawnLoc + GenAdj.AdjacentCellsAndInside[i2], this.Pawn.MapHeld, this.Pawn.RaceProps.BloodDef, this.Pawn.LabelIndefinite(), 1);
+                        FilthMaker.TryMakeFilth(spawnLoc + GenAdj.AdjacentCellsAndInside[i2], this.Pawn.MapHeld, bloodDef, this.Pawn.LabelIndefinite(), 1);
                     }
-                    string text = TranslatorFormattedStringExtensions.Translate("Xeno_Chestburster_Emerge", base.parent.pawn.LabelShort, this.parent.Part.LabelShort);
+                    string text = TranslatorFormattedStringExtensions.Translate("Xeno_Chestburster_Emerge", base.parent.pawn.LabelShort, burstPart.LabelShort);
                     MoteMaker.ThrowText(spawnLoc.ToVector3(), spawnMap, text, 5f);
 
                     if (!PlayerKnowledgeDatabase.IsComplete(XenomorphConceptDefOf.RRY_Concept_Chestbursters) && MyMap != null)
                     {
                         LessonAutoActivator.TeachOpportunity(XenomorphConceptDefOf.RRY_Concept_Chestbursters, OpportunityType.Important);
                     }
-                    Pawn.health.AddHediff(DefDatabase<HediffDef>.GetNamedSilentFail("RRY_PostBurstWound"), this.parent.Part);
+                    Pawn.health.AddHediff(DefDatabase<HediffDef>.GetNamedSilentFail("RRY_PostBurstWound"), burstPart);
                     Pawn.health.RemoveHediff(this.parent);
                 }
             }
