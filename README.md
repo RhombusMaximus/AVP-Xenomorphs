@@ -6,6 +6,15 @@ Xenomorphs and Neomorphs from the Alien film franchise, ported from the original
 
 The Xenomorphs join RimWorld as a new threat to your colony. Experience the full life cycle of the Xenomorphs. Learn to fear their infestations. Be wary of those spaceship parts that fall down — you never know what they may contain.
 
+## Anomaly DLC Integration (optional)
+When the Anomaly DLC is active:
+- **All Xenomorphs and Neomorphs are capturable entities** — down them and capture onto a holding platform (each caste has its own minimum containment strength; the Queen is the hardest to hold).
+- **Entity study** — study contained Xenos on the platform to advance monolith knowledge.
+- **Entity Codex** — every caste has a codex entry under the "Xenomorphs" category.
+- **Crafting research moves to the Anomaly monolith tree** — Xenomorph Crafting (30 Basic knowledge) and Carapace Armours (45 Basic knowledge) are researched with knowledge instead of bench time.
+
+Without Anomaly, the mod plays exactly as before (patches are gated on the DLC being loaded).
+
 ## Credits
 
 ### Original AVP Mod Developers

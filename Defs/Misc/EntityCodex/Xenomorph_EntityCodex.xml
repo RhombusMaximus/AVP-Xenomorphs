@@ -1,0 +1,130 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+	<!-- Anomaly entity codex entries for all Xenomorph/Neomorph races.
+	     Only loaded when the Anomaly DLC is active (the Entity Codex is Anomaly content).
+	     Silhouettes are auto-generated from the icon by appending "_Silhouette" at load. -->
+
+	<EntityCategoryDef MayRequire="Ludeon.RimWorld.Anomaly">
+		<defName>RRY_XenoEntities</defName>
+		<label>Xenomorphs</label>
+		<listOrder>75</listOrder>
+	</EntityCategoryDef>
+
+	<EntityCodexEntryDef MayRequire="Ludeon.RimWorld.Anomaly">
+		<defName>RRY_Codex_XenomorphQueen</defName>
+		<label>Xenomorph Queen</label>
+		<category>RRY_XenoEntities</category>
+		<useDescriptionFrom>RRY_Xenomorph_Queen</useDescriptionFrom>
+		<uiIconPath>Things/Pawn/Xenomorph/Queen_east</uiIconPath>
+		<discoveryType>BecameVisible</discoveryType>
+		<orderInCategory>10</orderInCategory>
+		<linkedThings>
+			<li>RRY_Xenomorph_Queen</li>
+		</linkedThings>
+	</EntityCodexEntryDef>
+
+	<EntityCodexEntryDef MayRequire="Ludeon.RimWorld.Anomaly">
+		<defName>RRY_Codex_XenomorphPraetorian</defName>
+		<label>Praetorian</label>
+		<category>RRY_XenoEntities</category>
+		<useDescriptionFrom>RRY_Xenomorph_Praetorian</useDescriptionFrom>
+		<uiIconPath>Things/Pawn/Xenomorph/Xenomorph_Praetorian_east</uiIconPath>
+		<discoveryType>BecameVisible</discoveryType>
+		<orderInCategory>20</orderInCategory>
+		<linkedThings>
+			<li>RRY_Xenomorph_Praetorian</li>
+		</linkedThings>
+	</EntityCodexEntryDef>
+
+	<EntityCodexEntryDef MayRequire="Ludeon.RimWorld.Anomaly">
+		<defName>RRY_Codex_XenomorphDrone</defName>
+		<label>Xenomorph Drone</label>
+		<category>RRY_XenoEntities</category>
+		<useDescriptionFrom>RRY_Xenomorph_Drone</useDescriptionFrom>
+		<uiIconPath>Things/Pawn/Xenomorph/Xenomorph_Drone_east</uiIconPath>
+		<discoveryType>BecameVisible</discoveryType>
+		<orderInCategory>30</orderInCategory>
+		<linkedThings>
+			<li>RRY_Xenomorph_Drone</li>
+		</linkedThings>
+	</EntityCodexEntryDef>
+
+	<EntityCodexEntryDef MayRequire="Ludeon.RimWorld.Anomaly">
+		<defName>RRY_Codex_XenomorphWarrior</defName>
+		<label>Xenomorph Warrior</label>
+		<category>RRY_XenoEntities</category>
+		<useDescriptionFrom>RRY_Xenomorph_Warrior</useDescriptionFrom>
+		<uiIconPath>Things/Pawn/Xenomorph/Xenomorph_Warrior_east</uiIconPath>
+		<discoveryType>BecameVisible</discoveryType>
+		<orderInCategory>40</orderInCategory>
+		<linkedThings>
+			<li>RRY_Xenomorph_Warrior</li>
+		</linkedThings>
+	</EntityCodexEntryDef>
+
+	<EntityCodexEntryDef MayRequire="Ludeon.RimWorld.Anomaly">
+		<defName>RRY_Codex_XenomorphRunner</defName>
+		<label>Xenomorph Runner</label>
+		<category>RRY_XenoEntities</category>
+		<useDescriptionFrom>RRY_Xenomorph_Runner</useDescriptionFrom>
+		<uiIconPath>Things/Pawn/Xenomorph/Xenomorph_Runner_east</uiIconPath>
+		<discoveryType>BecameVisible</discoveryType>
+		<orderInCategory>50</orderInCategory>
+		<linkedThings>
+			<li>RRY_Xenomorph_Runner</li>
+		</linkedThings>
+	</EntityCodexEntryDef>
+
+	<EntityCodexEntryDef MayRequire="Ludeon.RimWorld.Anomaly">
+		<defName>RRY_Codex_XenomorphPredalien</defName>
+		<label>Predalien</label>
+		<category>RRY_XenoEntities</category>
+		<useDescriptionFrom>RRY_Xenomorph_Predalien</useDescriptionFrom>
+		<uiIconPath>Things/Pawn/Xenomorph/Xenomorph_Predalien_east</uiIconPath>
+		<discoveryType>BecameVisible</discoveryType>
+		<orderInCategory>60</orderInCategory>
+		<linkedThings>
+			<li>RRY_Xenomorph_Predalien</li>
+		</linkedThings>
+	</EntityCodexEntryDef>
+
+	<EntityCodexEntryDef MayRequire="Ludeon.RimWorld.Anomaly">
+		<defName>RRY_Codex_XenomorphThrumbomorph</defName>
+		<label>Thrumbomorph</label>
+		<category>RRY_XenoEntities</category>
+		<useDescriptionFrom>RRY_Xenomorph_Thrumbomorph</useDescriptionFrom>
+		<uiIconPath>Things/Pawn/Xenomorph/Xenomorph_Thrumbomorph_east</uiIconPath>
+		<discoveryType>BecameVisible</discoveryType>
+		<orderInCategory>70</orderInCategory>
+		<linkedThings>
+			<li>RRY_Xenomorph_Thrumbomorph</li>
+		</linkedThings>
+	</EntityCodexEntryDef>
+
+	<EntityCodexEntryDef MayRequire="Ludeon.RimWorld.Anomaly">
+		<defName>RRY_Codex_XenomorphFacehugger</defName>
+		<label>Facehugger</label>
+		<category>RRY_XenoEntities</category>
+		<useDescriptionFrom>RRY_Xenomorph_FaceHugger</useDescriptionFrom>
+		<uiIconPath>Things/Pawn/Xenomorph/Xenomorph_FaceHugger_east</uiIconPath>
+		<discoveryType>BecameVisible</discoveryType>
+		<orderInCategory>80</orderInCategory>
+		<linkedThings>
+			<li>RRY_Xenomorph_FaceHugger</li>
+		</linkedThings>
+	</EntityCodexEntryDef>
+
+	<EntityCodexEntryDef MayRequire="Ludeon.RimWorld.Anomaly">
+		<defName>RRY_Codex_Neomorph</defName>
+		<label>Neomorph</label>
+		<category>RRY_XenoEntities</category>
+		<useDescriptionFrom>RRY_Xenomorph_Neomorph</useDescriptionFrom>
+		<uiIconPath>Things/Pawn/Xenomorph/Xenomorph_Neomorph_east</uiIconPath>
+		<discoveryType>BecameVisible</discoveryType>
+		<orderInCategory>90</orderInCategory>
+		<linkedThings>
+			<li>RRY_Xenomorph_Neomorph</li>
+		</linkedThings>
+	</EntityCodexEntryDef>
+
+</Defs>
