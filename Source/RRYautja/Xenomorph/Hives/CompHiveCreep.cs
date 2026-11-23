@@ -99,7 +99,10 @@ namespace RimWorld
             {
                 this.hiveRadius += 0.1f;
             }
-            this.hiveRadius = this.maxRadius ;// Mathf.Min(this.hiveRadius, this.maxRadius);
+            // Gradual growth capped at maxRadius. (The original code assigned
+            // hiveRadius = maxRadius unconditionally, which nullified the growth
+            // curve above and made every creep expansion a full-radius sweep.)
+            this.hiveRadius = Mathf.Min(this.hiveRadius, this.maxRadius);
             CellRect occupiedRect = this.parent.OccupiedRect();
             CompHiveCreep.reachableCells.Clear();
         //    Log.Message(string.Format("1"));
@@ -124,14 +127,15 @@ namespace RimWorld
                             List<Thing> list = intVec.GetThingList(parent.Map);
                             if (!list.NullOrEmpty())
                             {
-                                if (list.Any(x=> x.def.IsFilth))
+                                // Destroy a share of the filth without the FindAll list
+                                // allocation (this loop runs for hundreds of cells per
+                                // expansion, per hive, every expandInterval ticks).
+                                for (int k = 0; k < list.Count; k++)
                                 {
-                                    foreach (var item in list.FindAll(x => x.def.IsFilth))
+                                    Thing item = list[k];
+                                    if (item.def.IsFilth && Rand.ChanceSeeded(0.25f, AvPConstants.AvPSeed))
                                     {
-                                        if (Rand.ChanceSeeded(0.25f, AvPConstants.AvPSeed))
-                                        {
-                                            item.Destroy();
-                                        }
+                                        item.Destroy();
                                     }
                                 }
                             }

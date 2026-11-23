@@ -181,3 +181,9 @@ Lots of other small changes and tweaks since the last version I've forgotten abo
 11/23/2026 (3) — Anomaly DLC integration: all Xeno/Neomorph races are now capturable entities (CompProperties_HoldingPlatformTarget + CompProperties_Studiable patched onto race bases, gated on Anomaly); MinimumContainmentStrength per caste (Facehugger 10 ... Queen 40); Entity Codex category "Xenomorphs" + codex entries for all 9 castes; Xenomorph Crafting & Carapace Armours converted to Anomaly knowledge research (Basic, 30/45) when Anomaly is active. No changes without the DLC.
 
 11/23/2026 (4) — fix Anomaly patch that never applied: PatchOperationSequence children must be <li Class=...> under <operations>, not <Operation Class=...> (all ops failed to bind, "doesn't correspond to any field in type PatchOperationSequence"); ship the 9 missing codex _Silhouette textures (the codex loads uiIconPath + "_Silhouette" explicitly — it is NOT auto-generated).
+
+11/23/2026 (5) — hive-area perf pass (zone lag investigation):
+- FIX: MapMeshFlagDefs RRY_Hive/RRY_Goo were never defined in XML — the 1.5+ migration moved RRYMapMeshFlagDefOf to runtime GetNamed lookups but the companion defs were missing, so both flags resolved to null (mask 0): MapMeshDirty calls for hive creep/goo were silent no-ops and SectionLayer_Hive/SectionLayer_Goo never regenerated. Defs added.
+- FIX: CompHiveCreep growth — hiveRadius was assigned maxRadius unconditionally (commented-out Mathf.Min left in place), nullifying the gradual radius curve and making every creep expansion a full-radius sweep from the first tick. Restored Mathf.Min cap.
+- PERF: CompHiveCreep filth sweep no longer allocates a FindAll list per cell per expansion.
+- DIAG: Designator.DesignateMultiCell perf probe — logs any multi-cell designation (zone placement) taking >100ms with cell count; detailed logging with mod DebugMode on. To identify the hive-zone lag source.

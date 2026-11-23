@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+	<!-- Custom map-mesh flags for the hive creep and crashed-ship goo section layers.
+	     REQUIRED: RRYMapMeshFlagDefOf resolves these by name at runtime
+	     (DefDatabase<MapMeshFlagDef>.GetNamed("RRY_Hive"/"RRY_Goo", false)).
+	     Without these defs the flags resolve to null, which converts to mask 0 —
+	     MapMeshDirty becomes a no-op and SectionLayer_Hive/SectionLayer_Goo
+	     never regenerate. -->
+	<MapMeshFlagDef>
+		<defName>RRY_Hive</defName>
+		<label>hive creep</label>
+	</MapMeshFlagDef>
+	<MapMeshFlagDef>
+		<defName>RRY_Goo</defName>
+		<label>crashed ship goo</label>
+	</MapMeshFlagDef>
+</Defs>
