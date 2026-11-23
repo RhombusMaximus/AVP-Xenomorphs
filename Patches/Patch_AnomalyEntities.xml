@@ -10,135 +10,137 @@
 			<li>Ludeon.RimWorld.Anomaly</li>
 		</mods>
 		<match Class="PatchOperationSequence">
+			<operations>
 
-			<!-- 1. Capture + study comps on the xenomorph race base -->
-			<Operation Class="PatchOperationAdd">
-				<xpath>Defs/ThingDef[@Name="RRY_BaseXenomorphPawn"]/comps</xpath>
-				<value>
-					<li MayRequire="Ludeon.RimWorld.Anomaly" Class="CompProperties_HoldingPlatformTarget">
-						<baseEscapeIntervalMtbDays>120</baseEscapeIntervalMtbDays>
-						<getsColdContainmentBonus>true</getsColdContainmentBonus>
-						<canBeExecuted>true</canBeExecuted>
-					</li>
-					<li MayRequire="Ludeon.RimWorld.Anomaly" Class="CompProperties_Studiable">
-						<frequencyTicks>120000</frequencyTicks>
-						<minMonolithLevelForStudy>1</minMonolithLevelForStudy>
-						<requiresImprisonment>true</requiresImprisonment>
-					</li>
-				</value>
-			</Operation>
+				<!-- 1. Capture + study comps on the xenomorph race base -->
+				<li Class="PatchOperationAdd">
+					<xpath>Defs/ThingDef[@Name="RRY_BaseXenomorphPawn"]/comps</xpath>
+					<value>
+						<li MayRequire="Ludeon.RimWorld.Anomaly" Class="CompProperties_HoldingPlatformTarget">
+							<baseEscapeIntervalMtbDays>120</baseEscapeIntervalMtbDays>
+							<getsColdContainmentBonus>true</getsColdContainmentBonus>
+							<canBeExecuted>true</canBeExecuted>
+						</li>
+						<li MayRequire="Ludeon.RimWorld.Anomaly" Class="CompProperties_Studiable">
+							<frequencyTicks>120000</frequencyTicks>
+							<minMonolithLevelForStudy>1</minMonolithLevelForStudy>
+							<requiresImprisonment>true</requiresImprisonment>
+						</li>
+					</value>
+				</li>
 
-			<!-- 2. Same for the neomorph race base -->
-			<Operation Class="PatchOperationAdd">
-				<xpath>Defs/ThingDef[@Name="RRY_BaseNeomorphPawn"]/comps</xpath>
-				<value>
-					<li MayRequire="Ludeon.RimWorld.Anomaly" Class="CompProperties_HoldingPlatformTarget">
-						<baseEscapeIntervalMtbDays>120</baseEscapeIntervalMtbDays>
-						<getsColdContainmentBonus>true</getsColdContainmentBonus>
-						<canBeExecuted>true</canBeExecuted>
-					</li>
-					<li MayRequire="Ludeon.RimWorld.Anomaly" Class="CompProperties_Studiable">
-						<frequencyTicks>120000</frequencyTicks>
-						<minMonolithLevelForStudy>1</minMonolithLevelForStudy>
-						<requiresImprisonment>true</requiresImprisonment>
-					</li>
-				</value>
-			</Operation>
+				<!-- 2. Same for the neomorph race base -->
+				<li Class="PatchOperationAdd">
+					<xpath>Defs/ThingDef[@Name="RRY_BaseNeomorphPawn"]/comps</xpath>
+					<value>
+						<li MayRequire="Ludeon.RimWorld.Anomaly" Class="CompProperties_HoldingPlatformTarget">
+							<baseEscapeIntervalMtbDays>120</baseEscapeIntervalMtbDays>
+							<getsColdContainmentBonus>true</getsColdContainmentBonus>
+							<canBeExecuted>true</canBeExecuted>
+						</li>
+						<li MayRequire="Ludeon.RimWorld.Anomaly" Class="CompProperties_Studiable">
+							<frequencyTicks>120000</frequencyTicks>
+							<minMonolithLevelForStudy>1</minMonolithLevelForStudy>
+							<requiresImprisonment>true</requiresImprisonment>
+						</li>
+					</value>
+				</li>
 
-			<!-- 3. Minimum containment strength per caste (bigger = stronger platform needed) -->
-			<Operation Class="PatchOperationAdd">
-				<xpath>Defs/ThingDef[defName="RRY_Xenomorph_FaceHugger"]/statBases</xpath>
-				<value>
-					<MinimumContainmentStrength MayRequire="Ludeon.RimWorld.Anomaly">10</MinimumContainmentStrength>
-				</value>
-			</Operation>
-			<Operation Class="PatchOperationAdd">
-				<xpath>Defs/ThingDef[defName="RRY_Xenomorph_Drone"]/statBases</xpath>
-				<value>
-					<MinimumContainmentStrength MayRequire="Ludeon.RimWorld.Anomaly">20</MinimumContainmentStrength>
-				</value>
-			</Operation>
-			<Operation Class="PatchOperationAdd">
-				<xpath>Defs/ThingDef[defName="RRY_Xenomorph_Warrior"]/statBases</xpath>
-				<value>
-					<MinimumContainmentStrength MayRequire="Ludeon.RimWorld.Anomaly">25</MinimumContainmentStrength>
-				</value>
-			</Operation>
-			<Operation Class="PatchOperationAdd">
-				<xpath>Defs/ThingDef[defName="RRY_Xenomorph_Runner"]/statBases</xpath>
-				<value>
-					<MinimumContainmentStrength MayRequire="Ludeon.RimWorld.Anomaly">18</MinimumContainmentStrength>
-				</value>
-			</Operation>
-			<Operation Class="PatchOperationAdd">
-				<xpath>Defs/ThingDef[defName="RRY_Xenomorph_Praetorian"]/statBases</xpath>
-				<value>
-					<MinimumContainmentStrength MayRequire="Ludeon.RimWorld.Anomaly">35</MinimumContainmentStrength>
-				</value>
-			</Operation>
-			<Operation Class="PatchOperationAdd">
-				<xpath>Defs/ThingDef[defName="RRY_Xenomorph_Predalien"]/statBases</xpath>
-				<value>
-					<MinimumContainmentStrength MayRequire="Ludeon.RimWorld.Anomaly">30</MinimumContainmentStrength>
-				</value>
-			</Operation>
-			<Operation Class="PatchOperationAdd">
-				<xpath>Defs/ThingDef[defName="RRY_Xenomorph_Thrumbomorph"]/statBases</xpath>
-				<value>
-					<MinimumContainmentStrength MayRequire="Ludeon.RimWorld.Anomaly">28</MinimumContainmentStrength>
-				</value>
-			</Operation>
-			<Operation Class="PatchOperationAdd">
-				<xpath>Defs/ThingDef[defName="RRY_Xenomorph_Queen"]/statBases</xpath>
-				<value>
-					<MinimumContainmentStrength MayRequire="Ludeon.RimWorld.Anomaly">40</MinimumContainmentStrength>
-				</value>
-			</Operation>
-			<Operation Class="PatchOperationAdd">
-				<xpath>Defs/ThingDef[defName="RRY_Xenomorph_Neomorph"]/statBases</xpath>
-				<value>
-					<MinimumContainmentStrength MayRequire="Ludeon.RimWorld.Anomaly">14</MinimumContainmentStrength>
-				</value>
-			</Operation>
+				<!-- 3. Minimum containment strength per caste (bigger = stronger platform needed) -->
+				<li Class="PatchOperationAdd">
+					<xpath>Defs/ThingDef[defName="RRY_Xenomorph_FaceHugger"]/statBases</xpath>
+					<value>
+						<MinimumContainmentStrength MayRequire="Ludeon.RimWorld.Anomaly">10</MinimumContainmentStrength>
+					</value>
+				</li>
+				<li Class="PatchOperationAdd">
+					<xpath>Defs/ThingDef[defName="RRY_Xenomorph_Drone"]/statBases</xpath>
+					<value>
+						<MinimumContainmentStrength MayRequire="Ludeon.RimWorld.Anomaly">20</MinimumContainmentStrength>
+					</value>
+				</li>
+				<li Class="PatchOperationAdd">
+					<xpath>Defs/ThingDef[defName="RRY_Xenomorph_Warrior"]/statBases</xpath>
+					<value>
+						<MinimumContainmentStrength MayRequire="Ludeon.RimWorld.Anomaly">25</MinimumContainmentStrength>
+					</value>
+				</li>
+				<li Class="PatchOperationAdd">
+					<xpath>Defs/ThingDef[defName="RRY_Xenomorph_Runner"]/statBases</xpath>
+					<value>
+						<MinimumContainmentStrength MayRequire="Ludeon.RimWorld.Anomaly">18</MinimumContainmentStrength>
+					</value>
+				</li>
+				<li Class="PatchOperationAdd">
+					<xpath>Defs/ThingDef[defName="RRY_Xenomorph_Praetorian"]/statBases</xpath>
+					<value>
+						<MinimumContainmentStrength MayRequire="Ludeon.RimWorld.Anomaly">35</MinimumContainmentStrength>
+					</value>
+				</li>
+				<li Class="PatchOperationAdd">
+					<xpath>Defs/ThingDef[defName="RRY_Xenomorph_Predalien"]/statBases</xpath>
+					<value>
+						<MinimumContainmentStrength MayRequire="Ludeon.RimWorld.Anomaly">30</MinimumContainmentStrength>
+					</value>
+				</li>
+				<li Class="PatchOperationAdd">
+					<xpath>Defs/ThingDef[defName="RRY_Xenomorph_Thrumbomorph"]/statBases</xpath>
+					<value>
+						<MinimumContainmentStrength MayRequire="Ludeon.RimWorld.Anomaly">28</MinimumContainmentStrength>
+					</value>
+				</li>
+				<li Class="PatchOperationAdd">
+					<xpath>Defs/ThingDef[defName="RRY_Xenomorph_Queen"]/statBases</xpath>
+					<value>
+						<MinimumContainmentStrength MayRequire="Ludeon.RimWorld.Anomaly">40</MinimumContainmentStrength>
+					</value>
+				</li>
+				<li Class="PatchOperationAdd">
+					<xpath>Defs/ThingDef[defName="RRY_Xenomorph_Neomorph"]/statBases</xpath>
+					<value>
+						<MinimumContainmentStrength MayRequire="Ludeon.RimWorld.Anomaly">14</MinimumContainmentStrength>
+					</value>
+				</li>
 
-			<!-- 4. Xenomorph Crafting becomes an Anomaly knowledge project -->
-			<Operation Class="PatchOperationRemove">
-				<xpath>Defs/ResearchProjectDef[defName="RRY_XenomorphCrafting"]/baseCost</xpath>
-			</Operation>
-			<Operation Class="PatchOperationRemove">
-				<xpath>Defs/ResearchProjectDef[defName="RRY_XenomorphCrafting"]/tab</xpath>
-			</Operation>
-			<Operation Class="PatchOperationAdd">
-				<xpath>Defs/ResearchProjectDef[defName="RRY_XenomorphCrafting"]</xpath>
-				<value>
-					<knowledgeCategory MayRequire="Ludeon.RimWorld.Anomaly">Basic</knowledgeCategory>
-					<knowledgeCost MayRequire="Ludeon.RimWorld.Anomaly">30</knowledgeCost>
-				</value>
-			</Operation>
+				<!-- 4. Xenomorph Crafting becomes an Anomaly knowledge project -->
+				<li Class="PatchOperationRemove">
+					<xpath>Defs/ResearchProjectDef[defName="RRY_XenomorphCrafting"]/baseCost</xpath>
+				</li>
+				<li Class="PatchOperationRemove">
+					<xpath>Defs/ResearchProjectDef[defName="RRY_XenomorphCrafting"]/tab</xpath>
+				</li>
+				<li Class="PatchOperationAdd">
+					<xpath>Defs/ResearchProjectDef[defName="RRY_XenomorphCrafting"]</xpath>
+					<value>
+						<knowledgeCategory MayRequire="Ludeon.RimWorld.Anomaly">Basic</knowledgeCategory>
+						<knowledgeCost MayRequire="Ludeon.RimWorld.Anomaly">30</knowledgeCost>
+					</value>
+				</li>
 
-			<!-- 5. Carapace Armours likewise; prerequisites now only Xenomorph Crafting -->
-			<Operation Class="PatchOperationRemove">
-				<xpath>Defs/ResearchProjectDef[defName="RRY_CarapaceArmours"]/baseCost</xpath>
-			</Operation>
-			<Operation Class="PatchOperationRemove">
-				<xpath>Defs/ResearchProjectDef[defName="RRY_CarapaceArmours"]/tab</xpath>
-			</Operation>
-			<Operation Class="PatchOperationReplace">
-				<xpath>Defs/ResearchProjectDef[defName="RRY_CarapaceArmours"]/prerequisites</xpath>
-				<value>
-					<prerequisites>
-						<li>RRY_XenomorphCrafting</li>
-					</prerequisites>
-				</value>
-			</Operation>
-			<Operation Class="PatchOperationAdd">
-				<xpath>Defs/ResearchProjectDef[defName="RRY_CarapaceArmours"]</xpath>
-				<value>
-					<knowledgeCategory MayRequire="Ludeon.RimWorld.Anomaly">Basic</knowledgeCategory>
-					<knowledgeCost MayRequire="Ludeon.RimWorld.Anomaly">45</knowledgeCost>
-				</value>
-			</Operation>
+				<!-- 5. Carapace Armours likewise; prerequisites now only Xenomorph Crafting -->
+				<li Class="PatchOperationRemove">
+					<xpath>Defs/ResearchProjectDef[defName="RRY_CarapaceArmours"]/baseCost</xpath>
+				</li>
+				<li Class="PatchOperationRemove">
+					<xpath>Defs/ResearchProjectDef[defName="RRY_CarapaceArmours"]/tab</xpath>
+				</li>
+				<li Class="PatchOperationReplace">
+					<xpath>Defs/ResearchProjectDef[defName="RRY_CarapaceArmours"]/prerequisites</xpath>
+					<value>
+						<prerequisites>
+							<li>RRY_XenomorphCrafting</li>
+						</prerequisites>
+					</value>
+				</li>
+				<li Class="PatchOperationAdd">
+					<xpath>Defs/ResearchProjectDef[defName="RRY_CarapaceArmours"]</xpath>
+					<value>
+						<knowledgeCategory MayRequire="Ludeon.RimWorld.Anomaly">Basic</knowledgeCategory>
+						<knowledgeCost MayRequire="Ludeon.RimWorld.Anomaly">45</knowledgeCost>
+					</value>
+				</li>
 
+			</operations>
 		</match>
 	</Operation>
 </Patch>
