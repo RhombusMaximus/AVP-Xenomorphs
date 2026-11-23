@@ -1,6 +1,6 @@
-# AVP Xenomorphs — RimWorld 1.6
+# AVP Xenomorphs — RimWorld 1.6/1.7
 
-Xenomorphs and Neomorphs from the Alien film franchise, ported from the original Alien vs Predator mod to RimWorld 1.6 as a Xenomorphs-only mod (no Yautja/USCM dependencies, no HAR required).
+Xenomorphs and Neomorphs from the Alien film franchise, ported from the original Alien vs Predator mod to RimWorld 1.6/1.7 as a Xenomorphs-only mod (no Yautja/USCM dependencies, no HAR required).
 
 > *"Perfect organism. Its structural perfection is matched only by its hostility."*
 
@@ -125,7 +125,7 @@ The Xenomorphs join RimWorld as a new threat to your colony. Experience the full
 
 ## Compatibility
 
-- **No mod dependencies required** — works standalone with RimWorld 1.6
+- **No mod dependencies required** — works standalone with RimWorld 1.6/1.7
 - HugsLib compatible (optional, for additional logging)
 - **Melee Animation** compatible — includes WeaponTweakData for Xenomorph weapons
 - **Replace Stuff** compatible — tunnel buildings have dummy textures for ghost rendering
@@ -135,7 +135,7 @@ The Xenomorphs join RimWorld as a new threat to your colony. Experience the full
 
 ## Requirements
 
-- RimWorld 1.6
+- RimWorld 1.6/1.7
 - No other mods required
 
 ## Based On

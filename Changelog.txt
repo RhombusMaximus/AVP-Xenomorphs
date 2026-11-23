@@ -170,3 +170,4 @@ Rewritten Marking System.
 Implemented Xeno Fear, seeing xenomorphs will cause most pause a slight mood debuff
 Now with Added Typos!
 Lots of other small changes and tweaks since the last version I've forgotten about.
+11/23/2026 - 1.7 (Waylith engine) support: net10.0 assemblies built against RimRef 1.7 + Harmony 3.0 in 1.7/ folder; net472 builds + bundled Harmony 2.4.2 moved to 1.6/ folder (RimWorld 1.7 ships its own Harmony 3; 1.6/ still self-contained)
