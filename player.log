@@ -11,8 +11,8 @@ Direct3D:
     VRAM:     8042 MB
     Driver:   32.0.16.2124
 Begin MonoManager ReloadAssembly
-- Loaded All Assemblies, in  0.166 seconds
-- Finished resetting the current domain, in  0.002 seconds
+- Loaded All Assemblies, in  0.171 seconds
+- Finished resetting the current domain, in  0.001 seconds
 <RI> Initializing input.
 
 <RI> Input initialized.
@@ -20,17 +20,17 @@ Begin MonoManager ReloadAssembly
 <RI> Initialized touch support.
 
 [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
-UnloadTime: 0.542200 ms
+UnloadTime: 0.565400 ms
 Command line arguments: -disable-compute-shaders
 RimWorld 1.6.4871 rev591
 Mod Small Tanks for VGE dependency (vanillaexpanded.gravship) needs to have <downloadUrl> and/or <steamWorkshopUrl> specified.
 Mod More Gravship Workbenches dependency (vanillaexpanded.gravship) needs to have <downloadUrl> and/or <steamWorkshopUrl> specified.
-Fallback handler could not load library D:/SteamLibrary/steamapps/common/RimWorld/RimWorldWin64_Data/MonoBleedingEdge/data-00000207828F4180.dll
-Fallback handler could not load library D:/SteamLibrary/steamapps/common/RimWorld/RimWorldWin64_Data/MonoBleedingEdge/data-00000207B9C11DE0.dll
+Fallback handler could not load library D:/SteamLibrary/steamapps/common/RimWorld/RimWorldWin64_Data/MonoBleedingEdge/data-0000020A3F8A4020.dll
+Fallback handler could not load library D:/SteamLibrary/steamapps/common/RimWorld/RimWorldWin64_Data/MonoBleedingEdge/data-0000020A3F97E0D0.dll
 [Loading Progress] Loading Progress v0.21.1 initialized! Enjoy the rest of your loading experience!
 [HugsLib] version 12.0.0
 [HugsLib] early-initializing AllowTool
-Fallback handler could not load library D:/SteamLibrary/steamapps/common/RimWorld/RimWorldWin64_Data/MonoBleedingEdge/data-00000207BBFB5050.dll
+Fallback handler could not load library D:/SteamLibrary/steamapps/common/RimWorld/RimWorldWin64_Data/MonoBleedingEdge/data-0000020A0D8EB0A0.dll
 [ImageOpt] Successfully loaded Rust library into process memory. ver: 0.1.13
 <color=#66ffb5>[MeleeAnim]</color> Hello, world!
 Build date: 10/13/2026 8:58 AM
@@ -61,9 +61,11 @@ Loaded What's That Mod.
 <color=#FFA500FF>[Map Mode Framework]</color> Assembly named GeologicalLandforms not found. Render patch not applied.
 <color=#FFA500FF>[Map Mode Framework]</color> Assembly named ReGrowthCore not found. Render patch not applied.
 Translation data for language English has 6 errors. Generate translation report for more info.
+[AVP Xenomorphs] [AVP Xenomorphs] Patched PawnRenderNode_AnimalPart.GraphicFor for drone texture variants
 [AVP Xenomorphs] Broken install blueprint cleanup patch applied
 [AVP Xenomorphs] Patched 4 vanilla think node Satisfied methods with null-map guards
 [AVP Xenomorphs] Patched CompHoldingPlatformTarget.StudiedAtHoldingPlatform for entity capture of Xenomorphs/Neomorphs
+[AVP Xenomorphs] Sampling profiler installed (active while mod DebugMode is on; dumps a report every ~45s)
 [AVP Xenomorphs] Zone/designation perf probe installed (logs placements >100ms, or all with mod DebugMode)
 [AVP Xenomorphs] Patched JobDriver_Wait.CheckForAutoAttack
 [AVP Xenomorphs] Patched Designator_ZoneAdd.CanDesignateCell to block hive/tunnel tiles
@@ -79,7 +81,7 @@ Damage Indicators initialized.
 [DifferentEggSizes]: Updated 90 egg-definitions
 GUD: patches were successful
 [XML Extensions] Initialized 1 SettingsMenuDef(s) and found 0 unused key(s) from 0 mod(s)
-[XML Extensions] 1667 total patch operations run in 3709ms, 0 failed
+[XML Extensions] 1667 total patch operations run in 3606ms, 0 failed
 [XML Extensions] Emitted 1 mod class(es)
 Mines 2.0 -> RecipeDef named MinesAutomated_RecipeDef_MineableSteel added to the mine.
 Mines 2.0 -> RecipeDef named MinesAutomated_RecipeDef_MineableComponentsIndustrial added to the mine.
@@ -112,7 +114,7 @@ NamesGalore: Current Lang English
 [GeneExpandedHair] harmony patch succeeded.
 Unloading 5 Unused Serialized files (Serialized files now loaded: 7)
 Unloading 961 unused Assets to reduce memory usage. Loaded Objects now: 46657.
-Total: 309.009600 ms (FindLiveObjects: 2.674400 ms CreateObjectMapping: 2.438600 ms MarkObjects: 302.837300 ms  DeleteObjects: 1.059000 ms)
+Total: 306.842500 ms (FindLiveObjects: 2.346300 ms CreateObjectMapping: 1.854900 ms MarkObjects: 301.533200 ms  DeleteObjects: 1.107900 ms)
 
 MVCF successfully applied 54 patches
 CharacterEditor v1.6.3 initializing...
@@ -309,15 +311,15 @@ Transpilers:
 Postfixes:
   [PeteTimesSix.SimpleSidearms] TryCastShot
 Unloading 2 Unused Serialized files (Serialized files now loaded: 9)
-<color=#66ffb5>[MeleeAnim]</color> PreCached all retexture info in 139.0ms
+<color=#66ffb5>[MeleeAnim]</color> PreCached all retexture info in 141.5ms
 <color=#66ffb5>[MeleeAnim]</color> Loaded tweak data for 39 weapons.
 <color=#66ffb5>[MeleeAnim]</color> ogliss.avpxenomorphs 'AVP Xenomorphs' has 1 missing weapon tweak data.
 <color=#66ffb5>[MeleeAnim]</color> Skipping reporting of missing mod/weapons because user opted out or the feature is disabled by the developer.
-<color=#66ffb5>[MeleeAnim]</color> Patched 3 classes that directly inherit from Verb_MeleeAttack in 56.0 ms to detect hits:
+<color=#66ffb5>[MeleeAnim]</color> Patched 3 classes that directly inherit from Verb_MeleeAttack in 56.1 ms to detect hits:
 RimWorld.Verb_MeleeApplyHediff from Assembly-CSharp
 RimWorld.Verb_MeleeAttackDamage from Assembly-CSharp
 RRYautja.Verb_MeleeAttackKnockback from RRYautja
-<color=#66ffb5>[MeleeAnim]</color> Found 6 items of clothing that cover hands, took 0.77 ms:
+<color=#66ffb5>[MeleeAnim]</color> Found 6 items of clothing that cover hands, took 0.82 ms:
 VAE_Handwear_Gloves (Gloves),
 VAE_Handwear_PlateGloves (Plate gloves),
 VAE_Handwear_MarineGloves (Marine gloves),
@@ -325,25 +327,25 @@ VAE_Apparel_Shield_Riot (Riot shield),
 VAE_Handwear_TrooperGloves (Trooper gloves),
 VAE_Handwear_Tac_Gloves (Tactical gloves)
 Unloading 57 unused Assets to reduce memory usage. Loaded Objects now: 46817.
-Total: 291.991600 ms (FindLiveObjects: 2.148100 ms CreateObjectMapping: 1.471200 ms MarkObjects: 288.251500 ms  DeleteObjects: 0.120300 ms)
+Total: 289.764900 ms (FindLiveObjects: 2.065100 ms CreateObjectMapping: 1.331200 ms MarkObjects: 286.255200 ms  DeleteObjects: 0.113000 ms)
 
 Unloading 0 Unused Serialized files (Serialized files now loaded: 9)
 Loading asset bundle MuzzleFlash.shaders-windows
 Loaded shader Unlit/AnimatedAdditiveInstanced
 [Muzzle Flash] Shader loaded from MuzzleFlash: Unlit/AnimatedAdditiveInstanced
 Unloading 0 unused Assets to reduce memory usage. Loaded Objects now: 46819.
-Total: 287.535900 ms (FindLiveObjects: 2.125600 ms CreateObjectMapping: 2.483900 ms MarkObjects: 282.864500 ms  DeleteObjects: 0.061600 ms)
+Total: 287.425200 ms (FindLiveObjects: 2.053500 ms CreateObjectMapping: 2.549700 ms MarkObjects: 282.758800 ms  DeleteObjects: 0.063100 ms)
 
 Unloading 0 Unused Serialized files (Serialized files now loaded: 10)
 Unloading 0 unused Assets to reduce memory usage. Loaded Objects now: 46819.
-Total: 297.205700 ms (FindLiveObjects: 2.058700 ms CreateObjectMapping: 2.493100 ms MarkObjects: 292.592900 ms  DeleteObjects: 0.060800 ms)
+Total: 288.486100 ms (FindLiveObjects: 2.044900 ms CreateObjectMapping: 1.600000 ms MarkObjects: 284.781500 ms  DeleteObjects: 0.059500 ms)
 
 Unloading 0 Unused Serialized files (Serialized files now loaded: 10)
-  --> [What's That Mod] Took 0.11 seconds to scan all patches. <--
+  --> [What's That Mod] Took 0.08 seconds to scan all patches. <--
 What's That Mod: Wrote to 5297 mod descriptions, 2 patched defs resolved.
-What's That Mod took 124 milliseconds to generate all def descriptions.
+What's That Mod took 90 milliseconds to generate all def descriptions.
 Unloading 0 unused Assets to reduce memory usage. Loaded Objects now: 46819.
-Total: 303.194900 ms (FindLiveObjects: 1.959200 ms CreateObjectMapping: 1.499400 ms MarkObjects: 299.673400 ms  DeleteObjects: 0.062500 ms)
+Total: 291.887600 ms (FindLiveObjects: 1.983800 ms CreateObjectMapping: 1.360400 ms MarkObjects: 288.487400 ms  DeleteObjects: 0.055900 ms)
 
 [HugsLib] initializing TerraformRimworld
 CE is trying to create default parameter lists ...
@@ -360,19 +362,16 @@ no modifications for objects
 no modifications for lifestages
 ...done
 Unloading 2 Unused Serialized files (Serialized files now loaded: 10)
-Unloading 6 unused Assets to reduce memory usage. Loaded Objects now: 48880.
-Total: 358.784700 ms (FindLiveObjects: 2.350700 ms CreateObjectMapping: 2.652100 ms MarkObjects: 353.687100 ms  DeleteObjects: 0.094300 ms)
-
-Unloading 1 Unused Serialized files (Serialized files now loaded: 10)
-Unloading 3 unused Assets to reduce memory usage. Loaded Objects now: 49233.
-Total: 395.780900 ms (FindLiveObjects: 2.573100 ms CreateObjectMapping: 2.824300 ms MarkObjects: 390.292100 ms  DeleteObjects: 0.091000 ms)
+Unloading 2 unused Assets to reduce memory usage. Loaded Objects now: 47101.
+Total: 312.697900 ms (FindLiveObjects: 2.523200 ms CreateObjectMapping: 2.735400 ms MarkObjects: 307.351300 ms  DeleteObjects: 0.087800 ms)
 
 Unloading 3 Unused Serialized files (Serialized files now loaded: 10)
-UnloadTime: 0.868400 ms
-Unloading 5 unused Assets to reduce memory usage. Loaded Objects now: 52409.
-Total: 409.058100 ms (FindLiveObjects: 2.825600 ms CreateObjectMapping: 1.721100 ms MarkObjects: 404.405500 ms  DeleteObjects: 0.105700 ms)
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+UnloadTime: 1.080000 ms
+Unloading 8 unused Assets to reduce memory usage. Loaded Objects now: 47158.
+Total: 317.602000 ms (FindLiveObjects: 2.125000 ms CreateObjectMapping: 2.576900 ms MarkObjects: 312.812200 ms  DeleteObjects: 0.087800 ms)
 
-Initializing new game with mods:
+Loading game from file USCSS Colony 101 with mods:
   - brrainz.harmony
   - ilyvion.LoadingProgress
   - Ludeon.RimWorld
@@ -515,24 +514,1803 @@ Initializing new game with mods:
   - SR.ModRimworld.FactionalWarContinued
   - SR.ModRimworld.RaidExtension
   - XeoNovaDan.VisiblePants
+<color=#66ffb5>[MeleeAnim]</color> Loaded 0 animation renderers on map Map-0-PlayerHome
 checking editor settings...
 bodysizes genes are active
+[Yayo's Animation] GC : animation data count [0 -> 0]
 [AVP Xenomorphs] Xenomorph hive faction already exists.
-Unloading 0 Unused Serialized files (Serialized files now loaded: 10)
-Unloading 0 unused Assets to reduce memory usage. Loaded Objects now: 52467.
-Total: 437.027600 ms (FindLiveObjects: 2.196900 ms CreateObjectMapping: 1.694700 ms MarkObjects: 433.061300 ms  DeleteObjects: 0.074600 ms)
+Unloading 1 Unused Serialized files (Serialized files now loaded: 10)
+Unloading 0 unused Assets to reduce memory usage. Loaded Objects now: 47219.
+Total: 340.348000 ms (FindLiveObjects: 2.093800 ms CreateObjectMapping: 1.803700 ms MarkObjects: 336.392400 ms  DeleteObjects: 0.057700 ms)
 
 [AVP Xenomorphs] Filth_XenomorphSlime: 16 texture variants loaded
-Life stage def HumanlikeChild not found while searching for min age of Jackson
-[AVP Xenomorphs] [Perf] DesignateMultiCell probe active; recent placement: 1 ms over 272 cells
+[AVP Xenomorphs] [Perf] DesignateMultiCell probe active; recent placement: 2 ms over 160 cells
+ArgumentNullException: Value cannot be null.
+Parameter name: key
+[Ref 52835668] Duplicate stacktrace, see ref for original
+UnityEngine.DebugLogHandler:Internal_LogException(Exception, Object)
+UnityEngine.DebugLogHandler:LogException(Exception, Object)
+UnityEngine.Logger:LogException(Exception, Object)
+UnityEngine.Debug:LogException(Exception)
+UnityEngine.<>c:<RegisterUECatcher>b__0_0(Object, UnhandledExceptionEventArgs)
+
+ArgumentNullException: Value cannot be null.
+Parameter name: key
+[Ref 52835668] Duplicate stacktrace, see ref for original
+UnityEngine.DebugLogHandler:Internal_LogException(Exception, Object)
+UnityEngine.DebugLogHandler:LogException(Exception, Object)
+UnityEngine.Logger:LogException(Exception, Object)
+UnityEngine.Debug:LogException(Exception)
+UnityEngine.<>c:<RegisterUECatcher>b__0_0(Object, UnhandledExceptionEventArgs)
+
+ArgumentNullException: Value cannot be null.
+Parameter name: key
+[Ref 52835668] Duplicate stacktrace, see ref for original
+UnityEngine.DebugLogHandler:Internal_LogException(Exception, Object)
+UnityEngine.DebugLogHandler:LogException(Exception, Object)
+UnityEngine.Logger:LogException(Exception, Object)
+UnityEngine.Debug:LogException(Exception)
+UnityEngine.<>c:<RegisterUECatcher>b__0_0(Object, UnhandledExceptionEventArgs)
+
+ArgumentNullException: Value cannot be null.
+Parameter name: key
+[Ref 52835668] Duplicate stacktrace, see ref for original
+UnityEngine.DebugLogHandler:Internal_LogException(Exception, Object)
+UnityEngine.DebugLogHandler:LogException(Exception, Object)
+UnityEngine.Logger:LogException(Exception, Object)
+UnityEngine.Debug:LogException(Exception)
+UnityEngine.<>c:<RegisterUECatcher>b__0_0(Object, UnhandledExceptionEventArgs)
+
+ArgumentNullException: Value cannot be null.
+Parameter name: key
+[Ref 52835668] Duplicate stacktrace, see ref for original
+UnityEngine.DebugLogHandler:Internal_LogException(Exception, Object)
+UnityEngine.DebugLogHandler:LogException(Exception, Object)
+UnityEngine.Logger:LogException(Exception, Object)
+UnityEngine.Debug:LogException(Exception)
+UnityEngine.<>c:<RegisterUECatcher>b__0_0(Object, UnhandledExceptionEventArgs)
+
+ArgumentNullException: Value cannot be null.
+Parameter name: key
+[Ref 52835668] Duplicate stacktrace, see ref for original
+UnityEngine.DebugLogHandler:Internal_LogException(Exception, Object)
+UnityEngine.DebugLogHandler:LogException(Exception, Object)
+UnityEngine.Logger:LogException(Exception, Object)
+UnityEngine.Debug:LogException(Exception)
+UnityEngine.<>c:<RegisterUECatcher>b__0_0(Object, UnhandledExceptionEventArgs)
+
+ArgumentNullException: Value cannot be null.
+Parameter name: key
+[Ref 52835668] Duplicate stacktrace, see ref for original
+UnityEngine.DebugLogHandler:Internal_LogException(Exception, Object)
+UnityEngine.DebugLogHandler:LogException(Exception, Object)
+UnityEngine.Logger:LogException(Exception, Object)
+UnityEngine.Debug:LogException(Exception)
+UnityEngine.<>c:<RegisterUECatcher>b__0_0(Object, UnhandledExceptionEventArgs)
+
+ArgumentNullException: Value cannot be null.
+Parameter name: key
+[Ref 52835668] Duplicate stacktrace, see ref for original
+UnityEngine.DebugLogHandler:Internal_LogException(Exception, Object)
+UnityEngine.DebugLogHandler:LogException(Exception, Object)
+UnityEngine.Logger:LogException(Exception, Object)
+UnityEngine.Debug:LogException(Exception)
+UnityEngine.<>c:<RegisterUECatcher>b__0_0(Object, UnhandledExceptionEventArgs)
+
+Look rotation viewing vector is zero
+Look rotation viewing vector is zero
+Look rotation viewing vector is zero
+Look rotation viewing vector is zero
+Look rotation viewing vector is zero
+Look rotation viewing vector is zero
+Look rotation viewing vector is zero
+Look rotation viewing vector is zero
+Look rotation viewing vector is zero
+Look rotation viewing vector is zero
+Look rotation viewing vector is zero
+Look rotation viewing vector is zero
+Look rotation viewing vector is zero
+Look rotation viewing vector is zero
+Look rotation viewing vector is zero
+Look rotation viewing vector is zero
+Look rotation viewing vector is zero
+Look rotation viewing vector is zero
+Look rotation viewing vector is zero
+Look rotation viewing vector is zero
+Look rotation viewing vector is zero
+Look rotation viewing vector is zero
+Look rotation viewing vector is zero
+Look rotation viewing vector is zero
+Look rotation viewing vector is zero
+Look rotation viewing vector is zero
+Look rotation viewing vector is zero
+Look rotation viewing vector is zero
+Look rotation viewing vector is zero
+Look rotation viewing vector is zero
+Look rotation viewing vector is zero
+Look rotation viewing vector is zero
+Look rotation viewing vector is zero
+Look rotation viewing vector is zero
+Look rotation viewing vector is zero
+Look rotation viewing vector is zero
+Look rotation viewing vector is zero
+Look rotation viewing vector is zero
+Look rotation viewing vector is zero
+Look rotation viewing vector is zero
+Look rotation viewing vector is zero
+Look rotation viewing vector is zero
+Look rotation viewing vector is zero
+Look rotation viewing vector is zero
+Look rotation viewing vector is zero
+Look rotation viewing vector is zero
+Look rotation viewing vector is zero
+Look rotation viewing vector is zero
+Look rotation viewing vector is zero
+Look rotation viewing vector is zero
+Look rotation viewing vector is zero
+Look rotation viewing vector is zero
+Look rotation viewing vector is zero
+Look rotation viewing vector is zero
+Look rotation viewing vector is zero
+Look rotation viewing vector is zero
+Look rotation viewing vector is zero
+Look rotation viewing vector is zero
+Look rotation viewing vector is zero
+Look rotation viewing vector is zero
+Look rotation viewing vector is zero
+Look rotation viewing vector is zero
+Look rotation viewing vector is zero
+Look rotation viewing vector is zero
+Look rotation viewing vector is zero
+Look rotation viewing vector is zero
+Look rotation viewing vector is zero
+Look rotation viewing vector is zero
+Look rotation viewing vector is zero
+Look rotation viewing vector is zero
+Look rotation viewing vector is zero
+Look rotation viewing vector is zero
+Look rotation viewing vector is zero
+Look rotation viewing vector is zero
+Look rotation viewing vector is zero
+Look rotation viewing vector is zero
+Look rotation viewing vector is zero
+Look rotation viewing vector is zero
+Look rotation viewing vector is zero
+Look rotation viewing vector is zero
+Look rotation viewing vector is zero
+Look rotation viewing vector is zero
+Look rotation viewing vector is zero
+Look rotation viewing vector is zero
+Look rotation viewing vector is zero
+Look rotation viewing vector is zero
+Look rotation viewing vector is zero
+Look rotation viewing vector is zero
+Look rotation viewing vector is zero
+Look rotation viewing vector is zero
+Look rotation viewing vector is zero
+Look rotation viewing vector is zero
+Look rotation viewing vector is zero
+Look rotation viewing vector is zero
+Look rotation viewing vector is zero
+Look rotation viewing vector is zero
+Look rotation viewing vector is zero
+Look rotation viewing vector is zero
+Look rotation viewing vector is zero
+Look rotation viewing vector is zero
+Look rotation viewing vector is zero
+Look rotation viewing vector is zero
+Look rotation viewing vector is zero
+Look rotation viewing vector is zero
+Look rotation viewing vector is zero
+Look rotation viewing vector is zero
+Look rotation viewing vector is zero
+Look rotation viewing vector is zero
+Look rotation viewing vector is zero
+Look rotation viewing vector is zero
+Look rotation viewing vector is zero
+Look rotation viewing vector is zero
+Look rotation viewing vector is zero
+Look rotation viewing vector is zero
+Look rotation viewing vector is zero
+Look rotation viewing vector is zero
+Look rotation viewing vector is zero
+Look rotation viewing vector is zero
+Look rotation viewing vector is zero
+Look rotation viewing vector is zero
+Look rotation viewing vector is zero
+Look rotation viewing vector is zero
+Look rotation viewing vector is zero
+Look rotation viewing vector is zero
+Look rotation viewing vector is zero
+Look rotation viewing vector is zero
+Look rotation viewing vector is zero
+Look rotation viewing vector is zero
+Look rotation viewing vector is zero
+Look rotation viewing vector is zero
+Look rotation viewing vector is zero
+Look rotation viewing vector is zero
+Look rotation viewing vector is zero
+Look rotation viewing vector is zero
+Look rotation viewing vector is zero
+Look rotation viewing vector is zero
+Look rotation viewing vector is zero
+Look rotation viewing vector is zero
+Look rotation viewing vector is zero
+Look rotation viewing vector is zero
+Look rotation viewing vector is zero
+Look rotation viewing vector is zero
+Look rotation viewing vector is zero
+Look rotation viewing vector is zero
+Look rotation viewing vector is zero
+Look rotation viewing vector is zero
+Look rotation viewing vector is zero
+Look rotation viewing vector is zero
+Look rotation viewing vector is zero
+Look rotation viewing vector is zero
+Look rotation viewing vector is zero
+Look rotation viewing vector is zero
+Look rotation viewing vector is zero
+Look rotation viewing vector is zero
+Look rotation viewing vector is zero
+Look rotation viewing vector is zero
+Look rotation viewing vector is zero
+Look rotation viewing vector is zero
+Look rotation viewing vector is zero
+Look rotation viewing vector is zero
+Look rotation viewing vector is zero
+Look rotation viewing vector is zero
+Look rotation viewing vector is zero
+Look rotation viewing vector is zero
+Look rotation viewing vector is zero
+Look rotation viewing vector is zero
+Look rotation viewing vector is zero
+Look rotation viewing vector is zero
+Look rotation viewing vector is zero
+Look rotation viewing vector is zero
+Look rotation viewing vector is zero
+Look rotation viewing vector is zero
+Look rotation viewing vector is zero
+Look rotation viewing vector is zero
+Look rotation viewing vector is zero
+Look rotation viewing vector is zero
+Look rotation viewing vector is zero
+Look rotation viewing vector is zero
+Look rotation viewing vector is zero
+Look rotation viewing vector is zero
+Look rotation viewing vector is zero
+Look rotation viewing vector is zero
+Look rotation viewing vector is zero
+Look rotation viewing vector is zero
+Look rotation viewing vector is zero
+Look rotation viewing vector is zero
+Look rotation viewing vector is zero
+Look rotation viewing vector is zero
+Look rotation viewing vector is zero
+Look rotation viewing vector is zero
+Look rotation viewing vector is zero
+Look rotation viewing vector is zero
+Look rotation viewing vector is zero
+Look rotation viewing vector is zero
+Look rotation viewing vector is zero
+Look rotation viewing vector is zero
+Look rotation viewing vector is zero
+Look rotation viewing vector is zero
+Look rotation viewing vector is zero
+Look rotation viewing vector is zero
+Look rotation viewing vector is zero
+Look rotation viewing vector is zero
+Look rotation viewing vector is zero
+Look rotation viewing vector is zero
+Look rotation viewing vector is zero
+Look rotation viewing vector is zero
+Look rotation viewing vector is zero
+Look rotation viewing vector is zero
+Look rotation viewing vector is zero
+Look rotation viewing vector is zero
+Look rotation viewing vector is zero
+Look rotation viewing vector is zero
+Look rotation viewing vector is zero
+Look rotation viewing vector is zero
+Look rotation viewing vector is zero
+Look rotation viewing vector is zero
+Look rotation viewing vector is zero
+Look rotation viewing vector is zero
+Look rotation viewing vector is zero
+Look rotation viewing vector is zero
+Look rotation viewing vector is zero
+Look rotation viewing vector is zero
+Look rotation viewing vector is zero
+Look rotation viewing vector is zero
+Look rotation viewing vector is zero
+Look rotation viewing vector is zero
+Look rotation viewing vector is zero
+Look rotation viewing vector is zero
+Look rotation viewing vector is zero
+Look rotation viewing vector is zero
+Look rotation viewing vector is zero
+Look rotation viewing vector is zero
+Look rotation viewing vector is zero
+Look rotation viewing vector is zero
+Look rotation viewing vector is zero
+Look rotation viewing vector is zero
+Look rotation viewing vector is zero
+Look rotation viewing vector is zero
+Look rotation viewing vector is zero
+Look rotation viewing vector is zero
+Look rotation viewing vector is zero
+Look rotation viewing vector is zero
+Look rotation viewing vector is zero
+Look rotation viewing vector is zero
+Look rotation viewing vector is zero
+Look rotation viewing vector is zero
+Look rotation viewing vector is zero
+Look rotation viewing vector is zero
+Look rotation viewing vector is zero
+Look rotation viewing vector is zero
+Look rotation viewing vector is zero
+Look rotation viewing vector is zero
+Look rotation viewing vector is zero
+Look rotation viewing vector is zero
+Look rotation viewing vector is zero
+Look rotation viewing vector is zero
+Look rotation viewing vector is zero
+Look rotation viewing vector is zero
+Look rotation viewing vector is zero
+Look rotation viewing vector is zero
+Look rotation viewing vector is zero
+Look rotation viewing vector is zero
+Look rotation viewing vector is zero
+Look rotation viewing vector is zero
+Look rotation viewing vector is zero
+Look rotation viewing vector is zero
+Look rotation viewing vector is zero
+Look rotation viewing vector is zero
+Look rotation viewing vector is zero
+Look rotation viewing vector is zero
+Look rotation viewing vector is zero
+Look rotation viewing vector is zero
+Look rotation viewing vector is zero
+Look rotation viewing vector is zero
+Look rotation viewing vector is zero
+Look rotation viewing vector is zero
+Look rotation viewing vector is zero
+Look rotation viewing vector is zero
+Look rotation viewing vector is zero
+Look rotation viewing vector is zero
+Look rotation viewing vector is zero
+Look rotation viewing vector is zero
+Look rotation viewing vector is zero
+Look rotation viewing vector is zero
+Look rotation viewing vector is zero
+Look rotation viewing vector is zero
+Look rotation viewing vector is zero
+Look rotation viewing vector is zero
+Look rotation viewing vector is zero
+Look rotation viewing vector is zero
+Look rotation viewing vector is zero
+Look rotation viewing vector is zero
+Look rotation viewing vector is zero
+Look rotation viewing vector is zero
+Look rotation viewing vector is zero
+Look rotation viewing vector is zero
+Look rotation viewing vector is zero
+Look rotation viewing vector is zero
+Look rotation viewing vector is zero
+Look rotation viewing vector is zero
+Look rotation viewing vector is zero
+Look rotation viewing vector is zero
+Look rotation viewing vector is zero
+Look rotation viewing vector is zero
+Look rotation viewing vector is zero
+Look rotation viewing vector is zero
+Look rotation viewing vector is zero
+Look rotation viewing vector is zero
+Look rotation viewing vector is zero
+Look rotation viewing vector is zero
+Look rotation viewing vector is zero
+Look rotation viewing vector is zero
+Look rotation viewing vector is zero
+Look rotation viewing vector is zero
+Look rotation viewing vector is zero
+Look rotation viewing vector is zero
+Look rotation viewing vector is zero
+Look rotation viewing vector is zero
+Look rotation viewing vector is zero
+Look rotation viewing vector is zero
+Look rotation viewing vector is zero
+Look rotation viewing vector is zero
+Look rotation viewing vector is zero
+Look rotation viewing vector is zero
+Look rotation viewing vector is zero
+Look rotation viewing vector is zero
+Look rotation viewing vector is zero
+Look rotation viewing vector is zero
+Look rotation viewing vector is zero
+Look rotation viewing vector is zero
+Look rotation viewing vector is zero
+Look rotation viewing vector is zero
+Look rotation viewing vector is zero
+Look rotation viewing vector is zero
+Look rotation viewing vector is zero
+Look rotation viewing vector is zero
+Look rotation viewing vector is zero
+Look rotation viewing vector is zero
+Look rotation viewing vector is zero
+Look rotation viewing vector is zero
+Look rotation viewing vector is zero
+Look rotation viewing vector is zero
+Look rotation viewing vector is zero
+Look rotation viewing vector is zero
+Look rotation viewing vector is zero
+Look rotation viewing vector is zero
+Look rotation viewing vector is zero
+Look rotation viewing vector is zero
+Look rotation viewing vector is zero
+Look rotation viewing vector is zero
+Look rotation viewing vector is zero
+Look rotation viewing vector is zero
+Look rotation viewing vector is zero
+Look rotation viewing vector is zero
+Look rotation viewing vector is zero
+Look rotation viewing vector is zero
+Look rotation viewing vector is zero
+Look rotation viewing vector is zero
+Look rotation viewing vector is zero
+Look rotation viewing vector is zero
+Look rotation viewing vector is zero
+Look rotation viewing vector is zero
+Look rotation viewing vector is zero
+Look rotation viewing vector is zero
+Look rotation viewing vector is zero
+Look rotation viewing vector is zero
+Look rotation viewing vector is zero
+Look rotation viewing vector is zero
+Look rotation viewing vector is zero
+Look rotation viewing vector is zero
+Look rotation viewing vector is zero
+Look rotation viewing vector is zero
+Look rotation viewing vector is zero
+Look rotation viewing vector is zero
+Look rotation viewing vector is zero
+Look rotation viewing vector is zero
+Look rotation viewing vector is zero
+Look rotation viewing vector is zero
+Look rotation viewing vector is zero
+Look rotation viewing vector is zero
+Look rotation viewing vector is zero
+Look rotation viewing vector is zero
+Look rotation viewing vector is zero
+Look rotation viewing vector is zero
+Look rotation viewing vector is zero
+Look rotation viewing vector is zero
+Look rotation viewing vector is zero
+Look rotation viewing vector is zero
+Look rotation viewing vector is zero
+Look rotation viewing vector is zero
+Look rotation viewing vector is zero
+Look rotation viewing vector is zero
+Look rotation viewing vector is zero
+Look rotation viewing vector is zero
+Look rotation viewing vector is zero
+Look rotation viewing vector is zero
+Look rotation viewing vector is zero
+Look rotation viewing vector is zero
+Look rotation viewing vector is zero
+Look rotation viewing vector is zero
+Look rotation viewing vector is zero
+Look rotation viewing vector is zero
+Look rotation viewing vector is zero
+Look rotation viewing vector is zero
+Look rotation viewing vector is zero
+Look rotation viewing vector is zero
+Look rotation viewing vector is zero
+Look rotation viewing vector is zero
+Look rotation viewing vector is zero
+Look rotation viewing vector is zero
+Look rotation viewing vector is zero
+Look rotation viewing vector is zero
+Look rotation viewing vector is zero
+Look rotation viewing vector is zero
+Look rotation viewing vector is zero
+Look rotation viewing vector is zero
+Look rotation viewing vector is zero
+Look rotation viewing vector is zero
+Look rotation viewing vector is zero
+Look rotation viewing vector is zero
+Look rotation viewing vector is zero
+Look rotation viewing vector is zero
+Look rotation viewing vector is zero
+Look rotation viewing vector is zero
+Look rotation viewing vector is zero
+Look rotation viewing vector is zero
+Look rotation viewing vector is zero
+Look rotation viewing vector is zero
+Look rotation viewing vector is zero
+Look rotation viewing vector is zero
+Look rotation viewing vector is zero
+Look rotation viewing vector is zero
+Look rotation viewing vector is zero
+Look rotation viewing vector is zero
+Look rotation viewing vector is zero
+Look rotation viewing vector is zero
+Look rotation viewing vector is zero
+Look rotation viewing vector is zero
+Look rotation viewing vector is zero
+Look rotation viewing vector is zero
+Look rotation viewing vector is zero
+Look rotation viewing vector is zero
+Look rotation viewing vector is zero
+Look rotation viewing vector is zero
+Look rotation viewing vector is zero
+Look rotation viewing vector is zero
+Look rotation viewing vector is zero
+Look rotation viewing vector is zero
+Look rotation viewing vector is zero
+Look rotation viewing vector is zero
+Look rotation viewing vector is zero
+Look rotation viewing vector is zero
+Look rotation viewing vector is zero
+Look rotation viewing vector is zero
+Look rotation viewing vector is zero
+Look rotation viewing vector is zero
+Look rotation viewing vector is zero
+Look rotation viewing vector is zero
+Look rotation viewing vector is zero
+Look rotation viewing vector is zero
+Look rotation viewing vector is zero
+Look rotation viewing vector is zero
+Look rotation viewing vector is zero
+Look rotation viewing vector is zero
+Look rotation viewing vector is zero
+Look rotation viewing vector is zero
+Look rotation viewing vector is zero
+Look rotation viewing vector is zero
+Look rotation viewing vector is zero
+Look rotation viewing vector is zero
+Look rotation viewing vector is zero
+Look rotation viewing vector is zero
+Look rotation viewing vector is zero
+Look rotation viewing vector is zero
+Look rotation viewing vector is zero
+Look rotation viewing vector is zero
+Look rotation viewing vector is zero
+Look rotation viewing vector is zero
+[Covetheus] Filth_WalterBlood: 8 texture variants loaded
+Look rotation viewing vector is zero
+Look rotation viewing vector is zero
+Look rotation viewing vector is zero
+Look rotation viewing vector is zero
+Look rotation viewing vector is zero
+Look rotation viewing vector is zero
+Look rotation viewing vector is zero
+Look rotation viewing vector is zero
+Look rotation viewing vector is zero
+Look rotation viewing vector is zero
+Look rotation viewing vector is zero
+Look rotation viewing vector is zero
+Look rotation viewing vector is zero
+Look rotation viewing vector is zero
+Look rotation viewing vector is zero
+Look rotation viewing vector is zero
+Look rotation viewing vector is zero
+Look rotation viewing vector is zero
+Look rotation viewing vector is zero
+Look rotation viewing vector is zero
+Look rotation viewing vector is zero
+Look rotation viewing vector is zero
+Look rotation viewing vector is zero
+Look rotation viewing vector is zero
+Look rotation viewing vector is zero
+Look rotation viewing vector is zero
+Look rotation viewing vector is zero
+Look rotation viewing vector is zero
+Look rotation viewing vector is zero
+Look rotation viewing vector is zero
+Look rotation viewing vector is zero
+Look rotation viewing vector is zero
+Look rotation viewing vector is zero
+Look rotation viewing vector is zero
+Look rotation viewing vector is zero
+Look rotation viewing vector is zero
+Look rotation viewing vector is zero
+Look rotation viewing vector is zero
+Look rotation viewing vector is zero
+Look rotation viewing vector is zero
+Look rotation viewing vector is zero
+Look rotation viewing vector is zero
+Look rotation viewing vector is zero
+Look rotation viewing vector is zero
+Look rotation viewing vector is zero
+Look rotation viewing vector is zero
+Look rotation viewing vector is zero
+Look rotation viewing vector is zero
+Look rotation viewing vector is zero
+Look rotation viewing vector is zero
+Look rotation viewing vector is zero
+Look rotation viewing vector is zero
+Look rotation viewing vector is zero
+Look rotation viewing vector is zero
+Look rotation viewing vector is zero
+Look rotation viewing vector is zero
+Look rotation viewing vector is zero
+Look rotation viewing vector is zero
+Look rotation viewing vector is zero
+Look rotation viewing vector is zero
+Look rotation viewing vector is zero
+Look rotation viewing vector is zero
+Look rotation viewing vector is zero
+Look rotation viewing vector is zero
+Look rotation viewing vector is zero
+Look rotation viewing vector is zero
+Look rotation viewing vector is zero
+Look rotation viewing vector is zero
+Look rotation viewing vector is zero
+Look rotation viewing vector is zero
+Look rotation viewing vector is zero
+ArgumentNullException: Value cannot be null.
+Parameter name: key
+[Ref 52835668] Duplicate stacktrace, see ref for original
+UnityEngine.DebugLogHandler:Internal_LogException(Exception, Object)
+UnityEngine.DebugLogHandler:LogException(Exception, Object)
+UnityEngine.Logger:LogException(Exception, Object)
+UnityEngine.Debug:LogException(Exception)
+UnityEngine.<>c:<RegisterUECatcher>b__0_0(Object, UnhandledExceptionEventArgs)
+
+Look rotation viewing vector is zero
+Look rotation viewing vector is zero
+Look rotation viewing vector is zero
+Look rotation viewing vector is zero
+Look rotation viewing vector is zero
+Look rotation viewing vector is zero
+Look rotation viewing vector is zero
+Look rotation viewing vector is zero
+Look rotation viewing vector is zero
+Look rotation viewing vector is zero
+Look rotation viewing vector is zero
+Look rotation viewing vector is zero
+Look rotation viewing vector is zero
+Look rotation viewing vector is zero
+Look rotation viewing vector is zero
+Look rotation viewing vector is zero
+Look rotation viewing vector is zero
+Look rotation viewing vector is zero
+Look rotation viewing vector is zero
+Look rotation viewing vector is zero
+Look rotation viewing vector is zero
+Look rotation viewing vector is zero
+Look rotation viewing vector is zero
+Look rotation viewing vector is zero
+Look rotation viewing vector is zero
+Look rotation viewing vector is zero
+Look rotation viewing vector is zero
+Look rotation viewing vector is zero
+Look rotation viewing vector is zero
+Look rotation viewing vector is zero
+Look rotation viewing vector is zero
+Look rotation viewing vector is zero
+Look rotation viewing vector is zero
+Look rotation viewing vector is zero
+Look rotation viewing vector is zero
+Look rotation viewing vector is zero
+Look rotation viewing vector is zero
+Look rotation viewing vector is zero
+Look rotation viewing vector is zero
+Look rotation viewing vector is zero
+Look rotation viewing vector is zero
+Look rotation viewing vector is zero
+Look rotation viewing vector is zero
+Look rotation viewing vector is zero
+Look rotation viewing vector is zero
+Look rotation viewing vector is zero
+Look rotation viewing vector is zero
+Look rotation viewing vector is zero
+Look rotation viewing vector is zero
+Look rotation viewing vector is zero
+Look rotation viewing vector is zero
+Look rotation viewing vector is zero
+Look rotation viewing vector is zero
+Look rotation viewing vector is zero
+Look rotation viewing vector is zero
+Look rotation viewing vector is zero
+Look rotation viewing vector is zero
+Look rotation viewing vector is zero
+Look rotation viewing vector is zero
+Look rotation viewing vector is zero
+Look rotation viewing vector is zero
+Look rotation viewing vector is zero
+Look rotation viewing vector is zero
+Look rotation viewing vector is zero
+Look rotation viewing vector is zero
+Look rotation viewing vector is zero
+Look rotation viewing vector is zero
+Look rotation viewing vector is zero
+Look rotation viewing vector is zero
+Look rotation viewing vector is zero
+Look rotation viewing vector is zero
+Look rotation viewing vector is zero
+Look rotation viewing vector is zero
+Look rotation viewing vector is zero
+Look rotation viewing vector is zero
+Look rotation viewing vector is zero
+Look rotation viewing vector is zero
+Look rotation viewing vector is zero
+Look rotation viewing vector is zero
+Look rotation viewing vector is zero
+Look rotation viewing vector is zero
+Look rotation viewing vector is zero
+Look rotation viewing vector is zero
+Look rotation viewing vector is zero
+Look rotation viewing vector is zero
+Look rotation viewing vector is zero
+Look rotation viewing vector is zero
+Look rotation viewing vector is zero
+Look rotation viewing vector is zero
+Look rotation viewing vector is zero
+Look rotation viewing vector is zero
+Look rotation viewing vector is zero
+Look rotation viewing vector is zero
+Look rotation viewing vector is zero
+Look rotation viewing vector is zero
+Look rotation viewing vector is zero
+Look rotation viewing vector is zero
+Look rotation viewing vector is zero
+Look rotation viewing vector is zero
+Look rotation viewing vector is zero
+Look rotation viewing vector is zero
+Look rotation viewing vector is zero
+Look rotation viewing vector is zero
+Look rotation viewing vector is zero
+Look rotation viewing vector is zero
+Look rotation viewing vector is zero
+Look rotation viewing vector is zero
+Look rotation viewing vector is zero
+Look rotation viewing vector is zero
+Look rotation viewing vector is zero
+Look rotation viewing vector is zero
+Look rotation viewing vector is zero
+Look rotation viewing vector is zero
+Look rotation viewing vector is zero
+Look rotation viewing vector is zero
+Look rotation viewing vector is zero
+Look rotation viewing vector is zero
+Look rotation viewing vector is zero
+Look rotation viewing vector is zero
+Look rotation viewing vector is zero
+Look rotation viewing vector is zero
+Look rotation viewing vector is zero
+Look rotation viewing vector is zero
+Look rotation viewing vector is zero
+Look rotation viewing vector is zero
+Look rotation viewing vector is zero
+Look rotation viewing vector is zero
+Look rotation viewing vector is zero
+Look rotation viewing vector is zero
+Look rotation viewing vector is zero
+Look rotation viewing vector is zero
+Look rotation viewing vector is zero
+Look rotation viewing vector is zero
+Look rotation viewing vector is zero
+Look rotation viewing vector is zero
+Look rotation viewing vector is zero
+Look rotation viewing vector is zero
+Look rotation viewing vector is zero
+Look rotation viewing vector is zero
+Look rotation viewing vector is zero
+Look rotation viewing vector is zero
+Look rotation viewing vector is zero
+Look rotation viewing vector is zero
+Look rotation viewing vector is zero
+Look rotation viewing vector is zero
+Look rotation viewing vector is zero
+Look rotation viewing vector is zero
+Look rotation viewing vector is zero
+Look rotation viewing vector is zero
+Look rotation viewing vector is zero
+Look rotation viewing vector is zero
+Look rotation viewing vector is zero
+Look rotation viewing vector is zero
+Look rotation viewing vector is zero
+Look rotation viewing vector is zero
+Look rotation viewing vector is zero
+Look rotation viewing vector is zero
+Look rotation viewing vector is zero
+Look rotation viewing vector is zero
+Look rotation viewing vector is zero
+Look rotation viewing vector is zero
+Look rotation viewing vector is zero
+Look rotation viewing vector is zero
+Look rotation viewing vector is zero
+Look rotation viewing vector is zero
+Look rotation viewing vector is zero
+Look rotation viewing vector is zero
+Look rotation viewing vector is zero
+Look rotation viewing vector is zero
+Look rotation viewing vector is zero
+Look rotation viewing vector is zero
+Look rotation viewing vector is zero
+Look rotation viewing vector is zero
+Look rotation viewing vector is zero
+Look rotation viewing vector is zero
+Look rotation viewing vector is zero
+Look rotation viewing vector is zero
+Look rotation viewing vector is zero
+Look rotation viewing vector is zero
+Look rotation viewing vector is zero
+Look rotation viewing vector is zero
+Look rotation viewing vector is zero
+Look rotation viewing vector is zero
+Look rotation viewing vector is zero
+Look rotation viewing vector is zero
+Look rotation viewing vector is zero
+Look rotation viewing vector is zero
+Look rotation viewing vector is zero
+Look rotation viewing vector is zero
+Look rotation viewing vector is zero
+Look rotation viewing vector is zero
+Look rotation viewing vector is zero
+Look rotation viewing vector is zero
+Look rotation viewing vector is zero
+Look rotation viewing vector is zero
+Look rotation viewing vector is zero
+Look rotation viewing vector is zero
+Look rotation viewing vector is zero
+Look rotation viewing vector is zero
+Look rotation viewing vector is zero
+Look rotation viewing vector is zero
+Look rotation viewing vector is zero
+Look rotation viewing vector is zero
+Look rotation viewing vector is zero
+Look rotation viewing vector is zero
+Look rotation viewing vector is zero
+Look rotation viewing vector is zero
+Look rotation viewing vector is zero
+Look rotation viewing vector is zero
+Look rotation viewing vector is zero
+Look rotation viewing vector is zero
+Look rotation viewing vector is zero
+Look rotation viewing vector is zero
+Look rotation viewing vector is zero
+Look rotation viewing vector is zero
+Look rotation viewing vector is zero
+Look rotation viewing vector is zero
+Look rotation viewing vector is zero
+Look rotation viewing vector is zero
+Look rotation viewing vector is zero
+Look rotation viewing vector is zero
+Look rotation viewing vector is zero
+Look rotation viewing vector is zero
+Look rotation viewing vector is zero
+Look rotation viewing vector is zero
+Look rotation viewing vector is zero
+Look rotation viewing vector is zero
+Look rotation viewing vector is zero
+Look rotation viewing vector is zero
+Look rotation viewing vector is zero
+Look rotation viewing vector is zero
+Look rotation viewing vector is zero
+Look rotation viewing vector is zero
+Look rotation viewing vector is zero
+Look rotation viewing vector is zero
+Look rotation viewing vector is zero
+Look rotation viewing vector is zero
+Look rotation viewing vector is zero
+Look rotation viewing vector is zero
+Look rotation viewing vector is zero
+Look rotation viewing vector is zero
+Look rotation viewing vector is zero
+Look rotation viewing vector is zero
+Look rotation viewing vector is zero
+Look rotation viewing vector is zero
+Look rotation viewing vector is zero
+Look rotation viewing vector is zero
+Look rotation viewing vector is zero
+Look rotation viewing vector is zero
+Look rotation viewing vector is zero
+Look rotation viewing vector is zero
+Look rotation viewing vector is zero
+Look rotation viewing vector is zero
+Look rotation viewing vector is zero
+Look rotation viewing vector is zero
+Look rotation viewing vector is zero
+Look rotation viewing vector is zero
+Look rotation viewing vector is zero
+Look rotation viewing vector is zero
+Look rotation viewing vector is zero
+Look rotation viewing vector is zero
+Look rotation viewing vector is zero
+Look rotation viewing vector is zero
+Look rotation viewing vector is zero
+Look rotation viewing vector is zero
+Look rotation viewing vector is zero
+Look rotation viewing vector is zero
+Look rotation viewing vector is zero
+Look rotation viewing vector is zero
+Look rotation viewing vector is zero
+Look rotation viewing vector is zero
+Look rotation viewing vector is zero
+Look rotation viewing vector is zero
+Look rotation viewing vector is zero
+Look rotation viewing vector is zero
+Look rotation viewing vector is zero
+Look rotation viewing vector is zero
+Look rotation viewing vector is zero
+Look rotation viewing vector is zero
+Look rotation viewing vector is zero
+Look rotation viewing vector is zero
+Look rotation viewing vector is zero
+Look rotation viewing vector is zero
+Look rotation viewing vector is zero
+Look rotation viewing vector is zero
+Look rotation viewing vector is zero
+Look rotation viewing vector is zero
+Look rotation viewing vector is zero
+Look rotation viewing vector is zero
+Look rotation viewing vector is zero
+Look rotation viewing vector is zero
+Look rotation viewing vector is zero
+Look rotation viewing vector is zero
+Look rotation viewing vector is zero
+Look rotation viewing vector is zero
+Look rotation viewing vector is zero
+Look rotation viewing vector is zero
+Look rotation viewing vector is zero
+Look rotation viewing vector is zero
+Look rotation viewing vector is zero
+Look rotation viewing vector is zero
+Look rotation viewing vector is zero
+Look rotation viewing vector is zero
+Look rotation viewing vector is zero
+Look rotation viewing vector is zero
+Look rotation viewing vector is zero
+Look rotation viewing vector is zero
+Look rotation viewing vector is zero
+Look rotation viewing vector is zero
+Look rotation viewing vector is zero
+Look rotation viewing vector is zero
+Look rotation viewing vector is zero
+Look rotation viewing vector is zero
+Look rotation viewing vector is zero
+Look rotation viewing vector is zero
+Look rotation viewing vector is zero
+Look rotation viewing vector is zero
+Look rotation viewing vector is zero
+Look rotation viewing vector is zero
+Look rotation viewing vector is zero
+Look rotation viewing vector is zero
+Look rotation viewing vector is zero
+Look rotation viewing vector is zero
+Look rotation viewing vector is zero
+Look rotation viewing vector is zero
+Look rotation viewing vector is zero
+Look rotation viewing vector is zero
+Look rotation viewing vector is zero
+Look rotation viewing vector is zero
+Look rotation viewing vector is zero
+Look rotation viewing vector is zero
+Look rotation viewing vector is zero
+Look rotation viewing vector is zero
+Look rotation viewing vector is zero
+Look rotation viewing vector is zero
+Look rotation viewing vector is zero
+Look rotation viewing vector is zero
+Look rotation viewing vector is zero
+Look rotation viewing vector is zero
+Look rotation viewing vector is zero
+Look rotation viewing vector is zero
+Look rotation viewing vector is zero
+Look rotation viewing vector is zero
+Look rotation viewing vector is zero
+Look rotation viewing vector is zero
+Look rotation viewing vector is zero
+Look rotation viewing vector is zero
+Look rotation viewing vector is zero
+Look rotation viewing vector is zero
+Look rotation viewing vector is zero
+Look rotation viewing vector is zero
+Look rotation viewing vector is zero
+Look rotation viewing vector is zero
+Look rotation viewing vector is zero
+Look rotation viewing vector is zero
+Look rotation viewing vector is zero
+Look rotation viewing vector is zero
+Look rotation viewing vector is zero
+Look rotation viewing vector is zero
+Look rotation viewing vector is zero
+Look rotation viewing vector is zero
+Look rotation viewing vector is zero
+Look rotation viewing vector is zero
+Look rotation viewing vector is zero
+Look rotation viewing vector is zero
+Look rotation viewing vector is zero
+Look rotation viewing vector is zero
+Look rotation viewing vector is zero
+Look rotation viewing vector is zero
+Look rotation viewing vector is zero
+Look rotation viewing vector is zero
+Look rotation viewing vector is zero
+Look rotation viewing vector is zero
+Look rotation viewing vector is zero
+Look rotation viewing vector is zero
+Look rotation viewing vector is zero
+Look rotation viewing vector is zero
+Look rotation viewing vector is zero
+Look rotation viewing vector is zero
+Look rotation viewing vector is zero
+Look rotation viewing vector is zero
+Look rotation viewing vector is zero
+Look rotation viewing vector is zero
+Look rotation viewing vector is zero
+Look rotation viewing vector is zero
+Look rotation viewing vector is zero
+Look rotation viewing vector is zero
+Look rotation viewing vector is zero
+Look rotation viewing vector is zero
+Look rotation viewing vector is zero
+Look rotation viewing vector is zero
+Look rotation viewing vector is zero
+Look rotation viewing vector is zero
+Look rotation viewing vector is zero
+Look rotation viewing vector is zero
+Look rotation viewing vector is zero
+Look rotation viewing vector is zero
+Look rotation viewing vector is zero
+Look rotation viewing vector is zero
+Look rotation viewing vector is zero
+Look rotation viewing vector is zero
+Look rotation viewing vector is zero
+Look rotation viewing vector is zero
+Look rotation viewing vector is zero
+Look rotation viewing vector is zero
+Look rotation viewing vector is zero
+Look rotation viewing vector is zero
+Look rotation viewing vector is zero
+Look rotation viewing vector is zero
+ArgumentNullException: Value cannot be null.
+Parameter name: key
+[Ref 52835668] Duplicate stacktrace, see ref for original
+UnityEngine.DebugLogHandler:Internal_LogException(Exception, Object)
+UnityEngine.DebugLogHandler:LogException(Exception, Object)
+UnityEngine.Logger:LogException(Exception, Object)
+UnityEngine.Debug:LogException(Exception)
+UnityEngine.<>c:<RegisterUECatcher>b__0_0(Object, UnhandledExceptionEventArgs)
+
+ArgumentNullException: Value cannot be null.
+Parameter name: key
+[Ref 52835668] Duplicate stacktrace, see ref for original
+UnityEngine.DebugLogHandler:Internal_LogException(Exception, Object)
+UnityEngine.DebugLogHandler:LogException(Exception, Object)
+UnityEngine.Logger:LogException(Exception, Object)
+UnityEngine.Debug:LogException(Exception)
+UnityEngine.<>c:<RegisterUECatcher>b__0_0(Object, UnhandledExceptionEventArgs)
+
+ArgumentNullException: Value cannot be null.
+Parameter name: key
+[Ref 52835668] Duplicate stacktrace, see ref for original
+UnityEngine.DebugLogHandler:Internal_LogException(Exception, Object)
+UnityEngine.DebugLogHandler:LogException(Exception, Object)
+UnityEngine.Logger:LogException(Exception, Object)
+UnityEngine.Debug:LogException(Exception)
+UnityEngine.<>c:<RegisterUECatcher>b__0_0(Object, UnhandledExceptionEventArgs)
+
+[AVP Xenomorphs] Filth_XenomorphBlood: 16 texture variants loaded
+ArgumentNullException: Value cannot be null.
+Parameter name: key
+[Ref 52835668] Duplicate stacktrace, see ref for original
+UnityEngine.DebugLogHandler:Internal_LogException(Exception, Object)
+UnityEngine.DebugLogHandler:LogException(Exception, Object)
+UnityEngine.Logger:LogException(Exception, Object)
+UnityEngine.Debug:LogException(Exception)
+UnityEngine.<>c:<RegisterUECatcher>b__0_0(Object, UnhandledExceptionEventArgs)
+
+ArgumentNullException: Value cannot be null.
+Parameter name: key
+[Ref 52835668] Duplicate stacktrace, see ref for original
+UnityEngine.DebugLogHandler:Internal_LogException(Exception, Object)
+UnityEngine.DebugLogHandler:LogException(Exception, Object)
+UnityEngine.Logger:LogException(Exception, Object)
+UnityEngine.Debug:LogException(Exception)
+UnityEngine.<>c:<RegisterUECatcher>b__0_0(Object, UnhandledExceptionEventArgs)
+
+ArgumentNullException: Value cannot be null.
+Parameter name: key
+[Ref 52835668] Duplicate stacktrace, see ref for original
+UnityEngine.DebugLogHandler:Internal_LogException(Exception, Object)
+UnityEngine.DebugLogHandler:LogException(Exception, Object)
+UnityEngine.Logger:LogException(Exception, Object)
+UnityEngine.Debug:LogException(Exception)
+UnityEngine.<>c:<RegisterUECatcher>b__0_0(Object, UnhandledExceptionEventArgs)
+
+[Yayo's Animation] GC : animation data count [71 -> 56]
+ArgumentNullException: Value cannot be null.
+Parameter name: key
+[Ref 52835668] Duplicate stacktrace, see ref for original
+UnityEngine.DebugLogHandler:Internal_LogException(Exception, Object)
+UnityEngine.DebugLogHandler:LogException(Exception, Object)
+UnityEngine.Logger:LogException(Exception, Object)
+UnityEngine.Debug:LogException(Exception)
+UnityEngine.<>c:<RegisterUECatcher>b__0_0(Object, UnhandledExceptionEventArgs)
+
+ArgumentNullException: Value cannot be null.
+Parameter name: key
+[Ref 52835668] Duplicate stacktrace, see ref for original
+UnityEngine.DebugLogHandler:Internal_LogException(Exception, Object)
+UnityEngine.DebugLogHandler:LogException(Exception, Object)
+UnityEngine.Logger:LogException(Exception, Object)
+UnityEngine.Debug:LogException(Exception)
+UnityEngine.<>c:<RegisterUECatcher>b__0_0(Object, UnhandledExceptionEventArgs)
+
+[AVP Xenomorphs] [Spawn] trispike -> Runner via RRY_Spawn_LargeAnimal (host: trispike, bodySize: 1) (tick 90365)
+ArgumentNullException: Value cannot be null.
+Parameter name: key
+[Ref 52835668] Duplicate stacktrace, see ref for original
+UnityEngine.DebugLogHandler:Internal_LogException(Exception, Object)
+UnityEngine.DebugLogHandler:LogException(Exception, Object)
+UnityEngine.Logger:LogException(Exception, Object)
+UnityEngine.Debug:LogException(Exception)
+UnityEngine.<>c:<RegisterUECatcher>b__0_0(Object, UnhandledExceptionEventArgs)
+
+[Yayo's Animation] GC : animation data count [72 -> 54]
+[AVP Xenomorphs] [Spawn] trispike -> Runner via RRY_Spawn_LargeAnimal (host: trispike, bodySize: 1) (tick 148039)
+ArgumentNullException: Value cannot be null.
+Parameter name: key
+[Ref 52835668] Duplicate stacktrace, see ref for original
+UnityEngine.DebugLogHandler:Internal_LogException(Exception, Object)
+UnityEngine.DebugLogHandler:LogException(Exception, Object)
+UnityEngine.Logger:LogException(Exception, Object)
+UnityEngine.Debug:LogException(Exception)
+UnityEngine.<>c:<RegisterUECatcher>b__0_0(Object, UnhandledExceptionEventArgs)
+
+ArgumentNullException: Value cannot be null.
+Parameter name: key
+[Ref 52835668] Duplicate stacktrace, see ref for original
+UnityEngine.DebugLogHandler:Internal_LogException(Exception, Object)
+UnityEngine.DebugLogHandler:LogException(Exception, Object)
+UnityEngine.Logger:LogException(Exception, Object)
+UnityEngine.Debug:LogException(Exception)
+UnityEngine.<>c:<RegisterUECatcher>b__0_0(Object, UnhandledExceptionEventArgs)
+
+ArgumentNullException: Value cannot be null.
+Parameter name: key
+[Ref 52835668] Duplicate stacktrace, see ref for original
+UnityEngine.DebugLogHandler:Internal_LogException(Exception, Object)
+UnityEngine.DebugLogHandler:LogException(Exception, Object)
+UnityEngine.Logger:LogException(Exception, Object)
+UnityEngine.Debug:LogException(Exception)
+UnityEngine.<>c:<RegisterUECatcher>b__0_0(Object, UnhandledExceptionEventArgs)
+
+ArgumentNullException: Value cannot be null.
+Parameter name: key
+[Ref 52835668] Duplicate stacktrace, see ref for original
+UnityEngine.DebugLogHandler:Internal_LogException(Exception, Object)
+UnityEngine.DebugLogHandler:LogException(Exception, Object)
+UnityEngine.Logger:LogException(Exception, Object)
+UnityEngine.Debug:LogException(Exception)
+UnityEngine.<>c:<RegisterUECatcher>b__0_0(Object, UnhandledExceptionEventArgs)
+
+[Yayo's Animation] GC : animation data count [67 -> 56]
+ArgumentNullException: Value cannot be null.
+Parameter name: key
+[Ref 52835668] Duplicate stacktrace, see ref for original
+UnityEngine.DebugLogHandler:Internal_LogException(Exception, Object)
+UnityEngine.DebugLogHandler:LogException(Exception, Object)
+UnityEngine.Logger:LogException(Exception, Object)
+UnityEngine.Debug:LogException(Exception)
+UnityEngine.<>c:<RegisterUECatcher>b__0_0(Object, UnhandledExceptionEventArgs)
+
+ArgumentNullException: Value cannot be null.
+Parameter name: key
+[Ref 52835668] Duplicate stacktrace, see ref for original
+UnityEngine.DebugLogHandler:Internal_LogException(Exception, Object)
+UnityEngine.DebugLogHandler:LogException(Exception, Object)
+UnityEngine.Logger:LogException(Exception, Object)
+UnityEngine.Debug:LogException(Exception)
+UnityEngine.<>c:<RegisterUECatcher>b__0_0(Object, UnhandledExceptionEventArgs)
+
+ArgumentNullException: Value cannot be null.
+Parameter name: key
+[Ref 52835668] Duplicate stacktrace, see ref for original
+UnityEngine.DebugLogHandler:Internal_LogException(Exception, Object)
+UnityEngine.DebugLogHandler:LogException(Exception, Object)
+UnityEngine.Logger:LogException(Exception, Object)
+UnityEngine.Debug:LogException(Exception)
+UnityEngine.<>c:<RegisterUECatcher>b__0_0(Object, UnhandledExceptionEventArgs)
+
+ArgumentNullException: Value cannot be null.
+Parameter name: key
+[Ref 52835668] Duplicate stacktrace, see ref for original
+UnityEngine.DebugLogHandler:Internal_LogException(Exception, Object)
+UnityEngine.DebugLogHandler:LogException(Exception, Object)
+UnityEngine.Logger:LogException(Exception, Object)
+UnityEngine.Debug:LogException(Exception)
+UnityEngine.<>c:<RegisterUECatcher>b__0_0(Object, UnhandledExceptionEventArgs)
+
+[AVP Xenomorphs] [Spawn] Neomorph chestburster spawned from fingerspike (tick 210492)
+Error while killing Fingerspike91757 during phase 6: System.NullReferenceException: Object reference not set to an instance of an object
+[Ref E6717B2C]
+  at RRYautja.HediffComp_NeoSpawner.Notify_PawnDied (System.Nullable`1[T] dinfo, Verse.Hediff culprit) [0x000fb] in <2433593b36034a0c8ed78a078595fe82>:0 
+  at Verse.HediffWithComps.Notify_PawnDied (System.Nullable`1[T] dinfo, Verse.Hediff culprit) [0x00024] in <61e4173561894da49d210260257b5097>:0 
+  at Verse.HediffSet.Notify_PawnDied (System.Nullable`1[T] dinfo, Verse.Hediff culprit) [0x0001c] in <61e4173561894da49d210260257b5097>:0 
+  at Verse.Pawn.Kill (System.Nullable`1[T] dinfo, Verse.Hediff exactCulprit) [0x006c2] in <61e4173561894da49d210260257b5097>:0 
+    - PREFIX fuu.bloodanimations: Void BloodAnimations.Pawn_Kill:Kill(Pawn& __instance, Nullable`1 dinfo, Hediff exactCulprit)
+    - PREFIX OskarPotocki.VEF: Void VEF.Storyteller.VanillaExpandedFramework_Pawn_Kill_Patch:Prefix(Pawn __instance, Nullable`1 dinfo, Hediff exactCulprit)
+    - PREFIX OskarPotocki.VEF: Boolean VEF.Apparels.VanillaExpandedFramework_Pawn_Kill_Patch:Prefix(Pawn __instance, List`1& __state)
+    - PREFIX lucio.TrueVisualMisses: Boolean TrueVisualMisses.Patches.Harmony_Pawn_TestDummy:PreventDeath(Pawn __instance)
+    - PREFIX VanillaApparelExpanded.Accessories: Boolean VAE_Accessories.HarmonyPatches:BeltsOnDeath(Nullable`1 dinfo, Hediff exactCulprit, Pawn __instance)
+    - POSTFIX UnlimitedHugs.AllowTool: Void AllowTool.Patches.Pawn_Kill_Patch:UnforbidDraftedHuntBody(Pawn __instance, Nullable`1 dinfo)
+    - POSTFIX OskarPotocki.VEF: Void VEF.Pawns.VanillaExpandedFramework_Pawn_Kill:Postfix(Pawn __instance)
+    - POSTFIX OskarPotocki.VEF: Void VEF.Apparels.VanillaExpandedFramework_Pawn_Kill_Patch:Postfix(Pawn __instance, List`1 __state)
+    - POSTFIX thumb.GoreMod: Void GoreUponDismemberment.HarmonyPatches.PawnKillPatch:Postfix(Pawn& __instance, Object[] __args)
+Exception ticking Corpse_Fingerspike92655 (at (233, 0, 179)). Suppressing further errors. Exception: System.NullReferenceException: Object reference not set to an instance of an object
+[Ref C74C8DB6]
+  at RRYautja.HediffComp_NeoSpawner.Notify_PawnDied (System.Nullable`1[T] dinfo, Verse.Hediff culprit) [0x000fb] in <2433593b36034a0c8ed78a078595fe82>:0 
+  at RRYautja.AvP_Corpse_TickRare_Gestation_Patch.Post_TickRare (Verse.Corpse& __instance) [0x0006f] in <2433593b36034a0c8ed78a078595fe82>:0 
+  at Verse.Corpse.TickRare () [0x000ea] in <61e4173561894da49d210260257b5097>:0 
+    - POSTFIX com.ogliss.rimworld.mod.rryatuja: Void RRYautja.AvP_Corpse_TickRare_Gestation_Patch:Post_TickRare(Corpse& __instance)
+  at Verse.Thing.DoTick () [0x00152] in <61e4173561894da49d210260257b5097>:0 
+  at Verse.TickList.Tick () [0x00139] in <61e4173561894da49d210260257b5097>:0 
+[AVP Xenomorphs] [Spawn] Neomorph chestburster spawned from fingerspike (tick 210766)
+Error while killing Fingerspike91052 during phase 6: System.NullReferenceException: Object reference not set to an instance of an object
+[Ref E6717B2C] Duplicate stacktrace, see ref for original
+Exception ticking Corpse_Fingerspike92663 (at (239, 0, 181)). Suppressing further errors. Exception: System.NullReferenceException: Object reference not set to an instance of an object
+[Ref C74C8DB6] Duplicate stacktrace, see ref for original
+ArgumentNullException: Value cannot be null.
+Parameter name: key
+[Ref 52835668] Duplicate stacktrace, see ref for original
+UnityEngine.DebugLogHandler:Internal_LogException(Exception, Object)
+UnityEngine.DebugLogHandler:LogException(Exception, Object)
+UnityEngine.Logger:LogException(Exception, Object)
+UnityEngine.Debug:LogException(Exception)
+UnityEngine.<>c:<RegisterUECatcher>b__0_0(Object, UnhandledExceptionEventArgs)
+
+[AVP Xenomorphs] [Spawn] Neomorph chestburster spawned from fingerspike (tick 211090)
+[AVP Xenomorphs] [Spawn] Neomorph chestburster spawned from fingerspike (tick 211340)
+[AVP Xenomorphs] [Spawn] Neomorph chestburster spawned from fingerspike (tick 211590)
+[AVP Xenomorphs] [Spawn] Neomorph chestburster spawned from fingerspike (tick 211840)
+[AVP Xenomorphs] [Spawn] Neomorph chestburster spawned from fingerspike (tick 212090)
+[AVP Xenomorphs] [Spawn] Neomorph chestburster spawned from fingerspike (tick 212340)
+[AVP Xenomorphs] [Spawn] Neomorph chestburster spawned from fingerspike (tick 212590)
+[AVP Xenomorphs] [Spawn] Neomorph chestburster spawned from fingerspike (tick 212840)
+[AVP Xenomorphs] [Spawn] Neomorph chestburster spawned from fingerspike (tick 213090)
+[AVP Xenomorphs] [Spawn] Neomorph chestburster spawned from fingerspike (tick 213340)
+[AVP Xenomorphs] [Spawn] Neomorph chestburster spawned from fingerspike (tick 213590)
+[AVP Xenomorphs] [Spawn] Neomorph chestburster spawned from fingerspike (tick 213840)
+[AVP Xenomorphs] [Spawn] Neomorph chestburster spawned from fingerspike (tick 214090)
+[AVP Xenomorphs] [Spawn] Neomorph chestburster spawned from fingerspike (tick 214340)
+[AVP Xenomorphs] [Spawn] Neomorph chestburster spawned from fingerspike (tick 214590)
+[AVP Xenomorphs] [Spawn] Neomorph chestburster spawned from fingerspike (tick 214840)
+[AVP Xenomorphs] [Spawn] Neomorph chestburster spawned from fingerspike (tick 215090)
+[AVP Xenomorphs] [Spawn] Neomorph chestburster spawned from fingerspike (tick 215340)
+[AVP Xenomorphs] [Spawn] Neomorph chestburster spawned from fingerspike (tick 215590)
+[AVP Xenomorphs] [Spawn] Neomorph chestburster spawned from fingerspike (tick 215840)
+[AVP Xenomorphs] [Spawn] Neomorph chestburster spawned from fingerspike (tick 216090)
+[AVP Xenomorphs] [Spawn] Neomorph chestburster spawned from fingerspike (tick 216340)
+[AVP Xenomorphs] [Spawn] Neomorph chestburster spawned from fingerspike (tick 216590)
+[AVP Xenomorphs] [Spawn] Neomorph chestburster spawned from fingerspike (tick 216840)
+[AVP Xenomorphs] [Spawn] Neomorph chestburster spawned from fingerspike (tick 217090)
+[AVP Xenomorphs] [Spawn] Neomorph chestburster spawned from fingerspike (tick 217340)
+ArgumentNullException: Value cannot be null.
+Parameter name: key
+[Ref 52835668] Duplicate stacktrace, see ref for original
+UnityEngine.DebugLogHandler:Internal_LogException(Exception, Object)
+UnityEngine.DebugLogHandler:LogException(Exception, Object)
+UnityEngine.Logger:LogException(Exception, Object)
+UnityEngine.Debug:LogException(Exception)
+UnityEngine.<>c:<RegisterUECatcher>b__0_0(Object, UnhandledExceptionEventArgs)
+
+[AVP Xenomorphs] [Spawn] Neomorph chestburster spawned from fingerspike (tick 217590)
+[AVP Xenomorphs] [Spawn] Neomorph chestburster spawned from fingerspike (tick 217840)
+[AVP Xenomorphs] [Spawn] Neomorph chestburster spawned from fingerspike (tick 218090)
+[AVP Xenomorphs] [Spawn] Neomorph chestburster spawned from fingerspike (tick 218340)
+[AVP Xenomorphs] [Spawn] Neomorph chestburster spawned from fingerspike (tick 218590)
+[AVP Xenomorphs] [Spawn] Neomorph chestburster spawned from fingerspike (tick 218840)
+[AVP Xenomorphs] [Spawn] Neomorph chestburster spawned from fingerspike (tick 219090)
+[AVP Xenomorphs] [Spawn] Neomorph chestburster spawned from fingerspike (tick 219340)
+[AVP Xenomorphs] [Spawn] Neomorph chestburster spawned from fingerspike (tick 219590)
+[AVP Xenomorphs] [Spawn] Neomorph chestburster spawned from fingerspike (tick 219840)
+[AVP Xenomorphs] [Spawn] Neomorph chestburster spawned from fingerspike (tick 220090)
+[AVP Xenomorphs] [Spawn] Neomorph chestburster spawned from fingerspike (tick 220340)
+[AVP Xenomorphs] [Spawn] Neomorph chestburster spawned from fingerspike (tick 220590)
+[AVP Xenomorphs] [Spawn] Neomorph chestburster spawned from fingerspike (tick 220840)
+[AVP Xenomorphs] [Spawn] Neomorph chestburster spawned from fingerspike (tick 221090)
+[AVP Xenomorphs] [Spawn] Neomorph chestburster spawned from fingerspike (tick 221340)
+[AVP Xenomorphs] [Spawn] Neomorph chestburster spawned from fingerspike (tick 221590)
+[AVP Xenomorphs] [Spawn] Neomorph chestburster spawned from fingerspike (tick 221840)
+[AVP Xenomorphs] [Spawn] Neomorph chestburster spawned from fingerspike (tick 222090)
+[AVP Xenomorphs] [Spawn] Neomorph chestburster spawned from fingerspike (tick 222340)
+[AVP Xenomorphs] [Spawn] Neomorph chestburster spawned from fingerspike (tick 222590)
+[AVP Xenomorphs] [Spawn] Neomorph chestburster spawned from fingerspike (tick 222840)
+[AVP Xenomorphs] [Spawn] Neomorph chestburster spawned from fingerspike (tick 223090)
+[AVP Xenomorphs] [Spawn] Neomorph chestburster spawned from fingerspike (tick 223340)
+[AVP Xenomorphs] [Spawn] Neomorph chestburster spawned from fingerspike (tick 223590)
+[AVP Xenomorphs] [Spawn] Neomorph chestburster spawned from fingerspike (tick 223840)
+[AVP Xenomorphs] [Spawn] Neomorph chestburster spawned from fingerspike (tick 224090)
+[AVP Xenomorphs] [Spawn] Neomorph chestburster spawned from fingerspike (tick 224340)
+[AVP Xenomorphs] [Spawn] Neomorph chestburster spawned from fingerspike (tick 224590)
+[AVP Xenomorphs] [Spawn] Neomorph chestburster spawned from fingerspike (tick 224840)
+[AVP Xenomorphs] [Spawn] Neomorph chestburster spawned from fingerspike (tick 225090)
+[AVP Xenomorphs] [Spawn] Neomorph chestburster spawned from fingerspike (tick 225340)
+[AVP Xenomorphs] [Spawn] Neomorph chestburster spawned from fingerspike (tick 225590)
+ArgumentNullException: Value cannot be null.
+Parameter name: key
+[Ref 52835668] Duplicate stacktrace, see ref for original
+UnityEngine.DebugLogHandler:Internal_LogException(Exception, Object)
+UnityEngine.DebugLogHandler:LogException(Exception, Object)
+UnityEngine.Logger:LogException(Exception, Object)
+UnityEngine.Debug:LogException(Exception)
+UnityEngine.<>c:<RegisterUECatcher>b__0_0(Object, UnhandledExceptionEventArgs)
+
+[AVP Xenomorphs] [Spawn] Neomorph chestburster spawned from fingerspike (tick 225840)
+[AVP Xenomorphs] [Spawn] Neomorph chestburster spawned from fingerspike (tick 226090)
+[AVP Xenomorphs] [Spawn] Neomorph chestburster spawned from fingerspike (tick 226340)
+[AVP Xenomorphs] [Spawn] Neomorph chestburster spawned from fingerspike (tick 226590)
+[AVP Xenomorphs] [Spawn] Neomorph chestburster spawned from fingerspike (tick 226840)
+[AVP Xenomorphs] [Spawn] Neomorph chestburster spawned from fingerspike (tick 227090)
+[AVP Xenomorphs] [Spawn] Neomorph chestburster spawned from fingerspike (tick 227340)
+[AVP Xenomorphs] [Spawn] Neomorph chestburster spawned from fingerspike (tick 227590)
+[AVP Xenomorphs] [Spawn] Neomorph chestburster spawned from fingerspike (tick 227840)
+[AVP Xenomorphs] [Spawn] Neomorph chestburster spawned from fingerspike (tick 228090)
+[AVP Xenomorphs] [Spawn] Neomorph chestburster spawned from fingerspike (tick 228340)
+[AVP Xenomorphs] [Spawn] Neomorph chestburster spawned from fingerspike (tick 228590)
+[AVP Xenomorphs] [Spawn] Neomorph chestburster spawned from fingerspike (tick 228840)
+[AVP Xenomorphs] [Spawn] Neomorph chestburster spawned from fingerspike (tick 229090)
+[AVP Xenomorphs] [Spawn] Neomorph chestburster spawned from fingerspike (tick 229340)
+[AVP Xenomorphs] [Spawn] Neomorph chestburster spawned from fingerspike (tick 229590)
+[AVP Xenomorphs] [Spawn] Neomorph chestburster spawned from fingerspike (tick 229840)
+[AVP Xenomorphs] [Spawn] Neomorph chestburster spawned from fingerspike (tick 230090)
+[AVP Xenomorphs] [Spawn] Neomorph chestburster spawned from fingerspike (tick 230340)
+[AVP Xenomorphs] [Spawn] Neomorph chestburster spawned from fingerspike (tick 230590)
+[AVP Xenomorphs] [Spawn] Neomorph chestburster spawned from fingerspike (tick 230840)
+[AVP Xenomorphs] [Spawn] Neomorph chestburster spawned from fingerspike (tick 231090)
+[AVP Xenomorphs] [Spawn] Neomorph chestburster spawned from fingerspike (tick 231340)
+[AVP Xenomorphs] [Spawn] Neomorph chestburster spawned from fingerspike (tick 231590)
+[AVP Xenomorphs] [Spawn] Neomorph chestburster spawned from fingerspike (tick 231840)
+[AVP Xenomorphs] [Spawn] Neomorph chestburster spawned from fingerspike (tick 232090)
+[AVP Xenomorphs] [Spawn] Neomorph chestburster spawned from fingerspike (tick 232340)
+[AVP Xenomorphs] [Spawn] Neomorph chestburster spawned from fingerspike (tick 232590)
+[AVP Xenomorphs] [Spawn] Neomorph chestburster spawned from fingerspike (tick 232840)
+[AVP Xenomorphs] [Spawn] Neomorph chestburster spawned from fingerspike (tick 233090)
+[AVP Xenomorphs] [Spawn] Neomorph chestburster spawned from fingerspike (tick 233340)
+[AVP Xenomorphs] [Spawn] Neomorph chestburster spawned from fingerspike (tick 233590)
+[AVP Xenomorphs] [Spawn] Neomorph chestburster spawned from fingerspike (tick 233840)
+ArgumentNullException: Value cannot be null.
+Parameter name: key
+[Ref 52835668] Duplicate stacktrace, see ref for original
+UnityEngine.DebugLogHandler:Internal_LogException(Exception, Object)
+UnityEngine.DebugLogHandler:LogException(Exception, Object)
+UnityEngine.Logger:LogException(Exception, Object)
+UnityEngine.Debug:LogException(Exception)
+UnityEngine.<>c:<RegisterUECatcher>b__0_0(Object, UnhandledExceptionEventArgs)
+
+[AVP Xenomorphs] [Spawn] Neomorph chestburster spawned from fingerspike (tick 234090)
+[AVP Xenomorphs] [Spawn] Neomorph chestburster spawned from fingerspike (tick 234340)
+[AVP Xenomorphs] [Spawn] Neomorph chestburster spawned from fingerspike (tick 234590)
+[AVP Xenomorphs] [Spawn] Neomorph chestburster spawned from fingerspike (tick 234840)
+[AVP Xenomorphs] [Spawn] Neomorph chestburster spawned from fingerspike (tick 235090)
+[AVP Xenomorphs] [Spawn] Neomorph chestburster spawned from fingerspike (tick 235340)
+[AVP Xenomorphs] [Spawn] Neomorph chestburster spawned from fingerspike (tick 235590)
+[AVP Xenomorphs] [Spawn] Neomorph chestburster spawned from fingerspike (tick 235840)
+[AVP Xenomorphs] [Spawn] Neomorph chestburster spawned from fingerspike (tick 236090)
+[AVP Xenomorphs] [Spawn] Neomorph chestburster spawned from fingerspike (tick 236340)
+[AVP Xenomorphs] [Spawn] Neomorph chestburster spawned from fingerspike (tick 236590)
+[AVP Xenomorphs] [Spawn] Neomorph chestburster spawned from fingerspike (tick 236840)
+[AVP Xenomorphs] [Spawn] Neomorph chestburster spawned from fingerspike (tick 237090)
+[AVP Xenomorphs] [Spawn] Neomorph chestburster spawned from fingerspike (tick 237340)
+[AVP Xenomorphs] [Spawn] Neomorph chestburster spawned from fingerspike (tick 237590)
+[AVP Xenomorphs] [Spawn] Neomorph chestburster spawned from fingerspike (tick 237840)
+[AVP Xenomorphs] [Spawn] Neomorph chestburster spawned from fingerspike (tick 238090)
+[AVP Xenomorphs] [Spawn] Neomorph chestburster spawned from fingerspike (tick 238340)
+[AVP Xenomorphs] [Spawn] Neomorph chestburster spawned from fingerspike (tick 238590)
+[AVP Xenomorphs] [Spawn] Neomorph chestburster spawned from fingerspike (tick 238840)
+[AVP Xenomorphs] [Spawn] Neomorph chestburster spawned from fingerspike (tick 239090)
+[AVP Xenomorphs] [Spawn] Neomorph chestburster spawned from fingerspike (tick 239340)
+[AVP Xenomorphs] [Spawn] Neomorph chestburster spawned from fingerspike (tick 239590)
+[AVP Xenomorphs] [Spawn] Neomorph chestburster spawned from fingerspike (tick 239840)
+[Yayo's Animation] GC : animation data count [74 -> 50]
+[AVP Xenomorphs] [Spawn] Neomorph chestburster spawned from fingerspike (tick 240090)
+[AVP Xenomorphs] [Spawn] Neomorph chestburster spawned from fingerspike (tick 240340)
+[AVP Xenomorphs] [Spawn] Neomorph chestburster spawned from fingerspike (tick 240590)
+[AVP Xenomorphs] [Spawn] Neomorph chestburster spawned from fingerspike (tick 240840)
+[AVP Xenomorphs] [Spawn] Neomorph chestburster spawned from fingerspike (tick 241090)
+[AVP Xenomorphs] [Spawn] Neomorph chestburster spawned from fingerspike (tick 241340)
+[AVP Xenomorphs] [Spawn] Neomorph chestburster spawned from fingerspike (tick 241590)
+[AVP Xenomorphs] [Spawn] Neomorph chestburster spawned from fingerspike (tick 241840)
+[AVP Xenomorphs] [Spawn] Neomorph chestburster spawned from fingerspike (tick 242090)
+ArgumentNullException: Value cannot be null.
+Parameter name: key
+[Ref 52835668] Duplicate stacktrace, see ref for original
+UnityEngine.DebugLogHandler:Internal_LogException(Exception, Object)
+UnityEngine.DebugLogHandler:LogException(Exception, Object)
+UnityEngine.Logger:LogException(Exception, Object)
+UnityEngine.Debug:LogException(Exception)
+UnityEngine.<>c:<RegisterUECatcher>b__0_0(Object, UnhandledExceptionEventArgs)
+
+[AVP Xenomorphs] [Spawn] Neomorph chestburster spawned from fingerspike (tick 242340)
+[AVP Xenomorphs] [Spawn] Neomorph chestburster spawned from fingerspike (tick 242590)
+[AVP Xenomorphs] [Spawn] Neomorph chestburster spawned from fingerspike (tick 242840)
+[AVP Xenomorphs] [Spawn] Neomorph chestburster spawned from fingerspike (tick 243090)
+[AVP Xenomorphs] [Spawn] Neomorph chestburster spawned from fingerspike (tick 243340)
+[AVP Xenomorphs] [Spawn] Neomorph chestburster spawned from fingerspike (tick 243590)
+[AVP Xenomorphs] [Spawn] Neomorph chestburster spawned from fingerspike (tick 243840)
+[AVP Xenomorphs] [Spawn] Neomorph chestburster spawned from fingerspike (tick 244090)
+[AVP Xenomorphs] [Spawn] Neomorph chestburster spawned from fingerspike (tick 244340)
+[AVP Xenomorphs] [Spawn] Neomorph chestburster spawned from fingerspike (tick 244590)
+[AVP Xenomorphs] [Spawn] Neomorph chestburster spawned from fingerspike (tick 244840)
+[AVP Xenomorphs] [Spawn] Neomorph chestburster spawned from fingerspike (tick 245090)
+[AVP Xenomorphs] [Spawn] Neomorph chestburster spawned from fingerspike (tick 245340)
+[AVP Xenomorphs] [Spawn] Neomorph chestburster spawned from fingerspike (tick 245590)
+[AVP Xenomorphs] [Spawn] Neomorph chestburster spawned from fingerspike (tick 245840)
+[AVP Xenomorphs] [Spawn] Neomorph chestburster spawned from fingerspike (tick 246090)
+[AVP Xenomorphs] [Spawn] Neomorph chestburster spawned from fingerspike (tick 246340)
+[AVP Xenomorphs] [Spawn] Neomorph chestburster spawned from fingerspike (tick 246590)
+[AVP Xenomorphs] [Spawn] Neomorph chestburster spawned from fingerspike (tick 246840)
+[AVP Xenomorphs] [Spawn] Neomorph chestburster spawned from fingerspike (tick 247090)
+[AVP Xenomorphs] [Spawn] Neomorph chestburster spawned from fingerspike (tick 247340)
+[AVP Xenomorphs] [Spawn] Neomorph chestburster spawned from fingerspike (tick 247590)
+[AVP Xenomorphs] [Spawn] Neomorph chestburster spawned from fingerspike (tick 247840)
+[AVP Xenomorphs] [Spawn] Neomorph chestburster spawned from fingerspike (tick 248090)
+[AVP Xenomorphs] [Spawn] Neomorph chestburster spawned from fingerspike (tick 248340)
+[AVP Xenomorphs] [Spawn] Neomorph chestburster spawned from fingerspike (tick 248590)
+[AVP Xenomorphs] [Spawn] Neomorph chestburster spawned from fingerspike (tick 248840)
+[AVP Xenomorphs] [Spawn] Neomorph chestburster spawned from fingerspike (tick 249090)
+[AVP Xenomorphs] [Spawn] Neomorph chestburster spawned from fingerspike (tick 249340)
+[AVP Xenomorphs] [Spawn] Neomorph chestburster spawned from fingerspike (tick 249590)
+[AVP Xenomorphs] [Spawn] Neomorph chestburster spawned from fingerspike (tick 249840)
+[AVP Xenomorphs] [Spawn] Neomorph chestburster spawned from fingerspike (tick 250090)
+[AVP Xenomorphs] [Spawn] Neomorph chestburster spawned from fingerspike (tick 250340)
+ArgumentNullException: Value cannot be null.
+Parameter name: key
+[Ref 52835668] Duplicate stacktrace, see ref for original
+UnityEngine.DebugLogHandler:Internal_LogException(Exception, Object)
+UnityEngine.DebugLogHandler:LogException(Exception, Object)
+UnityEngine.Logger:LogException(Exception, Object)
+UnityEngine.Debug:LogException(Exception)
+UnityEngine.<>c:<RegisterUECatcher>b__0_0(Object, UnhandledExceptionEventArgs)
+
+[AVP Xenomorphs] [Spawn] Neomorph chestburster spawned from fingerspike (tick 250590)
+[AVP Xenomorphs] [Spawn] Neomorph chestburster spawned from fingerspike (tick 250840)
+[AVP Xenomorphs] [Spawn] Neomorph chestburster spawned from fingerspike (tick 251090)
+[AVP Xenomorphs] [Spawn] Neomorph chestburster spawned from fingerspike (tick 251340)
+[AVP Xenomorphs] [Spawn] Neomorph chestburster spawned from fingerspike (tick 251590)
+[AVP Xenomorphs] [Spawn] Neomorph chestburster spawned from fingerspike (tick 251840)
+[AVP Xenomorphs] [Spawn] Neomorph chestburster spawned from fingerspike (tick 252090)
+[AVP Xenomorphs] [Spawn] Neomorph chestburster spawned from fingerspike (tick 252340)
+[AVP Xenomorphs] [Spawn] Neomorph chestburster spawned from fingerspike (tick 252590)
+[AVP Xenomorphs] [Spawn] Neomorph chestburster spawned from fingerspike (tick 252840)
+[AVP Xenomorphs] [Spawn] Neomorph chestburster spawned from fingerspike (tick 253090)
+[AVP Xenomorphs] [Spawn] Neomorph chestburster spawned from fingerspike (tick 253340)
+[AVP Xenomorphs] [Spawn] Neomorph chestburster spawned from fingerspike (tick 253590)
+[AVP Xenomorphs] [Spawn] Neomorph chestburster spawned from fingerspike (tick 253840)
+[AVP Xenomorphs] [Spawn] Neomorph chestburster spawned from fingerspike (tick 254090)
+[AVP Xenomorphs] [Spawn] Neomorph chestburster spawned from fingerspike (tick 254340)
+[AVP Xenomorphs] [Spawn] Neomorph chestburster spawned from fingerspike (tick 254590)
+[AVP Xenomorphs] [Spawn] Neomorph chestburster spawned from fingerspike (tick 254840)
+[AVP Xenomorphs] [Spawn] Neomorph chestburster spawned from fingerspike (tick 255090)
+[AVP Xenomorphs] [Spawn] Neomorph chestburster spawned from fingerspike (tick 255340)
+[AVP Xenomorphs] [Spawn] Neomorph chestburster spawned from fingerspike (tick 255590)
+[AVP Xenomorphs] [Spawn] Neomorph chestburster spawned from fingerspike (tick 255840)
+[AVP Xenomorphs] [Spawn] Neomorph chestburster spawned from fingerspike (tick 256090)
+[AVP Xenomorphs] [Spawn] Neomorph chestburster spawned from fingerspike (tick 256340)
+[AVP Xenomorphs] [Spawn] Neomorph chestburster spawned from fingerspike (tick 256590)
+[AVP Xenomorphs] [Spawn] Neomorph chestburster spawned from fingerspike (tick 256840)
+[AVP Xenomorphs] [Spawn] Neomorph chestburster spawned from fingerspike (tick 257090)
+[AVP Xenomorphs] [Spawn] Neomorph chestburster spawned from fingerspike (tick 257340)
+[AVP Xenomorphs] [Spawn] Neomorph chestburster spawned from fingerspike (tick 257590)
+[AVP Xenomorphs] [Spawn] Neomorph chestburster spawned from fingerspike (tick 257840)
+[AVP Xenomorphs] [Spawn] Neomorph chestburster spawned from fingerspike (tick 258090)
+[AVP Xenomorphs] [Spawn] Neomorph chestburster spawned from fingerspike (tick 258340)
+[AVP Xenomorphs] [Spawn] Neomorph chestburster spawned from fingerspike (tick 258590)
+ArgumentNullException: Value cannot be null.
+Parameter name: key
+[Ref 52835668] Duplicate stacktrace, see ref for original
+UnityEngine.DebugLogHandler:Internal_LogException(Exception, Object)
+UnityEngine.DebugLogHandler:LogException(Exception, Object)
+UnityEngine.Logger:LogException(Exception, Object)
+UnityEngine.Debug:LogException(Exception)
+UnityEngine.<>c:<RegisterUECatcher>b__0_0(Object, UnhandledExceptionEventArgs)
+
+[AVP Xenomorphs] [Spawn] Neomorph chestburster spawned from fingerspike (tick 258840)
+[AVP Xenomorphs] [Spawn] Neomorph chestburster spawned from fingerspike (tick 259090)
+[AVP Xenomorphs] [Spawn] Neomorph chestburster spawned from fingerspike (tick 259340)
+[AVP Xenomorphs] [Spawn] Neomorph chestburster spawned from fingerspike (tick 259590)
+[AVP Xenomorphs] [Spawn] Neomorph chestburster spawned from fingerspike (tick 259840)
+[AVP Xenomorphs] [Spawn] Neomorph chestburster spawned from fingerspike (tick 260090)
+[AVP Xenomorphs] [Spawn] Neomorph chestburster spawned from fingerspike (tick 260340)
+[AVP Xenomorphs] [Spawn] Neomorph chestburster spawned from fingerspike (tick 260590)
+[AVP Xenomorphs] [Spawn] Neomorph chestburster spawned from fingerspike (tick 260840)
+[AVP Xenomorphs] [Spawn] Neomorph chestburster spawned from fingerspike (tick 261090)
+[AVP Xenomorphs] [Spawn] Neomorph chestburster spawned from fingerspike (tick 261340)
+[AVP Xenomorphs] [Spawn] Neomorph chestburster spawned from fingerspike (tick 261590)
+[AVP Xenomorphs] [Spawn] Neomorph chestburster spawned from fingerspike (tick 261840)
+[AVP Xenomorphs] [Spawn] Neomorph chestburster spawned from fingerspike (tick 262090)
+[AVP Xenomorphs] [Spawn] Neomorph chestburster spawned from fingerspike (tick 262340)
+[AVP Xenomorphs] [Spawn] Neomorph chestburster spawned from fingerspike (tick 262590)
+[AVP Xenomorphs] [Spawn] Neomorph chestburster spawned from fingerspike (tick 262840)
+[AVP Xenomorphs] [Spawn] Neomorph chestburster spawned from fingerspike (tick 263090)
+[AVP Xenomorphs] [Spawn] Neomorph chestburster spawned from fingerspike (tick 263340)
+[AVP Xenomorphs] [Spawn] Neomorph chestburster spawned from fingerspike (tick 263590)
+[AVP Xenomorphs] [Spawn] Neomorph chestburster spawned from fingerspike (tick 263840)
+[AVP Xenomorphs] [Spawn] Neomorph chestburster spawned from fingerspike (tick 264090)
+[AVP Xenomorphs] [Spawn] Neomorph chestburster spawned from fingerspike (tick 264340)
+[AVP Xenomorphs] [Spawn] Neomorph chestburster spawned from fingerspike (tick 264590)
+[AVP Xenomorphs] [Spawn] Neomorph chestburster spawned from fingerspike (tick 264840)
+[AVP Xenomorphs] [Spawn] Neomorph chestburster spawned from fingerspike (tick 265090)
+ArgumentNullException: Value cannot be null.
+Parameter name: key
+[Ref 52835668] Duplicate stacktrace, see ref for original
+UnityEngine.DebugLogHandler:Internal_LogException(Exception, Object)
+UnityEngine.DebugLogHandler:LogException(Exception, Object)
+UnityEngine.Logger:LogException(Exception, Object)
+UnityEngine.Debug:LogException(Exception)
+UnityEngine.<>c:<RegisterUECatcher>b__0_0(Object, UnhandledExceptionEventArgs)
+
+[AVP Xenomorphs] [Spawn] Neomorph chestburster spawned from fingerspike (tick 265340)
+[AVP Xenomorphs] [Spawn] Neomorph chestburster spawned from fingerspike (tick 265590)
+[AVP Xenomorphs] [Spawn] Neomorph chestburster spawned from fingerspike (tick 265840)
+[AVP Xenomorphs] [Spawn] Neomorph chestburster spawned from fingerspike (tick 266090)
+[AVP Xenomorphs] [Spawn] Neomorph chestburster spawned from fingerspike (tick 266340)
+[AVP Xenomorphs] [Spawn] Neomorph chestburster spawned from fingerspike (tick 266590)
+[AVP Xenomorphs] [Spawn] Neomorph chestburster spawned from fingerspike (tick 266840)
+[AVP Xenomorphs] [Spawn] Neomorph chestburster spawned from fingerspike (tick 267090)
+[AVP Xenomorphs] [Spawn] Neomorph chestburster spawned from fingerspike (tick 267340)
+[AVP Xenomorphs] [Spawn] Neomorph chestburster spawned from fingerspike (tick 267590)
+[AVP Xenomorphs] [Spawn] Neomorph chestburster spawned from fingerspike (tick 267840)
+[AVP Xenomorphs] [Spawn] Neomorph chestburster spawned from fingerspike (tick 268090)
+[AVP Xenomorphs] [Spawn] Neomorph chestburster spawned from fingerspike (tick 268340)
+[AVP Xenomorphs] [Spawn] Neomorph chestburster spawned from fingerspike (tick 268590)
+[AVP Xenomorphs] [Spawn] Neomorph chestburster spawned from fingerspike (tick 268840)
+[AVP Xenomorphs] [Spawn] Neomorph chestburster spawned from fingerspike (tick 269090)
+[AVP Xenomorphs] [Spawn] Neomorph chestburster spawned from fingerspike (tick 269340)
+[AVP Xenomorphs] [Spawn] Neomorph chestburster spawned from fingerspike (tick 269590)
+[AVP Xenomorphs] [Spawn] Neomorph chestburster spawned from fingerspike (tick 269840)
+[AVP Xenomorphs] [Spawn] Neomorph chestburster spawned from fingerspike (tick 270090)
+[AVP Xenomorphs] [Spawn] Neomorph chestburster spawned from fingerspike (tick 270340)
+[AVP Xenomorphs] [Spawn] Neomorph chestburster spawned from fingerspike (tick 270590)
+ArgumentNullException: Value cannot be null.
+Parameter name: key
+[Ref 52835668] Duplicate stacktrace, see ref for original
+UnityEngine.DebugLogHandler:Internal_LogException(Exception, Object)
+UnityEngine.DebugLogHandler:LogException(Exception, Object)
+UnityEngine.Logger:LogException(Exception, Object)
+UnityEngine.Debug:LogException(Exception)
+UnityEngine.<>c:<RegisterUECatcher>b__0_0(Object, UnhandledExceptionEventArgs)
+
+[AVP Xenomorphs] [Spawn] Neomorph chestburster spawned from fingerspike (tick 270840)
+[AVP Xenomorphs] [Spawn] Neomorph chestburster spawned from fingerspike (tick 271090)
+[AVP Xenomorphs] [Spawn] Neomorph chestburster spawned from fingerspike (tick 271340)
+[AVP Xenomorphs] [Spawn] Neomorph chestburster spawned from fingerspike (tick 271590)
+[AVP Xenomorphs] [Spawn] Neomorph chestburster spawned from fingerspike (tick 271840)
+[AVP Xenomorphs] [Spawn] Neomorph chestburster spawned from fingerspike (tick 272090)
+[AVP Xenomorphs] [Spawn] Neomorph chestburster spawned from fingerspike (tick 272340)
+[AVP Xenomorphs] [Spawn] Neomorph chestburster spawned from fingerspike (tick 272590)
+[AVP Xenomorphs] [Spawn] Neomorph chestburster spawned from fingerspike (tick 272840)
+[AVP Xenomorphs] [Spawn] Neomorph chestburster spawned from fingerspike (tick 273090)
+[AVP Xenomorphs] [Spawn] Neomorph chestburster spawned from fingerspike (tick 273340)
+[AVP Xenomorphs] [Spawn] Neomorph chestburster spawned from fingerspike (tick 273590)
+[AVP Xenomorphs] [Spawn] Neomorph chestburster spawned from fingerspike (tick 273840)
+[AVP Xenomorphs] [Spawn] Neomorph chestburster spawned from fingerspike (tick 274090)
+[AVP Xenomorphs] [Spawn] Neomorph chestburster spawned from fingerspike (tick 274340)
+[AVP Xenomorphs] [Spawn] Neomorph chestburster spawned from fingerspike (tick 274590)
+[AVP Xenomorphs] [Spawn] Neomorph chestburster spawned from fingerspike (tick 274840)
+[AVP Xenomorphs] [Spawn] Neomorph chestburster spawned from fingerspike (tick 275090)
+[AVP Xenomorphs] [Spawn] Neomorph chestburster spawned from fingerspike (tick 275340)
+[AVP Xenomorphs] [Spawn] Neomorph chestburster spawned from fingerspike (tick 275590)
+ArgumentNullException: Value cannot be null.
+Parameter name: key
+[Ref 52835668] Duplicate stacktrace, see ref for original
+UnityEngine.DebugLogHandler:Internal_LogException(Exception, Object)
+UnityEngine.DebugLogHandler:LogException(Exception, Object)
+UnityEngine.Logger:LogException(Exception, Object)
+UnityEngine.Debug:LogException(Exception)
+UnityEngine.<>c:<RegisterUECatcher>b__0_0(Object, UnhandledExceptionEventArgs)
+
+[AVP Xenomorphs] [Spawn] Neomorph chestburster spawned from fingerspike (tick 275840)
+[AVP Xenomorphs] [Spawn] Neomorph chestburster spawned from fingerspike (tick 276090)
+[AVP Xenomorphs] [Spawn] Neomorph chestburster spawned from fingerspike (tick 276340)
+[AVP Xenomorphs] [Spawn] Neomorph chestburster spawned from fingerspike (tick 276590)
+[AVP Xenomorphs] [Spawn] Neomorph chestburster spawned from fingerspike (tick 276840)
+[AVP Xenomorphs] [Spawn] Neomorph chestburster spawned from fingerspike (tick 277090)
+[AVP Xenomorphs] [Spawn] Neomorph chestburster spawned from fingerspike (tick 277340)
+[AVP Xenomorphs] [Spawn] Neomorph chestburster spawned from fingerspike (tick 277590)
+[AVP Xenomorphs] [Spawn] Neomorph chestburster spawned from fingerspike (tick 277840)
+[AVP Xenomorphs] [Spawn] Neomorph chestburster spawned from fingerspike (tick 278090)
+[AVP Xenomorphs] [Spawn] Neomorph chestburster spawned from fingerspike (tick 278340)
+[AVP Xenomorphs] [Spawn] Neomorph chestburster spawned from fingerspike (tick 278590)
+[AVP Xenomorphs] [Spawn] Neomorph chestburster spawned from fingerspike (tick 278840)
+ArgumentNullException: Value cannot be null.
+Parameter name: key
+[Ref 52835668] Duplicate stacktrace, see ref for original
+UnityEngine.DebugLogHandler:Internal_LogException(Exception, Object)
+UnityEngine.DebugLogHandler:LogException(Exception, Object)
+UnityEngine.Logger:LogException(Exception, Object)
+UnityEngine.Debug:LogException(Exception)
+UnityEngine.<>c:<RegisterUECatcher>b__0_0(Object, UnhandledExceptionEventArgs)
+
+[AVP Xenomorphs] [Spawn] Neomorph chestburster spawned from fingerspike (tick 279090)
+[AVP Xenomorphs] [Spawn] Neomorph chestburster spawned from fingerspike (tick 279340)
+[AVP Xenomorphs] [Spawn] Neomorph chestburster spawned from fingerspike (tick 279590)
+[AVP Xenomorphs] [Spawn] Neomorph chestburster spawned from fingerspike (tick 279840)
+[AVP Xenomorphs] [Spawn] Neomorph chestburster spawned from fingerspike (tick 280090)
+[AVP Xenomorphs] [Spawn] Neomorph chestburster spawned from fingerspike (tick 280340)
+[AVP Xenomorphs] [Spawn] Neomorph chestburster spawned from fingerspike (tick 280590)
+[AVP Xenomorphs] [Spawn] Neomorph chestburster spawned from fingerspike (tick 280840)
+[AVP Xenomorphs] [Spawn] Neomorph chestburster spawned from fingerspike (tick 281090)
+[AVP Xenomorphs] [Spawn] Neomorph chestburster spawned from fingerspike (tick 281340)
+[AVP Xenomorphs] [Spawn] Neomorph chestburster spawned from fingerspike (tick 281590)
+[AVP Xenomorphs] [Spawn] Neomorph chestburster spawned from fingerspike (tick 281840)
+[AVP Xenomorphs] [Spawn] Neomorph chestburster spawned from fingerspike (tick 282090)
+[AVP Xenomorphs] [Spawn] Neomorph chestburster spawned from fingerspike (tick 282340)
+ArgumentNullException: Value cannot be null.
+Parameter name: key
+[Ref 52835668] Duplicate stacktrace, see ref for original
+UnityEngine.DebugLogHandler:Internal_LogException(Exception, Object)
+UnityEngine.DebugLogHandler:LogException(Exception, Object)
+UnityEngine.Logger:LogException(Exception, Object)
+UnityEngine.Debug:LogException(Exception)
+UnityEngine.<>c:<RegisterUECatcher>b__0_0(Object, UnhandledExceptionEventArgs)
+
+[AVP Xenomorphs] [Spawn] Neomorph chestburster spawned from fingerspike (tick 282590)
+[AVP Xenomorphs] [Spawn] Neomorph chestburster spawned from fingerspike (tick 282840)
+[AVP Xenomorphs] [Spawn] Neomorph chestburster spawned from fingerspike (tick 283090)
+[AVP Xenomorphs] [Spawn] Neomorph chestburster spawned from fingerspike (tick 283340)
+[AVP Xenomorphs] [Spawn] Neomorph chestburster spawned from fingerspike (tick 283590)
+[AVP Xenomorphs] [Spawn] Neomorph chestburster spawned from fingerspike (tick 283840)
+[AVP Xenomorphs] [Spawn] Neomorph chestburster spawned from fingerspike (tick 284090)
+[AVP Xenomorphs] [Spawn] Neomorph chestburster spawned from fingerspike (tick 284340)
+[AVP Xenomorphs] [Spawn] Neomorph chestburster spawned from fingerspike (tick 284590)
+[AVP Xenomorphs] [Spawn] Neomorph chestburster spawned from fingerspike (tick 284840)
+[AVP Xenomorphs] [Spawn] Neomorph chestburster spawned from fingerspike (tick 285090)
+[AVP Xenomorphs] [Spawn] Neomorph chestburster spawned from fingerspike (tick 285340)
+[AVP Xenomorphs] [Spawn] Neomorph chestburster spawned from fingerspike (tick 285590)
+[AVP Xenomorphs] [Spawn] Neomorph chestburster spawned from fingerspike (tick 285840)
+[AVP Xenomorphs] [Spawn] Neomorph chestburster spawned from fingerspike (tick 286090)
+[AVP Xenomorphs] [Spawn] Neomorph chestburster spawned from fingerspike (tick 286340)
+[AVP Xenomorphs] [Spawn] Neomorph chestburster spawned from fingerspike (tick 286590)
+[AVP Xenomorphs] [Spawn] Neomorph chestburster spawned from fingerspike (tick 286840)
+[AVP Xenomorphs] [Spawn] Neomorph chestburster spawned from fingerspike (tick 287090)
+[AVP Xenomorphs] [Spawn] Neomorph chestburster spawned from fingerspike (tick 287340)
+[AVP Xenomorphs] [Spawn] Neomorph chestburster spawned from fingerspike (tick 287590)
+[AVP Xenomorphs] [Spawn] Neomorph chestburster spawned from fingerspike (tick 287840)
+[AVP Xenomorphs] [Spawn] Neomorph chestburster spawned from fingerspike (tick 288090)
+[AVP Xenomorphs] [Spawn] Neomorph chestburster spawned from fingerspike (tick 288340)
+[AVP Xenomorphs] [Spawn] Neomorph chestburster spawned from fingerspike (tick 288590)
+[AVP Xenomorphs] [Spawn] Neomorph chestburster spawned from fingerspike (tick 288840)
+[AVP Xenomorphs] [Spawn] Neomorph chestburster spawned from fingerspike (tick 289090)
+[AVP Xenomorphs] [Spawn] Neomorph chestburster spawned from fingerspike (tick 289340)
+[AVP Xenomorphs] [Spawn] Neomorph chestburster spawned from fingerspike (tick 289590)
+[AVP Xenomorphs] [Spawn] Neomorph chestburster spawned from fingerspike (tick 289840)
+[AVP Xenomorphs] [Spawn] Neomorph chestburster spawned from fingerspike (tick 290090)
+[AVP Xenomorphs] [Spawn] Neomorph chestburster spawned from fingerspike (tick 290340)
+[AVP Xenomorphs] [Spawn] Neomorph chestburster spawned from fingerspike (tick 290590)
+ArgumentNullException: Value cannot be null.
+Parameter name: key
+[Ref 52835668] Duplicate stacktrace, see ref for original
+UnityEngine.DebugLogHandler:Internal_LogException(Exception, Object)
+UnityEngine.DebugLogHandler:LogException(Exception, Object)
+UnityEngine.Logger:LogException(Exception, Object)
+UnityEngine.Debug:LogException(Exception)
+UnityEngine.<>c:<RegisterUECatcher>b__0_0(Object, UnhandledExceptionEventArgs)
+
+[AVP Xenomorphs] [Spawn] Neomorph chestburster spawned from fingerspike (tick 290840)
+[AVP Xenomorphs] [Spawn] Neomorph chestburster spawned from fingerspike (tick 291090)
+[AVP Xenomorphs] [Spawn] Neomorph chestburster spawned from fingerspike (tick 291340)
+[AVP Xenomorphs] [Spawn] Neomorph chestburster spawned from fingerspike (tick 291590)
+[AVP Xenomorphs] [Spawn] Neomorph chestburster spawned from fingerspike (tick 291840)
+[AVP Xenomorphs] [Spawn] Neomorph chestburster spawned from fingerspike (tick 292090)
+[AVP Xenomorphs] [Spawn] Neomorph chestburster spawned from fingerspike (tick 292340)
+[AVP Xenomorphs] [Spawn] Neomorph chestburster spawned from fingerspike (tick 292590)
+[AVP Xenomorphs] [Spawn] Neomorph chestburster spawned from fingerspike (tick 292840)
+[AVP Xenomorphs] [Spawn] Neomorph chestburster spawned from fingerspike (tick 293090)
+[AVP Xenomorphs] [Spawn] Neomorph chestburster spawned from fingerspike (tick 293340)
+[AVP Xenomorphs] [Spawn] Neomorph chestburster spawned from fingerspike (tick 293590)
+[AVP Xenomorphs] [Spawn] Neomorph chestburster spawned from fingerspike (tick 293840)
+[AVP Xenomorphs] [Spawn] Neomorph chestburster spawned from fingerspike (tick 294090)
+[AVP Xenomorphs] [Spawn] Neomorph chestburster spawned from fingerspike (tick 294340)
+[AVP Xenomorphs] [Spawn] Neomorph chestburster spawned from fingerspike (tick 294590)
+[AVP Xenomorphs] [Spawn] Neomorph chestburster spawned from fingerspike (tick 294840)
+[AVP Xenomorphs] [Spawn] Neomorph chestburster spawned from fingerspike (tick 295090)
+[AVP Xenomorphs] [Spawn] Neomorph chestburster spawned from fingerspike (tick 295340)
+[AVP Xenomorphs] [Spawn] Neomorph chestburster spawned from fingerspike (tick 295590)
+[AVP Xenomorphs] [Spawn] Neomorph chestburster spawned from fingerspike (tick 295840)
+[AVP Xenomorphs] [Spawn] Neomorph chestburster spawned from fingerspike (tick 296090)
+[AVP Xenomorphs] [Spawn] Neomorph chestburster spawned from fingerspike (tick 296340)
+[AVP Xenomorphs] [Spawn] Neomorph chestburster spawned from fingerspike (tick 296590)
+[AVP Xenomorphs] [Spawn] Neomorph chestburster spawned from fingerspike (tick 296840)
+[AVP Xenomorphs] [Spawn] Neomorph chestburster spawned from fingerspike (tick 297090)
+[AVP Xenomorphs] [Spawn] Neomorph chestburster spawned from fingerspike (tick 297340)
+[AVP Xenomorphs] [Spawn] Neomorph chestburster spawned from fingerspike (tick 297590)
+[AVP Xenomorphs] [Spawn] Neomorph chestburster spawned from fingerspike (tick 297840)
+[AVP Xenomorphs] [Spawn] Neomorph chestburster spawned from fingerspike (tick 298090)
+[AVP Xenomorphs] [Spawn] Neomorph chestburster spawned from fingerspike (tick 298340)
+[AVP Xenomorphs] [Spawn] Neomorph chestburster spawned from fingerspike (tick 298590)
+[AVP Xenomorphs] [Spawn] Neomorph chestburster spawned from fingerspike (tick 298840)
+ArgumentNullException: Value cannot be null.
+Parameter name: key
+[Ref 52835668] Duplicate stacktrace, see ref for original
+UnityEngine.DebugLogHandler:Internal_LogException(Exception, Object)
+UnityEngine.DebugLogHandler:LogException(Exception, Object)
+UnityEngine.Logger:LogException(Exception, Object)
+UnityEngine.Debug:LogException(Exception)
+UnityEngine.<>c:<RegisterUECatcher>b__0_0(Object, UnhandledExceptionEventArgs)
+
+[AVP Xenomorphs] [Spawn] Neomorph chestburster spawned from fingerspike (tick 299090)
+[AVP Xenomorphs] [Spawn] Neomorph chestburster spawned from fingerspike (tick 299340)
+[AVP Xenomorphs] [Spawn] Neomorph chestburster spawned from fingerspike (tick 299590)
+[AVP Xenomorphs] [Spawn] Neomorph chestburster spawned from fingerspike (tick 299840)
+[Yayo's Animation] GC : animation data count [95 -> 61]
+[AVP Xenomorphs] [Spawn] Neomorph chestburster spawned from fingerspike (tick 300090)
+[AVP Xenomorphs] [Spawn] Neomorph chestburster spawned from fingerspike (tick 300340)
+[AVP Xenomorphs] [Spawn] Neomorph chestburster spawned from fingerspike (tick 300590)
+[AVP Xenomorphs] [Spawn] Neomorph chestburster spawned from fingerspike (tick 300840)
+[AVP Xenomorphs] [Spawn] Neomorph chestburster spawned from fingerspike (tick 301090)
+ArgumentNullException: Value cannot be null.
+Parameter name: key
+[Ref 52835668] Duplicate stacktrace, see ref for original
+UnityEngine.DebugLogHandler:Internal_LogException(Exception, Object)
+UnityEngine.DebugLogHandler:LogException(Exception, Object)
+UnityEngine.Logger:LogException(Exception, Object)
+UnityEngine.Debug:LogException(Exception)
+UnityEngine.<>c:<RegisterUECatcher>b__0_0(Object, UnhandledExceptionEventArgs)
+
+[AVP Xenomorphs] [Spawn] Neomorph chestburster spawned from fingerspike (tick 301340)
+[AVP Xenomorphs] [Spawn] Neomorph chestburster spawned from fingerspike (tick 301590)
+[AVP Xenomorphs] [Spawn] Neomorph chestburster spawned from fingerspike (tick 301840)
+ArgumentNullException: Value cannot be null.
+Parameter name: key
+[Ref 52835668] Duplicate stacktrace, see ref for original
+UnityEngine.DebugLogHandler:Internal_LogException(Exception, Object)
+UnityEngine.DebugLogHandler:LogException(Exception, Object)
+UnityEngine.Logger:LogException(Exception, Object)
+UnityEngine.Debug:LogException(Exception)
+UnityEngine.<>c:<RegisterUECatcher>b__0_0(Object, UnhandledExceptionEventArgs)
+
+[AVP Xenomorphs] [Spawn] Neomorph chestburster spawned from fingerspike (tick 302090)
+[AVP Xenomorphs] [Spawn] Neomorph chestburster spawned from fingerspike (tick 302340)
+[AVP Xenomorphs] [Spawn] Neomorph chestburster spawned from fingerspike (tick 302590)
+[AVP Xenomorphs] [Spawn] Neomorph chestburster spawned from fingerspike (tick 302840)
+[AVP Xenomorphs] [Spawn] Neomorph chestburster spawned from fingerspike (tick 303090)
+[AVP Xenomorphs] [Spawn] Neomorph chestburster spawned from fingerspike (tick 303340)
+[AVP Xenomorphs] [Spawn] Neomorph chestburster spawned from fingerspike (tick 303590)
+[AVP Xenomorphs] [Spawn] Neomorph chestburster spawned from fingerspike (tick 303840)
+[AVP Xenomorphs] [Spawn] Neomorph chestburster spawned from fingerspike (tick 304090)
+[AVP Xenomorphs] [Spawn] Neomorph chestburster spawned from fingerspike (tick 304340)
+[AVP Xenomorphs] [Spawn] Neomorph chestburster spawned from fingerspike (tick 304590)
+[AVP Xenomorphs] [Spawn] Neomorph chestburster spawned from fingerspike (tick 304840)
+[AVP Xenomorphs] [Spawn] Neomorph chestburster spawned from fingerspike (tick 305090)
+[AVP Xenomorphs] [Spawn] Neomorph chestburster spawned from fingerspike (tick 305340)
+[AVP Xenomorphs] [Spawn] Neomorph chestburster spawned from fingerspike (tick 305590)
+[AVP Xenomorphs] [Spawn] Neomorph chestburster spawned from fingerspike (tick 305840)
+[AVP Xenomorphs] [Spawn] Neomorph chestburster spawned from fingerspike (tick 306090)
+[AVP Xenomorphs] [Spawn] Neomorph chestburster spawned from fingerspike (tick 306340)
+[AVP Xenomorphs] [Spawn] Neomorph chestburster spawned from fingerspike (tick 306590)
+[AVP Xenomorphs] [Spawn] Neomorph chestburster spawned from fingerspike (tick 306840)
+[AVP Xenomorphs] [Spawn] Neomorph chestburster spawned from fingerspike (tick 307090)
+[AVP Xenomorphs] [Spawn] Neomorph chestburster spawned from fingerspike (tick 307340)
+[AVP Xenomorphs] [Spawn] Neomorph chestburster spawned from fingerspike (tick 307590)
+[AVP Xenomorphs] [Spawn] Neomorph chestburster spawned from fingerspike (tick 307840)
+[AVP Xenomorphs] [Spawn] Neomorph chestburster spawned from fingerspike (tick 308090)
+[AVP Xenomorphs] [Spawn] Neomorph chestburster spawned from fingerspike (tick 308340)
+[AVP Xenomorphs] [Spawn] Neomorph chestburster spawned from fingerspike (tick 308590)
+[AVP Xenomorphs] [Spawn] Neomorph chestburster spawned from fingerspike (tick 308840)
+[AVP Xenomorphs] [Spawn] Neomorph chestburster spawned from fingerspike (tick 309090)
+[AVP Xenomorphs] [Spawn] Neomorph chestburster spawned from fingerspike (tick 309340)
+[AVP Xenomorphs] [Spawn] Neomorph chestburster spawned from fingerspike (tick 309590)
+[AVP Xenomorphs] [Spawn] Neomorph chestburster spawned from fingerspike (tick 309840)
+[AVP Xenomorphs] [Spawn] Neomorph chestburster spawned from fingerspike (tick 310090)
+[AVP Xenomorphs] [Spawn] Neomorph chestburster spawned from fingerspike (tick 310340)
+[AVP Xenomorphs] [Spawn] Neomorph chestburster spawned from fingerspike (tick 310590)
+[AVP Xenomorphs] [Spawn] Neomorph chestburster spawned from fingerspike (tick 310840)
+[AVP Xenomorphs] [Spawn] Neomorph chestburster spawned from fingerspike (tick 311090)
+[AVP Xenomorphs] [Spawn] Neomorph chestburster spawned from fingerspike (tick 311340)
+[AVP Xenomorphs] [Spawn] Neomorph chestburster spawned from fingerspike (tick 311590)
+[AVP Xenomorphs] [Spawn] Neomorph chestburster spawned from fingerspike (tick 311840)
 Memory Statistics:
 [ALLOC_TEMP_TLS] TLS Allocator
   StackAllocators : 
     [ALLOC_TEMP_MAIN]
-      Peak usage frame count: [0-1.0 KB]: 32780 frames, [1.0 KB-2.0 KB]: 256 frames, [2.0 KB-4.0 KB]: 4525 frames, [4.0 KB-8.0 KB]: 6249 frames, [8.0 KB-16.0 KB]: 141 frames, [16.0 KB-32.0 KB]: 156 frames, [32.0 KB-64.0 KB]: 20 frames, [64.0 KB-128.0 KB]: 17 frames, [128.0 KB-256.0 KB]: 6 frames, [256.0 KB-0.5 MB]: 1 frames, [0.5 MB-1.0 MB]: 1 frames, [1.0 MB-2.0 MB]: 2 frames, [2.0 MB-4.0 MB]: 1 frames, [4.0 MB-8.0 MB]: 9 frames
+      Peak usage frame count: [0-1.0 KB]: 5692 frames, [1.0 KB-2.0 KB]: 17 frames, [2.0 KB-4.0 KB]: 99586 frames, [4.0 KB-8.0 KB]: 2835 frames, [8.0 KB-16.0 KB]: 269 frames, [16.0 KB-32.0 KB]: 95 frames, [32.0 KB-64.0 KB]: 33 frames, [64.0 KB-128.0 KB]: 6 frames, [128.0 KB-256.0 KB]: 10 frames, [256.0 KB-0.5 MB]: 2 frames, [2.0 MB-4.0 MB]: 1 frames, [4.0 MB-8.0 MB]: 8 frames
       Initial Block Size 4.0 MB
-      Current Block Size 6.8 MB
-      Peak Allocated Bytes 6.8 MB
+      Current Block Size 6.4 MB
+      Peak Allocated Bytes 6.4 MB
       Overflow Count 3
     [ALLOC_TEMP_Loading.AsyncRead]
       Initial Block Size 64.0 KB
@@ -557,7 +2335,7 @@ Memory Statistics:
     [ALLOC_TEMP_Job.Worker 0]
       Initial Block Size 256.0 KB
       Current Block Size 256.0 KB
-      Peak Allocated Bytes 160 B
+      Peak Allocated Bytes 176 B
       Overflow Count 0
     [ALLOC_TEMP_Background Job.Worker 10]
       Initial Block Size 32.0 KB
@@ -587,7 +2365,7 @@ Memory Statistics:
     [ALLOC_TEMP_Job.Worker 4]
       Initial Block Size 256.0 KB
       Current Block Size 256.0 KB
-      Peak Allocated Bytes 176 B
+      Peak Allocated Bytes 160 B
       Overflow Count 0
     [ALLOC_TEMP_ReadCacheIndex]
       Initial Block Size 64.0 KB
@@ -597,7 +2375,7 @@ Memory Statistics:
     [ALLOC_TEMP_Job.Worker 3]
       Initial Block Size 256.0 KB
       Current Block Size 256.0 KB
-      Peak Allocated Bytes 176 B
+      Peak Allocated Bytes 160 B
       Overflow Count 0
     [ALLOC_TEMP_Background Job.Worker 12]
       Initial Block Size 32.0 KB
@@ -647,7 +2425,7 @@ Memory Statistics:
     [ALLOC_TEMP_Job.Worker 9]
       Initial Block Size 256.0 KB
       Current Block Size 256.0 KB
-      Peak Allocated Bytes 176 B
+      Peak Allocated Bytes 202 B
       Overflow Count 0
     [ALLOC_TEMP_Background Job.Worker 13]
       Initial Block Size 32.0 KB
@@ -657,7 +2435,7 @@ Memory Statistics:
     [ALLOC_TEMP_Job.Worker 8]
       Initial Block Size 256.0 KB
       Current Block Size 256.0 KB
-      Peak Allocated Bytes 176 B
+      Peak Allocated Bytes 160 B
       Overflow Count 0
     [ALLOC_TEMP_Job.Worker 7]
       Initial Block Size 256.0 KB
@@ -672,7 +2450,7 @@ Memory Statistics:
     [ALLOC_TEMP_Job.Worker 2]
       Initial Block Size 256.0 KB
       Current Block Size 256.0 KB
-      Peak Allocated Bytes 234 B
+      Peak Allocated Bytes 218 B
       Overflow Count 0
     [ALLOC_TEMP_Background Job.Worker 3]
       Initial Block Size 32.0 KB
@@ -705,32 +2483,32 @@ Memory Statistics:
       Peak Allocated Bytes 54 B
       Overflow Count 0
 [ALLOC_DEFAULT] Dual Thread Allocator
-  Peak main deferred allocation count 43842
+  Peak main deferred allocation count 43666
     [ALLOC_BUCKET]
       Large Block size 4.0 MB
       Used Block count 1
       Peak Allocated bytes 4.0 MB
       Failed Allocations. Bucket layout:
-        16B: 5 Subsections = 5120 buckets. Failed count: 99712
-        32B: 34 Subsections = 17408 buckets. Failed count: 1691981
-        48B: 49 Subsections = 16725 buckets. Failed count: 299914
-        64B: 40 Subsections = 10240 buckets. Failed count: 153244
-        80B: 85 Subsections = 17408 buckets. Failed count: 519239
-        96B: 27 Subsections = 4608 buckets. Failed count: 45987
-        112B: 10 Subsections = 1462 buckets. Failed count: 41576
-        128B: 6 Subsections = 768 buckets. Failed count: 24355
+        16B: 5 Subsections = 5120 buckets. Failed count: 668854
+        32B: 34 Subsections = 17408 buckets. Failed count: 1359790
+        48B: 49 Subsections = 16725 buckets. Failed count: 483333
+        64B: 40 Subsections = 10240 buckets. Failed count: 172701
+        80B: 85 Subsections = 17408 buckets. Failed count: 2136201
+        96B: 27 Subsections = 4608 buckets. Failed count: 48628
+        112B: 10 Subsections = 1462 buckets. Failed count: 85725
+        128B: 6 Subsections = 768 buckets. Failed count: 69035
     [ALLOC_DEFAULT_MAIN]
-      Peak usage frame count: [16.0 MB-32.0 MB]: 1023 frames, [32.0 MB-64.0 MB]: 6 frames, [64.0 MB-128.0 MB]: 14 frames, [128.0 MB-256.0 MB]: 36 frames, [256.0 MB-0.50 GB]: 43085 frames
+      Peak usage frame count: [16.0 MB-32.0 MB]: 1006 frames, [32.0 MB-64.0 MB]: 6 frames, [64.0 MB-128.0 MB]: 14 frames, [128.0 MB-256.0 MB]: 34 frames, [256.0 MB-0.50 GB]: 107494 frames
       Requested Block Size 16.0 MB
-      Peak Block count 25
-      Peak Allocated memory 408.7 MB
+      Peak Block count 24
+      Peak Allocated memory 391.1 MB
       Peak Large allocation bytes 95.2 MB
     [ALLOC_DEFAULT_THREAD]
-      Peak usage frame count: [8.0 MB-16.0 MB]: 6718 frames, [16.0 MB-32.0 MB]: 1 frames, [32.0 MB-64.0 MB]: 15 frames, [64.0 MB-128.0 MB]: 2744 frames, [128.0 MB-256.0 MB]: 34686 frames
+      Peak usage frame count: [8.0 MB-16.0 MB]: 6388 frames, [16.0 MB-32.0 MB]: 1 frames, [64.0 MB-128.0 MB]: 13 frames, [128.0 MB-256.0 MB]: 102152 frames
       Requested Block Size 16.0 MB
-      Peak Block count 9
-      Peak Allocated memory 199.8 MB
-      Peak Large allocation bytes 67.6 MB
+      Peak Block count 7
+      Peak Allocated memory 133.2 MB
+      Peak Large allocation bytes 33.8 MB
 [ALLOC_TEMP_JOB_1_FRAME]
   Initial Block Size 2.0 MB
   Used Block Count 0
@@ -758,25 +2536,25 @@ Memory Statistics:
       Used Block count 1
       Peak Allocated bytes 4.0 MB
       Failed Allocations. Bucket layout:
-        16B: 5 Subsections = 5120 buckets. Failed count: 99712
-        32B: 34 Subsections = 17408 buckets. Failed count: 1691981
-        48B: 49 Subsections = 16725 buckets. Failed count: 299914
-        64B: 40 Subsections = 10240 buckets. Failed count: 153244
-        80B: 85 Subsections = 17408 buckets. Failed count: 519239
-        96B: 27 Subsections = 4608 buckets. Failed count: 45987
-        112B: 10 Subsections = 1462 buckets. Failed count: 41576
-        128B: 6 Subsections = 768 buckets. Failed count: 24355
+        16B: 5 Subsections = 5120 buckets. Failed count: 668854
+        32B: 34 Subsections = 17408 buckets. Failed count: 1359790
+        48B: 49 Subsections = 16725 buckets. Failed count: 483333
+        64B: 40 Subsections = 10240 buckets. Failed count: 172701
+        80B: 85 Subsections = 17408 buckets. Failed count: 2136201
+        96B: 27 Subsections = 4608 buckets. Failed count: 48628
+        112B: 10 Subsections = 1462 buckets. Failed count: 85725
+        128B: 6 Subsections = 768 buckets. Failed count: 69035
     [ALLOC_GFX_MAIN]
-      Peak usage frame count: [128.0 KB-256.0 KB]: 1 frames, [2.0 MB-4.0 MB]: 1095 frames, [4.0 MB-8.0 MB]: 7 frames, [8.0 MB-16.0 MB]: 434 frames, [16.0 MB-32.0 MB]: 5525 frames, [64.0 MB-128.0 MB]: 33318 frames, [128.0 MB-256.0 MB]: 3780 frames, [256.0 MB-0.50 GB]: 3 frames, [1.00 GB-2.00 GB]: 1 frames
+      Peak usage frame count: [128.0 KB-256.0 KB]: 1 frames, [2.0 MB-4.0 MB]: 1077 frames, [4.0 MB-8.0 MB]: 6 frames, [8.0 MB-16.0 MB]: 385 frames, [32.0 MB-64.0 MB]: 4920 frames, [64.0 MB-128.0 MB]: 102160 frames, [256.0 MB-0.50 GB]: 4 frames, [0.50 GB-1.00 GB]: 1 frames
       Requested Block Size 16.0 MB
       Peak Block count 22
-      Peak Allocated memory 1.05 GB
-      Peak Large allocation bytes 0.75 GB
+      Peak Allocated memory 0.97 GB
+      Peak Large allocation bytes 0.67 GB
     [ALLOC_GFX_THREAD]
-      Peak usage frame count: [0-1.0 KB]: 979 frames, [1.0 KB-2.0 KB]: 1131 frames, [2.0 KB-4.0 KB]: 2676 frames, [4.0 KB-8.0 KB]: 1242 frames, [8.0 KB-16.0 KB]: 1039 frames, [16.0 KB-32.0 KB]: 1368 frames, [32.0 KB-64.0 KB]: 31959 frames, [64.0 KB-128.0 KB]: 560 frames, [128.0 KB-256.0 KB]: 1342 frames, [256.0 KB-0.5 MB]: 1868 frames
+      Peak usage frame count: [0-1.0 KB]: 974 frames, [1.0 KB-2.0 KB]: 712 frames, [2.0 KB-4.0 KB]: 119 frames, [4.0 KB-8.0 KB]: 462 frames, [8.0 KB-16.0 KB]: 4135 frames, [64.0 KB-128.0 KB]: 259 frames, [128.0 KB-256.0 KB]: 16994 frames, [256.0 KB-0.5 MB]: 1380 frames, [0.5 MB-1.0 MB]: 83519 frames
       Requested Block Size 16.0 MB
       Peak Block count 1
-      Peak Allocated memory 271.1 KB
+      Peak Allocated memory 0.6 MB
       Peak Large allocation bytes 0 B
 [ALLOC_CACHEOBJECTS] Dual Thread Allocator
   Peak main deferred allocation count 122
@@ -785,22 +2563,22 @@ Memory Statistics:
       Used Block count 1
       Peak Allocated bytes 4.0 MB
       Failed Allocations. Bucket layout:
-        16B: 5 Subsections = 5120 buckets. Failed count: 99712
-        32B: 34 Subsections = 17408 buckets. Failed count: 1691981
-        48B: 49 Subsections = 16725 buckets. Failed count: 299914
-        64B: 40 Subsections = 10240 buckets. Failed count: 153244
-        80B: 85 Subsections = 17408 buckets. Failed count: 519239
-        96B: 27 Subsections = 4608 buckets. Failed count: 45987
-        112B: 10 Subsections = 1462 buckets. Failed count: 41576
-        128B: 6 Subsections = 768 buckets. Failed count: 24355
+        16B: 5 Subsections = 5120 buckets. Failed count: 668854
+        32B: 34 Subsections = 17408 buckets. Failed count: 1359790
+        48B: 49 Subsections = 16725 buckets. Failed count: 483333
+        64B: 40 Subsections = 10240 buckets. Failed count: 172701
+        80B: 85 Subsections = 17408 buckets. Failed count: 2136201
+        96B: 27 Subsections = 4608 buckets. Failed count: 48628
+        112B: 10 Subsections = 1462 buckets. Failed count: 85725
+        128B: 6 Subsections = 768 buckets. Failed count: 69035
     [ALLOC_CACHEOBJECTS_MAIN]
-      Peak usage frame count: [4.0 MB-8.0 MB]: 1 frames, [8.0 MB-16.0 MB]: 1047 frames, [16.0 MB-32.0 MB]: 43116 frames
+      Peak usage frame count: [4.0 MB-8.0 MB]: 1 frames, [8.0 MB-16.0 MB]: 1028 frames, [16.0 MB-32.0 MB]: 107525 frames
       Requested Block Size 4.0 MB
       Peak Block count 6
       Peak Allocated memory 21.5 MB
       Peak Large allocation bytes 0 B
     [ALLOC_CACHEOBJECTS_THREAD]
-      Peak usage frame count: [4.0 KB-8.0 KB]: 1041 frames, [32.0 KB-64.0 KB]: 38895 frames, [64.0 KB-128.0 KB]: 4190 frames, [128.0 KB-256.0 KB]: 9 frames, [256.0 KB-0.5 MB]: 12 frames, [0.5 MB-1.0 MB]: 17 frames
+      Peak usage frame count: [4.0 KB-8.0 KB]: 1022 frames, [32.0 KB-64.0 KB]: 5247 frames, [64.0 KB-128.0 KB]: 102247 frames, [128.0 KB-256.0 KB]: 9 frames, [256.0 KB-0.5 MB]: 12 frames, [0.5 MB-1.0 MB]: 17 frames
       Requested Block Size 4.0 MB
       Peak Block count 1
       Peak Allocated memory 0.6 MB
@@ -812,22 +2590,22 @@ Memory Statistics:
       Used Block count 1
       Peak Allocated bytes 4.0 MB
       Failed Allocations. Bucket layout:
-        16B: 5 Subsections = 5120 buckets. Failed count: 99712
-        32B: 34 Subsections = 17408 buckets. Failed count: 1691981
-        48B: 49 Subsections = 16725 buckets. Failed count: 299914
-        64B: 40 Subsections = 10240 buckets. Failed count: 153244
-        80B: 85 Subsections = 17408 buckets. Failed count: 519239
-        96B: 27 Subsections = 4608 buckets. Failed count: 45987
-        112B: 10 Subsections = 1462 buckets. Failed count: 41576
-        128B: 6 Subsections = 768 buckets. Failed count: 24355
+        16B: 5 Subsections = 5120 buckets. Failed count: 668854
+        32B: 34 Subsections = 17408 buckets. Failed count: 1359790
+        48B: 49 Subsections = 16725 buckets. Failed count: 483333
+        64B: 40 Subsections = 10240 buckets. Failed count: 172701
+        80B: 85 Subsections = 17408 buckets. Failed count: 2136201
+        96B: 27 Subsections = 4608 buckets. Failed count: 48628
+        112B: 10 Subsections = 1462 buckets. Failed count: 85725
+        128B: 6 Subsections = 768 buckets. Failed count: 69035
     [ALLOC_TYPETREE_MAIN]
-      Peak usage frame count: [4.0 KB-8.0 KB]: 1 frames, [8.0 KB-16.0 KB]: 1023 frames, [32.0 KB-64.0 KB]: 6 frames, [128.0 KB-256.0 KB]: 82 frames, [256.0 KB-0.5 MB]: 10 frames, [0.5 MB-1.0 MB]: 43042 frames
+      Peak usage frame count: [4.0 KB-8.0 KB]: 1 frames, [8.0 KB-16.0 KB]: 1006 frames, [32.0 KB-64.0 KB]: 6 frames, [128.0 KB-256.0 KB]: 81 frames, [256.0 KB-0.5 MB]: 10 frames, [0.5 MB-1.0 MB]: 107450 frames
       Requested Block Size 2.0 MB
       Peak Block count 1
       Peak Allocated memory 0.5 MB
       Peak Large allocation bytes 0 B
     [ALLOC_TYPETREE_THREAD]
-      Peak usage frame count: [0-1.0 KB]: 44164 frames
+      Peak usage frame count: [0-1.0 KB]: 108554 frames
       Requested Block Size 2.0 MB
       Peak Block count 0
       Peak Allocated memory 0 B
