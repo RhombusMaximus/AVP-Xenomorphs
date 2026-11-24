@@ -132,7 +132,9 @@ namespace RimWorld
                             if (t != null && t.def == XenomorphRacesDefOf.RRY_Xenomorph_Queen)
                             {
                                 RRYautja.Comp_Xenomorph comp = t.TryGetComp<RRYautja.Comp_Xenomorph>();
-                                if (comp != null && comp.HiveLoc == this.parent.Position)
+                                // Compare the raw assigned hive coordinates — the HiveLoc
+                                // getter can trigger an expensive map-wide re-search.
+                                if (comp != null && new IntVec3(comp.HiveX, 0, comp.HiveZ) == this.parent.Position)
                                 {
                                     this.cachedQueenHere = true;
                                     break;

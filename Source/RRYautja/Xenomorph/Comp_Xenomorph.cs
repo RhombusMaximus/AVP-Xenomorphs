@@ -39,6 +39,7 @@ namespace RRYautja
         public int healIntervalTicks = 60;
         public int HiveX = -1;
         public int HiveZ = -1;
+        private int lastHiveSearchTick = -99999;
         public int delay = -1;
         public int droneTextureVariant = 0;
 
@@ -67,10 +68,19 @@ namespace RRYautja
         {
             get
             {
-                if (HiveX < 1 || HiveZ < 1)
+                // PERF: this getter runs an expensive map-wide InfestationLikeCellFinder
+                // search (a) when the loc is unset and (b) whenever the current loc sits
+                // in the player's home area — the latter fired on EVERY access once a
+                // zone/home area covered the hive (AutoHomeAreaMaker adds home area
+                // around zones), costing 100-2000 ms per access and hitching the game
+                // every few seconds. Rate-limit the search; between searches return the
+                // last known loc instead of re-scanning the map.
+                int tick = Find.TickManager.TicksGame;
+                bool maySearch = tick - this.lastHiveSearchTick >= 2500;
+                if (maySearch && (HiveX < 1 || HiveZ < 1))
                 {
-                    //    Log.Message(string.Format("Finding new Hive loc for {0} @ {1}", pawn.NameShortColored, pawn.Position));
-                    if (map!=null)
+                    this.lastHiveSearchTick = tick;
+                    if (map != null)
                     {
                         if (InfestationLikeCellFinder.TryFindCell(out IntVec3 hive, out IntVec3 vec3, map, true, false, true))
                         {
@@ -79,11 +89,11 @@ namespace RRYautja
                         }
                     }
                 }
-                //    Log.Message(string.Format("Finding new Hive loc for {0} @ {1}", pawn.NameShortColored, pawn.Position));
-                if (map != null)
+                if (maySearch && map != null && HiveX >= 1 && HiveZ >= 1)
                 {
                     if (map.areaManager.Home[new IntVec3(HiveX, 0, HiveZ)])
                     {
+                        this.lastHiveSearchTick = tick;
                         if (InfestationLikeCellFinder.TryFindCell(out IntVec3 hive, out IntVec3 vec3, map, true, false, true))
                         {
                             HiveX = hive.x;
