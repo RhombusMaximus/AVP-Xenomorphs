@@ -75,13 +75,20 @@ namespace RRYautja
                 Lord lord = pawn.GetLord();
                 if (lord?.LordJob is LordJob_AssaultColony_CutPower) return true; // Power Cut event — allow buildings
 
-                // For normal Xenos, wrap the validator to exclude buildings
+                // For normal Xenos, wrap the validator to exclude buildings —
+                // but keep TURRETS targetable: filtering all buildings made
+                // xenos ignore the turrets shooting them and beeline for
+                // pawns instead of the closest threat.
                 Predicate<IAttackTarget> original = validator;
                 validator = (IAttackTarget t) =>
                 {
                     try
                     {
-                        if (t is Thing thing && thing is Building) return false; // Skip buildings
+                        if (t is Thing thing && thing is Building building)
+                        {
+                            // Turrets stay valid targets — they are active threats.
+                            if (!(building is Building_Turret)) return false;
+                        }
                         if (t is Thing thing2 && thing2.Map == null) return false; // Skip null-map targets
                         if (original != null) return original(t);
                         return true;
