@@ -51,12 +51,79 @@ namespace RRYautja
                     harmony.Patch(method, postfix: new HarmonyMethod(typeof(AvP_SamplingProfiler), nameof(TickPostfix)));
                     Log.Message("[AVP Xenomorphs] Sampling profiler installed (active while mod DebugMode is on; dumps a report every ~45s)");
                 }
+                InstallHarmonyTickProfiler(harmony);
             }
             catch (Exception e)
             {
                 Log.Error("[AVP Xenomorphs] Failed to init sampling profiler: " + e.Message);
             }
         }
+
+        #region Harmony tick profiler (per-type ms attribution; works on Unity Mono where thread-stack sampling does not)
+
+        private static bool tickProfilingInstalled;
+
+        // Sampling: whole ticks are profiled 1-in-6. Prefix/postfix always push/pop in
+        // pairs (sentinel -1 = not measured) so nesting stays balanced.
+        private static volatile bool sampleThisTick;
+        private static readonly System.Collections.Generic.Stack<long> timingStack = new System.Collections.Generic.Stack<long>(64);
+
+        private static readonly Dictionary<string, double> typeMs = new Dictionary<string, double>();
+        private static readonly Dictionary<string, int> typeCalls = new Dictionary<string, int>();
+
+        private static void InstallHarmonyTickProfiler(Harmony harmony)
+        {
+            // Only install the (moderately) expensive instrumentation when the user opted in.
+            if (RRYautja.settings.SettingsHelper.latest == null || !RRYautja.settings.SettingsHelper.latest.DebugMode) return;
+            if (tickProfilingInstalled) return;
+
+            int patched = 0;
+            patched += PatchCategory(harmony, typeof(MapComponent), "MapComponentTick");
+            patched += PatchCategory(harmony, typeof(ThingComp), "CompTick");
+            patched += PatchCategory(harmony, typeof(HediffComp), "CompPostTick");
+            tickProfilingInstalled = true;
+            Log.Message($"[AVP Xenomorphs] [Perf] Harmony tick profiler active: {patched} tick methods instrumented (reports per-type ms every ~45s)");
+        }
+
+        private static int PatchCategory(Harmony harmony, Type baseType, string tickMethod)
+        {
+            int patched = 0;
+            foreach (Type t in GenTypes.AllSubclassesNonAbstract(baseType))
+            {
+                try
+                {
+                    var m = t.GetMethod(tickMethod, System.Reflection.BindingFlags.Instance | System.Reflection.BindingFlags.Public | System.Reflection.BindingFlags.NonPublic, null, Type.EmptyTypes, null);
+                    // Only the classes that actually override the method (declaring type == subclass)
+                    if (m == null || m.DeclaringType != t) continue;
+                    harmony.Patch(m,
+                        prefix: new HarmonyMethod(typeof(AvP_SamplingProfiler), nameof(TimingPrefix)),
+                        postfix: new HarmonyMethod(typeof(AvP_SamplingProfiler), nameof(TimingPostfix)));
+                    patched++;
+                }
+                catch { }
+            }
+            return patched;
+        }
+
+        public static void TimingPrefix()
+        {
+            timingStack.Push(sampleThisTick ? swGlobal.ElapsedTicks : -1L);
+        }
+
+        public static void TimingPostfix(object __instance)
+        {
+            if (timingStack.Count == 0) return;
+            long start = timingStack.Pop();
+            if (start < 0) return;
+            double ms = (swGlobal.ElapsedTicks - start) * 1000.0 / System.Diagnostics.Stopwatch.Frequency;
+            string key = __instance.GetType().FullName;
+            typeMs.TryGetValue(key, out double ms0); typeMs[key] = ms0 + ms;
+            typeCalls.TryGetValue(key, out int c); typeCalls[key] = c + 1;
+        }
+
+        private static readonly System.Diagnostics.Stopwatch swGlobal = System.Diagnostics.Stopwatch.StartNew();
+
+        #endregion
 
         public static void TickPostfix()
         {
@@ -78,6 +145,7 @@ namespace RRYautja
                     if (ms > worstTickMs) worstTickMs = ms;
                     if (ms > 40) slowTicks++;
                 }
+                sampleThisTick = (Find.TickManager.TicksGame % 6 == 0);
                 EnsureSamplerThread();
             }
             catch
@@ -191,6 +259,25 @@ namespace RRYautja
             foreach (var kv in top)
             {
                 report.AppendLine($"[AVP Xenomorphs] [Perf]   {100 * kv.Value / (double)samples,5:0.0}%  {kv.Key}");
+            }
+            // Per-type tick attribution (Harmony timing, 1-in-6 sampled ticks)
+            List<KeyValuePair<string, double>> typeTop;
+            Dictionary<string, int> callsSnapshot;
+            lock (statsLock)
+            {
+                typeTop = typeMs.OrderByDescending(kv => kv.Value).Take(15).ToList();
+                callsSnapshot = new Dictionary<string, int>(typeCalls);
+                typeMs.Clear();
+                typeCalls.Clear();
+            }
+            if (typeTop.Count > 0)
+            {
+                report.AppendLine("[AVP Xenomorphs] [Perf] Top ticking components (sampled ms this window / calls):");
+                foreach (var kv in typeTop)
+                {
+                    callsSnapshot.TryGetValue(kv.Key, out int calls);
+                    report.AppendLine($"[AVP Xenomorphs] [Perf]   {kv.Value,9:0.0} ms  ({calls,5} calls)  {kv.Key}");
+                }
             }
             Log.Message(report.ToString().TrimEndNewlines());
             }
