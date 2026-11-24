@@ -145,10 +145,10 @@ namespace RRYautja.settings
 
         public override string SettingsCategory() => "AVP Xenomorphs";
 
-        // Rewritten 11/2026: the old decompiled layout used nested TopHalf()/RightHalf()
-        // fraction rects that overflowed the dialog at smaller window sizes and clipped
-        // the top-right settings. Everything now lives in one Listing_Standard inside a
-        // scroll view — resolution independent, nothing can be cut off.
+        // Rewritten 11/2026 (2): single-column layout made the impregnable-host list
+        // hundreds of rows long with 140+ mods installed. Trade-window style now:
+        // toggles/sliders at the top; the two long lists live in fixed-height,
+        // independently-scrollable side-by-side columns below.
         public override void DoSettingsWindowContents(Rect inRect)
         {
             if (settings.RaceKeyPairs == null)
@@ -167,29 +167,13 @@ namespace RRYautja.settings
             List<ThingDef> nonHosts = XenomorphHostSystem.AllRaces.Where(z => !z.isPotentialHost(true)).OrderBy(xy => xy.label).ToList();
             int enabledhostcount = XenomorphHostSystem.AllRaces.Where(z => z.isPotentialHost()).Count();
 
-            float row = 30f;
-            float totalHeight = row + 6f                    // header
-                + 6 * row                                  // main toggles
-                + 2 * 38f                                  // death chance sliders
-                + 2 * row                                  // debug + faction toggles
-                + (settings.FactionSelectable ? 22f : 0f)   // warning line
-                + 8f
-                + row + potentialHosts.Count * 24f          // host race list
-                + 8f
-                + row + nonHosts.Count * 44f                // non-host race list
-                + 8f
-                + row + 3 * row                             // spawning options
-                + 16f;
-
-            Rect outer = inRect.ContractedBy(4f);
-            Rect content = new Rect(0f, 0f, Mathf.Max(outer.width - 24f, 300f), totalHeight);
-            Widgets.BeginScrollView(outer, ref this.pos, content, false);
+            Rect top = inRect.TopPartPixels(Mathf.Min(inRect.height - 200f, 470f));
             Listing_Standard ls = new Listing_Standard();
-            ls.Begin(content);
-            ls.ColumnWidth = content.width;
+            ls.Begin(top);
+            ls.ColumnWidth = top.width;
 
             ls.Label("Restart before playing to ensure your changes take effect.");
-            ls.Gap(8f);
+            ls.Gap(6f);
 
             ls.CheckboxLabeled("RRY_AllowXenomorphFaction".Translate(), ref settings.AllowXenomorphFaction, null);
             ls.CheckboxLabeled("RRY_AllowHiddenInfections".Translate(), ref settings.AllowHiddenInfections, null);
@@ -197,7 +181,7 @@ namespace RRYautja.settings
             ls.CheckboxLabeled("RRY_AllowXenoCocoonMetamorph".Translate(), ref settings.AllowXenoCocoonMetamorph, null);
             ls.CheckboxLabeled("RRY_AllowXenoEggMetamorph".Translate(), ref settings.AllowXenoEggMetamorph, null);
             ls.CheckboxLabeled("RRY_AllowNonHumanlikeHosts".Translate(), ref settings.AllowNonHumanlikeHosts, null);
-            ls.Gap(8f);
+            ls.Gap(6f);
 
             Rect sliderRect = ls.GetRect(38f);
             settings.fachuggerRemovalFailureDeathChance = Widgets.HorizontalSlider(sliderRect,
@@ -209,7 +193,7 @@ namespace RRYautja.settings
                 settings.embryoRemovalFailureDeathChance, 0f, 1f, true,
                 "RRY_EmbryoRemovalDeathChance".Translate(settings.embryoRemovalFailureDeathChance * 100),
                 "0%", "100%");
-            ls.Gap(8f);
+            ls.Gap(6f);
 
             ls.CheckboxLabeled("Debug Mode (extra logging)", ref settings.DebugMode, null);
             ls.CheckboxLabeled("Faction Selectable (WIP - not yet working)", ref settings.FactionSelectable, null);
@@ -222,27 +206,7 @@ namespace RRYautja.settings
                 Widgets.Label(warn, "Requires new game to take effect.");
                 GUI.color = c;
             }
-            ls.Gap(12f);
-
-            ls.Label("RRY_HostKinds".Translate(potentialHosts.Count, enabledhostcount));
-            foreach (ThingDef td in potentialHosts)
-            {
-                settings.RaceKeyPairs.TryGetValue(td.defName, out bool setting);
-                Rect r = ls.GetRect(24f);
-                bool disabled = td == ThingDefOf.Human;
-                Widgets.CheckboxLabeled(r, td.LabelCap, ref setting, disabled);
-                settings.RaceKeyPairs.SetOrAdd(td.defName, setting || disabled);
-            }
-            ls.Gap(12f);
-
-            ls.Label("RRY_NonHostKinds".Translate(nonHosts.Count));
-            foreach (ThingDef td in nonHosts)
-            {
-                td.isPotentialHost(out string fr, true);
-                Rect r = ls.GetRect(44f);
-                Widgets.Label(r, td.LabelCap + ":\n" + fr);
-            }
-            ls.Gap(12f);
+            ls.Gap(8f);
 
             ls.Label("RRY_XenomorphSpawningOptions".Translate());
             ls.CheckboxLabeled("RRY_PredalienSpawning".Translate(), ref settings.AllowPredaliens, null);
@@ -250,6 +214,41 @@ namespace RRYautja.settings
             ls.CheckboxLabeled("RRY_NeomorphSpawning".Translate(), ref settings.AllowNeomorphs, null);
 
             ls.End();
+
+            // Trade-style fixed-height list columns
+            Rect bottom = new Rect(inRect.x, top.yMax + 4f, inRect.width, inRect.yMax - (top.yMax + 4f));
+            float headerH = 24f;
+            Rect hostHeader = new Rect(bottom.x, bottom.y, bottom.width * 0.5f, headerH);
+            Rect hostView = new Rect(hostHeader.x, hostHeader.yMax, hostHeader.width, bottom.height - headerH);
+            Rect nonHostHeader = new Rect(bottom.x + bottom.width * 0.5f, bottom.y, bottom.width * 0.5f, headerH);
+            Rect nonHostView = new Rect(nonHostHeader.x, nonHostHeader.yMax, nonHostHeader.width, bottom.height - headerH);
+
+            Widgets.Label(hostHeader, "RRY_HostKinds".Translate(potentialHosts.Count, enabledhostcount));
+            Widgets.Label(nonHostHeader, "RRY_NonHostKinds".Translate(nonHosts.Count));
+
+            Rect hostContent = new Rect(0f, 0f, hostView.width - 24f, Mathf.Max(potentialHosts.Count * 24f, hostView.height));
+            Widgets.BeginScrollView(hostView, ref this.pos, hostContent, false);
+            float y = 0f;
+            foreach (ThingDef td in potentialHosts)
+            {
+                settings.RaceKeyPairs.TryGetValue(td.defName, out bool setting);
+                Rect r = new Rect(0f, y, hostContent.width, 24f);
+                bool disabled = td == ThingDefOf.Human;
+                Widgets.CheckboxLabeled(r, td.LabelCap, ref setting, disabled);
+                settings.RaceKeyPairs.SetOrAdd(td.defName, setting || disabled);
+                y += 24f;
+            }
+            Widgets.EndScrollView();
+
+            Rect nonHostContent = new Rect(0f, 0f, nonHostView.width - 24f, Mathf.Max(nonHosts.Count * 44f, nonHostView.height));
+            Widgets.BeginScrollView(nonHostView, ref this.pos2, nonHostContent, false);
+            y = 0f;
+            foreach (ThingDef td in nonHosts)
+            {
+                td.isPotentialHost(out string fr, true);
+                Widgets.Label(new Rect(0f, y, nonHostContent.width, 44f), td.LabelCap + ":\n" + fr);
+                y += 44f;
+            }
             Widgets.EndScrollView();
 
             this.settings.Write();
