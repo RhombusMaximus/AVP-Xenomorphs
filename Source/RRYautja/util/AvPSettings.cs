@@ -264,6 +264,7 @@ namespace RRYautja.settings
         }
 
         private Vector2 pos = new Vector2(0f, 0f);
+        private Vector2 pos2 = new Vector2(0f, 0f);
 
     }
     
