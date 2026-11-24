@@ -27,4 +27,25 @@ namespace RRYautja
             return true;
         }
     }
+
+    /// <summary>
+    /// Same guard for GoodwillSituationWorker_SameIdeo.GetNaturalGoodwillOffset:
+    /// it dereferences other.ideos.PrimaryIdeo without a null check on the tracker
+    /// (vanilla guards the player's PrimaryIdeo but not `other.ideos`). Factions
+    /// with no ideology (hidden Xenomorph faction) NRE every goodwill recalc tick.
+    /// </summary>
+    [HarmonyPatch(typeof(GoodwillSituationWorker_SameIdeo), "GetNaturalGoodwillOffset")]
+    public static class AvP_GoodwillSituationWorker_SameIdeo_Patch
+    {
+        [HarmonyPrefix]
+        public static bool GetNaturalGoodwillOffset_SameIdeo_Prefix(Faction other, ref int __result)
+        {
+            if (other == null || other.ideos == null)
+            {
+                __result = 0;
+                return false;
+            }
+            return true;
+        }
+    }
 }

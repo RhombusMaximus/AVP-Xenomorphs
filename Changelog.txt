@@ -190,3 +190,7 @@ Lots of other small changes and tweaks since the last version I've forgotten abo
 
 11/23/2026 (6) — fix entity capture never appearing despite comps being patched in:
 - StudiedAtHoldingPlatform (the gate behind the Capture gizmo/float menu) was false twice over: (a) CompStudiable.AnomalyKnowledge is 0 without a knowledgeCategory — added race-level <knowledgeCategory>Basic</knowledgeCategory> + <anomalyKnowledge>1</anomalyKnowledge> via XML patch (public RaceProperties fields, used as comp fallback); (b) vanilla refuses animals whose fleshType is not an entity flesh type (Fleshbeast/EntityFlesh/EntityMechanical) — Xenos use their own flesh types. Added Harmony prefix on CompHoldingPlatformTarget.StudiedAtHoldingPlatform returning true for RRY_Xenomorph/RRY_Neomorph flesh. Flesh types left untouched so butchery/leather/meat/acid-blood behavior is unchanged.
+
+11/24/2026 — root cause of hive-zone lag found in player.log: per-tick NRE storms, not zone placement.
+- HiveLike.innerContainer (property => Map.HiveGrid().GetDirectlyHeldThings()) NRE'd whenever damage landed on an unspawned/mid-destroy hive — triggered per tick by melee swings and in-flight bullets (USCM bullets, JobDriver_AttackMelee "Suppressing further errors" storms). Property is now null-safe; PostApplyDamage early-returns when unspawned.
+- GoodwillSituationWorker_SameIdeo.GetNaturalGoodwillOffset NRE'd every goodwill recalc against the ideos-less Xenomorph faction (184 hits this session) — same family as the MemeCompatibility guard; prefix added.

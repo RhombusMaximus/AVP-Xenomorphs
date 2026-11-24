@@ -450,8 +450,15 @@ namespace RimWorld
 
         // Token: 0x06002678 RID: 9848 RVA: 0x0012427C File Offset: 0x0012267C
         public override void PostApplyDamage(DamageInfo dinfo, float totalDamageDealt)
-		{
-			if (dinfo.Def.ExternalViolenceFor(this) && dinfo.Instigator != null && dinfo.Instigator.Faction != null)
+        {
+            // Damage can be applied in the same tick chain that destroys/unspawns this
+            // hive (melee swings, in-flight bullets); everything below needs Map and
+            // the hive grid to be alive.
+            if (this.Map == null || !this.Spawned)
+            {
+                return;
+            }
+            if (dinfo.Def.ExternalViolenceFor(this) && dinfo.Instigator != null && dinfo.Instigator.Faction != null)
 			{
 				Lord lord = this.Lord;
 				if (lord != null)
@@ -902,7 +909,20 @@ namespace RimWorld
             base.PreApplyDamage(ref dinfo, out absorbed);
         }
 
-        protected ThingOwner innerContainer => Map.HiveGrid().GetDirectlyHeldThings();
+        // Null-safe: Map is null while the hive is unspawned/mid-destroy, and damage
+        // can still be applied to it in the same tick chain (melee swings, in-flight
+        // bullets) — the old form NRE'd per tick in exactly that case
+        // ("Exception ticking RRY_USCM_Bullet / JobDriver_AttackMelee" storms).
+        protected ThingOwner innerContainer
+        {
+            get
+            {
+                Map map = Map;
+                if (map == null) return null;
+                MapComponent_HiveGrid grid = map.HiveGrid();
+                return grid != null ? grid.GetDirectlyHeldThings() : null;
+            }
+        }
         public List<PawnKindDef> PawnKinds = new List<PawnKindDef>();
         public HiveLike parentHiveLike;
         public bool active = true;
