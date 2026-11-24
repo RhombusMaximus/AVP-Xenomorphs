@@ -164,6 +164,8 @@ namespace RRYautja
 
         private static void DumpReport(int windowStartSlowTicks, long windowStartWorst)
         {
+            try
+            {
             List<KeyValuePair<string, int>> top;
             int samples;
             int slow, meas;
@@ -175,7 +177,6 @@ namespace RRYautja
                 meas = tickMeasurements;
                 worst = worstTickMs;
                 avg = meas > 0 ? totalTickMs / meas : 0;
-                stackCounts.Remove(null);
                 top = stackCounts.OrderByDescending(kv => kv.Value).Take(25).ToList();
                 stackCounts.Clear();
                 // reset per-window slow/worst baselines so each report covers its own window
@@ -192,6 +193,12 @@ namespace RRYautja
                 report.AppendLine($"[AVP Xenomorphs] [Perf]   {100 * kv.Value / (double)samples,5:0.0}%  {kv.Key}");
             }
             Log.Message(report.ToString().TrimEndNewlines());
+            }
+            catch (Exception e)
+            {
+                // Never let the report kill the sampler thread — log and keep sampling.
+                Verse.Log.Warning("[AVP Xenomorphs] [Perf] Sampling report failed: " + e.Message);
+            }
         }
     }
 }
