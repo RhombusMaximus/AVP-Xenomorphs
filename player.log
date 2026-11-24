@@ -11,7 +11,7 @@ Direct3D:
     VRAM:     8042 MB
     Driver:   32.0.16.2124
 Begin MonoManager ReloadAssembly
-- Loaded All Assemblies, in  0.170 seconds
+- Loaded All Assemblies, in  0.165 seconds
 - Finished resetting the current domain, in  0.001 seconds
 <RI> Initializing input.
 
@@ -20,18 +20,17 @@ Begin MonoManager ReloadAssembly
 <RI> Initialized touch support.
 
 [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
-UnloadTime: 0.630200 ms
+UnloadTime: 0.617300 ms
 Command line arguments: -disable-compute-shaders
 RimWorld 1.6.4871 rev591
 Mod Small Tanks for VGE dependency (vanillaexpanded.gravship) needs to have <downloadUrl> and/or <steamWorkshopUrl> specified.
 Mod More Gravship Workbenches dependency (vanillaexpanded.gravship) needs to have <downloadUrl> and/or <steamWorkshopUrl> specified.
-Fallback handler could not load library D:/SteamLibrary/steamapps/common/RimWorld/RimWorldWin64_Data/MonoBleedingEdge/data-00000242F18A5650.dll
-Fallback handler could not load library D:/SteamLibrary/steamapps/common/RimWorld/RimWorldWin64_Data/MonoBleedingEdge/data-0000024323E0A980.dll
+Fallback handler could not load library D:/SteamLibrary/steamapps/common/RimWorld/RimWorldWin64_Data/MonoBleedingEdge/data-0000023281071A70.dll
+Fallback handler could not load library D:/SteamLibrary/steamapps/common/RimWorld/RimWorldWin64_Data/MonoBleedingEdge/data-00000232D85FB140.dll
 [Loading Progress] Loading Progress v0.21.1 initialized! Enjoy the rest of your loading experience!
 [HugsLib] version 12.0.0
 [HugsLib] early-initializing AllowTool
-Fallback handler could not load library D:/SteamLibrary/steamapps/common/RimWorld/RimWorldWin64_Data/MonoBleedingEdge/data-00000242F1CADF10.dll
-[ImageOpt] Successfully loaded Rust library into process memory. ver: 0.1.13
+Fallback handler could not load library D:/SteamLibrary/steamapps/common/RimWorld/RimWorldWin64_Data/MonoBleedingEdge/data-000002328419D040.dll
 <color=#66ffb5>[MeleeAnim]</color> Hello, world!
 Build date: 10/13/2026 8:58 AM
 Loaded assemblies (9):
@@ -44,7 +43,7 @@ ModRequestAPI.Models, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null,
 Unity.Newtonsoft.Json, Version=7.0.0.0, Culture=neutral, PublicKeyToken=null,
 zAnimationMod, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null,
 AM.FacialAnimationPatch, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null
-<color=#66ffb5>[MeleeAnim]</color> Scanning 142 mods for animation data...
+<color=#66ffb5>[MeleeAnim]</color> Scanning 134 mods for animation data...
 <color=#66ffb5>[MeleeAnim]</color> Found 1 mod folders with animation data, total 69 loadable files.
 <color=#66ffb5>[MeleeAnim]</color> [<color=#63e0ff>Facial Animation Patch</color>] Successfully loaded Facial Animation patch.
 [RimHUD v1.17.5] Initialized
@@ -57,15 +56,13 @@ Loaded What's That Mod.
 [SafePatcher]The xPath: "Defs/ThingDef[defName="VFES_Gun_SentryTurret"]" not found
 [SafePatcher]The xPath: "Defs/ThingDef[defName="VFES_Artillery_Weapon"]" not found
 [SafePatcher]The xPath: "Defs/ThingDef[defName="VFES_Gun_ChargeComplex"]" not found
-<color=#FFA500FF>[Map Mode Framework]</color> Loading assemblies of patched mods done. Total assemblies loaded: 0
-<color=#FFA500FF>[Map Mode Framework]</color> Assembly named GeologicalLandforms not found. Render patch not applied.
-<color=#FFA500FF>[Map Mode Framework]</color> Assembly named ReGrowthCore not found. Render patch not applied.
-Translation data for language English has 6 errors. Generate translation report for more info.
+Translation data for language English has 1 errors. Generate translation report for more info.
 [AVP Xenomorphs] [AVP Xenomorphs] Patched PawnRenderNode_AnimalPart.GraphicFor for drone texture variants
 [AVP Xenomorphs] Broken install blueprint cleanup patch applied
 [AVP Xenomorphs] Patched 4 vanilla think node Satisfied methods with null-map guards
 [AVP Xenomorphs] Patched CompHoldingPlatformTarget.StudiedAtHoldingPlatform for entity capture of Xenomorphs/Neomorphs
 [AVP Xenomorphs] Sampling profiler installed (active while mod DebugMode is on; dumps a report every ~45s)
+[AVP Xenomorphs] [Perf] Harmony tick profiler active: 230 tick methods instrumented (reports per-type ms every ~45s)
 [AVP Xenomorphs] Zone/designation perf probe installed (logs placements >100ms, or all with mod DebugMode)
 [AVP Xenomorphs] Patched JobDriver_Wait.CheckForAutoAttack
 [AVP Xenomorphs] Patched Designator_ZoneAdd.CanDesignateCell to block hive/tunnel tiles
@@ -79,10 +76,6 @@ KCSG has Created 7659 symbolDefs for vanilla and DLCs
 [CleaningAreaRelaunched] Loaded
 Damage Indicators initialized.
 [DifferentEggSizes]: Updated 90 egg-definitions
-GUD: patches were successful
-[XML Extensions] Initialized 1 SettingsMenuDef(s) and found 0 unused key(s) from 0 mod(s)
-[XML Extensions] 1667 total patch operations run in 3493ms, 0 failed
-[XML Extensions] Emitted 1 mod class(es)
 Mines 2.0 -> RecipeDef named MinesAutomated_RecipeDef_MineableSteel added to the mine.
 Mines 2.0 -> RecipeDef named MinesAutomated_RecipeDef_MineableComponentsIndustrial added to the mine.
 Mines 2.0 -> RecipeDef named MinesAutomated_RecipeDef_MineableUranium added to the mine.
@@ -109,12 +102,11 @@ NamesGalore: Injecting Names
 Chinese
 NamesGalore: Current Lang English
 (Research Tab Colors) Transpiler injected.
-[FishSeeder] GlobalFishIndex ready. Fresh: 7, Salt: 7
 [UseThisInstead]: Found 2 replacements
 [GeneExpandedHair] harmony patch succeeded.
 Unloading 5 Unused Serialized files (Serialized files now loaded: 7)
-Unloading 961 unused Assets to reduce memory usage. Loaded Objects now: 46657.
-Total: 317.359000 ms (FindLiveObjects: 2.377900 ms CreateObjectMapping: 2.837500 ms MarkObjects: 310.862500 ms  DeleteObjects: 1.280800 ms)
+Unloading 961 unused Assets to reduce memory usage. Loaded Objects now: 44919.
+Total: 301.775900 ms (FindLiveObjects: 2.019500 ms CreateObjectMapping: 1.510800 ms MarkObjects: 297.184800 ms  DeleteObjects: 1.060500 ms)
 
 MVCF successfully applied 54 patches
 CharacterEditor v1.6.3 initializing...
@@ -311,7 +303,7 @@ Transpilers:
 Postfixes:
   [PeteTimesSix.SimpleSidearms] TryCastShot
 Unloading 2 Unused Serialized files (Serialized files now loaded: 9)
-<color=#66ffb5>[MeleeAnim]</color> PreCached all retexture info in 142.0ms
+<color=#66ffb5>[MeleeAnim]</color> PreCached all retexture info in 135.4ms
 <color=#66ffb5>[MeleeAnim]</color> Loaded tweak data for 39 weapons.
 <color=#66ffb5>[MeleeAnim]</color> ogliss.avpxenomorphs 'AVP Xenomorphs' has 1 missing weapon tweak data.
 <color=#66ffb5>[MeleeAnim]</color> Skipping reporting of missing mod/weapons because user opted out or the feature is disabled by the developer.
@@ -319,40 +311,40 @@ Unloading 2 Unused Serialized files (Serialized files now loaded: 9)
 RimWorld.Verb_MeleeApplyHediff from Assembly-CSharp
 RimWorld.Verb_MeleeAttackDamage from Assembly-CSharp
 RRYautja.Verb_MeleeAttackKnockback from RRYautja
-<color=#66ffb5>[MeleeAnim]</color> Found 6 items of clothing that cover hands, took 0.77 ms:
+<color=#66ffb5>[MeleeAnim]</color> Found 6 items of clothing that cover hands, took 0.71 ms:
 VAE_Handwear_Gloves (Gloves),
 VAE_Handwear_PlateGloves (Plate gloves),
 VAE_Handwear_MarineGloves (Marine gloves),
 VAE_Apparel_Shield_Riot (Riot shield),
 VAE_Handwear_TrooperGloves (Trooper gloves),
 VAE_Handwear_Tac_Gloves (Tactical gloves)
-Unloading 57 unused Assets to reduce memory usage. Loaded Objects now: 46817.
-Total: 290.020600 ms (FindLiveObjects: 2.059200 ms CreateObjectMapping: 1.801100 ms MarkObjects: 286.033900 ms  DeleteObjects: 0.125600 ms)
+Unloading 57 unused Assets to reduce memory usage. Loaded Objects now: 45079.
+Total: 279.406700 ms (FindLiveObjects: 1.978900 ms CreateObjectMapping: 1.436100 ms MarkObjects: 275.879000 ms  DeleteObjects: 0.112500 ms)
 
 Unloading 0 Unused Serialized files (Serialized files now loaded: 9)
 Loading asset bundle MuzzleFlash.shaders-windows
 Loaded shader Unlit/AnimatedAdditiveInstanced
 [Muzzle Flash] Shader loaded from MuzzleFlash: Unlit/AnimatedAdditiveInstanced
-Unloading 0 unused Assets to reduce memory usage. Loaded Objects now: 46819.
-Total: 308.572300 ms (FindLiveObjects: 2.261100 ms CreateObjectMapping: 2.544400 ms MarkObjects: 303.709500 ms  DeleteObjects: 0.057000 ms)
+Unloading 0 unused Assets to reduce memory usage. Loaded Objects now: 45081.
+Total: 282.551200 ms (FindLiveObjects: 1.950400 ms CreateObjectMapping: 2.437800 ms MarkObjects: 278.102100 ms  DeleteObjects: 0.060600 ms)
 
 Unloading 0 Unused Serialized files (Serialized files now loaded: 10)
-Unloading 0 unused Assets to reduce memory usage. Loaded Objects now: 46819.
-Total: 277.741800 ms (FindLiveObjects: 2.080500 ms CreateObjectMapping: 1.397200 ms MarkObjects: 274.195300 ms  DeleteObjects: 0.068400 ms)
+Unloading 0 unused Assets to reduce memory usage. Loaded Objects now: 45081.
+Total: 275.649200 ms (FindLiveObjects: 1.897900 ms CreateObjectMapping: 2.449200 ms MarkObjects: 271.246400 ms  DeleteObjects: 0.055100 ms)
 
 Unloading 0 Unused Serialized files (Serialized files now loaded: 10)
-  --> [What's That Mod] Took 0.08 seconds to scan all patches. <--
-What's That Mod: Wrote to 5297 mod descriptions, 2 patched defs resolved.
-What's That Mod took 89 milliseconds to generate all def descriptions.
-Unloading 0 unused Assets to reduce memory usage. Loaded Objects now: 46819.
-Total: 300.703700 ms (FindLiveObjects: 2.002200 ms CreateObjectMapping: 1.241800 ms MarkObjects: 297.396200 ms  DeleteObjects: 0.063300 ms)
+  --> [What's That Mod] Took 0.11 seconds to scan all patches. <--
+What's That Mod: Wrote to 5267 mod descriptions, 1 patched defs resolved.
+What's That Mod took 117 milliseconds to generate all def descriptions.
+Unloading 0 unused Assets to reduce memory usage. Loaded Objects now: 45081.
+Total: 284.390100 ms (FindLiveObjects: 1.917900 ms CreateObjectMapping: 1.360500 ms MarkObjects: 281.050400 ms  DeleteObjects: 0.060900 ms)
 
 [HugsLib] initializing TerraformRimworld
 CE is trying to create default parameter lists ...
 creating default parameter list for genes...
 326 default entities for genes created
 creating default parameter list for objects...
-3120 default entities for objects created
+3101 default entities for objects created
 creating default parameter list for turrets...
 61 default entities for turrets created
 ...lists created
@@ -363,9 +355,9 @@ no modifications for lifestages
 ...done
 Unloading 3 Unused Serialized files (Serialized files now loaded: 10)
 [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
-UnloadTime: 0.833500 ms
-Unloading 2 unused Assets to reduce memory usage. Loaded Objects now: 47127.
-Total: 312.199500 ms (FindLiveObjects: 2.102400 ms CreateObjectMapping: 2.590600 ms MarkObjects: 307.429200 ms  DeleteObjects: 0.077000 ms)
+UnloadTime: 0.794300 ms
+Unloading 2 unused Assets to reduce memory usage. Loaded Objects now: 45388.
+Total: 319.156200 ms (FindLiveObjects: 1.936900 ms CreateObjectMapping: 2.418400 ms MarkObjects: 314.735000 ms  DeleteObjects: 0.065500 ms)
 
 Loading game from file USCSS Colony 101 with mods:
   - brrainz.harmony
@@ -410,22 +402,16 @@ Loading game from file USCSS Colony 101 with mods:
   - Erin.Hairredux
   - Erin.Hair2
   - Romyashi.ExtractAnyPlant
-  - NozoMe.MapModeFramework
-  - jaeger972.factionterritories
   - Aelanna.FistNerf
-  - Thumb.GoreMod
-  - imranfish.xmlextensions
   - Kattalisk.GravEngineGivesPower
   - Zaire82.HDHeadAttatchmentsForFacialAnimation
   - jkluch.HaulToStack
   - Tory.Icons.Historical
   - VanillaExpanded.VanillaAnimalsExpanded
   - zal.hyena
-  - dev.soeur.imageopt
   - toxicyui.impactfulskills.modsupport
   - 400.ImpassableHChestUdeepHWater
   - costel.layeredapparel
-  - Mlie.LogAfterDefError
   - plaxen.MalangBodies
   - Spino.Megafauna
   - co.uk.epicguru.meleeanimation
@@ -453,7 +439,6 @@ Loading game from file USCSS Colony 101 with mods:
   - Mlie.RunAndHide
   - MemeGoddess.RunAndGun
   - MemeGoddess.SearchAndDestroy
-  - dhl.seedfish
   - avilmask.SelfDyeing
   - BP.ShowBuildableMaterialCount
   - Owlchemist.FridgeUtilities
@@ -496,7 +481,6 @@ Loading game from file USCSS Colony 101 with mods:
   - VanillaExpanded.VMemesE
   - VanillaExpanded.Ideo.RelicsAndArtifacts
   - VanillaExpanded.Ideo.SophianStyle
-  - vin.warehouse.storage
   - co.uk.epicguru.whatsthatmod
   - MemeGoddess.GiddyUp
   - automatic.gunplay
@@ -510,50 +494,1097 @@ Loading game from file USCSS Colony 101 with mods:
   - SR.ModRimworld.FactionalWarContinued
   - SR.ModRimworld.RaidExtension
   - XeoNovaDan.VisiblePants
-Could not resolve reference to object with loadID Lord_7 of type Verse.AI.Group.Lord. Was it compressed away, destroyed, had no ID number, or not saved/loaded right? curParent=VEF.Storyteller.RaidGroup curPathRelToParent=/lords
-Could not resolve reference to object with loadID Faction_40 of type RimWorld.Faction. Was it compressed away, destroyed, had no ID number, or not saved/loaded right? curParent=VEF.Storyteller.RaidGroup curPathRelToParent=
+Could not load reference to Verse.ThingDef named Gore
+Could not load reference to Verse.ThingDef named Gore
+Could not load reference to Verse.ThingDef named Gore
+Could not load reference to Verse.ThingDef named Gore
+Could not load reference to Verse.ThingDef named Gore
+Could not load reference to Verse.ThingDef named Gore
+Could not find class MapModeFramework.MapModeComponent while resolving node li. Trying to use Verse.GameComponent instead. Full node: <li Class="MapModeFramework.MapModeComponent"><MMF.MapModeDefs><li>Default</li><li>Biome</li><li>Temperature</li><li>Elevation</li><li>Rainfall</li><li>GrowingPeriod</li><li>AnimalCommonality</li><li>PlantCommonality</li><li>Features</li><li>FactionTerritories</li></MMF.MapModeDefs></li>
+SaveableFromNode exception: System.ArgumentException: Can't load abstract class Verse.GameComponent
+[Ref 8FA4C5EC]
+  at Verse.ScribeExtractor.SaveableFromNode[T] (System.Xml.XmlNode subNode, System.Object[] ctorArgs) [0x00143] in <61e4173561894da49d210260257b5097>:0 
+Subnode:
+<li Class="MapModeFramework.MapModeComponent"><MMF.MapModeDefs><li>Default</li><li>Biome</li><li>Temperature</li><li>Elevation</li><li>Rainfall</li><li>GrowingPeriod</li><li>AnimalCommonality</li><li>PlantCommonality</li><li>Features</li><li>FactionTerritories</li></MMF.MapModeDefs></li>
+Could not find class FactionTerritories.GameComponent_FactionTerritories while resolving node li. Trying to use Verse.GameComponent instead. Full node: <li Class="FactionTerritories.GameComponent_FactionTerritories"><nextMapIncursionTickByKey><keys /><values /></nextMapIncursionTickByKey><processedMapEntryKeys><li>WorldObject_548</li></processedMapEntryKeys><lastNewMapScanTick>312961</lastNewMapScanTick><lastMapIncursionScanTick>312501</lastMapIncursionScanTick></li>
+SaveableFromNode exception: System.ArgumentException: Can't load abstract class Verse.GameComponent
+[Ref 8FA4C5EC] Duplicate stacktrace, see ref for original
+Subnode:
+<li Class="FactionTerritories.GameComponent_FactionTerritories"><nextMapIncursionTickByKey><keys /><values /></nextMapIncursionTickByKey><processedMapEntryKeys><li>WorldObject_548</li></processedMapEntryKeys><lastNewMapScanTick>312961</lastNewMapScanTick><lastMapIncursionScanTick>312501</lastMapIncursionScanTick></li>
+Could not find class FactionTerritories.Vassalise.VassalagePointsComponent while resolving node li. Trying to use Verse.GameComponent instead. Full node: <li Class="FactionTerritories.Vassalise.VassalagePointsComponent"><pointsByFactionId><keys /><values /></pointsByFactionId><lastTickProcessedByWorldId><keys /><values /></lastTickProcessedByWorldId><lastTickUpdated>300000</lastTickUpdated></li>
+SaveableFromNode exception: System.ArgumentException: Can't load abstract class Verse.GameComponent
+[Ref 8FA4C5EC] Duplicate stacktrace, see ref for original
+Subnode:
+<li Class="FactionTerritories.Vassalise.VassalagePointsComponent"><pointsByFactionId><keys /><values /></pointsByFactionId><lastTickProcessedByWorldId><keys /><values /></lastTickProcessedByWorldId><lastTickUpdated>300000</lastTickUpdated></li>
+Could not find class FactionTerritories.Vassalise.VassaliseComponent while resolving node li. Trying to use Verse.GameComponent instead. Full node: <li Class="FactionTerritories.Vassalise.VassaliseComponent"><pendingDecisionsByDestroyedSettlementId><keys /><values /></pendingDecisionsByDestroyedSettlementId></li>
+SaveableFromNode exception: System.ArgumentException: Can't load abstract class Verse.GameComponent
+[Ref 8FA4C5EC] Duplicate stacktrace, see ref for original
+Subnode:
+<li Class="FactionTerritories.Vassalise.VassaliseComponent"><pendingDecisionsByDestroyedSettlementId><keys /><values /></pendingDecisionsByDestroyedSettlementId></li>
+Could not find class FactionTerritories.Vassalise.VassalRoadProgressComponent while resolving node li. Trying to use Verse.GameComponent instead. Full node: <li Class="FactionTerritories.Vassalise.VassalRoadProgressComponent"><vassalRoadProjectsByFactionId><keys /><values /></vassalRoadProjectsByFactionId><vassalRoad_lastSyncTick>312765</vassalRoad_lastSyncTick></li>
+SaveableFromNode exception: System.ArgumentException: Can't load abstract class Verse.GameComponent
+[Ref 8FA4C5EC] Duplicate stacktrace, see ref for original
+Subnode:
+<li Class="FactionTerritories.Vassalise.VassalRoadProgressComponent"><vassalRoadProjectsByFactionId><keys /><values /></vassalRoadProjectsByFactionId><vassalRoad_lastSyncTick>312765</vassalRoad_lastSyncTick></li>
+Could not find class FactionTerritories.Invasions.Component while resolving node li. Trying to use Verse.GameComponent instead. Full node: <li Class="FactionTerritories.Invasions.Component"><nextInvasionTick>622501</nextInvasionTick></li>
+SaveableFromNode exception: System.ArgumentException: Can't load abstract class Verse.GameComponent
+[Ref 8FA4C5EC] Duplicate stacktrace, see ref for original
+Subnode:
+<li Class="FactionTerritories.Invasions.Component"><nextInvasionTick>622501</nextInvasionTick></li>
+Could not find class FactionTerritories.Expansion.Component while resolving node li. Trying to use Verse.GameComponent instead. Full node: <li Class="FactionTerritories.Expansion.Component"><nextExpansionTickByFactionId><keys><li>20</li><li>21</li><li>22</li><li>24</li><li>31</li><li>33</li><li>34</li></keys><values><li>1467501</li><li>1697501</li><li>1455001</li><li>615001</li><li>687501</li><li>1472501</li><li>1050001</li></values></nextExpansionTickByFactionId><lastScanTick>310001</lastScanTick></li>
+SaveableFromNode exception: System.ArgumentException: Can't load abstract class Verse.GameComponent
+[Ref 8FA4C5EC] Duplicate stacktrace, see ref for original
+Subnode:
+<li Class="FactionTerritories.Expansion.Component"><nextExpansionTickByFactionId><keys><li>20</li><li>21</li><li>22</li><li>24</li><li>31</li><li>33</li><li>34</li></keys><values><li>1467501</li><li>1697501</li><li>1455001</li><li>615001</li><li>687501</li><li>1472501</li><li>1050001</li></values></nextExpansionTickByFactionId><lastScanTick>310001</lastScanTick></li>
+Could not find class FishSeederGameComponent while resolving node li. Trying to use Verse.GameComponent instead. Full node: <li Class="FishSeederGameComponent" />
+SaveableFromNode exception: System.ArgumentException: Can't load abstract class Verse.GameComponent
+[Ref 8FA4C5EC] Duplicate stacktrace, see ref for original
+Subnode:
+<li Class="FishSeederGameComponent" />
+Could not find class FactionTerritories.worldcomponent while resolving node li. Trying to use RimWorld.Planet.WorldComponent instead. Full node: <li Class="FactionTerritories.worldcomponent" />
+SaveableFromNode exception: System.ArgumentException: Can't load abstract class RimWorld.Planet.WorldComponent
+[Ref 8FA4C5EC] Duplicate stacktrace, see ref for original
+Subnode:
+<li Class="FactionTerritories.worldcomponent" />
+Could not load reference to Verse.ThingDef named Gore
+Could not load reference to Verse.ThingDef named FertilizedFishRoe
+Could not load reference to Verse.ThingDef named Vin_CB
+Could not load reference to Verse.ThingDef named Vin_CBS
+Could not load reference to Verse.ThingDef named Vin_DLR
+Could not load reference to Verse.ThingDef named Vin_FR
+Could not load reference to Verse.ThingDef named Vin_GR
+Could not load reference to Verse.ThingDef named Vin_GRS
+Could not load reference to Verse.ThingDef named Vin_MR
+Could not load reference to Verse.ThingDef named Vin_MRS
+Could not load reference to Verse.ThingDef named Vin_PC
+Could not load reference to Verse.ThingDef named Vin_TLR
+Could not load reference to Verse.ThingDef named Vin_WP
+Could not load reference to Verse.ThingDef named Vin_WPS
+Could not load reference to Verse.ThingDef named FishBreeder
+Could not load reference to Verse.ThingDef named FishSeeder
 <color=#66ffb5>[MeleeAnim]</color> Loaded 0 animation renderers on map Map-0-PlayerHome
 checking editor settings...
 bodysizes genes are active
 [Yayo's Animation] GC : animation data count [0 -> 0]
 [AVP Xenomorphs] Xenomorph hive faction already exists.
 Unloading 1 Unused Serialized files (Serialized files now loaded: 10)
-Unloading 0 unused Assets to reduce memory usage. Loaded Objects now: 47189.
-Total: 374.900900 ms (FindLiveObjects: 2.047100 ms CreateObjectMapping: 1.180200 ms MarkObjects: 371.607700 ms  DeleteObjects: 0.065600 ms)
+Unloading 0 unused Assets to reduce memory usage. Loaded Objects now: 45450.
+Total: 381.802600 ms (FindLiveObjects: 1.873100 ms CreateObjectMapping: 1.414500 ms MarkObjects: 378.458800 ms  DeleteObjects: 0.055900 ms)
 
 [AVP Xenomorphs] Filth_XenomorphSlime: 16 texture variants loaded
 [AVP Xenomorphs] Filth_XenomorphBlood: 16 texture variants loaded
 [Covetheus] Filth_WalterBlood: 8 texture variants loaded
-[AVP Xenomorphs] [Spawn] Neomorph chestburster spawned from fingerspike (tick 312090)
+[AVP Xenomorphs] [Perf] DesignateMultiCell probe active; recent placement: 2 ms over 1 cells
+[AVP Xenomorphs] [Spawn] Neomorph chestburster spawned from fingerspike (tick 313090)
 Exception ticking Corpse_Fingerspike92663 (at (239, 0, 181)). Suppressing further errors. Exception: System.NullReferenceException: Object reference not set to an instance of an object
-[Ref 47408912]
-  at RRYautja.HediffComp_NeoSpawner.Notify_PawnDied (System.Nullable`1[T] dinfo, Verse.Hediff culprit) [0x000fb] in <5663de7388e64439b6fb680b8985fecc>:0 
-  at RRYautja.AvP_Corpse_TickRare_Gestation_Patch.Post_TickRare (Verse.Corpse& __instance) [0x0006f] in <5663de7388e64439b6fb680b8985fecc>:0 
+[Ref 54AAF4FE]
+  at RRYautja.HediffComp_NeoSpawner.Notify_PawnDied (System.Nullable`1[T] dinfo, Verse.Hediff culprit) [0x000fb] in <c39f0d5f50da4c6cacec10f41f89d0dc>:0 
+  at RRYautja.AvP_Corpse_TickRare_Gestation_Patch.Post_TickRare (Verse.Corpse& __instance) [0x0006f] in <c39f0d5f50da4c6cacec10f41f89d0dc>:0 
   at Verse.Corpse.TickRare () [0x000ea] in <61e4173561894da49d210260257b5097>:0 
     - POSTFIX com.ogliss.rimworld.mod.rryatuja: Void RRYautja.AvP_Corpse_TickRare_Gestation_Patch:Post_TickRare(Corpse& __instance)
   at Verse.Thing.DoTick () [0x00152] in <61e4173561894da49d210260257b5097>:0 
   at Verse.TickList.Tick () [0x00139] in <61e4173561894da49d210260257b5097>:0 
 Exception ticking Corpse_Fingerspike92655 (at (233, 0, 179)). Suppressing further errors. Exception: System.NullReferenceException: Object reference not set to an instance of an object
-[Ref 47408912] Duplicate stacktrace, see ref for original
-[AVP Xenomorphs] [Spawn] Neomorph chestburster spawned from fingerspike (tick 312340)
-[AVP Xenomorphs] [Spawn] Neomorph chestburster spawned from fingerspike (tick 312590)
-[AVP Xenomorphs] [Perf] DesignateMultiCell probe active; recent placement: 1 ms over 1 cells
-[AVP Xenomorphs] [Perf] Sampling report: 1800 samples, tick/frame avg 24 ms, worst 2059 ms, slow (>40ms) 15
-[AVP Xenomorphs] [Perf] Sampling report: 3600 samples, tick/frame avg 0 ms, worst 0 ms, slow (>40ms) 0
-[AVP Xenomorphs] [Perf] Sampling report: 5400 samples, tick/frame avg 15052 ms, worst 116516 ms, slow (>40ms) 8
-[AVP Xenomorphs] [Perf] Sampling report: 7200 samples, tick/frame avg 588 ms, worst 2757 ms, slow (>40ms) 78
-[AVP Xenomorphs] [Spawn] Neomorph chestburster spawned from fingerspike (tick 312840)
-[AVP Xenomorphs] [Perf] Sampling report: 9000 samples, tick/frame avg 561 ms, worst 747 ms, slow (>40ms) 81
-[AVP Xenomorphs] [Perf] Sampling report: 10800 samples, tick/frame avg 554 ms, worst 586 ms, slow (>40ms) 67
+[Ref 54AAF4FE] Duplicate stacktrace, see ref for original
+[AVP Xenomorphs] [Spawn] Neomorph chestburster spawned from fingerspike (tick 313340)
+[AVP Xenomorphs] [Spawn] Neomorph chestburster spawned from fingerspike (tick 313590)
+[AVP Xenomorphs] [Spawn] Neomorph chestburster spawned from fingerspike (tick 313840)
+[AVP Xenomorphs] [Spawn] Neomorph chestburster spawned from fingerspike (tick 314090)
+[AVP Xenomorphs] [Spawn] Neomorph chestburster spawned from fingerspike (tick 314340)
+[AVP Xenomorphs] [Spawn] Neomorph chestburster spawned from fingerspike (tick 314590)
+[AVP Xenomorphs] [Spawn] Neomorph chestburster spawned from fingerspike (tick 314840)
+[AVP Xenomorphs] [Spawn] Neomorph chestburster spawned from fingerspike (tick 315090)
+[AVP Xenomorphs] [Spawn] Neomorph chestburster spawned from fingerspike (tick 315340)
+[AVP Xenomorphs] [Spawn] Neomorph chestburster spawned from fingerspike (tick 315590)
+[AVP Xenomorphs] [Spawn] Neomorph chestburster spawned from fingerspike (tick 315840)
+[AVP Xenomorphs] [Spawn] Neomorph chestburster spawned from fingerspike (tick 316090)
+[AVP Xenomorphs] [Spawn] Neomorph chestburster spawned from fingerspike (tick 316340)
+[AVP Xenomorphs] [Spawn] Neomorph chestburster spawned from fingerspike (tick 316590)
+[AVP Xenomorphs] [Spawn] Neomorph chestburster spawned from fingerspike (tick 316840)
+[AVP Xenomorphs] [Spawn] Neomorph chestburster spawned from fingerspike (tick 317090)
+[AVP Xenomorphs] [Spawn] Neomorph chestburster spawned from fingerspike (tick 317340)
+[AVP Xenomorphs] [Spawn] Neomorph chestburster spawned from fingerspike (tick 317590)
+[AVP Xenomorphs] [Spawn] Neomorph chestburster spawned from fingerspike (tick 317840)
+[AVP Xenomorphs] [Spawn] Neomorph chestburster spawned from fingerspike (tick 318090)
+[AVP Xenomorphs] [Spawn] Neomorph chestburster spawned from fingerspike (tick 318340)
+[AVP Xenomorphs] [Spawn] Neomorph chestburster spawned from fingerspike (tick 318590)
+[AVP Xenomorphs] [Spawn] Neomorph chestburster spawned from fingerspike (tick 318840)
+[AVP Xenomorphs] [Spawn] Neomorph chestburster spawned from fingerspike (tick 319090)
+[AVP Xenomorphs] [Spawn] Neomorph chestburster spawned from fingerspike (tick 319340)
+[AVP Xenomorphs] [Spawn] Neomorph chestburster spawned from fingerspike (tick 319590)
+[AVP Xenomorphs] [Spawn] Neomorph chestburster spawned from fingerspike (tick 319840)
+[AVP Xenomorphs] [Spawn] Neomorph chestburster spawned from fingerspike (tick 320090)
+[AVP Xenomorphs] [Spawn] Neomorph chestburster spawned from fingerspike (tick 320340)
+[AVP Xenomorphs] [Spawn] Neomorph chestburster spawned from fingerspike (tick 320590)
+[AVP Xenomorphs] [Spawn] Neomorph chestburster spawned from fingerspike (tick 320840)
+[AVP Xenomorphs] [Spawn] Neomorph chestburster spawned from fingerspike (tick 321090)
+[AVP Xenomorphs] [Spawn] Neomorph chestburster spawned from fingerspike (tick 321340)
+[AVP Xenomorphs] [Spawn] Neomorph chestburster spawned from fingerspike (tick 321590)
+[AVP Xenomorphs] [Spawn] Neomorph chestburster spawned from fingerspike (tick 321840)
+[AVP Xenomorphs] [Spawn] Neomorph chestburster spawned from fingerspike (tick 322090)
+[AVP Xenomorphs] [Spawn] Neomorph chestburster spawned from fingerspike (tick 322340)
+[AVP Xenomorphs] [Spawn] Neomorph chestburster spawned from fingerspike (tick 322590)
+[AVP Xenomorphs] [Spawn] Neomorph chestburster spawned from fingerspike (tick 322840)
+[AVP Xenomorphs] [Spawn] Neomorph chestburster spawned from fingerspike (tick 323090)
+[AVP Xenomorphs] [Spawn] Neomorph chestburster spawned from fingerspike (tick 323340)
+[AVP Xenomorphs] [Spawn] Neomorph chestburster spawned from fingerspike (tick 323590)
+[AVP Xenomorphs] [Spawn] Neomorph chestburster spawned from fingerspike (tick 323840)
+[AVP Xenomorphs] [Perf] Sampling report: 1800 samples, tick/frame avg 2 ms, worst 5035 ms, slow (>40ms) 31
+[AVP Xenomorphs] [Perf] Top ticking components (sampled ms this window / calls):
+[AVP Xenomorphs] [Perf]      2184.0 ms  ( 1837 calls)  RimWorld.CompXenomorph_SpawnerLike
+[AVP Xenomorphs] [Perf]        62.3 ms  (132963 calls)  AM.Idle.IdleControllerComp
+[AVP Xenomorphs] [Perf]        13.2 ms  (132963 calls)  RimWorld.CompHoldingPlatformTarget
+[AVP Xenomorphs] [Perf]         6.6 ms  (33066 calls)  VEF.Abilities.CompAbilities
+[AVP Xenomorphs] [Perf]         6.4 ms  ( 1837 calls)  RimWorld.CompShield
+[AVP Xenomorphs] [Perf]         4.9 ms  ( 1837 calls)  AM.AnimationManager
+[AVP Xenomorphs] [Perf]         4.7 ms  (132963 calls)  Verse.CompAttachBase
+[AVP Xenomorphs] [Perf]         3.8 ms  ( 1837 calls)  Verse.FishShadowComponent
+[AVP Xenomorphs] [Perf]         3.4 ms  ( 1837 calls)  RimWorld.CompThrownFleckEmitter
+[AVP Xenomorphs] [Perf]         2.6 ms  (20207 calls)  RimWorld.CompWakeUpDormant
+[AVP Xenomorphs] [Perf]         2.6 ms  ( 1837 calls)  RimWorld.CompHiveConversionRadius
+[AVP Xenomorphs] [Perf]         1.4 ms  ( 1837 calls)  RimWorld.CompHiveCreep
+[AVP Xenomorphs] [Perf]         1.1 ms  ( 1837 calls)  RimWorld.CompTemperatureRuinable
+[AVP Xenomorphs] [Perf]         0.9 ms  (20207 calls)  RimWorld.CompCanBeDormant
+[AVP Xenomorphs] [Perf]         0.9 ms  ( 1837 calls)  RimWorld.CompHatcher
+[AVP Xenomorphs] [Spawn] Neomorph chestburster spawned from fingerspike (tick 324090)
+Error while killing Fingerspike91753 during phase 6: System.NullReferenceException: Object reference not set to an instance of an object
+[Ref A7094EAB]
+  at RRYautja.HediffComp_NeoSpawner.Notify_PawnDied (System.Nullable`1[T] dinfo, Verse.Hediff culprit) [0x000fb] in <c39f0d5f50da4c6cacec10f41f89d0dc>:0 
+  at Verse.HediffWithComps.Notify_PawnDied (System.Nullable`1[T] dinfo, Verse.Hediff culprit) [0x00024] in <61e4173561894da49d210260257b5097>:0 
+  at Verse.HediffSet.Notify_PawnDied (System.Nullable`1[T] dinfo, Verse.Hediff culprit) [0x0001c] in <61e4173561894da49d210260257b5097>:0 
+  at Verse.Pawn.Kill (System.Nullable`1[T] dinfo, Verse.Hediff exactCulprit) [0x00697] in <61e4173561894da49d210260257b5097>:0 
+    - PREFIX fuu.bloodanimations: Void BloodAnimations.Pawn_Kill:Kill(Pawn& __instance, Nullable`1 dinfo, Hediff exactCulprit)
+    - PREFIX OskarPotocki.VEF: Void VEF.Storyteller.VanillaExpandedFramework_Pawn_Kill_Patch:Prefix(Pawn __instance, Nullable`1 dinfo, Hediff exactCulprit)
+    - PREFIX OskarPotocki.VEF: Boolean VEF.Apparels.VanillaExpandedFramework_Pawn_Kill_Patch:Prefix(Pawn __instance, List`1& __state)
+    - PREFIX lucio.TrueVisualMisses: Boolean TrueVisualMisses.Patches.Harmony_Pawn_TestDummy:PreventDeath(Pawn __instance)
+    - PREFIX VanillaApparelExpanded.Accessories: Boolean VAE_Accessories.HarmonyPatches:BeltsOnDeath(Nullable`1 dinfo, Hediff exactCulprit, Pawn __instance)
+    - POSTFIX UnlimitedHugs.AllowTool: Void AllowTool.Patches.Pawn_Kill_Patch:UnforbidDraftedHuntBody(Pawn __instance, Nullable`1 dinfo)
+    - POSTFIX OskarPotocki.VEF: Void VEF.Pawns.VanillaExpandedFramework_Pawn_Kill:Postfix(Pawn __instance)
+    - POSTFIX OskarPotocki.VEF: Void VEF.Apparels.VanillaExpandedFramework_Pawn_Kill_Patch:Postfix(Pawn __instance, List`1 __state)
+[AVP Xenomorphs] [Spawn] Neomorph chestburster spawned from fingerspike (tick 324340)
+[AVP Xenomorphs] [Spawn] Neomorph chestburster spawned from fingerspike (tick 324590)
+[AVP Xenomorphs] [Spawn] Neomorph chestburster spawned from fingerspike (tick 324840)
+[AVP Xenomorphs] [Spawn] Neomorph chestburster spawned from fingerspike (tick 325090)
+[AVP Xenomorphs] [Spawn] Neomorph chestburster spawned from fingerspike (tick 325340)
+[AVP Xenomorphs] [Spawn] Neomorph chestburster spawned from fingerspike (tick 325590)
+[AVP Xenomorphs] [Spawn] Neomorph chestburster spawned from fingerspike (tick 325840)
+[AVP Xenomorphs] [Spawn] Neomorph chestburster spawned from fingerspike (tick 326090)
+[AVP Xenomorphs] [Spawn] Neomorph chestburster spawned from fingerspike (tick 326340)
+[AVP Xenomorphs] [Spawn] Neomorph chestburster spawned from fingerspike (tick 326590)
+[AVP Xenomorphs] [Spawn] Neomorph chestburster spawned from fingerspike (tick 326840)
+[AVP Xenomorphs] [Spawn] Neomorph chestburster spawned from fingerspike (tick 327090)
+[AVP Xenomorphs] [Spawn] Neomorph chestburster spawned from fingerspike (tick 327340)
+[AVP Xenomorphs] [Spawn] Neomorph chestburster spawned from fingerspike (tick 327590)
+[AVP Xenomorphs] [Spawn] Neomorph chestburster spawned from fingerspike (tick 327840)
+[AVP Xenomorphs] [Spawn] Neomorph chestburster spawned from fingerspike (tick 328090)
+[AVP Xenomorphs] [Spawn] Neomorph chestburster spawned from fingerspike (tick 328340)
+[AVP Xenomorphs] [Spawn] Neomorph chestburster spawned from fingerspike (tick 328590)
+[AVP Xenomorphs] [Spawn] Neomorph chestburster spawned from fingerspike (tick 328840)
+[AVP Xenomorphs] [Spawn] Neomorph chestburster spawned from fingerspike (tick 329090)
+[AVP Xenomorphs] [Spawn] Neomorph chestburster spawned from fingerspike (tick 329340)
+[AVP Xenomorphs] [Spawn] Neomorph chestburster spawned from fingerspike (tick 329590)
+[AVP Xenomorphs] [Spawn] Neomorph chestburster spawned from fingerspike (tick 329840)
+[AVP Xenomorphs] [Spawn] Neomorph chestburster spawned from fingerspike (tick 330090)
+[AVP Xenomorphs] [Spawn] Neomorph chestburster spawned from fingerspike (tick 330340)
+[AVP Xenomorphs] [Spawn] Neomorph chestburster spawned from fingerspike (tick 330590)
+[AVP Xenomorphs] [Spawn] Neomorph chestburster spawned from fingerspike (tick 330840)
+[AVP Xenomorphs] [Spawn] Neomorph chestburster spawned from fingerspike (tick 331090)
+[AVP Xenomorphs] [Spawn] Neomorph chestburster spawned from fingerspike (tick 331340)
+[AVP Xenomorphs] [Spawn] Neomorph chestburster spawned from fingerspike (tick 331590)
+[AVP Xenomorphs] [Spawn] Neomorph chestburster spawned from fingerspike (tick 331840)
+[AVP Xenomorphs] [Spawn] Neomorph chestburster spawned from fingerspike (tick 332090)
+[AVP Xenomorphs] [Spawn] Neomorph chestburster spawned from fingerspike (tick 332340)
+[AVP Xenomorphs] [Spawn] Neomorph chestburster spawned from fingerspike (tick 332590)
+[AVP Xenomorphs] [Spawn] Neomorph chestburster spawned from fingerspike (tick 332840)
+[AVP Xenomorphs] [Spawn] Neomorph chestburster spawned from fingerspike (tick 333090)
+[AVP Xenomorphs] [Spawn] Neomorph chestburster spawned from fingerspike (tick 333340)
+[AVP Xenomorphs] [Spawn] Neomorph chestburster spawned from fingerspike (tick 333590)
+[AVP Xenomorphs] [Spawn] Neomorph chestburster spawned from fingerspike (tick 333840)
+[AVP Xenomorphs] [Spawn] Neomorph chestburster spawned from fingerspike (tick 334090)
+[AVP Xenomorphs] [Spawn] Neomorph chestburster spawned from fingerspike (tick 334340)
+[AVP Xenomorphs] [Spawn] Neomorph chestburster spawned from fingerspike (tick 334590)
+[AVP Xenomorphs] [Spawn] Neomorph chestburster spawned from fingerspike (tick 334840)
+[AVP Xenomorphs] [Spawn] Neomorph chestburster spawned from fingerspike (tick 335090)
+[AVP Xenomorphs] [Spawn] Neomorph chestburster spawned from fingerspike (tick 335340)
+[AVP Xenomorphs] [Spawn] Neomorph chestburster spawned from fingerspike (tick 335590)
+[AVP Xenomorphs] [Spawn] Neomorph chestburster spawned from fingerspike (tick 335840)
+[AVP Xenomorphs] [Spawn] Neomorph chestburster spawned from fingerspike (tick 336090)
+[AVP Xenomorphs] [Spawn] Neomorph chestburster spawned from fingerspike (tick 336340)
+[AVP Xenomorphs] [Spawn] Neomorph chestburster spawned from fingerspike (tick 336590)
+[AVP Xenomorphs] [Spawn] Neomorph chestburster spawned from fingerspike (tick 336840)
+[AVP Xenomorphs] [Spawn] Neomorph chestburster spawned from fingerspike (tick 337090)
+[AVP Xenomorphs] [Spawn] Neomorph chestburster spawned from fingerspike (tick 337340)
+[AVP Xenomorphs] [Spawn] Neomorph chestburster spawned from fingerspike (tick 337590)
+[AVP Xenomorphs] [Spawn] Neomorph chestburster spawned from fingerspike (tick 337840)
+[AVP Xenomorphs] [Spawn] Neomorph chestburster spawned from fingerspike (tick 338090)
+[AVP Xenomorphs] [Spawn] Neomorph chestburster spawned from fingerspike (tick 338340)
+[AVP Xenomorphs] [Spawn] Neomorph chestburster spawned from fingerspike (tick 338590)
+[AVP Xenomorphs] [Spawn] Neomorph chestburster spawned from fingerspike (tick 338840)
+[AVP Xenomorphs] [Spawn] Neomorph chestburster spawned from fingerspike (tick 339090)
+[AVP Xenomorphs] [Spawn] Neomorph chestburster spawned from fingerspike (tick 339340)
+[AVP Xenomorphs] [Spawn] Neomorph chestburster spawned from fingerspike (tick 339590)
+[AVP Xenomorphs] [Spawn] Neomorph chestburster spawned from fingerspike (tick 339840)
+[AVP Xenomorphs] [Spawn] Neomorph chestburster spawned from fingerspike (tick 340090)
+[AVP Xenomorphs] [Spawn] Neomorph chestburster spawned from fingerspike (tick 340340)
+[AVP Xenomorphs] [Spawn] Neomorph chestburster spawned from fingerspike (tick 340590)
+[AVP Xenomorphs] [Spawn] Neomorph chestburster spawned from fingerspike (tick 340840)
+[AVP Xenomorphs] [Spawn] Neomorph chestburster spawned from fingerspike (tick 341090)
+[AVP Xenomorphs] [Spawn] Neomorph chestburster spawned from fingerspike (tick 341340)
+[AVP Xenomorphs] [Spawn] Neomorph chestburster spawned from fingerspike (tick 341590)
+[AVP Xenomorphs] [Spawn] Neomorph chestburster spawned from fingerspike (tick 341840)
+[AVP Xenomorphs] [Spawn] Neomorph chestburster spawned from fingerspike (tick 342090)
+[AVP Xenomorphs] [Spawn] Neomorph chestburster spawned from fingerspike (tick 342340)
+[AVP Xenomorphs] [Spawn] Neomorph chestburster spawned from fingerspike (tick 342590)
+[AVP Xenomorphs] [Spawn] Neomorph chestburster spawned from fingerspike (tick 342840)
+[AVP Xenomorphs] [Spawn] Neomorph chestburster spawned from fingerspike (tick 343090)
+[AVP Xenomorphs] [Spawn] Neomorph chestburster spawned from fingerspike (tick 343340)
+[AVP Xenomorphs] [Spawn] Neomorph chestburster spawned from fingerspike (tick 343590)
+[AVP Xenomorphs] [Spawn] Neomorph chestburster spawned from fingerspike (tick 343840)
+[AVP Xenomorphs] [Spawn] Neomorph chestburster spawned from fingerspike (tick 344090)
+[AVP Xenomorphs] [Spawn] Neomorph chestburster spawned from fingerspike (tick 344340)
+[AVP Xenomorphs] [Spawn] Neomorph chestburster spawned from fingerspike (tick 344590)
+[AVP Xenomorphs] [Spawn] Neomorph chestburster spawned from fingerspike (tick 344840)
+[AVP Xenomorphs] [Spawn] Neomorph chestburster spawned from fingerspike (tick 345090)
+[AVP Xenomorphs] [Spawn] Neomorph chestburster spawned from fingerspike (tick 345340)
+[AVP Xenomorphs] [Spawn] Neomorph chestburster spawned from fingerspike (tick 345590)
+[AVP Xenomorphs] [Spawn] Neomorph chestburster spawned from fingerspike (tick 345840)
+[AVP Xenomorphs] [Spawn] Neomorph chestburster spawned from fingerspike (tick 346090)
+AM.Events.AudioEvent must be instantiated using the ScriptableObject.CreateInstance method instead of new AudioEvent.
+AM.Events.CamShakeEvent must be instantiated using the ScriptableObject.CreateInstance method instead of new CamShakeEvent.
+AM.Events.ClashAudioEvent must be instantiated using the ScriptableObject.CreateInstance method instead of new ClashAudioEvent.
+AM.Events.DamageEffectEvent must be instantiated using the ScriptableObject.CreateInstance method instead of new DamageEffectEvent.
+AM.Events.DuelEvent must be instantiated using the ScriptableObject.CreateInstance method instead of new DuelEvent.
+AM.Events.GoreSplashEvent must be instantiated using the ScriptableObject.CreateInstance method instead of new GoreSplashEvent.
+AM.Events.KillPawnEvent must be instantiated using the ScriptableObject.CreateInstance method instead of new KillPawnEvent.
+AM.Events.MoteEvent must be instantiated using the ScriptableObject.CreateInstance method instead of new MoteEvent.
+AM.Events.PuntPawnEvent must be instantiated using the ScriptableObject.CreateInstance method instead of new PuntPawnEvent.
+AM.Events.TextMoteEvent must be instantiated using the ScriptableObject.CreateInstance method instead of new TextMoteEvent.
+AM.Events.KillPawnEvent must be instantiated using the ScriptableObject.CreateInstance method instead of new KillPawnEvent.
+[AVP Xenomorphs] [Perf] Sampling report: 3600 samples, tick/frame avg 1 ms, worst 15841 ms, slow (>40ms) 6
+[AVP Xenomorphs] [Perf] Top ticking components (sampled ms this window / calls):
+[AVP Xenomorphs] [Perf]       158.4 ms  (285778 calls)  AM.Idle.IdleControllerComp
+[AVP Xenomorphs] [Perf]        28.6 ms  (285778 calls)  RimWorld.CompHoldingPlatformTarget
+[AVP Xenomorphs] [Perf]        16.8 ms  ( 3712 calls)  AM.AnimationManager
+[AVP Xenomorphs] [Perf]        15.8 ms  (83490 calls)  VEF.Abilities.CompAbilities
+[AVP Xenomorphs] [Perf]        12.9 ms  ( 3712 calls)  RimWorld.CompXenomorph_SpawnerLike
+[AVP Xenomorphs] [Perf]        12.9 ms  ( 3712 calls)  RimWorld.CompShield
+[AVP Xenomorphs] [Perf]        10.0 ms  (285778 calls)  Verse.CompAttachBase
+[AVP Xenomorphs] [Perf]         7.3 ms  ( 3712 calls)  Verse.FishShadowComponent
+[AVP Xenomorphs] [Perf]         6.9 ms  ( 3712 calls)  RimWorld.CompThrownFleckEmitter
+[AVP Xenomorphs] [Perf]         6.2 ms  (41745 calls)  FacialAnimation.FacialAnimationControllerComp
+[AVP Xenomorphs] [Perf]         5.2 ms  ( 3712 calls)  RimWorld.CompHiveConversionRadius
+[AVP Xenomorphs] [Perf]         3.9 ms  (37139 calls)  RimWorld.CompWakeUpDormant
+[AVP Xenomorphs] [Perf]         3.2 ms  ( 3712 calls)  RimWorld.CompTemperatureRuinable
+[AVP Xenomorphs] [Perf]         3.0 ms  ( 3712 calls)  RimWorld.CompHiveCreep
+[AVP Xenomorphs] [Perf]         1.7 ms  ( 3712 calls)  RimWorld.CompHatcher
+[AVP Xenomorphs] [Spawn] Neomorph chestburster spawned from fingerspike (tick 346340)
+AM.Events.TextMoteEvent must be instantiated using the ScriptableObject.CreateInstance method instead of new TextMoteEvent.
+AM.Events.MoteEvent must be instantiated using the ScriptableObject.CreateInstance method instead of new MoteEvent.
+AM.Events.DamageEffectEvent must be instantiated using the ScriptableObject.CreateInstance method instead of new DamageEffectEvent.
+AM.Events.KillPawnEvent must be instantiated using the ScriptableObject.CreateInstance method instead of new KillPawnEvent.
+<color=#66ffb5>[MeleeAnim]</color> Chiyoko has bad job: AttackMelee. Cancelling animation.
+[AVP Xenomorphs] [Spawn] Neomorph chestburster spawned from fingerspike (tick 346590)
+[AVP Xenomorphs] [Spawn] Neomorph chestburster spawned from fingerspike (tick 346840)
+[AVP Xenomorphs] [Spawn] Neomorph chestburster spawned from fingerspike (tick 347090)
+[AVP Xenomorphs] [Spawn] Neomorph chestburster spawned from fingerspike (tick 347340)
+[AVP Xenomorphs] [Spawn] Neomorph chestburster spawned from fingerspike (tick 347590)
+[AVP Xenomorphs] [Spawn] Neomorph chestburster spawned from fingerspike (tick 347840)
+[AVP Xenomorphs] [Spawn] Neomorph chestburster spawned from fingerspike (tick 348090)
+[AVP Xenomorphs] [Spawn] Neomorph chestburster spawned from fingerspike (tick 348340)
+[AVP Xenomorphs] [Spawn] Neomorph chestburster spawned from fingerspike (tick 348590)
+[AVP Xenomorphs] [Spawn] Neomorph chestburster spawned from fingerspike (tick 348840)
+[AVP Xenomorphs] [Perf] Sampling report: 5400 samples, tick/frame avg 17 ms, worst 1367 ms, slow (>40ms) 4
+[AVP Xenomorphs] [Perf] Top ticking components (sampled ms this window / calls):
+[AVP Xenomorphs] [Perf]        18.1 ms  (33723 calls)  AM.Idle.IdleControllerComp
+[AVP Xenomorphs] [Perf]         6.1 ms  (33723 calls)  RimWorld.CompHoldingPlatformTarget
+[AVP Xenomorphs] [Perf]         4.2 ms  (  436 calls)  RimWorld.CompXenomorph_SpawnerLike
+[AVP Xenomorphs] [Perf]         2.7 ms  ( 9894 calls)  VEF.Abilities.CompAbilities
+[AVP Xenomorphs] [Perf]         2.4 ms  (  436 calls)  RimWorld.CompShield
+[AVP Xenomorphs] [Perf]         1.9 ms  (  436 calls)  RimWorld.CompThrownFleckEmitter
+[AVP Xenomorphs] [Perf]         1.7 ms  (  436 calls)  AM.AnimationManager
+[AVP Xenomorphs] [Perf]         1.4 ms  (  436 calls)  Verse.FishShadowComponent
+[AVP Xenomorphs] [Perf]         1.4 ms  (33723 calls)  Verse.CompAttachBase
+[AVP Xenomorphs] [Perf]         1.2 ms  (  436 calls)  RimWorld.CompHiveConversionRadius
+[AVP Xenomorphs] [Perf]         0.6 ms  (  436 calls)  RimWorld.CompHiveCreep
+[AVP Xenomorphs] [Perf]         0.5 ms  (  436 calls)  RimWorld.CompHatcher
+[AVP Xenomorphs] [Perf]         0.5 ms  (  436 calls)  RimWorld.CompTemperatureRuinable
+[AVP Xenomorphs] [Perf]         0.4 ms  (  872 calls)  RimWorld.CompSpawnerPawn
+[AVP Xenomorphs] [Perf]         0.4 ms  ( 4360 calls)  RimWorld.CompWakeUpDormant
+[AVP Xenomorphs] [Spawn] Neomorph chestburster spawned from fingerspike (tick 349090)
+[AVP Xenomorphs] [Spawn] Neomorph chestburster spawned from fingerspike (tick 349340)
+[AVP Xenomorphs] [Spawn] Neomorph chestburster spawned from fingerspike (tick 349590)
+[AVP Xenomorphs] [Spawn] Neomorph chestburster spawned from fingerspike (tick 349840)
+[AVP Xenomorphs] [Spawn] Neomorph chestburster spawned from fingerspike (tick 350090)
+[AVP Xenomorphs] [Spawn] Neomorph chestburster spawned from fingerspike (tick 350340)
+[AVP Xenomorphs] [Spawn] Neomorph chestburster spawned from fingerspike (tick 350590)
+[AVP Xenomorphs] [Spawn] Neomorph chestburster spawned from fingerspike (tick 350840)
+[AVP Xenomorphs] [Spawn] Neomorph chestburster spawned from fingerspike (tick 351090)
+[AVP Xenomorphs] [Spawn] Neomorph chestburster spawned from fingerspike (tick 351340)
+[AVP Xenomorphs] [Spawn] Neomorph chestburster spawned from fingerspike (tick 351590)
+[AVP Xenomorphs] [Spawn] Neomorph chestburster spawned from fingerspike (tick 351840)
+[AVP Xenomorphs] [Spawn] Neomorph chestburster spawned from fingerspike (tick 352090)
+[AVP Xenomorphs] [Spawn] Neomorph chestburster spawned from fingerspike (tick 352340)
+[AVP Xenomorphs] [Spawn] Neomorph chestburster spawned from fingerspike (tick 352590)
+[AVP Xenomorphs] [Spawn] Neomorph chestburster spawned from fingerspike (tick 352840)
+[AVP Xenomorphs] [Spawn] Neomorph chestburster spawned from fingerspike (tick 353090)
+[AVP Xenomorphs] [Spawn] Neomorph chestburster spawned from fingerspike (tick 353340)
+[AVP Xenomorphs] [Spawn] Neomorph chestburster spawned from fingerspike (tick 353590)
+[AVP Xenomorphs] [Spawn] Neomorph chestburster spawned from fingerspike (tick 353840)
+[AVP Xenomorphs] [Perf] Sampling report: 7200 samples, tick/frame avg 8 ms, worst 28 ms, slow (>40ms) 0
+[AVP Xenomorphs] [Perf] Top ticking components (sampled ms this window / calls):
+[AVP Xenomorphs] [Perf]        23.3 ms  (65452 calls)  AM.Idle.IdleControllerComp
+[AVP Xenomorphs] [Perf]         8.6 ms  (65452 calls)  RimWorld.CompHoldingPlatformTarget
+[AVP Xenomorphs] [Perf]         5.0 ms  (  854 calls)  RimWorld.CompXenomorph_SpawnerLike
+[AVP Xenomorphs] [Perf]         4.0 ms  (  854 calls)  RimWorld.CompShield
+[AVP Xenomorphs] [Perf]         4.0 ms  (17080 calls)  VEF.Abilities.CompAbilities
+[AVP Xenomorphs] [Perf]         2.5 ms  (  854 calls)  AM.AnimationManager
+[AVP Xenomorphs] [Perf]         2.4 ms  (  854 calls)  RimWorld.CompThrownFleckEmitter
+[AVP Xenomorphs] [Perf]         2.3 ms  (65452 calls)  Verse.CompAttachBase
+[AVP Xenomorphs] [Perf]         2.2 ms  (  854 calls)  Verse.FishShadowComponent
+[AVP Xenomorphs] [Perf]         1.7 ms  (  854 calls)  RimWorld.CompHiveConversionRadius
+[AVP Xenomorphs] [Perf]         1.1 ms  (10129 calls)  RimWorld.CompWakeUpDormant
+[AVP Xenomorphs] [Perf]         0.7 ms  (  854 calls)  RimWorld.CompHiveCreep
+[AVP Xenomorphs] [Perf]         0.7 ms  (  854 calls)  RimWorld.CompTemperatureRuinable
+[AVP Xenomorphs] [Perf]         0.6 ms  (  854 calls)  RimWorld.CompHatcher
+[AVP Xenomorphs] [Perf]         0.6 ms  ( 1708 calls)  RimWorld.CompSpawnerPawn
+[AVP Xenomorphs] [Spawn] Neomorph chestburster spawned from fingerspike (tick 354090)
+[AVP Xenomorphs] [Spawn] Neomorph chestburster spawned from fingerspike (tick 354340)
+[AVP Xenomorphs] [Spawn] Neomorph chestburster spawned from fingerspike (tick 354590)
+[AVP Xenomorphs] [Spawn] Neomorph chestburster spawned from fingerspike (tick 354840)
+[AVP Xenomorphs] [Spawn] Neomorph chestburster spawned from fingerspike (tick 355090)
+[AVP Xenomorphs] [Spawn] Neomorph chestburster spawned from fingerspike (tick 355340)
+[AVP Xenomorphs] [Spawn] Neomorph chestburster spawned from fingerspike (tick 355590)
+[AVP Xenomorphs] [Spawn] Neomorph chestburster spawned from fingerspike (tick 355840)
+[AVP Xenomorphs] [Spawn] Neomorph chestburster spawned from fingerspike (tick 356090)
+[AVP Xenomorphs] [Spawn] Neomorph chestburster spawned from fingerspike (tick 356340)
+[AVP Xenomorphs] [Perf] Sampling report: 9000 samples, tick/frame avg 17 ms, worst 3372 ms, slow (>40ms) 1
+[AVP Xenomorphs] [Perf] Top ticking components (sampled ms this window / calls):
+[AVP Xenomorphs] [Perf]        13.3 ms  (32390 calls)  AM.Idle.IdleControllerComp
+[AVP Xenomorphs] [Perf]         5.1 ms  (32390 calls)  RimWorld.CompHoldingPlatformTarget
+[AVP Xenomorphs] [Perf]         4.7 ms  ( 4572 calls)  FacialAnimation.FacialAnimationControllerComp
+[AVP Xenomorphs] [Perf]         3.6 ms  (  426 calls)  RimWorld.CompXenomorph_SpawnerLike
+[AVP Xenomorphs] [Perf]         2.4 ms  (  426 calls)  RimWorld.CompShield
+[AVP Xenomorphs] [Perf]         2.4 ms  ( 9144 calls)  VEF.Abilities.CompAbilities
+[AVP Xenomorphs] [Perf]         1.6 ms  (  426 calls)  RimWorld.CompThrownFleckEmitter
+[AVP Xenomorphs] [Perf]         1.4 ms  (  426 calls)  AM.AnimationManager
+[AVP Xenomorphs] [Perf]         1.3 ms  (  426 calls)  Verse.FishShadowComponent
+[AVP Xenomorphs] [Perf]         1.1 ms  (32390 calls)  Verse.CompAttachBase
+[AVP Xenomorphs] [Perf]         1.1 ms  (  426 calls)  RimWorld.CompHiveConversionRadius
+[AVP Xenomorphs] [Perf]         0.8 ms  ( 5240 calls)  RimWorld.CompWakeUpDormant
+[AVP Xenomorphs] [Perf]         0.5 ms  (  426 calls)  RimWorld.CompHiveCreep
+[AVP Xenomorphs] [Perf]         0.4 ms  (  426 calls)  RimWorld.CompTemperatureRuinable
+[AVP Xenomorphs] [Perf]         0.4 ms  (  426 calls)  RimWorld.CompHatcher
+[AVP Xenomorphs] [Spawn] Neomorph chestburster spawned from fingerspike (tick 356590)
+[AVP Xenomorphs] [Spawn] Neomorph chestburster spawned from fingerspike (tick 356840)
+[AVP Xenomorphs] [Spawn] Neomorph chestburster spawned from fingerspike (tick 357090)
+[AVP Xenomorphs] [Spawn] Neomorph chestburster spawned from fingerspike (tick 357340)
+[AVP Xenomorphs] [Spawn] Neomorph chestburster spawned from fingerspike (tick 357590)
+[AVP Xenomorphs] [Spawn] Neomorph chestburster spawned from fingerspike (tick 357840)
+[AVP Xenomorphs] [Spawn] Neomorph chestburster spawned from fingerspike (tick 358090)
+[AVP Xenomorphs] [Spawn] Neomorph chestburster spawned from fingerspike (tick 358340)
+[AVP Xenomorphs] [Perf] Sampling report: 10800 samples, tick/frame avg 22 ms, worst 18423 ms, slow (>40ms) 2
+[AVP Xenomorphs] [Perf] Top ticking components (sampled ms this window / calls):
+[AVP Xenomorphs] [Perf]         9.6 ms  (24568 calls)  AM.Idle.IdleControllerComp
+[AVP Xenomorphs] [Perf]         3.6 ms  (24568 calls)  RimWorld.CompHoldingPlatformTarget
+[AVP Xenomorphs] [Perf]         2.4 ms  (  332 calls)  RimWorld.CompXenomorph_SpawnerLike
+[AVP Xenomorphs] [Perf]         1.8 ms  ( 7304 calls)  VEF.Abilities.CompAbilities
+[AVP Xenomorphs] [Perf]         1.6 ms  (  332 calls)  RimWorld.CompShield
+[AVP Xenomorphs] [Perf]         1.1 ms  (  332 calls)  RimWorld.CompThrownFleckEmitter
+[AVP Xenomorphs] [Perf]         1.1 ms  (  332 calls)  AM.AnimationManager
+[AVP Xenomorphs] [Perf]         0.9 ms  (  332 calls)  Verse.FishShadowComponent
+[AVP Xenomorphs] [Perf]         0.9 ms  (24568 calls)  Verse.CompAttachBase
+[AVP Xenomorphs] [Perf]         0.8 ms  (  332 calls)  RimWorld.CompHiveConversionRadius
+[AVP Xenomorphs] [Perf]         0.4 ms  ( 3320 calls)  RimWorld.CompWakeUpDormant
+[AVP Xenomorphs] [Perf]         0.3 ms  (  332 calls)  RimWorld.CompTemperatureRuinable
+[AVP Xenomorphs] [Perf]         0.3 ms  (  332 calls)  RimWorld.CompHatcher
+[AVP Xenomorphs] [Perf]         0.3 ms  (  332 calls)  RimWorld.CompHiveCreep
+[AVP Xenomorphs] [Perf]         0.2 ms  (  664 calls)  RimWorld.CompSpawnerPawn
+[AVP Xenomorphs] [Spawn] Neomorph chestburster spawned from fingerspike (tick 358590)
+[AVP Xenomorphs] [Spawn] Neomorph chestburster spawned from fingerspike (tick 358840)
+[AVP Xenomorphs] [Spawn] Neomorph chestburster spawned from fingerspike (tick 359090)
+[AVP Xenomorphs] [Spawn] Neomorph chestburster spawned from fingerspike (tick 359340)
+[AVP Xenomorphs] [Spawn] Neomorph chestburster spawned from fingerspike (tick 359590)
+[AVP Xenomorphs] [Spawn] Neomorph chestburster spawned from fingerspike (tick 359840)
+Error in FloatMenuWorker FloatMenuOptionProvider_CarryToBioReactor: System.NullReferenceException: Object reference not set to an instance of an object
+[Ref C10C709C]
+  at BioReactor.Building_BioReactor.FindBioReactorFor (Verse.Pawn p, Verse.Pawn traveler, System.Boolean& reactorExists, System.Boolean ignoreOtherReservations) [0x00044] in <5274e01660a042ce8bca0c976066f3b1>:0 
+  at BioReactor.FloatMenuOptionProvider_CarryToBioReactor.GetSingleOptionFor (Verse.Pawn clickedPawn, RimWorld.FloatMenuContext context) [0x00026] in <5274e01660a042ce8bca0c976066f3b1>:0 
+  at RimWorld.FloatMenuOptionProvider+<GetOptionsFor>d__23.MoveNext () [0x0001e] in <61e4173561894da49d210260257b5097>:0 
+  at RimWorld.FloatMenuMakerMap.GetProviderOptions (RimWorld.FloatMenuContext context, System.Collections.Generic.List`1[T] options) [0x0017b] in <61e4173561894da49d210260257b5097>:0 
+Error in FloatMenuWorker FloatMenuOptionProvider_CarryToBioReactor: System.NullReferenceException: Object reference not set to an instance of an object
+[Ref C10C709C] Duplicate stacktrace, see ref for original
+Error in FloatMenuWorker FloatMenuOptionProvider_CarryToBioReactor: System.NullReferenceException: Object reference not set to an instance of an object
+[Ref C10C709C] Duplicate stacktrace, see ref for original
+Error in FloatMenuWorker FloatMenuOptionProvider_CarryToBioReactor: System.NullReferenceException: Object reference not set to an instance of an object
+[Ref C10C709C] Duplicate stacktrace, see ref for original
+Error in FloatMenuWorker FloatMenuOptionProvider_CarryToBioReactor: System.NullReferenceException: Object reference not set to an instance of an object
+[Ref C10C709C] Duplicate stacktrace, see ref for original
+Error in FloatMenuWorker FloatMenuOptionProvider_CarryToBioReactor: System.NullReferenceException: Object reference not set to an instance of an object
+[Ref C10C709C] Duplicate stacktrace, see ref for original
+Error in FloatMenuWorker FloatMenuOptionProvider_CarryToBioReactor: System.NullReferenceException: Object reference not set to an instance of an object
+[Ref C10C709C] Duplicate stacktrace, see ref for original
+Error in FloatMenuWorker FloatMenuOptionProvider_CarryToBioReactor: System.NullReferenceException: Object reference not set to an instance of an object
+[Ref C10C709C] Duplicate stacktrace, see ref for original
+Error in FloatMenuWorker FloatMenuOptionProvider_CarryToBioReactor: System.NullReferenceException: Object reference not set to an instance of an object
+[Ref C10C709C] Duplicate stacktrace, see ref for original
+Error in FloatMenuWorker FloatMenuOptionProvider_CarryToBioReactor: System.NullReferenceException: Object reference not set to an instance of an object
+[Ref C10C709C] Duplicate stacktrace, see ref for original
+Error in FloatMenuWorker FloatMenuOptionProvider_CarryToBioReactor: System.NullReferenceException: Object reference not set to an instance of an object
+[Ref C10C709C] Duplicate stacktrace, see ref for original
+Error in FloatMenuWorker FloatMenuOptionProvider_CarryToBioReactor: System.NullReferenceException: Object reference not set to an instance of an object
+[Ref C10C709C] Duplicate stacktrace, see ref for original
+Error in FloatMenuWorker FloatMenuOptionProvider_CarryToBioReactor: System.NullReferenceException: Object reference not set to an instance of an object
+[Ref C10C709C] Duplicate stacktrace, see ref for original
+Error in FloatMenuWorker FloatMenuOptionProvider_CarryToBioReactor: System.NullReferenceException: Object reference not set to an instance of an object
+[Ref C10C709C] Duplicate stacktrace, see ref for original
+Error in FloatMenuWorker FloatMenuOptionProvider_CarryToBioReactor: System.NullReferenceException: Object reference not set to an instance of an object
+[Ref C10C709C] Duplicate stacktrace, see ref for original
+Error in FloatMenuWorker FloatMenuOptionProvider_CarryToBioReactor: System.NullReferenceException: Object reference not set to an instance of an object
+[Ref C10C709C] Duplicate stacktrace, see ref for original
+Error in FloatMenuWorker FloatMenuOptionProvider_CarryToBioReactor: System.NullReferenceException: Object reference not set to an instance of an object
+[Ref C10C709C] Duplicate stacktrace, see ref for original
+Error in FloatMenuWorker FloatMenuOptionProvider_CarryToBioReactor: System.NullReferenceException: Object reference not set to an instance of an object
+[Ref C10C709C] Duplicate stacktrace, see ref for original
+Error in FloatMenuWorker FloatMenuOptionProvider_CarryToBioReactor: System.NullReferenceException: Object reference not set to an instance of an object
+[Ref C10C709C] Duplicate stacktrace, see ref for original
+Error in FloatMenuWorker FloatMenuOptionProvider_CarryToBioReactor: System.NullReferenceException: Object reference not set to an instance of an object
+[Ref C10C709C] Duplicate stacktrace, see ref for original
+Error in FloatMenuWorker FloatMenuOptionProvider_CarryToBioReactor: System.NullReferenceException: Object reference not set to an instance of an object
+[Ref C10C709C] Duplicate stacktrace, see ref for original
+Error in FloatMenuWorker FloatMenuOptionProvider_CarryToBioReactor: System.NullReferenceException: Object reference not set to an instance of an object
+[Ref C10C709C] Duplicate stacktrace, see ref for original
+Error in FloatMenuWorker FloatMenuOptionProvider_CarryToBioReactor: System.NullReferenceException: Object reference not set to an instance of an object
+[Ref C10C709C] Duplicate stacktrace, see ref for original
+Error in FloatMenuWorker FloatMenuOptionProvider_CarryToBioReactor: System.NullReferenceException: Object reference not set to an instance of an object
+[Ref C10C709C] Duplicate stacktrace, see ref for original
+Error in FloatMenuWorker FloatMenuOptionProvider_CarryToBioReactor: System.NullReferenceException: Object reference not set to an instance of an object
+[Ref C10C709C] Duplicate stacktrace, see ref for original
+Error in FloatMenuWorker FloatMenuOptionProvider_CarryToBioReactor: System.NullReferenceException: Object reference not set to an instance of an object
+[Ref C10C709C] Duplicate stacktrace, see ref for original
+Error in FloatMenuWorker FloatMenuOptionProvider_CarryToBioReactor: System.NullReferenceException: Object reference not set to an instance of an object
+[Ref C10C709C] Duplicate stacktrace, see ref for original
+Error in FloatMenuWorker FloatMenuOptionProvider_CarryToBioReactor: System.NullReferenceException: Object reference not set to an instance of an object
+[Ref C10C709C] Duplicate stacktrace, see ref for original
+Error in FloatMenuWorker FloatMenuOptionProvider_CarryToBioReactor: System.NullReferenceException: Object reference not set to an instance of an object
+[Ref C10C709C] Duplicate stacktrace, see ref for original
+Error in FloatMenuWorker FloatMenuOptionProvider_CarryToBioReactor: System.NullReferenceException: Object reference not set to an instance of an object
+[Ref C10C709C] Duplicate stacktrace, see ref for original
+Error in FloatMenuWorker FloatMenuOptionProvider_CarryToBioReactor: System.NullReferenceException: Object reference not set to an instance of an object
+[Ref C10C709C] Duplicate stacktrace, see ref for original
+Error in FloatMenuWorker FloatMenuOptionProvider_CarryToBioReactor: System.NullReferenceException: Object reference not set to an instance of an object
+[Ref C10C709C] Duplicate stacktrace, see ref for original
+Error in FloatMenuWorker FloatMenuOptionProvider_CarryToBioReactor: System.NullReferenceException: Object reference not set to an instance of an object
+[Ref C10C709C] Duplicate stacktrace, see ref for original
+[Yayo's Animation] GC : animation data count [100 -> 52]
+[AVP Xenomorphs] [Spawn] Neomorph chestburster spawned from fingerspike (tick 360090)
+[AVP Xenomorphs] [Spawn] Neomorph chestburster spawned from fingerspike (tick 360340)
+[AVP Xenomorphs] [Spawn] Neomorph chestburster spawned from fingerspike (tick 360590)
+[AVP Xenomorphs] [Spawn] Neomorph chestburster spawned from fingerspike (tick 360840)
+[AVP Xenomorphs] [Spawn] Neomorph chestburster spawned from fingerspike (tick 361090)
+[AVP Xenomorphs] [Spawn] Neomorph chestburster spawned from fingerspike (tick 361340)
+[AVP Xenomorphs] [Perf] Sampling report: 12600 samples, tick/frame avg 15 ms, worst 7333 ms, slow (>40ms) 2
+[AVP Xenomorphs] [Perf] Top ticking components (sampled ms this window / calls):
+[AVP Xenomorphs] [Perf]        17.2 ms  (36284 calls)  AM.Idle.IdleControllerComp
+[AVP Xenomorphs] [Perf]        12.0 ms  ( 6296 calls)  FacialAnimation.FacialAnimationControllerComp
+[AVP Xenomorphs] [Perf]         5.6 ms  (36284 calls)  RimWorld.CompHoldingPlatformTarget
+[AVP Xenomorphs] [Perf]         3.5 ms  (  476 calls)  RimWorld.CompXenomorph_SpawnerLike
+[AVP Xenomorphs] [Perf]         3.1 ms  (12592 calls)  VEF.Abilities.CompAbilities
+[AVP Xenomorphs] [Perf]         2.3 ms  (  476 calls)  RimWorld.CompShield
+[AVP Xenomorphs] [Perf]         1.5 ms  (  476 calls)  AM.AnimationManager
+[AVP Xenomorphs] [Perf]         1.5 ms  (  476 calls)  RimWorld.CompThrownFleckEmitter
+[AVP Xenomorphs] [Perf]         1.4 ms  (36284 calls)  Verse.CompAttachBase
+[AVP Xenomorphs] [Perf]         1.3 ms  (  476 calls)  Verse.FishShadowComponent
+[AVP Xenomorphs] [Perf]         1.2 ms  (  476 calls)  VanillaMemesExpanded.MapComponent_JunkTracker
+[AVP Xenomorphs] [Perf]         1.1 ms  (  476 calls)  RimWorld.CompHiveConversionRadius
+[AVP Xenomorphs] [Perf]         0.8 ms  ( 1904 calls)  RimWorld.CompSpawner
+[AVP Xenomorphs] [Perf]         0.6 ms  (  476 calls)  RimWorld.CompHiveCreep
+[AVP Xenomorphs] [Perf]         0.4 ms  (  476 calls)  RimWorld.CompTemperatureRuinable
+[AVP Xenomorphs] [Spawn] Neomorph chestburster spawned from fingerspike (tick 361590)
+[AVP Xenomorphs] [Spawn] Neomorph chestburster spawned from fingerspike (tick 361840)
+[AVP Xenomorphs] [Spawn] Neomorph chestburster spawned from fingerspike (tick 362090)
+[AVP Xenomorphs] [Spawn] Neomorph chestburster spawned from fingerspike (tick 362340)
+[AVP Xenomorphs] [Spawn] Neomorph chestburster spawned from fingerspike (tick 362590)
+[AVP Xenomorphs] [Spawn] Neomorph chestburster spawned from fingerspike (tick 362840)
+[AVP Xenomorphs] [Spawn] Neomorph chestburster spawned from fingerspike (tick 363090)
+[AVP Xenomorphs] [Spawn] Neomorph chestburster spawned from fingerspike (tick 363340)
+[AVP Xenomorphs] [Spawn] Neomorph chestburster spawned from fingerspike (tick 363590)
+[AVP Xenomorphs] [Spawn] Neomorph chestburster spawned from fingerspike (tick 363840)
+[AVP Xenomorphs] [Spawn] Neomorph chestburster spawned from fingerspike (tick 364090)
+[AVP Xenomorphs] [Spawn] Neomorph chestburster spawned from fingerspike (tick 364340)
+[AVP Xenomorphs] [Spawn] Neomorph chestburster spawned from fingerspike (tick 364590)
+[AVP Xenomorphs] [Spawn] Neomorph chestburster spawned from fingerspike (tick 364840)
+[AVP Xenomorphs] [Spawn] Neomorph chestburster spawned from fingerspike (tick 365090)
+[AVP Xenomorphs] [Spawn] Neomorph chestburster spawned from fingerspike (tick 365340)
+[AVP Xenomorphs] [Spawn] Neomorph chestburster spawned from fingerspike (tick 365590)
+[AVP Xenomorphs] [Spawn] Neomorph chestburster spawned from fingerspike (tick 365840)
+[AVP Xenomorphs] [Spawn] Neomorph chestburster spawned from fingerspike (tick 366090)
+[AVP Xenomorphs] [Spawn] Neomorph chestburster spawned from fingerspike (tick 366340)
+[AVP Xenomorphs] [Spawn] Neomorph chestburster spawned from fingerspike (tick 366590)
+[AVP Xenomorphs] [Spawn] Neomorph chestburster spawned from fingerspike (tick 366840)
+[AVP Xenomorphs] [Spawn] Neomorph chestburster spawned from fingerspike (tick 367090)
+[AVP Xenomorphs] [Spawn] Neomorph chestburster spawned from fingerspike (tick 367340)
+[AVP Xenomorphs] [Spawn] Neomorph chestburster spawned from fingerspike (tick 367590)
+[AVP Xenomorphs] [Spawn] Neomorph chestburster spawned from fingerspike (tick 367840)
+[AVP Xenomorphs] [Spawn] Neomorph chestburster spawned from fingerspike (tick 368090)
+[AVP Xenomorphs] [Spawn] Neomorph chestburster spawned from fingerspike (tick 368340)
+[AVP Xenomorphs] [Spawn] Neomorph chestburster spawned from fingerspike (tick 368590)
+[AVP Xenomorphs] [Spawn] Neomorph chestburster spawned from fingerspike (tick 368840)
+[AVP Xenomorphs] [Spawn] Neomorph chestburster spawned from fingerspike (tick 369090)
+[AVP Xenomorphs] [Spawn] Neomorph chestburster spawned from fingerspike (tick 369340)
+[AVP Xenomorphs] [Spawn] Neomorph chestburster spawned from fingerspike (tick 369590)
+[AVP Xenomorphs] [Spawn] Neomorph chestburster spawned from fingerspike (tick 369840)
+[AVP Xenomorphs] [Spawn] Neomorph chestburster spawned from fingerspike (tick 370090)
+[AVP Xenomorphs] [Spawn] Neomorph chestburster spawned from fingerspike (tick 370340)
+[AVP Xenomorphs] [Spawn] Neomorph chestburster spawned from fingerspike (tick 370590)
+[AVP Xenomorphs] [Spawn] Neomorph chestburster spawned from fingerspike (tick 370840)
+[AVP Xenomorphs] [Spawn] Neomorph chestburster spawned from fingerspike (tick 371090)
+[AVP Xenomorphs] [Spawn] Neomorph chestburster spawned from fingerspike (tick 371340)
+[AVP Xenomorphs] [Spawn] Neomorph chestburster spawned from fingerspike (tick 371590)
+[AVP Xenomorphs] [Spawn] Neomorph chestburster spawned from fingerspike (tick 371840)
+[AVP Xenomorphs] [Spawn] Neomorph chestburster spawned from fingerspike (tick 372090)
+[AVP Xenomorphs] [Spawn] Neomorph chestburster spawned from fingerspike (tick 372340)
+[AVP Xenomorphs] [Spawn] Neomorph chestburster spawned from fingerspike (tick 372590)
+[AVP Xenomorphs] [Spawn] Neomorph chestburster spawned from fingerspike (tick 372840)
+[AVP Xenomorphs] [Spawn] Neomorph chestburster spawned from fingerspike (tick 373090)
+[AVP Xenomorphs] [Spawn] Neomorph chestburster spawned from fingerspike (tick 373340)
+[AVP Xenomorphs] [Spawn] Neomorph chestburster spawned from fingerspike (tick 373590)
+[AVP Xenomorphs] [Spawn] Neomorph chestburster spawned from fingerspike (tick 373840)
+[AVP Xenomorphs] [Spawn] Neomorph chestburster spawned from fingerspike (tick 374090)
+[AVP Xenomorphs] [Spawn] Neomorph chestburster spawned from fingerspike (tick 374340)
+[AVP Xenomorphs] [Spawn] Neomorph chestburster spawned from fingerspike (tick 374590)
+[AVP Xenomorphs] [Spawn] Neomorph chestburster spawned from fingerspike (tick 374840)
+[AVP Xenomorphs] [Spawn] Neomorph chestburster spawned from fingerspike (tick 375090)
+[AVP Xenomorphs] [Spawn] Neomorph chestburster spawned from fingerspike (tick 375340)
+[AVP Xenomorphs] [Spawn] Neomorph chestburster spawned from fingerspike (tick 375590)
+[AVP Xenomorphs] [Spawn] Neomorph chestburster spawned from fingerspike (tick 375840)
+[AVP Xenomorphs] [Spawn] Neomorph chestburster spawned from fingerspike (tick 376090)
+[AVP Xenomorphs] [Spawn] Neomorph chestburster spawned from fingerspike (tick 376340)
+[AVP Xenomorphs] [Spawn] Neomorph chestburster spawned from fingerspike (tick 376590)
+[AVP Xenomorphs] [Spawn] Neomorph chestburster spawned from fingerspike (tick 376840)
+[AVP Xenomorphs] [Spawn] Neomorph chestburster spawned from fingerspike (tick 377090)
+[AVP Xenomorphs] [Spawn] Neomorph chestburster spawned from fingerspike (tick 377340)
+[AVP Xenomorphs] [Spawn] Neomorph chestburster spawned from fingerspike (tick 377590)
+[AVP Xenomorphs] [Spawn] Neomorph chestburster spawned from fingerspike (tick 377840)
+[AVP Xenomorphs] [Spawn] Neomorph chestburster spawned from fingerspike (tick 378090)
+[AVP Xenomorphs] [Spawn] Neomorph chestburster spawned from fingerspike (tick 378340)
+[AVP Xenomorphs] [Spawn] Neomorph chestburster spawned from fingerspike (tick 378590)
+[AVP Xenomorphs] [Spawn] Neomorph chestburster spawned from fingerspike (tick 378840)
+[AVP Xenomorphs] [Spawn] Neomorph chestburster spawned from fingerspike (tick 379090)
+[AVP Xenomorphs] [Spawn] Neomorph chestburster spawned from fingerspike (tick 379340)
+[AVP Xenomorphs] [Spawn] Neomorph chestburster spawned from fingerspike (tick 379590)
+[AVP Xenomorphs] [Spawn] Neomorph chestburster spawned from fingerspike (tick 379840)
+[AVP Xenomorphs] [Spawn] Neomorph chestburster spawned from fingerspike (tick 380090)
+[AVP Xenomorphs] [Spawn] Neomorph chestburster spawned from fingerspike (tick 380340)
+[AVP Xenomorphs] [Spawn] Neomorph chestburster spawned from fingerspike (tick 380590)
+[AVP Xenomorphs] [Spawn] Neomorph chestburster spawned from fingerspike (tick 380840)
+[AVP Xenomorphs] [Spawn] Neomorph chestburster spawned from fingerspike (tick 381090)
+[AVP Xenomorphs] [Spawn] Neomorph chestburster spawned from fingerspike (tick 381340)
+[AVP Xenomorphs] [Spawn] Neomorph chestburster spawned from fingerspike (tick 381590)
+[AVP Xenomorphs] [Perf] Sampling report: 14400 samples, tick/frame avg 1 ms, worst 1053 ms, slow (>40ms) 1
+[AVP Xenomorphs] [Perf] Top ticking components (sampled ms this window / calls):
+[AVP Xenomorphs] [Perf]       123.2 ms  (239424 calls)  AM.Idle.IdleControllerComp
+[AVP Xenomorphs] [Perf]        24.5 ms  (239424 calls)  RimWorld.CompHoldingPlatformTarget
+[AVP Xenomorphs] [Perf]        14.9 ms  (77716 calls)  VEF.Abilities.CompAbilities
+[AVP Xenomorphs] [Perf]        13.1 ms  ( 3376 calls)  RimWorld.CompXenomorph_SpawnerLike
+[AVP Xenomorphs] [Perf]        12.1 ms  ( 3376 calls)  RimWorld.CompShield
+[AVP Xenomorphs] [Perf]        10.8 ms  ( 3376 calls)  AM.AnimationManager
+[AVP Xenomorphs] [Perf]         8.1 ms  (239424 calls)  Verse.CompAttachBase
+[AVP Xenomorphs] [Perf]         6.8 ms  ( 3376 calls)  Verse.FishShadowComponent
+[AVP Xenomorphs] [Perf]         6.3 ms  ( 3376 calls)  RimWorld.CompThrownFleckEmitter
+[AVP Xenomorphs] [Perf]         5.3 ms  ( 3376 calls)  RimWorld.CompHiveConversionRadius
+[AVP Xenomorphs] [Perf]         3.9 ms  (32903 calls)  RimWorld.CompWakeUpDormant
+[AVP Xenomorphs] [Perf]         2.9 ms  ( 3376 calls)  RimWorld.CompHiveCreep
+[AVP Xenomorphs] [Perf]         1.8 ms  (38858 calls)  FacialAnimation.FacialAnimationControllerComp
+[AVP Xenomorphs] [Perf]         1.7 ms  (13504 calls)  RimWorld.CompSpawner
+[AVP Xenomorphs] [Perf]         1.5 ms  ( 6752 calls)  RimWorld.CompSpawnerPawn
+[AVP Xenomorphs] [Spawn] Neomorph chestburster spawned from fingerspike (tick 381840)
+[AVP Xenomorphs] [Spawn] Neomorph chestburster spawned from fingerspike (tick 382090)
+[AVP Xenomorphs] [Spawn] Neomorph chestburster spawned from fingerspike (tick 382340)
+[AVP Xenomorphs] [Spawn] Neomorph chestburster spawned from fingerspike (tick 382590)
+[AVP Xenomorphs] [Spawn] Neomorph chestburster spawned from fingerspike (tick 382840)
+[AVP Xenomorphs] [Spawn] Neomorph chestburster spawned from fingerspike (tick 383090)
+[AVP Xenomorphs] [Spawn] Neomorph chestburster spawned from fingerspike (tick 383340)
+[AVP Xenomorphs] [Spawn] Neomorph chestburster spawned from fingerspike (tick 383590)
+[AVP Xenomorphs] [Spawn] Neomorph chestburster spawned from fingerspike (tick 383840)
+[AVP Xenomorphs] [Spawn] Neomorph chestburster spawned from fingerspike (tick 384090)
+[AVP Xenomorphs] [Spawn] Neomorph chestburster spawned from fingerspike (tick 384340)
+[AVP Xenomorphs] [Spawn] Neomorph chestburster spawned from fingerspike (tick 384590)
+[AVP Xenomorphs] [Spawn] Neomorph chestburster spawned from fingerspike (tick 384840)
+[AVP Xenomorphs] [Spawn] Neomorph chestburster spawned from fingerspike (tick 385090)
+[AVP Xenomorphs] [Spawn] Neomorph chestburster spawned from fingerspike (tick 385340)
+[AVP Xenomorphs] [Spawn] Neomorph chestburster spawned from fingerspike (tick 385590)
+[AVP Xenomorphs] [Spawn] Neomorph chestburster spawned from fingerspike (tick 385840)
+[AVP Xenomorphs] [Spawn] Neomorph chestburster spawned from fingerspike (tick 386090)
+[AVP Xenomorphs] [Spawn] Neomorph chestburster spawned from fingerspike (tick 386340)
+[AVP Xenomorphs] [Spawn] Neomorph chestburster spawned from fingerspike (tick 386590)
+[AVP Xenomorphs] [Spawn] Neomorph chestburster spawned from fingerspike (tick 386840)
+[AVP Xenomorphs] [Spawn] Neomorph chestburster spawned from fingerspike (tick 387090)
+[AVP Xenomorphs] [Spawn] Neomorph chestburster spawned from fingerspike (tick 387340)
+[AVP Xenomorphs] [Spawn] Neomorph chestburster spawned from fingerspike (tick 387590)
+[AVP Xenomorphs] [Spawn] Neomorph chestburster spawned from fingerspike (tick 387840)
+[AVP Xenomorphs] [Spawn] Neomorph chestburster spawned from fingerspike (tick 388090)
+[AVP Xenomorphs] [Spawn] Neomorph chestburster spawned from fingerspike (tick 388340)
+[AVP Xenomorphs] [Spawn] Neomorph chestburster spawned from fingerspike (tick 388590)
+[AVP Xenomorphs] [Spawn] Neomorph chestburster spawned from fingerspike (tick 388840)
+[AVP Xenomorphs] [Spawn] Neomorph chestburster spawned from fingerspike (tick 389090)
+[AVP Xenomorphs] [Spawn] Neomorph chestburster spawned from fingerspike (tick 389340)
+[AVP Xenomorphs] [Spawn] Neomorph chestburster spawned from fingerspike (tick 389590)
+[AVP Xenomorphs] [Spawn] Neomorph chestburster spawned from fingerspike (tick 389840)
+[AVP Xenomorphs] [Spawn] Neomorph chestburster spawned from fingerspike (tick 390090)
+[AVP Xenomorphs] [Spawn] Neomorph chestburster spawned from fingerspike (tick 390340)
+[AVP Xenomorphs] [Spawn] Neomorph chestburster spawned from fingerspike (tick 390590)
+[AVP Xenomorphs] [Spawn] Neomorph chestburster spawned from fingerspike (tick 390840)
+[AVP Xenomorphs] [Spawn] Neomorph chestburster spawned from fingerspike (tick 391090)
+[AVP Xenomorphs] [Spawn] Neomorph chestburster spawned from fingerspike (tick 391340)
+[AVP Xenomorphs] [Spawn] Neomorph chestburster spawned from fingerspike (tick 391590)
+[AVP Xenomorphs] [Spawn] Neomorph chestburster spawned from fingerspike (tick 391840)
+[AVP Xenomorphs] [Spawn] Neomorph chestburster spawned from fingerspike (tick 392090)
+[AVP Xenomorphs] [Spawn] Neomorph chestburster spawned from fingerspike (tick 392340)
+[AVP Xenomorphs] [Spawn] Neomorph chestburster spawned from fingerspike (tick 392590)
+[AVP Xenomorphs] [Spawn] Neomorph chestburster spawned from fingerspike (tick 392840)
+[AVP Xenomorphs] [Spawn] Neomorph chestburster spawned from fingerspike (tick 393090)
+[AVP Xenomorphs] [Spawn] Neomorph chestburster spawned from fingerspike (tick 393340)
+[AVP Xenomorphs] [Spawn] Neomorph chestburster spawned from fingerspike (tick 393590)
+[AVP Xenomorphs] [Spawn] Neomorph chestburster spawned from fingerspike (tick 393840)
+[AVP Xenomorphs] [Spawn] Neomorph chestburster spawned from fingerspike (tick 394090)
+[AVP Xenomorphs] [Spawn] Neomorph chestburster spawned from fingerspike (tick 394340)
+[AVP Xenomorphs] [Spawn] Neomorph chestburster spawned from fingerspike (tick 394590)
+[AVP Xenomorphs] [Spawn] Neomorph chestburster spawned from fingerspike (tick 394840)
+[AVP Xenomorphs] [Spawn] Neomorph chestburster spawned from fingerspike (tick 395090)
+[AVP Xenomorphs] [Spawn] Neomorph chestburster spawned from fingerspike (tick 395340)
+[AVP Xenomorphs] [Spawn] Neomorph chestburster spawned from fingerspike (tick 395590)
+[AVP Xenomorphs] [Spawn] Neomorph chestburster spawned from fingerspike (tick 395840)
+[AVP Xenomorphs] [Spawn] Neomorph chestburster spawned from fingerspike (tick 396090)
+[AVP Xenomorphs] [Spawn] Neomorph chestburster spawned from fingerspike (tick 396340)
+[AVP Xenomorphs] [Spawn] Neomorph chestburster spawned from fingerspike (tick 396590)
+[AVP Xenomorphs] [Spawn] Neomorph chestburster spawned from fingerspike (tick 396840)
+[AVP Xenomorphs] [Spawn] Neomorph chestburster spawned from fingerspike (tick 397090)
+[AVP Xenomorphs] [Spawn] Neomorph chestburster spawned from fingerspike (tick 397340)
+[AVP Xenomorphs] [Spawn] Neomorph chestburster spawned from fingerspike (tick 397590)
+[AVP Xenomorphs] [Spawn] Neomorph chestburster spawned from fingerspike (tick 397840)
+[AVP Xenomorphs] [Spawn] Neomorph chestburster spawned from fingerspike (tick 398090)
+[AVP Xenomorphs] [Spawn] Neomorph chestburster spawned from fingerspike (tick 398340)
+[AVP Xenomorphs] [Spawn] Neomorph chestburster spawned from fingerspike (tick 398590)
+[AVP Xenomorphs] [Spawn] Neomorph chestburster spawned from fingerspike (tick 398840)
+[AVP Xenomorphs] [Spawn] Neomorph chestburster spawned from fingerspike (tick 399090)
+[AVP Xenomorphs] [Spawn] Neomorph chestburster spawned from fingerspike (tick 399340)
+[AVP Xenomorphs] [Spawn] Neomorph chestburster spawned from fingerspike (tick 399590)
+[AVP Xenomorphs] [Spawn] Neomorph chestburster spawned from fingerspike (tick 399840)
+[AVP Xenomorphs] [Spawn] Neomorph chestburster spawned from fingerspike (tick 400090)
+[AVP Xenomorphs] [Spawn] Neomorph chestburster spawned from fingerspike (tick 400340)
+[AVP Xenomorphs] [Spawn] Neomorph chestburster spawned from fingerspike (tick 400590)
+[AVP Xenomorphs] [Spawn] Neomorph chestburster spawned from fingerspike (tick 400840)
+[AVP Xenomorphs] [Spawn] Neomorph chestburster spawned from fingerspike (tick 401090)
+[AVP Xenomorphs] [Spawn] Neomorph chestburster spawned from fingerspike (tick 401340)
+[AVP Xenomorphs] [Spawn] Neomorph chestburster spawned from fingerspike (tick 401590)
+[AVP Xenomorphs] [Spawn] Neomorph chestburster spawned from fingerspike (tick 401840)
+[AVP Xenomorphs] [Spawn] Neomorph chestburster spawned from fingerspike (tick 402090)
+[AVP Xenomorphs] [Spawn] Neomorph chestburster spawned from fingerspike (tick 402340)
+[AVP Xenomorphs] [Spawn] Neomorph chestburster spawned from fingerspike (tick 402590)
+[AVP Xenomorphs] [Spawn] Neomorph chestburster spawned from fingerspike (tick 402840)
+[AVP Xenomorphs] [Spawn] Neomorph chestburster spawned from fingerspike (tick 403090)
+[AVP Xenomorphs] [Spawn] Neomorph chestburster spawned from fingerspike (tick 403340)
+[AVP Xenomorphs] [Spawn] Neomorph chestburster spawned from fingerspike (tick 403590)
+[AVP Xenomorphs] [Spawn] Neomorph chestburster spawned from fingerspike (tick 403840)
+[AVP Xenomorphs] [Spawn] Neomorph chestburster spawned from fingerspike (tick 404090)
+[AVP Xenomorphs] [Spawn] Neomorph chestburster spawned from fingerspike (tick 404340)
+[AVP Xenomorphs] [Spawn] Neomorph chestburster spawned from fingerspike (tick 404590)
+[AVP Xenomorphs] [Spawn] Neomorph chestburster spawned from fingerspike (tick 404840)
+[AVP Xenomorphs] [Spawn] Neomorph chestburster spawned from fingerspike (tick 405090)
+[AVP Xenomorphs] [Spawn] Neomorph chestburster spawned from fingerspike (tick 405340)
+[AVP Xenomorphs] [Spawn] Neomorph chestburster spawned from fingerspike (tick 405590)
+[AVP Xenomorphs] [Spawn] Neomorph chestburster spawned from fingerspike (tick 405840)
+[AVP Xenomorphs] [Spawn] Neomorph chestburster spawned from fingerspike (tick 406090)
+[AVP Xenomorphs] [Spawn] Neomorph chestburster spawned from fingerspike (tick 406340)
+[AVP Xenomorphs] [Spawn] Neomorph chestburster spawned from fingerspike (tick 406590)
+[AVP Xenomorphs] [Spawn] Neomorph chestburster spawned from fingerspike (tick 406840)
+[AVP Xenomorphs] [Spawn] Neomorph chestburster spawned from fingerspike (tick 407090)
+[AVP Xenomorphs] [Spawn] Neomorph chestburster spawned from fingerspike (tick 407340)
+[AVP Xenomorphs] [Spawn] Neomorph chestburster spawned from fingerspike (tick 407590)
+[AVP Xenomorphs] [Spawn] Neomorph chestburster spawned from fingerspike (tick 407840)
+[AVP Xenomorphs] [Spawn] Neomorph chestburster spawned from fingerspike (tick 408090)
+[AVP Xenomorphs] [Spawn] Neomorph chestburster spawned from fingerspike (tick 408340)
+[AVP Xenomorphs] [Spawn] Neomorph chestburster spawned from fingerspike (tick 408590)
+[AVP Xenomorphs] [Spawn] Neomorph chestburster spawned from fingerspike (tick 408840)
+[AVP Xenomorphs] [Spawn] Neomorph chestburster spawned from fingerspike (tick 409090)
+[AVP Xenomorphs] [Spawn] Neomorph chestburster spawned from fingerspike (tick 409340)
+[AVP Xenomorphs] [Spawn] Neomorph chestburster spawned from fingerspike (tick 409590)
+[AVP Xenomorphs] [Spawn] Neomorph chestburster spawned from fingerspike (tick 409840)
+[AVP Xenomorphs] [Spawn] Neomorph chestburster spawned from fingerspike (tick 410090)
+[AVP Xenomorphs] [Spawn] Neomorph chestburster spawned from fingerspike (tick 410340)
+[AVP Xenomorphs] [Spawn] Neomorph chestburster spawned from fingerspike (tick 410590)
+[AVP Xenomorphs] [Spawn] Neomorph chestburster spawned from fingerspike (tick 410840)
+[AVP Xenomorphs] [Spawn] Neomorph chestburster spawned from fingerspike (tick 411090)
+[AVP Xenomorphs] [Spawn] Neomorph chestburster spawned from fingerspike (tick 411340)
+[AVP Xenomorphs] [Spawn] Neomorph chestburster spawned from fingerspike (tick 411590)
+[AVP Xenomorphs] [Spawn] Neomorph chestburster spawned from fingerspike (tick 411840)
+[AVP Xenomorphs] [Spawn] Neomorph chestburster spawned from fingerspike (tick 412090)
+[AVP Xenomorphs] [Spawn] Neomorph chestburster spawned from fingerspike (tick 412340)
+[AVP Xenomorphs] [Spawn] Neomorph chestburster spawned from fingerspike (tick 412590)
+[AVP Xenomorphs] [Spawn] Neomorph chestburster spawned from fingerspike (tick 412840)
+[AVP Xenomorphs] [Spawn] Neomorph chestburster spawned from fingerspike (tick 413090)
+[AVP Xenomorphs] [Spawn] Neomorph chestburster spawned from fingerspike (tick 413340)
+[AVP Xenomorphs] [Spawn] Neomorph chestburster spawned from fingerspike (tick 413590)
+[AVP Xenomorphs] [Spawn] Neomorph chestburster spawned from fingerspike (tick 413840)
+[AVP Xenomorphs] [Spawn] Neomorph chestburster spawned from fingerspike (tick 414090)
+[AVP Xenomorphs] [Spawn] Neomorph chestburster spawned from fingerspike (tick 414340)
+[AVP Xenomorphs] [Spawn] Neomorph chestburster spawned from fingerspike (tick 414590)
+[AVP Xenomorphs] [Spawn] Neomorph chestburster spawned from fingerspike (tick 414840)
+[AVP Xenomorphs] [Spawn] Neomorph chestburster spawned from fingerspike (tick 415090)
+[AVP Xenomorphs] [Spawn] Neomorph chestburster spawned from fingerspike (tick 415340)
+[AVP Xenomorphs] [Spawn] Neomorph chestburster spawned from fingerspike (tick 415590)
+[AVP Xenomorphs] [Spawn] Neomorph chestburster spawned from fingerspike (tick 415840)
+[AVP Xenomorphs] [Spawn] Neomorph chestburster spawned from fingerspike (tick 416090)
+[AVP Xenomorphs] [Spawn] Neomorph chestburster spawned from fingerspike (tick 416340)
+[AVP Xenomorphs] [Spawn] Neomorph chestburster spawned from fingerspike (tick 416590)
+[AVP Xenomorphs] [Spawn] Neomorph chestburster spawned from fingerspike (tick 416840)
+[AVP Xenomorphs] [Spawn] Neomorph chestburster spawned from fingerspike (tick 417090)
+[AVP Xenomorphs] [Spawn] Neomorph chestburster spawned from fingerspike (tick 417340)
+[AVP Xenomorphs] [Spawn] Neomorph chestburster spawned from fingerspike (tick 417590)
+[AVP Xenomorphs] [Spawn] Neomorph chestburster spawned from fingerspike (tick 417840)
+[AVP Xenomorphs] [Spawn] Neomorph chestburster spawned from fingerspike (tick 418090)
+[AVP Xenomorphs] [Spawn] Neomorph chestburster spawned from fingerspike (tick 418340)
+[AVP Xenomorphs] [Spawn] Neomorph chestburster spawned from fingerspike (tick 418590)
+[AVP Xenomorphs] [Spawn] Neomorph chestburster spawned from fingerspike (tick 418840)
+[AVP Xenomorphs] [Spawn] Neomorph chestburster spawned from fingerspike (tick 419090)
+[AVP Xenomorphs] [Spawn] Neomorph chestburster spawned from fingerspike (tick 419340)
+[AVP Xenomorphs] [Spawn] Neomorph chestburster spawned from fingerspike (tick 419590)
+[AVP Xenomorphs] [Spawn] Neomorph chestburster spawned from fingerspike (tick 419840)
+[Yayo's Animation] GC : animation data count [64 -> 44]
+[AVP Xenomorphs] [Spawn] Neomorph chestburster spawned from fingerspike (tick 420090)
+[AVP Xenomorphs] [Spawn] Neomorph chestburster spawned from fingerspike (tick 420340)
+[AVP Xenomorphs] [Perf] Sampling report: 16200 samples, tick/frame avg 0 ms, worst 242 ms, slow (>40ms) 2
+[AVP Xenomorphs] [Perf] Top ticking components (sampled ms this window / calls):
+[AVP Xenomorphs] [Perf]       162.0 ms  (429834 calls)  AM.Idle.IdleControllerComp
+[AVP Xenomorphs] [Perf]        43.6 ms  (429834 calls)  RimWorld.CompHoldingPlatformTarget
+[AVP Xenomorphs] [Perf]        25.6 ms  (132156 calls)  VEF.Abilities.CompAbilities
+[AVP Xenomorphs] [Perf]        23.3 ms  ( 6469 calls)  RimWorld.CompXenomorph_SpawnerLike
+[AVP Xenomorphs] [Perf]        22.9 ms  ( 6469 calls)  RimWorld.CompShield
+[AVP Xenomorphs] [Perf]        16.7 ms  ( 6468 calls)  AM.AnimationManager
+[AVP Xenomorphs] [Perf]        14.5 ms  (429834 calls)  Verse.CompAttachBase
+[AVP Xenomorphs] [Perf]        13.8 ms  ( 6468 calls)  Verse.FishShadowComponent
+[AVP Xenomorphs] [Perf]        11.5 ms  ( 6469 calls)  RimWorld.CompThrownFleckEmitter
+[AVP Xenomorphs] [Perf]        10.8 ms  ( 6469 calls)  RimWorld.CompHiveConversionRadius
+[AVP Xenomorphs] [Perf]         5.4 ms  ( 6469 calls)  RimWorld.CompHiveCreep
+[AVP Xenomorphs] [Perf]         3.7 ms  (47458 calls)  RimWorld.CompWakeUpDormant
+[AVP Xenomorphs] [Perf]         3.1 ms  (66078 calls)  FacialAnimation.FacialAnimationControllerComp
+[AVP Xenomorphs] [Perf]         3.1 ms  (25876 calls)  RimWorld.CompSpawner
+[AVP Xenomorphs] [Perf]         2.9 ms  (12938 calls)  RimWorld.CompSpawnerPawn
+[AVP Xenomorphs] [Spawn] Neomorph chestburster spawned from fingerspike (tick 420590)
+[AVP Xenomorphs] [Spawn] Neomorph chestburster spawned from fingerspike (tick 420840)
+[AVP Xenomorphs] [Spawn] Neomorph chestburster spawned from fingerspike (tick 421090)
+[AVP Xenomorphs] [Spawn] Neomorph chestburster spawned from fingerspike (tick 421340)
+[AVP Xenomorphs] [Spawn] Neomorph chestburster spawned from fingerspike (tick 421590)
+[AVP Xenomorphs] [Spawn] Neomorph chestburster spawned from fingerspike (tick 421840)
+[AVP Xenomorphs] [Spawn] Neomorph chestburster spawned from fingerspike (tick 422090)
+[AVP Xenomorphs] [Spawn] Neomorph chestburster spawned from fingerspike (tick 422340)
+[AVP Xenomorphs] [Spawn] Neomorph chestburster spawned from fingerspike (tick 422590)
+[AVP Xenomorphs] [Spawn] Neomorph chestburster spawned from fingerspike (tick 422840)
+[AVP Xenomorphs] [Spawn] Neomorph chestburster spawned from fingerspike (tick 423090)
+[AVP Xenomorphs] [Spawn] Neomorph chestburster spawned from fingerspike (tick 423340)
+[AVP Xenomorphs] [Spawn] Neomorph chestburster spawned from fingerspike (tick 423590)
+[AVP Xenomorphs] [Spawn] Neomorph chestburster spawned from fingerspike (tick 423840)
+[AVP Xenomorphs] [Spawn] Neomorph chestburster spawned from fingerspike (tick 424090)
+[AVP Xenomorphs] [Spawn] Neomorph chestburster spawned from fingerspike (tick 424340)
+[AVP Xenomorphs] [Spawn] Neomorph chestburster spawned from fingerspike (tick 424590)
+[AVP Xenomorphs] [Spawn] Neomorph chestburster spawned from fingerspike (tick 424840)
+[AVP Xenomorphs] [Spawn] Neomorph chestburster spawned from fingerspike (tick 425090)
+[AVP Xenomorphs] [Spawn] Neomorph chestburster spawned from fingerspike (tick 425340)
+[AVP Xenomorphs] [Spawn] Neomorph chestburster spawned from fingerspike (tick 425590)
+[AVP Xenomorphs] [Spawn] Neomorph chestburster spawned from fingerspike (tick 425840)
+[AVP Xenomorphs] [Spawn] Neomorph chestburster spawned from fingerspike (tick 426090)
+[AVP Xenomorphs] [Spawn] Neomorph chestburster spawned from fingerspike (tick 426340)
+[AVP Xenomorphs] [Spawn] Neomorph chestburster spawned from fingerspike (tick 426590)
+[AVP Xenomorphs] [Spawn] Neomorph chestburster spawned from fingerspike (tick 426840)
+[AVP Xenomorphs] [Spawn] Neomorph chestburster spawned from fingerspike (tick 427090)
+[AVP Xenomorphs] [Spawn] Neomorph chestburster spawned from fingerspike (tick 427340)
+[AVP Xenomorphs] [Spawn] Neomorph chestburster spawned from fingerspike (tick 427590)
+[AVP Xenomorphs] [Spawn] Neomorph chestburster spawned from fingerspike (tick 427840)
+[AVP Xenomorphs] [Spawn] Neomorph chestburster spawned from fingerspike (tick 428090)
+[AVP Xenomorphs] [Spawn] Neomorph chestburster spawned from fingerspike (tick 428340)
+[AVP Xenomorphs] [Spawn] Neomorph chestburster spawned from fingerspike (tick 428590)
+[AVP Xenomorphs] [Spawn] Neomorph chestburster spawned from fingerspike (tick 428840)
+[AVP Xenomorphs] [Spawn] Neomorph chestburster spawned from fingerspike (tick 429090)
+[AVP Xenomorphs] [Spawn] Neomorph chestburster spawned from fingerspike (tick 429340)
+[AVP Xenomorphs] [Spawn] Neomorph chestburster spawned from fingerspike (tick 429590)
+[AVP Xenomorphs] [Spawn] Neomorph chestburster spawned from fingerspike (tick 429840)
+[AVP Xenomorphs] [Spawn] Neomorph chestburster spawned from fingerspike (tick 430090)
+[AVP Xenomorphs] [Spawn] Neomorph chestburster spawned from fingerspike (tick 430340)
+[AVP Xenomorphs] [Spawn] Neomorph chestburster spawned from fingerspike (tick 430590)
+[AVP Xenomorphs] [Spawn] Neomorph chestburster spawned from fingerspike (tick 430840)
+[AVP Xenomorphs] [Spawn] Neomorph chestburster spawned from fingerspike (tick 431090)
+[AVP Xenomorphs] [Spawn] Neomorph chestburster spawned from fingerspike (tick 431340)
+[AVP Xenomorphs] [Spawn] Neomorph chestburster spawned from fingerspike (tick 431590)
+[AVP Xenomorphs] [Spawn] Neomorph chestburster spawned from fingerspike (tick 431840)
+[AVP Xenomorphs] [Spawn] Neomorph chestburster spawned from fingerspike (tick 432090)
+[AVP Xenomorphs] [Spawn] Neomorph chestburster spawned from fingerspike (tick 432340)
+[AVP Xenomorphs] [Spawn] Neomorph chestburster spawned from fingerspike (tick 432590)
+[AVP Xenomorphs] [Spawn] Neomorph chestburster spawned from fingerspike (tick 432840)
+[AVP Xenomorphs] [Spawn] Neomorph chestburster spawned from fingerspike (tick 433090)
+[AVP Xenomorphs] [Spawn] Neomorph chestburster spawned from fingerspike (tick 433340)
+[AVP Xenomorphs] [Spawn] Neomorph chestburster spawned from fingerspike (tick 433590)
+[AVP Xenomorphs] [Spawn] Neomorph chestburster spawned from fingerspike (tick 433840)
+[AVP Xenomorphs] [Spawn] Neomorph chestburster spawned from fingerspike (tick 434090)
+[AVP Xenomorphs] [Spawn] Neomorph chestburster spawned from fingerspike (tick 434340)
+[AVP Xenomorphs] [Spawn] Neomorph chestburster spawned from fingerspike (tick 434590)
+[AVP Xenomorphs] [Spawn] Neomorph chestburster spawned from fingerspike (tick 434840)
+[AVP Xenomorphs] [Spawn] Neomorph chestburster spawned from fingerspike (tick 435090)
+[AVP Xenomorphs] [Spawn] Neomorph chestburster spawned from fingerspike (tick 435340)
+[AVP Xenomorphs] [Spawn] Neomorph chestburster spawned from fingerspike (tick 435590)
+[AVP Xenomorphs] [Spawn] Neomorph chestburster spawned from fingerspike (tick 435840)
+[AVP Xenomorphs] [Spawn] Neomorph chestburster spawned from fingerspike (tick 436090)
+[AVP Xenomorphs] [Spawn] Neomorph chestburster spawned from fingerspike (tick 436340)
+[AVP Xenomorphs] [Spawn] Neomorph chestburster spawned from fingerspike (tick 436590)
+[AVP Xenomorphs] [Spawn] Neomorph chestburster spawned from fingerspike (tick 436840)
+[AVP Xenomorphs] [Spawn] Neomorph chestburster spawned from fingerspike (tick 437090)
+[AVP Xenomorphs] [Spawn] Neomorph chestburster spawned from fingerspike (tick 437340)
+[AVP Xenomorphs] [Spawn] Neomorph chestburster spawned from fingerspike (tick 437590)
+[AVP Xenomorphs] [Spawn] Neomorph chestburster spawned from fingerspike (tick 437840)
+[AVP Xenomorphs] [Spawn] Neomorph chestburster spawned from fingerspike (tick 438090)
+[AVP Xenomorphs] [Spawn] Neomorph chestburster spawned from fingerspike (tick 438340)
+[AVP Xenomorphs] [Spawn] Neomorph chestburster spawned from fingerspike (tick 438590)
+[AVP Xenomorphs] [Spawn] Neomorph chestburster spawned from fingerspike (tick 438840)
+[AVP Xenomorphs] [Spawn] Neomorph chestburster spawned from fingerspike (tick 439090)
+[AVP Xenomorphs] [Spawn] Neomorph chestburster spawned from fingerspike (tick 439340)
+[AVP Xenomorphs] [Spawn] Neomorph chestburster spawned from fingerspike (tick 439590)
+[AVP Xenomorphs] [Spawn] Neomorph chestburster spawned from fingerspike (tick 439840)
+[AVP Xenomorphs] [Spawn] Neomorph chestburster spawned from fingerspike (tick 440090)
+[AVP Xenomorphs] [Spawn] Neomorph chestburster spawned from fingerspike (tick 440340)
+[AVP Xenomorphs] [Spawn] Neomorph chestburster spawned from fingerspike (tick 440590)
+[AVP Xenomorphs] [Spawn] Neomorph chestburster spawned from fingerspike (tick 440840)
+[AVP Xenomorphs] [Spawn] Neomorph chestburster spawned from fingerspike (tick 441090)
+[AVP Xenomorphs] [Spawn] Neomorph chestburster spawned from fingerspike (tick 441340)
+[AVP Xenomorphs] [Spawn] Neomorph chestburster spawned from fingerspike (tick 441590)
+[AVP Xenomorphs] [Spawn] Neomorph chestburster spawned from fingerspike (tick 441840)
+[AVP Xenomorphs] [Spawn] Neomorph chestburster spawned from fingerspike (tick 442090)
+[AVP Xenomorphs] [Spawn] Neomorph chestburster spawned from fingerspike (tick 442340)
+[AVP Xenomorphs] [Spawn] Neomorph chestburster spawned from fingerspike (tick 442590)
+[AVP Xenomorphs] [Spawn] Neomorph chestburster spawned from fingerspike (tick 442840)
+[AVP Xenomorphs] [Spawn] Neomorph chestburster spawned from fingerspike (tick 443090)
+[AVP Xenomorphs] [Spawn] Neomorph chestburster spawned from fingerspike (tick 443340)
+[AVP Xenomorphs] [Spawn] Neomorph chestburster spawned from fingerspike (tick 443590)
+[AVP Xenomorphs] [Spawn] Neomorph chestburster spawned from fingerspike (tick 443840)
+[AVP Xenomorphs] [Spawn] Neomorph chestburster spawned from fingerspike (tick 444090)
+[AVP Xenomorphs] [Spawn] Neomorph chestburster spawned from fingerspike (tick 444340)
+[AVP Xenomorphs] [Spawn] Neomorph chestburster spawned from fingerspike (tick 444590)
+[AVP Xenomorphs] [Spawn] Neomorph chestburster spawned from fingerspike (tick 444840)
+[AVP Xenomorphs] [Spawn] Neomorph chestburster spawned from fingerspike (tick 445090)
+[AVP Xenomorphs] [Spawn] Neomorph chestburster spawned from fingerspike (tick 445340)
+[AVP Xenomorphs] [Spawn] Neomorph chestburster spawned from fingerspike (tick 445590)
+[AVP Xenomorphs] [Spawn] Neomorph chestburster spawned from fingerspike (tick 445840)
+[AVP Xenomorphs] [Spawn] Neomorph chestburster spawned from fingerspike (tick 446090)
+[AVP Xenomorphs] [Spawn] Neomorph chestburster spawned from fingerspike (tick 446340)
+[AVP Xenomorphs] [Spawn] Neomorph chestburster spawned from fingerspike (tick 446590)
+[AVP Xenomorphs] [Spawn] Neomorph chestburster spawned from fingerspike (tick 446840)
+[AVP Xenomorphs] [Spawn] Neomorph chestburster spawned from fingerspike (tick 447090)
+[AVP Xenomorphs] [Spawn] Neomorph chestburster spawned from fingerspike (tick 447340)
+[AVP Xenomorphs] [Spawn] Neomorph chestburster spawned from fingerspike (tick 447590)
+[AVP Xenomorphs] [Spawn] Neomorph chestburster spawned from fingerspike (tick 447840)
+[AVP Xenomorphs] [Spawn] Neomorph chestburster spawned from fingerspike (tick 448090)
+[AVP Xenomorphs] [Spawn] Neomorph chestburster spawned from fingerspike (tick 448340)
+[AVP Xenomorphs] [Spawn] Neomorph chestburster spawned from fingerspike (tick 448590)
+[AVP Xenomorphs] [Spawn] Neomorph chestburster spawned from fingerspike (tick 448840)
+[AVP Xenomorphs] [Spawn] Neomorph chestburster spawned from fingerspike (tick 449090)
+[AVP Xenomorphs] [Spawn] Neomorph chestburster spawned from fingerspike (tick 449340)
+[AVP Xenomorphs] [Spawn] Neomorph chestburster spawned from fingerspike (tick 449590)
+[AVP Xenomorphs] [Spawn] Neomorph chestburster spawned from fingerspike (tick 449840)
+[AVP Xenomorphs] [Spawn] Neomorph chestburster spawned from fingerspike (tick 450090)
+[AVP Xenomorphs] [Spawn] Neomorph chestburster spawned from fingerspike (tick 450340)
+[AVP Xenomorphs] [Spawn] Neomorph chestburster spawned from fingerspike (tick 450590)
+[AVP Xenomorphs] [Spawn] Neomorph chestburster spawned from fingerspike (tick 450840)
+[AVP Xenomorphs] [Spawn] Neomorph chestburster spawned from fingerspike (tick 451090)
+[AVP Xenomorphs] [Spawn] Neomorph chestburster spawned from fingerspike (tick 451340)
+[AVP Xenomorphs] [Spawn] Neomorph chestburster spawned from fingerspike (tick 451590)
+[AVP Xenomorphs] [Spawn] Neomorph chestburster spawned from fingerspike (tick 451840)
+[AVP Xenomorphs] [Spawn] Neomorph chestburster spawned from fingerspike (tick 452090)
+[AVP Xenomorphs] [Spawn] Neomorph chestburster spawned from fingerspike (tick 452340)
+[AVP Xenomorphs] [Spawn] Neomorph chestburster spawned from fingerspike (tick 452590)
+[AVP Xenomorphs] [Spawn] Neomorph chestburster spawned from fingerspike (tick 452840)
+[AVP Xenomorphs] [Spawn] Neomorph chestburster spawned from fingerspike (tick 453090)
+[AVP Xenomorphs] [Spawn] Neomorph chestburster spawned from fingerspike (tick 453340)
+[AVP Xenomorphs] [Spawn] Neomorph chestburster spawned from fingerspike (tick 453590)
+[AVP Xenomorphs] [Spawn] Neomorph chestburster spawned from fingerspike (tick 453840)
+[AVP Xenomorphs] [Spawn] Neomorph chestburster spawned from fingerspike (tick 454090)
+[AVP Xenomorphs] [Spawn] Neomorph chestburster spawned from fingerspike (tick 454340)
+[AVP Xenomorphs] [Spawn] Neomorph chestburster spawned from fingerspike (tick 454590)
+[AVP Xenomorphs] [Spawn] Neomorph chestburster spawned from fingerspike (tick 454840)
+[AVP Xenomorphs] [Spawn] Neomorph chestburster spawned from fingerspike (tick 455090)
+[AVP Xenomorphs] [Spawn] Neomorph chestburster spawned from fingerspike (tick 455340)
+[AVP Xenomorphs] [Spawn] Neomorph chestburster spawned from fingerspike (tick 455590)
+[AVP Xenomorphs] [Spawn] Neomorph chestburster spawned from fingerspike (tick 455840)
+[AVP Xenomorphs] [Spawn] Neomorph chestburster spawned from fingerspike (tick 456090)
+[AVP Xenomorphs] [Spawn] Neomorph chestburster spawned from fingerspike (tick 456340)
+[AVP Xenomorphs] [Spawn] Neomorph chestburster spawned from fingerspike (tick 456590)
+[AVP Xenomorphs] [Spawn] Neomorph chestburster spawned from fingerspike (tick 456840)
+[AVP Xenomorphs] [Spawn] Neomorph chestburster spawned from fingerspike (tick 457090)
+[AVP Xenomorphs] [Spawn] Neomorph chestburster spawned from fingerspike (tick 457340)
+[AVP Xenomorphs] [Spawn] Neomorph chestburster spawned from fingerspike (tick 457590)
+[AVP Xenomorphs] [Perf] Sampling report: 18000 samples, tick/frame avg 0 ms, worst 911 ms, slow (>40ms) 2
+[AVP Xenomorphs] [Perf] Top ticking components (sampled ms this window / calls):
+[AVP Xenomorphs] [Perf]       225.5 ms  (443761 calls)  AM.Idle.IdleControllerComp
+[AVP Xenomorphs] [Perf]        44.4 ms  (443761 calls)  RimWorld.CompHoldingPlatformTarget
+[AVP Xenomorphs] [Perf]        25.2 ms  (123940 calls)  VEF.Abilities.CompAbilities
+[AVP Xenomorphs] [Perf]        22.5 ms  ( 6197 calls)  RimWorld.CompXenomorph_SpawnerLike
+[AVP Xenomorphs] [Perf]        21.3 ms  ( 6197 calls)  RimWorld.CompShield
+[AVP Xenomorphs] [Perf]        16.5 ms  ( 6198 calls)  AM.AnimationManager
+[AVP Xenomorphs] [Perf]        15.1 ms  (443761 calls)  Verse.CompAttachBase
+[AVP Xenomorphs] [Perf]        12.6 ms  ( 6198 calls)  Verse.FishShadowComponent
+[AVP Xenomorphs] [Perf]        11.0 ms  ( 6197 calls)  RimWorld.CompHiveConversionRadius
+[AVP Xenomorphs] [Perf]         9.9 ms  ( 6197 calls)  RimWorld.CompThrownFleckEmitter
+[AVP Xenomorphs] [Perf]         5.1 ms  ( 6197 calls)  RimWorld.CompHiveCreep
+[AVP Xenomorphs] [Perf]         2.9 ms  (61970 calls)  FacialAnimation.FacialAnimationControllerComp
+[AVP Xenomorphs] [Perf]         2.9 ms  (24788 calls)  RimWorld.CompSpawner
+[AVP Xenomorphs] [Perf]         2.7 ms  (12394 calls)  RimWorld.CompSpawnerPawn
+[AVP Xenomorphs] [Perf]         2.6 ms  (43379 calls)  RimWorld.CompWakeUpDormant
+[AVP Xenomorphs] [Spawn] Neomorph chestburster spawned from fingerspike (tick 457840)
+[AVP Xenomorphs] [Spawn] Neomorph chestburster spawned from fingerspike (tick 458090)
+[AVP Xenomorphs] [Spawn] Neomorph chestburster spawned from fingerspike (tick 458340)
+[AVP Xenomorphs] [Spawn] Neomorph chestburster spawned from fingerspike (tick 458590)
+[AVP Xenomorphs] [Spawn] Neomorph chestburster spawned from fingerspike (tick 458840)
+[AVP Xenomorphs] [Spawn] Neomorph chestburster spawned from fingerspike (tick 459090)
+[AVP Xenomorphs] [Spawn] Neomorph chestburster spawned from fingerspike (tick 459340)
+[AVP Xenomorphs] [Spawn] Neomorph chestburster spawned from fingerspike (tick 459590)
+[AVP Xenomorphs] [Spawn] Neomorph chestburster spawned from fingerspike (tick 459840)
+[AVP Xenomorphs] [Spawn] Neomorph chestburster spawned from fingerspike (tick 460090)
+[AVP Xenomorphs] [Spawn] Neomorph chestburster spawned from fingerspike (tick 460340)
+[AVP Xenomorphs] [Spawn] Neomorph chestburster spawned from fingerspike (tick 460590)
+[AVP Xenomorphs] [Spawn] Neomorph chestburster spawned from fingerspike (tick 460840)
+[AVP Xenomorphs] [Spawn] Neomorph chestburster spawned from fingerspike (tick 461090)
+[AVP Xenomorphs] [Spawn] Neomorph chestburster spawned from fingerspike (tick 461340)
+[AVP Xenomorphs] [Spawn] Neomorph chestburster spawned from fingerspike (tick 461590)
+[AVP Xenomorphs] [Spawn] Neomorph chestburster spawned from fingerspike (tick 461840)
+[AVP Xenomorphs] [Spawn] Neomorph chestburster spawned from fingerspike (tick 462090)
+[AVP Xenomorphs] [Spawn] Neomorph chestburster spawned from fingerspike (tick 462340)
+[AVP Xenomorphs] [Spawn] Neomorph chestburster spawned from fingerspike (tick 462590)
+[AVP Xenomorphs] [Spawn] Neomorph chestburster spawned from fingerspike (tick 462840)
+[AVP Xenomorphs] [Spawn] Neomorph chestburster spawned from fingerspike (tick 463090)
+[AVP Xenomorphs] [Spawn] Neomorph chestburster spawned from fingerspike (tick 463340)
+[AVP Xenomorphs] [Spawn] Neomorph chestburster spawned from fingerspike (tick 463590)
+[AVP Xenomorphs] [Spawn] Neomorph chestburster spawned from fingerspike (tick 463840)
+[AVP Xenomorphs] [Spawn] Neomorph chestburster spawned from fingerspike (tick 464090)
+[AVP Xenomorphs] [Spawn] Neomorph chestburster spawned from fingerspike (tick 464340)
+[AVP Xenomorphs] [Spawn] Neomorph chestburster spawned from fingerspike (tick 464590)
+[AVP Xenomorphs] [Spawn] Neomorph chestburster spawned from fingerspike (tick 464840)
+[AVP Xenomorphs] [Spawn] Neomorph chestburster spawned from fingerspike (tick 465090)
+[AVP Xenomorphs] [Spawn] Neomorph chestburster spawned from fingerspike (tick 465340)
+[AVP Xenomorphs] [Spawn] Neomorph chestburster spawned from fingerspike (tick 465590)
+[AVP Xenomorphs] [Spawn] Neomorph chestburster spawned from fingerspike (tick 465840)
+[AVP Xenomorphs] [Spawn] Neomorph chestburster spawned from fingerspike (tick 466090)
+[AVP Xenomorphs] [Spawn] Neomorph chestburster spawned from fingerspike (tick 466340)
+[AVP Xenomorphs] [Spawn] Neomorph chestburster spawned from fingerspike (tick 466590)
+[AVP Xenomorphs] [Spawn] Neomorph chestburster spawned from fingerspike (tick 466840)
+[AVP Xenomorphs] [Spawn] Neomorph chestburster spawned from fingerspike (tick 467090)
+[AVP Xenomorphs] [Spawn] Neomorph chestburster spawned from fingerspike (tick 467340)
+[AVP Xenomorphs] [Spawn] Neomorph chestburster spawned from fingerspike (tick 467590)
+[AVP Xenomorphs] [Spawn] Neomorph chestburster spawned from fingerspike (tick 467840)
+[AVP Xenomorphs] [Spawn] Neomorph chestburster spawned from fingerspike (tick 468090)
+[AVP Xenomorphs] [Spawn] Neomorph chestburster spawned from fingerspike (tick 468340)
+[AVP Xenomorphs] [Spawn] Neomorph chestburster spawned from fingerspike (tick 468590)
+[AVP Xenomorphs] [Spawn] Neomorph chestburster spawned from fingerspike (tick 468840)
+[AVP Xenomorphs] [Spawn] Neomorph chestburster spawned from fingerspike (tick 469090)
+[AVP Xenomorphs] [Spawn] Neomorph chestburster spawned from fingerspike (tick 469340)
+[AVP Xenomorphs] [Spawn] Neomorph chestburster spawned from fingerspike (tick 469590)
+[AVP Xenomorphs] [Spawn] Neomorph chestburster spawned from fingerspike (tick 469840)
+[AVP Xenomorphs] [Spawn] Neomorph chestburster spawned from fingerspike (tick 470090)
+[AVP Xenomorphs] [Spawn] Neomorph chestburster spawned from fingerspike (tick 470340)
+[AVP Xenomorphs] [Spawn] Neomorph chestburster spawned from fingerspike (tick 470590)
+[AVP Xenomorphs] [Spawn] Neomorph chestburster spawned from fingerspike (tick 470840)
+[AVP Xenomorphs] [Spawn] Neomorph chestburster spawned from fingerspike (tick 471090)
+[AVP Xenomorphs] [Spawn] Neomorph chestburster spawned from fingerspike (tick 471340)
+[AVP Xenomorphs] [Spawn] Neomorph chestburster spawned from fingerspike (tick 471590)
+[AVP Xenomorphs] [Spawn] Neomorph chestburster spawned from fingerspike (tick 471840)
+[AVP Xenomorphs] [Spawn] Neomorph chestburster spawned from fingerspike (tick 472090)
+[AVP Xenomorphs] [Spawn] Neomorph chestburster spawned from fingerspike (tick 472340)
+[AVP Xenomorphs] [Spawn] Neomorph chestburster spawned from fingerspike (tick 472590)
+[AVP Xenomorphs] [Spawn] Neomorph chestburster spawned from fingerspike (tick 472840)
+[AVP Xenomorphs] [Spawn] Neomorph chestburster spawned from fingerspike (tick 473090)
+[AVP Xenomorphs] [Spawn] Neomorph chestburster spawned from fingerspike (tick 473340)
+[AVP Xenomorphs] [Spawn] Neomorph chestburster spawned from fingerspike (tick 473590)
+[AVP Xenomorphs] [Spawn] Neomorph chestburster spawned from fingerspike (tick 473840)
+[AVP Xenomorphs] [Spawn] Neomorph chestburster spawned from fingerspike (tick 474090)
+[AVP Xenomorphs] [Spawn] Neomorph chestburster spawned from fingerspike (tick 474340)
+[AVP Xenomorphs] [Spawn] Neomorph chestburster spawned from fingerspike (tick 474590)
+[AVP Xenomorphs] [Spawn] Neomorph chestburster spawned from fingerspike (tick 474840)
+[AVP Xenomorphs] [Spawn] Neomorph chestburster spawned from fingerspike (tick 475090)
+[AVP Xenomorphs] [Spawn] Neomorph chestburster spawned from fingerspike (tick 475340)
+[AVP Xenomorphs] [Perf] Sampling report: 19800 samples, tick/frame avg 1 ms, worst 5142 ms, slow (>40ms) 36
+[AVP Xenomorphs] [Perf] Top ticking components (sampled ms this window / calls):
+[AVP Xenomorphs] [Perf]      2750.3 ms  ( 2960 calls)  RimWorld.CompXenomorph_SpawnerLike
+[AVP Xenomorphs] [Perf]        67.3 ms  (231712 calls)  AM.Idle.IdleControllerComp
+[AVP Xenomorphs] [Perf]        23.0 ms  (231712 calls)  RimWorld.CompHoldingPlatformTarget
+[AVP Xenomorphs] [Perf]        12.5 ms  (66784 calls)  VEF.Abilities.CompAbilities
+[AVP Xenomorphs] [Perf]         9.7 ms  ( 2960 calls)  RimWorld.CompShield
+[AVP Xenomorphs] [Perf]         7.8 ms  (231712 calls)  Verse.CompAttachBase
+[AVP Xenomorphs] [Perf]         7.0 ms  ( 2960 calls)  AM.AnimationManager
+[AVP Xenomorphs] [Perf]         6.0 ms  ( 2960 calls)  Verse.FishShadowComponent
+[AVP Xenomorphs] [Perf]         5.2 ms  ( 2960 calls)  RimWorld.CompHiveConversionRadius
+[AVP Xenomorphs] [Perf]         4.6 ms  ( 2960 calls)  RimWorld.CompThrownFleckEmitter
+[AVP Xenomorphs] [Perf]         2.5 ms  ( 2960 calls)  RimWorld.CompHiveCreep
+[AVP Xenomorphs] [Perf]         1.5 ms  (33392 calls)  FacialAnimation.FacialAnimationControllerComp
+[AVP Xenomorphs] [Perf]         1.5 ms  (11840 calls)  RimWorld.CompSpawner
+[AVP Xenomorphs] [Perf]         1.3 ms  (20720 calls)  RimWorld.CompWakeUpDormant
+[AVP Xenomorphs] [Perf]         1.2 ms  ( 5920 calls)  RimWorld.CompSpawnerPawn
+[AVP Xenomorphs] [Perf] Sampling report: 21600 samples, tick/frame avg 582 ms, worst 2733 ms, slow (>40ms) 78
+[AVP Xenomorphs] [Perf] Top ticking components (sampled ms this window / calls):
+[AVP Xenomorphs] [Perf]      7102.5 ms  (   13 calls)  RimWorld.CompXenomorph_SpawnerLike
+[AVP Xenomorphs] [Perf]         0.8 ms  ( 1027 calls)  AM.Idle.IdleControllerComp
+[AVP Xenomorphs] [Perf]         0.2 ms  ( 1027 calls)  RimWorld.CompHoldingPlatformTarget
+[AVP Xenomorphs] [Perf]         0.1 ms  (  312 calls)  VEF.Abilities.CompAbilities
+[AVP Xenomorphs] [Perf]         0.1 ms  (   13 calls)  RimWorld.CompShield
+[AVP Xenomorphs] [Perf]         0.1 ms  (   13 calls)  AM.AnimationManager
+[AVP Xenomorphs] [Perf]         0.1 ms  (   13 calls)  RimWorld.CompThrownFleckEmitter
+[AVP Xenomorphs] [Perf]         0.0 ms  (   13 calls)  Verse.FishShadowComponent
+[AVP Xenomorphs] [Perf]         0.0 ms  (   13 calls)  RimWorld.CompHiveConversionRadius
+[AVP Xenomorphs] [Perf]         0.0 ms  ( 1027 calls)  Verse.CompAttachBase
+[AVP Xenomorphs] [Perf]         0.0 ms  (   26 calls)  RimWorld.CompSpawnerPawn
+[AVP Xenomorphs] [Perf]         0.0 ms  (   26 calls)  RimWorld.CompApparelReloadable
+[AVP Xenomorphs] [Perf]         0.0 ms  (   52 calls)  RimWorld.CompSpawner
+[AVP Xenomorphs] [Perf]         0.0 ms  (   26 calls)  RimWorld.CompSpawnerHives
+[AVP Xenomorphs] [Perf]         0.0 ms  (  156 calls)  FacialAnimation.FacialAnimationControllerComp
+[AVP Xenomorphs] [Perf] Sampling report: 23400 samples, tick/frame avg 556 ms, worst 582 ms, slow (>40ms) 82
+[AVP Xenomorphs] [Perf] Top ticking components (sampled ms this window / calls):
+[AVP Xenomorphs] [Perf]      7617.2 ms  (   14 calls)  RimWorld.CompXenomorph_SpawnerLike
+[AVP Xenomorphs] [Perf]         0.9 ms  ( 1106 calls)  AM.Idle.IdleControllerComp
+[AVP Xenomorphs] [Perf]         0.2 ms  ( 1106 calls)  RimWorld.CompHoldingPlatformTarget
+[AVP Xenomorphs] [Perf]         0.1 ms  (  336 calls)  VEF.Abilities.CompAbilities
+[AVP Xenomorphs] [Perf]         0.1 ms  (   14 calls)  RimWorld.CompShield
+[AVP Xenomorphs] [Perf]         0.1 ms  (   14 calls)  AM.AnimationManager
+[AVP Xenomorphs] [Perf]         0.1 ms  (   14 calls)  RimWorld.CompThrownFleckEmitter
+[AVP Xenomorphs] [Perf]         0.1 ms  (   14 calls)  Verse.FishShadowComponent
+[AVP Xenomorphs] [Perf]         0.0 ms  (   14 calls)  RimWorld.CompHiveConversionRadius
+[AVP Xenomorphs] [Perf]         0.0 ms  ( 1106 calls)  Verse.CompAttachBase
+[AVP Xenomorphs] [Perf]         0.0 ms  (   28 calls)  RimWorld.CompSpawnerPawn
+[AVP Xenomorphs] [Perf]         0.0 ms  (   56 calls)  RimWorld.CompSpawner
+[AVP Xenomorphs] [Perf]         0.0 ms  (  168 calls)  FacialAnimation.FacialAnimationControllerComp
+[AVP Xenomorphs] [Perf]         0.0 ms  (   28 calls)  RimWorld.CompSpawnerHives
+[AVP Xenomorphs] [Perf]         0.0 ms  (   28 calls)  RimWorld.CompApparelReloadable
+[AVP Xenomorphs] [Spawn] Neomorph chestburster spawned from fingerspike (tick 475590)
+[AVP Xenomorphs] [Perf] Sampling report: 25200 samples, tick/frame avg 564 ms, worst 614 ms, slow (>40ms) 56
+[AVP Xenomorphs] [Perf] Top ticking components (sampled ms this window / calls):
+[AVP Xenomorphs] [Perf]      4937.9 ms  (    9 calls)  RimWorld.CompXenomorph_SpawnerLike
+[AVP Xenomorphs] [Perf]         0.6 ms  (  711 calls)  AM.Idle.IdleControllerComp
+[AVP Xenomorphs] [Perf]         0.1 ms  (  711 calls)  RimWorld.CompHoldingPlatformTarget
+[AVP Xenomorphs] [Perf]         0.1 ms  (  216 calls)  VEF.Abilities.CompAbilities
+[AVP Xenomorphs] [Perf]         0.1 ms  (    9 calls)  RimWorld.CompShield
+[AVP Xenomorphs] [Perf]         0.0 ms  (    9 calls)  RimWorld.CompThrownFleckEmitter
+[AVP Xenomorphs] [Perf]         0.0 ms  (    9 calls)  RimWorld.CompHiveConversionRadius
+[AVP Xenomorphs] [Perf]         0.0 ms  (  711 calls)  Verse.CompAttachBase
+[AVP Xenomorphs] [Perf]         0.0 ms  (    9 calls)  AM.AnimationManager
+[AVP Xenomorphs] [Perf]         0.0 ms  (    9 calls)  Verse.FishShadowComponent
+[AVP Xenomorphs] [Perf]         0.0 ms  (   18 calls)  RimWorld.CompSpawnerPawn
+[AVP Xenomorphs] [Perf]         0.0 ms  (   36 calls)  RimWorld.CompSpawner
+[AVP Xenomorphs] [Perf]         0.0 ms  (   18 calls)  RimWorld.CompSpawnerHives
+[AVP Xenomorphs] [Perf]         0.0 ms  (  108 calls)  FacialAnimation.FacialAnimationControllerComp
+[AVP Xenomorphs] [Perf]         0.0 ms  (   18 calls)  RimWorld.CompApparelReloadable
 Memory Statistics:
 [ALLOC_TEMP_TLS] TLS Allocator
   StackAllocators : 
     [ALLOC_TEMP_MAIN]
-      Peak usage frame count: [0-1.0 KB]: 1584 frames, [1.0 KB-2.0 KB]: 12 frames, [2.0 KB-4.0 KB]: 7961 frames, [4.0 KB-8.0 KB]: 372 frames, [8.0 KB-16.0 KB]: 86 frames, [16.0 KB-32.0 KB]: 4 frames, [32.0 KB-64.0 KB]: 3 frames, [64.0 KB-128.0 KB]: 5 frames, [128.0 KB-256.0 KB]: 5 frames, [256.0 KB-0.5 MB]: 1 frames, [2.0 MB-4.0 MB]: 1 frames, [4.0 MB-8.0 MB]: 7 frames
+      Peak usage frame count: [0-1.0 KB]: 1016 frames, [1.0 KB-2.0 KB]: 10 frames, [2.0 KB-4.0 KB]: 23844 frames, [4.0 KB-8.0 KB]: 1769 frames, [8.0 KB-16.0 KB]: 395 frames, [16.0 KB-32.0 KB]: 60 frames, [32.0 KB-64.0 KB]: 9 frames, [64.0 KB-128.0 KB]: 7 frames, [128.0 KB-256.0 KB]: 6 frames, [256.0 KB-0.5 MB]: 9 frames, [0.5 MB-1.0 MB]: 2 frames, [1.0 MB-2.0 MB]: 27 frames, [2.0 MB-4.0 MB]: 6 frames, [4.0 MB-8.0 MB]: 19 frames
       Initial Block Size 4.0 MB
-      Current Block Size 6.4 MB
-      Peak Allocated Bytes 6.4 MB
-      Overflow Count 3
+      Current Block Size 6.8 MB
+      Peak Allocated Bytes 6.7 MB
+      Overflow Count 37
     [ALLOC_TEMP_Loading.AsyncRead]
       Initial Block Size 64.0 KB
       Current Block Size 108.0 KB
@@ -572,7 +1603,7 @@ Memory Statistics:
     [ALLOC_TEMP_Job.Worker 6]
       Initial Block Size 256.0 KB
       Current Block Size 256.0 KB
-      Peak Allocated Bytes 202 B
+      Peak Allocated Bytes 176 B
       Overflow Count 0
     [ALLOC_TEMP_Job.Worker 0]
       Initial Block Size 256.0 KB
@@ -592,7 +1623,7 @@ Memory Statistics:
     [ALLOC_TEMP_Job.Worker 5]
       Initial Block Size 256.0 KB
       Current Block Size 256.0 KB
-      Peak Allocated Bytes 202 B
+      Peak Allocated Bytes 176 B
       Overflow Count 0
     [ALLOC_TEMP_Background Job.Worker 14]
       Initial Block Size 32.0 KB
@@ -607,7 +1638,7 @@ Memory Statistics:
     [ALLOC_TEMP_Job.Worker 4]
       Initial Block Size 256.0 KB
       Current Block Size 256.0 KB
-      Peak Allocated Bytes 176 B
+      Peak Allocated Bytes 160 B
       Overflow Count 0
     [ALLOC_TEMP_ReadCacheIndex]
       Initial Block Size 64.0 KB
@@ -725,31 +1756,31 @@ Memory Statistics:
       Peak Allocated Bytes 54 B
       Overflow Count 0
 [ALLOC_DEFAULT] Dual Thread Allocator
-  Peak main deferred allocation count 43652
+  Peak main deferred allocation count 43709
     [ALLOC_BUCKET]
       Large Block size 4.0 MB
       Used Block count 1
       Peak Allocated bytes 4.0 MB
       Failed Allocations. Bucket layout:
-        16B: 5 Subsections = 5120 buckets. Failed count: 59509
-        32B: 34 Subsections = 17408 buckets. Failed count: 100138
-        48B: 49 Subsections = 16725 buckets. Failed count: 500333
-        64B: 40 Subsections = 10240 buckets. Failed count: 76020
-        80B: 85 Subsections = 17408 buckets. Failed count: 110123
-        96B: 27 Subsections = 4608 buckets. Failed count: 44382
-        112B: 10 Subsections = 1462 buckets. Failed count: 25992
-        128B: 6 Subsections = 768 buckets. Failed count: 14658
+        16B: 5 Subsections = 5120 buckets. Failed count: 296854
+        32B: 34 Subsections = 17408 buckets. Failed count: 457002
+        48B: 49 Subsections = 16725 buckets. Failed count: 366350
+        64B: 40 Subsections = 10240 buckets. Failed count: 106825
+        80B: 85 Subsections = 17408 buckets. Failed count: 230739
+        96B: 27 Subsections = 4608 buckets. Failed count: 45277
+        112B: 10 Subsections = 1462 buckets. Failed count: 49728
+        128B: 6 Subsections = 768 buckets. Failed count: 28108
     [ALLOC_DEFAULT_MAIN]
-      Peak usage frame count: [16.0 MB-32.0 MB]: 1010 frames, [32.0 MB-64.0 MB]: 7 frames, [64.0 MB-128.0 MB]: 15 frames, [128.0 MB-256.0 MB]: 37 frames, [256.0 MB-0.50 GB]: 8972 frames
+      Peak usage frame count: [16.0 MB-32.0 MB]: 969 frames, [32.0 MB-64.0 MB]: 25 frames, [64.0 MB-128.0 MB]: 45 frames, [128.0 MB-256.0 MB]: 24 frames, [256.0 MB-0.50 GB]: 26116 frames
       Requested Block Size 16.0 MB
-      Peak Block count 22
-      Peak Allocated memory 364.4 MB
+      Peak Block count 23
+      Peak Allocated memory 366.8 MB
       Peak Large allocation bytes 95.2 MB
     [ALLOC_DEFAULT_THREAD]
-      Peak usage frame count: [8.0 MB-16.0 MB]: 2064 frames, [16.0 MB-32.0 MB]: 2 frames, [32.0 MB-64.0 MB]: 14 frames, [64.0 MB-128.0 MB]: 225 frames, [128.0 MB-256.0 MB]: 7736 frames
+      Peak usage frame count: [8.0 MB-16.0 MB]: 1550 frames, [16.0 MB-32.0 MB]: 2 frames, [32.0 MB-64.0 MB]: 19 frames, [64.0 MB-128.0 MB]: 169 frames, [128.0 MB-256.0 MB]: 25439 frames
       Requested Block Size 16.0 MB
-      Peak Block count 8
-      Peak Allocated memory 129.3 MB
+      Peak Block count 7
+      Peak Allocated memory 129.9 MB
       Peak Large allocation bytes 33.8 MB
 [ALLOC_TEMP_JOB_1_FRAME]
   Initial Block Size 2.0 MB
@@ -764,7 +1795,7 @@ Memory Statistics:
 [ALLOC_TEMP_JOB_4_FRAMES (JobTemp)]
   Initial Block Size 2.0 MB
   Used Block Count 1
-  Overflow Count (too large) 2
+  Overflow Count (too large) 23
   Overflow Count (full) 0
 [ALLOC_TEMP_JOB_ASYNC (Background)]
   Initial Block Size 1.0 MB
@@ -778,25 +1809,25 @@ Memory Statistics:
       Used Block count 1
       Peak Allocated bytes 4.0 MB
       Failed Allocations. Bucket layout:
-        16B: 5 Subsections = 5120 buckets. Failed count: 59509
-        32B: 34 Subsections = 17408 buckets. Failed count: 100138
-        48B: 49 Subsections = 16725 buckets. Failed count: 500333
-        64B: 40 Subsections = 10240 buckets. Failed count: 76020
-        80B: 85 Subsections = 17408 buckets. Failed count: 110123
-        96B: 27 Subsections = 4608 buckets. Failed count: 44382
-        112B: 10 Subsections = 1462 buckets. Failed count: 25992
-        128B: 6 Subsections = 768 buckets. Failed count: 14658
+        16B: 5 Subsections = 5120 buckets. Failed count: 296854
+        32B: 34 Subsections = 17408 buckets. Failed count: 457002
+        48B: 49 Subsections = 16725 buckets. Failed count: 366350
+        64B: 40 Subsections = 10240 buckets. Failed count: 106825
+        80B: 85 Subsections = 17408 buckets. Failed count: 230739
+        96B: 27 Subsections = 4608 buckets. Failed count: 45277
+        112B: 10 Subsections = 1462 buckets. Failed count: 49728
+        128B: 6 Subsections = 768 buckets. Failed count: 28108
     [ALLOC_GFX_MAIN]
-      Peak usage frame count: [128.0 KB-256.0 KB]: 1 frames, [2.0 MB-4.0 MB]: 1084 frames, [4.0 MB-8.0 MB]: 8 frames, [8.0 MB-16.0 MB]: 876 frames, [16.0 MB-32.0 MB]: 322 frames, [32.0 MB-64.0 MB]: 4 frames, [64.0 MB-128.0 MB]: 7741 frames, [256.0 MB-0.50 GB]: 4 frames, [1.00 GB-2.00 GB]: 1 frames
+      Peak usage frame count: [128.0 KB-256.0 KB]: 1 frames, [2.0 MB-4.0 MB]: 1034 frames, [4.0 MB-8.0 MB]: 27 frames, [8.0 MB-16.0 MB]: 373 frames, [16.0 MB-32.0 MB]: 290 frames, [32.0 MB-64.0 MB]: 5 frames, [64.0 MB-128.0 MB]: 25445 frames, [256.0 MB-0.50 GB]: 3 frames, [0.50 GB-1.00 GB]: 1 frames
       Requested Block Size 16.0 MB
-      Peak Block count 22
-      Peak Allocated memory 1.05 GB
-      Peak Large allocation bytes 0.75 GB
+      Peak Block count 21
+      Peak Allocated memory 0.97 GB
+      Peak Large allocation bytes 0.68 GB
     [ALLOC_GFX_THREAD]
-      Peak usage frame count: [0-1.0 KB]: 973 frames, [1.0 KB-2.0 KB]: 838 frames, [2.0 KB-4.0 KB]: 159 frames, [4.0 KB-8.0 KB]: 5 frames, [8.0 KB-16.0 KB]: 330 frames, [32.0 KB-64.0 KB]: 88 frames, [64.0 KB-128.0 KB]: 1048 frames, [128.0 KB-256.0 KB]: 6600 frames
+      Peak usage frame count: [0-1.0 KB]: 737 frames, [1.0 KB-2.0 KB]: 520 frames, [2.0 KB-4.0 KB]: 99 frames, [8.0 KB-16.0 KB]: 384 frames, [32.0 KB-64.0 KB]: 16 frames, [64.0 KB-128.0 KB]: 394 frames, [128.0 KB-256.0 KB]: 23686 frames, [256.0 KB-0.5 MB]: 1343 frames
       Requested Block Size 16.0 MB
       Peak Block count 1
-      Peak Allocated memory 171.1 KB
+      Peak Allocated memory 282.3 KB
       Peak Large allocation bytes 0 B
 [ALLOC_CACHEOBJECTS] Dual Thread Allocator
   Peak main deferred allocation count 122
@@ -805,22 +1836,22 @@ Memory Statistics:
       Used Block count 1
       Peak Allocated bytes 4.0 MB
       Failed Allocations. Bucket layout:
-        16B: 5 Subsections = 5120 buckets. Failed count: 59509
-        32B: 34 Subsections = 17408 buckets. Failed count: 100138
-        48B: 49 Subsections = 16725 buckets. Failed count: 500333
-        64B: 40 Subsections = 10240 buckets. Failed count: 76020
-        80B: 85 Subsections = 17408 buckets. Failed count: 110123
-        96B: 27 Subsections = 4608 buckets. Failed count: 44382
-        112B: 10 Subsections = 1462 buckets. Failed count: 25992
-        128B: 6 Subsections = 768 buckets. Failed count: 14658
+        16B: 5 Subsections = 5120 buckets. Failed count: 296854
+        32B: 34 Subsections = 17408 buckets. Failed count: 457002
+        48B: 49 Subsections = 16725 buckets. Failed count: 366350
+        64B: 40 Subsections = 10240 buckets. Failed count: 106825
+        80B: 85 Subsections = 17408 buckets. Failed count: 230739
+        96B: 27 Subsections = 4608 buckets. Failed count: 45277
+        112B: 10 Subsections = 1462 buckets. Failed count: 49728
+        128B: 6 Subsections = 768 buckets. Failed count: 28108
     [ALLOC_CACHEOBJECTS_MAIN]
-      Peak usage frame count: [4.0 MB-8.0 MB]: 1 frames, [8.0 MB-16.0 MB]: 1037 frames, [16.0 MB-32.0 MB]: 9003 frames
+      Peak usage frame count: [4.0 MB-8.0 MB]: 1 frames, [8.0 MB-16.0 MB]: 1031 frames, [16.0 MB-32.0 MB]: 26147 frames
       Requested Block Size 4.0 MB
       Peak Block count 6
       Peak Allocated memory 21.5 MB
       Peak Large allocation bytes 0 B
     [ALLOC_CACHEOBJECTS_THREAD]
-      Peak usage frame count: [4.0 KB-8.0 KB]: 1030 frames, [32.0 KB-64.0 KB]: 903 frames, [64.0 KB-128.0 KB]: 8069 frames, [128.0 KB-256.0 KB]: 9 frames, [256.0 KB-0.5 MB]: 12 frames, [0.5 MB-1.0 MB]: 18 frames
+      Peak usage frame count: [4.0 KB-8.0 KB]: 1026 frames, [32.0 KB-64.0 KB]: 384 frames, [64.0 KB-128.0 KB]: 25733 frames, [128.0 KB-256.0 KB]: 6 frames, [256.0 KB-0.5 MB]: 14 frames, [0.5 MB-1.0 MB]: 16 frames
       Requested Block Size 4.0 MB
       Peak Block count 1
       Peak Allocated memory 0.6 MB
@@ -832,22 +1863,22 @@ Memory Statistics:
       Used Block count 1
       Peak Allocated bytes 4.0 MB
       Failed Allocations. Bucket layout:
-        16B: 5 Subsections = 5120 buckets. Failed count: 59509
-        32B: 34 Subsections = 17408 buckets. Failed count: 100138
-        48B: 49 Subsections = 16725 buckets. Failed count: 500333
-        64B: 40 Subsections = 10240 buckets. Failed count: 76020
-        80B: 85 Subsections = 17408 buckets. Failed count: 110123
-        96B: 27 Subsections = 4608 buckets. Failed count: 44382
-        112B: 10 Subsections = 1462 buckets. Failed count: 25992
-        128B: 6 Subsections = 768 buckets. Failed count: 14658
+        16B: 5 Subsections = 5120 buckets. Failed count: 296854
+        32B: 34 Subsections = 17408 buckets. Failed count: 457002
+        48B: 49 Subsections = 16725 buckets. Failed count: 366350
+        64B: 40 Subsections = 10240 buckets. Failed count: 106825
+        80B: 85 Subsections = 17408 buckets. Failed count: 230739
+        96B: 27 Subsections = 4608 buckets. Failed count: 45277
+        112B: 10 Subsections = 1462 buckets. Failed count: 49728
+        128B: 6 Subsections = 768 buckets. Failed count: 28108
     [ALLOC_TYPETREE_MAIN]
-      Peak usage frame count: [4.0 KB-8.0 KB]: 1 frames, [8.0 KB-16.0 KB]: 1010 frames, [32.0 KB-64.0 KB]: 7 frames, [128.0 KB-256.0 KB]: 85 frames, [256.0 KB-0.5 MB]: 12 frames, [0.5 MB-1.0 MB]: 8926 frames
+      Peak usage frame count: [4.0 KB-8.0 KB]: 1 frames, [8.0 KB-16.0 KB]: 968 frames, [32.0 KB-64.0 KB]: 25 frames, [128.0 KB-256.0 KB]: 101 frames, [256.0 KB-0.5 MB]: 12 frames, [0.5 MB-1.0 MB]: 26072 frames
       Requested Block Size 2.0 MB
       Peak Block count 1
       Peak Allocated memory 0.5 MB
       Peak Large allocation bytes 0 B
     [ALLOC_TYPETREE_THREAD]
-      Peak usage frame count: [0-1.0 KB]: 10041 frames
+      Peak usage frame count: [0-1.0 KB]: 27179 frames
       Requested Block Size 2.0 MB
       Peak Block count 0
       Peak Allocated memory 0 B
