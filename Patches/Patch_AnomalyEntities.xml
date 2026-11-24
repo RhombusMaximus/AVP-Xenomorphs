@@ -140,7 +140,21 @@
 					</value>
 				</li>
 
-			</operations>
+				<!-- 6. Entity study: race-level knowledge fields.
+			     CompStudiable falls back to RaceProps.knowledgeCategory /
+			     RaceProps.anomalyKnowledge when the comp doesn't override them.
+			     Without a category, AnomalyKnowledge returns 0 and EverStudiable
+			     is false — no Capture gizmo, no study. Public RaceProperties
+			     fields, so plain XML. -->
+			<li Class="PatchOperationAdd">
+				<xpath>Defs/ThingDef[defName="RRY_Xenomorph_FaceHugger" or defName="RRY_Xenomorph_Queen" or defName="RRY_Xenomorph_Drone" or defName="RRY_Xenomorph_Warrior" or defName="RRY_Xenomorph_Praetorian" or defName="RRY_Xenomorph_Runner" or defName="RRY_Xenomorph_Predalien" or defName="RRY_Xenomorph_Thrumbomorph" or defName="RRY_Xenomorph_Neomorph"]/race</xpath>
+				<value>
+					<knowledgeCategory MayRequire="Ludeon.RimWorld.Anomaly">Basic</knowledgeCategory>
+					<anomalyKnowledge MayRequire="Ludeon.RimWorld.Anomaly">1</anomalyKnowledge>
+				</value>
+			</li>
+
+		</operations>
 		</match>
 	</Operation>
 </Patch>
