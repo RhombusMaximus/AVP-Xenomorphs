@@ -55,11 +55,7 @@ namespace RRYautja.settings
             Scribe_Values.Look(ref this.AllowPredaliens, "AllowPredaliens", true);
             Scribe_Values.Look<float>(ref this.fachuggerRemovalFailureDeathChance, "fachuggerRemovalFailureDeathChance", 0.35f);
             Scribe_Values.Look<float>(ref this.embryoRemovalFailureDeathChance, "embryoRemovalFailureDeathChance", 0.35f);
-            Scribe_Collections.Look<string, bool>(ref this.RaceKeyPairs, "RaceKeyPairs"/*, LookMode.Def, LookMode.Value, ref RaceKeyWorkingList, ref RaceValueWorkingList*/);
-            /*
-            Scribe_Collections.Look(ref this.RaceKeyWorkingList, "RaceKeyPairs", LookMode.Def, new object[0]);
-            Scribe_Collections.Look(ref this.RaceValueWorkingList, "RaceKeyPairs", LookMode.Value);
-            */
+            Scribe_Collections.Look<string, bool>(ref this.RaceKeyPairs, "RaceKeyPairs");
         }
     }
 
@@ -147,67 +143,14 @@ namespace RRYautja.settings
             }
         }
 
-        public override string SettingsCategory() => "Aliens Vs Predator";
+        public override string SettingsCategory() => "AVP Xenomorphs";
 
+        // Rewritten 11/2026: the old decompiled layout used nested TopHalf()/RightHalf()
+        // fraction rects that overflowed the dialog at smaller window sizes and clipped
+        // the top-right settings. Everything now lives in one Listing_Standard inside a
+        // scroll view — resolution independent, nothing can be cut off.
         public override void DoSettingsWindowContents(Rect inRect)
         {
-            float numa = inRect.width;
-            float numa2 = 620f;
-
-            Rect rect = new Rect(inRect.x, inRect.y + 50, numa, numa2);
-            Widgets.Label(inRect.TopHalf().TopHalf().TopHalf().TopHalf().ContractedBy(4),
-                "Restart before playing to ensure your changes take effect.");
-
-            /*
-            Widgets.CheckboxLabeled(inRect.TopHalf().TopHalf().BottomHalf().TopHalf().ContractedBy(4), "RRY_AllowXenomorphFaction".Translate(), ref settings.AllowXenomorphFaction);
-            Widgets.CheckboxLabeled(inRect.TopHalf().TopHalf().BottomHalf().BottomHalf().LeftHalf().ContractedBy(4), "RRY_AllowHiddenInfections".Translate(), ref settings.AllowHiddenInfections);
-            Widgets.CheckboxLabeled(inRect.TopHalf().TopHalf().BottomHalf().BottomHalf().RightHalf().ContractedBy(4), "RRY_AllowPredalienImpregnations".Translate(), ref settings.AllowPredalienImpregnations);
-
-
-            this.settings.fachuggerRemovalFailureDeathChance = Widgets.HorizontalSlider(inRect.TopHalf().BottomHalf().TopHalf().TopHalf().ContractedBy(4),
-                this.settings.fachuggerRemovalFailureDeathChance, 0f, 1f, true,
-                "RRY_FacehuggerRemovalDeathChance".Translate(this.settings.fachuggerRemovalFailureDeathChance * 100)
-                , "0%", "100%");
-
-            this.settings.embryoRemovalFailureDeathChance = Widgets.HorizontalSlider(inRect.TopHalf().BottomHalf().TopHalf().BottomHalf().ContractedBy(4),
-                this.settings.embryoRemovalFailureDeathChance, 0f, 1f, true,
-                "RRY_EmbryoRemovalDeathChance".Translate(this.settings.embryoRemovalFailureDeathChance * 100)
-                , "0%", "100%");
-
-            //    Widgets.BeginScrollView(inRect.BottomHalf().BottomHalf().BottomHalf().LeftHalf().ContractedBy(4), ref );
-            */
-            Rect rectShowXenoOptions = new Rect(rect.x, rect.y + 10, numa, 160f);
-            Widgets.CheckboxLabeled(rectShowXenoOptions.TopHalf().TopHalf().LeftHalf().ContractedBy(4), "RRY_AllowXenomorphFaction".Translate(), ref settings.AllowXenomorphFaction);
-            Widgets.CheckboxLabeled(rectShowXenoOptions.TopHalf().BottomHalf().LeftHalf().ContractedBy(4), "RRY_AllowHiddenInfections".Translate(), ref settings.AllowHiddenInfections);
-            Widgets.CheckboxLabeled(rectShowXenoOptions.TopHalf().TopHalf().RightHalf().ContractedBy(4), "RRY_AllowPredalienImpregnations".Translate(), ref settings.AllowPredalienImpregnations);
-
-            Widgets.CheckboxLabeled(rectShowXenoOptions.TopHalf().BottomHalf().RightHalf().ContractedBy(4), "RRY_AllowXenoCocoonMetamorph".Translate(), ref settings.AllowXenoCocoonMetamorph);
-            Widgets.CheckboxLabeled(rectShowXenoOptions.BottomHalf().TopHalf().LeftHalf().ContractedBy(4), "RRY_AllowXenoEggMetamorph".Translate(), ref settings.AllowXenoEggMetamorph);
-            Widgets.CheckboxLabeled(rectShowXenoOptions.BottomHalf().BottomHalf().LeftHalf().ContractedBy(4), "RRY_AllowNonHumanlikeHosts".Translate(), ref settings.AllowNonHumanlikeHosts);
-            TextFieldNumericLabeled<float>(rectShowXenoOptions.BottomHalf().TopHalf().RightHalf().ContractedBy(4), "RRY_FacehuggerRemovalDeathChance".Translate(this.settings.fachuggerRemovalFailureDeathChance * 100), ref settings.fachuggerRemovalFailureDeathChance, ref settings.fachuggerRemovalFailureDeathChanceBuffer, 0f, 1f);
-
-            TextFieldNumericLabeled<float>(rectShowXenoOptions.BottomHalf().BottomHalf().RightHalf().ContractedBy(4), "RRY_EmbryoRemovalDeathChance".Translate(this.settings.embryoRemovalFailureDeathChance * 100), ref settings.embryoRemovalFailureDeathChance, ref settings.embryoRemovalFailureDeathChanceBuffer, 0f, 1f);
-
-            // Debug toggle — placed below the spawning options scroll view on the right side
-            Rect spawningScroll = inRect.BottomHalf().RightHalf().ContractedBy(4);
-            float debugY = spawningScroll.yMin + 100f; // below 3 checkboxes + spacing
-            Rect debugRect = new Rect(spawningScroll.x, debugY, spawningScroll.width, 22f);
-            Widgets.CheckboxLabeled(debugRect, "Debug Mode (extra logging)", ref settings.DebugMode);
-
-            // Faction selectability toggle
-            Rect factionRect = new Rect(debugRect.x, debugRect.yMax + 4, debugRect.width, 22f);
-            Widgets.CheckboxLabeled(factionRect, "Faction Selectable (WIP - not yet working)", ref settings.FactionSelectable);
-            if (settings.FactionSelectable)
-            {
-                Rect warnRect = new Rect(factionRect.x + 20, factionRect.yMax + 2, factionRect.width - 20, 18f);
-                GUI.color = Color.yellow;
-                Widgets.Label(warnRect, "Requires new game to take effect.");
-                GUI.color = Color.white;
-            }
-
-
-            float x = inRect.x;
-            float num2 = inRect.y;
             if (settings.RaceKeyPairs == null)
             {
                 settings.RaceKeyPairs = new Dictionary<string, bool>();
@@ -219,132 +162,97 @@ namespace RRYautja.settings
                     }
                 }
             }
-            int potentialhostcount = XenomorphHostSystem.AllRaces.Where(z => z.isPotentialHost(true)).Count();
+
+            List<ThingDef> potentialHosts = XenomorphHostSystem.AllRaces.Where(z => z.isPotentialHost(true)).OrderBy(xy => xy.label).ToList();
+            List<ThingDef> nonHosts = XenomorphHostSystem.AllRaces.Where(z => !z.isPotentialHost(true)).OrderBy(xy => xy.label).ToList();
             int enabledhostcount = XenomorphHostSystem.AllRaces.Where(z => z.isPotentialHost()).Count();
-            int unsuitablehostcount = XenomorphHostSystem.AllRaces.Where(z => !z.isPotentialHost(true)).Count();
-            Widgets.Label(inRect.TopHalf().BottomHalf().BottomHalf().BottomHalf().LeftHalf().LeftHalf().ContractedBy(4), "RRY_HostKinds".Translate(potentialhostcount, enabledhostcount));
-            Rect hostRect = new Rect(inRect.x, inRect.y, inRect.BottomHalf().LeftHalf().LeftHalf().ContractedBy(4).width - 20, potentialhostcount * 20f);
-            Widgets.BeginScrollView(inRect.BottomHalf().LeftHalf().LeftHalf().ContractedBy(4), ref this.pos, hostRect, true);
-            foreach (ThingDef td in XenomorphHostSystem.AllRaces.Where(z => z.isPotentialHost(true)).OrderBy(xy => xy.label))
+
+            float row = 30f;
+            float totalHeight = row + 6f                    // header
+                + 6 * row                                  // main toggles
+                + 2 * 38f                                  // death chance sliders
+                + 2 * row                                  // debug + faction toggles
+                + (settings.FactionSelectable ? 22f : 0f)   // warning line
+                + 8f
+                + row + potentialHosts.Count * 24f          // host race list
+                + 8f
+                + row + nonHosts.Count * 44f                // non-host race list
+                + 8f
+                + row + 3 * row                             // spawning options
+                + 16f;
+
+            Rect outer = inRect.ContractedBy(4f);
+            Rect content = new Rect(0f, 0f, Mathf.Max(outer.width - 24f, 300f), totalHeight);
+            Widgets.BeginScrollView(outer, ref this.pos, content, false);
+            Listing_Standard ls = new Listing_Standard();
+            ls.Begin(content);
+            ls.ColumnWidth = content.width;
+
+            ls.Label("Restart before playing to ensure your changes take effect.");
+            ls.Gap(8f);
+
+            ls.CheckboxLabeled("RRY_AllowXenomorphFaction".Translate(), ref settings.AllowXenomorphFaction, null);
+            ls.CheckboxLabeled("RRY_AllowHiddenInfections".Translate(), ref settings.AllowHiddenInfections, null);
+            ls.CheckboxLabeled("RRY_AllowPredalienImpregnations".Translate(), ref settings.AllowPredalienImpregnations, null);
+            ls.CheckboxLabeled("RRY_AllowXenoCocoonMetamorph".Translate(), ref settings.AllowXenoCocoonMetamorph, null);
+            ls.CheckboxLabeled("RRY_AllowXenoEggMetamorph".Translate(), ref settings.AllowXenoEggMetamorph, null);
+            ls.CheckboxLabeled("RRY_AllowNonHumanlikeHosts".Translate(), ref settings.AllowNonHumanlikeHosts, null);
+            ls.Gap(8f);
+
+            Rect sliderRect = ls.GetRect(38f);
+            settings.fachuggerRemovalFailureDeathChance = Widgets.HorizontalSlider(sliderRect,
+                settings.fachuggerRemovalFailureDeathChance, 0f, 1f, true,
+                "RRY_FacehuggerRemovalDeathChance".Translate(settings.fachuggerRemovalFailureDeathChance * 100),
+                "0%", "100%");
+            sliderRect = ls.GetRect(38f);
+            settings.embryoRemovalFailureDeathChance = Widgets.HorizontalSlider(sliderRect,
+                settings.embryoRemovalFailureDeathChance, 0f, 1f, true,
+                "RRY_EmbryoRemovalDeathChance".Translate(settings.embryoRemovalFailureDeathChance * 100),
+                "0%", "100%");
+            ls.Gap(8f);
+
+            ls.CheckboxLabeled("Debug Mode (extra logging)", ref settings.DebugMode, null);
+            ls.CheckboxLabeled("Faction Selectable (WIP - not yet working)", ref settings.FactionSelectable, null);
+            if (settings.FactionSelectable)
             {
-                string text = td.LabelCap;
-                /*
-                text += " possible Xenoforms:";
-                foreach (var item in pkd.resultingXenomorph())
-                {
-                    text += " "+item.LabelCap;
-                }
-                */
-                settings.RaceKeyPairs.TryGetValue(td.defName, out bool setting);
-                Widgets.CheckboxLabeled(new Rect(x, num2, hostRect.width, 20f), text, ref setting, (td == ThingDefOf.Human));
-                settings.RaceKeyPairs.SetOrAdd(td.defName, setting || (td == ThingDefOf.Human));
-                num2 += 20f;
+                Color c = GUI.color;
+                GUI.color = Color.yellow;
+                Rect warn = ls.GetRect(22f);
+                warn.xMin += 20f;
+                Widgets.Label(warn, "Requires new game to take effect.");
+                GUI.color = c;
             }
-            Widgets.EndScrollView();
-            
-            float num3 = inRect.y;
-            Widgets.Label(inRect.TopHalf().BottomHalf().BottomHalf().BottomHalf().LeftHalf().RightHalf().ContractedBy(4), "RRY_NonHostKinds".Translate(unsuitablehostcount));
-            Rect nothostRect = new Rect(inRect.x, inRect.y, inRect.BottomHalf().LeftHalf().RightHalf().ContractedBy(4).width - 20, unsuitablehostcount * 40f);
-            Widgets.BeginScrollView(inRect.BottomHalf().LeftHalf().RightHalf().ContractedBy(4), ref this.pos2, nothostRect, true);
-            foreach (ThingDef td in XenomorphHostSystem.AllRaces.Where(z => !z.isPotentialHost(true)).OrderBy(xy => xy.label))
+            ls.Gap(12f);
+
+            ls.Label("RRY_HostKinds".Translate(potentialHosts.Count, enabledhostcount));
+            foreach (ThingDef td in potentialHosts)
+            {
+                settings.RaceKeyPairs.TryGetValue(td.defName, out bool setting);
+                Rect r = ls.GetRect(24f);
+                bool disabled = td == ThingDefOf.Human;
+                Widgets.CheckboxLabeled(r, td.LabelCap, ref setting, disabled);
+                settings.RaceKeyPairs.SetOrAdd(td.defName, setting || disabled);
+            }
+            ls.Gap(12f);
+
+            ls.Label("RRY_NonHostKinds".Translate(nonHosts.Count));
+            foreach (ThingDef td in nonHosts)
             {
                 td.isPotentialHost(out string fr, true);
-                string text = td.LabelCap + ":\n" + fr;
-                Widgets.Label(new Rect(x, num3, nothostRect.width, 40f), text);
-                num3 += 40f;
+                Rect r = ls.GetRect(44f);
+                Widgets.Label(r, td.LabelCap + ":\n" + fr);
             }
-            Widgets.EndScrollView();
-            
+            ls.Gap(12f);
 
-            float width = 400f;
-            float num4 = inRect.y;
-            Widgets.Label(inRect.TopHalf().BottomHalf().BottomHalf().BottomHalf().RightHalf().ContractedBy(4), "RRY_XenomorphSpawningOptions".Translate());
-            Widgets.BeginScrollView(inRect.BottomHalf().RightHalf().ContractedBy(4), ref this.pos3, new Rect(inRect.x, inRect.y, width, 2 * 22f), true);
+            ls.Label("RRY_XenomorphSpawningOptions".Translate());
+            ls.CheckboxLabeled("RRY_PredalienSpawning".Translate(), ref settings.AllowPredaliens, null);
+            ls.CheckboxLabeled("RRY_ThrumbomorphSpawning".Translate(), ref settings.AllowThrumbomorphs, null);
+            ls.CheckboxLabeled("RRY_NeomorphSpawning".Translate(), ref settings.AllowNeomorphs, null);
 
-            Widgets.CheckboxLabeled(new Rect(x, num4, width, 32f), "RRY_PredalienSpawning".Translate(), ref settings.AllowPredaliens);
-            num4 += 22f;
-            Widgets.CheckboxLabeled(new Rect(x, num4, width, 32f), "RRY_ThrumbomorphSpawning".Translate(), ref settings.AllowThrumbomorphs);
-            num4 += 22f;
-            Widgets.CheckboxLabeled(new Rect(x, num4, width, 32f), "RRY_NeomorphSpawning".Translate(), ref settings.AllowNeomorphs);
-            num4 += 22f;
+            ls.End();
             Widgets.EndScrollView();
 
-
-
-            /* 
-        //    Widgets.CheckboxLabeled(inRect.TopHalf().TopHalf().BottomHalf().TopHalf().ContractedBy(4), "setting3: Desc", ref settings.setting3);
-        //    Widgets.CheckboxLabeled(inRect.TopHalf().TopHalf().BottomHalf().BottomHalf().ContractedBy(4), "setting4: Desc", ref settings.setting4);
-
-            Widgets.CheckboxLabeled(inRect.TopHalf().BottomHalf().TopHalf().TopHalf().ContractedBy(4), "setting5: Desc", ref settings.setting5);
-            Widgets.CheckboxLabeled(inRect.TopHalf().BottomHalf().TopHalf().BottomHalf().ContractedBy(4), "setting6: Desc", ref settings.setting6);
-            
-            Widgets.CheckboxLabeled(inRect.TopHalf().BottomHalf().BottomHalf().TopHalf().ContractedBy(4), "setting7: Desc", ref settings.setting7);
-            Widgets.CheckboxLabeled(inRect.TopHalf().BottomHalf().BottomHalf().BottomHalf().ContractedBy(4), "setting8: Desc", ref settings.setting8);
-            */
             this.settings.Write();
-        }
-
-        // Token: 0x06005BBA RID: 23482 RVA: 0x0029DFF0 File Offset: 0x0029C3F0
-        public static void TextFieldNumericLabeled<T>(Rect rect, string label, ref T val, ref string buffer, float min = 0f, float max = 1E+09f) where T : struct
-        {
-            Rect rect2 = rect.LeftPart(0.85f);
-            Rect rect3 = rect.RightPart(0.10f);
-            TextAnchor anchor = Text.Anchor;
-            Text.Anchor = TextAnchor.MiddleRight;
-            Widgets.Label(rect2, label);
-            Text.Anchor = anchor;
-            Widgets.TextFieldNumeric<T>(rect3, ref val, ref buffer, min, max);
-        }
-
-        public static void CheckboxLabeled(Rect rect, string label, ref bool checkOn, bool disabled = false, Texture2D texChecked = null, Texture2D texUnchecked = null, bool placeCheckboxNearText = false)
-        {
-            TextAnchor anchor = Text.Anchor;
-            Text.Anchor = TextAnchor.MiddleLeft;
-            if (placeCheckboxNearText)
-            {
-                rect.width = Mathf.Min(rect.width, Text.CalcSize(label).x + 24f + 10f);
-            }
-            Rect rect2 = rect.LeftPart(0.85f);
-            Rect rect3 = rect.RightPart(0.10f);
-            Widgets.Label(rect2, label);
-            if (!disabled && Widgets.ButtonInvisible(rect, false))
-            {
-                checkOn = !checkOn;
-                if (checkOn)
-                {
-                    SoundDefOf.Checkbox_TurnedOn.PlayOneShotOnCamera(null);
-                }
-                else
-                {
-                    SoundDefOf.Checkbox_TurnedOff.PlayOneShotOnCamera(null);
-                }
-            }
-            CheckboxDraw(rect.x + rect.width - 24f, rect.y, checkOn, disabled, 24f, null, null);
-            Text.Anchor = anchor;
-        }
-
-        private static void CheckboxDraw(float x, float y, bool active, bool disabled, float size = 24f, Texture2D texChecked = null, Texture2D texUnchecked = null)
-        {
-            Color color = GUI.color;
-            if (disabled)
-            {
-                GUI.color = InactiveColor;
-            }
-            Texture2D image;
-            if (active)
-            {
-                image = ((!(texChecked != null)) ? Widgets.CheckboxOnTex : texChecked);
-            }
-            else
-            {
-                image = ((!(texUnchecked != null)) ? Widgets.CheckboxOffTex : texUnchecked);
-            }
-            Rect position = new Rect(x, y, size, size);
-            GUI.DrawTexture(position, image);
-            if (disabled)
-            {
-                GUI.color = color;
-            }
         }
 
         public override void WriteSettings()
@@ -356,10 +264,7 @@ namespace RRYautja.settings
             }
         }
 
-        private static readonly Color InactiveColor = new Color(0.37f, 0.37f, 0.37f, 0.8f);
         private Vector2 pos = new Vector2(0f, 0f);
-        private Vector2 pos2 = new Vector2(0f, 0f);
-        private Vector2 pos3 = new Vector2(0f, 0f);
 
     }
     

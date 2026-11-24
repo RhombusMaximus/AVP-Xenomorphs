@@ -196,3 +196,5 @@ Lots of other small changes and tweaks since the last version I've forgotten abo
 - GoodwillSituationWorker_SameIdeo.GetNaturalGoodwillOffset NRE'd every goodwill recalc against the ideos-less Xenomorph faction (184 hits this session) — same family as the MemeCompatibility guard; prefix added.
 
 11/24/2026 (2) — diagnostic: sampling profiler shipped. With the mod's DebugMode setting on, the main thread's stack is sampled ~40x/s and a [Perf] report (tick/frame avg+worst, slow-tick count, top 25 hot stacks) is logged every ~45s. 1.6 build samples stacks; 1.7 build reports timing only. All measurements so far (zone placement, creep expansion, previous NRE storms) came back clean — the remaining zone-over-tunnel lag needs attribution.
+
+11/24/2026 (3) — settings dialog rewritten: the decompiled layout used nested TopHalf()/RightHalf() fraction rects that overflowed the dialog at smaller window sizes, clipping the top-right settings. Replaced with a single Listing_Standard in a scroll view (resolution independent); death-chance values are sliders now; category renamed to "AVP Xenomorphs".
