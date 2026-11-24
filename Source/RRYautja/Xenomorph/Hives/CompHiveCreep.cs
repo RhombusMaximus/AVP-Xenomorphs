@@ -79,6 +79,8 @@ namespace RimWorld
         // Token: 0x060029C1 RID: 10689 RVA: 0x0013C434 File Offset: 0x0013A834
         private void TryExpandHive()
         {
+            System.Diagnostics.Stopwatch sw = System.Diagnostics.Stopwatch.StartNew();
+
             if (this.snowNoise == null)
             {
                 this.snowNoise = new Perlin(5.074999999701976776, 2.0, 0.5, 5, Rand.Range(0, 651431), QualityMode.Medium); //new Perlin(0.054999999701976776, 2.0, 0.5, 5, Rand.Range(0, 651431), QualityMode.Medium);
@@ -148,18 +150,22 @@ namespace RimWorld
                                 num2 = 0.1f;
                             }
 
-                            if (this.parent.Map.GetComponent<MapComponent_HiveGrid>().GetDepth(intVec) <= num2)
-                            {
-                                //    Log.Message(string.Format("3 {0} d", i));
-                                float lengthHorizontal = (intVec - this.parent.Position).LengthHorizontal;
-                                float num3 = 1f - lengthHorizontal / this.hiveRadius;
-                                this.parent.Map.GetComponent<MapComponent_HiveGrid>().AddDepth(intVec, num3 * this.Props.addAmount * num2);
-                                //    Log.Message(string.Format("3 {0} e", i));
-                            }
-
+                        if (this.parent.Map.GetComponent<MapComponent_HiveGrid>().GetDepth(intVec) <= num2)
+                        {
+                            //    Log.Message(string.Format("3 {0} d", i));
+                            float lengthHorizontal = (intVec - this.parent.Position).LengthHorizontal;
+                            float num3 = 1f - lengthHorizontal / this.hiveRadius;
+                            this.parent.Map.GetComponent<MapComponent_HiveGrid>().AddDepth(intVec, num3 * this.Props.addAmount * num2);
+                            //    Log.Message(string.Format("3 {0} e", i));
+                        }
                         }
                     }
                 }
+            }
+            sw.Stop();
+            if (sw.ElapsedMilliseconds > 50)
+            {
+                Verse.Log.Message($"[AVP Xenomorphs] [Perf] hive creep expansion at {this.parent.Position} took {sw.ElapsedMilliseconds} ms (radius {this.hiveRadius:0.#}, hive-area lag investigation)");
             }
         }
 
