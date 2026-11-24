@@ -114,7 +114,34 @@ namespace RimWorld
                 {
                     return;
                 }
-                if (!hive.GetDirectlyHeldThings().Any(x => x.def == XenomorphRacesDefOf.RRY_Xenomorph_Queen && x.xenomorph().HiveLoc == this.parent.Position))
+                // PERF: this check used to scan the map-wide held-pawn container
+                // (MapComponent_HiveGrid.innerContainer) with LINQ on EVERY tick of
+                // EVERY hive-like thing — measured 2+ seconds per minute of game time
+                // on maps with populated hives. Cache the result for 250 ticks.
+                int gameTick = Find.TickManager.TicksGame;
+                if (gameTick - this.queenCheckTick >= 250)
+                {
+                    this.queenCheckTick = gameTick;
+                    this.cachedQueenHere = false;
+                    ThingOwner held = hive.GetDirectlyHeldThings();
+                    if (held != null)
+                    {
+                        for (int i = 0; i < held.Count; i++)
+                        {
+                            Thing t = held[i];
+                            if (t != null && t.def == XenomorphRacesDefOf.RRY_Xenomorph_Queen)
+                            {
+                                RRYautja.Comp_Xenomorph comp = t.TryGetComp<RRYautja.Comp_Xenomorph>();
+                                if (comp != null && comp.HiveLoc == this.parent.Position)
+                                {
+                                    this.cachedQueenHere = true;
+                                    break;
+                                }
+                            }
+                        }
+                    }
+                }
+                if (!this.cachedQueenHere)
                 {
                     return;
                 }
@@ -277,5 +304,7 @@ namespace RimWorld
 
         // Token: 0x04001735 RID: 5941
         private int ticksUntilSpawn;
+        private int queenCheckTick = -9999;
+        private bool cachedQueenHere;
     }
 }
