@@ -42,7 +42,7 @@ namespace RimWorld
             return null;
         }
 
-        // Token: 0x06000420 RID: 1056 RVA: 0x0002CD30 File Offset: 0x0002B130
+        // Token: 0x06004220 RID: 1056 RVA: 0x0022CD30 File Offset: 0x0022B130
         protected override IntVec3 GetWanderRoot(Pawn pawn)
         {
             if (pawn.isXenomorph(out Comp_Xenomorph xenomorph))
@@ -78,6 +78,28 @@ namespace RimWorld
                 }
             }
             return pawn.Position;
+        }
+
+        // Queens sit directly on top of their hive opening when idle. This giver
+        // sits low in the think tree (after fight/kidnap/egglaying), so a busy
+        // queen never comes here.
+        protected override Job TryGiveJob(Pawn pawn)
+        {
+            if (pawn != null && pawn.kindDef == XenomorphDefOf.RRY_Xenomorph_Queen && pawn.isXenomorph(out Comp_Xenomorph comp) && pawn.Map != null)
+            {
+                IntVec3 hiveLoc = new IntVec3(comp.HiveX, 0, comp.HiveZ);
+                if (hiveLoc.IsValid && hiveLoc.InBounds(pawn.Map) && hiveLoc != IntVec3.Zero)
+                {
+                    if (hiveLoc != pawn.Position && pawn.CanReach(hiveLoc, PathEndMode.OnCell, Danger.Deadly))
+                    {
+                        return new Job(JobDefOf.Goto, hiveLoc);
+                    }
+                    // Already on the opening: stand there for a while.
+                    Job wait = new Job(JobDefOf.Wait, 500);
+                    return wait;
+                }
+            }
+            return base.TryGiveJob(pawn);
         }
 	}
 }

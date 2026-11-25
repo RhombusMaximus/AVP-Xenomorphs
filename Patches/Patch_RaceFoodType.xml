@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Patch>
+	<!-- The xenomorph race defs lost their foodType at some point, which silently
+	     removed the food need entirely (RaceProperties.EatsFood => foodType != None):
+	     chestbursters could never be hungry, so they never ate — corpses included.
+	     CarnivoreAnimalStrict = Meat | Corpse: xeno diet is flesh and corpses.
+	     Facehuggers deliberately excluded (they do not eat). -->
+	<Operation Class="PatchOperationSequence">
+		<operations>
+			<li Class="PatchOperationAdd">
+				<xpath>Defs/ThingDef[defName="RRY_Xenomorph_Queen" or defName="RRY_Xenomorph_Drone" or defName="RRY_Xenomorph_Warrior" or defName="RRY_Xenomorph_Praetorian" or defName="RRY_Xenomorph_Runner" or defName="RRY_Xenomorph_Predalien" or defName="RRY_Xenomorph_Thrumbomorph" or defName="RRY_Xenomorph_Neomorph"]/race</xpath>
+				<value>
+					<foodType>CarnivoreAnimalStrict</foodType>
+				</value>
+			</li>
+		</operations>
+	</Operation>
+</Patch>

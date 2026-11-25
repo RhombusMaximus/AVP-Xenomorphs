@@ -85,7 +85,7 @@ namespace RimWorld
             {
                 return null;
             }
-            if (thing.GetType() != typeof(Corpse))
+            if (!(thing is Corpse))
             {
                 return null;
             }
@@ -98,7 +98,8 @@ namespace RimWorld
                 };
             }
             float nutrition = FoodUtility.GetNutrition(pawn, thing, thingDef);
-            return new Job(XenomorphDefOf.RRY_Neomorph_Ingest, thing)
+            // Use the XENOMORPH ingest driver, not the neomorph one.
+            return new Job(XenomorphDefOf.RRY_Xenomorph_Ingest, thing)
             {
                 count = FoodUtility.WillIngestStackCountOf(pawn, thingDef, nutrition)
             };

@@ -172,16 +172,23 @@
         <!-- Conditional Fully Grown -->
         <li Class="ThinkNode_ConditionalFullyGrown">
           <subNodes>
-				
-			<!-- Drone Gather Infectable Hunting -->
-			<li Class="ThinkNode_ConditionalPawnKind">
-			  <pawnKind>RRY_Xenomorph_Drone</pawnKind>
+
+			<!-- Host acquisition: ALL castes (not just drones) grab downed hosts
+			     near the hive and cocoon them. -->
+			<li Class="ThinkNode_ConditionalNotPawnKind">
+			  <pawnKind>RRY_Xenomorph_FaceHugger</pawnKind>
 			  <subNodes>
-					<li Class="ThinkNode_ConditionalAnyDownedInfectableSpawnedNearby">
-					  <subNodes>
-						<li Class="JobGiver_XenosKidnap" />
-					  </subNodes>
+				<li Class="ThinkNode_ConditionalAnyDownedInfectableSpawnedNearby">
+				  <subNodes>
+					<li Class="JobGiver_XenosKidnap">
+					  <HuntingRange>40</HuntingRange>
+					  <allowHosts>true</allowHosts>
 					</li>
+					<li Class="JobGiver_Xenomorph_Cocoon">
+					  <MaxRange>40</MaxRange>
+					</li>
+				  </subNodes>
+				</li>
 			  </subNodes>
 			</li>
           </subNodes>

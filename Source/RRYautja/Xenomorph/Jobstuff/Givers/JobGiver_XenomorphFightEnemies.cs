@@ -17,7 +17,13 @@ namespace RimWorld
             bool meleeRange = (pawn.Position.InHorDistOf(enemyTarget.Position, forceMeleeRange));
             Pawn tPawn = enemyTarget as Pawn;
             bool targetPawn = (tPawn != null && tPawn.Awake())|| tPawn==null;
-            bool allowRanged = (Rand.Chance(0.25f) && targetPawn && (canReach && !meleeRange)) || !canReach;
+            // Spitters (pawns with a ranged weapon, e.g. the acid spit) strongly
+            // prefer their ranged verb when the target is beyond melee reach —
+            // the flat 25% chance made armed spitters charge into melee most of
+            // the time.
+            bool hasRangedWeapon = pawn.equipment != null && pawn.equipment.Primary != null && pawn.equipment.Primary.def.IsRangedWeapon;
+            float rangedChance = hasRangedWeapon ? 0.75f : 0.25f;
+            bool allowRanged = (Rand.Chance(rangedChance) && targetPawn && (canReach && !meleeRange)) || !canReach;
             Verb verb = allowRanged ? pawn.TryGetAttackVerb(enemyTarget, allowManualCastWeapons) : pawn.meleeVerbs.TryGetMeleeVerb(enemyTarget);
             if (verb == null)
             {
