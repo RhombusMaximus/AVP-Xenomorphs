@@ -40,9 +40,15 @@
         <!-- Conditional Not Fully Grown -->
         <li Class="ThinkNode_ConditionalNotGrown">
           <subNodes>
-			<li Class="JobGiver_Xenomorph_GetFood" />
-			<li Class="JobGiver_Xenomorph_GetFood"> 
+			<li Class="JobGiver_Xenomorph_GetFood">
+			  <!-- Young xenos are ravenous — eat at Hungry, not only when Starving
+			       (chestbursters grow up before ever reaching Starving, so they
+			       never ate). -->
+			  <minCategory>Hungry</minCategory>
+			</li>
+			<li class="JobGiver_Xenomorph_GetFood">
 			  <forceScanWholeMap>false</forceScanWholeMap>
+			  <minCategory>UrgentlyHungry</minCategory>
 			</li>
 			<li Class="JobGiver_WanderHiveLike">
 				<maxDanger>Deadly</maxDanger>

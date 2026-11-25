@@ -85,6 +85,10 @@ namespace RimWorld
             {
                 Pawn p = (Pawn)x;
                 if (p == null) return false;
+                // Don't dogpile one victim: if another hugger (e.g. a royal) has
+                // already committed to this pawn, its attack job holds a
+                // reservation — pick someone else.
+                if (!pawn.CanReserve(p)) return false;
                 if (pawn.jobs.debugLog) pawn.jobs.DebugLogEvent(string.Format("{0}\nisInfectablePawn: {1}, Alive: {2}", pawn.LabelShortCap, p.isPotentialHost(), !p.Dead));
                 return p.isPotentialHost();
             };

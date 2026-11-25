@@ -22,17 +22,31 @@ namespace RRYautja
                 if (variants == null)
                 {
                     var list = new System.Collections.Generic.List<Graphic>();
-                    foreach (var s in Suffixes)
+                    // Prefer the VANILLA insect creep texture (InsectSludge terrain,
+                    // the sludge around vanilla infestations) so hive floors match
+                    // vanilla hive visuals. Fall back to the mod's own splat art
+                    // if the vanilla texture is unavailable.
+                    string vanillaPath = RimWorld.TerrainDefOf.InsectSludge?.texturePath;
+                    if (!vanillaPath.NullOrEmpty() && ContentFinder<Texture2D>.Get(vanillaPath, false) != null)
                     {
-                        string path = $"Things/Filth/XenomorphSlime_{s}";
-                        if (ContentFinder<Texture2D>.Get(path, false) != null)
+                        list.Add(GraphicDatabase.Get<Graphic_Single>(
+                            vanillaPath, ShaderDatabase.Transparent, Vector2.one, Color.white));
+                        Log.Message($"[AVP Xenomorphs] Filth_XenomorphSlime: using vanilla insect sludge texture ({vanillaPath})");
+                    }
+                    else
+                    {
+                        foreach (var s in Suffixes)
                         {
-                            list.Add(GraphicDatabase.Get<Graphic_Single>(
-                                path, ShaderDatabase.Transparent, Vector2.one, Color.white));
+                            string path = $"Things/Filth/XenomorphSlime_{s}";
+                            if (ContentFinder<Texture2D>.Get(path, false) != null)
+                            {
+                                list.Add(GraphicDatabase.Get<Graphic_Single>(
+                                    path, ShaderDatabase.Transparent, Vector2.one, Color.white));
+                            }
                         }
+                        Log.Message($"[AVP Xenomorphs] Filth_XenomorphSlime: {list.Count} texture variants loaded");
                     }
                     variants = list.ToArray();
-                    Log.Message($"[AVP Xenomorphs] Filth_XenomorphSlime: {variants.Length} texture variants loaded");
                 }
                 return variants;
             }

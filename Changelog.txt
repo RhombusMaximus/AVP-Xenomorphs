@@ -214,3 +214,8 @@ Lots of other small changes and tweaks since the last version I've forgotten abo
 - SPITTERS NEVER SPAT: JobGiver_XenomorphFightEnemies picked the ranged verb with a flat 25% chance even when the pawn carried the acid spit gun — armed pawns now use ranged 75% of the time when beyond melee reach.
 - IDLE XENOS IGNORED DOWNED HOSTS: only drones had a kidnap giver in the main think tree (and no cocoon giver at all). All castes (except facehuggers) now kidnap and cocoon downed reachable hosts near the hive, 40-tile range.
 - QUEENS now sit directly on top of their hive opening when idle (JobGiver_WanderHiveLike override: Goto hive opening, then Wait).
+
+11/25/2026 (3) —
+- CHESTBURSTERS STILL NEVER ATE: the young-xeno food givers required HungerCategory.Starving — chestbursters mature before reaching starving. Not-grown tree now eats at Hungry (second giver UrgentlyHungry).
+- HUGGERS DOGPILED VICTIMS: a regular hugger could steal a pawn already claimed by a royal/praetorian hugger (the royal's attach roll failed, the regular's succeeded). Hunt validator now respects target reservations — one hugger per victim.
+- HIVE SLIME now uses the vanilla InsectSludge terrain texture (the standard insect creep) instead of the custom biomechanical splats, so hive floors match vanilla infestations; falls back to the old art if unavailable.
